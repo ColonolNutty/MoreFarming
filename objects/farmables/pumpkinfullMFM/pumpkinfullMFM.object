@@ -1,0 +1,41 @@
+{
+  "objectName" : "pumpkinfullMFM",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "description" : "A friendly, orange pumpkin.",
+  "category" : "farmable",
+  "shortdescription" : "Fully Grown Pumpkin",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 35,
+
+  "apexDescription" : "I could cut out eyes on these and scare people. Heh.",
+  "avianDescription" : "The best part of this plant are its seeds.",
+  "floranDescription" : "Floran think human lie about tasssste.",
+  "glitchDescription" : "Suspicious. Why do I have the urge to cut up this plant?",
+  "humanDescription" : "You could eat these, or decorate your room with them. I'm going for the second option.",
+  "hylotlDescription" : "Other people like to add spices to them and make pies.",
+  "novakidDescription" : "Is that a newborn? No, wait, that's a plant...",
+  
+  "inventoryIcon" : "pumpkinfullMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pumpkinfullMFM.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    {
+      "alts" : 5,
+      "harvestPool" : "pumpkinfullMFMHarvest"
+    }
+  ],
+  "learnBlueprintsOnPickup" : [ "pumpkinblockMFM" ]
+}

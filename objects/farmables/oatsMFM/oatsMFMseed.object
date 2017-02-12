@@ -1,0 +1,44 @@
+{
+  "objectName" : "oatsMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "Oats - a staple crop!",
+  "shortdescription" : "Oat Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+
+  "apexDescription" : "Oats are unpleasant on their own, but can be used to make banana bread.",
+  "avianDescription" : "Delicious on its own, or when used to make breadcrumbs.",
+  "floranDescription" : "Wheat has earsss. Floran pull off earsss.",
+  "glitchDescription" : "Scientific. The Glitch wonder if all possible uses for oats have been discovered yet.",
+  "humanDescription" : "Oats. Maybe it's time to bake some fresh bread.",
+  "hylotlDescription" : "On land, wheat has many uses. Underwater, almost none.",
+
+  "inventoryIcon" : "oatsMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "oatsMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [55, 65]
+    },
+    {
+      "duration" : [55, 65]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "oatsMFMHarvest"
+    }
+  ],
+  "maxImmersion" : 0.25
+}

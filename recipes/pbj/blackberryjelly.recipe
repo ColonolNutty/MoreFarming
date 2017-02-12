@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "blackberryPBJ", "count" :5 },
+    { "item" : "glassmaterial", "count" :1 }
+  ],
+  "output" : {
+    "item" : "blackberryjellyPBJ",
+    "count" : 1
+  },
+  "groups" : [ "kitchen", "consumables", "foodhealing", "PB+J" ]
+}

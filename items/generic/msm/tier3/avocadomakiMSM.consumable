@@ -1,0 +1,28 @@
+{
+  "itemName" : "avocadomakiMSM",
+  "rarity" : "Uncommon",
+  "price" : 550,
+  "inventoryIcon" : "avocadomakiMSM.png",
+  "description" : "Avocado Maki.",
+  "shortdescription" : "Avocado Maki",
+  "handPosition" : [12, -6],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxenergyboost40",
+        "duration" : 105
+    }
+  ] ],
+	"category" : "preparedFood",
+	"foodValue" : 25,
+	"tooltipKind" : "food",
+	"builder" : "/items/buildscripts/buildfood.lua",
+	"maxStack" : 1000,
+	"itemAgingScripts" : ["/scripts/items/rotting.lua"],
+	"rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]}

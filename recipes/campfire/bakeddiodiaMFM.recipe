@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "diodia", "count" : 1 }
+  ],
+  "output" : { "item" : "bakeddiodiaMFM", "count" : 1 },
+  "groups" : [ "cooking", "consumables", "all" ]
+}

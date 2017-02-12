@@ -1,0 +1,10 @@
+{
+  "itemName" : "bakingpowderMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "bakingpowderMFM.png",
+  "description" : "Useful for baking!",
+  "shortdescription" : "Baking Powder",
+  "price" : 20,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000
+}

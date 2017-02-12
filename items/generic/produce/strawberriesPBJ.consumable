@@ -1,0 +1,21 @@
+{
+  "itemName" : "strawberriesPBJ",
+  "rarity" : "Common",
+  "inventoryIcon" : "strawberriesPBJ.png",
+  "description" : "Sweet and juicy!",
+  "shortdescription" : "Strawberries",
+  "handPosition" : [8, 0],
+  "price" : 10,
+  "eventCategory" : "eventCrop",
+  "category" : "food",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "strawberryjellyPBJ" ]
+}

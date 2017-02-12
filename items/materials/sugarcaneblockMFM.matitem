@@ -1,0 +1,14 @@
+{
+  "itemName" : "sugarcaneblockMFM",
+  "rarity" : "Common",
+  "category" : "block",
+  "price" : 0,
+  "inventoryIcon" : "sugarcaneblockMFM.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Sugarcane Block",
+  "description" : "Sugarcane crafted into a block.",
+  "glitchDescription" : "Curious. A block of made of sugarcane.",
+  "floranDescription" : "Sssweet sssticksss.",
+
+  "materialId" : 19204
+}

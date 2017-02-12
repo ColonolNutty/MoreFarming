@@ -1,0 +1,55 @@
+{
+  "objectName" : "wildgreenbeanMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "Green beans.",
+  "shortdescription" : "Green Bean Seeds",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+  "hasObjectItem" : false,
+
+  "apexDescription" : "Seeds for green beans!",
+  "avianDescription" : "Seeds for green beans!",
+  "floranDescription" : "Ssseeds for green beanss!",
+  "glitchDescription" : "Identify. Green bean seans.",
+  "humanDescription" : "Oh sweet! Green bean seeds!",
+  "hylotlDescription" : "Seeds for green beans.",
+
+  "inventoryIcon" : "greenbeanMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "greenbeanMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "alts" : 5,
+      "duration" : [400, 440]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "greenbeanMFMHarvest",
+      "resetToStage" : 2
+    }
+  ],
+  "breakDropOptions" : [
+    [ [ "greenbeanMFMseed", 1, { } ] ]
+  ],
+  "maxImmersion" : 0.25
+}

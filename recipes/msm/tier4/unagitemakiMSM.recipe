@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "rice", "count" : 4 },
+    { "item" : "seaweed", "count" : 2 },    { "item" : "cookedfish", "count" : 2 },
+
+    { "item" : "cucumberMSM", "count" : 2 }  ],
+  "output" : { "item" : "unagitemakiMSM", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing", "foodmobility" ]
+}

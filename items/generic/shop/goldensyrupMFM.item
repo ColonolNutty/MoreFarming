@@ -1,0 +1,10 @@
+{
+  "itemName" : "goldensyrupMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "goldensyrupMFM.png",
+  "description" : "Useful!",
+  "shortdescription" : "Golden Syrup",
+  "price" : 25,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "rice", "count" : 4 },
+    { "item" : "rawtentacle", "count" : 1 }  ],
+  "output" : { "item" : "takonigiriMSM", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing", "foodmobility" ]
+}

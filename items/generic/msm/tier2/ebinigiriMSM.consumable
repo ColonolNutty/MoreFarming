@@ -1,0 +1,26 @@
+{
+  "itemName" : "ebinigiriMSM",
+  "rarity" : "Common",
+  "price" : 190,
+  "inventoryIcon" : "ebinigiriMSM.png",
+  "description" : "Ebi Nigiri.",
+  "shortdescription" : "Ebi Nigiri",
+  "handPosition" : [0, 6],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthboost10",
+        "duration" : 90
+    }
+  ] ],
+	"category" : "preparedFood",
+	"foodValue" : 25,
+	"tooltipKind" : "food",
+	"builder" : "/items/buildscripts/buildfood.lua",
+	"maxStack" : 1000,
+	"itemAgingScripts" : ["/scripts/items/rotting.lua"],
+	"rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ebimakiMSM" ]
+}

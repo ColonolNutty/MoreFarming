@@ -1,0 +1,21 @@
+{
+  "itemName" : "lettuceMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "lettuceMFM.png",
+  "description" : "Lettuce never speak of this again.",
+  "shortdescription" : "Lettuce",
+  "handPosition" : [8, 0],
+  "price" : 10,
+  "eventCategory" : "eventCrop",
+  "category" : "food",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "saladMFM" ]
+}

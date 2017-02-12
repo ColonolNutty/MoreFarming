@@ -1,0 +1,73 @@
+{
+  "objectName" : "wildbellpepperMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "Bell pepper.",
+  "shortdescription" : "Bell Pepper Seeds",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+  "hasObjectItem" : false,
+
+  "apexDescription" : "Seeds for bell peppers!",
+  "avianDescription" : "Seeds for bell peppers!",
+  "floranDescription" : "Ssseeds for bell peppersss!",
+  "glitchDescription" : "Identify. Bell pepper seeds.",
+  "humanDescription" : "Oh sweet! Bell pepper seeds!",
+  "hylotlDescription" : "Seeds for bell peppers.",
+
+  "inventoryIcon" : "bellpepperMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bellpepperMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "alts" : 5,
+      "duration" : [100, 105]
+    },
+    {
+      "alts" : 5,
+      "duration" : [100, 105],
+      "harvestPool" : "greenbellpepperMFMHarvest",
+      "resetToStage" : 2
+    },
+    {
+      "alts" : 5,
+      "duration" : [100, 105],
+      "harvestPool" : "yellowbellpepperMFMHarvest",
+      "resetToStage" : 2
+    },
+    {
+      "alts" : 5,
+      "duration" : [100, 105],
+      "harvestPool" : "orangebellpepperMFMHarvest",
+      "resetToStage" : 2
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "redbellpepperMFMHarvest",
+      "resetToStage" : 2
+    }
+  ],
+  "breakDropOptions" : [
+    [ [ "bellpepperMFMseed", 1, { } ] ]
+  ],
+  "maxImmersion" : 0.25
+}

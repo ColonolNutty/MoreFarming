@@ -1,0 +1,17 @@
+{
+  "itemName" : "blueberrypbjPBJ",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "blueberrypbjPBJ.png",
+  "description" : "Yum!\n\n[^#E41919;Hp^white;]",
+  "shortdescription" : "Blueberry PB+J",
+  "handPosition" : [0, -2],
+  "foodValue" : 25,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

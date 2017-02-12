@@ -1,0 +1,17 @@
+{
+  "itemName" : "sakeMSM",
+  "rarity" : "Common",
+  "inventoryIcon" : "sakeMSM.png",
+  "description" : "An alcoholic beverage made from fermented rice.",
+  "shortdescription" : "Sake",
+  "price" : 60,
+  "foodValue" : 25,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+]
+}

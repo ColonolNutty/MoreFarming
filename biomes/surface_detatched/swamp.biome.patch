@@ -1,0 +1,22 @@
+[
+{
+  "op": "add",
+  "path": "/surfacePlaceables/items/-",
+  "value": {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildreedBMBsprout" ],[1, "wildblueberriesPBJseed" ],[1, "wildraspberryPBJseed"],[1, "wildblackberryPBJseed"] ],
+            "parameters" : {
+              "startingStage" : 3
+            }
+          }
+        ]
+  }
+}
+]

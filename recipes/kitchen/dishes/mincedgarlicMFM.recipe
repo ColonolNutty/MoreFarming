@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "garlicMFM", "count" : 1 }
+
+,{ "item" : "butter", "count" : 1 }
+
+  ],
+  "output" : { "item" : "mincedgarlicMFM", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
+}

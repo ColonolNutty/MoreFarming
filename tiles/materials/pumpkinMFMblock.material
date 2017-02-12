@@ -1,0 +1,23 @@
+{
+  "materialId" : 19202,
+  "materialName" : "pumpkinblockMFM",
+  "particleColor" : [170, 92, 12, 255],
+  "itemDrop" : "pumpkinblockMFM",
+  "description" : "Pumpkin compressed into a solid block.",
+  "shortdescription" : "Pumpkin Block",
+  "glitchDescription" : "Statement. A block made of Pumpkin.",
+  "floranDescription" : "Tasssty block.",
+  "footstepSound" : "/sfx/blocks/footstep_rock.wav",
+  "health" : 2,
+  "category": "material",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pumpkinblockMFM.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 400
+  }
+}

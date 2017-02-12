@@ -1,0 +1,50 @@
+{
+  "objectName" : "onionMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "Onion.",
+  "shortdescription" : "Onion Seeds",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+
+  "apexDescription" : "Seeds for onions!",
+  "avianDescription" : "Seeds for onions!",
+  "floranDescription" : "Ssseeds for onions!",
+  "glitchDescription" : "Identify. Onion seeds.",
+  "humanDescription" : "Oh sweet! Onion seeds!",
+  "hylotlDescription" : "Seeds for onions.",
+
+  "inventoryIcon" : "onionMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "onionMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "alts" : 5,
+      "duration" : [250, 290]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "onionMFMHarvest"
+    }
+  ],
+  "maxImmersion" : 0.25
+}

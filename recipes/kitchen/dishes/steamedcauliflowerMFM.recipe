@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "cauliflowerMFM", "count" : 2 }
+
+,{ "item" : "liquidwater", "count" : 1 }
+
+  ],
+  "output" : { "item" : "steamedcauliflowerMFM", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
+}

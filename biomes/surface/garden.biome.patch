@@ -1,0 +1,42 @@
+[
+{
+  "op": "add",
+  "path": "/surfacePlaceables/items/-",
+  "value": {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildartichokeMFMseed" ],[1, "wildonionMFMseed" ],[1, "wildstrawberryPBJseed" ] ],
+            "parameters" : {
+              "startingStage" : 3
+            }
+          }
+        ]
+  }
+},
+{
+  "op": "add",
+  "path": "/surfacePlaceables/items/-",
+  "value": {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildsweetpotatoMFMseed" ],[1, "wildpumpkinMFMseed" ] ],
+            "parameters" : {
+              "startingStage" : 2
+            }
+          }
+        ]
+  }
+}
+]

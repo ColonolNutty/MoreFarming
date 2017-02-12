@@ -1,0 +1,23 @@
+{
+  "materialId" : 19203,
+  "materialName" : "sugarblockMFM",
+  "particleColor" : [200, 200, 200, 255],
+  "itemDrop" : "sugarblockMFM",
+  "description" : "Sugar packed tight into a solid block.",
+  "shortdescription" : "Sugar Block",
+  "glitchDescription" : "Curious. A block of sugar.",
+  "floranDescription" : "Sssweet block.",
+  "footstepSound" : "/sfx/blocks/footstep_ash.wav",
+  "health" : 1,
+  "category": "material",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "sugarblockMFM.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 400
+  }
+}

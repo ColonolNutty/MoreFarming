@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "slicedtoxictopMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "toxictopjuiceMFM", "count" : 1 },
+  "groups" : [ "blender", "consumables", "all" ]
+}

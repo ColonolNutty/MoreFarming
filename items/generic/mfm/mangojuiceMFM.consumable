@@ -1,0 +1,25 @@
+{
+  "itemName" : "mangojuiceMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "mangojuiceMFM.png",
+  "description" : "Sweet Mango juice.",
+  "shortdescription" : "Mango Juice",
+  "handPosition" : [8, -4],
+  "price" : 40,
+  "effects" : [ [
+    {
+        "effect" : "maxenergyboost120",
+        "duration" : 120
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

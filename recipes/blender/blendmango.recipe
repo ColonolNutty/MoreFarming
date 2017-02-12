@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "slicedmangoMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "mangojuiceMFM", "count" : 1 },
+  "groups" : [ "blender", "consumables", "all" ]
+}

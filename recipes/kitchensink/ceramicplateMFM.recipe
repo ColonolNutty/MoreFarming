@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "dirtyceramicplateMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "ceramicplateMFM", "count" : 1 },
+  "groups" : [ "kitchensink", "consumables", "all" ]
+}

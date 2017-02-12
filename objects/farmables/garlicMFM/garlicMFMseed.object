@@ -1,0 +1,50 @@
+{
+  "objectName" : "garlicMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "garlic",
+  "shortdescription" : "Garlic Seeds",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+
+  "apexDescription" : "Seeds for garlic!",
+  "avianDescription" : "Seeds for garlic!",
+  "floranDescription" : "Ssseeds for garlic!",
+  "glitchDescription" : "Identify. Garlic seeds.",
+  "humanDescription" : "Oh sweet! garlic seeds!",
+  "hylotlDescription" : "Seeds for garlic.",
+
+  "inventoryIcon" : "garlicMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "garlicMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "alts" : 5,
+      "duration" : [400, 440]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "garlicMFMHarvest"
+    }
+  ],
+  "maxImmersion" : 0.25
+}

@@ -1,0 +1,49 @@
+{
+  "objectName" : "blackberryPBJseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "Blackberries, natures other snack food.",
+  "shortdescription" : "Blackberry Seeds",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+
+  "apexDescription" : "Seeds for blackberries!",
+  "avianDescription" : "Seeds for blakcberries!",
+  "floranDescription" : "Ssseeds for blackberries!",
+  "glitchDescription" : "Identify. Blackberry seeds.",
+  "humanDescription" : "Oh sweet! Blackberry seeds!",
+  "hylotlDescription" : "Seeds for blackberries.",
+
+  "inventoryIcon" : "blackberryPBJseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "blackberryPBJseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "duration" : [400, 440]
+    },
+    {
+      "harvestPool" : "blackberriesPBJHarvest",
+      "resetToStage" : 2
+    }
+  ],
+  "maxImmersion" : 0.25
+}

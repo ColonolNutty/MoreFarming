@@ -1,0 +1,10 @@
+{
+  "itemName" : "ketchupMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "ketchupMFM.png",
+  "description" : "Tomatoes are botanically fruit.",
+  "shortdescription" : "Ketchup",
+  "price" : 15,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000
+}

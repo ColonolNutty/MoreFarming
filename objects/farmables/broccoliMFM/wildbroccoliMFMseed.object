@@ -1,0 +1,55 @@
+{
+  "objectName" : "wildbroccoliMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "Broccoli Sprouts.",
+  "shortdescription" : "Broccoli Seeds",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+  "hasObjectItem" : false,
+
+  "apexDescription" : "Seeds for broccoli!",
+  "avianDescription" : "Seeds for broccoli!",
+  "floranDescription" : "Ssseeds for broccoli!",
+  "glitchDescription" : "Identify. Broccoli seeds.",
+  "humanDescription" : "Oh no! Broccoli seeds!",
+  "hylotlDescription" : "Seeds for broccoli.",
+
+  "inventoryIcon" : "broccoliMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "broccoliMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "alts" : 5,
+      "duration" : [400, 440]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "broccoliMFMHarvest",
+      "resetToStage" : 2
+    }
+  ],
+  "breakDropOptions" : [
+    [ [ "broccoliMFMseed", 1, { } ] ]
+  ],
+  "maxImmersion" : 0.25
+}

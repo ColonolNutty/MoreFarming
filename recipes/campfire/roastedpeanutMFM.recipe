@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "peanutPBJ", "count" : 1 }
+  ],
+  "output" : { "item" : "roastedpeanutMFM", "count" : 1 },
+  "groups" : [ "cooking", "consumables", "all" ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "sugarcaneBMB",
+  "rarity" : "Common",
+  "inventoryIcon" : "sugarcaneBMB.png",
+  "description" : "Freshly harvested Sugarcane stalk. Can be milled into Sugar.",
+  "shortdescription" : "Sugarcane Stalk",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ],
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : ["sugarcaneblockMFM"]
+}

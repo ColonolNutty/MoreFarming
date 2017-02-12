@@ -1,0 +1,24 @@
+{
+  "itemName" : "mashedsweetpotatoMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "mashedsweetpotatoMFM.png",
+  "description" : "Smashing sweet potatoes is scientifically proven to make them 500% tastier.",
+  "shortdescription" : "Mashed Sweet Potato",
+  "handPosition" : [0, -2],
+  "price" : 40,
+  "effects" : [ [
+    {
+        "effect" : "maxhealthboost20",
+        "duration" : 105
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

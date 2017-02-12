@@ -1,0 +1,57 @@
+{
+  "objectName" : "wildpeaMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "Peas.",
+  "shortdescription" : "Pea Seeds",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+  "hasObjectItem" : false,
+
+  "apexDescription" : "Seeds for peas!",
+  "avianDescription" : "Seeds for peas!",
+  "floranDescription" : "Ssseeds for peass!",
+  "glitchDescription" : "Identify. Pea seans.",
+  "humanDescription" : "Oh sweet! Pea seeds!",
+  "hylotlDescription" : "Seeds for peas.",
+
+  "inventoryIcon" : "peaMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "peaMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "alts" : 5,
+      "duration" : [400, 440]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "peaMFMHarvest",
+      "resetToStage" : 2
+    }
+  ],
+  "breakDropOptions" : [
+    [ [ "peaMFMseed", 1, { } ] ]
+  ],
+  "maxImmersion" : 0.25
+}

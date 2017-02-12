@@ -1,0 +1,11 @@
+{
+  "itemName" : "flourMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "flourMFM.png",
+  "description" : "Used in many recipes!",
+  "shortdescription" : "Flour",
+  "price" : 20,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "doughMFM", "bannockMFM", "cupcakebatterMFM" ]
+}

@@ -1,0 +1,18 @@
+{
+  "itemName" : "slicedlimeMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "slicedlimeMFM.png",
+  "description" : "Sliced lime.",
+  "shortdescription" : "Sliced Lime",
+  "handPosition" : [8, -4],
+  "price" : 40,
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

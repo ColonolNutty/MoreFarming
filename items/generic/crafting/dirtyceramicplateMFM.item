@@ -1,0 +1,11 @@
+{
+  "itemName" : "dirtyceramicplateMFM",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "dirtyceramicplateMFM.png",
+  "description" : "A dirty plate.",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ],
+  "maxStack" : 1000,
+  "shortdescription" : "Dirty Plate"
+}

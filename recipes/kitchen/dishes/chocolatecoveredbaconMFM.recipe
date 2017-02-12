@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "cookedbacon", "count" : 1 }
+
+,{ "item" : "chocolate", "count" : 1 }
+
+  ],
+  "output" : { "item" : "chocolatecoveredbaconMFM", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
+}

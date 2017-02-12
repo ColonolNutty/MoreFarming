@@ -1,0 +1,31 @@
+{
+  "objectName" : "bamboocageBMB",
+  "colonyTags" : ["floran","floranvillage","floranprison","nature"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 600,
+  "description" : "A cage. Looks like there was an angry rat in it.",
+  "shortdescription" : "Bamboo Cage",
+  "race" : "floran",
+
+  "apexDescription" : "A sturdy cage.",
+  "avianDescription" : "An imposing cage.",
+  "floranDescription" : "Floran kick through cage.",
+  "glitchDescription" : "Analysis. This cage could withstand the might of even the Mecharachnid.",
+  "humanDescription" : "Would I even fit in this cage?",
+  "hylotlDescription" : "A cage from which Floran prisoners rarely escape.",
+
+  "inventoryIcon" : "bamboocageBMBicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bamboocageBMB.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

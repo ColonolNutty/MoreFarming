@@ -1,0 +1,21 @@
+{
+  "itemName" : "greenbellpepperMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "greenbellpepperMFM.png",
+  "description" : "Red peppers have twice the vitamin C content of green peppers!",
+  "shortdescription" : "Green Bell Pepper",
+  "handPosition" : [8, 0],
+  "price" : 10,
+  "eventCategory" : "eventCrop",
+  "category" : "food",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "stuffedpepperMFM" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "grapefruitMFM", "count" : 1 }
+
+  ],
+  "output" : { "item" : "slicedgrapefruitMFM", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
+}

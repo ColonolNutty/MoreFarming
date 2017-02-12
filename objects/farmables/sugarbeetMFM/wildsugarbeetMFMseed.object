@@ -1,0 +1,52 @@
+{
+  "objectName" : "wildsugarbeetMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "beet",
+  "shortdescription" : "Sugar Beet Seeds",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+  "hasObjectItem" : false,
+
+  "apexDescription" : "Seeds for sugar beets!",
+  "avianDescription" : "Seeds for sugar beets!",
+  "floranDescription" : "Ssseeds for ssugar beetss!",
+  "glitchDescription" : "Identify. Sugar Beet seeds.",
+  "humanDescription" : "Oh sweet! Sugar Beet seans!",
+  "hylotlDescription" : "Seeds for sugar beets.",
+
+  "inventoryIcon" : "sugarbeetMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sugarbeetMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "alts" : 5,
+      "duration" : [400, 440]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "sugarbeetMFMHarvest"
+    }
+  ],
+  "maxImmersion" : 0.25
+}

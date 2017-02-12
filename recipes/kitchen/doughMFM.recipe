@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "flourMFM", "count" : 4 },
+	{ "item" : "liquidwater", "count" : 2 }
+  ],
+  "output" : { "item" : "doughMFM", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
+}

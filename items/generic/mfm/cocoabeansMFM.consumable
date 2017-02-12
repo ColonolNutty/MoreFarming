@@ -1,0 +1,19 @@
+{
+  "itemName" : "cocoabeansMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "cocoabeansMFM.png",
+  "description" : "This is not their final form.",
+  "shortdescription" : "Cocoa Beans",
+  "handPosition" : [8, 0],
+  "price" : 20,
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "cocoanibsMFM" ]
+}

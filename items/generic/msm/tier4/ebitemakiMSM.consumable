@@ -1,0 +1,29 @@
+{
+  "itemName" : "ebitemakiMSM",
+  "rarity" : "Uncommon",
+  "price" : 750,
+  "inventoryIcon" : "ebitemakiMSM.png",
+  "description" : "Ebi Temaki.",
+  "shortdescription" : "Ebi Temaki",
+  "effects" : [ [
+    {
+        "effect" : "jumpboost25",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxhealthboost40",
+        "duration" : 120
+    }
+  ] ],
+	"category" : "preparedFood",
+	"foodValue" : 35,
+	"tooltipKind" : "food",
+	"builder" : "/items/buildscripts/buildfood.lua",
+	"maxStack" : 1000,
+	"itemAgingScripts" : ["/scripts/items/rotting.lua"],
+	"rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

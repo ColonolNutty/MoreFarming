@@ -1,0 +1,55 @@
+{
+  "objectName" : "wildjalapenopepperMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "I guess the stem can be considered a stick...?",
+  "shortdescription" : "Jalapeno Seeds",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+  "hasObjectItem" : false,
+
+  "apexDescription" : "Seeds for jalapeno peppers!",
+  "avianDescription" : "Seeds for jalapeno peppers!",
+  "floranDescription" : "Ssseeds for jalapeno pepperss!",
+  "glitchDescription" : "Identify. Jalapeno pepper seeds.",
+  "humanDescription" : "Oh sweet! Jalapeno pepper seeds!",
+  "hylotlDescription" : "Seeds for jalapeno peppers.",
+
+  "inventoryIcon" : "jalapenopepperMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "jalapenopepperMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "alts" : 5,
+      "duration" : [400, 440]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "jalapenopepperMFMHarvest",
+      "resetToStage" : 2
+    }
+  ],
+  "breakDropOptions" : [
+    [ [ "jalapenopepperMFMseed", 1, { } ] ]
+  ],
+  "maxImmersion" : 0.25
+}

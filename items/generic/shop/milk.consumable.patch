@@ -1,0 +1,22 @@
+[
+	{
+		"op" : "add",
+		"path" : "/learnBlueprintsOnPickup/-",
+		"value" : "creamMFM"
+	},
+	{
+		"op" : "add",
+		"path" : "/learnBlueprintsOnPickup/-",
+		"value" : "vanillaicecreamMFM"
+	},
+	{
+		"op" : "add",
+		"path" : "/learnBlueprintsOnPickup/-",
+		"value" : "chocolateicecreamMFM"
+	},
+	{
+		"op" : "add",
+		"path" : "/learnBlueprintsOnPickup/-",
+		"value" : "chocolatechipicecreamMFM"
+	}
+]

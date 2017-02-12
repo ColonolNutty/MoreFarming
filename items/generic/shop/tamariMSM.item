@@ -1,0 +1,10 @@
+{
+  "itemName" : "tamariMSM",
+  "rarity" : "Common",
+  "inventoryIcon" : "tamariMSM.png",
+  "description" : "A fermented sauce made from soybeans.",
+  "shortdescription" : "Tamari",
+  "price" : 25,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000
+}

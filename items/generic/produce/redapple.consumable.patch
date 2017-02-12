@@ -1,0 +1,12 @@
+[
+	{
+		"op" : "replace",
+		"path" : "/price",
+		"value" : 10
+	},
+	{
+		"op" : "add",
+		"path" : "/learnBlueprintsOnPickup/-",
+		"value" : "slicedredappleMFM"
+	}
+]

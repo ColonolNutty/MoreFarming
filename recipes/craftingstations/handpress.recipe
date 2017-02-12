@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 4 },
+    { "item" : "darkwoodmaterial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "handpressMFM",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "objects", "all", "tools" ]
+}

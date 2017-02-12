@@ -1,0 +1,50 @@
+{
+  "objectName" : "jackolanternMFM",
+  "colonyTags" : ["nature","spooky","light"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "description" : "The scariest thing ever...?",
+  "shortdescription" : "Large Jack 'O Lantern",
+  "race" : "generic",
+
+  "maximumLiquidLevel" : 0.2,
+ 
+  "apexDescription" : "Someone will get a kick out of this.",
+  "avianDescription" : "This is a bad sign",
+  "floranDescription" : "Floran cut out face to ssscare away people.",
+  "glitchDescription" : "Suspicious. Something is not right.",
+  "humanDescription" : "Where's my candy?",
+  "hylotlDescription" : "A 'Do not disturb' sign.",
+  "novakidDescription" : "Is that my cousin? ... No, it's just a funny plant.",
+
+  "lightColor" : [229, 218, 207],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.70,
+  "flickerMaxIntensity" : 0.75,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "jackolanternMFMicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "jackolanternMFM.png", "fullbright" : true }, { "image" : "jackolanternMFMlit.png" } ],
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [0, 0]
+    },
+    {
+      "imageLayers" : [ { "image" : "jackolanternMFM.png", "fullbright" : true }, { "image" : "jackolanternMFMlit.png" } ],
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [0, 0]
+    }
+  ]
+}

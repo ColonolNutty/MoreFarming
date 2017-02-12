@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "blueberriesPBJ", "count" :5 },
+    { "item" : "glassmaterial", "count" :1 }
+  ],
+  "output" : {
+    "item" : "blueberryjellyPBJ",
+    "count" : 1
+  },
+  "groups" : [ "kitchen", "consumables", "foodhealing", "PB+J" ]
+}

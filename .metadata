@@ -1,0 +1,9 @@
+{
+	"author" : "TheBigBlueSerpent",
+	"description" : "Spice up your fridges with More Farming!",
+	"friendlyName" : "MoreFarming",
+	"includes" : ["HorticulturalImprovements"],
+	"name" : "MoreFarming",
+	"version" : "1.1.0 PBJ Bamboo Sushi Special",
+	"thanks" : "Mackinz, for updating it to Pleased Giraffe."
+}

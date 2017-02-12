@@ -1,0 +1,39 @@
+{
+  "objectName" : "neonmelonfullMFM",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "description" : "A glowing neon melon. Tastes like bubblegum.",
+  "category" : "farmable",
+  "shortdescription" : "Fully Grown Neonmelon",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 35,
+
+  "apexDescription" : "Juicy, tasty melon. Goes well with banana.",
+  "avianDescription" : "A juicy melon, filled with delicious glowing seeds.",
+  "floranDescription" : "Floran sssmash melon, make sssquelch. Also eat.",
+  "glitchDescription" : "Content. This delicious melon glows invitingly.",
+  "humanDescription" : "You could eat these, or decorate your room with them. I'm going for the first option.",
+  "hylotlDescription" : "An overly sweet melon. It's pretty to look at, though.",
+
+  "inventoryIcon" : "neonmelonfullMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "neonmelonfullMFM.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "alts" : 5,
+      "harvestPool" : "neonmelonfullMFMHarvest"
+    }
+  ],
+  "learnBlueprintsOnPickup" : [ "neonmelonblockMFM" ]
+}

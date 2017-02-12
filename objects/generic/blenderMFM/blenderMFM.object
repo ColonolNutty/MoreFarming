@@ -1,0 +1,42 @@
+{
+  "objectName" : "blenderMFM",
+  "colonyTags" : ["cooking"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "Will it blend?",
+  "shortdescription" : "Blender",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 300,
+
+  "apexDescription" : "A blender. Anything inside?",
+  "avianDescription" : "A device used to quickly liquify foods.",
+  "floranDescription" : "Floran can put thingsss insside and grind them up!",
+  "glitchDescription" : "Observe. A blender, used to grind food up.",
+  "humanDescription" : "A blender. Good for grinding up things.",
+  "hylotlDescription" : "A blender for grinding up items.",
+
+  "inventoryIcon" : "blenderMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "blenderMFM.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "recipeGroup" : "blender",
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/blender.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

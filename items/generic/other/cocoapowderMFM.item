@@ -1,0 +1,10 @@
+{
+  "itemName" : "cocoapowderMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "cocoapowderMFM.png",
+  "description" : "Ground cocoa beans.",
+  "shortdescription" : "Cocoa Powder",
+  "price" : 20,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000
+}

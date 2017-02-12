@@ -1,0 +1,23 @@
+{
+  "materialId" : 19207,
+  "materialName" : "whitechocolateblockMFM",
+  "particleColor" : [13, 39, 7, 255],
+  "itemDrop" : "whitechocolateblockMFM",
+  "description" : "A block made of white chocolate.",
+  "shortdescription" : "White Chocolate Block",
+  "glitchDescription" : "Statement. A block made of white chocolate.",
+  "floranDescription" : "Tasssty block.",
+  "footstepSound" : "/sfx/blocks/footstep_gravel.wav",
+  "health" : 1,
+  "category": "material",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "whitechocolateblockMFM.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 400
+  }
+}

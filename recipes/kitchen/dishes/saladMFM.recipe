@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "lettuceMFM", "count" : 1 }
+
+,{ "item" : "cookingoilMFM", "count" : 1 }
+
+  ],
+  "output" : { "item" : "saladMFM", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
+}

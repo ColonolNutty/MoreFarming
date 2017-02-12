@@ -1,0 +1,29 @@
+{
+  "itemName" : "toxictopjuiceMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "toxictopjuiceMFM.png",
+  "description" : "Looks toxic..",
+  "shortdescription" : "Toxictop juice",
+  "handPosition" : [8, -4],
+  "price" : 40,
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 10
+    },
+    {
+        "effect" : "maxenergyboost120",
+        "duration" : 120
+    }
+  ] ],
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

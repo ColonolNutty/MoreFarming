@@ -1,0 +1,47 @@
+{
+  "objectName" : "pumpkinMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "This plant sends chills down my spine.",
+  "shortdescription" : "Pumpkin Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+
+  "apexDescription" : "I could cut out eyes on these and scare people. Heh.",
+  "avianDescription" : "The best part of this plant are its seeds.",
+  "floranDescription" : "Floran think human lie about tasssste.",
+  "glitchDescription" : "Suspicious. Why do I have the urge to cut up this plant?",
+  "humanDescription" : "You could eat these, or decorate your room with them. I'm going for the second option.",
+  "hylotlDescription" : "Other people like to add spices to them and make pies.",
+  "novakidDescription" : "Is that a newborn? No, wait, that's a plant...",
+
+  "inventoryIcon" : "pumpkinMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pumpkinMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [430, 470]
+    },
+    {
+      "duration" : [430, 470]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "pumpkinMFMHarvest"
+    }
+  ],
+  "maxImmersion" : 0.25
+}

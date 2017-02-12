@@ -1,0 +1,36 @@
+{
+  "objectName" : "bamboostoolBMB",
+  "colonyTags" : ["floran","floranvillage","nature"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 275,
+  "description" : "A tiny bamboo stool.",
+  "shortdescription" : "Bamboo Stool",
+  "race" : "floran",
+
+  "apexDescription" : "Bamboo fashioned into a stool.",
+  "avianDescription" : "A stool built from bamboo.",
+  "floranDescription" : "Floran ssit upon bamboo stool.",
+  "glitchDescription" : "Sarcasm. Perhaps this is built for a very small Floran.",
+  "humanDescription" : "This stool is polished. It almost shines.",
+  "hylotlDescription" : "A stool fashioned from bamboo?",
+
+  "inventoryIcon" : "bamboostoolBMBicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bamboostoolBMB.png:<color>",
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 17]
+
+}

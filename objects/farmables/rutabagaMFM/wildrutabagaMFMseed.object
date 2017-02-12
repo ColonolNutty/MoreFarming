@@ -1,0 +1,52 @@
+{
+  "objectName" : "wildrutabagaMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "beet",
+  "shortdescription" : "Rutabaga Seeds",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+  "hasObjectItem" : false,
+
+  "apexDescription" : "Seeds for rutabagas!",
+  "avianDescription" : "Seeds for rutabagas!",
+  "floranDescription" : "Ssseeds for rutabagass!",
+  "glitchDescription" : "Identify. Rutabaga seeds.",
+  "humanDescription" : "Oh sweet! Rutabaga seans!",
+  "hylotlDescription" : "Seeds for rutabagas.",
+
+  "inventoryIcon" : "rutabagaMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rutabagaMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "alts" : 5,
+      "duration" : [400, 440]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "rutabagaMFMHarvest"
+    }
+  ],
+  "maxImmersion" : 0.25
+}

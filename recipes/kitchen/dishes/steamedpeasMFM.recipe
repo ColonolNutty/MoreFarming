@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "peaMFM", "count" : 2 }
+
+,{ "item" : "liquidwater", "count" : 1 }
+
+  ],
+  "output" : { "item" : "steamedpeasMFM", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
+}

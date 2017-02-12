@@ -1,0 +1,46 @@
+{
+  "objectName" : "bamboobedBMB",
+  "colonyTags" : ["floran","floranvillage","storage","commerce","nature"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A sturdy bamboo bed.",
+  "shortdescription" : "Bamboo Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 250,
+
+  "apexDescription" : "A basic bed. Comfortable enough.",
+  "avianDescription" : "This is a comfortable enough place to rest my feathers.",
+  "floranDescription" : "Floran ressst in sssimple bed.",
+  "glitchDescription" : "Proud. My own simple bed.",
+  "humanDescription" : "A decent bed. Should be able to get some rest here.",
+  "hylotlDescription" : "It's not the best build quality, but it'll do.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 13],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/generic/bamboobedBMB/bamboobedBMBcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "nude"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "bamboobedBMBicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bamboobedBMB.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "caramelMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "caramelMFM.png",
+  "description" : "Its sticky..!",
+  "shortdescription" : "Caramel",
+  "handPosition" : [8, 0],
+  "foodValue" : 10,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "caramelsquareMFM" ]
+}

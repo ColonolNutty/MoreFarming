@@ -1,0 +1,22 @@
+[
+	{
+		"op" : "replace",
+		"path" : "/price",
+		"value" : 20
+	},
+	{
+		"op" : "add",
+		"path" : "/learnBlueprintsOnPickup/-",
+		"value" : "caramelMFM"
+	},
+	{
+		"op" : "add",
+		"path" : "/learnBlueprintsOnPickup/-",
+		"value" : "marshmallowMFM"
+	},
+	{
+		"op" : "add",
+		"path" : "/learnBlueprintsOnPickup/-",
+		"value" : "sugarblockMFM"
+	}
+]

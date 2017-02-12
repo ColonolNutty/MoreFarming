@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "toast", "count" : 1 },
+	{ "item" : "friedeggMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "eggontoastMFM", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "toxictopjam", "count" : 1 },
+	{ "item" : "flourMFM", "count" : 4 },
+    { "item" : "butter", "count" : 2 },
+	{ "item" : "sugar", "count" : 4 },
+	{ "item" : "vanillaicingMFM", "count" : 2 }
+  ],
+  "output" : { "item" : "toxictoptartMFM", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
+}

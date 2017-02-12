@@ -1,0 +1,17 @@
+{
+  "itemName" : "peanutbuttersandwichPBJ",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "peanutbuttersandwichPBJ.png",
+  "description" : "Yum!\n\n[^#E41919;Hp^white;]",
+  "shortdescription" : "Peanut Butter Sandwich",
+  "handPosition" : [0, -2],
+  "foodValue" : 25,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

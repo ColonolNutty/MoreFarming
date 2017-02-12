@@ -1,0 +1,10 @@
+{
+  "itemName" : "bannockMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "bannockMFM.png",
+  "description" : "Bannock.",
+  "shortdescription" : "Raw Bannock",
+  "price" : 20,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000
+}

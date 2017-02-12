@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tomato", "count" : 3 },
+    { "item" : "sugar", "count" : 1 }
+  ],
+  "output" : { "item" : "ketchupMFM", "count" : 1 },
+  "groups" : [ "kitchen", "other", "all" ]
+}

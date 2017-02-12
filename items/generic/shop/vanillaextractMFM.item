@@ -1,0 +1,11 @@
+{
+  "itemName" : "vanillaextractMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "vanillaextractMFM.png",
+  "description" : "I shouldn't just drink it..",
+  "shortdescription" : "Vanilla Extract",
+  "price" : 25,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "vanillaicingMFM" ]
+}

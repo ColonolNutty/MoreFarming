@@ -1,0 +1,43 @@
+{
+  "objectName" : "kitchensinkMFM",
+  "colonyTags" : ["cooking"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "crafting",
+  "price" : 425,
+
+  "description" : "A wooden sink... I haven't washed my hands in a long time.",
+  "shortdescription" : "Kitchen Sink",
+  "race" : "generic",
+
+  "apexDescription" : "A kitchen sink.",
+  "avianDescription" : "A water basin.",
+  "floranDescription" : "Turn handle, water come out!",
+  "glitchDescription" : "Identify. A sink.",
+  "humanDescription" : "A nice sink. I wonder if the water is fresh.",
+  "hylotlDescription" : "Water!",
+
+  "inventoryIcon" : "kitchensinkMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kitchensinkMFM.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "recipeGroup" : "kitchensink",
+  "openSounds" : [ "/sfx/objects/sinkenter.wav" ],
+  "closeSounds" : [ "/sfx/objects/sinkexit.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/kitchensinkMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

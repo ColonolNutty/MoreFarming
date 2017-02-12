@@ -1,0 +1,8 @@
+[ 
+	{ "op": "add", "path": "/learnBlueprintsOnPickup/-",
+		"value": "thatch"
+	},
+	{ "op": "replace", "path": "/price",
+		"value": 5
+	}
+]

@@ -1,0 +1,42 @@
+[
+{
+  "op": "add",
+  "path": "/surfacePlaceables/items/-",
+  "value": {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildgarlicMFMseed" ],[1, "wildjalapenopepperMFMseed" ],[1, "wildraspberryPBJseed"] ],
+            "parameters" : {
+              "startingStage" : 3
+            }
+          }
+        ]
+  }
+},
+{
+  "op": "add",
+  "path": "/surfacePlaceables/items/-",
+  "value": {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildbellpepperMFMseed" ] ],
+            "parameters" : {
+              "startingStage" : 6
+            }
+          }
+        ]
+  }
+}
+]

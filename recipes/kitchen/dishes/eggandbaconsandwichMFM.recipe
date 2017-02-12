@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "scrambledeggMFM", "count" : 1 },
+	{ "item" : "cookedbacon", "count" : 4 },
+	{ "item" : "cheese", "count" : 1 }
+  ],
+  "output" : { "item" : "eggandbaconsandwichMFM", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
+}

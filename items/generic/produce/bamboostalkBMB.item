@@ -1,0 +1,26 @@
+{
+  "itemName" : "bamboostalkBMB",
+  "rarity" : "Common",
+  "inventoryIcon" : "bamboostalkBMB.png",
+  "description" : "Harvested stalk from the fast-growing bamboo plant.",
+  "shortdescription" : "Bamboo Stalk",
+  "price" : 10,
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ],
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [
+    "bamboo",
+	"bamboobedBMB",
+	"bamboobookcaseBMB",
+	"bamboocageBMB",
+	"bamboochairBMB",
+	"bamboocrate1BMB",
+	"bamboocrate2BMB",
+	"bamboodeskBMB",
+	"bamboogateBMB",
+	"bamboopunjisticksBMB",
+	"bambooscreenBMB",
+	"bamboostoolBMB",
+	"bambootableBMB" 
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "limeMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "limeMFM.png",
+  "description" : "Its a lime!",
+  "shortdescription" : "Lime",
+  "handPosition" : [8, 0],
+  "price" : 10,
+  "eventCategory" : "eventCrop",
+  "category" : "food",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "slicedlimeMFM" ]
+}

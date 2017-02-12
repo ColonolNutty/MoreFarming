@@ -1,0 +1,46 @@
+{
+  "objectName" : "sweetpotatoMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "Yam?",
+  "shortdescription" : "Sweet Potato Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+
+  "apexDescription" : "Sweet Potatoes. Unremarkable.",
+  "avianDescription" : "Mashed sweet potatoes make for a good dish.",
+  "floranDescription" : "Hard, crunchy brown sweet potatoesss.",
+  "glitchDescription" : "Admiration. Humans create many dishes from such a simple thing.",
+  "humanDescription" : "Ahhh, sweet potatoes. Is there anything you can't do?",
+  "hylotlDescription" : "A common, tedious root vegetable.",
+
+  "inventoryIcon" : "sweetpotatoMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sweetpotatoMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [450, 450]
+    },
+    {
+      "duration" : [450, 450]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "sweetpotatoMFMHarvest"
+    }
+  ],
+  "maxImmersion" : 0.25
+}

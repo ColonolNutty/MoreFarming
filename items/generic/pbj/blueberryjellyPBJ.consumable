@@ -1,0 +1,18 @@
+{
+  "itemName" : "blueberryjellyPBJ",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "blackberryjellyPBJ.png",
+  "description" : "Blueberry Jelly!\n\n[^#E41919;Hp^white;]",
+  "shortdescription" : "Blueberry Jelly",
+  "handPosition" : [0, -2],
+  "foodValue" : 25,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "blueberryjellysandwichPBJ", "blueberrypbjPBJ" ]
+}

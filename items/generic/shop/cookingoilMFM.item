@@ -1,0 +1,10 @@
+{
+  "itemName" : "cookingoilMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "cookingoilMFM.png",
+  "description" : "Useful!",
+  "shortdescription" : "Cooking Oil",
+  "price" : 25,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "doughMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "doughMFM.png",
+  "description" : "Not the money kind.",
+  "shortdescription" : "Dough",
+  "price" : 20,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "wafflesMFM" ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "egg", "count" : 1 }
+  ],
+  "output" : { "item" : "friedeggMFM", "count" : 1 },
+  "groups" : [ "cooking", "consumables", "all" ]
+}

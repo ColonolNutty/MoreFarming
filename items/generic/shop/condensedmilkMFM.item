@@ -1,0 +1,10 @@
+{
+  "itemName" : "condensedmilkMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "condensedmilkMFM.png",
+  "description" : "Useful!",
+  "shortdescription" : "Condensed Milk",
+  "price" : 8,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkchocolateMFM", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "darkchocolateblockMFM",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "materials", "all" ]
+}

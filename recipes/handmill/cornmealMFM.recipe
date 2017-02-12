@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "corn", "count" : 1 }
+  ],
+  "output" : { "item" : "cornmealMFM", "count" : 1 },
+  "groups" : [ "handmill", "consumables", "all" ]
+}

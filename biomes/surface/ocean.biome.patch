@@ -11,7 +11,12 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "wildgingerMSMseed"] ],
+            "pool" : [
+				[1, "wildcocoaMFMseed"],
+				[1, "wildgingerMSMseed"],
+				[1, "wildjalapenopepperMFMseed"],
+				[1, "wildvanillabeanMFMseed"]
+			],
             "parameters" : {
               "startingStage" : 3
             }
@@ -31,7 +36,10 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "wildcinnamonMFMseed" ] ],
+            "pool" : [
+				[1, "wildcinnamonMFMseed" ],
+				[1, "wildsweetpotatoMFMseed" ]
+			],
             "parameters" : {
               "startingStage" : 2
             }

@@ -1,57 +1,57 @@
 [
-{
-  "op": "add",
-  "path": "/surfacePlaceables/items/-",
-  "value": {
-        "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCrops",
+	{
+		"op": "add",
+		"path": "/surfacePlaceables/items/-",
+		"value": {
+			"mode" : "floor",
+			"priority" : 1,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:surfaceCrops",
 
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [
-				[1, "wildasparagusMFMseed" ],
-				[1, "wildbambooBMBshoot" ],
-				[1, "wildblackberryPBJseed" ],
-				[1, "wildblueberriesPBJseed" ],
-				[1, "wildbroccoliMFMseed"],
-				[1, "wildbrusselsproutMFMseed"],
-				[1, "wildcauliflowerMFMseed"],
-				[1, "wildgreenbeanMFMseed"],
-				[1, "wildpeaMFMseed"],
-				[1, "wildraspberryPBJseed"],
-				[1, "wildreedBMBsprout"],
-				[1, "wildrutabagaMFMseed"],
-				[1, "wildstrawberryPBJseed"],
-				[1, "wildsugarbeetMFMseed"]
-			],
-            "parameters" : {
-              "startingStage" : 3
-            }
-          }
-        ]
-  }
-},
-{
-  "op": "add",
-  "path": "/surfacePlaceables/items/-",
-  "value": {
-        "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCrops",
+			"type" : "object",
+			"objectSets" : [
+				{
+					"pool" : [
+						[1, "wildasparagusMFMseed" ],
+						[1, "wildbambooBMBshoot" ],
+						[1, "wildblackberryPBJseed" ],
+						[1, "wildblueberriesPBJseed" ],
+						[1, "wildbroccoliMFMseed"],
+						[1, "wildbrusselsproutMFMseed"],
+						[1, "wildcauliflowerMFMseed"],
+						[1, "wildgreenbeanMFMseed"],
+						[1, "wildpeaMFMseed"],
+						[1, "wildraspberryPBJseed"],
+						[1, "wildreedBMBsprout"],
+						[1, "wildrutabagaMFMseed"],
+						[1, "wildstrawberryPBJseed"],
+						[1, "wildsugarbeetMFMseed"]
+					],
+					"parameters" : {
+						"startingStage" : 3
+					}
+				}
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/surfacePlaceables/items/-",
+		"value": {
+			"mode" : "floor",
+			"priority" : 1,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:surfaceCrops",
 
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "wildoatsMFMseed" ] ],
-            "parameters" : {
-              "startingStage" : 2
-            }
-          }
-        ]
-  }
-}
+			"type" : "object",
+			"objectSets" : [
+				{
+					"pool" : [ [1, "wildoatsMFMseed" ] ],
+					"parameters" : {
+						"startingStage" : 2
+					}
+				}
+			]
+		}
+	}
 ]

@@ -1,8 +1,8 @@
 [
 	{
-	  "op": "add",
-	  "path": "/surfacePlaceables/items/-",
-	  "value": {
+		"op": "add",
+		"path": "/surfacePlaceables/items/-",
+		"value": {
 			"mode" : "floor",
 			"priority" : 1,
 			"variants" : 1,
@@ -10,26 +10,26 @@
 
 			"type" : "object",
 			"objectSets" : [
-			  {
-				"pool" : [
-					[1, "wildcocoaMFMseed" ],
-					[1, "wilddragonfruitMFMseed" ],
-					[1, "wildgingerMSMseed" ],
-					[1, "wildjalapenopepperMFMseed" ],
-					[1, "wildraspberryPBJseed" ],
-					[1, "wildvanillabeanMFMseed" ]
-				],
-				"parameters" : {
-				  "startingStage" : 3
+				{
+					"pool" : [
+						[1, "wildcocoaMFMseed" ],
+						[1, "wilddragonfruitMFMseed" ],
+						[1, "wildgingerMSMseed" ],
+						[1, "wildjalapenopepperMFMseed" ],
+						[1, "wildraspberryPBJseed" ],
+						[1, "wildvanillabeanMFMseed" ]
+					],
+					"parameters" : {
+						"startingStage" : 3
+					}
 				}
-			  }
 			]
-	  }
+		}
 	},
 	{
-	  "op": "add",
-	  "path": "/surfacePlaceables/items/-",
-	  "value": {
+		"op": "add",
+		"path": "/surfacePlaceables/items/-",
+		"value": {
 			"mode" : "floor",
 			"priority" : 1,
 			"variants" : 1,
@@ -37,15 +37,15 @@
 
 			"type" : "object",
 			"objectSets" : [
-			  {
-				"pool" : [
-					[1, "wildbellpepperMFMseed" ]
-				],
-				"parameters" : {
-				  "startingStage" : 4
-				}
-			  }
+			{
+			"pool" : [
+			[1, "wildbellpepperMFMseed" ]
+			],
+			"parameters" : {
+			"startingStage" : 4
+			}
+			}
 			]
-	  }
+		}
 	}
 ]

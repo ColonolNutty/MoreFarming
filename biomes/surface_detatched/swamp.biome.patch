@@ -1,27 +1,27 @@
 [
-{
-  "op": "add",
-  "path": "/surfacePlaceables/items/-",
-  "value": {
-        "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCrops",
+	{
+	  "op": "add",
+	  "path": "/surfacePlaceables/items/-",
+	  "value": {
+			"mode" : "floor",
+			"priority" : 1,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:surfaceCrops",
 
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [
-				[1, "wildblackberryPBJseed"],
-				[1, "wildblueberriesPBJseed" ],
-				[1, "wildraspberryPBJseed"],
-				[1, "wildreedBMBsprout" ]
-			],
-            "parameters" : {
-              "startingStage" : 3
-            }
-          }
-        ]
-  }
-}
+			"type" : "object",
+			"objectSets" : [
+			  {
+				"pool" : [
+					[1, "wildblackberryPBJseed"],
+					[1, "wildblueberriesPBJseed" ],
+					[1, "wildraspberryPBJseed"],
+					[1, "wildreedBMBsprout" ]
+				],
+				"parameters" : {
+				  "startingStage" : 3
+				}
+			  }
+			]
+	  }
+	}
 ]

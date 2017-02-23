@@ -12,10 +12,12 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildcocoaMFMseed"],
-						[1, "wildgingerMSMseed"],
-						[1, "wildjalapenopepperMFMseed"],
-						[1, "wildvanillabeanMFMseed"]
+						[1, "wildcocoaMFMseed" ],
+						[1, "wilddragonfruitMFMseed" ],
+						[1, "wildgingerMSMseed" ],
+						[1, "wildjalapenopepperMFMseed" ],
+						[1, "wildraspberryPBJseed" ],
+						[1, "wildvanillabeanMFMseed" ]
 					],
 					"parameters" : {
 						"startingStage" : 3
@@ -35,15 +37,14 @@
 
 			"type" : "object",
 			"objectSets" : [
-				{
-					"pool" : [
-						[1, "wildcinnamonMFMseed" ],
-						[1, "wildsweetpotatoMFMseed" ]
-					],
-					"parameters" : {
-						"startingStage" : 2
-					}
-				}
+			{
+			"pool" : [
+			[1, "wildbellpepperMFMseed" ]
+			],
+			"parameters" : {
+			"startingStage" : 4
+			}
+			}
 			]
 		}
 	}

@@ -1,6 +1,7 @@
 {
   "itemName" : "steamedcauliflowerMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "steamedcauliflowerMFM.png",
   "description" : "Steamed cauliflower.",
   "shortdescription" : "Steamed Cauliflower",

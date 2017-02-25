@@ -1,6 +1,7 @@
 {
   "itemName" : "pumpkinpieMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "pumpkinpieMFM.png",
   "description" : "Delicious, and doesn't taste like pumpkins.",
   "shortdescription" : "Pumpkin Pie",

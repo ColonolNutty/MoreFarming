@@ -1,6 +1,7 @@
 {
   "itemName" : "cinnamonfrenchtoastMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "cinnamonfrenchtoastMFM.png",
   "description" : "FRENCH TOAST!",
   "shortdescription" : "Cinnamon French Toast",

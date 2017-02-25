@@ -1,6 +1,7 @@
 {
   "itemName" : "cookedbannockMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "cookedbannockMFM.png",
   "description" : "A bannock.",
   "shortdescription" : "Bannock",

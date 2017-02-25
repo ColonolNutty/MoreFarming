@@ -1,6 +1,7 @@
 {
   "itemName" : "toastedmarshmallowMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "toastedmarshmallowMFM.png",
   "description" : "A staple camping food.",
   "shortdescription" : "Toasted Marshmallow",

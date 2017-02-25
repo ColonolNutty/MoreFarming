@@ -1,6 +1,7 @@
 {
   "itemName" : "steamedbroccoliMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "steamedbroccoliMFM.png",
   "description" : "Steamed broccoli.",
   "shortdescription" : "Steamed Broccoli",

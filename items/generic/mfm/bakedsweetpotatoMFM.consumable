@@ -1,6 +1,7 @@
 {
   "itemName" : "bakedsweetpotatoMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "bakedsweetpotatoMFM.png",
   "description" : "A baked sweet potato",
   "shortdescription" : "Baked Sweet Potato",

@@ -1,6 +1,7 @@
 {
   "itemName" : "scrambledeggwithketchupMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "scrambledeggwithketchupMFM.png",
   "description" : "A scrambled egg with ketchup.",
   "shortdescription" : "Scrambled Egg With Ketchup",

@@ -1,6 +1,7 @@
 {
   "itemName" : "boiledbeetMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "boiledbeetMFM.png",
   "description" : "Boiled Beet.",
   "shortdescription" : "Boiled Beet",

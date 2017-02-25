@@ -1,6 +1,7 @@
 {
   "itemName" : "scrambledeggMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "scrambledeggMFM.png",
   "description" : "A scrambled egg.",
   "shortdescription" : "Scrambled Egg",

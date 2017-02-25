@@ -1,6 +1,7 @@
 {
   "itemName" : "bakedpotatoMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "bakedpotatoMFM.png",
   "description" : "Hot potato!",
   "shortdescription" : "Baked Potato",

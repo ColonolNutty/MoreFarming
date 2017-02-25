@@ -1,6 +1,7 @@
 {
   "itemName" : "slicedredappleMFM",
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "slicedredappleMFM.png",
   "description" : "Sliced red apple.",
   "shortdescription" : "Sliced Red Apple",

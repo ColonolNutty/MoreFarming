@@ -1,6 +1,7 @@
 {
   "itemName" : "toxictoptartMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "toxictoptartMFM.png",
   "description" : "A sweet treat made from a bitter fruit.",
   "shortdescription" : "Toxictop Tart",

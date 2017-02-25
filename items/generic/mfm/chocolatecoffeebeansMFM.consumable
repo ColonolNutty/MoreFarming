@@ -1,6 +1,7 @@
 {
   "itemName" : "chocolatecoffeebeansMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "chocolatecoffeebeansMFM.png",
   "description" : "Chocolate covered coffee beans.",
   "shortdescription" : "Chocolate Covered Coffee Beans",

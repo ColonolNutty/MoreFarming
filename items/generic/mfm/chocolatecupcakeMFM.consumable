@@ -1,6 +1,7 @@
 {
   "itemName" : "chocolatecupcakeMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "chocolatecupcakeMFM.png",
   "description" : "Cupcakes! So sweet and tasty!",
   "shortdescription" : "Cupcake With Chocolate Icing",

@@ -1,6 +1,7 @@
 {
   "itemName" : "friedeggMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "friedeggMFM.png",
   "description" : "And this is your brain on drugs.",
   "shortdescription" : "Fried Egg",

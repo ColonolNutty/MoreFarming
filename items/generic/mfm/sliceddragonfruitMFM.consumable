@@ -1,6 +1,7 @@
 {
   "itemName" : "sliceddragonfruitMFM",
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "sliceddragonfruitMFM.png",
   "description" : "Sliced dragonfruit.",
   "shortdescription" : "Sliced Dragonfruit",

@@ -1,6 +1,7 @@
 {
   "itemName" : "caramelsquareMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "caramelsquareMFM.png",
   "description" : "Yum!",
   "shortdescription" : "Caramel Square",

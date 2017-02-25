@@ -1,6 +1,7 @@
 {
   "itemName" : "wafflesMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "wafflesMFM.png",
   "description" : "Waffles.",
   "shortdescription" : "Waffles",

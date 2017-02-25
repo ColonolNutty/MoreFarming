@@ -1,6 +1,7 @@
 {
   "itemName" : "slicedtoxictopMFM",
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "slicedtoxictopMFM.png",
   "description" : "Sliced toxictop.",
   "shortdescription" : "Sliced Toxictop",

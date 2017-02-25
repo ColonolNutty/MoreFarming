@@ -1,6 +1,7 @@
 {
   "itemName" : "lemonjuiceMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "lemonjuiceMFM.png",
   "description" : "Sour lemon juice.",
   "shortdescription" : "Lemon Juice",

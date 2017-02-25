@@ -1,6 +1,7 @@
 {
   "itemName" : "dragonfruitjuiceMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "dragonfruitjuiceMFM.png",
   "description" : "Slightly sweet Dragonfruit juice.",
   "shortdescription" : "Dragonfruit juice",

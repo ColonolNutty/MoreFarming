@@ -1,6 +1,7 @@
 {
   "itemName" : "slicedgrapefruitMFM",
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "slicedgrapefruitMFM.png",
   "description" : "Sliced grapefruit.",
   "shortdescription" : "Sliced Grapefruit",

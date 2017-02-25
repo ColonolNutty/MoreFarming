@@ -1,6 +1,7 @@
 {
   "itemName" : "mashedsweetpotatoMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "mashedsweetpotatoMFM.png",
   "description" : "Smashing sweet potatoes is scientifically proven to make them 500% tastier.",
   "shortdescription" : "Mashed Sweet Potato",

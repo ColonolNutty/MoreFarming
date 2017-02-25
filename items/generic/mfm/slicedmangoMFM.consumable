@@ -1,6 +1,7 @@
 {
   "itemName" : "slicedmangoMFM",
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "slicedmangoMFM.png",
   "description" : "Sliced mango.",
   "shortdescription" : "Sliced Mango",

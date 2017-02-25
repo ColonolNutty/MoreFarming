@@ -1,6 +1,7 @@
 {
   "itemName" : "ER3031",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "ER3031.png",
   "description" : "011100100111010101101110MISSINGO",
   "shortdescription" : "ER3031",

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "groatsMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "oatgrainsMFM", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
-}

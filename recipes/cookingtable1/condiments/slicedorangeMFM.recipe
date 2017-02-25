@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "orange", "count" : 1 }
+  ],
+  "output" : { "item" : "slicedorangeMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "condiments", "consumables", "foodhealing","all" ]
+}

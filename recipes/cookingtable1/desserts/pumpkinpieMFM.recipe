@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pumpkinsliceMFM", "count" : 3 },
+    { "item" : "sugar", "count" : 4 },
+    { "item" : "egg", "count" : 2 }
+  ],
+  "output" : { "item" : "pumpkinpieMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts", "consumables", "dessert" ]
+}

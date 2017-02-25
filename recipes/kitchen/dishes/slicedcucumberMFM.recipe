@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "cucumberMSM", "count" : 1 }
-
-  ],
-  "output" : { "item" : "slicedcucumberMFM", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
-}

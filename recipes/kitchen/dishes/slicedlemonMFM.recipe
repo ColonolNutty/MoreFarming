@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "lemonMFM", "count" : 1 }
-
-  ],
-  "output" : { "item" : "slicedlemonMFM", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
-}

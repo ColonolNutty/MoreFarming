@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "frenchfriesMFM", "count" : 1 },
+	{ "item" : "ketchupMFM", "count" : 1 }
+
+  ],
+  "output" : { "item" : "frenchfrieswithketchupMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "sides", "consumables", "foodhealing","all" ]
+}

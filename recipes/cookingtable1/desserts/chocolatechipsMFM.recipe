@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "chocolate", "count" : 1 }
+  ],
+  "output" : { "item" : "chocolatechipsMFM", "count" : 4 },
+  "groups" : [ "craftingfood", "desserts", "consumables", "foodhealing","all" ]
+}

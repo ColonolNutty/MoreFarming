@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "sweetpotatoMFM", "count" : 1 }  
-
-  ],
-  "output" : { "item" : "mashedsweetpotatoMFM", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
-}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "chocolateliquorMFM", "count" : 3 },
+	{ "item" : "cocoabutterMFM", "count" : 2 },
+    { "item" : "sugar", "count" : 2 },
+	{ "item" : "vanillaextractMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "darkchocolateMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts", "consumables", "foodhealing","all" ]
+}

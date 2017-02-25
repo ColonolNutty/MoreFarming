@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "egg", "count" : 1 },
+	{ "item" : "lemonjuiceMFM", "count" : 1 },
+	{ "item" : "sugar", "count" : 2 }
+  ],
+  "output" : { "item" : "lemonicingMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts", "consumables", "foodhealing","all" ]
+}

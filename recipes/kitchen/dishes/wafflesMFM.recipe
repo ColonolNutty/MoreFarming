@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "doughMFM", "count" : 4 }
-  ],
-  "output" : { "item" : "wafflesMFM", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
-}

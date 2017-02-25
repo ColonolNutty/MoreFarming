@@ -1,9 +1,0 @@
-{
-  "input" : [
-	{ "item" : "egg", "count" : 1 },
-	{ "item" : "vanillaextractMFM", "count" : 1 },
-	{ "item" : "sugar", "count" : 2 }
-  ],
-  "output" : { "item" : "vanillaicingMFM", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
-}

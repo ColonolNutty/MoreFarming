@@ -32,8 +32,8 @@
     }
   ],
 
-  "openSounds" : [ "/sfx/objects/bookcase_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/bookcase_close.wav" ],
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
   "slotCount" : 32,
   "uiConfig" : "/interface/chests/chest%slots%.config",
   "frameCooldown" : 5,

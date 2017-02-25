@@ -7,7 +7,7 @@
   "description" : "An sturdy-looking bamboo desk.",
   "shortdescription" : "Bamboo Desk",
   "race" : "generic",
-  "category" : "furniture",
+  "category" : "storage",
   "price" : 500,
 
   "apexDescription" : "A solid bamboo desk.",
@@ -28,8 +28,8 @@
     }
   ],
 
-  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
   "slotCount" : 9,
   "uiConfig" : "/interface/chests/chest%slots%.config",
   "frameCooldown" : 5,

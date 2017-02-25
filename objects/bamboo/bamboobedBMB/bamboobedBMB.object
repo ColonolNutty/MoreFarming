@@ -24,8 +24,7 @@
   "sitCoverImage" : "/objects/generic/bamboobedBMB/bamboobedBMBcover.png",
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
-    "regeneration1",
-    "nude"
+    "bed1"
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

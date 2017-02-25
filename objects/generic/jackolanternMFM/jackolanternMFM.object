@@ -3,7 +3,7 @@
   "colonyTags" : ["nature","spooky","light"],
   "printable" : false,
   "rarity" : "Common",
-  "category" : "decorative",
+  "category" : "light",
   "price" : 50,
   "description" : "The scariest thing ever...?",
   "shortdescription" : "Large Jack 'O Lantern",
@@ -26,6 +26,11 @@
   "flickerMaxIntensity" : 0.75,
   "flickerPeriodVariance" : 0.075,
   "flickerIntensityVariance" : 0.025,
+  
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],,
 
   "inventoryIcon" : "jackolanternMFMicon.png",
   "orientations" : [

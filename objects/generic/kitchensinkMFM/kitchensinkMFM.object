@@ -34,8 +34,8 @@
     }
   ],
   "recipeGroup" : "kitchensink",
-  "openSounds" : [ "/sfx/objects/sinkenter.wav" ],
-  "closeSounds" : [ "/sfx/objects/sinkexit.wav" ],
+  "openSounds" : [ "/sfx/objects/sinkenter.ogg" ],
+  "closeSounds" : [ "/sfx/objects/sinkexit.ogg" ],
   "slotCount" : 2,
   "uiConfig" : "/interface/objectcrafting/kitchensinkMFM.config",
   "frameCooldown" : 67,

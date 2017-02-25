@@ -34,8 +34,14 @@
   "animation" : "/objects/wired/door/door.animation",
   "animationCustom" : {
     "sounds" : {
-      "open" : [ "/sfx/objects/woodendoor_open.wav" ],
-      "close" : [ "/sfx/objects/woodendoor_close.wav" ]
+      "open" : {
+        "pool" : [ "/sfx/objects/woodendoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/woodendoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
     }
   },
   "animationParts" : {
@@ -43,6 +49,6 @@
   },
   "animationPosition" : [-16, 0],
 
-  "inboundNodes" : [ [0, 2] ],
-  "outboundNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 2] ],
+  "outputNodes" : [ [0, 0] ]
 }

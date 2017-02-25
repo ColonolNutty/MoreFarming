@@ -31,21 +31,56 @@
   "scriptDelta" : 60,
 
   "inputNodes" : [ [0, 0] ],
+  "animation" : "jackolanternMFM.animation",
+  "animationParts" : {
+    "bg" : "jackolanternMFM.png",
+    "fg" : "jackolanternMFMlit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
 
   "inventoryIcon" : "jackolanternMFMicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "jackolanternMFM.png", "fullbright" : true }, { "image" : "jackolanternMFMlit.png" } ],
-      "flipImages" : true,
+      "animationParts" : {
+        "bg" : "jackolanternMFM.png",
+        "fg" : "jackolanternMFMlit.png"
+      },
+      "imageLayers" : [
+		{
+			"image" : "jackolanternMFM.png", "fullbright" : true
+		},
+		{
+			"image" : "jackolanternMFMlit.png"
+		}
+	  ],
       "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "flipImages" : true,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "direction" : "left",
       "lightPosition" : [0, 0]
     },
     {
-      "imageLayers" : [ { "image" : "jackolanternMFM.png", "fullbright" : true }, { "image" : "jackolanternMFMlit.png" } ],
-      "imagePosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "jackolanternMFM.png",
+        "fg" : "jackolanternMFMlit.png"
+      },
+      "imageLayers" : [
+		{
+			"image" : "jackolanternMFM.png", "fullbright" : true
+		},
+		{
+			"image" : "jackolanternMFMlit.png"
+		}
+	  ],
+	  "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "direction" : "right",

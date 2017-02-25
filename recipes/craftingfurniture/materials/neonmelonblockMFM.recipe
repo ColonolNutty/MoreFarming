@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "neonmelonfullMFM", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "neonmelonblockMFM",
+    "count" : 10
+  },
+  "groups" : [ "craftingfurniture", "materials", "all" ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 4 },
+    { "item" : "glassmaterial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "coffeemachine",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable2", "craftingstations", "objects", "all", "tools" ]
+}

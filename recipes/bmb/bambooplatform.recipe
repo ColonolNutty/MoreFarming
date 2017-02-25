@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "bamboostalkBMB", "count" : 2 } ],
-	"output" : { "item" : "bambooplatform", "count" : 1 },
-	"groups" : [ "craftingtable", "materials", "all" ]
-}

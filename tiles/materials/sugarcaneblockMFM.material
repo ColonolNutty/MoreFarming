@@ -9,7 +9,7 @@
   "floranDescription" : "Sssweet sssticksss.",
   "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
   "health" : 2,
-  "category": "material",
+  "category" : "materials",
   "damageTable" : "/tiles/flammableDamage.config",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

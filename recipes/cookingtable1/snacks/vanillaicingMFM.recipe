@@ -5,5 +5,5 @@
 	{ "item" : "sugar", "count" : 2 }
   ],
   "output" : { "item" : "vanillaicingMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "consumables", "foodhealing","all" ]
+  "groups" : [ "craftingfood", "snacks", "consumables", "foodhealing","all" ]
 }

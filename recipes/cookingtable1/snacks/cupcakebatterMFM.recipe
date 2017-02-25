@@ -8,5 +8,5 @@
 	{ "item" : "vanillaextractMFM", "count" : 1 }
   ],
   "output" : { "item" : "cupcakeMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "consumables", "foodhealing","all" ]
+  "groups" : [ "craftingfood", "", "consumables", "foodhealing","all" ]
 }

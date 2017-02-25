@@ -1,6 +1,7 @@
 {
   "itemName" : "boiledartichokeMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "boiledartichokeMFM.png",
   "description" : "A boiled artichoke.",
   "shortdescription" : "Boiled Artichoke",

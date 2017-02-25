@@ -1,6 +1,7 @@
 {
   "itemName" : "chocolateicecreamMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "chocolateicecreamMFM.png",
   "description" : "Chocolate ice cream.",
   "shortdescription" : "Chocolate Ice Cream",

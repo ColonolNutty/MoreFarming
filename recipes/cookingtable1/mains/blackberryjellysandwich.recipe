@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "blackberryjellyPBJ", "count" :1 },
+    { "item" : "bread", "count" :2 }
+  ],
+  "output" : {
+    "item" : "blackberryjellysandwichPBJ",
+    "count" : 1
+  },
+  "groups" : [ "craftingfood", "mains", "consumables", "desserts", "PB+J" ]
+}

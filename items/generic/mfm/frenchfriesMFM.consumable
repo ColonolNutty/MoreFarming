@@ -1,6 +1,7 @@
 {
   "itemName" : "frenchfriesMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "frenchfriesMFM.png",
   "description" : "Bonjour!",
   "shortdescription" : "French Fries",

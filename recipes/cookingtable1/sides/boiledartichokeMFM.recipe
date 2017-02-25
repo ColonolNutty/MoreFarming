@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "artichokeMFM", "count" : 1 }
+
+,{ "item" : "liquidwater", "count" : 1 }
+
+  ],
+  "output" : { "item" : "boiledartichokeMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "sides", "consumables", "foodhealing","all" ]
+}

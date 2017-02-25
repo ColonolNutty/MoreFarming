@@ -1,6 +1,7 @@
 {
   "itemName" : "slicedcucumberMFM",
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "slicedcucumberMFM.png",
   "description" : "Sliced cucumber.",
   "shortdescription" : "Sliced Cucumber",

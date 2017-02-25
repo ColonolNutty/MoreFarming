@@ -1,6 +1,7 @@
 {
   "itemName" : "darkchocolateMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "darkchocolateMFM.png",
   "description" : "So chocolatey.",
   "shortdescription" : "Dark Chocolate",

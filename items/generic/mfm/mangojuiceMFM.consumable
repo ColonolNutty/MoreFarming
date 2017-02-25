@@ -1,6 +1,7 @@
 {
   "itemName" : "mangojuiceMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "mangojuiceMFM.png",
   "description" : "Sweet Mango juice.",
   "shortdescription" : "Mango Juice",

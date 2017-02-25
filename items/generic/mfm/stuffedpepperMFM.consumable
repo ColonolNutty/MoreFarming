@@ -1,6 +1,7 @@
 {
   "itemName" : "stuffedpepperMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "stuffedpepperMFM.png",
   "description" : "A bellpepper stuffed with rice, covered in tomato sauce.",
   "shortdescription" : "Stuffed Pepper",

@@ -3,5 +3,5 @@
     { "item" : "wholeoatsMFM", "count" : 1 }
   ],
   "output" : { "item" : "groatsMFM", "count" : 1 },
-  "groups" : [ "cooking", "consumables", "all" ]
+  "groups" : [ "campfire", "consumables", "all" ]
 }

@@ -1,6 +1,7 @@
 {
   "itemName" : "mincedgarlicMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "mincedgarlicMFM.png",
   "description" : "Minced Garlic.",
   "shortdescription" : "Minced Garlic",

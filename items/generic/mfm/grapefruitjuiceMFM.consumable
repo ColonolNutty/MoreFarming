@@ -1,6 +1,7 @@
 {
   "itemName" : "grapefruitjuiceMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "grapefruitjuiceMFM.png",
   "description" : "tart grapefruit juice.",
   "shortdescription" : "Grapefruit Juice",

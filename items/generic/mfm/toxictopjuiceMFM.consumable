@@ -1,6 +1,7 @@
 {
   "itemName" : "toxictopjuiceMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "toxictopjuiceMFM.png",
   "description" : "Looks toxic..",
   "shortdescription" : "Toxictop juice",

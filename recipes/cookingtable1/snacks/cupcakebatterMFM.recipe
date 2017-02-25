@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "flourMFM", "count" : 4 },
+    { "item" : "butter", "count" : 1 },
+	{ "item" : "milk", "count" : 1 },
+	{ "item" : "egg", "count" : 1 },
+	{ "item" : "sugar", "count" : 4 },
+	{ "item" : "vanillaextractMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "cupcakeMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "", "consumables", "foodhealing","all" ]
+}

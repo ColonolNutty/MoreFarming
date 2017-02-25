@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "broccoliMFM", "count" : 2 },
+	{ "item" : "liquidwater", "count" : 1 }
+  ],
+  "output" : { "item" : "steamedbroccoliMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "sides", "consumables", "foodhealing","all" ]
+}

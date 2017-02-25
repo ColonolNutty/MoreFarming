@@ -7,5 +7,5 @@
     "item" : "largejackolanternMFM",
     "count" : 1
   },
-  "groups" : [ "ccraftingfurniture", "decoration", "materials", "all" ]
+  "groups" : [ "craftingfurniture", "decoration", "materials", "all" ]
 }

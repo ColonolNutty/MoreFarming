@@ -1,6 +1,7 @@
 {
   "itemName" : "slicedlimeMFM",
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "slicedlimeMFM.png",
   "description" : "Sliced lime.",
   "shortdescription" : "Sliced Lime",

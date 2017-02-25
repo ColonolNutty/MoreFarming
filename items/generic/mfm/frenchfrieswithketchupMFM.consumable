@@ -1,6 +1,7 @@
 {
   "itemName" : "frenchfrieswithketchupMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "frenchfrieswithketchupMFM.png",
   "description" : "A strange combo if you think about it..",
   "shortdescription" : "French Fries With Ketchup",

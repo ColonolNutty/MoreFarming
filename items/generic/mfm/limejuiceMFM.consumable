@@ -1,6 +1,7 @@
 {
   "itemName" : "limejuiceMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "limejuiceMFM.png",
   "description" : "Tart lime juice.",
   "shortdescription" : "Lime Juice",

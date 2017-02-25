@@ -1,6 +1,7 @@
 {
   "itemName" : "grilledonionMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "grilledonionMFM.png",
   "description" : "A grilled onion.",
   "shortdescription" : "Grilled Onion",

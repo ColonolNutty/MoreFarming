@@ -1,6 +1,7 @@
 {
   "itemName" : "whitechocolateMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "whitechocolateMFM.png",
   "description" : "Yummmmmmm!",
   "shortdescription" : "White Chocolate",

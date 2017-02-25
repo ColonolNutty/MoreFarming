@@ -1,6 +1,7 @@
 {
   "itemName" : "grilledasparagusMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "grilledasparagusMFM.png",
   "description" : "Grilled asparagus.",
   "shortdescription" : "Grilled Asparagus",

@@ -1,6 +1,7 @@
 {
   "itemName" : "chocolatefrenchtoastMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "chocolatefrenchtoastMFM.png",
   "description" : "FRENCH TOAST!",
   "shortdescription" : "Chocolate French Toast",

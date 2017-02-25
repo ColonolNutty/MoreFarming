@@ -1,6 +1,7 @@
 {
   "itemName" : "vanillaicecreamMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "vanillaicecreamMFM.png",
   "description" : "Vanilla ice cream.",
   "shortdescription" : "Vanilla Ice Cream",

@@ -9,7 +9,7 @@
   "floranDescription" : "Tasssty block.",
   "footstepSound" : "/sfx/blocks/footstep_rock.wav",
   "health" : 2,
-  "category": "material",
+  "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

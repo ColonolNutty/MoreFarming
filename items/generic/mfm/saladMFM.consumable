@@ -1,6 +1,7 @@
 {
   "itemName" : "saladMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "saladMFM.png",
   "description" : "Salad.",
   "shortdescription" : "Salad",

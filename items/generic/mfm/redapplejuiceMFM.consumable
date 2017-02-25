@@ -1,6 +1,7 @@
 {
   "itemName" : "redapplejuiceMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "redapplejuiceMFM.png",
   "description" : "sweet apple juice.",
   "shortdescription" : "Apple Juice",

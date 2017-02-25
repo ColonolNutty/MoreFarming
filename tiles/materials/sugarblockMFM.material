@@ -9,7 +9,7 @@
   "floranDescription" : "Sssweet block.",
   "footstepSound" : "/sfx/blocks/footstep_ash.wav",
   "health" : 1,
-  "category": "material",
+  "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

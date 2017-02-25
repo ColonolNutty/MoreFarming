@@ -1,6 +1,7 @@
 {
   "itemName" : "boiledgreenbeansMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "boiledgreenbeansMFM.png",
   "description" : "Boiled green beans.",
   "shortdescription" : "Boiled Green Beans",

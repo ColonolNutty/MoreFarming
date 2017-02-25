@@ -1,6 +1,7 @@
 {
   "itemName" : "steamedpeasMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "steamedpeasMFM.png",
   "description" : "Steamed peas.",
   "shortdescription" : "Steamed Peas",

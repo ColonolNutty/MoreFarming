@@ -1,6 +1,7 @@
 {
   "itemName" : "slicedorangeMFM",
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "slicedorangeMFM.png",
   "description" : "Sliced orange.",
   "shortdescription" : "Sliced Orange",

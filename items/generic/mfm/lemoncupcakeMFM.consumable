@@ -1,6 +1,7 @@
 {
   "itemName" : "lemoncupcakeMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "lemoncupcakeMFM.png",
   "description" : "Now just take a little something sweet, not sour!",
   "shortdescription" : "Cupcake With Lemon Icing",

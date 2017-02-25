@@ -42,8 +42,8 @@
     }
   ],
   "recipeGroup" : "icemaker",
-  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/locker_close.wav" ],
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
   "slotCount" : 2,
   "uiConfig" : "/interface/objectcrafting/icemaker.config",
   "frameCooldown" : 67,

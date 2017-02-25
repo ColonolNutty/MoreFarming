@@ -1,6 +1,7 @@
 {
   "itemName" : "chocolatechipicecreamMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "chocolatechipicecreamMFM.png",
   "description" : "Chocolate chip ice cream.",
   "shortdescription" : "Chocolate Chip Ice Cream",

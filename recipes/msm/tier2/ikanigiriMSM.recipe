@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "rice", "count" : 4 },
-    { "item" : "rawfish", "count" : 1 }  ],
-  "output" : { "item" : "ikanigiriMSM", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing", "foodmobility" ]
-}

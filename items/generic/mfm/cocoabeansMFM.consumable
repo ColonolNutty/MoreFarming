@@ -1,6 +1,7 @@
 {
   "itemName" : "cocoabeansMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "cocoabeansMFM.png",
   "description" : "This is not their final form.",
   "shortdescription" : "Cocoa Beans",

@@ -1,6 +1,7 @@
 {
   "itemName" : "sweetpotatofriesMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "sweetpotatofriesMFM.png",
   "description" : "Sweet and salty.",
   "shortdescription" : "Sweet Potato Fries",

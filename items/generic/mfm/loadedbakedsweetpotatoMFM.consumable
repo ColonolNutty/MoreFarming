@@ -1,6 +1,7 @@
 {
   "itemName" : "loadedbakedsweetpotatoMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "loadedbakedsweetpotatoMFM.png",
   "description" : "A baked sweet potato with butter, covered in marshmallows.",
   "shortdescription" : "Loaded Baked Sweet Potato",

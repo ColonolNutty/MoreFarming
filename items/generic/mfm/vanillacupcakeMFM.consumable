@@ -1,6 +1,7 @@
 {
   "itemName" : "vanillacupcakeMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "vanillacupcakeMFM.png",
   "description" : "Baking these treats is such a cinch!",
   "shortdescription" : "Cupcake With Vanilla Icing",

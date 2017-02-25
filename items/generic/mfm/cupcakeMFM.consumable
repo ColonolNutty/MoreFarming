@@ -1,6 +1,7 @@
 {
   "itemName" : "cupcakeMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "cupcakeMFM.png",
   "description" : "Baking these treats is such a cinch!",
   "shortdescription" : "Plain Cupcake",

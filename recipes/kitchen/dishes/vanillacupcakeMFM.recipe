@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "cupcakeMFM", "count" : 1 },
-	{ "item" : "vanillaicingMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "vanillacupcakeMFM", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
-}

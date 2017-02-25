@@ -1,6 +1,7 @@
 {
   "itemName" : "roastedpeanutMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "roastedpeanutMFM.png",
   "description" : "Roasted and shelled peanuts.",
   "shortdescription" : "Roasted Peanuts",

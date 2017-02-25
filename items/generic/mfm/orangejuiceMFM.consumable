@@ -1,6 +1,7 @@
 {
   "itemName" : "orangejuiceMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "orangejuiceMFM.png",
   "description" : "Sweet orange juice.",
   "shortdescription" : "Orange Juice",

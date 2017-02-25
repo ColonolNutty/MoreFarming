@@ -1,6 +1,7 @@
 {
   "itemName" : "chocolatecoveredbaconMFM",
   "rarity" : "Common",
+  "category" : "preparedFood",
   "inventoryIcon" : "chocolatecoveredbaconMFM.png",
   "description" : "Oh my...",
   "shortdescription" : "Chocolate Covered Bacon",

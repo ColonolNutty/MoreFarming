@@ -3,7 +3,7 @@
   "colonyTags" : ["nature","spooky","light"],
   "printable" : false,
   "rarity" : "Common",
-  "category" : "decorative",
+  "category" : "light",
   "price" : 60,
   "description" : "The scariest thing ever...?",
   "shortdescription" : "Large Jack 'O Lantern",
@@ -26,21 +26,61 @@
   "flickerMaxIntensity" : 0.75,
   "flickerPeriodVariance" : 0.075,
   "flickerIntensityVariance" : 0.025,
+  
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+  "animation" : "largejackolanternMFM.animation",
+  "animationParts" : {
+    "bg" : "largejackolanternMFM.png",
+    "fg" : "largejackolanternMFMlit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
 
   "inventoryIcon" : "largejackolanternMFMicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "largejackolanternMFM.png", "fullbright" : true }, { "image" : "largejackolanternMFMlit.png" } ],
-      "flipImages" : true,
+      "animationParts" : {
+		"bg" : "largejackolanternMFM.png",
+		"fg" : "largejackolanternMFMlit.png"
+      },
+      "imageLayers" : [
+		{
+			"image" : "largejackolanternMFM.png", "fullbright" : true
+		},
+		{
+			"image" : "largejackolanternMFMlit.png"
+		}
+	  ],
       "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "flipImages" : true,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "direction" : "left",
       "lightPosition" : [0, 0]
     },
     {
-      "imageLayers" : [ { "image" : "largejackolanternMFM.png", "fullbright" : true }, { "image" : "largejackolanternMFMlit.png" } ],
+      "animationParts" : {
+		"bg" : "largejackolanternMFM.png",
+		"fg" : "largejackolanternMFMlit.png"
+      },
+      "imageLayers" : [
+		{
+			"image" : "largejackolanternMFM.png", "fullbright" : true
+		},
+		{
+			"image" : "largejackolanternMFMlit.png"
+		}
+	  ],
       "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "direction" : "right",

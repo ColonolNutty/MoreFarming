@@ -3,5 +3,5 @@
     { "item" : "milk", "count" : 1 }
   ],
   "output" : { "item" : "creamMFM", "count" : 1 },
-  "groups" : [ "kitchen", "other","all" ]
+  "groups" : [ "kitchen", "consumables", "other","all" ]
 }

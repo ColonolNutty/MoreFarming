@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "paper", "count" : 1 }
-  ],
-  "output" : { "item" : "cupcakepaperMFM", "count" : 1 },
-  "groups" : [ "craftingtable", "other","all" ]
-}

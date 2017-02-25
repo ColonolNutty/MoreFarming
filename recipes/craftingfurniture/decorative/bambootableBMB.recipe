@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "bamboostalkBMB", "count" : 15 }
+  ],
+  "output" : {
+    "item" : "bambootableBMB",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "decoration", "objects", "all" ]
+}

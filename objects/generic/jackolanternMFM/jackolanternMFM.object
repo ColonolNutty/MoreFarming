@@ -30,7 +30,7 @@
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
 
-  "inputNodes" : [ [0, 0] ],,
+  "inputNodes" : [ [0, 0] ],
 
   "inventoryIcon" : "jackolanternMFMicon.png",
   "orientations" : [

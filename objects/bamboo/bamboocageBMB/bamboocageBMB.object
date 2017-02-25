@@ -6,7 +6,7 @@
   "price" : 600,
   "description" : "A cage. Looks like there was an angry rat in it.",
   "shortdescription" : "Bamboo Cage",
-  "race" : "floran",
+  "race" : "generic",
 
   "apexDescription" : "A sturdy cage.",
   "avianDescription" : "An imposing cage.",
@@ -27,5 +27,15 @@
       "anchors" : [ "bottom" ]
 
     }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-4, 22],
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitCoverImage" : "/objects/bamboo/bamboocageBMB/bamboocageBMBcover.png",
+  "sitStatusEffects" : [
+    "nude"
   ]
 }

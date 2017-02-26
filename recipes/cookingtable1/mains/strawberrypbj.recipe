@@ -8,5 +8,5 @@
     "item" : "strawberrypbjPBJ",
     "count" : 1
   },
-  "groups" : [ "craftingfood", "mains", "consumables", "desserts", "PB+J" ]
+  "groups" : [ "craftingfood", "mains", "consumables", "PB+J" ]
 }

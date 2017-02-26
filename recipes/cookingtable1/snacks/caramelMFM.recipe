@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "sugar", "count" : 4 }  ],
+    { "item" : "sugar", "count" : 4 }
+  ],
   "output" : { "item" : "caramelMFM", "count" : 1 },
   "groups" : [ "craftingfood", "snacks", "consumables", "foodhealing","all" ]
 }

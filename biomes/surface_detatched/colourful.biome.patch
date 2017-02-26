@@ -12,7 +12,7 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildcocoaMFMseed" ],
+						[1, "wildcocoaseed" ],
 						[1, "wilddragonfruitMFMseed" ],
 						[1, "wildgingerMSMseed" ],
 						[1, "wildjalapenopepperMFMseed" ],

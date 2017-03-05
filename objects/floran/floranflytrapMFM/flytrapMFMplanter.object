@@ -19,7 +19,7 @@
   "hylotlDescription" : "Land-bound predator plant. Must stay away from it.",
 
   "inventoryIcon" : "flytrapMFMplantericon.png",
-  "inventoryIcon" : "flytrapMFMplanter.png:default.4",
+  "largeImage" : "flytrapMFMplanter.png:default.4",
   "orientations" : [
     {
       "dualImage" : "flytrapMFMplanter.png:<color>.<frame>",

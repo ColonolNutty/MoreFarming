@@ -389,5 +389,23 @@
         }
       ]
     ]
+  },
+  {
+    "op": "add",
+    "path": "/flyTrapMFMHarvest",
+    "value": [
+      [0, {
+        "fill" : [{"item" : "flytrapMFMseed"}],
+        "pool" : [
+          {"weight" : 0.89, "item" : "flytrapMFMmeat"},
+          {"weight" : 0.3, "item" : "flytrapMFMseed"},
+          {"weight" : 0.01, "item" : "flytrapMFMplanter"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ]
+    ]
   }
 ]

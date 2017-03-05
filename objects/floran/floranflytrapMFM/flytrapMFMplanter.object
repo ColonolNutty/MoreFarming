@@ -1,0 +1,35 @@
+{
+  "objectName" : "flytrapMFMplanter",
+  "colonyTags" : ["floran","floranvillage"],
+  "rarity" : "Uncommon",
+
+  "description" : "A fully grown Floran fly trap. Watch your fingers!",
+  "shortdescription" : "Floran Fly Trap Planter",
+  "race" : "floran",
+  "category" : "decorative",
+  "price" : 250,
+  "printable" : false,
+  "retainObjectParametersInItem" : true,
+    
+  "apexDescription" : "This plant is just ripe for genetic experimentation!",
+  "avianDescription" : "What bizarre alien planet did this come from?.",
+  "floranDescription" : "Thisss strong plantsss. It good eatsss, make Floran ssstrong!",
+  "glitchDescription" : "Timid. This Glitch wonder if growing this is a good idea.",
+  "humanDescription" : "Just like the ones on Earth, only much bigger and more aggressive!",
+  "hylotlDescription" : "Land-bound predator plant. Must stay away from it.",
+
+  "inventoryIcon" : "flytrapMFMplantericon.png",
+  "inventoryIcon" : "flytrapMFMplanter.png:default.4",
+  "orientations" : [
+    {
+      "dualImage" : "flytrapMFMplanter.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 1.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

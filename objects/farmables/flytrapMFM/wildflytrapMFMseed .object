@@ -1,0 +1,54 @@
+{
+  "objectName" : "wildflytrapMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A carnivorous plant seed!",
+  "shortdescription" : "Wild Fly Trap Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+  "hasObjectItem" : false,
+
+  "biomePlaced" : true,
+
+  "apexDescription" : "This plant is just ripe for genetic experimentation!",
+  "avianDescription" : "What bizarre alien planet did this come from?.",
+  "floranDescription" : "Thisss strong plantsss. It good eatsss, make Floran ssstrong!",
+  "glitchDescription" : "Timid. This Glitch wonder if growing this is a good idea.",
+  "humanDescription" : "Just like the ones on Earth, only much bigger and more aggressive!",
+  "hylotlDescription" : "Land-bound predator plant. Must stay away from it.",
+
+  "inventoryIcon" : "flytrapMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "flytrapMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [200, 250]
+    },
+    {
+      "duration" : [200, 250]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "flyTrapMFMHarvest"
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "flytrapMFMseed", 1, { } ] ]
+  ],
+
+  "maxImmersion" : 0.125
+}

@@ -11,5 +11,7 @@
 { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "microwave" } },
 { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "oven1" } },
 { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cocoaseed" } },
-{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cocoa" } }
+{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cocoa" } },
+{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cookedflytrapMFMmeat" } },
+{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "flytrapMFMseed" } }
 ]

@@ -407,5 +407,44 @@
         ]
       } ]
     ]
+  },
+  {
+    "op": "add",
+    "path": "/saguaroMFMHarvest",
+    "value": [
+      [0, {
+        "fill": [
+          {"item" : "saguaroMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "saguaroMFMseed"},
+          {"weight" : 0.1, "item" : "fullwood1"}
+        ],
+        "poolRounds" : [
+          [0.6, 2],
+          [0.4, 3]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/greatbambooMFMHarvest",
+    "value": [
+      [0, {
+        "fill": [
+          {"item" : "greatbambooMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "greatbambooMFMseed"},
+          {"weight" : 0.1, "item" : "fullwood1"}
+        ],
+        "poolRounds" : [
+          [0.6, 2],
+          [0.3, 3],
+          [0.1, 5]
+        ]
+      } ]
+    ]
   }
 ]

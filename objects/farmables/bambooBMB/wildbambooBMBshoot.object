@@ -11,6 +11,8 @@
   "price" : 100,
   "hasObjectItem" : false,
 
+  "biomePlaced" : true,
+
   "apexDescription" : "Bamboo.",
   "avianDescription" : "Bamboo.",
   "floranDescription" : "Sssharp sssticksss for ssstabbing!",

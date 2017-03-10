@@ -27,5 +27,27 @@
 				}
 			]
 		}
+	},
+	{
+		"op": "add",
+		"path": "/surfacePlaceables/items/-",
+		"value": {
+			"mode" : "floor",
+			"priority" : 1,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:surfaceCrops",
+
+			"type" : "object",
+			"objectSets" : [
+				{
+					"pool" : [
+						[1, "wildholidayfirMFMseed" ]
+					],
+					"parameters" : {
+						"startingStage" : 2
+					}
+				}
+			]
+		}
 	}
 ]

@@ -1,9 +1,8 @@
 {
-	"author" : "TheBigBlueSerpent",
-	"description" : "Spice up your fridges with More Farming!",
+	"author" : "ColonolNutty",
+	"description" : "Spice up your fridges with More Farming! Special Thanks to: TheBigBlueSerpent for the Original mod, Mackinz, for updating it to Pleased Giraffe. ColonolNutty, for updating it to v1.2.2, Bughunter for Prickly Pears, Ulithium_Dragon for Animated Fly Trap, Petrenko for Bamboo (renamed Great Bamboo) and Cactus (renamed Saguaro), Thundercraft for Holiday Fir Trees",
 	"friendlyName" : "MoreFarming",
 	"includes" : ["HorticulturalImprovements"],
 	"name" : "MoreFarming",
-	"version" : "1.2.0 PBJ Bamboo Sushi Special Updated",
-	"thanks" : "Mackinz, for updating it to Pleased Giraffe. ColonolNutty, for updating it to v1.2.2"
+	"version" : "1.2.2 More Farming Revitalization"
 }

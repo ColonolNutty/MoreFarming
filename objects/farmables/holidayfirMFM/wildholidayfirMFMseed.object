@@ -1,0 +1,57 @@
+{
+  "objectName" : "wildholidayfirMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Uncommon",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "A fir tree engineered for fast growth and medicinal golden fruit.",
+  "shortdescription" : "Holiday Fir Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 200,
+  "hasObjectItem" : false,
+
+  "biomePlaced" : true,
+
+  "apexDescription" : "This tree is deceptive. Fruits are golden and sweet, but are not bananas.",
+  "avianDescription" : "Both festive and functional. Nice.",
+  "floranDescription" : "Ssslightly sssparkly tree. Sssomewhat edible.",
+  "glitchDescription" : "Disappointed. While the decoration is edible, there is no tin or tinsel.",
+  "humanDescription" : "Ahh, the smell of a real Christmas tree! Genetically-engineered, that is...",
+  "hylotlDescription" : "A partially authentic holiday tree with a gift of fruit. I'm partially impressed.",
+
+  "inventoryIcon" : "holidayfirMFMseedicon.png",
+  "largeImage" : "holidayfirMFMseed.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "holidayfirMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [660, 780]
+    },
+    {
+      "duration" : [660, 780]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "holidayfirMFMHarvest",
+      "resetToStage" : 1
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "holidayfirMFMseed", 1, { } ] ]
+  ],
+
+  "maxImmersion" : 0.125
+}

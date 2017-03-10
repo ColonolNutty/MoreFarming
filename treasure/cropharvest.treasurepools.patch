@@ -446,5 +446,21 @@
         ]
       } ]
     ]
+  },
+  {
+    "op" : "add",
+    "path" : "/holidayfirMFMHarvest",
+    "value" : [ [0, {
+        "fill": [
+          {"item" : "holidayfirMFMseed"},
+          {"item" : "fullwood1"}
+        ], 
+        "pool" : [
+          {"weight" : 0.89, "item" : "holidayfruitMFM"},
+          {"weight" : 0.10, "item" : "holidayfirMFMseed"},
+          {"weight" : 0.10, "item" : "holidayspiritMFM"},
+          {"weight" : 0.89, "item" : "fullwood1"}
+        ],
+        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
   }
 ]

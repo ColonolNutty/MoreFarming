@@ -1,0 +1,24 @@
+{
+  "itemName" : "cookedcactiMFM",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "preparedFood",
+  "inventoryIcon" : "cookedcactiMFM.png",
+  "description" : "Spiky, but somewhat more edible.",
+  "shortdescription" : "Dried Cactus",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+    {
+        "effect" : "thorns",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

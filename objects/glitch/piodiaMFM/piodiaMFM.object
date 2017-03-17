@@ -1,0 +1,40 @@
+{
+  "objectName" : "piodiaMFM",
+  "rarity" : "Uncommon",
+  "description" : "A large piodia. A variation of pizzap- it's got a more coppery tang.",
+  "price" : 400,
+  "shortdescription" : "Piodia",
+  "race" : "generic",
+  "category" : "decorative",
+  
+  "apexDescription" : "This reminds me of how the slop I used to be fed gave me jolts. I wonder if- OBEY BIG APE.",
+  "avianDescription" : "I don't know what to think about this.",
+  "floranDescription" : "Floran dont like eating shocking metal pie.",
+  "glitchDescription" : "Shocked. I'm shocked.",
+  "humanDescription" : "It's got a coppery tang. I'd still eat it.",
+  "hylotlDescription" : "The act of just throwing this stuff together disrespects what cooking means.",
+  
+  "inventoryIcon" : "piodiaMFMicon.png",
+  "largeImage" : "piodiaMFM.png:default.default",
+  "orientations" : [
+	{
+		"dualImage" : "piodiaMFM.png:<color>.0",
+		"imagePosition" : [-8, 0],
+		"frames" : 1,
+		"animationCycle" : 0.5,
+		"spaceScan" : 0.1,
+		"anchors" : [ "bottom" ]
+	}
+  ],
+  
+  "breakDropOptions" : [ [
+	[ "piodia", 1, { } ],
+	[ "piodia", 1, { } ],
+	[ "piodia", 1, { } ],
+	[ "piodia", 1, { } ],
+	[ "piodia", 1, { } ],
+	[ "piodia", 1, { } ],
+	[ "piodia", 1, { } ],
+	[ "piodia", 1, { } ]
+  ] ]
+}

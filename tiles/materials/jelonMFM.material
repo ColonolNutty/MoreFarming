@@ -1,0 +1,23 @@
+{
+  "materialId" : 3302,
+  "materialName" : "jelonMFM",
+  "particleColor" : [50, 146, 230, 255],
+  "variants" : 5,
+  "itemDrop" : "jelonblockMFM",
+  "description" : "A block of gelatin-like jelons.",
+  "shortdescription" : "Jelon Block.",
+  "glitchDescription" : "Analysis. Jelon Block.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.wav",
+  "health" : 2,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "jelonMFM.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

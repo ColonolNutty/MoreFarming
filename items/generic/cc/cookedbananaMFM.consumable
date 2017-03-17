@@ -1,0 +1,19 @@
+{
+  "itemName" : "cookedbananaMFM",
+  "rarity" : "Common",
+  "price" : 200,
+  "category" : "preparedFood",
+  "inventoryIcon" : "cookedbananaMFM.png",
+  "description" : "A SUPER fried banana!",
+  "shortdescription" : "Fried Banana",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [-2, -2]
+}

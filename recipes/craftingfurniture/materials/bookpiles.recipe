@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "bookpiles",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "materials", "all" ]
+}

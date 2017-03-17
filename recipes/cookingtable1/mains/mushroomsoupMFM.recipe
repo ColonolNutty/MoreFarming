@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "shroom", "count" : 2 }
+  ],
+  "output" : { "item" : "mushroomsoupMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "consumables", "mains", "all" ]
+}

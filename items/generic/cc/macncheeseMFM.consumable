@@ -1,0 +1,29 @@
+{
+  "itemName" : "macncheeseMFM",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "preparedFood",
+  "inventoryIcon" : "macncheeseMFM.png",
+  "description" : "Pasta with some cheese. Arguably the best pasta.",
+  "shortdescription" : "Macaroni & Cheese",
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+      {
+        "effect" : "regeneration1",
+        "duration" : 20
+      },
+      {
+        "effect" : "jumpboostfood",
+        "duration" : 180
+      }
+    ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [0, 4]
+}

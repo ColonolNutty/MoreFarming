@@ -1,0 +1,48 @@
+{
+  "objectName" : "jelonMFMseed",
+  "rarity" : "Uncommon",
+  "colonyTags" : ["nature"],
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "largeImage" : "jelonMFMseed.png:default.3.0",
+  "description" : "A jelon seed. Grows gelatinous jelon!",
+  "shortdescription" : "Jelon Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+
+  "apexDescription" : "A stolen experiment. The sweet taste rivals the rapid growth.",
+  "avianDescription" : "A crop grown by some Apex in secret.",
+  "floranDescription" : "Sssquishy root.",
+  "glitchDescription" : "Disgust. This plant can only be used as a lubricant.",
+  "humanDescription" : "Jelly that you can grow!",
+  "hylotlDescription" : "A disgusting plant, invented for those who cannot cook.",
+
+  "inventoryIcon" : "jelonMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "jelonMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [30, 40]
+    },
+    {
+      "duration" : [30, 40]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "jelonMFMHarvest"
+    }
+  ]
+}

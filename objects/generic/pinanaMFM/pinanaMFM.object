@@ -1,0 +1,40 @@
+{
+  "objectName" : "pinanaMFM",
+  "rarity" : "Uncommon",
+  "description" : "A large pinana. It's like a sweet pizza.",
+  "price" : 400,
+  "shortdescription" : "Pinana",
+  "race" : "generic",
+  "category" : "decorative",
+  
+  "apexDescription" : "The best kind of pizza. Ever.",
+  "avianDescription" : "It tastes good but it's so hard to eat!",
+  "floranDescription" : "Floran pretend issss eating monkey man when eat thissss.",
+  "glitchDescription" : "Disappointment. This pizza is nothing compared to a pizzap.",
+  "humanDescription" : "It tastes sweet and sugary but it's still pizza-y.",
+  "hylotlDescription" : "The act of just throwing this stuff together disrespects what cooking means.",
+  
+  "inventoryIcon" : "pinanaMFMicon.png",
+  "largeImage" : "pinanaMFM.png:default.default",
+  "orientations" : [
+	{
+		"dualImage" : "pinanaMFM.png:<color>.0",
+		"imagePosition" : [-8, 0],
+		"frames" : 1,
+		"animationCycle" : 0.5,
+		"spaceScan" : 0.1,
+		"anchors" : [ "bottom" ]
+	}
+  ],
+  
+  "breakDropOptions" : [ [
+	[ "pinanasliceMFM", 1, { } ],
+	[ "pinanasliceMFM", 1, { } ],
+	[ "pinanasliceMFM", 1, { } ],
+	[ "pinanasliceMFM", 1, { } ],
+	[ "pinanasliceMFM", 1, { } ],
+	[ "pinanasliceMFM", 1, { } ],
+	[ "pinanasliceMFM", 1, { } ],
+	[ "pinanasliceMFM", 1, { } ]
+  ] ]
+}

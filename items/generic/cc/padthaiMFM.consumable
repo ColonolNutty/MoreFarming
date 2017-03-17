@@ -1,0 +1,25 @@
+{
+  "itemName" : "padthaiMFM",
+  "rarity" : "Uncommon",
+  "price" : 50,
+  "category" : "preparedFood",
+  "inventoryIcon" : "padthaiMFM.png",
+  "description" : "A Hylotl dish made of noodles and various ingredients.",
+  "shortdescription" : "Pad Thai",
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+      {
+        "effect" : "regeneration1",
+        "duration" : 20
+      }
+    ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [0, 4]
+}

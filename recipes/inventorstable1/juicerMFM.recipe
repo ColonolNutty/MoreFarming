@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 250 },
+    { "item" : "ironbar", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "juicerMFM",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "craftingstations", "objects", "all", "tools" ]
+}

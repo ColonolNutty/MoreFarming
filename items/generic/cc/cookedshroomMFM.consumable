@@ -1,0 +1,18 @@
+{
+  "itemName" : "cookedshroomMFM",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "preparedFood",
+  "inventoryIcon" : "cookedshroomMFM.png",
+  "description" : "A mushroom that is somewhat more edible.",
+  "shortdescription" : "Fried Mushroom",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

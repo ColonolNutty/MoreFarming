@@ -1,0 +1,19 @@
+{
+  "itemName" : "shadowbulbMFM",
+  "rarity" : "Rare",
+  "price" : 50,
+  "category" : "food",
+  "inventoryIcon" : "shadowbulbMFM.png",
+  "description" : "Shadowbulb, tastes like darkness. Somehow.",
+  "shortdescription" : "Shadowbulb",
+  "handPosition" : [8, 0],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

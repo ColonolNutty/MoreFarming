@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "Book"
+  },
+  {
+    "op": "replace",
+    "path": "/description",
+    "value": "A book, full of tales of dragons and knights."
+  }
+]

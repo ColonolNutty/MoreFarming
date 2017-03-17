@@ -1,0 +1,53 @@
+{
+  "objectName" : "wildappleMFMseed",
+  "rarity" : "Common",
+  "colonyTags" : ["nature"],
+  "category" : "seed",
+  "price" : 20,
+  "tooltipKind" : "seed",
+  "largeImage" : "appleMFMseed.png:default.3.0",
+  "description" : "Ripe apples.",
+  "shortdescription" : "Apple Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "hasObjectItem" : false,
+
+  "biomePlaced" : true,
+
+  "apexDescription" : "Some apples can grow from here.",
+  "avianDescription" : "Some apples can grow from here.",
+  "floranDescription" : "Ssssome apples can grow from here.",
+  "glitchDescription" : "Statement. Apples grow from here.",
+  "humanDescription" : "How American can it get?",
+  "hylotlDescription" : "Some apples can grow from here.",
+
+  "inventoryIcon" : "appleMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "appleMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "stages" : [
+    {
+      "duration" : [2820, 2940]
+    },
+    {
+      "duration" : [2820, 2940]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "appleMFMHarvest"
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "appleMFMseed", 1, { } ] ]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "itemName" : "jelonjuiceMFM",
+  "rarity" : "Common",
+  "price" : 100,
+  "inventoryIcon" : "jelonjuiceMFM.png",
+  "description" : "A sweet glass of jelon juice.",
+  "shortdescription" : "Jelon Juice",
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" :[  [
+    {
+        "effect" : "energyregen",
+        "duration" : 50
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [8, -3],
+  "emitters" : [ "drinking" ]
+}

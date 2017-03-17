@@ -1,0 +1,31 @@
+{
+  "itemName" : "jelonjamMFM",
+  "rarity" : "Common",
+  "price" : 300,
+  "category" : "food",
+  "inventoryIcon" : "jelonjamMFM.png",
+  "description" : "Jelons with the leaves and seeds taken out.",
+  "shortdescription" : "Jelon Jam",
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+    {
+        "effect" : "runboostfood",
+        "duration" : 30
+    },
+    {
+        "effect" : "energyregen",
+        "duration" : 50
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [0, 4],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "jelonbrownieMFM", "jeloncookieMFM", "jelonbreadMFM" ]
+}

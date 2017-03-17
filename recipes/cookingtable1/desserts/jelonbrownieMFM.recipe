@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "jelonMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "chocolate", "count" : 1 },
+    { "item" : "egg", "count" : 1 }
+  ],
+  "output" : { "item" : "jelonbrownieMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "consumables", "desserts", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 15 },
+    { "item" : "sugar", "count" : 10 },
+    { "item" : "eggshoot", "count" : 5 }
+  ],
+  "output" : { "item" : "bdaycakeMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "consumables", "desserts", "all" ]
+}

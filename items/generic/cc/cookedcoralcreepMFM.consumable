@@ -1,0 +1,18 @@
+{
+  "itemName" : "cookedcoralcreepMFM",
+  "rarity" : "Common",
+  "price" : 70,
+  "category" : "preparedFood",
+  "inventoryIcon" : "cookedcoralcreepMFM.png",
+  "description" : "Tasty coralcreep ready to eat.",
+  "shortdescription" : "Cooked Coralcreep",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

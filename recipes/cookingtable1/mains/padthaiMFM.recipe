@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "rice", "count" : 2 },
+	{ "item" : "eggshoot", "count" : 1 },
+	{ "item" : "chili", "count" : 1 },
+	{ "item" : "wheat", "count" : 2 }
+  ],
+  "output" : { "item" : "padthaiMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "consumables", "mains", "all" ]
+}

@@ -1,0 +1,26 @@
+{
+  "itemName" : "jelonMFM",
+  "rarity" : "Common",
+  "price" : 200,
+  "category" : "food",
+  "inventoryIcon" : "jelonMFM.png",
+  "description" : "A genetically engineered jelon.",
+  "shortdescription" : "Jelon",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+      {
+        "effect" : "energyregen",
+        "duration" : 50
+      }
+    ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [-2, -2],
+  "learnBlueprintsOnPickup" : [ "jelonjuiceMFM", "jelonjamMFM" ]
+}

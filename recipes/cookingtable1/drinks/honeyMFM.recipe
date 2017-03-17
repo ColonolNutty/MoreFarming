@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "giantflowerpetal", "count" : 1 },
+    { "item" : "sugar", "count" : 2 }
+  ],
+  "output" : { "item" : "honeyMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "consumables", "drinks", "all" ]
+}

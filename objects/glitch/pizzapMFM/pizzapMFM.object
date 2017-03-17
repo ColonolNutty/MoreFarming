@@ -1,0 +1,34 @@
+{
+  "objectName" : "pizzapMFM",
+  "rarity" : "Uncommon",
+  "description" : "A large pizzap. It's good if you can get past the metallic aftertaste!",
+  "price" : 400,
+  "shortdescription" : "Pizzap",
+  "race" : "generic",
+  "category" : "decorative",
+  
+  "apexDescription" : "Comparable to the slop I used to be fed.",
+  "avianDescription" : "I don't know what to think about this.",
+  "floranDescription" : "Floran dont like eating metal pie.",
+  "glitchDescription" : "Approval. This pizzap is fresh out the oven.",
+  "humanDescription" : "It's good if you can get past the metallic aftertaste.",
+  "hylotlDescription" : "The act of just throwing this stuff together disrespects what cooking means.",
+  
+  "inventoryIcon" : "pizzapMFMicon.png",
+  "largeImage" : "pizzapMFM.png:default.default",
+  "orientations" : [
+	{
+		"dualImage" : "pizzapMFM.png",
+		"imagePosition" : [-8, 0],
+		"frames" : 1,
+		"animationCycle" : 0.5,
+		"spaceScan" : 0.1,
+		"anchors" : [ "bottom" ]
+	}
+  ],
+  
+  "breakDropOptions" : [ [
+	[ "automato", 1, { } ],
+	[ "boltbulb", 1, { } ]
+  ] ]
+}

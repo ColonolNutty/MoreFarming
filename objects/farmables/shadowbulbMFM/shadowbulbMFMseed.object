@@ -1,0 +1,48 @@
+{
+  "objectName" : "shadowbulbMFMseed",
+  "rarity" : "Rare",
+  "colonyTags" : ["nature"],
+  "category" : "seed",
+  "price" : 20,
+  "tooltipKind" : "seed",
+  "largeImage" : "shadowbulbMFMseed.png:default.3.0",
+  "description" : "Shadowbulb, glows in darkness.",
+  "shortdescription" : "Shadowbulb Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "lightColor" : [175, 175, 150],
+
+  "apexDescription" : "A small glint in the darkness. Very symbolic.",
+  "avianDescription" : "This plant gives off a faint light.",
+  "floranDescription" : "Floran want more light!",
+  "glitchDescription" : "Confused. This plant converts darkness into light.",
+  "humanDescription" : "I've wanted a new desklamp.",
+  "hylotlDescription" : "This plant's light is more noticeable in complete darkness.",
+
+  "inventoryIcon" : "shadowbulbMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "shadowbulbMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "stages" : [
+    {
+      "duration" : [380, 500]
+    },
+    {
+      "duration" : [380, 500]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "shadowbulbMFMHarvest"
+    }
+  ]
+}

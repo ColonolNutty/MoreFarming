@@ -1,0 +1,29 @@
+{
+  "itemName" : "jelonbrownieMFM",
+  "rarity" : "Uncommon",
+  "price" : 400,
+  "category" : "food",
+  "inventoryIcon" : "jelonbrownieMFM.png",
+  "description" : "Tasty and sweet brownie with jelon used as the sweetener.",
+  "shortdescription" : "Jelon Brownie",
+  "foodValue" : 12,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+    {
+        "effect" : "runboostfood",
+        "duration" : 40
+    },
+	{
+        "effect" : "energyregen",
+        "duration" : 70
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [0, -4]
+}

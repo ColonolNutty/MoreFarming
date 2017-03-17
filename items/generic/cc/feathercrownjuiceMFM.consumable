@@ -1,0 +1,20 @@
+{
+  "itemName" : "feathercrownjuiceMFM",
+  "rarity" : "Common",
+  "price" : 150,
+  "category" : "drink",
+  "inventoryIcon" : "feathercrownjuiceMFM.png",
+  "description" : "Mild and sweet feathercrown juice!",
+  "shortdescription" : "Feathercrown Juice",
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "handPosition" : [-8, 0]
+}

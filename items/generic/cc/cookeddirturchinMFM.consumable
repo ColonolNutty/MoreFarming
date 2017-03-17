@@ -1,0 +1,19 @@
+{
+  "itemName" : "cookeddirturchinMFM",
+  "rarity" : "Common",
+  "price" : 60,
+  "category" : "preparedFood",
+  "inventoryIcon" : "cookeddirturchinMFM.png",
+  "description" : "If it can be fried, it WILL be fried.",
+  "shortdescription" : "Fried Dirturchin",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [-8, 0]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "inferiorbrain", "count" : 1 }
+  ],
+  "output" : { "item" : "cookedbrainMFM", "count" : 1 },
+  "groups" : [ "campfire", "consumables", "all" ]
+}

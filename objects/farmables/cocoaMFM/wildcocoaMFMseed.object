@@ -49,7 +49,7 @@
     }
   ],
   "breakDropOptions" : [
-    [ [ "cocoaMFMseed", 1, { } ] ]
+    [ [ "cocoaseed", 1, { } ] ]
   ],
   "maxImmersion" : 0.25
 }

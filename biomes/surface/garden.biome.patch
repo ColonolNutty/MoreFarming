@@ -55,7 +55,10 @@
 					"pool" : [
 						[1, "wildsweetpotatoMFMseed" ],
 						[1, "wildpumpkinMFMseed" ],
-						[1, "wildoatsMFMseed" ]
+						[1, "wildoatsMFMseed" ],
+						[1, "wildjelonMFMseed" ],
+						[1, "wildappleMFMseed" ],
+						[1, "wilddungrootMFMseed" ]
 					],
 					"parameters" : {
 						"startingStage" : 2

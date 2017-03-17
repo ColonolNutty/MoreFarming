@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "neonmelon", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "neonmelonjuiceMFM",
+    "count" : 1
+  },
+  "groups" : [ "juicerMFM", "mod" ]
+}

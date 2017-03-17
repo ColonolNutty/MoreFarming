@@ -1,0 +1,24 @@
+{
+  "itemName" : "dungrootMFM",
+  "rarity" : "Common",
+  "price" : 30,
+  "category" : "food",
+  "inventoryIcon" : "dungrootMFM.png",
+  "description" : "...Seriously?",
+  "shortdescription" : "Dungroot",
+  "foodValue" : 1,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 30
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

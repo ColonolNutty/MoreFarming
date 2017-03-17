@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "Piodia Slice"
+  },
+  {
+    "op": "add",
+    "path": "/learnBlueprintsOnPickup/-",
+    "value": "piodiaMFM"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "objectName" : "wildyeastMFMseed",
+  "rarity" : "Common",
+  "colonyTags" : ["nature"],
+  "category" : "seed",
+  "price" : 20,
+  "tooltipKind" : "seed",
+  "largeImage" : "wildyeastMFMseed.png:default.3.0",
+  "description" : "Perfect for baking or making alcohol. Placing this will grow more yeast.",
+  "shortdescription" : "Yeast",
+  "objectType" : "farmable",
+  "printable" : false,
+  "hasObjectItem" : false,
+
+  "biomePlaced" : true,
+
+  "apexDescription" : "Cultivating yeast.",
+  "avianDescription" : "Yeast pile.",
+  "floranDescription" : "Floran take tiny bread mushroomsss.",
+  "glitchDescription" : "Analysis. This is a pile of cultivating yeast.",
+  "humanDescription" : "Yeast, I see bread baking in my future.",
+  "hylotlDescription" : "Yeast.",
+
+  "inventoryIcon" : "yeastMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wildyeastMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "stages" : [
+    {
+      "duration" : [1240, 1360]
+    },
+    {
+      "duration" : [1240, 1360]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "yeastMFMHarvest"
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "yeastMFMseed", 1, { } ] ]
+  ]
+}

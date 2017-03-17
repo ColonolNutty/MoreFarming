@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "freshpastaMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "cannedpastaMFM", "count" : 2 },
+  "groups" : [ "craftingfood", "consumables", "mains", "all" ]
+}

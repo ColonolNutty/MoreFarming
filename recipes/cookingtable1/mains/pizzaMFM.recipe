@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 15 },
+    { "item" : "tomato", "count" : 10 },
+    { "item" : "cheese", "count" : 15 }
+  ],
+  "output" : { "item" : "pizzaMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "consumables", "mains", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tomato", "count" : 1 },
+    { "item" : "freshpastaMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "tomatopastaMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "consumables", "mains", "all" ]
+}

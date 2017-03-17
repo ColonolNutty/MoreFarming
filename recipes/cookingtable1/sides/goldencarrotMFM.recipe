@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "carrot", "count" : 1 },
+    { "item" : "goldbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "goldencarrotMFM",
+    "count" : 1
+  },
+  "groups" : [ "craftingfood", "consumables", "sides", "all" ]
+}

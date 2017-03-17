@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "toffeeMFM", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "toffeeblockMFM",
+    "count" : 3
+  },
+  "groups" : [ "craftingfurniture", "materials", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 2 },
+	{ "item" : "yeastMFMseed", "count" : 1 }
+  ],
+  "output" : { "item" : "hqbreadMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "consumables", "sides", "all" ]
+}

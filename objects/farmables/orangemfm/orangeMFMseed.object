@@ -1,0 +1,47 @@
+{
+  "objectName" : "orangeMFMseed",
+  "rarity" : "Common",
+  "colonyTags" : ["nature"],
+  "category" : "seed",
+  "price" : 20,
+  "tooltipKind" : "seed",
+  "largeImage" : "orangeMFMseed.png:default.3.0",
+  "description" : "Ripe oranges.",
+  "shortdescription" : "Orange Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "These oranges are very sour.",
+  "avianDescription" : "Not so easy to chew on, but the mixture of sweet and sour is worth it.",
+  "floranDescription" : "Floran grow colorsss.",
+  "glitchDescription" : "Statement. Oranges grow from here.",
+  "humanDescription" : "They make great juice.",
+  "hylotlDescription" : "Some oranges can grow from here.",
+
+  "inventoryIcon" : "orangeMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "orangeMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [300, 420]
+    },
+    {
+      "duration" : [300, 420]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "ccorangeHarvest"
+    }
+  ]
+}

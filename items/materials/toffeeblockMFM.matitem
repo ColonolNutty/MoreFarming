@@ -1,0 +1,13 @@
+{
+  "itemName" : "toffeeblockMFM",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "toffeeblockMFM.png",
+  "description" : "Compressed toffee.",
+  "shortdescription" : "Toffee Block",
+  "glitchdescription" : "Analysis. Toffee Block.",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  
+  "materialId" : 3304
+}

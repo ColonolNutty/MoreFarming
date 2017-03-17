@@ -1,0 +1,19 @@
+{
+  "itemName" : "raisinsMFM",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "preparedFood",
+  "inventoryIcon" : "raisinsMFM.png",
+  "description" : "Raisins.",
+  "shortdescription" : "Raisins",
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [-2, -2]
+}

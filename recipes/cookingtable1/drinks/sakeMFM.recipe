@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rice", "count" : 1 },
+    { "item" : "sugar", "count" : 1 }
+  ],
+  "output" : { "item" : "sakeMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "consumables", "drinks", "all" ]
+}

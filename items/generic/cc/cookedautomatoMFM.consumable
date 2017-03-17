@@ -1,0 +1,18 @@
+{
+  "itemName" : "cookedautomatoMFM",
+  "rarity" : "Common",
+  "price" : 60,
+  "category" : "preparedFood",
+  "inventoryIcon" : "cookedautomatoMFM.png",
+  "description" : "Dried Automato. The screws add to the crunch.",
+  "shortdescription" : "Dried Automato",
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

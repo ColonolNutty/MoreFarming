@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "eggshoot", "count" : 1 },
+    { "item" : "milk", "count" : 2 },
+    { "item" : "sugar", "count" : 2 }
+  ],
+  "output" : { "item" : "eggnogMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "consumables", "drinks", "all" ]
+}

@@ -1,0 +1,47 @@
+{
+  "objectName" : "yeastMFMseed",
+  "rarity" : "Common",
+  "colonyTags" : ["nature"],
+  "category" : "seed",
+  "price" : 20,
+  "tooltipKind" : "seed",
+  "largeImage" : "yeastMFMseed.png:default.3.0",
+  "description" : "Perfect for baking or making alcohol. Placing this will grow more yeast.",
+  "shortdescription" : "Yeast",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "Cultivating yeast.",
+  "avianDescription" : "Yeast farm.",
+  "floranDescription" : "Floran make more tiny bread mushroomsss.",
+  "glitchDescription" : "Analysis. This is a jar of cultivating yeast.",
+  "humanDescription" : "Yeast, I see bread baking in my future.",
+  "hylotlDescription" : "Yeast.",
+
+  "inventoryIcon" : "yeastMFMseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "yeastMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "stages" : [
+    {
+      "duration" : [240, 360]
+    },
+    {
+      "duration" : [240, 360]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "yeastMFMHarvest"
+    }
+  ]
+}

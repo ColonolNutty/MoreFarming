@@ -12,7 +12,8 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "flytrapMFMseed"]
+						[1, "flytrapMFMseed"],
+						[1, "wildjelonalienMFMseed" ]
 					],
 					"parameters" : {
 						"startingStage" : 2

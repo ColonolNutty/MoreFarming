@@ -1,0 +1,20 @@
+{
+  "itemName" : "orangeMFM",
+  "rarity" : "Common",
+  "price" : 20,
+  "category" : "food",
+  "inventoryIcon" : "orangeMFM.png",
+  "description" : "It's an orange.",
+  "shortdescription" : "Orange",
+  "handPosition" : [0, 4],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup": [ "orangejuiceMFM", "slicedorangeMFM" ]
+}

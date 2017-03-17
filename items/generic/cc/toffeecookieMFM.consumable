@@ -1,0 +1,24 @@
+{
+  "itemName" : "toffeecookieMFM",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "preparedFood",
+  "inventoryIcon" : "toffeecookieMFM.png",
+  "description" : "Crunchy and sweet.",
+  "shortdescription" : "Toffee Cookie",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+      {
+        "effect" : "regeneration1",
+        "duration" : 20
+      }
+    ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

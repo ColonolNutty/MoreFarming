@@ -1,0 +1,19 @@
+{
+  "itemName" : "fishsoupMFM",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "preparedFood",
+  "inventoryIcon" : "fishsoupMFM.png",
+  "description" : "It has a gold color.",
+  "shortdescription" : "Fish Soup",
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [0, 4]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cookedfishMFM", "count" : 1 },
+    { "item" : "shroom", "count" : 1 }
+  ],
+  "output" : { "item" : "fishsoupMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "consumables", "mains", "all" ]
+}

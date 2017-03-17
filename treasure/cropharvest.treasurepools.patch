@@ -462,5 +462,168 @@
           {"weight" : 0.89, "item" : "fullwood1"}
         ],
         "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+  },
+  {
+    "op" : "add",
+    "path" : "/jelonMFMHarvest",
+    "value" : [
+      [0, {
+        "pool" : [
+          {"weight" : 0.6, "item" : "jelonMFM"},
+          {"weight" : 0.2, "item" : "jelonMFMseed"},
+          {"weight" : 0.2, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.7, 2],
+          [0.3, 3]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/dungrootMFMHarvest",
+    "value" : [
+      [0, {
+        "pool" : [
+          {"weight" : 0.6, "item" : "dungrootMFM"},
+          {"weight" : 0.2, "item" : "dungrootMFMseed"},
+          {"weight" : 0.2, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.7, 2],
+          [0.3, 3]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/appleMFMHarvest",
+    "value" : [
+      [0, {
+        "fill": [
+          {"item" : "appleMFMseed"}
+        ], 
+        "pool" : [
+          {"weight" : 0.6, "item" : "redapple"},
+          {"weight" : 0.2, "item" : "appleMFMseed"},
+          {"weight" : 0.2, "item" : "greenapple"},
+          {"weight" : 0.001, "item" : "goldenappleMFM"}
+        ],
+        "poolRounds" : [
+          [0.7, 2],
+          [0.3, 3]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/jelonMFMHarvest",
+    "value" : [
+      [0, {
+        "fill": [
+          {"item" : "jelonMFMseed"}
+        ], 
+        "pool" : [
+          {"weight" : 0.6, "item" : "jelonMFM"},
+          {"weight" : 0.2, "item" : "jelonMFMseed"},
+          {"weight" : 0.2, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.7, 2],
+          [0.3, 3]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/portabelloMFMHarvest",
+    "value" : [
+      [0, {
+        "fill": [
+          {"item" : "portabelloMFMseed"}
+        ], 
+        "pool" : [
+          {"weight" : 0.6, "item" : "shroom"},
+          {"weight" : 0.2, "item" : "portabelloMFMseed"}
+        ],
+        "poolRounds" : [
+          [0.7, 2],
+          [0.3, 3]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/orangeMFMHarvest",
+    "value" : [
+      [0, {
+        "fill": [
+          {"item" : "orangeMFMseed"}
+        ], 
+        "pool" : [
+          {"weight" : 0.6, "item" : "orangeMFM"},
+          {"weight" : 0.2, "item" : "orangeMFMseed"},
+          {"weight" : 0.2, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.7, 2],
+          [0.3, 3]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/shadowbulbMFMHarvest",
+    "value" : [
+      [0, {
+        "fill": [
+          {"item" : "shadowbulbMFMseed"}
+        ], 
+        "pool" : [
+          {"weight" : 0.6, "item" : "shadowbulbMFM"},
+          {"weight" : 0.2, "item" : "shadowbulbMFMseed"},
+          {"weight" : 0.2, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.7, 2],
+          [0.3, 3]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/yeastMFMHarvest",
+    "value" : [
+      [0, {
+        "fill": [
+          {"item" : "yeastMFMseed"}
+        ], 
+        "pool" : [
+          {"weight" : 1, "item" : "yeastMFMseed"}
+        ],
+        "poolRounds" : [
+          [0.6, 3],
+          [0.3, 4],
+          [0.1, 5]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/carrotHarvest/0/1/pool/-",
+    "value" : {"weight" : 0.001, "item" : "goldencarrotMFM"}
+  },
+  {
+    "op" : "add",
+    "path" : "/bananaHarvest/0/1/pool/-",
+    "value" : {"weight" : 0.001, "item" : "goldenbananaMFM"}
   }
 ]

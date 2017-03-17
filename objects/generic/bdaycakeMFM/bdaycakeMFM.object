@@ -1,0 +1,71 @@
+{
+  "objectName" : "bdaycakeMFM",
+  "colonyTags" : ["light"],
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "description" : "Throw a birthday party! Very filling.",
+  "price" : 400,
+  "shortdescription" : "Birthday Cake",
+  "race" : "generic",
+
+  "maximumLiquidLevel" : 0.2,
+  
+  "apexDescription" : "Big ape would have liked bananas instead, but I don't care.",
+  "avianDescription" : "The candles are actually edible.",
+  "floranDescription" : "Floran stuff face in colorful cake!",
+  "glitchDescription" : "Amazement. Only kings have cakes this nice.",
+  "humanDescription" : "Who has a present for me?",
+  "hylotlDescription" : "This is the last thing I would want for my birthday.",
+  
+  "lightColor" : [229, 218, 207],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.1,
+  "flickerMinIntensity" : 0.1,
+  "flickerMaxIntensity" : 0.1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+  
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+  
+  "inventoryIcon" : "bdaycakeMFMicon.png",
+  "animation" : "bdaycakeMFM.animation",
+  "animationParts" : {
+    "bg" : "bdaycakeMFM.png",
+    "fg" : "bdaycakeMFM.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
+  
+  "largeImage": "bdaycakeMFM.png:<color>.0",
+  "orientations" : [
+    {
+      "image" : "bdaycakeMFM.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "bdaycakeMFM.png",
+        "fg" : "bdaycakeMFM.png"
+      },
+      "animationPosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [0, 0],
+
+      "direction" : "right"
+    }
+  ],
+  
+  "breakDropOptions" : [ [
+	[ "bdaycakesliceMFM", 1, { } ],
+	[ "bdaycakesliceMFM", 1, { } ],
+	[ "bdaycakesliceMFM", 1, { } ],
+	[ "bdaycakesliceMFM", 1, { } ]
+  ] ]
+}

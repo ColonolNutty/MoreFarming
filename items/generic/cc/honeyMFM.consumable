@@ -1,0 +1,25 @@
+{
+  "itemName" : "honeyMFM",
+  "rarity" : "Common",
+  "price" : 150,
+  "category" : "drink",
+  "inventoryIcon" : "honeyMFM.png",
+  "description" : "Sweet sweet sweet!",
+  "shortdescription" : "Honey",
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+      {
+        "effect" : "regeneration1",
+        "duration" : 20
+      }
+    ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

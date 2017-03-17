@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "carrot", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "carrotjuice",
+    "count" : 1
+  },
+  "groups" : [ "juicerMFM", "mod" ]
+}

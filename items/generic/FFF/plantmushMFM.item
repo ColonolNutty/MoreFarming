@@ -1,0 +1,11 @@
+{
+  "itemName" : "plantmushMFM",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "plantmushMFM.png",
+  "description" : "Ground plants that are inedible.",
+  "shortdescription" : "Plant Mush",
+	"learnBlueprintsOnPickup": [
+    "plantsludgeMFM"
+  ]
+}

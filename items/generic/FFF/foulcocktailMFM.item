@@ -1,0 +1,8 @@
+{
+  "itemName" : "foulcocktailMFM",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "foulcocktailMFM.png",
+  "description" : "An inexplicable mix of oil and acidic swill.",
+  "shortdescription" : "Foul Cocktail"
+}

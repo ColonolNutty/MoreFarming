@@ -1,0 +1,13 @@
+{
+  "input" : [
+ 		{ "item" : "cobblestonematerial", "count" : 10 },
+    { "item" : "darkwoodmaterial", "count" : 30 },
+    { "item" : "ironbar", "count" : 5 },
+    { "item" : "glassmaterial", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "distilleryMFM",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "craftingstations", "objects", "tools", "all" ]
+}

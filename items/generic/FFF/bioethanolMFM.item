@@ -1,0 +1,12 @@
+{
+  "itemName" : "bioethanolMFM",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "bioethanolMFM.png",
+  "description" : "Renewable fuel for intergalactic conquest!",
+  "shortdescription" : "Bioethanol",
+  "fuelAmount" : 2,
+  "learnBlueprintsOnPickup" : [
+    "molotov"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "itemName" : "cannedfoodMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "cannedfoodMFM.png",
+  "description" : "A can of balanced meal.",
+  "shortdescription" : "Canned Omnifood",
+  "price" : 40,
+  "category" : "preparedFood",
+  "foodValue" : 40,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

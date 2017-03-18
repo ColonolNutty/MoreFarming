@@ -1,0 +1,8 @@
+{
+  "itemName" : "cannedplantsludgeMFM",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cannedplantsludgeMFM.png",
+  "description" : "Plant Sludge in a Can.",
+  "shortdescription" : "Canned Plant Sludge"
+}

@@ -1,0 +1,47 @@
+{
+  "objectName" : "cannerMFM",
+  "rarity" : "Common",
+  "description" : "Cans things by putting things in cans!",
+  "shortdescription" : "Canner",
+  "race" : "generic",
+  "subtitle" : "Free cans included!",
+  "category" : "crafting",
+  "price" : 1000,
+  "objectType" : "container",
+  "printable" : false,
+  "hydrophobic" : false,
+
+  "apexDescription" : "Ugh, cans... Back then, if the water wasn't poisoned, it was the preserves...",
+  "avianDescription" : "Cans are like metallic vases. They stack tidily.",
+  "floranDescription" : "Put thingsss in, thingsss become one with can.",
+  "glitchDescription" : "Candid. Can it be the canner that'll can my can?",
+  "humanDescription" : "Not to be confused with the cancer, which is so last century.",
+  "hylotlDescription" : "The cans are so tightly sealed, they're waterproof.",
+
+  "inventoryIcon" : "cannerMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "cannerMFM.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg",
+  "soundEffectRadius" : 50,
+
+  "recipeGroup" : "cannerMFM",
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/cannerMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+ 		{ "item" : "cobblestonematerial", "count" : 10 },
+    { "item" : "ironbar", "count" : 30 },
+    { "item" : "copperbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "grinderMFM",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "craftingstations", "tools", "all" ]
+}

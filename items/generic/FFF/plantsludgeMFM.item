@@ -1,0 +1,8 @@
+{
+  "itemName" : "plantsludgeMFM",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "plantsludgeMFM.png",
+  "description" : "A mix of plant mush and acid.",
+  "shortdescription" : "Plant Sludge"
+}

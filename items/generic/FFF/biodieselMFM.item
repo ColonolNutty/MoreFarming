@@ -1,0 +1,9 @@
+{
+  "itemName" : "biodieselMFM",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "biodieselMFM.png",
+  "description" : "Renewable fuel for intergalactic conquest!",
+  "shortdescription" : "Bio-diesel",
+  "fuelAmount" : 4
+}

@@ -14,5 +14,19 @@
 	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cocoa" } },
 	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cookedflytrapMFMmeat" } },
 	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "flytrapMFMseed" } },
-	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "juicerMFM" } }
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "juicerMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cannedfoodMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cannedplantsludgeMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "biodieselMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "bioethanolMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cornbeerMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "sourswillMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "vodkabottleMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "wheatbeerMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "groundfruitMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "groundmeatMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "groundvegetablesMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "plantmushMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "seedoilMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "plantsludgeMFM" } }
 ]

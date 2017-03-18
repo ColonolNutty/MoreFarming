@@ -1,0 +1,18 @@
+{
+  "itemName" : "nutritiousmushMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "nutritiousmushMFM.png",
+  "description" : "A pile of balanced meal.",
+  "shortdescription" : "Nutritious Mush",
+  "price" : 40,
+  "category" : "food",
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

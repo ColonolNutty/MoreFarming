@@ -1,0 +1,30 @@
+{
+  "itemName" : "sourswillMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "sourswillMFM.png",
+  "description" : "A swill so sour it's almost corrosive.",
+  "shortdescription" : "Sour Swill",
+  "price" : 20,
+  "category" : "drink",
+  "foodValue" : 5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+      {
+          "effect" : "weakpoison",
+          "duration" : 5
+      }
+    ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [0, -2],
+  "emitters" : [ "drinking" ],
+	"learnBlueprintsOnPickup": [
+    "plantsludgeMFM",
+    "foulcocktailMFM"
+  ]
+}

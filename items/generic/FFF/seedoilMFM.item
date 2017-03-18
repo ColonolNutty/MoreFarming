@@ -1,0 +1,11 @@
+{
+  "itemName" : "seedoilMFM",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "seedoilMFM.png",
+  "description" : "Oil! For stir-frying and FTL traveling.",
+  "shortdescription" : "Seed Oil",
+	"learnBlueprintsOnPickup": [
+    "foulcocktailMFM"
+  ]
+}

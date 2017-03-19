@@ -34,7 +34,12 @@
 
 			"type" : "object",
 			"objectSets" : [ {
-				"pool" : [ [1, "wildportabelloMFMseed" ] ],
+				"pool" : [
+          [1, "wildportabelloMFMseed" ],
+          [1, "wildpalsterstickMFMseed" ],
+          [1, "wildgarpberryMFMseed" ],
+          [1, "wildfinkelMFMseed" ]
+        ],
 				"parameters" : { "startingStage" : 2 }
 			} ]
 		}

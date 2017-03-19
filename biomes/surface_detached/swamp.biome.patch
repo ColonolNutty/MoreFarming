@@ -39,7 +39,8 @@
 				"pool" : [
 					[1, "flytrapMFMseed"],
           [1, "wildjelonMFMseed" ],
-          [1, "wilddungrootMFMseed" ]
+          [1, "wilddungrootMFMseed" ],
+					[1, "wildfinkelMFMseed" ]
 				],
 				"parameters" : {
 				  "startingStage" : 2

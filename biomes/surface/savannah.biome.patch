@@ -15,7 +15,8 @@
 					[1, "wildpricklypearMFMseed" ],
 					[1, "wildjelondryMFMseed" ],
 					[1, "wildorangeMFMseed" ],
-					[1, "wilddungrootMFMseed" ]
+					[1, "wilddungrootMFMseed" ],
+          [1, "wildpalsterstickMFMseed" ]
 				],
 				"parameters" : {
 				  "startingStage" : 2

@@ -1,0 +1,8 @@
+{
+  "itemName" : "yellowfoodcolorMFM",
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "yellowfoodcolorMFM.png",
+  "description" : "Yellow Food Coloring. Can color Snowcones.",
+  "shortdescription" : "Yellow Food Color"
+}

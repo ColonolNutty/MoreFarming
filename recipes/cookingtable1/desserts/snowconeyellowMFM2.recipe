@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ice", "count" : 2 },
+    { "item" : "yellowfoodcolorMFM", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "snowconeyellowMFM",
+    "count" : 1
+  },
+  "groups" : [ "craftingfood", "desserts", "materials", "all" ]
+}

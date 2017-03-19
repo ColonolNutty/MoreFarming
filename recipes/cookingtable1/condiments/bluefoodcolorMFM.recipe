@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "bluedye", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "bluefoodcolorMFM",
+    "count" : 1
+  },
+  "groups" : [ "craftingfood", "condiments", "materials", "all" ]
+}

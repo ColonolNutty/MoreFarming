@@ -1,6 +1,6 @@
 {
 	"author" : "ColonolNutty",
-	"description" : "Spice up your fridges with More Farming! Special Thanks to: TheBigBlueSerpent for the Original mod, Mackinz, for updating it to Pleased Giraffe. ColonolNutty, for updating it to v1.2.2, Bughunter for Prickly Pears, Ulithium_Dragon for Animated Fly Trap, Petrenko for Bamboo (renamed Great Bamboo) and Cactus (renamed Saguaro), Thundercraft for Holiday Fir Trees, CrispyBlockland for Crispy Food Crops and Crispy Food Stuffs, rosett for Farmable Fuels and Foods",
+	"description" : "Spice up your fridges with More Farming! Special Thanks to: TheBigBlueSerpent for the Original mod, Mackinz, for updating it to Pleased Giraffe. ColonolNutty, for updating it to v1.2.2, Bughunter for Prickly Pears, Ulithium_Dragon for Animated Fly Trap, Petrenko for Bamboo (renamed Great Bamboo) and Cactus (renamed Saguaro), Thundercraft for Holiday Fir Trees, CrispyBlockland for Crispy Food Crops and Crispy Food Stuffs, rosett for Farmable Fuels and Foods, Bestpick for More Foods",
 	"friendlyName" : "MoreFarming",
 	"includes" : ["HorticulturalImprovements"],
 	"name" : "MoreFarming",

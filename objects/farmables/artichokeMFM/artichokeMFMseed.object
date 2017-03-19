@@ -5,6 +5,7 @@
   "category" : "seed",
   "tooltipKind" : "seed",
   "description" : "Artichoke.",
+  "largeImage" : "artichokeMFMseed.png:default.3.0",
   "shortdescription" : "Artichoke Seeds",
   "objectType" : "farmable",
   "printable" : false,

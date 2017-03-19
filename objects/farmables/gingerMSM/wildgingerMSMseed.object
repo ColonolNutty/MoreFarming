@@ -19,6 +19,7 @@
   "hylotlDescription" : "Seeds for ginger.",
 
   "inventoryIcon" : "gingerMSMseedicon.png",
+  "largeImage" : "gingerMSMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "gingerMSMseed.png:<color>.<stage>.<alt>",

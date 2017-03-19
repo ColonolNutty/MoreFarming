@@ -18,6 +18,7 @@
   "hylotlDescription" : "Seeds for brussel sprouts.",
 
   "inventoryIcon" : "brusselsproutMFMseedicon.png",
+  "largeImage" : "brusselsproutMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "brusselsproutMFMseed.png:<color>.<stage>.<alt>",

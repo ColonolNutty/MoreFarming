@@ -4,7 +4,6 @@
   "colonyTags" : ["nature"],
   "category" : "seed",
   "tooltipKind" : "seed",
-  "largeImage" : "dungrootMFMseed.png:default.3.0",
   "description" : "The worst plant imaginable.",
   "shortdescription" : "Dungroot Seed",
   "objectType" : "farmable",
@@ -20,6 +19,7 @@
   "hylotlDescription" : "The most putrid, disgusting crop I have ever seen.",
 
   "inventoryIcon" : "dungrootMFMseedicon.png",
+  "largeImage" : "dungrootMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "dungrootMFMseed.png:<color>.<stage>.<alt>",

@@ -18,6 +18,7 @@
   "hylotlDescription" : "Seeds for beans.",
 
   "inventoryIcon" : "greenbeanMFMseedicon.png",
+  "largeImage" : "greenbeanMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "greenbeanMFMseed.png:<color>.<stage>.<alt>",

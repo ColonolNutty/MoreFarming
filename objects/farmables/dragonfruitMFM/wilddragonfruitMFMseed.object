@@ -19,6 +19,7 @@
   "hylotlDescription" : "Seeds for dragonfruit.",
 
   "inventoryIcon" : "dragonfruitMFMseedicon.png",
+  "largeImage" : "dragonfruitMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "dragonfruitMFMseed.png:<color>.<stage>.<alt>",

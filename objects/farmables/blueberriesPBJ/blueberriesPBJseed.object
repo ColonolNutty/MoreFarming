@@ -18,6 +18,7 @@
   "hylotlDescription" : "Seeds for blueberries.",
 
   "inventoryIcon" : "blueberriesPBJseedicon.png",
+  "largeImage" : "blueberriesPBJseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "blueberriesPBJseed.png:<color>.<stage>.<alt>",

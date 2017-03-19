@@ -17,6 +17,7 @@
   "hylotlDescription" : "An overly sweet melon. It's pretty to look at, though.",
 
   "inventoryIcon" : "neonmelonfullMFMicon.png",
+  "largeImage" : "neonmelonfullMFM.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "neonmelonfullMFM.png:<color>.<stage>.<alt>",

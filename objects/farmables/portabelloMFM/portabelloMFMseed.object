@@ -19,6 +19,7 @@
   "hylotlDescription" : "Portabellos.",
 
   "inventoryIcon" : "portabelloMFMseedicon.png",
+  "largeImage" : "portabelloMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "portabelloMFMseed.png:<color>.<stage>.<alt>",

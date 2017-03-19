@@ -20,7 +20,8 @@
   "humanDescription" : "Fresh Bamboo.",
   "hylotlDescription" : "Delicious Bamboo.",
 
-  "inventoryIcon" : "bambooBMBshoot.png",
+  "inventoryIcon" : "bambooBMBshooticon.png",
+  "largeImage" : "bambooBMBshoot.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "bambooBMBshoot.png:<color>.<stage>.<alt>",

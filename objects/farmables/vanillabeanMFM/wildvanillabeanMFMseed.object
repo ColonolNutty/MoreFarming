@@ -19,6 +19,7 @@
   "hylotlDescription" : "Seeds for vanilla.",
 
   "inventoryIcon" : "vanillabeanMFMseedicon.png",
+  "largeImage" : "vanillabeanMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "vanillabeanMFMseed.png:<color>.<stage>.<alt>",

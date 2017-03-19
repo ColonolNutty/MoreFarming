@@ -18,6 +18,7 @@
   "hylotlDescription" : "Cocoa seeds.",
 
   "inventoryIcon" : "cocoaMFMseedicon.png",
+  "largeImage" : "cocoaMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "cocoaMFMseed.png:<color>.<stage>.<alt>",

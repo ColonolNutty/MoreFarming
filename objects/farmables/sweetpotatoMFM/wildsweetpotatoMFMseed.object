@@ -19,6 +19,7 @@
   "hylotlDescription" : "A common, tedious root vegetable.",
 
   "inventoryIcon" : "sweetpotatoMFMseedicon.png",
+  "largeImage" : "sweetpotatoMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "sweetpotatoMFMseed.png:<color>.<stage>.<alt>",

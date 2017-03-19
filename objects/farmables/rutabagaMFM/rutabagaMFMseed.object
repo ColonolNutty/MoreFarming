@@ -18,6 +18,7 @@
   "hylotlDescription" : "Seeds for rutabagas.",
 
   "inventoryIcon" : "rutabagaMFMseedicon.png",
+  "largeImage" : "rutabagaMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "rutabagaMFMseed.png:<color>.<stage>.<alt>",

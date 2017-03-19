@@ -21,6 +21,7 @@
   "hylotlDescription" : "Prickly Pears, another strange human food...",
 
   "inventoryIcon" : "pricklypearMFMseedicon.png",
+  "largeImage" : "pricklypearMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "pricklypearMFMseed.png:<color>.<stage>.<alt>",

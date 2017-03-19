@@ -19,6 +19,7 @@
   "hylotlDescription" : "Seeds for blackberries.",
 
   "inventoryIcon" : "blackberryPBJseedicon.png",
+  "largeImage" : "blackberryPBJseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "blackberryPBJseed.png:<color>.<stage>.<alt>",

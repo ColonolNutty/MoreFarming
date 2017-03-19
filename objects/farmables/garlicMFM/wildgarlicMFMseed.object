@@ -19,6 +19,7 @@
   "hylotlDescription" : "Seeds for garlic.",
 
   "inventoryIcon" : "garlicMFMseedicon.png",
+  "largeImage" : "garlicMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "garlicMFMseed.png:<color>.<stage>.<alt>",

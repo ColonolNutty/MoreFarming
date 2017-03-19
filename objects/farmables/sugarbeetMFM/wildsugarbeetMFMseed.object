@@ -19,6 +19,7 @@
   "hylotlDescription" : "Seeds for sugar beets.",
 
   "inventoryIcon" : "sugarbeetMFMseedicon.png",
+  "largeImage" : "sugarbeetMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "sugarbeetMFMseed.png:<color>.<stage>.<alt>",

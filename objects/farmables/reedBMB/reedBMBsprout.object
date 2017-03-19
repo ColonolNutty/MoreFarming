@@ -18,6 +18,7 @@
   "hylotlDescription" : "Just reeds.",
 
   "inventoryIcon" : "reedBMBsprouticon.png",
+  "largeImage" : "reedBMBsprout.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "reedBMBsprout.png:<color>.<stage>.<alt>",

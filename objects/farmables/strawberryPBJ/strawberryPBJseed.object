@@ -18,6 +18,7 @@
   "hylotlDescription" : "Seeds for strawberries.",
 
   "inventoryIcon" : "strawberryPBJseedicon.png",
+  "largeImage" : "strawberryPBJseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "strawberryPBJseed.png:<color>.<stage>.<alt>",

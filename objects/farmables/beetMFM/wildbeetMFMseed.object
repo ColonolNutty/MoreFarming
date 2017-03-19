@@ -19,6 +19,7 @@
   "hylotlDescription" : "Seeds for beets.",
 
   "inventoryIcon" : "beetMFMseedicon.png",
+  "largeImage" : "beetMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "beetMFMseed.png:<color>.<stage>.<alt>",

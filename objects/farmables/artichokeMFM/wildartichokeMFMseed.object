@@ -19,6 +19,7 @@
   "hylotlDescription" : "Seeds for artichokes.",
 
   "inventoryIcon" : "artichokeMFMseedicon.png",
+  "largeImage" : "artichokeMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "artichokeMFMseed.png:<color>.<stage>.<alt>",

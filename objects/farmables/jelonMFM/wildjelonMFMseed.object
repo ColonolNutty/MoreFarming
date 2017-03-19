@@ -20,6 +20,7 @@
   "hylotlDescription" : "A disgusting plant, invented for those who cannot cook.",
 
   "inventoryIcon" : "jelonMFMseedicon.png",
+  "largeImage" : "jelonMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "jelonMFMseed.png:<color>.<stage>.<alt>",

@@ -19,6 +19,7 @@
   "hylotlDescription" : "Other people like to add spices to them and make pies.",
 
   "inventoryIcon" : "pumpkinMFMseedicon.png",
+  "largeImage" : "pumpkinMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "pumpkinMFMseed.png:<color>.<stage>.<alt>",

@@ -18,6 +18,7 @@
   "hylotlDescription" : "On land, wheat has many uses. Underwater, almost none.",
 
   "inventoryIcon" : "oatsMFMseedicon.png",
+  "largeImage" : "oatsMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "oatsMFMseed.png:<color>.<stage>.<alt>",

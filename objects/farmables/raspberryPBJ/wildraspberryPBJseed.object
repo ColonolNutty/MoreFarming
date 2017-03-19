@@ -19,6 +19,7 @@
   "hylotlDescription" : "Seeds for raspberries.",
 
   "inventoryIcon" : "raspberryPBJseedicon.png",
+  "largeImage" : "raspberryPBJseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "raspberryPBJseed.png:<color>.<stage>.<alt>",

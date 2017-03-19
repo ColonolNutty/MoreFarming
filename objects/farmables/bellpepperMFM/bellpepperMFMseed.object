@@ -18,6 +18,7 @@
   "hylotlDescription" : "Seeds for bell peppers.",
 
   "inventoryIcon" : "bellpepperMFMseedicon.png",
+  "largeImage" : "bellpepperMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "bellpepperMFMseed.png:<color>.<stage>.<alt>",

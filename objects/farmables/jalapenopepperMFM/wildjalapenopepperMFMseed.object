@@ -19,6 +19,7 @@
   "hylotlDescription" : "Seeds for jalapeno peppers.",
 
   "inventoryIcon" : "jalapenopepperMFMseedicon.png",
+  "largeImage" : "jalapenopepperMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "jalapenopepperMFMseed.png:<color>.<stage>.<alt>",

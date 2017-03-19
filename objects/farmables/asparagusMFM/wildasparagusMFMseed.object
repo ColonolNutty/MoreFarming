@@ -19,6 +19,7 @@
   "hylotlDescription" : "Seeds for asparagus.",
 
   "inventoryIcon" : "asparagusMFMseedicon.png",
+  "largeImage" : "asparagusMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "asparagusMFMseed.png:<color>.<stage>.<alt>",

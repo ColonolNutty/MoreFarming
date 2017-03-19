@@ -19,6 +19,7 @@
   "hylotlDescription" : "Seeds for peas.",
 
   "inventoryIcon" : "peaMFMseedicon.png",
+  "largeImage" : "peaMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "peaMFMseed.png:<color>.<stage>.<alt>",

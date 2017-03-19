@@ -18,6 +18,7 @@
   "hylotlDescription" : "Seeds for broccoli.",
 
   "inventoryIcon" : "broccoliMFMseedicon.png",
+  "largeImage" : "broccoliMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "broccoliMFMseed.png:<color>.<stage>.<alt>",

@@ -18,6 +18,7 @@
   "hylotlDescription" : "Seeds for cauliflower.",
 
   "inventoryIcon" : "cauliflowerMFMseedicon.png",
+  "largeImage" : "cauliflowerMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "cauliflowerMFMseed.png:<color>.<stage>.<alt>",

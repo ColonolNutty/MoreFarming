@@ -19,6 +19,7 @@
   "novakidDescription" : "Ah, yeah, this is that plant that makes that drink I like.",
   
   "inventoryIcon" : "cinnamonMFMseedicon.png",
+  "largeImage" : "cinnamonMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "cinnamonMFMseed.png:<color>.<stage>.<alt>",

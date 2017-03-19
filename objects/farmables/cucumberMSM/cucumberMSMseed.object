@@ -18,6 +18,7 @@
   "hylotlDescription" : "A kappa's favorite.",
 
   "inventoryIcon" : "cucumberMSMseedicon.png",
+  "largeImage" : "cucumberMSMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "cucumberMSMseed.png:<color>.<stage>.<alt>",

@@ -5,7 +5,6 @@
   "category" : "seed",
   "price" : 20,
   "tooltipKind" : "seed",
-  "largeImage" : "appleMFMseed.png:default.3.0",
   "description" : "Ripe apples.",
   "shortdescription" : "Apple Seed",
   "objectType" : "farmable",
@@ -19,6 +18,7 @@
   "hylotlDescription" : "Some apples can grow from here.",
 
   "inventoryIcon" : "appleMFMseedicon.png",
+  "largeImage" : "appleMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "appleMFMseed.png:<color>.<stage>.<alt>",

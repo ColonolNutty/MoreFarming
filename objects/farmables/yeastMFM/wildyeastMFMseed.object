@@ -22,6 +22,7 @@
   "hylotlDescription" : "Yeast.",
 
   "inventoryIcon" : "yeastMFMseedicon.png",
+  "largeImage" : "wildyeastMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "wildyeastMFMseed.png:<color>.<stage>.<alt>",

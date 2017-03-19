@@ -4,7 +4,6 @@
   "colonyTags" : ["nature"],
   "category" : "seed",
   "tooltipKind" : "seed",
-  "largeImage" : "jelonMFMseed.png:default.3.0",
   "description" : "A jelon seed. Grows gelatinous jelon!",
   "shortdescription" : "Jelon Seed",
   "objectType" : "farmable",
@@ -19,6 +18,7 @@
   "hylotlDescription" : "A disgusting plant, invented for those who cannot cook.",
 
   "inventoryIcon" : "jelonMFMseedicon.png",
+  "largeImage" : "jelonMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "jelonMFMseed.png:<color>.<stage>.<alt>",

@@ -23,6 +23,7 @@
   "hylotlDescription" : "Some oranges can grow from here.",
 
   "inventoryIcon" : "orangeMFMseedicon.png",
+  "largeImage" : "orangeMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "orangeMFMseed.png:<color>.<stage>.<alt>",

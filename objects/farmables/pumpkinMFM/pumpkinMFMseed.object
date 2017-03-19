@@ -19,6 +19,7 @@
   "novakidDescription" : "Is that a newborn? No, wait, that's a plant...",
 
   "inventoryIcon" : "pumpkinMFMseedicon.png",
+  "largeImage" : "pumpkinMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "pumpkinMFMseed.png:<color>.<stage>.<alt>",

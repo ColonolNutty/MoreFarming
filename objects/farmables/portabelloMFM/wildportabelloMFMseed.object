@@ -5,7 +5,6 @@
   "category" : "seed",
   "price" : 20,
   "tooltipKind" : "seed",
-  "largeImage" : "portabelloMFMseed.png:default.3.0",
   "description" : "A portabello mushroom spore. The farmer who plants these is a fungi.",
   "shortdescription" : "Portabello Mushroom Spore",
   "objectType" : "farmable",

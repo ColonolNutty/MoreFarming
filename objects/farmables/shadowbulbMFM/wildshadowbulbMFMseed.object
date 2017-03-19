@@ -5,7 +5,6 @@
   "category" : "seed",
   "price" : 20,
   "tooltipKind" : "seed",
-  "largeImage" : "shadowbulbMFMseed.png:default.3.0",
   "description" : "Shadowbulb, glows in darkness.",
   "shortdescription" : "Shadowbulb Seed",
   "objectType" : "farmable",

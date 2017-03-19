@@ -4,7 +4,6 @@
   "colonyTags" : ["nature"],
   "category" : "seed",
   "tooltipKind" : "seed",
-  "largeImage" : "jelonMFMseed.png:default.3.0",
   "description" : "A jelon seed. Grows gelatinous jelon!",
   "shortdescription" : "Jelon Seed",
   "objectType" : "farmable",

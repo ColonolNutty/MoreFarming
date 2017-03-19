@@ -5,7 +5,6 @@
   "category" : "seed",
   "price" : 20,
   "tooltipKind" : "seed",
-  "largeImage" : "orangeMFMseed.png:default.3.0",
   "description" : "Ripe oranges.",
   "shortdescription" : "Orange Seed",
   "objectType" : "farmable",

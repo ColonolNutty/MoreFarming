@@ -5,7 +5,6 @@
   "category" : "seed",
   "price" : 20,
   "tooltipKind" : "seed",
-  "largeImage" : "wildyeastMFMseed.png:default.3.0",
   "description" : "Perfect for baking or making alcohol. Placing this will grow more yeast.",
   "shortdescription" : "Yeast",
   "objectType" : "farmable",

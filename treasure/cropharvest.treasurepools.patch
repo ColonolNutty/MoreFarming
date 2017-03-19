@@ -625,5 +625,25 @@
     "op" : "add",
     "path" : "/bananaHarvest/0/1/pool/-",
     "value" : {"weight" : 0.001, "item" : "goldenbananaMFM"}
+  },
+  {
+    "op": "add", "path": "/rattanMFMHarvest",
+    "value": [
+      [0, 
+        {
+          "fill" : [ {"item" : "rattanMFMseed"} ],
+          "pool" : [
+            {"weight" : 0.33, "item" : [ "rattanfiberMFM", 3]},
+            {"weight" : 0.44, "item" : [ "rattannutMFM", 2]},
+            {"weight" : 0.22, "item" : [ "plantfibre", 1]}
+          ],
+          "poolRounds" : [
+            [0.3, 1],
+            [0.4, 2],
+            [0.3, 3]
+          ]
+        }
+      ]
+    ]
   }
 ]

@@ -1,0 +1,52 @@
+{
+  "objectName" : "wickerstool1MFM",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A small wicker stool.",
+  "shortdescription" : "Wicker Stool",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 5,
+
+  "apexDescription" : "A small wooden stool.",
+  "avianDescription" : "A stool. Perhaps for one to rest one's talons.",
+  "floranDescription" : "Tiny ssseat.",
+  "glitchDescription" : "Observation. A small stool.",
+  "humanDescription" : "A cute little stool.",
+  "hylotlDescription" : "A charming stool.",
+  "novakidDescription" : "A lil wooden stool, straight outta some fairytale.",
+
+  "inventoryIcon" : "wickerstool1MFMicon.png",
+  "orientations" : [
+    {
+      "image" : "wickerstool1MFM.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+
+	  "sitPosition" : [0, 24],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "wickerstool1MFM.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+
+	  "sitPosition" : [0, 24],
+
+      "direction" : "left"
+    }
+  ],
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+}

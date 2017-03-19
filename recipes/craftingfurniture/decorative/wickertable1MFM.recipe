@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "rattanfiberMFM", "count" : 30 }
+  ],
+	"output" : { "item" : "wickertable1MFM", "count" : 1 },
+	"groups" : [ "craftingfurniture", "decoration", "objects", "all" ]
+}

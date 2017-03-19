@@ -1,0 +1,13 @@
+{
+  "itemName" : "wickerplatformMFM",
+  "price" : 0,
+  "category" : "platform",
+  "rarity" : "Common",
+  "inventoryIcon" : "wickerplatformMFMicon.png",
+  "description" : "Cheaply constructed wicker platforms.",
+  "shortdescription" : "Wicker Platform",
+  "glitchdescription" : "Statement. A platform made from wicker.",
+  "florandescription" : "Floran make big houssse from wicker!",
+
+  "materialId" : 19990
+}

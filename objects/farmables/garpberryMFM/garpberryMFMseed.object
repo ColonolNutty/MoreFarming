@@ -1,0 +1,47 @@
+{
+  "objectName" : "garpberryMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "Garpberrys, natures snackfood.",
+  "shortdescription" : "Garpberry Seed",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "A luxury fruit. Garpberry is a good mix with bananas!",
+  "avianDescription" : "Small, simple, peckable berry.",
+  "floranDescription" : "Juicccy berry, floran likesss.",
+  "glitchDescription" : "Statement. Garpberrys make for good snacks.",
+  "humanDescription" : "Garpberry. Looks a bit alien, but tastes good.",
+  "hylotlDescription" : "Berrys from the sea taste much better, these are a bit wierd.",
+
+  "inventoryIcon" : "garpberryMFMseedicon.png",
+  "largeImage" : "garpberryMFMseed.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "garpberryMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "stages" : [
+    {
+      "duration" : [660, 780]
+    },
+    {
+      "duration" : [660, 780]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "garpberryMFMHarvest"
+    }
+  ]
+}

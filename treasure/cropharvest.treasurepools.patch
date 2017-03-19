@@ -645,5 +645,61 @@
         }
       ]
     ]
+  },
+  {
+    "op": "add", "path": "/garpberryMFMHarvest",
+    "value": [
+      [0, 
+        {
+          "fill" : [ {"item" : "garpberryMFMseed"} ],
+          "pool" : [
+            {"weight" : 0.6, "item" : [ "garpberryMFMseed", 1]},
+            {"weight" : 0.2, "item" : [ "garpberryMFM", 3]},
+            {"weight" : 0.2, "item" : [ "plantfibre", 3]}
+          ],
+          "poolRounds" : [
+            [0.7, 2],
+            [0.3, 3]
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add", "path": "/palsterstickMFMHarvest",
+    "value": [
+      [0, 
+        {
+          "fill" : [ {"item" : "palsterstickMFMseed"} ],
+          "pool" : [
+            {"weight" : 0.8, "item" : [ "palsterstickMFM", 3]},
+            {"weight" : 0.2, "item" : [ "palsterstickMFMseed", 1]}
+          ],
+          "poolRounds" : [
+            [0.7, 2],
+            [0.3, 3]
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add", "path": "/finkelMFMHarvest",
+    "value": [
+      [0, 
+        {
+          "fill" : [ {"item" : "finkelMFMseed"} ],
+          "pool" : [
+            {"weight" : 0.6, "item" : [ "finkelMFM", 3]},
+            {"weight" : 0.2, "item" : [ "finkelMFMseed", 1]},
+            {"weight" : 0.2, "item" : [ "plantfibre", 1]}
+          ],
+          "poolRounds" : [
+            [0.7, 2],
+            [0.3, 3]
+          ]
+        }
+      ]
+    ]
   }
 ]

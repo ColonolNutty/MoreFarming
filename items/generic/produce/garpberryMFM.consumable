@@ -1,0 +1,20 @@
+{
+  "itemName" : "garpberryMFM",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "garpberryMFM.png",
+  "description" : "Garpberry! A very alien taste.",
+  "shortdescription" : "Garpberry",
+  "foodValue" : 2.5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "garpberryicecreamMFM", "bananagarpsaladMFM", "friedgarpberrysMFM", "garpberrybakedautomatoMFM", "garpberryjuiceMFM", "meatandgarpberrysandwichMFM", "roastedgarpberrysMFM" ]
+}

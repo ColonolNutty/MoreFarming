@@ -1,0 +1,19 @@
+{
+  "itemName" : "palsterstickMFM",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "palsterstickMFM.png",
+  "description" : "Palsterstick! A very healthy taste.",
+  "shortdescription" : "Palsterstick",
+  "foodValue" : 2.5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

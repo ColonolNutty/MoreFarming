@@ -18,6 +18,11 @@
         "op" : "add",
         "path" : "/learnBlueprintsOnPickup/-",
         "value" : "cannerMFM"
+      },
+      {
+        "op" : "add",
+        "path" : "/learnBlueprintsOnPickup/-",
+        "value" : "freezerMFM"
       }
     ]
 ]

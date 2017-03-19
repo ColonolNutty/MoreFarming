@@ -15,7 +15,8 @@
 						[1, "wildcocoaseed"],
 						[1, "wildgingerMSMseed"],
 						[1, "wildjalapenopepperMFMseed"],
-						[1, "wildvanillabeanMFMseed"]
+						[1, "wildvanillabeanMFMseed"],
+						[1, "wildrattanMFMseed"]
 					],
 					"parameters" : {
 						"startingStage" : 3

@@ -28,5 +28,12 @@
 	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "groundvegetablesMFM" } },
 	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "plantmushMFM" } },
 	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "seedoilMFM" } },
-	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "plantsludgeMFM" } }
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "plantsludgeMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "bluefoodcolorMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "redfoodcolorMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "yellowfoodcolorMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "snowconeblueMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "snowconeMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "snowconeredMFM" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "snowconeyellowMFM" } }
 ]

@@ -1,0 +1,8 @@
+{
+  "itemName" : "redfoodcolorMFM",
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "redfoodcolorMFM.png",
+  "description" : "Red Food Coloring. Can color Snowcones.",
+  "shortdescription" : "Red Food Color"
+}

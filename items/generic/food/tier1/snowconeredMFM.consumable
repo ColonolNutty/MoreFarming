@@ -1,0 +1,18 @@
+{
+  "itemName" : "snowconeredMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "snowconeredMFM.png",
+  "description" : "A red snow cone.",
+  "shortdescription" : "Red Snow Cone",
+  "handPosition" : [8, 0],
+  "price" : 5,
+  "foodValue" : 5,
+  "tooltipKind" : "preparedFood",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

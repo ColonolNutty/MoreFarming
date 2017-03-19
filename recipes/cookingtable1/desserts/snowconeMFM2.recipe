@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ice", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "snowcone",
+    "count" : 1
+  },
+  "groups" : [ "craftingfood", "desserts", "materials", "all" ]
+}

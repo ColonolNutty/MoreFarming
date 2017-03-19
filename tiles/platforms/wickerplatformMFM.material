@@ -1,0 +1,23 @@
+{
+  "materialId" : 19990,
+  "materialName" : "wickerplatformMFM",
+  "collisionKind" : "platform",
+  "itemDrop" : "wickerplatformMFM",
+  "shortdescription" : "Wicker Platform",
+  "description" : "Cheaply constructed wicker platforms.",
+  "glitchdescription" : "Statement. A platform made from wicker.",
+  "florandescription" : "Floran make big houssse from wicker!",
+  "novakidDescription" : "Just a platform made outta wicker.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "wickerplatformMFM.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

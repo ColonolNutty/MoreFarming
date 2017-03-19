@@ -60,7 +60,10 @@
 
 			"type" : "object",
 			"objectSets" : [ {
-				"pool" : [ [1, "wildjelonalienMFMseed" ] ],
+				"pool" : [
+          [1, "wildjelonalienMFMseed" ],
+          [1, "wildgarpberryMFMseed" ]
+        ],
 				"parameters" : { "startingStage" : 2 }
 			} ]
 		}

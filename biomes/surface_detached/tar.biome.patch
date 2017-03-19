@@ -12,10 +12,9 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "flytrapMFMseed"],
-						[1, "wildjelonalienMFMseed" ],
             [1, "wildpalsterstickMFMseed" ],
-            [1, "wildgarpberryMFMseed" ]
+            [1, "wildgarpberryMFMseed" ],
+            [1, "wildfinkelMFMseed" ]
 					],
 					"parameters" : {
 						"startingStage" : 2

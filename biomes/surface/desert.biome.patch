@@ -14,7 +14,8 @@
 				"pool" : [ 
           [1, "wildpricklypearMFMseed" ],
           [1, "wildsaguaroMFMseed" ],
-          [1, "wildjelondryMFMseed" ]
+          [1, "wildjelondryMFMseed" ],
+          [1, "wildpalsterstickMFMseed" ]
         ],
 				"parameters" : {
 				  "startingStage" : 2

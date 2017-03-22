@@ -1,12 +1,18 @@
 [
-	{
-		"op" : "add",
-		"path" : "/learnBlueprintsOnPickup/-",
-		"value" : "portabelloMFMseed"
-	},
-	{
-		"op" : "replace",
-		"path" : "/description",
-		"value" : "A mushroom. Edible...?"
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "portabelloMFMseed"
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "A mushroom. Edible...?"
+    }
+  ]
 ]

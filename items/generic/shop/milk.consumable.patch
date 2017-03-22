@@ -1,22 +1,28 @@
 [
-	{
-		"op" : "add",
-		"path" : "/learnBlueprintsOnPickup/-",
-		"value" : "creamMFM"
-	},
-	{
-		"op" : "add",
-		"path" : "/learnBlueprintsOnPickup/-",
-		"value" : "vanillaicecreamMFM"
-	},
-	{
-		"op" : "add",
-		"path" : "/learnBlueprintsOnPickup/-",
-		"value" : "chocolateicecreamMFM"
-	},
-	{
-		"op" : "add",
-		"path" : "/learnBlueprintsOnPickup/-",
-		"value" : "chocolatechipicecreamMFM"
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "creamMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "vanillaicecreamMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "chocolateicecreamMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "chocolatechipicecreamMFM"
+    }
+  ]
 ]

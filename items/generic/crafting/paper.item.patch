@@ -1,12 +1,18 @@
 [
-	{
-		"op" : "add",
-		"path" : "/learnBlueprintsOnPickup/-",
-		"value" : "cupcakepaperMFM"
-	},
-	{
-		"op" : "add",
-		"path" : "/learnBlueprintsOnPickup/-",
-		"value" : "bookpiles"
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "cupcakepaperMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "bookpiles"
+    }
+  ]
 ]

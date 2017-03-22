@@ -1,12 +1,18 @@
 [
-	{
-		"op" : "replace",
-		"path" : "/price",
-		"value" : 10
-	},
-	{
-		"op" : "add",
-		"path" : "/learnBlueprintsOnPickup/-",
-		"value" : "slicedredappleMFM"
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 10
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "slicedredappleMFM"
+    }
+  ]
 ]

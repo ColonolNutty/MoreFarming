@@ -1,12 +1,18 @@
 [ 
-	{ 
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup/-",
-		"value": "thatch"
-	},
-	{
-		"op": "replace",
-		"path": "/price",
-		"value": 5
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { 
+      "op": "add",
+      "path": "/learnBlueprintsOnPickup/-",
+      "value": "thatch"
+    },
+    {
+      "op": "replace",
+      "path": "/price",
+      "value": 5
+    }
+  ]
 ]

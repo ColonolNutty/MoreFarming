@@ -1,17 +1,23 @@
 [
-	{
-		"op" : "add",
-		"path" : "/learnBlueprintsOnPickup/-",
-		"value" : "frenchtoastMFM"
-	},
-	{
-		"op" : "add",
-		"path" : "/learnBlueprintsOnPickup/-",
-		"value" : "chocolatefrenchtoastMFM"
-	},
-	{
-		"op" : "add",
-		"path" : "/learnBlueprintsOnPickup/-",
-		"value" : "cinnamonfrenchtoastMFM"
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "frenchtoastMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "chocolatefrenchtoastMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "cinnamonfrenchtoastMFM"
+    }
+  ]
 ]

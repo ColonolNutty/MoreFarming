@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "dirtmaterial", "count" : 1 },
-	{ "item" : "grassseeds", "count" : 1 }
+    { "item" : "grassseeds", "count" : 1 }
   ],
   "output" : { "item" : "grassy", "count" : 1 },
   "groups" : [ "plain", "materials", "all" ]

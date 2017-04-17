@@ -1,5 +1,7 @@
 {
-	"input" : [ { "item" : "bamboostalkBMB", "count" : 1 } ],
+	"input" : [
+    { "item" : "bamboostalkBMB", "count" : 1 }
+  ],
 	"output" : { "item" : "bamboo", "count" : 1 },
 	"groups" : [ "plain", "materials", "all" ]
 }

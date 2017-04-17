@@ -7,5 +7,5 @@
     "item" : "lavalamp1",
     "count" : 1
   },
-  "groups" : [ "inventorstable2", "craftingstations", "objects", "all", "tools" ]
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
 }

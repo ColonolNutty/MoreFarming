@@ -3,9 +3,6 @@
     { "item" : "sourswillMFM", "count" : 1 },
     { "item" : "seedoilMFM", "count" : 2 }
   ],
-  "output" : {
-    "item" : "foulcocktailMFM",
-    "count" : 2
-  },
-  "groups" : [ "plain", "all", "other" ]
+  "output" : { "item" : "foulcocktailMFM", "count" : 2 },
+  "groups" : [ "plain", "food", "all" ]
 }

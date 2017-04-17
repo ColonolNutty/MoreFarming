@@ -3,8 +3,8 @@
   "rarity" : "Common",
   "category" : "preparedFood",
   "inventoryIcon" : "greenapplejuiceMFM.png",
-  "description" : "Sweet apple juice from a green apple.",
-  "shortdescription" : "Apple Juice from a green apple",
+  "description" : "Sour apple juice from a green apple.",
+  "shortdescription" : "Apple Juice",
   "handPosition" : [8, -4],
   "price" : 40,
   "effects" : [ [

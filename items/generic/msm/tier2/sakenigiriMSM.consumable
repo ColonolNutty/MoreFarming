@@ -8,7 +8,7 @@
   "handPosition" : [0, 6],
   "effects" : [ [
     {
-        "effect" : "maxhealthboost10",
+        "effect" : "maxhealthscalingboostfood",
         "duration" : 90
     }
   ] ],

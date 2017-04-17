@@ -8,11 +8,11 @@
   "handPosition" : [12, -6],
   "effects" : [ [
     {
-        "effect" : "runboost25",
+        "effect" : "runboostfood",
         "duration" : 30
     },
     {
-        "effect" : "maxenergyboost40",
+        "effect" : "maxenergyscalingboostfood",
         "duration" : 105
     }
   ] ],

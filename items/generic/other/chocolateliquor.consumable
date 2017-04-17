@@ -8,7 +8,7 @@
   "price" : 20,
   "effects" : [ [
     {
-        "effect" : "maxenergyboost120",
+        "effect" : "maxenergyscalingboostfood",
         "duration" : 120
     }
   ] ],

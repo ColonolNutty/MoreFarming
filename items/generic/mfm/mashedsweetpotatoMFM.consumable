@@ -9,7 +9,7 @@
   "price" : 40,
   "effects" : [ [
     {
-        "effect" : "maxhealthboost20",
+        "effect" : "maxhealthscalingboostfood",
         "duration" : 105
     }
   ] ],

@@ -13,7 +13,7 @@
         "duration" : 10
     },
     {
-        "effect" : "maxenergyboost120",
+        "effect" : "maxenergyscalingboostfood",
         "duration" : 120
     }
   ] ],

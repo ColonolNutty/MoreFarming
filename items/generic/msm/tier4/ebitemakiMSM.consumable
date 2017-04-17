@@ -7,11 +7,11 @@
   "shortdescription" : "Ebi Temaki",
   "effects" : [ [
     {
-        "effect" : "jumpboost25",
+        "effect" : "jumpboostfood",
         "duration" : 30
     },
     {
-        "effect" : "maxhealthboost40",
+        "effect" : "maxhealthscalingboostfood",
         "duration" : 120
     }
   ] ],

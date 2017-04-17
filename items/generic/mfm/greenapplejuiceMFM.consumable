@@ -1,0 +1,26 @@
+{
+  "itemName" : "greenapplejuiceMFM",
+  "rarity" : "Common",
+  "category" : "preparedFood",
+  "inventoryIcon" : "greenapplejuiceMFM.png",
+  "description" : "Sweet apple juice from a green apple.",
+  "shortdescription" : "Apple Juice from a green apple",
+  "handPosition" : [8, -4],
+  "price" : 40,
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 120
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

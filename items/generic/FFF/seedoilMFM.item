@@ -1,7 +1,7 @@
 {
   "itemName" : "seedoilMFM",
   "rarity" : "Common",
-  "category" : "craftingMaterial",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "seedoilMFM.png",
   "description" : "Oil! For stir-frying and FTL traveling.",
   "shortdescription" : "Seed Oil",

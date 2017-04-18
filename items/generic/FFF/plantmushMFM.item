@@ -1,7 +1,7 @@
 {
   "itemName" : "plantmushMFM",
   "rarity" : "Common",
-  "category" : "craftingMaterial",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "plantmushMFM.png",
   "description" : "Ground plants that are inedible.",
   "shortdescription" : "Plant Mush",

@@ -437,7 +437,8 @@
         ],
         "pool" : [
           {"weight" : 0.89, "item" : "greatbambooMFMseed"},
-          {"weight" : 0.1, "item" : "fullwood1"}
+          {"weight" : 0.1, "item" : "bambooBMBshoot"},
+          {"weight" : 0.89, "item" : "bamboostalkBMB"}
         ],
         "poolRounds" : [
           [0.6, 2],

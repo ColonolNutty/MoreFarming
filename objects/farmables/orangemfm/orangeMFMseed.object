@@ -42,7 +42,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "ccorangeHarvest"
+      "harvestPool" : "orangeMFMHarvest"
     }
   ]
 }

@@ -26,6 +26,6 @@
 { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "vanillaicingMFM" } },
 { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "ketchupMFM" } },
 { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "vinegarMSM" } },
-{ "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "sakeMSM" } },
+{ "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "sakeMFM" } },
 { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "tamariMSM" } }
 ]

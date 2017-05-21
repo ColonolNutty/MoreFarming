@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "rice", "count" : 4 },
+    { "item" : "sakeMFM", "count" : 1 },
     { "item" : "rawfish", "count" : 1 }
   ],
   "output" : { "item" : "sakenigiriMSM", "count" : 1 },

@@ -8,19 +8,18 @@
   "category" : "craftingMaterial",
   "itemTags" : [ "reagent" ],
   "maxStack" : 1000,
-  "learnBlueprintsOnPickup" : [
-    "bamboo",
-	"bamboobedBMB",
-	"bamboobookcaseBMB",
-	"bamboocageBMB",
-	"bamboochairBMB",
-	"bamboocrate1BMB",
-	"bamboocrate2BMB",
-	"bamboodeskBMB",
-	"bamboogateBMB",
-	"bamboopunjisticksBMB",
-	"bambooscreenBMB",
-	"bamboostoolBMB",
-	"bambootableBMB" 
-	]
+  "learnBlueprintsOnPickup" : [ "bamboo",
+                                "bamboobedBMB",
+                                "bamboobookcaseBMB",
+                                "bamboocageBMB",
+                                "bamboochairBMB",
+                                "bamboocrate1BMB",
+                                "bamboocrate2BMB",
+                                "bamboodeskBMB",
+                                "bamboogateBMB",
+                                "bamboopunjisticksBMB",
+                                "bambooscreenBMB",
+                                "bamboostoolBMB",
+                                "bambootableBMB",
+                                "bambooplatform" ]
 }

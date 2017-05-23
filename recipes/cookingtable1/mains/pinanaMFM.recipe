@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "wheat", "count" : 15 },
-    { "item" : "jelonMFM", "count" : 10 },
-    { "item" : "banana", "count" : 15 }
+    { "item" : "flourMFM", "count" : 16 },
+    { "item" : "jelonMFM", "count" : 8 },
+    { "item" : "banana", "count" : 8 }
   ],
   "output" : { "item" : "pinanaMFM", "count" : 1 },
   "groups" : [ "craftingfood", "consumables", "mains", "all" ]

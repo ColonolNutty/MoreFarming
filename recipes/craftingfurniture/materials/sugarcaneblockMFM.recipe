@@ -2,9 +2,6 @@
   "input" : [
     { "item" : "sugarcaneBMB", "count" : 1 }
   ],
-  "output" : {
-    "item" : "sugarcaneblockMFM",
-    "count" : 1
-  },
+  "output" : { "item" : "sugarcaneblockMFM", "count" : 1 },
   "groups" : [ "craftingfurniture", "materials", "all" ]
 }

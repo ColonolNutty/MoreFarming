@@ -11,5 +11,6 @@
   "rottingMultiplier" : 1.0,
   "category" : "cookingIngredient",
   "maxStack" : 1000,
-  "learnBlueprintsOnPickup" : [ "oatgrainsMFM" ]
+  "learnBlueprintsOnPickup" : [ "oatgrainsMFM",
+                                "flourMFM" ]
 }

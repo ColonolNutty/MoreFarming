@@ -4,15 +4,10 @@
     { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
   ],
   [
-    { 
-      "op": "replace",
-      "path" : "/shortdescription", 
-      "value" : "Roasted Coffee Beans"
-    },
     {
       "op" : "add",
       "path" : "/learnBlueprintsOnPickup/-",
-      "value" : "chocolatecoffeebeansMFM"
+      "value" : "roastedcoffeebeansMFM"
     }
   ]
 ]

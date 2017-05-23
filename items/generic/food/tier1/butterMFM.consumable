@@ -1,0 +1,23 @@
+{
+  "itemName" : "butterMFM",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "butterMFM.png",
+  "description" : "For making everything less healthy and more awesome.",
+  "shortdescription" : "Butter",
+  "handPosition" : [0, 4],
+  "category" : "preparedFood",
+  "foodValue" : 2,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup": [ "puddingMFM",
+                               "sugarcookieMFM",
+                               "toffeecookieMFM",
+                               "toffeecookieMFM" ]
+}

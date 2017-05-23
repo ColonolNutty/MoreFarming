@@ -1,8 +1,12 @@
 {
   "itemName" : "cannedplantsludgeMFM",
   "rarity" : "Common",
-  "category" : "craftingMaterial",
   "inventoryIcon" : "cannedplantsludgeMFM.png",
   "description" : "Plant Sludge in a Can.",
-  "shortdescription" : "Canned Plant Sludge"
+  "shortdescription" : "Canned Plant Sludge",
+  "price" : 10,
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ],
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup": [ "biodieselMFM" ]
 }

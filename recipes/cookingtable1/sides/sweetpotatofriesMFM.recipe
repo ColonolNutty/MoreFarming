@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "sweetpotatoMFM", "count" : 1 },
-	{ "item" : "saltMFM", "count" : 1 }
+    { "item" : "saltMFM", "count" : 1 }
   ],
   "output" : { "item" : "sweetpotatofriesMFM", "count" : 1 },
   "groups" : [ "craftingfood", "sides", "consumables", "foodhealing","all" ]

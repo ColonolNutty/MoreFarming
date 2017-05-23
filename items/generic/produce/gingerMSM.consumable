@@ -17,5 +17,7 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "gariMSM" ]
+  "learnBlueprintsOnPickup" : [ "gariMSM",
+                                "gingercookieMFM",
+                                "phoMFM" ]
 }

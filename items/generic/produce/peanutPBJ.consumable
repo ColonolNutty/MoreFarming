@@ -17,5 +17,7 @@
   "blockingEffects" : [
 	"wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "peanutbutterPBJ" ]
+  "learnBlueprintsOnPickup" : [ "peanutbutterPBJ",
+                                "roastedpeanutMFM",
+                                "padthaiMFM" ]
 }

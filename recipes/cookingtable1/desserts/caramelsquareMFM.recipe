@@ -1,11 +1,11 @@
 {
   "input" : [
-    { "item" : "butter", "count" : 2 },
-	{ "item" : "chocolate", "count" : 2 },
-	{ "item" : "sugar", "count" : 4 },
-	{ "item" : "flourMFM", "count" : 4 },
-	{ "item" : "condensedmilkMFM", "count" : 1 },
-	{ "item" : "goldensyrupMFM", "count" : 1 }
+    { "item" : "flourMFM", "count" : 4 },
+    { "item" : "condensedmilkMFM", "count" : 1 },
+    { "item" : "goldensyrupMFM", "count" : 1 },
+    { "item" : "chocolate", "count" : 2 },
+    { "item" : "butterMFM", "count" : 2 },
+    { "item" : "sugar", "count" : 4 }
   ],
   "output" : { "item" : "caramelsquareMFM", "count" : 1 },
   "groups" : [ "craftingfood", "desserts", "consumables", "foodhealing","all" ]

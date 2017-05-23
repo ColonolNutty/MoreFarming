@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "cupcakeMFM", "count" : 1 },
-	{ "item" : "lemonicingMFM", "count" : 1 }
+    { "item" : "lemonicingMFM", "count" : 1 }
   ],
   "output" : { "item" : "lemoncupcakeMFM", "count" : 1 },
   "groups" : [ "craftingfood", "desserts", "consumables", "foodhealing","all" ]

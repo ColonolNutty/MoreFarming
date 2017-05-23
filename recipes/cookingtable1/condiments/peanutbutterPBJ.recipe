@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "peanutPBJ", "count" : 5 },
+    { "item" : "glassmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "peanutbutterPBJ", "count" : 1 },
+  "groups" : [ "craftingfood", "condiments", "consumables", "foodhealing", "PB+J" ]
+}

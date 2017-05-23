@@ -15,7 +15,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [
-    "cctoffeeblock"
-  ]
+  "learnBlueprintsOnPickup" : [ "toffeeblockMFM",
+                                "toffeecookieMFM"]
 }

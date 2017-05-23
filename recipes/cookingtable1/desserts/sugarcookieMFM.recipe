@@ -1,7 +1,10 @@
 {
   "input" : [
-    { "item" : "wheat", "count" : 2 },
-    { "item" : "sugar", "count" : 1 }
+    { "item" : "flourMFM", "count" : 1 },
+    { "item" : "butterMFM", "count" : 1 },
+    { "item" : "egg", "count" : 1 },
+    { "item" : "vanillaextractMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 3 }
   ],
   "output" : { "item" : "sugarcookieMFM", "count" : 8 },
   "groups" : [ "craftingfood", "consumables", "desserts", "all" ]

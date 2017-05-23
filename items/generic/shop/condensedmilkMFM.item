@@ -2,9 +2,10 @@
   "itemName" : "condensedmilkMFM",
   "rarity" : "Common",
   "inventoryIcon" : "condensedmilkMFM.png",
-  "description" : "Useful!",
+  "description" : "Milk that is condensed",
   "shortdescription" : "Condensed Milk",
   "price" : 8,
   "category" : "cookingIngredient",
-  "maxStack" : 1000
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup": [ "caramelsquareMFM" ]
 }

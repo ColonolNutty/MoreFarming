@@ -1,11 +1,12 @@
 {
   "itemName" : "freshpastaMFM",
   "rarity" : "Common",
-  "price" : 50,
   "category" : "preparedFood",
   "inventoryIcon" : "freshpastaMFM.png",
   "description" : "A bunch of pasta.",
   "shortdescription" : "Fresh Pasta",
+  "handPosition" : [0, 4],
+  "price" : 50,
   "foodValue" : 25,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -15,5 +16,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "handPosition" : [0, 4]
+  "learnBlueprintsOnPickup": [ "cannedpastaMFM" ]
 }

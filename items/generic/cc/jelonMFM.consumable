@@ -1,11 +1,12 @@
 {
   "itemName" : "jelonMFM",
   "rarity" : "Common",
-  "price" : 200,
   "category" : "food",
   "inventoryIcon" : "jelonMFM.png",
   "description" : "A genetically engineered jelon.",
   "shortdescription" : "Jelon",
+  "handPosition" : [-2, -2],
+  "price" : 200,
   "foodValue" : 10,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -21,6 +22,12 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "handPosition" : [-2, -2],
-  "learnBlueprintsOnPickup" : [ "jelonjuiceMFM", "jelonjamMFM" ]
+  "learnBlueprintsOnPickup" : [ "jelonjuiceMFM",
+                                "jelonjamMFM",
+                                "jelonbrownieMFM",
+                                "jeloncookieMFM",
+                                "pinanaMFM",
+                                "pinanasliceMFM",
+                                "jelonbreadMFM",
+                                "jelonblockMFM" ]
 }

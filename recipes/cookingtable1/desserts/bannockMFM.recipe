@@ -1,10 +1,10 @@
 {
   "input" : [
-	{ "item" : "flourMFM", "count" : 6 },
-	{ "item" : "bakingpowderMFM", "count" : 1 },
-	{ "item" : "milk", "count" : 1 },
-	{ "item" : "butter", "count" : 1 },
-	{ "item" : "sugar", "count" : 2 }
+    { "item" : "flourMFM", "count" : 6 },
+    { "item" : "bakingpowderMFM", "count" : 1 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "butterMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 2 }
   ],
   "output" : { "item" : "bannockMFM", "count": 1 },
   "groups" : [ "craftingfood", "desserts", "consumables", "foodhealing", "all"]

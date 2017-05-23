@@ -1,8 +1,12 @@
 {
   "itemName" : "foulcocktailMFM",
   "rarity" : "Common",
-  "category" : "cookingIngredient",
   "inventoryIcon" : "foulcocktailMFM.png",
   "description" : "An inexplicable mix of oil and acidic swill.",
-  "shortdescription" : "Foul Cocktail"
+  "shortdescription" : "Foul Cocktail",
+  "price" : 10,
+  "category" : "cookingIngredient",
+  "itemTags" : [ "reagent" ],
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup": [ "bioethanolMFM" ]
 }

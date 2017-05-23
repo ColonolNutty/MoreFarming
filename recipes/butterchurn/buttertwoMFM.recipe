@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "milk", "count" : 1 }
   ],
-  "output" : { "item" : "butter", "count" : 1 },
+  "output" : { "item" : "butterMFM", "count" : 1 },
   "groups" : [ "butterchurn", "consumables", "all" ]
 }

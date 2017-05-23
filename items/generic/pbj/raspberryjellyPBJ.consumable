@@ -14,5 +14,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "raspberryjellysandwichPBJ", "raspberrypbjPBJ" ]
+  "learnBlueprintsOnPickup" : [ "raspberryjellysandwichPBJ",
+                                "raspberrypbjPBJ" ]
 }

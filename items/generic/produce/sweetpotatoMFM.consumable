@@ -17,5 +17,8 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "sweetpotatofriesMFM", "loadedbakedsweetpotatoMFM" ]
+  "learnBlueprintsOnPickup" : [ "sweetpotatofriesMFM",
+                                "loadedbakedsweetpotatoMFM",
+                                "bakedsweetpotatoMFM",
+                                "mashedsweetpotatoMFM" ]
 }

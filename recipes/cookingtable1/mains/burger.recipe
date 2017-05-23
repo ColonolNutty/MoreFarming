@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "bread", "count" : 2 },
-    { "item" : "cookedalienmeat", "count" : 1 }
-  ],
-  "output" : { "item" : "hamburger", "count" : 1 },
-  "groups" : [ "craftingfood", "consumables", "mains", "all" ]
-}

@@ -6,5 +6,6 @@
   "shortdescription" : "Vinegar",
   "price" : 25,
   "category" : "cookingIngredient",
-  "maxStack" : 1000
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup": [ "gariMSM" ]
 }

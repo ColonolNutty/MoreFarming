@@ -8,6 +8,11 @@
       "op" : "add",
       "path" : "/learnBlueprintsOnPickup/-",
       "value" : "riceballMSM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "sakeMFM"
     }
   ]
 ]

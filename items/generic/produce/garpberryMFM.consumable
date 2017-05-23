@@ -16,5 +16,11 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "garpberryicecreamMFM", "bananagarpsaladMFM", "friedgarpberrysMFM", "garpberrybakedautomatoMFM", "garpberryjuiceMFM", "meatandgarpberrysandwichMFM", "roastedgarpberrysMFM" ]
+  "learnBlueprintsOnPickup" : [ "garpberryicecreamMFM",
+                                "bananagarpsaladMFM",
+                                "friedgarpberrysMFM",
+                                "garpberrybakedautomatoMFM",
+                                "garpberryjuiceMFM",
+                                "meatandgarpberrysandwichMFM",
+                                "roastedgarpberrysMFM" ]
 }

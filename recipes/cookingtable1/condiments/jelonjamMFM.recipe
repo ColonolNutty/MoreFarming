@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "sugar", "count" : 1 },
-    { "item" : "jelonMFM", "count" : 1 }
+    { "item" : "jelonMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 1 }
   ],
   "output" : { "item" : "jelonjamMFM", "count" : 1 },
   "groups" : [ "craftingfood", "consumables", "condiments", "all" ]

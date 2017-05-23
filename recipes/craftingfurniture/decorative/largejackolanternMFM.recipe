@@ -3,9 +3,6 @@
     { "item" : "torch", "count" : 1 },
     { "item" : "pumpkinfullMFM", "count" : 1 }
   ],
-  "output" : {
-    "item" : "largejackolanternMFM",
-    "count" : 1
-  },
+  "output" : { "item" : "largejackolanternMFM", "count" : 1 },
   "groups" : [ "craftingfurniture", "decoration", "materials", "all" ]
 }

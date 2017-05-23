@@ -23,8 +23,6 @@
   ],
   "handPosition" : [0, -2],
   "emitters" : [ "drinking" ],
-	"learnBlueprintsOnPickup": [
-    "plantsludgeMFM",
-    "foulcocktailMFM"
-  ]
+	"learnBlueprintsOnPickup": [ "plantsludgeMFM",
+                               "foulcocktailMFM" ]
 }

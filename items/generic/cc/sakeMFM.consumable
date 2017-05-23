@@ -15,5 +15,8 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup": [ "sakemakiMSM",
+                               "saketemakiMSM",
+                               "sakenigiriMSM" ]
 }

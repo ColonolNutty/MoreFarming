@@ -17,5 +17,17 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "slicedcucumberMFM", "kappamakiMSM", "californiamakiMSM" ]
+  "learnBlueprintsOnPickup" : [ "slicedcucumberMFM",
+                                "californiamakiMSM",
+                                "ikamakiMSM",
+                                "ikatemakiMSM",
+                                "kappamakiMSM",
+                                "maguromakiMSM",
+                                "magurotemakiMSM",
+                                "sakemakiMSM",
+                                "saketemakiMSM",
+                                "takomakiMSM",
+                                "takotemakiMSM",
+                                "unagimakiMSM",
+                                "unagitemakiMSM" ]
 }

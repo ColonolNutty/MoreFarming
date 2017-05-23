@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "strawberriesPBJ", "count" : 5 },
+    { "item" : "glassmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "strawberryjellyPBJ", "count" : 1 },
+  "groups" : [ "craftingfood", "condiments", "consumables", "foodhealing", "PB+J" ]
+}

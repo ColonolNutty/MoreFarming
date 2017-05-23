@@ -7,5 +7,6 @@
   "price" : 10,
   "category" : "craftingMaterial",
   "itemTags" : [ "reagent" ],
-  "maxStack" : 1000
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup": [ "groundcinnamonMFM" ]
 }

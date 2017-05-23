@@ -2,9 +2,6 @@
   "input" : [
     { "item" : "bamboostalkBMB", "count" : 5 }
   ],
-  "output" : {
-    "item" : "bamboostoolBMB",
-    "count" : 1
-  },
+  "output" : { "item" : "bamboostoolBMB", "count" : 1 },
   "groups" : [ "craftingfurniture", "decoration", "objects", "all" ]
 }

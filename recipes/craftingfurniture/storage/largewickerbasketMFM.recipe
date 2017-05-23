@@ -2,9 +2,6 @@
   "input" : [
     { "item" : "rattanfiberMFM", "count" : 20 }
   ],
-  "output" : {
-    "item" : "largewickerbasketMFM",
-    "count" : 1
-  },
+  "output" : { "item" : "largewickerbasketMFM", "count" : 1 },
   "groups" : [ "craftingfurniture", "storage", "objects", "all" ]
 }

@@ -15,5 +15,7 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ]
+  ],
+  "learnBlueprintsOnPickup": [ "lemonjuiceMFM",
+                               "padthaiMFM"]
 }

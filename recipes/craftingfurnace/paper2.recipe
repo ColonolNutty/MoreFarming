@@ -2,9 +2,6 @@
   "input" : [
     { "item" : "sugarcaneBMB", "count" : 3 }
   ],
-  "output" : {
-    "item" : "paper",
-    "count" : 5
-  },
+  "output" : { "item" : "paper", "count" : 5 },
   "groups" : [ "craftingfurnace", "ingredients", "all" ]
 }

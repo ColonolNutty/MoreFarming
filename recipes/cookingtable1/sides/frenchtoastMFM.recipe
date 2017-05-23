@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "bread", "count" : 2 },
-	{ "item" : "egg", "count" : 2 },
-	{ "item" : "milk", "count" : 1 }
+    { "item" : "egg", "count" : 2 },
+    { "item" : "milk", "count" : 1 }
   ],
   "output" : { "item" : "frenchtoastMFM", "count" : 1 },
   "groups" : [ "kitchen", "consumables", "foodhealing","all" ]

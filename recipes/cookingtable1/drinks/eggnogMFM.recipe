@@ -1,8 +1,11 @@
 {
   "input" : [
-    { "item" : "eggshoot", "count" : 1 },
+    { "item" : "creamMFM", "count" : 2 },
+    { "item" : "egg", "count" : 2 },
     { "item" : "milk", "count" : 2 },
-    { "item" : "sugar", "count" : 2 }
+    { "item" : "sugar", "count" : 2 },
+    { "item" : "groundcinnamonMFM", "count" : 1 },
+    { "item" : "vanillaextractMFM", "count" : 1 }
   ],
   "output" : { "item" : "eggnogMFM", "count" : 1 },
   "groups" : [ "craftingfood", "consumables", "drinks", "all" ]

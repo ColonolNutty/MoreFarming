@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "rice", "count" : 4 },
-    { "item" : "seaweed", "count" : 1 },
+    { "item" : "kelp", "count" : 1 },
     { "item" : "rawtentacle", "count" : 1 },
     { "item" : "cucumberMSM", "count" : 1 }
   ],

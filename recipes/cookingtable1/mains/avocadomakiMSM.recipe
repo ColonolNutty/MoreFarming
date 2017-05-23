@@ -1,9 +1,9 @@
 {
   "input" : [
-	{ "item" : "rice", "count" : 4 },
-	{ "item" : "seaweed", "count" : 1 },
-	{ "item" : "slicedavocadoMSM", "count" : 1 },
-	{ "item" : "gingerMSM", "count" : 1 }
+    { "item" : "rice", "count" : 4 },
+    { "item" : "kelp", "count" : 1 },
+    { "item" : "slicedavocadoMSM", "count" : 1 },
+    { "item" : "gingerMSM", "count" : 1 }
   ],
   "output" : { "item" : "avocadomakiMSM", "count" : 1 },
   "groups" : [ "craftingfood", "mains", "consumables", "foodhealing", "foodmobility" ]

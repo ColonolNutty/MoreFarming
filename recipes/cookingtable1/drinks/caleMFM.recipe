@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "yeastMFMseed", "count" : 1 },
+    { "item" : "yeastMFM", "count" : 1 },
     { "item" : "sugar", "count" : 1 }
   ],
   "output" : { "item" : "caleMFM", "count" : 1 },

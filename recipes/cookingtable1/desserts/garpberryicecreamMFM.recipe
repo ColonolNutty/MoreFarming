@@ -1,8 +1,8 @@
 {
   "input" : [
+    { "item" : "garpberryMFM", "count" : 2 },
     { "item" : "milk", "count" : 1 },
-    { "item" : "sugar", "count" : 3 },
-    { "item" : "garpberryMFM", "count" : 2 }
+    { "item" : "sugar", "count" : 3 }
   ],
   "output" : { "item" : "garpberryicecreamMFM", "count" : 1 },
   "groups" : [ "craftingfood", "desserts", "all" ]

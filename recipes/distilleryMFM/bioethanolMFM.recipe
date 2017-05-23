@@ -2,9 +2,6 @@
   "input" : [
     { "item" : "foulcocktailMFM", "count" : 1 }
   ],
-  "output" : {
-    "item" : "bioethanolMFM",
-    "count" : 1
-  },
+  "output" : { "item" : "bioethanolMFM", "count" : 1 },
   "groups" : [ "distilleryMFM", "all" ]
 }

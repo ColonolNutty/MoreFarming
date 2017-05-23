@@ -2,9 +2,6 @@
   "input" : [
     { "item" : "corn", "count" : 2 }
   ],
-  "output" : {
-    "item" : "cornbeerMFM",
-    "count" : 1
-  },
+  "output" : { "item" : "cornbeerMFM", "count" : 1 },
   "groups" : [ "distilleryMFM", "all" ]
 }

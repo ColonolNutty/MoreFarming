@@ -2,9 +2,6 @@
   "input" : [
     { "item" : "pumpkinfullMFM", "count" : 1 }
   ],
-  "output" : {
-    "item" : "pumpkinblockMFM",
-    "count" : 10
-  },
+  "output" : { "item" : "pumpkinblockMFM", "count" : 10 },
   "groups" : [ "craftingfurniture", "materials", "all" ]
 }

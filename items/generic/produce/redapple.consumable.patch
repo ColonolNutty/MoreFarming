@@ -12,7 +12,17 @@
     {
       "op" : "add",
       "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "appleciderMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
       "value" : "slicedredappleMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "goldenappleMFM"
     }
   ]
 ]

@@ -8,6 +8,11 @@
       "op" : "add",
       "path" : "/learnBlueprintsOnPickup/-",
       "value" : "pizzapMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "cookedboltbulbMFM"
     }
   ]
 ]

@@ -7,5 +7,6 @@
   "category" : "craftingMaterial",
   "itemTags" : [ "reagent" ],
   "maxStack" : 1000,
-  "shortdescription" : "Dirty Plate"
+  "shortdescription" : "Dirty Plate",
+  "learnBlueprintsOnPickup": [ "ceramicplateMFM" ]
 }

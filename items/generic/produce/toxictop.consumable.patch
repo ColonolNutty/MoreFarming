@@ -8,6 +8,16 @@
       "op" : "add",
       "path" : "/learnBlueprintsOnPickup/-",
       "value" : "slicedtoxictopMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "piodiaMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "sourswillMFM"
     }
   ]
 ]

@@ -15,5 +15,7 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "chocolate", "darkchocolateMFM", "whitechocolateMFM" ]
+  "learnBlueprintsOnPickup" : [ "chocolate",
+                                "darkchocolateMFM",
+                                "whitechocolateMFM" ]
 }

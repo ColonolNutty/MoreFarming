@@ -15,7 +15,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-	"learnBlueprintsOnPickup": [
-    "nutritiousmushMFM"
-  ]
+	"learnBlueprintsOnPickup": [ "nutritiousmushMFM" ]
 }

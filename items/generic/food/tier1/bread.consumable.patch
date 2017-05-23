@@ -7,17 +7,12 @@
     {
       "op" : "add",
       "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "toast"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
       "value" : "frenchtoastMFM"
-    },
-    {
-      "op" : "add",
-      "path" : "/learnBlueprintsOnPickup/-",
-      "value" : "chocolatefrenchtoastMFM"
-    },
-    {
-      "op" : "add",
-      "path" : "/learnBlueprintsOnPickup/-",
-      "value" : "cinnamonfrenchtoastMFM"
     }
   ]
 ]

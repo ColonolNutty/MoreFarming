@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "puddingMFM.png",
   "description" : "Is it a liquid or solid?",
-  "shortdescription" : "Pudding",
+  "shortdescription" : "Vanilla Pudding",
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

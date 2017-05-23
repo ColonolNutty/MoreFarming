@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "grapejellyPBJ", "count" : 1 },
+    { "item" : "peanutbutterPBJ", "count" : 1 },
+    { "item" : "bread", "count" : 2 }
+  ],
+  "output" : { "item" : "pbjPBJ", "count" : 1 },
+  "groups" : [ "craftingfood", "mains", "consumables", "PB+J" ]
+}

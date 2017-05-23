@@ -1,11 +1,11 @@
 {
   "itemName" : "plantmushMFM",
   "rarity" : "Common",
-  "category" : "cookingIngredient",
   "inventoryIcon" : "plantmushMFM.png",
   "description" : "Ground plants that are inedible.",
   "shortdescription" : "Plant Mush",
-	"learnBlueprintsOnPickup": [
-    "plantsludgeMFM"
-  ]
+  "price" : 20,
+  "category" : "cookingIngredient",
+  "maxStack" : 1000,
+	"learnBlueprintsOnPickup": [ "plantsludgeMFM" ]
 }

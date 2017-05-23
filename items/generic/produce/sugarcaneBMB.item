@@ -7,5 +7,7 @@
   "category" : "craftingMaterial",
   "itemTags" : [ "reagent" ],
   "maxStack" : 1000,
-  "learnBlueprintsOnPickup" : ["sugarcaneblockMFM"]
+  "learnBlueprintsOnPickup" : [ "sugarcaneblockMFM",
+                                "paper",
+                                "sugar" ]
 }

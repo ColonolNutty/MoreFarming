@@ -12,6 +12,26 @@
     {
       "op" : "add",
       "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "sugarcookieMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "puddingMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "gariMSM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "toffeeMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
       "value" : "caramelMFM"
     },
     {

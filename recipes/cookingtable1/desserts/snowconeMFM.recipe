@@ -2,9 +2,7 @@
   "input" : [
     { "item" : "slush", "count" : 10 }
   ],
-  "output" : {
-    "item" : "snowcone",
-    "count" : 1
-  },
-  "groups" : [ "craftingfood", "desserts", "materials", "all" ]
+  "output" : { "item" : "snowcone", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts", "materials", "all" ],
+  "collectables" : { "cooking" : "snowcone" }
 }

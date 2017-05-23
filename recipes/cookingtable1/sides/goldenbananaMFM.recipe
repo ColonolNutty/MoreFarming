@@ -3,9 +3,6 @@
     { "item" : "banana", "count" : 1 },
     { "item" : "goldbar", "count" : 2 }
   ],
-  "output" : {
-    "item" : "goldenbananaMFM",
-    "count" : 1
-  },
+  "output" : { "item" : "goldenbananaMFM", "count" : 1 },
   "groups" : [ "craftingfood", "consumables", "sides", "all" ]
 }

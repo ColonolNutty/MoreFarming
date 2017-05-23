@@ -1,10 +1,12 @@
 {
-    "itemName": "creamMFM",
-    "rarity": "Common",
-    "inventoryIcon": "creamMFM.png",
-    "description": "Creamy!",
-    "shortdescription": "Cream",
+  "itemName" : "creamMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "creamMFM.png",
+  "description" : "Creamy!",
+  "shortdescription" : "Cream",
   "price" : 20,
   "category" : "cookingIngredient",
-  "maxStack" : 1000
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup": [ "butterMFM",
+                               "eggnogMFM" ]
 }

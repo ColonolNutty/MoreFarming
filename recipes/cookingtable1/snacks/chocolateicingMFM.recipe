@@ -1,8 +1,7 @@
 {
   "input" : [
-    { "item" : "egg", "count" : 1 },
-	{ "item" : "chocolateliquorMFM", "count" : 1 },
-	{ "item" : "sugar", "count" : 2 }
+    { "item" : "chocolateliquorMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 2 }
   ],
   "output" : { "item" : "chocolateicingMFM", "count" : 1 },
   "groups" : [ "craftingfood", "snacks", "consumables", "foodhealing","all" ]

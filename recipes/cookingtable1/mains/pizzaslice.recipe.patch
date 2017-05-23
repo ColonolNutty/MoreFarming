@@ -1,0 +1,12 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value":  [
+    { "item" : "flourMFM", "count" : 1 },
+    { "item" : "tomato", "count" : 1 },
+    { "item" : "rawbacon", "count" : 1 },
+    { "item" : "cheese", "count" : 1 }
+    ]
+	}
+]

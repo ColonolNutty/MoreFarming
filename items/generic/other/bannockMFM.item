@@ -5,6 +5,8 @@
   "description" : "Bannock.",
   "shortdescription" : "Raw Bannock",
   "price" : 20,
+  "tooltipKind" : "food",
   "category" : "cookingIngredient",
-  "maxStack" : 1000
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup": [ "cookedbannockMFM" ]
 }

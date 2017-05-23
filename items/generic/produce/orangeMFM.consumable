@@ -16,5 +16,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup": [ "orangejuiceMFM", "slicedorangeMFM" ]
+  "learnBlueprintsOnPickup": [ "orangejuiceMFM",
+                               "slicedorangeMFM" ]
 }

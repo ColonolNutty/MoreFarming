@@ -1,10 +1,8 @@
 {
   "input" : [
-    { "item" : "reddye", "count" : 1 }
+    { "item" : "petalred", "count" : 5 },
+    { "item" : "bottle", "count" : 1 }
   ],
-  "output" : {
-    "item" : "redfoodcolorMFM",
-    "count" : 1
-  },
+  "output" : { "item" : "redfoodcolorMFM", "count" : 1 },
   "groups" : [ "craftingfood", "condiments", "materials", "all" ]
 }

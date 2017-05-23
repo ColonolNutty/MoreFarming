@@ -7,12 +7,42 @@
     {
       "op" : "add",
       "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "jelonbrownieMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "chocolatecoffeebeansMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
       "value" : "chocolateblockMFM"
     },
     {
       "op" : "add",
       "path" : "/learnBlueprintsOnPickup/-",
       "value" : "chocolatechipsMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "chocolatecookieMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "caramelsquareMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "chocolatecoveredbaconMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "chocolatepuddingMFM"
     }
   ]
 ]

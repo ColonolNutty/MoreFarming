@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "money", "count" : 250 },
-    { "item" : "ironbar", "count" : 10 }
+    { "item" : "ironbar", "count" : 10 },
+    { "item" : "copperbar", "count" : 5 }
   ],
   "output" : {
     "item" : "juicerMFM",

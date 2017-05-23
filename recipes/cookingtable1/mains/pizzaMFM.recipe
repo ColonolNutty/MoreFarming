@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "wheat", "count" : 15 },
-    { "item" : "tomato", "count" : 10 },
-    { "item" : "cheese", "count" : 15 }
+    { "item" : "flourMFM", "count" : 8 },
+    { "item" : "tomato", "count" : 8 },
+    { "item" : "cheese", "count" : 8 }
   ],
   "output" : { "item" : "pizzaMFM", "count" : 1 },
   "groups" : [ "craftingfood", "consumables", "mains", "all" ]

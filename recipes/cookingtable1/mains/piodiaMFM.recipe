@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "wheat", "count" : 15 },
-    { "item" : "diodia", "count" : 10 },
-    { "item" : "toxictop", "count" : 15 }
+    { "item" : "flourMFM", "count" : 16 },
+    { "item" : "diodia", "count" : 8 },
+    { "item" : "toxictop", "count" : 8 }
   ],
   "output" : { "item" : "piodiaMFM", "count" : 1 },
   "groups" : [ "craftingfood", "consumables", "mains", "all" ]

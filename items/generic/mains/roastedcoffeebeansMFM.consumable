@@ -1,0 +1,25 @@
+{
+  "itemName" : "roastedcoffeebeansMFM",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "preparedFood",
+  "inventoryIcon" : "roastedcoffeebeansMFM.png",
+  "description" : "Crunchy roasted coffee beans. Mmm.",
+  "shortdescription" : "Roasted Coffee Beans",
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 20
+    }
+  ] ],
+  "learnBlueprintsOnPickup": [ "chocolatecoffeebeansMFM" ]
+}

@@ -1,6 +1,8 @@
 {
   "input" : [
-    { "item" : "wheat", "count" : 2 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 2 },
+    { "item" : "butterMFM", "count" : 1 },
     { "item" : "toffeeMFM", "count" : 1 }
   ],
   "output" : { "item" : "toffeecookieMFM", "count" : 8 },

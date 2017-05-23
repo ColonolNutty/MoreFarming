@@ -1,10 +1,8 @@
 {
   "input" : [
-    { "item" : "yellowdye", "count" : 1 }
+    { "item" : "petalyellow", "count" : 5 },
+    { "item" : "bottle", "count" : 1 }
   ],
-  "output" : {
-    "item" : "yellowfoodcolorMFM",
-    "count" : 1
-  },
+  "output" : { "item" : "yellowfoodcolorMFM", "count" : 1 },
   "groups" : [ "craftingfood", "condiments", "materials", "all" ]
 }

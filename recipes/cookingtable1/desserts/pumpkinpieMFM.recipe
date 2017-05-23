@@ -1,7 +1,10 @@
 {
   "input" : [
     { "item" : "pumpkinsliceMFM", "count" : 3 },
-    { "item" : "sugar", "count" : 4 },
+    { "item" : "condensedmilkMFM", "count" : 1 },
+    { "item" : "groundcinnamonMFM", "count" : 1 },
+    { "item" : "gingerMSM", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
     { "item" : "egg", "count" : 2 }
   ],
   "output" : { "item" : "pumpkinpieMFM", "count" : 1 },

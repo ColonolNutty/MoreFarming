@@ -7,5 +7,19 @@
   "price" : 20,
   "category" : "cookingIngredient",
   "maxStack" : 1000,
-  "learnBlueprintsOnPickup" : [ "doughMFM", "bannockMFM", "cupcakebatterMFM" ]
+  "learnBlueprintsOnPickup" : [ "doughMFM",
+                                "bannockMFM",
+                                "cupcakebatterMFM",
+                                "caramelsquareMFM",
+                                "sugarcookieMFM",
+                                "pinanaMFM",
+                                "pinanasliceMFM",
+                                "piodiaMFM",
+                                "pizzaMFM",
+                                "pizza",
+                                "pizzaslice",
+                                "pizzapMFM",
+                                "toxictoptartMFM",
+                                "hqbreadMFM",
+                                "jelonbreadMFM" ]
 }

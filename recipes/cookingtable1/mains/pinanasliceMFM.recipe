@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "wheat", "count" : 2 },
+    { "item" : "flourMFM", "count" : 2 },
     { "item" : "jelonMFM", "count" : 1 },
     { "item" : "banana", "count" : 1 }
   ],

@@ -1,11 +1,8 @@
 {
   "input" : [
-    { "item" : "slush", "count" : 10 },
+    { "item" : "snowcone", "count" : 1 },
     { "item" : "redfoodcolorMFM", "count" : 3 }
   ],
-  "output" : {
-    "item" : "snowconeredMFM",
-    "count" : 1
-  },
+  "output" : { "item" : "snowconeredMFM", "count" : 1 },
   "groups" : [ "craftingfood", "desserts", "materials", "all" ]
 }

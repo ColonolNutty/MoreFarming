@@ -6,5 +6,5 @@
     { "item" : "cucumberMSM", "count" : 1 }
   ],
   "output" : { "item" : "californiamakiMSM", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing", "foodmobility" ]
+  "groups" : [ "craftingfood", "mains", "consumables", "foodhealing", "foodmobility" ]
 }

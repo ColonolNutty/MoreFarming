@@ -5,5 +5,5 @@
     { "item" : "milk", "count" : 1 }
   ],
   "output" : { "item" : "frenchtoastMFM", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing","all" ]
+  "groups" : [ "craftingfood", "sides", "consumables", "foodhealing","all" ]
 }

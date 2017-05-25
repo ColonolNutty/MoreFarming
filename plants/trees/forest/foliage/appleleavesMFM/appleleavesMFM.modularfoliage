@@ -1,11 +1,10 @@
 {
-  "name" : "greenleaves",
+  "name" : "appleleavesMFM",
   "shape" : "forest",
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "sapling", "count" : 2 },
-        { "item" : "redapple", "count" : 3 } ]
+      [ { "item" : "sapling" }, { "item" : "redapple" }, { "item" : "greenapple" } ]
     ],
     "sounds" : {
       "breakTree" : [

@@ -4,8 +4,7 @@
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "sapling", "count" : 2 },
-        { "item" : "mangoMFM", "count" : 3 } ]
+      [ { "item" : "sapling" }, { "item" : "mangoMFM" } ]
     ],
     "sounds" : {
       "breakTree" : [

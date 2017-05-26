@@ -1,0 +1,10 @@
+[
+  [
+    { "op": "test", "path": "/stages/3/harvestPool", "value" : "coffeeHarvest" },
+    {
+      "op" : "replace",
+      "path" : "/stages/3/harvestPool",
+      "value" : "coffeeMFMHarvest"
+    }
+  ]
+]

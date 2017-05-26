@@ -1,11 +1,53 @@
 [
   {
-    "op" : "replace",
-    "path" : "/sugarcaneHarvest/0/1/pool/0/item",
-    "value" : "sugarcaneBMB"
+    "op" : "add",
+    "path" : "/sugarcaneMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "sugarcaneseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "sugarcaneBMB"},
+          {"weight" : 0.01, "item" : "sugarcaneseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ]
+    ]
   },
-  { "op": "replace", "path" : "/coffeeHarvest/0/1/pool/0/item", 
-    "value" : "coffeeseed"
+  {
+    "op" : "add",
+    "path" : "/coffeeMFMHarvest",
+    "value" : [ [0, {
+        "pool" : [
+          {"weight" : 0.89, "item" : "coffeebeans"},
+          {"weight" : 0.01, "item" : "coffeeseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/neonmelonMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "neonmelonseed"},
+          {"item" : "neonmelonfullMFM" }
+        ],
+        "pool" : [ {"weight" : 1.0, "item" : "plantfibre"} ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ] ]
   },
   {
     "op" : "add",
@@ -338,12 +380,6 @@
         {"weight" : 0.01, "item" : "cinnamonMFMseed"},
         {"weight" : 0.10, "item" : "plantfibre"}],
         "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
-  },
-  { "op": "replace", "path" : "/neonmelonHarvest/0/1/fill", 
-    "value" : [ {"item" : "neonmelonfullMFM" } ]
-  },
-  { "op": "replace", "path" : "/neonmelonHarvest/0/1/pool", 
-    "value" :  [ {"weight" : 1.0, "item" : "plantfibre"} ]
   },
   {
     "op" : "add",

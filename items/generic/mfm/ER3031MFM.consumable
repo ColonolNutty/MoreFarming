@@ -1,8 +1,8 @@
 {
-  "itemName" : "ER3031",
+  "itemName" : "ER3031MFM",
   "rarity" : "Common",
   "category" : "preparedFood",
-  "inventoryIcon" : "ER3031.png",
+  "inventoryIcon" : "ER3031MFM.png",
   "description" : "011100100111010101101110MISSINGO",
   "shortdescription" : "ER3031",
   "handPosition" : [8, -4],

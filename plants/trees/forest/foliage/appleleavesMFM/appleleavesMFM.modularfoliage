@@ -4,7 +4,11 @@
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "sapling" }, { "item" : "redapple" }, { "item" : "greenapple" } ]
+      [
+        { "item" : "sapling" },
+        { "item" : "redapple" },
+        { "item" : "greenapple" }
+      ]
     ],
     "sounds" : {
       "breakTree" : [
@@ -61,7 +65,7 @@
   
   "crownLeaves" : {
     "crown1" : {
-      "image" : "crown1.png",
+      "image" : "crown1MFM.png",
       "backimage" : "",
       "attachment" : {
         "bx" : 0,
@@ -69,7 +73,7 @@
       }
     },
     "crown2" : {
-      "image" : "crown2.png",
+      "image" : "crown2MFM.png",
       "backimage" : "",
       "attachment" : {
         "bx" : 0,
@@ -77,7 +81,7 @@
       }
     },
     "crown3" : {
-      "image" : "crown3.png",
+      "image" : "crown3MFM.png",
       "backimage" : "",
       "attachment" : {
         "bx" : 0,
@@ -87,7 +91,7 @@
   },
   "branchLeaves" : {
     "branch1" : {
-      "image" : "branch1.png",
+      "image" : "branch1MFM.png",
       "backimage" : "",
       "attachment" : {
         "bx" : 0,
@@ -95,7 +99,7 @@
       }
     },
     "branch2" : {
-      "image" : "branch2.png",
+      "image" : "branch2MFM.png",
       "backimage" : "",
       "attachment" : {
         "bx" : 0,
@@ -103,7 +107,7 @@
       }
     },
     "branch3" : {
-      "image" : "branch3.png",
+      "image" : "branch3MFM.png",
       "backimage" : "",
       "attachment" : {
         "bx" : -5,

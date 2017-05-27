@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 6 },
-    { "item" : "copperbar", "count" : 2 }
+    { "item" : "icemakerMFM", "count" : 1 }
   ],
   "output" : { "item" : "freezerMFM", "count" : 1 },
   "groups" : [ "cn_kitchencrafting", "inventorstable2", "craftingstations", "genericMFM", "freezingmachineMFM", "objects", "all", "tools" ]

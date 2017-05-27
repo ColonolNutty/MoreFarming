@@ -8,5 +8,5 @@
     "item" : "blenderMFM",
     "count" : 1
   },
-  "groups" : [ "inventorstable2", "craftingstations", "genericMFM", "blendingmachineMFM", "objects", "all", "tools" ]
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "blendingmachineMFM", "objects", "all", "tools" ]
 }

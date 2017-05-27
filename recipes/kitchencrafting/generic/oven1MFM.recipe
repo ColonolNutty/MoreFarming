@@ -7,5 +7,5 @@
     "item" : "oven1",
     "count" : 1
   },
-  "groups" : [ "inventorstable2", "craftingstations", "genericMFM", "bakingmachineMFM", "objects", "all", "tools" ]
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "bakingmachineMFM", "all" ]
 }

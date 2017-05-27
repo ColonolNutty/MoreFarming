@@ -9,5 +9,5 @@
     "item" : "distilleryMFM",
     "count" : 1
   },
-  "groups" : [ "inventorstable", "craftingstations", "genericMFM", "distillingmachineMFM", "objects", "tools", "all" ]
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "distillingmachineMFM", "objects", "tools", "all" ]
 }

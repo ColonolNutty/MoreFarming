@@ -5,5 +5,5 @@
     { "item" : "copperbar", "count" : 5 }
   ],
   "output" : { "item" : "cannerMFM", "count" : 1 },
-  "groups" : [ "inventorstable", "craftingstations", "genericMFM", "canningmachineMFM", "tools", "all" ]
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "canningmachineMFM", "tools", "all" ]
 }

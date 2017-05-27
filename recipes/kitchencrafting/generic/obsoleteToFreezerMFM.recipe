@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "icemakerMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "freezerMFM", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "freezingmachineMFM", "objects", "all", "tools" ]
+}

@@ -8,5 +8,5 @@
     "item" : "grinderMFM",
     "count" : 1
   },
-  "groups" : [ "inventorstable", "craftingstations", "genericMFM", "grindingmachineMFM", "tools", "all" ]
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "grindingmachineMFM", "tools", "all" ]
 }

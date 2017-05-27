@@ -4,5 +4,5 @@
     { "item" : "copperbar", "count" : 2 }
   ],
   "output" : { "item" : "freezerMFM", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "inventorstable2", "craftingstations", "genericMFM", "freezingmachineMFM", "objects", "all", "tools" ]
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "freezingmachineMFM", "objects", "all", "tools" ]
 }

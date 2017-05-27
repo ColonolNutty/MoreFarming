@@ -7,5 +7,5 @@
     "item" : "coffeemachine",
     "count" : 1
   },
-  "groups" : [ "inventorstable2", "craftingstations", "genericMFM", "coffeemachineMFM", "objects", "all", "tools" ]
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "coffeemachineMFM", "objects", "all", "tools" ]
 }

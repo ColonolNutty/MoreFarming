@@ -35,7 +35,7 @@
   "openSounds" : [ "/sfx/objects/florancrate_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/florancrate_close.ogg" ],
   "slotCount" : 6,
-  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "uiConfig" : "/interface/chests/chest<slots>MFM.config",
   "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
 }

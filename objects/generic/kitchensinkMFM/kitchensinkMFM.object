@@ -33,7 +33,7 @@
 
     }
   ],
-  "recipeGroup" : "kitchensink",
+  "recipeGroup" : "sinkMFM",
   "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
   "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],
   "slotCount" : 2,

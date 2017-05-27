@@ -41,7 +41,7 @@
       "collisionSpaces" : [ [-2, 2], [-1, 2], [0, 2], [1, 2] ]
     }
   ],
-  "recipeGroup" : "icemaker",
+  "recipeGroup" : "freezing",
   "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
   "slotCount" : 2,

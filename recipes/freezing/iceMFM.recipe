@@ -3,5 +3,5 @@
     { "item" : "liquidwater", "count" : 1 }
   ],
   "output" : { "item" : "ice", "count" : 1 },
-  "groups" : [ "icemaker", "consumables", "all" ]
+  "groups" : [ "freezing", "consumables", "all" ]
 }

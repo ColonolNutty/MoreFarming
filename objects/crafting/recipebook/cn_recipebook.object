@@ -1,0 +1,38 @@
+{
+  "objectName" : "cn_recipebook",
+  "colonyTags" : ["cooking"],
+  "printable" : false,
+  "price" : 100,
+  "rarity" : "Legendary",
+  "category" : "crafting",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/cn_recipebook.config",
+    "filter" : [ "baking",
+                 "blending",
+                 "boiling",
+                 "coffee",
+                 "chopping",
+                 "freezingMFM",
+                 "frying",
+                 "purifying",
+                 "handmill",
+                 "handpress",
+                 "grinderMFM" ]
+  },
+  "description" : "Used to find the recipe you're looking for",
+  "shortdescription" : "^orange;Recipe Book (MFM)^white;",
+  "race" : "generic",
+  
+  "inventoryIcon" : "cn_recipebookicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "cn_recipebook.png:<color>",
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "npcToy" : {}
+}

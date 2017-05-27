@@ -3,6 +3,5 @@
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "groundmeatMFM" }},
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "groundvegetablesMFM" }},
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "plantmushMFM" }},
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "seedoilMFM" }},
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "ice" }}
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "seedoilMFM" }}
 ]

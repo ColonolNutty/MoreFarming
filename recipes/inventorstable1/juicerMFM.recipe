@@ -7,5 +7,5 @@
     "item" : "juicerMFM",
     "count" : 1
   },
-  "groups" : [ "inventorstable", "craftingstations", "objects", "all", "tools" ]
+  "groups" : [ "inventorstable", "craftingstations", "genericMFM", "juicermachineMFM", "objects", "all", "tools" ]
 }

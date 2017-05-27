@@ -7,5 +7,5 @@
     "item" : "handpressMFM",
     "count" : 1
   },
-  "groups" : [ "inventorstable2", "craftingstations", "objects", "all", "tools" ]
+  "groups" : [ "inventorstable2", "craftingstations", "genericMFM", "pressingmachineMFM", "objects", "all", "tools" ]
 }

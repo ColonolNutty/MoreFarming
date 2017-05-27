@@ -7,5 +7,5 @@
     "item" : "butterchurnMFM",
     "count" : 1
   },
-  "groups" : [ "inventorstable2", "craftingstations", "objects", "all", "tools" ]
+  "groups" : [ "inventorstable2", "craftingstations", "genericMFM", "churningmachineMFM", "objects", "all", "tools" ]
 }

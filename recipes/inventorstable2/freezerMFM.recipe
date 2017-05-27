@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 6 },
+    { "item" : "copperbar", "count" : 2 }
+  ],
+  "output" : { "item" : "freezerMFM", "count" : 1 },
+  "groups" : [ "inventorstable2", "craftingstations", "genericMFM", "freezingmachineMFM", "objects", "all", "tools" ]
+}

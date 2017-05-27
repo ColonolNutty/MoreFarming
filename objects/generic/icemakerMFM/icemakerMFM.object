@@ -45,7 +45,7 @@
   "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
   "slotCount" : 2,
-  "uiConfig" : "/interface/objectcrafting/icemaker.config",
+  "uiConfig" : "/interface/objectcrafting/icemakerMFM.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600
 }

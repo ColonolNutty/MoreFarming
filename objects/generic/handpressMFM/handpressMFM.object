@@ -36,7 +36,7 @@
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
   "slotCount" : 2,
-  "uiConfig" : "/interface/objectcrafting/handpress.config",
+  "uiConfig" : "/interface/objectcrafting/handpressMFM.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600
 

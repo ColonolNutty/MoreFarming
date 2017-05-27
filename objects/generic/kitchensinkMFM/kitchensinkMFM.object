@@ -34,10 +34,10 @@
     }
   ],
   "recipeGroup" : "kitchensink",
-  "openSounds" : [ "/sfx/objects/sinkenter.ogg" ],
-  "closeSounds" : [ "/sfx/objects/sinkexit.ogg" ],
+  "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
+  "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],
   "slotCount" : 2,
-  "uiConfig" : "/interface/objectcrafting/kitchensinkMFM.config",
+  "uiConfig" : "/interface/objectcrafting/sinkMFM.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600
 }

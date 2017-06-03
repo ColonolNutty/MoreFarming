@@ -38,5 +38,10 @@
   "slotCount" : 11,
   "uiConfig" : "/interface/objectcrafting/blenderMFM.config",
   "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/objects/generic/blenderMFM/cookingMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/objects/generic/blenderMFM/blenderrecipesMFM.config",
+  "outputSlot": 1
 }

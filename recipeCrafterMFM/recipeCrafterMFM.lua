@@ -1,6 +1,6 @@
-local cookingMFMApi = {};
+local recipeCrafterMFMApi = {};
 
-function cookingMFMApi.updateOutputSlotWith(recipe)
+function recipeCrafterMFMApi.updateOutputSlotWith(recipe)
   storage.outputRecipe = recipe
   local existingOutput = world.containerItemAt(entity.id(), storage.outputSlot)
   if not existingOutput then
@@ -8,7 +8,7 @@ function cookingMFMApi.updateOutputSlotWith(recipe)
   end
 end
 
-function cookingMFMApi.recipeCanBeCrafted(recipe)
+function recipeCrafterMFMApi.recipeCanBeCrafted(recipe)
   if storage.recipeGroup == nil then
     return true
   end
@@ -22,10 +22,10 @@ function cookingMFMApi.recipeCanBeCrafted(recipe)
   return canBeCrafted
 end
 
-function cookingMFMApi.findRecipe(recipesForItem, ingredients)
+function recipeCrafterMFMApi.findRecipe(recipesForItem, ingredients)
   local recipeFound = nil
   for _,recipe in ipairs(recipesForItem) do
-    if cookingMFMApi.recipeCanBeCrafted(recipe) and cookingMFMApi.checkIngredientsMatchRecipe(recipe, ingredients) then
+    if recipeCrafterMFMApi.recipeCanBeCrafted(recipe) and recipeCrafterMFMApi.checkIngredientsMatchRecipe(recipe, ingredients) then
       recipeFound = recipe
       break;
     end
@@ -33,12 +33,12 @@ function cookingMFMApi.findRecipe(recipesForItem, ingredients)
   return recipeFound
 end
 
-function cookingMFMApi.findOutput(ingredients)
+function recipeCrafterMFMApi.findOutput(ingredients)
   local outputRecipe = nil
   for _,itemName in ipairs(storage.possibleOutputs) do
     local recipesForItem = root.recipesForItem(itemName)
     if recipesForItem ~= nil and #recipesForItem > 0 then
-      outputRecipe = cookingMFMApi.findRecipe(recipesForItem, ingredients)
+      outputRecipe = recipeCrafterMFMApi.findRecipe(recipesForItem, ingredients)
       if outputRecipe then
         break;
       end
@@ -47,7 +47,7 @@ function cookingMFMApi.findOutput(ingredients)
   return outputRecipe
 end
 
-function cookingMFMApi.checkIngredientsMatchRecipe(recipe, ingredients)
+function recipeCrafterMFMApi.checkIngredientsMatchRecipe(recipe, ingredients)
   -- Check the recipe inputs to verify ingredients match with all inputs
   local ingredientsUsed = {}
   local matchesAllInput = true
@@ -98,20 +98,19 @@ function init(virtual)
     storage.outputSlot = 0
   end
   storage.outputRecipe = nil
-  storage.recipeGroup = config.getParameter("recipeGroup")
 end
 
 function update(dt)
-  cookingMFMApi.consumeIngredientsIfOutputTaken()
-  if not cookingMFMApi.shouldLookForRecipe() then
+  recipeCrafterMFMApi.consumeIngredientsIfOutputTaken()
+  if not recipeCrafterMFMApi.shouldLookForRecipe() then
     return
   end
-  local ingredients = cookingMFMApi.getIngredients()
+  local ingredients = recipeCrafterMFMApi.getIngredients()
   if ingredients == nil then
     return
   end
-  if not cookingMFMApi.validateCurrentRecipe(storage.outputRecipe, ingredients) then
-    cookingMFMApi.removeOutput()
+  if not recipeCrafterMFMApi.validateCurrentRecipe(storage.outputRecipe, ingredients) then
+    recipeCrafterMFMApi.removeOutput()
   end
   local numberOfIngredients = 0
   for slot,item in pairs(ingredients) do
@@ -120,18 +119,18 @@ function update(dt)
     end
   end
   if numberOfIngredients > 0 then
-    local outputRecipe = cookingMFMApi.findOutput(ingredients)
+    local outputRecipe = recipeCrafterMFMApi.findOutput(ingredients)
     if outputRecipe then
-      cookingMFMApi.updateOutputSlotWith(outputRecipe)
+      recipeCrafterMFMApi.updateOutputSlotWith(outputRecipe)
     else
-      cookingMFMApi.removeOutput()
+      recipeCrafterMFMApi.removeOutput()
     end
   else
-    cookingMFMApi.removeOutput()
+    recipeCrafterMFMApi.removeOutput()
   end
 end
 
-function cookingMFMApi.consumeIngredientsIfOutputTaken()
+function recipeCrafterMFMApi.consumeIngredientsIfOutputTaken()
   if storage.outputRecipe == nil then
     return
   end
@@ -139,6 +138,9 @@ function cookingMFMApi.consumeIngredientsIfOutputTaken()
   if outputSlotItem == nil then
     for _,input in ipairs(storage.outputRecipe.input) do
       world.containerConsume(entity.id(), input)
+    end
+    if animator.hasSound("onCraft") then
+      animator.playSound("onCraft")
     end
     storage.outputRecipe = nil
     return
@@ -149,11 +151,21 @@ function cookingMFMApi.consumeIngredientsIfOutputTaken()
   end
 end
 
-function cookingMFMApi.getIngredients()
-  return world.containerItems(entity.id())
+function recipeCrafterMFMApi.getIngredients()
+  local ingredientNames = {}
+  local uniqueIngredients = {}
+  local ingredients = world.containerItems(entity.id())
+  for slot,item in pairs(ingredients) do
+    if ingredientNames[item.name] == nil then
+      item.count = world.containerAvailable(entity.id(), item.name)
+      ingredientNames[item.name] = true
+      uniqueIngredients[slot] = item
+    end
+  end
+  return uniqueIngredients
 end
 
-function cookingMFMApi.removeOutput()
+function recipeCrafterMFMApi.removeOutput()
   -- Find existing output
   local outputSlotItem = world.containerItemAt(entity.id(), storage.outputSlot)
   if not outputSlotItem then
@@ -173,14 +185,14 @@ function cookingMFMApi.removeOutput()
   storage.outputRecipe = nil
 end
 
-function cookingMFMApi.validateCurrentRecipe(recipe, ingredients)
+function recipeCrafterMFMApi.validateCurrentRecipe(recipe, ingredients)
   if recipe == nil or ingredients == nil then
     return false
   end
-  return cookingMFMApi.checkIngredientsMatchRecipe(recipe, ingredients)
+  return recipeCrafterMFMApi.checkIngredientsMatchRecipe(recipe, ingredients)
 end
 
-function cookingMFMApi.shouldLookForRecipe()
+function recipeCrafterMFMApi.shouldLookForRecipe()
   local outputSlotItem = world.containerItemAt(entity.id(), storage.outputSlot)
   if outputSlotItem == nil then
     return true
@@ -196,5 +208,5 @@ function cookingMFMApi.shouldLookForRecipe()
 end
 
 function die()
-  cookingMFMApi.removeOutput()
+  recipeCrafterMFMApi.removeOutput()
 end

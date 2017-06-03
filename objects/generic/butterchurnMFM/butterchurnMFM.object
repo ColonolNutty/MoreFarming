@@ -35,8 +35,13 @@
   "recipeGroup" : "butterchurn",
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
-  "slotCount" : 2,
-  "uiConfig" : "/interface/objectcrafting/butterchurnMFM.config",
+  "slotCount" : 11,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
   "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/butterchurnRecipesMFM.config",
+  "outputSlot": 1
 }

@@ -36,12 +36,13 @@
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
   "slotCount" : 11,
-  "uiConfig" : "/interface/objectcrafting/blenderMFM.config",
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
+  "animation" : "blenderMFM.animation",
   
-  "scripts": [ "/objects/generic/blenderMFM/cookingMFM.lua" ],
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/objects/generic/blenderMFM/blenderrecipesMFM.config",
+  "outputConfig": "/recipeCrafterMFM/blenderRecipesMFM.config",
   "outputSlot": 1
 }

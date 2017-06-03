@@ -34,8 +34,8 @@
     }
   ],
   "recipeGroup" : "sinkMFM",
-  "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
-  "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],
+  "openSounds" : [ "/sfx/objects/sinkMFMenter.wav" ],
+  "closeSounds" : [ "/sfx/objects/sinkMFMexit.wav" ],
   "slotCount" : 2,
   "uiConfig" : "/interface/objectcrafting/sinkMFM.config",
   "frameCooldown" : 67,

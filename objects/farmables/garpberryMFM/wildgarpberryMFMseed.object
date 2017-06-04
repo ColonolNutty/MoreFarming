@@ -9,6 +9,7 @@
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
+  "price" : 20,
 
   "biomePlaced" : true,
 

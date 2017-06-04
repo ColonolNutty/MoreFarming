@@ -5,9 +5,10 @@
   "category" : "seed",
   "tooltipKind" : "seed",
   "description" : "Go grow Bamboo with it, Punk.",
-  "shortdescription" : "Bamboo Seed",
+  "shortdescription" : "Great Bamboo Seed",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
+  "price" : 20,
   
   "apexDescription" : "A foreign seed. Never seen one of these before.",
   "avianDescription" : "Tried pecking once. Did not taste good.",
@@ -31,62 +32,6 @@
 
     }
   ],
-
-  "interactionTransition" : {
-    "2" : {
-      "dropOptions" : [
-        0.3,
-        [
-          {
-            "name" : "greatbambooMFMseed",
-            "count" : 1
-          },
-		  {
-            "name" : "fullwood1",
-            "count" : 2
-          }
-        ],
-        [
-          {
-            "name" : "greatbambooMFMseed",
-            "count" : 2
-          },
-          {
-            "name" : "fullwood1",
-            "count" : 2
-          }
-        ],
-        [
-          {
-            "name" : "greatbambooMFMseed",
-            "count" : 1
-           },
-          {
-            "name" : "fullwood1",
-            "count" : 1
-          }
-        ]
-      ],
-      "command" : "die"
-    }
-  },
-  "growing" : {
-    "0" : {
-      "duration" : [150, 250],
-      "success" : 1,
-      "failure" : 3
-    },
-    "1" : {
-      "duration" : [250, 500],
-      "success" : 2,
-      "failure" : 3
-    }
-  },
-  "stageAlts" : {
-    "count" : 4,
-    "2" : 1
-  },
-
   "stages" : [
     {
       "alts" : 1,

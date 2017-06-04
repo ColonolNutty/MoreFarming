@@ -7,7 +7,8 @@
   "description" : "Garpberrys, natures snackfood.",
   "shortdescription" : "Garpberry Seed",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
+  "price" : 20,
   
   "apexDescription" : "A luxury fruit. Garpberry is a good mix with bananas!",
   "avianDescription" : "Small, simple, peckable berry.",

@@ -7,7 +7,8 @@
   "description" : "Palsterstick, reminds a bit of parsnip.",
   "shortdescription" : "Palsterstick Seed",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
+  "price" : 100,
   
   "apexDescription" : "Does not taste that good. But bigape sais it is healthy!",
   "avianDescription" : "Healthy stick.",

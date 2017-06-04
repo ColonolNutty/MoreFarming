@@ -7,12 +7,12 @@
   "race" : "generic",
   "category" : "decorative",
   
-  "apexDescription" : "This reminds me of how the slop I used to be fed gave me jolts. I wonder if- OBEY BIG APE.",
+  "apexDescription" : "This reminds me of how the slop I used to be eat gave me jolts. I wonder if- OBEY BIG APE.",
   "avianDescription" : "I don't know what to think about this.",
-  "floranDescription" : "Floran dont like eating shocking metal pie.",
+  "floranDescription" : "Floran dont like eating ssshocking metal pie.",
   "glitchDescription" : "Shocked. I'm shocked.",
-  "humanDescription" : "It's got a coppery tang. I'd still eat it.",
-  "hylotlDescription" : "The act of just throwing this stuff together disrespects what cooking means.",
+  "humanDescription" : "It tastes like copper... I'd still eat it.",
+  "hylotlDescription" : "The act of throwing this together disrespects what cooking means.",
   
   "inventoryIcon" : "piodiaMFMicon.png",
   "largeImage" : "piodiaMFM.png:default.default",
@@ -28,13 +28,13 @@
   ],
   
   "breakDropOptions" : [ [
-	[ "piodia", 1, { } ],
-	[ "piodia", 1, { } ],
-	[ "piodia", 1, { } ],
-	[ "piodia", 1, { } ],
-	[ "piodia", 1, { } ],
-	[ "piodia", 1, { } ],
-	[ "piodia", 1, { } ],
-	[ "piodia", 1, { } ]
+    [ "piodia", 1, { } ],
+    [ "piodia", 1, { } ],
+    [ "piodia", 1, { } ],
+    [ "piodia", 1, { } ],
+    [ "piodia", 1, { } ],
+    [ "piodia", 1, { } ],
+    [ "piodia", 1, { } ],
+    [ "piodia", 1, { } ]
   ] ]
 }

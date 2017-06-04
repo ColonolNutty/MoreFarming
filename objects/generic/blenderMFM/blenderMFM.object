@@ -35,6 +35,7 @@
   "recipeGroup" : "blending",
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount": 16,
   "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
@@ -42,6 +43,5 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/blenderRecipesMFM.config",
-  "outputSlot": 1
+  "outputConfig": "/recipeCrafterMFM/blenderMFMRecipes.config"
 }

@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "seed",
   "tooltipKind" : "seed",
-  "description" : "Yam?",
+  "description" : "Yam I right or yam I right?",
   "shortdescription" : "Sweet Potato Seed",
   "objectType" : "farmable",
   "printable" : false,
@@ -40,7 +40,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "sweetpotatoMFMHarvest"
+      "harvestPool" : "sweetpotatoMFMHarvest",
+      "resetToStage" : 1
     }
   ],
   "maxImmersion" : 0.25

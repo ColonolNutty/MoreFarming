@@ -1,17 +1,17 @@
 {
   "itemName" : "cannedpastaMFM",
   "rarity" : "Common",
-  "price" : 50,
-  "category" : "preparedFood",
   "inventoryIcon" : "cannedpastaMFM.png",
   "description" : "Canned pasta. Not the best, but it'll do in a pinch.",
   "shortdescription" : "Canned Pasta",
+  "price" : 50,
+  "category" : "preparedFood",
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
+  "rottingMultiplier" : 5.0,
   "blockingEffects" : [
     "wellfed"
   ]

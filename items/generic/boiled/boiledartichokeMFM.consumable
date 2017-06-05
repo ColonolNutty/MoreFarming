@@ -5,7 +5,7 @@
   "inventoryIcon" : "boiledartichokeMFM.png",
   "description" : "A boiled artichoke.",
   "shortdescription" : "Boiled Artichoke",
-  "handPosition" : [8, -4],
+  "handPosition" : [0, -4],
   "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",

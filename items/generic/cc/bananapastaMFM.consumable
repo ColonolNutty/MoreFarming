@@ -1,11 +1,12 @@
 {
   "itemName" : "bananapastaMFM",
   "rarity" : "Common",
-  "price" : 50,
-  "category" : "preparedFood",
   "inventoryIcon" : "bananapastaMFM.png",
   "description" : "A chef took a try on making an Apex-specific pasta. It actually worked.",
   "shortdescription" : "Banana Pasta",
+  "handPosition" : [0, -3],
+  "price" : 50,
+  "category" : "preparedFood",
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -15,7 +16,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "handPosition" : [0, 4],
   "effects" : [ [
     {
         "effect" : "jumpboostfood",

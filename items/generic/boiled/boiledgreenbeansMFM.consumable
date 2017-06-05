@@ -5,7 +5,7 @@
   "inventoryIcon" : "boiledgreenbeansMFM.png",
   "description" : "Boiled green beans.",
   "shortdescription" : "Boiled Green Beans",
-  "handPosition" : [8, -4],
+  "handPosition" : [0, -4],
   "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",

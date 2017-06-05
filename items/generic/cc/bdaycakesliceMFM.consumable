@@ -1,25 +1,25 @@
 {
   "itemName" : "bdaycakesliceMFM",
   "rarity" : "Uncommon",
-  "price" : 200,
-  "category" : "preparedFood",
   "inventoryIcon" : "bdaycakesliceMFM.png",
   "description" : "Tasty cake! Happy birthday!",
   "shortdescription" : "Birthday Cake Slice",
+  "price" : 200,
+  "category" : "preparedFood",
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
   "effects" : [ [
       {
         "effect" : "regeneration1",
         "duration" : 20
       }
     ] ],
-  "blockingEffects" : [
-    "wellfed"
-  ],
   "learnBlueprintsOnPickup" : [ "bdaycakeMFM" ]
 }

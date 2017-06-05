@@ -1,24 +1,24 @@
 {
   "itemName" : "chocolatecookieMFM",
   "rarity" : "Common",
-  "price" : 50,
-  "category" : "preparedFood",
   "inventoryIcon" : "chocolatecookieMFM.png",
   "description" : "Chocolate goodness.",
   "shortdescription" : "Chocolate Cookie",
+  "price" : 50,
+  "category" : "preparedFood",
   "foodValue" : 15,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
   "effects" : [ [
       {
         "effect" : "regeneration1",
         "duration" : 20
       }
-    ] ],
-  "blockingEffects" : [
-    "wellfed"
-  ]
+    ] ]
 }

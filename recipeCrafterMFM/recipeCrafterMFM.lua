@@ -93,7 +93,8 @@ function init(virtual)
   else
     storage.possibleOutputs = root.assetJson(outputConfigPath).possibleOutput
   end
-  storage.outputSlot = config.getParameter("outputSlot", 1) - 1
+  storage.slotCount = config.getParameter("slotCount", 16)
+  storage.outputSlot = config.getParameter("outputSlot", storage.slotCount) - 1
   if storage.outputSlot < 0 then
     storage.outputSlot = 0
   end
@@ -114,7 +115,7 @@ function update(dt)
   end
   local numberOfIngredients = 0
   for slot,item in pairs(ingredients) do
-    if slot ~= 1 then
+    if slot ~= storage.outputSlot + 1 then
       numberOfIngredients = numberOfIngredients + 1
     end
   end

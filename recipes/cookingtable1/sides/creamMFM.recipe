@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "milk", "count" : 1 }
-  ],
-  "output" : { "item" : "creamMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "sides", "consumables", "other","all" ]
-}

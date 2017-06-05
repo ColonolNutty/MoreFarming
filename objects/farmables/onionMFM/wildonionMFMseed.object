@@ -45,7 +45,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "onionMFMHarvest"
+      "harvestPool" : "onionMFMHarvest",
+      "resetToStage" : 2
     }
   ],
   "maxImmersion" : 0.25

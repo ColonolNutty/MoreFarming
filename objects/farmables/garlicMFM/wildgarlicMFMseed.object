@@ -45,7 +45,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "garlicMFMHarvest"
+      "harvestPool" : "garlicMFMHarvest",
+      "resetToStage" : 2
     }
   ],
   "maxImmersion" : 0.25

@@ -39,11 +39,12 @@
       "duration" : [2820, 2940]
     },
     {
-      "duration" : [2820, 2940]
+      "duration" : [300, 420]
     },
     {
       "alts" : 5,
-      "harvestPool" : "appleMFMHarvest"
+      "harvestPool" : "appleMFMHarvest",
+      "resetToStage" : 1
     }
   ],
 

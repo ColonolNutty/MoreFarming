@@ -45,7 +45,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "orangeMFMHarvest"
+      "harvestPool" : "orangeMFMHarvest",
+      "resetToStage" : 1
     }
   ],
 

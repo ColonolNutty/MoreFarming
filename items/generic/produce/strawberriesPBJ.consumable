@@ -4,7 +4,6 @@
   "inventoryIcon" : "strawberriesPBJ.png",
   "description" : "Sweet and juicy!",
   "shortdescription" : "Strawberries",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

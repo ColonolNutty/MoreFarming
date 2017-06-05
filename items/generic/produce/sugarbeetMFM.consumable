@@ -4,7 +4,6 @@
   "inventoryIcon" : "sugarbeetMFM.png",
   "description" : "Sweet!",
   "shortdescription" : "Sugar Beet",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

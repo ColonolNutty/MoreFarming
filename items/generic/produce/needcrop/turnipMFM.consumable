@@ -4,7 +4,6 @@
   "inventoryIcon" : "turnipMFM.png",
   "description" : "Turnip!",
   "shortdescription" : "Turnip",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

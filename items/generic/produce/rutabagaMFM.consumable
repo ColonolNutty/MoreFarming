@@ -4,7 +4,6 @@
   "inventoryIcon" : "rutabagaMFM.png",
   "description" : "Weird.",
   "shortdescription" : "Rutabaga",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

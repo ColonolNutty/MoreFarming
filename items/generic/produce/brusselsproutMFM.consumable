@@ -4,7 +4,6 @@
   "inventoryIcon" : "brusselsproutMFM.png",
   "description" : "they look like miniature cabbages!",
   "shortdescription" : "Brussels sprout",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

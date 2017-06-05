@@ -4,7 +4,6 @@
   "inventoryIcon" : "radishMFM.png",
   "description" : "Like a mini beet!",
   "shortdescription" : "Radish",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

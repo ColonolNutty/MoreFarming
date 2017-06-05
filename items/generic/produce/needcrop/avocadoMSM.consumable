@@ -4,7 +4,6 @@
   "inventoryIcon" : "avocadoMSM.png",
   "description" : "Avocado!",
   "shortdescription" : "Avocado",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

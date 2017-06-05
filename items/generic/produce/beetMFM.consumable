@@ -4,7 +4,6 @@
   "inventoryIcon" : "beetMFM.png",
   "description" : "Just beet it!",
   "shortdescription" : "Beet",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

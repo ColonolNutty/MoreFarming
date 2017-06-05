@@ -4,7 +4,6 @@
   "inventoryIcon" : "limeMFM.png",
   "description" : "Its a lime!",
   "shortdescription" : "Lime",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

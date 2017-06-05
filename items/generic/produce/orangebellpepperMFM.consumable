@@ -4,7 +4,6 @@
   "inventoryIcon" : "orangebellpepperMFM.png",
   "description" : "Its orange!",
   "shortdescription" : "Orange Bell Pepper",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

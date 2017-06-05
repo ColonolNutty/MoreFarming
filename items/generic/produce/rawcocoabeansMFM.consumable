@@ -4,7 +4,7 @@
   "inventoryIcon" : "rawcocoabeansMFM.png",
   "description" : "Ew! Tastes nothing like chocolate... Maybe if I roast them?",
   "shortdescription" : "Raw Cacao Beans",
-  "handPosition" : [8, 0],
+  "price" : 5,
   "eventCategory" : "eventCrop",
   "category" : "food",
   "foodValue" : 10,
@@ -12,5 +12,8 @@
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
 }

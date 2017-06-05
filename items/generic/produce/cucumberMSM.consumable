@@ -4,7 +4,6 @@
   "inventoryIcon" : "cucumberMSM.png",
   "description" : "A kappa's favorite.",
   "shortdescription" : "Cucumber",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

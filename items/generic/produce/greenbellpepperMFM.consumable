@@ -4,7 +4,6 @@
   "inventoryIcon" : "greenbellpepperMFM.png",
   "description" : "Red peppers have twice the vitamin C content of green peppers!",
   "shortdescription" : "Green Bell Pepper",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

@@ -4,7 +4,6 @@
   "inventoryIcon" : "parsnipMFM.png",
   "description" : "Sub-parsnip at best.",
   "shortdescription" : "Parsnip",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

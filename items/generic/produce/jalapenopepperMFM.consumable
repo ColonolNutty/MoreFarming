@@ -4,7 +4,6 @@
   "inventoryIcon" : "jalapenopepperMFM.png",
   "description" : "Hot.",
   "shortdescription" : "Jalapeno Pepper",
-  "handPosition" : [8, 0],
   "price" : 10,
   "effects" : [ [
     {

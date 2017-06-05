@@ -4,7 +4,6 @@
   "inventoryIcon" : "asparagusMFM.png",
   "description" : "Asparagus is a herbaceous, perennial plant.",
   "shortdescription" : "Asparagus",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

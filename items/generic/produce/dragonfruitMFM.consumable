@@ -4,7 +4,6 @@
   "inventoryIcon" : "dragonfruitMFM.png",
   "description" : "Also known as a pitaya.",
   "shortdescription" : "Dragonfruit",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

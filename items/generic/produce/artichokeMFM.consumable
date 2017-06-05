@@ -4,7 +4,6 @@
   "inventoryIcon" : "artichokeMFM.png",
   "description" : "A variety of a species of thistle cultivated as a food.",
   "shortdescription" : "Artichoke",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

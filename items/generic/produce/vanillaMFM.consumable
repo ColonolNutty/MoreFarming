@@ -4,7 +4,6 @@
   "inventoryIcon" : "vanillaMFM.png",
   "description" : "Vanilla.",
   "shortdescription" : "Vanilla Bean",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

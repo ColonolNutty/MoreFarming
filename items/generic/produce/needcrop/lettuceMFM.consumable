@@ -4,7 +4,6 @@
   "inventoryIcon" : "lettuceMFM.png",
   "description" : "Lettuce never speak of this again.",
   "shortdescription" : "Lettuce",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

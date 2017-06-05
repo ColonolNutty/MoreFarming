@@ -4,7 +4,6 @@
   "inventoryIcon" : "lemonMFM.png",
   "description" : "Sour!",
   "shortdescription" : "Lemon",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

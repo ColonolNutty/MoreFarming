@@ -4,7 +4,6 @@
   "inventoryIcon" : "yellowbellpepperMFM.png",
   "description" : "Its yellow!",
   "shortdescription" : "Yellow Bell Pepper",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

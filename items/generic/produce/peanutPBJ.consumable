@@ -4,7 +4,6 @@
   "inventoryIcon": "peanutPBJ.png",
   "description" : "Peanuts in space!",
   "shortdescription" : "Peanut",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

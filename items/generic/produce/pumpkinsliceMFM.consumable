@@ -1,11 +1,10 @@
 {
   "itemName" : "pumpkinsliceMFM",
   "rarity" : "Common",
-  "price" : 10,
   "inventoryIcon" : "pumpkinsliceMFM.png",
   "description" : "A slice of pumpkin.",
   "shortdescription" : "Sliced Pumpkin",
-  "handPosition" : [-8, 0],
+  "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",
   "foodValue" : 10,

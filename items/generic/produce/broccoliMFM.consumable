@@ -4,7 +4,6 @@
   "inventoryIcon" : "broccoliMFM.png",
   "description" : "Broccoli is classified in the Italica cultivar group of the species Brassica oleracea.",
   "shortdescription" : "Broccoli",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

@@ -4,7 +4,6 @@
   "inventoryIcon" : "peaMFM.png",
   "description" : "Peas are botanically fruit!",
   "shortdescription" : "Pea Pod",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

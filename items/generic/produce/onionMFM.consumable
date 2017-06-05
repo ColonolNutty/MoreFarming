@@ -4,7 +4,6 @@
   "inventoryIcon" : "onionMFM.png",
   "description" : "Just like ogres, onions have layers.",
   "shortdescription" : "Onion",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

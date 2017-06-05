@@ -4,7 +4,6 @@
   "inventoryIcon" : "mangoMFM.png",
   "description" : "A sweet fruit.",
   "shortdescription" : "Mango",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

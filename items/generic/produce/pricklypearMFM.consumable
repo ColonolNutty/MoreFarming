@@ -4,7 +4,6 @@
   "inventoryIcon" : "pricklypearMFM.png",
   "description" : "Prickly pears, these things are hard to eat!",
   "shortdescription" : "Prickly Pear",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

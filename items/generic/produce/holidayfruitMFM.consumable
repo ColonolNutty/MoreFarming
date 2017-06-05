@@ -4,8 +4,13 @@
   "inventoryIcon" : "holidayfruitMFM.png",
   "description" : "Shiny, golden, and a sweet flavour. Yum! A bit crunchy, though.",
   "shortdescription" : "Holiday Fruit",
-  "handPosition" : [8, 0],
-  "effects" : [ [ {"effect" : "regeneration1"} ] ],
+  "price" : 30,
+  "effects" : [ [
+    {
+      "effect" : "regeneration1",
+      "duration" : 20
+    }
+  ] ],
   "emote" : "happy",
   "eventCategory" : "eventCrop",
   "category" : "food",

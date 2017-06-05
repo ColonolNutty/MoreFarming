@@ -4,7 +4,6 @@
   "inventoryIcon" : "raspberryPBJ.png",
   "description" : "Sweet and tart!",
   "shortdescription" : "Raspberry",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

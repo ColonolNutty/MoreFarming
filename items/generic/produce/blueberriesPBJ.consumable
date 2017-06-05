@@ -4,7 +4,6 @@
   "inventoryIcon" : "blueberriesPBJ.png",
   "description" : "Sweet and blue!",
   "shortdescription" : "Blueberries",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

@@ -4,7 +4,6 @@
   "inventoryIcon" : "blackberryPBJ.png",
   "description" : "Sweet and tart!",
   "shortdescription" : "Blackberry",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

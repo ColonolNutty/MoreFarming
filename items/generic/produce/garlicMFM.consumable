@@ -4,7 +4,6 @@
   "inventoryIcon" : "garlicMFM.png",
   "description" : "Vampire Kryptonite.",
   "shortdescription" : "Garlic",
-  "handPosition" : [8, 0],
   "price" : 10,
   "eventCategory" : "eventCrop",
   "category" : "food",

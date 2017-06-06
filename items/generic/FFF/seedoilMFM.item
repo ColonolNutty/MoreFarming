@@ -1,11 +1,11 @@
 {
   "itemName" : "seedoilMFM",
   "rarity" : "Common",
+  "price" : 40,
+  "category" : "cookingIngredient",
   "inventoryIcon" : "seedoilMFM.png",
   "description" : "Oil! For stir-frying and FTL traveling.",
   "shortdescription" : "Seed Oil",
-  "price" : 40,
-  "category" : "cookingIngredient",
-  "maxStack" : 1000,
+  "fuelAmount" : 4,
 	"learnBlueprintsOnPickup": [ "foulcocktailMFM" ]
 }

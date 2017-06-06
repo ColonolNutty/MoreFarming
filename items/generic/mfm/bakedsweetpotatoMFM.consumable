@@ -1,12 +1,11 @@
 {
   "itemName" : "bakedsweetpotatoMFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "preparedFood",
   "inventoryIcon" : "bakedsweetpotatoMFM.png",
   "description" : "A baked sweet potato",
   "shortdescription" : "Baked Sweet Potato",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -16,5 +15,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup": [ "loadedbakedsweetpotatoMFM" ]
+  "learnBlueprintsOnPickup": [ "loadedbakedsweetpotatoMFM" ],
+  "handPosition" : [0, -4]
 }

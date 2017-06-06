@@ -6,6 +6,12 @@
   "inventoryIcon" : "bananapastaMFM.png",
   "description" : "A chef took a try on making an Apex-specific pasta. It actually worked.",
   "shortdescription" : "Banana Pasta",
+  "effects" : [ [
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 180
+    }
+  ] ],
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -15,11 +21,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "handPosition" : [0, 4],
-  "effects" : [ [
-    {
-        "effect" : "jumpboostfood",
-        "duration" : 180
-    }
-  ] ]
+  "handPosition" : [0, -3]
 }

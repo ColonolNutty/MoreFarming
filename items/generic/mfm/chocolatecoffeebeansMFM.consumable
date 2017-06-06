@@ -1,12 +1,11 @@
 {
   "itemName" : "chocolatecoffeebeansMFM",
   "rarity" : "Common",
+  "price" : 35,
   "category" : "preparedFood",
   "inventoryIcon" : "chocolatecoffeebeansMFM.png",
   "description" : "Chocolate covered coffee beans.",
   "shortdescription" : "Chocolate Covered Coffee Beans",
-  "handPosition" : [8, -4],
-  "price" : 35,
   "foodValue" : 10,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -15,5 +14,6 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ]
+  ],
+  "handPosition" : [0, -4]
 }

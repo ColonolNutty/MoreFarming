@@ -1,12 +1,11 @@
 {
   "itemName" : "slicedavocadoMSM",
   "rarity" : "Common",
+  "price" : 40,
+	"category" : "preparedFood",
   "inventoryIcon" : "slicedavocadoMSM.png",
   "description" : "Sliced avocado.",
   "shortdescription" : "Sliced Avocado",
-  "handPosition" : [8, -4],
-  "price" : 40,
-	"category" : "preparedFood",
 	"foodValue" : 25,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
@@ -16,5 +15,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "avocadomakiMSM" ]
+  "learnBlueprintsOnPickup" : [ "avocadomakiMSM" ],
+  "handPosition" : [0, -4]
 }

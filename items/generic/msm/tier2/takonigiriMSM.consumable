@@ -2,17 +2,16 @@
   "itemName" : "takonigiriMSM",
   "rarity" : "Common",
   "price" : 190,
+	"category" : "preparedFood",
   "inventoryIcon" : "takonigiriMSM.png",
   "description" : "Tako Nigiri.",
   "shortdescription" : "Tako Nigiri",
-  "handPosition" : [0, 6],
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 90
     }
   ] ],
-	"category" : "preparedFood",
 	"foodValue" : 25,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
@@ -22,5 +21,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "takomakiMSM" ]
+  "learnBlueprintsOnPickup" : [ "takomakiMSM" ],
+  "handPosition" : [0, -4]
 }

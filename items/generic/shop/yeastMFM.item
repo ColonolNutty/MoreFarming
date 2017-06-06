@@ -1,12 +1,12 @@
 {
   "itemName" : "yeastMFM",
+  "price" : 20,
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "yeastMFM.png",
   "description" : "Very useful.",
   "shortdescription" : "Yeast",
-  "price" : 20,
-  "category" : "cookingIngredient",
-  "maxStack" : 1000,
+  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "caleMFM",
                                "hqbreadMFM" ]
 }

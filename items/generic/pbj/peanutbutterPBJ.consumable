@@ -1,18 +1,20 @@
 {
   "itemName" : "peanutbutterPBJ",
   "rarity" : "Uncommon",
+  "price" : 10,
+  "category" : "preparedFood",
   "inventoryIcon" : "peanutbutterPBJ.png",
   "description" : "Yum!\n\n[^#E41919;Hp^white;]",
   "shortdescription" : "Peanut Butter",
-  "handPosition" : [0, -2],
-  "foodValue" : 25,
+  "foodValue" : 10,
+  "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
-  "category" : "cookingIngredient",
-  "maxStack" : 1000,
   "blockingEffects" : [
-        "wellfed"
+    "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "peanutbuttersandwichPBJ" ]
+  "learnBlueprintsOnPickup" : [ "peanutbuttersandwichPBJ" ],
+  "handPosition" : [0, -2]
 }

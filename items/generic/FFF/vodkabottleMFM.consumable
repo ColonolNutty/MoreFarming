@@ -1,12 +1,11 @@
 {
   "itemName" : "vodkabottleMFM",
   "rarity" : "Common",
+  "price" : 20,
+  "category" : "drink",
   "inventoryIcon" : "vodkabottleMFM.png",
   "description" : "A bottle of vodka.",
   "shortdescription" : "Vodka Bottle",
-  "handPosition" : [0, -2],
-  "price" : 20,
-  "category" : "drink",
   "foodValue" : 5,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -16,5 +15,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+  "handPosition" : [0, -2]
 }

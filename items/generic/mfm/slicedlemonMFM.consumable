@@ -1,12 +1,11 @@
 {
   "itemName" : "slicedlemonMFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "cookingIngredient",
   "inventoryIcon" : "slicedlemonMFM.png",
   "description" : "Sliced lemon.",
   "shortdescription" : "Sliced Lemon",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -17,5 +16,6 @@
     "wellfed"
   ],
   "learnBlueprintsOnPickup": [ "lemonjuiceMFM",
-                               "padthaiMFM"]
+                               "padthaiMFM"],
+  "handPosition" : [0, -4]
 }

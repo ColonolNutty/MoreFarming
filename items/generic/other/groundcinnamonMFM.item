@@ -1,11 +1,11 @@
 {
   "itemName" : "groundcinnamonMFM",
+  "price" : 20,
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "groundcinnamonMFM.png",
   "description" : "Finely milled cinnamon.",
   "shortdescription" : "Ground Cinnamon",
-  "price" : 20,
-  "category" : "cookingIngredient",
-  "maxStack" : 1000,
+  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "gingercookieMFM" ]
 }

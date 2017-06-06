@@ -6,12 +6,6 @@
   "inventoryIcon" : "jelonjamMFM.png",
   "description" : "Jelons with the leaves and seeds taken out.",
   "shortdescription" : "Jelon Jam",
-  "foodValue" : 15,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
   "effects" : [ [
     {
         "effect" : "runboostfood",
@@ -22,10 +16,16 @@
         "duration" : 50
     }
   ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
   ],
-  "handPosition" : [0, 4],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "jelonbrownieMFM", "jeloncookieMFM", "jelonbreadMFM" ]
+  "learnBlueprintsOnPickup" : [ "jelonbrownieMFM", "jeloncookieMFM", "jelonbreadMFM" ],
+  "handPosition" : [0, -3]
 }

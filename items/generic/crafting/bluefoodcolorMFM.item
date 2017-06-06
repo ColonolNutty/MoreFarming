@@ -1,8 +1,10 @@
 {
   "itemName" : "bluefoodcolorMFM",
+  "price" : 15,
   "rarity" : "Common",
   "category" : "cookingIngredient",
   "inventoryIcon" : "bluefoodcolorMFM.png",
-  "description" : "Blue Food Coloring. Can color Snowcones.",
-  "shortdescription" : "Blue Food Color"
+  "description" : "Blue Food Coloring. I can color foods Blue with this.",
+  "shortdescription" : "Blue Food Coloring",
+  "itemTags" : [ "reagent" ]
 }

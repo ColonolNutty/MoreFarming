@@ -1,12 +1,11 @@
 {
   "itemName" : "slicedmangoMFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "cookingIngredient",
   "inventoryIcon" : "slicedmangoMFM.png",
   "description" : "Sliced mango.",
   "shortdescription" : "Sliced Mango",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -16,5 +15,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup": ["mangojuiceMFM"]
+  "learnBlueprintsOnPickup": ["mangojuiceMFM"],
+  "handPosition" : [0, -4]
 }

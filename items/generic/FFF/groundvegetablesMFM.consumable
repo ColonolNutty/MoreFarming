@@ -1,11 +1,11 @@
 {
   "itemName" : "groundvegetablesMFM",
   "rarity" : "Common",
+  "price" : 10,
+  "category" : "food",
   "inventoryIcon" : "groundvegetablesMFM.png",
   "description" : "A pile of processed vegetables.",
   "shortdescription" : "Ground Vegetables",
-  "price" : 10,
-  "category" : "food",
   "foodValue" : 25,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

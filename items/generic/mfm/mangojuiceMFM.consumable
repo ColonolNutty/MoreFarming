@@ -1,12 +1,11 @@
 {
   "itemName" : "mangojuiceMFM",
   "rarity" : "Common",
-  "category" : "preparedFood",
+  "price" : 40,
+  "category" : "drink",
   "inventoryIcon" : "mangojuiceMFM.png",
   "description" : "Sweet Mango juice.",
   "shortdescription" : "Mango Juice",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",
@@ -22,5 +21,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+  "handPosition" : [0, -4]
 }

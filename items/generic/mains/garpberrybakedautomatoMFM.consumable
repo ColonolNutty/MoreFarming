@@ -6,6 +6,12 @@
   "inventoryIcon" : "garpberrybakedautomatoMFM.png",
   "description" : "An automato baked with garpberry inside.",
   "shortdescription" : "Garpberrys baked automato",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+    }
+  ] ],
   "foodValue" : 40,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -14,11 +20,5 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ],
-  "effects" : [ [
-    {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-    }
-  ] ]
+  ]
 }

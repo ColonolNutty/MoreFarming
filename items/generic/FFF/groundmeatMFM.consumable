@@ -1,11 +1,11 @@
 {
   "itemName" : "groundmeatMFM",
   "rarity" : "Common",
+  "price" : 10,
+  "category" : "food",
   "inventoryIcon" : "groundmeatMFM.png",
   "description" : "A pile of processed meat.",
   "shortdescription" : "Ground Meat",
-  "price" : 10,
-  "category" : "food",
   "foodValue" : 25,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

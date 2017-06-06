@@ -1,12 +1,11 @@
 {
   "itemName" : "greenapplejuiceMFM",
   "rarity" : "Common",
-  "category" : "preparedFood",
+  "price" : 40,
+  "category" : "drink",
   "inventoryIcon" : "greenapplejuiceMFM.png",
   "description" : "Sour apple juice from a green apple.",
-  "shortdescription" : "Apple Juice",
-  "handPosition" : [8, -4],
-  "price" : 40,
+  "shortdescription" : "Green Apple Juice",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",
@@ -22,5 +21,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+  "handPosition" : [0, -4]
 }

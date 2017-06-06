@@ -15,5 +15,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "handPosition" : [-2, -2]
+  "handPosition" : [0, -2]
 }

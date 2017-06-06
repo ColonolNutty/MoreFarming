@@ -2,10 +2,10 @@
   "itemName" : "ebimakiMSM",
   "rarity" : "Uncommon",
   "price" : 550,
+	"category" : "preparedFood",
   "inventoryIcon" : "ebimakiMSM.png",
   "description" : "Ebi Maki.",
   "shortdescription" : "Ebi Maki",
-  "handPosition" : [12, -6],
   "effects" : [ [
     {
         "effect" : "runboostfood",
@@ -16,7 +16,6 @@
         "duration" : 105
     }
   ] ],
-	"category" : "preparedFood",
 	"foodValue" : 35,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
@@ -26,6 +25,7 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ebitemakiMSM" ]
+  "learnBlueprintsOnPickup" : [ "ebitemakiMSM" ],
+  "handPosition" : [0, -4]
 }
 

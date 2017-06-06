@@ -1,12 +1,11 @@
 {
   "itemName" : "scrambledeggMFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "preparedFood",
   "inventoryIcon" : "scrambledeggMFM.png",
   "description" : "A scrambled egg.",
   "shortdescription" : "Scrambled Egg",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -16,5 +15,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "scrambledeggwithketchupMFM" ]
+  "learnBlueprintsOnPickup" : [ "scrambledeggwithketchupMFM" ],
+  "handPosition" : [0, -4]
 }

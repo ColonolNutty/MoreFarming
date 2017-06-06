@@ -2,10 +2,10 @@
   "itemName" : "unagimakiMSM",
   "rarity" : "Uncommon",
   "price" : 550,
+	"category" : "preparedFood",
   "inventoryIcon" : "unagimakiMSM.png",
   "description" : "Unagi Maki.",
   "shortdescription" : "Unagi Maki",
-  "handPosition" : [12, -6],
   "effects" : [ [
     {
         "effect" : "runboostfood",
@@ -16,7 +16,6 @@
         "duration" : 105
     }
   ] ],
-	"category" : "preparedFood",
 	"foodValue" : 35,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
@@ -26,6 +25,7 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "unagitemakiMSM" ]
+  "learnBlueprintsOnPickup" : [ "unagitemakiMSM" ],
+  "handPosition" : [0, -4]
 }
 

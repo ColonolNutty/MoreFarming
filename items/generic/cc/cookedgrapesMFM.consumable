@@ -14,6 +14,5 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ],
-  "handPosition" : [8, 0]
+  ]
 }

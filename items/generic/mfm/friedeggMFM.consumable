@@ -1,12 +1,11 @@
 {
   "itemName" : "friedeggMFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "preparedFood",
   "inventoryIcon" : "friedeggMFM.png",
   "description" : "And this is your brain on drugs.",
   "shortdescription" : "Fried Egg",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -16,5 +15,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "eggontoastMFM" ]
+  "learnBlueprintsOnPickup" : [ "eggontoastMFM" ],
+  "handPosition" : [0, -4]
 }

@@ -1,15 +1,15 @@
 {
   "itemName" : "cocoanibsMFM",
   "rarity" : "Common",
+  "price" : 20,
+  "category" : "cookingIngredient",
   "inventoryIcon" : "cocoanibsMFM.png",
   "description" : "Not super sweet..",
   "shortdescription" : "Cocoa Nibs",
-  "handPosition" : [8, 0],
   "foodValue" : 10,
   "builder" : "/items/buildscripts/buildfood.lua",
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
-  "category" : "cookingIngredient",
   "maxStack" : 1000,
   "learnBlueprintsOnPickup": [ "cocoapowderMFM" ]
 }

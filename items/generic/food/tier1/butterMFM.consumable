@@ -1,12 +1,11 @@
 {
   "itemName" : "butterMFM",
-  "price" : 0,
   "rarity" : "Common",
+  "price" : 5,
+  "category" : "preparedFood",
   "inventoryIcon" : "butterMFM.png",
   "description" : "For making everything less healthy and more awesome.",
   "shortdescription" : "Butter",
-  "handPosition" : [0, 4],
-  "category" : "preparedFood",
   "foodValue" : 2,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -19,5 +18,6 @@
   "learnBlueprintsOnPickup": [ "puddingMFM",
                                "sugarcookieMFM",
                                "toffeecookieMFM",
-                               "toffeecookieMFM" ]
+                               "toffeecookieMFM" ],
+  "handPosition" : [0, -3]
 }

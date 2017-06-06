@@ -1,16 +1,15 @@
 {
   "itemName" : "chocolateicingMFM",
   "rarity" : "Common",
+  "price" : 20,
+  "category" : "cookingIngredient",
   "inventoryIcon" : "chocolateicingMFM.png",
   "description" : "Don't forget the icing!",
   "shortdescription" : "Chocolate Icing",
-  "handPosition" : [8, 0],
-  "price" : 20,
   "foodValue" : 10,
   "builder" : "/items/buildscripts/buildfood.lua",
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
-  "category" : "cookingIngredient",
   "maxStack" : 1000,
   "learnBlueprintsOnPickup" : [ "chocolatecupcakeMFM" ]
 }

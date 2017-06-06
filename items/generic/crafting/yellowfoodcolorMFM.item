@@ -1,8 +1,10 @@
 {
   "itemName" : "yellowfoodcolorMFM",
+  "price" : 15,
   "rarity" : "Common",
   "category" : "cookingIngredient",
   "inventoryIcon" : "yellowfoodcolorMFM.png",
-  "description" : "Yellow Food Coloring. Can color Snowcones.",
-  "shortdescription" : "Yellow Food Color"
+  "description" : "Yellow Food Coloring. I can color foods Yellow with this",
+  "shortdescription" : "Yellow Food Coloring",
+  "itemTags" : [ "reagent" ]
 }

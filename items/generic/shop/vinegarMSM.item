@@ -1,11 +1,11 @@
 {
   "itemName" : "vinegarMSM",
+  "price" : 25,
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "vinegarMSM.png",
   "description" : "Good ol' vinegar.",
   "shortdescription" : "Vinegar",
-  "price" : 25,
-  "category" : "cookingIngredient",
-  "maxStack" : 1000,
+  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "gariMSM" ]
 }

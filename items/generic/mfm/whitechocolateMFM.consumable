@@ -1,12 +1,11 @@
 {
   "itemName" : "whitechocolateMFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "preparedFood",
   "inventoryIcon" : "whitechocolateMFM.png",
   "description" : "Yummmmmmm!",
   "shortdescription" : "White Chocolate",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -16,5 +15,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "whitechocolateblockMFM" ]
+  "learnBlueprintsOnPickup" : [ "whitechocolateblockMFM" ],
+  "handPosition" : [0, -4]
 }

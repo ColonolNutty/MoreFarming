@@ -6,6 +6,12 @@
   "inventoryIcon" : "roastedgarpberrysMFM.png",
   "description" : "Crunchy roasted garpberrys. Mmm.",
   "shortdescription" : "Roasted garpberrys",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 20
+    }
+  ] ],
   "foodValue" : 40,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -14,11 +20,5 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ],
-  "effects" : [ [
-    {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 20
-    }
-  ] ]
+  ]
 }

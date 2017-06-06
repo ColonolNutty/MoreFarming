@@ -1,12 +1,11 @@
 {
   "itemName" : "frenchfriesMFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "preparedFood",
   "inventoryIcon" : "frenchfriesMFM.png",
   "description" : "Bonjour!",
   "shortdescription" : "French Fries",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -16,5 +15,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "frenchfrieswithketchupMFM" ]
+  "learnBlueprintsOnPickup" : [ "frenchfrieswithketchupMFM" ],
+  "handPosition" : [0, -4]
 }

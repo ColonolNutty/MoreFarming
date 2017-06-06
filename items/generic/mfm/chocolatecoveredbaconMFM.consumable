@@ -1,12 +1,11 @@
 {
   "itemName" : "chocolatecoveredbaconMFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "preparedFood",
   "inventoryIcon" : "chocolatecoveredbaconMFM.png",
   "description" : "Oh my...",
   "shortdescription" : "Chocolate Covered Bacon",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -15,5 +14,6 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ]
+  ],
+  "handPosition" : [0, -4]
 }

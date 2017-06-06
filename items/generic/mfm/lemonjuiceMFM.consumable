@@ -1,12 +1,11 @@
 {
   "itemName" : "lemonjuiceMFM",
   "rarity" : "Common",
-  "category" : "preparedFood",
+  "price" : 40,
+  "category" : "drink",
   "inventoryIcon" : "lemonjuiceMFM.png",
   "description" : "Sour lemon juice.",
   "shortdescription" : "Lemon Juice",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",
@@ -23,5 +22,6 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "lemonicingMFM" ]
+  "learnBlueprintsOnPickup" : [ "lemonicingMFM" ],
+  "handPosition" : [0, -4]
 }

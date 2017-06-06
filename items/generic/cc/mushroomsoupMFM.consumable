@@ -6,7 +6,6 @@
   "inventoryIcon" : "mushroomsoupMFM.png",
   "description" : "Nobody will mind the poisonous bits.",
   "shortdescription" : "Mushroom Soup",
-  "handPosition" : [0, 4],
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -15,5 +14,6 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ]
+  ],
+  "handPosition" : [0, -3]
 }

@@ -1,12 +1,11 @@
 {
   "itemName" : "grapefruitjuiceMFM",
   "rarity" : "Common",
-  "category" : "preparedFood",
+  "price" : 40,
+  "category" : "drink",
   "inventoryIcon" : "grapefruitjuiceMFM.png",
   "description" : "tart grapefruit juice.",
   "shortdescription" : "Grapefruit Juice",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",
@@ -22,5 +21,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+  "handPosition" : [0, -4]
 }

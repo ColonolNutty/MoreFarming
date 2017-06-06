@@ -1,10 +1,12 @@
 {
   "itemName" : "jalapenopepperMFM",
   "rarity" : "Common",
+  "price" : 10,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
   "inventoryIcon" : "jalapenopepperMFM.png",
   "description" : "Hot.",
   "shortdescription" : "Jalapeno Pepper",
-  "price" : 10,
   "effects" : [ [
     {
         "effect" : "rage",
@@ -15,8 +17,6 @@
         "duration" : 10
     }
   ] ],
-  "eventCategory" : "eventCrop",
-  "category" : "food",
   "foodValue" : 10,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

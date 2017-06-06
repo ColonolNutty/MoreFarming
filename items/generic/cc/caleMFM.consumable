@@ -1,11 +1,11 @@
 {
   "itemName" : "caleMFM",
   "rarity" : "Common",
+  "price" : 150,
+  "category" : "drink",
   "inventoryIcon" : "caleMFM.png",
   "description" : "I feel tipsy...",
   "shortdescription" : "Ale",
-  "price" : 150,
-  "category" : "drink",
   "foodValue" : 20,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

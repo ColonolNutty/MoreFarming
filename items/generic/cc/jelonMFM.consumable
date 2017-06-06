@@ -5,7 +5,12 @@
   "inventoryIcon" : "jelonMFM.png",
   "description" : "A genetically engineered jelon.",
   "shortdescription" : "Jelon",
-  "handPosition" : [-2, -2],
+  "effects" : [ [
+      {
+        "effect" : "energyregen",
+        "duration" : 50
+      }
+    ] ],
   "price" : 200,
   "foodValue" : 10,
   "tooltipKind" : "food",
@@ -13,12 +18,6 @@
   "maxStack" : 1000,
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
-  "effects" : [ [
-      {
-        "effect" : "energyregen",
-        "duration" : 50
-      }
-    ] ],
   "blockingEffects" : [
     "wellfed"
   ],
@@ -29,5 +28,6 @@
                                 "pinanaMFM",
                                 "pinanasliceMFM",
                                 "jelonbreadMFM",
-                                "jelonblockMFM" ]
+                                "jelonblockMFM" ],
+  "handPosition" : [0, -2]
 }

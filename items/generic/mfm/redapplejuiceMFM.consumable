@@ -1,12 +1,11 @@
 {
   "itemName" : "redapplejuiceMFM",
   "rarity" : "Common",
-  "category" : "preparedFood",
+  "price" : 40,
+  "category" : "drink",
   "inventoryIcon" : "redapplejuiceMFM.png",
   "description" : "sweet apple juice.",
-  "shortdescription" : "Apple Juice",
-  "handPosition" : [8, -4],
-  "price" : 40,
+  "shortdescription" : "Red Apple Juice",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",
@@ -22,5 +21,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+  "handPosition" : [0, -4]
 }

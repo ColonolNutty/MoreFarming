@@ -2,10 +2,10 @@
   "itemName" : "sakemakiMSM",
   "rarity" : "Uncommon",
   "price" : 550,
+	"category" : "preparedFood",
   "inventoryIcon" : "sakemakiMSM.png",
   "description" : "Sake Maki.",
   "shortdescription" : "Sake Maki",
-  "handPosition" : [12, -6],
   "effects" : [ [
     {
         "effect" : "runboostfood",
@@ -16,7 +16,6 @@
         "duration" : 105
     }
   ] ],
-	"category" : "preparedFood",
 	"foodValue" : 35,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
@@ -26,6 +25,7 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "saketemakiMSM" ]
+  "learnBlueprintsOnPickup" : [ "saketemakiMSM" ],
+  "handPosition" : [0, -4]
 }
 

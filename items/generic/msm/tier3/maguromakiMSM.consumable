@@ -2,10 +2,10 @@
   "itemName" : "maguromakiMSM",
   "rarity" : "Uncommon",
   "price" : 550,
+	"category" : "preparedFood",
   "inventoryIcon" : "maguromakiMSM.png",
   "description" : "Marguro Maki.",
   "shortdescription" : "Marguro Maki",
-  "handPosition" : [12, -6],
   "effects" : [ [
     {
         "effect" : "runboostfood",
@@ -16,7 +16,6 @@
         "duration" : 105
     }
   ] ],
-	"category" : "preparedFood",
 	"foodValue" : 25,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
@@ -26,6 +25,7 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "magurotemakiMSM" ]
+  "learnBlueprintsOnPickup" : [ "magurotemakiMSM" ],
+  "handPosition" : [0, -4]
 }
 

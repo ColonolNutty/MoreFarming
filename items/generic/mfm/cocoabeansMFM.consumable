@@ -1,12 +1,11 @@
 {
   "itemName" : "cocoabeansMFM",
   "rarity" : "Common",
+  "price" : 20,
   "category" : "preparedFood",
   "inventoryIcon" : "cocoabeansMFM.png",
   "description" : "This is not their final form.",
   "shortdescription" : "Cocoa Beans",
-  "handPosition" : [8, 0],
-  "price" : 20,
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

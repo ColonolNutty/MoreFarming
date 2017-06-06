@@ -1,12 +1,11 @@
 {
   "itemName" : "mashedsweetpotatoMFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "preparedFood",
   "inventoryIcon" : "mashedsweetpotatoMFM.png",
   "description" : "Smashing sweet potatoes is scientifically proven to make them 500% tastier.",
   "shortdescription" : "Mashed Sweet Potato",
-  "handPosition" : [0, -2],
-  "price" : 40,
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",
@@ -21,5 +20,6 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ]
+  ],
+  "handPosition" : [0, -2]
 }

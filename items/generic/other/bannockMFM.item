@@ -1,12 +1,11 @@
 {
   "itemName" : "bannockMFM",
+  "price" : 20,
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "bannockMFM.png",
   "description" : "Bannock.",
   "shortdescription" : "Raw Bannock",
-  "price" : 20,
-  "tooltipKind" : "food",
-  "category" : "cookingIngredient",
-  "maxStack" : 1000,
+  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "cookedbannockMFM" ]
 }

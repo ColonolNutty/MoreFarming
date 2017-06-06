@@ -1,11 +1,11 @@
 {
   "itemName" : "appleciderMFM",
   "rarity" : "Common",
+  "price" : 150,
+  "category" : "drink",
   "inventoryIcon" : "appleciderMFM.png",
   "description" : "A popular drink with Humans.",
   "shortdescription" : "Apple Cider",
-  "price" : 150,
-  "category" : "drink",
   "foodValue" : 20,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -1,12 +1,11 @@
 {
   "itemName" : "ER3031MFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "preparedFood",
   "inventoryIcon" : "ER3031MFM.png",
   "description" : "011100100111010101101110MISSINGO",
   "shortdescription" : "ER3031",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -15,5 +14,6 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ]
+  ],
+  "handPosition" : [0, -4]
 }

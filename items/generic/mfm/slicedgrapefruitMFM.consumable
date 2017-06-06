@@ -1,12 +1,11 @@
 {
   "itemName" : "slicedgrapefruitMFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "cookingIngredient",
   "inventoryIcon" : "slicedgrapefruitMFM.png",
   "description" : "Sliced grapefruit.",
   "shortdescription" : "Sliced Grapefruit",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -16,5 +15,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup": ["grapefruitjuiceMFM"]
+  "learnBlueprintsOnPickup": ["grapefruitjuiceMFM"],
+  "handPosition" : [0, -4]
 }

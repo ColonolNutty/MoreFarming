@@ -1,12 +1,11 @@
 {
   "itemName" : "slicedorangeMFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "cookingIngredient",
   "inventoryIcon" : "slicedorangeMFM.png",
   "description" : "Sliced orange.",
   "shortdescription" : "Sliced Orange",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -16,5 +15,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup": ["orangejuiceMFM"]
+  "learnBlueprintsOnPickup": ["orangejuiceMFM"],
+  "handPosition" : [0, -4]
 }

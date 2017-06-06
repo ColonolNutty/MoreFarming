@@ -1,11 +1,11 @@
 {
   "itemName" : "goldensyrupMFM",
+  "price" : 25,
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "goldensyrupMFM.png",
   "description" : "Syrup that is golden, it glistens in the sun",
   "shortdescription" : "Golden Syrup",
-  "price" : 25,
-  "category" : "cookingIngredient",
-  "maxStack" : 1000,
+  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "caramelsquareMFM" ]
 }

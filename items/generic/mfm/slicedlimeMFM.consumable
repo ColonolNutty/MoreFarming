@@ -1,12 +1,11 @@
 {
   "itemName" : "slicedlimeMFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "cookingIngredient",
   "inventoryIcon" : "slicedlimeMFM.png",
   "description" : "Sliced lime.",
   "shortdescription" : "Sliced Lime",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -17,5 +16,6 @@
     "wellfed"
   ],
   "learnBlueprintsOnPickup": [ "limejuiceMFM",
-                               "phoMFM" ]
+                               "phoMFM" ],
+  "handPosition" : [0, -4]
 }

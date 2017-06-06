@@ -1,11 +1,11 @@
 {
   "itemName" : "chocolateliquorMFM",
   "rarity" : "Common",
+  "price" : 20,
+  "category" : "cookingIngredient",
   "inventoryIcon" : "chocolateliquorMFM.png",
   "description" : "Pure liquid chocolate.",
   "shortdescription" : "Chocolate Liquor",
-  "handPosition" : [8, -4],
-  "price" : 20,
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",
@@ -16,7 +16,6 @@
   "builder" : "/items/buildscripts/buildfood.lua",
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
-  "category" : "cookingIngredient",
   "maxStack" : 1000,
   "blockingEffects" : [
     "wellfed"
@@ -26,5 +25,6 @@
                                 "chocolate",
                                 "chocolateicecreamMFM",
                                 "darkchocolateMFM",
-                                "cocoabutterMFM" ]
+                                "cocoabutterMFM" ],
+  "handPosition" : [0, -4]
 }

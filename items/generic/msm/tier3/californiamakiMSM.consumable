@@ -2,10 +2,10 @@
   "itemName" : "californiamakiMSM",
   "rarity" : "Uncommon",
   "price" : 550,
+	"category" : "preparedFood",
   "inventoryIcon" : "californiamakiMSM.png",
   "description" : "California Maki.",
   "shortdescription" : "California Maki",
-  "handPosition" : [12, -6],
   "effects" : [ [
     {
         "effect" : "runboostfood",
@@ -16,7 +16,6 @@
         "duration" : 105
     }
   ] ],
-	"category" : "preparedFood",
 	"foodValue" : 30,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
@@ -26,6 +25,7 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "californiatemakiMSM" ]
+  "learnBlueprintsOnPickup" : [ "californiatemakiMSM" ],
+  "handPosition" : [0, -4]
 }
 

@@ -6,18 +6,18 @@
   "inventoryIcon" : "goldenbananaMFM.png",
   "description" : "Shiny and edible!",
   "shortdescription" : "Golden Banana",
-  "foodValue" : 30,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
   "effects" : [ [
       {
         "effect" : "regeneration3",
         "duration" : 20
       }
     ] ],
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
   ]

@@ -1,12 +1,11 @@
 {
   "itemName" : "cupcakebatterMFM",
   "rarity" : "Common",
+  "price" : 10,
   "category" : "cookingIngredient",
   "inventoryIcon" : "cupcakebatterMFM.png",
   "description" : "Its bloody raw!",
   "shortdescription" : "Cupcake Batter",
-  "handPosition" : [8, 0],
-  "price" : 10,
   "foodValue" : 10,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

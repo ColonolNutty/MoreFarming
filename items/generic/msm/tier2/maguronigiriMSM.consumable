@@ -2,17 +2,16 @@
   "itemName" : "maguronigiriMSM",
   "rarity" : "Common",
   "price" : 190,
+	"category" : "preparedFood",
   "inventoryIcon" : "maguronigiriMSM.png",
   "description" : "Maguro Nigiri.",
   "shortdescription" : "Maguro Nigiri",
-  "handPosition" : [0, 6],
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 90
     }
   ] ],
-	"category" : "preparedFood",
 	"foodValue" : 25,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
@@ -22,5 +21,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "maguromakiMSM" ]
+  "learnBlueprintsOnPickup" : [ "maguromakiMSM" ],
+  "handPosition" : [0, -4]
 }

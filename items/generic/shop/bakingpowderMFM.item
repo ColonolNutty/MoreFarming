@@ -1,11 +1,11 @@
 {
   "itemName" : "bakingpowderMFM",
+  "price" : 20,
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "bakingpowderMFM.png",
   "description" : "Useful for baking!",
   "shortdescription" : "Baking Powder",
-  "price" : 20,
-  "category" : "cookingIngredient",
-  "maxStack" : 1000,
+  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "bannockMFM" ]
 }

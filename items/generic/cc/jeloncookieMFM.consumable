@@ -6,12 +6,6 @@
   "inventoryIcon" : "jeloncookieMFM.png",
   "description" : "A cookie made using jelon.",
   "shortdescription" : "Jelon Cookie",
-  "foodValue" : 12,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
   "effects" : [ [
     {
         "effect" : "runboostfood",
@@ -22,6 +16,12 @@
         "duration" : 60
     }
   ] ],
+  "foodValue" : 12,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
   ],

@@ -2,17 +2,16 @@
   "itemName" : "unaginigiriMSM",
   "rarity" : "Common",
   "price" : 190,
+	"category" : "preparedFood",
   "inventoryIcon" : "unaginigiriMSM.png",
   "description" : "Unagi Nigiri.",
   "shortdescription" : "Unagi Nigiri",
-  "handPosition" : [0, 6],
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 90
     }
   ] ],
-	"category" : "preparedFood",
 	"foodValue" : 25,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
@@ -22,5 +21,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "unagimakiMSM" ]
+  "learnBlueprintsOnPickup" : [ "unagimakiMSM" ],
+  "handPosition" : [0, -4]
 }

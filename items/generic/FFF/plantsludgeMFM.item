@@ -1,11 +1,10 @@
 {
   "itemName" : "plantsludgeMFM",
   "rarity" : "Common",
+  "price" : 10,
+  "category" : "cookingIngredient",
   "inventoryIcon" : "plantsludgeMFM.png",
   "description" : "A mix of plant mush and acid.",
   "shortdescription" : "Plant Sludge",
-  "price" : 10,
-  "category" : "cookingIngredient",
-  "maxStack" : 1000,
   "learnBlueprintsOnPickup": [ "cannedplantsludgeMFM" ]
 }

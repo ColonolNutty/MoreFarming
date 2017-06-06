@@ -1,11 +1,11 @@
 {
   "itemName" : "wheatbeerMFM",
   "rarity" : "Common",
+  "price" : 20,
+  "category" : "drink",
   "inventoryIcon" : "wheatbeerMFM.png",
   "description" : "A can of beer made from wheat.",
   "shortdescription" : "Wheat Beer",
-  "price" : 20,
-  "category" : "drink",
   "foodValue" : 5,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

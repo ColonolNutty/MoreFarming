@@ -15,6 +15,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "emitters" : [ "drinking" ],
-  "handPosition" : [-8, 0]
+  "emitters" : [ "drinking" ]
 }

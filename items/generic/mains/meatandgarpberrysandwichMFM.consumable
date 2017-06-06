@@ -6,15 +6,6 @@
   "inventoryIcon" : "meatandgarpberrysandwichMFM.png",
   "description" : "Chunks of meat and garpberrys in a sandwiched between some bread. Floran likesss!",
   "shortdescription" : "Meat and garpberry sandwich",
-  "foodValue" : 40,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
   "effects" : [ [
     {
         "effect" : "jumpboostfood",
@@ -24,5 +15,14 @@
         "effect" : "maxenergyscalingboostfood",
         "duration" : 30
     }
-  ] ]
+  ] ],
+  "foodValue" : 40,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
 }

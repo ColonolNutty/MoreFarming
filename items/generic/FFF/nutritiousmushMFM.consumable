@@ -1,11 +1,11 @@
 {
   "itemName" : "nutritiousmushMFM",
   "rarity" : "Common",
+  "price" : 40,
+  "category" : "food",
   "inventoryIcon" : "nutritiousmushMFM.png",
   "description" : "A pile of balanced meal.",
   "shortdescription" : "Nutritious Mush",
-  "price" : 40,
-  "category" : "food",
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

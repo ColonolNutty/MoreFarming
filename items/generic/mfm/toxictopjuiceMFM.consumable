@@ -1,12 +1,11 @@
 {
   "itemName" : "toxictopjuiceMFM",
   "rarity" : "Common",
-  "category" : "preparedFood",
+  "price" : 40,
+  "category" : "drink",
   "inventoryIcon" : "toxictopjuiceMFM.png",
   "description" : "Looks toxic..",
   "shortdescription" : "Toxictop juice",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "effects" : [ [
     {
         "effect" : "weakpoison",
@@ -26,5 +25,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+  "handPosition" : [0, -4]
 }

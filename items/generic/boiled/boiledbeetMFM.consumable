@@ -1,12 +1,11 @@
 {
   "itemName" : "boiledbeetMFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "preparedFood",
   "inventoryIcon" : "boiledbeetMFM.png",
   "description" : "Boiled Beet.",
   "shortdescription" : "Boiled Beet",
-  "handPosition" : [0, -4],
-  "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -15,5 +14,6 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ]
+  ],
+  "handPosition" : [0, -4]
 }

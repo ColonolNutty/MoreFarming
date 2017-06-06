@@ -6,6 +6,12 @@
   "inventoryIcon" : "roastedcoffeebeansMFM.png",
   "description" : "Crunchy roasted coffee beans. Mmm.",
   "shortdescription" : "Roasted Coffee Beans",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 20
+    }
+  ] ],
   "foodValue" : 20,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -15,11 +21,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "effects" : [ [
-    {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 20
-    }
-  ] ],
   "learnBlueprintsOnPickup": [ "chocolatecoffeebeansMFM" ]
 }

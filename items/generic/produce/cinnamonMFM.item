@@ -1,12 +1,11 @@
 {
   "itemName" : "cinnamonMFM",
+  "price" : 10,
   "rarity" : "Common",
+  "category" : "craftingMaterial",
   "inventoryIcon" : "cinnamonMFM.png",
   "description" : "Spicy tree bark.",
   "shortdescription" : "Cinnamon",
-  "price" : 10,
-  "category" : "craftingMaterial",
   "itemTags" : [ "reagent" ],
-  "maxStack" : 1000,
   "learnBlueprintsOnPickup": [ "groundcinnamonMFM" ]
 }

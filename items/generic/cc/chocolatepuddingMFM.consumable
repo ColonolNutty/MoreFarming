@@ -1,11 +1,17 @@
 {
   "itemName" : "chocolatepuddingMFM",
   "rarity" : "Common",
+  "price" : 50,
+  "category" : "preparedFood",
   "inventoryIcon" : "chocolatepuddingMFM.png",
   "description" : "I need more!",
   "shortdescription" : "Chocolate Pudding",
-  "price" : 50,
-  "category" : "preparedFood",
+  "effects" : [ [
+      {
+        "effect" : "regeneration1",
+        "duration" : 20
+      }
+    ] ],
   "foodValue" : 10,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -14,11 +20,5 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ],
-  "effects" : [ [
-      {
-        "effect" : "regeneration1",
-        "duration" : 20
-      }
-    ] ]
+  ]
 }

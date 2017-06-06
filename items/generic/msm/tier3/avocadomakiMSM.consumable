@@ -2,10 +2,10 @@
   "itemName" : "avocadomakiMSM",
   "rarity" : "Uncommon",
   "price" : 550,
+	"category" : "preparedFood",
   "inventoryIcon" : "avocadomakiMSM.png",
   "description" : "Avocado Maki.",
   "shortdescription" : "Avocado Maki",
-  "handPosition" : [12, -6],
   "effects" : [ [
     {
         "effect" : "runboostfood",
@@ -16,7 +16,6 @@
         "duration" : 105
     }
   ] ],
-	"category" : "preparedFood",
 	"foodValue" : 25,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
@@ -25,4 +24,6 @@
 	"rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ]}
+  ],
+  "handPosition" : [0, -4]
+}

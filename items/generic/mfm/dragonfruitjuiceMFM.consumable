@@ -1,12 +1,11 @@
 {
   "itemName" : "dragonfruitjuiceMFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "preparedFood",
   "inventoryIcon" : "dragonfruitjuiceMFM.png",
   "description" : "Slightly sweet Dragonfruit juice.",
   "shortdescription" : "Dragonfruit juice",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "foodValue" : 40,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -16,5 +15,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+  "handPosition" : [0, -4]
 }

@@ -1,12 +1,11 @@
 {
   "itemName" : "butteredpastaMFM",
   "rarity" : "Common",
+  "price" : 50,
+  "category" : "preparedFood",
   "inventoryIcon" : "butteredpastaMFM.png",
   "description" : "Pasta with some butter.",
   "shortdescription" : "Buttered Pasta",
-  "handPosition" : [0, -3],
-  "price" : 50,
-  "category" : "preparedFood",
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -15,5 +14,6 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ]
+  ],
+  "handPosition" : [0, -3]
 }

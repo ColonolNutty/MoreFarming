@@ -6,7 +6,6 @@
   "inventoryIcon" : "cookedbrainMFM.png",
   "description" : "Will eating this make me smart? Or will I turn into a zombie?",
   "shortdescription" : "Cooked Brain",
-  "handPosition" : [4, -2],
   "foodValue" : 25,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -15,5 +14,6 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ]
+  ],
+  "handPosition" : [0, -2]
 }

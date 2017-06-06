@@ -1,12 +1,12 @@
 {
   "itemName" : "saltMFM",
+  "price" : 20,
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "saltMFM.png",
   "description" : "Used in many recipes!",
   "shortdescription" : "Salt",
-  "price" : 20,
-  "category" : "cookingIngredient",
-  "maxStack" : 1000,
+  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "puddingMFM",
                                "toffeecookieMFM" ]
 }

@@ -1,19 +1,21 @@
 {
   "itemName" : "raspberryjellyPBJ",
   "rarity" : "Uncommon",
+  "price" : 10,
+  "category" : "preparedFood",
   "inventoryIcon" : "raspberryjellyPBJ.png",
   "description" : "Raspberry Jelly!\n\n[^#E41919;Hp^white;]",
   "shortdescription" : "Raspberry Jelly",
-  "handPosition" : [0, -2],
-  "foodValue" : 25,
+  "foodValue" : 10,
+  "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
-  "category" : "cookingIngredient",
-  "maxStack" : 1000,
   "blockingEffects" : [
     "wellfed"
   ],
   "learnBlueprintsOnPickup" : [ "raspberryjellysandwichPBJ",
-                                "raspberrypbjPBJ" ]
+                                "raspberrypbjPBJ" ],
+  "handPosition" : [0, -2]
 }

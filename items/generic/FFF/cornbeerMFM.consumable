@@ -1,11 +1,11 @@
 {
   "itemName" : "cornbeerMFM",
   "rarity" : "Common",
+  "price" : 20,
+  "category" : "drink",
   "inventoryIcon" : "cornbeerMFM.png",
   "description" : "A can of beer made from corn.",
   "shortdescription" : "Corn Beer",
-  "price" : 20,
-  "category" : "drink",
   "foodValue" : 5,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -1,12 +1,11 @@
 {
   "itemName" : "slicedredappleMFM",
   "rarity" : "Common",
+  "price" : 40,
   "category" : "cookingIngredient",
   "inventoryIcon" : "slicedredappleMFM.png",
   "description" : "Sliced red apple.",
   "shortdescription" : "Sliced Red Apple",
-  "handPosition" : [8, -4],
-  "price" : 40,
   "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -16,5 +15,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup": ["redapplejuiceMFM"]
+  "learnBlueprintsOnPickup": ["redapplejuiceMFM"],
+  "handPosition" : [0, -4]
 }

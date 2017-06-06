@@ -1,12 +1,12 @@
 {
   "itemName" : "cocoapowderMFM",
+  "price" : 20,
   "rarity" : "Common",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "cocoapowderMFM.png",
   "description" : "Ground cocoa beans.",
   "shortdescription" : "Cocoa Powder",
-  "price" : 20,
-  "category" : "cookingIngredient",
-  "maxStack" : 1000,
+  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "chocolateliquorMFM",
                                "chocolatefrenchtoastMFM" ]
 }

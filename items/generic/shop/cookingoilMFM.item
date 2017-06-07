@@ -5,6 +5,5 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "cookingoilMFM.png",
   "description" : "Useful!",
-  "shortdescription" : "Cooking Oil",
-  "itemTags" : [ "reagent" ]
+  "shortdescription" : "Cooking Oil"
 }

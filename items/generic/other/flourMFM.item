@@ -6,7 +6,6 @@
   "inventoryIcon" : "flourMFM.png",
   "description" : "Used in many recipes!",
   "shortdescription" : "Flour",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [ "doughMFM",
                                 "bannockMFM",
                                 "cupcakebatterMFM",

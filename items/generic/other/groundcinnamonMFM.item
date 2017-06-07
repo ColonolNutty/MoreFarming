@@ -6,6 +6,5 @@
   "inventoryIcon" : "groundcinnamonMFM.png",
   "description" : "Finely milled cinnamon.",
   "shortdescription" : "Ground Cinnamon",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "gingercookieMFM" ]
 }

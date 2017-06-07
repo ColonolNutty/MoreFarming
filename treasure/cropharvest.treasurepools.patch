@@ -739,5 +739,23 @@
         }
       ]
     ]
+  },
+  {
+    "op" : "add",
+    "path" : "/soybeanMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "soybeanMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "soybeanMFM"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.7, 1],
+          [0.3, 2]
+        ]
+      } ]
+    ]
   }
 ]

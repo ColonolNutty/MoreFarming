@@ -2,7 +2,7 @@
   "itemName" : "bannockMFM",
   "price" : 20,
   "rarity" : "Common",
-  "category" : "cookingIngredient",
+  "category" : "craftingMaterial",
   "inventoryIcon" : "bannockMFM.png",
   "description" : "Bannock.",
   "shortdescription" : "Raw Bannock",

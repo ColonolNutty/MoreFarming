@@ -1,0 +1,34 @@
+{
+  "itemName" : "tofucurryMFM",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "drink",
+  "inventoryIcon" : "tofucurryMFM.png",
+  "description" : "A spicy curry made with tofu.",
+  "shortdescription" : "Tofu Curry",
+  "effects" : [[
+    {
+      "effect" : "regeneration1",
+      "duration" : 20
+    },
+    {
+      "effect" : "jumpboostfood",
+      "duration" : 20
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 25
+    }
+  ]],
+  "foodValue" : 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "handPosition" : [0, -3]
+}

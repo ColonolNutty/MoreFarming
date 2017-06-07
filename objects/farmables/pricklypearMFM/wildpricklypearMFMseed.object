@@ -7,7 +7,7 @@
   "description" : "Prickly pears, these things are hard to eat!",
   "shortdescription" : "Pineapple Seed",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
   "price" : 100,
   "hasObjectItem" : false,
 

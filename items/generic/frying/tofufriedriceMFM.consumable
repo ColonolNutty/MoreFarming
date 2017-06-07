@@ -1,0 +1,29 @@
+{
+  "itemName" : "tofufriedriceMFM",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "preparedFood",
+  "inventoryIcon" : "tofufriedriceMFM.png",
+  "description" : "Tofu fried rice, a twist on a Hylotl staple.",
+  "shortdescription" : "Tofu Fried Rice",
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 40
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 30
+    }
+  ]],
+  "foodValue" : 37,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [0, -3]
+}

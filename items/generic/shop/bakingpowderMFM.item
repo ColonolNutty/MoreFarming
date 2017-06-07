@@ -6,6 +6,5 @@
   "inventoryIcon" : "bakingpowderMFM.png",
   "description" : "Useful for baking!",
   "shortdescription" : "Baking Powder",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "bannockMFM" ]
 }

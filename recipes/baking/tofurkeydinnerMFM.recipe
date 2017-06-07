@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "tofuMFM", "count" : 2 },
+    { "item" : "potato", "count" : 1 },
+    { "item" : "pearlpea", "count" : 1 },
+    { "item" : "carrot", "count" : 1 }
+  ],
+  "output" : { "item" : "tofurkeydinnerMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "mains", "baking" ]
+}

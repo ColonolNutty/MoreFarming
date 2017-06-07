@@ -6,6 +6,5 @@
   "inventoryIcon" : "condensedmilkMFM.png",
   "description" : "Milk that is condensed",
   "shortdescription" : "Condensed Milk",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "caramelsquareMFM" ]
 }

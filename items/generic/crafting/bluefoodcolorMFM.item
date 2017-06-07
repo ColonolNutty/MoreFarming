@@ -2,7 +2,7 @@
   "itemName" : "bluefoodcolorMFM",
   "price" : 15,
   "rarity" : "Common",
-  "category" : "cookingIngredient",
+  "category" : "craftingMaterial",
   "inventoryIcon" : "bluefoodcolorMFM.png",
   "description" : "Blue Food Coloring. I can color foods Blue with this.",
   "shortdescription" : "Blue Food Coloring",

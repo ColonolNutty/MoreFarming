@@ -6,6 +6,5 @@
   "inventoryIcon" : "doughMFM.png",
   "description" : "Not the money kind.",
   "shortdescription" : "Dough",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [ "wafflesMFM" ]
 }

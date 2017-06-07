@@ -7,6 +7,5 @@
   "description" : "Plant Sludge in a Can.",
   "shortdescription" : "Canned Plant Sludge",
   "itemTags" : [ "reagent" ],
-  "maxStack" : 1000,
   "learnBlueprintsOnPickup": [ "biodieselMFM" ]
 }

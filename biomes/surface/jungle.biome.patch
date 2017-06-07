@@ -48,7 +48,8 @@
 						[1, "flytrapMFMseed"],
 						[1, "wildgreatbambooMFMseed"],
 						[1, "wildjelonMFMseed" ],
-						[1, "wilddungrootMFMseed" ]
+						[1, "wilddungrootMFMseed" ],
+						[1, "wildsoybeanMFMseed" ]
 					],
 					"parameters" : {
 						"startingStage" : 2

@@ -1,0 +1,32 @@
+{
+  "itemName" : "veggieburgerMFM",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "preparedFood",
+  "inventoryIcon" : "veggieburgerMFM.png",
+  "description" : "A vegetarian version of a juicy hamburger.",
+  "shortdescription" : "Veggieburger",
+  "effects" : [[
+    {
+      "effect" : "regeneration1",
+      "duration" : 20
+    },
+    {
+      "effect" : "jumpboostfood",
+      "duration" : 20
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 15
+    }
+  ]],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -2,10 +2,9 @@
   "itemName" : "cinnamonMFM",
   "price" : 10,
   "rarity" : "Common",
-  "category" : "craftingMaterial",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "cinnamonMFM.png",
   "description" : "Spicy tree bark.",
   "shortdescription" : "Cinnamon",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "groundcinnamonMFM" ]
 }

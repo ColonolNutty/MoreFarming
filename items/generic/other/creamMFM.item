@@ -6,7 +6,6 @@
   "inventoryIcon" : "creamMFM.png",
   "description" : "Creamy!",
   "shortdescription" : "Cream",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "butterMFM",
                                "eggnogMFM" ]
 }

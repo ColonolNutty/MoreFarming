@@ -5,6 +5,5 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "cornmealMFM.png",
   "description" : "Ground corn.",
-  "shortdescription" : "Cornmeal",
-  "itemTags" : [ "reagent" ]
+  "shortdescription" : "Cornmeal"
 }

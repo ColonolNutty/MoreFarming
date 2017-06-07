@@ -6,7 +6,6 @@
   "inventoryIcon" : "vanillaextractMFM.png",
   "description" : "I shouldn't just drink it..",
   "shortdescription" : "Vanilla Extract",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [ "vanillaicingMFM",
                                 "puddingMFM",
                                 "vanillaicecreamMFM",

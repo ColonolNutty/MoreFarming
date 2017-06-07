@@ -1,0 +1,9 @@
+{
+  "itemName" : "okaraMFM",
+  "price" : 90,
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "okaraMFM.png",
+  "description" : "A product of boiling then pressing soybeans.",
+  "shortdescription" : "Okara"
+}

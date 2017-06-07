@@ -6,6 +6,5 @@
   "inventoryIcon" : "goldensyrupMFM.png",
   "description" : "Syrup that is golden, it glistens in the sun",
   "shortdescription" : "Golden Syrup",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "caramelsquareMFM" ]
 }

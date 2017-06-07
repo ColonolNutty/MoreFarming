@@ -7,5 +7,6 @@
   "description" : "Renewable fuel for intergalactic conquest!",
   "shortdescription" : "Bioethanol",
   "fuelAmount" : 2,
+  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [ "molotov" ]
 }

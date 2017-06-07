@@ -52,7 +52,8 @@
 						[1, "wildjelonMFMseed" ],
 						[1, "wildappleMFMseed" ],
 						[1, "wildportabelloMFMseed" ],
-						[1, "wilddungrootMFMseed" ]
+						[1, "wilddungrootMFMseed" ],
+						[1, "wildsoybeanMFMseed" ]
 				  ],
 					"parameters" : {
 						"startingStage" : 2

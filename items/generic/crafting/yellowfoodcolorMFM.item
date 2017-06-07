@@ -2,7 +2,7 @@
   "itemName" : "yellowfoodcolorMFM",
   "price" : 15,
   "rarity" : "Common",
-  "category" : "cookingIngredient",
+  "category" : "craftingMaterial",
   "inventoryIcon" : "yellowfoodcolorMFM.png",
   "description" : "Yellow Food Coloring. I can color foods Yellow with this",
   "shortdescription" : "Yellow Food Coloring",

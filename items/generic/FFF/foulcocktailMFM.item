@@ -6,6 +6,5 @@
   "inventoryIcon" : "foulcocktailMFM.png",
   "description" : "An inexplicable mix of oil and acidic swill.",
   "shortdescription" : "Foul Cocktail",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "bioethanolMFM" ]
 }

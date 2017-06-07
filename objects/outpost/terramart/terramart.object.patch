@@ -51,6 +51,7 @@
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["rutabagaMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["saguaroMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["shadowbulbMFMseed", 3] } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["soybeanMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["strawberryPBJseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["sugarbeetMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["sugarcaneseed", 3] } },

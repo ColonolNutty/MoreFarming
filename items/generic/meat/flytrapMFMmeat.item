@@ -6,7 +6,6 @@
   "inventoryIcon" : "flytrapMFMmeat.png",
   "description" : "A raw slab of Floran fly trap meat. It still seems alive!",
   "shortdescription" : "Raw Floran Fly Trap Meat",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [ "sweetmeat",
                                 "cookedflytrapMFMmeat" ]
 }

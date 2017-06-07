@@ -5,5 +5,15 @@
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "plantmushMFM" }},
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "seedoilMFM" }},
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cn_craftingkitchen" }},
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cn_recipebook" }}
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cn_recipebook" }},
+  
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tofurkeydinnerMFM" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "veggieburgerMFM" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "soymilkMFM" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "milk" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "boiledsoybeansMFM" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tofucurryMFM" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tofuMFM" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tofufriedriceMFM" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "okaraMFM" }}
 ]

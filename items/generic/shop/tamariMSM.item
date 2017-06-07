@@ -5,6 +5,5 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "tamariMSM.png",
   "description" : "A fermented sauce made from soybeans.",
-  "shortdescription" : "Tamari",
-  "itemTags" : [ "reagent" ]
+  "shortdescription" : "Tamari"
 }

@@ -5,6 +5,5 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "ketchupMFM.png",
   "description" : "Tomatoes are botanically fruit.",
-  "shortdescription" : "Ketchup",
-  "itemTags" : [ "reagent" ]
+  "shortdescription" : "Ketchup"
 }

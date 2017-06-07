@@ -1,0 +1,33 @@
+{
+  "itemName" : "tofurkeydinnerMFM",
+  "rarity" : "Uncommon",
+  "price" : 40,
+  "category" : "preparedFood",
+  "inventoryIcon" : "tofurkeydinnerMFM.png",
+  "description" : "A dinner fit for an omniscience fish administrator.",
+  "shortdescription" : "Tofurkey Dinner",
+  "effects" : [[
+    {
+      "effect" : "regeneration1",
+      "duration" : 20
+    },
+    {
+      "effect" : "jumpboostfood",
+      "duration" : 20
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 25
+    }
+  ]],
+  "foodValue" : 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [0, -3]
+}

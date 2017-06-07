@@ -6,6 +6,5 @@
   "inventoryIcon" : "vinegarMSM.png",
   "description" : "Good ol' vinegar.",
   "shortdescription" : "Vinegar",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "gariMSM" ]
 }

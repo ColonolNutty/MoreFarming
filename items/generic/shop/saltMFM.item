@@ -6,7 +6,6 @@
   "inventoryIcon" : "saltMFM.png",
   "description" : "Used in many recipes!",
   "shortdescription" : "Salt",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "puddingMFM",
                                "toffeecookieMFM" ]
 }

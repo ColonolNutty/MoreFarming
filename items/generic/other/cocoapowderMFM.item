@@ -6,7 +6,6 @@
   "inventoryIcon" : "cocoapowderMFM.png",
   "description" : "Ground cocoa beans.",
   "shortdescription" : "Cocoa Powder",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "chocolateliquorMFM",
                                "chocolatefrenchtoastMFM" ]
 }

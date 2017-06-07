@@ -1,0 +1,50 @@
+{
+  "objectName" : "soybeanMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "It's soy! Oh Boy!",
+  "shortdescription" : "Soybean Seeds",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 500,
+
+  "apexDescription" : "Contains a high amount of natural proteins.",
+  "avianDescription" : "Well, it's better than nothing.",
+  "floranDescription" : "It doesssn't sssmell like food",
+  "glitchDescription" : "Dismissive. Feed it to the cows.",
+  "humanDescription" : "Hippie food.",
+  "hylotlDescription" : "Finally! It's just perfect.",
+
+  "inventoryIcon" : "soybeanMFMseedicon.png",
+  "largeImage" : "soybeanMFMseed.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "soybeanMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "stages" : [
+    {
+      "duration" : [300, 420]
+    },
+    {
+      "duration" : [300, 420]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "soybeanMFMHarvest",
+      "resetToStage" : 1
+    }
+  ],
+
+  "maxImmersion" : 0.25
+}

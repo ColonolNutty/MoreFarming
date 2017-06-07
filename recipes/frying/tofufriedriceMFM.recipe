@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "tofuMFM", "count" : 1 },
+    { "item" : "rice", "count" : 1 },
+    { "item" : "egg", "count" : 1 }
+  ],
+  "output" : { "item" : "tofufriedriceMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "sides", "frying" ]
+}

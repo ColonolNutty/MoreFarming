@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "soymilkMFM", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
+  ],
+  "output" : { "item" : "tofuMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "sides", "boiling" ]
+}

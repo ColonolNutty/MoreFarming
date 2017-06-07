@@ -6,5 +6,6 @@
   "inventoryIcon" : "biodieselMFM.png",
   "description" : "Renewable fuel for intergalactic conquest!",
   "shortdescription" : "Bio-diesel",
-  "fuelAmount" : 4
+  "fuelAmount" : 4,
+  "itemTags" : [ "reagent" ]
 }

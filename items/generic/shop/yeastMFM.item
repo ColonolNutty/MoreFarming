@@ -6,7 +6,6 @@
   "inventoryIcon" : "yeastMFM.png",
   "description" : "Very useful.",
   "shortdescription" : "Yeast",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup": [ "caleMFM",
                                "hqbreadMFM" ]
 }

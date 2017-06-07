@@ -1,0 +1,25 @@
+{
+  "itemName" : "boiledsoybeansMFM",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "preparedFood",
+  "inventoryIcon" : "boiledsoybeansMFM.png",
+  "description" : "Soybeans boiled in salt and water.",
+  "shortdescription" : "Boiled Soybeans",
+  "effects" : [ [
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 20
+      }
+    ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [0, -3]
+}

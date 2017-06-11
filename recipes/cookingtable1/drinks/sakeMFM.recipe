@@ -4,5 +4,5 @@
     { "item" : "sugar", "count" : 1 }
   ],
   "output" : { "item" : "sakeMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "consumables", "drinks", "all" ]
+  "groups" : [ "craftingfood", "drinks", "blending" ]
 }

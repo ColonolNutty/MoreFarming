@@ -5,5 +5,5 @@
     { "item" : "groundvegetablesMFM", "count" : 1 }
   ],
   "output" : { "item" : "nutritiousmushMFM", "count" : 3 },
-  "groups" : [ "plain", "food", "all" ]
+  "groups" : [ "plain", "blending" ]
 }

@@ -6,5 +6,5 @@
     { "item" : "groundcinnamonMFM", "count" : 1 }
   ],
   "output" : { "item" : "loadedbakedsweetpotatoMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "consumables", "foodhealing","all" ]
+  "groups" : [ "craftingfood", "mains", "baking" ]
 }

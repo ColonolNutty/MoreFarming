@@ -6,5 +6,5 @@
     "item" : "bananajuiceMFM",
     "count" : 1
   },
-  "groups" : [ "juicerMFM", "mod" ]
+  "groups" : [ "juicerMFM" ]
 }

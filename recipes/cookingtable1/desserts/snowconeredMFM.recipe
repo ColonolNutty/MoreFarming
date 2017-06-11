@@ -4,5 +4,5 @@
     { "item" : "redfoodcolorMFM", "count" : 3 }
   ],
   "output" : { "item" : "snowconeredMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "materials", "all" ]
+  "groups" : [ "craftingfood", "desserts", "freezingMFM" ]
 }

@@ -1,10 +1,8 @@
 {
   "input" : [
-    { "item" : "bread", "count" : 2 },
-	{ "item" : "egg", "count" : 2 },
-	{ "item" : "milk", "count" : 1 },
-	{ "item" : "groundcinnamonMFM", "count" : 1 }
+    { "item" : "frenchtoastMFM", "count" : 1 }
+    { "item" : "groundcinnamonMFM", "count" : 1 }
   ],
   "output" : { "item" : "cinnamonfrenchtoastMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "sides", "consumables", "foodhealing","all" ]
+  "groups" : [ "craftingfood", "sides", "frying" ]
 }

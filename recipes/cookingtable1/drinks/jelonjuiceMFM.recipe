@@ -3,5 +3,5 @@
     { "item" : "jelonMFM", "count" : 1 }
   ],
   "output" : { "item" : "jelonjuiceMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "consumables", "drinks", "all" ]
+  "groups" : [ "craftingfood", "drinks", "juicerMFM" ]
 }

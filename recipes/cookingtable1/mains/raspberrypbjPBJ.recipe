@@ -5,5 +5,5 @@
     { "item" : "bread", "count" : 2 }
   ],
   "output" : { "item" : "raspberrypbjPBJ", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "consumables", "PB+J" ]
+  "groups" : [ "craftingfood", "mains" ]
 }

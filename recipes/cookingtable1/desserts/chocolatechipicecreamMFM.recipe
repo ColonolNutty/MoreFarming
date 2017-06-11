@@ -7,5 +7,5 @@
     { "item" : "chocolatechipsMFM", "count" : 1 }
   ],
   "output" : { "item" : "chocolatechipicecreamMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "consumables", "foodhealing","all" ]
+  "groups" : [ "craftingfood", "desserts", "freezingMFM" ]
 }

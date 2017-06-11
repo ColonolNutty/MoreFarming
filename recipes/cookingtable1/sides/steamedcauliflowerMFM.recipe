@@ -4,5 +4,5 @@
     { "item" : "liquidwater", "count" : 1 }
   ],
   "output" : { "item" : "steamedcauliflowerMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "sides", "consumables", "foodhealing","all" ]
+  "groups" : [ "craftingfood", "sides", "frying" ]
 }

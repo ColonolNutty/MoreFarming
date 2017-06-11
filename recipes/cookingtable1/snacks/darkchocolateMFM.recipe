@@ -6,5 +6,5 @@
     { "item" : "vanillaextractMFM", "count" : 1 }
   ],
   "output" : { "item" : "darkchocolateMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "snacks", "consumables", "foodhealing","all" ]
+  "groups" : [ "craftingfood", "snacks", "blending" ]
 }

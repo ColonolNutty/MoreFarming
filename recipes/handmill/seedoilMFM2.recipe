@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wheatseed", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "seedoilMFM",
+    "count" : 1
+  },
+  "groups" : [ "handmill" ]
+}

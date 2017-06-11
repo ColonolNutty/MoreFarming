@@ -3,5 +3,5 @@
     { "item" : "slicedtoxictopMFM", "count" : 1 }
   ],
   "output" : { "item" : "toxictopjuiceMFM", "count" : 1 },
-  "groups" : [ "blending", "consumables", "all" ]
+  "groups" : [ "blending" ]
 }

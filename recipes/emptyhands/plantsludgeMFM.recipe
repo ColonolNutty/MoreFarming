@@ -4,5 +4,5 @@
     { "item" : "plantmushMFM", "count" : 2 }
   ],
   "output" : { "item" : "plantsludgeMFM", "count" : 2 },
-  "groups" : [ "plain", "food", "all" ]
+  "groups" : [ "plain", "blending" ]
 }

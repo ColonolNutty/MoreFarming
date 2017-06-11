@@ -37,7 +37,7 @@
   "soundEffect" : "/sfx/objects/propeller.ogg",
   "soundEffectRadius" : 50,
 
-  "recipeGroup" : "grinderMFM",
+  "recipeGroup" : "handmill",
   "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
   "slotCount": 16,
@@ -47,5 +47,5 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/grinderMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/handmillMFMRecipes.config"
 }

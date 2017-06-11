@@ -4,5 +4,5 @@
     { "item" : "bottle", "count" : 1 }
   ],
   "output" : { "item" : "yellowfoodcolorMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "condiments", "materials", "all" ]
+  "groups" : [ "craftingfood", "condiments", "blending" ]
 }

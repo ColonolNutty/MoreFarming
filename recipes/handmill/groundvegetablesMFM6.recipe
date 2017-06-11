@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "potato", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "groundvegetablesMFM",
+    "count" : 1
+  },
+  "groups" : [ "handmill" ]
+}

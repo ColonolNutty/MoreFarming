@@ -5,5 +5,5 @@
     { "item" : "banana", "count" : 1 }
   ],
   "output" : { "item" : "pinanasliceMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "consumables", "mains", "all" ]
+  "groups" : [ "craftingfood", "mains", "baking" ]
 }

@@ -5,5 +5,5 @@
     { "item" : "wheat", "count" : 1 }
   ],
   "output" : { "item" : "jeloncookieMFM", "count" : 2 },
-  "groups" : [ "craftingfood", "desserts", "baking" ]
+  "groups" : [ "craftingfood", "consumables", "desserts", "all" ]
 }

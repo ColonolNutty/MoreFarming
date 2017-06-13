@@ -5,5 +5,5 @@
     { "item" : "boltbulb", "count" : 15 }
   ],
   "output" : { "item" : "pizzapMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "baking" ]
+  "groups" : [ "craftingfood", "consumables", "mains", "all" ]
 }

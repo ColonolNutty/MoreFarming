@@ -5,5 +5,5 @@
     { "item" : "rice", "count" : 2 }
   ],
   "output" : { "item" : "tofucurryMFM", "count" : 1 },
-  "groups" : [ "boiling", "craftingfood", "mains" ]
+  "groups" : [ "craftingfood", "mains", "boiling" ]
 }

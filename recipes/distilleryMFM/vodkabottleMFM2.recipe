@@ -3,5 +3,5 @@
     { "item" : "potato", "count" : 2 }
   ],
   "output" : { "item" : "vodkabottleMFM", "count" : 1 },
-  "groups" : [ "distilleryMFM" ]
+  "groups" : [ "distilleryMFM", "all" ]
 }

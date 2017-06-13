@@ -4,5 +4,5 @@
     { "item" : "bottle", "count" : 1 }
   ],
   "output" : { "item" : "peanutbutterPBJ", "count" : 1 },
-  "groups" : [ "craftingfood", "condiments", "blending" ]
+  "groups" : [ "craftingfood", "condiments", "consumables", "foodhealing", "PB+J" ]
 }

@@ -8,5 +8,5 @@
     { "item" : "saltMFM", "count" : 1 }
   ],
   "output" : { "item" : "gingercookieMFM", "count" : 8 },
-  "groups" : [ "craftingfood", "desserts", "baking" ]
+  "groups" : [ "craftingfood", "consumables", "desserts", "all" ]
 }

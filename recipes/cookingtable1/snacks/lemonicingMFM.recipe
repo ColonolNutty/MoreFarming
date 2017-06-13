@@ -4,5 +4,5 @@
     { "item" : "sugar", "count" : 2 }
   ],
   "output" : { "item" : "lemonicingMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "snacks", "blending" ]
+  "groups" : [ "craftingfood", "snacks", "consumables", "foodhealing","all" ]
 }

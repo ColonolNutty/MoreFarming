@@ -8,5 +8,5 @@
     { "item" : "sugar", "count" : 4 }
   ],
   "output" : { "item" : "caramelsquareMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "baking" ]
+  "groups" : [ "craftingfood", "desserts", "consumables", "foodhealing","all" ]
 }

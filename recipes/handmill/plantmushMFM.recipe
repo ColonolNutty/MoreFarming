@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "plantfibre", "count" : 2 }
-  ],
-  "output" : { "item" : "plantmushMFM", "count" : 1 },
-  "groups" : [ "handmill" ]
-}

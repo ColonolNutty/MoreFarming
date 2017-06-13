@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "bread", "count" : 1 }
   ],
-  "output" : { "item" : "toast", "count" : 5 },
-  "groups" : [ "campfire", "baking", "craftingfood", "mains" ]
+  "output" : { "item" : "toast", "count" : 1 },
+  "groups" : [ "campfire", "consumables", "all" ]
 }

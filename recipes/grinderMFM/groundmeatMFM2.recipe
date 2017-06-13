@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "cookedham", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "groundmeatMFM",
+    "count" : 1
+  },
+  "groups" : [ "grinderMFM", "all" ]
+}

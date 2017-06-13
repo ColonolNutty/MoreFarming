@@ -3,5 +3,5 @@
     { "item" : "cocoanibsMFM", "count" : 1 }
   ],
   "output" : { "item" : "cocoapowderMFM", "count" : 1 },
-  "groups" : [ "handmill" ]
+  "groups" : [ "handmill", "consumables", "all" ]
 }

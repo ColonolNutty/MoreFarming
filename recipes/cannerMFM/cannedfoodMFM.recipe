@@ -3,5 +3,5 @@
     { "item" : "nutritiousmushMFM", "count" : 1 }
   ],
   "output" : { "item" : "cannedfoodMFM", "count" : 1 },
-  "groups" : [ "cannerMFM" ]
+  "groups" : [ "cannerMFM", "all" ]
 }

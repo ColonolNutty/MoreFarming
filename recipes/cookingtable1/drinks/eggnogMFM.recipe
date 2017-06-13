@@ -8,5 +8,5 @@
     { "item" : "vanillaextractMFM", "count" : 1 }
   ],
   "output" : { "item" : "eggnogMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "drinks", "blending" ]
+  "groups" : [ "craftingfood", "consumables", "drinks", "all" ]
 }

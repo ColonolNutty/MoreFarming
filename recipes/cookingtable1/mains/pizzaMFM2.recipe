@@ -3,5 +3,5 @@
     { "item" : "pizzaslice", "count" : 8 }
   ],
   "output" : { "item" : "pizzaMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "baking" ]
+  "groups" : [ "craftingfood", "consumables", "mains", "all" ]
 }

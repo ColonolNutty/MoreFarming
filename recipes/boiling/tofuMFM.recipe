@@ -5,5 +5,5 @@
     { "item" : "liquidwater", "count" : 2 }
   ],
   "output" : { "item" : "tofuMFM", "count" : 1 },
-  "groups" : [ "boiling", "craftingfood", "sides" ]
+  "groups" : [ "craftingfood", "sides", "boiling" ]
 }

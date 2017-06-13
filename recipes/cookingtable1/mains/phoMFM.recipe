@@ -9,5 +9,5 @@
     { "item" : "cookedalienmeat", "count" : 1 }
   ],
   "output" : { "item" : "phoMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "baking" ]
+  "groups" : [ "craftingfood", "consumables", "mains", "all" ]
 }

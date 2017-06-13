@@ -3,5 +3,5 @@
     { "item" : "boiledsoybeansMFM", "count" : 1 }
   ],
   "output" : { "item" : "okaraMFM", "count" : 1 },
-  "groups" : [ "handpress" ]
+  "groups" : [ "handpress", "consumables", "all" ]
 }

@@ -2,17 +2,12 @@
 	{
 		"op": "replace",
 		"path": "/input",
-		"value": [
+		"value":  [
       { "item" : "chocolateliquorMFM", "count" : 2 },
       { "item" : "cocoabutterMFM", "count" : 2 },
       { "item" : "sugar", "count" : 2 },
       { "item" : "milk", "count" : 1 },
       { "item" : "vanillaextractMFM", "count" : 1 }
     ]
-	},
-	{
-		"op": "add",
-		"path": "/groups/-",
-		"value": "baking"
 	}
 ]

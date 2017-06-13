@@ -8,10 +8,5 @@
     { "item" : "rawbacon", "count" : 1 },
     { "item" : "cheese", "count" : 1 }
     ]
-	},
-	{
-		"op": "add",
-		"path": "/groups/-",
-		"value": "baking"
 	}
 ]

@@ -16,7 +16,8 @@
 					[1, "wildjelondryMFMseed" ],
 					[1, "wildorangeMFMseed" ],
 					[1, "wilddungrootMFMseed" ],
-          [1, "wildpalsterstickMFMseed" ]
+          [1, "wildpalsterstickMFMseed" ],
+          [1, "wildoatsMFMseed" ]
 				],
 				"parameters" : {
 				  "startingStage" : 2
@@ -72,8 +73,7 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildbellpepperMFMseed" ],
-						[1, "wildoatsMFMseed" ]
+						[1, "wildbellpepperMFMseed" ]
 					],
 					"parameters" : {
 						"startingStage" : 6

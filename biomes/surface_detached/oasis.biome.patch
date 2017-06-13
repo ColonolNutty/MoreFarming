@@ -20,8 +20,7 @@
 						[1, "wildgarlicMFMseed"],
 						[1, "wildjalapenopepperMFMseed"],
 						[1, "wildonionMFMseed"],
-						[1, "wildraspberryPBJseed"],
-						[1, "wildreedBMBsprout"]
+						[1, "wildraspberryPBJseed"]
 					],
 					"parameters" : {
 						"startingStage" : 3
@@ -42,7 +41,9 @@
 			"type" : "object",
 			"objectSets" : [
 				{
-					"pool" : [ [1, "wildbellpepperMFMseed" ] ],
+					"pool" : [
+            [1, "wildbellpepperMFMseed" ]
+          ],
 					"parameters" : {
 						"startingStage" : 4
 					}
@@ -61,10 +62,16 @@
 			"distribution" : "/biomes/distributions.config:surfaceCrops",
 
 			"type" : "object",
-			"objectSets" : [ {
-				"pool" : [ [1, "wildjelonMFMseed" ] ],
-				"parameters" : { "startingStage" : 2 }
-			} ]
+			"objectSets" : [
+        {
+          "pool" : [
+            [1, "wildjelonMFMseed" ]
+          ],
+          "parameters" : {
+            "startingStage" : 2
+          }
+        }
+      ]
 		}
 	}
 ]

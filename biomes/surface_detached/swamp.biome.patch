@@ -37,7 +37,7 @@
 			"objectSets" : [
 			  {
 				"pool" : [
-					[1, "flytrapMFMseed"],
+					[1, "wildflytrapMFMseed"],
           [1, "wildjelonMFMseed" ],
           [1, "wilddungrootMFMseed" ],
 					[1, "wildfinkelMFMseed" ]

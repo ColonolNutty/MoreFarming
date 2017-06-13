@@ -11,7 +11,10 @@
 			"type" : "object",
 			"objectSets" : [
 				{
-					"pool" : [ [1, "wildblackberryPBJseed" ],[1, "wildblueberriesPBJseed" ] ],
+					"pool" : [
+            [1, "wildblackberryPBJseed" ],
+            [1, "wildblueberriesPBJseed" ]
+          ],
 					"parameters" : {
 						"startingStage" : 3
 					}

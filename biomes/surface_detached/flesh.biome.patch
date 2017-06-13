@@ -10,10 +10,16 @@
 			"distribution" : "/biomes/distributions.config:surfaceCrops",
 
 			"type" : "object",
-			"objectSets" : [ {
-				"pool" : [ [1, "wildportabelloMFMseed" ] ],
-				"parameters" : { "startingStage" : 2 }
-			} ]
+			"objectSets" : [
+        {
+          "pool" : [
+            [1, "wildportabelloMFMseed" ]
+          ],
+          "parameters" : {
+            "startingStage" : 2
+          }
+        }
+      ]
 		}
 	}
 ]

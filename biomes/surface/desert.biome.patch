@@ -11,15 +11,15 @@
 			"type" : "object",
 			"objectSets" : [
 			  {
-				"pool" : [ 
-          [1, "wildpricklypearMFMseed" ],
-          [1, "wildsaguaroMFMseed" ],
-          [1, "wildjelondryMFMseed" ],
-          [1, "wildpalsterstickMFMseed" ]
-        ],
-				"parameters" : {
-				  "startingStage" : 2
-				}
+          "pool" : [ 
+            [1, "wildpricklypearMFMseed" ],
+            [1, "wildsaguaroMFMseed" ],
+            [1, "wildjelondryMFMseed" ],
+            [1, "wildpalsterstickMFMseed" ]
+          ],
+          "parameters" : {
+            "startingStage" : 2
+          }
 			  }
 			]
 	  }
@@ -36,10 +36,13 @@
 			"type" : "object",
 			"objectSets" : [
 			  {
-				"pool" : [ [1, "wilddragonfruitMFMseed" ],[1, "wildjalapenopepperMFMseed" ] ],
-				"parameters" : {
-				  "startingStage" : 3
-				}
+          "pool" : [
+            [1, "wilddragonfruitMFMseed" ],
+            [1, "wildjalapenopepperMFMseed" ]
+          ],
+          "parameters" : {
+            "startingStage" : 3
+          }
 			  }
 			]
 	  }
@@ -56,10 +59,12 @@
 			"type" : "object",
 			"objectSets" : [
 			  {
-				"pool" : [ [1, "wildbellpepperMFMseed" ] ],
-				"parameters" : {
-				  "startingStage" : 6
-				}
+          "pool" : [
+            [1, "wildbellpepperMFMseed" ]
+          ],
+          "parameters" : {
+            "startingStage" : 6
+          }
 			  }
 			]
 	  }

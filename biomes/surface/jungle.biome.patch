@@ -20,7 +20,6 @@
 						[1, "wildbellpepperMFMseed"],
 						[1, "wildjalapenopepperMFMseed"],
 						[1, "wildreedBMBsprout"],
-						[1, "wildvanillabeanMFMseed"],
 						[1, "wildrattanMFMseed"]
 					],
 					"parameters" : {
@@ -45,7 +44,7 @@
 					"pool" : [
 						[1, "wildcinnamonMFMseed" ],
 						[1, "wildsweetpotatoMFMseed" ],
-						[1, "flytrapMFMseed"],
+						[1, "wildflytrapMFMseed"],
 						[1, "wildgreatbambooMFMseed"],
 						[1, "wildjelonMFMseed" ],
 						[1, "wilddungrootMFMseed" ],

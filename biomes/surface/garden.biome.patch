@@ -30,8 +30,7 @@
 						[1, "wildpeanutPBJseed" ],
 						[1, "wildraspberryPBJseed" ],
 						[1, "wildreedBMBsprout" ],
-						[1, "wildrutabagaMFMseed" ],
-						[1, "wildstrawberryPBJseed" ]
+						[1, "wildrutabagaMFMseed" ]
 					],
 					"parameters" : {
 						"startingStage" : 3

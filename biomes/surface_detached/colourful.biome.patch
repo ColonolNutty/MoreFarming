@@ -37,14 +37,14 @@
 
 			"type" : "object",
 			"objectSets" : [
-			{
-			"pool" : [
-			[1, "wildbellpepperMFMseed" ]
-			],
-			"parameters" : {
-			"startingStage" : 4
-			}
-			}
+        {
+          "pool" : [
+            [1, "wildbellpepperMFMseed" ]
+          ],
+          "parameters" : {
+            "startingStage" : 4
+          }
+        }
 			]
 		}
 	},
@@ -59,13 +59,17 @@
 			"distribution" : "/biomes/distributions.config:surfaceCrops",
 
 			"type" : "object",
-			"objectSets" : [ {
-				"pool" : [
-          [1, "wildjelonalienMFMseed" ],
-          [1, "wildgarpberryMFMseed" ]
-        ],
-				"parameters" : { "startingStage" : 2 }
-			} ]
+			"objectSets" : [
+        {
+          "pool" : [
+            [1, "wildjelonalienMFMseed" ],
+            [1, "wildgarpberryMFMseed" ]
+          ],
+          "parameters" : {
+            "startingStage" : 2
+          }
+        }
+      ]
 		}
 	}
 ]

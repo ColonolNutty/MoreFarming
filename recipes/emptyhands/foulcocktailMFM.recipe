@@ -4,5 +4,5 @@
     { "item" : "seedoilMFM", "count" : 2 }
   ],
   "output" : { "item" : "foulcocktailMFM", "count" : 2 },
-  "groups" : [ "plain", "food", "all" ]
+  "groups" : [ "plain", "blending" ]
 }

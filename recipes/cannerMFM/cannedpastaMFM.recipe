@@ -3,5 +3,5 @@
     { "item" : "freshpastaMFM", "count" : 1 }
   ],
   "output" : { "item" : "cannedpastaMFM", "count" : 2 },
-  "groups" : [ "cannerMFM", "all" ]
+  "groups" : [ "cannerMFM" ]
 }

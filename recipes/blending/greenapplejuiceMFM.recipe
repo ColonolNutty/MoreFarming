@@ -3,5 +3,5 @@
     { "item" : "slicedgreenappleMFM", "count" : 1 }
   ],
   "output" : { "item" : "greenapplejuiceMFM", "count" : 1 },
-  "groups" : [ "blending", "consumables", "all" ]
+  "groups" : [ "blending" ]
 }

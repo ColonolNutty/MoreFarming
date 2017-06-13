@@ -3,5 +3,5 @@
     { "item" : "sugar", "count" : 1 }
   ],
   "output" : { "item" : "marshmallowMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "snacks", "consumables", "foodhealing","all" ]
+  "groups" : [ "craftingfood", "snacks", "blending" ]
 }

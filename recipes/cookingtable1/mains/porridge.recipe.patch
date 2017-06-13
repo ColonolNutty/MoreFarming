@@ -8,5 +8,10 @@
 			{ "item" : "milk", "count" : 1 },
 			{ "item" : "sugar", "count" : 2 }
 		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "boiling"
 	}
 ]

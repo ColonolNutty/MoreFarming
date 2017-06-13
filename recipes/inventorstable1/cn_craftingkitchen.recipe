@@ -4,10 +4,7 @@
     { "item" : "logblock", "count" : 4 },
     { "item" : "cobblestonematerial", "count" : 4}
   ],
-  "output" : {
-    "item" : "cn_craftingkitchen",
-    "count" : 1
-  },
+  "output" : { "item" : "cn_craftingkitchen", "count" : 1 },
   "duration" : 1,
   "groups" : [ "inventorstable", "craftingstations", "all" ]
 }

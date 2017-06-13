@@ -3,5 +3,5 @@
     { "item" : "grapes", "count" : 1 }
   ],
   "output" : { "item" : "cookedgrapesMFM", "count" : 1 },
-  "groups" : [ "campfire", "consumables", "all" ]
+  "groups" : [ "campfire", "baking", "craftingfood", "mains" ]
 }

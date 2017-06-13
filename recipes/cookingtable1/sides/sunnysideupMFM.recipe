@@ -4,5 +4,5 @@
     { "item" : "toast", "count" : 1 }
   ],
   "output" : { "item" : "sunnysideupMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "consumables", "sides", "all" ]
+  "groups" : [ "craftingfood", "sides", "frying" ]
 }

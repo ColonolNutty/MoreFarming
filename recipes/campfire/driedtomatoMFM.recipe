@@ -3,5 +3,5 @@
     { "item" : "tomato", "count" : 1 }
   ],
   "output" : { "item" : "driedtomatoMFM", "count" : 1 },
-  "groups" : [ "campfire", "consumables", "all" ]
+  "groups" : [ "campfire", "baking", "craftingfood", "mains" ]
 }

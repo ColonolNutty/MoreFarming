@@ -3,5 +3,5 @@
     { "item" : "clay", "count" : 1 }
   ],
   "output" : { "item" : "coffeemugMFM", "count" : 1 },
-  "groups" : [ "craftingfurnace", "ingredients", "objects", "all", "tools" ]
+  "groups" : [ "craftingfurnace", "ingredients" ]
 }

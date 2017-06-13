@@ -4,5 +4,5 @@
     { "item" : "chocolateicingMFM", "count" : 1 }
   ],
   "output" : { "item" : "chocolatecupcakeMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "consumables", "foodhealing","all" ]
+  "groups" : [ "craftingfood", "desserts" ]
 }

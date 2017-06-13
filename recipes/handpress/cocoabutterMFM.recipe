@@ -3,5 +3,5 @@
     { "item" : "chocolateliquorMFM", "count" : 1 }
   ],
   "output" : { "item" : "cocoabutterMFM", "count" : 1 },
-  "groups" : [ "handpress", "consumables", "all" ]
+  "groups" : [ "handpress" ]
 }

@@ -3,5 +3,5 @@
     { "item" : "marshmallowMFM", "count" : 1 }
   ],
   "output" : { "item" : "toastedmarshmallowMFM", "count" : 1 },
-  "groups" : [ "campfire", "consumables", "all" ]
+  "groups" : [ "campfire", "baking", "craftingfood", "mains" ]
 }

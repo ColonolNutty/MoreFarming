@@ -3,5 +3,5 @@
     { "item" : "banana", "count" : 1 }
   ],
   "output" : { "item" : "friedbananaMFM", "count" : 1 },
-  "groups" : [ "campfire", "consumables", "all" ]
+  "groups" : [ "campfire", "baking", "craftingfood", "mains" ]
 }

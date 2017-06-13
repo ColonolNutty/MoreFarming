@@ -4,5 +4,5 @@
     { "item" : "fabric", "count" : 2 }
   ],
   "output" : { "item" : "molotov", "count" : 1 },
-  "groups" : [ "plain", "weapons", "all" ]
+  "groups" : [ "plain" ]
 }

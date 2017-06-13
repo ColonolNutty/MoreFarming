@@ -4,5 +4,5 @@
     { "item" : "milk", "count" : 1 }
   ],
   "output" : { "item" : "scrambledeggMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "consumables", "foodhealing","all" ]
+  "groups" : [ "craftingfood", "mains" ]
 }

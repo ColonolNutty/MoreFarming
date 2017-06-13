@@ -2,9 +2,6 @@
   "input" : [
     { "item" : "carrot", "count" : 1 }
   ],
-  "output" : {
-    "item" : "groundvegetablesMFM",
-    "count" : 1
-  },
-  "groups" : [ "grinderMFM", "all" ]
+  "output" : { "item" : "groundvegetablesMFM", "count" : 1 },
+  "groups" : [ "grinderMFM" ]
 }

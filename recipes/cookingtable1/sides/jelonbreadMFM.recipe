@@ -4,5 +4,5 @@
     { "item" : "jelonMFM", "count" : 1 }
   ],
   "output" : { "item" : "jelonbreadMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "sides", "baking" ]
+  "groups" : [ "craftingfood", "consumables", "sides", "all" ]
 }

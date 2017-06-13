@@ -4,5 +4,5 @@
     { "item" : "goldbar", "count" : 2 }
   ],
   "output" : { "item" : "goldenappleMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "sides" ]
+  "groups" : [ "craftingfood", "consumables", "sides", "all" ]
 }

@@ -6,5 +6,5 @@
     { "item" : "egg", "count" : 1 }
   ],
   "output" : { "item" : "jelonbrownieMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "baking" ]
+  "groups" : [ "craftingfood", "consumables", "desserts", "all" ]
 }

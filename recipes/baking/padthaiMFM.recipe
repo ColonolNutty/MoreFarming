@@ -10,5 +10,5 @@
     { "item" : "sugar", "count" : 2 }
   ],
   "output" : { "item" : "padthaiMFM", "count" : 1 },
-  "groups" : [ "baking", "craftingfood", "mains" ]
+  "groups" : [ "baking", "consumables", "mains", "all" ]
 }

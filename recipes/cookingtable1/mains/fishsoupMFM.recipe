@@ -4,5 +4,5 @@
     { "item" : "shroom", "count" : 1 }
   ],
   "output" : { "item" : "fishsoupMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "boiling" ]
+  "groups" : [ "craftingfood", "consumables", "mains", "all" ]
 }

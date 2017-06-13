@@ -3,5 +3,5 @@
     { "item" : "redapple", "count" : 1 }
   ],
   "output" : { "item" : "slicedredappleMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "condiments", "chopping" ]
+  "groups" : [ "craftingfood", "condiments", "consumables", "foodhealing","all" ]
 }

@@ -3,5 +3,5 @@
     { "item" : "corn", "count" : 1 }
   ],
   "output" : { "item" : "cornmealMFM", "count" : 1 },
-  "groups" : [ "handmill" ]
+  "groups" : [ "handmill", "consumables", "all" ]
 }

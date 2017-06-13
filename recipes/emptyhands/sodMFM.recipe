@@ -4,5 +4,5 @@
     { "item" : "grassseeds", "count" : 1 }
   ],
   "output" : { "item" : "grassy", "count" : 1 },
-  "groups" : [ "plain", "blending" ]
+  "groups" : [ "plain", "materials", "all" ]
 }

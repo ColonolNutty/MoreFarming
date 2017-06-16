@@ -36,5 +36,6 @@
       "harvestPool" : "neonmelonfullMFMHarvest"
     }
   ],
-  "learnBlueprintsOnPickup" : [ "neonmelonblockMFM" ]
+  "learnBlueprintsOnPickup" : [ "neonmelonblockMFM",
+                                "neonmelon" ]
 }

@@ -40,5 +40,6 @@
   ],
   "learnBlueprintsOnPickup" : [ "pumpkinblockMFM",
                                 "jackolanternMFM",
-                                "largejackolanternMFM" ]
+                                "largejackolanternMFM",
+                                "pumpkinsliceMFM" ]
 }

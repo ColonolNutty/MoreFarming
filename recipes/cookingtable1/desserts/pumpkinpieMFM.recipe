@@ -8,5 +8,5 @@
     { "item" : "egg", "count" : 2 }
   ],
   "output" : { "item" : "pumpkinpieMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "consumables", "dessert" ]
+  "groups" : [ "craftingfood", "desserts", "baking" ]
 }

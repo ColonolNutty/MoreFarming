@@ -6,5 +6,5 @@
     { "item" : "chocolateliquorMFM", "count" : 2 }
   ],
   "output" : { "item" : "chocolateicecreamMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "consumables", "foodhealing","all" ]
+  "groups" : [ "craftingfood", "desserts", "freezingMFM" ]
 }

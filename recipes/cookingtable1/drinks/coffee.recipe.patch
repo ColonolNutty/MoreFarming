@@ -5,5 +5,10 @@
     "value": [
       { "item" : "roastedcoffeebeansMFM", "count" : 1 }
     ]
+  },
+  {
+    "op": "add",
+    "path": "/groups/-",
+    "value": "coffee"
   }
 ]

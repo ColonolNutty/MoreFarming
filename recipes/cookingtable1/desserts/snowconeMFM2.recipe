@@ -3,6 +3,6 @@
     { "item" : "ice", "count" : 2 }
   ],
   "output" : { "item" : "snowcone", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "materials", "all" ],
+  "groups" : [ "craftingfood", "desserts", "freezingMFM" ],
   "collectables" : { "cooking" : "snowcone" }
 }

@@ -5,5 +5,5 @@
     { "item" : "cucumberMSM", "count" : 2 }
   ],
   "output" : { "item" : "kappamakiMSM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "consumables", "foodhealing", "foodmobility" ]
+  "groups" : [ "craftingfood", "mains" ]
 }

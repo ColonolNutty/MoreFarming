@@ -3,5 +3,5 @@
     { "item" : "vanillaMFM", "count" : 4 }
   ],
   "output" : { "item" : "vanillaextractMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "sides", "consumables", "foodhealing","all" ]
+  "groups" : [ "craftingfood", "sides", "juicerMFM" ]
 }

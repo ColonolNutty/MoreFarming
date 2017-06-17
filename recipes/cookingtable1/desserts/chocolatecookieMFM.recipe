@@ -4,5 +4,5 @@
     { "item" : "chocolate", "count" : 1 }
   ],
   "output" : { "item" : "chocolatecookieMFM", "count" : 8 },
-  "groups" : [ "craftingfood", "consumables", "desserts", "all" ]
+  "groups" : [ "craftingfood", "desserts", "baking" ]
 }

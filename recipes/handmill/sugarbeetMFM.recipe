@@ -3,5 +3,5 @@
     { "item" : "sugarbeetMFM", "count" : 1 }
   ],
   "output" : { "item" : "sugar", "count" : 1 },
-  "groups" : [ "handmill", "consumables", "all" ]
+  "groups" : [ "handmill" ]
 }

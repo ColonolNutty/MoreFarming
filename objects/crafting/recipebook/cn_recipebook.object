@@ -18,6 +18,7 @@
                  "purifying",
                  "handmill",
                  "handpress",
+                 "juicerMFM",
                  "grinderMFM" ]
   },
   "description" : "Used to find the recipe you're looking for",

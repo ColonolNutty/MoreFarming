@@ -4,5 +4,5 @@
     { "item" : "ketchupMFM", "count" : 1 }
   ],
   "output" : { "item" : "scrambledeggwithketchupMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "consumables", "foodhealing","all" ]
+  "groups" : [ "craftingfood", "mains" ]
 }

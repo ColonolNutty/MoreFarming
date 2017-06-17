@@ -4,5 +4,5 @@
     { "item" : "freshpastaMFM", "count" : 1 }
   ],
   "output" : { "item" : "tomatopastaMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "consumables", "mains", "all" ]
+  "groups" : [ "craftingfood", "mains", "boiling" ]
 }

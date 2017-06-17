@@ -3,5 +3,5 @@
     { "item" : "reed", "count" : 2 }
   ],
   "output" : { "item" : "thatch", "count" : 1 },
-  "groups" : [ "plain", "materials", "all" ]
+  "groups" : [ "plain" ]
 }

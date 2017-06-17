@@ -2,9 +2,6 @@
   "input" : [
     { "item" : "cookedalienmeat", "count" : 1 }
   ],
-  "output" : {
-    "item" : "groundmeatMFM",
-    "count" : 1
-  },
-  "groups" : [ "grinderMFM", "all" ]
+  "output" : { "item" : "groundmeatMFM", "count" : 1 },
+  "groups" : [ "grinderMFM" ]
 }

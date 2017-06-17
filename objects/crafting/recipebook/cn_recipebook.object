@@ -7,19 +7,7 @@
   "category" : "crafting",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/cn_recipebook.config",
-    "filter" : [ "baking",
-                 "blending",
-                 "boiling",
-                 "coffee",
-                 "chopping",
-                 "freezingMFM",
-                 "frying",
-                 "purifying",
-                 "handmill",
-                 "handpress",
-                 "juicerMFM",
-                 "grinderMFM" ]
+    "config" : "/interface/windowconfig/cn_recipebook.config"
   },
   "description" : "Used to find the recipe you're looking for",
   "shortdescription" : "^orange;Recipe Book (MFM)^white;",

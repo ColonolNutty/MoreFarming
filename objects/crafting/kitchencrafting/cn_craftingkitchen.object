@@ -11,8 +11,7 @@
   "interactAction" : "OpenCraftingInterface",
 
   "interactData" : {
-    "config" : "/interface/windowconfig/cn_craftingkitchen.config",
-    "filter" : [ "cn_kitchencrafting" ]
+    "config" : "/interface/windowconfig/cn_craftingkitchen.config"
   },
   
   "animationState" : "cn_craftingkitchen",

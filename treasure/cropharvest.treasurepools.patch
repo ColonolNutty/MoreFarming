@@ -643,7 +643,6 @@
           {"item" : "yeastMFMseed"}
         ], 
         "pool" : [
-          {"weight" : 1, "item" : "yeastMFMseed"},
           {"weight" : 1, "item" : "yeastMFM"}
         ],
         "poolRounds" : [

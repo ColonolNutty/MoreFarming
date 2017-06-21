@@ -3,19 +3,19 @@
   "rarity" : "Common",
   "colonyTags" : ["nature"],
   "category" : "seed",
-  "price" : 20,
   "tooltipKind" : "seed",
-  "description" : "Perfect for baking or making alcohol. Placing this will grow more yeast.",
-  "shortdescription" : "Yeast",
+  "description" : "Perfect for baking or making alcohol. I should water it like a plant to get more yeast.",
+  "shortdescription" : "Yeast Jar",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 20,
 
-  "apexDescription" : "Cultivating yeast.",
-  "avianDescription" : "Yeast farm.",
-  "floranDescription" : "Floran make more tiny bread mushroomsss.",
-  "glitchDescription" : "Analysis. This is a jar of cultivating yeast.",
-  "humanDescription" : "Yeast, I see bread baking in my future.",
-  "hylotlDescription" : "Yeast.",
+  "apexDescription" : "Cultivating yeast. Needs watering",
+  "avianDescription" : "Yeast farm. Needs watering",
+  "floranDescription" : "Floran make more tiny bread mushroomsss. Needs watering",
+  "glitchDescription" : "Analysis. This is a jar of cultivating yeast. Needs watering",
+  "humanDescription" : "Yeast, I see bread baking in my future. Needs watering",
+  "hylotlDescription" : "Yeast in a jar. Needs watering",
 
   "inventoryIcon" : "yeastMFMseedicon.png",
   "largeImage" : "yeastMFMseed.png:default.3.0",
@@ -27,6 +27,7 @@
       "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
 
     }
@@ -34,14 +35,15 @@
   
   "stages" : [
     {
-      "duration" : [240, 360]
+      "duration" : [240, 380]
     },
     {
-      "duration" : [240, 360]
+      "duration" : [240, 380]
     },
     {
       "alts" : 5,
       "harvestPool" : "yeastMFMHarvest"
     }
-  ]
+  ],
+  "maxImmersion" : 1
 }

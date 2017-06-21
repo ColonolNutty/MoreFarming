@@ -6,7 +6,7 @@
   "price" : 20,
   "tooltipKind" : "seed",
   "description" : "Perfect for baking or making alcohol. Placing this will grow more yeast.",
-  "shortdescription" : "Yeast",
+  "shortdescription" : "Yeast Jar",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -18,7 +18,7 @@
   "floranDescription" : "Floran take tiny bread mushroomsss.",
   "glitchDescription" : "Analysis. This is a pile of cultivating yeast.",
   "humanDescription" : "Yeast, I see bread baking in my future.",
-  "hylotlDescription" : "Yeast.",
+  "hylotlDescription" : "Yeast in a jar.",
 
   "inventoryIcon" : "yeastMFMseedicon.png",
   "largeImage" : "wildyeastMFMseed.png:default.3.0",
@@ -30,6 +30,7 @@
       "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }
   ],
@@ -49,5 +50,6 @@
 
   "breakDropOptions" : [
     [ [ "yeastMFMseed", 1, { } ] ]
-  ]
+  ],
+  "maxImmersion" : 1
 }

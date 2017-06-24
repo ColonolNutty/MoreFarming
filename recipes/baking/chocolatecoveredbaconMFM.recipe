@@ -4,5 +4,5 @@
     { "item" : "chocolate", "count" : 1 }
   ],
   "output" : { "item" : "chocolatecoveredbaconMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "bakingMFM", "frying" ]
+  "groups" : [ "craftingfood", "desserts", "bakingMFM", "fryingMFM" ]
 }

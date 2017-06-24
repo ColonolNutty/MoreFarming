@@ -4,5 +4,5 @@
     { "item" : "saltMFM", "count" : 1 }
   ],
   "output" : { "item" : "sweetpotatofriesMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "sides", "frying" ]
+  "groups" : [ "craftingfood", "sides", "fryingMFM" ]
 }

@@ -4,5 +4,5 @@
     { "item" : "cocoapowderMFM", "count" : 1 }
   ],
   "output" : { "item" : "chocolatefrenchtoastMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "frying" ]
+  "groups" : [ "craftingfood", "desserts", "fryingMFM" ]
 }

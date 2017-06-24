@@ -3,5 +3,5 @@
     { "item" : "doughMFM", "count" : 4 }
   ],
   "output" : { "item" : "wafflesMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "bakingMFM", "frying" ]
+  "groups" : [ "craftingfood", "mains", "bakingMFM", "fryingMFM" ]
 }

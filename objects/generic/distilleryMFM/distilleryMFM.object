@@ -37,7 +37,7 @@
   "soundEffect" : "/sfx/objects/apexpod.ogg",
   "soundEffectRadius" : 50,
 
-  "recipeGroup" : "distilleryMFM",
+  "recipeGroup" : "distillingMFM",
   "openSounds" : [ "/sfx/objects/florandrum2.ogg" ],
   "slotCount": 16,
   "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
@@ -46,5 +46,5 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/distilleryMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/distillingMFMRecipes.config"
 }

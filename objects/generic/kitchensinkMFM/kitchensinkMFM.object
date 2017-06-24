@@ -33,7 +33,7 @@
 
     }
   ],
-  "recipeGroup" : "sinkMFM",
+  "recipeGroup" : "waterMFM",
   "openSounds" : [ "/sfx/objects/sinkMFMenter.wav" ],
   "closeSounds" : [ "/sfx/objects/sinkMFMexit.wav" ],
   "slotCount": 16,
@@ -43,5 +43,5 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/sinkMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config"
 }

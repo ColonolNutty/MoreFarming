@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "reefpod", "count" : 1 }
+  ],
+  "output" : { "item" : "groundfruitMFM", "count" : 1 },
+  "groups" : [ "grindingMFM" ]
+}

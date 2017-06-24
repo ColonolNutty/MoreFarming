@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "cookedbacon", "count" : 1 }
-  ],
-  "output" : { "item" : "groundmeatMFM", "count" : 1 },
-  "groups" : [ "grinderMFM" ]
-}

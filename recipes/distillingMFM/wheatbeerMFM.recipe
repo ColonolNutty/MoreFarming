@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 2 }
+  ],
+  "output" : { "item" : "wheatbeerMFM", "count" : 1 },
+  "groups" : [ "distillingMFM" ]
+}

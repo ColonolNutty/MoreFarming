@@ -37,7 +37,7 @@
   "soundEffect" : "/sfx/objects/fridge_hum.ogg",
   "soundEffectRadius" : 50,
 
-  "recipeGroup" : "cannerMFM",
+  "recipeGroup" : "canningMFM",
   "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
   "slotCount": 16,
@@ -47,5 +47,5 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/cannerMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/canningMFMRecipes.config"
 }

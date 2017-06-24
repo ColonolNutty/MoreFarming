@@ -3,7 +3,7 @@
   "colonyTags" : [ "cooking" ],
   "printable" : false,
   "rarity" : "Common",
-  "description" : "A freezer, I could make ice with this, among other things.",
+  "description" : "A freezer, I could make ice or ice cream with this, among other things.",
   "shortdescription" : "Freezer",
   "race" : "generic",
   "objectType" : "container",
@@ -52,5 +52,5 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/freezerMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config"
 }

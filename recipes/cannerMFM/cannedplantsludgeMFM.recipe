@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "plantsludgeMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "cannedplantsludgeMFM", "count" : 1 },
-  "groups" : [ "cannerMFM" ]
-}

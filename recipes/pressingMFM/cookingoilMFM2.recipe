@@ -3,5 +3,5 @@
     { "item" : "rattannutMFM", "count" : 1 }
   ],
   "output" : { "item" : "cookingoilMFM", "count" : 3 },
-  "groups" : [ "handpress" ]
+  "groups" : [ "pressingMFM" ]
 }

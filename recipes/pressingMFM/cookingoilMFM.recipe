@@ -3,5 +3,5 @@
     { "item" : "peanutPBJ", "count" : 1 }
   ],
   "output" : { "item" : "cookingoilMFM", "count" : 4 },
-  "groups" : [ "handpress" ]
+  "groups" : [ "pressingMFM" ]
 }

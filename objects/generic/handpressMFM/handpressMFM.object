@@ -32,7 +32,7 @@
 
     }
   ],
-  "recipeGroup" : "handpress",
+  "recipeGroup" : "pressingMFM",
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
   "slotCount": 16,
@@ -42,5 +42,5 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/handpressMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/pressingMFMRecipes.config"
 }

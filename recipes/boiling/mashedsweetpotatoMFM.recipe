@@ -3,5 +3,5 @@
     { "item" : "sweetpotatoMFM", "count" : 1 }
   ],
   "output" : { "item" : "mashedsweetpotatoMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "sides", "boiled" ]
+  "groups" : [ "craftingfood", "sides", "boilingMFM" ]
 }

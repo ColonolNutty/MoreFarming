@@ -12,6 +12,6 @@
 	{
 		"op": "add",
 		"path": "/groups/-",
-		"value": "baking"
+		"value": "bakingMFM"
 	}
 ]

@@ -4,5 +4,5 @@
     { "item" : "freshpastaMFM", "count" : 1 }
   ],
   "output" : { "item" : "butteredpastaMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "boiling" ]
+  "groups" : [ "craftingfood", "mains", "boilingMFM" ]
 }

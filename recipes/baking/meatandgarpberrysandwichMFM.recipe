@@ -5,5 +5,5 @@
     { "item" : "bread", "count" : 2 }
   ],
   "output" : { "item" : "meatandgarpberrysandwichMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "baking" ]
+  "groups" : [ "craftingfood", "mains", "bakingMFM" ]
 }

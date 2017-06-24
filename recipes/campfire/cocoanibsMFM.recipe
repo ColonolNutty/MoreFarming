@@ -3,5 +3,5 @@
     { "item" : "cocoabeansMFM", "count" : 1 }
   ],
   "output" : { "item" : "cocoanibsMFM", "count" : 1 },
-  "groups" : [ "campfire", "baking", "craftingfood", "mains" ]
+  "groups" : [ "campfire", "bakingMFM", "craftingfood", "mains" ]
 }

@@ -3,5 +3,5 @@
     { "item" : "eggshoot", "count" : 1 }
   ],
   "output" : { "item" : "cookedeggshootMFM", "count" : 1 },
-  "groups" : [ "campfire", "baking", "craftingfood", "mains" ]
+  "groups" : [ "campfire", "bakingMFM", "craftingfood", "mains" ]
 }

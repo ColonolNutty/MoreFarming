@@ -3,5 +3,5 @@
     { "item" : "peanutPBJ", "count" : 1 }
   ],
   "output" : { "item" : "roastedpeanutMFM", "count" : 1 },
-  "groups" : [ "campfire", "baking", "craftingfood", "mains" ]
+  "groups" : [ "campfire", "bakingMFM", "craftingfood", "mains" ]
 }

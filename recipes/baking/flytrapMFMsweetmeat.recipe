@@ -4,6 +4,6 @@
     { "item" : "flytrapMFMmeat", "count" : 1 }
   ],
   "output" : { "item" : "sweetmeat", "count" : 1 },
-  "groups" : [ "craftingfood", "sides", "baking" ],
+  "groups" : [ "craftingfood", "sides", "bakingMFM" ],
   "collectables" : { "cooking" : "sweetmeat" }
 }

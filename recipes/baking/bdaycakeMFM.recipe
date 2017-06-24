@@ -5,5 +5,5 @@
     { "item" : "egg", "count" : 5 }
   ],
   "output" : { "item" : "bdaycakeMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "baking" ]
+  "groups" : [ "craftingfood", "desserts", "bakingMFM" ]
 }

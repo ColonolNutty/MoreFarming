@@ -3,5 +3,5 @@
     { "item" : "milk", "count" : 1 }
   ],
   "output" : { "item" : "creamMFM", "count" : 5 },
-  "groups" : [ "butterchurn" ]
+  "groups" : [ "churningMFM" ]
 }

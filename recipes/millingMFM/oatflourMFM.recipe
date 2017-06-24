@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "wheat", "count" : 1 }
+    { "item" : "groatsMFM", "count" : 1 }
   ],
   "output" : { "item" : "flourMFM", "count" : 1 },
-  "groups" : [ "handmill" ]
+  "groups" : [ "millingMFM" ]
 }

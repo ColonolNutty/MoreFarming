@@ -3,5 +3,5 @@
     { "item" : "neonmelonfullMFM", "count" : 1 }
   ],
   "output" : { "item" : "neonmelon", "count" : 6 },
-  "groups" : [ "craftingfood", "condiments", "chopping" ]
+  "groups" : [ "craftingfood", "condiments", "choppingMFM" ]
 }

@@ -3,5 +3,5 @@
     { "item" : "slicedlemonMFM", "count" : 1 }
   ],
   "output" : { "item" : "lemonjuiceMFM", "count" : 1 },
-  "groups" : [ "blending" ]
+  "groups" : [ "blendingMFM" ]
 }

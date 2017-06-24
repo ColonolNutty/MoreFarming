@@ -4,5 +4,5 @@
     { "item" : "liquidwater", "count" : 2 }
   ],
   "output" : { "item" : "soymilkMFM", "count" : 1 },
-  "groups" : [ "blending", "craftingfood", "sides" ]
+  "groups" : [ "blendingMFM", "craftingfood", "sides" ]
 }

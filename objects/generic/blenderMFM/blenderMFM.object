@@ -32,7 +32,7 @@
 
     }
   ],
-  "recipeGroup" : "blending",
+  "recipeGroup" : "blendingMFM",
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
   "slotCount": 16,

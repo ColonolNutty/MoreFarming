@@ -6,5 +6,5 @@
     { "item" : "milk", "count" : 1 }
   ],
   "output" : { "item" : "whitechocolateMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "snacks", "blending" ]
+  "groups" : [ "craftingfood", "snacks", "blendingMFM" ]
 }

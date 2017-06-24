@@ -3,5 +3,5 @@
     { "item" : "soymilkMFM", "count" : 1 }
   ],
   "output" : { "item" : "milk", "count" : 1 },
-  "groups" : [ "blending", "craftingfood", "sides" ]
+  "groups" : [ "blendingMFM", "craftingfood", "sides" ]
 }

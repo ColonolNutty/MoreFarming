@@ -1,8 +1,9 @@
 {
   "input" : [
     { "item" : "banana", "count" : 1 },
-    { "item" : "garpberryMFM", "count" : 1 }
+    { "item" : "garpberryMFM", "count" : 1 },
+    { "item" : "lettuceMFM", "count" : 1 }
   ],
   "output" : { "item" : "bananagarpsaladMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "blending" ]
+  "groups" : [ "craftingfood", "mains" ]
 }

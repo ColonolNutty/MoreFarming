@@ -16,5 +16,6 @@
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tofuMFM" }},
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tofufriedriceMFM" }},
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "okaraMFM" }},
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cookingoilMFM" }}
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cookingoilMFM" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "saltMFM" }}
 ]

@@ -22,6 +22,9 @@
     "op" : "add",
     "path" : "/coffeeMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "coffeeseed"}
+        ],
         "pool" : [
           {"weight" : 0.89, "item" : "coffeebeans"},
           {"weight" : 0.01, "item" : "coffeeseed"},
@@ -36,394 +39,741 @@
   },
   {
     "op" : "add",
-    "path" : "/neonmelonMFMHarvest",
-    "value" : [ [0, {
-        "fill" : [
-          {"item" : "neonmelonseed"},
-          {"item" : "neonmelonfullMFM" }
-        ],
-        "pool" : [ {"weight" : 1.0, "item" : "plantfibre"} ],
-        "poolRounds" : [
-          [0.6, 1],
-          [0.4, 2]
-        ]
-      } ] ]
-  },
-  {
-    "op" : "add",
     "path" : "/artichokeMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "artichokeMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "artichokeMFM"},
-        {"weight" : 0.01, "item" : "artichokeMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "artichokeMFM"},
+          {"weight" : 0.01, "item" : "artichokeMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.2, 1],
+          [0.6, 2],
+          [0.2, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/oatsMFMHarvest",
     "value" : [ [0, {
-        "fill" : [{"item" : "oatsMFMseed"}],
+        "fill" : [
+          {"item" : "oatsMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "wholeoatsMFM"},
-        {"weight" : 0.01, "item" : "oatsMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "wholeoatsMFM"},
+          {"weight" : 0.01, "item" : "oatsMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/cocoaMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "cocoaseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "cocoa"},
-        {"weight" : 0.01, "item" : "cocoaseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "cocoa"},
+          {"weight" : 0.01, "item" : "cocoaseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/vanillabeanMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "vanillabeanMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "vanillaMFM"},
-        {"weight" : 0.01, "item" : "vanillabeanMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "vanillaMFM"},
+          {"weight" : 0.01, "item" : "vanillabeanMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/sweetpotatoMFMHarvest",
     "value" : [ [0, {
-        "fill" : [{"item" : "sweetpotatoMFMseed"}],
+        "fill" : [
+          {"item" : "sweetpotatoMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "sweetpotatoMFM"},
-        {"weight" : 0.01, "item" : "sweetpotatoMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "sweetpotatoMFM"},
+          {"weight" : 0.01, "item" : "sweetpotatoMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/dragonfruitMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "dragonfruitMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "dragonfruitMFM"},
-        {"weight" : 0.01, "item" : "dragonfruitMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "dragonfruitMFM"},
+          {"weight" : 0.01, "item" : "dragonfruitMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/peaMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "peaMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "peaMFM"},
-        {"weight" : 0.01, "item" : "peaMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "peaMFM"},
+          {"weight" : 0.01, "item" : "peaMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/jalapenopepperMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "jalapenopepperMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "jalapenopepperMFM"},
-        {"weight" : 0.01, "item" : "jalapenopepperMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "jalapenopepperMFM"},
+          {"weight" : 0.01, "item" : "jalapenopepperMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/cauliflowerMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "cauliflowerMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "cauliflowerMFM"},
-        {"weight" : 0.01, "item" : "cauliflowerMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "cauliflowerMFM"},
+          {"weight" : 0.01, "item" : "cauliflowerMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/brusselsproutMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "brusselsproutMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "brusselsproutMFM"},
-        {"weight" : 0.01, "item" : "brusselsproutMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "brusselsproutMFM"},
+          {"weight" : 0.01, "item" : "brusselsproutMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/broccoliMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "broccoliMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "broccoliMFM"},
-        {"weight" : 0.01, "item" : "broccoliMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "broccoliMFM"},
+          {"weight" : 0.01, "item" : "broccoliMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/rutabagaMFMHarvest",
     "value" : [ [0, {
-        "fill" : [{"item" : "rutabagaMFMseed"}],
+        "fill" : [
+          {"item" : "rutabagaMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "rutabagaMFM"},
-        {"weight" : 0.01, "item" : "rutabagaMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "rutabagaMFM"},
+          {"weight" : 0.01, "item" : "rutabagaMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/sugarbeetMFMHarvest",
     "value" : [ [0, {
-        "fill" : [{"item" : "sugarbeetMFMseed"}],
+        "fill" : [
+          {"item" : "sugarbeetMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "sugarbeetMFM"},
-        {"weight" : 0.01, "item" : "sugarbeetMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "sugarbeetMFM"},
+          {"weight" : 0.01, "item" : "sugarbeetMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/onionMFMHarvest",
     "value" : [ [0, {
-        "fill" : [{"item" : "onionMFMseed"}],
+        "fill" : [
+          {"item" : "onionMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "onionMFM"},
-        {"weight" : 0.01, "item" : "onionMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "onionMFM"},
+          {"weight" : 0.01, "item" : "onionMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/asparagusMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "asparagusMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "asparagusMFM"},
-        {"weight" : 0.01, "item" : "asparagusMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "asparagusMFM"},
+          {"weight" : 0.01, "item" : "asparagusMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/beetMFMHarvest",
     "value" : [ [0, {
-        "fill" : [{"item" : "beetMFMseed"}],
+        "fill" : [
+          {"item" : "beetMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "beetMFM"},
-        {"weight" : 0.01, "item" : "beetMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "beetMFM"},
+          {"weight" : 0.01, "item" : "beetMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/greenbellpepperMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "bellpepperMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "greenbellpepperMFM"},
-        {"weight" : 0.01, "item" : "bellpepperMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "greenbellpepperMFM"},
+          {"weight" : 0.01, "item" : "bellpepperMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/yellowbellpepperMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "bellpepperMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "yellowbellpepperMFM"},
-        {"weight" : 0.01, "item" : "bellpepperMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "yellowbellpepperMFM"},
+          {"weight" : 0.01, "item" : "bellpepperMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/orangebellpepperMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "bellpepperMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "orangebellpepperMFM"},
-        {"weight" : 0.01, "item" : "bellpepperMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "orangebellpepperMFM"},
+          {"weight" : 0.01, "item" : "bellpepperMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/redbellpepperMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "bellpepperMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "redbellpepperMFM"},
-        {"weight" : 0.01, "item" : "bellpepperMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "redbellpepperMFM"},
+          {"weight" : 0.01, "item" : "bellpepperMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/garlicMFMHarvest",
     "value" : [ [0, {
-        "fill" : [{"item" : "garlicMFMseed"}],
+        "fill" : [
+          {"item" : "garlicMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "garlicMFM"},
-        {"weight" : 0.01, "item" : "garlicMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "garlicMFM"},
+          {"weight" : 0.01, "item" : "garlicMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/greenbeanMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "greenbeanMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "greenbeanMFM"},
-        {"weight" : 0.01, "item" : "greenbeanMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "greenbeanMFM"},
+          {"weight" : 0.01, "item" : "greenbeanMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/bambooBMBHarvest",
     "value" : [ [0, {
-        "fill" : [{"item" : "bambooBMBshoot"}],
+        "fill" : [
+          {"item" : "bambooBMBshoot"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "bamboostalkBMB"},
-        {"weight" : 0.01, "item" : "bambooBMBshoot"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "bamboostalkBMB"},
+          {"weight" : 0.01, "item" : "bambooBMBshoot"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/reedBMBHarvest",
     "value" : [ [0, {
-        "fill" : [{"item" : "reedBMBsprout"}],
+        "fill" : [
+          {"item" : "reedBMBsprout"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "reed"},
-        {"weight" : 0.01, "item" : "reedBMBsprout"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "reed"},
+          {"weight" : 0.01, "item" : "reedBMBsprout"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/strawberryPBJHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "strawberryPBJseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "strawberriesPBJ"},
-        {"weight" : 0.01, "item" : "strawberryPBJseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "strawberriesPBJ"},
+          {"weight" : 0.01, "item" : "strawberryPBJseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/blackberriesPBJHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "blackberryPBJseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "blackberryPBJ"},
-        {"weight" : 0.01, "item" : "blackberryPBJseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "blackberryPBJ"},
+          {"weight" : 0.01, "item" : "blackberryPBJseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/blueberriesPBJHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "blueberriesPBJseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "blueberriesPBJ"},
-        {"weight" : 0.01, "item" : "blueberriesPBJseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "blueberriesPBJ"},
+          {"weight" : 0.01, "item" : "blueberriesPBJseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/peanutPBJHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "peanutPBJseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "peanutPBJ"},
-        {"weight" : 0.01, "item" : "peanutPBJseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "peanutPBJ"},
+          {"weight" : 0.01, "item" : "peanutPBJseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/raspberryPBJHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "raspberryPBJseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "raspberryPBJ"},
-        {"weight" : 0.01, "item" : "raspberryPBJseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "raspberryPBJ"},
+          {"weight" : 0.01, "item" : "raspberryPBJseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
 
   {
     "op" : "add",
     "path" : "/cucumberMSMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "cucumberMSMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "cucumberMSM"},
-        {"weight" : 0.01, "item" : "cucumberMSMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "cucumberMSM"},
+          {"weight" : 0.01, "item" : "cucumberMSMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/gingerMSMHarvest",
     "value" : [ [0, {
-        "fill" : [{"item" : "gingerMSMseed"}],
+        "fill" : [
+          {"item" : "gingerMSMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "gingerMSM"},
-        {"weight" : 0.01, "item" : "gingerMSMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "gingerMSM"},
+          {"weight" : 0.01, "item" : "gingerMSMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/cinnamonMFMHarvest",
     "value" : [ [0, {
-        "fill" : [{"item" : "cinnamonMFMseed"}],
+        "fill" : [
+          {"item" : "cinnamonMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.89, "item" : "cinnamonMFM"},
-        {"weight" : 0.01, "item" : "cinnamonMFMseed"},
-        {"weight" : 0.10, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.89, "item" : "cinnamonMFM"},
+          {"weight" : 0.01, "item" : "cinnamonMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/neonmelonMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "neonmelonseed"},
+          {"item" : "neonmelonfullMFM" }
+        ],
+        "pool" : [
+          {"weight" : 0.93, "item" : "plantfibre"},
+          {"weight" : 0.07, "item" : "neonmelonseed"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/neonmelonfullMFMHarvest",
     "value" : [ [0, {
-        "fill" : [{"item" : "neonmelonseed"}],
+        "fill" : [
+          {"item" : "neonmelonseed"}
+        ],
         "pool" : [
-        {"weight" : 0.93, "item" : "neonmelon"},
-        {"weight" : 0.07, "item" : "neonmelonseed"}],
-        "poolRounds" : [ [0.42, 4], [0.33, 5], [0.25, 6] ] } ] ]
+          {"weight" : 0.93, "item" : "neonmelon"},
+          {"weight" : 0.07, "item" : "neonmelonseed"}
+        ],
+        "poolRounds" : [
+          [0.42, 4],
+          [0.33, 5],
+          [0.25, 6]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/pumpkinMFMHarvest",
     "value" : [ [0, {
-        "fill" : [{"item" : "pumpkinfullMFM"}],
+        "fill" : [
+          {"item" : "pumpkinfullMFM"},
+          {"item" : "pumpkinMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 1.00, "item" : "plantfibre"}],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+          {"weight" : 0.93, "item" : "plantfibre"},
+          {"weight" : 0.07, "item" : "pumpkinMFMseed"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/pumpkinfullMFMHarvest",
     "value" : [ [0, {
-        "fill" : [{"item" : "pumpkinMFMseed"}],
+        "fill" : [
+          {"item" : "pumpkinMFMseed"}
+        ],
         "pool" : [
-        {"weight" : 0.93, "item" : "pumpkinsliceMFM"},
-        {"weight" : 0.07, "item" : "pumpkinMFMseed"}],
-        "poolRounds" : [ [0.42, 4], [0.33, 5], [0.25, 6] ] } ] ]
+          {"weight" : 0.93, "item" : "pumpkinsliceMFM"},
+          {"weight" : 0.07, "item" : "pumpkinMFMseed"}
+        ],
+        "poolRounds" : [
+          [0.42, 4],
+          [0.33, 5],
+          [0.25, 6]
+        ]
+      } ]
+    ]
   },
   {
     "op": "add",
     "path": "/pricklyPearMFMHarvest",
-    "value": [
-      [0, {
-          "fill" : [{"item" : "pricklypearMFMseed"}],
-          "pool" : [
-            {"weight" : 0.89, "item" : "pricklypearMFM"},
-            {"weight" : 0.3, "item" : "pricklypearMFMseed"},
-            {"weight" : 0.3, "item" : "plantfibre"}
-          ],
-          "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ]
-        }
-      ]
+    "value": [ [0, {
+        "fill" : [
+          {"item" : "pricklypearMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "pricklypearMFM"},
+          {"weight" : 0.3, "item" : "pricklypearMFMseed"},
+          {"weight" : 0.3, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
     ]
   },
   {
@@ -431,7 +781,9 @@
     "path": "/flyTrapMFMHarvest",
     "value": [
       [0, {
-        "fill" : [{"item" : "flytrapMFMseed"}],
+        "fill" : [
+          {"item" : "flytrapMFMseed"}
+        ],
         "pool" : [
           {"weight" : 0.89, "item" : "flytrapMFMmeat"},
           {"weight" : 0.3, "item" : "flytrapMFMseed"},
@@ -447,8 +799,7 @@
   {
     "op": "add",
     "path": "/saguaroMFMHarvest",
-    "value": [
-      [0, {
+    "value": [ [0, {
         "fill": [
           {"item" : "saguaroMFMseed"}
         ],
@@ -466,8 +817,7 @@
   {
     "op": "add",
     "path": "/greatbambooMFMHarvest",
-    "value": [
-      [0, {
+    "value": [ [0, {
         "fill": [
           {"item" : "greatbambooMFMseed"}
         ],
@@ -498,13 +848,21 @@
           {"weight" : 0.10, "item" : "holidayspirit"},
           {"weight" : 0.89, "item" : "fullwood1"}
         ],
-        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
   },
   {
     "op" : "add",
     "path" : "/jelonMFMHarvest",
-    "value" : [
-      [0, {
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "jelonMFMseed"}
+        ],
         "pool" : [
           {"weight" : 0.6, "item" : "jelonMFM"},
           {"weight" : 0.2, "item" : "jelonMFMseed"},
@@ -520,8 +878,10 @@
   {
     "op" : "add",
     "path" : "/dungrootMFMHarvest",
-    "value" : [
-      [0, {
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "dungrootMFMseed"}
+        ],
         "pool" : [
           {"weight" : 0.6, "item" : "dungrootMFM"},
           {"weight" : 0.2, "item" : "dungrootMFMseed"},
@@ -537,8 +897,7 @@
   {
     "op" : "add",
     "path" : "/appleMFMHarvest",
-    "value" : [
-      [0, {
+    "value" : [ [0, {
         "fill": [
           {"item" : "appleMFMseed"}
         ], 
@@ -558,8 +917,7 @@
   {
     "op" : "add",
     "path" : "/jelonMFMHarvest",
-    "value" : [
-      [0, {
+    "value" : [ [0, {
         "fill": [
           {"item" : "jelonMFMseed"}
         ], 
@@ -578,8 +936,7 @@
   {
     "op" : "add",
     "path" : "/portabelloMFMHarvest",
-    "value" : [
-      [0, {
+    "value" : [ [0, {
         "fill": [
           {"item" : "portabelloMFMseed"}
         ], 
@@ -597,8 +954,7 @@
   {
     "op" : "add",
     "path" : "/orangeMFMHarvest",
-    "value" : [
-      [0, {
+    "value" : [ [0, {
         "fill": [
           {"item" : "orangeMFMseed"}
         ], 
@@ -617,8 +973,7 @@
   {
     "op" : "add",
     "path" : "/shadowbulbMFMHarvest",
-    "value" : [
-      [0, {
+    "value" : [ [0, {
         "fill": [
           {"item" : "shadowbulbMFMseed"}
         ], 
@@ -637,8 +992,7 @@
   {
     "op" : "add",
     "path" : "/yeastMFMHarvest",
-    "value" : [
-      [0, {
+    "value" : [ [0, {
         "fill": [
           {"item" : "yeastMFMseed"}
         ], 
@@ -665,78 +1019,74 @@
   },
   {
     "op": "add", "path": "/rattanMFMHarvest",
-    "value": [
-      [0, 
-        {
-          "fill" : [ {"item" : "rattanMFMseed"} ],
-          "pool" : [
-            {"weight" : 0.33, "item" : [ "rattanfiberMFM", 3]},
-            {"weight" : 0.44, "item" : [ "rattannutMFM", 2]},
-            {"weight" : 0.22, "item" : [ "plantfibre", 1]}
-          ],
-          "poolRounds" : [
-            [0.3, 1],
-            [0.4, 2],
-            [0.3, 3]
-          ]
-        }
-      ]
+    "value": [ [0, {
+        "fill" : [
+          {"item" : "rattanMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.33, "item" : [ "rattanfiberMFM", 3]},
+          {"weight" : 0.44, "item" : [ "rattannutMFM", 2]},
+          {"weight" : 0.22, "item" : [ "plantfibre", 1]}
+        ],
+        "poolRounds" : [
+          [0.3, 1],
+          [0.4, 2],
+          [0.3, 3]
+        ]
+      } ]
     ]
   },
   {
     "op": "add", "path": "/garpberryMFMHarvest",
-    "value": [
-      [0, 
-        {
-          "fill" : [ {"item" : "garpberryMFMseed"} ],
-          "pool" : [
-            {"weight" : 0.6, "item" : [ "garpberryMFMseed", 1]},
-            {"weight" : 0.2, "item" : [ "garpberryMFM", 3]},
-            {"weight" : 0.2, "item" : [ "plantfibre", 3]}
-          ],
-          "poolRounds" : [
-            [0.7, 2],
-            [0.3, 3]
-          ]
-        }
-      ]
+    "value": [ [0, {
+        "fill" : [
+          {"item" : "garpberryMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.6, "item" : [ "garpberryMFMseed", 1]},
+          {"weight" : 0.2, "item" : [ "garpberryMFM", 3]},
+          {"weight" : 0.2, "item" : [ "plantfibre", 3]}
+        ],
+        "poolRounds" : [
+          [0.7, 2],
+          [0.3, 3]
+        ]
+      } ]
     ]
   },
   {
     "op": "add", "path": "/palsterstickMFMHarvest",
-    "value": [
-      [0, 
-        {
-          "fill" : [ {"item" : "palsterstickMFMseed"} ],
-          "pool" : [
-            {"weight" : 0.8, "item" : [ "palsterstickMFM", 3]},
-            {"weight" : 0.2, "item" : [ "palsterstickMFMseed", 1]}
-          ],
-          "poolRounds" : [
-            [0.7, 2],
-            [0.3, 3]
-          ]
-        }
-      ]
+    "value": [ [0, {
+        "fill" : [
+          {"item" : "palsterstickMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.8, "item" : [ "palsterstickMFM", 3]},
+          {"weight" : 0.2, "item" : [ "palsterstickMFMseed", 1]}
+        ],
+        "poolRounds" : [
+          [0.7, 2],
+          [0.3, 3]
+        ]
+      } ]
     ]
   },
   {
     "op": "add", "path": "/finkelMFMHarvest",
-    "value": [
-      [0, 
-        {
-          "fill" : [ {"item" : "finkelMFMseed"} ],
-          "pool" : [
-            {"weight" : 0.6, "item" : [ "finkelMFM", 3]},
-            {"weight" : 0.2, "item" : [ "finkelMFMseed", 1]},
-            {"weight" : 0.2, "item" : [ "plantfibre", 1]}
-          ],
-          "poolRounds" : [
-            [0.7, 2],
-            [0.3, 3]
-          ]
-        }
-      ]
+    "value": [ [0, {
+        "fill" : [
+          {"item" : "finkelMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.6, "item" : [ "finkelMFM", 3]},
+          {"weight" : 0.2, "item" : [ "finkelMFMseed", 1]},
+          {"weight" : 0.2, "item" : [ "plantfibre", 1]}
+        ],
+        "poolRounds" : [
+          [0.7, 2],
+          [0.3, 3]
+        ]
+      } ]
     ]
   },
   {

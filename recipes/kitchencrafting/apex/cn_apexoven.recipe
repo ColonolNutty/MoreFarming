@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 3 },
+    { "item" : "copperbar", "count" : 2 },
+    { "item" : "glassmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "apexoven", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "apexMFM", "bakingmachineMFM", "all" ]
+}

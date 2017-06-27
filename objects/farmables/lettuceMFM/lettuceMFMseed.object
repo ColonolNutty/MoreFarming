@@ -1,0 +1,52 @@
+{
+  "objectName" : "lettuceMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "Lettuce.",
+  "shortdescription" : "Lettuce Seeds",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+
+  "apexDescription" : "Seeds for lettuce!",
+  "avianDescription" : "Seeds for lettuce!",
+  "floranDescription" : "Ssseeds for lettuce!",
+  "glitchDescription" : "Identify. Lettuce seeds.",
+  "humanDescription" : "Oh sweet! Lettuce seeds!",
+  "hylotlDescription" : "Seeds for lettuce.",
+
+  "inventoryIcon" : "lettuceMFMseedicon.png",
+  "largeImage" : "lettuceMFMseed.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "lettuceMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [1000, 1005]
+    },
+    {
+      "duration" : [500, 505]
+    },
+    {
+      "alts" : 5,
+      "duration" : [400, 440]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "lettuceMFMHarvest",
+      "resetToStage" : 2
+    }
+  ],
+  "maxImmersion" : 0.25
+}

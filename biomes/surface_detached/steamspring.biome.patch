@@ -13,6 +13,7 @@
 			  {
           "pool" : [
             [1, "wildsugarbeetMFMseed" ],
+						[1, "wildlettuceMFMseed" ],
             [1, "wildparsnipMFMseed" ],
             [1, "wildturnipMFMseed" ]
           ],

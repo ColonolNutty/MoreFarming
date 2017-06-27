@@ -153,6 +153,25 @@
   },
   {
     "op" : "add",
+    "path" : "/lettuceMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "lettuceMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "lettuceMFM"},
+          {"weight" : 0.01, "item" : "lettuceMFMseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/sugarcaneMFMHarvest",
     "value" : [ [0, {
         "fill" : [

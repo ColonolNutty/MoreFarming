@@ -1,9 +1,7 @@
 [
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "lettuceMFM" } },
-  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "mangoMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "parsnipMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "radishMFM" } },
-  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "turnipMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["appleMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["artichokeMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["asparagusMFMseed", 3] } },
@@ -57,6 +55,7 @@
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["sugarbeetMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["sugarcaneseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["sweetpotatoMFMseed", 3] } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["turnipMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["vanillabeanMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["yeastMFMseed", 3] } }
 ]

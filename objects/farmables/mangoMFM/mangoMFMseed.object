@@ -1,0 +1,49 @@
+{
+  "objectName" : "mangoMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "price" : 20,
+  "tooltipKind" : "seed",
+  "description" : "Ripe mangos.",
+  "shortdescription" : "Mango Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "Some mangos can grow from here.",
+  "avianDescription" : "Some mangos can grow from here.",
+  "floranDescription" : "Sssome mangosss can grow from here.",
+  "glitchDescription" : "Statement. Mangos grow from here.",
+  "humanDescription" : "How American can it get?",
+  "hylotlDescription" : "Some mangos can grow from here.",
+
+  "inventoryIcon" : "mangoMFMseedicon.png",
+  "largeImage" : "mangoMFMseed.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "mangoMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "stages" : [
+    {
+      "duration" : [2820, 2940]
+    },
+    {
+      "duration" : [300, 420]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "mangoMFMHarvest",
+      "resetToStage" : 1
+    }
+  ]
+}

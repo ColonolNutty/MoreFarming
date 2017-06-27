@@ -58,6 +58,25 @@
   },
   {
     "op" : "add",
+    "path" : "/mangoMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "mangoMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "mangoMFM"},
+          {"weight" : 0.01, "item" : "mangoMFMseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/limeMFMHarvest",
     "value" : [ [0, {
         "fill" : [

@@ -1,6 +1,25 @@
 [
   {
     "op" : "add",
+    "path" : "/avocadoMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "avocadoMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "avocadoMSM"},
+          {"weight" : 0.01, "item" : "avocadoMFMseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/sugarcaneMFMHarvest",
     "value" : [ [0, {
         "fill" : [

@@ -1,5 +1,4 @@
 [
-  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "avocadoMSM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "grapefruitMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "lemonMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "lettuceMFM" } },
@@ -11,6 +10,7 @@
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["appleMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["artichokeMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["asparagusMFMseed", 3] } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["avocadoMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["bambooBMBshoot", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["beetMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["bellpepperMFMseed", 3] } },

@@ -20,12 +20,14 @@
 						[1, "wildbrusselsproutMFMseed"],
 						[1, "wildcauliflowerMFMseed"],
 						[1, "wildgreenbeanMFMseed"],
+						[1, "wildparsnipMFMseed" ],
 						[1, "wildpeaMFMseed"],
 						[1, "wildraspberryPBJseed"],
 						[1, "wildreedBMBsprout"],
 						[1, "wildrutabagaMFMseed"],
 						[1, "wildstrawberryPBJseed"],
-						[1, "wildsugarbeetMFMseed"]
+						[1, "wildsugarbeetMFMseed"],
+						[1, "wildturnipMFMseed"]
 					],
 					"parameters" : {
 						"startingStage" : 3

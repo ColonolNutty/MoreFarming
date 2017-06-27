@@ -12,7 +12,9 @@
 			"objectSets" : [
 			  {
           "pool" : [
-            [1, "wildsugarbeetMFMseed" ]
+            [1, "wildsugarbeetMFMseed" ],
+            [1, "wildparsnipMFMseed" ],
+            [1, "wildturnipMFMseed" ]
           ],
           "parameters" : {
             "startingStage" : 3

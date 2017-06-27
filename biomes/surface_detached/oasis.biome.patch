@@ -20,7 +20,8 @@
 						[1, "wildgarlicMFMseed"],
 						[1, "wildjalapenopepperMFMseed"],
 						[1, "wildonionMFMseed"],
-						[1, "wildraspberryPBJseed"]
+						[1, "wildraspberryPBJseed"],
+						[1, "wildturnipMFMseed"]
 					],
 					"parameters" : {
 						"startingStage" : 3

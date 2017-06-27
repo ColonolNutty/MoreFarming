@@ -1,27 +1,27 @@
 {
-  "objectName" : "turnipMFMseed",
+  "objectName" : "parsnipMFMseed",
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
   "tooltipKind" : "seed",
-  "description" : "turnip",
-  "shortdescription" : "Turnip Seeds",
+  "description" : "parsnip",
+  "shortdescription" : "Parsnip Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "price" : 100,
 
-  "apexDescription" : "Seeds for turnips!",
-  "avianDescription" : "Seeds for turnips!",
-  "floranDescription" : "Ssseeds for turnips!",
-  "glitchDescription" : "Identify. Turnip seeds.",
-  "humanDescription" : "Oh sweet! turnip seeds!",
-  "hylotlDescription" : "Seeds for turnips.",
+  "apexDescription" : "Seeds for parsnip!",
+  "avianDescription" : "Seeds for parsnip!",
+  "floranDescription" : "Ssseeds for parsnip!",
+  "glitchDescription" : "Identify. Parsnip seeds.",
+  "humanDescription" : "Oh sweet! parsnip seeds!",
+  "hylotlDescription" : "Seeds for parsnip.",
 
-  "inventoryIcon" : "turnipMFMseedicon.png",
-  "largeImage" : "turnipMFMseed.png:default.3.0",
+  "inventoryIcon" : "parsnipMFMseedicon.png",
+  "largeImage" : "parsnipMFMseed.png:default.3.0",
   "orientations" : [
     {
-      "dualImage" : "turnipMFMseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "parsnipMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -44,7 +44,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "turnipMFMHarvest"
+      "harvestPool" : "parsnipMFMHarvest"
     }
   ],
   "maxImmersion" : 0.25

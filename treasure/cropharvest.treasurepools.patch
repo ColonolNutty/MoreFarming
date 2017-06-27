@@ -20,6 +20,25 @@
   },
   {
     "op" : "add",
+    "path" : "/grapefruitMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "grapefruitMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "grapefruitMFM"},
+          {"weight" : 0.01, "item" : "grapefruitMFMseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/sugarcaneMFMHarvest",
     "value" : [ [0, {
         "fill" : [

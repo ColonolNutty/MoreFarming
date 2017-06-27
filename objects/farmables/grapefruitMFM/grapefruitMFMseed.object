@@ -1,0 +1,49 @@
+{
+  "objectName" : "grapefruitMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "price" : 20,
+  "tooltipKind" : "seed",
+  "description" : "Ripe Grapefruit, the seeds usually grow in tropical or sub tropical climates, such as jungle or ocean biomes.",
+  "shortdescription" : "Grapefruit Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "Some grapefruit can grow from here.",
+  "avianDescription" : "Some grapefruit can grow from here.",
+  "floranDescription" : "Sssome grapefruitss can grow from here.",
+  "glitchDescription" : "Statement. Apples grow from here.",
+  "humanDescription" : "How American can it get?",
+  "hylotlDescription" : "Some grapefruit can grow from here.",
+
+  "inventoryIcon" : "grapefruitMFMseedicon.png",
+  "largeImage" : "grapefruitMFMseed.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "grapefruitMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "stages" : [
+    {
+      "duration" : [2820, 2940]
+    },
+    {
+      "duration" : [300, 420]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "grapefruitMFMHarvest",
+      "resetToStage" : 1
+    }
+  ]
+}

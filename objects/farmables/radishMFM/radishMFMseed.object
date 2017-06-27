@@ -1,0 +1,51 @@
+{
+  "objectName" : "radishMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "Radish",
+  "shortdescription" : "Radish Seeds",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+
+  "apexDescription" : "Seeds for radish!",
+  "avianDescription" : "Seeds for radish!",
+  "floranDescription" : "Ssseeds for radish!",
+  "glitchDescription" : "Identify. Radish seeds.",
+  "humanDescription" : "Oh sweet! radish seeds!",
+  "hylotlDescription" : "Seeds for radish.",
+
+  "inventoryIcon" : "radishMFMseedicon.png",
+  "largeImage" : "radishMFMseed.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "radishMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [1000, 1005]
+    },
+    {
+      "duration" : [500, 505]
+    },
+    {
+      "alts" : 5,
+      "duration" : [400, 440]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "radishMFMHarvest"
+    }
+  ],
+  "maxImmersion" : 0.25
+}

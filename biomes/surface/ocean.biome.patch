@@ -42,9 +42,10 @@
 						[1, "wildcinnamonMFMseed" ],
 						[1, "wildgrapefruitMFMseed" ],
 						[1, "wildlemonMFMseed" ],
-						[1, "wildsweetpotatoMFMseed" ],
 						[1, "wildjelonMFMseed" ],
-						[1, "wildorangeMFMseed" ]
+						[1, "wildlimeMFMseed" ],
+						[1, "wildorangeMFMseed" ],
+						[1, "wildsweetpotatoMFMseed" ]
 					],
 					"parameters" : {
 						"startingStage" : 2

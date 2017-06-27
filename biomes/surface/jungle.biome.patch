@@ -44,12 +44,13 @@
 				{
 					"pool" : [
 						[1, "wildcinnamonMFMseed" ],
+						[1, "wilddungrootMFMseed" ],
 						[1, "wildsweetpotatoMFMseed" ],
 						[1, "wildflytrapMFMseed"],
 						[1, "wildgrapefruitMFMseed" ],
 						[1, "wildgreatbambooMFMseed"],
 						[1, "wildjelonMFMseed" ],
-						[1, "wilddungrootMFMseed" ],
+						[1, "wildlemonMFMseed" ],
 						[1, "wildsoybeanMFMseed" ]
 					],
 					"parameters" : {

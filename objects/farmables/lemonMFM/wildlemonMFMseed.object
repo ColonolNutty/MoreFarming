@@ -1,0 +1,54 @@
+{
+  "objectName" : "wildlemonMFMseed",
+  "rarity" : "Common",
+  "colonyTags" : ["nature"],
+  "category" : "seed",
+  "price" : 20,
+  "tooltipKind" : "seed",
+  "description" : "Ripe lemons.",
+  "shortdescription" : "Lemon Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "hasObjectItem" : false,
+
+  "biomePlaced" : true,
+
+  "apexDescription" : "Some lemons can grow from here.",
+  "avianDescription" : "Some lemons can grow from here.",
+  "floranDescription" : "Ssssome lemons can grow from here.",
+  "glitchDescription" : "Statement. Lemons grow from here.",
+  "humanDescription" : "How American can it get?",
+  "hylotlDescription" : "Some lemons can grow from here.",
+
+  "inventoryIcon" : "lemonMFMseedicon.png",
+  "largeImage" : "lemonMFMseed.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "lemonMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "stages" : [
+    {
+      "duration" : [2820, 2940]
+    },
+    {
+      "duration" : [300, 420]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "lemonMFMHarvest",
+      "resetToStage" : 1
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "lemonMFMseed", 1, { } ] ]
+  ]
+}

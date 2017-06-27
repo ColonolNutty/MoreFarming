@@ -39,6 +39,25 @@
   },
   {
     "op" : "add",
+    "path" : "/lemonMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "lemonMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "lemonMFM"},
+          {"weight" : 0.01, "item" : "lemonMFMseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/sugarcaneMFMHarvest",
     "value" : [ [0, {
         "fill" : [

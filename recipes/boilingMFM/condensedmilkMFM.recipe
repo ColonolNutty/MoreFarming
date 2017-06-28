@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "milk", "count" : 1 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "butterMFM", "count" : 1 },
+    { "item" : "vanillaextractMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "condensedmilkMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "sides", "boilingMFM" ]
+}

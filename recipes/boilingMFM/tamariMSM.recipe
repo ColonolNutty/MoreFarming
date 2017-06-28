@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "boiledsoybeansMFM", "count" : 1 },
+    { "item" : "rice", "count" : 5 }
+  ],
+  "output" : { "item" : "tamariMSM", "count" : 1 },
+  "groups" : [ "craftingfood", "condiments", "boilingMFM" ]
+}

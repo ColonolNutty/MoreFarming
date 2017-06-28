@@ -1,7 +1,11 @@
 {
   "input" : [
-    { "item" : "sugar", "count" : 1 }
+    { "item" : "cookingoilMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 3 },
+    { "item" : "vanillaextractMFM", "count" : 1 }
   ],
-  "output" : { "item" : "marshmallowMFM", "count" : 1 },
+  "output" : { "item" : "marshmallowMFM", "count" : 6 },
   "groups" : [ "craftingfood", "snacks", "blendingMFM" ]
 }

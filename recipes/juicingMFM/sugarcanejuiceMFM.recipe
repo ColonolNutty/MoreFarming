@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "sugarcaneBMB", "count" : 1 }
+  ],
+  "output" : { "item" : "sugarcanejuiceMFM", "count" : 1 },
+  "groups" : [ "juicingMFM" ]
+}

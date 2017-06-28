@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "goldenbananaMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "goldensyrupMFM", "count" : 10 },
+  "groups" : [ "juicingMFM" ]
+}

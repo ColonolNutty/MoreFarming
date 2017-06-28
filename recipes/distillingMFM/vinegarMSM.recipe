@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "sugarcanejuiceMFM", "count" : 1 },
+    { "item" : "yeastMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "vinegarMSM", "count" : 1 },
+  "groups" : [ "distillingMFM" ]
+}

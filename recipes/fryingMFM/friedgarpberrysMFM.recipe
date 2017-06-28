@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "garpberryMFM", "count" : 3 },
-    { "item" : "wheat", "count" : 1 }
+    { "item" : "cookingoilMFM", "count" : 1 }
   ],
   "output" : { "item" : "friedgarpberrysMFM", "count" : 1 },
   "groups" : [ "craftingfood", "mains", "fryingMFM" ]

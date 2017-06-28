@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "jelonMFM", "count" : 1 },
+    { "item" : "groundjelonMFM", "count" : 1 },
+    { "item" : "cocoapowderMFM", "count" : 1 },
     { "item" : "sugar", "count" : 1 },
-    { "item" : "chocolate", "count" : 1 },
     { "item" : "egg", "count" : 1 }
   ],
   "output" : { "item" : "jelonbrownieMFM", "count" : 1 },

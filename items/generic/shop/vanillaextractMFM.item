@@ -9,5 +9,6 @@
   "learnBlueprintsOnPickup" : [ "vanillaicingMFM",
                                 "puddingMFM",
                                 "vanillaicecreamMFM",
-                                "whitechocolateMFM"  ]
+                                "whitechocolateMFM",
+                                "cookiedoughMFM"  ]
 }

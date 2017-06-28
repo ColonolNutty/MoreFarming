@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "garpberryMFM", "count" : 1 },
-    { "item" : "rawbacon", "count" : 1 },
+    { "item" : "cookedbacon", "count" : 1 },
     { "item" : "bread", "count" : 2 }
   ],
   "output" : { "item" : "meatandgarpberrysandwichMFM", "count" : 1 },

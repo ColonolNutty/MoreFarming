@@ -1,7 +1,9 @@
 {
   "itemName" : "jelonMFM",
   "rarity" : "Common",
+  "price" : 200,
   "category" : "food",
+  "eventCategory" : "eventCrop",
   "inventoryIcon" : "jelonMFM.png",
   "description" : "A genetically engineered jelon.",
   "shortdescription" : "Jelon",
@@ -11,7 +13,6 @@
         "duration" : 50
       }
     ] ],
-  "price" : 200,
   "foodValue" : 10,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -28,6 +29,7 @@
                                 "pinanaMFM",
                                 "pinanasliceMFM",
                                 "jelonbreadMFM",
-                                "jelonblockMFM" ],
+                                "jelonblockMFM",
+                                "groundjelonMFM" ],
   "handPosition" : [0, -2]
 }

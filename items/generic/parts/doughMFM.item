@@ -6,5 +6,7 @@
   "inventoryIcon" : "doughMFM.png",
   "description" : "Not the money kind.",
   "shortdescription" : "Dough",
-  "learnBlueprintsOnPickup" : [ "wafflesMFM" ]
+  "learnBlueprintsOnPickup" : [ "wafflesMFM",
+                                "cookiedoughMFM",
+                                "pizzadoughMFM" ]
 }

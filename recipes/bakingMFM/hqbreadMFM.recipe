@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "flourMFM", "count" : 1 },
+    { "item" : "doughMFM", "count" : 1 },
     { "item" : "yeastMFM", "count" : 1 }
   ],
   "output" : { "item" : "hqbreadMFM", "count" : 1 },

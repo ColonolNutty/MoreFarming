@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "orangebellpepperMFM", "count" : 1 },
+    { "item" : "rice", "count" : 4 },
+    { "item" : "tomato", "count" : 2 }
+  ],
+  "output" : { "item" : "stuffedpepperMFM", "count" : 1 },
+  "groups" : [ "craftingfood", "mains", "bakingMFM" ]
+}

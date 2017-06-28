@@ -1,13 +1,12 @@
 {
-  "itemName" : "brusselsproutMFM",
+  "itemName" : "groundgingerMFM",
   "rarity" : "Common",
   "price" : 10,
   "category" : "food",
-  "eventCategory" : "eventCrop",
-  "inventoryIcon" : "brusselsproutMFM.png",
-  "description" : "They look like miniature cabbages!",
-  "shortdescription" : "Brussels sprout",
-  "foodValue" : 10,
+  "inventoryIcon" : "groundgingerMFM.png",
+  "description" : "A pile of milled ginger.",
+  "shortdescription" : "Ground Ginger",
+  "foodValue" : 25,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
@@ -15,5 +14,7 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ]
+  ],
+	"learnBlueprintsOnPickup": [ "gingercookieMFM",
+                               "phoMFM" ]
 }

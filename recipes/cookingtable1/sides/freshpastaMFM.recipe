@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "wheat", "count" : 1 }
+    { "item" : "flourMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
   ],
   "output" : { "item" : "freshpastaMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "sides" ]
+  "groups" : [ "craftingfood", "sides", "boilingMFM" ]
 }

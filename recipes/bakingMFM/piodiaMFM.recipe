@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "flourMFM", "count" : 16 },
-    { "item" : "diodia", "count" : 8 },
-    { "item" : "toxictop", "count" : 8 }
+    { "item" : "pizzadoughMFM", "count" : 1 },
+    { "item" : "diodia", "count" : 4 },
+    { "item" : "toxictop", "count" : 4 }
   ],
   "output" : { "item" : "piodiaMFM", "count" : 1 },
   "groups" : [ "craftingfood", "mains", "bakingMFM" ]

@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "wheat", "count" : 2 },
-    { "item" : "chocolate", "count" : 1 }
+    { "item" : "cookiedoughMFM", "count" : 1 },
+    { "item" : "cocoanibsMFM", "count" : 2 }
   ],
   "output" : { "item" : "chocolatecookieMFM", "count" : 8 },
   "groups" : [ "craftingfood", "desserts", "bakingMFM" ]

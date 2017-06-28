@@ -1,8 +1,7 @@
 {
   "input" : [
-    { "item" : "jelonMFM", "count" : 1 },
-    { "item" : "sugar", "count" : 1 },
-    { "item" : "wheat", "count" : 1 }
+    { "item" : "cookiedoughMFM", "count" : 1 },
+    { "item" : "groundjelonMFM", "count" : 2 }
   ],
   "output" : { "item" : "jeloncookieMFM", "count" : 2 },
   "groups" : [ "craftingfood", "desserts", "bakingMFM" ]

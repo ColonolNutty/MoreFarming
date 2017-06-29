@@ -1,0 +1,27 @@
+{
+  "objectName" : "cn_cheatersrecipebook",
+  "colonyTags" : ["cooking"],
+  "printable" : false,
+  "price" : 100,
+  "rarity" : "Legendary",
+  "category" : "crafting",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/cn_cheatersrecipebook.config"
+  },
+  "description" : "Recipe book for a less realistic experience, best way to ruin immersion",
+  "shortdescription" : "^orange;Cheaters Recipe Book^white;",
+  "race" : "generic",
+  
+  "inventoryIcon" : "cn_cheatersrecipebookicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "cn_cheatersrecipebook.png:<color>",
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "npcToy" : {}
+}

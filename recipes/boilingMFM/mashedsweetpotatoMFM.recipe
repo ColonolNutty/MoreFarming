@@ -1,6 +1,10 @@
 {
   "input" : [
-    { "item" : "sweetpotatoMFM", "count" : 1 }
+    { "item" : "sweetpotatoMFM", "count" : 1 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "butterMFM", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
   ],
   "output" : { "item" : "mashedsweetpotatoMFM", "count" : 1 },
   "groups" : [ "craftingfood", "sides", "boilingMFM" ]

@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "saltMFM", "count" : 1 },
-    { "item" : "sugar", "count" : 3 },
     { "item" : "milk", "count" : 1 },
+    { "item" : "sugar", "count" : 2 },
+    { "item" : "saltMFM", "count" : 1 },
     { "item" : "egg", "count" : 2 },
     { "item" : "butterMFM", "count" : 1 },
     { "item" : "vanillaextractMFM", "count" : 1 }

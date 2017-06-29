@@ -1,0 +1,20 @@
+{
+  "itemName" : "slicedneonmelonMFM",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "slicedneonmelonMFM.png",
+  "description" : "Sliced neonmelon.",
+  "shortdescription" : "Sliced Neonmelon",
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup": [ "neonmelonjuiceMFM" ],
+  "handPosition" : [0, -4]
+}

@@ -3,5 +3,5 @@
     { "item" : "asparagusMFM", "count" : 2 }
   ],
   "output" : { "item" : "grilledasparagusMFM", "count" : 1 },
-  "groups" : [ "campfire", "bakingMFM", "craftingfood", "mains" ]
+  "groups" : [ "campfire", "craftingfood", "mains", "bakingMFM" ]
 }

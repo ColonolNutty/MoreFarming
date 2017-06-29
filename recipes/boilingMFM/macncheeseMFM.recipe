@@ -1,8 +1,12 @@
 {
   "input" : [
     { "item" : "cheese", "count" : 1 },
-    { "item" : "freshpastaMFM", "count" : 1 }
+    { "item" : "butterMFM", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "freshpastaMFM", "count" : 1 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
   ],
-  "output" : { "item" : "macncheeseMFM", "count" : 1 },
+  "output" : { "item" : "macncheeseMFM", "count" : 2 },
   "groups" : [ "craftingfood", "mains", "boilingMFM" ]
 }

@@ -3,5 +3,5 @@
     { "item" : "cupcakebatterMFM", "count" : 1 }
   ],
   "output" : { "item" : "cupcakeMFM", "count" : 1 },
-  "groups" : [ "campfire", "bakingMFM", "craftingfood", "mains" ]
+  "groups" : [ "craftingfood", "mains", "bakingMFM" ]
 }

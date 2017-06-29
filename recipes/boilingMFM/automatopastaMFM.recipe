@@ -1,7 +1,8 @@
 {
   "input" : [
     { "item" : "automato", "count" : 1 },
-    { "item" : "freshpastaMFM", "count" : 1 }
+    { "item" : "freshpastaMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
   ],
   "output" : { "item" : "automatopastaMFM", "count" : 1 },
   "groups" : [ "craftingfood", "mains", "boilingMFM" ]

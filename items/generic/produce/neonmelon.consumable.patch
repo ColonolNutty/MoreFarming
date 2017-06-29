@@ -6,13 +6,18 @@
   [
     { 
       "op": "replace",
+      "path" : "/inventoryIcon", 
+      "value" : "fullneonmelonMFM.png"
+    },
+    { 
+      "op": "replace",
       "path" : "/shortdescription", 
-      "value" : "Sliced Neonmelon"
+      "value" : "Fully Grown Neonmelon"
     },
     {
       "op" : "add",
       "path" : "/learnBlueprintsOnPickup/-",
-      "value" : "neonmelonjuiceMFM"
+      "value" : "slicedneonmelonMFM"
     }
   ]
 ]

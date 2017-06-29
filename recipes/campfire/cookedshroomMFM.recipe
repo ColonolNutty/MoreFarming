@@ -3,5 +3,5 @@
     { "item" : "shroom", "count" : 1 }
   ],
   "output" : { "item" : "cookedshroomMFM", "count" : 1 },
-  "groups" : [ "campfire", "bakingMFM", "craftingfood", "mains" ]
+  "groups" : [ "campfire", "craftingfood", "mains", "bakingMFM" ]
 }

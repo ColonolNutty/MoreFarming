@@ -3,5 +3,5 @@
     { "item" : "automato", "count" : 1 }
   ],
   "output" : { "item" : "driedautomatoMFM", "count" : 1 },
-  "groups" : [ "campfire", "bakingMFM", "craftingfood", "mains" ]
+  "groups" : [ "craftingfood", "mains", "bakingMFM" ]
 }

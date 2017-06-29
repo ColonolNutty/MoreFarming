@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "sugar", "count" : 1 }
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
   ],
   "output" : { "item" : "toffeeMFM", "count" : 1 },
-  "groups" : [ "campfire", "bakingMFM", "craftingfood", "mains" ]
+  "groups" : [ "campfire", "craftingfood", "mains", "bakingMFM" ]
 }

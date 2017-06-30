@@ -1,7 +1,7 @@
 {
   "itemName" : "holidayfruitMFM",
   "rarity" : "Uncommon",
-  "price" : 30,
+  "price" : 60,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "inventoryIcon" : "holidayfruitMFM.png",

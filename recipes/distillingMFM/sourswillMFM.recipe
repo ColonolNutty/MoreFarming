@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "toxictop", "count" : 1 }
+    { "item" : "toxictop", "count" : 2 },
+    { "item" : "liquidwater", "count" : 3 }
   ],
-  "output" : { "item" : "sourswillMFM", "count" : 1 },
+  "output" : { "item" : "sourswillMFM", "count" : 3 },
   "groups" : [ "distillingMFM" ]
 }

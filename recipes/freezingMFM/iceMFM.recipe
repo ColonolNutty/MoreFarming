@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "liquidwater", "count" : 1 }
+    { "item" : "liquidwater", "count" : 2 }
   ],
   "output" : { "item" : "ice", "count" : 1 },
   "groups" : [ "freezingMFM" ]

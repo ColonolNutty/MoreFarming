@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "cottonseed", "count" : 2 }
   ],
-  "output" : { "item" : "seedoilMFM", "count" : 1 },
+  "output" : { "item" : "cookingoilMFM", "count" : 1 },
   "groups" : [ "grindingMFM" ]
 }

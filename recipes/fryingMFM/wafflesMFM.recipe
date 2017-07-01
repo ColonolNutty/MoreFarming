@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "doughMFM", "count" : 4 }
+    { "item" : "doughMFM", "count" : 2 }
   ],
   "output" : { "item" : "wafflesMFM", "count" : 1 },
   "groups" : [ "craftingfood", "mains", "fryingMFM" ]

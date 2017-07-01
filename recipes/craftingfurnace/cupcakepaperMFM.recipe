@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "paper", "count" : 1 }
   ],
-  "output" : { "item" : "cupcakepaperMFM", "count" : 1 },
+  "output" : { "item" : "cupcakepaperMFM", "count" : 6 },
   "groups" : [ "craftingfurnace", "ingredients" ]
 }

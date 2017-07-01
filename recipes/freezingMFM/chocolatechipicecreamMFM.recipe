@@ -1,10 +1,7 @@
 {
   "input" : [
-    { "item" : "milk", "count" : 4 },
-    { "item" : "ice", "count" : 4 },
-    { "item" : "sugar", "count" : 4 },
-    { "item" : "vanillaextractMFM", "count" : 2 },
-    { "item" : "chocolatechipsMFM", "count" : 1 }
+    { "item" : "vanillaicecreamMFM", "count" : 1 },
+    { "item" : "chocolatechipsMFM", "count" : 2 }
   ],
   "output" : { "item" : "chocolatechipicecreamMFM", "count" : 1 },
   "groups" : [ "craftingfood", "desserts", "freezingMFM" ]

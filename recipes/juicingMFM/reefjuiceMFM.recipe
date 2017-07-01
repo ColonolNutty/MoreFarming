@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "reefpod", "count" : 1 }
   ],
-  "output" : { "item" : "reefjuice", "count" : 1 },
+  "output" : { "item" : "reefjuice", "count" : 2 },
   "groups" : [ "juicingMFM" ]
 }

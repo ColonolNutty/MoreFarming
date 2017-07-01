@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "wheat", "count" : 2 }
+    { "item" : "wheat", "count" : 2 },
+    { "item" : "liquidwater", "count" : 3 }
   ],
   "output" : { "item" : "wheatbeerMFM", "count" : 1 },
   "groups" : [ "distillingMFM" ]

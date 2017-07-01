@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "sourswillMFM", "count" : 1 },
-    { "item" : "seedoilMFM", "count" : 2 }
+    { "item" : "cookingoilMFM", "count" : 1 }
   ],
   "output" : { "item" : "foulcocktailMFM", "count" : 2 },
   "groups" : [ "plain", "blendingMFM" ]

@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "tomato", "count" : 1 }
   ],
-  "output" : { "item" : "tomatojuice", "count" : 1 },
+  "output" : { "item" : "tomatojuice", "count" : 2 },
   "groups" : [ "juicingMFM" ]
 }

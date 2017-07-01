@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "snow", "count" : 2 }
+  ],
+  "output" : { "item" : "ice", "count" : 1 },
+  "groups" : [ "freezingMFM" ]
+}

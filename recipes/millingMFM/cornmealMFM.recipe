@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "corn", "count" : 1 }
   ],
-  "output" : { "item" : "cornmealMFM", "count" : 1 },
+  "output" : { "item" : "cornmealMFM", "count" : 3 },
   "groups" : [ "millingMFM" ]
 }

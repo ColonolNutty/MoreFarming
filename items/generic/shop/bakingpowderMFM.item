@@ -6,5 +6,6 @@
   "inventoryIcon" : "bakingpowderMFM.png",
   "description" : "Useful for baking!",
   "shortdescription" : "Baking Powder",
-  "learnBlueprintsOnPickup": [ "bannockMFM" ]
+  "learnBlueprintsOnPickup": [ "bannockMFM",
+                               "cookiedoughMFM" ]
 }

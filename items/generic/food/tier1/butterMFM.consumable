@@ -15,9 +15,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup": [ "puddingMFM",
-                               "sugarcookieMFM",
-                               "toffeecookieMFM",
-                               "toffeecookieMFM" ],
+  "learnBlueprintsOnPickup": [ "puddingMFM" ],
   "handPosition" : [0, -3]
 }

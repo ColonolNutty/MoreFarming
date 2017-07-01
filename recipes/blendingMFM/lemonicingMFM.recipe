@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "lemonjuiceMFM", "count" : 1 },
-    { "item" : "sugar", "count" : 2 }
+    { "item" : "vanillaextractMFM", "count" : 1 }
   ],
   "output" : { "item" : "lemonicingMFM", "count" : 1 },
   "groups" : [ "craftingfood", "snacks", "blendingMFM" ]

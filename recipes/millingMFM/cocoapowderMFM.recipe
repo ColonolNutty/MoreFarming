@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "cocoanibsMFM", "count" : 1 }
   ],
-  "output" : { "item" : "cocoapowderMFM", "count" : 1 },
+  "output" : { "item" : "cocoapowderMFM", "count" : 5 },
   "groups" : [ "millingMFM" ]
 }

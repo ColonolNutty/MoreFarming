@@ -1,7 +1,8 @@
 {
   "input" : [
     { "item" : "egg", "count" : 1 },
-    { "item" : "milk", "count" : 1 }
+    { "item" : "milk", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 }
   ],
   "output" : { "item" : "scrambledeggMFM", "count" : 1 },
   "groups" : [ "craftingfood", "mains", "fryingMFM" ]

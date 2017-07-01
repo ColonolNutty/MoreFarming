@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "potato", "count" : 2 }
+    { "item" : "potato", "count" : 2 },
+    { "item" : "liquidwater", "count" : 6 }
   ],
   "output" : { "item" : "vodkabottleMFM", "count" : 1 },
   "groups" : [ "distillingMFM" ]

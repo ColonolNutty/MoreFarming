@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "blackberryPBJ", "count" : 5 },
-    { "item" : "bottle", "count" : 1 }
+    { "item" : "blackberryPBJ", "count" : 5 }
   ],
   "output" : { "item" : "blackberryjellyPBJ", "count" : 1 },
   "groups" : [ "craftingfood", "condiments", "blendingMFM" ]

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "slush", "count" : 10 }
+    { "item" : "slush", "count" : 2 }
   ],
   "output" : { "item" : "snowcone", "count" : 1 },
   "groups" : [ "craftingfood", "desserts", "freezingMFM" ],

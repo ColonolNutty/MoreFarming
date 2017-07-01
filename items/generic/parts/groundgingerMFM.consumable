@@ -1,0 +1,20 @@
+{
+  "itemName" : "groundgingerMFM",
+  "rarity" : "Common",
+  "price" : 10,
+  "category" : "food",
+  "inventoryIcon" : "groundgingerMFM.png",
+  "description" : "A pile of milled ginger.",
+  "shortdescription" : "Ground Ginger",
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+	"learnBlueprintsOnPickup": [ "gingercookieMFM",
+                               "phoMFM" ]
+}

@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "grapes", "count" : 5 },
-    { "item" : "bottle", "count" : 1 }
+    { "item" : "grapes", "count" : 5 }
   ],
   "output" : { "item" : "grapejellyPBJ", "count" : 1 },
   "groups" : [ "craftingfood", "condiments", "blendingMFM" ]

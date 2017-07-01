@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "flourMFM", "count" : 1 },
-    { "item" : "jelonMFM", "count" : 1 }
+    { "item" : "doughMFM", "count" : 1 },
+    { "item" : "groundjelonMFM", "count" : 1 }
   ],
   "output" : { "item" : "jelonbreadMFM", "count" : 1 },
   "groups" : [ "craftingfood", "sides", "bakingMFM" ]

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "rice", "count" : 1 }
+  ],
+  "output" : { "item" : "flourMFM", "count" : 5 },
+  "groups" : [ "millingMFM" ]
+}

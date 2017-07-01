@@ -1,10 +1,35 @@
 local recipeCrafterMFMApi = {};
+local enableDebug = false;
 
 function recipeCrafterMFMApi.updateOutputSlotWith(recipe)
   storage.outputRecipe = recipe
   local existingOutput = world.containerItemAt(entity.id(), storage.outputSlot)
   if not existingOutput then
+    if enableDebug then
+      sb.logInfo("Setting output item to: " .. storage.outputRecipe.output.name .. " in slot " .. storage.outputSlot)
+    end
     world.containerPutItemsAt(entity.id(), storage.outputRecipe.output, storage.outputSlot)
+    local newOutput = world.containerItemAt(entity.id(), storage.outputSlot)
+    if newOutput == nil then
+      storage.outputPlacedSuccessfully = false
+    elseif newOutput.name == storage.outputRecipe.output.name then
+      storage.outputPlacedSuccessfully = true
+    else
+      storage.outputPlacedSuccessfully = false
+    end
+    if not storage.outputPlacedSuccessfully then
+      if enableDebug then
+        if newOutput ~= nil then
+          sb.logInfo("Output not successfully placed, item found instead: " .. newOutput.name)
+        else
+          sb.logInfo("Output not successfully placed, and no item found at slot " .. storage.outputSlot)
+        end
+      end
+    end
+  else    
+    if enableDebug then
+      sb.logInfo("Could not place output because of existing item with name: " .. existingOutput.name .. " in slot " .. storage.outputSlot)
+    end
   end
 end
 
@@ -40,6 +65,9 @@ function recipeCrafterMFMApi.findOutput(ingredients)
     if recipesForItem ~= nil and #recipesForItem > 0 then
       outputRecipe = recipeCrafterMFMApi.findRecipe(recipesForItem, ingredients)
       if outputRecipe then
+        if enableDebug then
+          sb.logInfo("Found recipe with output name: " .. outputRecipe.output.name)
+        end
         break;
       end
     end
@@ -95,10 +123,14 @@ function init(virtual)
   end
   storage.slotCount = config.getParameter("slotCount", 16)
   storage.outputSlot = config.getParameter("outputSlot", storage.slotCount) - 1
+  if enableDebug then
+    sb.logInfo("Setting output slot to: " .. storage.outputSlot)
+  end
   if storage.outputSlot < 0 then
     storage.outputSlot = 0
   end
   storage.outputRecipe = nil
+  storage.outputPlacedSuccessfully = false
 end
 
 function update(dt)
@@ -132,18 +164,25 @@ function update(dt)
 end
 
 function recipeCrafterMFMApi.consumeIngredientsIfOutputTaken()
-  if storage.outputRecipe == nil then
+  if storage.outputRecipe == nil or not storage.outputPlacedSuccessfully then
     return
+  end
+  if enableDebug then
+    sb.logInfo("Consuming ingredients for recipe with output: " .. storage.outputRecipe.output.name)
   end
   local outputSlotItem = world.containerItemAt(entity.id(), storage.outputSlot)
   if outputSlotItem == nil then
     for _,input in ipairs(storage.outputRecipe.input) do
+      if enableDebug then
+        sb.logInfo("Consuming ingredient with name: " .. input.name)
+      end
       world.containerConsume(entity.id(), input)
     end
     if animator.hasSound("onCraft") then
       animator.playSound("onCraft")
     end
     storage.outputRecipe = nil
+    storage.outputPlacedSuccessfully = false
     return
   end
   local recipeOutput = storage.outputRecipe.output
@@ -171,6 +210,7 @@ function recipeCrafterMFMApi.removeOutput()
   local outputSlotItem = world.containerItemAt(entity.id(), storage.outputSlot)
   if not outputSlotItem then
     storage.outputRecipe = nil
+    storage.outputPlacedSuccessfully = false
     return
   end
   
@@ -184,6 +224,7 @@ function recipeCrafterMFMApi.removeOutput()
   end
   -- If output still exists, we ignore it and prevent adding new output
   storage.outputRecipe = nil
+  storage.outputPlacedSuccessfully = false
 end
 
 function recipeCrafterMFMApi.validateCurrentRecipe(recipe, ingredients)

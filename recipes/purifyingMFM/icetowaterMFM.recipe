@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "ice", "count" : 1 }
   ],
-  "output" : { "item" : "liquidwater", "count" : 1 },
+  "output" : { "item" : "liquidwater", "count" : 2 },
   "groups" : [ "purifyingMFM" ]
 }

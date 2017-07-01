@@ -1,8 +1,13 @@
 {
   "input" : [
-    { "item" : "wheat", "count" : 15 },
-    { "item" : "sugar", "count" : 10 },
-    { "item" : "egg", "count" : 5 }
+    { "item" : "flourMFM", "count" : 3 },
+    { "item" : "bakingpowderMFM", "count" : 2 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "butterMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 3 },
+    { "item" : "egg", "count" : 2 },
+    { "item" : "vanillaextractMFM", "count" : 1 },
+    { "item" : "milk", "count" : 1 }
   ],
   "output" : { "item" : "bdaycakeMFM", "count" : 1 },
   "groups" : [ "craftingfood", "desserts", "bakingMFM" ]

@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "jelonMFM", "count" : 1 }
   ],
-  "output" : { "item" : "jelonjuiceMFM", "count" : 1 },
+  "output" : { "item" : "jelonjuiceMFM", "count" : 2 },
   "groups" : [ "juicingMFM" ]
 }

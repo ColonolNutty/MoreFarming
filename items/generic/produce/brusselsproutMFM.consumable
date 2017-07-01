@@ -5,7 +5,7 @@
   "category" : "food",
   "eventCategory" : "eventCrop",
   "inventoryIcon" : "brusselsproutMFM.png",
-  "description" : "they look like miniature cabbages!",
+  "description" : "They look like miniature cabbages!",
   "shortdescription" : "Brussels sprout",
   "foodValue" : 10,
   "tooltipKind" : "food",

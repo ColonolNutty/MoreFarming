@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "redapple", "count" : 1 }
-  ],
-  "output" : { "item" : "appleciderMFM", "count" : 1 },
-  "groups" : [ "juicingMFM" ]
-}

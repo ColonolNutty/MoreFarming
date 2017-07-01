@@ -43,6 +43,11 @@
       "op" : "add",
       "path" : "/learnBlueprintsOnPickup/-",
       "value" : "sugarblockMFM"
+    },
+    {
+      "op" : "add",
+      "path" : "/learnBlueprintsOnPickup/-",
+      "value" : "cookiedoughMFM"
     }
   ]
 ]

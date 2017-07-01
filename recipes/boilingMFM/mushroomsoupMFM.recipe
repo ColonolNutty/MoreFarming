@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "shroom", "count" : 2 }
+    { "item" : "shroom", "count" : 2 },
+    { "item" : "liquidwater", "count" : 2 }
   ],
   "output" : { "item" : "mushroomsoupMFM", "count" : 1 },
   "groups" : [ "craftingfood", "mains", "boilingMFM" ]

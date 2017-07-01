@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "milk", "count" : 4 },
-    { "item" : "ice", "count" : 4 },
-    { "item" : "sugar", "count" : 4 },
+    { "item" : "milk", "count" : 2 },
+    { "item" : "ice", "count" : 2 },
+    { "item" : "sugar", "count" : 2 },
     { "item" : "vanillaextractMFM", "count" : 2 }
   ],
   "output" : { "item" : "vanillaicecreamMFM", "count" : 1 },

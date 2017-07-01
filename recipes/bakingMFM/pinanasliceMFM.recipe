@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "flourMFM", "count" : 2 },
-    { "item" : "jelonMFM", "count" : 1 },
-    { "item" : "banana", "count" : 1 }
-  ],
-  "output" : { "item" : "pinanasliceMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "bakingMFM" ]
-}

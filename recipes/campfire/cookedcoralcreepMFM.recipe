@@ -3,5 +3,5 @@
     { "item" : "coralcreep", "count" : 1 }
   ],
   "output" : { "item" : "cookedcoralcreepMFM", "count" : 1 },
-  "groups" : [ "campfire", "bakingMFM", "craftingfood", "mains" ]
+  "groups" : [ "campfire", "craftingfood", "mains", "bakingMFM" ]
 }

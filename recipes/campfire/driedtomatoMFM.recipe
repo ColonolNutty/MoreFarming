@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "tomato", "count" : 1 }
-  ],
-  "output" : { "item" : "driedtomatoMFM", "count" : 1 },
-  "groups" : [ "campfire", "bakingMFM", "craftingfood", "mains" ]
-}

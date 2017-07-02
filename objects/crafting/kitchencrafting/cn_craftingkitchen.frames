@@ -3,12 +3,7 @@
     "size" : [32, 28],
     "dimensions" : [1, 1],
     "names" : [
-      [ "default.1" ]
-
+      [ "default" ]
     ]
-  },
-
-  "aliases" : {
-    "default.default" : "default.1"
   }
 }

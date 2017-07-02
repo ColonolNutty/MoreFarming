@@ -4,7 +4,7 @@
   "printable" : false,
   "rarity" : "Common",
   "description" : "A freezer, I could make ice or ice cream with this, among other things.",
-  "shortdescription" : "Freezer",
+  "shortdescription" : "Freezer (Freeze)",
   "race" : "generic",
   "objectType" : "container",
   "tooltipKind" : "container",

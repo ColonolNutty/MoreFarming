@@ -5,7 +5,7 @@
   "printable" : false,
   "rarity" : "Common",
   "description" : "I can fry food with this!",
-  "shortdescription" : "^orange;Frying Pan (Frying)^white;",
+  "shortdescription" : "^orange;Frying Pan (Fry)^white;",
   "subtitle" : "Fry Food!",
   "race" : "generic",
   "category" : "Cookware",

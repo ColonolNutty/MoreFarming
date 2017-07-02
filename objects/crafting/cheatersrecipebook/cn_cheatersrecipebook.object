@@ -10,7 +10,7 @@
     "config" : "/interface/windowconfig/cn_cheatersrecipebook.config"
   },
   "description" : "Recipe book for a less realistic experience, best way to ruin immersion",
-  "shortdescription" : "^orange;Cheaters Recipe Book^white;",
+  "shortdescription" : "^orange;Cheaters Recipe Book (MFM)^white;",
   "race" : "generic",
   
   "inventoryIcon" : "cn_cheatersrecipebookicon.png",

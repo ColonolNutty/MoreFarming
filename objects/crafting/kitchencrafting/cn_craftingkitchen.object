@@ -13,15 +13,6 @@
   "interactData" : {
     "config" : "/interface/windowconfig/cn_craftingkitchen.config"
   },
-  
-  "animationState" : "cn_craftingkitchen",
-  
-  "animation" : "cn_craftingkitchen.animation",
-  "animationPosition" : [0, 14],
-  
-  "inventoryIcon" : "cn_craftingkitchenicon.png",
-  "placementImage" : "cn_craftingkitchen.png:default.default",
-  "placementImagePosition" : [-16, 0],
 
   "apexDescription" : "A table that's fit for kitchen appliance crafting.",
   "avianDescription" : "A chance to showcase one's kitchen appliance creation abilities.",
@@ -31,19 +22,11 @@
   "hylotlDescription" : "All you need to make kitchen appliances",
   "novakidDescription" : "I could make some mighty fine kitchen appliances with this table.",
 
+  "inventoryIcon" : "cn_craftingkitchenicon.png",
   "orientations" : [
     {
-      "image" : "cn_craftingkitchen.png:<color>.<frame>",
+      "dualImage" : "cn_craftingkitchen.png:default",
       "imagePosition" : [-16, 0],
-      "direction" : "left",
-      "flipImages" : true,
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "image" : "cn_craftingkitchen.png:<color>.<frame>",
-      "imagePosition" : [-16, 0],
-      "direction" : "right",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }

@@ -2,7 +2,7 @@
   "objectName" : "distilleryMFM",
   "rarity" : "Common",
   "description" : "A distillery. For making... you know...",
-  "shortdescription" : "Distillery",
+  "shortdescription" : "Distillery (Distill)",
   "race" : "generic",
   "subtitle" : "Grownups only!",
   "category" : "crafting",

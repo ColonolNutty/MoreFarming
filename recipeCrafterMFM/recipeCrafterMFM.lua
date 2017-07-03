@@ -35,7 +35,13 @@ end
 
 function recipeCrafterMFMApi.recipeCanBeCrafted(recipe)
   if storage.recipeGroup == nil then
-    return true
+    if enableDebug then
+      sb.logInfo("No Recipe Group specified")
+    end
+    return false
+  end
+  if enableDebug then
+    sb.logInfo("Recipe group specified: " .. storage.recipeGroup)
   end
   local canBeCrafted = false
   for _,group in ipairs(recipe.groups) do
@@ -131,6 +137,7 @@ function init(virtual)
   end
   storage.outputRecipe = nil
   storage.outputPlacedSuccessfully = false
+  storage.recipeGroup = config.getParameter("recipeGroup")
 end
 
 function update(dt)

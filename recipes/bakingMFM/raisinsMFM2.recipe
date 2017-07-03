@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "grapes", "count" : 1 }
+    { "item" : "cookedgrapesMFM", "count" : 1 }
   ],
   "output" : { "item" : "raisinsMFM", "count" : 1 },
   "groups" : [ "campfire", "craftingfood", "mains", "bakingMFM" ]

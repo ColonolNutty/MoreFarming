@@ -1,10 +1,10 @@
 {
   "itemName" : "raisinsMFM",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 20,
   "category" : "preparedFood",
   "inventoryIcon" : "raisinsMFM.png",
-  "description" : "Raisins.",
+  "description" : "Dried grapes. Also known as Raisins.",
   "shortdescription" : "Raisins",
   "foodValue" : 25,
   "tooltipKind" : "food",

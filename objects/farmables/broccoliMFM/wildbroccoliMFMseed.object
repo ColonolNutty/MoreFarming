@@ -11,6 +11,8 @@
   "price" : 100,
   "hasObjectItem" : false,
 
+  "biomePlaced" : true,
+
   "apexDescription" : "Seeds for broccoli!",
   "avianDescription" : "Seeds for broccoli!",
   "floranDescription" : "Ssseeds for broccoli!",

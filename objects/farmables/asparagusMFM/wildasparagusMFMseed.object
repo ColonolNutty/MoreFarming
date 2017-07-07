@@ -11,6 +11,8 @@
   "price" : 100,
   "hasObjectItem" : false,
 
+  "biomePlaced" : true,
+
   "apexDescription" : "Seeds for asparagus!",
   "avianDescription" : "Seeds for asparagus!",
   "floranDescription" : "Ssseeds for asparagusss!",

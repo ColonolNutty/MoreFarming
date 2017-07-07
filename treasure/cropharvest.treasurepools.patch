@@ -210,25 +210,6 @@
   },
   {
     "op" : "add",
-    "path" : "/coffeeMFMHarvest",
-    "value" : [ [0, {
-        "fill" : [
-          {"item" : "coffeeseed"}
-        ],
-        "pool" : [
-          {"weight" : 0.89, "item" : "coffeebeans"},
-          {"weight" : 0.01, "item" : "coffeeseed"},
-          {"weight" : 0.1, "item" : "plantfibre"}
-        ],
-        "poolRounds" : [
-          [0.6, 1],
-          [0.4, 2]
-        ]
-      } ]
-    ]
-  },
-  {
-    "op" : "add",
     "path" : "/artichokeMFMHarvest",
     "value" : [ [0, {
         "fill" : [
@@ -955,7 +936,8 @@
           {"item" : "saguaroMFMseed"}
         ],
         "pool" : [
-          {"weight" : 0.89, "item" : "saguaroMFMseed"},
+          {"weight" : 0.80, "item" : "liquidwater"},
+          {"weight" : 0.1, "item" : "saguaroMFMseed"},
           {"weight" : 0.1, "item" : "fullwood1"}
         ],
         "poolRounds" : [
@@ -973,9 +955,9 @@
           {"item" : "greatbambooMFMseed"}
         ],
         "pool" : [
-          {"weight" : 0.89, "item" : "greatbambooMFMseed"},
-          {"weight" : 0.1, "item" : "bambooBMBshoot"},
-          {"weight" : 0.89, "item" : "bamboostalkBMB"}
+          {"weight" : 0.5, "item" : "bambooBMBshoot"},
+          {"weight" : 0.5, "item" : "bamboostalkBMB"},
+          {"weight" : 0.1, "item" : "greatbambooMFMseed"}
         ],
         "poolRounds" : [
           [0.6, 2],
@@ -1110,7 +1092,7 @@
           {"item" : "orangeMFMseed"}
         ], 
         "pool" : [
-          {"weight" : 0.6, "item" : "orangeMFM"},
+          {"weight" : 0.6, "item" : "orange"},
           {"weight" : 0.2, "item" : "orangeMFMseed"},
           {"weight" : 0.2, "item" : "plantfibre"}
         ],
@@ -1148,7 +1130,8 @@
           {"item" : "yeastMFMseed"}
         ], 
         "pool" : [
-          {"weight" : 1, "item" : "yeastMFM"}
+          {"weight" : 0.89, "item" : "yeastMFM"},
+          {"weight" : 0.1, "item" : "yeastMFMseed"}
         ],
         "poolRounds" : [
           [0.6, 3],
@@ -1175,9 +1158,9 @@
           {"item" : "rattanMFMseed"}
         ],
         "pool" : [
-          {"weight" : 0.33, "item" : [ "rattanfiberMFM", 3]},
-          {"weight" : 0.44, "item" : [ "rattannutMFM", 2]},
-          {"weight" : 0.22, "item" : [ "plantfibre", 1]}
+          {"weight" : 0.5, "item" : "rattanfiberMFM"},
+          {"weight" : 0.4, "item" : "rattannutMFM"},
+          {"weight" : 0.1, "item" : "rattanMFMseed"}
         ],
         "poolRounds" : [
           [0.3, 1],
@@ -1194,9 +1177,9 @@
           {"item" : "garpberryMFMseed"}
         ],
         "pool" : [
-          {"weight" : 0.6, "item" : [ "garpberryMFMseed", 1]},
-          {"weight" : 0.2, "item" : [ "garpberryMFM", 3]},
-          {"weight" : 0.2, "item" : [ "plantfibre", 3]}
+          {"weight" : 0.6, "item" : "garpberryMFM"},
+          {"weight" : 0.2, "item" : "garpberryMFMseed"},
+          {"weight" : 0.2, "item" : "plantfibre"}
         ],
         "poolRounds" : [
           [0.7, 2],
@@ -1212,8 +1195,8 @@
           {"item" : "palsterstickMFMseed"}
         ],
         "pool" : [
-          {"weight" : 0.8, "item" : [ "palsterstickMFM", 3]},
-          {"weight" : 0.2, "item" : [ "palsterstickMFMseed", 1]}
+          {"weight" : 0.8, "item" : "palsterstickMFM"},
+          {"weight" : 0.2, "item" : "palsterstickMFMseed"}
         ],
         "poolRounds" : [
           [0.7, 2],
@@ -1229,9 +1212,9 @@
           {"item" : "finkelMFMseed"}
         ],
         "pool" : [
-          {"weight" : 0.6, "item" : [ "finkelMFM", 3]},
-          {"weight" : 0.2, "item" : [ "finkelMFMseed", 1]},
-          {"weight" : 0.2, "item" : [ "plantfibre", 1]}
+          {"weight" : 0.6, "item" : "finkelMFM"},
+          {"weight" : 0.2, "item" : "finkelMFMseed"},
+          {"weight" : 0.2, "item" : "plantfibre"}
         ],
         "poolRounds" : [
           [0.7, 2],
@@ -1249,6 +1232,7 @@
         ],
         "pool" : [
           {"weight" : 0.89, "item" : "soybeanMFM"},
+          {"weight" : 0.1, "item" : "soybeanMFMseed"},
           {"weight" : 0.1, "item" : "plantfibre"}
         ],
         "poolRounds" : [

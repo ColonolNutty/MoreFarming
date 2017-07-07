@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "orange", "count" : 1 }
+    { "item" : "orangeMFM", "count" : 1 }
   ],
   "output" : { "item" : "orangejuiceMFM", "count" : 2 },
   "groups" : [ "juicingMFM" ]

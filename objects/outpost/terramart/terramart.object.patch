@@ -26,7 +26,7 @@
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "mangoMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "onionMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "orangebellpepperMFM" } },
-  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "orangeMFM" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "orange" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "palsterstickMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "parsnipMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "peaMFM" } },

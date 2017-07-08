@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "raspberryPBJ", "count" : 10 }
+  ],
+  "output" : { "item" : "raspberryPBJseed", "count" : 1 },
+  "groups" : [ "germinatingMFM", "fruitMFM" ]
+}

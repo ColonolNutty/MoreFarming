@@ -1,0 +1,48 @@
+{
+  "objectName" : "eggplantMFMseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "tooltipKind" : "seed",
+  "description" : "Eggplant, the plant of a 100 different flavours.",
+  "shortdescription" : "Eggplant Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 5,
+
+  "apexDescription" : "Eggplant.",
+  "avianDescription" : "Eggplant.",
+  "floranDescription" : "Eggplant.",
+  "glitchDescription" : "Eggplant.",
+  "humanDescription" : "Eggplant.",
+  "hylotlDescription" : "Eggplant.",
+
+  "inventoryIcon" : "eggplantMFMseedicon.png",
+  "largeImage" : "eggplantMFMseed.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "eggplantMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [1320, 1321]
+    },
+    {
+      "duration" : [320, 321]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "eggplantMFMHarvest",
+      "resetToStage" : 1
+    }
+  ],
+  "maxImmersion" : 0.25
+}

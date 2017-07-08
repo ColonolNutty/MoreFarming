@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "rutabagaMFM", "count" : 10 }
+  ],
+  "output" : { "item" : "rutabagaMFMseed", "count" : 1 },
+  "groups" : [ "germinatingMFM", "vegetableMFM" ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "bambooBMBshoot", "count" : 10 }
+  ],
+  "output" : { "item" : "greatbambooMFMseed", "count" : 1 },
+  "groups" : [ "germinatingMFM", "grassMFM" ]
+}

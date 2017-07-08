@@ -20,6 +20,44 @@
   },
   {
     "op" : "add",
+    "path" : "/coconutMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "coconutpalmMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "coconut"},
+          {"weight" : 0.01, "item" : "coconutpalmMFMseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/eggplantMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "eggplantMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "eggplantMFM"},
+          {"weight" : 0.01, "item" : "eggplantMFMseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/grapefruitMFMHarvest",
     "value" : [ [0, {
         "fill" : [

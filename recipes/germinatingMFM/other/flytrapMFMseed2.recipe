@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "flytrapMFMplanter", "count" : 10 }
+  ],
+  "output" : { "item" : "flytrapMFMseed", "count" : 2 },
+  "groups" : [ "germinatingMFM", "otherMFM" ]
+}

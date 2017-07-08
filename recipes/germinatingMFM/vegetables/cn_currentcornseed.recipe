@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "currentcorn", "count" : 10 }
+  ],
+  "output" : { "item" : "currentcornseed", "count" : 1 },
+  "groups" : [ "germinatingMFM", "vegetableMFM" ]
+}

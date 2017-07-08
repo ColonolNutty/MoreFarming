@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 10 },
+    { "item" : "darkwoodmaterial", "count" : 15 },
+    { "item" : "dirtmaterial", "count" : 10 }
+  ],
+  "output" : { "item" : "seedtableMFM", "count" : 1 },
+  "groups" : [ "inventorstable", "craftingstations", "all" ]
+}

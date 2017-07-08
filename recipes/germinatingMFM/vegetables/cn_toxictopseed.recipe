@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "toxictop", "count" : 10 }
+  ],
+  "output" : { "item" : "toxictopseed", "count" : 1 },
+  "groups" : [ "germinatingMFM", "vegetableMFM" ]
+}

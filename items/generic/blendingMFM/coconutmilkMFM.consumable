@@ -1,0 +1,19 @@
+{
+  "itemName" : "coconutmilkMFM",
+  "rarity" : "Uncommon",
+  "price" : 20,
+  "category" : "drink",
+  "inventoryIcon" : "coconutmilkMFM.png",
+  "description" : "Savoury coconut milk.",
+  "shortdescription" : "Coconut Milk",
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

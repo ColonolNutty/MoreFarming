@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "garpberryMFM", "count" : 10 }
+  ],
+  "output" : { "item" : "garpberryMFMseed", "count" : 1 },
+  "groups" : [ "germinatingMFM", "vegetableMFM" ]
+}

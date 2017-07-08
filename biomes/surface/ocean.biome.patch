@@ -16,8 +16,8 @@
 						[1, "wildcocoaseed"],
 						[1, "wildgingerMSMseed"],
 						[1, "wildjalapenopepperMFMseed"],
-						[1, "wildvanillabeanMFMseed"],
-						[1, "wildrattanMFMseed"]
+						[1, "wildrattanMFMseed"],
+						[1, "wildvanillabeanMFMseed"]
 					],
 					"parameters" : {
 						"startingStage" : 3
@@ -40,9 +40,11 @@
 				{
 					"pool" : [
 						[1, "wildcinnamonMFMseed" ],
+						[1, "wildcoconutpalmMFMseed" ],
+						[1, "wildeggplantMFMseed" ],
 						[1, "wildgrapefruitMFMseed" ],
-						[1, "wildlemonMFMseed" ],
 						[1, "wildjelonMFMseed" ],
+						[1, "wildlemonMFMseed" ],
 						[1, "wildlimeMFMseed" ],
 						[1, "wildmangoMFMseed" ],
 						[1, "wildorangeMFMseed" ],

@@ -14,17 +14,17 @@
 					"pool" : [
 						[1, "wildavocadoMFMseed" ],
 						[1, "wildbambooBMBshoot" ],
+						[1, "wildbellpepperMFMseed"],
 						[1, "wildcocoaseed" ],
 						[1, "wildgingerMSMseed" ],
+						[1, "wildjalapenopepperMFMseed"],
 						[1, "wildlettuceMFMseed" ],
 						[1, "wildparsnipMFMseed" ],
 						[1, "wildpeanutPBJseed"],
-						[1, "wildvanillabeanMFMseed"],
-						[1, "wildbellpepperMFMseed"],
-						[1, "wildjalapenopepperMFMseed"],
 						[1, "wildradishMFMseed"],
+						[1, "wildrattanMFMseed"],
 						[1, "wildreedBMBsprout"],
-						[1, "wildrattanMFMseed"]
+						[1, "wildvanillabeanMFMseed"]
 					],
 					"parameters" : {
 						"startingStage" : 3
@@ -47,7 +47,9 @@
 				{
 					"pool" : [
 						[1, "wildcinnamonMFMseed" ],
+						[1, "wildcoconutpalmMFMseed" ],
 						[1, "wilddungrootMFMseed" ],
+						[1, "wildeggplantMFMseed" ],
 						[1, "wildflytrapMFMseed"],
 						[1, "wildgrapefruitMFMseed" ],
 						[1, "wildgreatbambooMFMseed"],

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "jalapenopepperMFM", "count" : 10 }
+  ],
+  "output" : { "item" : "jalapenopepperMFMseed", "count" : 1 },
+  "groups" : [ "germinatingMFM", "vegetableMFM" ]
+}

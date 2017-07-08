@@ -64,8 +64,9 @@
 			"objectSets" : [
         {
           "pool" : [
-            [1, "wildjelonalienMFMseed" ],
-            [1, "wildgarpberryMFMseed" ]
+            [1, "wildcoconutpalmMFMseed" ],
+            [1, "wildgarpberryMFMseed" ],
+            [1, "wildjelonalienMFMseed" ]
           ],
           "parameters" : {
             "startingStage" : 2

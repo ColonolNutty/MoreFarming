@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "reefpod", "count" : 10 }
+  ],
+  "output" : { "item" : "reefpodseed", "count" : 1 },
+  "groups" : [ "germinatingMFM", "otherMFM" ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "preparedcoconutMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "coconutchunksMFM", "count" : 5 },
+  "groups" : [ "craftingfood", "condiments", "choppingMFM" ]
+}

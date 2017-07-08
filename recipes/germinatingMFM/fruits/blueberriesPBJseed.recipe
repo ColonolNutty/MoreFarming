@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "blueberriesPBJ", "count" : 10 }
+  ],
+  "output" : { "item" : "blueberriesPBJseed", "count" : 1 },
+  "groups" : [ "germinatingMFM", "fruitMFM" ]
+}

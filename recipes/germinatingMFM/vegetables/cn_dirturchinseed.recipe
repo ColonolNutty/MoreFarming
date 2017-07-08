@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "dirturchin", "count" : 10 }
+  ],
+  "output" : { "item" : "dirturchinseed", "count" : 1 },
+  "groups" : [ "germinatingMFM", "vegetableMFM" ]
+}

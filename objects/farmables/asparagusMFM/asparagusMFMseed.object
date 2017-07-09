@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 100,
   "tooltipKind" : "seed",
-  "description" : "asparagus",
+  "description" : "Seeds for asparagus!",
   "shortdescription" : "Asparagus Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for asparagus!",
-  "avianDescription" : "Seeds for asparagus!",
   "floranDescription" : "Ssseeds for asparagusss!",
   "glitchDescription" : "Identify. Asparagus seeds.",
   "humanDescription" : "Oh sweet! Asparagus seeds!",
-  "hylotlDescription" : "Seeds for asparagus.",
 
   "inventoryIcon" : "asparagusMFMseedicon.png",
   "largeImage" : "asparagusMFMseed.png:default.3.0",
@@ -33,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [1000, 1060]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [480, 540]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [420, 480]
     },
     {
       "alts" : 5,

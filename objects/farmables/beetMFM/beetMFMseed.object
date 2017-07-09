@@ -3,12 +3,12 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 100,
   "tooltipKind" : "seed",
   "description" : "beet",
   "shortdescription" : "Beet Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
   "apexDescription" : "Seeds for beets!",
   "avianDescription" : "Seeds for beets!",
@@ -33,14 +33,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [1260, 1320]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [480, 540]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [420, 480]
     },
     {
       "alts" : 5,

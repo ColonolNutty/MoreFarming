@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "seed",
   "tooltipKind" : "seed",
-  "description" : "Eggplant, the plant of a 100 different flavours.",
+  "description" : "Eggplant, the plant of 100 different flavours.",
   "shortdescription" : "Eggplant Seed",
   "objectType" : "farmable",
   "printable" : false,

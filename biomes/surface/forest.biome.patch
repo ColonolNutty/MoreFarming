@@ -51,12 +51,13 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildoatsMFMseed" ],
-						[1, "wildpumpkinMFMseed"],
-						[1, "wildjelonMFMseed" ],
 						[1, "wildappleMFMseed" ],
-						[1, "wildportabelloMFMseed" ],
 						[1, "wilddungrootMFMseed" ],
+						[1, "wildgreenappleMFMseed" ],
+						[1, "wildjelonMFMseed" ],
+						[1, "wildoatsMFMseed" ],
+						[1, "wildportabelloMFMseed" ],
+						[1, "wildpumpkinMFMseed"],
 						[1, "wildsoybeanMFMseed" ]
 				  ],
 					"parameters" : {

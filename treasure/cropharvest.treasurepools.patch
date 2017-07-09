@@ -1067,6 +1067,25 @@
   },
   {
     "op" : "add",
+    "path" : "/greenappleMFMHarvest",
+    "value" : [ [0, {
+        "fill": [
+          {"item" : "greenappleMFMseed"}
+        ], 
+        "pool" : [
+          {"weight" : 0.89, "item" : "greenapple"},
+          {"weight" : 0.01, "item" : "greenappleMFMseed"},
+          {"weight" : 0.001, "item" : "goldenappleMFM"}
+        ],
+        "poolRounds" : [
+          [0.7, 2],
+          [0.3, 3]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/appleMFMHarvest",
     "value" : [ [0, {
         "fill": [
@@ -1075,7 +1094,6 @@
         "pool" : [
           {"weight" : 0.6, "item" : "redapple"},
           {"weight" : 0.2, "item" : "appleMFMseed"},
-          {"weight" : 0.2, "item" : "greenapple"},
           {"weight" : 0.001, "item" : "goldenappleMFM"}
         ],
         "poolRounds" : [

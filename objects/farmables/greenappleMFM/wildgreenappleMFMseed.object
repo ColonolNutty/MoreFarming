@@ -1,0 +1,51 @@
+{
+  "objectName" : "wildgreenappleMFMseed",
+  "rarity" : "Common",
+  "colonyTags" : ["nature"],
+  "category" : "seed",
+  "price" : 20,
+  "tooltipKind" : "seed",
+  "description" : "Some green apples can grow from here.",
+  "shortdescription" : "Green Apple Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "hasObjectItem" : false,
+
+  "biomePlaced" : true,
+
+  "floranDescription" : "Ssssome green apples can grow from here.",
+  "glitchDescription" : "Statement. Green Apples grow from here.",
+  "humanDescription" : "How American can it get?",
+
+  "inventoryIcon" : "greenappleMFMseedicon.png",
+  "largeImage" : "greenappleMFMseed.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "greenappleMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "stages" : [
+    {
+      "duration" : [2820, 2940]
+    },
+    {
+      "duration" : [300, 420]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "greenappleMFMHarvest",
+      "resetToStage" : 1
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "greenappleMFMseed", 1, { } ] ]
+  ]
+}

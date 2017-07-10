@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 20,
   "tooltipKind" : "seed",
-  "description" : "Seeds for avocados!",
+  "description" : "Seeds for Avocados!",
   "shortdescription" : "Avocado Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -15,7 +15,7 @@
 
   "floranDescription" : "Ssseeds for avocadosss!",
   "glitchDescription" : "Identify. avocado seeds.",
-  "humanDescription" : "Oh sweet! avocado seeds!",
+  "humanDescription" : "Good for making guacamole!",
 
   "inventoryIcon" : "avocadoMFMseedicon.png",
   "largeImage" : "avocadoMFMseed.png:default.3.0",
@@ -33,14 +33,14 @@
   ],
   "stages" : [
     {
-      "duration" : [1260, 1320]
+      "duration" : [4680, 4680]
     },
     {
-      "duration" : [480, 540]
+      "duration" : [1560, 1560]
     },
     {
       "alts" : 5,
-      "duration" : [420, 480]
+      "duration" : [480, 480]
     },
     {
       "alts" : 5,

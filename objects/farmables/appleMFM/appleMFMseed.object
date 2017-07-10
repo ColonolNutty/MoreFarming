@@ -5,12 +5,12 @@
   "category" : "seed",
   "price" : 10,
   "tooltipKind" : "seed",
-  "description" : "Some red apples can grow from here.",
+  "description" : "This tree produces Red Apples.\nFirst Harvest: 365 mins\nRe-Harvest: 22 mins",
   "shortdescription" : "Red Apple Seed",
   "objectType" : "farmable",
   "printable" : false,
 
-  "floranDescription" : "Sssome red applesss can grow from here.",
+  "floranDescription" : "Growss Red Apples.",
   "glitchDescription" : "Statement. Red Apples grow from here.",
   "humanDescription" : "How American can it get?",
 
@@ -26,16 +26,15 @@
       "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-
     }
   ],
   
   "stages" : [
     {
-      "duration" : [3000, 3600]
+      "duration" : [20580, 20580]
     },
     {
-      "duration" : [600, 660]
+      "duration" : [1320, 1320]
     },
     {
       "alts" : 5,

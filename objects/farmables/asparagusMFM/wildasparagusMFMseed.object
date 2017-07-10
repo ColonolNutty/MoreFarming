@@ -3,9 +3,9 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
-  "price" : 100,
+  "price" : 20,
   "tooltipKind" : "seed",
-  "description" : "Seeds for asparagus!",
+  "description" : "Seeds for Asparagus!",
   "shortdescription" : "Asparagus Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -15,7 +15,7 @@
 
   "floranDescription" : "Ssseeds for asparagusss!",
   "glitchDescription" : "Identify. Asparagus seeds.",
-  "humanDescription" : "Oh sweet! Asparagus seeds!",
+  "humanDescription" : "Makes your pee stink...",
 
   "inventoryIcon" : "asparagusMFMseedicon.png",
   "largeImage" : "asparagusMFMseed.png:default.3.0",
@@ -33,10 +33,10 @@
   ],
   "stages" : [
     {
-      "duration" : [1000, 1060]
+      "duration" : [9600, 9660]
     },
     {
-      "duration" : [480, 540]
+      "duration" : [780, 840]
     },
     {
       "alts" : 5,
@@ -48,8 +48,9 @@
       "resetToStage" : 2
     }
   ],
+  "maxImmersion" : 0.25,
+  
   "breakDropOptions" : [
     [ [ "asparagusMFMseed", 1, { } ] ]
-  ],
-  "maxImmersion" : 0.25
+  ]
 }

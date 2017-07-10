@@ -5,14 +5,14 @@
   "category" : "seed",
   "price" : 20,
   "tooltipKind" : "seed",
-  "description" : "Seeds for artichokes!\nFirst Harvest Time: 95 minutes\nRe-Harvest Time: 8 minutes",
+  "description" : "Seeds for Artichokes!\nFirst Harvest: 45 mins\nRe-Harvest: 8 mins",
   "shortdescription" : "Artichoke Seeds",
   "objectType" : "farmable",
   "printable" : false,
 
-  "floranDescription" : "Ssseeds for artichokesss!",
-  "glitchDescription" : "Identify. artichoke seeds.",
-  "humanDescription" : "Oh sweet! artichoke seeds!",
+  "floranDescription" : "Ssseeds for Artichokesss!",
+  "glitchDescription" : "Identify. Artichoke seeds.",
+  "humanDescription" : "The heart of any dish!",
 
   "inventoryIcon" : "artichokeMFMseedicon.png",
   "largeImage" : "artichokeMFMseed.png:default.3.0",
@@ -30,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [3325, 3325]
+      "duration" : [1500, 1560]
     },
     {
-      "duration" : [1900, 1900]
+      "duration" : [900, 900]
     },
     {
       "alts" : 5,
-      "duration" : [475, 475]
+      "duration" : [420, 420]
     },
     {
       "alts" : 5,

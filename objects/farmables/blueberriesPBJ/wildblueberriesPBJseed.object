@@ -3,20 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 50,
   "tooltipKind" : "seed",
-  "description" : "The seeds for a blueberry plant.",
+  "description" : "Produces Blueberries.",
   "shortdescription" : "Blueberry Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
 
-  "apexDescription" : "Seeds for blueberries!",
-  "avianDescription" : "Seeds for blueberries!",
+  "biomePlaced" : true,
+
   "floranDescription" : "Ssseeds for blueberries!",
   "glitchDescription" : "Identify. Blueberry seeds.",
   "humanDescription" : "Oh sweet! Blueberry seeds!",
-  "hylotlDescription" : "Seeds for blueberries.",
 
   "inventoryIcon" : "blueberriesPBJseedicon.png",
   "largeImage" : "blueberriesPBJseed.png:default.3.0",
@@ -34,14 +33,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [19200, 19260]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [1980, 2100]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [420, 480]
     },
     {
       "alts" : 5,
@@ -49,8 +48,9 @@
       "resetToStage" : 2
     }
   ],
+  "maxImmersion" : 0.25,
+  
   "breakDropOptions" : [
     [ [ "blueberriesPBJseed", 1, { } ] ]
-  ],
-  "maxImmersion" : 0.25
+  ]
 }

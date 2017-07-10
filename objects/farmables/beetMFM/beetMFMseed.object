@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
-  "price" : 100,
+  "price" : 10,
   "tooltipKind" : "seed",
-  "description" : "beet",
+  "description" : "Grows Beets.\nHarvest: 30 mins",
   "shortdescription" : "Beet Seeds",
   "objectType" : "farmable",
   "printable" : false,
 
-  "apexDescription" : "Seeds for beets!",
-  "avianDescription" : "Seeds for beets!",
   "floranDescription" : "Ssseeds for beetss!",
   "glitchDescription" : "Identify. Beet seeds.",
-  "humanDescription" : "Oh sweet! Beet seans!",
-  "hylotlDescription" : "Seeds for beets.",
+  "humanDescription" : "Nothing Beats Beets!",
 
   "inventoryIcon" : "beetMFMseedicon.png",
   "largeImage" : "beetMFMseed.png:default.3.0",
@@ -33,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [1260, 1320]
+      "duration" : [780, 840]
     },
     {
-      "duration" : [480, 540]
+      "duration" : [360, 480]
     },
     {
       "alts" : 5,
-      "duration" : [420, 480]
+      "duration" : [360, 480]
     },
     {
       "alts" : 5,

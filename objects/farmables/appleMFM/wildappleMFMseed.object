@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 10,
   "tooltipKind" : "seed",
-  "description" : "Some red apples can grow from here.",
+  "description" : "This tree produces Red Apples.",
   "shortdescription" : "Red Apple Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -13,7 +13,7 @@
 
   "biomePlaced" : true,
 
-  "floranDescription" : "Ssssome red apples can grow from here.",
+  "floranDescription" : "Growss Red Apples.",
   "glitchDescription" : "Statement. Red Apples grow from here.",
   "humanDescription" : "How American can it get?",
 
@@ -34,10 +34,10 @@
   
   "stages" : [
     {
-      "duration" : [3000, 3600]
+      "duration" : [20580, 20580]
     },
     {
-      "duration" : [600, 660]
+      "duration" : [1320, 1320]
     },
     {
       "alts" : 5,

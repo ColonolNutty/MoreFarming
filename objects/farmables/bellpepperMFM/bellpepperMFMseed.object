@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 30,
   "tooltipKind" : "seed",
-  "description" : "Bell pepper.",
+  "description" : "G: 38 mins\nY: 41 mins\nO: 44 mins\nR: 47 mins\nRe-Harvest: 11 mins",
   "shortdescription" : "Bell Pepper Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for bell peppers!",
-  "avianDescription" : "Seeds for bell peppers!",
   "floranDescription" : "Ssseeds for bell peppersss!",
   "glitchDescription" : "Identify. Bell pepper seeds.",
-  "humanDescription" : "Oh sweet! Bell pepper seeds!",
-  "hylotlDescription" : "Seeds for bell peppers.",
+  "humanDescription" : "So many colors!",
 
   "inventoryIcon" : "bellpepperMFMseedicon.png",
   "largeImage" : "bellpepperMFMseed.png:default.3.0",
@@ -33,30 +30,30 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [720, 780]
     },
     {
-      "duration" : [100, 105]
-    },
-    {
-      "alts" : 5,
-      "duration" : [100, 105]
+      "duration" : [720, 780]
     },
     {
       "alts" : 5,
-      "duration" : [100, 105],
+      "duration" : [660, 720]
+    },
+    {
+      "alts" : 5,
+      "duration" : [180, 240],
       "harvestPool" : "greenbellpepperMFMHarvest",
       "resetToStage" : 2
     },
     {
       "alts" : 5,
-      "duration" : [100, 105],
+      "duration" : [180, 240],
       "harvestPool" : "yellowbellpepperMFMHarvest",
       "resetToStage" : 2
     },
     {
       "alts" : 5,
-      "duration" : [100, 105],
+      "duration" : [180, 240],
       "harvestPool" : "orangebellpepperMFMHarvest",
       "resetToStage" : 2
     },

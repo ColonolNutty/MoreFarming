@@ -1,5 +1,5 @@
 {
   "sounds" : {
-    "onCraft": ["/sfx/objects/sawblade_touched.ogg", "/sfx/objects/sawblade.ogg"]
+    "onCraft": ["/sfx/objects/blenderMFMcraft.ogg"]
   }
 }

@@ -1,11 +1,12 @@
 local recipeCrafterMFMApi = {};
 local enableDebug = false;
+local enableRecipeGroupDebug = false;
 
 function recipeCrafterMFMApi.updateOutputSlotWith(recipe)
   storage.outputRecipe = recipe
   local existingOutput = world.containerItemAt(entity.id(), storage.outputSlot)
   if not existingOutput then
-    if enableDebug then
+    if enableRecipeGroupDebug then
       sb.logInfo("Setting output item to: " .. storage.outputRecipe.output.name .. " in slot " .. storage.outputSlot)
     end
     world.containerPutItemsAt(entity.id(), storage.outputRecipe.output, storage.outputSlot)
@@ -18,7 +19,7 @@ function recipeCrafterMFMApi.updateOutputSlotWith(recipe)
       storage.outputPlacedSuccessfully = false
     end
     if not storage.outputPlacedSuccessfully then
-      if enableDebug then
+      if enableRecipeGroupDebug then
         if newOutput ~= nil then
           sb.logInfo("Output not successfully placed, item found instead: " .. newOutput.name)
         else
@@ -27,7 +28,7 @@ function recipeCrafterMFMApi.updateOutputSlotWith(recipe)
       end
     end
   else    
-    if enableDebug then
+    if enableRecipeGroupDebug then
       sb.logInfo("Could not place output because of existing item with name: " .. existingOutput.name .. " in slot " .. storage.outputSlot)
     end
   end
@@ -35,12 +36,12 @@ end
 
 function recipeCrafterMFMApi.recipeCanBeCrafted(recipe)
   if storage.recipeGroup == nil then
-    if enableDebug then
+    if enableRecipeGroupDebug then
       sb.logInfo("No Recipe Group specified")
     end
     return false
   end
-  if enableDebug then
+  if enableRecipeGroupDebug then
     sb.logInfo("Recipe group specified: " .. storage.recipeGroup)
   end
   local canBeCrafted = false
@@ -71,7 +72,7 @@ function recipeCrafterMFMApi.findOutput(ingredients)
     if recipesForItem ~= nil and #recipesForItem > 0 then
       outputRecipe = recipeCrafterMFMApi.findRecipe(recipesForItem, ingredients)
       if outputRecipe then
-        if enableDebug then
+        if enableRecipeGroupDebug then
           sb.logInfo("Found recipe with output name: " .. outputRecipe.output.name)
         end
         break;
@@ -135,12 +136,37 @@ function init(virtual)
   if storage.outputSlot < 0 then
     storage.outputSlot = 0
   end
+  storage.timePassed = 0
   storage.outputRecipe = nil
   storage.outputPlacedSuccessfully = false
+  storage.craftSoundDelaySeconds = config.getParameter("craftSoundDelaySeconds", 10) -- In seconds
+  storage.craftSoundIsPlaying = false
   storage.recipeGroup = config.getParameter("recipeGroup")
 end
 
+function recipeCrafterMFMApi.checkCraftSoundDelay(dt)
+  if not storage.craftSoundIsPlaying then
+    return
+  end
+  storage.timePassed = storage.timePassed + dt
+  if enableDebug then
+    sb.logInfo("Craft sound playing, time passed: " .. storage.timePassed)
+  end
+  if storage.timePassed <= 0 then
+    return
+  end
+  if storage.timePassed >= storage.craftSoundDelaySeconds then
+    if enableDebug then
+      sb.logInfo("Stopping all onCraft sounds")
+    end
+    storage.timePassed = 0
+    storage.craftSoundIsPlaying = false
+    animator.stopAllSounds("onCraft")
+  end
+end
+
 function update(dt)
+  recipeCrafterMFMApi.checkCraftSoundDelay(dt)
   recipeCrafterMFMApi.consumeIngredientsIfOutputTaken()
   if not recipeCrafterMFMApi.shouldLookForRecipe() then
     return
@@ -174,20 +200,18 @@ function recipeCrafterMFMApi.consumeIngredientsIfOutputTaken()
   if storage.outputRecipe == nil or not storage.outputPlacedSuccessfully then
     return
   end
-  if enableDebug then
-    sb.logInfo("Consuming ingredients for recipe with output: " .. storage.outputRecipe.output.name)
-  end
   local outputSlotItem = world.containerItemAt(entity.id(), storage.outputSlot)
   if outputSlotItem == nil then
+    if enableRecipeGroupDebug then
+      sb.logInfo("Consuming ingredients for recipe with output: " .. storage.outputRecipe.output.name)
+    end
     for _,input in ipairs(storage.outputRecipe.input) do
       if enableDebug then
         sb.logInfo("Consuming ingredient with name: " .. input.name)
       end
       world.containerConsume(entity.id(), input)
     end
-    if animator.hasSound("onCraft") then
-      animator.playSound("onCraft")
-    end
+    recipeCrafterMFMApi.onCraft()
     storage.outputRecipe = nil
     storage.outputPlacedSuccessfully = false
     return
@@ -254,6 +278,17 @@ function recipeCrafterMFMApi.shouldLookForRecipe()
     return true
   end
   return false
+end
+
+function recipeCrafterMFMApi.onCraft()
+  if animator.hasSound("onCraft") and not storage.craftSoundIsPlaying then
+    if enableDebug then
+      sb.logInfo("Playing onCraft sounds")
+    end
+    storage.timePassed = 0
+    animator.playSound("onCraft")
+    storage.craftSoundIsPlaying = true
+  end
 end
 
 function die()

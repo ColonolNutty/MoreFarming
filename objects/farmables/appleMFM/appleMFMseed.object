@@ -3,15 +3,15 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
-  "price" : 10,
+  "price" : 200,
   "tooltipKind" : "seed",
   "description" : "This tree produces Red Apples.\nFirst Harvest: 365 mins\nRe-Harvest: 22 mins",
   "shortdescription" : "Red Apple Seed",
   "objectType" : "farmable",
   "printable" : false,
 
-  "floranDescription" : "Growss Red Apples.",
-  "glitchDescription" : "Statement. Red Apples grow from here.",
+  "floranDescription" : "Growsss ssshiny red applesss.",
+  "glitchDescription" : "Statement. Red apples grow from here.",
   "humanDescription" : "How American can it get?",
 
   "inventoryIcon" : "appleMFMseedicon.png",
@@ -28,7 +28,6 @@
       "anchors" : [ "bottom" ]
     }
   ],
-  
   "stages" : [
     {
       "duration" : [20580, 20580]
@@ -42,5 +41,5 @@
       "resetToStage" : 1
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.8
 }

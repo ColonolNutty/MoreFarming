@@ -3,19 +3,12 @@
   "colonyTags" : ["nature"],
   "rarity" : "Uncommon",
   "category" : "seed",
+  "price" : 200,
   "tooltipKind" : "seed",
-  "description" : "It's a coconut palm.",
+  "description" : "Coconut Palm.\nFirst Harvest: 365 mins\nRe-Harvest: 22 mins",
   "shortdescription" : "Coconut Palm Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 5, 
-  
-  "apexDescription" : "Coconut Palm.",
-  "avianDescription" : "Coconut Palm.",
-  "floranDescription" : "Coconut Palm.",
-  "glitchDescription" : "Coconut Palm.",
-  "humanDescription" : "Coconut Palm.",
-  "hylotlDescription" : "Coconut Palm.",
   
   "inventoryIcon" : "coconutpalmMFMseedicon.png",
   "largeImage" : "coconutpalmMFMseed.png:default.3.0",
@@ -35,10 +28,10 @@
   ],
   "stages" : [
     {
-      "duration" : [1200, 1201]
+      "duration" : [20580, 20580]
     },
     {
-      "duration" : [200, 201]
+      "duration" : [1320, 1320]
     },
     {
       "alts" : 4,

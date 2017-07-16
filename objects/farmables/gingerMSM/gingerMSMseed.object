@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 170,
   "tooltipKind" : "seed",
-  "description" : "Ginger seeds, ready for planting.",
+  "description" : "A good seasoning.\nFirst Harvest: 120 mins\nRe-Harvest: 12 mins",
   "shortdescription" : "Ginger Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for ginger!",
-  "avianDescription" : "Seeds for ginger!",
-  "floranDescription" : "Ssseeds for ginger!",
+  "floranDescription" : "Ssseedsss for Ginger!",
   "glitchDescription" : "Identify. Ginger seeds.",
-  "humanDescription" : "Oh sweet! Ginger seeds!",
-  "hylotlDescription" : "Seeds for ginger.",
+  "humanDescription" : "A good seasoning for any dish, almost any...",
 
   "inventoryIcon" : "gingerMSMseedicon.png",
   "largeImage" : "gingerMSMseed.png:default.3.0",
@@ -33,18 +30,19 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [5145, 5145]
     },
     {
-      "duration" : [100, 105]
-    },
-    {
-      "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [1320, 1320]
     },
     {
       "alts" : 5,
-      "harvestPool" : "gingerMSMHarvest"
+      "duration" : [720, 720]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "gingerMSMHarvest",
+      "resetToStage" : 2
     }
   ],
   "maxImmersion" : 0.25

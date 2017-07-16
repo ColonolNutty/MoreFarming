@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 20,
   "tooltipKind" : "seed",
-  "description" : "Seeds for Artichokes!\nFirst Harvest: 45 mins\nRe-Harvest: 8 mins",
+  "description" : "Seeds for Artichokes!\nFirst Harvest: 45 mins\nRe-Harvest: 7 mins",
   "shortdescription" : "Artichoke Seeds",
   "objectType" : "farmable",
   "printable" : false,

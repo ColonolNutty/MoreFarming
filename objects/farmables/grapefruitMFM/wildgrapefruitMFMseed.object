@@ -1,11 +1,11 @@
 {
   "objectName" : "wildgrapefruitMFMseed",
-  "rarity" : "Common",
   "colonyTags" : ["nature"],
+  "rarity" : "Common",
   "category" : "seed",
   "price" : 20,
   "tooltipKind" : "seed",
-  "description" : "Ripe grapefruits.",
+  "description" : "Ripe Grapefruit.",
   "shortdescription" : "Grapefruit Seed",
   "objectType" : "farmable",
   "printable" : false,
@@ -13,12 +13,9 @@
 
   "biomePlaced" : true,
 
-  "apexDescription" : "Some grapefruits can grow from here.",
-  "avianDescription" : "Some grapefruits can grow from here.",
-  "floranDescription" : "Ssssome grapefruits can grow from here.",
+  "floranDescription" : "Sssome grapefruitsss can grow from here.",
   "glitchDescription" : "Statement. Grapefruits grow from here.",
-  "humanDescription" : "How American can it get?",
-  "hylotlDescription" : "Some grapefruits can grow from here.",
+  "humanDescription" : "It has a strange color on the inside",
 
   "inventoryIcon" : "grapefruitMFMseedicon.png",
   "largeImage" : "grapefruitMFMseed.png:default.3.0",
@@ -30,16 +27,17 @@
       "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }
   ],
   
   "stages" : [
     {
-      "duration" : [2820, 2940]
+      "duration" : [20580, 20580]
     },
     {
-      "duration" : [300, 420]
+      "duration" : [1320, 1320]
     },
     {
       "alts" : 5,
@@ -47,6 +45,7 @@
       "resetToStage" : 1
     }
   ],
+  "maxImmersion" : 0.8,
 
   "breakDropOptions" : [
     [ [ "grapefruitMFMseed", 1, { } ] ]

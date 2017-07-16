@@ -3,7 +3,7 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
-  "price" : 10,
+  "price" : 200,
   "tooltipKind" : "seed",
   "description" : "This tree produces Red Apples.",
   "shortdescription" : "Red Apple Seeds",
@@ -13,8 +13,8 @@
 
   "biomePlaced" : true,
 
-  "floranDescription" : "Growss Red Apples.",
-  "glitchDescription" : "Statement. Red Apples grow from here.",
+  "floranDescription" : "Growsss ssshiny red applesss.",
+  "glitchDescription" : "Statement. Red apples grow from here.",
   "humanDescription" : "How American can it get?",
 
   "inventoryIcon" : "appleMFMseedicon.png",
@@ -45,7 +45,7 @@
       "resetToStage" : 1
     }
   ],
-  "maxImmersion" : 0.25,
+  "maxImmersion" : 0.8,
 
   "breakDropOptions" : [
     [ [ "appleMFMseed", 1, { } ] ]

@@ -3,20 +3,20 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 60,
   "tooltipKind" : "seed",
-  "description" : "garlic",
+  "description" : "Seeds for Garlic!",
   "shortdescription" : "Garlic Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
 
-  "apexDescription" : "Seeds for garlic!",
-  "avianDescription" : "Seeds for garlic!",
-  "floranDescription" : "Ssseeds for garlic!",
+  "biomePlaced" : true,
+
+  "apexDescription" : "Number one cause of bad breath. Curiously, no cure yet.",
+  "floranDescription" : "Ssseedsss for garlic!",
   "glitchDescription" : "Identify. Garlic seeds.",
-  "humanDescription" : "Oh sweet! garlic seeds!",
-  "hylotlDescription" : "Seeds for garlic.",
+  "humanDescription" : "Vampires beware!",
 
   "inventoryIcon" : "garlicMFMseedicon.png",
   "largeImage" : "garlicMFMseed.png:default.3.0",
@@ -34,14 +34,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [3000, 3000]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [2220, 2220]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [420, 420]
     },
     {
       "alts" : 5,
@@ -49,5 +49,9 @@
       "resetToStage" : 2
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.2,
+  
+  "breakDropOptions" : [
+    [ [ "artichokeMFMseed", 1, { } ] ]
+  ]
 }

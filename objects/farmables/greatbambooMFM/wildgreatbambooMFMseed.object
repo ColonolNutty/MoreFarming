@@ -3,12 +3,12 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 10,
   "tooltipKind" : "seed",
-  "description" : "Go grow Bamboo with it, Punk.",
+  "description" : "Fast growing Bamboo.",
   "shortdescription" : "Great Bamboo Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 20,
   "hasObjectItem" : false,
 
   "biomePlaced" : true,
@@ -17,8 +17,8 @@
   "avianDescription" : "Tried pecking once. Did not taste good.",
   "floranDescription" : "I feel a strange form of might in this seed.",
   "glitchDescription" : "Curious. Could plant this to get wood. Wonder why not.",
-  "humanDescription" : "Bambooseeds. Great opportunity to get Wood.",
-  "hylotlDescription" : "These will make the Forest have a blast. Too messy.",
+  "humanDescription" : "Bamboo seeds. Great opportunity to get Wood.",
+  "hylotlDescription" : "Good for building huts and appliances.",
 
   "inventoryIcon" : "greatbambooMFMseedicon.png",
   "largeImage" : "greatbambooMFMseed.png:default.3.0",
@@ -30,30 +30,28 @@
       "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
-      "requireTilledAnchors" : true,
+      "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-
     }
   ],
   "stages" : [
     {
-      "alts" : 1,
-      "duration" : [150, 250]
+      "alts" : 2,
+      "duration" : [960, 960]
     },
     {
-      "alts" : 1,
-      "duration" : [250, 500]
+      "alts" : 2,
+      "duration" : [480, 480]
     },
     {
-      "alts" : 1,
+      "alts" : 3,
       "harvestPool" : "greatbambooMFMHarvest",
       "resetToStage" : 1
     }
   ],
+  "maxImmersion" : 0.5,
 
   "breakDropOptions" : [
     [ [ "greatbambooMFMseed", 1, { } ] ]
-  ],
-
-  "maxImmersion" : 0.125
+  ]
 }

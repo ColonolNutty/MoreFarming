@@ -3,7 +3,7 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
-  "price" : 20,
+  "price" : 10,
   "tooltipKind" : "seed",
   "description" : "Fast growing Bamboo.\nFirst Harvest: 24 mins\nRe-Harvest: 8 mins",
   "shortdescription" : "Bamboo Shoot",

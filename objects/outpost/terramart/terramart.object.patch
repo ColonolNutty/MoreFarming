@@ -63,7 +63,7 @@
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["brusselsproutMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["cauliflowerMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["cinnamonMFMseed", 3] } },
-  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["cocoaseed", 3] } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["cocoaMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["coconutpalmMFMseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["coffeeseed", 3] } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["cucumberMSMseed", 3] } },

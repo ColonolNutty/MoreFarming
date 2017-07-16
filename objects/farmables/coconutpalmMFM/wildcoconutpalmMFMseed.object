@@ -3,21 +3,15 @@
   "colonyTags" : ["nature"],
   "rarity" : "Uncommon",
   "category" : "seed",
+  "price" : 200,
   "tooltipKind" : "seed",
-  "description" : "It's a coconut palm.",
+  "description" : "Is it a fruit? A nut? A vegetable? All three?",
   "shortdescription" : "Coconut Palm Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
+  "hasObjectItem" : false,
 
   "biomePlaced" : true,
-  
-  "apexDescription" : "Coconut Palm.",
-  "avianDescription" : "Coconut Palm.",
-  "floranDescription" : "Coconut Palm.",
-  "glitchDescription" : "Coconut Palm.",
-  "humanDescription" : "Coconut Palm.",
-  "hylotlDescription" : "Coconut Palm.",
   
   "inventoryIcon" : "coconutpalmMFMseedicon.png",
   "largeImage" : "coconutpalmMFMseed.png:default.3.0",
@@ -37,10 +31,10 @@
   ],
   "stages" : [
     {
-      "duration" : [1200, 1201]
+      "duration" : [20580, 20580]
     },
     {
-      "duration" : [200, 201]
+      "duration" : [1320, 1320]
     },
     {
       "alts" : 4,
@@ -48,8 +42,9 @@
       "resetToStage" : 1
     }
   ],
+  "maxImmersion" : 0.25,
+  
   "breakDropOptions" : [
     [ [ "coconutpalmMFMseed", 1, { } ] ]
-  ],
-  "maxImmersion" : 0.25
+  ]
 }

@@ -3,8 +3,9 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 150,
   "tooltipKind" : "seed",
-  "description" : "Finkel, grows on metalic trees.",
+  "description" : "Finkel, grows on metallic trees.",
   "shortdescription" : "Finkel Seed",
   "objectType" : "farmable",
   "printable" : false, 
@@ -14,9 +15,9 @@
 
   "apexDescription" : "Reminds me of a mushroom.",
   "avianDescription" : "Small mushrooms growing on big trees.",
-  "floranDescription" : "Mushroomssss from big treessss.",
+  "floranDescription" : "Mussshroomssss from big treessss.",
   "glitchDescription" : "Statement. Finkel grows on big metalic plants.",
-  "humanDescription" : "Finkel. An alien mushroom growing on metalic-trees.",
+  "humanDescription" : "Finkel. An alien mushroom growing on metallic-trees.",
   "hylotlDescription" : "Shroomy mushroom-like plant.",
 
   "inventoryIcon" : "finkelMFMseedicon.png",
@@ -31,22 +32,21 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-
     }
   ],
-  
   "stages" : [
     {
-      "duration" : [660, 780]
+      "duration" : [5145, 5145]
     },
     {
-      "duration" : [660, 780]
+      "duration" : [1320, 1320]
     },
     {
       "alts" : 5,
       "harvestPool" : "finkelMFMHarvest"
     }
   ],
+  "maxImmersion" : 0.8,
 
   "breakDropOptions" : [
     [ [ "finkelMFMseed", 1, { } ] ]

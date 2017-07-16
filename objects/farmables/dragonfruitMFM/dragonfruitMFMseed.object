@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 10,
   "tooltipKind" : "seed",
-  "description" : "Seedlings of the pitahaya cactus.",
+  "description" : "Pitahaya Cactus.\nFirst Harvest: 23 mins\nRe-Harvest: 7 mins",
   "shortdescription" : "Dragonfruit Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for dragonfruit!",
-  "avianDescription" : "Seeds for dragonfruit!",
-  "floranDescription" : "Ssseeds for dragonfruit!",
+  "floranDescription" : "Ssseedsss for dragonfruitsss!",
   "glitchDescription" : "Identify. Dragonfruit seeds.",
   "humanDescription" : "Oh sweet! Dragonfruit seeds!",
-  "hylotlDescription" : "Seeds for dragonfruit.",
 
   "inventoryIcon" : "dragonfruitMFMseedicon.png",
   "largeImage" : "dragonfruitMFMseed.png:default.3.0",
@@ -33,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [600, 600]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [660, 720]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [420, 480]
     },
     {
       "alts" : 5,

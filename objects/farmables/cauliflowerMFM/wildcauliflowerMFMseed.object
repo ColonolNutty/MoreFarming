@@ -3,20 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 5,
   "tooltipKind" : "seed",
-  "description" : "Cauliflower.",
+  "description" : "Seeds for cauliflower!",
   "shortdescription" : "Cauliflower Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
 
-  "apexDescription" : "Seeds for cauliflower!",
-  "avianDescription" : "Seeds for cauliflower!",
-  "floranDescription" : "Ssseeds for cauliflower!",
+  "biomePlaced" : true,
+
+  "floranDescription" : "Ssseedsss for cauliflower!",
   "glitchDescription" : "Identify. Cauliflower seeds.",
-  "humanDescription" : "Oh sweet! Cauliflower seeds!",
-  "hylotlDescription" : "Seeds for cauliflower.",
+  "humanDescription" : "I can't help but say their name in a manly austrian voice. COLLIFLOWA!",
 
   "inventoryIcon" : "cauliflowerMFMseedicon.png",
   "largeImage" : "cauliflowerMFMseed.png:default.3.0",
@@ -34,14 +33,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [1500, 1560]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [300, 300]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [300, 300]
     },
     {
       "alts" : 5,
@@ -49,8 +48,9 @@
       "resetToStage" : 2
     }
   ],
+  "maxImmersion" : 0.25,
+  
   "breakDropOptions" : [
     [ [ "cauliflowerMFMseed", 1, { } ] ]
-  ],
-  "maxImmersion" : 0.25
+  ]
 }

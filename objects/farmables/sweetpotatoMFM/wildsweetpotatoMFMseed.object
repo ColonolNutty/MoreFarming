@@ -3,17 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 15,
   "tooltipKind" : "seed",
   "description" : "Yam I right or yam I right?",
   "shortdescription" : "Sweet Potato Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
+
+  "biomePlaced" : true,
 
   "apexDescription" : "Sweet Potatoes. Unremarkable.",
   "avianDescription" : "Mashed sweet potatoes make for a good dish.",
-  "floranDescription" : "Hard, crunchy brown sweet potatoesss.",
+  "floranDescription" : "Hard, crunchy brown sssweet tatooooeesss.",
   "glitchDescription" : "Admiration. Humans create many dishes from such a simple thing.",
   "humanDescription" : "Ahhh, sweet potatoes. Is there anything you can't do?",
   "hylotlDescription" : "A common, tedious root vegetable.",
@@ -34,10 +36,10 @@
   ],
   "stages" : [
     {
-      "duration" : [430, 470]
+      "duration" : [1320, 1321]
     },
     {
-      "duration" : [430, 470]
+      "duration" : [320, 321]
     },
     {
       "alts" : 5,
@@ -45,5 +47,9 @@
       "resetToStage" : 1
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.25,
+  
+  "breakDropOptions" : [
+    [ [ "eggplantMFMseed", 1, { } ] ]
+  ]
 }

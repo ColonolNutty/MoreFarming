@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 50,
   "tooltipKind" : "seed",
-  "description" : "Green beans.",
+  "description" : "Green beans.\nFirst Harvest: 60 mins\nRe-Harvest: 7 mins",
   "shortdescription" : "Green Bean Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for beans!",
-  "avianDescription" : "Seeds for beans!",
-  "floranDescription" : "Ssseeds for beanss!",
-  "glitchDescription" : "Identify. Beet seans.",
-  "humanDescription" : "Oh sweet! Beet seeds!",
-  "hylotlDescription" : "Seeds for beans.",
+  "floranDescription" : "Ssseeds for green beansss!",
+  "glitchDescription" : "Identify. Green beans.",
+  "humanDescription" : "Beans beans, the magical fruit.",
 
   "inventoryIcon" : "greenbeanMFMseedicon.png",
   "largeImage" : "greenbeanMFMseed.png:default.3.0",
@@ -33,10 +30,10 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [2280, 2280]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [900, 900]
     },
     {
       "alts" : 5,
@@ -48,5 +45,5 @@
       "resetToStage" : 2
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.2
 }

@@ -3,20 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 50,
   "tooltipKind" : "seed",
   "description" : "Vanilla.",
   "shortdescription" : "Vanilla Bean Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
 
-  "apexDescription" : "Seeds for vanilla!",
-  "avianDescription" : "Seeds for vanilla!",
-  "floranDescription" : "Ssseeds for vanilla!",
-  "glitchDescription" : "Identify. Vanilla seans.",
-  "humanDescription" : "Oh sweet! Vanilla seeds!",
-  "hylotlDescription" : "Seeds for vanilla.",
+  "biomePlaced" : true,
+
+  "floranDescription" : "Ssseedsss for vanilla!",
+  "glitchDescription" : "Identify. Vanilla beans.",
+  "humanDescription" : "Good for making sweets!",
 
   "inventoryIcon" : "vanillabeanMFMseedicon.png",
   "largeImage" : "vanillabeanMFMseed.png:default.3.0",
@@ -30,16 +29,14 @@
       "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-
     }
   ],
-
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [2280, 2280]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [900, 900]
     },
     {
       "alts" : 5,
@@ -51,8 +48,9 @@
       "resetToStage" : 2
     }
   ],
+  "maxImmersion" : 0.2,
+  
   "breakDropOptions" : [
     [ [ "vanillabeanMFMseed", 1, { } ] ]
-  ],
-  "maxImmersion" : 0.25
+  ]
 }

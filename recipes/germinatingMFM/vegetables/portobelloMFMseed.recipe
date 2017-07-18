@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "shroom", "count" : 10 }
   ],
-  "output" : { "item" : "portabelloMFMseed", "count" : 1 },
+  "output" : { "item" : "portobelloMFMseed", "count" : 1 },
   "groups" : [ "germinatingMFM", "vegetableMFM" ]
 }

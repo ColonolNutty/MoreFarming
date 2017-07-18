@@ -3,20 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 50,
   "tooltipKind" : "seed",
-  "description" : "Blackberries, natures other snack food.",
+  "description" : "Blackberries, careful they bruise easily.",
   "shortdescription" : "Blackberry Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
 
-  "apexDescription" : "Seeds for blackberries!",
-  "avianDescription" : "Seeds for blakcberries!",
+  "biomePlaced" : true,
+
   "floranDescription" : "Ssseeds for blackberries!",
   "glitchDescription" : "Identify. Blackberry seeds.",
   "humanDescription" : "Oh sweet! Blackberry seeds!",
-  "hylotlDescription" : "Seeds for blackberries.",
 
   "inventoryIcon" : "blackberryPBJseedicon.png",
   "largeImage" : "blackberryPBJseed.png:default.3.0",
@@ -34,21 +33,24 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [9600, 9660]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [780, 840]
     },
     {
-      "duration" : [400, 440]
+      "alts" : 5,
+      "duration" : [420, 480]
     },
     {
+      "alts" : 5,
       "harvestPool" : "blackberriesPBJHarvest",
       "resetToStage" : 2
     }
   ],
+  "maxImmersion" : 0.25,
+  
   "breakDropOptions" : [
     [ [ "blackberryPBJseed", 1, { } ] ]
-  ],
-  "maxImmersion" : 0.25
+  ]
 }

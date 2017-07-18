@@ -3,22 +3,22 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 70,
   "tooltipKind" : "seed",
-  "description" : "Palsterstick, reminds a bit of parsnip.",
-  "shortdescription" : "Palsterstick Seed",
+  "description" : "Tastes like Parsnips.",
+  "shortdescription" : "Palsterstick Seeds",
   "objectType" : "farmable",
   "printable" : false, 
   "hasObjectItem" : false,
-  "price" : 100,
 
   "biomePlaced" : true,
 
-  "apexDescription" : "Does not taste that good. But bigape sais it is healthy!",
+  "apexDescription" : "Does not taste that good, but Big Ape says it is healthy!",
   "avianDescription" : "Healthy stick.",
-  "floranDescription" : "No meat, floran only eatss in emergancccy",
+  "floranDescription" : "No meat, floran only eatsss in bad timesss",
   "glitchDescription" : "Statement. Palsterstick is healthy.",
-  "humanDescription" : "Garpberry. Looks a bit alien, but tastes like parsnip.",
-  "hylotlDescription" : "It is not from the oeacen, but these wierd sticks is healthy.",
+  "humanDescription" : "Palsterstick. Looks a bit alien, but tastes like parsnip.",
+  "hylotlDescription" : "It is not from the ocean, but this weird stick is healthy.",
 
   "inventoryIcon" : "palsterstickMFMseedicon.png",
   "largeImage" : "palsterstickMFMseed.png:default.3.0",
@@ -32,22 +32,21 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-
     }
   ],
-  
   "stages" : [
     {
-      "duration" : [660, 780]
+      "duration" : [2280, 2280]
     },
     {
-      "duration" : [660, 780]
+      "duration" : [1300, 1300]
     },
     {
       "alts" : 5,
       "harvestPool" : "palsterstickMFMHarvest"
     }
   ],
+  "maxImmersion" : 0.5,
 
   "breakDropOptions" : [
     [ [ "palsterstickMFMseed", 1, { } ] ]

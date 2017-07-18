@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 20,
   "tooltipKind" : "seed",
-  "description" : "Avocado.",
+  "description" : "Seeds for Avocados!\nFirst Harvest: 120 mins\nRe-Harvest: 8 mins",
   "shortdescription" : "Avocado Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for avocados!",
-  "avianDescription" : "Seeds for avocados!",
   "floranDescription" : "Ssseeds for avocadosss!",
   "glitchDescription" : "Identify. avocado seeds.",
-  "humanDescription" : "Oh sweet! avocado seeds!",
-  "hylotlDescription" : "Seeds for avocados.",
+  "humanDescription" : "Good for making guacamole!",
 
   "inventoryIcon" : "avocadoMFMseedicon.png",
   "largeImage" : "avocadoMFMseed.png:default.3.0",
@@ -33,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [1250, 1270]
+      "duration" : [4680, 4680]
     },
     {
-      "duration" : [1250, 1270]
+      "duration" : [1560, 1560]
     },
     {
       "alts" : 5,
-      "duration" : [950, 970]
+      "duration" : [480, 480]
     },
     {
       "alts" : 5,

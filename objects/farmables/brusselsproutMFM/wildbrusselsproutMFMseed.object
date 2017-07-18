@@ -3,20 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 20,
   "tooltipKind" : "seed",
-  "description" : "Brussels sprouts, a relative of cabbage.",
+  "description" : "A relative of cabbage.",
   "shortdescription" : "Brussels Sprout Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
 
-  "apexDescription" : "Seeds for brussel sprouts!",
-  "avianDescription" : "Seeds for brussel sprouts!",
-  "floranDescription" : "Ssseeds for brussel sprouts!",
+  "biomePlaced" : true,
+
+  "floranDescription" : "Ssseedsss for brussel sssproutsss!",
   "glitchDescription" : "Identify. Brussel sprout seeds.",
-  "humanDescription" : "Oh sweet! Brussel sprout seeds!",
-  "hylotlDescription" : "Seeds for brussel sprouts.",
+  "humanDescription" : "Brussel sprouts, my arch nemesis",
 
   "inventoryIcon" : "brusselsproutMFMseedicon.png",
   "largeImage" : "brusselsproutMFMseed.png:default.3.0",
@@ -34,14 +33,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [1560, 1560]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [720, 720]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [420, 420]
     },
     {
       "alts" : 5,
@@ -49,8 +48,9 @@
       "resetToStage" : 2
     }
   ],
+  "maxImmersion" : 0.25,
+  
   "breakDropOptions" : [
     [ [ "brusselsproutMFMseed", 1, { } ] ]
-  ],
-  "maxImmersion" : 0.25
+  ]
 }

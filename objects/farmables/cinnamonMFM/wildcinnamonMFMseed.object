@@ -3,17 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 200,
   "tooltipKind" : "seed",
-  "description" : "Spice of life! Cinnamon!",
+  "description" : "Spice of life!",
   "shortdescription" : "Cinnamon Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
+
+  "biomePlaced" : true,
 
   "apexDescription" : "A delicacy of a plant, grown for use as spice.",
   "avianDescription" : "Fermented beverages are a favorite amongst the Grounded. Nothing spells religious rebellion like getting drunk off of cinnamon schnapps.",
-  "floranDescription" : "Not asss hot asss chili, but cinnamon isss still hot!",
+  "floranDescription" : "Not asss hot asss chili, but cinnamon isss ssstill hot!",
   "glitchDescription" : "Statement. Cinnamon. Used to flavor foods and fermented beverages.",
   "humanDescription" : "Back on Earth, they gave out spicy candies made of this stuff.",
   "hylotlDescription" : "An ugly tropical plant that can be woven into cheap furniture.",
@@ -35,15 +37,20 @@
   ],
   "stages" : [
     {
-      "duration" : [300, 420]
+      "duration" : [20580, 20580]
     },
     {
-      "duration" : [300, 420]
+      "duration" : [1320, 1320]
     },
     {
       "alts" : 5,
-      "harvestPool" : "cinnamonMFMHarvest"
+      "harvestPool" : "cinnamonMFMHarvest",
+      "resetToStage" : 1
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.25,
+  
+  "breakDropOptions" : [
+    [ [ "cinnamonMFMseed", 1, { } ] ]
+  ]
 }

@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 28,
   "tooltipKind" : "seed",
-  "description" : "Peas.",
+  "description" : "Sweet peas, tiny.\nFirst Harvest: 30 mins\nRe-Harvest: None",
   "shortdescription" : "Pea Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for peas!",
-  "avianDescription" : "Seeds for peas!",
-  "floranDescription" : "Ssseeds for peass!",
-  "glitchDescription" : "Identify. Pea seans.",
-  "humanDescription" : "Oh sweet! Pea seeds!",
-  "hylotlDescription" : "Seeds for peas.",
+  "floranDescription" : "Tiny plantsss?",
+  "glitchDescription" : "Identify. Pea pods.",
+  "humanDescription" : "Like peas in a pod",
 
   "inventoryIcon" : "peaMFMseedicon.png",
   "largeImage" : "peaMFMseed.png:default.3.0",
@@ -33,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [720, 780]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [660, 720]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [240, 300]
     },
     {
       "alts" : 5,

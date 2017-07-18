@@ -3,15 +3,15 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
-  "price" : 20,
+  "price" : 200,
   "tooltipKind" : "seed",
-  "description" : "Some green apples can grow from here.",
+  "description" : "This tree produces Green Apples.\nFirst Harvest: 365 mins\nRe-Harvest: 22 mins",
   "shortdescription" : "Green Apple Seed",
   "objectType" : "farmable",
   "printable" : false,
 
-  "floranDescription" : "Sssome green applesss can grow from here.",
-  "glitchDescription" : "Statement. Green Apples grow from here.",
+  "floranDescription" : "Growsss bitter green applesss.",
+  "glitchDescription" : "Statement. Green apples grow from here.",
   "humanDescription" : "How American can it get?",
 
   "inventoryIcon" : "greenappleMFMseedicon.png",
@@ -23,24 +23,23 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaceScan" : 0.1,
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-
     }
   ],
-  
   "stages" : [
     {
-      "duration" : [2820, 2940]
+      "duration" : [20580, 20580]
     },
     {
-      "duration" : [300, 420]
+      "duration" : [1320, 1320]
     },
     {
       "alts" : 5,
       "harvestPool" : "greenappleMFMHarvest",
       "resetToStage" : 1
     }
-  ]
+  ],
+  "maxImmersion" : 0.8
 }

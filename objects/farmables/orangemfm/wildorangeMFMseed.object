@@ -1,21 +1,20 @@
 {
   "objectName" : "wildorangeMFMseed",
-  "rarity" : "Common",
   "colonyTags" : ["nature"],
+  "rarity" : "Common",
   "category" : "seed",
-  "price" : 20,
+  "price" : 200,
   "tooltipKind" : "seed",
   "description" : "Ripe oranges.",
   "shortdescription" : "Orange Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "orangeMFMseed",
   "hasObjectItem" : false,
 
   "biomePlaced" : true,
 
   "apexDescription" : "These oranges are very sour.",
-  "avianDescription" : "Not so easy to chew on, but the mixture of sweet and sour is worth it.",
+  "avianDescription" : "Not easy to chew on, but the mixture of sweet and sour is worth it.",
   "floranDescription" : "Floran grow colorsss.",
   "glitchDescription" : "Statement. Oranges grow from here.",
   "humanDescription" : "They make great juice.",
@@ -31,17 +30,16 @@
       "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-
     }
   ],
-
   "stages" : [
     {
-      "duration" : [2820, 2940]
+      "duration" : [20580, 20580]
     },
     {
-      "duration" : [2820, 2940]
+      "duration" : [1320, 1320]
     },
     {
       "alts" : 5,
@@ -49,6 +47,7 @@
       "resetToStage" : 1
     }
   ],
+  "maxImmersion" : 0.8,
 
   "breakDropOptions" : [
     [ [ "orangeMFMseed", 1, { } ] ]

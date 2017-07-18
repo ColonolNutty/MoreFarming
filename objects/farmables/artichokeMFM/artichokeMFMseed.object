@@ -3,22 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 40,
   "tooltipKind" : "seed",
-  "description" : "Artichoke.",
-  "largeImage" : "artichokeMFMseed.png:default.3.0",
+  "description" : "Seeds for Artichokes!\nFirst Harvest: 45 mins\nRe-Harvest: 7 mins",
   "shortdescription" : "Artichoke Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for artichokes!",
-  "avianDescription" : "Seeds for artichokes!",
-  "floranDescription" : "Ssseeds for artichokesss!",
-  "glitchDescription" : "Identify. artichoke seeds.",
-  "humanDescription" : "Oh sweet! artichoke seeds!",
-  "hylotlDescription" : "Seeds for artichokes.",
+  "floranDescription" : "Ssseeds for Artichokesss!",
+  "glitchDescription" : "Identify. Artichoke seeds.",
+  "humanDescription" : "The heart of any dish!",
 
   "inventoryIcon" : "artichokeMFMseedicon.png",
+  "largeImage" : "artichokeMFMseed.png:default.3.0",
   "orientations" : [
     {
       "dualImage" : "artichokeMFMseed.png:<color>.<stage>.<alt>",
@@ -33,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [1500, 1560]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [900, 900]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [420, 420]
     },
     {
       "alts" : 5,

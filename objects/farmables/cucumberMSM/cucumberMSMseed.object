@@ -3,18 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 10,
   "tooltipKind" : "seed",
-  "description" : "Seeds for a cucumber plant.",
+  "description" : "Seeds for cucumbers!\nFirst Harvest: 25 mins\nRe-Harvest: None",
   "shortdescription" : "Cucumber Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for cucumbers!",
-  "avianDescription" : "Seeds for cucumbers!",
-  "floranDescription" : "Ssseeds for cucumberss!",
+  "floranDescription" : "Ssseedsss for cucumbersss!",
   "glitchDescription" : "Identify. Cucumber seeds.",
-  "humanDescription" : "Oh sweet! Cucumber seeds!",
+  "humanDescription" : "Good for using at a sauna!",
   "hylotlDescription" : "A kappa's favorite.",
 
   "inventoryIcon" : "cucumberMSMseedicon.png",
@@ -33,19 +31,18 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [720, 780]
     },
     {
-      "duration" : [100, 105]
-    },
-    {
-      "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [660, 720]
     },
     {
       "alts" : 5,
-      "harvestPool" : "cucumberMSMHarvest",
-      "resetToStage" : 2
+      "duration" : [120, 180]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "cucumberMSMHarvest"
     }
   ],
   "maxImmersion" : 0.25

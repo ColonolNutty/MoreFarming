@@ -1,24 +1,21 @@
 {
   "objectName" : "wildappleMFMseed",
-  "rarity" : "Common",
   "colonyTags" : ["nature"],
+  "rarity" : "Common",
   "category" : "seed",
-  "price" : 20,
+  "price" : 200,
   "tooltipKind" : "seed",
-  "description" : "Ripe apples.",
-  "shortdescription" : "Apple Seed",
+  "description" : "This tree produces Red Apples.",
+  "shortdescription" : "Red Apple Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
 
   "biomePlaced" : true,
 
-  "apexDescription" : "Some apples can grow from here.",
-  "avianDescription" : "Some apples can grow from here.",
-  "floranDescription" : "Ssssome apples can grow from here.",
-  "glitchDescription" : "Statement. Apples grow from here.",
+  "floranDescription" : "Growsss ssshiny red applesss.",
+  "glitchDescription" : "Statement. Red apples grow from here.",
   "humanDescription" : "How American can it get?",
-  "hylotlDescription" : "Some apples can grow from here.",
 
   "inventoryIcon" : "appleMFMseedicon.png",
   "largeImage" : "appleMFMseed.png:default.3.0",
@@ -29,17 +26,18 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaceScan" : 0.1,
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }
   ],
   
   "stages" : [
     {
-      "duration" : [2820, 2940]
+      "duration" : [20580, 20580]
     },
     {
-      "duration" : [300, 420]
+      "duration" : [1320, 1320]
     },
     {
       "alts" : 5,
@@ -47,6 +45,7 @@
       "resetToStage" : 1
     }
   ],
+  "maxImmersion" : 0.8,
 
   "breakDropOptions" : [
     [ [ "appleMFMseed", 1, { } ] ]

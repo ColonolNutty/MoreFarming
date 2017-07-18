@@ -1,27 +1,27 @@
 {
   "objectName" : "portabelloMFMseed",
-  "rarity" : "Common",
   "colonyTags" : ["nature"],
+  "rarity" : "Common",
   "category" : "seed",
-  "price" : 20,
+  "price" : 5,
   "tooltipKind" : "seed",
-  "description" : "A portabello mushroom spore. The farmer who plants these is a fungi.",
-  "shortdescription" : "Portabello Mushroom Spore",
+  "description" : "Good for eating, grows fast.\nFirst Harvest: 15 mins\nRe-Harvest: 5 mins",
+  "shortdescription" : "Portobello Mushroom Spore",
   "objectType" : "farmable",
   "printable" : false,
 
-  "apexDescription" : "Portabellos.",
+  "apexDescription" : "Portobellos.",
   "avianDescription" : "Toadstools.",
-  "floranDescription" : "Floran hatsss.",
+  "floranDescription" : "Pretty hatsss.",
   "glitchDescription" : "Analysis. This fungus is not poisonous.",
   "humanDescription" : "The perfect pizza topping.",
-  "hylotlDescription" : "Portabellos.",
+  "hylotlDescription" : "Portobellos.",
 
-  "inventoryIcon" : "portabelloMFMseedicon.png",
-  "largeImage" : "portabelloMFMseed.png:default.3.0",
+  "inventoryIcon" : "portobelloMFMseedicon.png",
+  "largeImage" : "portobelloMFMseed.png:default.3.0",
   "orientations" : [
     {
-      "dualImage" : "portabelloMFMseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "portobelloMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -29,20 +29,19 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-
     }
   ],
-  
   "stages" : [
     {
-      "duration" : [820, 940]
+      "duration" : [600, 600]
     },
     {
-      "duration" : [820, 940]
+      "duration" : [300, 300]
     },
     {
       "alts" : 5,
-      "harvestPool" : "portabelloMFMHarvest"
+      "harvestPool" : "portobelloMFMHarvest"
     }
-  ]
+  ],
+  "maxImmersion" : 0.1
 }

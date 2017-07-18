@@ -3,12 +3,12 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 200,
   "tooltipKind" : "seed",
-  "description" : "Go grow Saguaro cactus with it, Dude.",
+  "description" : "A Saguaro cactus, don't get poked!",
   "shortdescription" : "Saguaro Seed",
   "objectType" : "farmable",
-  "printable" : false, 
-  "price" : 100,
+  "printable" : false,
   "hasObjectItem" : false,
 
   "biomePlaced" : true,
@@ -17,9 +17,9 @@
   "avianDescription" : "Tried pecking once. Did not taste good.",
   "floranDescription" : "I feel a strange form of might in this seed.",
   "glitchDescription" : "Curious. Could plant this to get wood. Wonder why not.",
-  "humanDescription" : "Saguaro seeds. Great opportunity to get Wood.",
-  "hylotlDescription" : "These will make the Desert have a blast. Too messy.",
-
+  "humanDescription" : "Saguaro. Great opportunity to get Wood.",
+  "hylotlDescription" : "These make the Desert a blast!",
+  
   "inventoryIcon" : "saguaroMFMseedicon.png",
   "largeImage" : "saguaroMFMseed.png:default.3.0",
   "orientations" : [
@@ -30,30 +30,27 @@
       "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
-      "requireTilledAnchors" : true,
+      "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-
     }
   ],
-  
   "stages" : [
     {
       "alts" : 1,
-      "duration" : [150, 250]
+      "duration" : [10950, 10950]
     },
     {
       "alts" : 1,
-      "duration" : [250, 500]
+      "duration" : [10950, 10950]
     },
     {
       "alts" : 1,
       "harvestPool" : "saguaroMFMHarvest"
     }
   ],
+  "maxImmersion" : 1.0,
 
   "breakDropOptions" : [
     [ [ "saguaroMFMseed", 1, { } ] ]
-  ],
-  
-  "maxImmersion" : 0.25
+  ]
 }

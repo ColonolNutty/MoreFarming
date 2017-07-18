@@ -3,9 +3,9 @@
   "rarity" : "Common",
   "colonyTags" : ["nature"],
   "category" : "seed",
-  "price" : 20,
+  "price" : 5,
   "tooltipKind" : "seed",
-  "description" : "Perfect for baking or making alcohol. Placing this will grow more yeast.",
+  "description" : "Perfect for baking or making alcohol. Placing this will grow more yeast, probably best not to ask.",
   "shortdescription" : "Yeast Jar",
   "objectType" : "farmable",
   "printable" : false,
@@ -13,12 +13,12 @@
 
   "biomePlaced" : true,
 
-  "apexDescription" : "Cultivating yeast.",
+  "apexDescription" : "Cultivating yeast. Not even I understand how this works.",
   "avianDescription" : "Yeast pile.",
   "floranDescription" : "Floran take tiny bread mushroomsss.",
-  "glitchDescription" : "Analysis. This is a pile of cultivating yeast.",
+  "glitchDescription" : "Analysis. This is yeast, but how does it grow?",
   "humanDescription" : "Yeast, I see bread baking in my future.",
-  "hylotlDescription" : "Yeast in a jar.",
+  "hylotlDescription" : "Yeast pile, I should jar this.",
 
   "inventoryIcon" : "yeastMFMseedicon.png",
   "largeImage" : "wildyeastMFMseed.png:default.3.0",
@@ -34,22 +34,22 @@
       "anchors" : [ "bottom" ]
     }
   ],
-  
   "stages" : [
     {
-      "duration" : [1240, 1360]
+      "duration" : [1260, 1260]
     },
     {
-      "duration" : [1240, 1360]
+      "duration" : [1260, 1260]
     },
     {
       "alts" : 5,
-      "harvestPool" : "yeastMFMHarvest"
+      "harvestPool" : "yeastMFMHarvest",
+      "resetToStage" : 0
     }
   ],
-
+  "maxImmersion" : 1.0,
+  
   "breakDropOptions" : [
     [ [ "yeastMFMseed", 1, { } ] ]
-  ],
-  "maxImmersion" : 1
+  ]
 }

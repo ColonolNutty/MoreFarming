@@ -3,20 +3,18 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 20,
   "tooltipKind" : "seed",
-  "description" : "A sprouting reed plant. Plant it near water, and it just might grow into reeds.",
+  "description" : "A reed plant. Grows best near water.",
   "shortdescription" : "Reed Sprout",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
 
-  "apexDescription" : "Just reeds.",
-  "avianDescription" : "Just reeds.",
-  "floranDescription" : "Just reedssss.",
+  "biomePlaced" : true,
+
+  "floranDescription" : "Reedssss.",
   "glitchDescription" : "Statement. Just reeds.",
-  "humanDescription" : "Just reeds.",
-  "hylotlDescription" : "Just reeds.",
 
   "inventoryIcon" : "reedBMBsprouticon.png",
   "largeImage" : "reedBMBsprout.png:default.3.0",
@@ -34,19 +32,24 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 140]
+      "duration" : [1560, 1560]
     },
     {
-      "duration" : [100, 140]
-    },
-    {
-      "alts" : 5,
-      "duration" : [100, 140]
+      "duration" : [840, 840]
     },
     {
       "alts" : 5,
-      "harvestPool" : "reedBMBHarvest"
+      "duration" : [420, 420]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "reedBMBHarvest",
+      "resetToStage" : 2
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 1.0,
+  
+  "breakDropOptions" : [
+    [ [ "reedBMBsprout", 1, { } ] ]
+  ]
 }

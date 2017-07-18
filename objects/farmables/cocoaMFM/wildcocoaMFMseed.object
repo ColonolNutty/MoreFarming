@@ -3,20 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 500,
   "tooltipKind" : "seed",
-  "description" : "Genetically enhanced cocoa. Smaller trees with bigger fruit.",
-  "shortdescription" : "Cacao Seedlings",
+  "description" : "The sweetest plant of all. Takes forever to grow though.",
+  "shortdescription" : "Cocoa Seedling",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
 
-  "apexDescription" : "Cocoa seeds.",
-  "avianDescription" : "Cocoa seeds.",
-  "floranDescription" : "Cocoa sseeds..",
-  "glitchDescription" : "Cynical. The Human love these, but The Glitch see nothing special.",
-  "humanDescription" : "chocolate..!?",
-  "hylotlDescription" : "Cocoa seeds.",
+  "biomePlaced" : true,
+
+  "floranDescription" : "Cocoa ssseedsss..",
+  "glitchDescription" : "Cynical. The Humans love these, but the Glitch see nothing special.",
+  "humanDescription" : "Did someone say chocolate..!? CHOCOLATE!! CHOCOLATE!!",
 
   "inventoryIcon" : "cocoaMFMseedicon.png",
   "largeImage" : "cocoaMFMseed.png:default.3.0",
@@ -34,14 +33,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [39840, 39840]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [3300, 3300]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [660, 660]
     },
     {
       "alts" : 5,
@@ -49,8 +48,9 @@
       "resetToStage" : 2
     }
   ],
+  "maxImmersion" : 0.25,
+  
   "breakDropOptions" : [
-    [ [ "cocoaseed", 1, { } ] ]
-  ],
-  "maxImmersion" : 0.25
+    [ [ "cocoaMFMseed", 1, { } ] ]
+  ]
 }

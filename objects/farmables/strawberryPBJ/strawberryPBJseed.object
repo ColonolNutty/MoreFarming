@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 50,
   "tooltipKind" : "seed",
-  "description" : "Strawberries, natures other snack food.",
+  "description" : "Sweet berry?\nFirst Harvest: 183 mins\nRe-Harvest: 8 mins",
   "shortdescription" : "Strawberry Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for strawberries!",
-  "avianDescription" : "Seeds for strawberries!",
-  "floranDescription" : "Ssseeds for strawberries!",
-  "glitchDescription" : "Identify. Strawberry seans.",
-  "humanDescription" : "Oh sweet! Strawberry seeds!",
-  "hylotlDescription" : "Seeds for strawberries.",
+  "floranDescription" : "Ssseedsss for ssstrawberriesss!",
+  "glitchDescription" : "Identify. Strawberry.",
+  "humanDescription" : "Chocolate covered strawberries are the best!",
 
   "inventoryIcon" : "strawberryPBJseedicon.png",
   "largeImage" : "strawberryPBJseed.png:default.3.0",
@@ -33,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [9600, 9660]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [780, 840]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [420, 480]
     },
     {
       "alts" : 5,
@@ -48,5 +45,5 @@
       "resetToStage" : 2
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.4
 }

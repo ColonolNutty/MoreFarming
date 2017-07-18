@@ -1,24 +1,21 @@
 {
   "objectName" : "wildlimeMFMseed",
-  "rarity" : "Common",
   "colonyTags" : ["nature"],
+  "rarity" : "Common",
   "category" : "seed",
-  "price" : 20,
+  "price" : 200,
   "tooltipKind" : "seed",
-  "description" : "Ripe limes.",
-  "shortdescription" : "Lime Seed",
+  "description" : "Green fruit, is it ripe?",
+  "shortdescription" : "Lime Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
 
   "biomePlaced" : true,
 
-  "apexDescription" : "Some limes can grow from here.",
-  "avianDescription" : "Some limes can grow from here.",
-  "floranDescription" : "Ssssome limes can grow from here.",
+  "floranDescription" : "Thisss growsss limesss",
   "glitchDescription" : "Statement. Limes grow from here.",
-  "humanDescription" : "How American can it get?",
-  "hylotlDescription" : "Some limes can grow from here.",
+  "humanDescription" : "The juice is good in many dishes",
 
   "inventoryIcon" : "limeMFMseedicon.png",
   "largeImage" : "limeMFMseed.png:default.3.0",
@@ -30,16 +27,16 @@
       "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }
   ],
-  
   "stages" : [
     {
-      "duration" : [2820, 2940]
+      "duration" : [20580, 20580]
     },
     {
-      "duration" : [300, 420]
+      "duration" : [1320, 1320]
     },
     {
       "alts" : 5,
@@ -47,6 +44,7 @@
       "resetToStage" : 1
     }
   ],
+  "maxImmersion" : 0.8,
 
   "breakDropOptions" : [
     [ [ "limeMFMseed", 1, { } ] ]

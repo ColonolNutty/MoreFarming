@@ -3,20 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 50,
   "tooltipKind" : "seed",
   "description" : "Green beans.",
   "shortdescription" : "Green Bean Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
 
-  "apexDescription" : "Seeds for green beans!",
-  "avianDescription" : "Seeds for green beans!",
-  "floranDescription" : "Ssseeds for green beanss!",
-  "glitchDescription" : "Identify. Green bean seans.",
-  "humanDescription" : "Oh sweet! Green bean seeds!",
-  "hylotlDescription" : "Seeds for green beans.",
+  "biomePlaced" : true,
+
+  "floranDescription" : "Ssseeds for green beansss!",
+  "glitchDescription" : "Identify. Green beans.",
+  "humanDescription" : "Beans beans, the magical fruit.",
 
   "inventoryIcon" : "greenbeanMFMseedicon.png",
   "largeImage" : "greenbeanMFMseed.png:default.3.0",
@@ -34,10 +33,10 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [2280, 2280]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [900, 900]
     },
     {
       "alts" : 5,
@@ -49,8 +48,9 @@
       "resetToStage" : 2
     }
   ],
+  "maxImmersion" : 0.2,
+  
   "breakDropOptions" : [
     [ [ "greenbeanMFMseed", 1, { } ] ]
-  ],
-  "maxImmersion" : 0.25
+  ]
 }

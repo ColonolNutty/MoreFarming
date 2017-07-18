@@ -3,22 +3,15 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 15,
   "tooltipKind" : "seed",
-  "description" : "Eggplant, the plant of a 100 different flavours.",
-  "shortdescription" : "Eggplant Seed",
+  "description" : "An alien vegetable.",
+  "shortdescription" : "Eggplant Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 5,
   "hasObjectItem" : false,
 
   "biomePlaced" : true,
-
-  "apexDescription" : "Eggplant.",
-  "avianDescription" : "Eggplant.",
-  "floranDescription" : "Eggplant.",
-  "glitchDescription" : "Eggplant.",
-  "humanDescription" : "Eggplant.",
-  "hylotlDescription" : "Eggplant.",
 
   "inventoryIcon" : "eggplantMFMseedicon.png",
   "largeImage" : "eggplantMFMseed.png:default.3.0",
@@ -32,7 +25,6 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-
     }
   ],
   "stages" : [
@@ -48,8 +40,9 @@
       "resetToStage" : 1
     }
   ],
+  "maxImmersion" : 0.25,
+  
   "breakDropOptions" : [
     [ [ "eggplantMFMseed", 1, { } ] ]
-  ],
-  "maxImmersion" : 0.25
+  ]
 }

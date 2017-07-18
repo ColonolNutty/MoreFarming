@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 10,
   "tooltipKind" : "seed",
-  "description" : "An uprooted shoot from a bamboo plant. Can be used in recipes or grown.",
+  "description" : "Fast growing Bamboo.\nFirst Harvest: 24 mins\nRe-Harvest: 8 mins",
   "shortdescription" : "Bamboo Shoot",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   
-  "apexDescription" : "Bamboo.",
-  "avianDescription" : "Bamboo.",
   "floranDescription" : "Sssharp sssticksss for ssstabbing!",
   "glitchDescription" : "Statement. Bamboo.",
-  "humanDescription" : "Fresh Bamboo.",
-  "hylotlDescription" : "Delicious Bamboo.",
+  "hylotlDescription" : "Bamboo is very useful.",
 
   "inventoryIcon" : "bambooBMBshooticon.png",
   "largeImage" : "bambooBMBshoot.png:default.3.0",
@@ -33,18 +30,19 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [480, 480]
     },
     {
-      "duration" : [100, 105]
-    },
-    {
-      "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [480, 480]
     },
     {
       "alts" : 5,
-      "harvestPool" : "bambooBMBHarvest"
+      "duration" : [480, 480]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "bambooBMBHarvest",
+      "resetToStage" : 2
     }
   ],
   "maxImmersion" : 0.25

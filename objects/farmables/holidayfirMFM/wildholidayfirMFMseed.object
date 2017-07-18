@@ -3,12 +3,12 @@
   "colonyTags" : ["nature"],
   "rarity" : "Uncommon",
   "category" : "seed",
+  "price" : 200,
   "tooltipKind" : "seed",
-  "description" : "A fir tree engineered for fast growth and medicinal golden fruit.",
+  "description" : "Grows golden fruit.",
   "shortdescription" : "Holiday Fir Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 200,
   "hasObjectItem" : false,
 
   "biomePlaced" : true,
@@ -34,13 +34,12 @@
       "anchors" : [ "bottom" ]
     }
   ],
-
   "stages" : [
     {
-      "duration" : [660, 780]
+      "duration" : [20580, 20580]
     },
     {
-      "duration" : [660, 780]
+      "duration" : [1320, 1320]
     },
     {
       "alts" : 5,
@@ -48,10 +47,9 @@
       "resetToStage" : 1
     }
   ],
+  "maxImmersion" : 0.8,
 
   "breakDropOptions" : [
     [ [ "holidayfirMFMseed", 1, { } ] ]
-  ],
-
-  "maxImmersion" : 0.125
+  ]
 }

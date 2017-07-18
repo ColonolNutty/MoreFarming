@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 10,
   "tooltipKind" : "seed",
-  "description" : "beet",
+  "description" : "Sugar Beets.\nFirst Harvest: 30 mins\nRe-Harvest: None",
   "shortdescription" : "Sugar Beet Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for sugar beets!",
-  "avianDescription" : "Seeds for sugar beets!",
-  "floranDescription" : "Ssseeds for ssugar beetss!",
+  "floranDescription" : "Ssseedsss for sssugar beetsss!",
   "glitchDescription" : "Identify. Sugar Beet seeds.",
-  "humanDescription" : "Oh sweet! Sugar Beet seans!",
-  "hylotlDescription" : "Seeds for sugar beets.",
+  "humanDescription" : "Sugar, sugar, sugar, sugar!",
 
   "inventoryIcon" : "sugarbeetMFMseedicon.png",
   "largeImage" : "sugarbeetMFMseed.png:default.3.0",
@@ -33,19 +30,19 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [780, 840]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [360, 480]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [360, 480]
     },
     {
       "alts" : 5,
       "harvestPool" : "sugarbeetMFMHarvest"
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.1
 }

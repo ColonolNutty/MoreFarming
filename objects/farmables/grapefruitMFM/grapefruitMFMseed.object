@@ -5,17 +5,14 @@
   "category" : "seed",
   "price" : 20,
   "tooltipKind" : "seed",
-  "description" : "Ripe Grapefruit, the seeds usually grow in tropical or sub tropical climates, such as jungle or ocean biomes.",
+  "description" : "Ripe Grapefruit.\nFirst Harvest: 365 mins\nRe-Harvest: 22 mins",
   "shortdescription" : "Grapefruit Seed",
   "objectType" : "farmable",
   "printable" : false,
 
-  "apexDescription" : "Some grapefruit can grow from here.",
-  "avianDescription" : "Some grapefruit can grow from here.",
-  "floranDescription" : "Sssome grapefruitss can grow from here.",
+  "floranDescription" : "Sssome grapefruitsss can grow from here.",
   "glitchDescription" : "Statement. Grapefruits grow from here.",
-  "humanDescription" : "How American can it get?",
-  "hylotlDescription" : "Some grapefruit can grow from here.",
+  "humanDescription" : "It has a strange color on the inside",
 
   "inventoryIcon" : "grapefruitMFMseedicon.png",
   "largeImage" : "grapefruitMFMseed.png:default.3.0",
@@ -29,21 +26,20 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-
     }
   ],
-  
   "stages" : [
     {
-      "duration" : [2820, 2940]
+      "duration" : [20580, 20580]
     },
     {
-      "duration" : [300, 420]
+      "duration" : [1320, 1320]
     },
     {
       "alts" : 5,
       "harvestPool" : "grapefruitMFMHarvest",
       "resetToStage" : 1
     }
-  ]
+  ],
+  "maxImmersion" : 0.8
 }

@@ -3,19 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 200,
   "tooltipKind" : "seed",
-  "description" : "Go grow Saguaro with it, Dude.",
+  "description" : "Grows a cactus.\nFirst Harvest: 365 mins\nRe-Harvest: None",
   "shortdescription" : "Saguaro Seed",
   "objectType" : "farmable",
-  "printable" : false, 
-  "price" : 100,
+  "printable" : false,
   
   "apexDescription" : "A foreign seed. Never seen one of these before.",
   "avianDescription" : "Tried pecking once. Did not taste good.",
   "floranDescription" : "I feel a strange form of might in this seed.",
   "glitchDescription" : "Curious. Could plant this to get wood. Wonder why not.",
-  "humanDescription" : "Saguaro seeds. Great opportunity to get Wood.",
-  "hylotlDescription" : "These will make the Desert have a blast. Too messy.",
+  "humanDescription" : "Saguaro. Great opportunity to get Wood.",
+  "hylotlDescription" : "These make the Desert a blast!",
 
   "inventoryIcon" : "saguaroMFMseedicon.png",
   "largeImage" : "saguaroMFMseed.png:default.3.0",
@@ -29,23 +29,21 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-
     }
   ],
-  
   "stages" : [
     {
       "alts" : 1,
-      "duration" : [150, 250]
+      "duration" : [10950, 10950]
     },
     {
       "alts" : 1,
-      "duration" : [250, 500]
+      "duration" : [10950, 10950]
     },
     {
       "alts" : 1,
       "harvestPool" : "saguaroMFMHarvest"
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 1.0
 }

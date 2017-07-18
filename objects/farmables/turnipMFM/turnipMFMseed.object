@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 10,
   "tooltipKind" : "seed",
-  "description" : "turnip",
+  "description" : "Turnip.\nFirst Harvest: 30 mins\nRe-Harvest: None",
   "shortdescription" : "Turnip Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for turnips!",
-  "avianDescription" : "Seeds for turnips!",
   "floranDescription" : "Ssseeds for turnips!",
   "glitchDescription" : "Identify. Turnip seeds.",
-  "humanDescription" : "Oh sweet! turnip seeds!",
-  "hylotlDescription" : "Seeds for turnips.",
+  "humanDescription" : "Turnips! I wonder if there is a pig I can sell these too?",
 
   "inventoryIcon" : "turnipMFMseedicon.png",
   "largeImage" : "turnipMFMseed.png:default.3.0",
@@ -33,19 +30,19 @@
   ],
   "stages" : [
     {
-      "duration" : [1000, 1005]
+      "duration" : [780, 840]
     },
     {
-      "duration" : [500, 505]
+      "duration" : [360, 480]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [360, 480]
     },
     {
       "alts" : 5,
       "harvestPool" : "turnipMFMHarvest"
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.1
 }

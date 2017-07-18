@@ -3,20 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 50,
   "tooltipKind" : "seed",
-  "description" : "Raspberries - sweet, tart and ready for planting.",
+  "description" : "Sweet and tart.",
   "shortdescription" : "Raspberry Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
 
-  "apexDescription" : "Seeds for raspberries!",
-  "avianDescription" : "Seeds for raspberries!",
-  "floranDescription" : "Ssseeds for raspberries!",
+  "biomePlaced" : true,
+
+  "floranDescription" : "Ssseedsss for Rassspberriesss!",
   "glitchDescription" : "Identify. Raspberry seeds.",
   "humanDescription" : "Oh sweet! Raspberry seeds!",
-  "hylotlDescription" : "Seeds for raspberries.",
 
   "inventoryIcon" : "raspberryPBJseedicon.png",
   "largeImage" : "raspberryPBJseed.png:default.3.0",
@@ -34,14 +33,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [9600, 9660]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [780, 840]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [420, 480]
     },
     {
       "alts" : 5,
@@ -49,8 +48,9 @@
       "resetToStage" : 2
     }
   ],
+  "maxImmersion" : 0.25,
+  
   "breakDropOptions" : [
     [ [ "raspberryPBJseed", 1, { } ] ]
-  ],
-  "maxImmersion" : 0.25
+  ]
 }

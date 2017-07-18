@@ -3,19 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 45,
   "tooltipKind" : "seed",
-  "description" : "Grows a Rattan tree. Comes with wooden support.",
-  "shortdescription" : "Rattan Seed",
+  "description" : "A Rattan plant, it comes with wooden support.",
+  "shortdescription" : "Rattan Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 30,
   "hasObjectItem" : false,
 
   "biomePlaced" : true,
 
   "apexDescription" : "This plant is fast growing and very pliable. Makes for very nice furniture.",
   "avianDescription" : "A plant grown by the Floran for resources.",
-  "floranDescription" : "Cocoon-kin grow Rattan. Usssed for building.",
+  "floranDescription" : "Cocoon-kin grow Rattan. Ussse for building.",
   "glitchDescription" : "Statement. A fibrous plant grown for its pliability.",
   "humanDescription" : "That plant looks cool! What can I make from it?",
   "hylotlDescription" : "An ugly tropical plant that can be woven into cheap furniture.",
@@ -37,14 +37,14 @@
   ],
   "stages" : [
     {
-      "duration" : [215, 235]
+      "duration" : [1380, 1380]
     },
     {
-      "duration" : [215, 235]
+      "duration" : [1300, 1300]
     },
     {
       "alts" : 5,
-      "duration" : [870, 930]
+      "duration" : [900, 900]
     },
     {
       "alts" : 5,
@@ -52,9 +52,9 @@
       "resetToStage" : 2
     }
   ],
+  "maxImmersion" : 0.50,
 
   "breakDropOptions" : [
     [ [ "rattanMFMseed", 1, { } ] ]
-  ],
-  "maxImmersion" : 0.50
+  ]
 }

@@ -3,16 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 15,
   "tooltipKind" : "seed",
-  "description" : "Yam I right or yam I right?",
-  "shortdescription" : "Sweet Potato Seed",
+  "description" : "Sweet yams.\nFirst Harvest: 28 mins\nRe-Harvest: 6 mins",
+  "shortdescription" : "Sweet Potato Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
   "apexDescription" : "Sweet Potatoes. Unremarkable.",
   "avianDescription" : "Mashed sweet potatoes make for a good dish.",
-  "floranDescription" : "Hard, crunchy brown sweet potatoesss.",
+  "floranDescription" : "Hard, crunchy brown sssweet tatooooeesss.",
   "glitchDescription" : "Admiration. Humans create many dishes from such a simple thing.",
   "humanDescription" : "Ahhh, sweet potatoes. Is there anything you can't do?",
   "hylotlDescription" : "A common, tedious root vegetable.",
@@ -33,10 +33,10 @@
   ],
   "stages" : [
     {
-      "duration" : [450, 450]
+      "duration" : [1320, 1321]
     },
     {
-      "duration" : [450, 450]
+      "duration" : [320, 321]
     },
     {
       "alts" : 5,

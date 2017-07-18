@@ -3,20 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 80,
   "tooltipKind" : "seed",
-  "description" : "parsnip",
+  "description" : "Parsnips. It looks like a wrinkly carrot.",
   "shortdescription" : "Parsnip Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
 
-  "apexDescription" : "Seeds for parsnip!",
-  "avianDescription" : "Seeds for parsnip!",
+  "biomePlaced" : true,
+
   "floranDescription" : "Ssseeds for parsnip!",
   "glitchDescription" : "Identify. Parsnip seeds.",
-  "humanDescription" : "Oh sweet! parsnip seeds!",
-  "hylotlDescription" : "Seeds for parsnip.",
+  "humanDescription" : "Parsnips. They are white and wrinkly.",
 
   "inventoryIcon" : "parsnipMFMseedicon.png",
   "largeImage" : "parsnipMFMseed.png:default.3.0",
@@ -34,10 +33,10 @@
   ],
   "stages" : [
     {
-      "duration" : [1000, 1005]
+      "duration" : [1880, 1880]
     },
     {
-      "duration" : [500, 505]
+      "duration" : [1300, 1300]
     },
     {
       "alts" : 5,
@@ -48,5 +47,9 @@
       "harvestPool" : "parsnipMFMHarvest"
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.25,
+  
+  "breakDropOptions" : [
+    [ [ "parsnipMFMseed", 1, { } ] ]
+  ]
 }

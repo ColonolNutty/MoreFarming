@@ -3,20 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 45,
   "tooltipKind" : "seed",
-  "description" : "It looks like these peanuts are ready to be planted.",
+  "description" : "A tender plant. Because of how tender it is, this plant is usually grown annually.",
   "shortdescription" : "Peanut Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
 
-  "apexDescription" : "Seeds for Peanuts!",
-  "avianDescription" : "Seeds for Peanuts!",
+  "biomePlaced" : true,
+
   "floranDescription" : "Ssseeds for Peanuts!",
   "glitchDescription" : "Identify. Peanut seeds.",
-  "humanDescription" : "Oh sweet! Peanut seeds!",
-  "hylotlDescription" : "Seeds for Peanuts.",
+  "humanDescription" : "Mmmm, Peanut butter",
 
   "inventoryIcon" : "peanutPBJseedicon.png",
   "largeImage" : "peanutPBJseed.png:default.3.0",
@@ -34,14 +33,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [1380, 1380]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [1300, 1300]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [900, 900]
     },
     {
       "alts" : 5,
@@ -49,8 +48,9 @@
       "resetToStage" : 2
     }
   ],
+  "maxImmersion" : 0.25,
+  
   "breakDropOptions" : [
     [ [ "peanutPBJseed", 1, { } ] ]
-  ],
-  "maxImmersion" : 0.25
+  ]
 }

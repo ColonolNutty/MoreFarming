@@ -3,12 +3,12 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 50,
   "tooltipKind" : "seed",
-  "description" : "It's soy! Oh Boy!",
+  "description" : "It's soy! Oh boy!\nFirst Harvest: 60 mins\nRe-Harvest: 7 mins",
   "shortdescription" : "Soybean Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 500,
 
   "apexDescription" : "Contains a high amount of natural proteins.",
   "avianDescription" : "Well, it's better than nothing.",
@@ -31,13 +31,12 @@
       "anchors" : [ "bottom" ]
     }
   ],
-  
   "stages" : [
     {
-      "duration" : [300, 420]
+      "duration" : [3180, 3180]
     },
     {
-      "duration" : [300, 420]
+      "duration" : [400, 440]
     },
     {
       "alts" : 5,
@@ -45,6 +44,5 @@
       "resetToStage" : 1
     }
   ],
-
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.4
 }

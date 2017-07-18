@@ -3,17 +3,17 @@
   "rarity" : "Common",
   "colonyTags" : ["nature"],
   "category" : "seed",
+  "price" : 5,
   "tooltipKind" : "seed",
-  "description" : "Perfect for baking or making alcohol. I should water it like a plant to get more yeast.",
+  "description" : "Needs watering.\nFirst Harvest: 42 mins\nRe-Harvest: 42 mins",
   "shortdescription" : "Yeast Jar",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 20,
 
-  "apexDescription" : "Cultivating yeast. Needs watering",
-  "avianDescription" : "Yeast farm. Needs watering",
-  "floranDescription" : "Floran make more tiny bread mushroomsss. Needs watering",
-  "glitchDescription" : "Analysis. This is a jar of cultivating yeast. Needs watering",
+  "apexDescription" : "Cultivating yeast. Not even I understand how this works.",
+  "avianDescription" : "Yeast pile. Needs watering",
+  "floranDescription" : "Floran take tiny bread mushroomsss. Needs watering",
+  "glitchDescription" : "Analysis. This is yeast, but how does it grow? Needs watering",
   "humanDescription" : "Yeast, I see bread baking in my future. Needs watering",
   "hylotlDescription" : "Yeast in a jar. Needs watering",
 
@@ -29,21 +29,20 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-
     }
   ],
-  
   "stages" : [
     {
-      "duration" : [240, 380]
+      "duration" : [1260, 1260]
     },
     {
-      "duration" : [240, 380]
+      "duration" : [1260, 1260]
     },
     {
       "alts" : 5,
-      "harvestPool" : "yeastMFMHarvest"
+      "harvestPool" : "yeastMFMHarvest",
+      "resetToStage" : 0
     }
   ],
-  "maxImmersion" : 1
+  "maxImmersion" : 1.0
 }

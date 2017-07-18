@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 60,
   "tooltipKind" : "seed",
-  "description" : "I guess the stem can be considered a stick...?",
+  "description" : "Spicy.\nFirst Harvest: 60 mins\nRe-Harvest: None",
   "shortdescription" : "Jalapeno Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for jalapeno peppers!",
-  "avianDescription" : "Seeds for jalapeno peppers!",
-  "floranDescription" : "Ssseeds for jalapeno pepperss!",
+  "floranDescription" : "Ssseedsss for jalapeno peppersss!",
   "glitchDescription" : "Identify. Jalapeno pepper seeds.",
-  "humanDescription" : "Oh sweet! Jalapeno pepper seeds!",
-  "hylotlDescription" : "Seeds for jalapeno peppers.",
+  "humanDescription" : "Good on pizza!",
 
   "inventoryIcon" : "jalapenopepperMFMseedicon.png",
   "largeImage" : "jalapenopepperMFMseed.png:default.3.0",
@@ -33,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [1860, 1860]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [1300, 1300]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [420, 440]
     },
     {
       "alts" : 5,

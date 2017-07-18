@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 45,
   "tooltipKind" : "seed",
-  "description" : "It looks like these peanuts are ready to be planted.",
+  "description" : "A tender plant.\nFirst Harvest: 60 mins\nRe-Harvest: 15 mins",
   "shortdescription" : "Peanut Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for Peanuts!",
-  "avianDescription" : "Seeds for Peanuts!",
   "floranDescription" : "Ssseeds for Peanuts!",
   "glitchDescription" : "Identify. Peanut seeds.",
-  "humanDescription" : "Oh sweet! Peanut seeds!",
-  "hylotlDescription" : "Seeds for Peanuts.",
+  "humanDescription" : "Mmmm, Peanut butter",
 
   "inventoryIcon" : "peanutPBJseedicon.png",
   "largeImage" : "peanutPBJseed.png:default.3.0",
@@ -33,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [1380, 1380]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [1300, 1300]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [900, 900]
     },
     {
       "alts" : 5,

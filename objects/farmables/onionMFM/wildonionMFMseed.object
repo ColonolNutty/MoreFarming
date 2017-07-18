@@ -3,20 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 50,
   "tooltipKind" : "seed",
-  "description" : "Onion.",
+  "description" : "The saddest vegetable.",
   "shortdescription" : "Onion Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
 
-  "apexDescription" : "Seeds for onions!",
-  "avianDescription" : "Seeds for onions!",
+  "biomePlaced" : true,
+
   "floranDescription" : "Ssseeds for onions!",
-  "glitchDescription" : "Identify. Onion seeds.",
-  "humanDescription" : "Oh sweet! Onion seeds!",
-  "hylotlDescription" : "Seeds for onions.",
+  "glitchDescription" : "Curious. Why do these make organics cry?",
+  "humanDescription" : "Why must I cry while cutting these?!",
 
   "inventoryIcon" : "onionMFMseedicon.png",
   "largeImage" : "onionMFMseed.png:default.3.0",
@@ -34,14 +33,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [1860, 1860]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [1300, 1300]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [420, 420]
     },
     {
       "alts" : 5,
@@ -49,5 +48,9 @@
       "resetToStage" : 2
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.25,
+  
+  "breakDropOptions" : [
+    [ [ "onionMFMseed", 1, { } ] ]
+  ]
 }

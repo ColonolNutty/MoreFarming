@@ -3,12 +3,12 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 50,
   "tooltipKind" : "seed",
-  "description" : "It's soy! Oh Boy!",
+  "description" : "It's soy! Oh boy!",
   "shortdescription" : "Soybean Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 500,
   "hasObjectItem" : false,
 
   "biomePlaced" : true,
@@ -30,16 +30,16 @@
       "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
-      "requireTilledAnchors" : true,
+      "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }
   ],
   "stages" : [
     {
-      "duration" : [300, 420]
+      "duration" : [3180, 3180]
     },
     {
-      "duration" : [300, 420]
+      "duration" : [400, 440]
     },
     {
       "alts" : 5,
@@ -47,10 +47,9 @@
       "resetToStage" : 1
     }
   ],
-
+  "maxImmersion" : 0.4,
+  
   "breakDropOptions" : [
     [ [ "soybeanMFMseed", 1, { } ] ]
-  ],
-
-  "maxImmersion" : 0.25
+  ]
 }

@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 50,
   "tooltipKind" : "seed",
-  "description" : "Vanilla.",
+  "description" : "Vanilla.\nFirst Harvest: 60 mins\nRe-Harvest: 7 mins",
   "shortdescription" : "Vanilla Bean Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for vanilla!",
-  "avianDescription" : "Seeds for vanilla!",
-  "floranDescription" : "Ssseeds for vanilla!",
-  "glitchDescription" : "Identify. Vanilla seans.",
-  "humanDescription" : "Oh sweet! Vanilla seeds!",
-  "hylotlDescription" : "Seeds for vanilla.",
+  "floranDescription" : "Ssseedsss for vanilla!",
+  "glitchDescription" : "Identify. Vanilla beans.",
+  "humanDescription" : "Good for making sweets!",
 
   "inventoryIcon" : "vanillabeanMFMseedicon.png",
   "largeImage" : "vanillabeanMFMseed.png:default.3.0",
@@ -33,10 +30,10 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [2280, 2280]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [900, 900]
     },
     {
       "alts" : 5,
@@ -48,5 +45,5 @@
       "resetToStage" : 2
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.2
 }

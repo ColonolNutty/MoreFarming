@@ -3,20 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 20,
   "tooltipKind" : "seed",
-  "description" : "Lettuce.",
+  "description" : "Leafy greens.",
   "shortdescription" : "Lettuce Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
 
-  "apexDescription" : "Seeds for lettuce!",
-  "avianDescription" : "Seeds for lettuce!",
-  "floranDescription" : "Ssseeds for lettuce!",
+  "biomePlaced" : true,
+
+  "floranDescription" : "Ssseedsss for green leavesss!",
   "glitchDescription" : "Identify. Lettuce seeds.",
-  "humanDescription" : "Oh sweet! Lettuce seeds!",
-  "hylotlDescription" : "Seeds for lettuce.",
+  "humanDescription" : "Gotta eat your leafy greens.",
 
   "inventoryIcon" : "lettuceMFMseedicon.png",
   "largeImage" : "lettuceMFMseed.png:default.3.0",
@@ -34,14 +33,14 @@
   ],
   "stages" : [
     {
-      "duration" : [1000, 1005]
+      "duration" : [2280, 2280]
     },
     {
-      "duration" : [500, 505]
+      "duration" : [880, 880]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [420, 420]
     },
     {
       "alts" : 5,
@@ -49,8 +48,9 @@
       "resetToStage" : 2
     }
   ],
+  "maxImmersion" : 0.25,
+  
   "breakDropOptions" : [
     [ [ "lettuceMFMseed", 1, { } ] ]
-  ],
-  "maxImmersion" : 0.25
+  ]
 }

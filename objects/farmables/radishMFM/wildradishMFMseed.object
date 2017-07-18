@@ -3,20 +3,19 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 10,
   "tooltipKind" : "seed",
-  "description" : "Radish",
+  "description" : "Red, looks like beets.",
   "shortdescription" : "Radish Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
   "hasObjectItem" : false,
 
-  "apexDescription" : "Seeds for radish!",
-  "avianDescription" : "Seeds for radish!",
-  "floranDescription" : "Ssseeds for radish!",
+  "biomePlaced" : true,
+  
+  "floranDescription" : "Ssseedsss for Radisssh!",
   "glitchDescription" : "Identify. Radish seeds.",
-  "humanDescription" : "Oh sweet! radish seeds!",
-  "hylotlDescription" : "Seeds for radish.",
+  "humanDescription" : "Red, looks like an onion, but not",
 
   "inventoryIcon" : "radishMFMseedicon.png",
   "largeImage" : "radishMFMseed.png:default.3.0",
@@ -34,14 +33,14 @@
   ],
   "stages" : [
     {
-      "duration" : [1000, 1005]
+      "duration" : [780, 840]
     },
     {
-      "duration" : [500, 505]
+      "duration" : [360, 480]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [360, 480]
     },
     {
       "alts" : 5,

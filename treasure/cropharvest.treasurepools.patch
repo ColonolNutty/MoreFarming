@@ -1144,14 +1144,14 @@
   },
   {
     "op" : "add",
-    "path" : "/portabelloMFMHarvest",
+    "path" : "/portobelloMFMHarvest",
     "value" : [ [0, {
         "fill": [
-          {"item" : "portabelloMFMseed"}
+          {"item" : "portobelloMFMseed"}
         ], 
         "pool" : [
           {"weight" : 0.6, "item" : "shroom"},
-          {"weight" : 0.2, "item" : "portabelloMFMseed"}
+          {"weight" : 0.2, "item" : "portobelloMFMseed"}
         ],
         "poolRounds" : [
           [0.7, 2],

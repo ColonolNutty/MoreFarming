@@ -3,16 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 35,
   "tooltipKind" : "seed",
-  "description" : "This plant sends chills down my spine.",
-  "shortdescription" : "Pumpkin Seed",
+  "description" : "Spooky pumpkins.\nFirst Harvest: 38 mins\nRe-Harvest: None",
+  "shortdescription" : "Pumpkin Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
   "apexDescription" : "I could cut out eyes on these and scare people. Heh.",
   "avianDescription" : "The best part of this plant are its seeds.",
-  "floranDescription" : "Floran think human lie about tasssste.",
+  "floranDescription" : "Floran think human lie about tassste.",
   "glitchDescription" : "Suspicious. Why do I have the urge to cut up this plant?",
   "humanDescription" : "You could eat these, or decorate your room with them. I'm going for the second option.",
   "hylotlDescription" : "Other people like to add spices to them and make pies.",
@@ -34,15 +34,15 @@
   ],
   "stages" : [
     {
-      "duration" : [430, 470]
+      "duration" : [1500, 1560]
     },
     {
-      "duration" : [430, 470]
+      "duration" : [900, 900]
     },
     {
       "alts" : 5,
       "harvestPool" : "pumpkinMFMHarvest"
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.3
 }

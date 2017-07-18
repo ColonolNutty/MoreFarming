@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 10,
   "tooltipKind" : "seed",
-  "description" : "Grows Beets.\nHarvest: 30 mins",
+  "description" : "Grows Beets.\nFirst Harvest: 30 mins\nRe-Harvest: None",
   "shortdescription" : "Beet Seeds",
   "objectType" : "farmable",
   "printable" : false,

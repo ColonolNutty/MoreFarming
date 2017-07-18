@@ -22,7 +22,7 @@
     {
       "op" : "add",
       "path" : "/learnBlueprintsOnPickup/-",
-      "value" : "portabelloMFMseed"
+      "value" : "portobelloMFMseed"
     },
     {
       "op" : "replace",

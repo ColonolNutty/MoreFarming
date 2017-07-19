@@ -6,7 +6,7 @@
   "eventCategory" : "eventCrop",
   "inventoryIcon" : "rawcocoabeansMFM.png",
   "description" : "Ew! Tastes nothing like chocolate... Maybe if I roast them?",
-  "shortdescription" : "Raw Cacao Beans",
+  "shortdescription" : "Raw Cocoa Beans",
   "foodValue" : 10,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

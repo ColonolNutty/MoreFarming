@@ -5,7 +5,7 @@
     "value" : [ [0, {
         "fill": [
           {"item" : "appleMFMseed"}
-        ], 
+        ],
         "pool" : [
           {"weight" : 0.6, "item" : "redapple"},
           {"weight" : 0.2, "item" : "appleMFMseed"},
@@ -255,7 +255,7 @@
           {"item" : "cocoaMFMseed"}
         ],
         "pool" : [
-          {"weight" : 0.89, "item" : "cocoa"},
+          {"weight" : 0.89, "item" : "rawcocoabeansMFM"},
           {"weight" : 0.01, "item" : "cocoaMFMseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],
@@ -355,8 +355,9 @@
         ],
         "pool" : [
           {"weight" : 0.6, "item" : "dungrootMFM"},
-          {"weight" : 0.2, "item" : "dungrootMFMseed"},
-          {"weight" : 0.2, "item" : "plantfibre"}
+          {"weight" : 0.2, "item" : "poop"},
+          {"weight" : 0.1, "item" : "dungrootMFMseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
         ],
         "poolRounds" : [
           [0.7, 2],

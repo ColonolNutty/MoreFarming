@@ -255,7 +255,7 @@
           {"item" : "cocoaMFMseed"}
         ],
         "pool" : [
-          {"weight" : 0.89, "item" : "rawcocoabeansMFM"},
+          {"weight" : 0.89, "item" : "cocoa"},
           {"weight" : 0.01, "item" : "cocoaMFMseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],

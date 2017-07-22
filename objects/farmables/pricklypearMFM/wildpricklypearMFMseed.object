@@ -44,7 +44,7 @@
     {
       "alts" : 5,
       "harvestPool" : "pricklyPearMFMHarvest",
-      "resetToStage" : 2
+      "resetToStage" : 1
     }
   ],
   "maxImmersion" : 0.25,

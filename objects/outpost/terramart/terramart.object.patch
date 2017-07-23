@@ -45,7 +45,7 @@
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "radishMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "raspberryPBJ" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "rattannutMFM" } },
-  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "rawcocoabeansMFM" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "cocoa" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "redapple" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "redbellpepperMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "reed" } },

@@ -1,0 +1,20 @@
+{
+  "itemName" : "soymilkMFM",
+  "rarity" : "Common",
+  "price" : 60,
+  "category" : "drink",
+  "inventoryIcon" : "soymilkMFM.png",
+  "description" : "Milk made from soy beans",
+  "shortdescription" : "Soy Milk",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "tofuMFM" ]
+}

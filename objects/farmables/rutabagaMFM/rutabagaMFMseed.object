@@ -3,19 +3,16 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
+  "price" : 40,
   "tooltipKind" : "seed",
-  "description" : "beet",
+  "description" : "A larger, sweeter turnip.\nFirst Harvest: 45 mins\nRe-Harvest: 7 mins",
   "shortdescription" : "Rutabaga Seeds",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 100,
 
-  "apexDescription" : "Seeds for rutabagas!",
-  "avianDescription" : "Seeds for rutabagas!",
-  "floranDescription" : "Ssseeds for rutabagass!",
+  "floranDescription" : "Ssseedsss for rutabagasss!",
   "glitchDescription" : "Identify. Rutabaga seeds.",
-  "humanDescription" : "Oh sweet! Rutabaga seans!",
-  "hylotlDescription" : "Seeds for rutabagas.",
+  "humanDescription" : "Looks like a turnip, but tastes so much sweeter",
 
   "inventoryIcon" : "rutabagaMFMseedicon.png",
   "largeImage" : "rutabagaMFMseed.png:default.3.0",
@@ -33,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [100, 105]
+      "duration" : [1500, 1560]
     },
     {
-      "duration" : [100, 105]
+      "duration" : [900, 900]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [420, 420]
     },
     {
       "alts" : 5,

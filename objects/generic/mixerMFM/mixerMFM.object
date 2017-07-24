@@ -1,27 +1,27 @@
 {
-  "objectName" : "grinderMFM",
+  "objectName" : "mixerMFM",
   "rarity" : "Common",
-  "description" : "Turns organic matter into mush, etc!",
-  "shortdescription" : "Grinder (Grind)",
+  "description" : "Produces Mixes from a combination of ingredients",
+  "shortdescription" : "Mixer (Mix)",
   "race" : "generic",
-  "subtitle" : "Modern food processor!",
+  "subtitle" : "Modern food mixer!",
   "category" : "crafting",
-  "price" : 1000,
+  "price" : 500,
   "objectType" : "container",
   "printable" : false,
   "hydrophobic" : false,
 
   "apexDescription" : "Far more convenient than what's allowed by Big Ape.",
   "avianDescription" : "This machine feeds the baby birds for the mama!",
-  "floranDescription" : "Put thingsss in, mushy thingsss come out. Many ssstabs happen inside.",
+  "floranDescription" : "Put thingsss in, ball of thingsss come out. Many ssswishiesss happen inssside.",
   "glitchDescription" : "Realization. Technology has come so far. Amazed. The blades aren't jammed by bolts and nuts!",
   "humanDescription" : "Unlike it's predecessor, it doesn't break down often!",
   "hylotlDescription" : "Very useful, but will it still work underwater?",
 
-  "inventoryIcon" : "grinderMFMicon.png",
+  "inventoryIcon" : "mixerMFMicon.png",
   "orientations" : [
     {
-      "dualImage" : "grinderMFM.png:<color>.<frame>",
+      "dualImage" : "mixerMFM.png:<color>.<frame>",
 
       "imagePosition" : [0, 0],
       "frames" : 4,
@@ -30,14 +30,13 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-
     }
   ],
 
   "soundEffect" : "/sfx/objects/propeller.ogg",
   "soundEffectRadius" : 50,
 
-  "recipeGroup" : "grindingMFM",
+  "recipeGroup" : "mixingMFM",
   "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
   "slotCount": 16,
@@ -47,5 +46,5 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/grindingMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/mixingMFMRecipes.config"
 }

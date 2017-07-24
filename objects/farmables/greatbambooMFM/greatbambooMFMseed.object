@@ -18,7 +18,7 @@
   "hylotlDescription" : "Good for building huts and appliances.",
 
   "inventoryIcon" : "greatbambooMFMseedicon.png",
-  "largeImage" : "greatbambooMFMseed.png:default.3.0",
+  "largeImage" : "greatbambooMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "greatbambooMFMseed.png:<color>.<stage>.<alt>",

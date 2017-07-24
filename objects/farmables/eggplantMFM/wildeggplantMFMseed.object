@@ -6,7 +6,7 @@
   "price" : 15,
   "tooltipKind" : "seed",
   "description" : "An alien vegetable.",
-  "shortdescription" : "Eggplant Seeds",
+  "shortdescription" : "Wild Eggplant Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -14,7 +14,7 @@
   "biomePlaced" : true,
 
   "inventoryIcon" : "eggplantMFMseedicon.png",
-  "largeImage" : "eggplantMFMseed.png:default.3.0",
+  "largeImage" : "eggplantMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "eggplantMFMseed.png:<color>.<stage>.<alt>",

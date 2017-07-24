@@ -6,7 +6,7 @@
   "price" : 20,
   "tooltipKind" : "seed",
   "description" : "Leafy greens.",
-  "shortdescription" : "Lettuce Seeds",
+  "shortdescription" : "Wild Lettuce Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -18,7 +18,7 @@
   "humanDescription" : "Gotta eat your leafy greens.",
 
   "inventoryIcon" : "lettuceMFMseedicon.png",
-  "largeImage" : "lettuceMFMseed.png:default.3.0",
+  "largeImage" : "lettuceMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "lettuceMFMseed.png:<color>.<stage>.<alt>",

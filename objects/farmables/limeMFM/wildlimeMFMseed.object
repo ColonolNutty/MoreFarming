@@ -6,7 +6,7 @@
   "price" : 200,
   "tooltipKind" : "seed",
   "description" : "Green fruit, is it ripe?",
-  "shortdescription" : "Lime Seeds",
+  "shortdescription" : "Wild Lime Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -18,7 +18,7 @@
   "humanDescription" : "The juice is good in many dishes",
 
   "inventoryIcon" : "limeMFMseedicon.png",
-  "largeImage" : "limeMFMseed.png:default.3.0",
+  "largeImage" : "limeMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "limeMFMseed.png:<color>.<stage>.<alt>",

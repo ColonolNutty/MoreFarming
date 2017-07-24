@@ -15,7 +15,7 @@
   "humanDescription" : "It has a strange color on the inside",
 
   "inventoryIcon" : "grapefruitMFMseedicon.png",
-  "largeImage" : "grapefruitMFMseed.png:default.3.0",
+  "largeImage" : "grapefruitMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "grapefruitMFMseed.png:<color>.<stage>.<alt>",

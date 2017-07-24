@@ -6,7 +6,7 @@
   "price" : 5,
   "tooltipKind" : "seed",
   "description" : "A portobello mushroom spore. The farmer who plants these is a fungi.",
-  "shortdescription" : "Portobello Mushroom Spore",
+  "shortdescription" : "Wild Portobello Mushroom Spore",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -21,7 +21,7 @@
   "hylotlDescription" : "Portobellos.",
 
   "inventoryIcon" : "portobelloMFMseedicon.png",
-  "largeImage" : "portobelloMFMseed.png:default.3.0",
+  "largeImage" : "portobelloMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "portobelloMFMseed.png:<color>.<stage>.<alt>",

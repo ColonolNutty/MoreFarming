@@ -6,7 +6,7 @@
   "price" : 200,
   "tooltipKind" : "seed",
   "description" : "Yellow and sour.",
-  "shortdescription" : "Lemon Seeds",
+  "shortdescription" : "Wild Lemon Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -18,7 +18,7 @@
   "humanDescription" : "Sour, makes my lips pucker",
 
   "inventoryIcon" : "lemonMFMseedicon.png",
-  "largeImage" : "lemonMFMseed.png:default.3.0",
+  "largeImage" : "lemonMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "lemonMFMseed.png:<color>.<stage>.<alt>",

@@ -5,8 +5,8 @@
   "category" : "seed",
   "price" : 3,
   "tooltipKind" : "seed",
-  "description" : "Gelatinous and goopy",
-  "shortdescription" : "Jelon Seed",
+  "description" : "Gelatinous and goopy, a bit alien",
+  "shortdescription" : "Wild Alien Jelon Seed",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -21,7 +21,7 @@
   "hylotlDescription" : "A disgusting plant, invented for those who cannot cook.",
 
   "inventoryIcon" : "jelonMFMseedicon.png",
-  "largeImage" : "jelonalienMFMseed.png:default.3.0",
+  "largeImage" : "jelonalienMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "jelonalienMFMseed.png:<color>.<stage>.<alt>",
@@ -29,7 +29,7 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }

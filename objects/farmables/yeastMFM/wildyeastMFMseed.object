@@ -6,7 +6,7 @@
   "price" : 5,
   "tooltipKind" : "seed",
   "description" : "Perfect for baking or making alcohol. But why is this even here?",
-  "shortdescription" : "Wild Yeast",
+  "shortdescription" : "Wild Yeast Pile",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -21,7 +21,7 @@
   "hylotlDescription" : "Yeast pile, I should jar this. or should I? Wild Yeast doesn't seem safe...",
 
   "inventoryIcon" : "yeastMFMseedicon.png",
-  "largeImage" : "wildyeastMFMseed.png:default.3.0",
+  "largeImage" : "wildyeastMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "wildyeastMFMseed.png:<color>.<stage>.<alt>",

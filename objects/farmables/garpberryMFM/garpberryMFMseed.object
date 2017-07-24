@@ -18,7 +18,7 @@
   "hylotlDescription" : "Berries from the sea taste much better, these are a bit weird.",
 
   "inventoryIcon" : "garpberryMFMseedicon.png",
-  "largeImage" : "garpberryMFMseed.png:default.3.0",
+  "largeImage" : "garpberryMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "garpberryMFMseed.png:<color>.<stage>.<alt>",

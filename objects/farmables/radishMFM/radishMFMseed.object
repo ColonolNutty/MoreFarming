@@ -15,7 +15,7 @@
   "humanDescription" : "Red, looks like an onion, but not",
 
   "inventoryIcon" : "radishMFMseedicon.png",
-  "largeImage" : "radishMFMseed.png:default.3.0",
+  "largeImage" : "radishMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "radishMFMseed.png:<color>.<stage>.<alt>",
@@ -23,7 +23,7 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
     }

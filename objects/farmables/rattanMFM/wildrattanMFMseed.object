@@ -6,7 +6,7 @@
   "price" : 45,
   "tooltipKind" : "seed",
   "description" : "A Rattan plant, it comes with wooden support.",
-  "shortdescription" : "Rattan Seeds",
+  "shortdescription" : "Wild Rattan Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -22,7 +22,7 @@
   "novakidDescription" : "I have no idea what this stuff is, but it looks useful.",
 
   "inventoryIcon" : "rattanMFMseedicon.png",
-  "largeImage" : "rattanMFMseed.png:default.3.0",
+  "largeImage" : "rattanMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "rattanMFMseed.png:<color>.<stage>.<alt>",
@@ -30,7 +30,7 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }

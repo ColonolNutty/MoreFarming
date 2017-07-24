@@ -15,7 +15,7 @@
   "humanDescription" : "Broccoli, had to eat it before I got any cake!",
 
   "inventoryIcon" : "broccoliMFMseedicon.png",
-  "largeImage" : "broccoliMFMseed.png:default.3.0",
+  "largeImage" : "broccoliMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "broccoliMFMseed.png:<color>.<stage>.<alt>",
@@ -23,7 +23,7 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
     }

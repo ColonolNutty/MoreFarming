@@ -6,7 +6,7 @@
   "price" : 200,
   "tooltipKind" : "seed",
   "description" : "Ripe oranges.",
-  "shortdescription" : "Orange Seed",
+  "shortdescription" : "Wild Orange Seed",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -21,7 +21,7 @@
   "hylotlDescription" : "Some oranges can grow from here.",
 
   "inventoryIcon" : "orangeMFMseedicon.png",
-  "largeImage" : "orangeMFMseed.png:default.3.0",
+  "largeImage" : "orangeMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "orangeMFMseed.png:<color>.<stage>.<alt>",

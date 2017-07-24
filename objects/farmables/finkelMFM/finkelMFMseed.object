@@ -18,7 +18,7 @@
   "hylotlDescription" : "Shroomy mushroom-like plant.",
 
   "inventoryIcon" : "finkelMFMseedicon.png",
-  "largeImage" : "finkelMFMseed.png:default.3.0",
+  "largeImage" : "finkelMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "finkelMFMseed.png:<color>.<stage>.<alt>",

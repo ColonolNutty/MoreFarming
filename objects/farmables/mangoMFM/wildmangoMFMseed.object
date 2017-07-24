@@ -5,8 +5,8 @@
   "category" : "seed",
   "price" : 200,
   "tooltipKind" : "seed",
-  "description" : "Orange and sweet.",
-  "shortdescription" : "Mango Seed",
+  "description" : "Mango, orange and sweet.",
+  "shortdescription" : "Wild Mango Seed",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -17,7 +17,7 @@
   "glitchDescription" : "Statement. Mangos grow from here.",
 
   "inventoryIcon" : "mangoMFMseedicon.png",
-  "largeImage" : "mangoMFMseed.png:default.3.0",
+  "largeImage" : "mangoMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "mangoMFMseed.png:<color>.<stage>.<alt>",

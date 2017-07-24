@@ -6,7 +6,7 @@
   "price" : 70,
   "tooltipKind" : "seed",
   "description" : "Tastes like Parsnips.",
-  "shortdescription" : "Palsterstick Seeds",
+  "shortdescription" : "Wild Palsterstick Seeds",
   "objectType" : "farmable",
   "printable" : false, 
   "hasObjectItem" : false,
@@ -21,7 +21,7 @@
   "hylotlDescription" : "It is not from the ocean, but this weird stick is healthy.",
 
   "inventoryIcon" : "palsterstickMFMseedicon.png",
-  "largeImage" : "palsterstickMFMseed.png:default.3.0",
+  "largeImage" : "palsterstickMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "palsterstickMFMseed.png:<color>.<stage>.<alt>",

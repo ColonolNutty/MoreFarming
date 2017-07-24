@@ -14,7 +14,7 @@
   "glitchDescription" : "Statement. Mangos grow from here.",
 
   "inventoryIcon" : "mangoMFMseedicon.png",
-  "largeImage" : "mangoMFMseed.png:default.3.0",
+  "largeImage" : "mangoMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "mangoMFMseed.png:<color>.<stage>.<alt>",

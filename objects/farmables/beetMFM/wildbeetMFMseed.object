@@ -6,7 +6,7 @@
   "price" : 10,
   "tooltipKind" : "seed",
   "description" : "Grows Beets.",
-  "shortdescription" : "Beet Seeds",
+  "shortdescription" : "Wild Beet Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -18,7 +18,7 @@
   "humanDescription" : "Oh sweet! Beet seans!",
 
   "inventoryIcon" : "beetMFMseedicon.png",
-  "largeImage" : "beetMFMseed.png:default.3.0",
+  "largeImage" : "beetMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "beetMFMseed.png:<color>.<stage>.<alt>",

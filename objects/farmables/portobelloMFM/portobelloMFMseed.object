@@ -18,7 +18,7 @@
   "hylotlDescription" : "Portobellos.",
 
   "inventoryIcon" : "portobelloMFMseedicon.png",
-  "largeImage" : "portobelloMFMseed.png:default.3.0",
+  "largeImage" : "portobelloMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "portobelloMFMseed.png:<color>.<stage>.<alt>",

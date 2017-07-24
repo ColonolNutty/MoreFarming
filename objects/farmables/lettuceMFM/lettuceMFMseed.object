@@ -15,7 +15,7 @@
   "humanDescription" : "Gotta eat your leafy greens.",
 
   "inventoryIcon" : "lettuceMFMseedicon.png",
-  "largeImage" : "lettuceMFMseed.png:default.3.0",
+  "largeImage" : "lettuceMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "lettuceMFMseed.png:<color>.<stage>.<alt>",

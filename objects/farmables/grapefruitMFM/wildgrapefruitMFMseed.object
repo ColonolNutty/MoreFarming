@@ -6,7 +6,7 @@
   "price" : 20,
   "tooltipKind" : "seed",
   "description" : "Ripe Grapefruit.",
-  "shortdescription" : "Grapefruit Seed",
+  "shortdescription" : "Wild Grapefruit Seed",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -18,7 +18,7 @@
   "humanDescription" : "It has a strange color on the inside",
 
   "inventoryIcon" : "grapefruitMFMseedicon.png",
-  "largeImage" : "grapefruitMFMseed.png:default.3.0",
+  "largeImage" : "grapefruitMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "grapefruitMFMseed.png:<color>.<stage>.<alt>",
@@ -31,7 +31,6 @@
       "anchors" : [ "bottom" ]
     }
   ],
-  
   "stages" : [
     {
       "duration" : [20580, 20580]

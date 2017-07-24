@@ -18,7 +18,7 @@
   "hylotlDescription" : "Yeast in a jar. Needs watering",
 
   "inventoryIcon" : "yeastMFMseedicon.png",
-  "largeImage" : "yeastMFMseed.png:default.3.0",
+  "largeImage" : "yeastMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "yeastMFMseed.png:<color>.<stage>.<alt>",

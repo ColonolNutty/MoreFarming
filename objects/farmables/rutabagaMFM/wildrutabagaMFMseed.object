@@ -6,7 +6,7 @@
   "price" : 40,
   "tooltipKind" : "seed",
   "description" : "Rutabaga, a larger, sweeter turnip.",
-  "shortdescription" : "Rutabaga Seeds",
+  "shortdescription" : "Wild Rutabaga Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -18,7 +18,7 @@
   "humanDescription" : "Looks like a turnip, but tastes so much sweeter",
 
   "inventoryIcon" : "rutabagaMFMseedicon.png",
-  "largeImage" : "rutabagaMFMseed.png:default.3.0",
+  "largeImage" : "rutabagaMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "rutabagaMFMseed.png:<color>.<stage>.<alt>",
@@ -26,7 +26,7 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }

@@ -6,7 +6,7 @@
   "price" : 200,
   "tooltipKind" : "seed",
   "description" : "A Saguaro cactus, don't get poked!",
-  "shortdescription" : "Saguaro Seed",
+  "shortdescription" : "Wild Saguaro Seed",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -21,7 +21,7 @@
   "hylotlDescription" : "These make the Desert a blast!",
   
   "inventoryIcon" : "saguaroMFMseedicon.png",
-  "largeImage" : "saguaroMFMseed.png:default.3.0",
+  "largeImage" : "saguaroMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "saguaroMFMseed.png:<color>.<stage>.<alt>",

@@ -6,7 +6,7 @@
   "price" : 50,
   "tooltipKind" : "seed",
   "description" : "It's soy! Oh boy!",
-  "shortdescription" : "Soybean Seeds",
+  "shortdescription" : "Wild Soybean Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -21,7 +21,7 @@
   "hylotlDescription" : "Finally! It's just perfect.",
 
   "inventoryIcon" : "soybeanMFMseedicon.png",
-  "largeImage" : "soybeanMFMseed.png:default.3.0",
+  "largeImage" : "soybeanMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "soybeanMFMseed.png:<color>.<stage>.<alt>",

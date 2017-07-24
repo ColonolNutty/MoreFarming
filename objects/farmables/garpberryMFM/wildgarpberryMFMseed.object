@@ -6,7 +6,7 @@
   "price" : 10,
   "tooltipKind" : "seed",
   "description" : "Nature's snackfood.",
-  "shortdescription" : "Garpberry Seed",
+  "shortdescription" : "Wild Garpberry Seed",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -21,7 +21,7 @@
   "hylotlDescription" : "Berries from the sea taste much better, these are a bit weird.",
 
   "inventoryIcon" : "garpberryMFMseedicon.png",
-  "largeImage" : "garpberryMFMseed.png:default.3.0",
+  "largeImage" : "garpberryMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "garpberryMFMseed.png:<color>.<stage>.<alt>",

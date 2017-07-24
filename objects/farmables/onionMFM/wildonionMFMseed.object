@@ -5,8 +5,8 @@
   "category" : "seed",
   "price" : 50,
   "tooltipKind" : "seed",
-  "description" : "The saddest vegetable.",
-  "shortdescription" : "Onion Seeds",
+  "description" : "Onion, the saddest vegetable.",
+  "shortdescription" : "Wild Onion Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -18,7 +18,7 @@
   "humanDescription" : "Why must I cry while cutting these?!",
 
   "inventoryIcon" : "onionMFMseedicon.png",
-  "largeImage" : "onionMFMseed.png:default.3.0",
+  "largeImage" : "onionMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "onionMFMseed.png:<color>.<stage>.<alt>",
@@ -26,7 +26,7 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }

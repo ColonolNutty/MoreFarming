@@ -12,10 +12,10 @@
 
   "floranDescription" : "Ssseeds for turnips!",
   "glitchDescription" : "Identify. Turnip seeds.",
-  "humanDescription" : "Turnips! I wonder if there is a pig I can sell these too?",
+  "humanDescription" : "Turnips! I wonder if there is a pig I can sell these to?",
 
   "inventoryIcon" : "turnipMFMseedicon.png",
-  "largeImage" : "turnipMFMseed.png:default.3.0",
+  "largeImage" : "turnipMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "turnipMFMseed.png:<color>.<stage>.<alt>",
@@ -23,7 +23,7 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
     }

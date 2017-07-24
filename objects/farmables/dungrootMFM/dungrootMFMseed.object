@@ -19,7 +19,7 @@
   "novakidDescription" : "It smells nasty, I bet I could find a use for it though.",
 
   "inventoryIcon" : "dungrootMFMseedicon.png",
-  "largeImage" : "dungrootMFMseed.png:default.3.0",
+  "largeImage" : "dungrootMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "dungrootMFMseed.png:<color>.<stage>.<alt>",
@@ -27,12 +27,11 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
     }
   ],
-
   "stages" : [
     {
       "duration" : [240, 240]

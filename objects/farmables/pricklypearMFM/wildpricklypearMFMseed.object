@@ -6,7 +6,7 @@
   "price" : 50,
   "tooltipKind" : "seed",
   "description" : "Prickly Pears, these things are hard to eat!",
-  "shortdescription" : "Prickly Pear Seeds",
+  "shortdescription" : "Wild Prickly Pear Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -21,7 +21,7 @@
   "hylotlDescription" : "Prickly Pears, another strange human food...",
 
   "inventoryIcon" : "pricklypearMFMseedicon.png",
-  "largeImage" : "pricklypearMFMseed.png:default.3.0",
+  "largeImage" : "pricklypearMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "pricklypearMFMseed.png:<color>.<stage>.<alt>",

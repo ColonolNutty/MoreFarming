@@ -16,7 +16,7 @@
   "hylotlDescription" : "A kappa's favorite.",
 
   "inventoryIcon" : "cucumberMSMseedicon.png",
-  "largeImage" : "cucumberMSMseed.png:default.3.0",
+  "largeImage" : "cucumberMSMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "cucumberMSMseed.png:<color>.<stage>.<alt>",
@@ -24,7 +24,7 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
     }

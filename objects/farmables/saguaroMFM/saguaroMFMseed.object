@@ -18,7 +18,7 @@
   "hylotlDescription" : "These make the Desert a blast!",
 
   "inventoryIcon" : "saguaroMFMseedicon.png",
-  "largeImage" : "saguaroMFMseed.png:default.3.0",
+  "largeImage" : "saguaroMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "saguaroMFMseed.png:<color>.<stage>.<alt>",

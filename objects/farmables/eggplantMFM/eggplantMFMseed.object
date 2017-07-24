@@ -11,7 +11,7 @@
   "printable" : false,
 
   "inventoryIcon" : "eggplantMFMseedicon.png",
-  "largeImage" : "eggplantMFMseed.png:default.3.0",
+  "largeImage" : "eggplantMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "eggplantMFMseed.png:<color>.<stage>.<alt>",

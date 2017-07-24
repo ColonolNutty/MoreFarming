@@ -6,7 +6,7 @@
   "price" : 200,
   "tooltipKind" : "seed",
   "description" : "Grows golden fruit.",
-  "shortdescription" : "Holiday Fir Seed",
+  "shortdescription" : "Wild Holiday Fir Seed",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -21,7 +21,7 @@
   "hylotlDescription" : "A partially authentic holiday tree with a gift of fruit. I'm partially impressed.",
 
   "inventoryIcon" : "holidayfirMFMseedicon.png",
-  "largeImage" : "holidayfirMFMseed.png:default.3.0",
+  "largeImage" : "holidayfirMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "holidayfirMFMseed.png:<color>.<stage>.<alt>",

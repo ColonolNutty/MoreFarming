@@ -6,7 +6,7 @@
   "price" : 35,
   "tooltipKind" : "seed",
   "description" : "Spooky pumpkins, this plant sends chills down my spine.",
-  "shortdescription" : "Pumpkin Seeds",
+  "shortdescription" : "Wild Pumpkin Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -22,7 +22,7 @@
   "novakidDescription" : "Is that a newborn? No, wait, that's a plant...",
 
   "inventoryIcon" : "pumpkinMFMseedicon.png",
-  "largeImage" : "pumpkinMFMseed.png:default.3.0",
+  "largeImage" : "pumpkinMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "pumpkinMFMseed.png:<color>.<stage>.<alt>",
@@ -30,7 +30,7 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }

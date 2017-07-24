@@ -6,7 +6,7 @@
   "price" : 10,
   "tooltipKind" : "seed",
   "description" : "Red, looks like beets.",
-  "shortdescription" : "Radish Seeds",
+  "shortdescription" : "Wild Radish Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -18,7 +18,7 @@
   "humanDescription" : "Red, looks like an onion, but not",
 
   "inventoryIcon" : "radishMFMseedicon.png",
-  "largeImage" : "radishMFMseed.png:default.3.0",
+  "largeImage" : "radishMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "radishMFMseed.png:<color>.<stage>.<alt>",
@@ -26,7 +26,7 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }

@@ -18,13 +18,13 @@
   "hylotlDescription" : "On land, oats have many uses. Underwater, almost none.",
 
   "inventoryIcon" : "oatsMFMseedicon.png",
-  "largeImage" : "oatsMFMseed.png:default.3.0",
+  "largeImage" : "oatsMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "oatsMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [0, 0],
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
     }

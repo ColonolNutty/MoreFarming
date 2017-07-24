@@ -6,7 +6,7 @@
   "price" : 10,
   "tooltipKind" : "seed",
   "description" : "Shadowbulb, glows in the dark.",
-  "shortdescription" : "Shadowbulb Seeds",
+  "shortdescription" : "Wild Shadowbulb Seeds",
   "objectType" : "farmable",
   "lightColor" : [175, 175, 150],
   "printable" : false,
@@ -22,7 +22,7 @@
   "hylotlDescription" : "This plants light is more noticeable in complete darkness.",
 
   "inventoryIcon" : "shadowbulbMFMseedicon.png",
-  "largeImage" : "shadowbulbMFMseed.png:default.3.0",
+  "largeImage" : "shadowbulbMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "shadowbulbMFMseed.png:<color>.<stage>.<alt>",

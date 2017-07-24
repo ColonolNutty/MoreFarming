@@ -6,7 +6,7 @@
   "price" : 10,
   "tooltipKind" : "seed",
   "description" : "Sugar Beets. Can be turned into sugar",
-  "shortdescription" : "Sugar Beet Seeds",
+  "shortdescription" : "Wild Sugar Beet Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -18,7 +18,7 @@
   "humanDescription" : "Sugar, sugar, sugar, sugar!",
 
   "inventoryIcon" : "sugarbeetMFMseedicon.png",
-  "largeImage" : "sugarbeetMFMseed.png:default.3.0",
+  "largeImage" : "sugarbeetMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "sugarbeetMFMseed.png:<color>.<stage>.<alt>",
@@ -26,7 +26,7 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }

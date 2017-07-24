@@ -6,7 +6,7 @@
   "price" : 50,
   "tooltipKind" : "seed",
   "description" : "Blackberries, careful they bruise easily.",
-  "shortdescription" : "Blackberry Seeds",
+  "shortdescription" : "Wild Blackberry Seeds",
   "objectType" : "farmable",
   "printable" : false,
   "hasObjectItem" : false,
@@ -18,7 +18,7 @@
   "humanDescription" : "Oh sweet! Blackberry seeds!",
 
   "inventoryIcon" : "blackberryPBJseedicon.png",
-  "largeImage" : "blackberryPBJseed.png:default.3.0",
+  "largeImage" : "blackberryPBJseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "blackberryPBJseed.png:<color>.<stage>.<alt>",
@@ -26,7 +26,7 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }

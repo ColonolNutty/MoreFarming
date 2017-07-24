@@ -15,7 +15,7 @@
   "humanDescription" : "Beans beans, the magical fruit.",
 
   "inventoryIcon" : "greenbeanMFMseedicon.png",
-  "largeImage" : "greenbeanMFMseed.png:default.3.0",
+  "largeImage" : "greenbeanMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "greenbeanMFMseed.png:<color>.<stage>.<alt>",
@@ -23,7 +23,7 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
     }

@@ -18,7 +18,7 @@
   "hylotlDescription" : "Finally! It's just perfect.",
 
   "inventoryIcon" : "soybeanMFMseedicon.png",
-  "largeImage" : "soybeanMFMseed.png:default.3.0",
+  "largeImage" : "soybeanMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "soybeanMFMseed.png:<color>.<stage>.<alt>",

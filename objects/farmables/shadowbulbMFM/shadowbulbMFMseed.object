@@ -19,7 +19,7 @@
   "hylotlDescription" : "This plants light is more noticeable in complete darkness.",
 
   "inventoryIcon" : "shadowbulbMFMseedicon.png",
-  "largeImage" : "shadowbulbMFMseed.png:default.3.0",
+  "largeImage" : "shadowbulbMFMseed.png:default.default.default",
   "orientations" : [
     {
       "dualImage" : "shadowbulbMFMseed.png:<color>.<stage>.<alt>",

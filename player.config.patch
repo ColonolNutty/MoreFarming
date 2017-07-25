@@ -1,10 +1,7 @@
 [
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "groundfruitMFM" }},
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "groundmeatMFM" }},
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "groundvegetablesMFM" }},
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "plantmushMFM" }},
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cn_craftingkitchen" }},
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cn_recipebook" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "seedtableMFM" }},
   
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tofurkeydinnerMFM" }},
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "veggieburgerMFM" }},
@@ -16,6 +13,5 @@
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tofufriedriceMFM" }},
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "okaraMFM" }},
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cookingoilMFM" }},
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "saltMFM" }},
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "seedtableMFM" }}
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "saltMFM" }}
 ]

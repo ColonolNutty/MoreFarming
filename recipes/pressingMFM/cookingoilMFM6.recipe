@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "wheatseed", "count" : 4 }
+    { "item" : "cornseed", "count" : 4 }
   ],
   "output" : { "item" : "cookingoilMFM", "count" : 1 },
-  "groups" : [ "grindingMFM" ]
+  "groups" : [ "pressingMFM" ]
 }

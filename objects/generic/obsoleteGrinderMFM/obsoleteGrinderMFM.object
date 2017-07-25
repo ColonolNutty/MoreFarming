@@ -1,0 +1,37 @@
+{
+  "objectName" : "grinderMFM",
+  "colonyTags" : [ "cooking" ],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "This grinder is old, it doesn't work anymore. I should trade it for a newer model at a crafting table?",
+  "shortdescription" : "Obsolete Grinder",
+  "race" : "generic",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "decorative",
+  "hydrophobic" : false,
+  "price" : 100,
+
+  "inventoryIcon" : "obsoleteGrinderMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "obsoleteGrinderMFM.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "recipeGroup" : "",
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
+  "slotCount": 2,
+  "uiConfig" : "/interface/objectcrafting/obsoleteMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

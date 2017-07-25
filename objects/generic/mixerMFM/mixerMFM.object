@@ -33,9 +33,6 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/propeller.ogg",
-  "soundEffectRadius" : 50,
-
   "recipeGroup" : "mixingMFM",
   "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],

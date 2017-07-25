@@ -1,0 +1,7 @@
+{
+  "input" : [
+ 		{ "item" : "grinderMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "mixerMFM", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "mixingmachineMFM", "tools", "all" ]
+}

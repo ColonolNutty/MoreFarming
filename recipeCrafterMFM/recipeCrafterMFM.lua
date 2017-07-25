@@ -129,7 +129,7 @@ function init(virtual)
     storage.possibleOutputs = root.assetJson(outputConfigPath).possibleOutput
   end
   storage.slotCount = config.getParameter("slotCount", 16)
-  storage.outputSlot = config.getParameter("outputSlot", storage.slotCount) - 1
+  storage.outputSlot = config.getParameter("outputSlot", 15)
   if enableDebug then
     sb.logInfo("Setting output slot to: " .. storage.outputSlot)
   end

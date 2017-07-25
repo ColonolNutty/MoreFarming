@@ -1,19 +1,18 @@
 {
-  "itemName" : "groundmeatMFM",
+  "itemName" : "groundvegetablesMFM",
   "rarity" : "Common",
   "price" : 10,
   "category" : "food",
-  "inventoryIcon" : "groundmeatMFM.png",
-  "description" : "A pile of processed meat.",
-  "shortdescription" : "Ground Meat",
+  "inventoryIcon" : "obsoleteGroundvegetablesMFM.png",
+  "description" : "A pile of processed vegetables.",
+  "shortdescription" : "Ground Vegetables",
   "foodValue" : 25,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
+  "rottingMultiplier" : 0.0,
   "blockingEffects" : [
     "wellfed"
-  ],
-	"learnBlueprintsOnPickup": [ "nutritiousmushMFM" ]
+  ]
 }

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "beakseed", "count" : 1 }
-  ],
-  "output" : { "item" : "groundvegetablesMFM", "count" : 1 },
-  "groups" : [ "grindingMFM" ]
-}

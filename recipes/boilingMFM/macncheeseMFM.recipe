@@ -8,5 +8,5 @@
     { "item" : "liquidwater", "count" : 2 }
   ],
   "output" : { "item" : "macncheeseMFM", "count" : 2 },
-  "groups" : [ "craftingfood", "mains", "boilingMFM" ]
+  "groups" : [ "boilingMFM" ]
 }

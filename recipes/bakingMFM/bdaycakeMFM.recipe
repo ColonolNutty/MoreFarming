@@ -10,5 +10,5 @@
     { "item" : "milk", "count" : 1 }
   ],
   "output" : { "item" : "bdaycakeMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "bakingMFM" ]
+  "groups" : [ "bakingMFM" ]
 }

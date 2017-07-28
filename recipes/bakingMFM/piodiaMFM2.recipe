@@ -3,5 +3,5 @@
     { "item" : "piodia", "count" : 8 }
   ],
   "output" : { "item" : "piodiaMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "bakingMFM" ]
+  "groups" : [ "bakingMFM" ]
 }

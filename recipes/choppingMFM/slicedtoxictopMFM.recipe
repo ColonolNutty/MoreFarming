@@ -3,5 +3,5 @@
     { "item" : "toxictop", "count" : 1 }
   ],
   "output" : { "item" : "slicedtoxictopMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "condiments", "choppingMFM" ]
+  "groups" : [ "choppingMFM" ]
 }

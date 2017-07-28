@@ -4,5 +4,5 @@
     { "item" : "chocolatechipsMFM", "count" : 2 }
   ],
   "output" : { "item" : "chocolatechipicecreamMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "freezingMFM" ]
+  "groups" : [ "freezingMFM" ]
 }

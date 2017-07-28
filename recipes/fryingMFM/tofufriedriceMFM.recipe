@@ -5,5 +5,5 @@
     { "item" : "egg", "count" : 1 }
   ],
   "output" : { "item" : "tofufriedriceMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "sides", "fryingMFM" ]
+  "groups" : [ "fryingMFM" ]
 }

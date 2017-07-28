@@ -4,5 +4,5 @@
     { "item" : "butterMFM", "count" : 1 }
   ],
   "output" : { "item" : "mincedgarlicMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "condiments", "choppingMFM" ]
+  "groups" : [ "choppingMFM" ]
 }

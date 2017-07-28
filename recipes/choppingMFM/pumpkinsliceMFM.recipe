@@ -3,5 +3,5 @@
     { "item" : "pumpkinfullMFM", "count" : 1 }
   ],
   "output" : { "item" : "pumpkinsliceMFM", "count" : 6 },
-  "groups" : [ "craftingfood", "condiments", "choppingMFM" ]
+  "groups" : [ "choppingMFM" ]
 }

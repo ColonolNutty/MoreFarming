@@ -10,5 +10,5 @@
     { "item" : "vanillaextractMFM", "count" : 1 }
   ],
   "output" : { "item" : "cookiedoughMFM", "count" : 2 },
-  "groups" : [ "craftingfood", "sides", "blendingMFM" ]
+  "groups" : [ "blendingMFM" ]
 }

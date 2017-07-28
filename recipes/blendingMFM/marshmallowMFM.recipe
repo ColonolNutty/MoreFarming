@@ -7,5 +7,5 @@
     { "item" : "vanillaextractMFM", "count" : 1 }
   ],
   "output" : { "item" : "marshmallowMFM", "count" : 6 },
-  "groups" : [ "craftingfood", "snacks", "blendingMFM" ]
+  "groups" : [ "blendingMFM" ]
 }

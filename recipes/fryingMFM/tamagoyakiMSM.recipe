@@ -7,5 +7,5 @@
     { "item" : "tamariMSM", "count" : 1 }
   ],
   "output" : { "item" : "tamagoyakiMSM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "fryingMFM" ]
+  "groups" : [ "fryingMFM" ]
 }

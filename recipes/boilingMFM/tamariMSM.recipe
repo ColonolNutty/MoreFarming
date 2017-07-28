@@ -4,5 +4,5 @@
     { "item" : "rice", "count" : 5 }
   ],
   "output" : { "item" : "tamariMSM", "count" : 1 },
-  "groups" : [ "craftingfood", "condiments", "boilingMFM" ]
+  "groups" : [ "boilingMFM" ]
 }

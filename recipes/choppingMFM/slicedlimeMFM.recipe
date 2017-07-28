@@ -3,5 +3,5 @@
     { "item" : "limeMFM", "count" : 1 }
   ],
   "output" : { "item" : "slicedlimeMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "condiments", "choppingMFM" ]
+  "groups" : [ "choppingMFM" ]
 }

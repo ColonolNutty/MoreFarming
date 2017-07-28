@@ -4,5 +4,5 @@
     { "item" : "cookingoilMFM", "count" : 1 }
   ],
   "output" : { "item" : "foulcocktailMFM", "count" : 2 },
-  "groups" : [ "plain", "blendingMFM" ]
+  "groups" : [ "blendingMFM" ]
 }

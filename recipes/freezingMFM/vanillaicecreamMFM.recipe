@@ -6,5 +6,5 @@
     { "item" : "vanillaextractMFM", "count" : 2 }
   ],
   "output" : { "item" : "vanillaicecreamMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "freezingMFM" ]
+  "groups" : [ "freezingMFM" ]
 }

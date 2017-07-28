@@ -5,5 +5,5 @@
     { "item" : "cookiedoughMFM", "count" : 1 }
   ],
   "output" : { "item" : "gingercookieMFM", "count" : 8 },
-  "groups" : [ "craftingfood", "desserts", "bakingMFM" ]
+  "groups" : [ "bakingMFM" ]
 }

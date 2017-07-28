@@ -6,5 +6,5 @@
     { "item" : "vanillaextractMFM", "count" : 1 }
   ],
   "output" : { "item" : "condensedmilkMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "sides", "boilingMFM" ]
+  "groups" : [ "boilingMFM" ]
 }

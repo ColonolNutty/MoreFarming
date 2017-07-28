@@ -5,5 +5,5 @@
     { "item" : "saltMFM", "count" : 1 }
   ],
   "output" : { "item" : "scrambledeggMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "fryingMFM" ]
+  "groups" : [ "fryingMFM" ]
 }

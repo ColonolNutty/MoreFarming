@@ -3,5 +3,5 @@
     { "item" : "bamboostalkBMB", "count" : 1 }
   ],
 	"output" : { "item" : "bamboo", "count" : 1 },
-	"groups" : [ "plain" ]
+	"groups" : [ "preparingMFM" ]
 }

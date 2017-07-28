@@ -3,5 +3,5 @@
     { "item" : "coconutchunksMFM", "count" : 1 }
   ],
   "output" : { "item" : "coconutmilkMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "condiments", "blendingMFM" ]
+  "groups" : [ "blendingMFM" ]
 }

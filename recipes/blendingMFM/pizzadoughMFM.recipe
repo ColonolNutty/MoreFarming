@@ -8,5 +8,5 @@
     { "item" : "cookingoilMFM", "count" : 1 }
   ],
   "output" : { "item" : "pizzadoughMFM", "count" : 2 },
-  "groups" : [ "craftingfood", "sides", "blendingMFM" ]
+  "groups" : [ "blendingMFM" ]
 }

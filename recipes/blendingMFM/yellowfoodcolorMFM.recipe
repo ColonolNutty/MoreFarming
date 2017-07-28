@@ -3,5 +3,5 @@
     { "item" : "petalyellow", "count" : 5 }
   ],
   "output" : { "item" : "yellowfoodcolorMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "condiments", "blendingMFM" ]
+  "groups" : [ "blendingMFM" ]
 }

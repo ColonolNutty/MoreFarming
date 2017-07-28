@@ -9,5 +9,5 @@
     { "item" : "pieshellMFM", "count" : 1 }
   ],
   "output" : { "item" : "pumpkinpieMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts", "bakingMFM" ]
+  "groups" : [ "bakingMFM" ]
 }

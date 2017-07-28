@@ -5,5 +5,5 @@
     { "item" : "sugar", "count" : 1 }
   ],
   "output" : { "item" : "gariMSM", "count" : 1 },
-  "groups" : [ "craftingfood", "condiments", "choppingMFM" ]
+  "groups" : [ "choppingMFM" ]
 }

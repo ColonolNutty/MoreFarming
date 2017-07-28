@@ -5,5 +5,5 @@
     { "item" : "toxictop", "count" : 4 }
   ],
   "output" : { "item" : "piodiaMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains", "bakingMFM" ]
+  "groups" : [ "bakingMFM" ]
 }

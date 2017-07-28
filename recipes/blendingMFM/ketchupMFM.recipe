@@ -4,5 +4,5 @@
     { "item" : "sugar", "count" : 1 }
   ],
   "output" : { "item" : "ketchupMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "condiments", "blendingMFM" ]
+  "groups" : [ "blendingMFM" ]
 }

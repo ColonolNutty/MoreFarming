@@ -3,5 +3,5 @@
     { "item" : "raspberryPBJ", "count" : 5 }
   ],
   "output" : { "item" : "raspberryjellyPBJ", "count" : 1 },
-  "groups" : [ "craftingfood", "condiments", "blendingMFM" ]
+  "groups" : [ "blendingMFM" ]
 }

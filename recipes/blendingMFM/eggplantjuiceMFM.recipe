@@ -3,5 +3,5 @@
     { "item" : "slicedeggplantMFM", "count" : 1 }
   ],
   "output" : { "item" : "eggplantjuiceMFM", "count" : 5 },
-  "groups" : [ "craftingfood", "condiments", "blendingMFM" ]
+  "groups" : [ "blendingMFM" ]
 }

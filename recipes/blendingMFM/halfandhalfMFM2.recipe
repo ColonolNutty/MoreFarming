@@ -4,5 +4,5 @@
     { "item" : "creamMFM", "count" : 1 }
   ],
   "output" : { "item" : "halfandhalfMFM", "count" : 5 },
-  "groups" : [ "craftingfood", "condiments", "blendingMFM" ]
+  "groups" : [ "blendingMFM" ]
 }

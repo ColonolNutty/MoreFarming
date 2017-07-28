@@ -4,5 +4,5 @@
     { "item" : "kelp", "count" : 1 }
   ],
   "output" : { "item" : "riceballMSM", "count" : 1 },
-  "groups" : [ "craftingfood", "sides" ]
+  "groups" : [ "preparingMFM" ]
 }

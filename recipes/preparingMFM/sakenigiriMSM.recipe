@@ -4,5 +4,5 @@
     { "item" : "rawfish", "count" : 1 }
   ],
   "output" : { "item" : "sakenigiriMSM", "count" : 1 },
-  "groups" : [ "craftingfood", "sides" ]
+  "groups" : [ "preparingMFM" ]
 }

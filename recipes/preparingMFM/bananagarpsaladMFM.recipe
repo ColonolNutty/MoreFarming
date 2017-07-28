@@ -5,5 +5,5 @@
     { "item" : "lettuceMFM", "count" : 1 }
   ],
   "output" : { "item" : "bananagarpsaladMFM", "count" : 1 },
-  "groups" : [ "craftingfood", "mains" ]
+  "groups" : [ "preparingMFM" ]
 }

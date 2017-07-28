@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 10 }
+  ],
+  "output" : { "item" : "preparationstationMFM", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "preparingmachineMFM", "objects", "all", "tools" ]
+}

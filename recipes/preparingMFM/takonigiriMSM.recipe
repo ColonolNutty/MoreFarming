@@ -4,5 +4,5 @@
     { "item" : "rawtentacle", "count" : 1 }
   ],
   "output" : { "item" : "takonigiriMSM", "count" : 1 },
-  "groups" : [ "craftingfood", "sides" ]
+  "groups" : [ "preparingMFM" ]
 }

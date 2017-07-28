@@ -4,5 +4,5 @@
     { "item" : "cookedfish", "count" : 1 }
   ],
   "output" : { "item" : "unaginigiriMSM", "count" : 1 },
-  "groups" : [ "craftingfood", "sides" ]
+  "groups" : [ "preparingMFM" ]
 }

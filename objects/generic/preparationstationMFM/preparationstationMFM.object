@@ -5,7 +5,7 @@
   "printable" : false,
   "rarity" : "Common",
   "description" : "Used to prepare meals or ingredients that don't require cooking!",
-  "shortdescription" : "^orange;Preparation Station (Prepare)^white;",
+  "shortdescription" : "^orange;Prep Station (Prep)^white;",
   "subtitle" : "Prepare Meals!",
   "race" : "generic",
   "category" : "Cookware",

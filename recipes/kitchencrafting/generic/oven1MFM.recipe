@@ -3,9 +3,6 @@
     { "item" : "ironbar", "count" : 6 },
     { "item" : "copperbar", "count" : 2 }
   ],
-  "output" : {
-    "item" : "oven1",
-    "count" : 1
-  },
+  "output" : { "item" : "oven1", "count" : 1 },
   "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "bakingmachineMFM", "all" ]
 }

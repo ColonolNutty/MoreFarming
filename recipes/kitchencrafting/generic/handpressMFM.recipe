@@ -3,9 +3,6 @@
     { "item" : "ironbar", "count" : 4 },
     { "item" : "darkwoodmaterial", "count" : 2 }
   ],
-  "output" : {
-    "item" : "handpressMFM",
-    "count" : 1
-  },
+  "output" : { "item" : "handpressMFM", "count" : 1 },
   "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "pressingmachineMFM", "objects", "all", "tools" ]
 }

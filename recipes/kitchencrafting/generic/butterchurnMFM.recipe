@@ -3,9 +3,6 @@
     { "item" : "ironbar", "count" : 6 },
     { "item" : "darkwoodmaterial", "count" : 8 }
   ],
-  "output" : {
-    "item" : "butterchurnMFM",
-    "count" : 1
-  },
+  "output" : { "item" : "butterchurnMFM", "count" : 1 },
   "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "churningmachineMFM", "objects", "all", "tools" ]
 }

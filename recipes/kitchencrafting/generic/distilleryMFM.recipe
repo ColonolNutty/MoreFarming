@@ -5,9 +5,6 @@
     { "item" : "ironbar", "count" : 5 },
     { "item" : "glass", "count" : 10 }
   ],
-  "output" : {
-    "item" : "distilleryMFM",
-    "count" : 1
-  },
+  "output" : { "item" : "distilleryMFM", "count" : 1 },
   "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "distillingmachineMFM", "objects", "tools", "all" ]
 }

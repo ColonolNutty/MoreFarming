@@ -3,9 +3,6 @@
     { "item" : "ironbar", "count" : 10 },
     { "item" : "copperbar", "count" : 5 }
   ],
-  "output" : {
-    "item" : "juicerMFM",
-    "count" : 1
-  },
+  "output" : { "item" : "juicerMFM", "count" : 1 },
   "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "juicermachineMFM", "objects", "all", "tools" ]
 }

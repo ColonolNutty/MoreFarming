@@ -1,34 +1,87 @@
 {
   "objectName" : "handmillMFM",
-  "colonyTags" : ["farm","cooking"],
+  "colonyTags" : ["farm", "cooking"],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
-  "description" : "A mill. used for grinding up things.",
+  "description" : "A mill. Used for grinding up things.",
   "shortdescription" : "Hand Mill (Mill)",
   "race" : "generic",
   "category" : "crafting",
   "price" : 300,
 
-  "apexDescription" : "A wooden mill. Anything inside?",
-  "avianDescription" : "wooden container crafted together with iron.",
+  "apexDescription" : "A wooden hand mill. Anything inside?",
+  "avianDescription" : "Wooden hand mill crafted from wood.",
   "floranDescription" : "Floran can put thingsss insside and crunch them.",
-  "glitchDescription" : "Observe. A mill, used to grind wheat into grain.",
-  "humanDescription" : "A mill. Good for grinding up things.",
-  "hylotlDescription" : "A mill for grinding up items.",
+  "glitchDescription" : "Observe. A hand mill, used to grind wheat into grain.",
+  "humanDescription" : "A hand mill. Good for grinding things up.",
+  "hylotlDescription" : "A hand mill for grinding items up.",
 
   "inventoryIcon" : "handmillMFMicon.png",
   "orientations" : [
+    //bottom corner when facing right
     {
-      "dualImage" : "handmillMFM.png:<color>",
+      "image" : "handmillMFM.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction": "right",
 
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
+      "spaces" : [ [0, 1], [0, 2], [1, 1], [1, 2], [0, 0] ],
+      "fgAnchors" : [ [1, 0] ],
+      "collision" : "platform"
+    },
+    //bottom corner when facing left
+    {
+      "image" : "handmillMFM.png:<color>",
+      "imagePosition" : [0, 0],
+      "flipImages": true,
+      "direction": "left",
 
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "spaces" : [ [0, 1], [0, 2], [1, 1], [1, 2], [1, 0] ],
+      "fgAnchors" : [ [0, 0] ],
+      "collision" : "platform"
+    },
+    //bottom when facing right
+    {
+      "image" : "handmillMFM.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction": "right",
+
+      "spaces" : [ [0, 1], [0, 2], [1, 1], [1, 2], [0, 0] ],
+      "fgAnchors" : [ [0, -1] ],
+      "collision" : "platform"
+    },
+    //bottom when facing left
+    {
+      "image" : "handmillMFM.png:<color>",
+      "imagePosition" : [0, 0],
+      "flipImages": true,
+      "direction": "left",
+
+      "spaces" : [ [0, 1], [0, 2], [1, 1], [1, 2], [1, 0] ],
+      "fgAnchors" : [ [1, -1] ],
+      "collision" : "platform"
+    },
+    //left
+    {
+      "image" : "handmillMFM.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction": "right",
+
+      "spaces" : [ [0, 1], [0, 2], [1, 1], [1, 2], [0, 0] ],
+      "fgAnchors" : [ [-1, 0], [-1, 1], [-1, 2] ],
+      "collision" : "platform"
+    },
+    //right
+    {
+      "image" : "handmillMFM.png:<color>",
+      "imagePosition" : [0, 0],
+      "flipImages": true,
+      "direction": "left",
+
+      "spaces" : [ [0, 1], [0, 2], [1, 1], [1, 2], [1, 0] ],
+      "fgAnchors" : [ [2, 0], [2, 1], [2, 2] ],
+      "collision" : "platform"
     }
   ],
   "recipeGroup" : "millingMFM",

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 },
+    { "item" : "copperbar", "count" : 4 }
+  ],
+  "output" : { "item" : "advancedmillMFM", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "millingmachineMFM", "objects", "all", "tools" ]
+}

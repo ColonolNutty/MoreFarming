@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 60,
   "tooltipKind" : "seed",
-  "description" : "Spicy.\nFirst Harvest: 60 mins\nRe-Harvest: None",
+  "description" : "Spicy.\nFirst Harvest: 60 mins\nRe-Harvest: 7 mins",
   "shortdescription" : "Jalapeno Seeds",
   "objectType" : "farmable",
   "printable" : false,

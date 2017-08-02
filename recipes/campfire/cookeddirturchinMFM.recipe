@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "dirturchin", "count" : 1 }
-  ],
-  "output" : { "item" : "cookeddirturchinMFM", "count" : 1 },
-  "groups" : [ "campfire", "bakingMFM" ]
-}

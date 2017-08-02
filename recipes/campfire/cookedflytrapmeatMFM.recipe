@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "flytrapMFMmeat", "count" : 1 }
-  ],
-  "output" : { "item" : "cookedflytrapMFMmeat", "count" : 1 },
-  "groups" : [ "campfire", "craftingfood", "mains", "bakingMFM" ]
-}

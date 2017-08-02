@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "redapple", "count" : 1 },
+    { "item" : "goldbar", "count" : 1 }
+  ],
+  "output" : { "item" : "goldenappleMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

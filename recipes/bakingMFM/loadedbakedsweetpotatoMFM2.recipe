@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "sweetpotatoMFM", "count" : 1 },
+    { "item" : "toastedmarshmallowMFM", "count" : 4 },
+    { "item" : "butterMFM", "count" : 1 },
+    { "item" : "groundcinnamonMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "loadedbakedsweetpotatoMFM", "count" : 1 },
+  "groups" : [ "bakingMFM" ]
+}

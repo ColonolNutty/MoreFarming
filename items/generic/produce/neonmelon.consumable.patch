@@ -1,23 +1,12 @@
 [
-  [
-    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
-    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
-  ],
-  [
-    { 
-      "op": "replace",
-      "path" : "/inventoryIcon", 
-      "value" : "fullneonmelonMFM.png"
-    },
-    { 
-      "op": "replace",
-      "path" : "/shortdescription", 
-      "value" : "Fully Grown Neonmelon"
-    },
-    {
-      "op" : "add",
-      "path" : "/learnBlueprintsOnPickup/-",
-      "value" : "slicedneonmelonMFM"
-    }
-  ]
+  { 
+    "op": "replace",
+    "path" : "/inventoryIcon", 
+    "value" : "fullneonmelonMFM.png"
+  },
+  { 
+    "op": "replace",
+    "path" : "/shortdescription", 
+    "value" : "Fully Grown Neonmelon"
+  }
 ]

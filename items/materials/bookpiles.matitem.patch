@@ -7,6 +7,6 @@
   {
     "op": "replace",
     "path": "/description",
-    "value": "A book, full of tales of dragons and knights."
+    "value": "A book, contains tales of dragons and knights."
   }
 ]

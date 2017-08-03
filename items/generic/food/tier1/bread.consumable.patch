@@ -8,11 +8,6 @@
       "op" : "add",
       "path" : "/learnBlueprintsOnPickup/-",
       "value" : "toast"
-    },
-    {
-      "op" : "add",
-      "path" : "/learnBlueprintsOnPickup/-",
-      "value" : "frenchtoastMFM"
     }
   ]
 ]

@@ -7,16 +7,6 @@
     {
       "op" : "add",
       "path" : "/learnBlueprintsOnPickup/-",
-      "value" : "macncheeseMFM"
-    },
-    {
-      "op" : "add",
-      "path" : "/learnBlueprintsOnPickup/-",
-      "value" : "pizzaMFM"
-    },
-    {
-      "op" : "add",
-      "path" : "/learnBlueprintsOnPickup/-",
       "value" : "pizza"
     },
     {

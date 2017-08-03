@@ -7,22 +7,7 @@
     {
       "op" : "add",
       "path" : "/learnBlueprintsOnPickup/-",
-      "value" : "vodkabottleMFM"
-    },
-    {
-      "op" : "add",
-      "path" : "/learnBlueprintsOnPickup/-",
-      "value" : "frenchfriesMFM"
-    },
-    {
-      "op" : "add",
-      "path" : "/learnBlueprintsOnPickup/-",
       "value" : "bakedpotato"
-    },
-    {
-      "op" : "add",
-      "path" : "/learnBlueprintsOnPickup/-",
-      "value" : "flourMFM"
     }
   ]
 ]

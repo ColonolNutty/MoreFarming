@@ -1,7 +1,7 @@
 {
   "itemName" : "jelonMFM",
-  "rarity" : "Common",
-  "price" : 200,
+  "rarity" : "Uncommon",
+  "price" : 90,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "inventoryIcon" : "jelonMFM.png",

@@ -1,7 +1,7 @@
 {
   "itemName" : "cocoabeansMFM",
   "rarity" : "Common",
-  "price" : 20,
+  "price" : 105,
   "category" : "preparedFood",
   "inventoryIcon" : "cocoabeansMFM.png",
   "description" : "This is not their final form.",

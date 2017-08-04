@@ -1,7 +1,7 @@
 {
   "itemName" : "eggplantMFM",
   "rarity" : "Common",
-  "price" : 20,
+  "price" : 120,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "inventoryIcon" : "eggplantMFM.png",

@@ -1,7 +1,7 @@
 {
   "itemName" : "groundjelonMFM",
   "rarity" : "Common",
-  "price" : 10,
+  "price" : 125,
   "category" : "food",
   "inventoryIcon" : "groundjelonMFM.png",
   "description" : "A pile of ground jelon.",

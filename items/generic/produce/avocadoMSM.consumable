@@ -1,7 +1,7 @@
 {
   "itemName" : "avocadoMSM",
   "rarity" : "Common",
-  "price" : 10,
+  "price" : 80,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "inventoryIcon" : "avocadoMSM.png",

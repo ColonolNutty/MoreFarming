@@ -1,7 +1,7 @@
 {
   "itemName" : "jalapenopepperMFM",
   "rarity" : "Common",
-  "price" : 10,
+  "price" : 50,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "inventoryIcon" : "jalapenopepperMFM.png",
@@ -17,7 +17,7 @@
         "duration" : 10
     }
   ] ],
-  "foodValue" : 10,
+  "foodValue" : 3,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

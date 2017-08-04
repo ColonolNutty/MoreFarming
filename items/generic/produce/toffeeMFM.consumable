@@ -6,7 +6,7 @@
   "inventoryIcon" : "toffeeMFM.png",
   "description" : "Toffee! A common ingredient in sweets.",
   "shortdescription" : "Toffee",
-  "foodValue" : 10,
+  "foodValue" : 3,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

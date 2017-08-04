@@ -1,7 +1,7 @@
 {
   "itemName" : "dungrootMFM",
   "rarity" : "Common",
-  "price" : 30,
+  "price" : 3,
   "category" : "food",
   "inventoryIcon" : "dungrootMFM.png",
   "description" : "...Seriously?",

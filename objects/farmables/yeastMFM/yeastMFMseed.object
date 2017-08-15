@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "colonyTags" : ["nature"],
   "category" : "seed",
-  "price" : 5,
+  "price" : 9,
   "tooltipKind" : "seed",
   "description" : "Needs watering.\nFirst Harvest: 42 mins\nRe-Harvest: 42 mins",
   "shortdescription" : "Yeast Jar",

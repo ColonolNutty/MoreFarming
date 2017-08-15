@@ -3,7 +3,7 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
-  "price" : 200,
+  "price" : 5,
   "tooltipKind" : "seed",
   "description" : "Ripe oranges.\nFirst Harvest: 365 mins\nRe-Harvest: 22 mins",
   "shortdescription" : "Orange Seed",

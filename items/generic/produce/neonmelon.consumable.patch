@@ -8,5 +8,10 @@
     "op": "replace",
     "path" : "/shortdescription", 
     "value" : "Fully Grown Neonmelon"
+  },
+  { 
+    "op": "replace",
+    "path" : "/price", 
+    "value" : 280
   }
 ]

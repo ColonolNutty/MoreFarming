@@ -3,7 +3,7 @@
   "colonyTags" : ["nature"],
   "rarity" : "Uncommon",
   "category" : "seed",
-  "price" : 200,
+  "price" : 40,
   "tooltipKind" : "seed",
   "description" : "Grows golden fruit.\nFirst Harvest: 365 mins\nRe-Harvest: 22 mins",
   "shortdescription" : "Holiday Fir Seed",

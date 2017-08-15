@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 50,
   "category" : "preparedFood",
-  "inventoryIcon" : "cookedmarshmallowMFM.png",
+  "inventoryIcon" : "obsoletecookedmarshmallowMFM.png",
   "description" : "A staple camping treat!",
   "shortdescription" : "Cooked Marshmallow",
   "effects" : [ [

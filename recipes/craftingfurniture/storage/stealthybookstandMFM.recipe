@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 20 },
+    { "item" : "ironbar", "count" : 2 }
+  ],
+  "output" : { "item" : "stealthybookstandMFM", "count" : 1 },
+  "groups" : [ "craftingfurniture", "storage", "objects", "all" ]
+}

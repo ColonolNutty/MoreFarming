@@ -17,7 +17,6 @@
     "wellfed"
   ],
   "learnBlueprintsOnPickup" : [ "sweetpotatofriesMFM",
-                                "loadedbakedsweetpotatoMFM",
                                 "bakedsweetpotatoMFM",
                                 "mashedsweetpotatoMFM" ]
 }

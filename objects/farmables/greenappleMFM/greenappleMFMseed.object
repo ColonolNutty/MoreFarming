@@ -3,7 +3,7 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
-  "price" : 200,
+  "price" : 5,
   "tooltipKind" : "seed",
   "description" : "This tree produces Green Apples.\nFirst Harvest: 365 mins\nRe-Harvest: 22 mins",
   "shortdescription" : "Green Apple Seed",

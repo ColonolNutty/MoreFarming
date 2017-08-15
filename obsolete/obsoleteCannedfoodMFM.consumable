@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 40,
   "category" : "preparedFood",
-  "inventoryIcon" : "cannedfoodMFM.png",
+  "inventoryIcon" : "obsoleteCannedfoodMFM.png",
   "description" : "A can of balanced meal.",
   "shortdescription" : "Canned Omnifood",
   "foodValue" : 40,

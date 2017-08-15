@@ -15,6 +15,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup": [ "loadedbakedsweetpotatoMFM" ],
   "handPosition" : [0, -4]
 }

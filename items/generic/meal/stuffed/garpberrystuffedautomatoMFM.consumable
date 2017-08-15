@@ -1,11 +1,11 @@
 {
-  "itemName" : "garpberrybakedautomatoMFM",
+  "itemName" : "garpberrystuffedautomatoMFM",
   "rarity" : "Common",
   "price" : 80,
   "category" : "preparedFood",
-  "inventoryIcon" : "garpberrybakedautomatoMFM.png",
-  "description" : "An automato baked with garpberry inside.",
-  "shortdescription" : "Garpberrys baked automato",
+  "inventoryIcon" : "garpberrystuffedautomatoMFM.png",
+  "description" : "Garpberries baked within an automato.",
+  "shortdescription" : "Garpberry Stuffed Automato",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",

@@ -6,7 +6,7 @@
   "inventoryIcon" : "lemonicingMFM.png",
   "description" : "Don't forget the icing!",
   "shortdescription" : "Lemon Icing",
-  "foodValue" : 10,
+  "foodValue" : 3,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],

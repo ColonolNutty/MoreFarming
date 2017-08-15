@@ -3,7 +3,7 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
-  "price" : 200,
+  "price" : 10,
   "tooltipKind" : "seed",
   "description" : "Green fruit, is it ripe?\nFirst Harvest: 365 mins\nRe-Harvest: 22 mins",
   "shortdescription" : "Lime Seeds",

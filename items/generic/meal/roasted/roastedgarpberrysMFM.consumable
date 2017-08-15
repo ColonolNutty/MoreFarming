@@ -4,8 +4,8 @@
   "price" : 80,
   "category" : "preparedFood",
   "inventoryIcon" : "roastedgarpberrysMFM.png",
-  "description" : "Crunchy roasted garpberrys. Mmm.",
-  "shortdescription" : "Roasted garpberrys",
+  "description" : "Crunchy roasted garpberries. Mmm.",
+  "shortdescription" : "Roasted Garpberries",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",

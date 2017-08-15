@@ -3,6 +3,6 @@
     { "item" : "garpberryMFM", "count" : 1 },
     { "item" : "automato", "count" : 1 }
   ],
-  "output" : { "item" : "garpberrybakedautomatoMFM", "count" : 1 },
+  "output" : { "item" : "garpberrystuffedautomatoMFM", "count" : 1 },
   "groups" : [ "bakingMFM" ]
 }

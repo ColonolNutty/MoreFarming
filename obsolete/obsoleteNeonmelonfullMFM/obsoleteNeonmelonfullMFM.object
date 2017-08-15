@@ -16,11 +16,11 @@
   "humanDescription" : "You could eat these, or decorate your room with them. I'm going for the first option.",
   "hylotlDescription" : "An overly sweet melon. It's pretty to look at, though.",
 
-  "inventoryIcon" : "neonmelonfullMFMicon.png",
-  "largeImage" : "neonmelonfullMFM.png:default.3.0",
+  "inventoryIcon" : "obsoleteNeonmelonfullMFMicon.png",
+  "largeImage" : "obsoleteNeonmelonfullMFM.png:default.3.0",
   "orientations" : [
     {
-      "dualImage" : "neonmelonfullMFM.png:<color>.<stage>.<alt>",
+      "dualImage" : "obsoleteNeonmelonfullMFM.png:<color>.<stage>.<alt>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,

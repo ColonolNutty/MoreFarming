@@ -1,7 +1,7 @@
 {
   "itemName" : "asparagusMFM",
   "rarity" : "Common",
-  "price" : 120,
+  "price" : 60,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "inventoryIcon" : "asparagusMFM.png",

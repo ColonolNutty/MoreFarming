@@ -3,7 +3,7 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
-  "price" : 200,
+  "price" : 5,
   "tooltipKind" : "seed",
   "description" : "This tree produces Green Apples.",
   "shortdescription" : "Wild Green Apple Seed",

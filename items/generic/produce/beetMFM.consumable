@@ -1,7 +1,7 @@
 {
   "itemName" : "beetMFM",
   "rarity" : "Common",
-  "price" : 30,
+  "price" : 40,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "inventoryIcon" : "beetMFM.png",

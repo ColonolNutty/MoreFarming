@@ -3,7 +3,7 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
-  "price" : 50,
+  "price" : 13,
   "tooltipKind" : "seed",
   "description" : "Produces Blueberries.\nFirst Harvest: 363 mins\nRe-Harvest: 8 mins",
   "shortdescription" : "Blueberry Seeds",

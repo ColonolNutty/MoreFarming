@@ -6,7 +6,7 @@
   "inventoryIcon" : "pizzadoughMFM.png",
   "description" : "A base for making pizza.",
   "shortdescription" : "Pizza Dough",
-  "foodValue" : 10,
+  "foodValue" : 3,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

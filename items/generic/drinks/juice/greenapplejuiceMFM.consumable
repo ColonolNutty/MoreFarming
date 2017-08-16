@@ -1,7 +1,7 @@
 {
   "itemName" : "greenapplejuiceMFM",
   "rarity" : "Common",
-  "price" : 40,
+  "price" : 4.41,
   "category" : "drink",
   "inventoryIcon" : "greenapplejuiceMFM.png",
   "description" : "Sour apple juice from a green apple.",
@@ -12,7 +12,7 @@
         "duration" : 120
     }
   ] ],
-  "foodValue" : 35,
+  "foodValue" : 1.1,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

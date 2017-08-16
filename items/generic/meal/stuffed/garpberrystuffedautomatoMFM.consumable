@@ -1,7 +1,7 @@
 {
   "itemName" : "garpberrystuffedautomatoMFM",
   "rarity" : "Common",
-  "price" : 80,
+  "price" : 168,
   "category" : "preparedFood",
   "inventoryIcon" : "garpberrystuffedautomatoMFM.png",
   "description" : "Garpberries baked within an automato.",
@@ -12,7 +12,7 @@
         "duration" : 30
     }
   ] ],
-  "foodValue" : 40,
+  "foodValue" : 5.25,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

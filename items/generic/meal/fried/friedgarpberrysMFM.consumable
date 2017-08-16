@@ -1,7 +1,7 @@
 {
   "itemName" : "friedgarpberrysMFM",
   "rarity" : "Common",
-  "price" : 80,
+  "price" : 92.27,
   "category" : "preparedFood",
   "inventoryIcon" : "friedgarpberrysMFM.png",
   "description" : "Tasty fried garpberrys.",
@@ -12,7 +12,7 @@
         "duration" : 30
     }
   ] ],
-  "foodValue" : 40,
+  "foodValue" : 3.18,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

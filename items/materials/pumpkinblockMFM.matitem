@@ -2,7 +2,7 @@
   "itemName" : "pumpkinblockMFM",
   "rarity" : "Common",
   "category" : "block",
-  "price" : 0,
+  "price" : 12.6,
   "inventoryIcon" : "pumpkinblockMFM.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Pumpkin Block",

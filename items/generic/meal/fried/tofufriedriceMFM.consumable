@@ -1,7 +1,7 @@
 {
   "itemName" : "tofufriedriceMFM",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 211.69,
   "category" : "preparedFood",
   "inventoryIcon" : "tofufriedriceMFM.png",
   "description" : "Tofu fried rice, a twist on a Hylotl staple.",
@@ -16,7 +16,7 @@
       "duration" : 30
     }
   ]],
-  "foodValue" : 37,
+  "foodValue" : 17.48,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

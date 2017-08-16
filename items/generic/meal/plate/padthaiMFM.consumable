@@ -1,7 +1,7 @@
 {
   "itemName" : "padthaiMFM",
   "rarity" : "Uncommon",
-  "price" : 50,
+  "price" : 626.53,
   "category" : "preparedFood",
   "inventoryIcon" : "padthaiMFM.png",
   "description" : "A Hylotl dish made of noodles and various ingredients.",
@@ -12,7 +12,7 @@
         "duration" : 20
       }
     ] ],
-  "foodValue" : 30,
+  "foodValue" : 40.15,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

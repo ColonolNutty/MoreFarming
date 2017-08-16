@@ -1,7 +1,7 @@
 {
   "itemName" : "grapefruitjuiceMFM",
   "rarity" : "Common",
-  "price" : 40,
+  "price" : 8.82,
   "category" : "drink",
   "inventoryIcon" : "grapefruitjuiceMFM.png",
   "description" : "tart grapefruit juice.",
@@ -12,7 +12,7 @@
         "duration" : 120
     }
   ] ],
-  "foodValue" : 30,
+  "foodValue" : 1.76,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

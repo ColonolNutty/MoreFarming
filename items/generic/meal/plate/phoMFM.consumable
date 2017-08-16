@@ -1,7 +1,7 @@
 {
   "itemName" : "phoMFM",
   "rarity" : "Uncommon",
-  "price" : 50,
+  "price" : 252.36,
   "category" : "preparedFood",
   "inventoryIcon" : "phoMFM.png",
   "description" : "Meaty rice.",
@@ -12,7 +12,7 @@
         "duration" : 20
       }
     ] ],
-  "foodValue" : 25,
+  "foodValue" : 24.59,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

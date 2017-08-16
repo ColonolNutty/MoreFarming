@@ -1,7 +1,7 @@
 {
   "itemName" : "automatopastaMFM",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 130.31,
   "category" : "preparedFood",
   "inventoryIcon" : "automatopastaMFM.png",
   "description" : "Pasta with some automato sauce. It works. Kinda.",
@@ -12,7 +12,7 @@
         "duration" : 180
     }
   ] ],
-  "foodValue" : 30,
+  "foodValue" : 4.95,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

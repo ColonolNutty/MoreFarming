@@ -1,7 +1,7 @@
 {
   "itemName" : "jelonbreadMFM",
   "rarity" : "Common",
-  "price" : 100,
+  "price" : 198.45,
   "category" : "food",
   "inventoryIcon" : "jelonbreadMFM.png",
   "description" : "Bread with jelon spread on it. Tasty!",
@@ -12,7 +12,7 @@
         "duration" : 70
       }
     ] ],
-  "foodValue" : 10,
+  "foodValue" : 11.14,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

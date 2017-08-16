@@ -1,7 +1,7 @@
 {
   "itemName" : "mashedsweetpotatoMFM",
   "rarity" : "Common",
-  "price" : 40,
+  "price" : 162.56,
   "category" : "preparedFood",
   "inventoryIcon" : "mashedsweetpotatoMFM.png",
   "description" : "Smashing sweet potatoes is scientifically proven to make them 500% tastier.",
@@ -12,7 +12,7 @@
         "duration" : 105
     }
   ] ],
-  "foodValue" : 35,
+  "foodValue" : 23.88,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

@@ -1,7 +1,7 @@
 {
   "itemName" : "limejuiceMFM",
   "rarity" : "Common",
-  "price" : 40,
+  "price" : 8.82,
   "category" : "drink",
   "inventoryIcon" : "limejuiceMFM.png",
   "description" : "Tart lime juice.",
@@ -12,7 +12,7 @@
         "duration" : 120
     }
   ] ],
-  "foodValue" : 35,
+  "foodValue" : 0.88,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

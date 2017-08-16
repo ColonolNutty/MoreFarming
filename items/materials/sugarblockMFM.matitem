@@ -2,7 +2,7 @@
   "itemName" : "sugarblockMFM",
   "rarity" : "Common",
   "category" : "block",
-  "price" : 0,
+  "price" : 184.5,
   "inventoryIcon" : "sugarblockMFM.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Sugar Block",

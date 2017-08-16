@@ -1,7 +1,7 @@
 {
   "itemName" : "gingercookieMFM",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 52.36,
   "category" : "preparedFood",
   "inventoryIcon" : "gingercookieMFM.png",
   "description" : "Hey, Santa can't hog all these for himself!",
@@ -12,7 +12,7 @@
         "duration" : 20
       }
     ] ],
-  "foodValue" : 10,
+  "foodValue" : 4.91,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

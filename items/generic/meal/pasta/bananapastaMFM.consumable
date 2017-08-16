@@ -1,7 +1,7 @@
 {
   "itemName" : "bananapastaMFM",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 172.31,
   "category" : "preparedFood",
   "inventoryIcon" : "bananapastaMFM.png",
   "description" : "A chef took a try on making an Apex-specific pasta. It actually worked.",
@@ -12,7 +12,7 @@
         "duration" : 180
     }
   ] ],
-  "foodValue" : 30,
+  "foodValue" : 6.26,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

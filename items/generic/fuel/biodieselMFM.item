@@ -1,7 +1,7 @@
 {
   "itemName" : "biodieselMFM",
   "rarity" : "Common",
-  "price" : 40,
+  "price" : 18.14,
   "category" : "craftingMaterial",
   "inventoryIcon" : "biodieselMFM.png",
   "description" : "Renewable fuel for intergalactic conquest!",

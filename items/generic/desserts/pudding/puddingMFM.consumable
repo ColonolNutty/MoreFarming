@@ -1,7 +1,7 @@
 {
   "itemName" : "puddingMFM",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 106.22,
   "category" : "preparedFood",
   "inventoryIcon" : "puddingMFM.png",
   "description" : "Is it a liquid or solid?",
@@ -12,7 +12,7 @@
         "duration" : 20
       }
     ] ],
-  "foodValue" : 30,
+  "foodValue" : 12.73,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

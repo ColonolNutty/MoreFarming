@@ -1,7 +1,7 @@
 {
   "itemName" : "chocolateliquorMFM",
   "rarity" : "Common",
-  "price" : 20,
+  "price" : 21.88,
   "category" : "cookingIngredient",
   "inventoryIcon" : "chocolateliquorMFM.png",
   "description" : "Pure liquid chocolate.",
@@ -12,7 +12,7 @@
         "duration" : 120
     }
   ] ],
-  "foodValue" : 10,
+  "foodValue" : 0.48,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],

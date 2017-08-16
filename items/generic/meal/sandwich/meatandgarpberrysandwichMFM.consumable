@@ -1,7 +1,7 @@
 {
   "itemName" : "meatandgarpberrysandwichMFM",
   "rarity" : "Common",
-  "price" : 80,
+  "price" : 174.51,
   "category" : "preparedFood",
   "inventoryIcon" : "meatandgarpberrysandwichMFM.png",
   "description" : "Chunks of meat and garpberrys in a sandwiched between some bread. Floran likesss!",
@@ -16,7 +16,7 @@
         "duration" : 30
     }
   ] ],
-  "foodValue" : 40,
+  "foodValue" : 17.96,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

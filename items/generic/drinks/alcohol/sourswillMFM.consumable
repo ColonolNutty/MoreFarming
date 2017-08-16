@@ -1,7 +1,7 @@
 {
   "itemName" : "sourswillMFM",
   "rarity" : "Common",
-  "price" : 20,
+  "price" : 136.67,
   "category" : "drink",
   "inventoryIcon" : "sourswillMFM.png",
   "description" : "A swill so sour it's almost corrosive.",
@@ -12,7 +12,7 @@
           "duration" : 5
       }
     ] ],
-  "foodValue" : 5,
+  "foodValue" : 6.83,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

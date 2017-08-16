@@ -1,7 +1,7 @@
 {
   "itemName" : "tomatopastaMFM",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 109.31,
   "category" : "preparedFood",
   "inventoryIcon" : "tomatopastaMFM.png",
   "description" : "Pasta with some tomato sauce.",
@@ -16,7 +16,7 @@
         "duration" : 20
       }
     ] ],
-  "foodValue" : 25,
+  "foodValue" : 4.95,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

@@ -1,7 +1,7 @@
 {
   "itemName" : "chocolatepuddingMFM",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 133.41,
   "category" : "preparedFood",
   "inventoryIcon" : "chocolatepuddingMFM.png",
   "description" : "I need more!",
@@ -12,7 +12,7 @@
         "duration" : 20
       }
     ] ],
-  "foodValue" : 10,
+  "foodValue" : 13.85,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

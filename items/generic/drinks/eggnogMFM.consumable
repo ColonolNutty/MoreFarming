@@ -1,7 +1,7 @@
 {
   "itemName" : "eggnogMFM",
   "rarity" : "Common",
-  "price" : 150,
+  "price" : 377.64,
   "category" : "drink",
   "inventoryIcon" : "eggnogMFM.png",
   "description" : "A delicious drink, even when it's not Christmas!",
@@ -12,7 +12,7 @@
         "duration" : 20
       }
     ] ],
-  "foodValue" : 20,
+  "foodValue" : 51.83,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

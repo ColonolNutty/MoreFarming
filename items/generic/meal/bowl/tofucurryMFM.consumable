@@ -1,7 +1,7 @@
 {
   "itemName" : "tofucurryMFM",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 471.19,
   "category" : "drink",
   "inventoryIcon" : "tofucurryMFM.png",
   "description" : "A spicy curry made with tofu.",
@@ -20,7 +20,7 @@
       "duration" : 25
     }
   ]],
-  "foodValue" : 50,
+  "foodValue" : 12.92,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

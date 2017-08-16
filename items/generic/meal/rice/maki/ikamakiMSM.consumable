@@ -1,7 +1,7 @@
 {
   "itemName" : "ikamakiMSM",
   "rarity" : "Uncommon",
-  "price" : 550,
+  "price" : 311.25,
 	"category" : "preparedFood",
   "inventoryIcon" : "ikamakiMSM.png",
   "description" : "Ika Maki.",
@@ -16,7 +16,7 @@
         "duration" : 105
     }
   ] ],
-	"foodValue" : 35,
+	"foodValue" : 25.95,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

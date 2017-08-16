@@ -1,7 +1,7 @@
 {
   "itemName" : "garpberryjuiceMFM",
   "rarity" : "Common",
-  "price" : 80,
+  "price" : 42,
   "category" : "preparedFood",
   "inventoryIcon" : "garpberryjuiceMFM.png",
   "description" : "Garpberry juice! It has a mildly juciey flavor.",
@@ -12,7 +12,7 @@
         "duration" : 30
     }
   ] ],
-  "foodValue" : 40,
+  "foodValue" : 1.31,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

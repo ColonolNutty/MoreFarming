@@ -1,7 +1,7 @@
 {
   "itemName" : "unagimakiMSM",
   "rarity" : "Uncommon",
-  "price" : 550,
+  "price" : 312.3,
 	"category" : "preparedFood",
   "inventoryIcon" : "unagimakiMSM.png",
   "description" : "Unagi Maki.",
@@ -16,7 +16,7 @@
         "duration" : 105
     }
   ] ],
-	"foodValue" : 35,
+	"foodValue" : 26.48,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

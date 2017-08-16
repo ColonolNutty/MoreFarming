@@ -2,7 +2,7 @@
   "itemName" : "neonmelonblockMFM",
   "rarity" : "Common",
   "category" : "block",
-  "price" : 0,
+  "price" : 29.4,
   "inventoryIcon" : "neonmelonblockMFM.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Neonmelon Block",

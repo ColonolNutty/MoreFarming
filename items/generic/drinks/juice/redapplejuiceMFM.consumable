@@ -1,7 +1,7 @@
 {
   "itemName" : "redapplejuiceMFM",
   "rarity" : "Common",
-  "price" : 40,
+  "price" : 0.88,
   "category" : "drink",
   "inventoryIcon" : "redapplejuiceMFM.png",
   "description" : "sweet apple juice.",
@@ -12,7 +12,7 @@
         "duration" : 120
     }
   ] ],
-  "foodValue" : 35,
+  "foodValue" : 2.21,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

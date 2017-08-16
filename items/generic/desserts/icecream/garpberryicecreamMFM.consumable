@@ -1,7 +1,7 @@
 {
   "itemName" : "garpberryicecreamMFM",
   "rarity" : "Common",
-  "price" : 80,
+  "price" : 484.51,
   "category" : "preparedFood",
   "inventoryIcon" : "garpberryicecreamMFM.png",
   "description" : "A lovely icecream made with a garpberry-taste. Mmmm",
@@ -16,7 +16,7 @@
         "duration" : 30
     }
   ] ],
-  "foodValue" : 40,
+  "foodValue" : 31.41,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

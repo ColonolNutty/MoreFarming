@@ -1,7 +1,7 @@
 {
   "itemName" : "bananagarpsaladMFM",
   "rarity" : "Common",
-  "price" : 80,
+  "price" : 278.25,
   "category" : "preparedFood",
   "inventoryIcon" : "bananagarpsaladMFM.png",
   "description" : "Banana and garpberry make for a fruity, sweet salad.",
@@ -12,7 +12,7 @@
         "duration" : 30
     }
   ] ],
-  "foodValue" : 40,
+  "foodValue" : 11.81,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

@@ -2,7 +2,7 @@
   "itemName" : "whitechocolateblockMFM",
   "rarity" : "Common",
   "category" : "block",
-  "price" : 0,
+  "price" : 356.34,
   "inventoryIcon" : "whitechocolateblockMFM.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "White Chocolate Block",

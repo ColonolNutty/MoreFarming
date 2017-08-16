@@ -2,7 +2,7 @@
   "itemName" : "chocolateblockMFM",
   "rarity" : "Common",
   "category" : "block",
-  "price" : 0,
+  "price" : 35.52,
   "inventoryIcon" : "chocolateblockMFM.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Chocolate Block",

@@ -1,7 +1,7 @@
 {
   "itemName" : "jelonjamMFM",
   "rarity" : "Common",
-  "price" : 300,
+  "price" : 549,
   "category" : "food",
   "inventoryIcon" : "jelonjamMFM.png",
   "description" : "Jelons with the leaves and seeds taken out.",
@@ -16,7 +16,7 @@
         "duration" : 50
     }
   ] ],
-  "foodValue" : 15,
+  "foodValue" : 52.6,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

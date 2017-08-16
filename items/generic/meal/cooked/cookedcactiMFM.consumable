@@ -1,7 +1,7 @@
 {
   "itemName" : "cookedcactiMFM",
   "rarity" : "Common",
-  "price" : 80,
+  "price" : 15.75,
   "category" : "preparedFood",
   "inventoryIcon" : "cookedcactiMFM.png",
   "description" : "Spiky, but somewhat more edible.",
@@ -12,7 +12,7 @@
         "duration" : 60
     }
   ] ],
-  "foodValue" : 10,
+  "foodValue" : 2.1,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

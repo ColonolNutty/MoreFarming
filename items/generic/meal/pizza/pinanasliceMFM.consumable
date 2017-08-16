@@ -1,7 +1,7 @@
 {
   "itemName" : "pinanasliceMFM",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 202.41,
   "category" : "preparedFood",
   "inventoryIcon" : "pinanasliceMFM.png",
   "description" : "A hot slice of banana pinana.",
@@ -12,7 +12,7 @@
         "duration" : 20
       }
     ] ],
-  "foodValue" : 30,
+  "foodValue" : 10.05,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

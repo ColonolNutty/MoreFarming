@@ -1,7 +1,7 @@
 {
   "itemName" : "honeyMFM",
   "rarity" : "Common",
-  "price" : 150,
+  "price" : 189.75,
   "category" : "drink",
   "inventoryIcon" : "honeyMFM.png",
   "description" : "Sweet sweet sweet!",
@@ -12,7 +12,7 @@
         "duration" : 20
       }
     ] ],
-  "foodValue" : 20,
+  "foodValue" : 11.2,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

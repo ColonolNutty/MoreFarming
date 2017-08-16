@@ -1,7 +1,7 @@
 {
   "itemName" : "toxictopjuiceMFM",
   "rarity" : "Common",
-  "price" : 40,
+  "price" : 44.1,
   "category" : "drink",
   "inventoryIcon" : "toxictopjuiceMFM.png",
   "description" : "Looks toxic..",
@@ -16,7 +16,7 @@
         "duration" : 120
     }
   ] ],
-  "foodValue" : 30,
+  "foodValue" : 2.21,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

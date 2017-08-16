@@ -1,7 +1,7 @@
 {
   "itemName" : "unaginigiriMSM",
   "rarity" : "Common",
-  "price" : 190,
+  "price" : 265.05,
 	"category" : "preparedFood",
   "inventoryIcon" : "unaginigiriMSM.png",
   "description" : "Unagi Nigiri.",
@@ -12,7 +12,7 @@
         "duration" : 90
     }
   ] ],
-	"foodValue" : 25,
+	"foodValue" : 19.13,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

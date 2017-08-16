@@ -1,7 +1,7 @@
 {
   "itemName" : "macncheeseMFM",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 172.12,
   "category" : "preparedFood",
   "inventoryIcon" : "macncheeseMFM.png",
   "description" : "Pasta with some cheese. Arguably the best pasta.",
@@ -16,7 +16,7 @@
         "duration" : 180
       }
     ] ],
-  "foodValue" : 30,
+  "foodValue" : 31.45,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

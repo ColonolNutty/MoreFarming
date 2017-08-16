@@ -9,7 +9,7 @@
   "objectType" : "container",
   "tooltipKind" : "container",
   "category" : "crafting",
-  "price" : 650,
+  "price" : 283,
 
   "apexDescription" : "A freezer, freezes items.",
   "avianDescription" : "Freezes things... Smart.",

@@ -1,7 +1,7 @@
 {
   "itemName" : "jelonbrownieMFM",
   "rarity" : "Uncommon",
-  "price" : 620,
+  "price" : 157.23,
   "category" : "food",
   "inventoryIcon" : "jelonbrownieMFM.png",
   "description" : "Tasty and sweet brownie with jelon used as the sweetener.",
@@ -16,7 +16,7 @@
         "duration" : 70
     }
   ] ],
-  "foodValue" : 12,
+  "foodValue" : 15.29,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

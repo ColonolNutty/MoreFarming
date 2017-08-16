@@ -1,7 +1,7 @@
 {
   "itemName" : "veggieburgerMFM",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 213.79,
   "category" : "preparedFood",
   "inventoryIcon" : "veggieburgerMFM.png",
   "description" : "A vegetarian version of a juicy hamburger.",
@@ -20,7 +20,7 @@
       "duration" : 15
     }
   ]],
-  "foodValue" : 10,
+  "foodValue" : 9.19,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

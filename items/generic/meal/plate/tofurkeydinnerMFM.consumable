@@ -1,7 +1,7 @@
 {
   "itemName" : "tofurkeydinnerMFM",
   "rarity" : "Uncommon",
-  "price" : 40,
+  "price" : 438.3,
   "category" : "preparedFood",
   "inventoryIcon" : "tofurkeydinnerMFM.png",
   "description" : "A dinner fit for an omniscience fish administrator.",
@@ -20,7 +20,7 @@
       "duration" : 25
     }
   ]],
-  "foodValue" : 50,
+  "foodValue" : 27.91,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

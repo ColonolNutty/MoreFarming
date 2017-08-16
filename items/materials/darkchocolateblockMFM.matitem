@@ -2,7 +2,7 @@
   "itemName" : "darkchocolateblockMFM",
   "rarity" : "Common",
   "category" : "block",
-  "price" : 0,
+  "price" : 33.41,
   "inventoryIcon" : "darkchocolateblockMFM.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Dark Chocolate Block",

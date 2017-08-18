@@ -5,18 +5,14 @@
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
-  "description" : "A butterchurn. used for making butter.",
+  "description" : "A butterchurn. Used for making butter.",
   "shortdescription" : "Hand Butter Churn (Churn)",
   "race" : "generic",
   "category" : "crafting",
   "price" : 258.1,
-
-  "apexDescription" : "A wooden mill. Anything inside?",
-  "avianDescription" : "wooden container crafted together with iron.",
-  "floranDescription" : "Floran can put thingsss insside and crunch them.",
-  "glitchDescription" : "Observe. A mill, used to grind wheat into grain.",
-  "humanDescription" : "A mill. Good for grinding up things.",
-  "hylotlDescription" : "A mill for grinding up items.",
+  
+  "floranDescription" : "Floran can put thingsss inssside and churn them.",
+  "glitchDescription" : "Observe. A butterchurn, used to churn milk into butter.",
 
   "inventoryIcon" : "butterchurnMFMicon.png",
   "orientations" : [

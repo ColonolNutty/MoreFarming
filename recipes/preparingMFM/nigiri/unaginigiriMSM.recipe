@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rice", "count" : 4 },
+    { "item" : "cookedeelMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "unaginigiriMSM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

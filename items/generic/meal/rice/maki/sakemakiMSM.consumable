@@ -1,7 +1,7 @@
 {
   "itemName" : "sakemakiMSM",
   "rarity" : "Uncommon",
-  "price" : 422.63,
+  "price" : 447.83,
 	"category" : "preparedFood",
   "inventoryIcon" : "sakemakiMSM.png",
   "description" : "Sake Maki.",
@@ -16,7 +16,7 @@
         "duration" : 105
     }
   ] ],
-	"foodValue" : 28.56,
+	"foodValue" : 27.14,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

@@ -1,7 +1,7 @@
 {
   "itemName" : "kappamakiMSM",
   "rarity" : "Uncommon",
-  "price" : 330.25,
+  "price" : 304.76,
 	"category" : "preparedFood",
   "inventoryIcon" : "kappamakiMSM.png",
   "description" : "Contains 0% kappa.",
@@ -16,7 +16,7 @@
         "duration" : 105
     }
   ] ],
-	"foodValue" : 20.45,
+	"foodValue" : 16.22,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

@@ -1,7 +1,7 @@
 {
   "itemName" : "takotemakiMSM",
   "rarity" : "Uncommon",
-  "price" : 376.25,
+  "price" : 381.81,
 	"category" : "drink",
   "inventoryIcon" : "takotemakiMSM.png",
   "description" : "Taco Temaki.",
@@ -16,7 +16,7 @@
         "duration" : 120
     }
   ] ],
-	"foodValue" : 42.95,
+	"foodValue" : 41.35,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

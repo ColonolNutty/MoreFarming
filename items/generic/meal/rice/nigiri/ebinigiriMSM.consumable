@@ -1,7 +1,7 @@
 {
   "itemName" : "ebinigiriMSM",
   "rarity" : "Common",
-  "price" : 264,
+  "price" : 274.76,
 	"category" : "preparedFood",
   "inventoryIcon" : "ebinigiriMSM.png",
   "description" : "Ebi Nigiri.",
@@ -12,7 +12,7 @@
         "duration" : 90
     }
   ] ],
-	"foodValue" : 18.6,
+	"foodValue" : 32.41,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

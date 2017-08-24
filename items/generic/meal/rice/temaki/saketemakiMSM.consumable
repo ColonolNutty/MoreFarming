@@ -1,7 +1,7 @@
 {
   "itemName" : "saketemakiMSM",
   "rarity" : "Uncommon",
-  "price" : 487.63,
+  "price" : 545.1,
 	"category" : "drink",
   "inventoryIcon" : "saketemakiMSM.png",
   "description" : "Sake Temaki.",
@@ -16,7 +16,7 @@
         "duration" : 120
     }
   ] ],
-	"foodValue" : 45.56,
+	"foodValue" : 43.35,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

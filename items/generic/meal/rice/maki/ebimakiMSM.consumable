@@ -1,7 +1,7 @@
 {
   "itemName" : "ebimakiMSM",
   "rarity" : "Uncommon",
-  "price" : 311.25,
+  "price" : 710.14,
 	"category" : "preparedFood",
   "inventoryIcon" : "ebimakiMSM.png",
   "description" : "Ebi Maki.",
@@ -16,7 +16,7 @@
         "duration" : 105
     }
   ] ],
-	"foodValue" : 25.95,
+	"foodValue" : 49.72,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

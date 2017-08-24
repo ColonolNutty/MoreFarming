@@ -1,0 +1,46 @@
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/smallfishtreasure/0/1/pool/0/weight",
+      "value" : 0.2
+    },
+    {
+      "op" : "add",
+      "path" : "/smallfishtreasure/0/1/pool/-",
+      "value" : {"weight" : 0.2, "item" : "rawtunaMFM"}
+    },
+    {
+      "op" : "add",
+      "path" : "/smallfishtreasure/0/1/pool/-",
+      "value" : {"weight" : 0.4, "item" : "rawshrimpMFM"}
+    },
+    {
+      "op" : "add",
+      "path" : "/smallfishtreasure/0/1/pool/-",
+      "value" : {"weight" : 0.1, "item" : "raweelMFM"}
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/smallfishtreasure/0/1/pool/0/weight",
+      "value" : 0.3
+    },
+    {
+      "op" : "add",
+      "path" : "/largefishtreasure/0/1/pool/-",
+      "value" : {"weight" : 0.1, "item" : "rawoctopusMFM"}
+    },
+    {
+      "op" : "add",
+      "path" : "/largefishtreasure/0/1/pool/-",
+      "value" : {"weight" : 0.1, "item" : "rawsquidMFM"}
+    },
+    {
+      "op" : "add",
+      "path" : "/largefishtreasure/0/1/pool/-",
+      "value" : {"weight" : 0.1, "item" : "rawsalmonMFM"}
+    }
+  ]
+]

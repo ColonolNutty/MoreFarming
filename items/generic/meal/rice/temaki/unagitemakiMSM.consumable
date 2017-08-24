@@ -1,7 +1,7 @@
 {
   "itemName" : "unagitemakiMSM",
   "rarity" : "Uncommon",
-  "price" : 378.3,
+  "price" : 414.1,
 	"category" : "drink",
   "inventoryIcon" : "unagitemakiMSM.png",
   "description" : "Unagi Temaki.",
@@ -16,7 +16,7 @@
         "duration" : 120
     }
   ] ],
-	"foodValue" : 43.97,
+	"foodValue" : 37.04,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

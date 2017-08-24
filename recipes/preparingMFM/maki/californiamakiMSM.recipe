@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "riceballMSM", "count" : 1 },
+    { "item" : "lemonjuiceMFM", "count" : 1 },
+    { "item" : "rawfish", "count" : 1 },
+    { "item" : "slicedcucumberMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "californiamakiMSM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

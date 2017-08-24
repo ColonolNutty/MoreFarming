@@ -1,7 +1,7 @@
 {
   "itemName" : "ebitemakiMSM",
   "rarity" : "Uncommon",
-  "price" : 376.25,
+  "price" : 397.3,
 	"category" : "drink",
   "inventoryIcon" : "ebitemakiMSM.png",
   "description" : "Ebi Temaki.",
@@ -16,7 +16,7 @@
         "duration" : 120
     }
   ] ],
-	"foodValue" : 42.95,
+	"foodValue" : 51.59,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

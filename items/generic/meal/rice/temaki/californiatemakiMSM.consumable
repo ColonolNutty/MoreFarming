@@ -1,7 +1,7 @@
 {
   "itemName" : "californiatemakiMSM",
   "rarity" : "Uncommon",
-  "price" : 376.25,
+  "price" : 401.29,
 	"category" : "drink",
   "inventoryIcon" : "californiatemakiMSM.png",
   "description" : "California Temaki.",
@@ -16,7 +16,7 @@
         "duration" : 120
     }
   ] ],
-	"foodValue" : 42.95,
+	"foodValue" : 44.63,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

@@ -1,7 +1,7 @@
 {
   "itemName" : "magurotemakiMSM",
   "rarity" : "Uncommon",
-  "price" : 376.25,
+  "price" : 411.54,
 	"category" : "drink",
   "inventoryIcon" : "magurotemakiMSM.png",
   "description" : "Marguro Temaki.",
@@ -16,7 +16,7 @@
         "duration" : 120
     }
   ] ],
-	"foodValue" : 42.95,
+	"foodValue" : 36.43,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

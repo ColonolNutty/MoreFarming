@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "rawoctopusMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "cookedoctopusMFM", "count" : 1 },
+  "groups" : [ "bakingMFM" ]
+}

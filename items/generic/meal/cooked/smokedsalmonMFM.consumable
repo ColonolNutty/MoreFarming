@@ -1,0 +1,18 @@
+{
+  "itemName" : "smokedsalmonMFM",
+  "rarity" : "Common",
+  "price" : 42,
+  "category" : "food",
+  "inventoryIcon" : "smokedsalmonMFM.png",
+  "description" : "A savoury filet of smoked salmon.",
+  "shortdescription" : "Smoked Salmon",
+  "foodValue" : 8.4,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 0.5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "itemName" : "maguromakiMSM",
   "rarity" : "Uncommon",
-  "price" : 311.25,
+  "price" : 331.01,
 	"category" : "preparedFood",
   "inventoryIcon" : "maguromakiMSM.png",
   "description" : "Marguro Maki.",
@@ -16,7 +16,7 @@
         "duration" : 105
     }
   ] ],
-	"foodValue" : 25.95,
+	"foodValue" : 22.52,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

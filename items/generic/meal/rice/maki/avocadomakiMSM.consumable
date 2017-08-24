@@ -1,7 +1,7 @@
 {
   "itemName" : "avocadomakiMSM",
   "rarity" : "Uncommon",
-  "price" : 291.3,
+  "price" : 303.71,
 	"category" : "preparedFood",
   "inventoryIcon" : "avocadomakiMSM.png",
   "description" : "Avocado Maki.",
@@ -16,7 +16,7 @@
         "duration" : 105
     }
   ] ],
-	"foodValue" : 23.85,
+	"foodValue" : 24.36,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

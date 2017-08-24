@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "sakeMFM", "count" : 1 },
+    { "item" : "kelp", "count" : 2 },
+    { "item" : "smokedsalmonMFM", "count" : 2 },
+    { "item" : "slicedcucumberMFM", "count" : 2 },
+    { "item" : "cookingoilMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "saketemakiMSM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

@@ -1,7 +1,7 @@
 {
   "itemName" : "takomakiMSM",
   "rarity" : "Uncommon",
-  "price" : 311.25,
+  "price" : 315.79,
 	"category" : "preparedFood",
   "inventoryIcon" : "takomakiMSM.png",
   "description" : "Tako Maki.",
@@ -16,7 +16,7 @@
         "duration" : 105
     }
   ] ],
-	"foodValue" : 25.95,
+	"foodValue" : 25.04,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

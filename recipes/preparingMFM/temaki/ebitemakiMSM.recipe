@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "riceballMSM", "count" : 1 },
+    { "item" : "kelp", "count" : 1 },
+    { "item" : "cookedshrimpMFM", "count" : 2 },
+    { "item" : "cookedpoultry", "count" : 2 },
+    { "item" : "slicedcucumberMFM", "count" : 2 },
+    { "item" : "cookingoilMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "ebitemakiMSM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

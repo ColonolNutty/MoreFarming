@@ -1,7 +1,7 @@
 {
   "itemName" : "californiamakiMSM",
   "rarity" : "Uncommon",
-  "price" : 311.25,
+  "price" : 339.65,
 	"category" : "preparedFood",
   "inventoryIcon" : "californiamakiMSM.png",
   "description" : "California Maki.",
@@ -16,7 +16,7 @@
         "duration" : 105
     }
   ] ],
-	"foodValue" : 25.95,
+	"foodValue" : 27.88,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "rice", "count" : 4 },
-    { "item" : "kelp", "count" : 1 },
-    { "item" : "cucumberMSM", "count" : 2 }
-  ],
-  "output" : { "item" : "kappamakiMSM", "count" : 1 },
-  "groups" : [ "preparingMFM" ]
-}

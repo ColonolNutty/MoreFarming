@@ -16,7 +16,7 @@
 
   "apexDescription" : "A table that makes seeds.",
   "avianDescription" : "A table that makes seeds.",
-  "floranDescription" : "A table that makes seeds.",
+  "floranDescription" : "A table that makesss ssseedsss.",
   "glitchDescription" : "A table that makes seeds.",
   "humanDescription" : "A table that makes seeds.",
   "hylotlDescription" : "A table that makes seeds.",
@@ -34,7 +34,5 @@
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-  ],
-  "learnBlueprintsOnPickup" : [ "coconutpalmMFMseed",
-                                "eggplantMFMseed" ]
+  ]
 }

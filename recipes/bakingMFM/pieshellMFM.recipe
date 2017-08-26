@@ -7,5 +7,5 @@
     { "item" : "liquidwater", "count" : 4 }
   ],
   "output" : { "item" : "pieshellMFM", "count" : 2 },
-  "groups" : [ "blendingMFM" ]
+  "groups" : [ "bakingMFM" ]
 }

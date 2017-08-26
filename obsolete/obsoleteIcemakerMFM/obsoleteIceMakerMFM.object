@@ -11,10 +11,10 @@
   "category" : "decorative",
   "price" : 650,
 
-  "inventoryIcon" : "freezerMFMicon.png",
+  "inventoryIcon" : "obsoleteIceMakerMFMicon.png",
   "orientations" : [
     {
-      "image" : "freezerMFMleft.png:<color>",
+      "image" : "obsoleteIceMakerMFMleft.png:<color>",
       "imagePosition" : [-16, 0],
       "direction" : "left",
 
@@ -24,7 +24,7 @@
       "collisionSpaces" : [ [-1, 2], [0, 2], [1, 2], [2, 2] ]
     },
     {
-      "image" : "freezerMFMright.png:<color>",
+      "image" : "obsoleteIceMakerMFMright.png:<color>",
       "imagePosition" : [-16, 0],
       "direction" : "right",
 

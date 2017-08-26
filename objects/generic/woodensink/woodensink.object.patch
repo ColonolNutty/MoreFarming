@@ -63,17 +63,17 @@
     {
       "op" : "replace",
       "path" : "/shortdescription",
-      "value" : "Juice Keg (Keg)"
+      "value" : "Wooden Sink (Water)"
     },
     {
       "op" : "replace",
       "path" : "/recipeGroup",
-      "value" : "juicekegMFM"
+      "value" : "waterMFM"
     },
     {
       "op" : "replace",
       "path" : "/outputConfig",
-      "value" : "/recipeCrafterMFM/juicekegMFMRecipes.config"
+      "value" : "/recipeCrafterMFM/waterMFMRecipes.config"
     },
     {
       "op" : "add",
@@ -98,12 +98,12 @@
     {
       "op" : "add",
       "path" : "/openSounds/-",
-      "value" : "/sfx/objects/woodenbox_open.ogg"
+      "value" : "/sfx/objects/sinkMFMenter.wav"
     },
     {
       "op" : "add",
       "path" : "/closeSounds/-",
-      "value" : "/sfx/objects/woodenbox_close.ogg"
+      "value" : "/sfx/objects/sinkMFMexit.wav"
     },
     {
       "op" : "replace",

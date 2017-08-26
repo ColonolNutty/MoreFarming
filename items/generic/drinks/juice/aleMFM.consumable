@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 131.25,
   "category" : "drink",
-  "inventoryIcon" : "caleMFM.png",
+  "inventoryIcon" : "aleMFM.png",
   "description" : "I feel tipsy...",
   "shortdescription" : "Ale",
   "foodValue" : 4.2,

@@ -3,12 +3,12 @@
   "colonyTags" : [ "cooking" ],
   "printable" : false,
   "rarity" : "Common",
-  "description" : "A freezer, I could make ice or ice cream with this, among other things.",
+  "description" : "A freezer, I could make ice or ice cream with this, among other things or for storage.",
   "shortdescription" : "Freezer (Freeze)",
   "race" : "generic",
   "objectType" : "container",
   "tooltipKind" : "container",
-  "category" : "crafting",
+  "category" : "Refridgerated Cookware",
   "price" : 283,
 
   "apexDescription" : "A freezer, freezes items.",
@@ -49,8 +49,12 @@
   "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0,
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config",
+
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
 }

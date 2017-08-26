@@ -4,5 +4,5 @@
     { "item" : "sugar", "count" : 1 }
   ],
   "output" : { "item" : "caleMFM", "count" : 1 },
-  "groups" : [ "blendingMFM" ]
+  "groups" : [ "distillingMFM" ]
 }

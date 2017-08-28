@@ -1,0 +1,62 @@
+{
+  "id" : "howtoappliancesvolume1MFM",
+  "title" : "^orange;(MFM) How To: Appliances - Volume 1^white;",
+  "description" : "Volume 1 - This is a guide on how to acquire and use different Appliances",
+  "icon" : "howtocodexMFM.png",
+  "contentPages" : [
+
+"^blue;Introduction:^white;
+This How To contains information about the many appliances provided by the mod, particularly where to find them, their interfaces, and how to use them",
+
+"^blue;Where to find Appliances:^white;
+In order to craft appliances you must:
+1. Craft and place an ^orange;Inventors Table^white;.
+2. Open the ^orange;Inventors Table^white; and craft a ^orange;Kitchen Crafting Table^white;.
+3. Place the ^orange;Kitchen Crafting Table^white; down somewhere",
+
+"^blue;Kitchen Appliance Interface^white;
+Now that you have the ^orange;Kitchen Crafting Table^white; placed, go ahead and interact with it. The interface should appear.
+In the interface there are ^green;Filters^white; on the ^cyan;left hand side^white; by default ^yellow;All^white; is selected. These filters allow you to ^green;filter^white; by ^yellow;Race^white;. If you wanted to see only ^green;Apex appliances^white;, you would select ^yellow;Apex^white; on the left. ^yellow;Basic^white; appliances are general appliances, not tied to any particular race.",
+
+"When you select a filter, you will see all appliances that can be crafted for a particular race. Think of the ^yellow;Race Filters^white; ^cyan;the same as^white; you would the tabs in the vanilla ^orange;Cooking Table^white; (^yellow;Mains, Sides, Desserts, etc.^white;), or the ^orange;Furnace^white; (^yellow;Materials, Ingots, Other, etc.^white;). They function the same, they are just placed in a different location.",
+
+"^blue;Kitchen Appliance Interface II^white;
+^cyan;Below the list of appliances^white; you will see a checkbox for ^yellow;Materials Available^white;, if checked, only the appliances you have all of the materials for will be shown.
+^cyan;Below the checkbox^white; is a ^yellow;Search^white; field, when you type something in this box, all appliances with a name that contains what you typed will be shown.
+^cyan;Hovering over^white; an appliance in the list will show you the required materials needed to craft the appliance.",
+
+"^blue;How can I tell what the appliances do?^white;
+Every appliance contains the ^yellow;Method^white; it is used for ^cyan;in the name of it^white; surrounded by parenthesis -> ().
+For more details on what recipes are available for each ^yellow;Method^white; please refer to the ^orange;How To: Recipe Book^white; codex.",
+
+"As an example, I want to craft an ^green;Automato Shake^white;. The recipe for it appears ^cyan;within the^white; ^orange;Recipe Book^white; when looking at the ^yellow;BLEND^white; recipes, this makes tells you that you need to look for something that can ^cyan;BLEND the ingredients^white;. So, you would look for an appliance with ^yellow;(BLEND)^white; ^cyan;in the name^white;, such as the ^orange;Blender (BLEND)^white; which is a ^yellow;BASIC^white; appliance.",
+
+"^blue;How do I use an appliance?^white;
+After placing an appliance, interact with it. You will see a number of boxes on the left, this is where ^green;Ingredients^white; are placed when cooking. At the bottom right is the output box, after placing ingredients, this is where the result of the combination will appear.
+
+See next page when nothing appears in the output...",
+
+"^blue;How do I use an appliance? II^white;
+If nothing appears, it means there is no recipe with that combination, or more unlikely, there is a bug in which I (ColonolNutty) screwed up somewhere. In this case, the workaround is to utilize the ^orange;Cheater's Recipe Book^white; and ^cyan;post the recipe you were trying to make in the Steam Workshop comments section^white;",
+
+"^blue;Example Appliance Use^white;
+For instance, when looking at the ^orange;Hand Mill (Mill)^white;, if you place one ^green;Potato^white; in one of the boxes on the left. The result box (The one on the bottom right) will show ^green;Flour^white;. As soon as you pick up the ^green;Flour^white; to drag it to your inventory, the ingredients on the left will be consumed. The amount of ingredients consumed depends on what the recipe specifies. In this case, it will consume one ^green;Potato^white;.",
+
+"^blue;Appliance Tips^white;
+- If you placed two ^green;Potatoes^white; instead of one, from the example before, only one will be consumed when you pick up the ^green;Flour^white;.
+- If you placed both a ^green;Potato^white; and ^green;Corn^white; no result will be shown in the output box (The one in the bottom right). This is because, there is no ^yellow;Mill^white; recipe that contains both a ^green;Potato^white; and ^green;Corn^white;.
+-If you are not seeing output, verify with the ^orange;Recipe Book^white; that you have placed all of the required ingredients, and that you have placed the required ^cyan;amounts^white; of each ingredient.",
+
+"^blue;Appliance Tips^white;
+- You can tell what an appliance can be used to make by looking at the name, particularly the part in parenthesis. For instance ^orange;Hand Mill (Mill)^white; makes ^yellow;Mill^white; recipes. ^orange;Blender (Blend)^white; makes ^yellow;Blend^white; recipes, and ^orange;Apex Oven (Bake)^white; makes ^yellow;Bake^white; recipes. To find these recipes, refer to the latest volume of the ^orange;How To: Recipe Book^white; codex.",
+
+"^blue;More to come:^white;
+For more guides and other more updated volumes of ^orange;How To: Appliances^white;, check out your local ^orange;Terra Mart^white;.
+If you encounter any more issues or have additional questions. Please ask them in the Steam Workshop page, no question is too dumb, though some come close! (Be sure to thoroughly check this and other in-game guides first though)"
+
+  ],
+  "itemConfig" : {
+    "rarity" : "Legendary",
+    "price" : 10
+  }
+}

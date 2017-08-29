@@ -47,8 +47,11 @@ For instance, when looking at the ^orange;Hand Mill (Mill)^white;, if you place 
 - If you placed both a ^green;Potato^white; and ^green;Corn^white; no result will be shown in the output box (The one in the bottom right). This is because, there is no ^yellow;Mill^white; recipe that contains both a ^green;Potato^white; and ^green;Corn^white;.
 -If you are not seeing output, verify with the ^orange;Recipe Book^white; that you have placed all of the required ingredients, and that you have placed the required ^cyan;amounts^white; of each ingredient.",
 
-"^blue;Appliance Tips^white;
+"^blue;Appliance Tips II^white;
 - You can tell what an appliance can be used to make by looking at the name, particularly the part in parenthesis. For instance ^orange;Hand Mill (Mill)^white; makes ^yellow;Mill^white; recipes. ^orange;Blender (Blend)^white; makes ^yellow;Blend^white; recipes, and ^orange;Apex Oven (Bake)^white; makes ^yellow;Bake^white; recipes. To find these recipes, refer to the latest volume of the ^orange;How To: Recipe Book^white; codex.",
+
+"^blue;Appliance Tips III^white;
+- All ^yellow;Freeze^white; appliances are refridgerated, so food can be stored within them and not go bad, the same as vanilla fridges.",
 
 "^blue;More to come:^white;
 For more guides and other more updated volumes of ^orange;How To: Appliances^white;, check out your local ^orange;Terra Mart^white;.

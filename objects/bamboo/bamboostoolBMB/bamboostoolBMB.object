@@ -1,6 +1,6 @@
 {
   "objectName" : "bamboostoolBMB",
-  "colonyTags" : ["floran","floranvillage","nature"],
+  "colonyTags" : [ "floran", "floranvillage", "nature" ],
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 202,

@@ -1,6 +1,6 @@
 {
   "objectName" : "bamboocrate1BMB",
-  "colonyTags" : ["floran","floranvillage","storage","commerce","nature"],
+  "colonyTags" : [ "floran", "floranvillage", "storage", "commerce", "nature"],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",

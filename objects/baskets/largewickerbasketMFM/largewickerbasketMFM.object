@@ -1,6 +1,6 @@
 {
   "objectName" : "largewickerbasketMFM",
-  "colonyTags" : ["glitch","glitchvillage","storage"],
+  "colonyTags" : [ "glitch", "glitchvillage", "storage" ],
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",

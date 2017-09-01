@@ -1,6 +1,6 @@
 {
   "objectName" : "flytrapMFMplanter",
-  "colonyTags" : ["floran","floranvillage"],
+  "colonyTags" : [ "floran", "floranvillage", "evil", "nature" ],
   "rarity" : "Uncommon",
 
   "description" : "A fully grown Floran fly trap. Watch your fingers!",

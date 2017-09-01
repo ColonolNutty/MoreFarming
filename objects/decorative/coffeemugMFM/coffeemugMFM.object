@@ -1,6 +1,6 @@
 {
   "objectName" : "coffeemugMFM",
-  "colonyTags" : ["cooking"],
+  "colonyTags" : [ "cooking" ],
   "rarity" : "Common",
   "price" : 4.2,
   "description" : "A steaming cup of coffee.",

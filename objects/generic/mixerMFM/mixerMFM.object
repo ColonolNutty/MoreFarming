@@ -1,5 +1,6 @@
 {
   "objectName" : "mixerMFM",
+  "colonyTags" : [ "cooking" ],
   "rarity" : "Common",
   "description" : "Produces Mixes from a combination of ingredients",
   "shortdescription" : "Mixer (Mix)",

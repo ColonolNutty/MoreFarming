@@ -1,6 +1,6 @@
 {
   "objectName" : "wickertable1MFM",
-  "colonyTags" : ["commerce"],
+  "colonyTags" : [ "glitch", "glitchvillage", "commerce" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "A basic wicker table.",

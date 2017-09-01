@@ -1,5 +1,6 @@
 {
   "objectName" : "stealthybookstandMFM",
+  "colonyTags" : [ "glitch", "glitchcastle", "knowledge", "storage" ],
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",

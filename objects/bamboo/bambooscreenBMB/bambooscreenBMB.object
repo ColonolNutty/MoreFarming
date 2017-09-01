@@ -1,6 +1,6 @@
 {
   "objectName" : "bambooscreenBMB",
-  "colonyTags" : ["floran","floranvillage","nature"],
+  "colonyTags" : [ "floran", "floranvillage", "nature" ],
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 402,

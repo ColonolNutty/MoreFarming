@@ -1,5 +1,6 @@
 {
   "objectName" : "pizzaMFM",
+  "colonyTags" : [ "cooking" ],
   "rarity" : "Uncommon",
   "description" : "A large pizza, perfect for a party.",
   "price" : 853.67,

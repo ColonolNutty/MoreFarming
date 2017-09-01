@@ -1,6 +1,6 @@
 {
   "objectName" : "cn_recipebook",
-  "colonyTags" : ["cooking"],
+  "colonyTags" : [ "cooking" ],
   "printable" : false,
   "price" : 100,
   "rarity" : "Legendary",

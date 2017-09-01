@@ -1,6 +1,6 @@
 {
   "objectName" : "tallwickerbasketMFM",
-  "colonyTags" : ["glitch","glitchvillage","storage"],
+  "colonyTags" : [ "glitch", "glitchvillage", "storage" ],
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",

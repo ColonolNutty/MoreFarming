@@ -1,6 +1,6 @@
 {
   "objectName" : "blenderMFM",
-  "colonyTags" : ["cooking"],
+  "colonyTags" : [ "cooking" ],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",

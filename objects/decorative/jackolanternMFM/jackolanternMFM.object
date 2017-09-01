@@ -1,6 +1,6 @@
 {
   "objectName" : "jackolanternMFM",
-  "colonyTags" : ["nature","spooky","light"],
+  "colonyTags" : [ "nature", "spooky", "light" ],
   "printable" : false,
   "rarity" : "Common",
   "category" : "light",

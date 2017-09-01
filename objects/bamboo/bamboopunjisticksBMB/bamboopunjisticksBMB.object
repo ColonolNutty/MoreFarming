@@ -1,6 +1,6 @@
 {
   "objectName" : "bamboopunjisticksBMB",
-  "colonyTags" : ["floran","floranvillage","evil","nature"],
+  "colonyTags" : [ "floran", "floranvillage", "evil", "nature" ],
   "rarity" : "Common",
   "description" : "Sharp, spiky bamboo sticks. Don't fall on them.",
   "shortdescription" : "Bamboo spikes.",

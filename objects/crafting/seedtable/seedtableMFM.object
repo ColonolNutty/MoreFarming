@@ -1,6 +1,6 @@
 {
   "objectName" : "seedtableMFM",
-  "colonyTags" : ["crafting"],
+  "colonyTags" : [ "crafting", "nature" ],
   "printable" : false,
   "price" : 50,
   "rarity" : "Rare",

@@ -1,6 +1,6 @@
 {
   "objectName" : "bamboocageBMB",
-  "colonyTags" : ["floran","floranvillage","floranprison","nature"],
+  "colonyTags" : [ "floran", "floranvillage", "floranprison", "nature" ],
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 802,

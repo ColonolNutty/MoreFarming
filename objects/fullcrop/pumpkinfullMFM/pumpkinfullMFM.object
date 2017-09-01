@@ -1,6 +1,6 @@
 {
   "objectName" : "pumpkinfullMFM",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "description" : "A friendly, orange pumpkin. (Place to break, or chop it up at a cutting board)",
   "category" : "farmable",

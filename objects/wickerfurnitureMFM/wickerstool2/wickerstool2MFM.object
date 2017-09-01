@@ -1,6 +1,6 @@
 {
   "objectName" : "wickerstool2MFM",
-  "colonyTags" : ["misc"],
+  "colonyTags" : [ "glitch", "glitchvillage", "misc" ],
   "rarity" : "Common",
   "description" : "A wicker stool.",
   "shortdescription" : "Wicker Stool",

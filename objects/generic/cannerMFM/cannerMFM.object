@@ -1,5 +1,6 @@
 {
   "objectName" : "cannerMFM",
+  "colonyTags" : [ "cooking" ],
   "rarity" : "Common",
   "description" : "Cans things by putting things in cans!",
   "shortdescription" : "Canner (Can)",

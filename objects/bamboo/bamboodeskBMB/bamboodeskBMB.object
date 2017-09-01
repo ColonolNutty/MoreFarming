@@ -1,6 +1,6 @@
 {
   "objectName" : "bamboodeskBMB",
-  "colonyTags" : ["floran","floranvillage","storage","commerce","nature"],
+  "colonyTags" : [ "floran", "floranvillage", "storage", "commerce", "nature" ],
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",

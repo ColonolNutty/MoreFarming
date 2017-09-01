@@ -1,6 +1,6 @@
 {
   "objectName" : "fryingstationMFM",
-  "colonyTags" : ["human", "humanvillage", "cooking"],
+  "colonyTags" : [ "human", "humanvillage", "cooking" ],
   "retainObjectParametersInItem" : true,
   "printable" : false,
   "rarity" : "Common",

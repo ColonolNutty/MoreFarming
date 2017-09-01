@@ -1,6 +1,6 @@
 {
   "objectName" : "cn_craftingkitchen",
-  "colonyTags" : ["crafting"],
+  "colonyTags" : [ "crafting" ],
   "printable" : false,
   "price" : 30,
   "rarity" : "Uncommon",

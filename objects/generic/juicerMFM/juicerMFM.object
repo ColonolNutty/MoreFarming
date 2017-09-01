@@ -1,6 +1,6 @@
 {
   "objectName" : "juicerMFM",
-  "colonyTags" : ["storage"],
+  "colonyTags" : [ "storage", "cooking" ],
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",

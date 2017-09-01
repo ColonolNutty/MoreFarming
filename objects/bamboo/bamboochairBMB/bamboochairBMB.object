@@ -1,6 +1,6 @@
 {
   "objectName" : "bamboochairBMB",
-  "colonyTags" : ["floran","floranvillage","nature"],
+  "colonyTags" : [ "floran", "floranvillage", "nature" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "A sturdy bamboo chair.",

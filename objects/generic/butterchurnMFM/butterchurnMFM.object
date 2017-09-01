@@ -1,6 +1,6 @@
 {
   "objectName" : "butterchurnMFM",
-  "colonyTags" : ["farm","cooking"],
+  "colonyTags" : [ "farm", "cooking" ],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",

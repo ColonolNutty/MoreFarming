@@ -1,5 +1,6 @@
 {
   "objectName" : "distilleryMFM",
+  "colonyTags" : [ "cooking" ],
   "rarity" : "Common",
   "description" : "A distillery. For making... you know...",
   "shortdescription" : "Distillery (Distill)",

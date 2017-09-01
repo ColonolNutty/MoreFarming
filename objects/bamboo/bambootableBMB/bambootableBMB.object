@@ -1,6 +1,6 @@
 {
   "objectName" : "bambootableBMB",
-  "colonyTags" : ["floran","floranvillage","commerce","nature"],
+  "colonyTags" : [ "floran", "floranvillage", "commerce", "nature" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "A sturdy bamboo table.",

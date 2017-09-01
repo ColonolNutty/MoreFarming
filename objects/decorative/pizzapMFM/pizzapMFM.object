@@ -1,5 +1,6 @@
 {
   "objectName" : "pizzapMFM",
+  "colonyTags" : [ "cooking" ],
   "rarity" : "Uncommon",
   "description" : "A large pizzap. It's good if you can get past the metallic aftertaste!",
   "price" : 1218.17,

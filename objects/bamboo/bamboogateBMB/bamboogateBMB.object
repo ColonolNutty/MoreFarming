@@ -1,6 +1,6 @@
 {
   "objectName" : "bamboogateBMB",
-  "colonyTags" : ["floran","floranvillage","door","nature"],
+  "colonyTags" : [ "floran", "floranvillage", "door", "nature" ],
   "printable" : false,
   "rarity" : "Common",
 

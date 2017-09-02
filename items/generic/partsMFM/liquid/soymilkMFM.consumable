@@ -15,6 +15,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "tofuMFM" ]
+  "emitters" : [ "drinking" ]
 }

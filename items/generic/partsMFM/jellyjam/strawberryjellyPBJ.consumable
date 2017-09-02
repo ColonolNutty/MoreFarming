@@ -15,7 +15,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "strawberryjellysandwichPBJ",
-                                "strawberrypbjPBJ" ],
   "handPosition" : [0, -2]
 }

@@ -6,6 +6,5 @@
   "inventoryIcon" : "dirtyceramicplateMFM.png",
   "description" : "A dirty plate.",
   "shortdescription" : "Dirty Plate",
-  "itemTags" : [ "reagent" ],
-  "learnBlueprintsOnPickup": [ "ceramicplateMFM" ]
+  "itemTags" : [ "reagent" ]
 }

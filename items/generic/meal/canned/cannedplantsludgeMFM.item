@@ -6,6 +6,5 @@
   "inventoryIcon" : "cannedplantsludgeMFM.png",
   "description" : "Plant Sludge in a Can.",
   "shortdescription" : "Canned Plant Sludge",
-  "itemTags" : [ "reagent" ],
-  "learnBlueprintsOnPickup": [ "biodieselMFM" ]
+  "itemTags" : [ "reagent" ]
 }

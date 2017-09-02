@@ -14,6 +14,5 @@
   "maxStack" : 1000,
   "blockingEffects": [
       "wellfed"
-  ],
-  "learnBlueprintsOnPickup": ["toastedmarshmallowMFM"]
+  ]
 }

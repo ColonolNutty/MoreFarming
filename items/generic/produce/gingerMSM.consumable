@@ -15,8 +15,5 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ],
-  "learnBlueprintsOnPickup" : [ "gariMSM",
-                                "groundgingerMFM",
-                                "phoMFM" ]
+  ]
 }

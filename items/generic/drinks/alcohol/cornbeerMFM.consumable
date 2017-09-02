@@ -15,6 +15,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup": [ "vodkabottleMFM" ]
+  "emitters" : [ "drinking" ]
 }

@@ -22,14 +22,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "jelonjuiceMFM",
-                                "jelonjamMFM",
-                                "jelonbrownieMFM",
-                                "jeloncookieMFM",
-                                "pinanaMFM",
-                                "pinanasliceMFM",
-                                "jelonbreadMFM",
-                                "jelonblockMFM",
-                                "groundjelonMFM" ],
   "handPosition" : [0, -2]
 }

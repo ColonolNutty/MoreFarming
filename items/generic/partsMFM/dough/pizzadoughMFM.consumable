@@ -15,9 +15,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup": [ "pinanaMFM",
-                               "piodiaMFM",
-                               "pizzaMFM",
-                               "pizzapMFM" ],
   "handPosition" : [0, -3]
 }

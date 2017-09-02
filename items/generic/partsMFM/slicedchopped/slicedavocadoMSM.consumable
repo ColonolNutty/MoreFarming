@@ -15,6 +15,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "avocadomakiMSM" ],
   "handPosition" : [0, -4]
 }

@@ -38,8 +38,6 @@
       "harvestPool" : "pumpkinfullMFMHarvest"
     }
   ],
-  "learnBlueprintsOnPickup" : [ "pumpkinblockMFM",
-                                "jackolanternMFM",
-                                "largejackolanternMFM",
-                                "pumpkinsliceMFM" ]
+  "learnBlueprintsOnPickup" : [ "jackolanternMFM",
+                                "largejackolanternMFM" ]
 }

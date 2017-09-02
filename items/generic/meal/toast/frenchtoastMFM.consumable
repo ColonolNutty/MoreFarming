@@ -15,7 +15,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup": [ "chocolatefrenchtoastMFM",
-                               "cinnamonfrenchtoastMFM" ],
   "handPosition" : [0, -4]
 }

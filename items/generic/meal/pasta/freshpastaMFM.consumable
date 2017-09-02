@@ -15,6 +15,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup": [ "cannedpastaMFM" ],
   "handPosition" : [0, -3]
 }

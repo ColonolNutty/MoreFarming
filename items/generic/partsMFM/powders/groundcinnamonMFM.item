@@ -5,6 +5,5 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "groundcinnamonMFM.png",
   "description" : "Finely milled cinnamon.",
-  "shortdescription" : "Ground Cinnamon",
-  "learnBlueprintsOnPickup": [ "gingercookieMFM" ]
+  "shortdescription" : "Ground Cinnamon"
 }

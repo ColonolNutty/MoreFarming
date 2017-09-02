@@ -7,7 +7,5 @@
   "description" : "Freshly harvested Sugarcane stalk. Can be milled into Sugar.",
   "shortdescription" : "Sugarcane Stalk",
   "itemTags" : [ "reagent" ],
-  "learnBlueprintsOnPickup" : [ "sugarcaneblockMFM",
-                                "paper",
-                                "sugar" ]
+  "learnBlueprintsOnPickup" : [ "paper" ]
 }

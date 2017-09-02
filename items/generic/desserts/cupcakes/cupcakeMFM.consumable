@@ -15,6 +15,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup": [ "chocolatecupcakeMFM" ],
   "handPosition" : [0, -4]
 }

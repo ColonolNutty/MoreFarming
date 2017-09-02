@@ -5,6 +5,5 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "vinegarMSM.png",
   "description" : "Good ol' vinegar.",
-  "shortdescription" : "Vinegar",
-  "learnBlueprintsOnPickup": [ "gariMSM" ]
+  "shortdescription" : "Vinegar"
 }

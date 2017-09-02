@@ -5,6 +5,5 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "foulcocktailMFM.png",
   "description" : "An inexplicable mix of oil and acidic swill.",
-  "shortdescription" : "Foul Cocktail",
-  "learnBlueprintsOnPickup": [ "bioethanolMFM" ]
+  "shortdescription" : "Foul Cocktail"
 }

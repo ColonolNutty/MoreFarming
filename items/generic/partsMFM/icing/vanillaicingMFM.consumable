@@ -11,6 +11,5 @@
   "builder" : "/items/buildscripts/buildfood.lua",
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
-  "maxStack" : 1000,
-  "learnBlueprintsOnPickup" : [ "vanillacupcakeMFM" ]
+  "maxStack" : 1000
 }

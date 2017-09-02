@@ -22,10 +22,5 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "chocolateicingMFM",
-                                "chocolate",
-                                "chocolateicecreamMFM",
-                                "darkchocolateMFM",
-                                "cocoabutterMFM" ],
   "handPosition" : [0, -4]
 }

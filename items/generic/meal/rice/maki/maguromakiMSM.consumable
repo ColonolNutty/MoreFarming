@@ -25,7 +25,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "magurotemakiMSM" ],
   "handPosition" : [0, -4]
 }
 

@@ -6,6 +6,5 @@
   "inventoryIcon" : "obsoleteSeedoilMFM.png",
   "description" : "Oil! For stir-frying and FTL traveling.",
   "shortdescription" : "Seed Oil",
-  "fuelAmount" : 4,
-	"learnBlueprintsOnPickup": [ "foulcocktailMFM" ]
+  "fuelAmount" : 4
 }

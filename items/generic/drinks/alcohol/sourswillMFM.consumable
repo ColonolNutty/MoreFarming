@@ -22,7 +22,5 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-	"learnBlueprintsOnPickup": [ "plantsludgeMFM",
-                               "foulcocktailMFM" ],
   "handPosition" : [0, -2]
 }

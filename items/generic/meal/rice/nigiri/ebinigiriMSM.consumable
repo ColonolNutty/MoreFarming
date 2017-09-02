@@ -21,6 +21,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ebimakiMSM" ],
   "handPosition" : [0, -4]
 }

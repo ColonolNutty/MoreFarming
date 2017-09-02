@@ -26,6 +26,5 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "jelonbrownieMFM", "jeloncookieMFM", "jelonbreadMFM" ],
   "handPosition" : [0, -3]
 }

@@ -5,7 +5,5 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "cocoapowderMFM.png",
   "description" : "Ground cocoa beans.",
-  "shortdescription" : "Cocoa Powder",
-  "learnBlueprintsOnPickup": [ "chocolateliquorMFM",
-                               "chocolatefrenchtoastMFM" ]
+  "shortdescription" : "Cocoa Powder"
 }

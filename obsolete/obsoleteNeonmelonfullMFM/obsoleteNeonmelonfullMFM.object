@@ -35,7 +35,5 @@
       "alts" : 5,
       "harvestPool" : "neonmelonfullMFMHarvest"
     }
-  ],
-  "learnBlueprintsOnPickup" : [ "neonmelonblockMFM",
-                                "slicedneonmelonMFM" ]
+  ]
 }

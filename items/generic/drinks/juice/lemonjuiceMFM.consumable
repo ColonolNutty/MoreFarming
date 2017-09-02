@@ -22,6 +22,5 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "lemonicingMFM" ],
   "handPosition" : [0, -4]
 }

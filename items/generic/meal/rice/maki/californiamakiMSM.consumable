@@ -25,7 +25,6 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "californiatemakiMSM" ],
   "handPosition" : [0, -4]
 }
 

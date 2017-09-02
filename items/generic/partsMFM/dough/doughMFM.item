@@ -5,8 +5,5 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "doughMFM.png",
   "description" : "Not the money kind.",
-  "shortdescription" : "Dough",
-  "learnBlueprintsOnPickup" : [ "wafflesMFM",
-                                "cookiedoughMFM",
-                                "pizzadoughMFM" ]
+  "shortdescription" : "Dough"
 }

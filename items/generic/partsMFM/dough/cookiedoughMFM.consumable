@@ -15,10 +15,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup": [ "jeloncookieMFM",
-                               "sugarcookieMFM",
-                               "toffeecookieMFM",
-                               "chocolatecookieMFM",
-                               "gingercookieMFM" ],
   "handPosition" : [0, -3]
 }

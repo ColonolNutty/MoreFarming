@@ -15,6 +15,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "scrambledeggwithketchupMFM" ],
   "handPosition" : [0, -4]
 }

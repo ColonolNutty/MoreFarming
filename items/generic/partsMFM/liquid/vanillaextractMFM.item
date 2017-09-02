@@ -5,10 +5,5 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "vanillaextractMFM.png",
   "description" : "I shouldn't just drink it..",
-  "shortdescription" : "Vanilla Extract",
-  "learnBlueprintsOnPickup" : [ "vanillaicingMFM",
-                                "puddingMFM",
-                                "vanillaicecreamMFM",
-                                "whitechocolateMFM",
-                                "cookiedoughMFM"  ]
+  "shortdescription" : "Vanilla Extract"
 }

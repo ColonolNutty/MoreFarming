@@ -6,7 +6,5 @@
   "inventoryIcon" : "yeastMFM.png",
   "description" : "Very useful.",
   "shortdescription" : "Yeast",
-  "maxStack" : 1000,
-  "learnBlueprintsOnPickup": [ "caleMFM",
-                               "hqbreadMFM" ]
+  "maxStack" : 1000
 }

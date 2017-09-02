@@ -5,6 +5,5 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "plantmushMFM.png",
   "description" : "Ground plants that are inedible.",
-  "shortdescription" : "Plant Mush",
-	"learnBlueprintsOnPickup": [ "plantsludgeMFM" ]
+  "shortdescription" : "Plant Mush"
 }

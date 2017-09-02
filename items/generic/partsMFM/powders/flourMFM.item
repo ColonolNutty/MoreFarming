@@ -6,20 +6,5 @@
   "inventoryIcon" : "flourMFM.png",
   "description" : "Used in many recipes!",
   "shortdescription" : "Flour",
-  "learnBlueprintsOnPickup" : [ "doughMFM",
-                                "bannockMFM",
-                                "cupcakebatterMFM",
-                                "caramelsquareMFM",
-                                "sugarcookieMFM",
-                                "pinanaMFM",
-                                "pinanasliceMFM",
-                                "piodiaMFM",
-                                "pizzaMFM",
-                                "pizza",
-                                "pizzaslice",
-                                "pizzapMFM",
-                                "toxictoptartMFM",
-                                "hqbreadMFM",
-                                "jelonbreadMFM",
-                                "cookiedoughMFM" ]
+  "learnBlueprintsOnPickup" : [ "doughMFM" ]
 }

@@ -6,6 +6,5 @@
   "inventoryIcon" : "bannockMFM.png",
   "description" : "Bannock.",
   "shortdescription" : "Raw Bannock",
-  "itemTags" : [ "reagent" ],
-  "learnBlueprintsOnPickup": [ "cookedbannockMFM" ]
+  "itemTags" : [ "reagent" ]
 }

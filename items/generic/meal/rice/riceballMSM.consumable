@@ -14,13 +14,5 @@
 	"rottingMultiplier" : 1.0,
 	"blockingEffects": [
 		"wellfed"
-	],
-	"learnBlueprintsOnPickup": [
-		"ebinigiriMSM",
-		"ikanigiriMSM",
-		"maguronigiriMSM",
-		"sakenigiriMSM",
-		"takonigiriMSM",
-		"unaginigiriMSM"
 	]
 }

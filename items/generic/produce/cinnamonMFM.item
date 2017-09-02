@@ -5,6 +5,5 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "cinnamonMFM.png",
   "description" : "Spicy tree bark.",
-  "shortdescription" : "Cinnamon",
-  "learnBlueprintsOnPickup": [ "groundcinnamonMFM" ]
+  "shortdescription" : "Cinnamon"
 }

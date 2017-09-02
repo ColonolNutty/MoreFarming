@@ -15,6 +15,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup": [ "pumpkinpieMFM" ],
   "handPosition" : [0, -3]
 }

@@ -15,18 +15,5 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ],
-  "learnBlueprintsOnPickup" : [ "slicedcucumberMFM",
-                                "californiamakiMSM",
-                                "ikamakiMSM",
-                                "ikatemakiMSM",
-                                "kappamakiMSM",
-                                "maguromakiMSM",
-                                "magurotemakiMSM",
-                                "sakemakiMSM",
-                                "saketemakiMSM",
-                                "takomakiMSM",
-                                "takotemakiMSM",
-                                "unagimakiMSM",
-                                "unagitemakiMSM" ]
+  ]
 }

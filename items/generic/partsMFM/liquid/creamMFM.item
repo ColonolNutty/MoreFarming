@@ -5,7 +5,5 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "creamMFM.png",
   "description" : "Creamy!",
-  "shortdescription" : "Cream",
-  "learnBlueprintsOnPickup": [ "butterMFM",
-                               "eggnogMFM" ]
+  "shortdescription" : "Cream"
 }

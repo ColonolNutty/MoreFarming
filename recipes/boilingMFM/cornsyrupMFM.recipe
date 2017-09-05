@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "bakingpowderMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 3 },
+    { "item" : "lemonjuiceMFM", "count" : 2 },
+    { "item" : "liquidwater", "count" : 3 }
+  ],
+  "output" : { "item" : "cornsyrupMFM", "count" : 5 },
+  "groups" : [ "boilingMFM" ]
+}

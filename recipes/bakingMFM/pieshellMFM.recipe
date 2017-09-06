@@ -3,8 +3,9 @@
     { "item" : "butterMFM", "count" : 2 },
     { "item" : "sugar", "count" : 1 },
     { "item" : "saltMFM", "count" : 1 },
-    { "item" : "flourMFM", "count" : 6 },
-    { "item" : "liquidwater", "count" : 4 }
+    { "item" : "flourMFM", "count" : 2 },
+    { "item" : "liquidwater", "count" : 2 },
+    { "item" : "doughMFM", "count" : 1 }
   ],
   "output" : { "item" : "pieshellMFM", "count" : 2 },
   "groups" : [ "bakingMFM" ]

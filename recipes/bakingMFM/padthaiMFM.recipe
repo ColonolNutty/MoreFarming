@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "cookingoilMFM", "count" : 1 },
     { "item" : "chili", "count" : 1 },
-    { "item" : "slicedlemonMFM", "count" : 1 },
+    { "item" : "choppedlemonMFM", "count" : 1 },
     { "item" : "vinegarMSM", "count" : 1 },
     { "item" : "peanutPBJ", "count" : 1 },
     { "item" : "freshpastaMFM", "count" : 1 },

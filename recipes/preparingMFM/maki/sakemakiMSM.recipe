@@ -3,7 +3,7 @@
     { "item" : "sakeMFM", "count" : 1 },
     { "item" : "kelp", "count" : 1 },
     { "item" : "smokedsalmonMFM", "count" : 1 },
-    { "item" : "slicedcucumberMFM", "count" : 1 }
+    { "item" : "choppedcucumberMFM", "count" : 1 }
   ],
   "output" : { "item" : "sakemakiMSM", "count" : 1 },
   "groups" : [ "preparingMFM" ]

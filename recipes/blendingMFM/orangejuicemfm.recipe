@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "slicedorangeMFM", "count" : 1 }
+    { "item" : "choppedorangeMFM", "count" : 1 }
   ],
   "output" : { "item" : "orangejuiceMFM", "count" : 5 },
   "groups" : [ "juicingMFM" ]

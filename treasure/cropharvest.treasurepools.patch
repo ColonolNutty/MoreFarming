@@ -726,7 +726,7 @@
           {"item" : "neonmelonseed"}
         ],
         "pool" : [
-          {"weight" : 0.93, "item" : "slicedneonmelonMFM"},
+          {"weight" : 0.93, "item" : "neonmelon"},
           {"weight" : 0.07, "item" : "neonmelonseed"}
         ],
         "poolRounds" : [

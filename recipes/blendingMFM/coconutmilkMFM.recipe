@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "coconutchunksMFM", "count" : 1 }
+    { "item" : "choppedcoconutMFM", "count" : 1 }
   ],
   "output" : { "item" : "liquidmilk", "count" : 4 },
   "groups" : [ "blendingMFM" ]

@@ -4,7 +4,7 @@
     { "item" : "kelp", "count" : 1 },
     { "item" : "lemonjuiceMFM", "count" : 1 },
     { "item" : "rawfish", "count" : 2 },
-    { "item" : "slicedcucumberMFM", "count" : 2 },
+    { "item" : "choppedcucumberMFM", "count" : 2 },
     { "item" : "cookingoilMFM", "count" : 1 }
   ],
   "output" : { "item" : "californiatemakiMSM", "count" : 1 },

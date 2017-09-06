@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "riceballMSM", "count" : 1 },
     { "item" : "cookedeelMFM", "count" : 1 },
-    { "item" : "slicedcucumberMFM", "count" : 1 }
+    { "item" : "choppedcucumberMFM", "count" : 1 }
   ],
   "output" : { "item" : "unagimakiMSM", "count" : 1 },
   "groups" : [ "preparingMFM" ]

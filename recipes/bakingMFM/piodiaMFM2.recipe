@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "piodia", "count" : 8 }
-  ],
-  "output" : { "item" : "piodiaMFM", "count" : 1 },
-  "groups" : [ "bakingMFM" ]
-}

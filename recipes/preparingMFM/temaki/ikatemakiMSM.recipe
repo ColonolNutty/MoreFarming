@@ -3,7 +3,7 @@
     { "item" : "riceballMSM", "count" : 1 },
     { "item" : "kelp", "count" : 1 },
     { "item" : "rawsquidMFM", "count" : 2 },
-    { "item" : "slicedcucumberMFM", "count" : 2 },
+    { "item" : "choppedcucumberMFM", "count" : 2 },
     { "item" : "cookingoilMFM", "count" : 1 }
   ],
   "output" : { "item" : "ikatemakiMSM", "count" : 1 },

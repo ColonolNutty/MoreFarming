@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "riceballMSM", "count" : 1 },
-    { "item" : "slicedavocadoMSM", "count" : 1 },
+    { "item" : "choppedavocadoMFM", "count" : 1 },
     { "item" : "gingerMSM", "count" : 1 }
   ],
   "output" : { "item" : "avocadomakiMSM", "count" : 1 },

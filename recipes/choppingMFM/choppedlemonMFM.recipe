@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "lemonMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "choppedlemonMFM", "count" : 1 },
+  "groups" : [ "choppingMFM" ]
+}

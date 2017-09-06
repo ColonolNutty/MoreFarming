@@ -1,18 +1,18 @@
 {
   "itemName" : "toffeecookieMFM",
   "rarity" : "Common",
-  "price" : 54.24,
+  "price" : 37.7,
   "category" : "preparedFood",
   "inventoryIcon" : "toffeecookieMFM.png",
   "description" : "Crunchy and sweet.",
-  "shortdescription" : "Toffee Cookie",
+  "shortdescription" : "Cookie - Toffee",
   "effects" : [ [
       {
         "effect" : "regeneration1",
         "duration" : 20
       }
     ] ],
-  "foodValue" : 4.96,
+  "foodValue" : 4.13,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

@@ -4,8 +4,8 @@
   "price" : 447.83,
 	"category" : "preparedFood",
   "inventoryIcon" : "sakemakiMSM.png",
-  "description" : "Sake Maki.",
-  "shortdescription" : "Sake Maki",
+  "description" : "Smoked salmon and cucumber packed in sake.",
+  "shortdescription" : "Maki - Sake",
   "effects" : [ [
     {
         "effect" : "runboostfood",

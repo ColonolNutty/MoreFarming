@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "puddingMFM.png",
   "description" : "Is it a liquid or solid?",
-  "shortdescription" : "Vanilla Pudding",
+  "shortdescription" : "Pudding - Vanilla",
   "effects" : [ [
       {
         "effect" : "regeneration1",

@@ -4,7 +4,7 @@
   "price" : 30.75,
   "category" : "preparedFood",
   "inventoryIcon" : "steamedpeasMFM.png",
-  "description" : "Steamed peas.",
+  "description" : "Peas steamed in water.",
   "shortdescription" : "Steamed Peas",
   "foodValue" : 4.1,
   "tooltipKind" : "food",

@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "marshmallowcoveredsweetpotatoMFM.png",
   "description" : "A baked sweet potato with butter, covered in marshmallows.",
-  "shortdescription" : "Marshmallow Covered Sweet Potato",
+  "shortdescription" : "Marshmallow Sw. Potato",
   "foodValue" : 30.13,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

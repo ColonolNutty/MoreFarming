@@ -4,8 +4,8 @@
   "price" : 397.3,
 	"category" : "drink",
   "inventoryIcon" : "ebitemakiMSM.png",
-  "description" : "Ebi Temaki.",
-  "shortdescription" : "Ebi Temaki",
+  "description" : "Cooked shrimp, poultry, and cucumber, wrapped in rice and kelp.",
+  "shortdescription" : "Temaki - Ebi",
   "effects" : [ [
     {
         "effect" : "jumpboostfood",

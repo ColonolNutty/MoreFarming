@@ -4,8 +4,8 @@
   "price" : 303.71,
 	"category" : "preparedFood",
   "inventoryIcon" : "avocadomakiMSM.png",
-  "description" : "Avocado Maki.",
-  "shortdescription" : "Avocado Maki",
+  "description" : "Chopped avocado and ginger packed in a rice ball.",
+  "shortdescription" : "Maki - Avocado",
   "effects" : [ [
     {
         "effect" : "runboostfood",

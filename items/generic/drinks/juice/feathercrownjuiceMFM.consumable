@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "feathercrownjuiceMFM.png",
   "description" : "Mild and sweet feathercrown juice!",
-  "shortdescription" : "Feathercrown Juice",
+  "shortdescription" : "Juice - Feathercrown",
   "foodValue" : 5.25,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

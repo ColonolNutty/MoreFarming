@@ -4,8 +4,8 @@
   "price" : 130.31,
   "category" : "preparedFood",
   "inventoryIcon" : "automatopastaMFM.png",
-  "description" : "Pasta with some automato sauce. It works. Kinda.",
-  "shortdescription" : "Automato Pasta",
+  "description" : "Pasta with automato sauce. It works. Kinda.",
+  "shortdescription" : "Pasta - Automato",
   "effects" : [ [
     {
         "effect" : "jumpboostfood",

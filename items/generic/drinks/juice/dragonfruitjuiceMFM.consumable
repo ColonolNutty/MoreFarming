@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "dragonfruitjuiceMFM.png",
   "description" : "Slightly sweet Dragonfruit juice.",
-  "shortdescription" : "Dragonfruit juice",
+  "shortdescription" : "Juice - Dragonfruit",
   "foodValue" : 1.68,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

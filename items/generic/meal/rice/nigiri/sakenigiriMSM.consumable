@@ -4,8 +4,8 @@
   "price" : 398.48,
 	"category" : "preparedFood",
   "inventoryIcon" : "sakenigiriMSM.png",
-  "description" : "Sake Nigiri.",
-  "shortdescription" : "Sake Nigiri",
+  "description" : "Smoked salmon on top of sake.",
+  "shortdescription" : "Nigiri - Sake",
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",

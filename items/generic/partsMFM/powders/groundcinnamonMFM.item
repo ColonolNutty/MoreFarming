@@ -5,5 +5,6 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "groundcinnamonMFM.png",
   "description" : "Finely milled cinnamon.",
-  "shortdescription" : "Ground Cinnamon"
+  "shortdescription" : "Ground Cinnamon",
+  "maxStack" : 1000
 }

@@ -4,8 +4,8 @@
   "price" : 172.31,
   "category" : "preparedFood",
   "inventoryIcon" : "bananapastaMFM.png",
-  "description" : "A chef took a try on making an Apex-specific pasta. It actually worked.",
-  "shortdescription" : "Banana Pasta",
+  "description" : "A chef took a try on making an Apex targeted pasta. It actually worked.",
+  "shortdescription" : "Pasta - Banana",
   "effects" : [ [
     {
         "effect" : "jumpboostfood",

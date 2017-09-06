@@ -4,8 +4,8 @@
   "price" : 304.76,
 	"category" : "preparedFood",
   "inventoryIcon" : "kappamakiMSM.png",
-  "description" : "Contains 0% kappa.",
-  "shortdescription" : "Kappa Maki",
+  "description" : "Chopped cucumbers packed in a rice ball.",
+  "shortdescription" : "Maki - Kappa",
   "effects" : [ [
     {
         "effect" : "runboostfood",

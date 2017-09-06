@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "frenchfrieswithketchupMFM.png",
   "description" : "A strange combo if you think about it..",
-  "shortdescription" : "French Fries With Ketchup",
+  "shortdescription" : "Fries - French With Ketchup",
   "foodValue" : 21.83,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "coralcreepjuiceMFM.png",
   "description" : "Some coralcreep juice.",
-  "shortdescription" : "Coralcreep Juice",
+  "shortdescription" : "Juice - Coralcreep",
   "foodValue" : 1.31,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "toxictoptartMFM.png",
   "description" : "A sweet treat made from a bitter fruit.",
-  "shortdescription" : "Toxictop Tart",
+  "shortdescription" : "Poptart - Toxictop",
   "foodValue" : 43.65,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

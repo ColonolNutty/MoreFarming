@@ -5,5 +5,6 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "doughMFM.png",
   "description" : "Not the money kind.",
-  "shortdescription" : "Dough"
+  "shortdescription" : "Dough",
+  "maxStack": 1000
 }

@@ -4,8 +4,8 @@
   "price" : 414.1,
 	"category" : "drink",
   "inventoryIcon" : "unagitemakiMSM.png",
-  "description" : "Unagi Temaki.",
-  "shortdescription" : "Unagi Temaki",
+  "description" : "Cooked eel and cucumber, wrapped in rice and kelp.",
+  "shortdescription" : "Temaki - Unagi",
   "effects" : [ [
     {
         "effect" : "jumpboostfood",

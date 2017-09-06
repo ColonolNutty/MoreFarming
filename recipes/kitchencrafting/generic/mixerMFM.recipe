@@ -1,9 +1,0 @@
-{
-  "input" : [
- 		{ "item" : "cobblestonematerial", "count" : 10 },
-    { "item" : "ironbar", "count" : 30 },
-    { "item" : "copperbar", "count" : 5 }
-  ],
-  "output" : { "item" : "mixerMFM", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "mixingmachineMFM", "tools", "all" ]
-}

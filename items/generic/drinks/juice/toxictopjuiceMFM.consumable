@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "toxictopjuiceMFM.png",
   "description" : "Looks toxic..",
-  "shortdescription" : "Toxictop juice",
+  "shortdescription" : "Juice - Toxictop",
   "effects" : [ [
     {
         "effect" : "weakpoison",

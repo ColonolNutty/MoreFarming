@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "limejuiceMFM.png",
   "description" : "Tart lime juice.",
-  "shortdescription" : "Lime Juice",
+  "shortdescription" : "Juice - Lime",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",

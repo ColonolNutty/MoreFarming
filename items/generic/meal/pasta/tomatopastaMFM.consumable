@@ -4,8 +4,8 @@
   "price" : 109.31,
   "category" : "preparedFood",
   "inventoryIcon" : "tomatopastaMFM.png",
-  "description" : "Pasta with some tomato sauce.",
-  "shortdescription" : "Tomato Pasta",
+  "description" : "Pasta with tomato sauce.",
+  "shortdescription" : "Pasta - Tomato",
   "effects" : [ [
       {
         "effect" : "jumpboostfood",

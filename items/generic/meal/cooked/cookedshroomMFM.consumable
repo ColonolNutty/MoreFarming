@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "cookedshroomMFM.png",
   "description" : "A mushroom that is somewhat more edible.",
-  "shortdescription" : "Fried Mushroom",
+  "shortdescription" : "Baked Mushroom",
   "foodValue" : 12.1,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

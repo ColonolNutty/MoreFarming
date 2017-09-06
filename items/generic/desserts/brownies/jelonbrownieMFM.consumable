@@ -5,7 +5,7 @@
   "category" : "food",
   "inventoryIcon" : "jelonbrownieMFM.png",
   "description" : "Tasty and sweet brownie with jelon used as the sweetener.",
-  "shortdescription" : "Jelon Brownie",
+  "shortdescription" : "Brownie - Jelon",
   "effects" : [ [
     {
         "effect" : "runboostfood",

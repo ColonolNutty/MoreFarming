@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "cookedboltbulbMFM.png",
   "description" : "Now it tastes like it's covered in rust.",
-  "shortdescription" : "Fried Boltbulb",
+  "shortdescription" : "Baked Boltbulb",
   "foodValue" : 5.25,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

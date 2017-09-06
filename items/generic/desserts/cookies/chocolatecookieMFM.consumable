@@ -1,18 +1,18 @@
 {
   "itemName" : "chocolatecookieMFM",
   "rarity" : "Common",
-  "price" : 73.1,
+  "price" : 56.56,
   "category" : "preparedFood",
   "inventoryIcon" : "chocolatecookieMFM.png",
   "description" : "Chocolate goodness.",
-  "shortdescription" : "Chocolate Cookie",
+  "shortdescription" : "Cookie - Chocolate",
   "effects" : [ [
       {
         "effect" : "regeneration1",
         "duration" : 20
       }
     ] ],
-  "foodValue" : 5.13,
+  "foodValue" : 4.3,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

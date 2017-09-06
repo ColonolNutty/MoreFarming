@@ -4,8 +4,8 @@
   "price" : 411.54,
 	"category" : "drink",
   "inventoryIcon" : "magurotemakiMSM.png",
-  "description" : "Marguro Temaki.",
-  "shortdescription" : "Marguro Temaki",
+  "description" : "Raw tuna and cucumber, wrapped in rice and kelp.",
+  "shortdescription" : "Temaki - Marguro",
   "effects" : [ [
     {
         "effect" : "jumpboostfood",

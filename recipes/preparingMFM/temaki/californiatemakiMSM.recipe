@@ -2,6 +2,7 @@
   "input" : [
     { "item" : "riceballMSM", "count" : 1 },
     { "item" : "kelp", "count" : 1 },
+    { "item" : "lemonjuiceMFM", "count" : 1 },
     { "item" : "rawfish", "count" : 2 },
     { "item" : "slicedcucumberMFM", "count" : 2 },
     { "item" : "cookingoilMFM", "count" : 1 }

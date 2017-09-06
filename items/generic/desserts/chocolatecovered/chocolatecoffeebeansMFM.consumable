@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "chocolatecoffeebeansMFM.png",
   "description" : "Chocolate covered coffee beans.",
-  "shortdescription" : "Chocolate Covered Coffee Beans",
+  "shortdescription" : "Choc. Covered Coffee Beans",
   "foodValue" : 21.81,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

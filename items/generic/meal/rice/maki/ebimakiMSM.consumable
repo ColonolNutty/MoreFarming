@@ -4,8 +4,8 @@
   "price" : 710.14,
 	"category" : "preparedFood",
   "inventoryIcon" : "ebimakiMSM.png",
-  "description" : "Ebi Maki.",
-  "shortdescription" : "Ebi Maki",
+  "description" : "Cooked shrimp, poultry, and tamarai packed in a rice ball.",
+  "shortdescription" : "Maki - Ebi",
   "effects" : [ [
     {
         "effect" : "runboostfood",

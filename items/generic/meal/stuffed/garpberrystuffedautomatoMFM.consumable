@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "garpberrystuffedautomatoMFM.png",
   "description" : "Garpberries baked within an automato.",
-  "shortdescription" : "Garpberry Stuffed Automato",
+  "shortdescription" : "Stuffed - Garpmato",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",

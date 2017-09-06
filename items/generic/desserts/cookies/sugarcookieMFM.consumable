@@ -1,18 +1,18 @@
 {
   "itemName" : "sugarcookieMFM",
   "rarity" : "Common",
-  "price" : 81.99,
+  "price" : 65.45,
   "category" : "preparedFood",
   "inventoryIcon" : "sugarcookieMFM.png",
   "description" : "I just can't get enough of these.",
-  "shortdescription" : "Sugar Cookie",
+  "shortdescription" : "Cookie - Sugar",
   "effects" : [ [
       {
         "effect" : "regeneration1",
         "duration" : 20
       }
     ] ],
-  "foodValue" : 5.33,
+  "foodValue" : 4.5,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

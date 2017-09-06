@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "cookedcactiMFM.png",
   "description" : "Spiky, but somewhat more edible.",
-  "shortdescription" : "Dried Cactus",
+  "shortdescription" : "Baked Cactus",
   "effects" : [ [
     {
         "effect" : "thorns",

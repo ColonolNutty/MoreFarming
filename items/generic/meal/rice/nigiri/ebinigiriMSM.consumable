@@ -4,8 +4,8 @@
   "price" : 274.76,
 	"category" : "preparedFood",
   "inventoryIcon" : "ebinigiriMSM.png",
-  "description" : "Ebi Nigiri.",
-  "shortdescription" : "Ebi Nigiri",
+  "description" : "Cooked shrimp and poultry on top of rice.",
+  "shortdescription" : "Nigiri - Ebi",
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",

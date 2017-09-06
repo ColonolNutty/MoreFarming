@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "sweetpotatofriesMFM.png",
   "description" : "Sweet and salty.",
-  "shortdescription" : "Sweet Potato Fries",
+  "shortdescription" : "Fries - Sweet Potato",
   "foodValue" : 11.06,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -1,18 +1,18 @@
 {
   "itemName" : "gingercookieMFM",
   "rarity" : "Common",
-  "price" : 52.36,
+  "price" : 35.82,
   "category" : "preparedFood",
   "inventoryIcon" : "gingercookieMFM.png",
   "description" : "Hey, Santa can't hog all these for himself!",
-  "shortdescription" : "Gingerbread Cookie",
+  "shortdescription" : "Cookie - Gingerbread",
   "effects" : [ [
       {
         "effect" : "regeneration1",
         "duration" : 20
       }
     ] ],
-  "foodValue" : 4.91,
+  "foodValue" : 4.08,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

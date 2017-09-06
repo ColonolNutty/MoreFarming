@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "pinanasliceMFM.png",
   "description" : "A hot slice of banana pinana.",
-  "shortdescription" : "Pinana Slice",
+  "shortdescription" : "Pizza Slice - Pinana",
   "effects" : [ [
       {
         "effect" : "regeneration3",

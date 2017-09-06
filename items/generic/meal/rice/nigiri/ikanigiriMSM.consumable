@@ -4,8 +4,8 @@
   "price" : 258.75,
 	"category" : "preparedFood",
   "inventoryIcon" : "ikanigiriMSM.png",
-  "description" : "Ika Nigiri.",
-  "shortdescription" : "Ika Nigiri",
+  "description" : "Raw squid on top of rice.",
+  "shortdescription" : "Nigiri - Ika",
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",

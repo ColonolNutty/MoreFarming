@@ -5,7 +5,7 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "chocolateicingMFM.png",
   "description" : "Don't forget the icing!",
-  "shortdescription" : "Chocolate Icing",
+  "shortdescription" : "Icing - Chocolate",
   "foodValue" : 0.72,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

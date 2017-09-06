@@ -4,8 +4,8 @@
   "price" : 198.45,
   "category" : "food",
   "inventoryIcon" : "jelonbreadMFM.png",
-  "description" : "Bread with jelon spread on it. Tasty!",
-  "shortdescription" : "Jelon Bread",
+  "description" : "Bread made with jelon. Tasty!",
+  "shortdescription" : "Bread - Jelon",
   "effects" : [ [
       {
         "effect" : "maxenergyscalingboostfood",

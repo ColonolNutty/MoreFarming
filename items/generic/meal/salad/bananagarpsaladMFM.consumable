@@ -4,8 +4,8 @@
   "price" : 278.25,
   "category" : "preparedFood",
   "inventoryIcon" : "bananagarpsaladMFM.png",
-  "description" : "Banana and garpberry make for a fruity, sweet salad.",
-  "shortdescription" : "Bananagarpsalad",
+  "description" : "Banana and garpberries make for a fruity, sweet salad.",
+  "shortdescription" : "Salad - Garpanana",
   "effects" : [ [
     {
         "effect" : "jumpboostfood",

@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "garpberryjuiceMFM.png",
   "description" : "Garpberry juice! It has a mildly juciey flavor.",
-  "shortdescription" : "Garpberry juice",
+  "shortdescription" : "Juice - Garpberry",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",

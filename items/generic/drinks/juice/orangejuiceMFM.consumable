@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "orangejuiceMFM.png",
   "description" : "Sweet orange juice.",
-  "shortdescription" : "Orange Juice",
+  "shortdescription" : "Juice - Orange",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",

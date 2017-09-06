@@ -4,7 +4,7 @@
   "price" : 47.25,
   "inventoryIcon" : "jelonjuiceMFM.png",
   "description" : "A sweet glass of jelon juice.",
-  "shortdescription" : "Jelon Juice",
+  "shortdescription" : "Juice - Jelon",
   "effects" :[  [
     {
         "effect" : "energyregen",

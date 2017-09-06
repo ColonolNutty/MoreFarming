@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "pizzadoughMFM.png",
   "description" : "A base for making pizza.",
-  "shortdescription" : "Pizza Dough",
+  "shortdescription" : "Dough - Pizza",
   "foodValue" : 19.89,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "snowconeblueMFM.png",
   "description" : "A blue snow cone.",
-  "shortdescription" : "Blue Snow Cone",
+  "shortdescription" : "Snow Cone - Blue",
   "foodValue" : 51.8,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

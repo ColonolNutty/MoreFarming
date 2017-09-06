@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "cinnamonfrenchtoastMFM.png",
   "description" : "FRENCH TOAST!",
-  "shortdescription" : "Cinnamon French Toast",
+  "shortdescription" : "French Toast - Cinnamon",
   "foodValue" : 26.58,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

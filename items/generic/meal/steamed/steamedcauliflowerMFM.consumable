@@ -4,7 +4,7 @@
   "price" : 102.5,
   "category" : "preparedFood",
   "inventoryIcon" : "steamedcauliflowerMFM.png",
-  "description" : "Steamed cauliflower.",
+  "description" : "Cauliflower steamed in water.",
   "shortdescription" : "Steamed Cauliflower",
   "foodValue" : 7.69,
   "tooltipKind" : "food",

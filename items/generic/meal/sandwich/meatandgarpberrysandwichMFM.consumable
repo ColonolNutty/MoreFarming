@@ -4,8 +4,8 @@
   "price" : 174.51,
   "category" : "preparedFood",
   "inventoryIcon" : "meatandgarpberrysandwichMFM.png",
-  "description" : "Chunks of meat and garpberrys in a sandwiched between some bread. Floran likesss!",
-  "shortdescription" : "Meat and garpberry sandwich",
+  "description" : "Chunks of meat and garpberries sandwiched between bread.",
+  "shortdescription" : "Sandwich - Mearpberry",
   "effects" : [ [
     {
         "effect" : "jumpboostfood",

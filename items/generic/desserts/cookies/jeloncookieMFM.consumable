@@ -1,11 +1,11 @@
 {
   "itemName" : "jeloncookieMFM",
   "rarity" : "Common",
-  "price" : 52.52,
+  "price" : 35.98,
   "category" : "food",
   "inventoryIcon" : "jeloncookieMFM.png",
   "description" : "A cookie made using jelon.",
-  "shortdescription" : "Jelon Cookie",
+  "shortdescription" : "Cookie - Jelon",
   "effects" : [ [
     {
         "effect" : "runboostfood",
@@ -16,7 +16,7 @@
         "duration" : 60
     }
   ] ],
-  "foodValue" : 5.1,
+  "foodValue" : 4.28,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

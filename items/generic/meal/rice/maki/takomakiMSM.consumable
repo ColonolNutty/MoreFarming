@@ -4,8 +4,8 @@
   "price" : 315.79,
 	"category" : "preparedFood",
   "inventoryIcon" : "takomakiMSM.png",
-  "description" : "Tako Maki.",
-  "shortdescription" : "Tako Maki",
+  "description" : "Cooked octopus and cucumber packed in a rice ball.",
+  "shortdescription" : "Maki - Tako",
   "effects" : [ [
     {
         "effect" : "runboostfood",

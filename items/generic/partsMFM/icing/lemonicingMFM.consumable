@@ -5,7 +5,7 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "lemonicingMFM.png",
   "description" : "Don't forget the icing!",
-  "shortdescription" : "Lemon Icing",
+  "shortdescription" : "Icing - Lemon",
   "foodValue" : 1.38,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

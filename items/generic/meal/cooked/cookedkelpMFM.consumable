@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "cookedkelpMFM.png",
   "description" : "Many nutrients packed tightly in a questionable package!",
-  "shortdescription" : "Dried Kelp",
+  "shortdescription" : "Baked Kelp",
   "foodValue" : 2.1,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

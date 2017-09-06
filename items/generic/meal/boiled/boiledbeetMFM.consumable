@@ -4,7 +4,7 @@
   "price" : 42,
   "category" : "preparedFood",
   "inventoryIcon" : "boiledbeetMFM.png",
-  "description" : "Boiled Beet.",
+  "description" : "A beet boiled in water.",
   "shortdescription" : "Boiled Beet",
   "foodValue" : 3.94,
   "tooltipKind" : "food",

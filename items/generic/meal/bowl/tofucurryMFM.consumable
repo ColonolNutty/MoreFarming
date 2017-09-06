@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "tofucurryMFM.png",
   "description" : "A spicy curry made with tofu.",
-  "shortdescription" : "Tofu Curry",
+  "shortdescription" : "Curry - Tofu",
   "effects" : [[
     {
       "effect" : "regeneration1",

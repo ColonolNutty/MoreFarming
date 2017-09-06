@@ -4,7 +4,7 @@
   "price" : 151.5,
   "category" : "preparedFood",
   "inventoryIcon" : "peanutbutterPBJ.png",
-  "description" : "Yum!\n\n[^#E41919;Hp^white;]",
+  "description" : "Buttery peanut butter, made from peanuts.",
   "shortdescription" : "Peanut Butter",
   "foodValue" : 10.1,
   "tooltipKind" : "food",

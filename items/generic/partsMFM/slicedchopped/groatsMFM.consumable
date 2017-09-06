@@ -4,7 +4,7 @@
   "price" : 73.5,
   "category" : "cookingIngredient",
   "inventoryIcon": "groatsMFM.png",
-  "description": "Oat groats.",
+  "description": "Whole oats chopped into pieces",
   "shortdescription": "Oat Groats",
   "foodValue" : 2.1,
   "tooltipKind" : "food",

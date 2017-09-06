@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "frenchtoastMFM.png",
   "description" : "FRENCH TOAST!",
-  "shortdescription" : "French Toast",
+  "shortdescription" : "French Toast - Plain",
   "foodValue" : 23.21,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

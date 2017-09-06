@@ -1,11 +1,11 @@
 {
   "itemName" : "californiatemakiMSM",
   "rarity" : "Uncommon",
-  "price" : 401.29,
+  "price" : 415.18,
 	"category" : "drink",
   "inventoryIcon" : "californiatemakiMSM.png",
-  "description" : "California Temaki.",
-  "shortdescription" : "California Temaki",
+  "description" : "Chopped cucumber, lemon juice, and raw fish, wrapped in rice and kelp",
+  "shortdescription" : "Temaki - California",
   "effects" : [ [
     {
         "effect" : "jumpboostfood",
@@ -16,7 +16,7 @@
         "duration" : 120
     }
   ] ],
-	"foodValue" : 44.63,
+	"foodValue" : 45.78,
 	"tooltipKind" : "food",
 	"builder" : "/items/buildscripts/buildfood.lua",
 	"maxStack" : 1000,

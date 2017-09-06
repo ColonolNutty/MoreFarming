@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "vanillaicecreamMFM.png",
   "description" : "Vanilla ice cream.",
-  "shortdescription" : "Vanilla Ice Cream",
+  "shortdescription" : "Snow Cone - Vanilla",
   "foodValue" : 25.03,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

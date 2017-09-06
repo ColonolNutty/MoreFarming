@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "redapplejuiceMFM.png",
   "description" : "sweet apple juice.",
-  "shortdescription" : "Red Apple Juice",
+  "shortdescription" : "Juice - Red Apple",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",

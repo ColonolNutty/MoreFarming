@@ -4,8 +4,8 @@
   "price" : 381.81,
 	"category" : "drink",
   "inventoryIcon" : "takotemakiMSM.png",
-  "description" : "Taco Temaki.",
-  "shortdescription" : "Tako Temaki",
+  "description" : "Cooked octopus and cucumber, wrapped in rice and kelp.",
+  "shortdescription" : "Temaki - Tako",
   "effects" : [ [
     {
         "effect" : "jumpboostfood",

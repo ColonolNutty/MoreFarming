@@ -5,5 +5,6 @@
   "category" : "cookingIngredient",
   "inventoryIcon" : "sugarcanejuiceMFM.png",
   "description" : "Juice from Sugarcane, used for making Vinegar. Not very edible",
-  "shortdescription" : "Sugarcane Juice"
+  "shortdescription" : "Juice - Sugarcane",
+  "maxStack" : 1000
 }

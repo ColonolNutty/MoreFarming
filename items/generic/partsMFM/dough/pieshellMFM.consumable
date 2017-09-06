@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "cookiedoughMFM.png",
   "description" : "A shell for making pie.",
-  "shortdescription" : "Pie Shell",
+  "shortdescription" : "Dough - Pie Shell",
   "foodValue" : 19.89,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

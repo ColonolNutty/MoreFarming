@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "cupcakeMFM.png",
   "description" : "Baking these treats is such a cinch!",
-  "shortdescription" : "Plain Cupcake",
+  "shortdescription" : "Cupcake - Plain",
   "foodValue" : 49.04,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

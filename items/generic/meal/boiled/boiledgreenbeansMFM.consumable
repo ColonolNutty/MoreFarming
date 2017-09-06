@@ -4,7 +4,7 @@
   "price" : 71.75,
   "category" : "preparedFood",
   "inventoryIcon" : "boiledgreenbeansMFM.png",
-  "description" : "Boiled green beans.",
+  "description" : "Green beans boiled in water.",
   "shortdescription" : "Boiled Green Beans",
   "foodValue" : 5.13,
   "tooltipKind" : "food",

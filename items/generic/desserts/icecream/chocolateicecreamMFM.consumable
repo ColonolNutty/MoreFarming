@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "chocolateicecreamMFM.png",
   "description" : "Chocolate ice cream.",
-  "shortdescription" : "Chocolate Ice Cream",
+  "shortdescription" : "Ice Cream - Chocolate",
   "foodValue" : 49.58,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

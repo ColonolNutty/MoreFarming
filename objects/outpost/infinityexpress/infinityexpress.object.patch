@@ -11,6 +11,7 @@
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "cookiedoughMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "cookingoilMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "cornmealMFM" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "cornsyrupMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "creamMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "cupcakepaperMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "darkchocolateMFM" } },

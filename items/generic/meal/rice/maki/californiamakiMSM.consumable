@@ -4,8 +4,8 @@
   "price" : 339.65,
 	"category" : "preparedFood",
   "inventoryIcon" : "californiamakiMSM.png",
-  "description" : "California Maki.",
-  "shortdescription" : "California Maki",
+  "description" : "Chopped cucumber, lemon juice, and raw fish packed in a rice ball.",
+  "shortdescription" : "Maki - California",
   "effects" : [ [
     {
         "effect" : "runboostfood",

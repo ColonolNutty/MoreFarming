@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "grapefruitjuiceMFM.png",
   "description" : "tart grapefruit juice.",
-  "shortdescription" : "Grapefruit Juice",
+  "shortdescription" : "Juice - Grapefruit",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",

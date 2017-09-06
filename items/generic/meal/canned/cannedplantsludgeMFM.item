@@ -5,6 +5,7 @@
   "category" : "craftingMaterial",
   "inventoryIcon" : "cannedplantsludgeMFM.png",
   "description" : "Plant Sludge in a Can.",
-  "shortdescription" : "Canned Plant Sludge",
+  "shortdescription" : "Canned - Plant Sludge",
+  "maxStack" : 1000,
   "itemTags" : [ "reagent" ]
 }

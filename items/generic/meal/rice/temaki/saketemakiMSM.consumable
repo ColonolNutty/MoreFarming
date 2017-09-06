@@ -4,8 +4,8 @@
   "price" : 545.1,
 	"category" : "drink",
   "inventoryIcon" : "saketemakiMSM.png",
-  "description" : "Sake Temaki.",
-  "shortdescription" : "Sake Temaki",
+  "description" : "Smoked salmon and cucumber, wrapped in sake and kelp.",
+  "shortdescription" : "Temaki - Sake",
   "effects" : [ [
     {
         "effect" : "jumpboostfood",

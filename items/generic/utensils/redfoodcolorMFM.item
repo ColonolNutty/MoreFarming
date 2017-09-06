@@ -5,6 +5,6 @@
   "category" : "craftingMaterial",
   "inventoryIcon" : "redfoodcolorMFM.png",
   "description" : "Red Food Coloring. I can color foods Red with this.",
-  "shortdescription" : "Red Food Coloring",
+  "shortdescription" : "Food Coloring - Red",
   "itemTags" : [ "reagent" ]
 }

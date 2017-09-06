@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "chocolatepuddingMFM.png",
   "description" : "I need more!",
-  "shortdescription" : "Chocolate Pudding",
+  "shortdescription" : "Pudding - Chocolate",
   "effects" : [ [
       {
         "effect" : "regeneration1",

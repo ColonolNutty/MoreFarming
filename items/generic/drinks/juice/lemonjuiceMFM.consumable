@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "lemonjuiceMFM.png",
   "description" : "Sour lemon juice.",
-  "shortdescription" : "Lemon Juice",
+  "shortdescription" : "Juice - Lemon",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",

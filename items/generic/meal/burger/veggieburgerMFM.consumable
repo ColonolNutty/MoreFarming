@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "veggieburgerMFM.png",
   "description" : "A vegetarian version of a juicy hamburger.",
-  "shortdescription" : "Veggieburger",
+  "shortdescription" : "Burger - Veggie",
   "effects" : [[
     {
       "effect" : "regeneration1",

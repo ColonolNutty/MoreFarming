@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "garpberryicecreamMFM.png",
   "description" : "A lovely icecream made with a garpberry-taste. Mmmm",
-  "shortdescription" : "Garpberry Ice Cream",
+  "shortdescription" : "Ice Cream - Garpberry",
   "effects" : [ [
     {
         "effect" : "jumpboostfood",

@@ -4,8 +4,8 @@
   "price" : 270.56,
 	"category" : "preparedFood",
   "inventoryIcon" : "unaginigiriMSM.png",
-  "description" : "Unagi Nigiri.",
-  "shortdescription" : "Unagi Nigiri",
+  "description" : "Cooked eel on top of rice.",
+  "shortdescription" : "Nigiri - Unagi",
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",

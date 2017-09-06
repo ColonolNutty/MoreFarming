@@ -4,8 +4,8 @@
   "price" : 269.25,
 	"category" : "preparedFood",
   "inventoryIcon" : "maguronigiriMSM.png",
-  "description" : "Maguro Nigiri.",
-  "shortdescription" : "Maguro Nigiri",
+  "description" : "Raw tuna on top of rice.",
+  "shortdescription" : "Nigiri - Maguro",
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",

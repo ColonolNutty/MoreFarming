@@ -4,8 +4,8 @@
   "price" : 549,
   "category" : "food",
   "inventoryIcon" : "jelonjamMFM.png",
-  "description" : "Jelons with the leaves and seeds taken out.",
-  "shortdescription" : "Jelon Jam",
+  "description" : "Jam made from jelons.",
+  "shortdescription" : "Jam - Jelon",
   "effects" : [ [
     {
         "effect" : "runboostfood",

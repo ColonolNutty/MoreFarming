@@ -4,8 +4,8 @@
   "price" : 320.51,
 	"category" : "preparedFood",
   "inventoryIcon" : "ikamakiMSM.png",
-  "description" : "Ika Maki.",
-  "shortdescription" : "Ika Maki",
+  "description" : "Raw squid and cucumber packed in a rice ball.",
+  "shortdescription" : "Maki - Ika",
   "effects" : [ [
     {
         "effect" : "runboostfood",

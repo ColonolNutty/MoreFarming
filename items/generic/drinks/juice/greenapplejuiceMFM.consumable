@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "greenapplejuiceMFM.png",
   "description" : "Sour apple juice from a green apple.",
-  "shortdescription" : "Green Apple Juice",
+  "shortdescription" : "Juice - Green Apple",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",

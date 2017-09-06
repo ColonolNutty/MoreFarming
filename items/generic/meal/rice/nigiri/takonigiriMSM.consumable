@@ -4,8 +4,8 @@
   "price" : 254.03,
 	"category" : "preparedFood",
   "inventoryIcon" : "takonigiriMSM.png",
-  "description" : "Tako Nigiri.",
-  "shortdescription" : "Tako Nigiri",
+  "description" : "Cooked octopus on top of rice.",
+  "shortdescription" : "Nigiri - Tako",
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",

@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "eggplantjuiceMFM.png",
   "description" : "Eggplant juice, the juice of a 100 different flavours.",
-  "shortdescription" : "Eggplant Juice",
+  "shortdescription" : "Juice - Eggplant",
   "foodValue" : 2.21,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

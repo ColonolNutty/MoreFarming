@@ -5,6 +5,6 @@
   "category" : "craftingMaterial",
   "inventoryIcon" : "yellowfoodcolorMFM.png",
   "description" : "Yellow Food Coloring. I can color foods Yellow with this",
-  "shortdescription" : "Yellow Food Coloring",
+  "shortdescription" : "Food Coloring - Yellow",
   "itemTags" : [ "reagent" ]
 }

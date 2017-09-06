@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "mangojuiceMFM.png",
   "description" : "Sweet Mango juice.",
-  "shortdescription" : "Mango Juice",
+  "shortdescription" : "Juice - Mango",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",

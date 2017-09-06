@@ -4,8 +4,8 @@
   "price" : 331.01,
 	"category" : "preparedFood",
   "inventoryIcon" : "maguromakiMSM.png",
-  "description" : "Marguro Maki.",
-  "shortdescription" : "Marguro Maki",
+  "description" : "Raw tuna and cucumber packed in a rice ball.",
+  "shortdescription" : "Maki - Marguro",
   "effects" : [ [
     {
         "effect" : "runboostfood",

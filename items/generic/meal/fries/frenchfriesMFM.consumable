@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "frenchfriesMFM.png",
   "description" : "Bonjour!",
-  "shortdescription" : "French Fries",
+  "shortdescription" : "Fries - French",
   "foodValue" : 11.06,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

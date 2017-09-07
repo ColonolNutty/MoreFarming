@@ -1,0 +1,19 @@
+{
+  "itemName" : "boiledboltbulbMFM",
+  "rarity" : "Common",
+  "price" : 55.13,
+  "category" : "preparedFood",
+  "inventoryIcon" : "boiledboltbulbMFM.png",
+  "description" : "Boltbulb boiled in water.",
+  "shortdescription" : "Boiled Boltbulb",
+  "foodValue" : 4.14,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emote" : "Happy"
+}

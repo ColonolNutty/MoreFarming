@@ -1,0 +1,10 @@
+{
+  "itemName" : "mixbreadcarrotMFM",
+  "rarity" : "Common",
+  "price" : 790.88,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "mixbreadcarrotMFM.png",
+  "description" : "A mixture for making carrot bread. Ready for baking.",
+  "shortdescription" : "Mix Bread - Carrot",
+  "maxStack" : 1000
+}

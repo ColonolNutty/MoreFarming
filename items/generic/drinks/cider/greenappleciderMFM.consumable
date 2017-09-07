@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "greenappleciderMFM.png",
   "description" : "Not actually green, but sweeter and sour!",
-  "shortdescription" : "Green Apple Cider",
+  "shortdescription" : "Cider - Green Apple",
   "foodValue" : 1.16,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

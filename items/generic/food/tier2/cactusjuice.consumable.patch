@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 16.54
+  },
+  {
+    "op" : "replace",
+    "path" : "/foodValue",
+    "value" : 2.21
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Juice - Cactus"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "itemName" : "breadsliceMFM",
+  "rarity" : "Common",
+  "price" : 5.51,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "breadsliceMFM.png",
+  "description" : "A slice of fresh bread!",
+  "shortdescription" : "Bread Slice",
+  "foodValue" : 0.28,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

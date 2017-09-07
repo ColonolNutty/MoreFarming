@@ -1,0 +1,18 @@
+[
+  {
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "choppedtomatoMFM", "count" : 1 },
+      { "item" : "choppedcornMFM", "count" : 1 },
+      { "item" : "choppedcucumberMFM", "count" : 1 },
+      { "item" : "choppedjalapenopepperMFM", "count" : 1 },
+      { "item" : "vinegarMSM", "count" : 1 }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groups/-",
+    "value": "blendingMFM"
+  }
+]

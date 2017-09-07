@@ -1,0 +1,18 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "rice", "count" : 4 },
+      { "item" : "pearlpea", "count" : 1 },
+      { "item" : "choppedonionMFM", "count" : 1 },
+      { "item" : "butterMFM", "count" : 1 },
+      { "item" : "liquidwater", "count" : 2 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "boilingMFM"
+	}
+]

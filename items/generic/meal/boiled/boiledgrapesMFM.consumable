@@ -1,0 +1,20 @@
+{
+  "itemName" : "boiledgrapesMFM",
+  "rarity" : "Common",
+  "price" : 132.3,
+  "category" : "preparedFood",
+  "inventoryIcon" : "boiledgrapesMFM.png",
+  "description" : "Grapes boiled in water.",
+  "shortdescription" : "Boiled Grapes",
+  "foodValue": 4.14,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+
+  "emote" : "Happy"
+}

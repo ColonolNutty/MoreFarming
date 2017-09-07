@@ -1,7 +1,7 @@
 {
   "itemName" : "orangejuiceMFM",
   "rarity" : "Common",
-  "price" : 10.5,
+  "price" : 21,
   "category" : "drink",
   "inventoryIcon" : "orangejuiceMFM.png",
   "description" : "Sweet orange juice.",
@@ -12,7 +12,7 @@
         "duration" : 120
     }
   ] ],
-  "foodValue" : 2.63,
+  "foodValue" : 5.25,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "toxictop", "count" : 1 }
-  ],
-  "output" : { "item" : "toxictopjuiceMFM", "count" : 2 },
-  "groups" : [ "juicingMFM" ]
-}

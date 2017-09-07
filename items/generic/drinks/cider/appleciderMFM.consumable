@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "appleciderMFM.png",
   "description" : "A popular drink with Humans.",
-  "shortdescription" : "Apple Cider",
+  "shortdescription" : "Cider - Red Apple",
   "foodValue" : 2.32,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

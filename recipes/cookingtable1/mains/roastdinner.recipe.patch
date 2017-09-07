@@ -1,0 +1,19 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+			{ "item" : "boiledpearlpeas", "count" : 1 },
+			{ "item" : "mashedpotato", "count" : 1 },
+			{ "item" : "roastedstripofpoultryMFM", "count" : 1 },
+			{ "item" : "boiledcarrotMFM", "count" : 1 },
+			{ "item" : "boiledbroccoliMFM", "count" : 1 },
+			{ "item" : "boiledcauliflowerMFM", "count" : 1 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "preparingMFM"
+	}
+]

@@ -1,0 +1,10 @@
+{
+  "itemName" : "unfinishedbatteredfishMFM",
+  "rarity" : "Common",
+  "price" : 90.46,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "unfinishedbatteredfishMFM.png",
+  "description" : "A raw fish fillet coated in a simple batter. Ready for frying.",
+  "shortdescription" : "Battered Fish",
+  "maxStack" : 1000
+}

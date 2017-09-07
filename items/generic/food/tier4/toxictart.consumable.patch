@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 557.77
+  },
+  {
+    "op" : "replace",
+    "path" : "/foodValue",
+    "value" : 35.7
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Tart - Toxictop"
+  }
+]

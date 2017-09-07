@@ -1,0 +1,18 @@
+{
+  "itemName" : "pressedfeathercrownMFM",
+  "rarity" : "Common",
+  "price" : 126,
+  "category" : "food",
+  "inventoryIcon" : "pressedfeathercrownMFM.png",
+  "description" : "Feathercrown pressed into a thick pulp using a press",
+  "shortdescription" : "Pressed Feathercrown",
+  "foodValue" : 10.5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

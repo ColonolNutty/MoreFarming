@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "rawribmeat", "count" : 1 },
+    { "item" : "goldensyrupMFM", "count" : 2 },
+    { "item" : "choppedchiliMFM", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "rawbastedribmeatMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

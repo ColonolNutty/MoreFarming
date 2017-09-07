@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "egg", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
+  ],
+  "output" : { "item" : "hardboiledeggMFM", "count" : 1 },
+  "groups" : [ "boilingMFM" ]
+}

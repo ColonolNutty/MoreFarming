@@ -1,0 +1,10 @@
+{
+  "itemName" : "creamfillingoculemonMFM",
+  "rarity" : "Common",
+  "price" : 929.96,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "creamfillingoculemonMFM.png",
+  "description" : "Oculemon flavoured cream filling.",
+  "shortdescription" : "Cream Filling - Oculemon",
+  "maxStack" : 1000
+}

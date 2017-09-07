@@ -1,0 +1,18 @@
+{
+  "itemName" : "choppedsugarbeetMFM",
+  "rarity" : "Common",
+  "price" : 84,
+  "category" : "preparedFood",
+  "inventoryIcon" : "choppedsugarbeetMFM.png",
+  "description" : "Washed and chopped sugar beet.",
+  "shortdescription" : "Chopped Sugarbeet",
+  "foodValue" : 2.1,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

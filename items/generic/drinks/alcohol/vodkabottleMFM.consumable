@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "vodkabottleMFM.png",
   "description" : "A bottle of vodka.",
-  "shortdescription" : "Vodka Bottle",
+  "shortdescription" : "Alcohol - Vodka",
   "foodValue" : 2.69,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

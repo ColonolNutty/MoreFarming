@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "kiwi", "count" : 1 }
-  ],
-  "output" : { "item" : "kiwijuice", "count" : 2 },
-  "groups" : [ "juicingMFM" ]
-}

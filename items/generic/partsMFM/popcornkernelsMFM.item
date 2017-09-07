@@ -1,0 +1,10 @@
+{
+  "itemName" : "popcornkernelsMFM",
+  "rarity" : "Common",
+  "price" : 66.15,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "popcornkernelsMFM.png",
+  "description" : "Dried corn, ready for popping.",
+  "shortdescription" : "Part - Popcorn Kernels",
+  "maxStack" : 1000
+}

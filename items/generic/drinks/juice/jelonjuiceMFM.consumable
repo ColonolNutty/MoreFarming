@@ -1,7 +1,7 @@
 {
   "itemName" : "jelonjuiceMFM",
   "rarity" : "Common",
-  "price" : 47.25,
+  "price" : 99.23,
   "inventoryIcon" : "jelonjuiceMFM.png",
   "description" : "A sweet glass of jelon juice.",
   "shortdescription" : "Juice - Jelon",
@@ -11,7 +11,7 @@
         "duration" : 50
     }
   ] ],
-  "foodValue" : 5.25,
+  "foodValue" : 11.03,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

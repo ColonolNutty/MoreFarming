@@ -1,0 +1,37 @@
+{
+  "objectName" : "mixerMFM",
+  "colonyTags" : [ "cooking" ],
+  "rarity" : "Common",
+  "description" : "An obsolete machine, I should recycle it.",
+  "shortdescription" : "Obsolete Mixer",
+  "race" : "generic",
+  "subtitle" : "Modern food mixer!",
+  "category" : "crafting",
+  "price" : 1323.1,
+  "objectType" : "container",
+  "printable" : false,
+  "hydrophobic" : false,
+
+  "inventoryIcon" : "obsoletemixerMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "obsoletemixerMFM.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "recipeGroup" : "",
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
+  "slotCount": 2,
+  "uiConfig" : "/interface/objectcrafting/obsoleteMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

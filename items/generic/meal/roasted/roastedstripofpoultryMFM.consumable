@@ -1,0 +1,19 @@
+{
+  "itemName" : "roastedstripofpoultryMFM",
+  "rarity" : "Common",
+  "price" : 11.03,
+  "category" : "preparedFood",
+  "inventoryIcon" : "roastedstripofpoultryMFM.png",
+  "description" : "A strip of bird meat, roasted!",
+  "shortdescription" : "Strip of Roasted Poultry",
+  "effects": [[ "regeneration1" ]],
+  "foodValue" : 5.51,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "boiledblueberriesMFM",
+  "rarity" : "Common",
+  "price" : 55.13,
+  "category" : "preparedFood",
+  "inventoryIcon" : "boiledblueberriesMFM.png",
+  "description" : "Blueberries boiled in water.",
+  "shortdescription" : "Boiled Blueberries",
+  "foodValue" : 4.14,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emote" : "Happy"
+}

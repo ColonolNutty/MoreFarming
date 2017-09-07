@@ -1,7 +1,7 @@
 {
   "itemName" : "sugarcanejuiceMFM",
   "rarity" : "Common",
-  "price" : 42,
+  "price" : 84,
   "category" : "cookingIngredient",
   "inventoryIcon" : "sugarcanejuiceMFM.png",
   "description" : "Juice from Sugarcane, used for making Vinegar. Not very edible",

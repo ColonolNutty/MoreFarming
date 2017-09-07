@@ -1,0 +1,20 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "flourMFM", "count" : 1 },
+      { "item" : "rawstripofalienmeatMFM", "count" : 2 },
+      { "item" : "choppedpotatoMFM", "count" : 1 },
+      { "item" : "choppedcarrotMFM", "count" : 1 },
+      { "item" : "choppedtomatoMFM", "count" : 1 },
+      { "item" : "choppedonionMFM", "count" : 1 },
+      { "item" : "liquidwater", "count" : 2 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "boilingMFM"
+	}
+]

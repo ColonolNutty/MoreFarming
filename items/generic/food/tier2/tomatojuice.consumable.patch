@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 66.15
+  },
+  {
+    "op" : "replace",
+    "path" : "/foodValue",
+    "value" : 2.76
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Juice - Tomato"
+  }
+]

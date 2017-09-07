@@ -1,0 +1,10 @@
+{
+  "itemName" : "eggybreadMFM",
+  "rarity" : "Common",
+  "price" : 26.79,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "eggybreadMFM.png",
+  "description" : "A slice of bread soaked in raw egg. Ready for frying.",
+  "shortdescription" : "Bread - Eggy",
+  "maxStack" : 1000
+}

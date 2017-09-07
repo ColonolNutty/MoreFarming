@@ -1,0 +1,18 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "flourMFM", "count" : 1 },
+      { "item" : "choppedcurrentcornMFM", "count" : 1 },
+      { "item" : "choppedautomatoMFM", "count" : 1 },
+      { "item" : "choppeddiodiaMFM", "count" : 1 },
+      { "item" : "stockvegetableMFM", "count" : 1 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "boilingMFM"
+	}
+]

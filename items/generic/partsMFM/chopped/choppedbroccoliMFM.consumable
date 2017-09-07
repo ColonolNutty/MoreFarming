@@ -1,0 +1,18 @@
+{
+  "itemName" : "choppedbroccoliMFM",
+  "rarity" : "Common",
+  "price" : 63,
+  "category" : "preparedFood",
+  "inventoryIcon" : "choppedbroccoliMFM.png",
+  "description" : "Washed and chopped broccoli.",
+  "shortdescription" : "Chopped Broccoli",
+  "foodValue" : 3.94,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

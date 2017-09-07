@@ -3,7 +3,7 @@
   "colonyTags" : [ "cooking" ],
   "printable" : false,
   "rarity" : "Common",
-  "description" : "This grinder is old, it doesn't work anymore. I should trade it for a newer model at a crafting table?",
+  "description" : "An obsolete machine, I should recycle it.",
   "shortdescription" : "Obsolete Grinder",
   "race" : "generic",
   "objectType" : "container",

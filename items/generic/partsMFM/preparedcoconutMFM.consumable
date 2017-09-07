@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "inventoryIcon" : "preparedcoconutMFM.png",
   "description" : "A coconut prepared for eating instead of throwing.",
-  "shortdescription" : "Chopped Coconut",
+  "shortdescription" : "Prepared Coconut",
   "foodValue" : 2.1,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

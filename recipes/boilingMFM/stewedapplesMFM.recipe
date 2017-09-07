@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "choppedredappleMFM", "count" : 2 },
+    { "item" : "sugar", "count" : 2 },
+    { "item" : "cinnamonMFM", "count" : 1 },
+    { "item" : "flourMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
+  ],
+  "output" : { "item" : "stewedapplesMFM", "count" : 1 },
+  "groups" : [ "boilingMFM" ]
+}

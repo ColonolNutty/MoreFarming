@@ -1,0 +1,10 @@
+{
+  "itemName" : "rawsoggysackMFM",
+  "rarity" : "Common",
+  "price" : 215.25,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "rawsoggysackMFM.png",
+  "description" : "Coralcreep stuffed with chopped dirturchin. Ready for baking.",
+  "shortdescription" : "Raw Soggysack",
+  "maxStack" : 1000
+}

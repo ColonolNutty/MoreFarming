@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "garlicMFM", "count" : 1 },
-    { "item" : "butterMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "mincedgarlicMFM", "count" : 1 },
-  "groups" : [ "choppingMFM" ]
-}

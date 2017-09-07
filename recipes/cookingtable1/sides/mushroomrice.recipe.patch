@@ -1,0 +1,20 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "boiledrice", "count" : 1 },
+      { "item" : "choppedmushroomMFM", "count" : 2 },
+      { "item" : "choppedbellpeppergreenMFM", "count" : 1 },
+      { "item" : "choppedbellpepperredMFM", "count" : 1 },
+      { "item" : "egg", "count" : 1 },
+      { "item" : "saltMFM", "count" : 1 },
+      { "item" : "cookingoilMFM", "count" : 1 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "fryingMFM"
+	}
+]

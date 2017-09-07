@@ -1,5 +1,15 @@
 [
   {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 667.54
+  },
+  {
+    "op" : "replace",
+    "path" : "/foodValue",
+    "value" : 65.99
+  },
+  {
     "op": "replace",
     "path": "/shortdescription",
     "value": "Pizza - Pepperoni"

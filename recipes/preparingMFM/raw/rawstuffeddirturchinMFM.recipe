@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "dirturchin", "count" : 1 },
+    { "item" : "boiledpearlpeas", "count" : 1 },
+    { "item" : "cheese", "count" : 1 },
+    { "item" : "breadcrumbsMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "rawstuffeddirturchinMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

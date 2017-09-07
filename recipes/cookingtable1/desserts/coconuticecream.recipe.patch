@@ -1,0 +1,16 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "creamMFM", "count" : 2 },
+      { "item" : "sugar", "count" : 4 },
+      { "item" : "liquidmilk", "count" : 2 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "freezingMFM"
+	}
+]

@@ -1,0 +1,16 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "rice", "count" : 6 },
+      { "item" : "sugar", "count" : 2 },
+      { "item" : "milk", "count" : 1 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "bakingMFM"
+	}
+]

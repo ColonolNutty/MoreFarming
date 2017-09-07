@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "coralcreep", "count" : 1 },
+    { "item" : "choppeddirturchinMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "rawsoggysackMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

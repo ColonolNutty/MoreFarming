@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "kiwi", "count" : 1 }
+  ],
+  "output" : { "item" : "pressedkiwiMFM", "count" : 1 },
+  "groups" : [ "pressingMFM" ]
+}

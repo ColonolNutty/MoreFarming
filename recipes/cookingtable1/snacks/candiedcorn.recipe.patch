@@ -1,0 +1,17 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+			{ "item" : "fondantMFM", "count" : 1 },
+			{ "item" : "choppedcornMFM", "count" : 1 },
+			{ "item" : "sugar", "count" : 1 },
+			{ "item" : "vanillaextractMFM", "count" : 1 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "bakingMFM"
+	}
+]

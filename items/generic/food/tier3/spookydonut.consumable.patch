@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 1514.55
+  },
+  {
+    "op" : "replace",
+    "path" : "/foodValue",
+    "value" : 109.21
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Donut - Spooky"
+  }
+]

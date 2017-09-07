@@ -1,0 +1,10 @@
+{
+  "itemName" : "rawbastedribmeatMFM",
+  "rarity" : "Common",
+  "price" : 321.24,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "rawbastedribmeatMFM.png",
+  "description" : "Raw rib meat drenched in syrup. Ready for baking.",
+  "shortdescription" : "Raw Basted Rib Meat",
+  "maxStack" : 1000
+}

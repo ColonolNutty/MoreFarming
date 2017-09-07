@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "choppedreefpodMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
+  ],
+  "output" : { "item" : "reefjuice", "count" : 1 },
+  "groups" : [ "blendingMFM" ]
+}

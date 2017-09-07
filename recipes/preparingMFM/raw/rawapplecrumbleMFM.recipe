@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "toppingsweetcrumbMFM", "count" : 1 },
+    { "item" : "stewedapplesMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "rawapplecrumbleMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

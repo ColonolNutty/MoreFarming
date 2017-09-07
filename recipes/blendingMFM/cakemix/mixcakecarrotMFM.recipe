@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "mixcakeplainMFM", "count" : 1 },
+    { "item" : "groundcinnamonMFM", "count" : 1 },
+    { "item" : "choppedcarrotMFM", "count" : 4 }
+  ],
+  "output" : { "item" : "mixcakecarrotMFM", "count" : 1 },
+  "groups" : [ "blendingMFM" ]
+}

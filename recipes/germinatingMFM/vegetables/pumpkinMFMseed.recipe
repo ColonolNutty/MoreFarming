@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "pumpkinfullMFM", "count" : 10 }
+    { "item" : "pumpkinfullMFM", "count" : 2 }
   ],
   "output" : { "item" : "pumpkinMFMseed", "count" : 1 },
   "groups" : [ "germinatingMFM", "vegetableMFM" ]

@@ -1,0 +1,19 @@
+{
+  "itemName" : "choppedpumpkinMFM",
+  "rarity" : "Common",
+  "price" : 21,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "choppedpumpkinMFM.png",
+  "description" : "Washed and chopped pumpkin.",
+  "shortdescription" : "Chopped Pumpkin",
+  "foodValue" : 0.53,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

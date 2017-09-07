@@ -1,0 +1,20 @@
+{
+  "itemName" : "boiledpussplumMFM",
+  "rarity" : "Common",
+  "price" : 165.38,
+  "category" : "preparedFood",
+  "inventoryIcon" : "boiledpussplumMFM.png",
+  "description" : "A pussplum boiled in water.",
+  "shortdescription" : "Boiled Pussplum",
+  "foodValue": 8.27,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+
+  "emote" : "Happy"
+}

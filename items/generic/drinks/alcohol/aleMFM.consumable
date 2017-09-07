@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "aleMFM.png",
   "description" : "I feel tipsy...",
-  "shortdescription" : "Ale",
+  "shortdescription" : "Alcohol - Ale",
   "foodValue" : 4.2,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

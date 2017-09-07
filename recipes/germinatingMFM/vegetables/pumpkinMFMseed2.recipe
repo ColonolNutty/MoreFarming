@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "pumpkinsliceMFM", "count" : 10 }
+    { "item" : "choppedpumpkinMFM", "count" : 10 }
   ],
   "output" : { "item" : "pumpkinMFMseed", "count" : 1 },
   "groups" : [ "germinatingMFM", "vegetableMFM" ]

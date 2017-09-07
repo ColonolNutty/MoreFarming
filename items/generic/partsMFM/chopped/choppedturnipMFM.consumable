@@ -1,0 +1,18 @@
+{
+  "itemName" : "choppedturnipMFM",
+  "rarity" : "Common",
+  "price" : 31.5,
+  "category" : "preparedFood",
+  "inventoryIcon" : "choppedturnipMFM.png",
+  "description" : "Washed and chopped turnip.",
+  "shortdescription" : "Chopped Turnip",
+  "foodValue" : 3.94,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

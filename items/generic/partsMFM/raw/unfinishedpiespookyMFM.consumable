@@ -1,0 +1,18 @@
+{
+  "itemName" : "unfinishedpiespookyMFM",
+  "rarity" : "Common",
+  "price" : 1473.36,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "unfinishedpiespookyMFM.png",
+  "description" : "A pie shell filled with chopped boneboos. Ready for baking.",
+  "shortdescription" : "Pie Unfinished - Spooky",
+  "foodValue" : 113.36,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

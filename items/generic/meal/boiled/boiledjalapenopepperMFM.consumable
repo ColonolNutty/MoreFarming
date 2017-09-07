@@ -1,0 +1,20 @@
+{
+  "itemName" : "boiledjalapenopepperMFM",
+  "rarity" : "Common",
+  "price" : 55.13,
+  "category" : "preparedFood",
+  "inventoryIcon" : "boiledjalapenopepperMFM.png",
+  "description" : "A jalapeno pepper boiled in water.",
+  "shortdescription" : "Boiled Jalapeno Pepper",
+  "foodValue": 3.31,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+
+  "emote" : "Happy"
+}

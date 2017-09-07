@@ -1,7 +1,7 @@
 {
   "itemName" : "mangojuiceMFM",
   "rarity" : "Common",
-  "price" : 15.43,
+  "price" : 77.18,
   "category" : "drink",
   "inventoryIcon" : "mangojuiceMFM.png",
   "description" : "Sweet Mango juice.",
@@ -12,7 +12,7 @@
         "duration" : 120
     }
   ] ],
-  "foodValue" : 1.32,
+  "foodValue" : 6.62,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

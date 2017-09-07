@@ -1,0 +1,21 @@
+{
+  "itemName" : "toppingwhippedcreamMFM",
+  "rarity" : "Common",
+  "price" : 103.32,
+  "category" : "food",
+  "inventoryIcon" : "toppingwhippedcreamMFM.png",
+  "description" : "Thick blended cream and sugar.",
+  "shortdescription" : "Topping - Whipped Cream",
+  "foodValue" : 4.31,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "emote" : "Happy",
+  "handPosition" : [0, -4]
+}

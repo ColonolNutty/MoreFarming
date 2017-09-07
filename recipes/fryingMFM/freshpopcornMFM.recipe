@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "popcornkernelsMFM", "count" : 1 },
+    { "item" : "cookingoilMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "freshpopcornMFM", "count" : 1 },
+  "groups" : [ "fryingMFM" ]
+}

@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "wheatbeerMFM.png",
   "description" : "A can of beer made from wheat.",
-  "shortdescription" : "Wheat Beer",
+  "shortdescription" : "Alcohol - Wheat Beer",
   "foodValue" : 4.1,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

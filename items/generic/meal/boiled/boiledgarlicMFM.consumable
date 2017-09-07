@@ -1,0 +1,20 @@
+{
+  "itemName" : "boiledgarlicMFM",
+  "rarity" : "Common",
+  "price" : 33.08,
+  "category" : "preparedFood",
+  "inventoryIcon" : "boiledgarlicMFM.png",
+  "description" : "Garlic boiled in water.",
+  "shortdescription" : "Boiled Garlic",
+  "foodValue": 2.21,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+
+  "emote" : "Happy"
+}

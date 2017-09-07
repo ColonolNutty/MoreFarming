@@ -1,0 +1,18 @@
+{
+  "itemName" : "pressedpearlpeaMFM",
+  "rarity" : "Common",
+  "price" : 42,
+  "category" : "food",
+  "inventoryIcon" : "pressedpearlpeaMFM.png",
+  "description" : "Pearlpea pressed into a thick pulp using a press",
+  "shortdescription" : "Pressed Pearlpea",
+  "foodValue" : 2.63,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

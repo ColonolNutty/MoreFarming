@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rawfish", "count" : 1 },
+    { "item" : "battersimpleMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "unfinishedbatteredfishMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

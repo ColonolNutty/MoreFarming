@@ -1,0 +1,10 @@
+{
+  "itemName" : "unfinishedpizzabasicMFM",
+  "rarity" : "Common",
+  "price" : 635.75,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "unfinishedpizzabasicMFM.png",
+  "description" : "A basic pizza. Ready for baking.",
+  "shortdescription" : "Pizza Unfinished - Basic",
+  "maxStack" : 1000
+}

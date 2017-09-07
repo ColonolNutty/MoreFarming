@@ -1,0 +1,10 @@
+{
+  "itemName" : "rawmeatpattyMFM",
+  "rarity" : "Common",
+  "price" : 33.08,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "rawmeatpattyMFM.png",
+  "description" : "Meat formed into a patty. Ready for frying.",
+  "shortdescription" : "Raw Meat Patty",
+  "maxStack" : 1000
+}

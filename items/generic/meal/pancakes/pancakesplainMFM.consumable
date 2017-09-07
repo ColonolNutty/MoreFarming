@@ -1,0 +1,23 @@
+{
+  "itemName" : "pancakesplainMFM",
+  "rarity" : "Common",
+  "price" : 229.68,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pancakesplainMFM.png",
+  "description" : "Light, fluffy and oh so good.",
+  "shortdescription" : "Pancakes - Plain",
+  "effects": [[
+    {
+      "effect" : "regeneration2"
+    }
+  ]],
+  "foodValue" : 29.57,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

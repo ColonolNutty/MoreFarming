@@ -1,0 +1,109 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "baseState" : {
+        "default" : "on",
+        "states" : {
+          "on" : {
+            "frames" : 1
+          }
+        }
+      },
+      "fireState" : {
+        "default" : "on",
+        "states" : {
+          "on" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "properties" : {
+              "particleEmittersOn" : [ "embers" ]
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "base" : {
+        "properties" : {
+          "zLevel" : 1,
+          "offset" : [0.0, 0.0],
+          "centered" : false
+        },
+        "partStates" : {
+          "baseState" : {
+            "on" : {
+              "properties" : {
+                "image" : "makeshiftbakingstationCNYC.png:default"
+              }
+            }
+          }
+        }
+      },
+
+      "fire" : {
+        "properties" : {
+          "zLevel" : 0,
+          "offset" : [0.5, 0.0],
+          "centered" : false
+        },
+        "partStates" : {
+          "fireState" : {
+            "on" : {
+              "properties" : {
+                "image" : "makeshiftbakingstationCNYCfire.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+  },
+  
+  "particleEmitters" : {
+    "embers" : {
+      "active" : false,
+      "emissionRate" : 1.0,
+      "emissionRateVariance" : 0.5,
+
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+            "position" : [1.5, 0.3],
+            "size" : 1.0,
+            "color" : [255, 100, 0, 255],
+            "light" : [150, 50, 50],
+            "fade" : 0.9,
+            "initialVelocity" : [0.0, 5.0],
+            "finalVelocity" : [0.0, 3.0],
+            "approach" : [0, 20],
+            "timeToLive" : 2,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [0.5, 2.0],
+              "position" : [0.5, 0]
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "lights" : {
+    "light" : {
+      "active" : true,
+      "position" : [0, 1],
+      "color" : [179, 149, 107],
+      "flickerPeriod" : 0.3,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+    }
+  }
+}

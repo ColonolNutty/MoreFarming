@@ -1,0 +1,19 @@
+{
+  "itemName" : "donutplainspookyMFM",
+  "rarity" : "Common",
+  "price" : 531.28,
+  "category" : "preparedFood",
+  "inventoryIcon" : "donutplainspookyMFM.png",
+  "description" : "A plain ring of fried spooky dough. Spooooky!",
+  "shortdescription" : "Donut - Plain Spooky",
+  "effects" : [ [ "regeneration3" ] ],
+  "foodValue" : 20.25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

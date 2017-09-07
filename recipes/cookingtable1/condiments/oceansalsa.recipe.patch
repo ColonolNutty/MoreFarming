@@ -1,0 +1,19 @@
+[
+  {
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "choppedreefpodMFM", "count" : 1 },
+      { "item" : "choppedpineappleMFM", "count" : 1 },
+      { "item" : "choppedcoralcreepMFM", "count" : 1 },
+      { "item" : "choppedbananaMFM", "count" : 1 },
+      { "item" : "choppedchiliMFM", "count" : 1 },
+      { "item" : "vinegarMSM", "count" : 1 }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groups/-",
+    "value": "blendingMFM"
+  }
+]

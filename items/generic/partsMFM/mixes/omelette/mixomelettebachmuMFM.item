@@ -1,0 +1,10 @@
+{
+  "itemName" : "mixomelettebachmuMFM",
+  "rarity" : "Common",
+  "price" : 150.51,
+  "inventoryIcon" : "mixomelettebachmuMFM.png",
+  "description" : "Omelette made with bacon, cheese, and mushrooms.",
+  "shortdescription" : "Mix Omelette - Bac./Chse./Mushrm.",
+  "category" : "cookingIngredient",
+  "maxStack" : 1000
+}

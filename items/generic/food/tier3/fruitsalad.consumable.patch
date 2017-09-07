@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 573.3
+  },
+  {
+    "op" : "replace",
+    "path" : "/foodValue",
+    "value" : 30.32
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Salad - Fruit"
+  }
+]

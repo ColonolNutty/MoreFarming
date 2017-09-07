@@ -1,0 +1,21 @@
+{
+  "itemName" : "milkshakebananaMFM",
+  "rarity" : "Common",
+  "price" : 174.3,
+  "category" : "preparedFood",
+  "inventoryIcon" : "milkshakebananaMFM.png",
+  "description" : "A milkshake made with bananas. Yum!",
+  "shortdescription" : "Milkshake - Banana",
+  "foodValue" : 14.64,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "emote" : "Happy",
+  "handPosition" : [0, -4]
+}

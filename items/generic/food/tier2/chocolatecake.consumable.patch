@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 1038.72
+  },
+  {
+    "op" : "replace",
+    "path" : "/foodValue",
+    "value" : 78.17
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Cake - Chocolate"
+  }
+]

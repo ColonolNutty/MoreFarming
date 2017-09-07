@@ -1,0 +1,18 @@
+{
+  "itemName" : "choppedvanillabeanMFM",
+  "rarity" : "Common",
+  "price" : 94.5,
+  "category" : "preparedFood",
+  "inventoryIcon" : "choppedvanillabeanMFM.png",
+  "description" : "Washed and chopped vanilla bean.",
+  "shortdescription" : "Chopped Vanilla Bean",
+  "foodValue" : 1.05,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

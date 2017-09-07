@@ -1,0 +1,19 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "unfinishedcookiesspikyMFM", "count" : 1 }
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/output/count",
+		"value": 8
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "bakingMFM"
+	}
+]

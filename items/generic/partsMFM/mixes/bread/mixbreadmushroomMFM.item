@@ -1,0 +1,10 @@
+{
+  "itemName" : "mixbreadmushroomMFM",
+  "rarity" : "Common",
+  "price" : 481.91,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "mixbreadmushroomMFM.png",
+  "description" : "A mixture for making mushroom bread. Ready for baking.",
+  "shortdescription" : "Mix Bread - Mushroom",
+  "maxStack" : 1000
+}

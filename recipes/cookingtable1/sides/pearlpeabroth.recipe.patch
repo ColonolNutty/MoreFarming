@@ -1,0 +1,19 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "flourMFM", "count" : 1 },
+      { "item" : "pearlpea", "count" : 4 },
+      { "item" : "choppedbeakseedMFM", "count" : 1 },
+      { "item" : "breadcrumbsMFM", "count" : 1 },
+      { "item" : "choppedtomatoMFM", "count" : 1 },
+      { "item" : "liquidwater", "count" : 2 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "boilingMFM"
+	}
+]

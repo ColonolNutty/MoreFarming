@@ -1,0 +1,20 @@
+{
+  "itemName" : "boiledbellpepperyellowMFM",
+  "rarity" : "Common",
+  "price" : 55.13,
+  "category" : "preparedFood",
+  "inventoryIcon" : "boiledbellpepperyellowMFM.png",
+  "description" : "A yellow bell pepper boiled in water.",
+  "shortdescription" : "Boiled Bell Pepper - Yellow",
+  "foodValue": 6.62,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+
+  "emote" : "Happy"
+}

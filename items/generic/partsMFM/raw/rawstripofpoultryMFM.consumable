@@ -1,0 +1,18 @@
+{
+  "itemName" : "rawstripofpoultryMFM",
+  "rarity" : "Common",
+  "price" : 10.5,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "rawstripofpoultryMFM.png",
+  "description" : "Raw poultry chopped into strips.",
+  "shortdescription" : "Raw Strip of Poultry",
+  "foodValue" : 5.25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

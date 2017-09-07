@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "sourswillMFM.png",
   "description" : "A swill so sour it's almost corrosive.",
-  "shortdescription" : "Sour Swill",
+  "shortdescription" : "Alcohol - Sour Swill",
   "effects" : [ [
       {
           "effect" : "weakpoison",

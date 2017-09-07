@@ -1,0 +1,17 @@
+[
+  {
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "pineapple", "count" : 1 },
+      { "item" : "kiwi", "count" : 1 },
+      { "item" : "coconut", "count" : 1 },
+      { "item" : "banana", "count" : 1 }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groups/-",
+    "value": "blendingMFM"
+  }
+]

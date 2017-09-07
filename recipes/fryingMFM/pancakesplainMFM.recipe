@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "mixpancakeplainMFM", "count" : 1 },
+    { "item" : "cookingoilMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "pancakesplainMFM", "count" : 4 },
+  "groups" : [ "fryingMFM" ]
+}

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "vanillaMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "vanillaextractMFM", "count" : 5 },
-  "groups" : [ "juicingMFM" ]
-}

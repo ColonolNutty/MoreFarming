@@ -1,0 +1,18 @@
+{
+  "itemName" : "chipspotatoMFM",
+  "rarity" : "Common",
+  "price" : 212.24,
+  "category" : "preparedFood",
+  "inventoryIcon" : "chipspotatoMFM.png",
+  "description" : "Thick-cut potato chips fried until golden. Yum!",
+  "shortdescription" : "Chips - Potato",
+  "foodValue" : 23.74,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

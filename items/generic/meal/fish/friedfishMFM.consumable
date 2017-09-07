@@ -1,0 +1,18 @@
+{
+  "itemName" : "friedfishMFM",
+  "rarity" : "Common",
+  "price" : 103.26,
+  "category" : "food",
+  "inventoryIcon" : "friedfishMFM.png",
+  "description" : "Crispy golden fried fish fillet. Yum!",
+  "shortdescription" : "Fried Fish",
+  "foodValue" : 14.63,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

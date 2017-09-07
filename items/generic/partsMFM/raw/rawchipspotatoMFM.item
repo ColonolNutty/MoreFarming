@@ -1,0 +1,10 @@
+{
+  "itemName" : "rawchipspotatoMFM",
+  "rarity" : "Common",
+  "price" : 194.25,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "rawchipspotatoMFM.png",
+  "description" : "Chopped potatoes covered in salt. Ready for frying.",
+  "shortdescription" : "Raw Chips - Potato",
+  "maxStack" : 1000
+}

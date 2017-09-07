@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "flourMFM", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 1 }
+  ],
+  "output" : { "item" : "battersimpleMFM", "count" : 1 },
+  "groups" : [ "blendingMFM" ]
+}

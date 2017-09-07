@@ -3,10 +3,10 @@
 		"op": "replace",
 		"path": "/input",
 		"value": [
-			{ "item" : "oatgrainsMFM", "count" : 4 },
-			{ "item" : "liquidwater", "count" : 2 },
-			{ "item" : "milk", "count" : 1 },
-			{ "item" : "sugar", "count" : 2 }
+      { "item" : "oatgrainsMFM", "count" : 4 },
+      { "item" : "sugar", "count" : 1 },
+      { "item" : "milk", "count" : 1 },
+      { "item" : "liquidwater", "count" : 2 }
 		]
 	},
 	{

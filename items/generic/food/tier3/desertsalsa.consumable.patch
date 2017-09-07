@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 584.27
+  },
+  {
+    "op" : "replace",
+    "path" : "/foodValue",
+    "value" : 37.68
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Salse - Desert"
+  }
+]

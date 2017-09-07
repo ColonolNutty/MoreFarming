@@ -1,0 +1,10 @@
+{
+  "itemName" : "rawbrineappleMFM",
+  "rarity" : "Common",
+  "price" : 305.17,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "rawbrineappleMFM.png",
+  "description" : "Pineapple filled with coralcreep covered in syrup. Ready for baking.",
+  "shortdescription" : "Raw Brineapple",
+  "maxStack" : 1000
+}

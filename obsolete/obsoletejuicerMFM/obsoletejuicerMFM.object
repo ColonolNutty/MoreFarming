@@ -1,0 +1,43 @@
+{
+  "objectName" : "juicerMFM",
+  "colonyTags" : [ "storage", "cooking" ],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 503,
+  "description" : "An obsolete machine, I should recycle it.",
+  "shortdescription" : "Obsolete Juicer",
+  "race" : "generic",
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "A juicer. I can make some lovely banana juice with this.",
+  "avianDescription" : "A juicer, for making tasty feathercrown juice.",
+  "floranDescription" : "Floran would rather cook meat.",
+  "glitchDescription" : "Relief. I can finally make some battery acid.",
+  "humanDescription" : "It's about time I get to sit back and relax with some delicious apple cider.",
+  "hylotlDescription" : "A juicer. Can turn reefpod into juice.",
+
+  "inventoryIcon" : "obsoletejuicerMFMicon.png",
+  "largeImage" : "obsoletejuicerMFM.png:default.default",
+  "orientations" : [
+    {
+      "dualImage" : "obsoletejuicerMFM.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 16,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ] 
+    }
+  ],
+
+  "recipeGroup" : "",
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
+  "slotCount": 2,
+  "uiConfig" : "/interface/objectcrafting/obsoleteMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

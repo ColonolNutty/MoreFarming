@@ -1,7 +1,7 @@
 {
   "itemName" : "lemonjuiceMFM",
   "rarity" : "Common",
-  "price" : 13.23,
+  "price" : 66.15,
   "category" : "drink",
   "inventoryIcon" : "lemonjuiceMFM.png",
   "description" : "Sour lemon juice.",
@@ -12,7 +12,7 @@
         "duration" : 120
     }
   ] ],
-  "foodValue" : 1.1,
+  "foodValue" : 5.51,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

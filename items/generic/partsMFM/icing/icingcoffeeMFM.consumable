@@ -1,0 +1,18 @@
+{
+  "itemName" : "icingcoffeeMFM",
+  "rarity" : "Common",
+  "price" : 309.69,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "icingcoffeeMFM.png",
+  "description" : "Coffee flavoured icing. Wake up!",
+  "shortdescription" : "Icing - Coffee",
+  "foodValue" : 18.95,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

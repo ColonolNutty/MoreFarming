@@ -1,0 +1,10 @@
+{
+  "itemName" : "mixcakeplainMFM",
+  "rarity" : "Common",
+  "price" : 377.96,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "mixcakeplainMFM.png",
+  "description" : "Cake mix for making a plain cake. Ready for baking.",
+  "shortdescription" : "Mix Cake - Plain",
+  "maxStack" : 1000
+}

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "pumpkinsliceMFM", "count" : 3 },
+    { "item" : "choppedpumpkinMFM", "count" : 3 },
     { "item" : "condensedmilkMFM", "count" : 1 },
     { "item" : "groundcinnamonMFM", "count" : 1 },
     { "item" : "groundgingerMFM", "count" : 1 },

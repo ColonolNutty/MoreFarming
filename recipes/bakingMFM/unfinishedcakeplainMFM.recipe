@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "mixcakeplainMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "unfinishedcakeplainMFM", "count" : 1 },
+  "groups" : [ "bakingMFM" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "choppedcoralcreepMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
+  ],
+  "output" : { "item" : "coralcreepjuiceMFM", "count" : 1 },
+  "groups" : [ "blendingMFM" ]
+}

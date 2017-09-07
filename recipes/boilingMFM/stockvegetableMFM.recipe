@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "choppedtomatoMFM", "count" : 1 },
+    { "item" : "choppedcarrotMFM", "count" : 1 },
+    { "item" : "choppedgarlicMFM", "count" : 1 },
+    { "item" : "choppedonionMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2}
+  ],
+  "output" : { "item" : "stockvegetableMFM", "count" : 1 },
+  "groups" : [ "boilingMFM"]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "mixpancakeplainMFM",
+  "rarity" : "Common",
+  "price" : 210.86,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "mixpancakeplainMFM.png",
+  "description" : "A mixture for making plain pancakes.",
+  "shortdescription" : "Mix Pancake - Plain",
+  "maxStack" : 1000
+}

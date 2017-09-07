@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "greenbeanMFM", "count" : 2 },
-    { "item" : "liquidwater", "count" : 1 }
+      { "item" : "choppedgreenbeanMFM", "count" : 1 },
+      { "item" : "liquidwater", "count" : 2 }
   ],
   "output" : { "item" : "boiledgreenbeansMFM", "count" : 1 },
   "groups" : [ "boilingMFM" ]

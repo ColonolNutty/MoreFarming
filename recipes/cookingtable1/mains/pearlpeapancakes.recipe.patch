@@ -1,0 +1,16 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "pearlpea", "count" : 2 },
+      { "item" : "mixpancakeplainMFM", "count" : 1 },
+      { "item" : "cookingoilMFM", "count" : 1 }
+		]
+	},
+  {
+    "op": "add",
+    "path": "/groups/-",
+    "value": "fryingMFM"
+  }
+]

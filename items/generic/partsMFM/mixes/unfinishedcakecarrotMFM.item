@@ -1,0 +1,10 @@
+{
+  "itemName" : "unfinishedcakecarrotMFM",
+  "rarity" : "Common",
+  "price" : 719.33,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "unfinishedcakecarrotMFM.png",
+  "description" : "The fluffy, risen, base of a carrot cake. Needs decorating.",
+  "shortdescription" : "Cake Unfinished - Carrot",
+  "maxStack" : 1000
+}

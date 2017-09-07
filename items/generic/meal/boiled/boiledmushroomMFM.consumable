@@ -1,0 +1,20 @@
+{
+  "itemName" : "boiledmushroomMFM",
+  "rarity" : "Common",
+  "price" : 5.51,
+  "category" : "preparedFood",
+  "inventoryIcon" : "boiledmushroomMFM.png",
+  "description" : "A mushroom boiled in water.",
+  "shortdescription" : "Boiled Mushroom",
+  "foodValue": 2.21,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+
+  "emote" : "Happy"
+}

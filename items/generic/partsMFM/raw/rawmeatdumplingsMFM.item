@@ -1,0 +1,10 @@
+{
+  "itemName" : "rawmeatdumplingsMFM",
+  "rarity" : "Common",
+  "price" : 189.63,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "rawmeatdumplingsMFM.png",
+  "description" : "Dough filled with strips of alien meat. Ready for boiling.",
+  "shortdescription" : "Raw Meat Dumplings",
+  "maxStack" : 1000
+}

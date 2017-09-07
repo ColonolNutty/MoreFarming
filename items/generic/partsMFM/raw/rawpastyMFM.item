@@ -1,0 +1,10 @@
+{
+  "itemName" : "rawpastyMFM",
+  "rarity" : "Common",
+  "price" : 438.09,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "rawpastyMFM.png",
+  "description" : "A small pie filled with meat. Ready for baking.",
+  "shortdescription" : "Raw Pasty",
+  "maxStack" : 1000
+}

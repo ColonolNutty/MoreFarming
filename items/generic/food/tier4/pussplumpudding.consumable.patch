@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 1227.38
+  },
+  {
+    "op" : "replace",
+    "path" : "/foodValue",
+    "value" : 58.61
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Pudding - Pussplum"
+  }
+]

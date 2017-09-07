@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 375.78
+  },
+  {
+    "op" : "replace",
+    "path" : "/foodValue",
+    "value" : 47.73
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Stew - Fish"
+  }
+]

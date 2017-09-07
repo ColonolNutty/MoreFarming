@@ -1,0 +1,18 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "flourMFM", "count" : 1 },
+      { "item" : "rawstripoffishMFM", "count" : 2 },
+      { "item" : "pearlpea", "count" : 4 },
+      { "item" : "choppedcornMFM", "count" : 1 },
+      { "item" : "milk", "count" : 2 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "boilingMFM"
+	}
+]

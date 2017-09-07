@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "choppedmushroomMFM", "count" : 5 },
+    { "item" : "flourMFM", "count" : 5 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 2 },
+    { "item" : "yeastMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
+  ],
+  "output" : { "item" : "mixbreadmushroomMFM", "count" : 1 },
+  "groups" : [ "blendingMFM" ]
+}

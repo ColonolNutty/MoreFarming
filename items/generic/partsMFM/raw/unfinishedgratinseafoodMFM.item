@@ -1,0 +1,10 @@
+{
+  "itemName" : "unfinishedgratinseafoodMFM",
+  "rarity" : "Common",
+  "price" : 309.38,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "unfinishedgratinseafoodMFM.png",
+  "description" : "A pie like dish containing seafood. Ready for baking.",
+  "shortdescription" : "Gratin Unfinished - Seafood",
+  "maxStack" : 1000
+}

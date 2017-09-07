@@ -2,11 +2,18 @@
 	{
 		"op": "replace",
 		"path": "/input",
-		"value":  [
-      { "item" : "tomato", "count" : 1 },
-      { "item" : "relish", "count" : 1 },
-      { "item" : "cookedalienmeat", "count" : 1 },
-      { "item" : "bread", "count" : 2 }
-    ]
+		"value": [
+			{ "item" : "choppedtomatoMFM", "count" : 1 },
+			{ "item" : "choppedlettuceMFM", "count" : 1 },
+			{ "item" : "choppedonionMFM", "count" : 1 },
+			{ "item" : "relish", "count" : 1 },
+			{ "item" : "cookedalienmeatpattyMFM", "count" : 1 },
+			{ "item" : "breadsliceMFM", "count" : 2 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "preparingMFM"
 	}
 ]

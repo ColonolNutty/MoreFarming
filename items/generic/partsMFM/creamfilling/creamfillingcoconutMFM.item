@@ -1,0 +1,10 @@
+{
+  "itemName" : "creamfillingcoconutMFM",
+  "rarity" : "Common",
+  "price" : 711.78,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "creamfillingcoconutMFM.png",
+  "description" : "Coconut flavoured cream filling.",
+  "shortdescription" : "Cream Filling - Coconut",
+  "maxStack" : 1000
+}

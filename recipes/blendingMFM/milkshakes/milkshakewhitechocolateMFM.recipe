@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "whitechocolateMFM", "count" : 1 },
+    { "item" : "milk", "count" : 2 }
+  ],
+  "output" : { "item" : "milkshakewhitechocolateMFM", "count" : 1 },
+  "groups" : [ "blendingMFM" ]
+}

@@ -1,0 +1,20 @@
+{
+  "itemName" : "boiledcoralcreepMFM",
+  "rarity" : "Common",
+  "price" : 110.25,
+  "category" : "preparedFood",
+  "inventoryIcon" : "boiledcoralcreepMFM.png",
+  "description" : "Coralcreep boiled in water.",
+  "shortdescription" : "Boiled Coralcreep",
+  "foodValue": 2.76,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+
+  "emote" : "Happy"
+}

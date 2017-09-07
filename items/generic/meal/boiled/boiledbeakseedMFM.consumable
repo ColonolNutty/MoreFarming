@@ -1,0 +1,19 @@
+{
+  "itemName" : "boiledbeakseedMFM",
+  "rarity" : "Common",
+  "price" : 99.23,
+  "category" : "preparedFood",
+  "inventoryIcon" : "boiledbeakseedMFM.png",
+  "description" : "Beakseed boiled in water.",
+  "shortdescription" : "Boiled Beakseed",
+  "foodValue" : 4.14,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emote" : "Happy"
+}

@@ -5,7 +5,7 @@
   "category" : "drink",
   "inventoryIcon" : "cornbeerMFM.png",
   "description" : "A can of beer made from corn.",
-  "shortdescription" : "Corn Beer",
+  "shortdescription" : "Alcohol - Corn Beer",
   "foodValue" : 2.56,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

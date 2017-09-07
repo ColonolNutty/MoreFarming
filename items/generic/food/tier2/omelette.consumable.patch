@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 166.31
+  },
+  {
+    "op" : "replace",
+    "path" : "/foodValue",
+    "value" : 65.25
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Omelette - Bac./Chse./Mushrm."
+  }
+]

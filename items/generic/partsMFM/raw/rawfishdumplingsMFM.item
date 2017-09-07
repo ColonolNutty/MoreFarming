@@ -1,0 +1,10 @@
+{
+  "itemName" : "rawfishdumplingsMFM",
+  "rarity" : "Common",
+  "price" : 189.63,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "rawfishdumplingsMFM.png",
+  "description" : "Dough filled with strips of raw fish. Ready for boiling.",
+  "shortdescription" : "Raw Fish Dumplings",
+  "maxStack" : 1000
+}

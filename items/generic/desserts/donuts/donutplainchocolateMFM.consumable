@@ -1,0 +1,19 @@
+{
+  "itemName" : "donutplainchocolateMFM",
+  "rarity" : "Common",
+  "price" : 229.6,
+  "category" : "preparedFood",
+  "inventoryIcon" : "donutplainchocolateMFM.png",
+  "description" : "A plain ring of fried chocolate flavoured dough. So bad but so good.",
+  "shortdescription" : "Donut - Plain Chocolate",
+  "effects" : [ [ "regeneration3" ] ],
+  "foodValue" : 10.44,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

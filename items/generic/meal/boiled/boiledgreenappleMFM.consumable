@@ -1,0 +1,20 @@
+{
+  "itemName" : "boiledgreenappleMFM",
+  "rarity" : "Common",
+  "price" : 22.05,
+  "category" : "preparedFood",
+  "inventoryIcon" : "boiledgreenappleMFM.png",
+  "description" : "A green apple boiled in water.",
+  "shortdescription" : "Boiled Green Apple",
+  "foodValue": 2.76,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+
+  "emote" : "Happy"
+}

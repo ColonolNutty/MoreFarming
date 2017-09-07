@@ -1,0 +1,18 @@
+{
+  "itemName" : "choppedbellpeppergreenMFM",
+  "rarity" : "Common",
+  "price" : 47.25,
+  "category" : "preparedFood",
+  "inventoryIcon" : "choppedbellpeppergreenMFM.png",
+  "description" : "Washed and chopped green bell pepper.",
+  "shortdescription" : "Chopped Bell Pepper Green",
+  "foodValue" : 5.25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "choppedkiwiMFM", "count" : 1 },
+      { "item" : "choppedfeathercrownMFM", "count" : 1 },
+      { "item" : "choppedcurrentcornMFM", "count" : 1 },
+      { "item" : "cacti", "count" : 1 },
+      { "item" : "choppedbeakseedMFM", "count" : 1 },
+      { "item" : "choppedautomatoMFM", "count" : 1 },
+      { "item" : "vinegarMSM", "count" : 1 }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groups/-",
+    "value": "blendingMFM"
+  }
+]

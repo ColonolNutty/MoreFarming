@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "pumpkinsliceMFM", "count" : 1 }
+    { "item" : "choppedpumpkinMFM", "count" : 1 }
   ],
   "output" : { "item" : "cookingoilMFM", "count" : 5 },
   "groups" : [ "pressingMFM" ]

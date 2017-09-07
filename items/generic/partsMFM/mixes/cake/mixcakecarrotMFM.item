@@ -1,0 +1,10 @@
+{
+  "itemName" : "mixcakecarrotMFM",
+  "rarity" : "Common",
+  "price" : 685.08,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "mixcakecarrotMFM.png",
+  "description" : "Cake mix for making carrot cake. Ready for baking.",
+  "shortdescription" : "Mix Cake - Carrot",
+  "maxStack" : 1000
+}

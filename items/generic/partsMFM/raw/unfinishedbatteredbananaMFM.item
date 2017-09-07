@@ -1,0 +1,10 @@
+{
+  "itemName" : "unfinishedbatteredbananaMFM",
+  "rarity" : "Common",
+  "price" : 195.46,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "unfinishedbatteredbananaMFM.png",
+  "description" : "A banana coated in a simple batter. Ready for frying.",
+  "shortdescription" : "Battered Banana",
+  "maxStack" : 1000
+}

@@ -1,0 +1,17 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "rice", "count" : 6 },
+      { "item" : "sugar", "count" : 2 },
+      { "item" : "milk", "count" : 1 },
+			{ "item" : "choppedpussplumMFM", "count" : 4 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "blendingMFM"
+	}
+]

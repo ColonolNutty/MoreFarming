@@ -1,0 +1,20 @@
+{
+  "itemName" : "boiledtoxictopMFM",
+  "rarity" : "Common",
+  "price" : 220.5,
+  "category" : "preparedFood",
+  "inventoryIcon" : "boiledtoxictopMFM.png",
+  "description" : "A toxictop boiled in water.",
+  "shortdescription" : "Boiled Toxictop",
+  "foodValue": 11.03,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+
+  "emote" : "Happy"
+}

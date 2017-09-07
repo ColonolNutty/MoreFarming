@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "unfinishedcakespookyMFM", "count" : 1 },
+    { "item" : "icingspookyMFM", "count" : 1 },
+    { "item" : "fondantMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "cakespookyMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

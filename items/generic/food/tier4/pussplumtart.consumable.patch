@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 1228.25
+  },
+  {
+    "op" : "replace",
+    "path" : "/foodValue",
+    "value" : 52.25
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Tart - Pussplum"
+  }
+]

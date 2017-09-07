@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "rawpoultry", "count" : 1 }
+  ],
+  "output" : { "item" : "rawstripofpoultryMFM", "count" : 2 },
+  "groups" : [ "choppingMFM" ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 492.6
+  },
+  {
+    "op" : "replace",
+    "path" : "/foodValue",
+    "value" : 16.12
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Jam - Pearlpea"
+  }
+]

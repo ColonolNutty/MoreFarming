@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "juicerMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "money", "count" : 503 },
+  "groups" : [ "recyclingMFM" ]
+}

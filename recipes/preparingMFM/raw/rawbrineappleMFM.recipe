@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "choppedpineappleMFM", "count" : 1 },
+    { "item" : "choppedcoralcreepMFM", "count" : 1 },
+    { "item" : "goldensyrupMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "rawbrineappleMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

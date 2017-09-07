@@ -1,0 +1,17 @@
+[
+  {
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "choppedoculemonMFM", "count" : 3 },
+      { "item" : "choppedpussplumMFM", "count" : 3 },
+      { "item" : "sugar", "count" : 4 },
+      { "item" : "liquidwater", "count" : 2 }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groups/-",
+    "value": "distillingMFM"
+  }
+]

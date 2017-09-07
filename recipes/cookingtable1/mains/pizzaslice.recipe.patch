@@ -1,0 +1,19 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "pizza", "count" : 1 }
+		]
+	},
+  {
+    "op": "replace",
+    "path": "/output",
+    "value": { "item" : "pizzaslice", "count" : 6 }
+  },
+  {
+    "op": "add",
+    "path": "/groups/-",
+    "value": "choppingMFM"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 424.97
+  },
+  {
+    "op" : "replace",
+    "path" : "/foodValue",
+    "value" : 78.94
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Quiche - Mushroom"
+  }
+]

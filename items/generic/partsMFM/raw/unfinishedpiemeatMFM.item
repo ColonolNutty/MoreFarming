@@ -1,0 +1,10 @@
+{
+  "itemName" : "unfinishedpiemeatMFM",
+  "rarity" : "Common",
+  "price" : 846.5,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "unfinishedpiemeatMFM.png",
+  "description" : "A pie shell filled with alien meat. Ready for baking.",
+  "shortdescription" : "Pie Unfinished - Meat",
+  "maxStack" : 1000
+}

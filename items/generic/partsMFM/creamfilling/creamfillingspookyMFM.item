@@ -1,0 +1,10 @@
+{
+  "itemName" : "creamfillingspookyMFM",
+  "rarity" : "Common",
+  "price" : 885.86,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "creamfillingspookyMFM.png",
+  "description" : "Some very spooky cream filling. Ready for spooks.",
+  "shortdescription" : "Cream Filling - Spooky",
+  "maxStack" : 1000
+}

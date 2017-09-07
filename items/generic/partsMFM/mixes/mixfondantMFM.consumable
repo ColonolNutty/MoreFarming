@@ -1,0 +1,18 @@
+{
+  "itemName" : "mixfondantMFM",
+  "rarity" : "Common",
+  "price" : 93.81,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "mixfondantMFM.png",
+  "description" : "A mixture for making fondant, but it isn't quite ready yet.",
+  "shortdescription" : "Mix - Fondant",
+  "foodValue" : 4.42,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -3,12 +3,13 @@
     "op": "replace",
     "path": "/input",
     "value": [
-      { "item" : "roastedcoffeebeansMFM", "count" : 1 }
+      { "item" : "groundcoffeeMFM", "count" : 1 },
+      { "item" : "liquidwater", "count" : 2 }
     ]
   },
-  {
-    "op": "add",
-    "path": "/groups/-",
-    "value": "coffeeMFM"
-  }
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "coffeeMFM"
+	}
 ]

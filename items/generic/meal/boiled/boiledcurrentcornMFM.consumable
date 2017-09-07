@@ -1,0 +1,20 @@
+{
+  "itemName" : "boiledcurrentcornMFM",
+  "rarity" : "Common",
+  "price" : 88.2,
+  "category" : "preparedFood",
+  "inventoryIcon" : "boiledcurrentcornMFM.png",
+  "description" : "A currentcorn boiled in water.",
+  "shortdescription" : "Boiled Currentcorn",
+  "foodValue": 5.51,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+
+  "emote" : "Happy"
+}

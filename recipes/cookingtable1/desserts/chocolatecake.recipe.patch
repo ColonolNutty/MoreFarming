@@ -1,0 +1,16 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+			{ "item" : "unfinishedcakechocolateMFM", "count" : 1 },
+			{ "item" : "chocolateicingMFM", "count" : 1 },
+			{ "item" : "fondantMFM", "count" : 1 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "preparingMFM"
+	}
+]

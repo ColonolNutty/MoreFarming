@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "choppedredappleMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "redapplejuiceMFM", "count" : 5 },
-  "groups" : [ "blendingMFM" ]
-}

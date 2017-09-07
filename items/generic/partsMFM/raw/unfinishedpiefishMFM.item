@@ -1,0 +1,10 @@
+{
+  "itemName" : "unfinishedpiefishMFM",
+  "rarity" : "Common",
+  "price" : 840.18,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "unfinishedpiefishMFM.png",
+  "description" : "A pie shell filled with raw fish. Ready for baking.",
+  "shortdescription" : "Pie Unfinished - Fish",
+  "maxStack" : 1000
+}

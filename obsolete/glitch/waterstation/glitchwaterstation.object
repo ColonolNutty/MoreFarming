@@ -1,0 +1,63 @@
+{
+  "objectName" : "glitchwaterstation",
+  "colonyTags" : ["glitch", "glitchvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Fresh water barrel. Fill your bottle!",
+  "shortdescription" : "^orange;Glitch Water Barrel (Water)^white;",
+  "subtitle" : "Drinking waterbarrel!",
+  "race" : "generic",
+  "category" : "Cookware",
+  "price" : 253.1,
+  "objectType" : "container",
+
+  "apexDescription" : "A barrel of water",
+  "avianDescription" : "Hopefully water...",
+  "floranDescription" : "Not bloodss.. floran drinksss anyway.",
+  "glitchDescription" : "Observation. Oxygen and Hydrogen, in a liquid state.",
+  "humanDescription" : "Could be oil, could be water..",
+  "hylotlDescription" : "Smells like water.. thanks the stars.",
+
+
+  "inventoryIcon" : "glitchwaterstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "glitchwaterstation.png:<color>", "fullbright" : true }, { "image" : "glitchwaterstationlit.png:<color>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "glitchwaterstation.png:<color>", "fullbright" : true }, { "image" : "glitchwaterstationlit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "recipeGroup" : "waterMFM",
+  "openSounds" : [ "/sfx/objects/sinkMFMenter.wav" ],
+  "closeSounds" : [ "/sfx/objects/sinkMFMexit.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config"
+}

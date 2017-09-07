@@ -1,0 +1,112 @@
+{
+  "objectName" : "campfirecookpot",
+  "colonyTags" : [ "cooking", "light" ],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "A campfire with a cookpot. I can make more filling meals with foraged produce.",
+  "shortdescription" : "^orange;Camp Fire Cookpot (Boil)^white;",
+  "subtitle" : "Campsite pot cooking.",
+  "race" : "generic",
+  "category" : "Makeshift Cookware",
+  "price" : 132,
+  "objectType" : "container",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "A healthy camp fire, with a cookpot.",
+  "avianDescription" : "Warmth and light.",
+  "floranDescription" : "Floran stew meatsss.",
+  "glitchDescription" : "Observation. Portable cauldron!.",
+  "humanDescription" : "It's not the ritz, but it's better then a toasted marshmallow at least.",
+  "hylotlDescription" : "One pot meals, hopefully I can find ingredients.",
+
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+      "position" : [0.5, 0.3],
+      "size" : 1.0,
+      "color" : [255, 100, 0, 255],
+      "light" : [150, 50, 50],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, 3.0],
+      "approach" : [0, 20],
+      "timeToLive" : 2,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0],
+      "position" : [0.4, 0]
+    }
+  },
+
+  "inventoryIcon" : "obsoletecampfirecookpoticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "obsoletecampfirecookpot.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoletecampfirecookpotlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "obsoletecampfirecookpot.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoletecampfirecookpotlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+
+  "statusEffects" : [ ],
+  
+  "npcToy" : {
+    "influence" : [
+      "campfire",
+      "campfire"
+    ],
+    "defaultReactions" : {
+      "campfire" : [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-2.5, 0.0],
+    "preciseStandPositionRight" : [2.5, 0.0],
+    "maxNpcs" : 2
+  },
+
+  "recipeGroup" : "boilingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/boilingMFMRecipes.config"
+}

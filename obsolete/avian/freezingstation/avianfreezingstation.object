@@ -1,0 +1,65 @@
+{
+  "objectName" : "avianfreezingstation",
+  "colonyTags" : ["avian", "avianvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Regulated chest freezer!",
+  "shortdescription" : "^orange;Avian Freezer (Freeze)^white;",
+  "subtitle" : "Freeze and Chill!",
+  "race" : "generic",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "Refridgerated Cookware",
+  "price" : 61.1,
+
+  "apexDescription" : "Like a small fridge, but colder.",
+  "avianDescription" : "The only way to keep anything cold during the hot days..",
+  "floranDescription" : "Floran notss sleepss in..",
+  "glitchDescription" : "Inspect. Chest coldbox.",
+  "humanDescription" : "Really could go for an icecream..",
+  "hylotlDescription" : "Remains cold on hot days, ideal!",
+
+  "inventoryIcon" : "avianfreezingstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "avianfreezingstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "avianfreezingstationlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "avianfreezingstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "avianfreezingstationlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "freezingMFM",
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config",
+
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+}

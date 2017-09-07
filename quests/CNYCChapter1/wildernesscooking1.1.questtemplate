@@ -1,0 +1,29 @@
+{
+  "id" : "wildernesscooking1.1.gearup",
+  "title" : "^green;Cooking for Survival - I Part 1^white;",
+  "text" : "The first chapter outlines how to acquire and put together the ingredients to make bread. According to this I'll need to make some flour and find some water. Below that it shows the materials to make a ^orange;Camp Millstones^white; for making flour. Well, it's a start.",
+  "completionText" : "Some large rocks should be enough to grind ingredients. I feel like Jay Sears, just without the questionable shorts. Right, what's next..",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  
+  "updateDelta" : 10,
+  "canBeAbandoned" : false,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "player",
+      "questComplete" : "player"
+    },
+    "followUp" : "wildernesscooking1.2.gearup",
+	"requireTurnIn" : false,
+	"canBeAbandoned" : false,
+	"conditions" : [
+		{
+			"type" : "gatherItem",
+			"itemName" : "makeshiftgrindingstationCNYC",
+			"count" : 1,
+			"consume" : false
+		}
+	]
+  }
+}

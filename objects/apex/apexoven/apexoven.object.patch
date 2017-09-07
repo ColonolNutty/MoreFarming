@@ -137,6 +137,11 @@
       "op" : "replace",
       "path" : "/maximumLiquidLevel",
       "value" : 1.0
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "Apex Cookware"
     }
   ]
 ]

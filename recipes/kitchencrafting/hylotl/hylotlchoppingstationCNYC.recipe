@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 1 },
+    { "item" : "darkwoodmaterial", "count" : 10 }
+  ],
+  "output" : { "item" : "hylotlchoppingstationCNYC", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "hylotlMFM", "choppingmachineMFM", "all" ]
+}

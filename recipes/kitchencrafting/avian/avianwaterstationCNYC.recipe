@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 5 },
+    { "item" : "copperbar", "count" : 2 }
+  ],
+  "output" : { "item" : "avianwaterstationCNYC", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "avianMFM", "watermachineMFM", "all" ]
+}

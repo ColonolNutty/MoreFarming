@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "logblock", "count" : 5 },
+    { "item" : "copperore", "count" : 5 }
+  ],
+  "output" : { "item" : "makeshiftboilingstationCNYC", "count" : 1 },
+  "groups" : [ "plain", "all", "other" ]
+}

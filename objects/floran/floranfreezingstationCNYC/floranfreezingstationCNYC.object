@@ -1,0 +1,47 @@
+{
+  "objectName" : "floranfreezingstationCNYC",
+  "colonyTags" : ["floran", "floranvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Bone chest freezer, used for storage or making cold treats!",
+  "shortdescription" : "^orange;Floran Freezer (Freeze)^white;",
+  "subtitle" : "Freeze and Chill!",
+  "race" : "generic",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "Refridgerated Floran Cookware",
+  "price" : 30.15,
+
+  "apexDescription" : "Like a small fridge, but colder.",
+  "avianDescription" : "The only way to keep anything cold during the hot days..",
+  "floranDescription" : "Floran notss sleepss in..",
+  "glitchDescription" : "Inspect. Chest coldbox.",
+  "humanDescription" : "Really could go for an icecream..",
+  "hylotlDescription" : "Remains cold on hot days, ideal!",
+  "novakidDescription" : "Primitive lookin' freezer. I suppose it does the job.",
+
+  "inventoryIcon" : "floranfreezingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranfreezingstationCNYC.png:default",
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "freezingMFM",
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config"
+}

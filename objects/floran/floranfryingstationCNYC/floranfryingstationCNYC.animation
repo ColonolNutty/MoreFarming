@@ -1,0 +1,61 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "baseState" : {
+        "default" : "on",
+        "states" : {
+          "on" : {
+            "frames" : 4,
+            "cycle": 1,
+            "mode": "loop",
+            "lightsOn" : [ "glow" ]
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "base" : {
+        "properties" : {
+          "zLevel" : 1,
+          "offset" : [0.0, 0.0],
+          "centered" : false
+        },
+        "partStates" : {
+          "baseState" : {
+            "on" : {
+              "properties" : {
+                "image" : "floranfryingstationCNYC.png:default.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+  },
+
+  "lights" : {
+    "glow" : {
+      "active" : false,
+      "position" : [0, 1],
+      "color" : [153, 128, 92],
+      "flickerPeriod" : 0.3,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+    }
+  },
+  
+  "particleEmitters" : {
+    "dust" : {
+      "emissionRate" : 0.0,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [{ "particle" : "dust2"}]
+    }
+  }
+}

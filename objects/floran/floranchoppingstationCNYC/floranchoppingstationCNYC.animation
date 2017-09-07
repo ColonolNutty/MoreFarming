@@ -1,0 +1,47 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "baseState" : {
+        "default" : "on",
+        "states" : {
+          "on" : {
+            "frames" : 4,
+            "cycle": 1,
+            "mode": "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "base" : {
+        "properties" : {
+          "zLevel" : 1,
+          "offset" : [0.0, 0.0],
+          "centered" : false
+        },
+        "partStates" : {
+          "baseState" : {
+            "on" : {
+              "properties" : {
+                "image" : "floranchoppingstationCNYC.png:default.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+  },
+  
+  "particleEmitters" : {
+    "dust" : {
+      "emissionRate" : 0.0,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [{ "particle" : "dust2"}]
+    }
+  }
+}

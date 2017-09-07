@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 5 },
+    { "item" : "copperbar", "count" : 2 }
+  ],
+  "output" : { "item" : "hylotlboilingstationCNYC", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "hylotlMFM", "boilingmachineMFM", "all" ]
+}

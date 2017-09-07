@@ -1,0 +1,43 @@
+{
+  "objectName" : "apexblendingstationCNYC",
+  "colonyTags" : ["apex", "apexvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A steel blender!",
+  "shortdescription" : "^orange;Apex Blender (Blend)^white;",
+  "subtitle" : "Blend Food!",
+  "race" : "generic",
+  "category" : "Apex Cookware",
+  "price" : 402,
+  "objectType" : "container",
+
+  "lightColor" : [218, 83, 2, 5],
+
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.2,
+  "flickerMaxIntensity" : 0.3,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "apexblendingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexblendingstationCNYC.png:default",
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "blendingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/blendingMFMRecipes.config"
+}

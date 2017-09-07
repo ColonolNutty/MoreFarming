@@ -1,0 +1,69 @@
+{
+  "objectName" : "hylotlblendingstationCNYC",
+  "colonyTags" : [ "hylotl", "hylotlvillage", "cooking" ],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A waterdrop shaped blender.",
+  "shortdescription" : "^orange;Hylotl Blender (Blend)^white;",
+  "subtitle" : "Blend and Juice!",
+  "race" : "generic",
+  "objectType" : "container",
+  "category" : "Hylotl Cookware",
+  "price" : 249.15,
+
+  "apexDescription" : "It's design is very ergonomic",
+  "avianDescription" : "It looks like an egg.. or a.. pod?",
+  "floranDescription" : "Floran blendss sssilly plusshiesss..",
+  "glitchDescription" : "Observation. A waterdrop blender",
+  "humanDescription" : "I need oranges.. lots of oranges",
+  "hylotlDescription" : "Blended kelp, I must remember.",
+  
+  "lightColor" : [125, 143, 179],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.5,
+  "flickerMaxIntensity" : 0.55,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+
+  "inventoryIcon" : "hylotlblendingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "hylotlblendingstationCNYC.png:<color>", "fullbright" : true }, { "image" : "hylotlblendingstationCNYClit.png:<color>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "hylotlblendingstationCNYC.png:<color>", "fullbright" : true }, { "image" : "hylotlblendingstationCNYClit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "recipeGroup" : "blendingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/blendingMFMRecipes.config"
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 3 },
+    { "item" : "siliconboard", "count" : 1 },
+    { "item" : "glass", "count" : 1 }
+  ],
+  "output" : { "item" : "nanostove", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "nanoMFM", "fryingmachineMFM", "all" ]
+}

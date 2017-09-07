@@ -1,0 +1,73 @@
+{
+  "objectName" : "nanowaterstationCNYC",
+  "tags" : [ "cooking", "electronic" ],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Creates water from thin air, literally!",
+  "shortdescription" : "Nano Condenser (Water)",
+  "subtitle" : "Hi-tech Vapour Harvesting.",
+  "race" : "generic",
+  "objectType" : "container",
+  "category" : "Nano Cookware",
+  "price" : 660.65,
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "Water from air!",
+  "avianDescription" : "A supply of water even in the desert!",
+  "floranDescription" : "Floran leave tapss on.. takess bath",
+  "glitchDescription" : "Deflated. Always water.. why never oil?.",
+  "humanDescription" : "A potential lifesaver!",
+  "hylotlDescription" : "I wonder if the water is oxygenated..",
+
+  "lightColor" : [125, 143, 179],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "nanowaterstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "nanowaterstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "nanowaterstationCNYClit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "nanowaterstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "nanowaterstationCNYClit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "waterMFM",
+  "openSounds" : [ "/sfx/objects/sinkMFMenter.wav" ],
+  "closeSounds" : [ "/sfx/objects/sinkMFMexit.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config"
+}

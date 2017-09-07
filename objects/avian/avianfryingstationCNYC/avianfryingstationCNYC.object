@@ -1,0 +1,67 @@
+{
+  "objectName" : "avianfryingstationCNYC",
+  "colonyTags" : [ "avian", "avianvillage", "cooking" ],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Covered clay fryer!",
+  "shortdescription" : "^orange;Avian Tangine (Fry)^white;",
+  "subtitle" : "Fry Food!",
+  "race" : "generic",
+  "category" : "Avian Cookware",
+  "price" : 81.2,
+  "objectType" : "container",
+
+  "apexDescription" : "A frypot with a lid? Makes sense.",
+  "avianDescription" : "No-one likes oil on their feathers",
+  "floranDescription" : "Floran likess oily hatss..",
+  "glitchDescription" : "Inspect. Kiln-fired frypot.",
+  "humanDescription" : "Smells like toasted chili.. and avesmingo?",
+  "hylotlDescription" : "How delightful, I dislike spitting hot oil",
+
+  "lightColor" : [218, 83, 2, 5],
+
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.1,
+  "flickerMaxIntensity" : 0.3,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "avianfryingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "avianfryingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "avianfryingstationCNYClit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "avianfryingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "avianfryingstationCNYClit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "fryingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/fryingMFMRecipes.config"
+}

@@ -28,5 +28,8 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "whitechocolateblockMFM" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "wickerplatformMFM" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "wickersupport" }},
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "yellowfoodcolorMFM" }}
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "yellowfoodcolorMFM" }},
+  { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "makeshiftchoppingstationCNYC" } },
+  { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "makeshiftboilingstationCNYC" } },
+  { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "makeshiftgrindingstationCNYC" } }
 ]

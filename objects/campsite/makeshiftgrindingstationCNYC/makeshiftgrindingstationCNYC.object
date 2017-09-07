@@ -1,0 +1,44 @@
+{
+  "objectName" : "makeshiftgrindingstationCNYC",
+  "colonyTags" : [ "cooking", "nature" ],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Two rocks and a bit of effort can grind up wheat and other things!",
+  "shortdescription" : "^orange;Camp Millstone (Mill)^white;",
+  "subtitle" : "Grind Ingredients!",
+  "race" : "generic",
+  "category" : "Makeshift Cookware",
+  "price" : 20.1,
+  "objectType" : "container",
+
+  "apexDescription" : "Those rocks were heavy.",
+  "avianDescription" : "Useful!",
+  "floranDescription" : "Floran ssmassh!",
+  "glitchDescription" : "Observation. Basic stone rocks.",
+  "humanDescription" : "Makeshift food preparation. It'll do.",
+  "hylotlDescription" : "It works, I can't complain about that.",
+
+  "inventoryIcon" : "makeshiftgrindingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "makeshiftgrindingstationCNYC.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "millingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/millingMFMRecipes.config"
+}

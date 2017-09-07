@@ -1,0 +1,79 @@
+{
+  "id" : "wildernesssurvivalguidechapter2CNYC",
+  "title" : "^orange;Protectorate Camp Guide CH2^white;",
+  "description" : "Chapter II - A detailed guide on how to prepare and cook a stew for mountain men",
+  "icon" : "survivalcodexCNYC.png",
+  "contentPages" : [
+
+"^blue;Introduction:^white;
+So, you fancy yourself a wilderness survivalist? A culinary specialist? An iron chef? Whatever the case, you've a long road ahead of you. This guide will introduce you to a higher level of cooking.",
+
+"Detailed within this chapter is the process of making ^green;Stew - Mountainman^white; from scratch, giving much needed experience in difference aspects of preparing a large meal,
+it will also assume Chapter 1 has been completed before hand. Chapter 1 can be found at an Infinity Express near you).",
+
+
+"^blue;What will I learn in this chapter?^white;
+This chapter will familiarize you with preparation techniques such as Chopping and Boiling,
+it will also reinforce Chapter 1 by using ^green;Bread^white;",
+ 
+"^blue;Recipe:^white; 
+The recipe for ^cyan;Stew - Mountainman^white; is as follows:
+
+^green;Bread^white; x1
+^green;Plant Fibre^white; x5
+^green;Raw Strip of Poultry^white; x2
+^green;Raw Strip of Alien Meat^white; x2
+^green;Chopped Tomato^white; x1
+^green;Chopped Potato^white; x1
+^green;Water^white; x2",
+
+"^blue;Step One:^white;
+The first steps are to make ^green;Bread^white; and acquire ^green;Water^white;, refer to ^orange;Chapter 1^white; for the steps on how these can be acquired.",
+
+"^blue;Step Two:^white;
+In order to acquire the meats of the recipe, a ^green;Hunting Bow^white; is required. It is recommended that you have one on hand. With a you will need to acquire two portions of ^green;Raw Poultry^white; and ^green;Raw Steak^white; each.
+
+^green;Raw Poultry^white; can be acquired by slaying flying beasts with a ^green;Hunting Tool^white;.
+
+^green;Raw Steak^white; can be acquired by slaying grounded beasts with a ^green;Hunting Tool^white;.",
+
+"^blue;Step Three:^white;
+The next steps are to located a ^green;Tomato^white; and a ^green;Potato^white; both of which can either be purchased from a ^orange;Terra Mart^white; or found through exploration of different planets, particularly ^green;Forest^white; and ^green;Garden^white; planets.",
+
+"^blue;Step Four:^white;
+The final ingredient ^green;Plant Fibre^white; can be found within most caves. You will need to acquire 5 of them.",
+
+"^blue;Step Five:^white;
+Once all base ingredients are acquired they must be prepared.
+To start you will need a ^orange;Camp Chopblock^white; or an appliance with a similar function.
+This can be put together by hand using ^green;Timber^white;.",
+
+"^blue;Step Six:^white;
+Once the ^orange;Camp Chopblock^white; is placed, drop the ingredients acquired in previous steps one at a time (^red;Excluding Plant Fibre, Bread, and Water^white;). Placing more than one ingredient (For example, placing 1 ^green;Raw Poultry^white; and 1 ^green;Raw Steak^white;) will result in no output. Placing two or more of the same ingredient (For example, two portions of ^green;Raw Poultry^white;) should be fine however.",
+
+"^blue;Ingredient Check:^white;
+At this point you should have:
+^orange;1x^white; ^green;Bread^white;
+^orange;5x^white; ^green;Plant Fibre^white;
+^orange;2x^white; ^green;Raw Strip of Poultry^white;
+^orange;2x^white; ^green;Raw Strip of Alien Meat^white;
+^orange;1x^white; ^green;Chopped Tomato^white;
+^orange;1x^white; ^green;Chopped Potato^white;
+^orange;2x^white; ^green;Water^white;",
+
+"^blue;Step Seven:^white;
+In order to make the stew, you will need something to boil the ingredients, the ^orange;Camp Cookpot (Boil)^white; serves this purpose well. Any appliance that can ^cyan;Boil^white; will work. The ^orange;Camp Cookpot (Boil)^white; can be put together by hand using ^green;Logs^white; and ^green;Copper Ore^white;",
+
+"^blue;Final Step:^white;
+Once the ^orange;Camp Cookpot (Boil)^white; is placed, throw the ingredients acquired previously all at once into the pot and you will have cooked ^green;Stew - Mountainman^white;",
+
+"^blue;More to come:^white;
+Now that you know how to make ^green;Stew - Mountainman^white;, seek out other chapters for information on more advanced techniques, they will likely become available over time from your local ^orange;Terramart^white;."
+
+  ],
+  "itemConfig" : {
+    "rarity" : "Legendary",
+    "price" : 10,
+    "pickupQuestTemplates" : [ "wildernesscookingCNYC2.1.gearup" ]
+  }
+}

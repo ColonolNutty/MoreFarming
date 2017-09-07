@@ -1,0 +1,80 @@
+{
+  "objectName" : "novakidchoppingstationCNYC",
+  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
+  "rarity" : "Common",
+  "description" : "Ideally not for playing five finger fillet..",
+  "shortdescription" : "^orange;Novakid Chopboard (Chop)^white;",
+  "subtitle" : "Prepare Produce!",
+  "race" : "generic",
+  "objectType" : "container",
+  "category" : "Novakid Cookware",
+  "price" : 62.1,
+
+  "apexDescription" : "Now THATS a knife!",
+  "avianDescription" : "Looks big enough to skin a.. something really large!",
+  "floranDescription" : "Ssstabbysss..",
+  "glitchDescription" : "Observation. Very large knife.",
+  "humanDescription" : "I really want to play five finger fillet",
+  "hylotlDescription" : "A display in itself!",
+
+  "inventoryIcon" : "novakidchoppingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "novakidchoppingstationCNYC.png:<color>", "fullbright" : true }, { "image" : "novakidchoppingstationCNYC.png:<color>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "novakidchoppingstationCNYC.png:<color>", "fullbright" : true }, { "image" : "novakidchoppingstationCNYC.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+    
+  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "npcToy" : {
+    "influence" : [
+      "watercoolerCollect",
+      "watercoolerConsume",
+      "watercoolerComplete"
+    ],
+    "defaultReactions" : {
+      "watercoolerCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "watercoolerConsume" : [
+        [1.0, "drink"]
+      ],
+      "watercoolerComplete" : [
+        [1.0, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  },
+  "recipeGroup" : "choppingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/choppingMFMRecipes.config"
+}

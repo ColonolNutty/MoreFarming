@@ -1,0 +1,36 @@
+{
+  "objectName" : "floranwaterstationCNYC",
+  "colonyTags" : ["floran", "floranvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Bone bowl containing a pool of water!",
+  "shortdescription" : "^orange;Floran Wash Basin (Water)^white;",
+  "subtitle" : "Water tub!",
+  "race" : "generic",
+  "category" : "Floran Cookware",
+  "price" : 5.05,
+  "objectType" : "container",
+
+  "inventoryIcon" : "floranwaterstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranwaterstationCNYC.png:default",
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "waterMFM",
+  "openSounds" : [ "/sfx/objects/sinkMFMenter.wav" ],
+  "closeSounds" : [ "/sfx/objects/sinkMFMexit.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config"
+}

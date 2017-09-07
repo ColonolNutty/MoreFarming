@@ -1,0 +1,43 @@
+{
+  "objectName" : "apexpurifierstationCNYC",
+  "colonyTags" : ["apex", "apexvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A tea machine!",
+  "shortdescription" : "^orange;Apex Tea Machine (Purify)^white;",
+  "subtitle" : "Purifies dirty water!",
+  "race" : "generic",
+  "category" : "Apex Cookware",
+  "price" : 703,
+  "objectType" : "container",
+
+  "lightColor" : [218, 83, 2, 5],
+
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.2,
+  "flickerMaxIntensity" : 0.3,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "apexpurifierstationCNYCicon.png",
+  "orientations" : [
+    {
+      "image" : "apexpurifierstationCNYC.png:default",
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "purifyingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config"
+}

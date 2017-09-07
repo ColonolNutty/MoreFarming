@@ -1,0 +1,29 @@
+{
+  "id" : "wildernesscooking1.5.gearup",
+  "title" : "^green;Cooking for Survival - I Part 5^white;",
+  "text" : "Continuing on, to make bread I first need to mix some ingredients, it states the ingredients to make it are ^green;Flour^white; and ^green;Water^white;. I should then be able to mix those by hand to make ^orange;Dough^white;.",
+  "completionText" : "I've got the dough, now I need some way to bake it",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  
+  "updateDelta" : 10,
+  "canBeAbandoned" : false,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "player",
+      "questComplete" : "player"
+    },
+    "followUp" : "wildernesscooking1.6.gearup",
+	"requireTurnIn" : false,
+	"canBeAbandoned" : false,
+	"conditions" : [
+		{
+			"type" : "gatherItem",
+			"itemName" : "doughMFM",
+			"count" : 1,
+			"consume" : false
+		}
+	]
+  }
+}

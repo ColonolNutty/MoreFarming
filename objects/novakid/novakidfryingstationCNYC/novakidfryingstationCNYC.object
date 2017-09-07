@@ -1,0 +1,83 @@
+{
+  "objectName" : "novakidfryingstationCNYC",
+  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A plasma frontier frypan!",
+  "shortdescription" : "^orange;Novakid Frypan (Fry)^white;",
+  "subtitle" : "Fry Food!",
+  "race" : "generic",
+  "objectType" : "container",
+  "category" : "Novakid Cookware",
+  "price" : 263,
+
+  "apexDescription" : "A plasma heat source! Fantastic idea!",
+  "avianDescription" : "That heat source doesn't look stable..",
+  "floranDescription" : "Floran hungryss...",
+  "glitchDescription" : "Inspect. Unstable plasma generated heat source.",
+  "humanDescription" : "Looks dangerous. I love it.",
+  "hylotlDescription" : "These creatures appear to have no self preservation code cooking with that thing..",
+
+  "inventoryIcon" : "novakidfryingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "novakidfryingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "novakidfryingstationCNYClit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "novakidfryingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "novakidfryingstationCNYClit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+"particleEmitter" : {
+    "emissionRate" : 2.0,
+    "emissionVariance" : 1.0,
+
+    "particle" : {
+      "type" : "ember",
+      "position" : [0.0, 0.6],
+      "size" : 1.0,
+      "color" : [249, 162, 57, 255],
+      "fade" : 0.2,
+      "initialVelocity" : [0.0, 4.0],
+      "finalVelocity" : [0.0, -1.0],
+      "approach" : [0, 20],
+      "timeToLive" : 0.8,
+      "layer" : "back"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [-1.0, 0.4],
+      "position" : [0.6, 0]
+    }
+  },
+
+  "recipeGroup" : "fryingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/fryingMFMRecipes.config"
+}

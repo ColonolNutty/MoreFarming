@@ -1,0 +1,41 @@
+{
+  "id" : "wildernesscookingCNYC2.4.gearup",
+  "title" : "^green;The Start of Something Delicious - II Part 4^white;",
+  "text" : "Now I just need to find a ^green;Tomato^white; and a ^green;Potato^white;. According to the guide, they are easier to find on ^cyan;Garden Planets^white; and ^cyan;Forest Planets^white;. It also mentions they can be bought at a ^orange;Terra Mart^white;. I'll also need 5 portions of ^green;Plant Fibre^white; it is usually found in caves.",
+  "completionText" : "Mmm, delicious tomato's and potato's. Now what?",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  
+  "updateDelta" : 10,
+  "canBeAbandoned" : false,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "player",
+      "questComplete" : "player"
+    },
+    "followUp" : "wildernesscookingCNYC2.5.gearup",
+	"requireTurnIn" : false,
+	"canBeAbandoned" : false,
+	"conditions" : [
+		{
+			"type" : "gatherItem",
+			"itemName" : "tomato",
+			"count" : 1,
+			"consume" : false
+		},
+		{
+			"type" : "gatherItem",
+			"itemName" : "potato",
+			"count" : 1,
+			"consume" : false
+		},
+		{
+			"type" : "gatherItem",
+			"itemName" : "plantfibre",
+			"count" : 5,
+			"consume" : false
+		}
+	]
+  }
+}

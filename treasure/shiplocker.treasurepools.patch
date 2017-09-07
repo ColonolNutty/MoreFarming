@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/starterTreasure/0/1/fill/-",
+    "value" : {"item": [ "wildernesssurvivalguideCNYC-codex", 1 ] }
+  },
+  {
+    "op" : "add",
+    "path" : "/starterTreasure/0/1/fill/-",
+    "value" : {"item": [ "wildernesssurvivalguidechapter2CNYC-codex", 1 ] }
+  }
+]

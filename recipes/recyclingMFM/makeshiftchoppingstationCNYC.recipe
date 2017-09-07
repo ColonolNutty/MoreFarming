@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "campchopblock", "count" : 1 }
+  ],
+  "output" : { "item" : "makeshiftchoppingstationCNYC", "count" : 1 },
+  "groups" : [ "recyclingMFM" ]
+}

@@ -1,0 +1,92 @@
+{
+  "objectName" : "boilingstationCNYC",
+  "colonyTags" : [ "human", "humanvillage", "cooking" ],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "I can boil food with this!",
+  "shortdescription" : "^orange;Boiling Pans (Boil)^white;",
+  "subtitle" : "Boil Food!",
+  "race" : "generic",
+  "category" : "Basic Cookware",
+  "price" : 243,
+  "objectType" : "container",
+
+  "apexDescription" : "Better then those tin pans we had to use.",
+  "avianDescription" : "Corden Jamsey cookpans, galvanised?",
+  "floranDescription" : "Floran usse as hammer afterwardss.",
+  "glitchDescription" : "Inspect. Lightweight cauldrons.",
+  "humanDescription" : "Pans! Wonder if Jamsey used them!",
+  "hylotlDescription" : "Looks expensive.. Also limited edition?",
+
+"lightColor" : [116, 227, 225, 5],
+
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.1,
+  "flickerMaxIntensity" : 0.3,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "particleEmitter" : {
+    "emissionRate" : 6.0,
+    "emissionVariance" : 1.0,
+
+    "particle" : {
+      "type" : "ember",
+      "position" : [0.0, 1],
+      "size" : 1.0,
+      "color" : [200, 200, 200, 100],
+      "fade" : 2,
+      "initialVelocity" : [0.0, 4.0],
+      "finalVelocity" : [0.0, 2.0],
+      "approach" : [0, 20],
+      "timeToLive" : 0.3,
+      "layer" : "back"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0],
+      "position" : [0.6, 0]
+    }
+  },
+
+
+  "inventoryIcon" : "boilingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "boilingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "boilingstationCNYClit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 3,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "boilingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "boilingstationCNYClit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 3,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "recipeGroup" : "boilingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/boilingMFMRecipes.config"
+}

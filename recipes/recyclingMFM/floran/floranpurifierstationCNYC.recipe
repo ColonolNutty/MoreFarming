@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "florankettlestationCNYC", "count" : 1 }
+  ],
+  "output" : { "item" : "floranpurifierstationCNYC", "count" : 1 },
+  "groups" : [ "recyclingMFM" ]
+}

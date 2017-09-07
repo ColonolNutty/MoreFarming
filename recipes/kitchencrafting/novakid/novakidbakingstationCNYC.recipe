@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 5 },
+    { "item" : "copperbar", "count" : 2 },
+    { "item" : "glass", "count" : 3 }
+  ],
+  "output" : { "item" : "novakidbakingstationCNYC", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "novakidMFM", "bakingmachineMFM", "all" ]
+}

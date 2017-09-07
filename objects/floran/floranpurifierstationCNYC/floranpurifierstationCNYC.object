@@ -1,0 +1,35 @@
+{
+  "objectName" : "floranpurifierstationCNYC",
+  "colonyTags" : ["floran", "floranvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A bone teapot!",
+  "shortdescription" : "^orange;Floran Teapot (Purify)^white;",
+  "subtitle" : "Purify Water!",
+  "race" : "generic",
+  "category" : "Floran Cookware",
+  "price" : 15.15,
+  "objectType" : "container",
+
+  "inventoryIcon" : "floranpurifierstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranpurifierstationCNYC.png:default",
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "purifyingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config"
+}

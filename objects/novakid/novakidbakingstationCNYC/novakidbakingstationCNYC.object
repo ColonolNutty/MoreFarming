@@ -1,0 +1,93 @@
+{
+  "objectName" : "novakidbakingstationCNYC",
+  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A castiron engine oven!",
+  "shortdescription" : "^orange;Novakid Engine Oven (Bake)^white;",
+  "subtitle" : "Bake Food!",
+  "race" : "generic",
+  "objectType" : "container",
+  "category" : "Novakid Cookware",
+  "price" : 252.15,
+
+  "apexDescription" : "If I wasn't mistaken, it looks like part of a steam engine..",
+  "avianDescription" : "The oil needs wiping off..",
+  "floranDescription" : "Floran disslikess hotboxesss.",
+  "glitchDescription" : "Inspect. Already oil seasoned!.",
+  "humanDescription" : "A fistfull of baked goods!",
+  "hylotlDescription" : "Wel at least it doesn't clang..",
+
+  "lightColor" : [218, 83, 2, 5],
+
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.2,
+  "flickerMaxIntensity" : 0.3,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "novakidbakingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "novakidbakingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "novakidbakingstationCNYClit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "novakidbakingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "novakidbakingstationCNYClit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "particleEmitter" : {
+    "emissionRate" : 6.0,
+    "emissionVariance" : 1.0,
+
+    "particle" : {
+      "type" : "animated",
+      "animation" : "/animations/dustclear/dustclearCNYC.animation",
+      "position" : [-0.5, 1.6],
+      "size" : 1.0,
+      "color" : [255, 255, 255, 50],
+      "fade" : 1,
+      "initialVelocity" : [0.0, 2.0],
+      "finalVelocity" : [0.0, 1.0],
+      "approach" : [0, 20],
+      "timeToLive" : 1,
+      "layer" : "back"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.3, 2.0],
+      "position" : [0.4, 0]
+    }
+  },
+
+  "recipeGroup" : "bakingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/bakingMFMRecipes.config"
+}

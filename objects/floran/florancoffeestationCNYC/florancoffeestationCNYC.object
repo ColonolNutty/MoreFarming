@@ -1,0 +1,35 @@
+{
+  "objectName" : "florancoffeestationCNYC",
+  "colonyTags" : ["floran", "floranvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A bone coffeepot!",
+  "shortdescription" : "^orange;Floran Coffeepot (Coffee)^white;",
+  "subtitle" : "Brew Coffee!",
+  "race" : "generic",
+  "category" : "Floran Cookware",
+  "price" : 15.15,
+  "objectType" : "container",
+
+  "inventoryIcon" : "florancoffeestationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "florancoffeestationCNYC.png:default",
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "coffeeMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/coffeeMFMRecipes.config"
+}

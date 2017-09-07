@@ -1,0 +1,64 @@
+{
+  "id" : "wildernesssurvivalguideCNYC",
+  "title" : "^orange;Protectorate Camp Guide CH1^white;",
+  "description" : "Chapter I - A detailed guide on how to make bread in the wilderness",
+  "icon" : "survivalcodexCNYC.png",
+  "contentPages" : [
+
+"^blue;Introduction:^white;
+So, you fancy yourself a wilderness survivalist? A culinary specialist? An iron chef? Whatever the case, you've a long road ahead of you. This guide will introduce you to the basics of cooking. Some basic wilderness survival techniques are also listed here
+
+Detailed within this chapter is the process of making ^green;Bread^white; from scratch.",
+ 
+"^blue;Grinding for Flour:^white; 
+To start, you will need to craft a ^orange;Camp Millstone^white;
+Once crafted, you will need to obtain one of the following:
+^green;Wheat^white;
+^green;Potato^white;
+^green;Whole Oats^white;
+^green;Rice^white;
+
+Once found, place the item(s) within the ^orange;Camp Millstone^white; to produce ^green;Flour^white;.",
+
+"^red;WARNING: Place only one type of item at a time, any more and you won't get what you expect, this warning applies to all cooking methods
+A visual example:
+Any Number of Potatoes = Flour
+Any Number of Wheat = Flour
+Any Number of Potatoes + Any Number of Wheat = Nothing (Or a recipe, if one exists)^white;",
+
+"^blue;Acquiring Water:^white;
+Now that you have Flour, you should begin searching for ^green;Water^white;.
+If water cannot be obtained through normal means there is an alternative, by boiling ^green;Mud^white;.
+
+The boiling process requires the use of a ^orange;Camp Cookpot^white; or other boiling apparatus.
+This can be made by hand by combining ^orange;Logs^white; and ^green;Copper Ore^white;.",
+
+"^blue;Boiling Mud:^white;
+Once the ^orange;Camp Cookpot^white; is crafted and ^green;Mud^white; is acquired, place the mud within the ^orange;Camp Cookpot^white; and boil thoroughly to obtain ^green;Water^white;.",
+
+"^blue;Mixing for Bread:^white;
+Now that both ^green;Flour^white; and ^green;Water^white; have been acquired, they must be mixed.
+^green;Dough^white; can be made just using your hands, but more advanced recipes must be done with a blender or other means, this is detailed in later chapters.
+
+^orange;Dough Recipe:^white;
+1 ^green;Flour^white;
+1 ^green;Water^white;",
+
+"^blue;Makeshift Oven:^white;
+With the ^green;Dough^white; in hand you will need an oven to bake it in.
+To make a ^orange;Camp Oven^white; you will need ^green;Cobblestone^white; and ^green;Wood^white;.
+Once materials are acquired, put them together using your hands.",
+
+"^blue;Bread in the Oven:^white;
+Now place the ^green;Dough^white; within the ^orange;Camp Oven^white; and wait for your delicious ^green;Bread^white;.",
+
+"^blue;More to come:^white;
+Now that you know how to make ^green;Bread^white;, seek out other chapters for information on more advanced techniques, they will likely become available over time from your local ^orange;Terramart^white;."
+
+  ],
+  "itemConfig" : {
+    "rarity" : "Legendary",
+    "price" : 10,
+    "pickupQuestTemplates" : [ "wildernesscooking1.1.gearup" ]
+  }
+}

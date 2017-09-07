@@ -1,0 +1,78 @@
+{
+  "objectName" : "nanofreezingstationCNYC",
+  "tags" : [ "cooking", "electronic" ],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Freezes anything in less then two seconds, used for storage or making cold treats!",
+  "shortdescription" : "Nano Freezer (Freeze)",
+  "subtitle" : "Nanite Flash Freezing.",
+  "race" : "generic",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "Refridgerated Cookware",
+  "price" : 613.65,
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "It doesn't even feel cold.",
+  "avianDescription" : "I should be careful with my feathers around this.",
+  "floranDescription" : "Floran freeze preyss..",
+  "glitchDescription" : "Statement. An advanced flash freezer.",
+  "humanDescription" : "Wonder if I could turn it on and throw something through it..",
+  "hylotlDescription" : "Effective, yet potentialy dangerous. I must be careful",
+
+  "lightColor" : [125, 143, 179],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "nanofreezingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "nanofreezingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "nanofreezingstationCNYClit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "nanofreezingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "nanofreezingstationCNYClit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "freezingMFM",
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config",
+
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+}

@@ -1,0 +1,44 @@
+{
+  "objectName" : "glitchcoffeestationCNYC",
+  "colonyTags" : [ "glitch", "glitchvillage", "cooking" ],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A basic coffee jug.",
+  "shortdescription" : "^orange;Glitch Coffee Jug (Coffee)^white;",
+  "subtitle" : "Brew Coffee!",
+  "race" : "generic",
+  "objectType" : "container",
+  "category" : "Glitch Cookware",
+  "price" : 143,
+
+  "apexDescription" : "Simple enough..",
+  "avianDescription" : "Wait.. how do you strain it?",
+  "floranDescription" : "Crunchysss..",
+  "glitchDescription" : "Observation. Coffee jug.",
+  "humanDescription" : "Coffee with grinds in.. real nice..",
+  "hylotlDescription" : "At least it doesn't smell like oil..",
+
+  "inventoryIcon" : "glitchcoffeestationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "glitchcoffeestationCNYC.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "coffeeMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/coffeeMFMRecipes.config"
+}

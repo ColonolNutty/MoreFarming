@@ -2,6 +2,8 @@
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "howtoappliancesvolume1MFM-codex" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "howtobasicingredientsvolume1MFM-codex" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "howtorecipebookvolume1MFM-codex" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "wildernesssurvivalguideCNYC-codex" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "wildernesssurvivalguidechapter2CNYC-codex" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "artichokeMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "asparagusMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "avocadoMSM" } },

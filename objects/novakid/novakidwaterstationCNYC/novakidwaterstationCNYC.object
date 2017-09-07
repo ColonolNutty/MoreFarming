@@ -1,0 +1,81 @@
+{
+  "objectName" : "novakidwaterstationCNYC",
+  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
+  "rarity" : "Common",
+  "description" : "Dispenses fresh water!",
+  "shortdescription" : "^orange;Novakid Watertower (Water)^white;",
+  "subtitle" : "Dispenses water!",
+  "race" : "generic",
+  "objectType" : "container",
+  "category" : "Novakid Cookware",
+  "price" : 266.15,
+
+  "apexDescription" : "A water dispenser!",
+  "avianDescription" : "Fresh water, lovley!",
+  "floranDescription" : "Wetss..",
+  "glitchDescription" : "Observation. Small water container.",
+  "humanDescription" : "All this steam and water can give a person ideas..",
+  "hylotlDescription" : "Water is always a welcome sight",
+
+  "inventoryIcon" : "novakidwaterstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "novakidwaterstationCNYC.png:<color>", "fullbright" : true }, { "image" : "novakidwaterstationCNYClit.png:<color>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "novakidwaterstationCNYC.png:<color>", "fullbright" : true }, { "image" : "novakidwaterstationCNYClit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+    
+  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "npcToy" : {
+    "influence" : [
+      "watercoolerCollect",
+      "watercoolerConsume",
+      "watercoolerComplete"
+    ],
+    "defaultReactions" : {
+      "watercoolerCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "watercoolerConsume" : [
+        [1.0, "drink"]
+      ],
+      "watercoolerComplete" : [
+        [1.0, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  },
+  "recipeGroup" : "waterMFM",
+  "openSounds" : [ "/sfx/objects/sinkMFMenter.wav" ],
+  "closeSounds" : [ "/sfx/objects/sinkMFMexit.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config"
+}

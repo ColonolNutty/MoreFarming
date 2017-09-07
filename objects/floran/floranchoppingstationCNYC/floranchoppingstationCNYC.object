@@ -1,0 +1,39 @@
+{
+  "objectName" : "floranchoppingstationCNYC",
+  "colonyTags" : ["floran", "floranvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A bone knife, chops things up!",
+  "shortdescription" : "^orange;Floran Bone Knife (Chop)^white;",
+  "subtitle" : "Chop Food!",
+  "race" : "generic",
+  "category" : "Floran Cookware",
+  "price" : 15.15,
+  "objectType" : "container",
+
+  "inventoryIcon" : "floranchoppingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranchoppingstationCNYC.png:default.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "floranchoppingstationCNYC.animation",
+  "animationPosition" : [0, 0],
+
+  "recipeGroup" : "choppingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/choppingMFMRecipes.config"
+}

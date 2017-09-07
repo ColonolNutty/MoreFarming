@@ -1,0 +1,44 @@
+{
+  "objectName" : "makeshiftchoppingstationCNYC",
+  "colonyTags" : [ "cooking", "nature" ],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A treestump makes for a perfect chopping board!",
+  "shortdescription" : "^orange;Camp Chopblock (Chop)^white;",
+  "subtitle" : "Prepare Ingredients!",
+  "race" : "generic",
+  "category" : "Makeshift Cookware",
+  "price" : 40.1,
+  "objectType" : "container",
+
+  "apexDescription" : "Resourceful",
+  "avianDescription" : "Use whats available I guess",
+  "floranDescription" : "Treestump chop meatss",
+  "glitchDescription" : "Inspect. A good use of a felled tree.",
+  "humanDescription" : "Makeshift food preparation. It'll do.",
+  "hylotlDescription" : "I can make use of this",
+
+  "inventoryIcon" : "makeshiftchoppingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "makeshiftchoppingstationCNYC.png",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "choppingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/choppingMFMRecipes.config"
+}

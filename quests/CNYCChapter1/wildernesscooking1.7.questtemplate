@@ -1,0 +1,28 @@
+{
+  "id" : "wildernesscooking1.7.gearup",
+  "title" : "^green;Cooking for Survival - I Part 7^white;",
+  "text" : "All I need to do now is pop this ^green;Dough^white; into the ^orange;Camp Oven^white; and I'll be able to bake some ^orange;Bread^white;.",
+  "completionText" : "Well, I'm not likely to starve now. The next chapter looks like it'll show me how to do some preparation of ingredients before I eat them, I can't wait!",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  
+  "updateDelta" : 10,
+  "canBeAbandoned" : false,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "player",
+      "questComplete" : "player"
+    },
+	"requireTurnIn" : false,
+	"canBeAbandoned" : false,
+	"conditions" : [
+		{
+			"type" : "gatherItem",
+			"itemName" : "bread",
+			"count" : 1,
+			"consume" : false
+		}
+	]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 3 },
+    { "item" : "siliconboard", "count" : 2 }
+  ],
+  "output" : { "item" : "nanopurifierstationCNYC", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "nanoMFM", "kettlemachineMFM", "all" ]
+}

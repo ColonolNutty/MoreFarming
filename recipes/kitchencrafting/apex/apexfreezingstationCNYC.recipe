@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 15 }
+  ],
+  "output" : { "item" : "apexfreezingstationCNYC", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "apexMFM", "freezingmachineMFM", "all" ]
+}

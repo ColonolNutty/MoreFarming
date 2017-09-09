@@ -1,0 +1,18 @@
+{
+  "itemName" : "unfinishedpiepumpkinMFM",
+  "rarity" : "Common",
+  "price" : 747.68,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "unfinishedpiepumpkinMFM.png",
+  "description" : "A pie shell filled with chopped pumpkins and a few other things. Ready for baking.",
+  "shortdescription" : "Pie Unfinished - Pumpkin",
+  "foodValue" : 62.23,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "cupcakeplainMFM",
+  "rarity" : "Common",
+  "price" : 513.2,
+  "category" : "preparedFood",
+  "inventoryIcon" : "cupcakeplainMFM.png",
+  "description" : "A cupcake with no icing.",
+  "shortdescription" : "Cupcake - Plain",
+  "foodValue" : 49.04,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [0, -4]
+}

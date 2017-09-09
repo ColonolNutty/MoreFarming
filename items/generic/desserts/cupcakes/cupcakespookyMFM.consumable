@@ -1,0 +1,19 @@
+{
+  "itemName" : "cupcakespookyMFM",
+  "rarity" : "Common",
+  "price" : 747.05,
+  "category" : "preparedFood",
+  "inventoryIcon" : "cupcakespookyMFM.png",
+  "description" : "A cupcake with spooky icing.",
+  "shortdescription" : "Cupcake - Spooky",
+  "foodValue" : 57.53,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "handPosition" : [0, -4]
+}

@@ -3,6 +3,6 @@
     { "item" : "vanillaextractMFM", "count" : 1 },
     { "item" : "sugar", "count" : 2 }
   ],
-  "output" : { "item" : "vanillaicingMFM", "count" : 1 },
+  "output" : { "item" : "icingvanillaMFM", "count" : 1 },
   "groups" : [ "blendingMFM" ]
 }

@@ -4,7 +4,7 @@
     { "item" : "doughMFM", "count" : 1 },
     { "item" : "butterMFM", "count" : 2 },
     { "item" : "sugar", "count" : 4 },
-    { "item" : "vanillaicingMFM", "count" : 2 }
+    { "item" : "icingvanillaMFM", "count" : 1 }
   ],
   "output" : { "item" : "toxictoptartMFM", "count" : 1 },
   "groups" : [ "bakingMFM" ]

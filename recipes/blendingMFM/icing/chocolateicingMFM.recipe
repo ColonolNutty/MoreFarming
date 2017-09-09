@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "chocolateliquorMFM", "count" : 1 },
-    { "item" : "vanillaextractMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "chocolateicingMFM", "count" : 1 },
-  "groups" : [ "blendingMFM" ]
-}

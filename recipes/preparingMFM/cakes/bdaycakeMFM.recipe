@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "unfinishedcakeplainMFM", "count" : 1 },
+    { "item" : "icingvanillaMFM", "count" : 1 },
+    { "item" : "fondantMFM", "count" : 1 },
+    { "item" : "bluefoodcolorMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "bdaycakeMFM", "count" : 1 },
+  "groups" : [ "bakingMFM" ]
+}

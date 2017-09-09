@@ -1,15 +1,18 @@
 {
-  "itemName" : "chocolateicingMFM",
+  "itemName" : "icingchocolateMFM",
   "rarity" : "Common",
   "price" : 42.82,
   "category" : "cookingIngredient",
-  "inventoryIcon" : "chocolateicingMFM.png",
-  "description" : "Don't forget the icing!",
+  "inventoryIcon" : "icingchocolateMFM.png",
+  "description" : "Chocolate flavoured icing.",
   "shortdescription" : "Icing - Chocolate",
   "foodValue" : 0.72,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
-  "maxStack" : 1000
+  "blockingEffects" : [
+    "wellfed"
+  ]
 }

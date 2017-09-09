@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "cupcakebatterMFM", "count" : 1 }
   ],
-  "output" : { "item" : "cupcakeMFM", "count" : 1 },
+  "output" : { "item" : "cupcakeplainMFM", "count" : 1 },
   "groups" : [ "bakingMFM" ]
 }

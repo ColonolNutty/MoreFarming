@@ -4,8 +4,9 @@
 		"path": "/input",
 		"value": [
 			{ "item" : "unfinishedcakeplainMFM", "count" : 1 },
-			{ "item" : "vanillaicingMFM", "count" : 1 },
-			{ "item" : "fondantMFM", "count" : 1 }
+			{ "item" : "icingvanillaMFM", "count" : 1 },
+			{ "item" : "fondantMFM", "count" : 1 },
+			{ "item" : "redfoodcolorMFM", "count" : 1 }
 		]
 	},
 	{

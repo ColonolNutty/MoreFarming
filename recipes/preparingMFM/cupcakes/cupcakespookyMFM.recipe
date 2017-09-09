@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cupcakeplainMFM", "count" : 1 },
+    { "item" : "icingspookyMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "cupcakespookyMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

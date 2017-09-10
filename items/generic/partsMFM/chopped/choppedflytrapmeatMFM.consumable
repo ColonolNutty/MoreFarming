@@ -1,0 +1,18 @@
+{
+  "itemName" : "choppedflytrapmeatMFM",
+  "rarity" : "Common",
+  "price" : 63,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "choppedflytrapmeatMFM.png",
+  "description" : "The washed, peeled, and chopped meat of a fly trap.",
+  "shortdescription" : "Chopped Fly Trap Meat",
+  "foodValue" : 2.1,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

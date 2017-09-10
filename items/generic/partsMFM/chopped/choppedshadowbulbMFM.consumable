@@ -1,0 +1,18 @@
+{
+  "itemName" : "choppedshadowbulbMFM",
+  "rarity" : "Common",
+  "price" : 52.5,
+  "category" : "preparedFood",
+  "inventoryIcon" : "choppedshadowbulbMFM.png",
+  "description" : "Washed and chopped shadow bulb.",
+  "shortdescription" : "Chopped Shadow Bulb",
+  "foodValue" : 10.5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

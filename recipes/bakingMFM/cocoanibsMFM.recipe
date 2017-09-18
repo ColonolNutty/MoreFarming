@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "cocoabeansMFM", "count" : 1 }
+    { "item" : "cocoa", "count" : 1 }
   ],
   "output" : { "item" : "cocoanibsMFM", "count" : 1 },
   "groups" : [ "bakingMFM" ]

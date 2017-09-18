@@ -3,7 +3,7 @@
     "op": "replace",
     "path": "/input",
     "value": [
-      { "item" : "reefpod", "count" : 1 },
+      { "item" : "choppedreefpodMFM", "count" : 1 },
       { "item" : "milk", "count" : 1 }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "flourMFM", "count" : 3 },
+    { "item" : "doughMFM", "count" : 1 },
     { "item" : "saltMFM", "count" : 1 },
     { "item" : "butterMFM", "count" : 1 },
     { "item" : "liquidwater", "count" : 1 }

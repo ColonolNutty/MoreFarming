@@ -3,10 +3,10 @@
     "op": "replace",
     "path": "/input",
     "value": [
-      { "item" : "pineapple", "count" : 1 },
-      { "item" : "kiwi", "count" : 1 },
-      { "item" : "coconut", "count" : 1 },
-      { "item" : "banana", "count" : 1 }
+      { "item" : "choppedpineappleMFM", "count" : 1 },
+      { "item" : "choppedkiwiMFM", "count" : 1 },
+      { "item" : "choppedcoconutMFM", "count" : 1 },
+      { "item" : "choppedbananaMFM", "count" : 1 }
     ]
   },
   {

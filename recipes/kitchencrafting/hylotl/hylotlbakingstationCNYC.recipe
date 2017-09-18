@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 5 },
+    { "item" : "bamboostalkBMB", "count" : 5 },
     { "item" : "copperbar", "count" : 2 },
     { "item" : "glass", "count" : 2 }
   ],

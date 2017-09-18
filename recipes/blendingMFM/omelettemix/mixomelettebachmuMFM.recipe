@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "egg", "count" : 3 },
-    { "item" : "rawbacon", "count" : 1 },
+    { "item" : "choppedrawbaconMFM", "count" : 1 },
     { "item" : "choppedmushroomMFM", "count" : 2 },
     { "item" : "cheese", "count" : 1 },
     { "item" : "saltMFM", "count" : 1 }

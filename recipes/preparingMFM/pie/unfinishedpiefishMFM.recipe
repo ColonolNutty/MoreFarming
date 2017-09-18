@@ -1,6 +1,5 @@
 {
   "input" : [
-    { "item" : "flourMFM", "count" : 2 },
     { "item" : "cheese", "count" : 1 },
     { "item" : "butterMFM", "count" : 2 },
     { "item" : "milk", "count" : 2 },

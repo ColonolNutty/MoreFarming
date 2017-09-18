@@ -1,0 +1,107 @@
+{"ingredients": [
+  {
+    "itemName": "wheat",
+    "foodValue": 2
+  },
+  {
+    "itemName": "cacti",
+    "foodValue": 2
+  },
+  {
+    "itemName": "cocoa",
+    "foodValue": 2
+  },
+  {
+    "itemName": "crystalplant",
+    "price": 5,
+    "foodValue": 1
+  },
+  {
+    "itemName": "kelp",
+    "price": 5,
+    "foodValue": 2
+  },
+  {
+    "itemName": "rice",
+    "foodValue": 2
+  },
+  {
+    "itemName": "shroom",
+    "foodValue": 2
+  },
+  {
+    "itemName": "sugar",
+    "foodValue": 2
+  },
+  {
+    "itemName": "clay",
+    "price": 4
+  },
+  {
+    "itemName": "giantflowerpetal",
+    "price": 5,
+    "foodValue": 2
+  },
+  {
+    "itemName": "paper",
+    "price": 3
+  },
+  {
+    "itemName": "plantfibre",
+    "price": 5,
+    "foodValue": 1
+  },
+  {
+    "itemName": "petalblue",
+    "price": 5,
+    "foodValue": 2
+  },
+  {
+    "itemName": "petalred",
+    "price": 5,
+    "foodValue": 2
+  },
+  {
+    "itemName": "petalyellow",
+    "price": 5,
+    "foodValue": 2
+  },
+  {
+    "itemName": "darkwoodmaterial",
+    "price": 2
+  },
+  {
+    "itemName": "cobblestonematerial",
+    "price": 2
+  },
+  {
+    "itemName": "sand",
+    "price": 2
+  },
+  {
+    "itemName": "ice",
+    "price": 2
+  },
+  {
+    "itemName": "fleshstrand",
+    "price": 5,
+    "foodValue": 2
+  },
+  {
+    "itemName": "endomorphicjelly",
+    "foodValue": 2
+  },
+  {
+    "itemName": "sugarcaneBMB",
+    "foodValue": 5.7
+  },
+  {
+    "itemName": "glass",
+    "price": 3
+  },
+  {
+    "name": "liquidmilk",
+    "price": 10,
+    "foodValue": 10
+  }
+ ]}

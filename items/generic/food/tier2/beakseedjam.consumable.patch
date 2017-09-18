@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 652.73
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 20.12
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Jam - Beakseed"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 401.63
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 20.12
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Jam - Beakseed"
+} ]

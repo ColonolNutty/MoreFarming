@@ -1,41 +1,71 @@
 {
-  "objectName" : "piodiaMFM",
-  "colonyTags" : [ "cooking" ],
-  "rarity" : "Uncommon",
-  "description" : "A large piodia. A variation of pizzap- it's got a more coppery tang.",
-  "price" : 1947.17,
-  "shortdescription" : "Piodia",
-  "race" : "generic",
-  "category" : "decorative",
-  
-  "apexDescription" : "This reminds me of how the slop I used to be eat gave me jolts. I wonder if- OBEY BIG APE.",
-  "avianDescription" : "I don't know what to think about this.",
-  "floranDescription" : "Floran dont like eating ssshocking metal pie.",
-  "glitchDescription" : "Shocked. I'm shocked.",
-  "humanDescription" : "It tastes like copper... I'd still eat it.",
-  "hylotlDescription" : "The act of throwing this together disrespects what cooking means.",
-  
-  "inventoryIcon" : "piodiaMFMicon.png",
-  "largeImage" : "piodiaMFM.png:default.default",
-  "orientations" : [
-	{
-		"dualImage" : "piodiaMFM.png:<color>.0",
-		"imagePosition" : [-8, 0],
-		"frames" : 1,
-		"animationCycle" : 0.5,
-		"spaceScan" : 0.1,
-		"anchors" : [ "bottom" ]
-	}
+ "shortdescription": "Piodia",
+ "avianDescription": "I don't know what to think about this.",
+ "largeImage": "piodiaMFM.png:default.default",
+ "race": "generic",
+ "breakDropOptions": [[
+  [
+   "piodia",
+   1,
+   {}
   ],
-  
-  "breakDropOptions" : [ [
-    [ "piodia", 1, { } ],
-    [ "piodia", 1, { } ],
-    [ "piodia", 1, { } ],
-    [ "piodia", 1, { } ],
-    [ "piodia", 1, { } ],
-    [ "piodia", 1, { } ],
-    [ "piodia", 1, { } ],
-    [ "piodia", 1, { } ]
-  ] ]
+  [
+   "piodia",
+   1,
+   {}
+  ],
+  [
+   "piodia",
+   1,
+   {}
+  ],
+  [
+   "piodia",
+   1,
+   {}
+  ],
+  [
+   "piodia",
+   1,
+   {}
+  ],
+  [
+   "piodia",
+   1,
+   {}
+  ],
+  [
+   "piodia",
+   1,
+   {}
+  ],
+  [
+   "piodia",
+   1,
+   {}
+  ]
+ ]],
+ "orientations": [{
+  "frames": 1,
+  "animationCycle": 0.5,
+  "imagePosition": [
+   -8,
+   0
+  ],
+  "spaceScan": 0.1,
+  "dualImage": "piodiaMFM.png:<color>.0",
+  "anchors": ["bottom"]
+ }],
+ "description": "A large piodia. A variation of pizzap- it's got a more coppery tang.",
+ "hylotlDescription": "The act of throwing this together disrespects what cooking means.",
+ "glitchDescription": "Shocked. I'm shocked.",
+ "price": 1603.55,
+ "colonyTags": ["cooking"],
+ "objectName": "piodiaMFM",
+ "apexDescription": "This reminds me of how the slop I used to be eat gave me jolts. I wonder if- OBEY BIG APE.",
+ "inventoryIcon": "piodiaMFMicon.png",
+ "category": "decorative",
+ "humanDescription": "It tastes like copper... I'd still eat it.",
+ "floranDescription": "Floran dont like eating ssshocking metal pie.",
+ "rarity": "Uncommon"
 }

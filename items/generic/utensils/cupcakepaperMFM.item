@@ -1,10 +1,10 @@
 {
-  "itemName" : "cupcakepaperMFM",
-  "price" : 0.53,
-  "rarity" : "Common",
-  "category" : "craftingMaterial",
-  "inventoryIcon" : "cupcakepaperMFM.png",
-  "description" : "A bit of paper.",
-  "shortdescription" : "Cupcake Paper" ,
-  "itemTags" : [ "reagent" ]
+ "shortdescription": "Cupcake Paper",
+ "itemName": "cupcakepaperMFM",
+ "itemTags": ["reagent"],
+ "price": 0,
+ "description": "A bit of paper.",
+ "inventoryIcon": "cupcakepaperMFM.png",
+ "category": "craftingMaterial",
+ "rarity": "Common"
 }

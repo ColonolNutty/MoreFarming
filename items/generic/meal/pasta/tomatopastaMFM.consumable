@@ -1,29 +1,30 @@
 {
-  "itemName" : "tomatopastaMFM",
-  "rarity" : "Common",
-  "price" : 109.31,
-  "category" : "preparedFood",
-  "inventoryIcon" : "tomatopastaMFM.png",
-  "description" : "Pasta with tomato sauce.",
-  "shortdescription" : "Pasta - Tomato",
-  "effects" : [ [
-      {
-        "effect" : "jumpboostfood",
-        "duration" : 180
-      },
-      {
-        "effect" : "regeneration3",
-        "duration" : 20
-      }
-    ] ],
-  "foodValue" : 4.95,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -3]
+ "shortdescription": "Pasta - Tomato",
+ "tooltipKind": "food",
+ "description": "Pasta with tomato sauce.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -3
+ ],
+ "itemName": "tomatopastaMFM",
+ "effects": [[
+  {
+   "duration": 180,
+   "effect": "jumpboostfood"
+  },
+  {
+   "duration": 20,
+   "effect": "regeneration3"
+  }
+ ]],
+ "price": 72.26,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "tomatopastaMFM.png",
+ "foodValue": 3.09,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

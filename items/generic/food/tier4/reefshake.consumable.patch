@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 199.5
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 18.38
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Milkshake - Reef"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 269.91
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 12.58
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Milkshake - Reef"
+} ]

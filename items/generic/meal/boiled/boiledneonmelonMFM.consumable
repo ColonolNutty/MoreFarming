@@ -1,20 +1,17 @@
 {
-  "itemName" : "boiledneonmelonMFM",
-  "rarity" : "Common",
-  "price" : 308.7,
-  "category" : "preparedFood",
-  "inventoryIcon" : "boiledneonmelonMFM.png",
-  "description" : "A neonmelon boiled in water.",
-  "shortdescription" : "Boiled Neonmelon",
-  "foodValue": 11.03,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-
-  "emote" : "Happy"
+ "shortdescription": "Boiled Neonmelon",
+ "tooltipKind": "food",
+ "description": "A neonmelon boiled in water.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "boiledneonmelonMFM",
+ "price": 51.45,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "emote": "Happy",
+ "inventoryIcon": "boiledneonmelonMFM.png",
+ "foodValue": 1.84,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

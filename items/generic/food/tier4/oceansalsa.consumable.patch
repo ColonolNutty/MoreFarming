@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 844.15
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 31.46
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Salsa - Ocean"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 859.58
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 32.54
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Salsa - Ocean"
+} ]

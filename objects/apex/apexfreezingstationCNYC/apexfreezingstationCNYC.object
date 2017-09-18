@@ -1,50 +1,49 @@
 {
-  "objectName" : "apexfreezingstationCNYC",
-  "colonyTags" : ["apex", "apexvillage", "cooking"],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "An apex freezer, used for making delicious cold treats or storage!",
-  "shortdescription" : "^orange;Apex Freezer (Freeze)^white;",
-  "subtitle" : "Make the Ice!",
-  "race" : "generic",
-  "objectType" : "container",
-  "tooltipKind" : "container",
-  "category" : "Refridgerated Apex Cookware",
-  "price" : 602,
-
-  "lightColor" : [218, 83, 2, 5],
-
-  "flickerPeriod" : 0.8,
-  "flickerMinIntensity" : 0.2,
-  "flickerMaxIntensity" : 0.3,
-  "flickerPeriodVariance" : 0.075,
-  "flickerIntensityVariance" : 0.025,
-
-  "inventoryIcon" : "apexfreezingstationCNYCicon.png",
-  "orientations" : [
-    {
-      "dualImage" : "apexfreezingstationCNYC.png:default",
-      
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
-    }
-  ],
-
-  "recipeGroup" : "freezingMFM",
-  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-
-  "itemAgeMultiplier" : 0.0,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config",
-
-  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+ "flickerPeriod": 0.8,
+ "recipeGroup": "freezingMFM",
+ "tooltipKind": "container",
+ "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config",
+ "flickerMinIntensity": 0.2,
+ "flickerPeriodVariance": 0.075,
+ "orientations": [{
+  "collision": "platform",
+  "spaceScan": 0.1,
+  "dualImage": "apexfreezingstationCNYC.png:default",
+  "anchors": ["bottom"]
+ }],
+ "description": "An apex freezer, used for making delicious cold treats or storage!",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "flickerMaxIntensity": 0.3,
+ "objectType": "container",
+ "price": 617.05,
+ "closeSounds": ["/sfx/objects/fridge_close.ogg"],
+ "slotCount": 16,
+ "soundEffect": "/sfx/objects/fridge_hum.ogg",
+ "colonyTags": [
+  "apex",
+  "apexvillage",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "retainObjectParametersInItem": true,
+ "shortdescription": "^orange;Apex Freezer (Freeze)^white;",
+ "race": "generic",
+ "lightColor": [
+  218,
+  83,
+  2,
+  5
+ ],
+ "openSounds": ["/sfx/objects/fridge_open.ogg"],
+ "printable": false,
+ "frameCooldown": 67,
+ "subtitle": "Make the Ice!",
+ "objectName": "apexfreezingstationCNYC",
+ "inventoryIcon": "apexfreezingstationCNYCicon.png",
+ "itemAgeMultiplier": 0,
+ "category": "Refridgerated Apex Cookware",
+ "flickerIntensityVariance": 0.025,
+ "scriptDelta": 1,
+ "rarity": "Common"
 }

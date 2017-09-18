@@ -1,18 +1,16 @@
 {
-  "itemName" : "preparedcoconutMFM",
-  "rarity" : "Uncommon",
-  "price" : 10.5,
-  "category" : "preparedFood",
-  "inventoryIcon" : "preparedcoconutMFM.png",
-  "description" : "A coconut prepared for eating instead of throwing.",
-  "shortdescription" : "Prepared Coconut",
-  "foodValue" : 2.1,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Prepared Coconut",
+ "tooltipKind": "food",
+ "description": "A coconut prepared for eating instead of throwing.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "preparedcoconutMFM",
+ "price": 0,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "preparedcoconutMFM.png",
+ "foodValue": 0,
+ "category": "preparedFood",
+ "rarity": "Uncommon",
+ "blockingEffects": ["wellfed"]
 }

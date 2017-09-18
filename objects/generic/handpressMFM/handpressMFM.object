@@ -1,46 +1,44 @@
 {
-  "objectName" : "handpressMFM",
-  "colonyTags" : [ "farm", "cooking" ],
-  "printable" : false,
-  "rarity" : "Common",
-  "objectType" : "container",
-  "tooltipKind" : "container",
-  "description" : "A press. used for pressing things.",
-  "shortdescription" : "Hand Press (Press)",
-  "race" : "generic",
-  "category" : "crafting",
-  "price" : 166.1,
-
-  "apexDescription" : "A wooden press. Anything inside?",
-  "avianDescription" : "A press crafted of wood and iron.",
-  "floranDescription" : "Floran can put thingsss insside and ssquish them.",
-  "glitchDescription" : "Observe. A press, used to squish and crunch items.",
-  "humanDescription" : "A press. Good for squishing things.",
-  "hylotlDescription" : "A press for squishing items.",
-
-  "inventoryIcon" : "handpressMFMicon.png",
-  "orientations" : [
-    {
-      "dualImage" : "handpressMFM.png:<color>",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-
-    }
+ "avianDescription": "A press crafted of wood and iron.",
+ "recipeGroup": "pressingMFM",
+ "tooltipKind": "container",
+ "outputConfig": "/recipeCrafterMFM/pressingMFMRecipes.config",
+ "orientations": [{
+  "frames": 1,
+  "animationCycle": 1,
+  "imagePosition": [
+   -8,
+   0
   ],
-  "recipeGroup" : "pressingMFM",
-  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
-  "slotCount": 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/pressingMFMRecipes.config"
+  "spaceScan": 0.1,
+  "dualImage": "handpressMFM.png:<color>",
+  "anchors": ["bottom"]
+ }],
+ "description": "A press. used for pressing things.",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "objectType": "container",
+ "hylotlDescription": "A press for squishing items.",
+ "glitchDescription": "Observe. A press, used to squish and crunch items.",
+ "price": 166.05,
+ "closeSounds": ["/sfx/objects/woodenbox_close.ogg"],
+ "slotCount": 16,
+ "colonyTags": [
+  "farm",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "A press. Good for squishing things.",
+ "shortdescription": "Hand Press (Press)",
+ "race": "generic",
+ "openSounds": ["/sfx/objects/woodenbox_open.ogg"],
+ "printable": false,
+ "frameCooldown": 67,
+ "objectName": "handpressMFM",
+ "apexDescription": "A wooden press. Anything inside?",
+ "inventoryIcon": "handpressMFMicon.png",
+ "category": "crafting",
+ "scriptDelta": 1,
+ "floranDescription": "Floran can put thingsss insside and ssquish them.",
+ "rarity": "Common"
 }

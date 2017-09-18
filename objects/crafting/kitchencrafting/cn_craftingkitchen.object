@@ -1,34 +1,30 @@
 {
-  "objectName" : "cn_craftingkitchen",
-  "colonyTags" : [ "crafting" ],
-  "printable" : false,
-  "price" : 30,
-  "rarity" : "Uncommon",
-  "description" : "Create kitchen appliances on this",
-  "shortdescription" : "^orange;Kitchen Crafting Table^white;",
-  "race" : "generic",
-  "category" : "crafting",
-  "interactAction" : "OpenCraftingInterface",
-
-  "interactData" : {
-    "config" : "/interface/windowconfig/cn_craftingkitchen.config"
-  },
-
-  "apexDescription" : "A table that's fit for kitchen appliance crafting.",
-  "avianDescription" : "A chance to showcase one's kitchen appliance creation abilities.",
-  "floranDescription" : "Floran ussse table to make nice food makersss.",
-  "glitchDescription" : "Inspired. kitchen appliance Crafting module activated.",
-  "humanDescription" : "I could make well tuned kitchen appliances with this.",
-  "hylotlDescription" : "All you need to make kitchen appliances",
-  "novakidDescription" : "I could make some mighty fine kitchen appliances with this table.",
-
-  "inventoryIcon" : "cn_craftingkitchenicon.png",
-  "orientations" : [
-    {
-      "dualImage" : "cn_craftingkitchen.png:default",
-      "imagePosition" : [-16, 0],
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
-  ]
+ "shortdescription": "^orange;Kitchen Crafting Table^white;",
+ "avianDescription": "A chance to showcase one's kitchen appliance creation abilities.",
+ "race": "generic",
+ "novakidDescription": "I could make some mighty fine kitchen appliances with this table.",
+ "orientations": [{
+  "imagePosition": [
+   -16,
+   0
+  ],
+  "spaceScan": 0.1,
+  "dualImage": "cn_craftingkitchen.png:default",
+  "anchors": ["bottom"]
+ }],
+ "description": "Create kitchen appliances on this",
+ "printable": false,
+ "hylotlDescription": "All you need to make kitchen appliances",
+ "interactAction": "OpenCraftingInterface",
+ "glitchDescription": "Inspired. kitchen appliance Crafting module activated.",
+ "price": 8.1,
+ "colonyTags": ["crafting"],
+ "objectName": "cn_craftingkitchen",
+ "apexDescription": "A table that's fit for kitchen appliance crafting.",
+ "inventoryIcon": "cn_craftingkitchenicon.png",
+ "category": "crafting",
+ "interactData": {"config": "/interface/windowconfig/cn_craftingkitchen.config"},
+ "humanDescription": "I could make well tuned kitchen appliances with this.",
+ "floranDescription": "Floran ussse table to make nice food makersss.",
+ "rarity": "Uncommon"
 }

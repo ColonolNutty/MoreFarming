@@ -1,18 +1,16 @@
 {
-  "itemName" : "battersimpleMFM",
-  "rarity" : "Common",
-  "price" : 66.15,
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "battersimpleMFM.png",
-  "description" : "A simple batter. Suitable for coating and frying.",
-  "shortdescription" : "Batter - Simple",
-  "foodValue" : 2.76,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Batter - Simple",
+ "tooltipKind": "food",
+ "description": "A simple batter. Suitable for coating and frying.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "battersimpleMFM",
+ "price": 30.87,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "battersimpleMFM.png",
+ "foodValue": 1,
+ "category": "cookingIngredient",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

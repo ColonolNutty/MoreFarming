@@ -1,82 +1,110 @@
 {
-  "objectName" : "fryingstationMFM",
-  "colonyTags" : [ "human", "humanvillage", "cooking" ],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "I can fry food with this!",
-  "shortdescription" : "^orange;Frying Pan (Fry)^white;",
-  "subtitle" : "Fry Food!",
-  "race" : "generic",
-  "category" : "Cookware",
-  "price" : 263,
-  "objectType" : "container",
-
-  "inventoryIcon" : "fryingstationMFMicon.png",
-  "orientations" : [
+ "shortdescription": "^orange;Frying Pan (Fry)^white;",
+ "race": "generic",
+ "recipeGroup": "fryingMFM",
+ "outputConfig": "/recipeCrafterMFM/fryingMFMRecipes.config",
+ "orientations": [
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [
-        { "image" : "fryingstationMFM.png:<color>.<frame>", "fullbright" : true },
-        { "image" : "fryingstationMFMlit.png:<color>.<frame>" }
-      ],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "imagePosition" : [-8, 0],
-      "frames" : 3,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+     "image": "fryingstationMFM.png:<color>.<frame>",
+     "fullbright": true
     },
-    {
-      "imageLayers" : [
-        { "image" : "fryingstationMFM.png:<color>.<frame>", "fullbright" : true },
-        { "image" : "fryingstationMFMlit.png:<color>.<frame>" }
-      ],
-      "direction" : "right",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 3,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
-
-  ],
-
-"particleEmitter" : {
-    "emissionRate" : 2.0,
-    "emissionVariance" : 1.0,
-
-    "particle" : {
-      "type" : "ember",
-      "position" : [0.0, 0.5],
-      "size" : 1.0,
-      "color" : [249, 162, 57, 255],
-      "fade" : 0.2,
-      "initialVelocity" : [0.0, 4.0],
-      "finalVelocity" : [0.0, -1.0],
-      "approach" : [0, 20],
-      "timeToLive" : 0.8,
-      "layer" : "back"
-    },
-
-    "particleVariance" : {
-      "initialVelocity" : [-1.0, 0.4],
-      "position" : [0.6, 0]
-    }
+    {"image": "fryingstationMFMlit.png:<color>.<frame>"}
+   ],
+   "flipImages": true,
+   "frames": 3,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "left"
   },
-
-  "recipeGroup" : "fryingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/fryingMFMRecipes.config"
+  {
+   "imageLayers": [
+    {
+     "image": "fryingstationMFM.png:<color>.<frame>",
+     "fullbright": true
+    },
+    {"image": "fryingstationMFMlit.png:<color>.<frame>"}
+   ],
+   "frames": 3,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "right"
+  }
+ ],
+ "description": "I can fry food with this!",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "openSounds": ["/sfx/objects/campfire_use.ogg"],
+ "printable": false,
+ "objectType": "container",
+ "frameCooldown": 67,
+ "price": 269.58,
+ "slotCount": 16,
+ "subtitle": "Fry Food!",
+ "colonyTags": [
+  "human",
+  "humanvillage",
+  "cooking"
+ ],
+ "objectName": "fryingstationMFM",
+ "inventoryIcon": "fryingstationMFMicon.png",
+ "autoCloseCooldown": 3600,
+ "category": "Cookware",
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "scriptDelta": 1,
+ "particleEmitter": {
+  "emissionRate": 2,
+  "particleVariance": {
+   "initialVelocity": [
+    -1,
+    0.4
+   ],
+   "position": [
+    0.6,
+    0
+   ]
+  },
+  "particle": {
+   "timeToLive": 0.8,
+   "fade": 0.2,
+   "size": 1,
+   "color": [
+    249,
+    162,
+    57,
+    255
+   ],
+   "initialVelocity": [
+    0,
+    4
+   ],
+   "finalVelocity": [
+    0,
+    -1
+   ],
+   "position": [
+    0,
+    0.5
+   ],
+   "type": "ember",
+   "approach": [
+    0,
+    20
+   ],
+   "layer": "back"
+  },
+  "emissionVariance": 1
+ },
+ "retainObjectParametersInItem": true,
+ "rarity": "Common"
 }

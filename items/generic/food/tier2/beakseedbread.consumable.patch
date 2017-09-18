@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 979.26
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 39.12
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Bread - Beakseed"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 667.63
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 28.0
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Bread - Beakseed"
+} ]

@@ -1,18 +1,16 @@
 {
-  "itemName" : "shortcrustpastryMFM",
-  "rarity" : "Common",
-  "price" : 159.41,
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "shortcrustpastryMFM.png",
-  "description" : "Shortcrust pastry rolled and folded ready for use.",
-  "shortdescription" : "Shortcrust Pastry",
-  "foodValue" : 9.28,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Shortcrust Pastry",
+ "tooltipKind": "food",
+ "description": "Shortcrust pastry rolled and folded ready for use.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "shortcrustpastryMFM",
+ "price": 54.37,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "shortcrustpastryMFM.png",
+ "foodValue": 1.96,
+ "category": "cookingIngredient",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

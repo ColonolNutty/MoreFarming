@@ -1,19 +1,20 @@
 {
-  "itemName" : "toastedmarshmallowMFM",
-  "rarity" : "Common",
-  "price" : 151.9,
-  "category" : "preparedFood",
-  "inventoryIcon" : "toastedmarshmallowMFM.png",
-  "description" : "A staple camping food.",
-  "shortdescription" : "Toasted Marshmallow",
-  "foodValue" : 3.6,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+ "shortdescription": "Toasted Marshmallow",
+ "tooltipKind": "food",
+ "description": "A staple camping food.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -4
+ ],
+ "itemName": "toastedmarshmallowMFM",
+ "price": 14.1,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "toastedmarshmallowMFM.png",
+ "foodValue": 0.6,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

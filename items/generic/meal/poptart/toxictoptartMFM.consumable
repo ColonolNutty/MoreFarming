@@ -1,19 +1,20 @@
 {
-  "itemName" : "toxictoptartMFM",
-  "rarity" : "Common",
-  "price" : 1299.83,
-  "category" : "preparedFood",
-  "inventoryIcon" : "toxictoptartMFM.png",
-  "description" : "A sweet treat made from a bitter fruit.",
-  "shortdescription" : "Poptart - Toxictop",
-  "foodValue" : 43.65,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+ "shortdescription": "Poptart - Toxictop",
+ "tooltipKind": "food",
+ "description": "A sweet treat made from a bitter fruit.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -4
+ ],
+ "itemName": "toxictoptartMFM",
+ "price": 1041.43,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "toxictoptartMFM.png",
+ "foodValue": 57.09,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

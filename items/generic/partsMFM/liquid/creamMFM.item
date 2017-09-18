@@ -1,9 +1,9 @@
 {
-  "itemName" : "creamMFM",
-  "price" : 8.4,
-  "rarity" : "Common",
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "creamMFM.png",
-  "description" : "Creamy!",
-  "shortdescription" : "Cream"
+ "shortdescription": "Cream",
+ "itemName": "creamMFM",
+ "price": 20.91,
+ "description": "Creamy!",
+ "inventoryIcon": "creamMFM.png",
+ "category": "cookingIngredient",
+ "rarity": "Common"
 }

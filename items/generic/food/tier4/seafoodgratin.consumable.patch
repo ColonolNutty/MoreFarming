@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 324.85
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 43.46
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Gratin - Seafood"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 398.78
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 30.3
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Gratin - Seafood"
+} ]

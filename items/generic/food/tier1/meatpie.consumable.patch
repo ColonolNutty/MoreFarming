@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 888.83
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 83.01
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Pie - Meat"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 542.93
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 53.01
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Pie - Meat"
+} ]

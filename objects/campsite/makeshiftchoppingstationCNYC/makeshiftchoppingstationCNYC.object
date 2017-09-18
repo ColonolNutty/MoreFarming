@@ -1,44 +1,44 @@
 {
-  "objectName" : "makeshiftchoppingstationCNYC",
-  "colonyTags" : [ "cooking", "nature" ],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "A treestump makes for a perfect chopping board!",
-  "shortdescription" : "^orange;Camp Chopblock (Chop)^white;",
-  "subtitle" : "Prepare Ingredients!",
-  "race" : "generic",
-  "category" : "Makeshift Cookware",
-  "price" : 40.1,
-  "objectType" : "container",
-
-  "apexDescription" : "Resourceful",
-  "avianDescription" : "Use whats available I guess",
-  "floranDescription" : "Treestump chop meatss",
-  "glitchDescription" : "Inspect. A good use of a felled tree.",
-  "humanDescription" : "Makeshift food preparation. It'll do.",
-  "hylotlDescription" : "I can make use of this",
-
-  "inventoryIcon" : "makeshiftchoppingstationCNYCicon.png",
-  "orientations" : [
-    {
-      "dualImage" : "makeshiftchoppingstationCNYC.png",
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
+ "avianDescription": "Use whats available I guess",
+ "recipeGroup": "choppingMFM",
+ "outputConfig": "/recipeCrafterMFM/choppingMFMRecipes.config",
+ "orientations": [{
+  "frames": 1,
+  "animationCycle": 1,
+  "imagePosition": [
+   -8,
+   0
   ],
-
-  "recipeGroup" : "choppingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/choppingMFMRecipes.config"
+  "spaceScan": 0.1,
+  "dualImage": "makeshiftchoppingstationCNYC.png",
+  "anchors": ["bottom"]
+ }],
+ "description": "A treestump makes for a perfect chopping board!",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "objectType": "container",
+ "hylotlDescription": "I can make use of this",
+ "glitchDescription": "Inspect. A good use of a felled tree.",
+ "price": 0,
+ "slotCount": 16,
+ "colonyTags": [
+  "cooking",
+  "nature"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "Makeshift food preparation. It'll do.",
+ "retainObjectParametersInItem": true,
+ "shortdescription": "^orange;Camp Chopblock (Chop)^white;",
+ "race": "generic",
+ "openSounds": ["/sfx/objects/campfire_use.ogg"],
+ "printable": false,
+ "frameCooldown": 67,
+ "subtitle": "Prepare Ingredients!",
+ "objectName": "makeshiftchoppingstationCNYC",
+ "apexDescription": "Resourceful",
+ "inventoryIcon": "makeshiftchoppingstationCNYCicon.png",
+ "category": "Makeshift Cookware",
+ "scriptDelta": 1,
+ "floranDescription": "Treestump chop meatss",
+ "rarity": "Common"
 }

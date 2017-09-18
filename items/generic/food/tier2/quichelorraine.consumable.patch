@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 379.13
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 96.59
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Quiche - Lorraine"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 480.83
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 59.01
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Quiche - Lorraine"
+} ]

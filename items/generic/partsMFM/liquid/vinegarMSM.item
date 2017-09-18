@@ -1,9 +1,9 @@
 {
-  "itemName" : "vinegarMSM",
-  "price" : 26.95,
-  "rarity" : "Common",
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "vinegarMSM.png",
-  "description" : "Good ol' vinegar.",
-  "shortdescription" : "Vinegar"
+ "shortdescription": "Vinegar",
+ "itemName": "vinegarMSM",
+ "price": 41.65,
+ "description": "Good ol' vinegar.",
+ "inventoryIcon": "vinegarMSM.png",
+ "category": "cookingIngredient",
+ "rarity": "Common"
 }

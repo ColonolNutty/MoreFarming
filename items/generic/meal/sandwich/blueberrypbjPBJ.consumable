@@ -1,19 +1,20 @@
 {
-  "itemName" : "blueberrypbjPBJ",
-  "rarity" : "Uncommon",
-  "price" : 510.3,
-  "category" : "preparedFood",
-  "inventoryIcon" : "blueberrypbjPBJ.png",
-  "description" : "A sandwich made with peanut butter and blueberry jelly.",
-  "shortdescription" : "Sandwich - Blueberry PB+J",
-  "foodValue" : 34.8,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -2]
+ "shortdescription": "Sandwich - Blueberry PB+J",
+ "tooltipKind": "food",
+ "description": "A sandwich made with peanut butter and blueberry jelly.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -2
+ ],
+ "itemName": "blueberrypbjPBJ",
+ "price": 443.18,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "blueberrypbjPBJ.png",
+ "foodValue": 31.44,
+ "category": "preparedFood",
+ "rarity": "Uncommon",
+ "blockingEffects": ["wellfed"]
 }

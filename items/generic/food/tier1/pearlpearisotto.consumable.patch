@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 332.85
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 17.18
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Risotto - Pearlpea"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 346.65
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 15.81
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Risotto - Pearlpea"
+} ]

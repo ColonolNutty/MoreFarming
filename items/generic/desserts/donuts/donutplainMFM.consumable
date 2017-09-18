@@ -1,19 +1,17 @@
 {
-  "itemName" : "donutplainMFM",
-  "rarity" : "Common",
-  "price" : 186.88,
-  "category" : "preparedFood",
-  "inventoryIcon" : "donutplainMFM.png",
-  "description" : "A plain ring of fried dough.",
-  "shortdescription" : "Donut - Plain",
-  "effects" : [ [ "regeneration3" ] ],
-  "foodValue" : 9.49,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Donut - Plain",
+ "tooltipKind": "food",
+ "description": "A plain ring of fried dough.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "donutplainMFM",
+ "effects": [["regeneration3"]],
+ "price": 17.54,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "donutplainMFM.png",
+ "foodValue": 1.02,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

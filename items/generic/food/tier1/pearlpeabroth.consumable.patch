@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 377.55
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 19.53
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Broth - Pearlpea"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 337.54
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 17.53
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Broth - Pearlpea"
+} ]

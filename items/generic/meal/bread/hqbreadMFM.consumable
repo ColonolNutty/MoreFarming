@@ -1,19 +1,20 @@
 {
-  "itemName" : "hqbreadMFM",
-  "rarity" : "Uncommon",
-  "price" : 215.36,
-  "category" : "preparedFood",
-  "inventoryIcon" : "hqbreadMFM.png",
-  "description" : "How can you tell how good bread is without tasting it? The sound of the crust. Oh, the symphony of crackles...",
-  "shortdescription" : "Bread - High Quality",
-  "foodValue" : 11.04,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -3]
+ "shortdescription": "Bread - High Quality",
+ "tooltipKind": "food",
+ "description": "How can you tell how good bread is without tasting it? The sound of the crust. Oh, the symphony of crackles...",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -3
+ ],
+ "itemName": "hqbreadMFM",
+ "price": 46.01,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "hqbreadMFM.png",
+ "foodValue": 0.46,
+ "category": "preparedFood",
+ "rarity": "Uncommon",
+ "blockingEffects": ["wellfed"]
 }

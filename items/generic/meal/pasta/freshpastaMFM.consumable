@@ -1,19 +1,20 @@
 {
-  "itemName" : "freshpastaMFM",
-  "rarity" : "Common",
-  "price" : 44.1,
-  "category" : "preparedFood",
-  "inventoryIcon" : "freshpastaMFM.png",
-  "description" : "Pasta with no sauce.",
-  "shortdescription" : "Pasta - Plain",
-  "foodValue" : 2.21,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -3]
+ "shortdescription": "Pasta - Plain",
+ "tooltipKind": "food",
+ "description": "Pasta with no sauce.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -3
+ ],
+ "itemName": "freshpastaMFM",
+ "price": 8.82,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "freshpastaMFM.png",
+ "foodValue": 0.44,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

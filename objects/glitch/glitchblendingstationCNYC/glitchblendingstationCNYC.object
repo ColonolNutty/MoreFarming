@@ -1,60 +1,73 @@
 {
-  "objectName" : "glitchblendingstationCNYC",
-  "colonyTags" : [ "glitch", "glitchvillage", "cooking" ],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "A waterlogged wooden blender.",
-  "shortdescription" : "^orange;Glitch Blender (Blend)^white;",
-  "subtitle" : "Blend and Juice!",
-  "race" : "generic",
-  "objectType" : "container",
-  "category" : "Glitch Cookware",
-  "price" : 173.1,
-
-  "apexDescription" : "Splinters..",
-  "avianDescription" : "It smells..",
-  "floranDescription" : "Floran likesss smellss..",
-  "glitchDescription" : "Observation. Blender!",
-  "humanDescription" : "Smells like old socks and engine oil..",
-  "hylotlDescription" : "The inside is revolting..",
-
-  "inventoryIcon" : "glitchblendingstationCNYCicon.png",
-  "orientations" : [
+ "avianDescription": "It smells..",
+ "recipeGroup": "blendingMFM",
+ "outputConfig": "/recipeCrafterMFM/blendingMFMRecipes.config",
+ "orientations": [
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "glitchblendingstationCNYC.png:<color>", "fullbright" : true }, { "image" : "glitchblendingstationCNYC.png:<color>" } ],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+     "image": "glitchblendingstationCNYC.png:<color>",
+     "fullbright": true
     },
+    {"image": "glitchblendingstationCNYC.png:<color>"}
+   ],
+   "flipImages": true,
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "left"
+  },
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "glitchblendingstationCNYC.png:<color>", "fullbright" : true }, { "image" : "glitchblendingstationCNYC.png:<color>" } ],
-      "direction" : "right",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
-
-  ],
-
-  "recipeGroup" : "blendingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/blendingMFMRecipes.config"
+     "image": "glitchblendingstationCNYC.png:<color>",
+     "fullbright": true
+    },
+    {"image": "glitchblendingstationCNYC.png:<color>"}
+   ],
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "right"
+  }
+ ],
+ "description": "A waterlogged wooden blender.",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "objectType": "container",
+ "hylotlDescription": "The inside is revolting..",
+ "glitchDescription": "Observation. Blender!",
+ "price": 167.08,
+ "slotCount": 16,
+ "colonyTags": [
+  "glitch",
+  "glitchvillage",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "Smells like old socks and engine oil..",
+ "retainObjectParametersInItem": true,
+ "shortdescription": "^orange;Glitch Blender (Blend)^white;",
+ "race": "generic",
+ "openSounds": ["/sfx/objects/campfire_use.ogg"],
+ "printable": false,
+ "frameCooldown": 67,
+ "subtitle": "Blend and Juice!",
+ "objectName": "glitchblendingstationCNYC",
+ "apexDescription": "Splinters..",
+ "inventoryIcon": "glitchblendingstationCNYCicon.png",
+ "category": "Glitch Cookware",
+ "scriptDelta": 1,
+ "floranDescription": "Floran likesss smellss..",
+ "rarity": "Common"
 }

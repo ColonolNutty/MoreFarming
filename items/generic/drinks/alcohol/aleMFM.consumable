@@ -1,19 +1,17 @@
 {
-  "itemName" : "aleMFM",
-  "rarity" : "Common",
-  "price" : 131.25,
-  "category" : "drink",
-  "inventoryIcon" : "aleMFM.png",
-  "description" : "I feel tipsy...",
-  "shortdescription" : "Alcohol - Ale",
-  "foodValue" : 4.2,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ]
+ "shortdescription": "Alcohol - Ale",
+ "tooltipKind": "food",
+ "emitters": ["drinking"],
+ "description": "I feel tipsy...",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "aleMFM",
+ "price": 66.15,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "aleMFM.png",
+ "foodValue": 2.1,
+ "category": "drink",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

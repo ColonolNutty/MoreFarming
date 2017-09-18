@@ -1,10 +1,10 @@
 {
-  "itemName" : "mixbreadbeakseedMFM",
-  "rarity" : "Common",
-  "price" : 932.63,
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "mixbreadbeakseedMFM.png",
-  "description" : "A mixture for making beakseed bread. Ready for baking.",
-  "shortdescription" : "Mix Bread - Beakseed",
-  "maxStack" : 1000
+ "shortdescription": "Mix Bread - Beakseed",
+ "itemName": "mixbreadbeakseedMFM",
+ "price": 635.84,
+ "description": "A mixture for making beakseed bread. Ready for baking.",
+ "inventoryIcon": "mixbreadbeakseedMFM.png",
+ "category": "cookingIngredient",
+ "maxStack": 1000,
+ "rarity": "Common"
 }

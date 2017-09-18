@@ -1,18 +1,16 @@
 {
-  "itemName" : "gariMSM",
-  "rarity" : "Common",
-  "price" : 163.8,
-  "category" : "preparedFood",
-  "inventoryIcon" : "gariMSM.png",
-  "description" : " Ginger marinated in a solution of sugar and vinegar.",
-  "shortdescription" : "Gari",
-  "foodValue" : 8.35,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Gari",
+ "tooltipKind": "food",
+ "description": " Ginger marinated in a solution of sugar and vinegar.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "gariMSM",
+ "price": 114.13,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "gariMSM.png",
+ "foodValue": 9.43,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

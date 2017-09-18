@@ -1,25 +1,24 @@
 {
-  "itemName" : "jelonbreadMFM",
-  "rarity" : "Common",
-  "price" : 198.45,
-  "category" : "food",
-  "inventoryIcon" : "jelonbreadMFM.png",
-  "description" : "Bread made with jelon. Tasty!",
-  "shortdescription" : "Bread - Jelon",
-  "effects" : [ [
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 70
-      }
-    ] ],
-  "foodValue" : 11.14,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+ "shortdescription": "Bread - Jelon",
+ "tooltipKind": "food",
+ "description": "Bread made with jelon. Tasty!",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -4
+ ],
+ "itemName": "jelonbreadMFM",
+ "effects": [[{
+  "duration": 70,
+  "effect": "maxenergyscalingboostfood"
+ }]],
+ "price": 29.11,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "jelonbreadMFM.png",
+ "foodValue": 2.67,
+ "category": "food",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

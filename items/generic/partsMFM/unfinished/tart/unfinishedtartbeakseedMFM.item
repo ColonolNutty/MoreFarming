@@ -1,10 +1,10 @@
 {
-  "itemName" : "unfinishedtartbeakseedMFM",
-  "rarity" : "Common",
-  "price" : 403.63,
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "unfinishedtartbeakseedMFM.png",
-  "description" : "A pastry covered in beakseed jam. Ready for baking.",
-  "shortdescription" : "Tart Unfinished - Beakseed",
-  "maxStack" : 1000
+ "shortdescription": "Tart Unfinished - Beakseed",
+ "itemName": "unfinishedtartbeakseedMFM",
+ "price": 478.8,
+ "description": "A pastry covered in beakseed jam. Ready for baking.",
+ "inventoryIcon": "unfinishedtartbeakseedMFM.png",
+ "category": "cookingIngredient",
+ "maxStack": 1000,
+ "rarity": "Common"
 }

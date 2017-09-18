@@ -1,44 +1,45 @@
 {
-  "objectName" : "avianpurifierstationCNYC",
-  "colonyTags" : [ "avian", "avianvillage", "cooking" ],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "A golden teapot!",
-  "shortdescription" : "^orange;Avian Teapot (Purify)^white;",
-  "subtitle" : "Purify Water!",
-  "race" : "generic",
-  "category" : "Avian Cookware",
-  "price" : 122.2,
-  "objectType" : "container",
-
-  "apexDescription" : "Well.. that is fancy!",
-  "avianDescription" : "A perfect centerpiece!",
-  "floranDescription" : "Floran likes ssshiny..",
-  "glitchDescription" : "Observation. Delicate plated teapot.",
-  "humanDescription" : "It's like elevenses with old-former-now-destroyed-world leaders!",
-  "hylotlDescription" : "Very quiant",
-
-  "inventoryIcon" : "avianpurifierstationCNYCicon.png",
-  "orientations" : [
-    {
-      "dualImage" : "avianpurifierstationCNYC.png:<color>",
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
+ "avianDescription": "A perfect centerpiece!",
+ "recipeGroup": "purifyingMFM",
+ "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config",
+ "orientations": [{
+  "frames": 1,
+  "animationCycle": 1,
+  "imagePosition": [
+   -8,
+   0
   ],
-
-  "recipeGroup" : "purifyingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config"
+  "spaceScan": 0.1,
+  "dualImage": "avianpurifierstationCNYC.png:<color>",
+  "anchors": ["bottom"]
+ }],
+ "description": "A golden teapot!",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "objectType": "container",
+ "hylotlDescription": "Very quiant",
+ "glitchDescription": "Observation. Delicate plated teapot.",
+ "price": 124.25,
+ "slotCount": 16,
+ "colonyTags": [
+  "avian",
+  "avianvillage",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "It's like elevenses with old-former-now-destroyed-world leaders!",
+ "retainObjectParametersInItem": true,
+ "shortdescription": "^orange;Avian Teapot (Purify)^white;",
+ "race": "generic",
+ "openSounds": ["/sfx/objects/campfire_use.ogg"],
+ "printable": false,
+ "frameCooldown": 67,
+ "subtitle": "Purify Water!",
+ "objectName": "avianpurifierstationCNYC",
+ "apexDescription": "Well.. that is fancy!",
+ "inventoryIcon": "avianpurifierstationCNYCicon.png",
+ "category": "Avian Cookware",
+ "scriptDelta": 1,
+ "floranDescription": "Floran likes ssshiny..",
+ "rarity": "Common"
 }

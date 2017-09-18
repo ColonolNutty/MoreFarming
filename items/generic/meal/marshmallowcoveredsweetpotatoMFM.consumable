@@ -1,19 +1,20 @@
 {
-  "itemName" : "marshmallowcoveredsweetpotatoMFM",
-  "rarity" : "Common",
-  "price" : 751.24,
-  "category" : "preparedFood",
-  "inventoryIcon" : "marshmallowcoveredsweetpotatoMFM.png",
-  "description" : "A baked sweet potato with butter, covered in marshmallows.",
-  "shortdescription" : "Marshmallow Sw. Potato",
-  "foodValue" : 30.13,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+ "shortdescription": "Marshmallow Sw. Potato",
+ "tooltipKind": "food",
+ "description": "A baked sweet potato with butter, covered in marshmallows.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -4
+ ],
+ "itemName": "marshmallowcoveredsweetpotatoMFM",
+ "price": 206.95,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "marshmallowcoveredsweetpotatoMFM.png",
+ "foodValue": 14.4,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

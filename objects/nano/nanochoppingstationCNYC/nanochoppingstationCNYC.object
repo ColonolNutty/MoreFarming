@@ -1,72 +1,84 @@
 {
-  "objectName" : "nanochoppingstationCNYC",
-  "tags" : [ "cooking", "electronic" ],
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "Holographic knives with a nanosteel surface. Hygienic!",
-  "shortdescription" : "Nanochop Board (Chop)",
-  "subtitle" : "Effortless preparation.",
-  "race" : "generic",
-  "objectType" : "container",
-  "category" : "crafting",
-  "price" : 505,
-
-  "maximumLiquidLevel" : 0.2,
-
-  "apexDescription" : "Self-whetting blades? Remarkable!",
-  "avianDescription" : "Those knives could slice through steel!",
-  "floranDescription" : "Floran like glowy sstabby..",
-  "glitchDescription" : "Admiration. Glow in the dark cutlery.",
-  "humanDescription" : "Holographic knives! Chefnobi!.. I'll get my coat..",
-  "hylotlDescription" : "Knives that do not require sharpening",
-
-  "lightColor" : [125, 143, 179],
-
-  "flickerPeriod" : 0.3,
-  "flickerMinIntensity" : 0.95,
-  "flickerMaxIntensity" : 1,
-  "flickerPeriodVariance" : 0.075,
-  "flickerIntensityVariance" : 0.025,
-
-  "inventoryIcon" : "nanochoppingstationCNYCicon.png",
-  "orientations" : [
+ "avianDescription": "Those knives could slice through steel!",
+ "flickerPeriod": 0.3,
+ "recipeGroup": "choppingMFM",
+ "outputConfig": "/recipeCrafterMFM/choppingMFMRecipes.config",
+ "flickerMinIntensity": 0.95,
+ "flickerPeriodVariance": 0.075,
+ "orientations": [
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "nanochoppingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "nanochoppingstationCNYClit.png:<color>.<frame>" } ],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+     "image": "nanochoppingstationCNYC.png:<color>.<frame>",
+     "fullbright": true
     },
+    {"image": "nanochoppingstationCNYClit.png:<color>.<frame>"}
+   ],
+   "flipImages": true,
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "left"
+  },
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "nanochoppingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "nanochoppingstationCNYClit.png:<color>.<frame>" } ],
-      "direction" : "right",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
-  ],
-
-  "soundEffect" : "/sfx/objects/campfire.ogg",
-
-  "statusEffects" : [ ],
-
-  "recipeGroup" : "choppingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/choppingMFMRecipes.config"
+     "image": "nanochoppingstationCNYC.png:<color>.<frame>",
+     "fullbright": true
+    },
+    {"image": "nanochoppingstationCNYClit.png:<color>.<frame>"}
+   ],
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "right"
+  }
+ ],
+ "description": "Holographic knives with a nanosteel surface. Hygienic!",
+ "maximumLiquidLevel": 0.2,
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "flickerMaxIntensity": 1,
+ "objectType": "container",
+ "hylotlDescription": "Knives that do not require sharpening",
+ "statusEffects": [],
+ "glitchDescription": "Admiration. Glow in the dark cutlery.",
+ "price": 517.63,
+ "slotCount": 16,
+ "soundEffect": "/sfx/objects/campfire.ogg",
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "Holographic knives! Chefnobi!.. I'll get my coat..",
+ "shortdescription": "Nanochop Board (Chop)",
+ "race": "generic",
+ "lightColor": [
+  125,
+  143,
+  179
+ ],
+ "openSounds": ["/sfx/objects/campfire_use.ogg"],
+ "printable": false,
+ "tags": [
+  "cooking",
+  "electronic"
+ ],
+ "frameCooldown": 67,
+ "subtitle": "Effortless preparation.",
+ "objectName": "nanochoppingstationCNYC",
+ "apexDescription": "Self-whetting blades? Remarkable!",
+ "inventoryIcon": "nanochoppingstationCNYCicon.png",
+ "category": "crafting",
+ "flickerIntensityVariance": 0.025,
+ "scriptDelta": 1,
+ "floranDescription": "Floran like glowy sstabby..",
+ "rarity": "Common"
 }

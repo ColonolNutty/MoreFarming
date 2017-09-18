@@ -1,21 +1,22 @@
 {
-  "itemName" : "milkshakestrawberryMFM",
-  "rarity" : "Common",
-  "price" : 97.13,
-  "category" : "preparedFood",
-  "inventoryIcon" : "milkshakestrawberryMFM.png",
-  "description" : "A milkshake made with strawberries. Yum!",
-  "shortdescription" : "Milkshake - Strawberry",
-  "foodValue" : 14.64,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ],
-  "emote" : "Happy",
-  "handPosition" : [0, -4]
+ "shortdescription": "Milkshake - Strawberry",
+ "tooltipKind": "food",
+ "emitters": ["drinking"],
+ "description": "A milkshake made with strawberries. Yum!",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -4
+ ],
+ "itemName": "milkshakestrawberryMFM",
+ "price": 159.66,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "emote": "Happy",
+ "inventoryIcon": "milkshakestrawberryMFM.png",
+ "foodValue": 8.44,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

@@ -1,67 +1,84 @@
 {
-  "objectName" : "avianbakingstationCNYC",
-  "colonyTags" : [ "avian", "avianvillage", "cooking" ],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "A temperd clay fireoven!",
-  "shortdescription" : "^orange;Avian Clay Oven (Bake)^white;",
-  "subtitle" : "Bake Food!",
-  "race" : "generic",
-  "category" : "Avian Cookware",
-  "price" : 36.4,
-  "objectType" : "container",
-
-  "apexDescription" : "Suprisingly warm!",
-  "avianDescription" : "Smells wonderful, I feel at home.",
-  "floranDescription" : "Floran disslikess hotboxesss.",
-  "glitchDescription" : "Inspect. Very hot firing kiln.",
-  "humanDescription" : "Smells like spices.. I LOVE SPICES!",
-  "hylotlDescription" : "It retains it's heat for hours, perfect for evening cooking.",
-
-  "lightColor" : [218, 83, 2, 5],
-
-  "flickerPeriod" : 0.8,
-  "flickerMinIntensity" : 0.2,
-  "flickerMaxIntensity" : 0.3,
-  "flickerPeriodVariance" : 0.075,
-  "flickerIntensityVariance" : 0.025,
-
-  "inventoryIcon" : "avianbakingstationCNYCicon.png",
-  "orientations" : [
+ "avianDescription": "Smells wonderful, I feel at home.",
+ "flickerPeriod": 0.8,
+ "recipeGroup": "bakingMFM",
+ "outputConfig": "/recipeCrafterMFM/bakingMFMRecipes.config",
+ "flickerMinIntensity": 0.2,
+ "flickerPeriodVariance": 0.075,
+ "orientations": [
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "avianbakingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "avianbakingstationCNYClit.png:<color>.<frame>" } ],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "imagePosition" : [-8, 0],
-      "frames" : 4,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+     "image": "avianbakingstationCNYC.png:<color>.<frame>",
+     "fullbright": true
     },
+    {"image": "avianbakingstationCNYClit.png:<color>.<frame>"}
+   ],
+   "flipImages": true,
+   "frames": 4,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "left"
+  },
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "avianbakingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "avianbakingstationCNYClit.png:<color>.<frame>" } ],
-      "direction" : "right",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 4,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
-  ],
-
-  "recipeGroup" : "bakingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/bakingMFMRecipes.config"
+     "image": "avianbakingstationCNYC.png:<color>.<frame>",
+     "fullbright": true
+    },
+    {"image": "avianbakingstationCNYClit.png:<color>.<frame>"}
+   ],
+   "frames": 4,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "right"
+  }
+ ],
+ "description": "A temperd clay fireoven!",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "flickerMaxIntensity": 0.3,
+ "objectType": "container",
+ "hylotlDescription": "It retains it's heat for hours, perfect for evening cooking.",
+ "glitchDescription": "Inspect. Very hot firing kiln.",
+ "price": 20.2,
+ "slotCount": 16,
+ "colonyTags": [
+  "avian",
+  "avianvillage",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "Smells like spices.. I LOVE SPICES!",
+ "retainObjectParametersInItem": true,
+ "shortdescription": "^orange;Avian Clay Oven (Bake)^white;",
+ "race": "generic",
+ "lightColor": [
+  218,
+  83,
+  2,
+  5
+ ],
+ "openSounds": ["/sfx/objects/campfire_use.ogg"],
+ "printable": false,
+ "frameCooldown": 67,
+ "subtitle": "Bake Food!",
+ "objectName": "avianbakingstationCNYC",
+ "apexDescription": "Suprisingly warm!",
+ "inventoryIcon": "avianbakingstationCNYCicon.png",
+ "category": "Avian Cookware",
+ "flickerIntensityVariance": 0.025,
+ "scriptDelta": 1,
+ "floranDescription": "Floran disslikess hotboxesss.",
+ "rarity": "Common"
 }

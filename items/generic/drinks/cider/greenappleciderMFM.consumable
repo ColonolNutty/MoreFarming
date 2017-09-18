@@ -1,19 +1,17 @@
 {
-  "itemName" : "greenappleciderMFM",
-  "rarity" : "Common",
-  "price" : 4.63,
-  "category" : "drink",
-  "inventoryIcon" : "greenappleciderMFM.png",
-  "description" : "Not actually green, but sweeter and sour!",
-  "shortdescription" : "Cider - Green Apple",
-  "foodValue" : 1.16,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ]
+ "shortdescription": "Cider - Green Apple",
+ "tooltipKind": "food",
+ "emitters": ["drinking"],
+ "description": "Not actually green, but sweeter and sour!",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "greenappleciderMFM",
+ "price": 23.15,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "greenappleciderMFM.png",
+ "foodValue": 5.79,
+ "category": "drink",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

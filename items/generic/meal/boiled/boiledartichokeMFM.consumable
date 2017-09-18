@@ -1,19 +1,20 @@
 {
-  "itemName" : "boiledartichokeMFM",
-  "rarity" : "Common",
-  "price" : 84,
-  "category" : "preparedFood",
-  "inventoryIcon" : "boiledartichokeMFM.png",
-  "description" : "An artichoke boiled in water.",
-  "shortdescription" : "Boiled Artichoke",
-  "foodValue" : 10.5,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+ "shortdescription": "Boiled Artichoke",
+ "tooltipKind": "food",
+ "description": "An artichoke boiled in water.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -4
+ ],
+ "itemName": "boiledartichokeMFM",
+ "price": 88.2,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "boiledartichokeMFM.png",
+ "foodValue": 11.03,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

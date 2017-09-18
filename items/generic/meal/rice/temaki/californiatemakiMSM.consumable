@@ -1,29 +1,27 @@
 {
-  "itemName" : "californiatemakiMSM",
-  "rarity" : "Uncommon",
-  "price" : 415.18,
-	"category" : "drink",
-  "inventoryIcon" : "californiatemakiMSM.png",
-  "description" : "Chopped cucumber, lemon juice, and raw fish, wrapped in rice and kelp",
-  "shortdescription" : "Temaki - California",
-  "effects" : [ [
-    {
-        "effect" : "jumpboostfood",
-        "duration" : 30
-    },
-    {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 120
-    }
-  ] ],
-	"foodValue" : 45.78,
-	"tooltipKind" : "food",
-	"builder" : "/items/buildscripts/buildfood.lua",
-	"maxStack" : 1000,
-	"itemAgingScripts" : ["/scripts/items/rotting.lua"],
-	"rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ]
+ "shortdescription": "Temaki - California",
+ "tooltipKind": "food",
+ "emitters": ["drinking"],
+ "description": "Chopped cucumber, lemon juice, and raw fish, wrapped in rice and kelp",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "californiatemakiMSM",
+ "effects": [[
+  {
+   "duration": 30,
+   "effect": "jumpboostfood"
+  },
+  {
+   "duration": 120,
+   "effect": "maxhealthscalingboostfood"
+  }
+ ]],
+ "price": 470.74,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "californiatemakiMSM.png",
+ "foodValue": 50.41,
+ "category": "drink",
+ "rarity": "Uncommon",
+ "blockingEffects": ["wellfed"]
 }

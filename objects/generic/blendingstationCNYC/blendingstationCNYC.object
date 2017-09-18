@@ -1,45 +1,46 @@
 {
-  "objectName" : "blendingstationCNYC",
-  "colonyTags" : [ "human", "humanvillage", "cooking" ],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "A blender! Blends, juices, blends and blends!",
-  "shortdescription" : "^orange;Blender (Blend)^white;",
-  "subtitle" : "Blend and Juice!",
-  "race" : "generic",
-  "category" : "Basic Cookware",
-  "price" : 163,
-  "objectType" : "container",
-
-  "apexDescription" : "Banana milkshakes.. heaven!",
-  "avianDescription" : "Novel..",
-  "floranDescription" : "Floran make meat drinksss",
-  "glitchDescription" : "Wonder. Does it?",
-  "humanDescription" : "Wooo.. question is, does it blend?!",
-  "hylotlDescription" : "A blender? Interesting",
-
-  "inventoryIcon" : "blendingstationCNYCicon.png",
-  "orientations" : [
-    {
-      "dualImage" : "blendingstationCNYC.png:<color>",
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
+ "avianDescription": "Novel..",
+ "recipeGroup": "blendingMFM",
+ "outputConfig": "/recipeCrafterMFM/blendingMFMRecipes.config",
+ "orientations": [{
+  "frames": 1,
+  "animationCycle": 1,
+  "imagePosition": [
+   -8,
+   0
   ],
-
-  "recipeGroup" : "blendingMFM",
-  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/blendingMFMRecipes.config"
+  "spaceScan": 0.1,
+  "dualImage": "blendingstationCNYC.png:<color>",
+  "anchors": ["bottom"]
+ }],
+ "description": "A blender! Blends, juices, blends and blends!",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "objectType": "container",
+ "hylotlDescription": "A blender? Interesting",
+ "glitchDescription": "Wonder. Does it?",
+ "price": 167.08,
+ "closeSounds": ["/sfx/objects/woodenbox_close.ogg"],
+ "slotCount": 16,
+ "colonyTags": [
+  "human",
+  "humanvillage",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "Wooo.. question is, does it blend?!",
+ "retainObjectParametersInItem": true,
+ "shortdescription": "^orange;Blender (Blend)^white;",
+ "race": "generic",
+ "openSounds": ["/sfx/objects/woodenbox_open.ogg"],
+ "printable": false,
+ "frameCooldown": 67,
+ "subtitle": "Blend and Juice!",
+ "objectName": "blendingstationCNYC",
+ "apexDescription": "Banana milkshakes.. heaven!",
+ "inventoryIcon": "blendingstationCNYCicon.png",
+ "category": "Basic Cookware",
+ "scriptDelta": 1,
+ "floranDescription": "Floran make meat drinksss",
+ "rarity": "Common"
 }

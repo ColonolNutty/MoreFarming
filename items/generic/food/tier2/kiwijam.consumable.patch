@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 748.8
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 40.13
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Jam - Kiwi"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 497.7
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 40.13
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Jam - Kiwi"
+} ]

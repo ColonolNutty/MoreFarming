@@ -1,10 +1,10 @@
 {
-  "itemName" : "mixcakechocolateMFM",
-  "rarity" : "Common",
-  "price" : 460.42,
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "mixcakechocolateMFM.png",
-  "description" : "Cake mix for making chocolate cake. Ready for baking.",
-  "shortdescription" : "Mix Cake - Chocolate",
-  "maxStack" : 1000
+ "shortdescription": "Mix Cake - Chocolate",
+ "itemName": "mixcakechocolateMFM",
+ "price": 279.9,
+ "description": "Cake mix for making chocolate cake. Ready for baking.",
+ "inventoryIcon": "mixcakechocolateMFM.png",
+ "category": "cookingIngredient",
+ "maxStack": 1000,
+ "rarity": "Common"
 }

@@ -1,68 +1,75 @@
 {
-  "objectName" : "bakingstationCNYC",
-  "colonyTags" : [ "human", "humanvillage", "cooking" ],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "An Oven! I can bake, roast and dry with this!",
-  "shortdescription" : "^orange;Oven (Bake)^white;",
-  "subtitle" : "Bake, Roast and Dry!",
-  "race" : "generic",
-  "category" : "Basic Cookware",
-  "price" : 269.15,
-  "objectType" : "container",
-
-  "apexDescription" : "It's an oven, the label reads Corden Jamsey Limited Edition.",
-  "avianDescription" : "Who is Corden Jamsey anyway?",
-  "floranDescription" : "Hot box. Floran not sssleep in.",
-  "glitchDescription" : "Admiration. Fit for a king!",
-  "humanDescription" : "It even cleans itself! What a time to be alive!",
-  "hylotlDescription" : "Limited Edition? Wonder how many were made.",
-
-  "inventoryIcon" : "bakingstationCNYCicon.png",
-  "orientations" : [
+ "avianDescription": "Who is Corden Jamsey anyway?",
+ "recipeGroup": "bakingMFM",
+ "outputConfig": "/recipeCrafterMFM/bakingMFMRecipes.config",
+ "orientations": [
+  {
+   "collision": "platform",
+   "imageLayers": [
     {
-      "imageLayers" : [
-        { "image" : "bakingstationCNYC.png:<color>", "fullbright" : true },
-        { "image" : "bakingstationCNYClit.png:<color>" }
-      ],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
+     "image": "bakingstationCNYC.png:<color>",
+     "fullbright": true
     },
+    {"image": "bakingstationCNYClit.png:<color>"}
+   ],
+   "flipImages": true,
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "left"
+  },
+  {
+   "collision": "platform",
+   "imageLayers": [
     {
-      "imageLayers" : [
-        { "image" : "bakingstationCNYC.png:<color>", "fullbright" : true },
-        { "image" : "bakingstationCNYClit.png:<color>" }
-      ],
-      "direction" : "right",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
-    }
-
-  ],
-
-  "recipeGroup" : "bakingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/bakingMFMRecipes.config"
+     "image": "bakingstationCNYC.png:<color>",
+     "fullbright": true
+    },
+    {"image": "bakingstationCNYClit.png:<color>"}
+   ],
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "right"
+  }
+ ],
+ "description": "An Oven! I can bake, roast and dry with this!",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "objectType": "container",
+ "hylotlDescription": "Limited Edition? Wonder how many were made.",
+ "glitchDescription": "Admiration. Fit for a king!",
+ "price": 269.58,
+ "slotCount": 16,
+ "colonyTags": [
+  "human",
+  "humanvillage",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "It even cleans itself! What a time to be alive!",
+ "retainObjectParametersInItem": true,
+ "shortdescription": "^orange;Oven (Bake)^white;",
+ "race": "generic",
+ "openSounds": ["/sfx/objects/campfire_use.ogg"],
+ "printable": false,
+ "frameCooldown": 67,
+ "subtitle": "Bake, Roast and Dry!",
+ "objectName": "bakingstationCNYC",
+ "apexDescription": "It's an oven, the label reads Corden Jamsey Limited Edition.",
+ "inventoryIcon": "bakingstationCNYCicon.png",
+ "category": "Basic Cookware",
+ "scriptDelta": 1,
+ "floranDescription": "Hot box. Floran not sssleep in.",
+ "rarity": "Common"
 }

@@ -1,19 +1,20 @@
 {
-  "itemName" : "frenchfrieswithketchupMFM",
-  "rarity" : "Common",
-  "price" : 402.73,
-  "category" : "preparedFood",
-  "inventoryIcon" : "frenchfrieswithketchupMFM.png",
-  "description" : "A strange combo if you think about it..",
-  "shortdescription" : "Fries - French With Ketchup",
-  "foodValue" : 21.83,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+ "shortdescription": "Fries - French With Ketchup",
+ "tooltipKind": "food",
+ "description": "A strange combo if you think about it..",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -4
+ ],
+ "itemName": "frenchfrieswithketchupMFM",
+ "price": 334.37,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "frenchfrieswithketchupMFM.png",
+ "foodValue": 21.83,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

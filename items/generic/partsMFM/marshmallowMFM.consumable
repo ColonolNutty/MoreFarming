@@ -1,18 +1,16 @@
 {
-  "itemName": "marshmallowMFM",
-  "rarity": "Common",
-  "price": 144.67,
-  "category" : "cookingIngredient",
-  "inventoryIcon": "marshmallowMFM.png",
-  "description": "Fluffy little sugar blobs.",
-  "shortdescription": "Marshmallow",
-  "foodValue" : 3.43,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "maxStack" : 1000,
-  "blockingEffects": [
-      "wellfed"
-  ]
+ "shortdescription": "Marshmallow",
+ "tooltipKind": "food",
+ "description": "Fluffy little sugar blobs.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "marshmallowMFM",
+ "price": 13.43,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "marshmallowMFM.png",
+ "foodValue": 0.57,
+ "category": "cookingIngredient",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

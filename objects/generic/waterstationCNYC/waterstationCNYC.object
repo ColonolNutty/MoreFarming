@@ -1,107 +1,156 @@
 {
-  "objectName" : "waterstationCNYC",
-  "colonyTags" : [ "human", "humanvillage", "cooking" ],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "A fresh water dispenser!",
-  "shortdescription" : "^orange;Water Dispenser (Water)^white;",
-  "race" : "generic",
-  "objectType" : "container",
-  "tooltipKind" : "container",
-  "category" : "Basic Cookware",
-  "price" : 266.15,
-
-  "apexDescription" : "Cool, clear water. Refreshing!",
-  "avianDescription" : "I could do with a drink.",
-  "floranDescription" : "Floran drinksss from taps..",
-  "glitchDescription" : "Gossiping. I'm not sure about all these apex.",
-  "humanDescription" : "Refreshing, and stylish!.",
-  "hylotlDescription" : "Nice, but sadly not enough to swim in.",
-
-  "inventoryIcon" : "waterstationCNYCicon.png",
-  "orientations" : [
+ "avianDescription": "I could do with a drink.",
+ "recipeGroup": "waterMFM",
+ "tooltipKind": "container",
+ "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config",
+ "orientations": [
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "waterstationCNYC.png:<color>", "fullbright" : true }, { "image" : "waterstationCNYClit.png:<color>" } ],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+     "image": "waterstationCNYC.png:<color>",
+     "fullbright": true
     },
+    {"image": "waterstationCNYClit.png:<color>"}
+   ],
+   "flipImages": true,
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "left"
+  },
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "waterstationCNYC.png:<color>", "fullbright" : true }, { "image" : "waterstationCNYClit.png:<color>" } ],
-      "direction" : "right",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
-
+     "image": "waterstationCNYC.png:<color>",
+     "fullbright": true
+    },
+    {"image": "waterstationCNYClit.png:<color>"}
+   ],
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "right"
+  }
+ ],
+ "description": "A fresh water dispenser!",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "objectType": "container",
+ "hylotlDescription": "Nice, but sadly not enough to swim in.",
+ "glitchDescription": "Gossiping. I'm not sure about all these apex.",
+ "price": 269.58,
+ "closeSounds": ["/sfx/objects/sinkMFMexit.wav"],
+ "slotCount": 16,
+ "colonyTags": [
+  "human",
+  "humanvillage",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": [
+  "/scripts/npcToyObject.lua",
+  "/recipeCrafterMFM/recipeCrafterMFM.lua"
+ ],
+ "humanDescription": "Refreshing, and stylish!.",
+ "particleEmitter": {
+  "emissionRate": 6,
+  "particleVariance": {
+   "initialVelocity": [
+    0.5,
+    2
+   ],
+   "position": [
+    0.4,
+    0
+   ]
+  },
+  "particle": {
+   "timeToLive": 0.3,
+   "fade": 2,
+   "size": 1,
+   "color": [
+    200,
+    200,
+    200,
+    100
+   ],
+   "initialVelocity": [
+    0,
+    4
+   ],
+   "finalVelocity": [
+    0,
+    2
+   ],
+   "position": [
+    0.8,
+    1
+   ],
+   "type": "ember",
+   "approach": [
+    0,
+    20
+   ],
+   "layer": "back"
+  },
+  "emissionVariance": 1
+ },
+ "retainObjectParametersInItem": true,
+ "shortdescription": "^orange;Water Dispenser (Water)^white;",
+ "race": "generic",
+ "openSounds": ["/sfx/objects/sinkMFMenter.wav"],
+ "printable": false,
+ "npcToy": {
+  "preciseStandPositionRight": [
+   1,
+   0
   ],
-
-  "particleEmitter" : {
-    "emissionRate" : 6.0,
-    "emissionVariance" : 1.0,
-
-    "particle" : {
-      "type" : "ember",
-      "position" : [0.8, 1],
-      "size" : 1.0,
-      "color" : [200, 200, 200, 100],
-      "fade" : 2,
-      "initialVelocity" : [0.0, 4.0],
-      "finalVelocity" : [0.0, 2.0],
-      "approach" : [0, 20],
-      "timeToLive" : 0.3,
-      "layer" : "back"
-    },
-
-    "particleVariance" : {
-      "initialVelocity" : [0.5, 2.0],
-      "position" : [0.4, 0]
-    }
-  },
-    
-  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "npcToy" : {
-    "influence" : [
-      "watercoolerCollect",
-      "watercoolerConsume",
-      "watercoolerComplete"
+  "preciseStandPositionLeft": [
+   -1,
+   0
+  ],
+  "maxNpcs": 1,
+  "defaultReactions": {
+   "watercoolerConsume": [[
+    1,
+    "drink"
+   ]],
+   "watercoolerComplete": [
+    [
+     1,
+     "smile"
     ],
-    "defaultReactions" : {
-      "watercoolerCollect" : [
-        [1.0, "crouchcollect"]
-      ],
-      "watercoolerConsume" : [
-        [1.0, "drink"]
-      ],
-      "watercoolerComplete" : [
-        [1.0, "smile"],
-        [0.1, "vomit"]
-      ]
-    },
-    "preciseStandPositionLeft" : [-1.0, 0.0],
-    "preciseStandPositionRight" : [1.0, 0.0],
-    "maxNpcs" : 1
+    [
+     0.1,
+     "vomit"
+    ]
+   ],
+   "watercoolerCollect": [[
+    1,
+    "crouchcollect"
+   ]]
   },
-  "recipeGroup" : "waterMFM",
-  "openSounds" : [ "/sfx/objects/sinkMFMenter.wav" ],
-  "closeSounds" : [ "/sfx/objects/sinkMFMexit.wav" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config"
-
+  "influence": [
+   "watercoolerCollect",
+   "watercoolerConsume",
+   "watercoolerComplete"
+  ]
+ },
+ "frameCooldown": 67,
+ "objectName": "waterstationCNYC",
+ "apexDescription": "Cool, clear water. Refreshing!",
+ "inventoryIcon": "waterstationCNYCicon.png",
+ "category": "Basic Cookware",
+ "scriptDelta": 1,
+ "floranDescription": "Floran drinksss from taps..",
+ "rarity": "Common"
 }

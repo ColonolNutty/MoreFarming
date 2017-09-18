@@ -1,18 +1,16 @@
 {
-  "itemName" : "icinglemonMFM",
-  "rarity" : "Common",
-  "price" : 33.74,
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "icinglemonMFM.png",
-  "description" : "Lemon flavoured icing. Sour!",
-  "shortdescription" : "Icing - Lemon",
-  "foodValue" : 1.38,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Icing - Lemon",
+ "tooltipKind": "food",
+ "description": "Lemon flavoured icing. Sour!",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "icinglemonMFM",
+ "price": 90.3,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "icinglemonMFM.png",
+ "foodValue": 6.02,
+ "category": "cookingIngredient",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

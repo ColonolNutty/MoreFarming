@@ -1,19 +1,17 @@
 {
-  "itemName" : "bananajuiceMFM",
-  "rarity" : "Common",
-  "price" : 126,
-  "category" : "drink",
-  "inventoryIcon" : "bananajuiceMFM.png",
-  "description" : "A popular Apex drink.",
-  "shortdescription" : "Juice - Banana",
-  "foodValue" : 3.94,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ]
+ "shortdescription": "Juice - Banana",
+ "tooltipKind": "food",
+ "emitters": ["drinking"],
+ "description": "A popular Apex drink.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "bananajuiceMFM",
+ "price": 132.3,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "bananajuiceMFM.png",
+ "foodValue": 4.14,
+ "category": "drink",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

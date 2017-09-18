@@ -1,19 +1,17 @@
 {
-  "itemName" : "sakeMFM",
-  "rarity" : "Common",
-  "price" : 337.5,
-  "category" : "drink",
-  "inventoryIcon" : "sakeMFM.png",
-  "description" : "A Hylotl alcoholic drink made from rice.",
-  "shortdescription" : "Sake",
-  "foodValue" : 10.2,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ]
+ "shortdescription": "Sake",
+ "tooltipKind": "food",
+ "emitters": ["drinking"],
+ "description": "A Hylotl alcoholic drink made from rice.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "sakeMFM",
+ "price": 272.4,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "sakeMFM.png",
+ "foodValue": 10.2,
+ "category": "drink",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

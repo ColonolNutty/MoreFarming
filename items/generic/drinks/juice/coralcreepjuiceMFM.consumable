@@ -1,19 +1,17 @@
 {
-  "itemName" : "coralcreepjuiceMFM",
-  "rarity" : "Common",
-  "price" : 105,
-  "category" : "drink",
-  "inventoryIcon" : "coralcreepjuiceMFM.png",
-  "description" : "Some coralcreep juice.",
-  "shortdescription" : "Juice - Coralcreep",
-  "foodValue" : 2.63,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ]
+ "shortdescription": "Juice - Coralcreep",
+ "tooltipKind": "food",
+ "emitters": ["drinking"],
+ "description": "Some coralcreep juice.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "coralcreepjuiceMFM",
+ "price": 110.25,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "coralcreepjuiceMFM.png",
+ "foodValue": 2.76,
+ "category": "drink",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

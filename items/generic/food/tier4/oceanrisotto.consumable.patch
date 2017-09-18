@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 996.41
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 63.53
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Risotto - Ocean"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 1010.2
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 62.15
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Risotto - Ocean"
+} ]

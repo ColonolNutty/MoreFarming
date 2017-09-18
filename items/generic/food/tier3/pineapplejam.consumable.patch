@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 876.9
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 40.13
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Jam - Pineapple"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 625.8
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 40.13
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Jam - Pineapple"
+} ]

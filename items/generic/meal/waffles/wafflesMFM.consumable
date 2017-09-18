@@ -1,19 +1,20 @@
 {
-  "itemName" : "wafflesMFM",
-  "rarity" : "Common",
-  "price" : 348.71,
-  "category" : "preparedFood",
-  "inventoryIcon" : "wafflesMFM.png",
-  "description" : "Do you like waffles?",
-  "shortdescription" : "Waffles - Plain",
-  "foodValue" : 17.45,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+ "shortdescription": "Waffles - Plain",
+ "tooltipKind": "food",
+ "description": "Do you like waffles?",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -4
+ ],
+ "itemName": "wafflesMFM",
+ "price": 18.08,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "wafflesMFM.png",
+ "foodValue": 0.9,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

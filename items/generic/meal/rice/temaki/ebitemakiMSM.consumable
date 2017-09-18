@@ -1,29 +1,27 @@
 {
-  "itemName" : "ebitemakiMSM",
-  "rarity" : "Uncommon",
-  "price" : 397.3,
-	"category" : "drink",
-  "inventoryIcon" : "ebitemakiMSM.png",
-  "description" : "Cooked shrimp, poultry, and cucumber, wrapped in rice and kelp.",
-  "shortdescription" : "Temaki - Ebi",
-  "effects" : [ [
-    {
-        "effect" : "jumpboostfood",
-        "duration" : 30
-    },
-    {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 120
-    }
-  ] ],
-	"foodValue" : 51.59,
-	"tooltipKind" : "food",
-	"builder" : "/items/buildscripts/buildfood.lua",
-	"maxStack" : 1000,
-	"itemAgingScripts" : ["/scripts/items/rotting.lua"],
-	"rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ]
+ "shortdescription": "Temaki - Ebi",
+ "tooltipKind": "food",
+ "emitters": ["drinking"],
+ "description": "Cooked shrimp, poultry, and cucumber, wrapped in rice and kelp.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "ebitemakiMSM",
+ "effects": [[
+  {
+   "duration": 30,
+   "effect": "jumpboostfood"
+  },
+  {
+   "duration": 120,
+   "effect": "maxhealthscalingboostfood"
+  }
+ ]],
+ "price": 414.1,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "ebitemakiMSM.png",
+ "foodValue": 52.11,
+ "category": "drink",
+ "rarity": "Uncommon",
+ "blockingEffects": ["wellfed"]
 }

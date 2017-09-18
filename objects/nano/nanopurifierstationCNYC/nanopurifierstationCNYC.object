@@ -1,72 +1,84 @@
 {
-  "objectName" : "nanopurifierstationCNYC",
-  "tags" : [ "cooking", "electronic" ],
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "Nanites purify without needing to boil!",
-  "shortdescription" : "Nano Kettle (Purify)",
-  "subtitle" : "Nanite purification.",
-  "race" : "generic",
-  "objectType" : "container",
-  "category" : "Nano Cookware",
-  "price" : 407.5,
-
-  "maximumLiquidLevel" : 0.2,
-
-  "apexDescription" : "Very efficient!",
-  "avianDescription" : "Praise nanotechnology!",
-  "floranDescription" : "Floran try blood.. no, floran drink blood insstead",
-  "glitchDescription" : "Idea. Can I program it to turn water to oil?.",
-  "humanDescription" : "It's sure going to last longer then those pre-age filters.",
-  "hylotlDescription" : "But what happens to the impurities?",
-
-  "lightColor" : [125, 143, 179],
-
-  "flickerPeriod" : 0.3,
-  "flickerMinIntensity" : 0.95,
-  "flickerMaxIntensity" : 1,
-  "flickerPeriodVariance" : 0.075,
-  "flickerIntensityVariance" : 0.025,
-
-  "inventoryIcon" : "nanopurifierstationCNYCicon.png",
-  "orientations" : [
+ "avianDescription": "Praise nanotechnology!",
+ "flickerPeriod": 0.3,
+ "recipeGroup": "purifyingMFM",
+ "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config",
+ "flickerMinIntensity": 0.95,
+ "flickerPeriodVariance": 0.075,
+ "orientations": [
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "nanopurifierstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "nanopurifierstationCNYClit.png:<color>.<frame>" } ],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+     "image": "nanopurifierstationCNYC.png:<color>.<frame>",
+     "fullbright": true
     },
+    {"image": "nanopurifierstationCNYClit.png:<color>.<frame>"}
+   ],
+   "flipImages": true,
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "left"
+  },
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "nanopurifierstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "nanopurifierstationCNYClit.png:<color>.<frame>" } ],
-      "direction" : "right",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
-  ],
-
-  "soundEffect" : "/sfx/objects/campfire.ogg",
-
-  "statusEffects" : [ ],
-
-  "recipeGroup" : "purifyingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config"
+     "image": "nanopurifierstationCNYC.png:<color>.<frame>",
+     "fullbright": true
+    },
+    {"image": "nanopurifierstationCNYClit.png:<color>.<frame>"}
+   ],
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "right"
+  }
+ ],
+ "description": "Nanites purify without needing to boil!",
+ "maximumLiquidLevel": 0.2,
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "flickerMaxIntensity": 1,
+ "objectType": "container",
+ "hylotlDescription": "But what happens to the impurities?",
+ "statusEffects": [],
+ "glitchDescription": "Idea. Can I program it to turn water to oil?.",
+ "price": 321.03,
+ "slotCount": 16,
+ "soundEffect": "/sfx/objects/campfire.ogg",
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "It's sure going to last longer then those pre-age filters.",
+ "shortdescription": "Nano Kettle (Purify)",
+ "race": "generic",
+ "lightColor": [
+  125,
+  143,
+  179
+ ],
+ "openSounds": ["/sfx/objects/campfire_use.ogg"],
+ "printable": false,
+ "tags": [
+  "cooking",
+  "electronic"
+ ],
+ "frameCooldown": 67,
+ "subtitle": "Nanite purification.",
+ "objectName": "nanopurifierstationCNYC",
+ "apexDescription": "Very efficient!",
+ "inventoryIcon": "nanopurifierstationCNYCicon.png",
+ "category": "Nano Cookware",
+ "flickerIntensityVariance": 0.025,
+ "scriptDelta": 1,
+ "floranDescription": "Floran try blood.. no, floran drink blood insstead",
+ "rarity": "Common"
 }

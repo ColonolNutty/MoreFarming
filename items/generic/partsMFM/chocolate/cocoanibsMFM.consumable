@@ -1,15 +1,15 @@
 {
-  "itemName" : "cocoanibsMFM",
-  "rarity" : "Common",
-  "price" : 99.23,
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "cocoanibsMFM.png",
-  "description" : "Not super sweet..",
-  "shortdescription" : "Cocoa Nibs",
-  "foodValue" : 2.21,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "maxStack" : 1000
+ "shortdescription": "Cocoa Nibs",
+ "tooltipKind": "food",
+ "description": "Not super sweet..",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "cocoanibsMFM",
+ "price": 94.5,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "cocoanibsMFM.png",
+ "foodValue": 2.1,
+ "category": "cookingIngredient",
+ "rarity": "Common"
 }

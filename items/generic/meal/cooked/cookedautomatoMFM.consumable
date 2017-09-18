@@ -1,18 +1,16 @@
 {
-  "itemName" : "cookedautomatoMFM",
-  "rarity" : "Common",
-  "price" : 21,
-  "category" : "preparedFood",
-  "inventoryIcon" : "cookedautomatoMFM.png",
-  "description" : "The screws add to the crunch.",
-  "shortdescription" : "Baked Automato",
-  "foodValue" : 10.5,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Baked Automato",
+ "tooltipKind": "food",
+ "description": "The screws add to the crunch.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "cookedautomatoMFM",
+ "price": 88.2,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "cookedautomatoMFM.png",
+ "foodValue": 2.76,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

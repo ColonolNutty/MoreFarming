@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 1106.63
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 96.46
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Donut - Banana Cream"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 574.06
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 67.65
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Donut - Banana Cream"
+} ]

@@ -1,43 +1,44 @@
 {
-  "objectName" : "apexpurifierstationCNYC",
-  "colonyTags" : ["apex", "apexvillage", "cooking"],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "A tea machine!",
-  "shortdescription" : "^orange;Apex Tea Machine (Purify)^white;",
-  "subtitle" : "Purifies dirty water!",
-  "race" : "generic",
-  "category" : "Apex Cookware",
-  "price" : 703,
-  "objectType" : "container",
-
-  "lightColor" : [218, 83, 2, 5],
-
-  "flickerPeriod" : 0.8,
-  "flickerMinIntensity" : 0.2,
-  "flickerMaxIntensity" : 0.3,
-  "flickerPeriodVariance" : 0.075,
-  "flickerIntensityVariance" : 0.025,
-
-  "inventoryIcon" : "apexpurifierstationCNYCicon.png",
-  "orientations" : [
-    {
-      "image" : "apexpurifierstationCNYC.png:default",
-      
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
-  ],
-
-  "recipeGroup" : "purifyingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config"
+ "flickerPeriod": 0.8,
+ "recipeGroup": "purifyingMFM",
+ "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config",
+ "flickerMinIntensity": 0.2,
+ "flickerPeriodVariance": 0.075,
+ "orientations": [{
+  "image": "apexpurifierstationCNYC.png:default",
+  "spaceScan": 0.1,
+  "anchors": ["bottom"]
+ }],
+ "description": "A tea machine!",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "flickerMaxIntensity": 0.3,
+ "objectType": "container",
+ "price": 720.58,
+ "slotCount": 16,
+ "colonyTags": [
+  "apex",
+  "apexvillage",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "retainObjectParametersInItem": true,
+ "shortdescription": "^orange;Apex Tea Machine (Purify)^white;",
+ "race": "generic",
+ "lightColor": [
+  218,
+  83,
+  2,
+  5
+ ],
+ "openSounds": ["/sfx/objects/campfire_use.ogg"],
+ "printable": false,
+ "frameCooldown": 67,
+ "subtitle": "Purifies dirty water!",
+ "objectName": "apexpurifierstationCNYC",
+ "inventoryIcon": "apexpurifierstationCNYCicon.png",
+ "category": "Apex Cookware",
+ "flickerIntensityVariance": 0.025,
+ "scriptDelta": 1,
+ "rarity": "Common"
 }

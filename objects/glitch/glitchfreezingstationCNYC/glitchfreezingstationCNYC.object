@@ -1,73 +1,88 @@
 {
-  "objectName" : "glitchfreezingstationCNYC",
-  "colonyTags" : [ "glitch", "glitchvillage", "cooking" ],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "A crate full of ice that doesn't seem to melt, used for storage or making cold treats",
-  "shortdescription" : "^orange;Glitch Ice Crate (Freeze)^white;",
-  "subtitle" : "Freeze and Chill",
-  "race" : "generic",
-  "objectType" : "container",
-  "tooltipKind" : "container",
-  "category" : "Refridgerated Glitch Cookware",
-  "price" : 20.2,
-
-  "apexDescription" : "It's full of ice.. Not exactly high tech..",
-  "avianDescription" : "That's.. a freezer?",
-  "floranDescription" : "Floran ssstick face..",
-  "glitchDescription" : "Observation. A crate of ice for freezing.",
-  "humanDescription" : "Oh an icebox! Any cold ones in there?",
-  "hylotlDescription" : "A crate of ice.. deceptivley simple",
-
-  "lightColor" : [125, 143, 179],
-
-  "flickerPeriod" : 0.3,
-  "flickerMinIntensity" : 0.5,
-  "flickerMaxIntensity" : 0.55,
-  "flickerPeriodVariance" : 0.075,
-  "flickerIntensityVariance" : 0.025,
-
-  "inventoryIcon" : "glitchfreezingstationCNYCicon.png",
-  "orientations" : [
+ "avianDescription": "That's.. a freezer?",
+ "flickerPeriod": 0.3,
+ "recipeGroup": "freezingMFM",
+ "tooltipKind": "container",
+ "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config",
+ "flickerMinIntensity": 0.5,
+ "flickerPeriodVariance": 0.075,
+ "orientations": [
+  {
+   "collision": "platform",
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "glitchfreezingstationCNYC.png:<color>", "fullbright" : true }, { "image" : "glitchfreezingstationCNYClit.png:<color>" } ],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
+     "image": "glitchfreezingstationCNYC.png:<color>",
+     "fullbright": true
     },
+    {"image": "glitchfreezingstationCNYClit.png:<color>"}
+   ],
+   "flipImages": true,
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "left"
+  },
+  {
+   "collision": "platform",
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "glitchfreezingstationCNYC.png:<color>", "fullbright" : true }, { "image" : "glitchfreezingstationCNYClit.png:<color>" } ],
-      "direction" : "right",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
-    }
-  ],
-
-  "recipeGroup" : "freezingMFM",
-  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-
-  "itemAgeMultiplier" : 0.0,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config"
+     "image": "glitchfreezingstationCNYC.png:<color>",
+     "fullbright": true
+    },
+    {"image": "glitchfreezingstationCNYClit.png:<color>"}
+   ],
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "right"
+  }
+ ],
+ "description": "A crate full of ice that doesn't seem to melt, used for storage or making cold treats",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "flickerMaxIntensity": 0.55,
+ "objectType": "container",
+ "hylotlDescription": "A crate of ice.. deceptivley simple",
+ "glitchDescription": "Observation. A crate of ice for freezing.",
+ "price": 0,
+ "closeSounds": ["/sfx/objects/woodenbox_close.ogg"],
+ "slotCount": 16,
+ "colonyTags": [
+  "glitch",
+  "glitchvillage",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "Oh an icebox! Any cold ones in there?",
+ "retainObjectParametersInItem": true,
+ "shortdescription": "^orange;Glitch Ice Crate (Freeze)^white;",
+ "race": "generic",
+ "lightColor": [
+  125,
+  143,
+  179
+ ],
+ "openSounds": ["/sfx/objects/woodenbox_open.ogg"],
+ "printable": false,
+ "frameCooldown": 67,
+ "subtitle": "Freeze and Chill",
+ "objectName": "glitchfreezingstationCNYC",
+ "apexDescription": "It's full of ice.. Not exactly high tech..",
+ "inventoryIcon": "glitchfreezingstationCNYCicon.png",
+ "itemAgeMultiplier": 0,
+ "category": "Refridgerated Glitch Cookware",
+ "flickerIntensityVariance": 0.025,
+ "scriptDelta": 1,
+ "floranDescription": "Floran ssstick face..",
+ "rarity": "Common"
 }

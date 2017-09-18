@@ -1,96 +1,127 @@
 {
-  "objectName" : "nanoboilingstationCNYC",
-  "tags" : [ "cooking", "electronic" ],
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "Boiling water in zero gravity. Science!.",
-  "shortdescription" : "Nano Boiler (Boil)",
-  "subtitle" : "Zero-G Liquid Boiler.",
-  "race" : "generic",
-  "objectType" : "container",
-  "category" : "crafting",
-  "price" : 607.5,
-
-  "maximumLiquidLevel" : 0.2,
-
-  "apexDescription" : "Anti-gravitational? Oh my..",
-  "avianDescription" : "Suspended boiling water? In a hologram?!",
-  "floranDescription" : "Floran not underssstand..",
-  "glitchDescription" : "Fear. What is this devi- Oh!",
-  "humanDescription" : "Well.. at least I don't have to stir it!",
-  "hylotlDescription" : "The hologram actually holds the water? Impressive",
-
-  "lightColor" : [125, 143, 179],
-
-  "flickerPeriod" : 0.3,
-  "flickerMinIntensity" : 0.95,
-  "flickerMaxIntensity" : 1,
-  "flickerPeriodVariance" : 0.075,
-  "flickerIntensityVariance" : 0.025,
-
-  "inventoryIcon" : "nanoboilingstationCNYCicon.png",
-  "orientations" : [
+ "avianDescription": "Suspended boiling water? In a hologram?!",
+ "flickerPeriod": 0.3,
+ "recipeGroup": "boilingMFM",
+ "outputConfig": "/recipeCrafterMFM/boilingMFMRecipes.config",
+ "flickerMinIntensity": 0.95,
+ "flickerPeriodVariance": 0.075,
+ "orientations": [
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "nanoboilingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "nanoboilingstationCNYClit.png:<color>.<frame>" } ],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "imagePosition" : [-8, 0],
-      "frames" : 4,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+     "image": "nanoboilingstationCNYC.png:<color>.<frame>",
+     "fullbright": true
     },
-    {
-      "imageLayers" : [ { "image" : "nanoboilingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "nanoboilingstationCNYClit.png:<color>.<frame>" } ],
-      "direction" : "right",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 4,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
-  ],
-
-  "particleEmitter" : {
-    "emissionRate" : 6.0,
-    "emissionVariance" : 1.0,
-
-    "particle" : {
-      "type" : "ember",
-      "position" : [0.0, 1],
-      "size" : 1.0,
-      "color" : [200, 200, 200, 100],
-      "fade" : 2,
-      "initialVelocity" : [0.0, 4.0],
-      "finalVelocity" : [0.0, 2.0],
-      "approach" : [0, 20],
-      "timeToLive" : 0.3,
-      "layer" : "back"
-    },
-
-    "particleVariance" : {
-      "initialVelocity" : [0.5, 2.0],
-      "position" : [0.4, 0]
-    }
+    {"image": "nanoboilingstationCNYClit.png:<color>.<frame>"}
+   ],
+   "flipImages": true,
+   "frames": 4,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "left"
   },
-
-
-  "soundEffect" : "/sfx/objects/campfire.ogg",
-
-  "statusEffects" : [ ],
-
-  "recipeGroup" : "boilingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/boilingMFMRecipes.config"
+  {
+   "imageLayers": [
+    {
+     "image": "nanoboilingstationCNYC.png:<color>.<frame>",
+     "fullbright": true
+    },
+    {"image": "nanoboilingstationCNYClit.png:<color>.<frame>"}
+   ],
+   "frames": 4,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "right"
+  }
+ ],
+ "description": "Boiling water in zero gravity. Science!.",
+ "maximumLiquidLevel": 0.2,
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "flickerMaxIntensity": 1,
+ "objectType": "container",
+ "hylotlDescription": "The hologram actually holds the water? Impressive",
+ "statusEffects": [],
+ "glitchDescription": "Fear. What is this devi- Oh!",
+ "price": 526.03,
+ "slotCount": 16,
+ "soundEffect": "/sfx/objects/campfire.ogg",
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "Well.. at least I don't have to stir it!",
+ "particleEmitter": {
+  "emissionRate": 6,
+  "particleVariance": {
+   "initialVelocity": [
+    0.5,
+    2
+   ],
+   "position": [
+    0.4,
+    0
+   ]
+  },
+  "particle": {
+   "timeToLive": 0.3,
+   "fade": 2,
+   "size": 1,
+   "color": [
+    200,
+    200,
+    200,
+    100
+   ],
+   "initialVelocity": [
+    0,
+    4
+   ],
+   "finalVelocity": [
+    0,
+    2
+   ],
+   "position": [
+    0,
+    1
+   ],
+   "type": "ember",
+   "approach": [
+    0,
+    20
+   ],
+   "layer": "back"
+  },
+  "emissionVariance": 1
+ },
+ "shortdescription": "Nano Boiler (Boil)",
+ "race": "generic",
+ "lightColor": [
+  125,
+  143,
+  179
+ ],
+ "openSounds": ["/sfx/objects/campfire_use.ogg"],
+ "printable": false,
+ "tags": [
+  "cooking",
+  "electronic"
+ ],
+ "frameCooldown": 67,
+ "subtitle": "Zero-G Liquid Boiler.",
+ "objectName": "nanoboilingstationCNYC",
+ "apexDescription": "Anti-gravitational? Oh my..",
+ "inventoryIcon": "nanoboilingstationCNYCicon.png",
+ "category": "crafting",
+ "flickerIntensityVariance": 0.025,
+ "scriptDelta": 1,
+ "floranDescription": "Floran not underssstand..",
+ "rarity": "Common"
 }

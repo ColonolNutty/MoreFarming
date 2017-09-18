@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 506.01
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 29.37
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Bread - Mushroom"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 194.39
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 18.25
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Bread - Mushroom"
+} ]

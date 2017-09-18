@@ -1,19 +1,20 @@
 {
-  "itemName" : "caramelsquareMFM",
-  "rarity" : "Common",
-  "price" : 787.82,
-  "category" : "preparedFood",
-  "inventoryIcon" : "caramelsquareMFM.png",
-  "description" : "Yum!",
-  "shortdescription" : "Caramel Square",
-  "foodValue" : 38.41,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+ "shortdescription": "Caramel Square",
+ "tooltipKind": "food",
+ "description": "Yum!",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -4
+ ],
+ "itemName": "caramelsquareMFM",
+ "price": 431.56,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "caramelsquareMFM.png",
+ "foodValue": 21.08,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

@@ -1,10 +1,10 @@
 {
-  "itemName" : "rawapexfritterMFM",
-  "rarity" : "Common",
-  "price" : 562.91,
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "rawapexfritterMFM.png",
-  "description" : "An apex delicacy. It just needs frying.",
-  "shortdescription" : "Raw Apex Fritter",
-  "maxStack" : 1000
+ "shortdescription": "Raw Apex Fritter",
+ "itemName": "rawapexfritterMFM",
+ "price": 393.56,
+ "description": "An apex delicacy. It just needs frying.",
+ "inventoryIcon": "rawapexfritterMFM.png",
+ "category": "cookingIngredient",
+ "maxStack": 1000,
+ "rarity": "Common"
 }

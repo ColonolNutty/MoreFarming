@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 1228.03
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 92.8
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Cake - Coffee"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 644.98
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 76.51
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Cake - Coffee"
+} ]

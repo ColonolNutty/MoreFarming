@@ -1,18 +1,16 @@
 {
-  "itemName" : "snowconeyellowMFM",
-  "rarity" : "Common",
-  "price" : 197.76,
-  "category" : "preparedFood",
-  "inventoryIcon" : "snowconeyellowMFM.png",
-  "description" : "A yellow snow cone.",
-  "shortdescription" : "Snow Cone - Yellow",
-  "foodValue" : 51.8,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Snow Cone - Yellow",
+ "tooltipKind": "food",
+ "description": "A yellow snow cone.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "snowconeyellowMFM",
+ "price": 107.88,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "snowconeyellowMFM.png",
+ "foodValue": 33.01,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

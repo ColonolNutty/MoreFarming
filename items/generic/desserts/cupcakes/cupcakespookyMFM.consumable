@@ -1,19 +1,20 @@
 {
-  "itemName" : "cupcakespookyMFM",
-  "rarity" : "Common",
-  "price" : 747.05,
-  "category" : "preparedFood",
-  "inventoryIcon" : "cupcakespookyMFM.png",
-  "description" : "A cupcake with spooky icing.",
-  "shortdescription" : "Cupcake - Spooky",
-  "foodValue" : 57.53,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+ "shortdescription": "Cupcake - Spooky",
+ "tooltipKind": "food",
+ "description": "A cupcake with spooky icing.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -4
+ ],
+ "itemName": "cupcakespookyMFM",
+ "price": 605.44,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "cupcakespookyMFM.png",
+ "foodValue": 46.22,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

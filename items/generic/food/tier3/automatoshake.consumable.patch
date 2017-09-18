@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 130.2
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 13.26
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Milkshake - Automato"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 192.74
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 7.07
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Milkshake - Automato"
+} ]

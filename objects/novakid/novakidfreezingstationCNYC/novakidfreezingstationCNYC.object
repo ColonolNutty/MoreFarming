@@ -1,87 +1,116 @@
 {
-  "objectName" : "novakidfreezingstationCNYC",
-  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
-  "rarity" : "Common",
-  "description" : "Freezes food and outlaws, used for storage or making cold treats!",
-  "shortdescription" : "^orange;Novakid Freezer (Freeze)^white;",
-  "subtitle" : "Freeze and Chill!",
-  "race" : "generic",
-  "objectType" : "container",
-  "tooltipKind" : "container",
-  "category" : "Refridgerated Nanokid Cookware",
-  "price" : 246.15,
-
-  "apexDescription" : "A stylised chest freezer",
-  "avianDescription" : "Looks cold enough.",
-  "floranDescription" : "Sssteamy..",
-  "glitchDescription" : "Observation. Cold Box. First class.",
-  "humanDescription" : "All aboard the icecream train!",
-  "hylotlDescription" : "Novel and functional.",
-
-  "inventoryIcon" : "novakidfreezingstationCNYCicon.png",
-  "orientations" : [
+ "avianDescription": "Looks cold enough.",
+ "recipeGroup": "freezingMFM",
+ "tooltipKind": "container",
+ "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config",
+ "orientations": [
+  {
+   "collision": "platform",
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "novakidfreezingstationCNYC.png:<color>", "fullbright" : true }, { "image" : "novakidfreezingstationCNYClit.png:<color>" } ],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
+     "image": "novakidfreezingstationCNYC.png:<color>",
+     "fullbright": true
     },
-    {
-      "imageLayers" : [ { "image" : "novakidfreezingstationCNYC.png:<color>", "fullbright" : true }, { "image" : "novakidfreezingstationCNYClit.png:<color>" } ],
-      "direction" : "right",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
-    }
-  ],
-    
-  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "npcToy" : {
-    "influence" : [
-      "watercoolerCollect",
-      "watercoolerConsume",
-      "watercoolerComplete"
-    ],
-    "defaultReactions" : {
-      "watercoolerCollect" : [
-        [1.0, "crouchcollect"]
-      ],
-      "watercoolerConsume" : [
-        [1.0, "drink"]
-      ],
-      "watercoolerComplete" : [
-        [1.0, "smile"],
-        [0.1, "vomit"]
-      ]
-    },
-    "preciseStandPositionLeft" : [-1.0, 0.0],
-    "preciseStandPositionRight" : [1.0, 0.0],
-    "maxNpcs" : 1
+    {"image": "novakidfreezingstationCNYClit.png:<color>"}
+   ],
+   "flipImages": true,
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "left"
   },
-  "recipeGroup" : "freezingMFM",
-  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-
-  "itemAgeMultiplier" : 0.0,
-  
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config",
-
-  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+  {
+   "collision": "platform",
+   "imageLayers": [
+    {
+     "image": "novakidfreezingstationCNYC.png:<color>",
+     "fullbright": true
+    },
+    {"image": "novakidfreezingstationCNYClit.png:<color>"}
+   ],
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "right"
+  }
+ ],
+ "description": "Freezes food and outlaws, used for storage or making cold treats!",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "objectType": "container",
+ "hylotlDescription": "Novel and functional.",
+ "glitchDescription": "Observation. Cold Box. First class.",
+ "price": 249.08,
+ "closeSounds": ["/sfx/objects/fridge_close.ogg"],
+ "slotCount": 16,
+ "soundEffect": "/sfx/objects/fridge_hum.ogg",
+ "colonyTags": [
+  "novakid",
+  "novakidvillage",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": [
+  "/scripts/npcToyObject.lua",
+  "/recipeCrafterMFM/recipeCrafterMFM.lua"
+ ],
+ "humanDescription": "All aboard the icecream train!",
+ "shortdescription": "^orange;Novakid Freezer (Freeze)^white;",
+ "race": "generic",
+ "openSounds": ["/sfx/objects/fridge_open.ogg"],
+ "npcToy": {
+  "preciseStandPositionRight": [
+   1,
+   0
+  ],
+  "preciseStandPositionLeft": [
+   -1,
+   0
+  ],
+  "maxNpcs": 1,
+  "defaultReactions": {
+   "watercoolerConsume": [[
+    1,
+    "drink"
+   ]],
+   "watercoolerComplete": [
+    [
+     1,
+     "smile"
+    ],
+    [
+     0.1,
+     "vomit"
+    ]
+   ],
+   "watercoolerCollect": [[
+    1,
+    "crouchcollect"
+   ]]
+  },
+  "influence": [
+   "watercoolerCollect",
+   "watercoolerConsume",
+   "watercoolerComplete"
+  ]
+ },
+ "frameCooldown": 67,
+ "subtitle": "Freeze and Chill!",
+ "objectName": "novakidfreezingstationCNYC",
+ "apexDescription": "A stylised chest freezer",
+ "inventoryIcon": "novakidfreezingstationCNYCicon.png",
+ "itemAgeMultiplier": 0,
+ "category": "Refridgerated Nanokid Cookware",
+ "scriptDelta": 1,
+ "floranDescription": "Sssteamy..",
+ "rarity": "Common"
 }

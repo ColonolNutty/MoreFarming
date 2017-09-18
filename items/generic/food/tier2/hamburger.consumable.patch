@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 517.83
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 38.77
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Burger - Plain"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 503.36
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 38.63
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Burger - Plain"
+} ]

@@ -1,10 +1,10 @@
 {
-  "itemName" : "creamfillingbasicMFM",
-  "rarity" : "Common",
-  "price" : 675.68,
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "creamfillingbasicMFM.png",
-  "description" : "A basic cream filling.",
-  "shortdescription" : "Cream Filling - Basic",
-  "maxStack" : 1000
+ "shortdescription": "Cream Filling - Basic",
+ "itemName": "creamfillingbasicMFM",
+ "price": 377.98,
+ "description": "A basic cream filling.",
+ "inventoryIcon": "creamfillingbasicMFM.png",
+ "category": "cookingIngredient",
+ "maxStack": 1000,
+ "rarity": "Common"
 }

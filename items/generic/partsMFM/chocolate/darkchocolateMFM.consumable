@@ -1,19 +1,20 @@
 {
-  "itemName" : "darkchocolateMFM",
-  "rarity" : "Common",
-  "price" : 318.17,
-  "category" : "preparedFood",
-  "inventoryIcon" : "darkchocolateMFM.png",
-  "description" : "So chocolatey.",
-  "shortdescription" : "Dark Chocolate",
-  "foodValue" : 6.81,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+ "shortdescription": "Dark Chocolate",
+ "tooltipKind": "food",
+ "description": "So chocolatey.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -4
+ ],
+ "itemName": "darkchocolateMFM",
+ "price": 186.66,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "darkchocolateMFM.png",
+ "foodValue": 6.72,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

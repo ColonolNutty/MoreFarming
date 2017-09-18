@@ -1,18 +1,16 @@
 {
-  "itemName" : "cupcakebatterMFM",
-  "rarity" : "Common",
-  "price" : 488.76,
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "cupcakebatterMFM.png",
-  "description" : "Its bloody raw!",
-  "shortdescription" : "Batter - Cupcake",
-  "foodValue" : 46.7,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Batter - Cupcake",
+ "tooltipKind": "food",
+ "description": "Its bloody raw!",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "cupcakebatterMFM",
+ "price": 302.91,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "cupcakebatterMFM.png",
+ "foodValue": 32.34,
+ "category": "cookingIngredient",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

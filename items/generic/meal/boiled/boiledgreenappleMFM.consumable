@@ -1,20 +1,17 @@
 {
-  "itemName" : "boiledgreenappleMFM",
-  "rarity" : "Common",
-  "price" : 22.05,
-  "category" : "preparedFood",
-  "inventoryIcon" : "boiledgreenappleMFM.png",
-  "description" : "A green apple boiled in water.",
-  "shortdescription" : "Boiled Green Apple",
-  "foodValue": 2.76,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-
-  "emote" : "Happy"
+ "shortdescription": "Boiled Green Apple",
+ "tooltipKind": "food",
+ "description": "A green apple boiled in water.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "boiledgreenappleMFM",
+ "price": 22.05,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "emote": "Happy",
+ "inventoryIcon": "boiledgreenappleMFM.png",
+ "foodValue": 5.51,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

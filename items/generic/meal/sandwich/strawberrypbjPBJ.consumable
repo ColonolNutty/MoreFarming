@@ -1,19 +1,20 @@
 {
-  "itemName" : "strawberrypbjPBJ",
-  "rarity" : "Uncommon",
-  "price" : 510.3,
-  "category" : "preparedFood",
-  "inventoryIcon" : "strawberrypbjPBJ.png",
-  "description" : "A sandwich made with peanut butter and strawberry jelly.",
-  "shortdescription" : "Sandwich - Strawberry PB+J",
-  "foodValue" : 34.8,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -2]
+ "shortdescription": "Sandwich - Strawberry PB+J",
+ "tooltipKind": "food",
+ "description": "A sandwich made with peanut butter and strawberry jelly.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -2
+ ],
+ "itemName": "strawberrypbjPBJ",
+ "price": 443.18,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "strawberrypbjPBJ.png",
+ "foodValue": 31.44,
+ "category": "preparedFood",
+ "rarity": "Uncommon",
+ "blockingEffects": ["wellfed"]
 }

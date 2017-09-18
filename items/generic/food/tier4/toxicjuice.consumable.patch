@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 252
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 21
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Juice - Toxictop"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 264.6
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 22.05
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Juice - Toxictop"
+} ]

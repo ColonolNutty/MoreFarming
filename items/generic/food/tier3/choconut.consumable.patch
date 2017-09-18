@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 1015
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 93.61
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Donut - Choconut"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 477.87
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 64.25
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Donut - Choconut"
+} ]

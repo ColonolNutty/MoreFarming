@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 1304.24
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 54.21
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Donut - Toxictop"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 810.01
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 43.21
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Donut - Toxictop"
+} ]

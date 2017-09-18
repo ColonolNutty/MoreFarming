@@ -1,10 +1,10 @@
 {
-  "itemName" : "mixcakespookyMFM",
-  "rarity" : "Common",
-  "price" : 573.26,
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "mixcakespookyMFM.png",
-  "description" : "Cake mix for making a spooky cake. Ready for baking.",
-  "shortdescription" : "Mix Cake - Spooky",
-  "maxStack" : 1000
+ "shortdescription": "Mix Cake - Spooky",
+ "itemName": "mixcakespookyMFM",
+ "price": 395.76,
+ "description": "Cake mix for making a spooky cake. Ready for baking.",
+ "inventoryIcon": "mixcakespookyMFM.png",
+ "category": "cookingIngredient",
+ "maxStack": 1000,
+ "rarity": "Common"
 }

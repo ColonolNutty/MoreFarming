@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 830.42
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 57.2
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Bread - Carrot"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 518.81
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 45.98
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Bread - Carrot"
+} ]

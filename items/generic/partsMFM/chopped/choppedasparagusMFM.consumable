@@ -1,18 +1,16 @@
 {
-  "itemName" : "choppedasparagusMFM",
-  "rarity" : "Common",
-  "price" : 84,
-  "category" : "preparedFood",
-  "inventoryIcon" : "choppedasparagusMFM.png",
-  "description" : "Washed and chopped asparagus.",
-  "shortdescription" : "Chopped Asparagus",
-  "foodValue" : 10.5,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Chopped Asparagus",
+ "tooltipKind": "food",
+ "description": "Washed and chopped asparagus.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "choppedasparagusMFM",
+ "price": 63,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "choppedasparagusMFM.png",
+ "foodValue": 10.5,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

@@ -1,19 +1,20 @@
 {
-  "itemName" : "frenchtoastMFM",
-  "rarity" : "Common",
-  "price" : 107.1,
-  "category" : "preparedFood",
-  "inventoryIcon" : "frenchtoastMFM.png",
-  "description" : "FRENCH TOAST!",
-  "shortdescription" : "French Toast - Plain",
-  "foodValue" : 23.21,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+ "shortdescription": "French Toast - Plain",
+ "tooltipKind": "food",
+ "description": "FRENCH TOAST!",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -4
+ ],
+ "itemName": "frenchtoastMFM",
+ "price": 135.26,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "frenchtoastMFM.png",
+ "foodValue": 15.29,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

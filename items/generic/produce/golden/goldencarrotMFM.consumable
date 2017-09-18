@@ -1,24 +1,20 @@
 {
-  "itemName" : "goldencarrotMFM",
-  "rarity" : "Common",
-  "price" : 400,
-  "category" : "food",
-  "inventoryIcon" : "goldencarrotMFM.png",
-  "description" : "Shiny and edible!",
-  "shortdescription" : "Golden Carrot",
-  "effects" : [ [
-      {
-        "effect" : "regeneration3",
-        "duration" : 20
-      }
-    ] ],
-  "foodValue" : 30,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Golden Carrot",
+ "tooltipKind": "food",
+ "description": "Shiny and edible!",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "goldencarrotMFM",
+ "effects": [[{
+  "duration": 20,
+  "effect": "regeneration3"
+ }]],
+ "price": 106.05,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "goldencarrotMFM.png",
+ "foodValue": 5.25,
+ "category": "food",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

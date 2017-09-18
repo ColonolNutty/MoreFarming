@@ -1,51 +1,44 @@
 {
-  "objectName" : "distilleryMFM",
-  "colonyTags" : [ "cooking" ],
-  "rarity" : "Common",
-  "description" : "A distillery. For making... you know...",
-  "shortdescription" : "Distillery (Distill)",
-  "race" : "generic",
-  "subtitle" : "Grownups only!",
-  "category" : "crafting",
-  "price" : 312.35,
-  "objectType" : "container",
-  "printable" : false,
-  "hydrophobic" : false,
-  
-  "apexDescription" : "The Miniknogs would... 'confiscate' these.",
-  "avianDescription" : "A human once told me how to use these. Why ruin good corn and wheat?",
-  "floranDescription" : "Put plantsss in, get tasssty beverage. What happensss if put meat in?",
-  "glitchDescription" : "Perplexed. Fleshy species apparently like drinking fuel in their spare time.",
-  "humanDescription" : "Oooh... Time to get po faced.",
-  "hylotlDescription" : "Used to further a process commonly associated to debauchery.",
-
-  "inventoryIcon" : "distilleryMFMicon.png",
-  "orientations" : [
-    {
-      "dualImage" : "distilleryMFM.png:<color>.<frame>",
-
-      "imagePosition" : [0, 0],
-      "frames" : 4,
-      "animationCycle" : 0.5,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
-
-    }
+ "avianDescription": "A human once told me how to use these. Why ruin good corn and wheat?",
+ "recipeGroup": "distillingMFM",
+ "outputConfig": "/recipeCrafterMFM/distillingMFMRecipes.config",
+ "orientations": [{
+  "collision": "platform",
+  "frames": 4,
+  "animationCycle": 0.5,
+  "imagePosition": [
+   0,
+   0
   ],
-
-  "soundEffect" : "/sfx/objects/apexpod.ogg",
-  "soundEffectRadius" : 50,
-
-  "recipeGroup" : "distillingMFM",
-  "openSounds" : [ "/sfx/objects/florandrum2.ogg" ],
-  "slotCount": 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/distillingMFMRecipes.config"
+  "spaceScan": 0.1,
+  "dualImage": "distilleryMFM.png:<color>.<frame>",
+  "anchors": ["bottom"]
+ }],
+ "description": "A distillery. For making... you know...",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "objectType": "container",
+ "hylotlDescription": "Used to further a process commonly associated to debauchery.",
+ "glitchDescription": "Perplexed. Fleshy species apparently like drinking fuel in their spare time.",
+ "hydrophobic": false,
+ "price": 227.15,
+ "slotCount": 16,
+ "soundEffect": "/sfx/objects/apexpod.ogg",
+ "colonyTags": ["cooking"],
+ "autoCloseCooldown": 3600,
+ "soundEffectRadius": 50,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "Oooh... Time to get po faced.",
+ "shortdescription": "Distillery (Distill)",
+ "race": "generic",
+ "openSounds": ["/sfx/objects/florandrum2.ogg"],
+ "printable": false,
+ "frameCooldown": 67,
+ "subtitle": "Grownups only!",
+ "objectName": "distilleryMFM",
+ "apexDescription": "The Miniknogs would... 'confiscate' these.",
+ "inventoryIcon": "distilleryMFMicon.png",
+ "category": "crafting",
+ "scriptDelta": 1,
+ "floranDescription": "Put plantsss in, get tasssty beverage. What happensss if put meat in?",
+ "rarity": "Common"
 }

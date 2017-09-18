@@ -1,29 +1,30 @@
 {
-  "itemName" : "garpberryicecreamMFM",
-  "rarity" : "Common",
-  "price" : 484.51,
-  "category" : "preparedFood",
-  "inventoryIcon" : "garpberryicecreamMFM.png",
-  "description" : "A lovely icecream made with a garpberry-taste. Mmmm",
-  "shortdescription" : "Ice Cream - Garpberry",
-  "effects" : [ [
-    {
-        "effect" : "jumpboostfood",
-        "duration" : 30
-    },
-    {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-    }
-  ] ],
-  "foodValue" : 31.41,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -3]
+ "shortdescription": "Ice Cream - Garpberry",
+ "tooltipKind": "food",
+ "description": "A lovely icecream made with a garpberry-taste. Mmmm",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -3
+ ],
+ "itemName": "garpberryicecreamMFM",
+ "effects": [[
+  {
+   "duration": 30,
+   "effect": "jumpboostfood"
+  },
+  {
+   "duration": 30,
+   "effect": "maxenergyscalingboostfood"
+  }
+ ]],
+ "price": 481.3,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "garpberryicecreamMFM.png",
+ "foodValue": 18.73,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

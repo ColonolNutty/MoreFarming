@@ -1,21 +1,22 @@
 {
-  "itemName" : "milkshakewhitechocolateMFM",
-  "rarity" : "Common",
-  "price" : 438.34,
-  "category" : "preparedFood",
-  "inventoryIcon" : "milkshakewhitechocolateMFM.png",
-  "description" : "A milkshake made with white chocolate. Yum!",
-  "shortdescription" : "Milkshake - White Chocolate",
-  "foodValue" : 38.19,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ],
-  "emote" : "Happy",
-  "handPosition" : [0, -4]
+ "shortdescription": "Milkshake - White Chocolate",
+ "tooltipKind": "food",
+ "emitters": ["drinking"],
+ "description": "A milkshake made with white chocolate. Yum!",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -4
+ ],
+ "itemName": "milkshakewhitechocolateMFM",
+ "price": 389.5,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "emote": "Happy",
+ "inventoryIcon": "milkshakewhitechocolateMFM.png",
+ "foodValue": 15.41,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

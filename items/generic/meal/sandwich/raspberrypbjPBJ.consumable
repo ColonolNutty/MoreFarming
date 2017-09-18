@@ -1,19 +1,20 @@
 {
-  "itemName" : "raspberrypbjPBJ",
-  "rarity" : "Uncommon",
-  "price" : 510.3,
-  "category" : "preparedFood",
-  "inventoryIcon" : "raspberrypbjPBJ.png",
-  "description" : "A sandwich made with peanut butter and raspberry jelly.",
-  "shortdescription" : "Sandwich - Raspberry PB+J",
-  "foodValue" : 34.8,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -2]
+ "shortdescription": "Sandwich - Raspberry PB+J",
+ "tooltipKind": "food",
+ "description": "A sandwich made with peanut butter and raspberry jelly.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -2
+ ],
+ "itemName": "raspberrypbjPBJ",
+ "price": 443.18,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "raspberrypbjPBJ.png",
+ "foodValue": 31.44,
+ "category": "preparedFood",
+ "rarity": "Uncommon",
+ "blockingEffects": ["wellfed"]
 }

@@ -1,19 +1,17 @@
 {
-  "itemName" : "halfandhalfMFM",
-  "rarity" : "Common",
-  "price" : 10.16,
-  "category" : "drink",
-  "inventoryIcon" : "halfandhalfMFM.png",
-  "description" : "A mixture of milk and the creamiest of creams",
-  "shortdescription" : "Half-and-half",
-  "foodValue" : 2.54,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ]
+ "shortdescription": "Half-and-half",
+ "tooltipKind": "food",
+ "emitters": ["drinking"],
+ "description": "A mixture of milk and the creamiest of creams",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1,
+ "itemName": "halfandhalfMFM",
+ "price": 25.3,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "halfandhalfMFM.png",
+ "foodValue": 1.04,
+ "category": "drink",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

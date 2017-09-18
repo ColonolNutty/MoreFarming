@@ -1,38 +1,35 @@
 {
-  "objectName" : "seedtableMFM",
-  "colonyTags" : [ "crafting", "nature" ],
-  "printable" : false,
-  "price" : 50,
-  "rarity" : "Rare",
-  "description" : "The Seed Table allows germination of seeds",
-  "shortdescription" : "Seed Table",
-  "race" : "generic",
-  "category" : "crafting",
-  "interactAction" : "OpenCraftingInterface",
-  
-  "interactData" : {
-    "config" : "/interface/windowconfig/cn_seedtableMFM.config"
-  },
-
-  "apexDescription" : "A table that makes seeds.",
-  "avianDescription" : "A table that makes seeds.",
-  "floranDescription" : "A table that makesss ssseedsss.",
-  "glitchDescription" : "A table that makes seeds.",
-  "humanDescription" : "A table that makes seeds.",
-  "hylotlDescription" : "A table that makes seeds.",
-
-  "inventoryIcon" : "seedtableMFMicon.png",
-  "orientations" : [
-    {
-      "dualImage" : "seedtableMFM.png:default",
-
-      "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
-    }
-  ]
+ "shortdescription": "Seed Table",
+ "avianDescription": "A table that makes seeds.",
+ "race": "generic",
+ "orientations": [{
+  "collision": "platform",
+  "frames": 1,
+  "animationCycle": 1,
+  "imagePosition": [
+   0,
+   0
+  ],
+  "spaceScan": 0.1,
+  "dualImage": "seedtableMFM.png:default",
+  "anchors": ["bottom"]
+ }],
+ "description": "The Seed Table allows germination of seeds",
+ "printable": false,
+ "hylotlDescription": "A table that makes seeds.",
+ "interactAction": "OpenCraftingInterface",
+ "glitchDescription": "A table that makes seeds.",
+ "price": 50.25,
+ "colonyTags": [
+  "crafting",
+  "nature"
+ ],
+ "objectName": "seedtableMFM",
+ "apexDescription": "A table that makes seeds.",
+ "inventoryIcon": "seedtableMFMicon.png",
+ "category": "crafting",
+ "interactData": {"config": "/interface/windowconfig/cn_seedtableMFM.config"},
+ "humanDescription": "A table that makes seeds.",
+ "floranDescription": "A table that makesss ssseedsss.",
+ "rarity": "Rare"
 }

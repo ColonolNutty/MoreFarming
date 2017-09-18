@@ -1,83 +1,117 @@
 {
-  "objectName" : "novakidcoffeestationCNYC",
-  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "A steam ranch percolator!",
-  "shortdescription" : "^orange;Novakid Percolator (Coffee)^white;",
-  "subtitle" : "Brew Coffee!",
-  "race" : "generic",
-  "objectType" : "container",
-  "category" : "Novakid Cookware",
-  "price" : 266.15,
-
-  "apexDescription" : "I have no idea what that display means..",
-  "avianDescription" : "Brews ready for high noon.. What happens at high noon?",
-  "floranDescription" : "Floran dissssy..",
-  "glitchDescription" : "Inspect. Very hot firing kiln.",
-  "humanDescription" : "I bet a horseshoe would standup in a cup of that stuff",
-  "hylotlDescription" : "Smells incredibly strong.",
-
-  "inventoryIcon" : "novakidcoffeestationCNYCicon.png",
-  "orientations" : [
+ "avianDescription": "Brews ready for high noon.. What happens at high noon?",
+ "recipeGroup": "coffeeMFM",
+ "outputConfig": "/recipeCrafterMFM/coffeeMFMRecipes.config",
+ "orientations": [
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "novakidcoffeestationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "novakidcoffeestationCNYClit.png:<color>.<frame>" } ],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "imagePosition" : [-8, 0],
-      "frames" : 4,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+     "image": "novakidcoffeestationCNYC.png:<color>.<frame>",
+     "fullbright": true
     },
-    {
-      "imageLayers" : [ { "image" : "novakidcoffeestationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "novakidcoffeestationCNYClit.png:<color>.<frame>" } ],
-      "direction" : "right",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 4,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
-  ],
-
-  "particleEmitter" : {
-    "emissionRate" : 2.0,
-    "emissionVariance" : 1.0,
-
-    "particle" : {
-      "type" : "animated",
-      "animation" : "/animations/dustclear/dustclearCNYC.animation",
-      "position" : [-1.0, 0.1],
-      "size" : 1.0,
-      "color" : [255, 255, 255, 50],
-      "fade" : 1,
-      "initialVelocity" : [0.0, 2.0],
-      "finalVelocity" : [0.0, 1.0],
-      "approach" : [0, 20],
-      "timeToLive" : 1,
-      "layer" : "back"
-    },
-
-    "particleVariance" : {
-      "initialVelocity" : [0.3, 2.0],
-      "position" : [0.2, 0]
-    }
+    {"image": "novakidcoffeestationCNYClit.png:<color>.<frame>"}
+   ],
+   "flipImages": true,
+   "frames": 4,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "left"
   },
-
-  "recipeGroup" : "coffeeMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/coffeeMFMRecipes.config"
+  {
+   "imageLayers": [
+    {
+     "image": "novakidcoffeestationCNYC.png:<color>.<frame>",
+     "fullbright": true
+    },
+    {"image": "novakidcoffeestationCNYClit.png:<color>.<frame>"}
+   ],
+   "frames": 4,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "right"
+  }
+ ],
+ "description": "A steam ranch percolator!",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "objectType": "container",
+ "hylotlDescription": "Smells incredibly strong.",
+ "glitchDescription": "Inspect. Very hot firing kiln.",
+ "price": 269.58,
+ "slotCount": 16,
+ "colonyTags": [
+  "novakid",
+  "novakidvillage",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "I bet a horseshoe would standup in a cup of that stuff",
+ "particleEmitter": {
+  "emissionRate": 2,
+  "particleVariance": {
+   "initialVelocity": [
+    0.3,
+    2
+   ],
+   "position": [
+    0.2,
+    0
+   ]
+  },
+  "particle": {
+   "timeToLive": 1,
+   "fade": 1,
+   "size": 1,
+   "color": [
+    255,
+    255,
+    255,
+    50
+   ],
+   "initialVelocity": [
+    0,
+    2
+   ],
+   "finalVelocity": [
+    0,
+    1
+   ],
+   "position": [
+    -1,
+    0.1
+   ],
+   "type": "animated",
+   "approach": [
+    0,
+    20
+   ],
+   "layer": "back",
+   "animation": "/animations/dustclear/dustclearCNYC.animation"
+  },
+  "emissionVariance": 1
+ },
+ "retainObjectParametersInItem": true,
+ "shortdescription": "^orange;Novakid Percolator (Coffee)^white;",
+ "race": "generic",
+ "openSounds": ["/sfx/objects/campfire_use.ogg"],
+ "printable": false,
+ "frameCooldown": 67,
+ "subtitle": "Brew Coffee!",
+ "objectName": "novakidcoffeestationCNYC",
+ "apexDescription": "I have no idea what that display means..",
+ "inventoryIcon": "novakidcoffeestationCNYCicon.png",
+ "category": "Novakid Cookware",
+ "scriptDelta": 1,
+ "floranDescription": "Floran dissssy..",
+ "rarity": "Common"
 }

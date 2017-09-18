@@ -1,80 +1,110 @@
 {
-  "objectName" : "novakidchoppingstationCNYC",
-  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
-  "rarity" : "Common",
-  "description" : "Ideally not for playing five finger fillet..",
-  "shortdescription" : "^orange;Novakid Chopboard (Chop)^white;",
-  "subtitle" : "Prepare Produce!",
-  "race" : "generic",
-  "objectType" : "container",
-  "category" : "Novakid Cookware",
-  "price" : 62.1,
-
-  "apexDescription" : "Now THATS a knife!",
-  "avianDescription" : "Looks big enough to skin a.. something really large!",
-  "floranDescription" : "Ssstabbysss..",
-  "glitchDescription" : "Observation. Very large knife.",
-  "humanDescription" : "I really want to play five finger fillet",
-  "hylotlDescription" : "A display in itself!",
-
-  "inventoryIcon" : "novakidchoppingstationCNYCicon.png",
-  "orientations" : [
+ "avianDescription": "Looks big enough to skin a.. something really large!",
+ "recipeGroup": "choppingMFM",
+ "outputConfig": "/recipeCrafterMFM/choppingMFMRecipes.config",
+ "orientations": [
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "novakidchoppingstationCNYC.png:<color>", "fullbright" : true }, { "image" : "novakidchoppingstationCNYC.png:<color>" } ],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+     "image": "novakidchoppingstationCNYC.png:<color>",
+     "fullbright": true
     },
-    {
-      "imageLayers" : [ { "image" : "novakidchoppingstationCNYC.png:<color>", "fullbright" : true }, { "image" : "novakidchoppingstationCNYC.png:<color>" } ],
-      "direction" : "right",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
-
-  ],
-    
-  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "npcToy" : {
-    "influence" : [
-      "watercoolerCollect",
-      "watercoolerConsume",
-      "watercoolerComplete"
-    ],
-    "defaultReactions" : {
-      "watercoolerCollect" : [
-        [1.0, "crouchcollect"]
-      ],
-      "watercoolerConsume" : [
-        [1.0, "drink"]
-      ],
-      "watercoolerComplete" : [
-        [1.0, "smile"],
-        [0.1, "vomit"]
-      ]
-    },
-    "preciseStandPositionLeft" : [-1.0, 0.0],
-    "preciseStandPositionRight" : [1.0, 0.0],
-    "maxNpcs" : 1
+    {"image": "novakidchoppingstationCNYC.png:<color>"}
+   ],
+   "flipImages": true,
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "left"
   },
-  "recipeGroup" : "choppingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/choppingMFMRecipes.config"
+  {
+   "imageLayers": [
+    {
+     "image": "novakidchoppingstationCNYC.png:<color>",
+     "fullbright": true
+    },
+    {"image": "novakidchoppingstationCNYC.png:<color>"}
+   ],
+   "frames": 1,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "right"
+  }
+ ],
+ "description": "Ideally not for playing five finger fillet..",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "objectType": "container",
+ "hylotlDescription": "A display in itself!",
+ "glitchDescription": "Observation. Very large knife.",
+ "price": 43.05,
+ "slotCount": 16,
+ "colonyTags": [
+  "novakid",
+  "novakidvillage",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": [
+  "/scripts/npcToyObject.lua",
+  "/recipeCrafterMFM/recipeCrafterMFM.lua"
+ ],
+ "humanDescription": "I really want to play five finger fillet",
+ "shortdescription": "^orange;Novakid Chopboard (Chop)^white;",
+ "race": "generic",
+ "openSounds": ["/sfx/objects/campfire_use.ogg"],
+ "npcToy": {
+  "preciseStandPositionRight": [
+   1,
+   0
+  ],
+  "preciseStandPositionLeft": [
+   -1,
+   0
+  ],
+  "maxNpcs": 1,
+  "defaultReactions": {
+   "watercoolerConsume": [[
+    1,
+    "drink"
+   ]],
+   "watercoolerComplete": [
+    [
+     1,
+     "smile"
+    ],
+    [
+     0.1,
+     "vomit"
+    ]
+   ],
+   "watercoolerCollect": [[
+    1,
+    "crouchcollect"
+   ]]
+  },
+  "influence": [
+   "watercoolerCollect",
+   "watercoolerConsume",
+   "watercoolerComplete"
+  ]
+ },
+ "frameCooldown": 67,
+ "subtitle": "Prepare Produce!",
+ "objectName": "novakidchoppingstationCNYC",
+ "apexDescription": "Now THATS a knife!",
+ "inventoryIcon": "novakidchoppingstationCNYCicon.png",
+ "category": "Novakid Cookware",
+ "scriptDelta": 1,
+ "floranDescription": "Ssstabbysss..",
+ "rarity": "Common"
 }

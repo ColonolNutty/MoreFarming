@@ -1,10 +1,10 @@
 {
-  "itemName" : "rawstuffedautomatoMFM",
-  "rarity" : "Common",
-  "price" : 208.73,
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "rawstuffedautomatoMFM.png",
-  "description" : "An automato stuffed with corn, cheese, and breadcrumbs. Ready for baking.",
-  "shortdescription" : "Raw Stuffed Automato",
-  "maxStack" : 1000
+ "shortdescription": "Raw Stuffed Automato",
+ "itemName": "rawstuffedautomatoMFM",
+ "price": 261.26,
+ "description": "An automato stuffed with corn, cheese, and breadcrumbs. Ready for baking.",
+ "inventoryIcon": "rawstuffedautomatoMFM.png",
+ "category": "cookingIngredient",
+ "maxStack": 1000,
+ "rarity": "Common"
 }

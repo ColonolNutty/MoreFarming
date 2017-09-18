@@ -1,9 +1,9 @@
 {
-  "itemName" : "bakingpowderMFM",
-  "price" : 6.17,
-  "rarity" : "Common",
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "bakingpowderMFM.png",
-  "description" : "Useful for baking!",
-  "shortdescription" : "Baking Powder"
+ "shortdescription": "Baking Powder",
+ "itemName": "bakingpowderMFM",
+ "price": 8.8,
+ "description": "Useful for baking!",
+ "inventoryIcon": "bakingpowderMFM.png",
+ "category": "cookingIngredient",
+ "rarity": "Common"
 }

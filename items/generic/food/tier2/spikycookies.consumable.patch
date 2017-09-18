@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 35
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 4.22
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Cookie - Spiky"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 12.84
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 2.02
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Cookie - Spiky"
+} ]

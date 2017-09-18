@@ -1,18 +1,16 @@
 {
-  "itemName": "oatgrainsMFM",
-  "rarity": "Common",
-  "price": 77.18,
-  "category" : "cookingIngredient",
-  "inventoryIcon": "oatgrainsMFM.png",
-  "description": "Oat grains.",
-  "shortdescription": "Oatmeal",
-  "foodValue" : 2.21,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "maxStack" : 1000,
-  "blockingEffects": [
-      "wellfed"
-  ]
+ "shortdescription": "Oatmeal",
+ "tooltipKind": "food",
+ "description": "Oat grains.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "oatgrainsMFM",
+ "price": 73.5,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "oatgrainsMFM.png",
+ "foodValue": 2.1,
+ "category": "cookingIngredient",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

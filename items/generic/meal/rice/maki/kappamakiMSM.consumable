@@ -1,29 +1,30 @@
 {
-  "itemName" : "kappamakiMSM",
-  "rarity" : "Uncommon",
-  "price" : 304.76,
-	"category" : "preparedFood",
-  "inventoryIcon" : "kappamakiMSM.png",
-  "description" : "Chopped cucumbers packed in a rice ball.",
-  "shortdescription" : "Maki - Kappa",
-  "effects" : [ [
-    {
-        "effect" : "runboostfood",
-        "duration" : 30
-    },
-    {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 105
-    }
-  ] ],
-	"foodValue" : 16.22,
-	"tooltipKind" : "food",
-	"builder" : "/items/buildscripts/buildfood.lua",
-	"maxStack" : 1000,
-	"itemAgingScripts" : ["/scripts/items/rotting.lua"],
-	"rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+ "shortdescription": "Maki - Kappa",
+ "tooltipKind": "food",
+ "description": "Chopped cucumbers packed in a rice ball.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "handPosition": [
+  0,
+  -4
+ ],
+ "itemName": "kappamakiMSM",
+ "effects": [[
+  {
+   "duration": 30,
+   "effect": "runboostfood"
+  },
+  {
+   "duration": 105,
+   "effect": "maxenergyscalingboostfood"
+  }
+ ]],
+ "price": 346.76,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "kappamakiMSM.png",
+ "foodValue": 21.47,
+ "category": "preparedFood",
+ "rarity": "Uncommon",
+ "blockingEffects": ["wellfed"]
 }

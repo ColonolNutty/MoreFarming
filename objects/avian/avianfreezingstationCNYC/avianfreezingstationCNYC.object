@@ -1,65 +1,77 @@
 {
-  "objectName" : "avianfreezingstationCNYC",
-  "colonyTags" : [ "avian", "avianvillage", "cooking" ],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "Regulated chest freezer!",
-  "shortdescription" : "^orange;Avian Freezer (Freeze)^white;",
-  "subtitle" : "Freeze and Chill!",
-  "race" : "generic",
-  "objectType" : "container",
-  "tooltipKind" : "container",
-  "category" : "Refridgerated Avian Cookware",
-  "price" : 61.1,
-
-  "apexDescription" : "Like a small fridge, but colder.",
-  "avianDescription" : "The only way to keep anything cold during the hot days..",
-  "floranDescription" : "Floran notss sleepss in..",
-  "glitchDescription" : "Inspect. Chest coldbox.",
-  "humanDescription" : "Really could go for an icecream..",
-  "hylotlDescription" : "Remains cold on hot days, ideal!",
-
-  "inventoryIcon" : "avianfreezingstationCNYCicon.png",
-  "orientations" : [
+ "avianDescription": "The only way to keep anything cold during the hot days..",
+ "recipeGroup": "freezingMFM",
+ "tooltipKind": "container",
+ "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config",
+ "orientations": [
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "avianfreezingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "avianfreezingstationCNYClit.png:<color>.<frame>" } ],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "imagePosition" : [-8, 0],
-      "frames" : 4,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+     "image": "avianfreezingstationCNYC.png:<color>.<frame>",
+     "fullbright": true
     },
+    {"image": "avianfreezingstationCNYClit.png:<color>.<frame>"}
+   ],
+   "flipImages": true,
+   "frames": 4,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "left"
+  },
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "avianfreezingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "avianfreezingstationCNYClit.png:<color>.<frame>" } ],
-      "direction" : "right",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 4,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
-  ],
-
-  "recipeGroup" : "freezingMFM",
-  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-
-  "itemAgeMultiplier" : 0.0,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config",
-
-  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+     "image": "avianfreezingstationCNYC.png:<color>.<frame>",
+     "fullbright": true
+    },
+    {"image": "avianfreezingstationCNYClit.png:<color>.<frame>"}
+   ],
+   "frames": 4,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "right"
+  }
+ ],
+ "description": "Regulated chest freezer!",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "objectType": "container",
+ "hylotlDescription": "Remains cold on hot days, ideal!",
+ "glitchDescription": "Inspect. Chest coldbox.",
+ "price": 42.03,
+ "closeSounds": ["/sfx/objects/locker_close.ogg"],
+ "slotCount": 16,
+ "soundEffect": "/sfx/objects/fridge_hum.ogg",
+ "colonyTags": [
+  "avian",
+  "avianvillage",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "Really could go for an icecream..",
+ "retainObjectParametersInItem": true,
+ "shortdescription": "^orange;Avian Freezer (Freeze)^white;",
+ "race": "generic",
+ "openSounds": ["/sfx/objects/locker_open.ogg"],
+ "printable": false,
+ "frameCooldown": 67,
+ "subtitle": "Freeze and Chill!",
+ "objectName": "avianfreezingstationCNYC",
+ "apexDescription": "Like a small fridge, but colder.",
+ "inventoryIcon": "avianfreezingstationCNYCicon.png",
+ "itemAgeMultiplier": 0,
+ "category": "Refridgerated Avian Cookware",
+ "scriptDelta": 1,
+ "floranDescription": "Floran notss sleepss in..",
+ "rarity": "Common"
 }

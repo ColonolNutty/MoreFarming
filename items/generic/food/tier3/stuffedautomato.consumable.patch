@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 219.17
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 23.96
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Stuffed Automato"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 274.32
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 11.92
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Stuffed Automato"
+} ]

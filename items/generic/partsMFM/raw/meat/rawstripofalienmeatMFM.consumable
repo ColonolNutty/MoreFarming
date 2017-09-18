@@ -1,18 +1,16 @@
 {
-  "itemName" : "rawstripofalienmeatMFM",
-  "rarity" : "Common",
-  "price" : 10.5,
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "rawstripofalienmeatMFM.png",
-  "description" : "Raw alien meat chopped into strips.",
-  "shortdescription" : "Raw Strip of Alien Meat",
-  "foodValue" : 5.25,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Raw Strip of Alien Meat",
+ "tooltipKind": "food",
+ "description": "Raw alien meat chopped into strips.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "rawstripofalienmeatMFM",
+ "price": 2.1,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "rawstripofalienmeatMFM.png",
+ "foodValue": 5.25,
+ "category": "cookingIngredient",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

@@ -1,15 +1,15 @@
 {
-  "itemName" : "caramelMFM",
-  "rarity" : "Common",
-  "price" : 246.32,
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "caramelMFM.png",
-  "description" : "Its sticky..!",
-  "shortdescription" : "Caramel",
-  "foodValue" : 9.86,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "maxStack" : 1000
+ "shortdescription": "Caramel",
+ "tooltipKind": "food",
+ "description": "Its sticky..!",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "caramelMFM",
+ "price": 149.92,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "caramelMFM.png",
+ "foodValue": 6.92,
+ "category": "cookingIngredient",
+ "rarity": "Common"
 }

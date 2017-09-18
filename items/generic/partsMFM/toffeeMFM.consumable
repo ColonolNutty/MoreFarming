@@ -1,19 +1,17 @@
 {
-  "itemName" : "toffeeMFM",
-  "rarity" : "Common",
-  "price" : 50,
-  "category" : "food",
-  "inventoryIcon" : "toffeeMFM.png",
-  "description" : "Toffee! A common ingredient in sweets.",
-  "shortdescription" : "Toffee",
-  "foodValue" : 3,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "learnBlueprintsOnPickup" : [ "toffeeblockMFM" ]
+ "shortdescription": "Toffee",
+ "tooltipKind": "food",
+ "learnBlueprintsOnPickup": ["toffeeblockMFM"],
+ "description": "Toffee! A common ingredient in sweets.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "toffeeMFM",
+ "price": 29.4,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "toffeeMFM.png",
+ "foodValue": 2.1,
+ "category": "food",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

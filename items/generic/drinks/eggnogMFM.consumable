@@ -1,25 +1,21 @@
 {
-  "itemName" : "eggnogMFM",
-  "rarity" : "Common",
-  "price" : 377.64,
-  "category" : "drink",
-  "inventoryIcon" : "eggnogMFM.png",
-  "description" : "A delicious drink, even when it's not Christmas!",
-  "shortdescription" : "Eggnog",
-  "effects" : [ [
-      {
-        "effect" : "regeneration1",
-        "duration" : 20
-      }
-    ] ],
-  "foodValue" : 51.83,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ]
+ "shortdescription": "Eggnog",
+ "tooltipKind": "food",
+ "emitters": ["drinking"],
+ "description": "A delicious drink, even when it's not Christmas!",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "eggnogMFM",
+ "effects": [[{
+  "duration": 20,
+  "effect": "regeneration1"
+ }]],
+ "price": 399.28,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "eggnogMFM.png",
+ "foodValue": 35,
+ "category": "drink",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

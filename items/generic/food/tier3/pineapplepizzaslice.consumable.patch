@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 299.06
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 23.15
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Pizza Slice - Pineapple"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 247.05
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 17.42
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Pizza Slice - Pineapple"
+} ]

@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 1005
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 40.13
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Jam - Toxictop"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 753.9
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 40.13
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Jam - Toxictop"
+} ]

@@ -1,39 +1,36 @@
 {
-  "objectName" : "recyclerMFM",
-  "colonyTags" : [ "cooking" ],
-  "rarity" : "Common",
-  "description" : "Put obsolete items or objects inside to recycle them.",
-  "shortdescription" : "Recycler (Recycle)",
-  "race" : "generic",
-  "category" : "crafting",
-  "price" : 1,
-  "objectType" : "container",
-  "printable" : false,
-  "hydrophobic" : false,
-
-  "inventoryIcon" : "recyclerMFMicon.png",
-  "orientations" : [
-    {
-      "dualImage" : "recyclerMFM.png:<color>.<frame>",
-
-      "imagePosition" : [0, 0],
-      "frames" : 4,
-      "animationCycle" : 0.5,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
-    }
+ "shortdescription": "Recycler (Recycle)",
+ "race": "generic",
+ "recipeGroup": "recyclingMFM",
+ "outputConfig": "/recipeCrafterMFM/recyclingMFMRecipes.config",
+ "orientations": [{
+  "collision": "platform",
+  "frames": 4,
+  "animationCycle": 0.5,
+  "imagePosition": [
+   0,
+   0
   ],
-  "recipeGroup" : "recyclingMFM",
-  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
-  "slotCount": 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/recyclingMFMRecipes.config"
+  "spaceScan": 0.1,
+  "dualImage": "recyclerMFM.png:<color>.<frame>",
+  "anchors": ["bottom"]
+ }],
+ "description": "Put obsolete items or objects inside to recycle them.",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "openSounds": ["/sfx/objects/metalbox_open.ogg"],
+ "printable": false,
+ "objectType": "container",
+ "frameCooldown": 67,
+ "hydrophobic": false,
+ "price": 0,
+ "closeSounds": ["/sfx/objects/metalbox_close.ogg"],
+ "slotCount": 16,
+ "colonyTags": ["cooking"],
+ "objectName": "recyclerMFM",
+ "inventoryIcon": "recyclerMFMicon.png",
+ "autoCloseCooldown": 3600,
+ "category": "crafting",
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "scriptDelta": 1,
+ "rarity": "Common"
 }

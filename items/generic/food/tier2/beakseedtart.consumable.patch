@@ -1,17 +1,13 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 423.81
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 43.3
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Tart - Beakseed"
-  }
-]
+[ {
+  "op" : "replace",
+  "path" : "/price",
+  "value" : 502.74
+}, {
+  "op" : "replace",
+  "path" : "/foodValue",
+  "value" : 24.34
+}, {
+  "op" : "replace",
+  "path" : "/shortdescription",
+  "value" : "Tart - Beakseed"
+} ]

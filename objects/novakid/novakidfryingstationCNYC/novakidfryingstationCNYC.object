@@ -1,83 +1,116 @@
 {
-  "objectName" : "novakidfryingstationCNYC",
-  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "A plasma frontier frypan!",
-  "shortdescription" : "^orange;Novakid Frypan (Fry)^white;",
-  "subtitle" : "Fry Food!",
-  "race" : "generic",
-  "objectType" : "container",
-  "category" : "Novakid Cookware",
-  "price" : 263,
-
-  "apexDescription" : "A plasma heat source! Fantastic idea!",
-  "avianDescription" : "That heat source doesn't look stable..",
-  "floranDescription" : "Floran hungryss...",
-  "glitchDescription" : "Inspect. Unstable plasma generated heat source.",
-  "humanDescription" : "Looks dangerous. I love it.",
-  "hylotlDescription" : "These creatures appear to have no self preservation code cooking with that thing..",
-
-  "inventoryIcon" : "novakidfryingstationCNYCicon.png",
-  "orientations" : [
+ "avianDescription": "That heat source doesn't look stable..",
+ "recipeGroup": "fryingMFM",
+ "outputConfig": "/recipeCrafterMFM/fryingMFMRecipes.config",
+ "orientations": [
+  {
+   "imageLayers": [
     {
-      "imageLayers" : [ { "image" : "novakidfryingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "novakidfryingstationCNYClit.png:<color>.<frame>" } ],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "imagePosition" : [-8, 0],
-      "frames" : 4,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+     "image": "novakidfryingstationCNYC.png:<color>.<frame>",
+     "fullbright": true
     },
-    {
-      "imageLayers" : [ { "image" : "novakidfryingstationCNYC.png:<color>.<frame>", "fullbright" : true }, { "image" : "novakidfryingstationCNYClit.png:<color>.<frame>" } ],
-      "direction" : "right",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 4,
-      "animationCycle" : 0.6,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
-
-  ],
-
-"particleEmitter" : {
-    "emissionRate" : 2.0,
-    "emissionVariance" : 1.0,
-
-    "particle" : {
-      "type" : "ember",
-      "position" : [0.0, 0.6],
-      "size" : 1.0,
-      "color" : [249, 162, 57, 255],
-      "fade" : 0.2,
-      "initialVelocity" : [0.0, 4.0],
-      "finalVelocity" : [0.0, -1.0],
-      "approach" : [0, 20],
-      "timeToLive" : 0.8,
-      "layer" : "back"
-    },
-
-    "particleVariance" : {
-      "initialVelocity" : [-1.0, 0.4],
-      "position" : [0.6, 0]
-    }
+    {"image": "novakidfryingstationCNYClit.png:<color>.<frame>"}
+   ],
+   "flipImages": true,
+   "frames": 4,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "left"
   },
-
-  "recipeGroup" : "fryingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/fryingMFMRecipes.config"
+  {
+   "imageLayers": [
+    {
+     "image": "novakidfryingstationCNYC.png:<color>.<frame>",
+     "fullbright": true
+    },
+    {"image": "novakidfryingstationCNYClit.png:<color>.<frame>"}
+   ],
+   "frames": 4,
+   "animationCycle": 0.6,
+   "imagePosition": [
+    -8,
+    0
+   ],
+   "spaceScan": 0.1,
+   "anchors": ["bottom"],
+   "direction": "right"
+  }
+ ],
+ "description": "A plasma frontier frypan!",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "objectType": "container",
+ "hylotlDescription": "These creatures appear to have no self preservation code cooking with that thing..",
+ "glitchDescription": "Inspect. Unstable plasma generated heat source.",
+ "price": 269.58,
+ "slotCount": 16,
+ "colonyTags": [
+  "novakid",
+  "novakidvillage",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "Looks dangerous. I love it.",
+ "particleEmitter": {
+  "emissionRate": 2,
+  "particleVariance": {
+   "initialVelocity": [
+    -1,
+    0.4
+   ],
+   "position": [
+    0.6,
+    0
+   ]
+  },
+  "particle": {
+   "timeToLive": 0.8,
+   "fade": 0.2,
+   "size": 1,
+   "color": [
+    249,
+    162,
+    57,
+    255
+   ],
+   "initialVelocity": [
+    0,
+    4
+   ],
+   "finalVelocity": [
+    0,
+    -1
+   ],
+   "position": [
+    0,
+    0.6
+   ],
+   "type": "ember",
+   "approach": [
+    0,
+    20
+   ],
+   "layer": "back"
+  },
+  "emissionVariance": 1
+ },
+ "retainObjectParametersInItem": true,
+ "shortdescription": "^orange;Novakid Frypan (Fry)^white;",
+ "race": "generic",
+ "openSounds": ["/sfx/objects/campfire_use.ogg"],
+ "printable": false,
+ "frameCooldown": 67,
+ "subtitle": "Fry Food!",
+ "objectName": "novakidfryingstationCNYC",
+ "apexDescription": "A plasma heat source! Fantastic idea!",
+ "inventoryIcon": "novakidfryingstationCNYCicon.png",
+ "category": "Novakid Cookware",
+ "scriptDelta": 1,
+ "floranDescription": "Floran hungryss...",
+ "rarity": "Common"
 }

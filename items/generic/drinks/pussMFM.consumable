@@ -1,19 +1,17 @@
 {
-  "itemName" : "pussMFM",
-  "rarity" : "Common",
-  "price" : 78.75,
-  "category" : "drink",
-  "inventoryIcon" : "pussMFM.png",
-  "description" : "This is probably from a pussplum.",
-  "shortdescription" : "Puss",
-  "foodValue" : 3.94,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ]
+ "shortdescription": "Puss",
+ "tooltipKind": "food",
+ "emitters": ["drinking"],
+ "description": "This is probably from a pussplum.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "pussMFM",
+ "price": 157.5,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "pussMFM.png",
+ "foodValue": 7.88,
+ "category": "drink",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

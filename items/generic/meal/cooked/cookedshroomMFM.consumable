@@ -1,18 +1,16 @@
 {
-  "itemName" : "cookedshroomMFM",
-  "rarity" : "Common",
-  "price" : 5.25,
-  "category" : "preparedFood",
-  "inventoryIcon" : "cookedshroomMFM.png",
-  "description" : "A mushroom that is somewhat more edible.",
-  "shortdescription" : "Baked Mushroom",
-  "foodValue" : 12.1,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Baked Mushroom",
+ "tooltipKind": "food",
+ "description": "A mushroom that is somewhat more edible.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "cookedshroomMFM",
+ "price": 5.25,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "cookedshroomMFM.png",
+ "foodValue": 2.1,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

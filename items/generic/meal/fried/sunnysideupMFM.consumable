@@ -1,18 +1,16 @@
 {
-  "itemName" : "sunnysideupMFM",
-  "rarity" : "Common",
-  "price" : 31.31,
-  "category" : "preparedFood",
-  "inventoryIcon" : "sunnysideupMFM.png",
-  "description" : "A cooked egg on top of toast.",
-  "shortdescription" : "Sunny Side Up",
-  "foodValue" : 11.49,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Sunny Side Up",
+ "tooltipKind": "food",
+ "description": "A cooked egg on top of toast.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "sunnysideupMFM",
+ "price": 23.39,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "sunnysideupMFM.png",
+ "foodValue": 11.09,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

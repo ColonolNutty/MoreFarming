@@ -1,18 +1,16 @@
 {
-  "itemName" : "toastbutteredMFM",
-  "rarity" : "Common",
-  "price" : 18.52,
-  "category" : "preparedFood",
-  "inventoryIcon" : "toastbutteredMFM.png",
-  "description" : "Hot buttered toast.",
-  "shortdescription" : "Toast - Buttered",
-  "foodValue" : 2.78,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Toast - Buttered",
+ "tooltipKind": "food",
+ "description": "Hot buttered toast.",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "toastbutteredMFM",
+ "price": 24.4,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "toastbutteredMFM.png",
+ "foodValue": 1.01,
+ "category": "preparedFood",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

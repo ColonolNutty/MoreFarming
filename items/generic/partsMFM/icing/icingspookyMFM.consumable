@@ -1,18 +1,16 @@
 {
-  "itemName" : "icingspookyMFM",
-  "rarity" : "Common",
-  "price" : 196.25,
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "icingspookyMFM.png",
-  "description" : "Very spooky icing. Spooooky!",
-  "shortdescription" : "Icing - Spooky",
-  "foodValue" : 5.73,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+ "shortdescription": "Icing - Spooky",
+ "tooltipKind": "food",
+ "description": "Very spooky icing. Spooooky!",
+ "itemAgingScripts": ["/scripts/items/rotting.lua"],
+ "maxStack": 1000,
+ "itemName": "icingspookyMFM",
+ "price": 258.55,
+ "builder": "/items/buildscripts/buildfood.lua",
+ "rottingMultiplier": 1,
+ "inventoryIcon": "icingspookyMFM.png",
+ "foodValue": 10.06,
+ "category": "cookingIngredient",
+ "rarity": "Common",
+ "blockingEffects": ["wellfed"]
 }

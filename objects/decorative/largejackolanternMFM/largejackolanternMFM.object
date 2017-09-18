@@ -1,90 +1,115 @@
 {
-  "objectName" : "largejackolanternMFM",
-  "colonyTags" : [ "nature", "spooky", "light" ],
-  "printable" : false,
-  "rarity" : "Common",
-  "category" : "light",
-  "price" : 131.25,
-  "description" : "The scariest thing ever...?",
-  "shortdescription" : "Large Jack 'O Lantern",
-  "race" : "generic",
-
-  "maximumLiquidLevel" : 0.2,
- 
-  "apexDescription" : "Someone will get a kick out of this.",
-  "avianDescription" : "This is a bad sign",
-  "floranDescription" : "Floran cut out face to ssscare away people.",
-  "glitchDescription" : "Suspicious. Something is not right.",
-  "humanDescription" : "Where's my candy?",
-  "hylotlDescription" : "A 'Do not disturb' sign.",
-  "novakidDescription" : "Is that my cousin? ... No, it's just a funny plant.",
-
-  "lightColor" : [229, 218, 207],
-
-  "flickerPeriod" : 0.3,
-  "flickerMinIntensity" : 0.70,
-  "flickerMaxIntensity" : 0.75,
-  "flickerPeriodVariance" : 0.075,
-  "flickerIntensityVariance" : 0.025,
-  
-  "scripts" : [ "/objects/wired/light/light.lua" ],
-  "scriptDelta" : 60,
-
-  "inputNodes" : [ [0, 0] ],
-  "animation" : "largejackolanternMFM.animation",
-  "animationParts" : {
-    "bg" : "largejackolanternMFM.png",
-    "fg" : "largejackolanternMFMlit.png"
-  },
-  "animationCustom" : {
-    "sounds" : {
-      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
-      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
-    }
-  },
-
-  "inventoryIcon" : "largejackolanternMFMicon.png",
-  "orientations" : [
+ "avianDescription": "This is a bad sign",
+ "flickerPeriod": 0.3,
+ "flickerMinIntensity": 0.7,
+ "flickerPeriodVariance": 0.075,
+ "orientations": [
+  {
+   "imageLayers": [
     {
-      "animationParts" : {
-		"bg" : "largejackolanternMFM.png",
-		"fg" : "largejackolanternMFMlit.png"
-      },
-      "imageLayers" : [
-		{
-			"image" : "largejackolanternMFM.png", "fullbright" : true
-		},
-		{
-			"image" : "largejackolanternMFMlit.png"
-		}
-	  ],
-      "imagePosition" : [0, 0],
-      "animationPosition" : [0, 0],
-      "flipImages" : true,
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "direction" : "left",
-      "lightPosition" : [0, 0]
+     "image": "largejackolanternMFM.png",
+     "fullbright": true
     },
+    {"image": "largejackolanternMFMlit.png"}
+   ],
+   "flipImages": true,
+   "lightPosition": [
+    0,
+    0
+   ],
+   "imagePosition": [
+    0,
+    0
+   ],
+   "spaceScan": 0.1,
+   "animationPosition": [
+    0,
+    0
+   ],
+   "anchors": ["bottom"],
+   "animationParts": {
+    "fg": "largejackolanternMFMlit.png",
+    "bg": "largejackolanternMFM.png"
+   },
+   "direction": "left"
+  },
+  {
+   "imageLayers": [
     {
-      "animationParts" : {
-		"bg" : "largejackolanternMFM.png",
-		"fg" : "largejackolanternMFMlit.png"
-      },
-      "imageLayers" : [
-		{
-			"image" : "largejackolanternMFM.png", "fullbright" : true
-		},
-		{
-			"image" : "largejackolanternMFMlit.png"
-		}
-	  ],
-      "imagePosition" : [0, 0],
-      "animationPosition" : [0, 0],
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "direction" : "right",
-      "lightPosition" : [0, 0]
-    }
+     "image": "largejackolanternMFM.png",
+     "fullbright": true
+    },
+    {"image": "largejackolanternMFMlit.png"}
+   ],
+   "lightPosition": [
+    0,
+    0
+   ],
+   "imagePosition": [
+    0,
+    0
+   ],
+   "spaceScan": 0.1,
+   "animationPosition": [
+    0,
+    0
+   ],
+   "anchors": ["bottom"],
+   "animationParts": {
+    "fg": "largejackolanternMFMlit.png",
+    "bg": "largejackolanternMFM.png"
+   },
+   "direction": "right"
+  }
+ ],
+ "description": "The scariest thing ever...?",
+ "maximumLiquidLevel": 0.2,
+ "animationCustom": {"sounds": {
+  "off": [
+   "/sfx/objects/torch_off1.ogg",
+   "/sfx/objects/torch_off2.ogg",
+   "/sfx/objects/torch_off3.ogg"
+  ],
+  "on": [
+   "/sfx/objects/torch_on1.ogg",
+   "/sfx/objects/torch_on2.ogg"
   ]
+ }},
+ "flickerMaxIntensity": 0.75,
+ "hylotlDescription": "A 'Do not disturb' sign.",
+ "glitchDescription": "Suspicious. Something is not right.",
+ "price": 126.56,
+ "colonyTags": [
+  "nature",
+  "spooky",
+  "light"
+ ],
+ "scripts": ["/objects/wired/light/light.lua"],
+ "humanDescription": "Where's my candy?",
+ "animationParts": {
+  "fg": "largejackolanternMFMlit.png",
+  "bg": "largejackolanternMFM.png"
+ },
+ "shortdescription": "Large Jack 'O Lantern",
+ "race": "generic",
+ "novakidDescription": "Is that my cousin? ... No, it's just a funny plant.",
+ "lightColor": [
+  229,
+  218,
+  207
+ ],
+ "printable": false,
+ "animation": "largejackolanternMFM.animation",
+ "inputNodes": [[
+  0,
+  0
+ ]],
+ "objectName": "largejackolanternMFM",
+ "apexDescription": "Someone will get a kick out of this.",
+ "inventoryIcon": "largejackolanternMFMicon.png",
+ "category": "light",
+ "flickerIntensityVariance": 0.025,
+ "scriptDelta": 60,
+ "floranDescription": "Floran cut out face to ssscare away people.",
+ "rarity": "Common"
 }

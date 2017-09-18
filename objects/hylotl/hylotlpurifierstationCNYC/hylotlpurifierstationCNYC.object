@@ -1,44 +1,45 @@
 {
-  "objectName" : "hylotlpurifierstationCNYC",
-  "colonyTags" : [ "hylotl", "hylotlvillage", "cooking" ],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "Traditional teapot. One in every Hylotl kitchen.",
-  "shortdescription" : "^orange;Hylotl Teapot (Purify)^white;",
-  "subtitle" : "Purify Water!",
-  "race" : "generic",
-  "objectType" : "container",
-  "category" : "Hylotl Cookware",
-  "price" : 208.15,
-
-  "apexDescription" : "Smells divine! I'm parched",
-  "avianDescription" : "I haven't seen one of these in a long time",
-  "floranDescription" : "Floran not likess teass.. floran likess bloodss..",
-  "glitchDescription" : "Observation. A traditional hylotl teapot",
-  "humanDescription" : "Always time for tea!",
-  "hylotlDescription" : "Ah, refreshing and calming.. good idea!",
-
-  "inventoryIcon" : "hylotlpurifierstationCNYCicon.png",
-  "orientations" : [
-    {
-      "dualImage" : "hylotlpurifierstationCNYC.png:<color>",
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
+ "avianDescription": "I haven't seen one of these in a long time",
+ "recipeGroup": "purifyingMFM",
+ "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config",
+ "orientations": [{
+  "frames": 1,
+  "animationCycle": 1,
+  "imagePosition": [
+   -8,
+   0
   ],
-
-  "recipeGroup" : "purifyingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
-  
-  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-  "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config"
+  "spaceScan": 0.1,
+  "dualImage": "hylotlpurifierstationCNYC.png:<color>",
+  "anchors": ["bottom"]
+ }],
+ "description": "Traditional teapot. One in every Hylotl kitchen.",
+ "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "objectType": "container",
+ "hylotlDescription": "Ah, refreshing and calming.. good idea!",
+ "glitchDescription": "Observation. A traditional hylotl teapot",
+ "price": 202,
+ "slotCount": 16,
+ "colonyTags": [
+  "hylotl",
+  "hylotlvillage",
+  "cooking"
+ ],
+ "autoCloseCooldown": 3600,
+ "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
+ "humanDescription": "Always time for tea!",
+ "retainObjectParametersInItem": true,
+ "shortdescription": "^orange;Hylotl Teapot (Purify)^white;",
+ "race": "generic",
+ "openSounds": ["/sfx/objects/campfire_use.ogg"],
+ "printable": false,
+ "frameCooldown": 67,
+ "subtitle": "Purify Water!",
+ "objectName": "hylotlpurifierstationCNYC",
+ "apexDescription": "Smells divine! I'm parched",
+ "inventoryIcon": "hylotlpurifierstationCNYCicon.png",
+ "category": "Hylotl Cookware",
+ "scriptDelta": 1,
+ "floranDescription": "Floran not likess teass.. floran likess bloodss..",
+ "rarity": "Common"
 }

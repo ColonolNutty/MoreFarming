@@ -1,11 +1,9 @@
 {
   "input" : [
-    { "item" : "doughMFM", "count" : 1 },
-    { "item" : "flourMFM", "count" : 2 },
-    { "item" : "liquidwater", "count" : 2 },
+    { "item" : "doughMFM", "count" : 3 },
     { "item" : "sugar", "count" : 1 },
-    { "item" : "yeastMFM", "count" : 1 },
     { "item" : "saltMFM", "count" : 1 },
+    { "item" : "yeastMFM", "count" : 1 },
     { "item" : "cookingoilMFM", "count" : 1 }
   ],
   "output" : { "item" : "pizzadoughMFM", "count" : 2 },

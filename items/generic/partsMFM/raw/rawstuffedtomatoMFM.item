@@ -1,10 +1,10 @@
 {
- "shortdescription": "Raw Stuffed Tomato",
- "itemName": "rawstuffedtomatoMFM",
- "price": 240.26,
- "description": "A tomato stuffed with corn, cheese, and breadcrumbs. Ready for baking.",
- "inventoryIcon": "rawstuffedtomatoMFM.png",
- "category": "cookingIngredient",
- "maxStack": 1000,
- "rarity": "Common"
+  "itemName" : "rawstuffedtomatoMFM",
+  "rarity" : "Common",
+  "price" : 214.1,
+  "category" : "cookingIngredient",
+  "description" : "A tomato stuffed with corn, cheese, and breadcrumbs. Ready for baking.",
+  "shortdescription" : "Raw Stuffed Tomato",
+  "maxStack" : 1000,
+  "inventoryIcon" : "rawstuffedtomatoMFM.png"
 }

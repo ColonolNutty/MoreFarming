@@ -1,20 +1,21 @@
 {
- "shortdescription": "Pudding - Vanilla",
- "tooltipKind": "food",
- "description": "Is it a liquid or solid?",
- "itemAgingScripts": ["/scripts/items/rotting.lua"],
- "maxStack": 1000,
- "itemName": "puddingMFM",
- "effects": [[{
-  "duration": 20,
-  "effect": "regeneration1"
- }]],
- "price": 82.96,
- "builder": "/items/buildscripts/buildfood.lua",
- "rottingMultiplier": 1,
- "inventoryIcon": "puddingMFM.png",
- "foodValue": 6.88,
- "category": "preparedFood",
- "rarity": "Common",
- "blockingEffects": ["wellfed"]
+  "itemName" : "puddingMFM",
+  "rarity" : "Common",
+  "price" : 69.15,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "Is it a liquid or solid?",
+  "shortdescription" : "Pudding - Vanilla",
+  "foodValue" : 6.53,
+  "effects" : [[
+      {
+        "duration" : 20,
+        "effect" : "regeneration1"
+      }]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : ["wellfed"],
+  "inventoryIcon" : "puddingMFM.png"
 }

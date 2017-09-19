@@ -1,24 +1,22 @@
 {
- "shortdescription": "Mashed Sweet Potato",
- "tooltipKind": "food",
- "description": "Smashing sweet potatoes is scientifically proven to make them 500% tastier.",
- "itemAgingScripts": ["/scripts/items/rotting.lua"],
- "maxStack": 1000,
- "handPosition": [
-  0,
-  -2
- ],
- "itemName": "mashedsweetpotatoMFM",
- "effects": [[{
-  "duration": 105,
-  "effect": "maxhealthscalingboostfood"
- }]],
- "price": 238.9,
- "builder": "/items/buildscripts/buildfood.lua",
- "rottingMultiplier": 1,
- "inventoryIcon": "mashedsweetpotatoMFM.png",
- "foodValue": 16.31,
- "category": "preparedFood",
- "rarity": "Common",
- "blockingEffects": ["wellfed"]
+  "itemName" : "mashedsweetpotatoMFM",
+  "rarity" : "Common",
+  "price" : 197.45,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "Smashing sweet potatoes is scientifically proven to make them 500% tastier.",
+  "shortdescription" : "Mashed Sweet Potato",
+  "foodValue" : 15.25,
+  "effects" : [[
+      {
+        "duration" : 105,
+        "effect" : "maxhealthscalingboostfood"
+      }]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : ["wellfed"],
+  "handPosition" : [0, -2],
+  "inventoryIcon" : "mashedsweetpotatoMFM.png"
 }

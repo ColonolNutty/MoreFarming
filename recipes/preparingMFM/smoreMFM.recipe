@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "toastedmarshmallowMFM", "count" : 1 },
+    { "item" : "chocolate", "count" : 1 },
+    { "item" : "grahamcrackerMFM", "count" : 2 }
+  ],
+  "output" : { "item" : "smoreMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

@@ -1,30 +1,27 @@
 {
- "shortdescription": "Maki - Ebi",
- "tooltipKind": "food",
- "description": "Cooked shrimp, poultry, and tamarai packed in a rice ball.",
- "itemAgingScripts": ["/scripts/items/rotting.lua"],
- "maxStack": 1000,
- "handPosition": [
-  0,
-  -4
- ],
- "itemName": "ebimakiMSM",
- "effects": [[
-  {
-   "duration": 30,
-   "effect": "runboostfood"
-  },
-  {
-   "duration": 105,
-   "effect": "maxenergyscalingboostfood"
-  }
- ]],
- "price": 705.94,
- "builder": "/items/buildscripts/buildfood.lua",
- "rottingMultiplier": 1,
- "inventoryIcon": "ebimakiMSM.png",
- "foodValue": 39.74,
- "category": "preparedFood",
- "rarity": "Uncommon",
- "blockingEffects": ["wellfed"]
+  "itemName" : "ebimakiMSM",
+  "rarity" : "Uncommon",
+  "price" : 682.21,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "Cooked shrimp, poultry, and tamarai packed in a rice ball.",
+  "shortdescription" : "Maki - Ebi",
+  "foodValue" : 39.13,
+  "effects" : [[
+      {
+        "duration" : 30,
+        "effect" : "runboostfood"
+      },
+
+      {
+        "duration" : 105,
+        "effect" : "maxenergyscalingboostfood"
+      }]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : ["wellfed"],
+  "handPosition" : [0, -4],
+  "inventoryIcon" : "ebimakiMSM.png"
 }

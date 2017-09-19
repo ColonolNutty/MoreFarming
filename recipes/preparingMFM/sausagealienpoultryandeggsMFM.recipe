@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cookedsausagealienpoultryMFM", "count" : 1 },
+    { "item" : "scrambledeggMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "sausagealienpoultryandeggsMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

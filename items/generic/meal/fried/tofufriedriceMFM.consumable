@@ -1,29 +1,27 @@
 {
   "itemName" : "tofufriedriceMFM",
   "rarity" : "Common",
-  "price" : 211.69,
+  "price" : 175.2,
   "category" : "preparedFood",
-  "inventoryIcon" : "tofufriedriceMFM.png",
+  "tooltipKind" : "food",
   "description" : "Tofu fried rice, a twist on a Hylotl staple.",
   "shortdescription" : "Tofu Fried Rice",
+  "foodValue" : 16.55,
   "effects" : [[
-    {
-      "effect" : "maxhealthscalingboostfood",
-      "duration" : 40
-    },
-    {
-      "effect" : "maxenergyscalingboostfood",
-      "duration" : 30
-    }
-  ]],
-  "foodValue" : 17.48,
-  "tooltipKind" : "food",
+      {
+        "duration" : 40,
+        "effect" : "maxhealthscalingboostfood"
+      },
+
+      {
+        "duration" : 30,
+        "effect" : "maxenergyscalingboostfood"
+      }]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -3]
+  "blockingEffects" : ["wellfed"],
+  "handPosition" : [0, -3],
+  "inventoryIcon" : "tofufriedriceMFM.png"
 }

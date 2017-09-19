@@ -1,9 +1,9 @@
 {
- "shortdescription": "Corn Syrup",
- "itemName": "cornsyrupMFM",
- "price": 46.05,
- "description": "Corn syrup, the most useful syrup around.",
- "inventoryIcon": "cornsyrupMFM.png",
- "category": "cookingIngredient",
- "rarity": "Common"
+  "itemName" : "cornsyrupMFM",
+  "rarity" : "Common",
+  "price" : 45.37,
+  "category" : "cookingIngredient",
+  "description" : "Corn syrup, the most useful syrup around.",
+  "shortdescription" : "Corn Syrup",
+  "inventoryIcon" : "cornsyrupMFM.png"
 }

@@ -1,0 +1,17 @@
+{
+  "itemName" : "smoreMFM",
+  "rarity" : "Common",
+  "price" : 334.37,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "Toasted marshmallow and chocolate sandwiched between graham crackers.",
+  "shortdescription" : "Smore",
+  "foodValue" : 13.73,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : ["wellfed"],
+  "handPosition" : [0, -4],
+  "inventoryIcon" : "smoreMFM.png"
+}

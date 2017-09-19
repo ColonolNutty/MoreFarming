@@ -1,10 +1,10 @@
 {
- "shortdescription": "Raw Basted Bacon",
- "itemName": "rawbastedbaconMFM",
- "price": 54.75,
- "description": "Raw bacon drenched in syrup. Ready for baking.",
- "inventoryIcon": "rawbastedbaconMFM.png",
- "category": "cookingIngredient",
- "maxStack": 1000,
- "rarity": "Common"
+  "itemName" : "rawbastedbaconMFM",
+  "rarity" : "Common",
+  "price" : 43.72,
+  "category" : "cookingIngredient",
+  "description" : "Raw bacon drenched in syrup. Ready for baking.",
+  "shortdescription" : "Raw Basted Bacon",
+  "maxStack" : 1000,
+  "inventoryIcon" : "rawbastedbaconMFM.png"
 }

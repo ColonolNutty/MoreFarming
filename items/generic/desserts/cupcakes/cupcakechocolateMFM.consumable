@@ -1,20 +1,17 @@
 {
- "shortdescription": "Cupcake - Chocolate",
- "tooltipKind": "food",
- "description": "A cupcake with chocolate icing.",
- "itemAgingScripts": ["/scripts/items/rotting.lua"],
- "maxStack": 1000,
- "handPosition": [
-  0,
-  -4
- ],
- "itemName": "cupcakechocolateMFM",
- "price": 443.19,
- "builder": "/items/buildscripts/buildfood.lua",
- "rottingMultiplier": 1,
- "inventoryIcon": "cupcakechocolateMFM.png",
- "foodValue": 40.94,
- "category": "preparedFood",
- "rarity": "Common",
- "blockingEffects": ["wellfed"]
+  "itemName" : "cupcakechocolateMFM",
+  "rarity" : "Common",
+  "price" : 397.5,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "A cupcake with chocolate icing.",
+  "shortdescription" : "Cupcake - Chocolate",
+  "foodValue" : 39.76,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : ["wellfed"],
+  "handPosition" : [0, -4],
+  "inventoryIcon" : "cupcakechocolateMFM.png"
 }

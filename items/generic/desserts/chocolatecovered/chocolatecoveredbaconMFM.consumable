@@ -1,20 +1,17 @@
 {
- "shortdescription": "Chocolate Covered Bacon",
- "tooltipKind": "food",
- "description": "Oh my...",
- "itemAgingScripts": ["/scripts/items/rotting.lua"],
- "maxStack": 1000,
- "handPosition": [
-  0,
-  -4
- ],
- "itemName": "chocolatecoveredbaconMFM",
- "price": 305.93,
- "builder": "/items/buildscripts/buildfood.lua",
- "rottingMultiplier": 1,
- "inventoryIcon": "chocolatecoveredbaconMFM.png",
- "foodValue": 22.11,
- "category": "preparedFood",
- "rarity": "Common",
- "blockingEffects": ["wellfed"]
+  "itemName" : "chocolatecoveredbaconMFM",
+  "rarity" : "Common",
+  "price" : 279.76,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "Oh my...",
+  "shortdescription" : "Chocolate Covered Bacon",
+  "foodValue" : 21.44,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : ["wellfed"],
+  "handPosition" : [0, -4],
+  "inventoryIcon" : "chocolatecoveredbaconMFM.png"
 }

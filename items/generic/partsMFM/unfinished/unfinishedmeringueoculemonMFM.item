@@ -1,10 +1,10 @@
 {
- "shortdescription": "Meringue Unf - Oculemon",
- "itemName": "unfinishedmeringueoculemonMFM",
- "price": 759.27,
- "description": "A meringue made from oculemons. Ready for baking.",
- "inventoryIcon": "unfinishedmeringueoculemonMFM.png",
- "category": "cookingIngredient",
- "maxStack": 1000,
- "rarity": "Common"
+  "itemName" : "unfinishedmeringueoculemonMFM",
+  "rarity" : "Common",
+  "price" : 697.1,
+  "category" : "cookingIngredient",
+  "description" : "A meringue made from oculemons. Ready for baking.",
+  "shortdescription" : "Meringue Unf - Oculemon",
+  "maxStack" : 1000,
+  "inventoryIcon" : "unfinishedmeringueoculemonMFM.png"
 }

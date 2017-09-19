@@ -1,10 +1,10 @@
 {
   "itemName" : "saltMFM",
-  "price" : 21,
   "rarity" : "Common",
+  "price" : 10.5,
   "category" : "cookingIngredient",
-  "inventoryIcon" : "saltMFM.png",
   "description" : "Used in many recipes!",
   "shortdescription" : "Salt",
-  "maxStack": 1000
+  "maxStack" : 1000,
+  "inventoryIcon" : "saltMFM.png"
 }

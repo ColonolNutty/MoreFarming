@@ -1,10 +1,10 @@
 {
- "shortdescription": "Cake Unfinished - Chocolate",
- "itemName": "unfinishedcakechocolateMFM",
- "price": 293.9,
- "description": "The fluffy, risen, base of a chocolate cake. Needs decorating.",
- "inventoryIcon": "unfinishedcakechocolateMFM.png",
- "category": "cookingIngredient",
- "maxStack": 1000,
- "rarity": "Common"
+  "itemName" : "unfinishedcakechocolateMFM",
+  "rarity" : "Common",
+  "price" : 282.05,
+  "category" : "cookingIngredient",
+  "description" : "The fluffy, risen, base of a chocolate cake. Needs decorating.",
+  "shortdescription" : "Cake Unfinished - Chocolate",
+  "maxStack" : 1000,
+  "inventoryIcon" : "unfinishedcakechocolateMFM.png"
 }

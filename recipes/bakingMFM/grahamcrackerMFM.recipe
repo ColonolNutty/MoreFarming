@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "doughMFM", "count" : 2 },
+    { "item" : "bakingpowderMFM", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "groundcinnamonMFM", "count" : 1 },
+    { "item" : "brownsugarMFM", "count" : 1 },
+    { "item" : "butterMFM", "count" : 1 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "vanillaextractMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "grahamcrackerMFM", "count" : 8 },
+  "groups" : [ "bakingMFM" ]
+}

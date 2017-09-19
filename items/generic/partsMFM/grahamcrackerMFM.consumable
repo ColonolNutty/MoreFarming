@@ -1,0 +1,16 @@
+{
+  "itemName" : "grahamcrackerMFM",
+  "rarity" : "Common",
+  "price" : 31.16,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "Golden brown graham cracker; Good for snacking on or making smores.",
+  "shortdescription" : "Graham Cracker",
+  "foodValue" : 1.33,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : ["wellfed"],
+  "inventoryIcon" : "grahamcrackerMFM.png"
+}

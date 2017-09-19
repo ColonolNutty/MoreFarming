@@ -1,30 +1,27 @@
 {
- "shortdescription": "Cookie - Jelon",
- "tooltipKind": "food",
- "description": "A cookie made using jelon.",
- "itemAgingScripts": ["/scripts/items/rotting.lua"],
- "maxStack": 1000,
- "handPosition": [
-  0,
-  -2
- ],
- "itemName": "jeloncookieMFM",
- "effects": [[
-  {
-   "duration": 30,
-   "effect": "runboostfood"
-  },
-  {
-   "duration": 60,
-   "effect": "energyregen"
-  }
- ]],
- "price": 60.02,
- "builder": "/items/buildscripts/buildfood.lua",
- "rottingMultiplier": 1,
- "inventoryIcon": "jeloncookieMFM.png",
- "foodValue": 8.74,
- "category": "food",
- "rarity": "Common",
- "blockingEffects": ["wellfed"]
+  "itemName" : "jeloncookieMFM",
+  "rarity" : "Common",
+  "price" : 54.79,
+  "category" : "food",
+  "tooltipKind" : "food",
+  "description" : "A cookie made using jelon.",
+  "shortdescription" : "Cookie - Jelon",
+  "foodValue" : 8.61,
+  "effects" : [[
+      {
+        "duration" : 30,
+        "effect" : "runboostfood"
+      },
+
+      {
+        "duration" : 60,
+        "effect" : "energyregen"
+      }]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : ["wellfed"],
+  "handPosition" : [0, -2],
+  "inventoryIcon" : "jeloncookieMFM.png"
 }

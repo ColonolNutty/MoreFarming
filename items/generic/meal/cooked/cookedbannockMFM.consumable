@@ -1,20 +1,17 @@
 {
- "shortdescription": "Bannock",
- "tooltipKind": "food",
- "description": "A bannock.",
- "itemAgingScripts": ["/scripts/items/rotting.lua"],
- "maxStack": 1000,
- "handPosition": [
-  0,
-  -4
- ],
- "itemName": "cookedbannockMFM",
- "price": 257.31,
- "builder": "/items/buildscripts/buildfood.lua",
- "rottingMultiplier": 1,
- "inventoryIcon": "cookedbannockMFM.png",
- "foodValue": 12.81,
- "category": "preparedFood",
- "rarity": "Common",
- "blockingEffects": ["wellfed"]
+  "itemName" : "cookedbannockMFM",
+  "rarity" : "Common",
+  "price" : 221.79,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "A bannock.",
+  "shortdescription" : "Bannock",
+  "foodValue" : 11.9,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : ["wellfed"],
+  "handPosition" : [0, -4],
+  "inventoryIcon" : "cookedbannockMFM.png"
 }

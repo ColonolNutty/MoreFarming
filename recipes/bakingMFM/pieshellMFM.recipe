@@ -1,12 +1,10 @@
 {
   "input" : [
-    { "item" : "butterMFM", "count" : 2 },
+    { "item" : "doughMFM", "count" : 3 },
     { "item" : "sugar", "count" : 1 },
     { "item" : "saltMFM", "count" : 1 },
-    { "item" : "flourMFM", "count" : 2 },
-    { "item" : "liquidwater", "count" : 2 },
-    { "item" : "doughMFM", "count" : 1 }
+    { "item" : "butterMFM", "count" : 2 }
   ],
-  "output" : { "item" : "pieshellMFM", "count" : 2 },
+  "output" : { "item" : "pieshellMFM", "count" : 1 },
   "groups" : [ "bakingMFM" ]
 }

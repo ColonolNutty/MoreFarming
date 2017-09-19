@@ -1,0 +1,22 @@
+{
+  "itemName" : "baconandeggsMFM",
+  "rarity" : "Uncommon",
+  "price" : 139.28,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "Nothing beats a breakfast of bacon and eggs.",
+  "shortdescription" : "Bacon and Eggs",
+  "foodValue" : 26.19,
+  "effects" : [[
+      {
+        "duration" : 25,
+        "effect" : "maxenergyscalingboostfood"
+      }]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : ["wellfed"],
+  "handPosition" : [0, -3],
+  "inventoryIcon" : "baconandeggsMFM.png"
+}

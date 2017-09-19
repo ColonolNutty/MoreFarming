@@ -1,9 +1,9 @@
 {
- "shortdescription": "Condensed Milk",
- "itemName": "condensedmilkMFM",
- "price": 177.84,
- "description": "Milk that is condensed",
- "inventoryIcon": "condensedmilkMFM.png",
- "category": "cookingIngredient",
- "rarity": "Common"
+  "itemName" : "condensedmilkMFM",
+  "rarity" : "Common",
+  "price" : 147.42,
+  "category" : "cookingIngredient",
+  "description" : "Milk that is condensed",
+  "shortdescription" : "Condensed Milk",
+  "inventoryIcon" : "condensedmilkMFM.png"
 }

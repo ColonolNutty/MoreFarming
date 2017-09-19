@@ -1,19 +1,17 @@
 {
   "itemName" : "sweetpotatofriesMFM",
   "rarity" : "Common",
-  "price" : 111.3,
+  "price" : 100.28,
   "category" : "preparedFood",
-  "inventoryIcon" : "sweetpotatofriesMFM.png",
+  "tooltipKind" : "food",
   "description" : "Sweet and salty.",
   "shortdescription" : "Fries - Sweet Potato",
-  "foodValue" : 11.06,
-  "tooltipKind" : "food",
+  "foodValue" : 10.77,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+  "blockingEffects" : ["wellfed"],
+  "handPosition" : [0, -4],
+  "inventoryIcon" : "sweetpotatofriesMFM.png"
 }

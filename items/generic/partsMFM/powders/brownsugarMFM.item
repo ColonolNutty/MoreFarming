@@ -1,0 +1,10 @@
+{
+  "itemName" : "brownsugarMFM",
+  "rarity" : "Common",
+  "price" : 60.27,
+  "category" : "cookingIngredient",
+  "description" : "Sugar mixed with molasses",
+  "shortdescription" : "Brown Sugar",
+  "maxStack" : 1000,
+  "inventoryIcon" : "brownsugarMFM.png"
+}

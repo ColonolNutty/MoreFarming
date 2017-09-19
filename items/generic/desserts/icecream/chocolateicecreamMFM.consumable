@@ -1,20 +1,17 @@
 {
- "shortdescription": "Ice Cream - Chocolate",
- "tooltipKind": "food",
- "description": "Chocolate ice cream.",
- "itemAgingScripts": ["/scripts/items/rotting.lua"],
- "maxStack": 1000,
- "handPosition": [
-  0,
-  -4
- ],
- "itemName": "chocolateicecreamMFM",
- "price": 559.34,
- "builder": "/items/buildscripts/buildfood.lua",
- "rottingMultiplier": 1,
- "inventoryIcon": "chocolateicecreamMFM.png",
- "foodValue": 25.65,
- "category": "preparedFood",
- "rarity": "Common",
- "blockingEffects": ["wellfed"]
+  "itemName" : "chocolateicecreamMFM",
+  "rarity" : "Common",
+  "price" : 463.23,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "Chocolate ice cream.",
+  "shortdescription" : "Ice Cream - Chocolate",
+  "foodValue" : 23.18,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : ["wellfed"],
+  "handPosition" : [0, -4],
+  "inventoryIcon" : "chocolateicecreamMFM.png"
 }

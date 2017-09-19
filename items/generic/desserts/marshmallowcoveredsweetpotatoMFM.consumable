@@ -1,0 +1,17 @@
+{
+  "itemName" : "marshmallowcoveredsweetpotatoMFM",
+  "rarity" : "Common",
+  "price" : 193.63,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "A baked sweet potato with butter, covered in marshmallows.",
+  "shortdescription" : "Marshmallow Sw. Potato",
+  "foodValue" : 14.1,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : ["wellfed"],
+  "handPosition" : [0, -4],
+  "inventoryIcon" : "marshmallowcoveredsweetpotatoMFM.png"
+}

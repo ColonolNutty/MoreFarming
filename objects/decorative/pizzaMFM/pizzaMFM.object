@@ -1,71 +1,52 @@
 {
- "shortdescription": "Pizza",
- "avianDescription": "It tastes good but it's so hard to eat!",
- "largeImage": "pizzaMFM.png:default.default",
- "race": "generic",
- "breakDropOptions": [[
-  [
-   "pizzaslice",
-   1,
-   {}
-  ],
-  [
-   "pizzaslice",
-   1,
-   {}
-  ],
-  [
-   "pizzaslice",
-   1,
-   {}
-  ],
-  [
-   "pizzaslice",
-   1,
-   {}
-  ],
-  [
-   "pizzaslice",
-   1,
-   {}
-  ],
-  [
-   "pizzaslice",
-   1,
-   {}
-  ],
-  [
-   "pizzaslice",
-   1,
-   {}
-  ],
-  [
-   "pizzaslice",
-   1,
-   {}
-  ]
- ]],
- "orientations": [{
-  "frames": 1,
-  "animationCycle": 0.5,
-  "imagePosition": [
-   -8,
-   0
-  ],
-  "spaceScan": 0.1,
-  "dualImage": "pizzaMFM.png:<color>.0",
-  "anchors": ["bottom"]
- }],
- "description": "A large pizza, perfect for a party.",
- "hylotlDescription": "The act of just throwing this stuff together disrespects what cooking means.",
- "glitchDescription": "Disappointment. This pizza is nothing compared to a pizzap.",
- "price": 730.94,
- "colonyTags": ["cooking"],
- "objectName": "pizzaMFM",
- "apexDescription": "I always get grease in my fur when I eat these.",
- "inventoryIcon": "pizzaMFMicon.png",
- "category": "decorative",
- "humanDescription": "I once ate five whole pizzas within an hour.",
- "floranDescription": "Floran like eating tomato pie. Tomato issss plant!",
- "rarity": "Uncommon"
+  "objectName" : "pizzaMFM",
+  "rarity" : "Uncommon",
+  "price" : 624.45,
+  "category" : "decorative",
+  "colonyTags" : ["cooking"],
+  "description" : "A large pizza, perfect for a party.",
+  "shortdescription" : "Pizza",
+  "race" : "generic",
+  "apexDescription" : "I always get grease in my fur when I eat these.",
+  "avianDescription" : "It tastes good but it's so hard to eat!",
+  "floranDescription" : "Floran like eating tomato pie. Tomato issss plant!",
+  "glitchDescription" : "Disappointment. This pizza is nothing compared to a pizzap.",
+  "humanDescription" : "I once ate five whole pizzas within an hour.",
+  "hylotlDescription" : "The act of just throwing this stuff together disrespects what cooking means.",
+  "inventoryIcon" : "pizzaMFMicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "dualImage" : "pizzaMFM.png:<color>.0",
+      "anchors" : ["bottom"]
+    }],
+  "largeImage" : "pizzaMFM.png:default.default",
+  "breakDropOptions" : [[["pizzaslice", 1, 
+        {
+
+        }],["pizzaslice", 1, 
+        {
+
+        }],["pizzaslice", 1, 
+        {
+
+        }],["pizzaslice", 1, 
+        {
+
+        }],["pizzaslice", 1, 
+        {
+
+        }],["pizzaslice", 1, 
+        {
+
+        }],["pizzaslice", 1, 
+        {
+
+        }],["pizzaslice", 1, 
+        {
+
+        }]]]
 }

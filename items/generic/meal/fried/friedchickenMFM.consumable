@@ -1,0 +1,17 @@
+{
+  "itemName" : "friedchickenMFM",
+  "rarity" : "Common",
+  "price" : 19.3,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "SFC, Space Fried Chicken; Chicken deep-fried in oil",
+  "shortdescription" : "Fried Chicken",
+  "foodValue" : 6.07,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : ["wellfed"],
+  "handPosition" : [0, -4],
+  "inventoryIcon" : "friedchickenMFM.png"
+}

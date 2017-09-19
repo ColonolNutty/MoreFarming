@@ -1,20 +1,17 @@
 {
- "shortdescription": "Cupcake - Plain",
- "tooltipKind": "food",
- "description": "A cupcake with no icing.",
- "itemAgingScripts": ["/scripts/items/rotting.lua"],
- "maxStack": 1000,
- "handPosition": [
-  0,
-  -4
- ],
- "itemName": "cupcakeplainMFM",
- "price": 318.06,
- "builder": "/items/buildscripts/buildfood.lua",
- "rottingMultiplier": 1,
- "inventoryIcon": "cupcakeplainMFM.png",
- "foodValue": 33.96,
- "category": "preparedFood",
- "rarity": "Common",
- "blockingEffects": ["wellfed"]
+  "itemName" : "cupcakeplainMFM",
+  "rarity" : "Common",
+  "price" : 274.54,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "A cupcake with no icing.",
+  "shortdescription" : "Cupcake - Plain",
+  "foodValue" : 32.84,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : ["wellfed"],
+  "handPosition" : [0, -4],
+  "inventoryIcon" : "cupcakeplainMFM.png"
 }

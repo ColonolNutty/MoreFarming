@@ -1,41 +1,34 @@
 {
- "shortdescription": "Pizzap",
- "avianDescription": "I don't know what to think about this.",
- "largeImage": "pizzapMFM.png:default.default",
- "race": "generic",
- "breakDropOptions": [[
-  [
-   "automato",
-   1,
-   {}
-  ],
-  [
-   "boltbulb",
-   1,
-   {}
-  ]
- ]],
- "orientations": [{
-  "frames": 1,
-  "animationCycle": 0.5,
-  "imagePosition": [
-   -8,
-   0
-  ],
-  "spaceScan": 0.1,
-  "dualImage": "pizzapMFM.png",
-  "anchors": ["bottom"]
- }],
- "description": "A large pizzap. It's good if you can get past the metallic aftertaste!",
- "hylotlDescription": "The act of just throwing this stuff together disrespects what cooking means.",
- "glitchDescription": "Approval. This pizzap is fresh out the oven.",
- "price": 874.55,
- "colonyTags": ["cooking"],
- "objectName": "pizzapMFM",
- "apexDescription": "Comparable to the slop I used to be fed.",
- "inventoryIcon": "pizzapMFMicon.png",
- "category": "decorative",
- "humanDescription": "It's good if you can get past the metallic aftertaste.",
- "floranDescription": "Floran dont like eating metal pie.",
- "rarity": "Uncommon"
+  "objectName" : "pizzapMFM",
+  "rarity" : "Uncommon",
+  "price" : 868.99,
+  "category" : "decorative",
+  "colonyTags" : ["cooking"],
+  "description" : "A large pizzap. It's good if you can get past the metallic aftertaste!",
+  "shortdescription" : "Pizzap",
+  "race" : "generic",
+  "apexDescription" : "Comparable to the slop I used to be fed.",
+  "avianDescription" : "I don't know what to think about this.",
+  "floranDescription" : "Floran dont like eating metal pie.",
+  "glitchDescription" : "Approval. This pizzap is fresh out the oven.",
+  "humanDescription" : "It's good if you can get past the metallic aftertaste.",
+  "hylotlDescription" : "The act of just throwing this stuff together disrespects what cooking means.",
+  "inventoryIcon" : "pizzapMFMicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "dualImage" : "pizzapMFM.png",
+      "anchors" : ["bottom"]
+    }],
+  "largeImage" : "pizzapMFM.png:default.default",
+  "breakDropOptions" : [[["automato", 1, 
+        {
+
+        }],["boltbulb", 1, 
+        {
+
+        }]]]
 }

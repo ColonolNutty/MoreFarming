@@ -1,20 +1,17 @@
 {
- "shortdescription": "Sandwich - Bacon and Egg",
- "tooltipKind": "food",
- "description": "A breakfast sandwich with bacon and eggs.",
- "itemAgingScripts": ["/scripts/items/rotting.lua"],
- "maxStack": 1000,
- "handPosition": [
-  0,
-  -4
- ],
- "itemName": "eggandbaconsandwichMFM",
- "price": 349.79,
- "builder": "/items/buildscripts/buildfood.lua",
- "rottingMultiplier": 1,
- "inventoryIcon": "eggandbaconsandwichMFM.png",
- "foodValue": 63.18,
- "category": "preparedFood",
- "rarity": "Common",
- "blockingEffects": ["wellfed"]
+  "itemName" : "eggandbaconsandwichMFM",
+  "rarity" : "Common",
+  "price" : 225.38,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "A breakfast sandwich with bacon and eggs.",
+  "shortdescription" : "Sandwich - Bacon and Egg",
+  "foodValue" : 30.15,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : ["wellfed"],
+  "handPosition" : [0, -4],
+  "inventoryIcon" : "eggandbaconsandwichMFM.png"
 }

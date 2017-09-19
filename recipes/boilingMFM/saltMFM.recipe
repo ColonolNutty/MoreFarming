@@ -3,6 +3,6 @@
     { "item" : "coralcreep", "count" : 1 },
     { "item" : "liquidwater", "count" : 2 }
   ],
-  "output" : { "item" : "saltMFM", "count" : 5 },
+  "output" : { "item" : "saltMFM", "count" : 10 },
   "groups" : [ "boilingMFM" ]
 }

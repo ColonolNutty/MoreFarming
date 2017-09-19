@@ -1,10 +1,10 @@
 {
- "shortdescription": "Raw Bannock",
- "itemName": "bannockMFM",
- "itemTags": ["reagent"],
- "price": 245.06,
- "description": "Bannock.",
- "inventoryIcon": "bannockMFM.png",
- "category": "craftingMaterial",
- "rarity": "Common"
+  "itemName" : "bannockMFM",
+  "rarity" : "Common",
+  "price" : 211.23,
+  "category" : "craftingMaterial",
+  "description" : "Bannock.",
+  "shortdescription" : "Raw Bannock",
+  "inventoryIcon" : "bannockMFM.png",
+  "itemTags" : ["reagent"]
 }

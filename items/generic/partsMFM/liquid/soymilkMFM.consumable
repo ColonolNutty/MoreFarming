@@ -1,19 +1,17 @@
 {
   "itemName" : "soymilkMFM",
   "rarity" : "Common",
-  "price" : 94.82,
+  "price" : 72.22,
   "category" : "drink",
-  "inventoryIcon" : "soymilkMFM.png",
+  "tooltipKind" : "food",
   "description" : "Milk made from soy beans",
   "shortdescription" : "Soy Milk",
-  "foodValue" : 3.9,
-  "tooltipKind" : "food",
+  "foodValue" : 3.32,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ]
+  "blockingEffects" : ["wellfed"],
+  "inventoryIcon" : "soymilkMFM.png",
+  "emitters" : ["drinking"]
 }

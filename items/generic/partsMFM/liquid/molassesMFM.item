@@ -1,0 +1,9 @@
+{
+  "itemName" : "molassesMFM",
+  "rarity" : "Common",
+  "price" : 29.4,
+  "category" : "cookingIngredient",
+  "description" : "Black liquid, a byproduct of refining sugar. Used as a sweetener.",
+  "shortdescription" : "Molasses",
+  "inventoryIcon" : "molassesMFM.png"
+}

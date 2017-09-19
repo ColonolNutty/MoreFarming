@@ -1,15 +1,15 @@
 {
- "shortdescription": "Chocolate Chips",
- "tooltipKind": "food",
- "description": "Little chocolate bits.",
- "itemAgingScripts": ["/scripts/items/rotting.lua"],
- "maxStack": 1000,
- "itemName": "chocolatechipsMFM",
- "price": 70.97,
- "builder": "/items/buildscripts/buildfood.lua",
- "rottingMultiplier": 1,
- "inventoryIcon": "chocolatechipsMFM.png",
- "foodValue": 2.77,
- "category": "cookingIngredient",
- "rarity": "Common"
+  "itemName" : "chocolatechipsMFM",
+  "rarity" : "Common",
+  "price" : 64.43,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "Little chocolate bits.",
+  "shortdescription" : "Chocolate Chips",
+  "foodValue" : 2.6,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "inventoryIcon" : "chocolatechipsMFM.png"
 }

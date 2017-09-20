@@ -1,0 +1,17 @@
+{
+  "input" : [
+    { "item" : "rawstripofalienmeatMFM", "count" : 2 },
+    { "item" : "choppedbeetMFM", "count" : 1 },
+    { "item" : "choppedcarrotMFM", "count" : 1 },
+    { "item" : "choppedgarlicMFM", "count" : 2 },
+    { "item" : "choppedlettuceMFM", "count" : 1 },
+    { "item" : "choppedonionMFM", "count" : 2 },
+    { "item" : "choppedparsnipMFM", "count" : 2 },
+    { "item" : "cookingoilMFM", "count" : 1 },
+    { "item" : "vinegarMSM", "count" : 1 },
+    { "item" : "sourcreamMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
+  ],
+  "output" : { "item" : "borschtMFM", "count" : 1 },
+  "groups" : [ "boilingMFM" ]
+}

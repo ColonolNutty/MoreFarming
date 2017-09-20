@@ -1,17 +1,17 @@
 {
-  "itemName" : "boiledredappleMFM",
+  "itemName" : "souppumpkinMFM",
   "rarity" : "Common",
-  "price" : 22.05,
+  "price" : 153.75,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A red apple boiled in water.",
-  "shortdescription" : "Boiled Red Apple",
-  "foodValue" : 5.51,
+  "description" : "A soup made with pumpkins.",
+  "shortdescription" : "Soup - Pumpkin",
+  "foodValue" : 18.14,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : ["wellfed"],
-  "inventoryIcon" : "boiledredappleMFM.png",
-  "emote" : "Happy"
+  "handPosition" : [0, -3],
+  "inventoryIcon" : "souppumpkinMFM.png"
 }

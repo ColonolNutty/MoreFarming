@@ -5,7 +5,7 @@
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "A cooked sausage made of steak and poultry",
-  "shortdescription" : "Cooked Sausage - Steak+Poultry",
+  "shortdescription" : "Cooked Sausage",
   "foodValue" : 11.58,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

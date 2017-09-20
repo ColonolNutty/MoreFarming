@@ -4,7 +4,7 @@
   "price" : 177.41,
   "category" : "cookingIngredient",
   "description" : "Omelette made with bacon, cheese, and mushrooms.",
-  "shortdescription" : "Mix Omelette - Bac./Chse./Mushrm.",
+  "shortdescription" : "Mix Omelette - Ba.Ch.Mu.",
   "maxStack" : 1000,
   "inventoryIcon" : "mixomelettebachmuMFM.png"
 }

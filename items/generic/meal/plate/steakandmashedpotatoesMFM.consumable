@@ -5,7 +5,7 @@
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "A plate of steak and mashed potatoes",
-  "shortdescription" : "Steak and Mashed Potatoes",
+  "shortdescription" : "Steak and Potatoes",
   "foodValue" : 27.58,
   "effects" : [[
       {

@@ -43,6 +43,7 @@
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "molassesMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "sakeMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "saltMFM" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "sourcreamMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "soymilkMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "tamariMSM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "tofuMFM" } },

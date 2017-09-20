@@ -6,7 +6,7 @@
   "eventCategory" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "Sausage links, contains steak and poultry",
-  "shortdescription" : "Raw Sausage - Steak+Poultry",
+  "shortdescription" : "Raw Sausage",
   "foodValue" : 11.03,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,

@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "brownsugarMFM", "count" : 1 },
+    { "item" : "groundcinnamonMFM", "count" : 1 },
+    { "item" : "cornsyrupMFM", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "milk", "count" : 2 },
+    { "item" : "egg", "count" : 2 },
+    { "item" : "butterMFM", "count" : 1 },
+    { "item" : "vanillaextractMFM", "count" : 1 },
+    { "item" : "pieshellMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "unfinishedpiebutterscotchcinnamonMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

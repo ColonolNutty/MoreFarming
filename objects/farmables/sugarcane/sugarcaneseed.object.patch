@@ -13,9 +13,9 @@
 }, {
   "op" : "add",
   "path" : "/price",
-  "value" : 20
+  "value" : 804.0
 } ], [ {
   "op" : "replace",
   "path" : "/price",
-  "value" : 20
+  "value" : 804.0
 } ] ]

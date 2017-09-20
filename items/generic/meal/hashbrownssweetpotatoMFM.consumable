@@ -1,17 +1,17 @@
 {
-  "itemName" : "choppedredappleMFM",
+  "itemName" : "hashbrownssweetpotatoMFM",
   "rarity" : "Common",
-  "price" : 21.0,
-  "category" : "cookingIngredient",
+  "price" : 111.27,
+  "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped red apple.",
-  "shortdescription" : "Chopped Red Apple",
-  "foodValue" : 5.25,
+  "description" : "Shredded sweet potatoes fried in butter.",
+  "shortdescription" : "Hash Browns",
+  "foodValue" : 11.83,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : ["wellfed"],
   "handPosition" : [0, -4],
-  "inventoryIcon" : "choppedredappleMFM.png"
+  "inventoryIcon" : "hashbrownssweetpotatoMFM.png"
 }

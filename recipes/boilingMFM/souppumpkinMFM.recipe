@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "rawstripofpoultryMFM", "count" : 2 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "pureepumpkinMFM", "count" : 3 },
+    { "item" : "choppedonionMFM", "count" : 1 },
+    { "item" : "choppedgarlicMFM", "count" : 1 },
+    { "item" : "creamMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
+  ],
+  "output" : { "item" : "souppumpkinMFM", "count" : 1 },
+  "groups" : [ "boilingMFM" ]
+}

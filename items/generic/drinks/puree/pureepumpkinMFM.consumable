@@ -1,12 +1,12 @@
 {
-  "itemName" : "redapplejuiceMFM",
+  "itemName" : "pureepumpkinMFM",
   "rarity" : "Common",
-  "price" : 22.05,
+  "price" : 10.76,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "sweet apple juice.",
-  "shortdescription" : "Juice - Red Apple",
-  "foodValue" : 5.51,
+  "description" : "Pumpkin blended into a thick creamy paste",
+  "shortdescription" : "Puree - Pumpkin",
+  "foodValue" : 0.0,
   "effects" : [[
       {
         "duration" : 120,
@@ -15,9 +15,9 @@
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
+  "rottingMultiplier" : 1,
   "blockingEffects" : ["wellfed"],
   "handPosition" : [0, -4],
-  "inventoryIcon" : "redapplejuiceMFM.png",
+  "inventoryIcon" : "pureepumpkinMFM.png",
   "emitters" : ["drinking"]
 }

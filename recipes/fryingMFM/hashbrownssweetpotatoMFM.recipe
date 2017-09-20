@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "choppedsweetpotatoMFM", "count" : 1 },
+    { "item" : "butterMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "hashbrownssweetpotatoMFM", "count" : 1 },
+  "groups" : [ "fryingMFM" ]
+}

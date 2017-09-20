@@ -1,0 +1,9 @@
+{
+  "itemName" : "sourcreamMFM",
+  "rarity" : "Common",
+  "price" : 16.72,
+  "category" : "cookingIngredient",
+  "description" : "Cream that haa a sour taste.",
+  "shortdescription" : "Sour Cream",
+  "inventoryIcon" : "sourcreamMFM.png"
+}

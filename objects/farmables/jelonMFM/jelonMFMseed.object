@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 23,
   "tooltipKind" : "seed",
-  "description" : "Gelatinous jelon!\nFirst Harvest: 10 mins\nRe-Harvest: None",
+  "description" : "Gelatinous jelon!\nFirst Harvest: 58 mins\nRe-Harvest: None",
   "shortdescription" : "Jelon Seed",
   "objectType" : "farmable",
   "printable" : false,
@@ -33,10 +33,10 @@
   ],
   "stages" : [
     {
-      "duration" : [240, 240]
+      "duration" : [1440, 1440]
     },
     {
-      "duration" : [360, 360]
+      "duration" : [2040, 2040]
     },
     {
       "alts" : 5,

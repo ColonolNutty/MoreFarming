@@ -37,14 +37,15 @@
   ],
   "stages" : [
     {
-      "duration" : [1500, 1560]
+      "duration" : [1920, 1920]
     },
     {
-      "duration" : [900, 900]
+      "duration" : [2760, 2760]
     },
     {
       "alts" : 5,
-      "harvestPool" : "pumpkinMFMHarvest"
+      "harvestPool" : "pumpkinMFMHarvest",
+      "resetToStage" : 1
     }
   ],
   "maxImmersion" : 0.3,

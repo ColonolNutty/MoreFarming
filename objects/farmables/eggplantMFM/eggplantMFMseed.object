@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 30,
   "tooltipKind" : "seed",
-  "description" : "An alien looking vegetable.\nFirst Harvest: 28 mins\nRe-Harvest: 6 mins",
+  "description" : "An alien looking vegetable.\nFirst Harvest: 78 mins\nRe-Harvest: 46 mins",
   "shortdescription" : "Eggplant Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -26,10 +26,10 @@
   ],
   "stages" : [
     {
-      "duration" : [1320, 1321]
+      "duration" : [1920, 1920]
     },
     {
-      "duration" : [320, 321]
+      "duration" : [2760, 2760]
     },
     {
       "alts" : 5,

@@ -33,30 +33,30 @@
   ],
   "stages" : [
     {
-      "duration" : [720, 780]
+      "duration" : [360, 360]
     },
     {
-      "duration" : [720, 780]
-    },
-    {
-      "alts" : 5,
-      "duration" : [660, 720]
+      "duration" : [360, 360]
     },
     {
       "alts" : 5,
-      "duration" : [180, 240],
+      "duration" : [1080, 1080]
+    },
+    {
+      "alts" : 5,
+      "duration" : [240, 240],
       "harvestPool" : "greenbellpepperMFMHarvest",
       "resetToStage" : 2
     },
     {
       "alts" : 5,
-      "duration" : [180, 240],
+      "duration" : [180, 180],
       "harvestPool" : "yellowbellpepperMFMHarvest",
       "resetToStage" : 2
     },
     {
       "alts" : 5,
-      "duration" : [180, 240],
+      "duration" : [180, 180],
       "harvestPool" : "orangebellpepperMFMHarvest",
       "resetToStage" : 2
     },

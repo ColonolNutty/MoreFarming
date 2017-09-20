@@ -3,7 +3,7 @@
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
-  "price" : 1,
+  "price" : 5,
   "tooltipKind" : "seed",
   "description" : "This tree produces Red Apples.",
   "shortdescription" : "Wild Red Apple Seeds",
@@ -33,10 +33,10 @@
   ],
   "stages" : [
     {
-      "duration" : [20580, 20580]
+      "duration" : [360, 360]
     },
     {
-      "duration" : [1320, 1320]
+      "duration" : [480, 480]
     },
     {
       "alts" : 5,

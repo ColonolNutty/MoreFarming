@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 10,
   "tooltipKind" : "seed",
-  "description" : "Seeds for cucumbers!\nFirst Harvest: 25 mins\nRe-Harvest: None",
+  "description" : "Seeds for cucumbers!\nFirst Harvest: 26 mins\nRe-Harvest: 16",
   "shortdescription" : "Cucumber Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -31,18 +31,19 @@
   ],
   "stages" : [
     {
-      "duration" : [720, 780]
+      "duration" : [300, 300]
     },
     {
-      "duration" : [660, 720]
-    },
-    {
-      "alts" : 5,
-      "duration" : [120, 180]
+      "duration" : [300, 300]
     },
     {
       "alts" : 5,
-      "harvestPool" : "cucumberMSMHarvest"
+      "duration" : [960, 960]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "cucumberMSMHarvest",
+      "resetToStage" : 2
     }
   ],
   "maxImmersion" : 0.25

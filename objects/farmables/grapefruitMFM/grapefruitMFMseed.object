@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 10,
   "tooltipKind" : "seed",
-  "description" : "Ripe Grapefruit.\nFirst Harvest: 365 mins\nRe-Harvest: 22 mins",
+  "description" : "Ripe Grapefruit.\nFirst Harvest: 26 mins\nRe-Harvest: 16 mins",
   "shortdescription" : "Grapefruit Seed",
   "objectType" : "farmable",
   "printable" : false,
@@ -30,10 +30,10 @@
   ],
   "stages" : [
     {
-      "duration" : [20580, 20580]
+      "duration" : [600, 600]
     },
     {
-      "duration" : [1320, 1320]
+      "duration" : [960, 960]
     },
     {
       "alts" : 5,

@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 1,
   "tooltipKind" : "seed",
-  "description" : "The worst plant imaginable.\nFirst Harvest: 5 mins\nRe-Harvest: 1 mins",
+  "description" : "The worst plant imaginable.\nFirst Harvest: 4 mins\nRe-Harvest: 2 mins",
   "shortdescription" : "Dungroot Seed",
   "objectType" : "farmable",
   "printable" : false,
@@ -34,10 +34,10 @@
   ],
   "stages" : [
     {
-      "duration" : [240, 240]
+      "duration" : [120, 120]
     },
     {
-      "duration" : [60, 60]
+      "duration" : [120, 120]
     },
     {
       "alts" : 5,

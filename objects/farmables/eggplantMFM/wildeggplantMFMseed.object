@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 30,
   "tooltipKind" : "seed",
-  "description" : "An alien vegetable.",
+  "description" : "An alien looking vegetable.",
   "shortdescription" : "Wild Eggplant Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -29,10 +29,10 @@
   ],
   "stages" : [
     {
-      "duration" : [1320, 1321]
+      "duration" : [1920, 1920]
     },
     {
-      "duration" : [320, 321]
+      "duration" : [2760, 2760]
     },
     {
       "alts" : 5,

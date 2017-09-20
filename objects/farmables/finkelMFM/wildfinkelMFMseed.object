@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 20,
   "tooltipKind" : "seed",
-  "description" : "Finkel, grows on metallic trees.",
+  "description" : "Finkel, a strange mushroom that grows on metallic trees.",
   "shortdescription" : "Wild Finkel Seed",
   "objectType" : "farmable",
   "printable" : false, 
@@ -36,10 +36,10 @@
   ],
   "stages" : [
     {
-      "duration" : [5145, 5145]
+      "duration" : [1200, 1200]
     },
     {
-      "duration" : [1320, 1320]
+      "duration" : [1920, 1920]
     },
     {
       "alts" : 5,

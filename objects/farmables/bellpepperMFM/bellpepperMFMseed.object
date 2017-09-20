@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 15,
   "tooltipKind" : "seed",
-  "description" : "Green: 38 mins, Yellow: 41 mins\nOrange: 44 mins, Red: 47 mins\nRe-Harvest: 11 mins",
+  "description" : "Gre: 29 mins, Yel: 33 mins\nOra: 36 mins, Red: 39 mins\nRe-Harvest: 18 mins",
   "shortdescription" : "Bell Pepper Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -30,30 +30,30 @@
   ],
   "stages" : [
     {
-      "duration" : [720, 780]
+      "duration" : [360, 360]
     },
     {
-      "duration" : [720, 780]
-    },
-    {
-      "alts" : 5,
-      "duration" : [660, 720]
+      "duration" : [360, 360]
     },
     {
       "alts" : 5,
-      "duration" : [180, 240],
+      "duration" : [1080, 1080]
+    },
+    {
+      "alts" : 5,
+      "duration" : [240, 240],
       "harvestPool" : "greenbellpepperMFMHarvest",
       "resetToStage" : 2
     },
     {
       "alts" : 5,
-      "duration" : [180, 240],
+      "duration" : [180, 180],
       "harvestPool" : "yellowbellpepperMFMHarvest",
       "resetToStage" : 2
     },
     {
       "alts" : 5,
-      "duration" : [180, 240],
+      "duration" : [180, 180],
       "harvestPool" : "orangebellpepperMFMHarvest",
       "resetToStage" : 2
     },

@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 13,
   "tooltipKind" : "seed",
-  "description" : "Glows in the dark.\nFirst Harvest: 30 mins\nRe-Harvest: None",
+  "description" : "Glows in the dark.\nFirst Harvest: 34 mins\nRe-Harvest: None",
   "shortdescription" : "Shadowbulb Seeds",
   "objectType" : "farmable",
   "lightColor" : [175, 175, 150],
@@ -34,10 +34,10 @@
   ],
   "stages" : [
     {
-      "duration" : [1140, 1140]
+      "duration" : [840, 840]
     },
     {
-      "duration" : [360, 480]
+      "duration" : [1200, 1200]
     },
     {
       "alts" : 5,

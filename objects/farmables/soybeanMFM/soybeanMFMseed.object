@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 12,
   "tooltipKind" : "seed",
-  "description" : "It's soy! Oh boy!\nFirst Harvest: 60 mins\nRe-Harvest: 7 mins",
+  "description" : "It's soy! Oh boy!\nFirst Harvest: 30 mins\nRe-Harvest: 18 mins",
   "shortdescription" : "Soybean Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -33,10 +33,10 @@
   ],
   "stages" : [
     {
-      "duration" : [3180, 3180]
+      "duration" : [720, 720]
     },
     {
-      "duration" : [400, 440]
+      "duration" : [1080, 1080]
     },
     {
       "alts" : 5,

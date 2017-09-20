@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 13,
   "tooltipKind" : "seed",
-  "description" : "A Rattan plant, it comes with wooden support.",
+  "description" : "A rattan plant, the material is used to make furniture.",
   "shortdescription" : "Wild Rattan Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -37,14 +37,14 @@
   ],
   "stages" : [
     {
-      "duration" : [1380, 1380]
+      "duration" : [420, 420]
     },
     {
-      "duration" : [1300, 1300]
+      "duration" : [420, 420]
     },
     {
       "alts" : 5,
-      "duration" : [900, 900]
+      "duration" : [1200, 1200]
     },
     {
       "alts" : 5,

@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 18,
   "tooltipKind" : "seed",
-  "description" : "A relative of cabbage.",
+  "description" : "A relative of the cabbage.",
   "shortdescription" : "Wild Brussels Sprout Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -33,14 +33,14 @@
   ],
   "stages" : [
     {
-      "duration" : [1560, 1560]
+      "duration" : [540, 540]
     },
     {
-      "duration" : [720, 720]
+      "duration" : [540, 540]
     },
     {
       "alts" : 5,
-      "duration" : [420, 420]
+      "duration" : [1680, 1680]
     },
     {
       "alts" : 5,

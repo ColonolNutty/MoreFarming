@@ -34,18 +34,19 @@
 
   "stages" : [
     {
-      "duration" : [1500, 1560]
+      "duration" : [240, 240]
     },
     {
-      "duration" : [900, 900]
-    },
-    {
-      "alts" : 5,
-      "duration" : [420, 420]
+      "duration" : [240, 240]
     },
     {
       "alts" : 5,
-      "harvestPool" : "rutabagaMFMHarvest"
+      "duration" : [720, 720]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "rutabagaMFMHarvest",
+      "resetToStage" : 2
     }
   ],
   "maxImmersion" : 0.25,

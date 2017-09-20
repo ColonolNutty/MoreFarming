@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 8,
   "tooltipKind" : "seed",
-  "description" : "Pitahaya Cactus.\nFirst Harvest: 23 mins\nRe-Harvest: 7 mins",
+  "description" : "Pitahaya Cactus.\nFirst Harvest: 20 mins\nRe-Harvest: 12 mins",
   "shortdescription" : "Dragonfruit Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -30,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [600, 600]
+      "duration" : [240, 240]
     },
     {
-      "duration" : [660, 720]
+      "duration" : [240, 240]
     },
     {
       "alts" : 5,
-      "duration" : [420, 480]
+      "duration" : [720, 720]
     },
     {
       "alts" : 5,

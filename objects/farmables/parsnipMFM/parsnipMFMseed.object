@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 10,
   "tooltipKind" : "seed",
-  "description" : "Looks like a carrot.\nFirst Harvest: 60 mins\nRe-Harvest: None",
+  "description" : "Looks like a carrot.\nFirst Harvest: 26 mins\nRe-Harvest: None",
   "shortdescription" : "Parsnip Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -30,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [1880, 1880]
+      "duration" : [300, 300]
     },
     {
-      "duration" : [1300, 1300]
+      "duration" : [300, 300]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [960, 960]
     },
     {
       "alts" : 5,

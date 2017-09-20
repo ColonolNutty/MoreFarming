@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 8,
   "tooltipKind" : "seed",
-  "description" : "A tender plant.\nFirst Harvest: 60 mins\nRe-Harvest: 15 mins",
+  "description" : "A tender plant.\nFirst Harvest: 20 mins\nRe-Harvest: 12 mins",
   "shortdescription" : "Peanut Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -30,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [1380, 1380]
+      "duration" : [240, 240]
     },
     {
-      "duration" : [1300, 1300]
+      "duration" : [240, 240]
     },
     {
       "alts" : 5,
-      "duration" : [900, 900]
+      "duration" : [720, 720]
     },
     {
       "alts" : 5,

@@ -5,16 +5,16 @@
   "category" : "seed",
   "price" : 9,
   "tooltipKind" : "seed",
-  "description" : "Needs watering.\nFirst Harvest: 42 mins\nRe-Harvest: 42 mins",
+  "description" : "Needs watering and tilled soil.\nFirst Harvest: 24 mins\nRe-Harvest: 14 mins",
   "shortdescription" : "Yeast Jar",
   "objectType" : "farmable",
   "printable" : false,
 
-  "apexDescription" : "Cultivating yeast. Not even I understand how this works.",
-  "avianDescription" : "Yeast pile. Needs watering",
-  "floranDescription" : "Floran take tiny bread mushroomsss. Needs watering",
-  "glitchDescription" : "Analysis. This is yeast, but how does it grow? Needs watering",
-  "humanDescription" : "Yeast, I see bread baking in my future. Needs watering",
+  "apexDescription" : "Cultivating yeast. Seems to need water.",
+  "avianDescription" : "Yeast in a jar. Needs watering",
+  "floranDescription" : "Floran put water on tiny bread mussshroomsss.",
+  "glitchDescription" : "Analysis. This is yeast, but it grows with water?",
+  "humanDescription" : "Yeast in a jar, just add water!",
   "hylotlDescription" : "Yeast in a jar. Needs watering",
 
   "inventoryIcon" : "yeastMFMseedicon.png",
@@ -33,15 +33,15 @@
   ],
   "stages" : [
     {
-      "duration" : [1260, 1260]
+      "duration" : [600, 600]
     },
     {
-      "duration" : [1260, 1260]
+      "duration" : [840, 840]
     },
     {
       "alts" : 5,
       "harvestPool" : "yeastMFMHarvest",
-      "resetToStage" : 0
+      "resetToStage" : 1
     }
   ],
   "maxImmersion" : 1.0

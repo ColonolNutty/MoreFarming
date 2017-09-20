@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 20,
   "tooltipKind" : "seed",
-  "description" : "Tastes like Parsnips.\nFirst Harvest: 60 mins\nRe-Harvest: 22 mins",
+  "description" : "Tastes like Parsnips.\nFirst Harvest: 52 mins\nRe-Harvest: 32 mins",
   "shortdescription" : "Palsterstick Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -33,14 +33,15 @@
   ],
   "stages" : [
     {
-      "duration" : [2280, 2280]
+      "duration" : [1200, 1200]
     },
     {
-      "duration" : [1300, 1300]
+      "duration" : [1920, 1920]
     },
     {
       "alts" : 5,
-      "harvestPool" : "palsterstickMFMHarvest"
+      "harvestPool" : "palsterstickMFMHarvest",
+      "resetToStage" : 1
     }
   ],
   "maxImmersion" : 0.5

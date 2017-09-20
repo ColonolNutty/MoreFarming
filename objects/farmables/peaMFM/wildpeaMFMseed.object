@@ -33,14 +33,14 @@
   ],
   "stages" : [
     {
-      "duration" : [720, 780]
+      "duration" : [120, 120]
     },
     {
-      "duration" : [660, 720]
+      "duration" : [120, 120]
     },
     {
       "alts" : 5,
-      "duration" : [240, 300]
+      "duration" : [360, 360]
     },
     {
       "alts" : 5,

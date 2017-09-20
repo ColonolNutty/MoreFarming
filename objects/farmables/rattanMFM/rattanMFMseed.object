@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 13,
   "tooltipKind" : "seed",
-  "description" : "Comes with wooden support.\nFirst Harvest: 60 mins\nRe-Harvest: 15 mins",
+  "description" : "Used to make furniture.\nFirst Harvest: 34 mins\nRe-Harvest: 20 mins",
   "shortdescription" : "Rattan Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -34,14 +34,14 @@
   ],
   "stages" : [
     {
-      "duration" : [1380, 1380]
+      "duration" : [420, 420]
     },
     {
-      "duration" : [1300, 1300]
+      "duration" : [420, 420]
     },
     {
       "alts" : 5,
-      "duration" : [900, 900]
+      "duration" : [1200, 1200]
     },
     {
       "alts" : 5,

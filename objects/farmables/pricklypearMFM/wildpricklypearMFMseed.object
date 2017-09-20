@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 6,
   "tooltipKind" : "seed",
-  "description" : "Prickly Pears, these things are hard to eat!",
+  "description" : "Prickly Pears, these things are hard to eat, at least they grow fast.",
   "shortdescription" : "Wild Prickly Pear Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -36,10 +36,10 @@
   ],
   "stages" : [
     {
-      "duration" : [3160, 3160]
+      "duration" : [240, 240]
     },
     {
-      "duration" : [420, 420]
+      "duration" : [360, 360]
     },
     {
       "alts" : 5,

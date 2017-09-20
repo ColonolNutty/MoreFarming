@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 20,
   "tooltipKind" : "seed",
-  "description" : "Nature's snackfood.\nFirst Harvest: 22 mins\nRe-Harvest: 11 mins",
+  "description" : "Nature's snackfood.\nFirst Harvest: 52 mins\nRe-Harvest: 32 mins",
   "shortdescription" : "Garpberry Seed",
   "objectType" : "farmable",
   "printable" : false,
@@ -33,10 +33,10 @@
   ],
   "stages" : [
     {
-      "duration" : [660, 780]
+      "duration" : [1200, 1200]
     },
     {
-      "duration" : [660, 780]
+      "duration" : [1920, 1920]
     },
     {
       "alts" : 5,

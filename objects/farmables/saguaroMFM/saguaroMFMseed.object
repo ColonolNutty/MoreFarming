@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 6,
   "tooltipKind" : "seed",
-  "description" : "Grows a cactus.\nFirst Harvest: 365 mins\nRe-Harvest: None",
+  "description" : "Grows a cactus.\nFirst Harvest: 10 mins\nRe-Harvest: None",
   "shortdescription" : "Saguaro Seed",
   "objectType" : "farmable",
   "printable" : false,
@@ -34,11 +34,11 @@
   "stages" : [
     {
       "alts" : 1,
-      "duration" : [10950, 10950]
+      "duration" : [240, 240]
     },
     {
       "alts" : 1,
-      "duration" : [10950, 10950]
+      "duration" : [360, 360]
     },
     {
       "alts" : 1,

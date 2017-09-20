@@ -36,14 +36,15 @@
   ],
   "stages" : [
     {
-      "duration" : [600, 600]
+      "duration" : [60, 60]
     },
     {
-      "duration" : [300, 300]
+      "duration" : [180, 180]
     },
     {
       "alts" : 5,
-      "harvestPool" : "portobelloMFMHarvest"
+      "harvestPool" : "portobelloMFMHarvest",
+      "resetToStage" : 1
     }
   ],
   "maxImmersion" : 0.1,

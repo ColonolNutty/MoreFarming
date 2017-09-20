@@ -36,14 +36,15 @@
   ],
   "stages" : [
     {
-      "duration" : [2280, 2280]
+      "duration" : [1200, 1200]
     },
     {
-      "duration" : [1300, 1300]
+      "duration" : [1920, 1920]
     },
     {
       "alts" : 5,
-      "harvestPool" : "palsterstickMFMHarvest"
+      "harvestPool" : "palsterstickMFMHarvest",
+      "resetToStage" : 1
     }
   ],
   "maxImmersion" : 0.5,

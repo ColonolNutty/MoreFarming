@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 5,
   "tooltipKind" : "seed",
-  "description" : "This tree produces Green Apples.\nFirst Harvest: 365 mins\nRe-Harvest: 22 mins",
+  "description" : "This tree produces Green Apples.\nFirst Harvest: 14 mins\nRe-Harvest: 8 mins",
   "shortdescription" : "Green Apple Seed",
   "objectType" : "farmable",
   "printable" : false,
@@ -30,10 +30,10 @@
   ],
   "stages" : [
     {
-      "duration" : [20580, 20580]
+      "duration" : [360, 360]
     },
     {
-      "duration" : [1320, 1320]
+      "duration" : [480, 480]
     },
     {
       "alts" : 5,

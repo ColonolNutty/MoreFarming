@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 15,
   "tooltipKind" : "seed",
-  "description" : "Broccoli Sprouts.\nFirst Harvest: 33 mins\nRe-Harvest: None",
+  "description" : "Broccoli Sprouts.\nFirst Harvest: 39 mins\nRe-Harvest: None",
   "shortdescription" : "Broccoli Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -30,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [720, 780]
+      "duration" : [480, 480]
     },
     {
-      "duration" : [660, 720]
+      "duration" : [480, 480]
     },
     {
       "alts" : 5,
-      "duration" : [420, 480]
+      "duration" : [1440, 1440]
     },
     {
       "alts" : 5,

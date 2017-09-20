@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 5,
   "tooltipKind" : "seed",
-  "description" : "Seeds for Avocados!\nFirst Harvest: 120 mins\nRe-Harvest: 8 mins",
+  "description" : "Seeds for Avocados!\nFirst Harvest: 13 mins\nRe-Harvest: 8 mins",
   "shortdescription" : "Avocado Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -30,10 +30,10 @@
   ],
   "stages" : [
     {
-      "duration" : [4680, 4680]
+      "duration" : [180, 180]
     },
     {
-      "duration" : [1560, 1560]
+      "duration" : [180, 180]
     },
     {
       "alts" : 5,

@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 15,
   "tooltipKind" : "seed",
-  "description" : "A carnivorous plant seed!\nFirst Harvest: 60 mins\nRe-Harvest: None",
+  "description" : "A carnivorous plant seed!\nFirst Harvest: 40 mins\nRe-Harvest: None",
   "shortdescription" : "Fly Trap Seed",
   "objectType" : "farmable",
   "printable" : false,
@@ -33,10 +33,10 @@
   ],
   "stages" : [
     {
-      "duration" : [2280, 2280]
+      "duration" : [960, 960]
     },
     {
-      "duration" : [1300, 1300]
+      "duration" : [1440, 1440]
     },
     {
       "alts" : 5,

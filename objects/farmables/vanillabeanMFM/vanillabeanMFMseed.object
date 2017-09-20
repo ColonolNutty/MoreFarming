@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 23,
   "tooltipKind" : "seed",
-  "description" : "Vanilla.\nFirst Harvest: 60 mins\nRe-Harvest: 7 mins",
+  "description" : "Vanilla.\nFirst Harvest: 58 mins\nRe-Harvest: 34 mins",
   "shortdescription" : "Vanilla Bean Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -30,14 +30,14 @@
   ],
   "stages" : [
     {
-      "duration" : [2280, 2280]
+      "duration" : [720, 720]
     },
     {
-      "duration" : [900, 900]
+      "duration" : [720, 720]
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [2040, 2040]
     },
     {
       "alts" : 5,

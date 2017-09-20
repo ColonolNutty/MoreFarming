@@ -5,7 +5,7 @@
   "category" : "seed",
   "price" : 18,
   "tooltipKind" : "seed",
-  "description" : "A staple crop!\nFirst Harvest: 45 mins\nRe-Harvest: 7 mins",
+  "description" : "A staple crop!\nFirst Harvest: 46 mins\nRe-Harvest: 28 mins",
   "shortdescription" : "Oat Seeds",
   "objectType" : "farmable",
   "printable" : false,
@@ -31,10 +31,10 @@
   ],
   "stages" : [
     {
-      "duration" : [2400, 2400]
+      "duration" : [1080, 1080]
     },
     {
-      "duration" : [420, 420]
+      "duration" : [1680, 1680]
     },
     {
       "alts" : 5,

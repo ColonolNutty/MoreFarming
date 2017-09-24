@@ -7,6 +7,12 @@
   "inventoryIcon" : "rutabagaMFM.png",
   "description" : "Weird.",
   "shortdescription" : "Rutabaga",
+  "effects" : [ [
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 40
+    }
+  ] ],
   "foodValue" : 5,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

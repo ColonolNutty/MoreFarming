@@ -11,6 +11,10 @@
       {
         "effect" : "energyregen",
         "duration" : 50
+      },
+      {
+        "effect" : "swimboost",
+        "duration" : 50
       }
     ] ],
   "foodValue" : 10,

@@ -7,6 +7,12 @@
   "inventoryIcon" : "grapefruitMFM.png",
   "description" : "Tastes nothing like a grape!",
   "shortdescription" : "Grapefruit",
+  "effects" : [ [
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 30
+    }
+  ] ],
   "foodValue" : 8,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -7,6 +7,12 @@
   "inventoryIcon" : "greenbellpepperMFM.png",
   "description" : "Red peppers have twice the vitamin C content of green peppers!",
   "shortdescription" : "Green Bell Pepper",
+  "effects" : [ [
+    {
+      "effect" : "poisonblock",
+      "duration" : 60
+    }
+  ] ],
   "foodValue" : 5,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

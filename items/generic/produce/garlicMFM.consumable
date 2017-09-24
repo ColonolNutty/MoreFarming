@@ -7,6 +7,16 @@
   "inventoryIcon" : "garlicMFM.png",
   "description" : "Vampire Kryptonite.",
   "shortdescription" : "Garlic",
+  "effects" : [ [
+    {
+      "effect" : "poisonblock",
+      "duration" : 30
+    },
+    {
+      "effect" : "antidote",
+      "duration" : 5
+    }
+  ] ],
   "foodValue" : 2,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

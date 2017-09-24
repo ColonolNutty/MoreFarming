@@ -7,6 +7,12 @@
   "inventoryIcon" : "parsnipMFM.png",
   "description" : "Sub-parsnip at best.",
   "shortdescription" : "Parsnip",
+  "effects" : [ [
+    {
+      "effect" : "glow",
+      "duration" : 30
+    }
+  ] ],
   "foodValue" : 3.75,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

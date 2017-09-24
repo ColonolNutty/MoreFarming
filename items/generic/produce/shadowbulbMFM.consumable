@@ -7,6 +7,16 @@
   "inventoryIcon" : "shadowbulbMFM.png",
   "description" : "Shadowbulb, tastes like darkness. Somehow.",
   "shortdescription" : "Shadowbulb",
+  "effects" : [ [
+    {
+      "effect" : "ghostlyglow",
+      "duration" : 60
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 40
+    }
+  ] ],
   "foodValue" : 10,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

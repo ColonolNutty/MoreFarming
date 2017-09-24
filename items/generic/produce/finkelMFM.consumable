@@ -5,8 +5,14 @@
   "category" : "food",
   "eventCategory" : "eventCrop",
   "inventoryIcon" : "finkelMFM.png",
-  "description" : "Finkel! A very shroomy taste.",
+  "description" : "Finkel! Tastes like mushrooms.",
   "shortdescription" : "Finkel",
+  "effects" : [ [
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 30
+    }
+  ] ],
   "foodValue" : 2.5,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

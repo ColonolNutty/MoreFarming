@@ -7,6 +7,12 @@
   "inventoryIcon" : "mangoMFM.png",
   "description" : "A sweet fruit.",
   "shortdescription" : "Mango",
+  "effects" : [ [
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 30
+    }
+  ] ],
   "foodValue" : 6,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

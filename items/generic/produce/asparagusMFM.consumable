@@ -7,6 +7,24 @@
   "inventoryIcon" : "asparagusMFM.png",
   "description" : "Asparagus is a herbaceous, perennial plant.",
   "shortdescription" : "Asparagus",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 70
+    },
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 70
+    },
+    {
+        "effect" : "runboostfood",
+        "duration" : 70
+    },
+    {
+        "effect" : "swimboost",
+        "duration" : 70
+    }
+  ] ],
   "foodValue" : 10,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -7,6 +7,12 @@
   "inventoryIcon" : "wholeoatsMFM.png",
   "description" : "Oat grains.",
   "shortdescription" : "Whole Oat Grains",
+  "effects" : [ [
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 60
+    }
+  ] ],
   "foodValue" : 2,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

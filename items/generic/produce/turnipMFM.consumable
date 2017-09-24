@@ -7,6 +7,12 @@
   "inventoryIcon" : "turnipMFM.png",
   "description" : "Turnip!",
   "shortdescription" : "Turnip",
+  "effects" : [ [
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 60
+    }
+  ] ],
   "foodValue" : 3.75,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

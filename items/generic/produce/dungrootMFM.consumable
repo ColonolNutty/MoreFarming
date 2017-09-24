@@ -9,7 +9,11 @@
   "effects" : [ [
     {
         "effect" : "weakpoison",
-        "duration" : 30
+        "duration" : 45
+    },
+    {
+        "effect" : "mudslow",
+        "duration" : 45
     }
   ] ],
   "foodValue" : 1,

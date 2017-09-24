@@ -7,6 +7,12 @@
   "inventoryIcon" : "yellowbellpepperMFM.png",
   "description" : "Its yellow!",
   "shortdescription" : "Yellow Bell Pepper",
+  "effects" : [ [
+    {
+      "effect" : "electricblock",
+      "duration" : 40
+    }
+  ] ],
   "foodValue" : 6,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

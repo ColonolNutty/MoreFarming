@@ -7,6 +7,16 @@
   "inventoryIcon" : "lemonMFM.png",
   "description" : "Sour!",
   "shortdescription" : "Lemon",
+  "effects" : [ [
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 30
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 30
+    }
+  ] ],
   "foodValue" : 5,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -7,6 +7,12 @@
   "inventoryIcon" : "lettuceMFM.png",
   "description" : "Lettuce never speak of this again.",
   "shortdescription" : "Lettuce",
+  "effects" : [ [
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 30
+    }
+  ] ],
   "foodValue" : 5,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

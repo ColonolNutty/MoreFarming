@@ -7,6 +7,16 @@
   "inventoryIcon" : "sugarbeetMFM.png",
   "description" : "Sweet!",
   "shortdescription" : "Sugar Beet",
+  "effects" : [ [
+    {
+      "effect" : "energyregen",
+      "duration" : 30
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 40
+    }
+  ] ],
   "foodValue" : 2,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

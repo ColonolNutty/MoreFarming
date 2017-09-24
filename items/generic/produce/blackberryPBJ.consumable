@@ -7,6 +7,12 @@
   "inventoryIcon" : "blackberryPBJ.png",
   "description" : "Sweet and tart!",
   "shortdescription" : "Blackberry",
+  "effects" : [ [
+    {
+        "effect" : "fireblock",
+        "duration" : 45
+    }
+  ] ],
   "foodValue" : 3.75,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

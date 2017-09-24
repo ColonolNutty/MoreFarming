@@ -9,8 +9,16 @@
   "shortdescription" : "Holiday Fruit",
   "effects" : [ [
     {
-      "effect" : "regeneration1",
-      "duration" : 20
+      "effect" : "regeneration3",
+      "duration" : 60
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 60
+    },
+    {
+      "effect" : "lowgrav",
+      "duration" : 60
     }
   ] ],
   "emote" : "happy",

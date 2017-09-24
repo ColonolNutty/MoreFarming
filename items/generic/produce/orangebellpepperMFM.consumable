@@ -7,6 +7,16 @@
   "inventoryIcon" : "orangebellpepperMFM.png",
   "description" : "Its orange!",
   "shortdescription" : "Orange Bell Pepper",
+  "effects" : [ [
+    {
+      "effect" : "fireblock",
+      "duration" : 60
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 30
+    }
+  ] ],
   "foodValue" : 7,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

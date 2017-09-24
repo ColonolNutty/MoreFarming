@@ -7,6 +7,16 @@
   "inventoryIcon" : "pricklypearMFM.png",
   "description" : "Prickly pears, these things are hard to eat!",
   "shortdescription" : "Prickly Pear",
+  "effects" : [ [
+    {
+      "effect" : "thorns",
+      "duration" : 60
+    },
+    {
+      "effect" : "fireblock",
+      "duration" : 60
+    }
+  ] ],
   "foodValue" : 5,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

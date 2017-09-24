@@ -7,6 +7,12 @@
   "inventoryIcon" : "beetMFM.png",
   "description" : "Just beet it!",
   "shortdescription" : "Beet",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 60
+    }
+  ] ],
   "foodValue" : 3.75,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

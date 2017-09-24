@@ -7,6 +7,20 @@
   "inventoryIcon" : "vanillaMFM.png",
   "description" : "Vanilla.",
   "shortdescription" : "Vanilla Bean",
+  "effects" : [ [
+    {
+      "effect" : "regeneration2",
+      "duration" : 30
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 30
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 30
+    }
+  ] ],
   "foodValue" : 1,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

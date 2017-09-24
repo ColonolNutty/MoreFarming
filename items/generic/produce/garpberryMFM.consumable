@@ -5,8 +5,18 @@
   "category" : "food",
   "eventCategory" : "eventCrop",
   "inventoryIcon" : "garpberryMFM.png",
-  "description" : "Garpberry! A very alien taste.",
+  "description" : "Garpberry! Has a very alien taste.",
   "shortdescription" : "Garpberry",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 180
+    },
+    {
+      "effect" : "nova",
+      "duration" : 30
+    }
+  ] ],
   "foodValue" : 2.5,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

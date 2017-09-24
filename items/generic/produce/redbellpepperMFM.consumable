@@ -7,6 +7,16 @@
   "inventoryIcon" : "redbellpepperMFM.png",
   "description" : "The maturest of the mature Bell Pepper, can't get any more mature than this, also high in Vitamin C!",
   "shortdescription" : "Red Bell Pepper",
+  "effects" : [ [
+    {
+      "effect" : "iceblock",
+      "duration" : 60
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 180
+    }
+  ] ],
   "foodValue" : 8,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

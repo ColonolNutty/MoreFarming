@@ -7,6 +7,20 @@
   "inventoryIcon" : "artichokeMFM.png",
   "description" : "A variety of a species of thistle cultivated as a food.",
   "shortdescription" : "Artichoke",
+  "effects" : [ [
+    {
+      "effect" : "regeneration1",
+      "duration" : 60
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 60
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 60
+    }
+  ] ],
   "foodValue" : 10,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

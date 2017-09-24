@@ -7,6 +7,12 @@
   "inventoryIcon" : "cucumberMSM.png",
   "description" : "A kappa's favorite.",
   "shortdescription" : "Cucumber",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 45
+    }
+  ] ],
   "foodValue" : 5,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

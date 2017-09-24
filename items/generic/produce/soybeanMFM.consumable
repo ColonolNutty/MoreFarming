@@ -7,6 +7,20 @@
   "inventoryIcon" : "soybeanMFM.png",
   "description" : "Used to make a variety of Tofu products.",
   "shortdescription" : "Soybean",
+  "effects" : [ [
+    {
+      "effect" : "energyregen",
+      "duration" : 30
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 30
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 60
+    }
+  ] ],
   "foodValue" : 2.5,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

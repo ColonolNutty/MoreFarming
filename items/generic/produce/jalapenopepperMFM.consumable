@@ -14,7 +14,11 @@
     },
     {
         "effect" : "burning",
-        "duration" : 10
+        "duration" : 30
+    },
+    {
+        "effect" : "iceblock",
+        "duration" : 60
     }
   ] ],
   "foodValue" : 3,

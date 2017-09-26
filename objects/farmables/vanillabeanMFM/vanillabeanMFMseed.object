@@ -1,49 +1,49 @@
 {
   "objectName" : "vanillabeanMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 904.5,
   "category" : "seed",
-  "price" : 23,
-  "tooltipKind" : "seed",
-  "description" : "Vanilla.\nFirst Harvest: 58 mins\nRe-Harvest: 34 mins",
-  "shortdescription" : "Vanilla Bean Seeds",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "Vanilla.
+First Harvest: 58 mins
+Re-Harvest: 34 mins",
+  "shortdescription" : "Vanilla Bean Seeds",
   "floranDescription" : "Ssseedsss for vanilla!",
   "glitchDescription" : "Identify. Vanilla beans.",
   "humanDescription" : "Good for making sweets!",
-
   "inventoryIcon" : "vanillabeanMFMseedicon.png",
   "largeImage" : "vanillabeanMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "vanillabeanMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [720, 720]
+      "duration" : [ 720, 720 ]
     },
+
     {
-      "duration" : [720, 720]
+      "duration" : [ 720, 720 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [2040, 2040]
+      "duration" : [ 2040, 2040 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "vanillabeanMFMHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.2
 }

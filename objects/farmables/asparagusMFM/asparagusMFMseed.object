@@ -1,49 +1,49 @@
 {
   "objectName" : "asparagusMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 603.0,
   "category" : "seed",
-  "price" : 15,
-  "tooltipKind" : "seed",
-  "description" : "Seeds for Asparagus!\nFirst Harvest: 39 mins\nRe-Harvest: 24 mins",
-  "shortdescription" : "Asparagus Seeds",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "Seeds for Asparagus!
+First Harvest: 39 mins
+Re-Harvest: 24 mins",
+  "shortdescription" : "Asparagus Seeds",
   "floranDescription" : "Ssseeds for asparagusss!",
   "glitchDescription" : "Identify. Asparagus seeds.",
   "humanDescription" : "Makes your pee stink...",
-
   "inventoryIcon" : "asparagusMFMseedicon.png",
   "largeImage" : "asparagusMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "asparagusMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [480, 480]
+      "duration" : [ 480, 480 ]
     },
+
     {
-      "duration" : [480, 480]
+      "duration" : [ 480, 480 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [1440, 1440]
+      "duration" : [ 1440, 1440 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "asparagusMFMHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25
 }

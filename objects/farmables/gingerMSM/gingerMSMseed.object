@@ -1,49 +1,49 @@
 {
   "objectName" : "gingerMSMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 201.0,
   "category" : "seed",
-  "price" : 5,
-  "tooltipKind" : "seed",
-  "description" : "A good seasoning.\nFirst Harvest: 14 mins\nRe-Harvest: 8 mins",
-  "shortdescription" : "Ginger Seeds",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "A good seasoning.
+First Harvest: 14 mins
+Re-Harvest: 8 mins",
+  "shortdescription" : "Ginger Seeds",
   "floranDescription" : "Ssseedsss for Ginger!",
   "glitchDescription" : "Identify. Ginger seeds.",
   "humanDescription" : "A good seasoning for any dish, almost any...",
-
   "inventoryIcon" : "gingerMSMseedicon.png",
   "largeImage" : "gingerMSMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "gingerMSMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [180, 180]
+      "duration" : [ 180, 180 ]
     },
+
     {
-      "duration" : [180, 180]
+      "duration" : [ 180, 180 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [480, 480]
+      "duration" : [ 480, 480 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "gingerMSMHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25
 }

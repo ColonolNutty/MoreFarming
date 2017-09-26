@@ -1,45 +1,44 @@
 {
   "objectName" : "grapefruitMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 402.0,
   "category" : "seed",
-  "price" : 10,
-  "tooltipKind" : "seed",
-  "description" : "Ripe Grapefruit.\nFirst Harvest: 26 mins\nRe-Harvest: 16 mins",
-  "shortdescription" : "Grapefruit Seed",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "Ripe Grapefruit.
+First Harvest: 26 mins
+Re-Harvest: 16 mins",
+  "shortdescription" : "Grapefruit Seed",
   "floranDescription" : "Sssome grapefruitsss can grow from here.",
   "glitchDescription" : "Statement. Grapefruits grow from here.",
   "humanDescription" : "It has a strange color on the inside",
-
   "inventoryIcon" : "grapefruitMFMseedicon.png",
   "largeImage" : "grapefruitMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "grapefruitMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [600, 600]
+      "duration" : [ 600, 600 ]
     },
+
     {
-      "duration" : [960, 960]
+      "duration" : [ 960, 960 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "grapefruitMFMHarvest",
       "resetToStage" : 1
-    }
-  ],
+    } ],
   "maxImmersion" : 0.8
 }

@@ -1,89 +1,80 @@
 {
- "avianDescription": "I should be careful with my feathers around this.",
- "flickerPeriod": 0.3,
- "recipeGroup": "freezingMFM",
- "tooltipKind": "container",
- "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config",
- "flickerMinIntensity": 0.95,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "collision": "platform",
-   "imageLayers": [
+  "objectName" : "nanofreezingstationCNYC",
+  "rarity" : "Common",
+  "price" : 532.18,
+  "category" : "Refridgerated Cookware",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "Freezes anything in less then two seconds, used for storage or making cold treats!",
+  "shortdescription" : "Nano Freezer (Freeze)",
+  "race" : "generic",
+  "apexDescription" : "It doesn't even feel cold.",
+  "avianDescription" : "I should be careful with my feathers around this.",
+  "floranDescription" : "Floran freeze preyss..",
+  "glitchDescription" : "Statement. An advanced flash freezer.",
+  "humanDescription" : "Wonder if I could turn it on and throw something through it..",
+  "hylotlDescription" : "Effective, yet potentialy dangerous. I must be careful",
+  "inventoryIcon" : "nanofreezingstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "nanofreezingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [ 
+        {
+          "image" : "nanofreezingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "nanofreezingstationCNYClit.png:<color>.<frame>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "nanofreezingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "flipImages": true,
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "collision": "platform",
-   "imageLayers": [
+
     {
-     "image": "nanofreezingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
-    },
-    {"image": "nanofreezingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "Freezes anything in less then two seconds, used for storage or making cold treats!",
- "maximumLiquidLevel": 0.2,
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "flickerMaxIntensity": 1,
- "objectType": "container",
- "hylotlDescription": "Effective, yet potentialy dangerous. I must be careful",
- "statusEffects": [],
- "glitchDescription": "Statement. An advanced flash freezer.",
- "price": 526.03,
- "closeSounds": ["/sfx/objects/fridge_close.ogg"],
- "slotCount": 16,
- "soundEffect": "/sfx/objects/fridge_hum.ogg",
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "humanDescription": "Wonder if I could turn it on and throw something through it..",
- "shortdescription": "Nano Freezer (Freeze)",
- "race": "generic",
- "lightColor": [
-  125,
-  143,
-  179
- ],
- "openSounds": ["/sfx/objects/fridge_open.ogg"],
- "printable": false,
- "tags": [
-  "cooking",
-  "electronic"
- ],
- "frameCooldown": 67,
- "subtitle": "Nanite Flash Freezing.",
- "objectName": "nanofreezingstationCNYC",
- "apexDescription": "It doesn't even feel cold.",
- "inventoryIcon": "nanofreezingstationCNYCicon.png",
- "itemAgeMultiplier": 0,
- "category": "Refridgerated Cookware",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 1,
- "floranDescription": "Floran freeze preyss..",
- "rarity": "Common"
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [ 
+        {
+          "image" : "nanofreezingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "nanofreezingstationCNYClit.png:<color>.<frame>"
+        } ]
+    } ],
+  "recipeGroup" : "freezingMFM",
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerPeriodVariance" : 0.075,
+  "maximumLiquidLevel" : 0.2,
+  "flickerMaxIntensity" : 1,
+  "statusEffects" : [ ],
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg",
+  "lightColor" : [ 125, 143, 179 ],
+  "tags" : [ "cooking", "electronic" ],
+  "subtitle" : "Nanite Flash Freezing.",
+  "itemAgeMultiplier" : 0,
+  "flickerIntensityVariance" : 0.025
 }

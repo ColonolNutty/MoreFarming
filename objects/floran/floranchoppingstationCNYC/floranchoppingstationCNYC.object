@@ -1,42 +1,33 @@
 {
- "recipeGroup": "choppingMFM",
- "outputConfig": "/recipeCrafterMFM/choppingMFMRecipes.config",
- "orientations": [{
-  "imagePosition": [
-   0,
-   0
-  ],
-  "spaceScan": 0.1,
-  "dualImage": "floranchoppingstationCNYC.png:default.<frame>",
-  "anchors": ["bottom"]
- }],
- "description": "A bone knife, chops things up!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "objectType": "container",
- "price": 5.05,
- "slotCount": 16,
- "colonyTags": [
-  "floran",
-  "floranvillage",
-  "cooking"
- ],
- "animationPosition": [
-  0,
-  0
- ],
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Floran Bone Knife (Chop)^white;",
- "race": "generic",
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "animation": "floranchoppingstationCNYC.animation",
- "frameCooldown": 67,
- "subtitle": "Chop Food!",
- "objectName": "floranchoppingstationCNYC",
- "inventoryIcon": "floranchoppingstationCNYCicon.png",
- "category": "Floran Cookware",
- "scriptDelta": 1,
- "rarity": "Common"
+  "objectName" : "floranchoppingstationCNYC",
+  "colonyTags" : [ "floran", "floranvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 15.15,
+  "category" : "Floran Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A bone knife, chops things up!",
+  "shortdescription" : "^orange;Floran Bone Knife (Chop)^white;",
+  "race" : "generic",
+  "inventoryIcon" : "floranchoppingstationCNYCicon.png",
+  "orientations" : [ 
+    {
+      "dualImage" : "floranchoppingstationCNYC.png:default.<frame>",
+      "imagePosition" : [ 0, 0 ],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    } ],
+  "recipeGroup" : "choppingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/choppingMFMRecipes.config",
+  "animationPosition" : [ 0, 0 ],
+  "retainObjectParametersInItem" : true,
+  "animation" : "floranchoppingstationCNYC.animation",
+  "subtitle" : "Chop Food!"
 }

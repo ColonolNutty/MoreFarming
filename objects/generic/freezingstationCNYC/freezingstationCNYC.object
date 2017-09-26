@@ -1,121 +1,92 @@
 {
- "avianDescription": "Cold treats even on our native planets!",
- "recipeGroup": "freezingMFM",
- "tooltipKind": "container",
- "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config",
- "orientations": [
-  {
-   "imageLayers": [
+  "objectName" : "freezingstationCNYC",
+  "colonyTags" : [ "human", "humanvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 255.23,
+  "category" : "Refridgerated Basic Cookware",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "A portable flashfreezer, used for storage or making cold treats!",
+  "shortdescription" : "^orange;Freezer (Freeze)^white;",
+  "race" : "generic",
+  "apexDescription" : "Banana icecream?!! I need a moment..",
+  "avianDescription" : "Cold treats even on our native planets!",
+  "floranDescription" : "Floran ssstick tounge againsst.. bad floran.",
+  "glitchDescription" : "Observation. Cold!",
+  "humanDescription" : "Icecream, in space! I sound suprised..",
+  "hylotlDescription" : "A freezing device? Interesting..",
+  "inventoryIcon" : "freezingstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "freezingstationCNYC.png:<color>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "freezingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "freezingstationCNYClit.png:<color>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "freezingstationCNYClit.png:<color>"}
-   ],
-   "flipImages": true,
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "imageLayers": [
+
     {
-     "image": "freezingstationCNYC.png:<color>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "freezingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "freezingstationCNYClit.png:<color>"
+        } ]
+    } ],
+  "recipeGroup" : "freezingMFM",
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg",
+  "particleEmitter" :   {
+    "emissionRate" : 3,
+    "particleVariance" :     {
+      "initialVelocity" : [ 0.3, 2 ],
+      "position" : [ 0.2, 0 ]
     },
-    {"image": "freezingstationCNYClit.png:<color>"}
-   ],
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "A portable flashfreezer, used for storage or making cold treats!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "objectType": "container",
- "hylotlDescription": "A freezing device? Interesting..",
- "glitchDescription": "Observation. Cold!",
- "price": 249.08,
- "closeSounds": ["/sfx/objects/locker_close.ogg"],
- "slotCount": 16,
- "soundEffect": "/sfx/objects/fridge_hum.ogg",
- "colonyTags": [
-  "human",
-  "humanvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "humanDescription": "Icecream, in space! I sound suprised..",
- "particleEmitter": {
-  "emissionRate": 3,
-  "particleVariance": {
-   "initialVelocity": [
-    0.3,
-    2
-   ],
-   "position": [
-    0.2,
-    0
-   ]
+    "particle" :     {
+      "timeToLive" : 2,
+      "fade" : 1,
+      "size" : 1,
+      "color" : [ 146, 236, 255, 50 ],
+      "initialVelocity" : [ 0, 1 ],
+      "finalVelocity" : [ 0, -1 ],
+      "position" : [ -0.8, 1.7 ],
+      "type" : "animated",
+      "approach" : [ 0, 20 ],
+      "layer" : "back",
+      "animation" : "/animations/dustclearblue/dustclearblueCNYC.animation"
+    },
+    "emissionVariance" : 1
   },
-  "particle": {
-   "timeToLive": 2,
-   "fade": 1,
-   "size": 1,
-   "color": [
-    146,
-    236,
-    255,
-    50
-   ],
-   "initialVelocity": [
-    0,
-    1
-   ],
-   "finalVelocity": [
-    0,
-    -1
-   ],
-   "position": [
-    -0.8,
-    1.7
-   ],
-   "type": "animated",
-   "approach": [
-    0,
-    20
-   ],
-   "layer": "back",
-   "animation": "/animations/dustclearblue/dustclearblueCNYC.animation"
-  },
-  "emissionVariance": 1
- },
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Freezer (Freeze)^white;",
- "race": "generic",
- "openSounds": ["/sfx/objects/locker_open.ogg"],
- "printable": false,
- "frameCooldown": 67,
- "subtitle": "Makes Ice and Icecreams!",
- "objectName": "freezingstationCNYC",
- "apexDescription": "Banana icecream?!! I need a moment..",
- "inventoryIcon": "freezingstationCNYCicon.png",
- "itemAgeMultiplier": 0,
- "category": "Refridgerated Basic Cookware",
- "scriptDelta": 1,
- "floranDescription": "Floran ssstick tounge againsst.. bad floran.",
- "rarity": "Common"
+  "retainObjectParametersInItem" : true,
+  "subtitle" : "Makes Ice and Icecreams!",
+  "itemAgeMultiplier" : 0
 }

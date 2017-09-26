@@ -1,48 +1,48 @@
 {
   "objectName" : "beetMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 402.0,
   "category" : "seed",
-  "price" : 10,
-  "tooltipKind" : "seed",
-  "description" : "Grows Beets.\nFirst Harvest: 26 mins\nRe-Harvest: None",
-  "shortdescription" : "Beet Seeds",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "Grows Beets.
+First Harvest: 26 mins
+Re-Harvest: None",
+  "shortdescription" : "Beet Seeds",
   "floranDescription" : "Ssseeds for beetss!",
   "glitchDescription" : "Identify. Beet seeds.",
   "humanDescription" : "Nothing Beats Beets!",
-
   "inventoryIcon" : "beetMFMseedicon.png",
   "largeImage" : "beetMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "beetMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [300, 300]
+      "duration" : [ 300, 300 ]
     },
+
     {
-      "duration" : [300, 300]
+      "duration" : [ 300, 300 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [960, 960]
+      "duration" : [ 960, 960 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "beetMFMHarvest"
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25
 }

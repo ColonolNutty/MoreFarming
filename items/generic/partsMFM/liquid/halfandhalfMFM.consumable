@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "A mixture of milk and the creamiest of creams",
   "shortdescription" : "Half-and-half",
-  "foodValue" : 0.89,
+  "foodValue" : 2.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "halfandhalfMFM.png",
-  "emitters" : ["drinking"]
+  "emitters" : [ "drinking" ]
 }

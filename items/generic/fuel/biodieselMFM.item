@@ -3,9 +3,9 @@
   "rarity" : "Common",
   "price" : 18.14,
   "category" : "craftingMaterial",
-  "inventoryIcon" : "biodieselMFM.png",
   "description" : "Renewable fuel for intergalactic conquest!",
   "shortdescription" : "Bio-diesel",
-  "fuelAmount" : 4,
-  "itemTags" : [ "reagent" ]
+  "inventoryIcon" : "biodieselMFM.png",
+  "itemTags" : [ "reagent" ],
+  "fuelAmount" : 4
 }

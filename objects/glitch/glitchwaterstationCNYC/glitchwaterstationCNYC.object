@@ -1,76 +1,70 @@
 {
- "avianDescription": "Hopefully water...",
- "recipeGroup": "waterMFM",
- "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config",
- "orientations": [
-  {
-   "collision": "platform",
-   "imageLayers": [
+  "objectName" : "glitchwaterstationCNYC",
+  "colonyTags" : [ "glitch", "glitchvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 259.18,
+  "category" : "Glitch Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "Fresh water barrel. Fill your bottle!",
+  "shortdescription" : "^orange;Glitch Water Barrel (Water)^white;",
+  "race" : "generic",
+  "apexDescription" : "A barrel of water",
+  "avianDescription" : "Hopefully water...",
+  "floranDescription" : "Not bloodss.. floran drinksss anyway.",
+  "glitchDescription" : "Observation. Oxygen and Hydrogen, in a liquid state.",
+  "humanDescription" : "Could be oil, could be water..",
+  "hylotlDescription" : "Smells like water.. thanks the stars.",
+  "inventoryIcon" : "glitchwaterstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "glitchwaterstationCNYC.png:<color>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [ 
+        {
+          "image" : "glitchwaterstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "glitchwaterstationCNYClit.png:<color>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "glitchwaterstationCNYClit.png:<color>"}
-   ],
-   "flipImages": true,
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "collision": "platform",
-   "imageLayers": [
+
     {
-     "image": "glitchwaterstationCNYC.png:<color>",
-     "fullbright": true
-    },
-    {"image": "glitchwaterstationCNYClit.png:<color>"}
-   ],
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "Fresh water barrel. Fill your bottle!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "objectType": "container",
- "hylotlDescription": "Smells like water.. thanks the stars.",
- "glitchDescription": "Observation. Oxygen and Hydrogen, in a liquid state.",
- "price": 249.08,
- "closeSounds": ["/sfx/objects/sinkMFMexit.wav"],
- "slotCount": 16,
- "colonyTags": [
-  "glitch",
-  "glitchvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "humanDescription": "Could be oil, could be water..",
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Glitch Water Barrel (Water)^white;",
- "race": "generic",
- "openSounds": ["/sfx/objects/sinkMFMenter.wav"],
- "printable": false,
- "frameCooldown": 67,
- "subtitle": "Drinking waterbarrel!",
- "objectName": "glitchwaterstationCNYC",
- "apexDescription": "A barrel of water",
- "inventoryIcon": "glitchwaterstationCNYCicon.png",
- "category": "Glitch Cookware",
- "scriptDelta": 1,
- "floranDescription": "Not bloodss.. floran drinksss anyway.",
- "rarity": "Common"
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [ 
+        {
+          "image" : "glitchwaterstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "glitchwaterstationCNYClit.png:<color>"
+        } ]
+    } ],
+  "recipeGroup" : "waterMFM",
+  "openSounds" : [ "/sfx/objects/sinkMFMenter.wav" ],
+  "closeSounds" : [ "/sfx/objects/sinkMFMexit.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/waterMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
+  "subtitle" : "Drinking waterbarrel!"
 }

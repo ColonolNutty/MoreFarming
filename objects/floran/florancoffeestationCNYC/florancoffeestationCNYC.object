@@ -1,33 +1,30 @@
 {
- "shortdescription": "^orange;Floran Coffeepot (Coffee)^white;",
- "race": "generic",
- "recipeGroup": "coffeeMFM",
- "outputConfig": "/recipeCrafterMFM/coffeeMFMRecipes.config",
- "orientations": [{
-  "spaceScan": 0.1,
-  "dualImage": "florancoffeestationCNYC.png:default",
-  "anchors": ["bottom"]
- }],
- "description": "A bone coffeepot!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "objectType": "container",
- "frameCooldown": 67,
- "price": 5.05,
- "slotCount": 16,
- "subtitle": "Brew Coffee!",
- "colonyTags": [
-  "floran",
-  "floranvillage",
-  "cooking"
- ],
- "objectName": "florancoffeestationCNYC",
- "inventoryIcon": "florancoffeestationCNYCicon.png",
- "autoCloseCooldown": 3600,
- "category": "Floran Cookware",
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "scriptDelta": 1,
- "retainObjectParametersInItem": true,
- "rarity": "Common"
+  "objectName" : "florancoffeestationCNYC",
+  "colonyTags" : [ "floran", "floranvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 15.15,
+  "category" : "Floran Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A bone coffeepot!",
+  "shortdescription" : "^orange;Floran Coffeepot (Coffee)^white;",
+  "race" : "generic",
+  "inventoryIcon" : "florancoffeestationCNYCicon.png",
+  "orientations" : [ 
+    {
+      "dualImage" : "florancoffeestationCNYC.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    } ],
+  "recipeGroup" : "coffeeMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/coffeeMFMRecipes.config",
+  "subtitle" : "Brew Coffee!",
+  "retainObjectParametersInItem" : true
 }

@@ -1,110 +1,76 @@
 {
- "avianDescription": "I hope the lid seals tight.",
- "recipeGroup": "blendingMFM",
- "outputConfig": "/recipeCrafterMFM/blendingMFMRecipes.config",
- "orientations": [
-  {
-   "imageLayers": [
+  "objectName" : "novakidblendingstationCNYC",
+  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 316.73,
+  "category" : "Novakid Cookware",
+  "objectType" : "container",
+  "description" : "Blends with pressured steam!",
+  "shortdescription" : "^orange;Novakid Blender (Blend)^white;",
+  "race" : "generic",
+  "apexDescription" : "At least this one saves your fingers..",
+  "avianDescription" : "I hope the lid seals tight.",
+  "floranDescription" : "Sssteamy ssspinnny..",
+  "glitchDescription" : "Observation. Produce blender.",
+  "humanDescription" : "A few blends more!",
+  "hylotlDescription" : "Does the job.",
+  "inventoryIcon" : "novakidblendingstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "novakidblendingstationCNYC.png:<color>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "novakidblendingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "novakidblendingstationCNYClit.png:<color>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "novakidblendingstationCNYClit.png:<color>"}
-   ],
-   "flipImages": true,
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "imageLayers": [
+
     {
-     "image": "novakidblendingstationCNYC.png:<color>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "novakidblendingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "novakidblendingstationCNYClit.png:<color>"
+        } ]
+    } ],
+  "recipeGroup" : "blendingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/blendingMFMRecipes.config",
+  "npcToy" :   {
+    "preciseStandPositionRight" : [ 1, 0 ],
+    "preciseStandPositionLeft" : [ -1, 0 ],
+    "maxNpcs" : 1,
+    "defaultReactions" :     {
+      "watercoolerConsume" : [ [ 1, "drink" ] ],
+      "watercoolerComplete" : [ [ 1, "smile" ],[ 0.1, "vomit" ] ],
+      "watercoolerCollect" : [ [ 1, "crouchcollect" ] ]
     },
-    {"image": "novakidblendingstationCNYClit.png:<color>"}
-   ],
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "Blends with pressured steam!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "objectType": "container",
- "hylotlDescription": "Does the job.",
- "glitchDescription": "Observation. Produce blender.",
- "price": 310.58,
- "slotCount": 16,
- "colonyTags": [
-  "novakid",
-  "novakidvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "scripts": [
-  "/scripts/npcToyObject.lua",
-  "/recipeCrafterMFM/recipeCrafterMFM.lua"
- ],
- "humanDescription": "A few blends more!",
- "shortdescription": "^orange;Novakid Blender (Blend)^white;",
- "race": "generic",
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "npcToy": {
-  "preciseStandPositionRight": [
-   1,
-   0
-  ],
-  "preciseStandPositionLeft": [
-   -1,
-   0
-  ],
-  "maxNpcs": 1,
-  "defaultReactions": {
-   "watercoolerConsume": [[
-    1,
-    "drink"
-   ]],
-   "watercoolerComplete": [
-    [
-     1,
-     "smile"
-    ],
-    [
-     0.1,
-     "vomit"
-    ]
-   ],
-   "watercoolerCollect": [[
-    1,
-    "crouchcollect"
-   ]]
+    "influence" : [ "watercoolerCollect", "watercoolerConsume", "watercoolerComplete" ]
   },
-  "influence": [
-   "watercoolerCollect",
-   "watercoolerConsume",
-   "watercoolerComplete"
-  ]
- },
- "frameCooldown": 67,
- "subtitle": "Blend and Juice!",
- "objectName": "novakidblendingstationCNYC",
- "apexDescription": "At least this one saves your fingers..",
- "inventoryIcon": "novakidblendingstationCNYCicon.png",
- "category": "Novakid Cookware",
- "scriptDelta": 1,
- "floranDescription": "Sssteamy ssspinnny..",
- "rarity": "Common"
+  "subtitle" : "Blend and Juice!"
 }

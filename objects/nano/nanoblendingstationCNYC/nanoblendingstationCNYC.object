@@ -1,84 +1,75 @@
 {
- "avianDescription": "How did it do that?!",
- "flickerPeriod": 0.3,
- "recipeGroup": "blendingMFM",
- "outputConfig": "/recipeCrafterMFM/blendingMFMRecipes.config",
- "flickerMinIntensity": 0.95,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "imageLayers": [
+  "objectName" : "nanoblendingstationCNYC",
+  "rarity" : "Common",
+  "price" : 327.18,
+  "category" : "Nano Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "Blends and juices with holograms and lasers!",
+  "shortdescription" : "Nano Blender (Blend)",
+  "race" : "generic",
+  "apexDescription" : "It changes matter state at a molecular level!",
+  "avianDescription" : "How did it do that?!",
+  "floranDescription" : "Floran ssstill not underssstand..",
+  "glitchDescription" : "Wonder. Did that just- Oh!",
+  "humanDescription" : "Wonder if it blends another blender..",
+  "hylotlDescription" : "Molecular solids to liquids with zero friction.",
+  "inventoryIcon" : "nanoblendingstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "nanoblendingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "nanoblendingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "nanoblendingstationCNYClit.png:<color>.<frame>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "nanoblendingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "flipImages": true,
-   "frames": 4,
-   "animationCycle": 0.5,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "imageLayers": [
+
     {
-     "image": "nanoblendingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
-    },
-    {"image": "nanoblendingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "frames": 4,
-   "animationCycle": 0.5,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "Blends and juices with holograms and lasers!",
- "maximumLiquidLevel": 0.2,
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "flickerMaxIntensity": 1,
- "objectType": "container",
- "hylotlDescription": "Molecular solids to liquids with zero friction.",
- "statusEffects": [],
- "glitchDescription": "Wonder. Did that just- Oh!",
- "price": 321.03,
- "slotCount": 16,
- "soundEffect": "/sfx/objects/campfire.ogg",
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "humanDescription": "Wonder if it blends another blender..",
- "shortdescription": "Nano Blender (Blend)",
- "race": "generic",
- "lightColor": [
-  125,
-  143,
-  179
- ],
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "tags": [
-  "cooking",
-  "electronic"
- ],
- "frameCooldown": 67,
- "subtitle": "Molecular Blending.",
- "objectName": "nanoblendingstationCNYC",
- "apexDescription": "It changes matter state at a molecular level!",
- "inventoryIcon": "nanoblendingstationCNYCicon.png",
- "category": "Nano Cookware",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 1,
- "floranDescription": "Floran ssstill not underssstand..",
- "rarity": "Common"
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "nanoblendingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "nanoblendingstationCNYClit.png:<color>.<frame>"
+        } ]
+    } ],
+  "recipeGroup" : "blendingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/blendingMFMRecipes.config",
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerPeriodVariance" : 0.075,
+  "maximumLiquidLevel" : 0.2,
+  "flickerMaxIntensity" : 1,
+  "statusEffects" : [ ],
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "lightColor" : [ 125, 143, 179 ],
+  "tags" : [ "cooking", "electronic" ],
+  "subtitle" : "Molecular Blending.",
+  "flickerIntensityVariance" : 0.025
 }

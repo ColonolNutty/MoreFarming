@@ -1,49 +1,49 @@
 {
   "objectName" : "blueberriesPBJseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 502.5,
   "category" : "seed",
-  "price" : 13,
-  "tooltipKind" : "seed",
-  "description" : "Produces Blueberries.\nFirst Harvest: 34 mins\nRe-Harvest: 20 mins",
-  "shortdescription" : "Blueberry Seeds",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "Produces Blueberries.
+First Harvest: 34 mins
+Re-Harvest: 20 mins",
+  "shortdescription" : "Blueberry Seeds",
   "floranDescription" : "Ssseeds for blueberries!",
   "glitchDescription" : "Identify. Blueberry seeds.",
   "humanDescription" : "Oh sweet! Blueberry seeds!",
-
   "inventoryIcon" : "blueberriesPBJseedicon.png",
   "largeImage" : "blueberriesPBJseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "blueberriesPBJseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [420, 420]
+      "duration" : [ 420, 420 ]
     },
+
     {
-      "duration" : [420, 420]
+      "duration" : [ 420, 420 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [1200, 1200]
+      "duration" : [ 1200, 1200 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "blueberriesPBJHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25
 }

@@ -1,49 +1,48 @@
 {
   "objectName" : "cinnamonMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 301.5,
   "category" : "seed",
-  "price" : 8,
-  "tooltipKind" : "seed",
-  "description" : "Spice of life!\nFirst Harvest: 20 mins\nRe-Harvest: 12 mins",
-  "shortdescription" : "Cinnamon Seed",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "Spice of life!
+First Harvest: 20 mins
+Re-Harvest: 12 mins",
+  "shortdescription" : "Cinnamon Seed",
   "apexDescription" : "A delicacy of a plant, grown for use as spice.",
   "avianDescription" : "Fermented beverages are a favorite amongst the Grounded. Nothing spells religious rebellion like getting drunk off of cinnamon schnapps.",
   "floranDescription" : "Not asss hot asss chili, but cinnamon isss ssstill hot!",
   "glitchDescription" : "Statement. Cinnamon. Used to flavor foods and fermented beverages.",
   "humanDescription" : "Back on Earth, they gave out spicy candies made of this stuff.",
   "hylotlDescription" : "An ugly tropical plant that can be woven into cheap furniture.",
-  "novakidDescription" : "Ah, yeah, this is that plant that makes that drink I like.",
-  
   "inventoryIcon" : "cinnamonMFMseedicon.png",
   "largeImage" : "cinnamonMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "cinnamonMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [480, 480]
+      "duration" : [ 480, 480 ]
     },
+
     {
-      "duration" : [720, 720]
+      "duration" : [ 720, 720 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "cinnamonMFMHarvest",
       "resetToStage" : 1
-    }
-  ],
-  "maxImmersion" : 0.25
+    } ],
+  "maxImmersion" : 0.25,
+  "novakidDescription" : "Ah, yeah, this is that plant that makes that drink I like."
 }

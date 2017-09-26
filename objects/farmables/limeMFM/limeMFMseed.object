@@ -1,45 +1,44 @@
 {
   "objectName" : "limeMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 402.0,
   "category" : "seed",
-  "price" : 10,
-  "tooltipKind" : "seed",
-  "description" : "Green fruit, is it ripe?\nFirst Harvest: 26 mins\nRe-Harvest: 16 mins",
-  "shortdescription" : "Lime Seeds",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "Green fruit, is it ripe?
+First Harvest: 26 mins
+Re-Harvest: 16 mins",
+  "shortdescription" : "Lime Seeds",
   "floranDescription" : "Thisss growsss limesss",
   "glitchDescription" : "Statement. Limes grow from here.",
   "humanDescription" : "The juice is good in many dishes",
-
   "inventoryIcon" : "limeMFMseedicon.png",
   "largeImage" : "limeMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "limeMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [600, 600]
+      "duration" : [ 600, 600 ]
     },
+
     {
-      "duration" : [960, 960]
+      "duration" : [ 960, 960 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "limeMFMHarvest",
       "resetToStage" : 1
-    }
-  ],
+    } ],
   "maxImmersion" : 0.8
 }

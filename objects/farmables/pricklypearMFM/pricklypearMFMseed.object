@@ -1,48 +1,47 @@
 {
   "objectName" : "pricklypearMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 150.75,
   "category" : "seed",
-  "price" : 6,
-  "tooltipKind" : "seed",
-  "description" : "Hard to eat, but grows fast.\nFirst Harvest: 10 mins\nRe-Harvest: 6 mins",
-  "shortdescription" : "Prickly Pear Seeds",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-  
+  "description" : "Hard to eat, but grows fast.
+First Harvest: 10 mins
+Re-Harvest: 6 mins",
+  "shortdescription" : "Prickly Pear Seeds",
   "apexDescription" : "Prickly Pears make for good banana accompaniments. Aside from the pricklies of course.",
   "avianDescription" : "The leaves look like feathers, but they're nowhere near as soft.",
   "floranDescription" : "Good for sssttabbbing, ssstab ssstab.",
   "glitchDescription" : "Smug. The Glitch have been known to use Prickly Pears for torture.",
   "humanDescription" : "Prickly Pears, they were quite popular back on earth.",
   "hylotlDescription" : "Prickly Pears, another strange human food...",
-
   "inventoryIcon" : "pricklypearMFMseedicon.png",
   "largeImage" : "pricklypearMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "pricklypearMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [240, 240]
+      "duration" : [ 240, 240 ]
     },
+
     {
-      "duration" : [360, 360]
+      "duration" : [ 360, 360 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "pricklyPearMFMHarvest",
       "resetToStage" : 1
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25
 }

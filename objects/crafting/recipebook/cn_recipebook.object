@@ -1,20 +1,25 @@
 {
- "shortdescription": "^orange;Recipe Book (MFM)^white;",
- "race": "generic",
- "orientations": [{
-  "spaceScan": 0.1,
-  "dualImage": "cn_recipebook.png:<color>",
-  "anchors": ["bottom"]
- }],
- "description": "Used to find the recipe you're looking for",
- "printable": false,
- "interactAction": "OpenCraftingInterface",
- "npcToy": {},
- "price": 0,
- "colonyTags": ["cooking"],
- "objectName": "cn_recipebook",
- "inventoryIcon": "cn_recipebookicon.png",
- "category": "crafting",
- "interactData": {"config": "/interface/windowconfig/cn_recipebook.config"},
- "rarity": "Legendary"
+  "objectName" : "cn_recipebook",
+  "colonyTags" : [ "cooking" ],
+  "rarity" : "Legendary",
+  "price" : 19.25,
+  "category" : "crafting",
+  "printable" : false,
+  "description" : "Used to find the recipe you're looking for",
+  "shortdescription" : "^orange;Recipe Book (MFM)^white;",
+  "race" : "generic",
+  "inventoryIcon" : "cn_recipebookicon.png",
+  "orientations" : [ 
+    {
+      "dualImage" : "cn_recipebook.png:<color>",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    } ],
+  "interactAction" : "OpenCraftingInterface",
+  "npcToy" :   {
+
+  },
+  "interactData" :   {
+    "config" : "/interface/windowconfig/cn_recipebook.config"
+  }
 }

@@ -1,40 +1,33 @@
 {
- "avianDescription": "This book can be used to hide things.",
- "largeImage": "stealthybookstandMFM.png:default.default",
- "tooltipKind": "container",
- "orientations": [{
-  "imagePosition": [
-   -8,
-   0
-  ],
-  "spaceScan": 0.1,
-  "dualImage": "stealthybookstandMFM.png:<color>.<key>",
-  "anchors": ["bottom"]
- }],
- "description": "This book has a secret compartment.",
- "uiConfig": "/interface/chests/chest<slots>MFM.config",
- "objectType": "container",
- "hylotlDescription": "A book. This one has cut out pages.",
- "glitchDescription": "Examine. There is a secret compartment in this book.",
- "price": 84.05,
- "closeSounds": ["/sfx/objects/bookcase_close.ogg"],
- "slotCount": 4,
- "colonyTags": [
-  "glitch",
-  "glitchcastle",
-  "knowledge",
-  "storage"
- ],
- "autoCloseCooldown": 3600,
- "humanDescription": "It's a book with some pages cut out, useful if you want to hide something.",
- "shortdescription": "Stealthy Book Stand",
- "race": "glitch",
- "openSounds": ["/sfx/objects/bookcase_open.ogg"],
- "frameCooldown": 67,
- "objectName": "stealthybookstandMFM",
- "apexDescription": "A book. It can hide things.",
- "inventoryIcon": "stealthybookstandMFMicon.png",
- "category": "storage",
- "floranDescription": "This book can hide thingsss.",
- "rarity": "Common"
+  "objectName" : "stealthybookstandMFM",
+  "colonyTags" : [ "glitch", "glitchcastle", "knowledge", "storage" ],
+  "rarity" : "Common",
+  "price" : 124.15,
+  "category" : "storage",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "This book has a secret compartment.",
+  "shortdescription" : "Stealthy Book Stand",
+  "race" : "glitch",
+  "apexDescription" : "A book. It can hide things.",
+  "avianDescription" : "This book can be used to hide things.",
+  "floranDescription" : "This book can hide thingsss.",
+  "glitchDescription" : "Examine. There is a secret compartment in this book.",
+  "humanDescription" : "It's a book with some pages cut out, useful if you want to hide something.",
+  "hylotlDescription" : "A book. This one has cut out pages.",
+  "inventoryIcon" : "stealthybookstandMFMicon.png",
+  "largeImage" : "stealthybookstandMFM.png:default.default",
+  "orientations" : [ 
+    {
+      "dualImage" : "stealthybookstandMFM.png:<color>.<key>",
+      "imagePosition" : [ -8, 0 ],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    } ],
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 4,
+  "uiConfig" : "/interface/chests/chest<slots>MFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
 }

@@ -1,48 +1,48 @@
 {
   "objectName" : "radishMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 301.5,
   "category" : "seed",
-  "price" : 8,
-  "tooltipKind" : "seed",
-  "description" : "Red, looks like a beet.\nFirst Harvest: 20 mins\nRe-Harvest: None",
-  "shortdescription" : "Radish Seeds",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-  
+  "description" : "Red, looks like a beet.
+First Harvest: 20 mins
+Re-Harvest: None",
+  "shortdescription" : "Radish Seeds",
   "floranDescription" : "Ssseedsss for Radisssh!",
   "glitchDescription" : "Identify. Radish seeds.",
   "humanDescription" : "Red, looks like an onion, but not",
-
   "inventoryIcon" : "radishMFMseedicon.png",
   "largeImage" : "radishMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "radishMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [240, 240]
+      "duration" : [ 240, 240 ]
     },
+
     {
-      "duration" : [240, 240]
+      "duration" : [ 240, 240 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [720, 720]
+      "duration" : [ 720, 720 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "radishMFMHarvest"
-    }
-  ],
+    } ],
   "maxImmersion" : 0.1
 }

@@ -1,49 +1,49 @@
 {
   "objectName" : "onionMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 351.75,
   "category" : "seed",
-  "price" : 9,
-  "tooltipKind" : "seed",
-  "description" : "The saddest vegetable.\nFirst Harvest: 24 mins\nRe-Harvest: 14 mins",
-  "shortdescription" : "Onion Seeds",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "The saddest vegetable.
+First Harvest: 24 mins
+Re-Harvest: 14 mins",
+  "shortdescription" : "Onion Seeds",
   "floranDescription" : "Ssseeds for onions!",
   "glitchDescription" : "Curious. Why do these make organics cry?",
   "humanDescription" : "Why must I cry while cutting these?!",
-
   "inventoryIcon" : "onionMFMseedicon.png",
   "largeImage" : "onionMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "onionMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [300, 300]
+      "duration" : [ 300, 300 ]
     },
+
     {
-      "duration" : [300, 300]
+      "duration" : [ 300, 300 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [840, 840]
+      "duration" : [ 840, 840 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "onionMFMHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25
 }

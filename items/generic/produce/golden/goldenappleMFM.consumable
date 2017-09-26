@@ -1,21 +1,21 @@
 {
   "itemName" : "goldenappleMFM",
   "rarity" : "Common",
-  "price" : 64.05,
+  "price" : 47.25,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "Shiny and edible!",
   "shortdescription" : "Golden Apple",
-  "foodValue" : 5.25,
-  "effects" : [[
+  "foodValue" : 10.5,
+  "effects" : [ [ 
       {
-        "duration" : 20,
-        "effect" : "regeneration3"
-      }]],
+        "effect" : "regeneration3",
+        "duration" : 20
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "goldenappleMFM.png"
 }

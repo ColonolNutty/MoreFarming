@@ -3,17 +3,15 @@
   "rarity" : "Common",
   "price" : 51.45,
   "category" : "drink",
-  "inventoryIcon" : "neonmelonjuiceMFM.png",
+  "tooltipKind" : "food",
   "description" : "Also known as bubblegum juice due to the taste.",
   "shortdescription" : "Juice - Neonmelon",
-  "foodValue" : 1.84,
-  "tooltipKind" : "food",
+  "foodValue" : 2.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "neonmelonjuiceMFM.png",
   "emitters" : [ "drinking" ]
 }

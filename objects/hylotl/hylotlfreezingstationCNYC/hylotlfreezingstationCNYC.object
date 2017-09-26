@@ -1,87 +1,77 @@
 {
- "avianDescription": "Is it a freezer or a waterbucket?",
- "flickerPeriod": 0.3,
- "recipeGroup": "freezingMFM",
- "tooltipKind": "container",
- "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config",
- "flickerMinIntensity": 0.5,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "collision": "platform",
-   "imageLayers": [
+  "objectName" : "hylotlfreezingstationCNYC",
+  "colonyTags" : [ "hylotl", "hylotlvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 250.18,
+  "category" : "Refridgerated Cookware",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "A waterfilled freezer, used for storage or making cold treats.",
+  "shortdescription" : "^orange;Hylotl Freezer (Freeze)^white;",
+  "race" : "generic",
+  "apexDescription" : "It's full of water.. how does it freeze?!",
+  "avianDescription" : "Is it a freezer or a waterbucket?",
+  "floranDescription" : "Floran ssstick face..",
+  "glitchDescription" : "Observation. A liquid suspension flash freezer.",
+  "humanDescription" : "I think it's a freezer.. why is there a fish in it?",
+  "hylotlDescription" : "Thiers alot water can do if given the respect.",
+  "inventoryIcon" : "hylotlfreezingstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "hylotlfreezingstationCNYC.png:<color>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [ 
+        {
+          "image" : "hylotlfreezingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "hylotlfreezingstationCNYClit.png:<color>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "hylotlfreezingstationCNYClit.png:<color>"}
-   ],
-   "flipImages": true,
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "collision": "platform",
-   "imageLayers": [
+
     {
-     "image": "hylotlfreezingstationCNYC.png:<color>",
-     "fullbright": true
-    },
-    {"image": "hylotlfreezingstationCNYClit.png:<color>"}
-   ],
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "A waterfilled freezer, used for storage or making cold treats.",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "flickerMaxIntensity": 0.55,
- "objectType": "container",
- "hylotlDescription": "Thiers alot water can do if given the respect.",
- "glitchDescription": "Observation. A liquid suspension flash freezer.",
- "price": 244.03,
- "slotCount": 16,
- "colonyTags": [
-  "hylotl",
-  "hylotlvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "humanDescription": "I think it's a freezer.. why is there a fish in it?",
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Hylotl Freezer (Freeze)^white;",
- "race": "generic",
- "lightColor": [
-  125,
-  143,
-  179
- ],
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "frameCooldown": 67,
- "subtitle": "Freeze and Chill",
- "objectName": "hylotlfreezingstationCNYC",
- "apexDescription": "It's full of water.. how does it freeze?!",
- "inventoryIcon": "hylotlfreezingstationCNYCicon.png",
- "itemAgeMultiplier": 0,
- "category": "Refridgerated Cookware",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 1,
- "floranDescription": "Floran ssstick face..",
- "rarity": "Common"
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [ 
+        {
+          "image" : "hylotlfreezingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "hylotlfreezingstationCNYClit.png:<color>"
+        } ]
+    } ],
+  "recipeGroup" : "freezingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.5,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 0.55,
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 125, 143, 179 ],
+  "subtitle" : "Freeze and Chill",
+  "itemAgeMultiplier" : 0,
+  "flickerIntensityVariance" : 0.025
 }

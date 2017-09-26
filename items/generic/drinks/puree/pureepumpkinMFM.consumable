@@ -6,18 +6,18 @@
   "tooltipKind" : "food",
   "description" : "Pumpkin blended into a thick creamy paste",
   "shortdescription" : "Puree - Pumpkin",
-  "foodValue" : 0.0,
-  "effects" : [[
+  "foodValue" : 2.0,
+  "effects" : [ [ 
       {
-        "duration" : 120,
-        "effect" : "maxenergyscalingboostfood"
-      }]],
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 120
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "pureepumpkinMFM.png",
-  "emitters" : ["drinking"]
+  "emitters" : [ "drinking" ],
+  "handPosition" : [ 0, -4 ]
 }

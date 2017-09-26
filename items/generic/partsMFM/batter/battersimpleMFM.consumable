@@ -6,11 +6,11 @@
   "tooltipKind" : "food",
   "description" : "A simple batter. Suitable for coating and frying.",
   "shortdescription" : "Batter - Simple",
-  "foodValue" : 0.71,
+  "foodValue" : 2.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "battersimpleMFM.png"
 }

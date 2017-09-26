@@ -1,10 +1,10 @@
 {
- "shortdescription": "Flour",
- "itemName": "flourMFM",
- "price": 8.4,
- "learnBlueprintsOnPickup": ["doughMFM"],
- "description": "Used in many recipes!",
- "inventoryIcon": "flourMFM.png",
- "category": "cookingIngredient",
- "rarity": "Common"
+  "itemName" : "flourMFM",
+  "rarity" : "Common",
+  "price" : 8.4,
+  "category" : "cookingIngredient",
+  "description" : "Used in many recipes!",
+  "shortdescription" : "Flour",
+  "inventoryIcon" : "flourMFM.png",
+  "learnBlueprintsOnPickup" : [ "doughMFM" ]
 }

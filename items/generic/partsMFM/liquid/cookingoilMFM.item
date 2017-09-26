@@ -1,9 +1,9 @@
 {
   "itemName" : "cookingoilMFM",
-  "price" : 7.88,
   "rarity" : "Common",
+  "price" : 7.88,
   "category" : "cookingIngredient",
-  "inventoryIcon" : "cookingoilMFM.png",
   "description" : "Useful!",
-  "shortdescription" : "Cooking Oil"
+  "shortdescription" : "Cooking Oil",
+  "inventoryIcon" : "cookingoilMFM.png"
 }

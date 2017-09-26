@@ -1,23 +1,23 @@
 {
   "itemName" : "redapplejuiceMFM",
   "rarity" : "Common",
-  "price" : 22.05,
+  "price" : 4.41,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "sweet apple juice.",
   "shortdescription" : "Juice - Red Apple",
-  "foodValue" : 5.51,
-  "effects" : [[
+  "foodValue" : 11.03,
+  "effects" : [ [ 
       {
-        "duration" : 120,
-        "effect" : "maxenergyscalingboostfood"
-      }]],
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 120
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "redapplejuiceMFM.png",
-  "emitters" : ["drinking"]
+  "emitters" : [ "drinking" ],
+  "handPosition" : [ 0, -4 ]
 }

@@ -3,16 +3,14 @@
   "rarity" : "Common",
   "price" : 5.25,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedcrystalplantMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed and chopped crystal plant.",
   "shortdescription" : "Chopped Crystalplant",
-  "foodValue" : 1.05,
-  "tooltipKind" : "food",
+  "foodValue" : 2.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedcrystalplantMFM.png"
 }

@@ -1,65 +1,44 @@
 {
- "largeImage": "makeshiftbakingstationCNYC.png:default.default",
- "recipeGroup": "bakingMFM",
- "outputConfig": "/recipeCrafterMFM/bakingMFMRecipes.config",
- "orientations": [{
-  "spaceScan": 0.1,
-  "dualImage": "makeshiftbakingstationCNYCplacementpreview.png:<color>",
-  "anchors": ["bottom"]
- }],
- "description": "I can bake things with this!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "objectType": "container",
- "price": 20.1,
- "slotCount": 16,
- "soundEffect": "/sfx/objects/campfire.ogg",
- "colonyTags": ["cooking"],
- "animationPosition": [
-  0,
-  0
- ],
- "autoCloseCooldown": 3600,
- "scripts": [
-  "/scripts/npcToyObject.lua",
-  "/recipeCrafterMFM/recipeCrafterMFM.lua"
- ],
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Camp Oven (Bake)^white;",
- "race": "generic",
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "soundEffectRangeMultiplier": 0.5,
- "animation": "makeshiftbakingstationCNYC.animation",
- "npcToy": {
-  "preciseStandPositionRight": [
-   2.5,
-   0
-  ],
-  "preciseStandPositionLeft": [
-   -2.5,
-   0
-  ],
-  "maxNpcs": 1,
-  "defaultReactions": {"campfire": [
-   [
-    1,
-    "warmhands"
-   ],
-   [
-    1,
-    "crouchwarm"
-   ]
-  ]},
-  "influence": [
-   "campfire",
-   "campfire"
-  ]
- },
- "frameCooldown": 67,
- "subtitle": "Bake Food!",
- "objectName": "makeshiftbakingstationCNYC",
- "inventoryIcon": "makeshiftbakingstationCNYCicon.png",
- "category": "Makeshift Cookware",
- "scriptDelta": 1,
- "rarity": "Common"
+  "objectName" : "makeshiftbakingstationCNYC",
+  "colonyTags" : [ "cooking" ],
+  "rarity" : "Common",
+  "price" : 30.2,
+  "category" : "Makeshift Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "I can bake things with this!",
+  "shortdescription" : "^orange;Camp Oven (Bake)^white;",
+  "race" : "generic",
+  "inventoryIcon" : "makeshiftbakingstationCNYCicon.png",
+  "largeImage" : "makeshiftbakingstationCNYC.png:default.default",
+  "orientations" : [ 
+    {
+      "dualImage" : "makeshiftbakingstationCNYCplacementpreview.png:<color>",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    } ],
+  "recipeGroup" : "bakingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/bakingMFMRecipes.config",
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "animationPosition" : [ 0, 0 ],
+  "retainObjectParametersInItem" : true,
+  "soundEffectRangeMultiplier" : 0.5,
+  "animation" : "makeshiftbakingstationCNYC.animation",
+  "npcToy" :   {
+    "preciseStandPositionRight" : [ 2.5, 0 ],
+    "preciseStandPositionLeft" : [ -2.5, 0 ],
+    "maxNpcs" : 1,
+    "defaultReactions" :     {
+      "campfire" : [ [ 1, "warmhands" ],[ 1, "crouchwarm" ] ]
+    },
+    "influence" : [ "campfire", "campfire" ]
+  },
+  "subtitle" : "Bake Food!"
 }

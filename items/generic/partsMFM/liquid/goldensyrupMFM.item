@@ -1,9 +1,9 @@
 {
- "shortdescription": "Golden Syrup",
- "itemName": "goldensyrupMFM",
- "price": 11.14,
- "description": "Syrup that is golden, it glistens in the sun",
- "inventoryIcon": "goldensyrupMFM.png",
- "category": "cookingIngredient",
- "rarity": "Common"
+  "itemName" : "goldensyrupMFM",
+  "rarity" : "Common",
+  "price" : 11.14,
+  "category" : "cookingIngredient",
+  "description" : "Syrup that is golden, it glistens in the sun",
+  "shortdescription" : "Golden Syrup",
+  "inventoryIcon" : "goldensyrupMFM.png"
 }

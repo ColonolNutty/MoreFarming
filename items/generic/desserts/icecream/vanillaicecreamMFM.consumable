@@ -1,7 +1,7 @@
 {
   "itemName" : "vanillaicecreamMFM",
   "rarity" : "Common",
-  "price" : 253.54,
+  "price" : 257.64,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "Vanilla ice cream.",
@@ -9,9 +9,9 @@
   "foodValue" : 11.71,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "vanillaicecreamMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "vanillaicecreamMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

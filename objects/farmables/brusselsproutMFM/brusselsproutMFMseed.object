@@ -1,49 +1,49 @@
 {
   "objectName" : "brusselsproutMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 703.5,
   "category" : "seed",
-  "price" : 18,
-  "tooltipKind" : "seed",
-  "description" : "A relative of the cabbage.\nFirst Harvest: 45 mins\nRe-Harvest: 28 mins",
-  "shortdescription" : "Brussels Sprout Seeds",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "A relative of the cabbage.
+First Harvest: 45 mins
+Re-Harvest: 28 mins",
+  "shortdescription" : "Brussels Sprout Seeds",
   "floranDescription" : "Ssseedsss for brussel sssproutsss!",
   "glitchDescription" : "Identify. Brussel sprout seeds.",
   "humanDescription" : "Brussel sprouts, my arch nemesis",
-
   "inventoryIcon" : "brusselsproutMFMseedicon.png",
   "largeImage" : "brusselsproutMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "brusselsproutMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [540, 540]
+      "duration" : [ 540, 540 ]
     },
+
     {
-      "duration" : [540, 540]
+      "duration" : [ 540, 540 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [1680, 1680]
+      "duration" : [ 1680, 1680 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "brusselsproutMFMHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25
 }

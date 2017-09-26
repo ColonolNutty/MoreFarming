@@ -1,27 +1,27 @@
 {
   "itemName" : "garpberryicecreamMFM",
   "rarity" : "Common",
-  "price" : 430.22,
+  "price" : 434.52,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "A lovely icecream made with a garpberry-taste. Mmmm",
   "shortdescription" : "Ice Cream - Garpberry",
   "foodValue" : 17.42,
-  "effects" : [[
+  "effects" : [ [ 
       {
-        "duration" : 30,
-        "effect" : "jumpboostfood"
+        "effect" : "jumpboostfood",
+        "duration" : 30
       },
 
       {
-        "duration" : 30,
-        "effect" : "maxenergyscalingboostfood"
-      }]],
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
-  "inventoryIcon" : "garpberryicecreamMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "garpberryicecreamMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

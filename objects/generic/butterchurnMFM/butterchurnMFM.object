@@ -1,40 +1,35 @@
 {
- "recipeGroup": "churningMFM",
- "tooltipKind": "container",
- "outputConfig": "/recipeCrafterMFM/churningMFMRecipes.config",
- "orientations": [{
-  "frames": 1,
-  "animationCycle": 1,
-  "imagePosition": [
-   -8,
-   0
-  ],
-  "spaceScan": 0.1,
-  "dualImage": "butterchurnMFM.png:<color>",
-  "anchors": ["bottom"]
- }],
- "description": "A butterchurn. Used for making butter.",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "objectType": "container",
- "glitchDescription": "Observe. A butterchurn, used to churn milk into butter.",
- "price": 248.05,
- "closeSounds": ["/sfx/objects/woodenbox_close.ogg"],
- "slotCount": 16,
- "colonyTags": [
-  "farm",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "shortdescription": "Hand Butter Churn (Churn)",
- "race": "generic",
- "openSounds": ["/sfx/objects/woodenbox_open.ogg"],
- "printable": false,
- "frameCooldown": 67,
- "objectName": "butterchurnMFM",
- "inventoryIcon": "butterchurnMFMicon.png",
- "category": "crafting",
- "scriptDelta": 1,
- "floranDescription": "Floran can put thingsss inssside and churn them.",
- "rarity": "Common"
+  "objectName" : "butterchurnMFM",
+  "colonyTags" : [ "farm", "cooking" ],
+  "rarity" : "Common",
+  "price" : 264.15,
+  "category" : "crafting",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "A butterchurn. Used for making butter.",
+  "shortdescription" : "Hand Butter Churn (Churn)",
+  "race" : "generic",
+  "floranDescription" : "Floran can put thingsss inssside and churn them.",
+  "glitchDescription" : "Observe. A butterchurn, used to churn milk into butter.",
+  "inventoryIcon" : "butterchurnMFMicon.png",
+  "orientations" : [ 
+    {
+      "dualImage" : "butterchurnMFM.png:<color>",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    } ],
+  "recipeGroup" : "churningMFM",
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/churningMFMRecipes.config"
 }

@@ -1,12 +1,33 @@
 [
-  {
-    "op": "replace",
-    "path": "/shortdescription",
-    "value": "Book"
-  },
-  {
-    "op": "replace",
-    "path": "/description",
-    "value": "A book, contains tales of dragons and knights."
-  }
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Book"
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "A book, contains tales of dragons and knights."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.46
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 0.46
+    }
+  ]
 ]

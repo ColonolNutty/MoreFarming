@@ -1,17 +1,12 @@
 {
- "shortdescription": "Toffee Block",
- "itemName": "toffeeblockMFM",
- "price": 10.29,
- "description": "Compressed toffee.",
- "dropCollision": [
-  -2.5,
-  -2,
-  2.5,
-  2
- ],
- "inventoryIcon": "toffeeblockMFM.png",
- "glitchdescription": "Analysis. Toffee Block.",
- "category": "block",
- "materialId": 3304,
- "rarity": "Common"
+  "itemName" : "toffeeblockMFM",
+  "rarity" : "Common",
+  "price" : 10.29,
+  "category" : "block",
+  "description" : "Compressed toffee.",
+  "shortdescription" : "Toffee Block",
+  "inventoryIcon" : "toffeeblockMFM.png",
+  "dropCollision" : [ -2.5, -2, 2.5, 2 ],
+  "glitchdescription" : "Analysis. Toffee Block.",
+  "materialId" : 3304
 }

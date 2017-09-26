@@ -1,49 +1,49 @@
 {
   "objectName" : "bambooBMBshoot",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 402.0,
   "category" : "seed",
-  "price" : 10,
-  "tooltipKind" : "seed",
-  "description" : "Fast growing Bamboo.\nFirst Harvest: 26 mins\nRe-Harvest: 16 mins",
-  "shortdescription" : "Bamboo Shoot",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-  
+  "description" : "Fast growing Bamboo.
+First Harvest: 26 mins
+Re-Harvest: 16 mins",
+  "shortdescription" : "Bamboo Shoot",
   "floranDescription" : "Sssharp sssticksss for ssstabbing!",
   "glitchDescription" : "Statement. Bamboo.",
   "hylotlDescription" : "Bamboo is very useful.",
-
   "inventoryIcon" : "bambooBMBshooticon.png",
   "largeImage" : "bambooBMBshoot.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "bambooBMBshoot.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [300, 300]
+      "duration" : [ 300, 300 ]
     },
+
     {
-      "duration" : [300, 300]
+      "duration" : [ 300, 300 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [960, 960]
+      "duration" : [ 960, 960 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "bambooBMBHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25
 }

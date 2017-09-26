@@ -1,48 +1,47 @@
 {
   "objectName" : "soybeanMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 452.25,
   "category" : "seed",
-  "price" : 12,
-  "tooltipKind" : "seed",
-  "description" : "It's soy! Oh boy!\nFirst Harvest: 30 mins\nRe-Harvest: 18 mins",
-  "shortdescription" : "Soybean Seeds",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "It's soy! Oh boy!
+First Harvest: 30 mins
+Re-Harvest: 18 mins",
+  "shortdescription" : "Soybean Seeds",
   "apexDescription" : "Contains a high amount of natural proteins.",
   "avianDescription" : "Well, it's better than nothing.",
   "floranDescription" : "It doesssn't sssmell like food",
   "glitchDescription" : "Dismissive. Feed it to the cows.",
   "humanDescription" : "Hippie food.",
   "hylotlDescription" : "Finally! It's just perfect.",
-
   "inventoryIcon" : "soybeanMFMseedicon.png",
   "largeImage" : "soybeanMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "soybeanMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [720, 720]
+      "duration" : [ 720, 720 ]
     },
+
     {
-      "duration" : [1080, 1080]
+      "duration" : [ 1080, 1080 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "soybeanMFMHarvest",
       "resetToStage" : 1
-    }
-  ],
+    } ],
   "maxImmersion" : 0.4
 }

@@ -1,83 +1,73 @@
 {
- "avianDescription": "It looks like an egg.. or a.. pod?",
- "flickerPeriod": 0.3,
- "recipeGroup": "blendingMFM",
- "outputConfig": "/recipeCrafterMFM/blendingMFMRecipes.config",
- "flickerMinIntensity": 0.5,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "imageLayers": [
+  "objectName" : "hylotlblendingstationCNYC",
+  "colonyTags" : [ "hylotl", "hylotlvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 250.18,
+  "category" : "Hylotl Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A waterdrop shaped blender.",
+  "shortdescription" : "^orange;Hylotl Blender (Blend)^white;",
+  "race" : "generic",
+  "apexDescription" : "It's design is very ergonomic",
+  "avianDescription" : "It looks like an egg.. or a.. pod?",
+  "floranDescription" : "Floran blendss sssilly plusshiesss..",
+  "glitchDescription" : "Observation. A waterdrop blender",
+  "humanDescription" : "I need oranges.. lots of oranges",
+  "hylotlDescription" : "Blended kelp, I must remember.",
+  "inventoryIcon" : "hylotlblendingstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "hylotlblendingstationCNYC.png:<color>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "hylotlblendingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "hylotlblendingstationCNYClit.png:<color>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "hylotlblendingstationCNYClit.png:<color>"}
-   ],
-   "flipImages": true,
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "imageLayers": [
+
     {
-     "image": "hylotlblendingstationCNYC.png:<color>",
-     "fullbright": true
-    },
-    {"image": "hylotlblendingstationCNYClit.png:<color>"}
-   ],
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "A waterdrop shaped blender.",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "flickerMaxIntensity": 0.55,
- "objectType": "container",
- "hylotlDescription": "Blended kelp, I must remember.",
- "glitchDescription": "Observation. A waterdrop blender",
- "price": 244.03,
- "slotCount": 16,
- "colonyTags": [
-  "hylotl",
-  "hylotlvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "humanDescription": "I need oranges.. lots of oranges",
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Hylotl Blender (Blend)^white;",
- "race": "generic",
- "lightColor": [
-  125,
-  143,
-  179
- ],
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "frameCooldown": 67,
- "subtitle": "Blend and Juice!",
- "objectName": "hylotlblendingstationCNYC",
- "apexDescription": "It's design is very ergonomic",
- "inventoryIcon": "hylotlblendingstationCNYCicon.png",
- "category": "Hylotl Cookware",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 1,
- "floranDescription": "Floran blendss sssilly plusshiesss..",
- "rarity": "Common"
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "hylotlblendingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "hylotlblendingstationCNYClit.png:<color>"
+        } ]
+    } ],
+  "recipeGroup" : "blendingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/blendingMFMRecipes.config",
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.5,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 0.55,
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 125, 143, 179 ],
+  "subtitle" : "Blend and Juice!",
+  "flickerIntensityVariance" : 0.025
 }

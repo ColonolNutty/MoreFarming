@@ -1,130 +1,96 @@
 {
- "avianDescription": "The oil needs wiping off..",
- "flickerPeriod": 0.8,
- "recipeGroup": "bakingMFM",
- "outputConfig": "/recipeCrafterMFM/bakingMFMRecipes.config",
- "flickerMinIntensity": 0.2,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "collision": "platform",
-   "imageLayers": [
+  "objectName" : "novakidbakingstationCNYC",
+  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 258.23,
+  "category" : "Novakid Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A castiron engine oven!",
+  "shortdescription" : "^orange;Novakid Engine Oven (Bake)^white;",
+  "race" : "generic",
+  "apexDescription" : "If I wasn't mistaken, it looks like part of a steam engine..",
+  "avianDescription" : "The oil needs wiping off..",
+  "floranDescription" : "Floran disslikess hotboxesss.",
+  "glitchDescription" : "Inspect. Already oil seasoned!.",
+  "humanDescription" : "A fistfull of baked goods!",
+  "hylotlDescription" : "Wel at least it doesn't clang..",
+  "inventoryIcon" : "novakidbakingstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "novakidbakingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [ 
+        {
+          "image" : "novakidbakingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "novakidbakingstationCNYClit.png:<color>.<frame>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "novakidbakingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "flipImages": true,
-   "frames": 4,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "collision": "platform",
-   "imageLayers": [
+
     {
-     "image": "novakidbakingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [ 
+        {
+          "image" : "novakidbakingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "novakidbakingstationCNYClit.png:<color>.<frame>"
+        } ]
+    } ],
+  "recipeGroup" : "bakingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/bakingMFMRecipes.config",
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.2,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 0.3,
+  "particleEmitter" :   {
+    "emissionRate" : 6,
+    "particleVariance" :     {
+      "initialVelocity" : [ 0.3, 2 ],
+      "position" : [ 0.4, 0 ]
     },
-    {"image": "novakidbakingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "frames": 4,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "A castiron engine oven!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "flickerMaxIntensity": 0.3,
- "objectType": "container",
- "hylotlDescription": "Wel at least it doesn't clang..",
- "glitchDescription": "Inspect. Already oil seasoned!.",
- "price": 249.08,
- "slotCount": 16,
- "colonyTags": [
-  "novakid",
-  "novakidvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "humanDescription": "A fistfull of baked goods!",
- "particleEmitter": {
-  "emissionRate": 6,
-  "particleVariance": {
-   "initialVelocity": [
-    0.3,
-    2
-   ],
-   "position": [
-    0.4,
-    0
-   ]
+    "particle" :     {
+      "timeToLive" : 1,
+      "fade" : 1,
+      "size" : 1,
+      "color" : [ 255, 255, 255, 50 ],
+      "initialVelocity" : [ 0, 2 ],
+      "finalVelocity" : [ 0, 1 ],
+      "position" : [ -0.5, 1.6 ],
+      "type" : "animated",
+      "approach" : [ 0, 20 ],
+      "layer" : "back",
+      "animation" : "/animations/dustclear/dustclearCNYC.animation"
+    },
+    "emissionVariance" : 1
   },
-  "particle": {
-   "timeToLive": 1,
-   "fade": 1,
-   "size": 1,
-   "color": [
-    255,
-    255,
-    255,
-    50
-   ],
-   "initialVelocity": [
-    0,
-    2
-   ],
-   "finalVelocity": [
-    0,
-    1
-   ],
-   "position": [
-    -0.5,
-    1.6
-   ],
-   "type": "animated",
-   "approach": [
-    0,
-    20
-   ],
-   "layer": "back",
-   "animation": "/animations/dustclear/dustclearCNYC.animation"
-  },
-  "emissionVariance": 1
- },
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Novakid Engine Oven (Bake)^white;",
- "race": "generic",
- "lightColor": [
-  218,
-  83,
-  2,
-  5
- ],
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "frameCooldown": 67,
- "subtitle": "Bake Food!",
- "objectName": "novakidbakingstationCNYC",
- "apexDescription": "If I wasn't mistaken, it looks like part of a steam engine..",
- "inventoryIcon": "novakidbakingstationCNYCicon.png",
- "category": "Novakid Cookware",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 1,
- "floranDescription": "Floran disslikess hotboxesss.",
- "rarity": "Common"
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 218, 83, 2, 5 ],
+  "subtitle" : "Bake Food!",
+  "flickerIntensityVariance" : 0.025
 }

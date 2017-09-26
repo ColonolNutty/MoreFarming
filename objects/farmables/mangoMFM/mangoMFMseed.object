@@ -1,44 +1,43 @@
 {
   "objectName" : "mangoMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 703.5,
   "category" : "seed",
-  "price" : 18,
-  "tooltipKind" : "seed",
-  "description" : "Orange and sweet.\nFirst Harvest: 46 mins\nRe-Harvest: 28 mins",
-  "shortdescription" : "Mango Seeds",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "Orange and sweet.
+First Harvest: 46 mins
+Re-Harvest: 28 mins",
+  "shortdescription" : "Mango Seeds",
   "floranDescription" : "Thisss growsss mangosss",
   "glitchDescription" : "Statement. Mangos grow from here.",
-
   "inventoryIcon" : "mangoMFMseedicon.png",
   "largeImage" : "mangoMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "mangoMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [1080, 1080]
+      "duration" : [ 1080, 1080 ]
     },
+
     {
-      "duration" : [1680, 1680]
+      "duration" : [ 1680, 1680 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "mangoMFMHarvest",
       "resetToStage" : 1
-    }
-  ],
+    } ],
   "maxImmersion" : 0.8
 }

@@ -1,45 +1,44 @@
 {
   "objectName" : "appleMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 40.2,
   "category" : "seed",
-  "price" : 5,
-  "tooltipKind" : "seed",
-  "description" : "This tree produces Red Apples.\nFirst Harvest: 13 mins\nRe-Harvest: 8 mins",
-  "shortdescription" : "Red Apple Seed",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "This tree produces Red Apples.
+First Harvest: 13 mins
+Re-Harvest: 8 mins",
+  "shortdescription" : "Red Apple Seed",
   "floranDescription" : "Growsss ssshiny red applesss.",
   "glitchDescription" : "Statement. Red apples grow from here.",
   "humanDescription" : "How American can it get?",
-
   "inventoryIcon" : "appleMFMseedicon.png",
   "largeImage" : "appleMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "appleMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [360, 360]
+      "duration" : [ 360, 360 ]
     },
+
     {
-      "duration" : [480, 480]
+      "duration" : [ 480, 480 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "appleMFMHarvest",
       "resetToStage" : 1
-    }
-  ],
+    } ],
   "maxImmersion" : 0.8
 }

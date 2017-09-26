@@ -1,49 +1,49 @@
 {
   "objectName" : "raspberryPBJseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 502.5,
   "category" : "seed",
-  "price" : 13,
-  "tooltipKind" : "seed",
-  "description" : "Sweet and tart.\nFirst Harvest: 34 mins\nRe-Harvest: 20 mins",
-  "shortdescription" : "Raspberry Seeds",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "Sweet and tart.
+First Harvest: 34 mins
+Re-Harvest: 20 mins",
+  "shortdescription" : "Raspberry Seeds",
   "floranDescription" : "Ssseedsss for Rassspberriesss!",
   "glitchDescription" : "Identify. Raspberry seeds.",
   "humanDescription" : "Oh sweet! Raspberry seeds!",
-
   "inventoryIcon" : "raspberryPBJseedicon.png",
   "largeImage" : "raspberryPBJseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "raspberryPBJseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [420, 420]
+      "duration" : [ 420, 420 ]
     },
+
     {
-      "duration" : [420, 420]
+      "duration" : [ 420, 420 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [1200, 1200]
+      "duration" : [ 1200, 1200 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "raspberryPBJHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25
 }

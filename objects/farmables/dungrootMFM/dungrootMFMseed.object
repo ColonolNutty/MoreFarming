@@ -1,49 +1,48 @@
 {
   "objectName" : "dungrootMFMseed",
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "colonyTags" : ["nature"],
+  "price" : 40.2,
   "category" : "seed",
-  "price" : 1,
-  "tooltipKind" : "seed",
-  "description" : "The worst plant imaginable.\nFirst Harvest: 4 mins\nRe-Harvest: 2 mins",
-  "shortdescription" : "Dungroot Seed",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "The worst plant imaginable.
+First Harvest: 4 mins
+Re-Harvest: 2 mins",
+  "shortdescription" : "Dungroot Seed",
   "apexDescription" : "Someone left something a little nasty here. It wasn't me, I swear!",
   "avianDescription" : "This is disgusting.",
   "floranDescription" : "Bad! It sssmellsss bad!",
   "glitchDescription" : "Fear. A plant taking the shape of this should not be safe in the slightest.",
   "humanDescription" : "Surely this can't actually be a plant.",
   "hylotlDescription" : "The most putrid, disgusting crop I have ever seen.",
-  "novakidDescription" : "It smells nasty, I bet I could find a use for it though.",
-
   "inventoryIcon" : "dungrootMFMseedicon.png",
   "largeImage" : "dungrootMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "dungrootMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [120, 120]
+      "duration" : [ 120, 120 ]
     },
+
     {
-      "duration" : [120, 120]
+      "duration" : [ 120, 120 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "dungrootMFMHarvest",
       "resetToStage" : 1
-    }
-  ],
-  "maxImmersion" : 1.0
+    } ],
+  "maxImmersion" : 1.0,
+  "novakidDescription" : "It smells nasty, I bet I could find a use for it though."
 }

@@ -1,49 +1,49 @@
 {
   "objectName" : "peanutPBJseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 301.5,
   "category" : "seed",
-  "price" : 8,
-  "tooltipKind" : "seed",
-  "description" : "A tender plant.\nFirst Harvest: 20 mins\nRe-Harvest: 12 mins",
-  "shortdescription" : "Peanut Seeds",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "A tender plant.
+First Harvest: 20 mins
+Re-Harvest: 12 mins",
+  "shortdescription" : "Peanut Seeds",
   "floranDescription" : "Ssseeds for Peanuts!",
   "glitchDescription" : "Identify. Peanut seeds.",
   "humanDescription" : "Mmmm, Peanut butter",
-
   "inventoryIcon" : "peanutPBJseedicon.png",
   "largeImage" : "peanutPBJseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "peanutPBJseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [240, 240]
+      "duration" : [ 240, 240 ]
     },
+
     {
-      "duration" : [240, 240]
+      "duration" : [ 240, 240 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [720, 720]
+      "duration" : [ 720, 720 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "peanutPBJHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25
 }

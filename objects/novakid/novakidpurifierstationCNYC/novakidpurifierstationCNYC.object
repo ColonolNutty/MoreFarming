@@ -1,154 +1,97 @@
 {
- "avianDescription": "Whistles while it works.",
- "recipeGroup": "purifyingMFM",
- "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config",
- "orientations": [
-  {
-   "imageLayers": [
+  "objectName" : "novakidpurifierstationCNYC",
+  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 272.72,
+  "category" : "Novakid Cookware",
+  "objectType" : "container",
+  "description" : "Purifies water, whistles with encouragement!",
+  "shortdescription" : "^orange;Novakid Kettle (Purify)^white;",
+  "race" : "generic",
+  "apexDescription" : "Haven't seen anything like this before..",
+  "avianDescription" : "Whistles while it works.",
+  "floranDescription" : "Sssteamy..",
+  "glitchDescription" : "Observation. Appears to be a clensing machine. With a whistle.",
+  "humanDescription" : "Chooooooooo!",
+  "hylotlDescription" : "It's very loud..",
+  "inventoryIcon" : "novakidpurifierstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "novakidpurifierstationCNYC.png:<color>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "novakidpurifierstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "novakidpurifierstationCNYClit.png:<color>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "novakidpurifierstationCNYClit.png:<color>"}
-   ],
-   "flipImages": true,
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "imageLayers": [
+
     {
-     "image": "novakidpurifierstationCNYC.png:<color>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "novakidpurifierstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "novakidpurifierstationCNYClit.png:<color>"
+        } ]
+    } ],
+  "recipeGroup" : "purifyingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/purifyingMFMRecipes.config",
+  "particleEmitter" :   {
+    "emissionRate" : 2,
+    "particleVariance" :     {
+      "initialVelocity" : [ 0.3, 0 ],
+      "position" : [ 0, 0 ]
     },
-    {"image": "novakidpurifierstationCNYClit.png:<color>"}
-   ],
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "Purifies water, whistles with encouragement!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "objectType": "container",
- "hylotlDescription": "It's very loud..",
- "glitchDescription": "Observation. Appears to be a clensing machine. With a whistle.",
- "price": 269.58,
- "slotCount": 16,
- "colonyTags": [
-  "novakid",
-  "novakidvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "scripts": [
-  "/scripts/npcToyObject.lua",
-  "/recipeCrafterMFM/recipeCrafterMFM.lua"
- ],
- "humanDescription": "Chooooooooo!",
- "particleEmitter": {
-  "emissionRate": 2,
-  "particleVariance": {
-   "initialVelocity": [
-    0.3,
-    0
-   ],
-   "position": [
-    0,
-    0
-   ]
+    "particle" :     {
+      "timeToLive" : 2,
+      "fade" : 1,
+      "size" : 1,
+      "color" : [ 255, 255, 255, 50 ],
+      "initialVelocity" : [ 2, 0 ],
+      "finalVelocity" : [ 1, 0 ],
+      "position" : [ -3.5, 1.1 ],
+      "type" : "animated",
+      "approach" : [ 0, 20 ],
+      "layer" : "back",
+      "animation" : "/animations/coldbreath/coldbreath.animation"
+    },
+    "emissionVariance" : 1
   },
-  "particle": {
-   "timeToLive": 2,
-   "fade": 1,
-   "size": 1,
-   "color": [
-    255,
-    255,
-    255,
-    50
-   ],
-   "initialVelocity": [
-    2,
-    0
-   ],
-   "finalVelocity": [
-    1,
-    0
-   ],
-   "position": [
-    -3.5,
-    1.1
-   ],
-   "type": "animated",
-   "approach": [
-    0,
-    20
-   ],
-   "layer": "back",
-   "animation": "/animations/coldbreath/coldbreath.animation"
+  "npcToy" :   {
+    "preciseStandPositionRight" : [ 1, 0 ],
+    "preciseStandPositionLeft" : [ -1, 0 ],
+    "maxNpcs" : 1,
+    "defaultReactions" :     {
+      "watercoolerConsume" : [ [ 1, "drink" ] ],
+      "watercoolerComplete" : [ [ 1, "smile" ],[ 0.1, "vomit" ] ],
+      "watercoolerCollect" : [ [ 1, "crouchcollect" ] ]
+    },
+    "influence" : [ "watercoolerCollect", "watercoolerConsume", "watercoolerComplete" ]
   },
-  "emissionVariance": 1
- },
- "shortdescription": "^orange;Novakid Kettle (Purify)^white;",
- "race": "generic",
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "npcToy": {
-  "preciseStandPositionRight": [
-   1,
-   0
-  ],
-  "preciseStandPositionLeft": [
-   -1,
-   0
-  ],
-  "maxNpcs": 1,
-  "defaultReactions": {
-   "watercoolerConsume": [[
-    1,
-    "drink"
-   ]],
-   "watercoolerComplete": [
-    [
-     1,
-     "smile"
-    ],
-    [
-     0.1,
-     "vomit"
-    ]
-   ],
-   "watercoolerCollect": [[
-    1,
-    "crouchcollect"
-   ]]
-  },
-  "influence": [
-   "watercoolerCollect",
-   "watercoolerConsume",
-   "watercoolerComplete"
-  ]
- },
- "frameCooldown": 67,
- "subtitle": "Purify Water!",
- "objectName": "novakidpurifierstationCNYC",
- "apexDescription": "Haven't seen anything like this before..",
- "inventoryIcon": "novakidpurifierstationCNYCicon.png",
- "category": "Novakid Cookware",
- "scriptDelta": 1,
- "floranDescription": "Sssteamy..",
- "rarity": "Common"
+  "subtitle" : "Purify Water!"
 }

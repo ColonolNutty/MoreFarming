@@ -1,86 +1,77 @@
 {
- "avianDescription": "I have no idea where the heat is generated..",
- "flickerPeriod": 0.3,
- "recipeGroup": "bakingMFM",
- "outputConfig": "/recipeCrafterMFM/bakingMFMRecipes.config",
- "flickerMinIntensity": 0.95,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "collision": "platform",
-   "imageLayers": [
+  "objectName" : "nanobakingstationCNYC",
+  "rarity" : "Common",
+  "price" : 320.08,
+  "category" : "crafting",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "Ion cannon oven! Kinda...",
+  "shortdescription" : "Nano Oven (Bake)",
+  "race" : "generic",
+  "apexDescription" : "A marvel of our time!",
+  "avianDescription" : "I have no idea where the heat is generated..",
+  "floranDescription" : "Floran like ssspinny..",
+  "glitchDescription" : "Admiration. This oven cooks.. I don't even know how..",
+  "humanDescription" : "I could probably put my hand in there while it's cooking..",
+  "hylotlDescription" : "Oddly hypnotic, yet functional",
+  "inventoryIcon" : "nanobakingstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "nanobakingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 5,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [ 
+        {
+          "image" : "nanobakingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "nanobakingstationCNYClit.png:<color>.<frame>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "nanobakingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "flipImages": true,
-   "frames": 5,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "collision": "platform",
-   "imageLayers": [
+
     {
-     "image": "nanobakingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
-    },
-    {"image": "nanobakingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "frames": 5,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "Ion cannon oven! Kinda...",
- "maximumLiquidLevel": 0.2,
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "flickerMaxIntensity": 1,
- "objectType": "container",
- "hylotlDescription": "Oddly hypnotic, yet functional",
- "statusEffects": [],
- "glitchDescription": "Admiration. This oven cooks.. I don't even know how..",
- "price": 316.93,
- "slotCount": 16,
- "soundEffect": "/sfx/objects/campfire.ogg",
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "humanDescription": "I could probably put my hand in there while it's cooking..",
- "shortdescription": "Nano Oven (Bake)",
- "race": "generic",
- "lightColor": [
-  125,
-  143,
-  179
- ],
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "tags": [
-  "cooking",
-  "electronic"
- ],
- "frameCooldown": 67,
- "subtitle": "Hi-tech baking",
- "objectName": "nanobakingstationCNYC",
- "apexDescription": "A marvel of our time!",
- "inventoryIcon": "nanobakingstationCNYCicon.png",
- "category": "crafting",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 1,
- "floranDescription": "Floran like ssspinny..",
- "rarity": "Common"
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 5,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [ 
+        {
+          "image" : "nanobakingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "nanobakingstationCNYClit.png:<color>.<frame>"
+        } ]
+    } ],
+  "recipeGroup" : "bakingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/bakingMFMRecipes.config",
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerPeriodVariance" : 0.075,
+  "maximumLiquidLevel" : 0.2,
+  "flickerMaxIntensity" : 1,
+  "statusEffects" : [ ],
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "lightColor" : [ 125, 143, 179 ],
+  "tags" : [ "cooking", "electronic" ],
+  "subtitle" : "Hi-tech baking",
+  "flickerIntensityVariance" : 0.025
 }

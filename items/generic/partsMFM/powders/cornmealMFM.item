@@ -1,9 +1,9 @@
 {
   "itemName" : "cornmealMFM",
-  "price" : 21,
   "rarity" : "Common",
+  "price" : 21.0,
   "category" : "cookingIngredient",
-  "inventoryIcon" : "cornmealMFM.png",
   "description" : "Ground corn.",
-  "shortdescription" : "Cornmeal"
+  "shortdescription" : "Cornmeal",
+  "inventoryIcon" : "cornmealMFM.png"
 }

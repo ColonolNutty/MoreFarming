@@ -1,129 +1,96 @@
 {
- "avianDescription": "Always fresh. Refreshing.",
- "flickerPeriod": 0.3,
- "recipeGroup": "waterMFM",
- "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config",
- "flickerMinIntensity": 0.5,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "imageLayers": [
+  "objectName" : "avianwaterstationCNYC",
+  "colonyTags" : [ "avian", "avianvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 52.13,
+  "category" : "Avian Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "Fresh water fountain. Fill your bottle!",
+  "shortdescription" : "^orange;Avian Waterfountain (Water)^white;",
+  "race" : "generic",
+  "apexDescription" : "In constant motion, almost a metaphor in itself",
+  "avianDescription" : "Always fresh. Refreshing.",
+  "floranDescription" : "Not bloodss.. floran drinksss anyway.",
+  "glitchDescription" : "Observation. Fresh water fountain.",
+  "humanDescription" : "Really need the loo.. again!",
+  "hylotlDescription" : "I could listen to this for days..",
+  "inventoryIcon" : "avianwaterstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "avianwaterstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 3,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "avianwaterstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "avianwaterstationCNYClit.png:<color>.<frame>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "avianwaterstationCNYClit.png:<color>.<frame>"}
-   ],
-   "flipImages": true,
-   "frames": 3,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "imageLayers": [
+
     {
-     "image": "avianwaterstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 3,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "avianwaterstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "avianwaterstationCNYClit.png:<color>.<frame>"
+        } ]
+    } ],
+  "recipeGroup" : "waterMFM",
+  "openSounds" : [ "/sfx/objects/sinkMFMenter.wav" ],
+  "closeSounds" : [ "/sfx/objects/sinkMFMexit.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/waterMFMRecipes.config",
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.5,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 0.55,
+  "soundEffect" : "/sfx/objects/fountain_small1.ogg",
+  "soundEffectRadius" : 20,
+  "particleEmitter" :   {
+    "emissionRate" : 4,
+    "particleVariance" :     {
+      "initialVelocity" : [ -1, 0.4 ],
+      "position" : [ 0.2, 0 ]
     },
-    {"image": "avianwaterstationCNYClit.png:<color>.<frame>"}
-   ],
-   "frames": 3,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "Fresh water fountain. Fill your bottle!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "flickerMaxIntensity": 0.55,
- "objectType": "container",
- "hylotlDescription": "I could listen to this for days..",
- "glitchDescription": "Observation. Fresh water fountain.",
- "price": 42.03,
- "closeSounds": ["/sfx/objects/sinkMFMexit.wav"],
- "slotCount": 16,
- "soundEffect": "/sfx/objects/fountain_small1.ogg",
- "colonyTags": [
-  "avian",
-  "avianvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "soundEffectRadius": 20,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "humanDescription": "Really need the loo.. again!",
- "particleEmitter": {
-  "emissionRate": 4,
-  "particleVariance": {
-   "initialVelocity": [
-    -1,
-    0.4
-   ],
-   "position": [
-    0.2,
-    0
-   ]
+    "particle" :     {
+      "timeToLive" : 0.6,
+      "fade" : 2,
+      "size" : 1,
+      "color" : [ 58, 183, 253, 255 ],
+      "initialVelocity" : [ 0, 4 ],
+      "finalVelocity" : [ 0, -1 ],
+      "position" : [ -0.2, 0.1 ],
+      "type" : "ember",
+      "approach" : [ 0, 20 ],
+      "layer" : "back"
+    },
+    "emissionVariance" : 1
   },
-  "particle": {
-   "timeToLive": 0.6,
-   "fade": 2,
-   "size": 1,
-   "color": [
-    58,
-    183,
-    253,
-    255
-   ],
-   "initialVelocity": [
-    0,
-    4
-   ],
-   "finalVelocity": [
-    0,
-    -1
-   ],
-   "position": [
-    -0.2,
-    0.1
-   ],
-   "type": "ember",
-   "approach": [
-    0,
-    20
-   ],
-   "layer": "back"
-  },
-  "emissionVariance": 1
- },
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Avian Waterfountain (Water)^white;",
- "race": "generic",
- "lightColor": [
-  125,
-  143,
-  179
- ],
- "openSounds": ["/sfx/objects/sinkMFMenter.wav"],
- "printable": false,
- "frameCooldown": 67,
- "subtitle": "Drinking waterfountain!",
- "objectName": "avianwaterstationCNYC",
- "apexDescription": "In constant motion, almost a metaphor in itself",
- "inventoryIcon": "avianwaterstationCNYCicon.png",
- "category": "Avian Cookware",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 1,
- "floranDescription": "Not bloodss.. floran drinksss anyway.",
- "rarity": "Common"
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 125, 143, 179 ],
+  "subtitle" : "Drinking waterfountain!",
+  "flickerIntensityVariance" : 0.025
 }

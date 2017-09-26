@@ -1,47 +1,46 @@
 {
   "objectName" : "flytrapMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 603.0,
   "category" : "seed",
-  "price" : 15,
-  "tooltipKind" : "seed",
-  "description" : "A carnivorous plant seed!\nFirst Harvest: 40 mins\nRe-Harvest: None",
-  "shortdescription" : "Fly Trap Seed",
   "objectType" : "farmable",
+  "tooltipKind" : "seed",
   "printable" : false,
-
+  "description" : "A carnivorous plant seed!
+First Harvest: 40 mins
+Re-Harvest: None",
+  "shortdescription" : "Fly Trap Seed",
   "apexDescription" : "This plant is just ripe for genetic experimentation!",
   "avianDescription" : "What bizarre alien planet did this come from?.",
   "floranDescription" : "Thisss ssstrong plantsss. It good eatsss, make Floran ssstrong!",
   "glitchDescription" : "Curiously Timid. This Glitch wonders if growing this is a good idea.",
   "humanDescription" : "Just like the ones on Earth, only much bigger and much more aggressive!",
   "hylotlDescription" : "Land-bound predator plant. Must stay away from it.",
-
   "inventoryIcon" : "flytrapMFMseedicon.png",
   "largeImage" : "flytrapMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "flytrapMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [960, 960]
+      "duration" : [ 960, 960 ]
     },
+
     {
-      "duration" : [1440, 1440]
+      "duration" : [ 1440, 1440 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "flyTrapMFMHarvest"
-    }
-  ],
+    } ],
   "maxImmersion" : 0.1
 }

@@ -1,9 +1,9 @@
 {
   "itemName" : "vanillaextractMFM",
-  "price" : 19.85,
   "rarity" : "Common",
+  "price" : 19.85,
   "category" : "cookingIngredient",
-  "inventoryIcon" : "vanillaextractMFM.png",
   "description" : "I shouldn't just drink it..",
-  "shortdescription" : "Vanilla Extract"
+  "shortdescription" : "Vanilla Extract",
+  "inventoryIcon" : "vanillaextractMFM.png"
 }

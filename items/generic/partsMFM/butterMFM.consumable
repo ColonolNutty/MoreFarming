@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "For making everything less healthy and more awesome.",
   "shortdescription" : "Butter",
-  "foodValue" : 0.77,
+  "foodValue" : 2.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
-  "inventoryIcon" : "butterMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "butterMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

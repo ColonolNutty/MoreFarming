@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "A steak and poultry sausage breaded and deep-fried.",
   "shortdescription" : "Corn Dog",
-  "foodValue" : 12.2,
+  "foodValue" : 14.68,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "corndogsteakandpoultryMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "corndogsteakandpoultryMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

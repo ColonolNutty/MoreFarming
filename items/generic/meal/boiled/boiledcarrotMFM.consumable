@@ -3,18 +3,15 @@
   "rarity" : "Common",
   "price" : 66.15,
   "category" : "preparedFood",
-  "inventoryIcon" : "boiledcarrotMFM.png",
+  "tooltipKind" : "food",
   "description" : "A carrot boiled in water.",
   "shortdescription" : "Boiled Carrot",
-  "foodValue": 5.51,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledcarrotMFM.png",
   "emote" : "Happy"
 }

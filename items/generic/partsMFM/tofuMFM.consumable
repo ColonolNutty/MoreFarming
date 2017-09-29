@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "It is squishy.",
   "shortdescription" : "Tofu",
-  "foodValue" : 3.76,
+  "foodValue" : 12.43,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
-  "inventoryIcon" : "tofuMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "tofuMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

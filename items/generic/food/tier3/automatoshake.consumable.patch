@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 167.82
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 6.43
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Milkshake - Automato"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 167.82
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 15.53
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Milkshake - Automato"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 180
+          }
+        ]
+      ]
+    }
+  ]
+]

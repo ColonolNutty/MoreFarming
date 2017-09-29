@@ -1,9 +1,42 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 31.67
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 11.64
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 31.67
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 14.12
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 180
+          }
+        ]
+      ]
+    }
+  ]
+]

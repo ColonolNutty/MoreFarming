@@ -3,16 +3,14 @@
   "rarity" : "Common",
   "price" : 52.5,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedjalapenopepperMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed and chopped jalapeno pepper.",
   "shortdescription" : "Chopped Jalapeno pepper",
-  "foodValue" : 3.15,
-  "tooltipKind" : "food",
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedjalapenopepperMFM.png"
 }

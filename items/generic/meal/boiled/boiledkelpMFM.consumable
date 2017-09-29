@@ -3,18 +3,15 @@
   "rarity" : "Common",
   "price" : 5.51,
   "category" : "preparedFood",
-  "inventoryIcon" : "boiledkelpMFM.png",
+  "tooltipKind" : "food",
   "description" : "Kelp boiled in water.",
   "shortdescription" : "Boiled Kelp",
-  "foodValue": 2.21,
-  "tooltipKind" : "food",
+  "foodValue" : 11.03,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledkelpMFM.png",
   "emote" : "Happy"
 }

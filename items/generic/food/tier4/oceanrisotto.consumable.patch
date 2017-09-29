@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 1004.7
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 62.01
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Risotto - Ocean"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 1004.7
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 126.35
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Risotto - Ocean"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 450
+          }
+        ]
+      ]
+    }
+  ]
+]

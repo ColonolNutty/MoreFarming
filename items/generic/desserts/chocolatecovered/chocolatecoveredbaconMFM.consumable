@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "Oh my...",
   "shortdescription" : "Chocolate Covered Bacon",
-  "foodValue" : 21.44,
+  "foodValue" : 41.42,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "chocolatecoveredbaconMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "chocolatecoveredbaconMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

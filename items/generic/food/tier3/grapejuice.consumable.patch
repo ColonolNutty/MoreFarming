@@ -1,17 +1,47 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 132.3
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 4.14
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Juice - Grape"
-  }
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 132.3
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 10.0
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Juice - Grape"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "runboostfood",
+            "duration" : 135
+          }
+        ]
+      ]
+    }
+  ]
 ]

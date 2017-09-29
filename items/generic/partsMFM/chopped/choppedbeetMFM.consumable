@@ -1,18 +1,16 @@
 {
   "itemName" : "choppedbeetMFM",
   "rarity" : "Common",
-  "price" : 42,
+  "price" : 42.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedbeetMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed, peeled, and chopped beet.",
   "shortdescription" : "Chopped Beet",
-  "foodValue" : 3.94,
-  "tooltipKind" : "food",
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedbeetMFM.png"
 }

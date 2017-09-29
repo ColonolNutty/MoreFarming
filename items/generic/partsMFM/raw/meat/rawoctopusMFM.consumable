@@ -1,19 +1,17 @@
 {
   "itemName" : "rawoctopusMFM",
   "rarity" : "Common",
-  "price" : 10,
+  "price" : 10.0,
   "category" : "food",
   "eventCategory" : "cookingIngredient",
-  "inventoryIcon" : "rawoctopusMFM.png",
+  "tooltipKind" : "food",
   "description" : "An octopus filet...slimy.",
   "shortdescription" : "Raw Octopus",
-  "foodValue" : 8,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 0.5,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "rawoctopusMFM.png"
 }

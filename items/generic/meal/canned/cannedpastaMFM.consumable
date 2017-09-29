@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "Canned pasta. Not the best, but it'll do in a pinch.",
   "shortdescription" : "Canned - Pasta",
-  "foodValue" : 2.0,
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

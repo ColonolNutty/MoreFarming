@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "A cupcake with vanilla icing.",
   "shortdescription" : "Cupcake - Vanilla",
-  "foodValue" : 39.03,
+  "foodValue" : 63.27,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "cupcakevanillaMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cupcakevanillaMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

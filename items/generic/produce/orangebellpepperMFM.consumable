@@ -1,29 +1,27 @@
 {
   "itemName" : "orangebellpepperMFM",
   "rarity" : "Common",
-  "price" : 55,
+  "price" : 55.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "orangebellpepperMFM.png",
+  "tooltipKind" : "food",
   "description" : "Its orange!",
   "shortdescription" : "Orange Bell Pepper",
-  "effects" : [ [
-    {
-      "effect" : "fireblock",
-      "duration" : 60
-    },
-    {
-      "effect" : "energyregen",
-      "duration" : 30
-    }
-  ] ],
-  "foodValue" : 7,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
+        "effect" : "fireblock",
+        "duration" : 60
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 30
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "orangebellpepperMFM.png"
 }

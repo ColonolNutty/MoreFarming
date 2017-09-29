@@ -1,19 +1,17 @@
 {
   "itemName" : "steamedbroccoliMFM",
   "rarity" : "Common",
-  "price" : 123,
+  "price" : 123.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "steamedbroccoliMFM.png",
+  "tooltipKind" : "food",
   "description" : "Broccoli steamed in water.",
   "shortdescription" : "Steamed Broccoli",
-  "foodValue" : 7.69,
-  "tooltipKind" : "food",
+  "foodValue" : 20.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "steamedbroccoliMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

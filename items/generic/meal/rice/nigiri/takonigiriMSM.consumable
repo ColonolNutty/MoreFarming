@@ -2,24 +2,21 @@
   "itemName" : "takonigiriMSM",
   "rarity" : "Common",
   "price" : 254.03,
-	"category" : "preparedFood",
-  "inventoryIcon" : "takonigiriMSM.png",
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
   "description" : "Cooked octopus on top of rice.",
   "shortdescription" : "Nigiri - Tako",
-  "effects" : [ [
-    {
+  "foodValue" : 51.53,
+  "effects" : [ [ 
+      {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 90
-    }
-  ] ],
-	"foodValue" : 16.92,
-	"tooltipKind" : "food",
-	"builder" : "/items/buildscripts/buildfood.lua",
-	"maxStack" : 1000,
-	"itemAgingScripts" : ["/scripts/items/rotting.lua"],
-	"rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+      } ] ],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "takonigiriMSM.png",
+  "handPosition" : [ 0, -4 ]
 }

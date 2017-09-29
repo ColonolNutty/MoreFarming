@@ -1,13 +1,51 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 497.7
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 40.13
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Jam - Kiwi"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 497.7
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 40.13
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Jam - Kiwi"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "jumpboostfood",
+            "duration" : 158
+          },
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 158
+          }
+        ]
+      ]
+    }
+  ]
+]

@@ -1,25 +1,22 @@
 {
   "itemName" : "blackberryPBJ",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 50.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "blackberryPBJ.png",
+  "tooltipKind" : "food",
   "description" : "Sweet and tart!",
   "shortdescription" : "Blackberry",
-  "effects" : [ [
-    {
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
         "effect" : "fireblock",
         "duration" : 45
-    }
-  ] ],
-  "foodValue" : 3.75,
-  "tooltipKind" : "food",
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "blackberryPBJ.png"
 }

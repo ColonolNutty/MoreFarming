@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "A scrambled egg with ketchup.",
   "shortdescription" : "Scrambled Egg With Ketchup",
-  "foodValue" : 25.38,
+  "foodValue" : 34.93,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "scrambledeggwithketchupMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "scrambledeggwithketchupMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

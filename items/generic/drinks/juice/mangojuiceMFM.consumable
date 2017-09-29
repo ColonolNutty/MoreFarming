@@ -3,24 +3,21 @@
   "rarity" : "Common",
   "price" : 77.18,
   "category" : "drink",
-  "inventoryIcon" : "mangojuiceMFM.png",
+  "tooltipKind" : "food",
   "description" : "Sweet Mango juice.",
   "shortdescription" : "Juice - Mango",
-  "effects" : [ [
-    {
+  "foodValue" : 11.03,
+  "effects" : [ [ 
+      {
         "effect" : "maxenergyscalingboostfood",
         "duration" : 120
-    }
-  ] ],
-  "foodValue" : 6.62,
-  "tooltipKind" : "food",
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "mangojuiceMFM.png",
   "emitters" : [ "drinking" ],
-  "handPosition" : [0, -4]
+  "handPosition" : [ 0, -4 ]
 }

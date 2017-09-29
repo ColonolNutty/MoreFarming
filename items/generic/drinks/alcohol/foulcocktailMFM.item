@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 75.89,
   "category" : "cookingIngredient",
-  "inventoryIcon" : "foulcocktailMFM.png",
   "description" : "An inexplicable mix of oil and acidic swill.",
-  "shortdescription" : "Alcohol - Foul Cocktail"
+  "shortdescription" : "Alcohol - Foul Cocktail",
+  "inventoryIcon" : "foulcocktailMFM.png"
 }

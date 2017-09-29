@@ -6,11 +6,11 @@
   "tooltipKind" : "food",
   "description" : "Its bloody raw!",
   "shortdescription" : "Batter - Cupcake",
-  "foodValue" : 31.28,
+  "foodValue" : 51.28,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "cupcakebatterMFM.png"
 }

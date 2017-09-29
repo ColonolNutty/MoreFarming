@@ -2,28 +2,26 @@
   "itemName" : "unagitemakiMSM",
   "rarity" : "Uncommon",
   "price" : 414.1,
-	"category" : "drink",
-  "inventoryIcon" : "unagitemakiMSM.png",
+  "category" : "drink",
+  "tooltipKind" : "food",
   "description" : "Cooked eel and cucumber, wrapped in rice and kelp.",
   "shortdescription" : "Temaki - Unagi",
-  "effects" : [ [
-    {
+  "foodValue" : 109.86,
+  "effects" : [ [ 
+      {
         "effect" : "jumpboostfood",
         "duration" : 30
-    },
-    {
+      },
+
+      {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 120
-    }
-  ] ],
-	"foodValue" : 37.04,
-	"tooltipKind" : "food",
-	"builder" : "/items/buildscripts/buildfood.lua",
-	"maxStack" : 1000,
-	"itemAgingScripts" : ["/scripts/items/rotting.lua"],
-	"rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+      } ] ],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "unagitemakiMSM.png",
   "emitters" : [ "drinking" ]
 }

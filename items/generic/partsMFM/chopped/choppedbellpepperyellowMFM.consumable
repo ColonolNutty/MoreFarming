@@ -3,16 +3,14 @@
   "rarity" : "Common",
   "price" : 52.5,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedbellpepperyellowMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed and chopped yellow bell pepper",
   "shortdescription" : "Chopped Bell Pepper Yellow",
-  "foodValue" : 6.3,
-  "tooltipKind" : "food",
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedbellpepperyellowMFM.png"
 }

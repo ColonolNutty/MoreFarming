@@ -1,19 +1,17 @@
 {
   "itemName" : "rawshrimpMFM",
   "rarity" : "Common",
-  "price" : 5,
+  "price" : 5.0,
   "category" : "food",
   "eventCategory" : "cookingIngredient",
-  "inventoryIcon" : "rawshrimpMFM.png",
+  "tooltipKind" : "food",
   "description" : "A teeny tiny shrimp...slimy.",
   "shortdescription" : "Raw Shrimp",
-  "foodValue" : 3,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 0.5,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "rawshrimpMFM.png"
 }

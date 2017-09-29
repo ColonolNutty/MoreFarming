@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "How can you tell how good bread is without tasting it? The sound of the crust. Oh, the symphony of crackles...",
   "shortdescription" : "Bread - High Quality",
-  "foodValue" : 2.0,
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

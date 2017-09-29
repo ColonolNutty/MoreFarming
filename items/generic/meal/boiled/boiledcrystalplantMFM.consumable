@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "A crystal plant boiled in water.",
   "shortdescription" : "Boiled Crystal Plant",
-  "foodValue" : 2.0,
+  "foodValue" : 11.03,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

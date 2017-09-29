@@ -8,12 +8,44 @@
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 2.0
+      "value" : 10.0
     },
     {
       "op" : "replace",
       "path" : "/shortdescription",
       "value" : "Cookie - Spiky"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "thorns",
+            "duration" : 248
+          },
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 248
+          }
+        ]
+      ]
     }
   ]
 ]

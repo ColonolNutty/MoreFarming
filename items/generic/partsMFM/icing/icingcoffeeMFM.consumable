@@ -6,11 +6,11 @@
   "tooltipKind" : "food",
   "description" : "Coffee flavoured icing. Wake up!",
   "shortdescription" : "Icing - Coffee",
-  "foodValue" : 9.26,
+  "foodValue" : 11.26,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "icingcoffeeMFM.png"
 }

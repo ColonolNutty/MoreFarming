@@ -1,17 +1,47 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 16.54
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 2.21
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Juice - Cactus"
-  }
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 16.54
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 11.03
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Juice - Cactus"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "thorns",
+            "duration" : 90
+          }
+        ]
+      ]
+    }
+  ]
 ]

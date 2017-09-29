@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "Yum!",
   "shortdescription" : "Caramel Square",
-  "foodValue" : 20.0,
+  "foodValue" : 48.21,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "caramelsquareMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "caramelsquareMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

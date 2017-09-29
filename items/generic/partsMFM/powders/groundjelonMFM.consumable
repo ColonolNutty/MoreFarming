@@ -3,16 +3,14 @@
   "rarity" : "Common",
   "price" : 18.9,
   "category" : "food",
-  "inventoryIcon" : "groundjelonMFM.png",
+  "tooltipKind" : "food",
   "description" : "A pile of ground jelon.",
   "shortdescription" : "Ground Jelon",
-  "foodValue" : 2.1,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "groundjelonMFM.png"
 }

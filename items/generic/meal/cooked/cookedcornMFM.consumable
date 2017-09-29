@@ -1,18 +1,16 @@
 {
   "itemName" : "cookedcornMFM",
   "rarity" : "Common",
-  "price" : 63,
+  "price" : 63.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "cookedcornMFM.png",
+  "tooltipKind" : "food",
   "description" : "Tasty corn grilled with an oven.",
   "shortdescription" : "Baked Corn",
-  "foodValue" : 3.94,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cookedcornMFM.png"
 }

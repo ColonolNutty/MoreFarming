@@ -6,11 +6,11 @@
   "tooltipKind" : "food",
   "description" : "A blended mixture used in making confectionaries",
   "shortdescription" : "Fondant",
-  "foodValue" : 13.08,
+  "foodValue" : 19.97,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "fondantMFM.png"
 }

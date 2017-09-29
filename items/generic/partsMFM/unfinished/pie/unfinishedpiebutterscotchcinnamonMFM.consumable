@@ -6,11 +6,11 @@
   "tooltipKind" : "food",
   "description" : "A pie shell filled with butterscotch ingredients and cinnamon. Ready for baking.",
   "shortdescription" : "Pie Unf.- Butterscotch",
-  "foodValue" : 42.74,
+  "foodValue" : 76.87,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "unfinishedpiebutterscotchcinnamonMFM.png"
 }

@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "A plain ring of fried chocolate flavoured dough. So bad but so good.",
   "shortdescription" : "Donut - Plain Chocolate",
-  "foodValue" : 2.0,
+  "foodValue" : 10.0,
   "effects" : [ [ "regeneration3" ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

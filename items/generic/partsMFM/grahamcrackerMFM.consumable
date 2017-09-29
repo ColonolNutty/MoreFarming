@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "Golden brown graham cracker; Good for snacking on or making smores.",
   "shortdescription" : "Graham Cracker",
-  "foodValue" : 2.0,
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

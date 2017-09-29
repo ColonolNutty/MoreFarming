@@ -1,13 +1,51 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 574.8
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 42.17
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Burger - Cheese"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 574.8
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 80.82
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Burger - Cheese"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 428
+          },
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 428
+          }
+        ]
+      ]
+    }
+  ]
+]

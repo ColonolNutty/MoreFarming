@@ -7,7 +7,7 @@
   "tooltipKind" : "food",
   "description" : "Vanilla.",
   "shortdescription" : "Vanilla Bean",
-  "foodValue" : 2.0,
+  "foodValue" : 10.0,
   "effects" : [ [ 
       {
         "effect" : "regeneration2",

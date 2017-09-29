@@ -3,18 +3,15 @@
   "rarity" : "Common",
   "price" : 44.1,
   "category" : "preparedFood",
-  "inventoryIcon" : "boiledlimeMFM.png",
+  "tooltipKind" : "food",
   "description" : "A lime boiled in water.",
   "shortdescription" : "Boiled Lime",
-  "foodValue": 4.41,
-  "tooltipKind" : "food",
+  "foodValue" : 11.03,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledlimeMFM.png",
   "emote" : "Happy"
 }

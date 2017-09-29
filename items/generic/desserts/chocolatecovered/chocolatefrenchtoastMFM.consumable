@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "FRENCH TOAST!",
   "shortdescription" : "Chocolate French Toast",
-  "foodValue" : 15.84,
+  "foodValue" : 29.31,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "chocolatefrenchtoastMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "chocolatefrenchtoastMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

@@ -1,24 +1,21 @@
 {
   "itemName" : "roastedgarpberrysMFM",
   "rarity" : "Common",
-  "price" : 164,
+  "price" : 164.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "roastedgarpberrysMFM.png",
+  "tooltipKind" : "food",
   "description" : "Crunchy roasted garpberries. Mmm.",
   "shortdescription" : "Roasted Garpberries",
-  "effects" : [ [
-    {
+  "foodValue" : 20.5,
+  "effects" : [ [ 
+      {
         "effect" : "maxenergyscalingboostfood",
         "duration" : 20
-    }
-  ] ],
-  "foodValue" : 5.13,
-  "tooltipKind" : "food",
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "roastedgarpberrysMFM.png"
 }

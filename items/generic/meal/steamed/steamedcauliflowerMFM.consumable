@@ -3,17 +3,15 @@
   "rarity" : "Common",
   "price" : 102.5,
   "category" : "preparedFood",
-  "inventoryIcon" : "steamedcauliflowerMFM.png",
+  "tooltipKind" : "food",
   "description" : "Cauliflower steamed in water.",
   "shortdescription" : "Steamed Cauliflower",
-  "foodValue" : 7.69,
-  "tooltipKind" : "food",
+  "foodValue" : 20.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "steamedcauliflowerMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

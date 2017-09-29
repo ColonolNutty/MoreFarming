@@ -1,25 +1,22 @@
 {
   "itemName" : "peanutPBJ",
   "rarity" : "Common",
-  "price" : 30,
+  "price" : 30.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon": "peanutPBJ.png",
+  "tooltipKind" : "food",
   "description" : "Peanuts in space!",
   "shortdescription" : "Peanut",
-  "effects" : [ [
-    {
-      "effect" : "camouflage25",
-      "duration" : 30
-    }
-  ] ],
-  "foodValue" : 2,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
+        "effect" : "camouflage25",
+        "duration" : 30
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-	"wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "peanutPBJ.png"
 }

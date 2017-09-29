@@ -6,11 +6,11 @@
   "tooltipKind" : "food",
   "description" : "A pie shell filled with chopped boneboos. Ready for baking.",
   "shortdescription" : "Pie Unfinished - Spooky",
-  "foodValue" : 75.59,
+  "foodValue" : 109.24,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "unfinishedpiespookyMFM.png"
 }

@@ -1,25 +1,22 @@
 {
   "itemName" : "parsnipMFM",
   "rarity" : "Common",
-  "price" : 40,
+  "price" : 40.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "parsnipMFM.png",
+  "tooltipKind" : "food",
   "description" : "Sub-parsnip at best.",
   "shortdescription" : "Parsnip",
-  "effects" : [ [
-    {
-      "effect" : "glow",
-      "duration" : 30
-    }
-  ] ],
-  "foodValue" : 3.75,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
+        "effect" : "glow",
+        "duration" : 30
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "parsnipMFM.png"
 }

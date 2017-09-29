@@ -1,33 +1,32 @@
 {
   "itemName" : "jalapenopepperMFM",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 50.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "jalapenopepperMFM.png",
+  "tooltipKind" : "food",
   "description" : "Hot.",
   "shortdescription" : "Jalapeno Pepper",
-  "effects" : [ [
-    {
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
         "effect" : "rage",
         "duration" : 30
-    },
-    {
+      },
+
+      {
         "effect" : "burning",
         "duration" : 30
-    },
-    {
+      },
+
+      {
         "effect" : "iceblock",
         "duration" : 60
-    }
-  ] ],
-  "foodValue" : 3,
-  "tooltipKind" : "food",
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "jalapenopepperMFM.png"
 }

@@ -1,20 +1,17 @@
 {
- "shortdescription": "Sandwich - Peanut Butter",
- "tooltipKind": "food",
- "description": "A sandwich made with peanut butter.",
- "itemAgingScripts": ["/scripts/items/rotting.lua"],
- "maxStack": 1000,
- "handPosition": [
-  0,
-  -2
- ],
- "itemName": "peanutbuttersandwichPBJ",
- "price": 178.06,
- "builder": "/items/buildscripts/buildfood.lua",
- "rottingMultiplier": 1,
- "inventoryIcon": "peanutbuttersandwichPBJ.png",
- "foodValue": 11.55,
- "category": "preparedFood",
- "rarity": "Uncommon",
- "blockingEffects": ["wellfed"]
+  "itemName" : "peanutbuttersandwichPBJ",
+  "rarity" : "Uncommon",
+  "price" : 178.06,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "A sandwich made with peanut butter.",
+  "shortdescription" : "Sandwich - Peanut Butter",
+  "foodValue" : 57.78,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "peanutbuttersandwichPBJ.png",
+  "handPosition" : [ 0, -2 ]
 }

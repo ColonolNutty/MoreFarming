@@ -1,19 +1,17 @@
 {
   "itemName" : "choppedcucumberMFM",
   "rarity" : "Common",
-  "price" : 42,
+  "price" : 42.0,
   "category" : "cookingIngredient",
-  "inventoryIcon" : "choppedcucumberMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed and chopped cucumber.",
   "shortdescription" : "Chopped Cucumber",
-  "foodValue" : 5.25,
-  "tooltipKind" : "food",
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedcucumberMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

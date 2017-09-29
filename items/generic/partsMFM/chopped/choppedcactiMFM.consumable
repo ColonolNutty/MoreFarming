@@ -3,16 +3,14 @@
   "rarity" : "Common",
   "price" : 15.75,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedcactiMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed, de-thorned, and chopped cacti.",
   "shortdescription" : "Chopped Cacti",
-  "foodValue" : 2.1,
-  "tooltipKind" : "food",
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedcactiMFM.png"
 }

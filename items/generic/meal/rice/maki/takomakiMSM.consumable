@@ -2,29 +2,26 @@
   "itemName" : "takomakiMSM",
   "rarity" : "Uncommon",
   "price" : 315.79,
-	"category" : "preparedFood",
-  "inventoryIcon" : "takomakiMSM.png",
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
   "description" : "Cooked octopus and cucumber packed in a rice ball.",
   "shortdescription" : "Maki - Tako",
-  "effects" : [ [
-    {
+  "foodValue" : 75.6,
+  "effects" : [ [ 
+      {
         "effect" : "runboostfood",
         "duration" : 30
-    },
-    {
+      },
+
+      {
         "effect" : "maxenergyscalingboostfood",
         "duration" : 105
-    }
-  ] ],
-	"foodValue" : 25.04,
-	"tooltipKind" : "food",
-	"builder" : "/items/buildscripts/buildfood.lua",
-	"maxStack" : 1000,
-	"itemAgingScripts" : ["/scripts/items/rotting.lua"],
-	"rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+      } ] ],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "takomakiMSM.png",
+  "handPosition" : [ 0, -4 ]
 }
-

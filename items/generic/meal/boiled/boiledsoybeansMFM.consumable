@@ -6,17 +6,17 @@
   "tooltipKind" : "food",
   "description" : "Soybeans boiled in salt and water.",
   "shortdescription" : "Boiled Soybeans",
-  "foodValue" : 3.16,
-  "effects" : [[
+  "foodValue" : 11.03,
+  "effects" : [ [ 
       {
-        "duration" : 20,
-        "effect" : "maxenergyscalingboostfood"
-      }]],
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 20
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
-  "inventoryIcon" : "boiledsoybeansMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledsoybeansMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

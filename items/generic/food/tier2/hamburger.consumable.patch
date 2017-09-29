@@ -1,13 +1,51 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 491.2
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 38.32
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Burger - Plain"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 491.2
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 67.42
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Burger - Plain"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 360
+          },
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 360
+          }
+        ]
+      ]
+    }
+  ]
+]

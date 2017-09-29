@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "A breakfast sandwich with bacon and eggs.",
   "shortdescription" : "Sandwich - Bacon and Egg",
-  "foodValue" : 30.15,
+  "foodValue" : 49.77,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "eggandbaconsandwichMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "eggandbaconsandwichMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

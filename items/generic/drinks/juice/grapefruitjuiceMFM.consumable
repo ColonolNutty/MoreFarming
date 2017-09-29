@@ -3,24 +3,21 @@
   "rarity" : "Common",
   "price" : 44.1,
   "category" : "drink",
-  "inventoryIcon" : "grapefruitjuiceMFM.png",
+  "tooltipKind" : "food",
   "description" : "tart grapefruit juice.",
   "shortdescription" : "Juice - Grapefruit",
-  "effects" : [ [
-    {
+  "foodValue" : 11.03,
+  "effects" : [ [ 
+      {
         "effect" : "maxenergyscalingboostfood",
         "duration" : 120
-    }
-  ] ],
-  "foodValue" : 8.82,
-  "tooltipKind" : "food",
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "grapefruitjuiceMFM.png",
   "emitters" : [ "drinking" ],
-  "handPosition" : [0, -4]
+  "handPosition" : [ 0, -4 ]
 }

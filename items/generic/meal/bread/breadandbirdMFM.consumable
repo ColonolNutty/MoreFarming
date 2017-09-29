@@ -1,17 +1,20 @@
 {
- "shortdescription": "Bread and Bird",
- "tooltipKind": "food",
- "description": "Bread with a strip of roasted poultry. Mountainman cuisine keeps you going!",
- "itemAgingScripts": ["/scripts/items/rotting.lua"],
- "maxStack": 1000,
- "itemName": "breadandbirdMFM",
- "effects": [[{"effect": "regeneration1"}]],
- "price": 21.3,
- "builder": "/items/buildscripts/buildfood.lua",
- "rottingMultiplier": 1,
- "inventoryIcon": "breadandbirdMFM.png",
- "foodValue": 6.27,
- "category": "food",
- "rarity": "Common",
- "blockingEffects": ["wellfed"]
+  "itemName" : "breadandbirdMFM",
+  "rarity" : "Common",
+  "price" : 21.3,
+  "category" : "food",
+  "tooltipKind" : "food",
+  "description" : "Bread with a strip of roasted poultry. Mountainman cuisine keeps you going!",
+  "shortdescription" : "Bread and Bird",
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
+        "effect" : "regeneration1"
+      } ] ],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "breadandbirdMFM.png"
 }

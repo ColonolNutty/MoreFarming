@@ -3,18 +3,15 @@
   "rarity" : "Common",
   "price" : 66.15,
   "category" : "preparedFood",
-  "inventoryIcon" : "boiledbellpepperredMFM.png",
+  "tooltipKind" : "food",
   "description" : "A red bell pepper boiled in water.",
   "shortdescription" : "Boiled Bell Pepper - Red",
-  "foodValue": 8.82,
-  "tooltipKind" : "food",
+  "foodValue" : 11.03,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledbellpepperredMFM.png",
   "emote" : "Happy"
 }

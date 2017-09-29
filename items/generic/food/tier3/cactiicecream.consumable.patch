@@ -1,13 +1,51 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 162.57
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 11.8
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Ice Cream - Cacti"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 162.57
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 24.35
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Ice Cream - Cacti"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "thorns",
+            "duration" : 180
+          },
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 180
+          }
+        ]
+      ]
+    }
+  ]
+]

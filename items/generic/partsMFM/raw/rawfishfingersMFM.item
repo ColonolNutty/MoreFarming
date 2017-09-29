@@ -1,10 +1,10 @@
 {
- "shortdescription": "Raw Fish Fingers",
- "itemName": "rawfishfingersMFM",
- "price": 12.37,
- "description": "Strips of raw fish coated in breadcrumbs.",
- "inventoryIcon": "rawfishfingersMFM.png",
- "category": "cookingIngredient",
- "maxStack": 1000,
- "rarity": "Common"
+  "itemName" : "rawfishfingersMFM",
+  "rarity" : "Common",
+  "price" : 12.37,
+  "category" : "cookingIngredient",
+  "description" : "Strips of raw fish coated in breadcrumbs.",
+  "shortdescription" : "Raw Fish Fingers",
+  "maxStack" : 1000,
+  "inventoryIcon" : "rawfishfingersMFM.png"
 }

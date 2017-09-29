@@ -1,18 +1,16 @@
 {
   "itemName" : "choppedfinkelMFM",
   "rarity" : "Common",
-  "price" : 84,
+  "price" : 84.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedfinkelMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed and chopped finkel.",
   "shortdescription" : "Chopped Finkel",
-  "foodValue" : 2.63,
-  "tooltipKind" : "food",
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedfinkelMFM.png"
 }

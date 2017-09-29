@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "A sweet treat made from a bitter fruit.",
   "shortdescription" : "Poptart - Toxictop",
-  "foodValue" : 56.82,
+  "foodValue" : 64.79,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "toxictoptartMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "toxictoptartMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

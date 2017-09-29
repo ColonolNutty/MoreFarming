@@ -6,17 +6,17 @@
   "tooltipKind" : "food",
   "description" : "A delicious drink, even when it's not Christmas!",
   "shortdescription" : "Eggnog",
-  "foodValue" : 33.48,
-  "effects" : [[
+  "foodValue" : 57.08,
+  "effects" : [ [ 
       {
-        "duration" : 20,
-        "effect" : "regeneration1"
-      }]],
+        "effect" : "regeneration1",
+        "duration" : 20
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "eggnogMFM.png",
-  "emitters" : ["drinking"]
+  "emitters" : [ "drinking" ]
 }

@@ -3,17 +3,15 @@
   "rarity" : "Common",
   "price" : 154.35,
   "category" : "preparedFood",
-  "inventoryIcon" : "boiledwartweedMFM.png",
+  "tooltipKind" : "food",
   "description" : "A wartweed boiled in water.",
   "shortdescription" : "Boiled Wartweed",
-  "foodValue": 5.51,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledwartweedMFM.png",
   "emote" : "Happy"
 }

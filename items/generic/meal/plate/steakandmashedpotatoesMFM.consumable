@@ -6,22 +6,22 @@
   "tooltipKind" : "food",
   "description" : "A plate of steak and mashed potatoes",
   "shortdescription" : "Steak and Potatoes",
-  "foodValue" : 27.58,
-  "effects" : [[
+  "foodValue" : 39.25,
+  "effects" : [ [ 
       {
-        "duration" : 20,
-        "effect" : "regeneration1"
+        "effect" : "regeneration1",
+        "duration" : 20
       },
 
       {
-        "duration" : 25,
-        "effect" : "maxenergyscalingboostfood"
-      }]],
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 25
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
-  "inventoryIcon" : "steakandmashedpotatoesMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "steakandmashedpotatoesMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

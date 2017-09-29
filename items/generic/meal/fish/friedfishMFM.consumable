@@ -6,11 +6,11 @@
   "tooltipKind" : "food",
   "description" : "Crispy golden fried fish fillet. Yum!",
   "shortdescription" : "Fried Fish",
-  "foodValue" : 12.37,
+  "foodValue" : 16.52,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "friedfishMFM.png"
 }

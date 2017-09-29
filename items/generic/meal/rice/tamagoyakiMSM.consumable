@@ -6,11 +6,11 @@
   "tooltipKind" : "food",
   "description" : "A type of Japanese omelette.",
   "shortdescription" : "Tamagoyaki",
-  "foodValue" : 57.52,
+  "foodValue" : 110.82,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "tamagoyakiMSM.png"
 }

@@ -3,24 +3,21 @@
   "rarity" : "Common",
   "price" : 22.05,
   "category" : "drink",
-  "inventoryIcon" : "greenapplejuiceMFM.png",
+  "tooltipKind" : "food",
   "description" : "Sour apple juice from a green apple.",
   "shortdescription" : "Juice - Green Apple",
-  "effects" : [ [
-    {
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
         "effect" : "maxenergyscalingboostfood",
         "duration" : 120
-    }
-  ] ],
-  "foodValue" : 5.51,
-  "tooltipKind" : "food",
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "greenapplejuiceMFM.png",
   "emitters" : [ "drinking" ],
-  "handPosition" : [0, -4]
+  "handPosition" : [ 0, -4 ]
 }

@@ -6,11 +6,11 @@
   "tooltipKind" : "food",
   "description" : "A mixture for making fondant, but it isn't quite ready yet.",
   "shortdescription" : "Mix - Fondant",
-  "foodValue" : 4.74,
+  "foodValue" : 11.3,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "mixfondantMFM.png"
 }

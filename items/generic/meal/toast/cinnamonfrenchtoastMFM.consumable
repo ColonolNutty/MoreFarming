@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "FRENCH TOAST!",
   "shortdescription" : "French Toast - Cinnamon",
-  "foodValue" : 15.38,
+  "foodValue" : 26.99,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "cinnamonfrenchtoastMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cinnamonfrenchtoastMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

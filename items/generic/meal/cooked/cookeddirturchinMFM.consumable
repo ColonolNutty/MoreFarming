@@ -1,18 +1,16 @@
 {
   "itemName" : "cookeddirturchinMFM",
   "rarity" : "Common",
-  "price" : 105,
+  "price" : 105.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "cookeddirturchinMFM.png",
+  "tooltipKind" : "food",
   "description" : "If it can be baked, it WILL be baked.",
   "shortdescription" : "Baked Dirturchin",
-  "foodValue" : 5.25,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cookeddirturchinMFM.png"
 }

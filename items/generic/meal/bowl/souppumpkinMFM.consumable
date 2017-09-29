@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "A soup made with pumpkins.",
   "shortdescription" : "Soup - Pumpkin",
-  "foodValue" : 18.14,
+  "foodValue" : 51.41,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
-  "inventoryIcon" : "souppumpkinMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "souppumpkinMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

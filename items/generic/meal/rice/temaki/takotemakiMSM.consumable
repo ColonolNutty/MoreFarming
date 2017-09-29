@@ -2,28 +2,26 @@
   "itemName" : "takotemakiMSM",
   "rarity" : "Uncommon",
   "price" : 381.81,
-	"category" : "drink",
-  "inventoryIcon" : "takotemakiMSM.png",
+  "category" : "drink",
+  "tooltipKind" : "food",
   "description" : "Cooked octopus and cucumber, wrapped in rice and kelp.",
   "shortdescription" : "Temaki - Tako",
-  "effects" : [ [
-    {
+  "foodValue" : 109.86,
+  "effects" : [ [ 
+      {
         "effect" : "jumpboostfood",
         "duration" : 30
-    },
-    {
+      },
+
+      {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 120
-    }
-  ] ],
-	"foodValue" : 41.35,
-	"tooltipKind" : "food",
-	"builder" : "/items/buildscripts/buildfood.lua",
-	"maxStack" : 1000,
-	"itemAgingScripts" : ["/scripts/items/rotting.lua"],
-	"rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+      } ] ],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "takotemakiMSM.png",
   "emitters" : [ "drinking" ]
 }

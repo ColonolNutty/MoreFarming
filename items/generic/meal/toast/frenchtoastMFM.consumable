@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "FRENCH TOAST!",
   "shortdescription" : "French Toast - Plain",
-  "foodValue" : 14.65,
+  "foodValue" : 25.7,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "frenchtoastMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "frenchtoastMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

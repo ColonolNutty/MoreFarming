@@ -3,16 +3,14 @@
   "rarity" : "Common",
   "price" : 5.25,
   "category" : "preparedFood",
-  "inventoryIcon" : "cookedkelpMFM.png",
+  "tooltipKind" : "food",
   "description" : "Many nutrients packed tightly in a questionable package!",
   "shortdescription" : "Baked Kelp",
-  "foodValue" : 2.1,
-  "tooltipKind" : "food",
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cookedkelpMFM.png"
 }

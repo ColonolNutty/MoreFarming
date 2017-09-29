@@ -1,20 +1,17 @@
 {
- "shortdescription": "Stuffed Bell Pepper Yellow",
- "tooltipKind": "food",
- "description": "A yellow bell pepper stuffed with rice, covered in tomato sauce.",
- "itemAgingScripts": ["/scripts/items/rotting.lua"],
- "maxStack": 1000,
- "handPosition": [
-  0,
-  -4
- ],
- "itemName": "stuffedbellpepperyellowMFM",
- "price": 418.5,
- "builder": "/items/buildscripts/buildfood.lua",
- "rottingMultiplier": 1,
- "inventoryIcon": "stuffedbellpepperyellowMFM.png",
- "foodValue": 19.52,
- "category": "preparedFood",
- "rarity": "Common",
- "blockingEffects": ["wellfed"]
+  "itemName" : "stuffedbellpepperyellowMFM",
+  "rarity" : "Common",
+  "price" : 418.5,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "A yellow bell pepper stuffed with rice, covered in tomato sauce.",
+  "shortdescription" : "Stuffed Bell Pepper Yellow",
+  "foodValue" : 56.13,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "stuffedbellpepperyellowMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

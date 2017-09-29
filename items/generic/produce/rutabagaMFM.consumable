@@ -1,25 +1,22 @@
 {
   "itemName" : "rutabagaMFM",
   "rarity" : "Common",
-  "price" : 30,
+  "price" : 30.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "rutabagaMFM.png",
+  "tooltipKind" : "food",
   "description" : "Weird.",
   "shortdescription" : "Rutabaga",
-  "effects" : [ [
-    {
-      "effect" : "maxhealthscalingboostfood",
-      "duration" : 40
-    }
-  ] ],
-  "foodValue" : 5,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 40
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "rutabagaMFM.png"
 }

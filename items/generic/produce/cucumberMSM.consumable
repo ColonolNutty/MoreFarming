@@ -1,25 +1,22 @@
 {
   "itemName" : "cucumberMSM",
   "rarity" : "Common",
-  "price" : 40,
+  "price" : 40.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "cucumberMSM.png",
+  "tooltipKind" : "food",
   "description" : "A kappa's favorite.",
   "shortdescription" : "Cucumber",
-  "effects" : [ [
-    {
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
         "effect" : "maxenergyscalingboostfood",
         "duration" : 45
-    }
-  ] ],
-  "foodValue" : 5,
-  "tooltipKind" : "food",
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cucumberMSM.png"
 }

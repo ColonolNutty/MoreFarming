@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "Shredded potatoes fried in butter.",
   "shortdescription" : "Hash Browns",
-  "foodValue" : 11.83,
+  "foodValue" : 13.84,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "hashbrownspotatoMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "hashbrownspotatoMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

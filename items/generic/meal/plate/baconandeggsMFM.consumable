@@ -6,17 +6,17 @@
   "tooltipKind" : "food",
   "description" : "Nothing beats a breakfast of bacon and eggs.",
   "shortdescription" : "Bacon and Eggs",
-  "foodValue" : 26.19,
-  "effects" : [[
+  "foodValue" : 35.74,
+  "effects" : [ [ 
       {
-        "duration" : 25,
-        "effect" : "maxenergyscalingboostfood"
-      }]],
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 25
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
-  "inventoryIcon" : "baconandeggsMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "baconandeggsMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

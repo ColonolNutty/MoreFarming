@@ -1,33 +1,32 @@
 {
   "itemName" : "dragonfruitMFM",
   "rarity" : "Common",
-  "price" : 30,
+  "price" : 30.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "dragonfruitMFM.png",
+  "tooltipKind" : "food",
   "description" : "Also known as a pitaya.",
   "shortdescription" : "Dragonfruit",
-  "effects" : [ [
-    {
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 45
-    },
-    {
+      },
+
+      {
         "effect" : "maxenergyscalingboostfood",
         "duration" : 45
-    },
-    {
+      },
+
+      {
         "effect" : "nova",
         "duration" : 45
-    }
-  ] ],
-  "foodValue" : 8,
-  "tooltipKind" : "food",
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "dragonfruitMFM.png"
 }

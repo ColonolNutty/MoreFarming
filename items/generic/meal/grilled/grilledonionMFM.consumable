@@ -3,17 +3,15 @@
   "rarity" : "Common",
   "price" : 36.75,
   "category" : "preparedFood",
-  "inventoryIcon" : "grilledonionMFM.png",
+  "tooltipKind" : "food",
   "description" : "A grilled onion.",
   "shortdescription" : "Grilled Onion",
-  "foodValue" : 3.94,
-  "tooltipKind" : "food",
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "grilledonionMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

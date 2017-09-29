@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 341.14
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 15.67
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Risotto - Pearlpea"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 341.14
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 56.96
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Risotto - Pearlpea"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 225
+          }
+        ]
+      ]
+    }
+  ]
+]

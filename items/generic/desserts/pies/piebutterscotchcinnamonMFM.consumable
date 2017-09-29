@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "Butterscotch pie with a hint of cinnamon, tastes better with the whipped cream.",
   "shortdescription" : "Pie - Butterscotch",
-  "foodValue" : 47.89,
+  "foodValue" : 85.73,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "piebutterscotchcinnamonMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "piebutterscotchcinnamonMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

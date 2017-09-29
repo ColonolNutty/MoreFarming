@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 338.66
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 26.2
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Salad - Garden"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 338.66
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 46.32
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Salad - Garden"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 315
+          }
+        ]
+      ]
+    }
+  ]
+]

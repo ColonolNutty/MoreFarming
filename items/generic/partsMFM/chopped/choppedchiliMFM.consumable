@@ -3,16 +3,14 @@
   "rarity" : "Common",
   "price" : 220.5,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedchiliMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed and chopped chili pepper.",
   "shortdescription" : "Chopped Chili Pepper",
-  "foodValue" : 3.94,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedchiliMFM.png"
 }

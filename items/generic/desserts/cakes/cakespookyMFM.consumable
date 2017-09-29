@@ -6,16 +6,16 @@
   "tooltipKind" : "food",
   "description" : "A spooky looking cake.",
   "shortdescription" : "Cake - Spooky",
-  "foodValue" : 85.47,
-  "effects" : [[
+  "foodValue" : 106.08,
+  "effects" : [ [ 
       {
-        "duration" : 405,
-        "effect" : "maxenergyscalingboostfood"
-      }]],
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 405
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "cakespookyMFM.png"
 }

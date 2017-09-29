@@ -1,18 +1,16 @@
 {
   "itemName" : "cookedboltbulbMFM",
   "rarity" : "Common",
-  "price" : 126,
+  "price" : 126.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "cookedboltbulbMFM.png",
+  "tooltipKind" : "food",
   "description" : "Now it tastes like it's covered in rust.",
   "shortdescription" : "Baked Boltbulb",
-  "foodValue" : 5.25,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cookedboltbulbMFM.png"
 }

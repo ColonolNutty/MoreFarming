@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "SFC, Space Fried Chicken; Chicken deep-fried in oil",
   "shortdescription" : "Fried Chicken",
-  "foodValue" : 6.07,
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "friedchickenMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "friedchickenMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

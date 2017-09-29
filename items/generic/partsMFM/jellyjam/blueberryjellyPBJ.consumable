@@ -3,17 +3,15 @@
   "rarity" : "Uncommon",
   "price" : 252.5,
   "category" : "preparedFood",
-  "inventoryIcon" : "blueberryjellyPBJ.png",
+  "tooltipKind" : "food",
   "description" : "Jelly made from blueberries.",
   "shortdescription" : "Jelly - Blueberry",
-  "foodValue" : 18.94,
-  "tooltipKind" : "food",
+  "foodValue" : 50.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -2]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "blueberryjellyPBJ.png",
+  "handPosition" : [ 0, -2 ]
 }

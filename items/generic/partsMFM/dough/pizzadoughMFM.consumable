@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "A base for making pizza.",
   "shortdescription" : "Dough - Pizza",
-  "foodValue" : 2.14,
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
-  "inventoryIcon" : "pizzadoughMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "pizzadoughMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

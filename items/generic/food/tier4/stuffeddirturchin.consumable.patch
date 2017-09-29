@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 245.75
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 12.52
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Stuffed Dirturchin"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 245.75
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 22.85
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Stuffed Dirturchin"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 405
+          }
+        ]
+      ]
+    }
+  ]
+]

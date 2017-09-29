@@ -1,18 +1,16 @@
 {
   "itemName" : "choppedgingerMFM",
   "rarity" : "Common",
-  "price" : 21,
+  "price" : 21.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedgingerMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed and chopped ginger.",
   "shortdescription" : "Chopped Ginger",
-  "foodValue" : 2.63,
-  "tooltipKind" : "food",
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedgingerMFM.png"
 }

@@ -1,13 +1,55 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 264.6
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 22.05
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Juice - Toxictop"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 264.6
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 22.05
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Juice - Toxictop"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "lowgrav",
+            "duration" : 180
+          },
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 180
+          },
+          {
+            "effect" : "weakpoison",
+            "duration" : 5
+          }
+        ]
+      ]
+    }
+  ]
+]

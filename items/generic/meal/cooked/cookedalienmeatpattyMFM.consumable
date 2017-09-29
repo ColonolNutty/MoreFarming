@@ -6,11 +6,11 @@
   "tooltipKind" : "food",
   "description" : "A cooked patty made of alien meat. Perfect for burgers!",
   "shortdescription" : "Cooked Patty - Alien Meat",
-  "foodValue" : 6.64,
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "cookedalienmeatpattyMFM.png"
 }

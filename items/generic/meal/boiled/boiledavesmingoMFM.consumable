@@ -3,17 +3,15 @@
   "rarity" : "Common",
   "price" : 165.38,
   "category" : "preparedFood",
-  "inventoryIcon" : "boiledavesmingoMFM.png",
+  "tooltipKind" : "food",
   "description" : "Avesmingo boiled in water.",
   "shortdescription" : "Boiled Avesmingo",
-  "foodValue" : 4.14,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledavesmingoMFM.png",
   "emote" : "Happy"
 }

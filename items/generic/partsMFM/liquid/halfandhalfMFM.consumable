@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "A mixture of milk and the creamiest of creams",
   "shortdescription" : "Half-and-half",
-  "foodValue" : 2.0,
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -1,19 +1,17 @@
 {
   "itemName" : "raweelMFM",
   "rarity" : "Common",
-  "price" : 25,
+  "price" : 25.0,
   "category" : "food",
   "eventCategory" : "cookingIngredient",
-  "inventoryIcon" : "raweelMFM.png",
+  "tooltipKind" : "food",
   "description" : "The filet of an eel...slimy.",
   "shortdescription" : "Raw Eel",
-  "foodValue" : 6,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 0.5,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "raweelMFM.png"
 }

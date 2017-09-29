@@ -3,18 +3,16 @@
   "rarity" : "Common",
   "price" : 31.5,
   "category" : "preparedFood",
-  "inventoryIcon" : "dragonfruitjuiceMFM.png",
+  "tooltipKind" : "food",
   "description" : "Slightly sweet Dragonfruit juice.",
   "shortdescription" : "Juice - Dragonfruit",
-  "foodValue" : 8.4,
-  "tooltipKind" : "food",
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "dragonfruitjuiceMFM.png",
   "emitters" : [ "drinking" ],
-  "handPosition" : [0, -4]
+  "handPosition" : [ 0, -4 ]
 }

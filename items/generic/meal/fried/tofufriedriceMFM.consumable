@@ -6,22 +6,22 @@
   "tooltipKind" : "food",
   "description" : "Tofu fried rice, a twist on a Hylotl staple.",
   "shortdescription" : "Tofu Fried Rice",
-  "foodValue" : 16.55,
-  "effects" : [[
+  "foodValue" : 34.05,
+  "effects" : [ [ 
       {
-        "duration" : 40,
-        "effect" : "maxhealthscalingboostfood"
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 40
       },
 
       {
-        "duration" : 30,
-        "effect" : "maxenergyscalingboostfood"
-      }]],
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
-  "inventoryIcon" : "tofufriedriceMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "tofufriedriceMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

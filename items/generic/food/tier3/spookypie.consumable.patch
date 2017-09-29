@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 753.63
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 79.37
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Pie - Spooky"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 753.63
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 114.7
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Pie - Spooky"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "ragefood",
+            "duration" : 270
+          }
+        ]
+      ]
+    }
+  ]
+]

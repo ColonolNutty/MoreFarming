@@ -6,17 +6,17 @@
   "tooltipKind" : "food",
   "description" : "Meaty rice.",
   "shortdescription" : "Pho",
-  "foodValue" : 24.3,
-  "effects" : [[
+  "foodValue" : 55.53,
+  "effects" : [ [ 
       {
-        "duration" : 20,
-        "effect" : "regeneration3"
-      }]],
+        "effect" : "regeneration3",
+        "duration" : 20
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
-  "inventoryIcon" : "phoMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "phoMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

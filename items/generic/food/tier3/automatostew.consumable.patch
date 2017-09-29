@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 597.83
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 32.34
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Stew - Automato"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 597.83
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 50.59
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Stew - Automato"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 270
+          }
+        ]
+      ]
+    }
+  ]
+]

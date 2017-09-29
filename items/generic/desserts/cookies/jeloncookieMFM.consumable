@@ -6,22 +6,22 @@
   "tooltipKind" : "food",
   "description" : "A cookie made using jelon.",
   "shortdescription" : "Cookie - Jelon",
-  "foodValue" : 8.61,
-  "effects" : [[
+  "foodValue" : 10.27,
+  "effects" : [ [ 
       {
-        "duration" : 30,
-        "effect" : "runboostfood"
+        "effect" : "runboostfood",
+        "duration" : 30
       },
 
       {
-        "duration" : 60,
-        "effect" : "energyregen"
-      }]],
+        "effect" : "energyregen",
+        "duration" : 60
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -2],
-  "inventoryIcon" : "jeloncookieMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "jeloncookieMFM.png",
+  "handPosition" : [ 0, -2 ]
 }

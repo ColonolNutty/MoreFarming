@@ -2,29 +2,26 @@
   "itemName" : "ikamakiMSM",
   "rarity" : "Uncommon",
   "price" : 320.51,
-	"category" : "preparedFood",
-  "inventoryIcon" : "ikamakiMSM.png",
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
   "description" : "Raw squid and cucumber packed in a rice ball.",
   "shortdescription" : "Maki - Ika",
-  "effects" : [ [
-    {
+  "foodValue" : 75.08,
+  "effects" : [ [ 
+      {
         "effect" : "runboostfood",
         "duration" : 30
-    },
-    {
+      },
+
+      {
         "effect" : "maxenergyscalingboostfood",
         "duration" : 105
-    }
-  ] ],
-	"foodValue" : 24.62,
-	"tooltipKind" : "food",
-	"builder" : "/items/buildscripts/buildfood.lua",
-	"maxStack" : 1000,
-	"itemAgingScripts" : ["/scripts/items/rotting.lua"],
-	"rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+      } ] ],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "ikamakiMSM.png",
+  "handPosition" : [ 0, -4 ]
 }
-

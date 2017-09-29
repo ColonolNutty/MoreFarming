@@ -1,18 +1,16 @@
 {
   "itemName" : "choppedautomatoMFM",
   "rarity" : "Common",
-  "price" : 84,
+  "price" : 84.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedautomatoMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed and chopped automato.",
   "shortdescription" : "Chopped Automato",
-  "foodValue" : 2.63,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedautomatoMFM.png"
 }

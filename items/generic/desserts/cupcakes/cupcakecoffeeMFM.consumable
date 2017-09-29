@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "A cupcake with coffee icing.",
   "shortdescription" : "Cupcake - Coffee",
-  "foodValue" : 44.21,
+  "foodValue" : 68.36,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "cupcakecoffeeMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cupcakecoffeeMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

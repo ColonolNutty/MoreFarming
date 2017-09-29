@@ -1,18 +1,16 @@
 {
   "itemName" : "choppedbonebooMFM",
   "rarity" : "Common",
-  "price" : 168,
+  "price" : 168.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedbonebooMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed, peeled, and chopped boneboo.",
   "shortdescription" : "Chopped Boneboo",
-  "foodValue" : 5.25,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedbonebooMFM.png"
 }

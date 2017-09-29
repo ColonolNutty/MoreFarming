@@ -1,25 +1,22 @@
 {
   "itemName" : "gingerMSM",
   "rarity" : "Common",
-  "price" : 20,
+  "price" : 20.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "gingerMSM.png",
+  "tooltipKind" : "food",
   "description" : "May contain a soul.",
   "shortdescription" : "Ginger",
-  "effects" : [ [
-    {
-      "effect" : "poisonblock",
-      "duration" : 30
-    }
-  ] ],
-  "foodValue" : 2.5,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
+        "effect" : "poisonblock",
+        "duration" : 30
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "gingerMSM.png"
 }

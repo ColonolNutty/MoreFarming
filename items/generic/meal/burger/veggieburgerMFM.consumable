@@ -6,26 +6,26 @@
   "tooltipKind" : "food",
   "description" : "A vegetarian version of a juicy hamburger.",
   "shortdescription" : "Burger - Veggie",
-  "foodValue" : 4.89,
-  "effects" : [[
+  "foodValue" : 17.81,
+  "effects" : [ [ 
       {
-        "duration" : 20,
-        "effect" : "regeneration1"
+        "effect" : "regeneration1",
+        "duration" : 20
       },
 
       {
-        "duration" : 20,
-        "effect" : "jumpboostfood"
+        "effect" : "jumpboostfood",
+        "duration" : 20
       },
 
       {
-        "duration" : 15,
-        "effect" : "maxenergyscalingboostfood"
-      }]],
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 15
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "veggieburgerMFM.png"
 }

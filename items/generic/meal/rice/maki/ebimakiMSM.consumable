@@ -6,22 +6,22 @@
   "tooltipKind" : "food",
   "description" : "Cooked shrimp, poultry, and tamarai packed in a rice ball.",
   "shortdescription" : "Maki - Ebi",
-  "foodValue" : 39.13,
-  "effects" : [[
+  "foodValue" : 140.78,
+  "effects" : [ [ 
       {
-        "duration" : 30,
-        "effect" : "runboostfood"
+        "effect" : "runboostfood",
+        "duration" : 30
       },
 
       {
-        "duration" : 105,
-        "effect" : "maxenergyscalingboostfood"
-      }]],
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 105
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "ebimakiMSM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "ebimakiMSM.png",
+  "handPosition" : [ 0, -4 ]
 }

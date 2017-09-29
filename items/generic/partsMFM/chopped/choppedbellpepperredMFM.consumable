@@ -1,18 +1,16 @@
 {
   "itemName" : "choppedbellpepperredMFM",
   "rarity" : "Common",
-  "price" : 63,
+  "price" : 63.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedbellpepperredMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed and chopped red bell pepper.",
   "shortdescription" : "Chopped Bell Pepper Red",
-  "foodValue" : 8.4,
-  "tooltipKind" : "food",
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedbellpepperredMFM.png"
 }

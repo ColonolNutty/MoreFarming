@@ -1,13 +1,51 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 731.96
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 81.31
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Meringue - Oculemon"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 731.96
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 110.64
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Meringue - Oculemon"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 203
+          },
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 203
+          }
+        ]
+      ]
+    }
+  ]
+]

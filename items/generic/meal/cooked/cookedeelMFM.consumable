@@ -3,16 +3,14 @@
   "rarity" : "Common",
   "price" : 26.25,
   "category" : "food",
-  "inventoryIcon" : "cookedeelMFM.png",
+  "tooltipKind" : "food",
   "description" : "A tasty fillet of cooked eel.",
   "shortdescription" : "Cooked Eel",
-  "foodValue" : 6.3,
-  "tooltipKind" : "food",
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 0.5,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cookedeelMFM.png"
 }

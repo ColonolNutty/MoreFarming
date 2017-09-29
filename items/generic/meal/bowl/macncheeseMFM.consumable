@@ -6,22 +6,22 @@
   "tooltipKind" : "food",
   "description" : "Pasta with some cheese. Arguably the best pasta.",
   "shortdescription" : "Macaroni & Cheese",
-  "foodValue" : 4.53,
-  "effects" : [[
+  "foodValue" : 15.79,
+  "effects" : [ [ 
       {
-        "duration" : 20,
-        "effect" : "regeneration1"
+        "effect" : "regeneration1",
+        "duration" : 20
       },
 
       {
-        "duration" : 180,
-        "effect" : "jumpboostfood"
-      }]],
+        "effect" : "jumpboostfood",
+        "duration" : 180
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
-  "inventoryIcon" : "macncheeseMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "macncheeseMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

@@ -3,18 +3,16 @@
   "rarity" : "Common",
   "price" : 43.05,
   "category" : "drink",
-  "inventoryIcon" : "vodkabottleMFM.png",
+  "tooltipKind" : "food",
   "description" : "A bottle of vodka.",
   "shortdescription" : "Alcohol - Vodka",
-  "foodValue" : 2.69,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "vodkabottleMFM.png",
   "emitters" : [ "drinking" ],
-  "handPosition" : [0, -2]
+  "handPosition" : [ 0, -2 ]
 }

@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 246.86
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 11.2
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Stuffed Automato"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 246.86
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 21.54
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Stuffed Automato"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 450
+          }
+        ]
+      ]
+    }
+  ]
+]

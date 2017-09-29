@@ -6,27 +6,27 @@
   "tooltipKind" : "food",
   "description" : "A dinner fit for an omniscience fish administrator.",
   "shortdescription" : "Tofurkey Dinner",
-  "foodValue" : 26.08,
-  "effects" : [[
+  "foodValue" : 43.86,
+  "effects" : [ [ 
       {
-        "duration" : 20,
-        "effect" : "regeneration1"
+        "effect" : "regeneration1",
+        "duration" : 20
       },
 
       {
-        "duration" : 20,
-        "effect" : "jumpboostfood"
+        "effect" : "jumpboostfood",
+        "duration" : 20
       },
 
       {
-        "duration" : 25,
-        "effect" : "maxenergyscalingboostfood"
-      }]],
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 25
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
-  "inventoryIcon" : "tofurkeydinnerMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "tofurkeydinnerMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "A scrambled egg.",
   "shortdescription" : "Scrambled Egg",
-  "foodValue" : 14.44,
+  "foodValue" : 23.54,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "scrambledeggMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "scrambledeggMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

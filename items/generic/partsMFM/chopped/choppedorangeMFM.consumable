@@ -1,19 +1,17 @@
 {
   "itemName" : "choppedorangeMFM",
   "rarity" : "Common",
-  "price" : 21,
+  "price" : 21.0,
   "category" : "cookingIngredient",
-  "inventoryIcon" : "choppedorangeMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed, peeled, and chopped orange.",
   "shortdescription" : "Chopped Orange",
-  "foodValue" : 5.25,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedorangeMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

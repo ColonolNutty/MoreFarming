@@ -1,18 +1,16 @@
 {
-	"itemName": "riceballMSM",
-	"rarity": "Common",
-	"price": 248.25,
-	"category" : "preparedFood",
-	"inventoryIcon": "riceballMSM.png",
-	"description": "A ball of rice and kelp",
-	"shortdescription": "Riceball",
-	"foodValue" : 10.2,
-	"tooltipKind" : "food",
-	"builder" : "/items/buildscripts/buildfood.lua",
-	"maxStack" : 1000,
-	"itemAgingScripts" : ["/scripts/items/rotting.lua"],
-	"rottingMultiplier" : 1.0,
-	"blockingEffects": [
-		"wellfed"
-	]
+  "itemName" : "riceballMSM",
+  "rarity" : "Common",
+  "price" : 248.25,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "A ball of rice and kelp",
+  "shortdescription" : "Riceball",
+  "foodValue" : 51.0,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "riceballMSM.png"
 }

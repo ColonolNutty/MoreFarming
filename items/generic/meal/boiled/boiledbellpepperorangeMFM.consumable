@@ -3,18 +3,15 @@
   "rarity" : "Common",
   "price" : 60.64,
   "category" : "preparedFood",
-  "inventoryIcon" : "boiledbellpepperorangeMFM.png",
+  "tooltipKind" : "food",
   "description" : "An orange bell pepper boiled in water.",
   "shortdescription" : "Boiled Bell Pepper - Orange",
-  "foodValue": 7.72,
-  "tooltipKind" : "food",
+  "foodValue" : 11.03,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledbellpepperorangeMFM.png",
   "emote" : "Happy"
 }

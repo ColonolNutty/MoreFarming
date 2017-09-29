@@ -3,17 +3,15 @@
   "rarity" : "Common",
   "price" : 31.5,
   "category" : "cookingIngredient",
-  "inventoryIcon" : "choppeddragonfruitMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed and chopped dragonfruit.",
   "shortdescription" : "Chopped Dragonfruit",
-  "foodValue" : 8.4,
-  "tooltipKind" : "food",
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppeddragonfruitMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

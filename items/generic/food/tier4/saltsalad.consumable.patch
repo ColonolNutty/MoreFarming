@@ -1,17 +1,47 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 457.54
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 22.07
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Salad - Salt"
-  }
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 457.54
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 27.58
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Salad - Salt"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 315
+          }
+        ]
+      ]
+    }
+  ]
 ]

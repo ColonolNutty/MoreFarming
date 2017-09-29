@@ -3,17 +3,15 @@
   "rarity" : "Common",
   "price" : 76.52,
   "category" : "preparedFood",
-  "inventoryIcon" : "saladMFM.png",
+  "tooltipKind" : "food",
   "description" : "A plain salad.",
   "shortdescription" : "Salad - Plain",
-  "foodValue" : 5.81,
-  "tooltipKind" : "food",
+  "foodValue" : 13.26,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "saladMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

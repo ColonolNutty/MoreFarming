@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "The basis for all manner of cookie creations.",
   "shortdescription" : "Dough - Cookie",
-  "foodValue" : 12.3,
+  "foodValue" : 15.47,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
-  "inventoryIcon" : "cookiedoughMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cookiedoughMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

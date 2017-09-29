@@ -3,23 +3,20 @@
   "rarity" : "Common",
   "price" : 278.25,
   "category" : "preparedFood",
-  "inventoryIcon" : "bananagarpsaladMFM.png",
+  "tooltipKind" : "food",
   "description" : "Banana and garpberries make for a fruity, sweet salad.",
   "shortdescription" : "Salad - Garpanana",
-  "effects" : [ [
-    {
+  "foodValue" : 24.94,
+  "effects" : [ [ 
+      {
         "effect" : "jumpboostfood",
         "duration" : 30
-    }
-  ] ],
-  "foodValue" : 11.81,
-  "tooltipKind" : "food",
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -3]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "bananagarpsaladMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

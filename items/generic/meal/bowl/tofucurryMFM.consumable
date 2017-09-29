@@ -6,28 +6,28 @@
   "tooltipKind" : "food",
   "description" : "A spicy curry made with tofu.",
   "shortdescription" : "Curry - Tofu",
-  "foodValue" : 11.99,
-  "effects" : [[
+  "foodValue" : 37.49,
+  "effects" : [ [ 
       {
-        "duration" : 20,
-        "effect" : "regeneration1"
+        "effect" : "regeneration1",
+        "duration" : 20
       },
 
       {
-        "duration" : 20,
-        "effect" : "jumpboostfood"
+        "effect" : "jumpboostfood",
+        "duration" : 20
       },
 
       {
-        "duration" : 25,
-        "effect" : "maxenergyscalingboostfood"
-      }]],
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 25
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "tofucurryMFM.png",
-  "emitters" : ["drinking"]
+  "emitters" : [ "drinking" ],
+  "handPosition" : [ 0, -3 ]
 }

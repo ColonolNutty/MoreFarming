@@ -1,18 +1,16 @@
 {
   "itemName" : "choppedwartweedMFM",
   "rarity" : "Common",
-  "price" : 147,
+  "price" : 147.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedwartweedMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed, pruned, and chopped wartweed.",
   "shortdescription" : "Chopped Wartweed",
-  "foodValue" : 5.25,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedwartweedMFM.png"
 }

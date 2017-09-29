@@ -1,19 +1,17 @@
 {
   "itemName" : "rawsalmonMFM",
   "rarity" : "Common",
-  "price" : 40,
+  "price" : 40.0,
   "category" : "food",
   "eventCategory" : "cookingIngredient",
-  "inventoryIcon" : "rawsalmonMFM.png",
+  "tooltipKind" : "food",
   "description" : "A salmon filet...slimy.",
   "shortdescription" : "Raw Salmon",
-  "foodValue" : 8,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 0.5,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "rawsalmonMFM.png"
 }

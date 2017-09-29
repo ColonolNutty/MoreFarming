@@ -6,21 +6,21 @@
   "tooltipKind" : "food",
   "description" : "A sour soup, filled with loads of ingredients.",
   "shortdescription" : "Borscht",
-  "foodValue" : 49.95,
-  "effects" : [[
+  "foodValue" : 110.68,
+  "effects" : [ [ 
       {
         "effect" : "regeneration1"
       },
 
       {
-        "duration" : 180,
-        "effect" : "maxenergyscalingboostfood"
-      }]],
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "borschtMFM.png",
-  "emitters" : ["drinking"]
+  "emitters" : [ "drinking" ]
 }

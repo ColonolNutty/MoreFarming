@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "Milk made from soy beans",
   "shortdescription" : "Soy Milk",
-  "foodValue" : 3.32,
+  "foodValue" : 11.58,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "soymilkMFM.png",
-  "emitters" : ["drinking"]
+  "emitters" : [ "drinking" ]
 }

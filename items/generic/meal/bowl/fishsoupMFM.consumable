@@ -3,17 +3,15 @@
   "rarity" : "Common",
   "price" : 27.3,
   "category" : "preparedFood",
-  "inventoryIcon" : "fishsoupMFM.png",
+  "tooltipKind" : "food",
   "description" : "A soup containing fish.",
   "shortdescription" : "Soup - Fish",
-  "foodValue" : 13.13,
-  "tooltipKind" : "food",
+  "foodValue" : 21.53,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -3]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "fishsoupMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

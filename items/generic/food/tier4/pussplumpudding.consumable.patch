@@ -1,13 +1,55 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 1137.9
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 51.78
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Pudding - Pussplum"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 1137.9
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 109.28
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Pudding - Pussplum"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "ragefood",
+            "duration" : 165
+          },
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 165
+          },
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 165
+          }
+        ]
+      ]
+    }
+  ]
+]

@@ -1,12 +1,42 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 162.75
-  },
-  {
-    "op" : "replace",
-    "path" : "/foodValue",
-    "value" : 9.98
-  }
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 162.75
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 18.38
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "ragefood",
+            "duration" : 225
+          }
+        ]
+      ]
+    }
+  ]
 ]

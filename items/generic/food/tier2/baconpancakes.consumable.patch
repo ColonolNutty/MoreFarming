@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 207.27
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 39.91
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Pancakes - Bacon"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 207.27
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 53.43
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Pancakes - Bacon"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 360
+          }
+        ]
+      ]
+    }
+  ]
+]

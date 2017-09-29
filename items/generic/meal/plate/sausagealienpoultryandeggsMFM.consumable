@@ -6,17 +6,17 @@
   "tooltipKind" : "food",
   "description" : "A plate of steak and poultry sausage with a side of scrambled eggs.",
   "shortdescription" : "Sausage and Eggs",
-  "foodValue" : 27.32,
-  "effects" : [[
+  "foodValue" : 36.88,
+  "effects" : [ [ 
       {
-        "duration" : 25,
-        "effect" : "maxenergyscalingboostfood"
-      }]],
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 25
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
-  "inventoryIcon" : "sausagealienpoultryandeggsMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "sausagealienpoultryandeggsMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

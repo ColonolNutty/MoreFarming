@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "Pumpkin blended into a thick creamy paste",
   "shortdescription" : "Puree - Pumpkin",
-  "foodValue" : 2.0,
+  "foodValue" : 10.0,
   "effects" : [ [ 
       {
         "effect" : "maxenergyscalingboostfood",

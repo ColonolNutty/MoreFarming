@@ -1,25 +1,22 @@
 {
   "itemName" : "beetMFM",
   "rarity" : "Common",
-  "price" : 40,
+  "price" : 40.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "beetMFM.png",
+  "tooltipKind" : "food",
   "description" : "Just beet it!",
   "shortdescription" : "Beet",
-  "effects" : [ [
-    {
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 60
-    }
-  ] ],
-  "foodValue" : 3.75,
-  "tooltipKind" : "food",
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "beetMFM.png"
 }

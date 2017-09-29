@@ -3,18 +3,15 @@
   "rarity" : "Common",
   "price" : 71.66,
   "category" : "preparedFood",
-  "inventoryIcon" : "boiledlettuceMFM.png",
+  "tooltipKind" : "food",
   "description" : "A lettuce boiled in water.",
   "shortdescription" : "Boiled Lettuce",
-  "foodValue": 5.51,
-  "tooltipKind" : "food",
+  "foodValue" : 11.03,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledlettuceMFM.png",
   "emote" : "Happy"
 }

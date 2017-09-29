@@ -1,13 +1,51 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 625.8
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 40.13
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Jam - Pineapple"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 625.8
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 40.13
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Jam - Pineapple"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "runboostfood",
+            "duration" : 158
+          },
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 158
+          }
+        ]
+      ]
+    }
+  ]
+]

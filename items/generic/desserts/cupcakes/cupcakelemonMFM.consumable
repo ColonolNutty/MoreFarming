@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "A cupcake with lemon icing.",
   "shortdescription" : "Cupcake - Lemon",
-  "foodValue" : 40.8,
+  "foodValue" : 71.13,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "cupcakelemonMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cupcakelemonMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "Chocolate covered coffee beans.",
   "shortdescription" : "Choc. Covered Coffee Beans",
-  "foodValue" : 14.55,
+  "foodValue" : 34.53,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "chocolatecoffeebeansMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "chocolatecoffeebeansMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

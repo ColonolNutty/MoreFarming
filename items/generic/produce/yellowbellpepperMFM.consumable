@@ -1,25 +1,22 @@
 {
   "itemName" : "yellowbellpepperMFM",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 50.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "yellowbellpepperMFM.png",
+  "tooltipKind" : "food",
   "description" : "Its yellow!",
   "shortdescription" : "Yellow Bell Pepper",
-  "effects" : [ [
-    {
-      "effect" : "electricblock",
-      "duration" : 40
-    }
-  ] ],
-  "foodValue" : 6,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
+        "effect" : "electricblock",
+        "duration" : 40
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "yellowbellpepperMFM.png"
 }

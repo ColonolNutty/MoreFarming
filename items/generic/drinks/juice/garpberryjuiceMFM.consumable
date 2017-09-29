@@ -3,23 +3,20 @@
   "rarity" : "Common",
   "price" : 88.2,
   "category" : "preparedFood",
-  "inventoryIcon" : "garpberryjuiceMFM.png",
+  "tooltipKind" : "food",
   "description" : "Garpberry juice! It has a mildly juciey flavor.",
   "shortdescription" : "Juice - Garpberry",
-  "effects" : [ [
-    {
+  "foodValue" : 11.03,
+  "effects" : [ [ 
+      {
         "effect" : "maxenergyscalingboostfood",
         "duration" : 30
-    }
-  ] ],
-  "foodValue" : 2.76,
-  "tooltipKind" : "food",
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -3]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "garpberryjuiceMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

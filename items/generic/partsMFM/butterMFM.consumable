@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "For making everything less healthy and more awesome.",
   "shortdescription" : "Butter",
-  "foodValue" : 2.0,
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

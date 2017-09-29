@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 166.54
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 30.1
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Ice Cream - Coconut"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 166.54
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 33.83
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Ice Cream - Coconut"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 405
+          }
+        ]
+      ]
+    }
+  ]
+]

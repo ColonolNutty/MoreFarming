@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 351.2
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 33.93
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Pizza - Pepperoni"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 351.2
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 57.71
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Pizza - Pepperoni"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 1800
+          }
+        ]
+      ]
+    }
+  ]
+]

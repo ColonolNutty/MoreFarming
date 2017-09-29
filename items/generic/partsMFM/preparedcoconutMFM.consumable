@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "A coconut prepared for eating instead of throwing.",
   "shortdescription" : "Prepared Coconut",
-  "foodValue" : 2.0,
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

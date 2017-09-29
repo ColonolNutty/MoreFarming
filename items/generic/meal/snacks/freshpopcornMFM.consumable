@@ -3,17 +3,15 @@
   "rarity" : "Common",
   "price" : 77.73,
   "category" : "preparedFood",
-  "inventoryIcon" : "freshpopcornMFM.png",
+  "tooltipKind" : "food",
   "description" : "Fluffy popcorn, freshly popped, good to eat when watching Apex Wrestling!",
   "shortdescription" : "Popcorn - Plain",
+  "foodValue" : 10.0,
   "effects" : [ [ "regeneration3" ] ],
-  "foodValue" : 4.9,
-  "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "freshpopcornMFM.png"
 }

@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 245.0
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 11.94
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Milkshake - Reef"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 245.0
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 21.04
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Milkshake - Reef"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 225
+          }
+        ]
+      ]
+    }
+  ]
+]

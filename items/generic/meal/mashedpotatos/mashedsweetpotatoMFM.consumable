@@ -6,17 +6,17 @@
   "tooltipKind" : "food",
   "description" : "Smashing sweet potatoes is scientifically proven to make them 500% tastier.",
   "shortdescription" : "Mashed Sweet Potato",
-  "foodValue" : 15.25,
-  "effects" : [[
+  "foodValue" : 26.36,
+  "effects" : [ [ 
       {
-        "duration" : 105,
-        "effect" : "maxhealthscalingboostfood"
-      }]],
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 105
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -2],
-  "inventoryIcon" : "mashedsweetpotatoMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "mashedsweetpotatoMFM.png",
+  "handPosition" : [ 0, -2 ]
 }

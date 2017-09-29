@@ -1,13 +1,51 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 600.5
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 38.87
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Salse - Desert"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 600.5
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 47.69
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Salse - Desert"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "thorns",
+            "duration" : 383
+          },
+          {
+            "effect" : "jumpboostfood",
+            "duration" : 383
+          }
+        ]
+      ]
+    }
+  ]
+]

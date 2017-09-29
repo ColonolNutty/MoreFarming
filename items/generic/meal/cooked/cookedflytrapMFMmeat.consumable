@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "A moderately cooked Floran Fly Trap steak. I think I just saw it move!",
   "shortdescription" : "Baked Floran Fly Trap Meat",
-  "foodValue" : 2.0,
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

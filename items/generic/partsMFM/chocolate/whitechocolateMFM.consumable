@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "Yummmmmmm!",
   "shortdescription" : "White Chocolate",
-  "foodValue" : 9.94,
+  "foodValue" : 29.07,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "whitechocolateMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "whitechocolateMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

@@ -6,12 +6,12 @@
   "tooltipKind" : "food",
   "description" : "A shell for making pie.",
   "shortdescription" : "Dough - Pie Shell",
-  "foodValue" : 5.29,
+  "foodValue" : 14.61,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -3],
-  "inventoryIcon" : "cookiedoughMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cookiedoughMFM.png",
+  "handPosition" : [ 0, -3 ]
 }

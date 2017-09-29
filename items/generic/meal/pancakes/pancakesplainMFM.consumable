@@ -6,15 +6,15 @@
   "tooltipKind" : "food",
   "description" : "Light, fluffy and oh so good.",
   "shortdescription" : "Pancakes - Plain",
-  "foodValue" : 4.74,
-  "effects" : [[
+  "foodValue" : 10.0,
+  "effects" : [ [ 
       {
         "effect" : "regeneration2"
-      }]],
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "pancakesplainMFM.png"
 }

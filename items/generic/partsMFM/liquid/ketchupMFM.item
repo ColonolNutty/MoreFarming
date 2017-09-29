@@ -1,9 +1,9 @@
 {
- "shortdescription": "Ketchup",
- "itemName": "ketchupMFM",
- "price": 212.4,
- "description": "Tomatoes are botanically fruit.",
- "inventoryIcon": "ketchupMFM.png",
- "category": "cookingIngredient",
- "rarity": "Common"
+  "itemName" : "ketchupMFM",
+  "rarity" : "Common",
+  "price" : 212.4,
+  "category" : "cookingIngredient",
+  "description" : "Tomatoes are botanically fruit.",
+  "shortdescription" : "Ketchup",
+  "inventoryIcon" : "ketchupMFM.png"
 }

@@ -3,24 +3,21 @@
   "rarity" : "Common",
   "price" : 66.15,
   "category" : "drink",
-  "inventoryIcon" : "lemonjuiceMFM.png",
+  "tooltipKind" : "food",
   "description" : "Sour lemon juice.",
   "shortdescription" : "Juice - Lemon",
-  "effects" : [ [
-    {
+  "foodValue" : 11.03,
+  "effects" : [ [ 
+      {
         "effect" : "maxenergyscalingboostfood",
         "duration" : 120
-    }
-  ] ],
-  "foodValue" : 5.51,
-  "tooltipKind" : "food",
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "lemonjuiceMFM.png",
   "emitters" : [ "drinking" ],
-  "handPosition" : [0, -4]
+  "handPosition" : [ 0, -4 ]
 }

@@ -1,19 +1,17 @@
 {
   "itemName" : "raisinsMFM",
   "rarity" : "Common",
-  "price" : 126,
+  "price" : 126.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "raisinsMFM.png",
+  "tooltipKind" : "food",
   "description" : "Dried grapes. Also known as Raisins.",
   "shortdescription" : "Raisins",
-  "foodValue" : 3.94,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -2]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "raisinsMFM.png",
+  "handPosition" : [ 0, -2 ]
 }

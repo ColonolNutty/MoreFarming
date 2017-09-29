@@ -2,28 +2,26 @@
   "itemName" : "magurotemakiMSM",
   "rarity" : "Uncommon",
   "price" : 411.54,
-	"category" : "drink",
-  "inventoryIcon" : "magurotemakiMSM.png",
+  "category" : "drink",
+  "tooltipKind" : "food",
   "description" : "Raw tuna and cucumber, wrapped in rice and kelp.",
   "shortdescription" : "Temaki - Marguro",
-  "effects" : [ [
-    {
+  "foodValue" : 108.84,
+  "effects" : [ [ 
+      {
         "effect" : "jumpboostfood",
         "duration" : 30
-    },
-    {
+      },
+
+      {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 120
-    }
-  ] ],
-	"foodValue" : 36.43,
-	"tooltipKind" : "food",
-	"builder" : "/items/buildscripts/buildfood.lua",
-	"maxStack" : 1000,
-	"itemAgingScripts" : ["/scripts/items/rotting.lua"],
-	"rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+      } ] ],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "magurotemakiMSM.png",
   "emitters" : [ "drinking" ]
 }

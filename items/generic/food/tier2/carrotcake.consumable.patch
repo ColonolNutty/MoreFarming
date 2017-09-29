@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 843.26
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 96.82
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Cake - Carrot"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 843.26
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 117.32
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Cake - Carrot"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 495
+          }
+        ]
+      ]
+    }
+  ]
+]

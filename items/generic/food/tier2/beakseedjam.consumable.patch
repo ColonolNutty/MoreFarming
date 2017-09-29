@@ -1,13 +1,51 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 401.63
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 20.12
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Jam - Beakseed"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 401.63
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 20.12
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Jam - Beakseed"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "jumpboostfood",
+            "duration" : 135
+          },
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 135
+          }
+        ]
+      ]
+    }
+  ]
+]

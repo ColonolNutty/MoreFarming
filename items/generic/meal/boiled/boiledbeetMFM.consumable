@@ -1,20 +1,17 @@
 {
- "shortdescription": "Boiled Beet",
- "tooltipKind": "food",
- "description": "A beet boiled in water.",
- "itemAgingScripts": ["/scripts/items/rotting.lua"],
- "maxStack": 1000,
- "handPosition": [
-  0,
-  -4
- ],
- "itemName": "boiledbeetMFM",
- "price": 44.1,
- "builder": "/items/buildscripts/buildfood.lua",
- "rottingMultiplier": 1,
- "inventoryIcon": "boiledbeetMFM.png",
- "foodValue": 4.14,
- "category": "preparedFood",
- "rarity": "Common",
- "blockingEffects": ["wellfed"]
+  "itemName" : "boiledbeetMFM",
+  "rarity" : "Common",
+  "price" : 44.1,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "A beet boiled in water.",
+  "shortdescription" : "Boiled Beet",
+  "foodValue" : 11.03,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledbeetMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

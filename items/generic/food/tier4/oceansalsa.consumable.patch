@@ -1,13 +1,55 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 859.58
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 32.54
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Salsa - Ocean"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 859.58
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 32.54
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Salsa - Ocean"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "runboostfood",
+            "duration" : 180
+          },
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 180
+          },
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 180
+          }
+        ]
+      ]
+    }
+  ]
+]

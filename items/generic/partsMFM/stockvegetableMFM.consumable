@@ -3,16 +3,14 @@
   "rarity" : "Common",
   "price" : 203.96,
   "category" : "cookingIngredient",
-  "inventoryIcon" : "stockvegetableMFM.png",
+  "tooltipKind" : "food",
   "description" : "Reduced vegetables. Flavoursome stock ready for use.",
   "shortdescription" : "Stock - Vegetable",
-  "foodValue" : 14.62,
-  "tooltipKind" : "food",
+  "foodValue" : 30.32,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "stockvegetableMFM.png"
 }

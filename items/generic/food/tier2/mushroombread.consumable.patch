@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 182.82
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 17.96
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Bread - Mushroom"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 182.82
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 71.4
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Bread - Mushroom"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 180
+          }
+        ]
+      ]
+    }
+  ]
+]

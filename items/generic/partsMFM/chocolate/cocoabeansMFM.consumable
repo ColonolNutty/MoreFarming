@@ -3,16 +3,14 @@
   "rarity" : "Common",
   "price" : 94.5,
   "category" : "preparedFood",
-  "inventoryIcon" : "cocoabeansMFM.png",
+  "tooltipKind" : "food",
   "description" : "This is not their final form.",
   "shortdescription" : "Cocoa Beans",
-  "foodValue" : 2.1,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cocoabeansMFM.png"
 }

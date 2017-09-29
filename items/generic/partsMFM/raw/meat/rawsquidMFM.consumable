@@ -1,19 +1,17 @@
 {
   "itemName" : "rawsquidMFM",
   "rarity" : "Common",
-  "price" : 15,
+  "price" : 15.0,
   "category" : "food",
   "eventCategory" : "cookingIngredient",
-  "inventoryIcon" : "rawsquidMFM.png",
+  "tooltipKind" : "food",
   "description" : "A squid filet...slimy.",
   "shortdescription" : "Raw Squid",
-  "foodValue" : 8,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 0.5,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "rawsquidMFM.png"
 }

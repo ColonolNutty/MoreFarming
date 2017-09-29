@@ -1,13 +1,55 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 919.2
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 57.52
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Tart - Toxictop"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 919.2
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 61.78
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Tart - Toxictop"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "lowgrav",
+            "duration" : 293
+          },
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 293
+          },
+          {
+            "effect" : "weakpoison",
+            "duration" : 5
+          }
+        ]
+      ]
+    }
+  ]
+]

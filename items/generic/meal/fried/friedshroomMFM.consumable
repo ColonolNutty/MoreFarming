@@ -3,16 +3,14 @@
   "rarity" : "Common",
   "price" : 13.52,
   "category" : "preparedFood",
-  "inventoryIcon" : "friedshroomMFM.png",
+  "tooltipKind" : "food",
   "description" : "Tasty, and may not be poisonous!",
   "shortdescription" : "Fried Mushroom",
-  "foodValue" : 2.66,
-  "tooltipKind" : "food",
+  "foodValue" : 13.26,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "friedshroomMFM.png"
 }

@@ -1,37 +1,37 @@
 {"ingredients": [
   {
     "itemName": "wheat",
-    "foodValue": 2
+    "foodValue": 10
   },
   {
     "itemName": "cacti",
-    "foodValue": 2
+    "foodValue": 10
   },
   {
     "itemName": "cocoa",
-    "foodValue": 2
+    "foodValue": 10
   },
   {
     "itemName": "crystalplant",
     "price": 5,
-    "foodValue": 1
+    "foodValue": 10
   },
   {
     "itemName": "kelp",
     "price": 5,
-    "foodValue": 2
+    "foodValue": 10
   },
   {
     "itemName": "rice",
-    "foodValue": 2
+    "foodValue": 10
   },
   {
     "itemName": "shroom",
-    "foodValue": 2
+    "foodValue": 10
   },
   {
     "itemName": "sugar",
-    "foodValue": 2
+    "foodValue": 10
   },
   {
     "itemName": "clay",
@@ -40,7 +40,7 @@
   {
     "itemName": "giantflowerpetal",
     "price": 5,
-    "foodValue": 2
+    "foodValue": 10
   },
   {
     "itemName": "paper",
@@ -49,22 +49,22 @@
   {
     "itemName": "plantfibre",
     "price": 5,
-    "foodValue": 1
+    "foodValue": 10
   },
   {
     "itemName": "petalblue",
     "price": 5,
-    "foodValue": 2
+    "foodValue": 10
   },
   {
     "itemName": "petalred",
     "price": 5,
-    "foodValue": 2
+    "foodValue": 10
   },
   {
     "itemName": "petalyellow",
     "price": 5,
-    "foodValue": 2
+    "foodValue": 10
   },
   {
     "itemName": "darkwoodmaterial",
@@ -80,16 +80,16 @@
   },
   {
     "itemName": "ice",
-    "price": 2
+    "price": 10
   },
   {
     "itemName": "fleshstrand",
     "price": 5,
-    "foodValue": 2
+    "foodValue": 10
   },
   {
     "itemName": "endomorphicjelly",
-    "foodValue": 2
+    "foodValue": 10
   },
   {
     "itemName": "sugarcaneBMB",

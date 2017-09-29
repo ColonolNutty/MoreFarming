@@ -3,18 +3,15 @@
   "rarity" : "Common",
   "price" : 198.45,
   "category" : "preparedFood",
-  "inventoryIcon" : "boileddiodiaMFM.png",
+  "tooltipKind" : "food",
   "description" : "A diodia boiled in water.",
   "shortdescription" : "Boiled Diodia",
-  "foodValue": 8.27,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boileddiodiaMFM.png",
   "emote" : "Happy"
 }

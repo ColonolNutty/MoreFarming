@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 413.95
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 32.62
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Stew - Fish"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 413.95
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 52.16
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Stew - Fish"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 495
+          }
+        ]
+      ]
+    }
+  ]
+]

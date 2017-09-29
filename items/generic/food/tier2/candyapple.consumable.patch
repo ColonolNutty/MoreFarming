@@ -3,12 +3,40 @@
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 94.54
+      "value" : 111.34
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 15.48
+      "value" : 22.37
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 225
+          }
+        ]
+      ]
     }
   ]
 ]

@@ -3,16 +3,14 @@
   "rarity" : "Common",
   "price" : 36.75,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedgreenbeanMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed, peeled, and chopped green beans.",
   "shortdescription" : "Chopped Green Beans",
-  "foodValue" : 2.63,
-  "tooltipKind" : "food",
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedgreenbeanMFM.png"
 }

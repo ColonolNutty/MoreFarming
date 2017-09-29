@@ -1,13 +1,47 @@
-[ {
-  "op" : "replace",
-  "path" : "/price",
-  "value" : 337.54
-}, {
-  "op" : "replace",
-  "path" : "/foodValue",
-  "value" : 17.53
-}, {
-  "op" : "replace",
-  "path" : "/shortdescription",
-  "value" : "Broth - Pearlpea"
-} ]
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 337.54
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 19.56
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Broth - Pearlpea"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 180
+          }
+        ]
+      ]
+    }
+  ]
+]

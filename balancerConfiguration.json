@@ -1,0 +1,14 @@
+{
+  "locationsToUpdate" : [ "mods/MoreFarming/items", "mods/MoreFarming/objects" ],
+  "includeLocations" : [ "AssetsUnpacked", "mods/MoreFarming/recipes", "mods/MoreFarming/objects/farmables" ],
+  "excludedEffects" : [ "foodpoison" ],
+  "increasePercentage" : 0.05,
+  "minimumFoodValue" : 10,
+  "ingredientOverridePath" : "mods/MoreFarming/valueOverrides.json",
+  "logFile" : "updatelog.log",
+  "numberOfPasses" : 15,
+  "enableTreeView" : true,
+  "enableConsoleDebug" : false,
+  "enableVerboseLogging" : false,
+  "enableEffectsUpdate" : false
+}

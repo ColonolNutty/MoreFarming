@@ -6,25 +6,14 @@
   [
     { 
       "op": "replace",
-      "path" : "/inventoryIcon", 
-      "value" : "fullneonmelonMFM.png"
-    },
-    { 
-      "op": "replace",
-      "path" : "/shortdescription", 
-      "value" : "Fully Grown Neonmelon"
-    },
-    { 
-      "op": "replace",
-      "path" : "/price", 
-      "value" : 280
-    },
-    { 
-      "op": "replace",
       "path" : "/effects", 
       "value" : [ [
         {
           "effect": "maxhealthscalingboostfood",
+          "duration": 60
+        },
+        {
+          "effect": "maxenergyscalingboostfood",
           "duration": 60
         }
       ] ]

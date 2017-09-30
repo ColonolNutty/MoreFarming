@@ -4,22 +4,16 @@
     { "op": "add", "path": "/effects", "value": [[]] }
   ],
   [
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 20
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 10.0
-    },
     { 
       "op": "replace",
       "path" : "/effects", 
       "value" : [ [
         {
-          "effect": "maxenergyscalingboostfood",
+          "effect": "maxenergyboostaugment2",
+          "duration": 60
+        },
+        {
+          "effect": "regenerationfood",
           "duration": 60
         }
       ] ]

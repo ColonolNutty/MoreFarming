@@ -1,7 +1,17 @@
 [
   [
-    { "op": "test", "path": "/effects", "inverse": true },
-    { "op": "add", "path": "/effects", "value": [[]] }
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
   ],
   [
     {
@@ -14,15 +24,17 @@
       "path" : "/foodValue",
       "value" : 10.0
     },
-    { 
-      "op": "replace",
-      "path" : "/effects", 
-      "value" : [ [
-        {
-          "effect": "maxenergyscalingboostfood",
-          "duration": 60
-        }
-      ] ]
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 60
+          }
+        ]
+      ]
     }
   ]
 ]

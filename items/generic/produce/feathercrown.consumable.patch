@@ -1,22 +1,72 @@
 [
   [
-    { "op": "test", "path": "/effects", "inverse": true },
-    { "op": "add", "path": "/effects", "value": [[]] }
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
   ],
   [
-    { 
-      "op": "replace",
-      "path" : "/effects", 
-      "value" : [ [
-        {
-          "effect": "lowgrav",
-          "duration": 30
-        },
-        {
-          "effect": "highprotection",
-          "duration": 30
-        }
-      ] ]
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "lowgrav",
+            "duration" : 30
+          },
+          {
+            "effect" : "highprotection",
+            "duration" : 30
+          }
+        ]
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 10.0
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 10.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 120.0
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 120.0
     }
   ]
 ]

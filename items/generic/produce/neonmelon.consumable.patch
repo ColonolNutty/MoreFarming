@@ -1,33 +1,64 @@
 [
   [
-    { "op": "test", "path": "/effects", "inverse": true },
-    { "op": "add", "path": "/effects", "value": [[]] }
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [
+        []
+      ]
+    }
   ],
   [
-    { 
-      "op": "replace",
-      "path" : "/inventoryIcon", 
+    {
+      "op" : "replace",
+      "path" : "/inventoryIcon",
       "value" : "fullneonmelonMFM.png"
     },
-    { 
-      "op": "replace",
-      "path" : "/shortdescription", 
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
       "value" : "Fully Grown Neonmelon"
     },
-    { 
-      "op": "replace",
-      "path" : "/price", 
+    {
+      "op" : "replace",
+      "path" : "/price",
       "value" : 280
     },
-    { 
-      "op": "replace",
-      "path" : "/effects", 
-      "value" : [ [
-        {
-          "effect": "maxhealthscalingboostfood",
-          "duration": 60
-        }
-      ] ]
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [
+        [
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 60
+          }
+        ]
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 10.0
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 10.0
     }
   ]
 ]

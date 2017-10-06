@@ -7,6 +7,11 @@
   "description" : "Jelly made from raspberries.",
   "shortdescription" : "Jelly - Raspberry",
   "foodValue" : 50.5,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

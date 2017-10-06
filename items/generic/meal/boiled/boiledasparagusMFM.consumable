@@ -3,17 +3,35 @@
   "rarity" : "Common",
   "price" : 66.15,
   "category" : "preparedFood",
-  "inventoryIcon" : "boiledasparagusMFM.png",
+  "tooltipKind" : "food",
   "description" : "Asparagus boiled in water.",
   "shortdescription" : "Boiled Asparagus",
   "foodValue" : 11.03,
-  "tooltipKind" : "food",
+  "effects" : [ [ 
+      {
+        "effect" : "swimboost",
+        "duration" : 70
+      },
+
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 70
+      },
+
+      {
+        "effect" : "jumpboostfood",
+        "duration" : 70
+      },
+
+      {
+        "effect" : "runboostfood",
+        "duration" : 70
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledasparagusMFM.png",
   "emote" : "Happy"
 }

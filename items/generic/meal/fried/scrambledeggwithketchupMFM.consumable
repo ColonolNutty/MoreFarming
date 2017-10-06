@@ -7,6 +7,21 @@
   "description" : "A scrambled egg with ketchup.",
   "shortdescription" : "Scrambled Egg With Ketchup",
   "foodValue" : 34.93,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 30
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 60
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

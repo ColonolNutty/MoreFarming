@@ -7,6 +7,21 @@
   "description" : "A milkshake made with chocolate. Yum!",
   "shortdescription" : "Milkshake - Chocolate",
   "foodValue" : 15.2,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 150
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 30
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 60
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

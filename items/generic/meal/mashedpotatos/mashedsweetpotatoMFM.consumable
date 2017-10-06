@@ -9,8 +9,18 @@
   "foodValue" : 26.36,
   "effects" : [ [ 
       {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 36
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 36
+      },
+
+      {
         "effect" : "maxhealthscalingboostfood",
-        "duration" : 105
+        "duration" : 122
       } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

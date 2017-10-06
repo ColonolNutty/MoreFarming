@@ -3,16 +3,19 @@
   "rarity" : "Common",
   "price" : 89.25,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedsweetpotatoMFM.png",
-  "description" : "Washed, peeled, and chopped sweet potato.",
-  "shortdescription" : "Chopped Sweetpotato",
-  "foodValue" : 10.5,
   "tooltipKind" : "food",
+  "description" : "Washed, peeled, and chopped sweet potato.",
+  "shortdescription" : "Chopped Sweet Potato",
+  "foodValue" : 10.5,
+  "effects" : [ [ 
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 50
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedsweetpotatoMFM.png"
 }

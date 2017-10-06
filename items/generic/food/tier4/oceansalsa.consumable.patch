@@ -37,16 +37,8 @@
       "value" : [
         [
           {
-            "effect" : "runboostfood",
-            "duration" : 180
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 180
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 180
+            "effect" : "burning",
+            "duration" : 5
           }
         ]
       ]

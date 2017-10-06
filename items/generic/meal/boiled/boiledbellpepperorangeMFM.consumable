@@ -7,6 +7,16 @@
   "description" : "An orange bell pepper boiled in water.",
   "shortdescription" : "Boiled Bell Pepper - Orange",
   "foodValue" : 11.03,
+  "effects" : [ [ 
+      {
+        "effect" : "fireblock",
+        "duration" : 60
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 30
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

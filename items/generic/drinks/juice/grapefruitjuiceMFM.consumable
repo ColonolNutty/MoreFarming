@@ -10,7 +10,7 @@
   "effects" : [ [ 
       {
         "effect" : "maxenergyscalingboostfood",
-        "duration" : 120
+        "duration" : 30
       } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

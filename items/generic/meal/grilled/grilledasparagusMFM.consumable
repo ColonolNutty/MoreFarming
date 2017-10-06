@@ -1,19 +1,37 @@
 {
   "itemName" : "grilledasparagusMFM",
   "rarity" : "Common",
-  "price" : 63,
+  "price" : 63.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "grilledasparagusMFM.png",
+  "tooltipKind" : "food",
   "description" : "Grilled asparagus.",
   "shortdescription" : "Grilled Asparagus",
   "foodValue" : 10.5,
-  "tooltipKind" : "food",
+  "effects" : [ [ 
+      {
+        "effect" : "swimboost",
+        "duration" : 70
+      },
+
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 70
+      },
+
+      {
+        "effect" : "jumpboostfood",
+        "duration" : 70
+      },
+
+      {
+        "effect" : "runboostfood",
+        "duration" : 70
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "grilledasparagusMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

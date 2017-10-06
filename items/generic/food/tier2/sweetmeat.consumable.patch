@@ -32,12 +32,8 @@
       "value" : [
         [
           {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 113
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 113
+            "effect" : "regeneration3",
+            "duration" : 2
           }
         ]
       ]

@@ -9,13 +9,13 @@
   "foodValue" : 17.13,
   "effects" : [ [ 
       {
-        "effect" : "runboostfood",
-        "duration" : 40
+        "effect" : "swimboost",
+        "duration" : 10
       },
 
       {
         "effect" : "energyregen",
-        "duration" : 70
+        "duration" : 10
       } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

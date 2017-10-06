@@ -7,6 +7,21 @@
   "description" : "FRENCH TOAST!",
   "shortdescription" : "French Toast - Plain",
   "foodValue" : 25.7,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 30
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 150
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

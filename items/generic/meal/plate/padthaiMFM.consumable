@@ -9,8 +9,23 @@
   "foodValue" : 57.35,
   "effects" : [ [ 
       {
-        "effect" : "regeneration1",
-        "duration" : 20
+        "effect" : "burning",
+        "duration" : 5
+      },
+
+      {
+        "effect" : "camouflage25",
+        "duration" : 37
+      },
+
+      {
+        "effect" : "runboostfood",
+        "duration" : 30
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 30
       } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

@@ -7,6 +7,16 @@
   "description" : "A sandwich made with raspberry jelly.",
   "shortdescription" : "Sandwich - Raspberry Jelly",
   "foodValue" : 57.78,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 90
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

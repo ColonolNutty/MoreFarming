@@ -7,6 +7,16 @@
   "description" : "A sandwich made with peanut butter and grape jelly.",
   "shortdescription" : "Sandwich - Grape PB+J",
   "foodValue" : 77.67,
+  "effects" : [ [ 
+      {
+        "effect" : "camouflage25",
+        "duration" : 30
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 90
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

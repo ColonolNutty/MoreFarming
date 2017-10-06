@@ -9,13 +9,13 @@
   "foodValue" : 131.39,
   "effects" : [ [ 
       {
-        "effect" : "jumpboostfood",
-        "duration" : 30
+        "effect" : "camouflage25",
+        "duration" : 7
       },
 
       {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 120
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 45
       } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

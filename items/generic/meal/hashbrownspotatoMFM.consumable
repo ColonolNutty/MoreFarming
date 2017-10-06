@@ -7,6 +7,21 @@
   "description" : "Shredded potatoes fried in butter.",
   "shortdescription" : "Hash Browns",
   "foodValue" : 13.84,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 6
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 6
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 12
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

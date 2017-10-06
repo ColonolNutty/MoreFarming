@@ -7,7 +7,11 @@
   "description" : "A plain ring of fried chocolate flavoured dough. So bad but so good.",
   "shortdescription" : "Donut - Plain Chocolate",
   "foodValue" : 10.0,
-  "effects" : [ [ "regeneration3" ] ],
+  "effects" : [ [ 
+      {
+        "effect" : "camouflage25",
+        "duration" : 7
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

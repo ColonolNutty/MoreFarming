@@ -37,12 +37,20 @@
       "value" : [
         [
           {
-            "effect" : "jumpboostfood",
-            "duration" : 180
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 141
           },
           {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 180
+            "effect" : "jumpboostfood",
+            "duration" : 135
+          },
+          {
+            "effect" : "energyregen",
+            "duration" : 6
+          },
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 12
           }
         ]
       ]

@@ -7,6 +7,31 @@
   "description" : "A soup made with pumpkins.",
   "shortdescription" : "Soup - Pumpkin",
   "foodValue" : 51.41,
+  "effects" : [ [ 
+      {
+        "effect" : "antidote",
+        "duration" : 5
+      },
+
+      {
+        "effect" : "poisonblock",
+        "duration" : 90
+      },
+
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 126
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 6
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 12
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

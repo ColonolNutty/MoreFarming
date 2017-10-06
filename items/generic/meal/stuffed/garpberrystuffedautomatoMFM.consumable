@@ -9,8 +9,13 @@
   "foodValue" : 13.13,
   "effects" : [ [ 
       {
-        "effect" : "maxenergyscalingboostfood",
+        "effect" : "nova",
         "duration" : 30
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 180
       } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

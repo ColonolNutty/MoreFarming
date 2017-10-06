@@ -7,6 +7,11 @@
   "description" : "Washed and chopped strawberries.",
   "shortdescription" : "Chopped Strawberries",
   "foodValue" : 10.5,
+  "effects" : [ [ 
+      {
+        "effect" : "energyregen",
+        "duration" : 30
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

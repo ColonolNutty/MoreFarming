@@ -1,18 +1,21 @@
 {
   "itemName" : "pressedtoxictopMFM",
   "rarity" : "Common",
-  "price" : 210,
+  "price" : 210.0,
   "category" : "food",
-  "inventoryIcon" : "pressedtoxictopMFM.png",
+  "tooltipKind" : "food",
   "description" : "Toxictop pressed into a thick pulp using a press",
   "shortdescription" : "Pressed Toxictop",
   "foodValue" : 10.5,
-  "tooltipKind" : "food",
+  "effects" : [ [ 
+      {
+        "effect" : "weakpoison",
+        "duration" : 5
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "pressedtoxictopMFM.png"
 }

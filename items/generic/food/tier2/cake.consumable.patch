@@ -37,8 +37,32 @@
       "value" : [
         [
           {
+            "effect" : "regeneration2",
+            "duration" : 12
+          },
+          {
+            "effect" : "maxenergyscalingboost",
+            "duration" : 12
+          },
+          {
+            "effect" : "camouflage25",
+            "duration" : 7
+          },
+          {
             "effect" : "maxenergyscalingboostfood",
-            "duration" : 405
+            "duration" : 12
+          },
+          {
+            "effect" : "runboostfood",
+            "duration" : 18
+          },
+          {
+            "effect" : "energyregen",
+            "duration" : 12
+          },
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 36
           }
         ]
       ]

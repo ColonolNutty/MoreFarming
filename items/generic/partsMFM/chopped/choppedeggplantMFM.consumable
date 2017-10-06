@@ -1,18 +1,26 @@
 {
   "itemName" : "choppedeggplantMFM",
   "rarity" : "Common",
-  "price" : 126,
+  "price" : 126.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedeggplantMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed and chopped eggplant.",
   "shortdescription" : "Chopped Eggplant",
   "foodValue" : 10.5,
-  "tooltipKind" : "food",
+  "effects" : [ [ 
+      {
+        "effect" : "regeneration3",
+        "duration" : 15
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 45
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedeggplantMFM.png"
 }

@@ -7,6 +7,11 @@
   "description" : "Crispy golden fried fish fillet. Yum!",
   "shortdescription" : "Fried Fish",
   "foodValue" : 16.52,
+  "effects" : [ [ 
+      {
+        "effect" : "camouflage25",
+        "duration" : 7
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -7,6 +7,11 @@
   "description" : "A grilled onion.",
   "shortdescription" : "Grilled Onion",
   "foodValue" : 10.5,
+  "effects" : [ [ 
+      {
+        "effect" : "poisonblock",
+        "duration" : 60
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

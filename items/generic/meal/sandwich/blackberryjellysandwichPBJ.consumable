@@ -7,6 +7,16 @@
   "description" : "A sandwich made with blackberry jelly.",
   "shortdescription" : "Sandwich - Blackberry Jelly",
   "foodValue" : 57.78,
+  "effects" : [ [ 
+      {
+        "effect" : "fireblock",
+        "duration" : 45
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 90
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

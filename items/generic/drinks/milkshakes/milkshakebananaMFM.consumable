@@ -7,6 +7,21 @@
   "description" : "A milkshake made with bananas. Yum!",
   "shortdescription" : "Milkshake - Banana",
   "foodValue" : 16.91,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 30
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 60
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

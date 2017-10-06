@@ -7,6 +7,21 @@
   "description" : "A shell for making pie.",
   "shortdescription" : "Dough - Pie Shell",
   "foodValue" : 14.61,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 6
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 6
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 12
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

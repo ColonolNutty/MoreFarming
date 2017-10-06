@@ -37,12 +37,28 @@
       "value" : [
         [
           {
-            "effect" : "runboostfood",
-            "duration" : 248
+            "effect" : "poisonblock",
+            "duration" : 10
+          },
+          {
+            "effect" : "camouflage25",
+            "duration" : 0
+          },
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 35
+          },
+          {
+            "effect" : "iceblock",
+            "duration" : 10
+          },
+          {
+            "effect" : "energyregen",
+            "duration" : 5
           },
           {
             "effect" : "maxhealthscalingboostfood",
-            "duration" : 248
+            "duration" : 10
           }
         ]
       ]

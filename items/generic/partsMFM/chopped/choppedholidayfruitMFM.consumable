@@ -3,17 +3,30 @@
   "rarity" : "Common",
   "price" : 157.5,
   "category" : "cookingIngredient",
-  "inventoryIcon" : "choppedholidayfruitMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed, peeled, and chopped holiday fruit.",
   "shortdescription" : "Chopped Holiday Fruit",
-  "foodValue" : 21,
-  "tooltipKind" : "food",
+  "foodValue" : 21.0,
+  "effects" : [ [ 
+      {
+        "effect" : "regeneration3",
+        "duration" : 60
+      },
+
+      {
+        "effect" : "lowgrav",
+        "duration" : 60
+      },
+
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 60
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedholidayfruitMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

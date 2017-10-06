@@ -32,12 +32,20 @@
       "value" : [
         [
           {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 180
+            "effect" : "rage",
+            "duration" : 30
+          },
+          {
+            "effect" : "burning",
+            "duration" : 30
           },
           {
             "effect" : "maxenergyscalingboostfood",
-            "duration" : 180
+            "duration" : 45
+          },
+          {
+            "effect" : "iceblock",
+            "duration" : 60
           }
         ]
       ]

@@ -3,16 +3,24 @@
   "rarity" : "Common",
   "price" : 94.5,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedjelonMFM.png",
+  "tooltipKind" : "food",
   "description" : "Washed and chopped jelon.",
   "shortdescription" : "Chopped Jelon",
   "foodValue" : 10.5,
-  "tooltipKind" : "food",
+  "effects" : [ [ 
+      {
+        "effect" : "swimboost",
+        "duration" : 50
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 50
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedjelonMFM.png"
 }

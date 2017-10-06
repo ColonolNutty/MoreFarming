@@ -37,12 +37,28 @@
       "value" : [
         [
           {
-            "effect" : "thorns",
-            "duration" : 248
+            "effect" : "regeneration2",
+            "duration" : 0
+          },
+          {
+            "effect" : "maxenergyscalingboost",
+            "duration" : 0
           },
           {
             "effect" : "maxenergyscalingboostfood",
-            "duration" : 248
+            "duration" : 0
+          },
+          {
+            "effect" : "runboostfood",
+            "duration" : 0
+          },
+          {
+            "effect" : "energyregen",
+            "duration" : 0
+          },
+          {
+            "effect" : "maxhealthscalingboostfood",
+            "duration" : 0
           }
         ]
       ]

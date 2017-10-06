@@ -37,14 +37,6 @@
       "value" : [
         [
           {
-            "effect" : "lowgrav",
-            "duration" : 180
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 180
-          },
-          {
             "effect" : "weakpoison",
             "duration" : 5
           }

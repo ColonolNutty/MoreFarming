@@ -9,13 +9,18 @@
   "foodValue" : 75.08,
   "effects" : [ [ 
       {
-        "effect" : "runboostfood",
+        "effect" : "thorns",
+        "duration" : 70
+      },
+
+      {
+        "effect" : "poisonblock",
         "duration" : 30
       },
 
       {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 105
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 70
       } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

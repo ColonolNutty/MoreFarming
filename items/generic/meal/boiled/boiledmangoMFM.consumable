@@ -7,6 +7,11 @@
   "description" : "A mango boiled in water.",
   "shortdescription" : "Boiled Mango",
   "foodValue" : 11.03,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

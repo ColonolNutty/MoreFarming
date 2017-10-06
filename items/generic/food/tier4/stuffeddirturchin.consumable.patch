@@ -37,8 +37,16 @@
       "value" : [
         [
           {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 30
+          },
+          {
+            "effect" : "energyregen",
+            "duration" : 30
+          },
+          {
             "effect" : "maxhealthscalingboostfood",
-            "duration" : 405
+            "duration" : 71
           }
         ]
       ]

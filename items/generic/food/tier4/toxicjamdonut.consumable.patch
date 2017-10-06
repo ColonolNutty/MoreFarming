@@ -37,8 +37,8 @@
       "value" : [
         [
           {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 720
+            "effect" : "camouflage25",
+            "duration" : 7
           },
           {
             "effect" : "weakpoison",

@@ -32,8 +32,8 @@
       "value" : [
         [
           {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 225
+            "effect" : "camouflage25",
+            "duration" : 7
           }
         ]
       ]

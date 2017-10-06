@@ -10,7 +10,7 @@
   "effects" : [ [ 
       {
         "effect" : "weakpoison",
-        "duration" : 5
+        "duration" : 1
       } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

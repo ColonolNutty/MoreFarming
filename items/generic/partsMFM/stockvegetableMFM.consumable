@@ -7,6 +7,16 @@
   "description" : "Reduced vegetables. Flavoursome stock ready for use.",
   "shortdescription" : "Stock - Vegetable",
   "foodValue" : 30.32,
+  "effects" : [ [ 
+      {
+        "effect" : "antidote",
+        "duration" : 5
+      },
+
+      {
+        "effect" : "poisonblock",
+        "duration" : 90
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

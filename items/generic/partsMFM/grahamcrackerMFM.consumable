@@ -7,6 +7,36 @@
   "description" : "Golden brown graham cracker; Good for snacking on or making smores.",
   "shortdescription" : "Graham Cracker",
   "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
+        "effect" : "regeneration2",
+        "duration" : 0
+      },
+
+      {
+        "effect" : "maxenergyscalingboost",
+        "duration" : 0
+      },
+
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 4
+      },
+
+      {
+        "effect" : "runboostfood",
+        "duration" : 0
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 4
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 9
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -7,6 +7,16 @@
   "description" : "Washed and chopped red bell pepper.",
   "shortdescription" : "Chopped Bell Pepper Red",
   "foodValue" : 10.5,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+      },
+
+      {
+        "effect" : "iceblock",
+        "duration" : 60
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

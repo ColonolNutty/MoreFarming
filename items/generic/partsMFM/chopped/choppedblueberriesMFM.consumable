@@ -7,6 +7,11 @@
   "description" : "Washed and chopped blueberries.",
   "shortdescription" : "Chopped Blueberries",
   "foodValue" : 10.5,
+  "effects" : [ [ 
+      {
+        "effect" : "iceblock",
+        "duration" : 45
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -7,6 +7,11 @@
   "description" : "A red snow cone.",
   "shortdescription" : "Snow Cone - Red",
   "foodValue" : 156.23,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

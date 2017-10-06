@@ -7,6 +7,36 @@
   "description" : "Little chocolate bits.",
   "shortdescription" : "Chocolate Chips",
   "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
+        "effect" : "regeneration2",
+        "duration" : 1
+      },
+
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 97
+      },
+
+      {
+        "effect" : "maxenergyscalingboost",
+        "duration" : 1
+      },
+
+      {
+        "effect" : "runboostfood",
+        "duration" : 1
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 7
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 15
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -7,6 +7,16 @@
   "description" : "A steak and poultry sausage breaded and deep-fried.",
   "shortdescription" : "Corn Dog",
   "foodValue" : 14.68,
+  "effects" : [ [ 
+      {
+        "effect" : "camouflage25",
+        "duration" : 7
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 11
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

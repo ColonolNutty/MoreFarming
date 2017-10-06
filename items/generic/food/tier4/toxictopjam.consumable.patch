@@ -37,10 +37,6 @@
       "value" : [
         [
           {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 315
-          },
-          {
             "effect" : "weakpoison",
             "duration" : 5
           }

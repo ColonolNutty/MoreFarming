@@ -7,6 +7,11 @@
   "description" : "Washed and chopped lettuce.",
   "shortdescription" : "Chopped Lettuce",
   "foodValue" : 10.5,
+  "effects" : [ [ 
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 30
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

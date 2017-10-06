@@ -7,7 +7,11 @@
   "description" : "A plain ring of fried spooky dough. Spooooky!",
   "shortdescription" : "Donut - Plain Spooky",
   "foodValue" : 15.84,
-  "effects" : [ [ "regeneration3" ] ],
+  "effects" : [ [ 
+      {
+        "effect" : "camouflage25",
+        "duration" : 7
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -8,10 +8,15 @@
   "description" : "Sausage links, contains steak and poultry",
   "shortdescription" : "Raw Sausage",
   "foodValue" : 11.03,
+  "effects" : [ [ 
+      {
+        "effect" : "foodpoison",
+        "duration" : 60
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 0.5,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "rawsausagealienpoultryMFM.png"
 }

@@ -37,8 +37,20 @@
       "value" : [
         [
           {
+            "effect" : "poisonblock",
+            "duration" : 60
+          },
+          {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 42
+          },
+          {
+            "effect" : "energyregen",
+            "duration" : 42
+          },
+          {
             "effect" : "maxhealthscalingboostfood",
-            "duration" : 375
+            "duration" : 84
           }
         ]
       ]

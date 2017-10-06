@@ -7,6 +7,21 @@
   "description" : "A dragonfruit boiled in water.",
   "shortdescription" : "Boiled Dragonfruit",
   "foodValue" : 11.03,
+  "effects" : [ [ 
+      {
+        "effect" : "nova",
+        "duration" : 45
+      },
+
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 45
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 45
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

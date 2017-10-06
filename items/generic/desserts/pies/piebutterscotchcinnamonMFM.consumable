@@ -7,6 +7,36 @@
   "description" : "Butterscotch pie with a hint of cinnamon, tastes better with the whipped cream.",
   "shortdescription" : "Pie - Butterscotch",
   "foodValue" : 85.73,
+  "effects" : [ [ 
+      {
+        "effect" : "regeneration2",
+        "duration" : 6
+      },
+
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 78
+      },
+
+      {
+        "effect" : "maxenergyscalingboost",
+        "duration" : 6
+      },
+
+      {
+        "effect" : "runboostfood",
+        "duration" : 12
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 78
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 168
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

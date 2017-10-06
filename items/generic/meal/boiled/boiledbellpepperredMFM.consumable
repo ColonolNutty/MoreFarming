@@ -7,6 +7,16 @@
   "description" : "A red bell pepper boiled in water.",
   "shortdescription" : "Boiled Bell Pepper - Red",
   "foodValue" : 11.03,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+      },
+
+      {
+        "effect" : "iceblock",
+        "duration" : 60
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

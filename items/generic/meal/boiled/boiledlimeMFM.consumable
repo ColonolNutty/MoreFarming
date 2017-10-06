@@ -7,6 +7,16 @@
   "description" : "A lime boiled in water.",
   "shortdescription" : "Boiled Lime",
   "foodValue" : 11.03,
+  "effects" : [ [ 
+      {
+        "effect" : "jumpboostfood",
+        "duration" : 30
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 30
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

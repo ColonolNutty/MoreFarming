@@ -32,8 +32,8 @@
       "value" : [
         [
           {
-            "effect" : "runboostfood",
-            "duration" : 270
+            "effect" : "regeneration3",
+            "duration" : 2
           }
         ]
       ]

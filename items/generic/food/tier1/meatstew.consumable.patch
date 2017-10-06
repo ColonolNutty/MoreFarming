@@ -37,8 +37,8 @@
       "value" : [
         [
           {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 495
+            "effect" : "poisonblock",
+            "duration" : 60
           }
         ]
       ]

@@ -7,6 +7,11 @@
   "description" : "A rutabaga boiled in water.",
   "shortdescription" : "Boiled Rutabaga",
   "foodValue" : 11.03,
+  "effects" : [ [ 
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 40
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -9,8 +9,18 @@
   "foodValue" : 55.53,
   "effects" : [ [ 
       {
-        "effect" : "regeneration3",
-        "duration" : 20
+        "effect" : "poisonblock",
+        "duration" : 66
+      },
+
+      {
+        "effect" : "jumpboostfood",
+        "duration" : 30
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 30
       } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

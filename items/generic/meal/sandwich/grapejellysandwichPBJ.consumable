@@ -7,6 +7,11 @@
   "description" : "A sandwich made with grape jelly.",
   "shortdescription" : "Sandwich - Grape Jelly",
   "foodValue" : 24.64,
+  "effects" : [ [ 
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 90
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

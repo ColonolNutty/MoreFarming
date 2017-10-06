@@ -7,6 +7,21 @@
   "description" : "A mixture of milk and the creamiest of creams",
   "shortdescription" : "Half-and-half",
   "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 7
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 7
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 14
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

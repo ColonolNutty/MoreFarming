@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Seeds for Garlic!
-First Harvest: 20 mins
-Re-Harvest: 12 mins",
+  "description" : "Seeds for Garlic!\nFirst Harvest: 20 mins\nRe-Harvest: 12 mins",
   "shortdescription" : "Garlic Seeds",
   "apexDescription" : "Number one cause of bad breath. Curiously, no cure yet.",
   "floranDescription" : "Ssseedsss for garlic!",

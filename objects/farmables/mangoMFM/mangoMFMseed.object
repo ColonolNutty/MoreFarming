@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Orange and sweet.
-First Harvest: 46 mins
-Re-Harvest: 28 mins",
+  "description" : "Orange and sweet.\nFirst Harvest: 46 mins\nRe-Harvest: 28 mins",
   "shortdescription" : "Mango Seeds",
   "floranDescription" : "Thisss growsss mangosss",
   "glitchDescription" : "Statement. Mangos grow from here.",

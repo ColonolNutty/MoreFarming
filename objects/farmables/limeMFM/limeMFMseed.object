@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Green fruit, is it ripe?
-First Harvest: 26 mins
-Re-Harvest: 16 mins",
+  "description" : "Green fruit, is it ripe?\nFirst Harvest: 26 mins\nRe-Harvest: 16 mins",
   "shortdescription" : "Lime Seeds",
   "floranDescription" : "Thisss growsss limesss",
   "glitchDescription" : "Statement. Limes grow from here.",

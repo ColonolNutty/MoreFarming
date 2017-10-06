@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Spooky pumpkins.
-First Harvest: 78 mins
-Re-Harvest: 46 min",
+  "description" : "Spooky pumpkins.\nFirst Harvest: 78 mins\nRe-Harvest: 46 min",
   "shortdescription" : "Pumpkin Seeds",
   "apexDescription" : "I could cut out eyes on these and scare people. Heh.",
   "avianDescription" : "The best part of this plant are its seeds.",

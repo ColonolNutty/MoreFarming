@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Spicy.
-First Harvest: 34 mins
-Re-Harvest: 20 mins",
+  "description" : "Spicy.\nFirst Harvest: 34 mins\nRe-Harvest: 20 mins",
   "shortdescription" : "Jalapeno Seeds",
   "floranDescription" : "Ssseedsss for jalapeno peppersss!",
   "glitchDescription" : "Identify. Jalapeno pepper seeds.",

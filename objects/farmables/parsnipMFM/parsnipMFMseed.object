@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Looks like a carrot.
-First Harvest: 26 mins
-Re-Harvest: None",
+  "description" : "Looks like a carrot.\nFirst Harvest: 26 mins\nRe-Harvest: None",
   "shortdescription" : "Parsnip Seeds",
   "floranDescription" : "Ssseeds for parsnip!",
   "glitchDescription" : "Identify. Parsnip seeds.",

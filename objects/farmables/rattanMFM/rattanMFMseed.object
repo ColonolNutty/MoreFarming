@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Used to make furniture.
-First Harvest: 34 mins
-Re-Harvest: 20 mins",
+  "description" : "Used to make furniture.\nFirst Harvest: 34 mins\nRe-Harvest: 20 mins",
   "shortdescription" : "Rattan Seeds",
   "apexDescription" : "This plant is fast growing and very pliable. Makes for very nice furniture.",
   "avianDescription" : "A plant grown by the Floran for resources.",

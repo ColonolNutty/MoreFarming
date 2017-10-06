@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Glows in the dark.
-First Harvest: 34 mins
-Re-Harvest: None",
+  "description" : "Glows in the dark.\nFirst Harvest: 34 mins\nRe-Harvest: None",
   "shortdescription" : "Shadowbulb Seeds",
   "apexDescription" : "A small glint in the darkness. Very symbolic.",
   "avianDescription" : "This plant gives off a faint light.",

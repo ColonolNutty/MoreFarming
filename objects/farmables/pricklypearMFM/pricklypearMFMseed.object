@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Hard to eat, but grows fast.
-First Harvest: 10 mins
-Re-Harvest: 6 mins",
+  "description" : "Hard to eat, but grows fast.\nFirst Harvest: 10 mins\nRe-Harvest: 6 mins",
   "shortdescription" : "Prickly Pear Seeds",
   "apexDescription" : "Prickly Pears make for good banana accompaniments. Aside from the pricklies of course.",
   "avianDescription" : "The leaves look like feathers, but they're nowhere near as soft.",

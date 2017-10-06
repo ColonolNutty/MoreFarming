@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Tastes like Parsnips.
-First Harvest: 52 mins
-Re-Harvest: 32 mins",
+  "description" : "Tastes like Parsnips.\nFirst Harvest: 52 mins\nRe-Harvest: 32 mins",
   "shortdescription" : "Palsterstick Seeds",
   "apexDescription" : "Does not taste that good, but Big Ape says it is healthy!",
   "avianDescription" : "Healthy stick.",

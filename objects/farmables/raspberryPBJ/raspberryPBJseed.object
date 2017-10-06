@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Sweet and tart.
-First Harvest: 34 mins
-Re-Harvest: 20 mins",
+  "description" : "Sweet and tart.\nFirst Harvest: 34 mins\nRe-Harvest: 20 mins",
   "shortdescription" : "Raspberry Seeds",
   "floranDescription" : "Ssseedsss for Rassspberriesss!",
   "glitchDescription" : "Identify. Raspberry seeds.",

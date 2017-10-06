@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "A relative of the cabbage.
-First Harvest: 45 mins
-Re-Harvest: 28 mins",
+  "description" : "A relative of the cabbage.\nFirst Harvest: 45 mins\nRe-Harvest: 28 mins",
   "shortdescription" : "Brussels Sprout Seeds",
   "floranDescription" : "Ssseedsss for brussel sssproutsss!",
   "glitchDescription" : "Identify. Brussel sprout seeds.",

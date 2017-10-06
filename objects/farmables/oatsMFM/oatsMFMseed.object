@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "A staple crop!
-First Harvest: 46 mins
-Re-Harvest: 28 mins",
+  "description" : "A staple crop!\nFirst Harvest: 46 mins\nRe-Harvest: 28 mins",
   "shortdescription" : "Oat Seeds",
   "apexDescription" : "Oats are unpleasant on their own, but can be used to make banana bread.",
   "avianDescription" : "Delicious on its own, or when used to make breadcrumbs.",

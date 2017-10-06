@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Is it a mushroom?
-First Harvest: 52 mins
-Re-Harvest: 32 mins",
+  "description" : "Is it a mushroom?\nFirst Harvest: 52 mins\nRe-Harvest: 32 mins",
   "shortdescription" : "Finkel Seed",
   "apexDescription" : "Reminds me of a mushroom.",
   "avianDescription" : "Small mushrooms growing on big trees.",

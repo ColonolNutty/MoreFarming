@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Blackberries they bruise easily.
-First Harvest: 34 mins
-Re-Harvest: 20 mins",
+  "description" : "Blackberries they bruise easily.\nFirst Harvest: 34 mins\nRe-Harvest: 20 mins",
   "shortdescription" : "Blackberry Seeds",
   "floranDescription" : "Ssseeds for blackberries!",
   "glitchDescription" : "Identify. Blackberry seeds.",

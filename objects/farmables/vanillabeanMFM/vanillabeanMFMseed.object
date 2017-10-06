@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Vanilla.
-First Harvest: 58 mins
-Re-Harvest: 34 mins",
+  "description" : "Vanilla.\nFirst Harvest: 58 mins\nRe-Harvest: 34 mins",
   "shortdescription" : "Vanilla Bean Seeds",
   "floranDescription" : "Ssseedsss for vanilla!",
   "glitchDescription" : "Identify. Vanilla beans.",

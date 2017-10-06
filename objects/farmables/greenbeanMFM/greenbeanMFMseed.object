@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Green beans.
-First Harvest: 24 mins
-Re-Harvest: 14 mins",
+  "description" : "Green beans.\nFirst Harvest: 24 mins\nRe-Harvest: 14 mins",
   "shortdescription" : "Green Bean Seeds",
   "floranDescription" : "Ssseeds for green beansss!",
   "glitchDescription" : "Identify. Green beans.",

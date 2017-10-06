@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Ripe Grapefruit.
-First Harvest: 26 mins
-Re-Harvest: 16 mins",
+  "description" : "Ripe Grapefruit.\nFirst Harvest: 26 mins\nRe-Harvest: 16 mins",
   "shortdescription" : "Grapefruit Seed",
   "floranDescription" : "Sssome grapefruitsss can grow from here.",
   "glitchDescription" : "Statement. Grapefruits grow from here.",

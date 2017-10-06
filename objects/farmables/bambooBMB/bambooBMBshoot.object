@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Fast growing Bamboo.
-First Harvest: 26 mins
-Re-Harvest: 16 mins",
+  "description" : "Fast growing Bamboo.\nFirst Harvest: 26 mins\nRe-Harvest: 16 mins",
   "shortdescription" : "Bamboo Shoot",
   "floranDescription" : "Sssharp sssticksss for ssstabbing!",
   "glitchDescription" : "Statement. Bamboo.",

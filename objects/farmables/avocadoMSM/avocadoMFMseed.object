@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Seeds for Avocados!
-First Harvest: 13 mins
-Re-Harvest: 8 mins",
+  "description" : "Seeds for Avocados!\nFirst Harvest: 13 mins\nRe-Harvest: 8 mins",
   "shortdescription" : "Avocado Seeds",
   "floranDescription" : "Ssseeds for avocadosss!",
   "glitchDescription" : "Identify. avocado seeds.",

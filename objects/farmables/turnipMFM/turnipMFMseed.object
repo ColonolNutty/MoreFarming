@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Turnip.
-First Harvest: 20 mins
-Re-Harvest: None",
+  "description" : "Turnip.\nFirst Harvest: 20 mins\nRe-Harvest: None",
   "shortdescription" : "Turnip Seeds",
   "floranDescription" : "Ssseeds for turnips!",
   "glitchDescription" : "Identify. Turnip seeds.",

@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Leafy greens.
-First Harvest: 42 mins
-Re-Harvest: 26 mins",
+  "description" : "Leafy greens.\nFirst Harvest: 42 mins\nRe-Harvest: 26 mins",
   "shortdescription" : "Lettuce Seeds",
   "floranDescription" : "Ssseedsss for green leavesss!",
   "glitchDescription" : "Identify. Lettuce seeds.",

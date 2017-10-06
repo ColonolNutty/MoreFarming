@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Seeds for Asparagus!
-First Harvest: 39 mins
-Re-Harvest: 24 mins",
+  "description" : "Seeds for Asparagus!\nFirst Harvest: 39 mins\nRe-Harvest: 24 mins",
   "shortdescription" : "Asparagus Seeds",
   "floranDescription" : "Ssseeds for asparagusss!",
   "glitchDescription" : "Identify. Asparagus seeds.",

@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "This tree produces Red Apples.
-First Harvest: 13 mins
-Re-Harvest: 8 mins",
+  "description" : "This tree produces Red Apples.\nFirst Harvest: 13 mins\nRe-Harvest: 8 mins",
   "shortdescription" : "Red Apple Seed",
   "floranDescription" : "Growsss ssshiny red applesss.",
   "glitchDescription" : "Statement. Red apples grow from here.",

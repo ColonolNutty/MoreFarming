@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Seeds for Artichokes!
-First Harvest: 52 mins
-Re-Harvest: 32 mins",
+  "description" : "Seeds for Artichokes!\nFirst Harvest: 52 mins\nRe-Harvest: 32 mins",
   "shortdescription" : "Artichoke Seeds",
   "floranDescription" : "Ssseeds for Artichokesss!",
   "glitchDescription" : "Identify. Artichoke seeds.",

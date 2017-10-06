@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Gelatinous jelon!
-First Harvest: 58 mins
-Re-Harvest: None",
+  "description" : "Gelatinous jelon!\nFirst Harvest: 58 mins\nRe-Harvest: None",
   "shortdescription" : "Jelon Seed",
   "apexDescription" : "A stolen experiment. The sweet taste rivals the rapid growth.",
   "avianDescription" : "A crop grown by some Apex in secret. Not so secret now it seems.",

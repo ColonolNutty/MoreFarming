@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Pitahaya Cactus.
-First Harvest: 20 mins
-Re-Harvest: 12 mins",
+  "description" : "Pitahaya Cactus.\nFirst Harvest: 20 mins\nRe-Harvest: 12 mins",
   "shortdescription" : "Dragonfruit Seeds",
   "floranDescription" : "Ssseedsss for dragonfruitsss!",
   "glitchDescription" : "Identify. Dragonfruit seeds.",

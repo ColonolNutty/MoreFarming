@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Good for eating, grows fast.
-First Harvest: 4 mins
-Re-Harvest: 3 mins",
+  "description" : "Good for eating, grows fast.\nFirst Harvest: 4 mins\nRe-Harvest: 3 mins",
   "shortdescription" : "Portobello Mushroom Spore",
   "apexDescription" : "Portobellos.",
   "avianDescription" : "Toadstools.",

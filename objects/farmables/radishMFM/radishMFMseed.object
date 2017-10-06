@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Red, looks like a beet.
-First Harvest: 20 mins
-Re-Harvest: None",
+  "description" : "Red, looks like a beet.\nFirst Harvest: 20 mins\nRe-Harvest: None",
   "shortdescription" : "Radish Seeds",
   "floranDescription" : "Ssseedsss for Radisssh!",
   "glitchDescription" : "Identify. Radish seeds.",

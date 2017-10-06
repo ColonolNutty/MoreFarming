@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Grows a cactus.
-First Harvest: 10 mins
-Re-Harvest: None",
+  "description" : "Grows a cactus.\nFirst Harvest: 10 mins\nRe-Harvest: None",
   "shortdescription" : "Saguaro Seed",
   "apexDescription" : "A foreign seed. Never seen one of these before.",
   "avianDescription" : "Tried pecking once. Did not taste good.",

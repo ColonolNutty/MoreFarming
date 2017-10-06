@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Grows Beets.
-First Harvest: 26 mins
-Re-Harvest: None",
+  "description" : "Grows Beets.\nFirst Harvest: 26 mins\nRe-Harvest: None",
   "shortdescription" : "Beet Seeds",
   "floranDescription" : "Ssseeds for beetss!",
   "glitchDescription" : "Identify. Beet seeds.",

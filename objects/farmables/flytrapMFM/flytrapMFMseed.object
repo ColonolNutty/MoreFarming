@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "A carnivorous plant seed!
-First Harvest: 40 mins
-Re-Harvest: None",
+  "description" : "A carnivorous plant seed!\nFirst Harvest: 40 mins\nRe-Harvest: None",
   "shortdescription" : "Fly Trap Seed",
   "apexDescription" : "This plant is just ripe for genetic experimentation!",
   "avianDescription" : "What bizarre alien planet did this come from?.",

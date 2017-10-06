@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Gre: 29 mins, Yel: 33 mins
-Ora: 36 mins, Red: 39 mins
-Re-Harvest: 18 mins",
+  "description" : "Gre: 29 mins, Yel: 33 mins\nOra: 36 mins, Red: 39 mins\nRe-Harvest: 18 mins",
   "shortdescription" : "Bell Pepper Seeds",
   "floranDescription" : "Ssseeds for bell peppersss!",
   "glitchDescription" : "Identify. Bell pepper seeds.",

@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Broccoli Sprouts.
-First Harvest: 39 mins
-Re-Harvest: None",
+  "description" : "Broccoli Sprouts.\nFirst Harvest: 39 mins\nRe-Harvest: None",
   "shortdescription" : "Broccoli Seeds",
   "floranDescription" : "Ssseeds for broccoli!",
   "glitchDescription" : "Identify. Broccoli seeds.",

@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Sweet peas, tiny.
-First Harvest: 10 mins
-Re-Harvest: 6 mins",
+  "description" : "Sweet peas, tiny.\nFirst Harvest: 10 mins\nRe-Harvest: 6 mins",
   "shortdescription" : "Pea Seeds",
   "floranDescription" : "Tiny plantsss?",
   "glitchDescription" : "Identify. Pea pods.",

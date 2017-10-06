@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "The worst plant imaginable.
-First Harvest: 4 mins
-Re-Harvest: 2 mins",
+  "description" : "The worst plant imaginable.\n First Harvest: 4 mins Re-Harvest: 2 mins",
   "shortdescription" : "Dungroot Seed",
   "apexDescription" : "Someone left something a little nasty here. It wasn't me, I swear!",
   "avianDescription" : "This is disgusting.",

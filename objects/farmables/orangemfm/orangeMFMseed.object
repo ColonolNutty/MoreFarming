@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Ripe oranges.
-First Harvest: 14 mins
-Re-Harvest: 8 mins",
+  "description" : "Ripe oranges.\nFirst Harvest: 14 mins\nRe-Harvest: 8 mins",
   "shortdescription" : "Orange Seed",
   "apexDescription" : "These oranges are very sour.",
   "avianDescription" : "Not easy to chew on, but the mixture of sweet and sour is worth it.",

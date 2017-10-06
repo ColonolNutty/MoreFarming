@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "An alien looking vegetable.
-First Harvest: 78 mins
-Re-Harvest: 46 mins",
+  "description" : "An alien looking vegetable.\nFirst Harvest: 78 mins\nRe-Harvest: 46 mins",
   "shortdescription" : "Eggplant Seeds",
   "inventoryIcon" : "eggplantMFMseedicon.png",
   "largeImage" : "eggplantMFMseed.png:default.default.default",

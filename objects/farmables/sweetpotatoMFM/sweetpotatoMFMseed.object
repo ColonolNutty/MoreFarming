@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Sweet yams.
-First Harvest: 56 mins
-Re-Harvest: 34 mins",
+  "description" : "Sweet yams.\nFirst Harvest: 56 mins\nRe-Harvest: 34 mins",
   "shortdescription" : "Sweet Potato Seeds",
   "apexDescription" : "Sweet Potatoes. Unremarkable.",
   "avianDescription" : "Mashed sweet potatoes make for a good dish.",

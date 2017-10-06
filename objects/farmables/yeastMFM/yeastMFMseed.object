@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Needs watering and tilled soil.
-First Harvest: 24 mins
-Re-Harvest: 14 mins",
+  "description" : "Needs watering and tilled soil.\nFirst Harvest: 24 mins\nRe-Harvest: 14 mins",
   "shortdescription" : "Yeast Jar",
   "apexDescription" : "Cultivating yeast. Seems to need water.",
   "avianDescription" : "Yeast in a jar. Needs watering",

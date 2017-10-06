@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Yellow and sour.
-First Harvest: 40 mins
-Re-Harvest: 24 mins",
+  "description" : "Yellow and sour.\nFirst Harvest: 40 mins\nRe-Harvest: 24 mins",
   "shortdescription" : "Lemon Seeds",
   "floranDescription" : "Thisss growsss lemonsss",
   "glitchDescription" : "Statement. Lemons grow from here.",

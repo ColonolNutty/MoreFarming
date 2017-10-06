@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Sugar Beets.
-First Harvest: 52 mins
-Re-Harvest: None",
+  "description" : "Sugar Beets.\nFirst Harvest: 52 mins\nRe-Harvest: None",
   "shortdescription" : "Sugar Beet Seeds",
   "floranDescription" : "Ssseedsss for sssugar beetsss!",
   "glitchDescription" : "Identify. Sugar Beet seeds.",

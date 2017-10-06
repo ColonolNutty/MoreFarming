@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "A tender plant.
-First Harvest: 20 mins
-Re-Harvest: 12 mins",
+  "description" : "A tender plant.\nFirst Harvest: 20 mins\nRe-Harvest: 12 mins",
   "shortdescription" : "Peanut Seeds",
   "floranDescription" : "Ssseeds for Peanuts!",
   "glitchDescription" : "Identify. Peanut seeds.",

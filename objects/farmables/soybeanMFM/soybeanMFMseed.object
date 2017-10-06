@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "It's soy! Oh boy!
-First Harvest: 30 mins
-Re-Harvest: 18 mins",
+  "description" : "It's soy! Oh boy!\nFirst Harvest: 30 mins\nRe-Harvest: 18 mins",
   "shortdescription" : "Soybean Seeds",
   "apexDescription" : "Contains a high amount of natural proteins.",
   "avianDescription" : "Well, it's better than nothing.",

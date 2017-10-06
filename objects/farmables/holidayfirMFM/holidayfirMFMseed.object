@@ -7,9 +7,7 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Grows golden fruit.
-First Harvest: 96 mins
-Re-Harvest: 58 mins",
+  "description" : "Grows golden fruit.\nFirst Harvest: 96 mins\nRe-Harvest: 58 mins",
   "shortdescription" : "Holiday Fir Seed",
   "apexDescription" : "This tree is deceptive. These fruits are golden and sweet, but are not bananas.",
   "avianDescription" : "Both festive and functional. Nice.",

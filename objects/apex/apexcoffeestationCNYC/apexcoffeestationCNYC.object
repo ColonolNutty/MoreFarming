@@ -15,12 +15,6 @@
    "image": "apexcoffeestationCNYC.png:default",
    "collision": "platform",
    "spaceScan": 0.1,
-   "anchors": ["bottom"]
-  },
-  {
-   "image": "apexcoffeestationCNYC.png:default",
-   "collision": "platform",
-   "spaceScan": 0.1,
    "anchors": ["left"]
   },
   {

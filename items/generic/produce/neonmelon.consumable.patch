@@ -22,7 +22,7 @@
     {
       "op" : "replace",
       "path" : "/description",
-      "value" : "A fully grown neon melon. Tastes like bubblegum."
+      "value" : "A fully grown Neonmelon. Tastes like bubblegum."
     },
     {
       "op" : "replace",

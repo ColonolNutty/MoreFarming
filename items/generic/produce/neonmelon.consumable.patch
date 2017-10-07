@@ -21,6 +21,11 @@
     },
     {
       "op" : "replace",
+      "path" : "/description",
+      "value" : "A fully grown neon melon. Tastes like bubblegum."
+    },
+    {
+      "op" : "replace",
       "path" : "/shortdescription",
       "value" : "Fully Grown Neonmelon"
     },

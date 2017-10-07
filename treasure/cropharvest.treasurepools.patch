@@ -722,17 +722,11 @@
     "op" : "add",
     "path" : "/neonmelonfullMFMHarvest",
     "value" : [ [0, {
-        "fill" : [
-          {"item" : "neonmelonseed"}
-        ],
         "pool" : [
-          {"weight" : 0.93, "item" : "choppedneonmelonMFM"},
-          {"weight" : 0.07, "item" : "neonmelonseed"}
+          {"weight" : 1, "item" : "neonmelon"}
         ],
         "poolRounds" : [
-          [0.42, 4],
-          [0.33, 5],
-          [0.25, 6]
+          [1.0, 1]
         ]
       } ]
     ]

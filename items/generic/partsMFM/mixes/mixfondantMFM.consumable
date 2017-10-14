@@ -14,12 +14,12 @@
       },
 
       {
-        "effect" : "maxenergyscalingboost",
+        "effect" : "maxenergyscalingboostfood",
         "duration" : 6
       },
 
       {
-        "effect" : "maxenergyscalingboostfood",
+        "effect" : "maxenergyscalingboost",
         "duration" : 6
       },
 

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "choppedblackberriesMFM", "count" : 1 },
+    { "item" : "choppedblueberriesMFM", "count" : 1 },
+    { "item" : "choppedraspberriesMFM", "count" : 1 },
+    { "item" : "sunflowerMFMseed", "count" : 1 }
+  ],
+  "output" : { "item" : "trailmixbasicMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

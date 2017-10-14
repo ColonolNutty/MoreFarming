@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "sunflowerMFMseed", "count" : 5 }
+  ],
+  "output" : { "item" : "cookingoilMFM", "count" : 1 },
+  "groups" : [ "pressingMFM" ]
+}

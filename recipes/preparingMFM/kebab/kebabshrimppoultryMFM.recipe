@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "roastedstripofpoultryMFM", "count" : 1 },
+    { "item" : "cookedshrimpMFM", "count" : 1 },
+    { "item" : "darkwoodmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "kebabshrimppoultryMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

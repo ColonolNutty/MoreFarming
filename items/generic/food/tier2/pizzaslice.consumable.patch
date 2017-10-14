@@ -45,10 +45,6 @@
             "duration" : 35
           },
           {
-            "effect" : "camouflage25",
-            "duration" : 0
-          },
-          {
             "effect" : "iceblock",
             "duration" : 10
           },

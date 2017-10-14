@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "breadcrumbsMFM", "count" : 2 },
+    { "item" : "cornsyrupMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 1 },
+    { "item" : "egg", "count" : 1 },
+    { "item" : "rawshrimpMFM", "count" : 3 },
+    { "item" : "cookingoilMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "shrimptempuraMFM", "count" : 1 },
+  "groups" : [ "fryingMFM" ]
+}

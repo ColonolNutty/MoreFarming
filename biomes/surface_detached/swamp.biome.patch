@@ -18,7 +18,8 @@
             [1, "wildparsnipMFMseed" ],
 						[1, "wildradishMFMseed"],
             [1, "wildraspberryPBJseed"],
-            [1, "wildreedBMBsprout" ]
+            [1, "wildreedBMBsprout" ],
+						[1, "wildsunflowerMFMseed"]
           ],
           "parameters" : {
             "startingStage" : 3

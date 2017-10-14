@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "portobellomushroomMFM", "count" : 10 }
+  ],
+  "output" : { "item" : "portobelloMFMseed", "count" : 1 },
+  "groups" : [ "germinatingMFM", "vegetableMFM" ]
+}

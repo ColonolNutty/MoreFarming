@@ -1,0 +1,26 @@
+{
+  "itemName" : "groundnutmegMFM",
+  "rarity" : "Common",
+  "price" : 14.7,
+  "category" : "food",
+  "tooltipKind" : "food",
+  "description" : "A pile of ground nutmeg.",
+  "shortdescription" : "Ground Nutmeg",
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
+        "effect" : "swimboost",
+        "duration" : 10
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 10
+      } ] ],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "groundnutmegMFM.png"
+}

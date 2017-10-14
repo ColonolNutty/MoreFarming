@@ -36,12 +36,12 @@
             "duration" : 12
           },
           {
-            "effect" : "maxenergyscalingboost",
-            "duration" : 12
-          },
-          {
             "effect" : "maxenergyscalingboostfood",
             "duration" : 6
+          },
+          {
+            "effect" : "maxenergyscalingboost",
+            "duration" : 12
           },
           {
             "effect" : "runboostfood",

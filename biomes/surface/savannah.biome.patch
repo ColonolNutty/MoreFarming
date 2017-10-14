@@ -52,7 +52,8 @@
 						[1, "wildpeaMFMseed"],
 						[1, "wildpeanutPBJseed"],
 						[1, "wildradishMFMseed"],
-						[1, "wildraspberryPBJseed"]
+						[1, "wildraspberryPBJseed"],
+						[1, "wildsunflowerMFMseed"]
 					],
 					"parameters" : {
 						"startingStage" : 3

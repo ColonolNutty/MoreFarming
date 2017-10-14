@@ -1,0 +1,21 @@
+{
+  "itemName" : "roastedsunflowerseedsMFM",
+  "rarity" : "Common",
+  "price" : 211.05,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "Crunchy roasted sunflower seeds. Mmm.",
+  "shortdescription" : "Roasted Sunflower Seeds",
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 20
+      } ] ],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "roastedsunflowerseedsMFM.png"
+}

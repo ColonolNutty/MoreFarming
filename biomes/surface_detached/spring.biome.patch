@@ -32,7 +32,8 @@
 						[1, "wildraspberryPBJseed"],
 						[1, "wildrutabagaMFMseed"],
 						[1, "wildstrawberryPBJseed"],
-						[1, "wildsugarbeetMFMseed"]
+						[1, "wildsugarbeetMFMseed"],
+						[1, "wildsunflowerMFMseed"]
 					],
 					"parameters" : {
 						"startingStage" : 3

@@ -895,7 +895,7 @@
           {"item" : "portobelloMFMseed"}
         ], 
         "pool" : [
-          {"weight" : 0.6, "item" : "shroom"},
+          {"weight" : 0.6, "item" : "portobellomushroomMFM"},
           {"weight" : 0.2, "item" : "portobelloMFMseed"}
         ],
         "poolRounds" : [
@@ -1190,6 +1190,21 @@
         "pool" : [
           {"weight" : 0.89, "item" : "sugarcaneBMB"},
           {"weight" : 0.01, "item" : "sugarcaneseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/sunflowerMFMHarvest",
+    "value" : [ [0, {
+        "pool" : [
+          {"weight" : 0.90, "item" : "sunflowerMFMseed"},
           {"weight" : 0.1, "item" : "plantfibre"}
         ],
         "poolRounds" : [

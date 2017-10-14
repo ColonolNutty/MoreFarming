@@ -1,0 +1,10 @@
+{
+  "itemName" : "portobellomushroomMFM",
+  "price" : 10,
+  "rarity" : "Uncommon",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "portobellomushroomMFM.png",
+  "description" : "A fungus grown for cooking.",
+  "shortdescription" : "Portobello Mushroom",
+  "maxStack" : 1000
+}

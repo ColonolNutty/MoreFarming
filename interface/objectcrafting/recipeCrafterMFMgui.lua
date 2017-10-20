@@ -9,5 +9,5 @@ function enableDebug()
   else
     sb.logInfo("Disabled")
   end
-  world.sendEntityMessage(pane.containerEntityId(), "enableDebug", toEnable)
+  world.sendEntityMessage(pane.containerEntityId(), "setEnableDebug", toEnable)
 end

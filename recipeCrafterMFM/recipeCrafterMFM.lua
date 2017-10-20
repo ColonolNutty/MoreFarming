@@ -18,15 +18,15 @@ function init(virtual)
     storage.outputSlot = 0
   end
   storage.timePassed = 0
-  storage.outputRecipe = nil
-  storage.outputPlacedSuccessfully = false
+  storage.previousRecipeName = nil
+  storage.heldIngredients = {}
   storage.craftSoundDelaySeconds = config.getParameter("craftSoundDelaySeconds", 10) -- In seconds
   storage.craftSoundIsPlaying = false
+  enableDebug = false
   storage.recipeGroup = config.getParameter("recipeGroup")
   storage.noRecipeBookGroup = storage.recipeGroup .. "NoRecipeBook"
   message.setHandler("makeMeal", RecipeCrafterMFMApi.makeMeal)
-  message.setHandler("enableDebug", RecipeCrafterMFMApi.enableDebug)
-  enableDebug = false
+  message.setHandler("setEnableDebug", RecipeCrafterMFMApi.setEnableDebug)
 end
 
 function update(dt)
@@ -34,32 +34,17 @@ function update(dt)
 end
 
 function die()
+  rcUtils.releaseIngredients()
 end
 
--------------------------------------------------------------------
+---------------------------------------------
 
-function RecipeCrafterMFMApi.enableDebug(id, name, newValue)
+function RecipeCrafterMFMApi.setEnableDebug(id, name, newValue)
   enableDebug = newValue or false
   if(enableDebug) then
     sb.logInfo("Toggled Debug On")
   else
     sb.logInfo("Toggled Debug Off")
-  end
-end
-
-function rcUtils.onCraft()
-  if animator.hasSound("onCraft") and not storage.craftSoundIsPlaying then
-    rcUtils.logDebug("Playing onCraft sounds")
-    storage.timePassed = 0
-    animator.playSound("onCraft")
-    storage.craftSoundIsPlaying = true
-  end
-end
-
-function rcUtils.stopCraftSound()
-  if (animator.hasSound("onCraft") and storage.craftSoundIsPlaying) then
-    animator.stopAllSounds("onCraft")
-    storage.craftSoundIsPlaying = false
   end
 end
 
@@ -71,11 +56,13 @@ function RecipeCrafterMFMApi.makeMeal()
   rcUtils.logDebug("Make Meal Called")
   if not rcUtils.shouldLookForRecipe() then
     rcUtils.logDebug("No Look")
+    isCrafting = false
     return
   end
   local ingredients = rcUtils.getIngredients()
   if ingredients == nil then
     rcUtils.logDebug("No Ingredients")
+    isCrafting = false
     return
   end
   local numberOfIngredients = 0
@@ -85,18 +72,18 @@ function RecipeCrafterMFMApi.makeMeal()
     end
   end
   if numberOfIngredients == 0 then
+    isCrafting = false
     return
   end
-  storage.outputRecipe = nil
-  storage.outputPlacedSuccessfully = false
+  storage.previousRecipeName = nil
   rcUtils.logDebug("Finding Output")
   rcUtils.onCraft()
   local outputRecipe = rcUtils.findOutput(ingredients)
   if outputRecipe then
-    rcUtils.updateOutputSlotWith(outputRecipe)
-    rcUtils.consumeIngredients()
     rcUtils.logDebug("Updating Output")
+    rcUtils.updateOutputSlotWith(outputRecipe)
   end
+  rcUtils.releaseIngredients()
   rcUtils.stopCraftSound()
   isCrafting = false
 end
@@ -104,41 +91,56 @@ end
 -------------------------------------------------------------------
 
 function rcUtils.updateOutputSlotWith(recipe)
-  storage.outputRecipe = recipe
+  local outputName = recipe.output.name
+  storage.previousRecipeName = outputName
+  rcUtils.holdIngredients(recipe)
   local existingOutput = world.containerItemAt(entity.id(), storage.outputSlot)
-  if not existingOutput or (existingOutput and existingOutput.name == recipe.output.name) then
-    local existingAmount = 0
-    if(existingOutput) then
-      existingAmount = existingOutput.count
-    end
-    local expectedNewAmount = recipe.output.count + existingAmount
-    local outputItem = {name = recipe.output.name, count = expectedNewAmount}
-    world.containerTakeAt(entity.id(), storage.outputSlot)
-    rcUtils.logDebug("New output count: " .. outputItem.count)
-    rcUtils.logRecipeDebug("Setting output item to: " .. outputItem.name .. " in slot " .. storage.outputSlot)
-    local leftoverOutput = world.containerItemApply(entity.id(), outputItem, storage.outputSlot)
-    if(leftoverOutput) then
-      local toSpawn = {name = leftoverOutput.name, count = 1}
-      world.spawnItem(leftoverOutput, object.position(), leftoverOutput.count)
-    end
-    local newOutput = world.containerItemAt(entity.id(), storage.outputSlot)
-    if newOutput == nil then
-      storage.outputPlacedSuccessfully = false
-    elseif newOutput.name == outputItem.name and newOutput.count == outputItem.count then
-      storage.outputPlacedSuccessfully = true
-    else
-      storage.outputPlacedSuccessfully = false
-    end
-    if not storage.outputPlacedSuccessfully then
-      if newOutput ~= nil then
-        rcUtils.logRecipeDebug("Output not successfully placed, item found instead: " .. newOutput.name)
-      else
-        rcUtils.logRecipeDebug("Output not successfully placed, and no item found at slot " .. storage.outputSlot)
-      end
-    end
-  else
-    rcUtils.logRecipeDebug("Could not place output because of existing item with name: " .. existingOutput.name .. " in slot " .. storage.outputSlot)
+  if existingOutput and (existingOutput.name ~= outputName) then
+    rcUtils.logRecipeDebug("Could not place output '" .. outputName .. "' because of existing item found with name: '" .. existingOutput.name .. "' in slot " .. storage.outputSlot)
+    return
   end
+  local existingAmount = 0
+  if(existingOutput) then
+    existingAmount = existingOutput.count
+  end
+  local expectedNewAmount = recipe.output.count + existingAmount
+  local outputItem = {name = outputName, count = expectedNewAmount}
+  rcUtils.logDebug("Placing output name: " .. outputItem.name .. " count: " .. outputItem.count .. " in slot " .. storage.outputSlot)
+  
+  local existing = world.containerTakeAt(entity.id(), storage.outputSlot)
+  world.containerPutItemsAt(entity.id(), existing, storage.outputSlot)
+  local leftoverOutput = world.containerSwapItems(entity.id(), recipe.output, storage.outputSlot)
+  local totalOutputCount = rcUtils.spawnLeftovers(leftoverOutput);
+  
+  local newOutput = world.containerItemAt(entity.id(), storage.outputSlot)
+  if(newOutput ~= nil) then
+    totalOutputCount = totalOutputCount + newOutput.count
+  end
+  if newOutput ~= nil and newOutput.name == outputItem.name and totalOutputCount == outputItem.count then
+    rcUtils.consumeIngredients()
+    return
+  end
+  
+  if newOutput ~= nil then
+    rcUtils.logDebug("Output not successfully placed, item found instead: " .. newOutput.name)
+  else
+    rcUtils.logDebug("Output not successfully placed, and no item found at slot " .. storage.outputSlot)
+  end
+  
+  rcUtils.releaseIngredients()
+end
+
+function rcUtils.spawnLeftovers(leftovers)
+  if(leftovers == nil or leftovers.count == 0) then
+    return 0
+  end
+  local toSpawn = {name = leftovers.name, count = 1}
+  rcUtils.logDebug("Spawning leftovers with name: " .. leftovers.name .. " and count: " .. leftovers.count)
+  local itemDropped = world.spawnItem(leftovers, object.position(), leftovers.count)
+  if(itemDropped == nil) then
+    return 0
+  end
+  return leftovers.count
 end
 
 function rcUtils.recipeCanBeCrafted(recipe)
@@ -169,18 +171,18 @@ function rcUtils.findRecipe(recipesForItem, ingredients)
 end
 
 function rcUtils.findOutput(ingredients)
-  local outputRecipe = nil
+  local foundOutput = nil
   for _,itemName in ipairs(storage.possibleOutputs) do
     local recipesForItem = root.recipesForItem(itemName)
     if recipesForItem ~= nil and #recipesForItem > 0 then
-      outputRecipe = rcUtils.findRecipe(recipesForItem, ingredients)
-      if outputRecipe then
-        rcUtils.logRecipeDebug("Found recipe with output name: " .. outputRecipe.output.name)
+      foundOutput = rcUtils.findRecipe(recipesForItem, ingredients)
+      if foundOutput then
+        rcUtils.logRecipeDebug("Found recipe with output name: " .. foundOutput.output.name)
         break;
       end
     end
   end
-  return outputRecipe
+  return foundOutput
 end
 
 function rcUtils.checkIngredientsMatchRecipe(recipe, ingredients)
@@ -239,19 +241,39 @@ function rcUtils.checkCraftSoundDelay(dt)
   end
 end
 
+function rcUtils.holdIngredients(outputRecipe)
+  rcUtils.releaseIngredients()
+  storage.heldIngredients = {}
+  rcUtils.logDebug("Holding ingredients")
+  local containerId = entity.id()
+  for _,input in ipairs(outputRecipe.input) do
+    rcUtils.logDebug("Holding ingredient with name: " .. input.name .. " and count: " .. input.count)
+    if(world.containerConsume(containerId, input)) then
+      table.insert(storage.heldIngredients, input)
+    end
+  end
+end
+
+function rcUtils.releaseIngredients()
+  if(storage.heldIngredients == nil) then
+    return false
+  end
+  rcUtils.logDebug("Releasing ingredients")
+  local containerId = entity.id()
+  for _,input in ipairs(storage.heldIngredients) do
+    rcUtils.logDebug("Releasing ingredient with name: " .. input.name .. " and count: " .. input.count)
+    local leftovers = world.containerAddItems(containerId, input)
+    rcUtils.spawnLeftovers(leftovers)
+  end
+  storage.heldIngredients = nil
+end
+
 function rcUtils.consumeIngredients()
-  if storage.outputRecipe == nil or not storage.outputPlacedSuccessfully then
-    return
+  if(storage.heldIngredients == nil) then
+    return false
   end
-  rcUtils.logRecipeDebug("Consuming ingredients for recipe with output: " .. storage.outputRecipe.output.name)
-  for _,input in ipairs(storage.outputRecipe.input) do
-    rcUtils.logDebug("Consuming ingredient with name: " .. input.name)
-    world.containerConsume(entity.id(), input)
-  end
-  rcUtils.onCraft()
-  storage.outputRecipe = nil
-  storage.outputPlacedSuccessfully = false
-  return
+  rcUtils.logDebug("Consuming ingredients")
+  storage.heldIngredients = nil
 end
 
 function rcUtils.getIngredients()
@@ -268,50 +290,28 @@ function rcUtils.getIngredients()
   return uniqueIngredients
 end
 
-function rcUtils.removeOutput()
-  -- Find existing output
-  local outputSlotItem = world.containerItemAt(entity.id(), storage.outputSlot)
-  if not outputSlotItem then
-    storage.outputRecipe = nil
-    storage.outputPlacedSuccessfully = false
-    return
-  end
-  
-  if storage.outputRecipe then
-    local outputItem = storage.outputRecipe.output
-    -- If the item in the output is the same as the one we placed
-    -- then we remove the amount we placed and spit the rest out of the machine
-    if outputSlotItem.name == outputItem.name then
-      world.containerConsumeAt(entity.id(), storage.outputSlot, outputItem.count)
-    end
-  end
-  -- If output still exists, we ignore it and prevent adding new output
-  storage.outputRecipe = nil
-  storage.outputPlacedSuccessfully = false
-end
-
-function rcUtils.validateCurrentRecipe(recipe, ingredients)
-  if recipe == nil or ingredients == nil then
-    return false
-  end
-  return rcUtils.checkIngredientsMatchRecipe(recipe, ingredients)
-end
-
 function rcUtils.shouldLookForRecipe()
   local outputSlotItem = world.containerItemAt(entity.id(), storage.outputSlot)
-  if outputSlotItem == nil then
-    return true
-  end
-  if storage.outputRecipe == nil then
-    return true
-  end
-  local outputRecipeOutput = storage.outputRecipe.output
-  if outputRecipeOutput.name == outputSlotItem.name and outputRecipeOutput.count == outputSlotItem.count then
-    return true
-  end
-  return false
+  return outputSlotItem == nil or storage.previousRecipeName == nil or storage.previousRecipeName == outputSlotItem.name
 end
 
+function rcUtils.onCraft()
+  if animator.hasSound("onCraft") and not storage.craftSoundIsPlaying then
+    rcUtils.logDebug("Playing onCraft sounds")
+    storage.timePassed = 0
+    animator.playSound("onCraft")
+    storage.craftSoundIsPlaying = true
+  end
+end
+
+function rcUtils.stopCraftSound()
+  if (animator.hasSound("onCraft") and storage.craftSoundIsPlaying) then
+    animator.stopAllSounds("onCraft")
+    storage.craftSoundIsPlaying = false
+  end
+end
+
+--------------------------------------------------------------------------------
 
 function rcUtils.logRecipeDebug(msg)
   if(enableRecipeGroupDebug) then

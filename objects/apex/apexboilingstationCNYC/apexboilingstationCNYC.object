@@ -10,7 +10,6 @@
   "anchors": ["bottom"]
  }],
  "description": "A giant pot for boiling!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
  "flickerMaxIntensity": 0.3,
  "objectType": "container",
  "price": 412.05,
@@ -33,12 +32,13 @@
  ],
  "openSounds": ["/sfx/objects/campfire_use.ogg"],
  "printable": false,
- "frameCooldown": 67,
+ "frameCooldown": 5,
  "subtitle": "Blend Food!",
  "objectName": "apexboilingstationCNYC",
  "inventoryIcon": "apexboilingstationCNYCicon.png",
  "category": "Apex Cookware",
  "flickerIntensityVariance": 0.025,
  "scriptDelta": 1,
- "rarity": "Common"
+ "rarity": "Common",
+ "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config"
 }

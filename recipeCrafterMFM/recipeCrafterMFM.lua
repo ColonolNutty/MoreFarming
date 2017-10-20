@@ -1,9 +1,8 @@
 RecipeCrafterMFMApi = {};
 local rcUtils = {};
-local ingredientsChanged = false;
-local isExpectingOutputChange = false;
-local enableDebug = false;
 local enableRecipeGroupDebug = false;
+local isCrafting = false
+local enableDebug = false
 
 function init(virtual)
   local outputConfigPath = config.getParameter("outputConfig")
@@ -25,32 +24,59 @@ function init(virtual)
   storage.craftSoundIsPlaying = false
   storage.recipeGroup = config.getParameter("recipeGroup")
   storage.noRecipeBookGroup = storage.recipeGroup .. "NoRecipeBook"
-  ingredientsChanged = true
+  message.setHandler("makeMeal", RecipeCrafterMFMApi.makeMeal)
+  message.setHandler("enableDebug", RecipeCrafterMFMApi.enableDebug)
+  enableDebug = false
 end
 
 function update(dt)
-  if(not ingredientsChanged) then
+  rcUtils.checkCraftSoundDelay(dt)
+end
+
+function die()
+end
+
+-------------------------------------------------------------------
+
+function RecipeCrafterMFMApi.enableDebug(id, name, newValue)
+  enableDebug = newValue or false
+  if(enableDebug) then
+    sb.logInfo("Toggled Debug On")
+  else
+    sb.logInfo("Toggled Debug Off")
+  end
+end
+
+function rcUtils.onCraft()
+  if animator.hasSound("onCraft") and not storage.craftSoundIsPlaying then
+    rcUtils.logDebug("Playing onCraft sounds")
+    storage.timePassed = 0
+    animator.playSound("onCraft")
+    storage.craftSoundIsPlaying = true
+  end
+end
+
+function rcUtils.stopCraftSound()
+  if (animator.hasSound("onCraft") and storage.craftSoundIsPlaying) then
+    animator.stopAllSounds("onCraft")
+    storage.craftSoundIsPlaying = false
+  end
+end
+
+function RecipeCrafterMFMApi.makeMeal()
+  if (isCrafting) then
     return
   end
-  rcUtils.logDebug("Change")
-  ingredientsChanged = false
-  isExpectingOutputChange = true
-  rcUtils.checkCraftSoundDelay(dt)
-  rcUtils.consumeIngredientsIfOutputTaken()
+  isCrafting = true
+  rcUtils.logDebug("Make Meal Called")
   if not rcUtils.shouldLookForRecipe() then
     rcUtils.logDebug("No Look")
-    isExpectingOutputChange = false
     return
   end
   local ingredients = rcUtils.getIngredients()
   if ingredients == nil then
     rcUtils.logDebug("No Ingredients")
-    isExpectingOutputChange = false
     return
-  end
-  if not rcUtils.validateCurrentRecipe(storage.outputRecipe, ingredients) then
-    rcUtils.logDebug("Removing Output")
-    rcUtils.removeOutput()
   end
   local numberOfIngredients = 0
   for slot,item in pairs(ingredients) do
@@ -58,32 +84,21 @@ function update(dt)
       numberOfIngredients = numberOfIngredients + 1
     end
   end
-  if numberOfIngredients > 0 then
-    rcUtils.logDebug("Finding Output")
-    local outputRecipe = rcUtils.findOutput(ingredients)
-    if outputRecipe then
+  if numberOfIngredients == 0 then
+    return
+  end
+  storage.outputRecipe = nil
+  storage.outputPlacedSuccessfully = false
+  rcUtils.logDebug("Finding Output")
+  rcUtils.onCraft()
+  local outputRecipe = rcUtils.findOutput(ingredients)
+  if outputRecipe then
+    rcUtils.updateOutputSlotWith(outputRecipe)
+    rcUtils.consumeIngredients()
     rcUtils.logDebug("Updating Output")
-      rcUtils.updateOutputSlotWith(outputRecipe)
-    else
-      rcUtils.removeOutput()
-    end
-  else
-    rcUtils.removeOutput()
   end
-  isExpectingOutputChange = false
-end
-
-function die()
-  rcUtils.removeOutput()
-end
-
--------------------------------------------------------------------
-
-function containerCallback()
-  if(not isExpectingOutputChange) then
-    ingredientsChanged = true
-    rcUtils.logDebug("Ingredients changed")
-  end
+  rcUtils.stopCraftSound()
+  isCrafting = false
 end
 
 -------------------------------------------------------------------
@@ -91,13 +106,25 @@ end
 function rcUtils.updateOutputSlotWith(recipe)
   storage.outputRecipe = recipe
   local existingOutput = world.containerItemAt(entity.id(), storage.outputSlot)
-  if not existingOutput then
-    rcUtils.logRecipeDebug("Setting output item to: " .. storage.outputRecipe.output.name .. " in slot " .. storage.outputSlot)
-    world.containerPutItemsAt(entity.id(), storage.outputRecipe.output, storage.outputSlot)
+  if not existingOutput or (existingOutput and existingOutput.name == recipe.output.name) then
+    local existingAmount = 0
+    if(existingOutput) then
+      existingAmount = existingOutput.count
+    end
+    local expectedNewAmount = recipe.output.count + existingAmount
+    local outputItem = {name = recipe.output.name, count = expectedNewAmount}
+    world.containerTakeAt(entity.id(), storage.outputSlot)
+    rcUtils.logDebug("New output count: " .. outputItem.count)
+    rcUtils.logRecipeDebug("Setting output item to: " .. outputItem.name .. " in slot " .. storage.outputSlot)
+    local leftoverOutput = world.containerItemApply(entity.id(), outputItem, storage.outputSlot)
+    if(leftoverOutput) then
+      local toSpawn = {name = leftoverOutput.name, count = 1}
+      world.spawnItem(leftoverOutput, object.position(), leftoverOutput.count)
+    end
     local newOutput = world.containerItemAt(entity.id(), storage.outputSlot)
     if newOutput == nil then
       storage.outputPlacedSuccessfully = false
-    elseif newOutput.name == storage.outputRecipe.output.name then
+    elseif newOutput.name == outputItem.name and newOutput.count == outputItem.count then
       storage.outputPlacedSuccessfully = true
     else
       storage.outputPlacedSuccessfully = false
@@ -212,26 +239,19 @@ function rcUtils.checkCraftSoundDelay(dt)
   end
 end
 
-function rcUtils.consumeIngredientsIfOutputTaken()
+function rcUtils.consumeIngredients()
   if storage.outputRecipe == nil or not storage.outputPlacedSuccessfully then
     return
   end
-  local outputSlotItem = world.containerItemAt(entity.id(), storage.outputSlot)
-  if outputSlotItem == nil then
-    rcUtils.logRecipeDebug("Consuming ingredients for recipe with output: " .. storage.outputRecipe.output.name)
-    for _,input in ipairs(storage.outputRecipe.input) do
-      rcUtils.logDebug("Consuming ingredient with name: " .. input.name)
-      world.containerConsume(entity.id(), input)
-    end
-    rcUtils.onCraft()
-    storage.outputRecipe = nil
-    storage.outputPlacedSuccessfully = false
-    return
+  rcUtils.logRecipeDebug("Consuming ingredients for recipe with output: " .. storage.outputRecipe.output.name)
+  for _,input in ipairs(storage.outputRecipe.input) do
+    rcUtils.logDebug("Consuming ingredient with name: " .. input.name)
+    world.containerConsume(entity.id(), input)
   end
-  local recipeOutput = storage.outputRecipe.output
-  if outputSlotItem.name == recipeOutput.name and outputSlotItem.count == recipeOutput.count then
-    return
-  end
+  rcUtils.onCraft()
+  storage.outputRecipe = nil
+  storage.outputPlacedSuccessfully = false
+  return
 end
 
 function rcUtils.getIngredients()
@@ -292,14 +312,6 @@ function rcUtils.shouldLookForRecipe()
   return false
 end
 
-function rcUtils.onCraft()
-  if animator.hasSound("onCraft") and not storage.craftSoundIsPlaying then
-    rcUtils.logDebug("Playing onCraft sounds")
-    storage.timePassed = 0
-    animator.playSound("onCraft")
-    storage.craftSoundIsPlaying = true
-  end
-end
 
 function rcUtils.logRecipeDebug(msg)
   if(enableRecipeGroupDebug) then

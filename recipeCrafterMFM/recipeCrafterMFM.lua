@@ -25,6 +25,7 @@ function init(virtual)
   enableDebug = false
   storage.recipeGroup = config.getParameter("recipeGroup")
   storage.noRecipeBookGroup = storage.recipeGroup .. "NoRecipeBook"
+  storage.isRefridgerated = config.getParameter("itemAgeMultiplier", 5) == 0
   message.setHandler("makeMeal", RecipeCrafterMFMApi.makeMeal)
   message.setHandler("setEnableDebug", RecipeCrafterMFMApi.setEnableDebug)
 end
@@ -81,7 +82,7 @@ function RecipeCrafterMFMApi.makeMeal()
   local outputRecipe = rcUtils.findOutput(ingredients)
   if outputRecipe then
     rcUtils.logDebug("Updating Output")
-    rcUtils.updateOutputSlotWith(outputRecipe)
+    rcUtils.craftWithRecipe(outputRecipe)
   end
   rcUtils.releaseIngredients()
   rcUtils.stopCraftSound()
@@ -90,7 +91,7 @@ end
 
 -------------------------------------------------------------------
 
-function rcUtils.updateOutputSlotWith(recipe)
+function rcUtils.craftWithRecipe(recipe)
   local outputName = recipe.output.name
   storage.previousRecipeName = outputName
   rcUtils.holdIngredients(recipe)
@@ -99,17 +100,15 @@ function rcUtils.updateOutputSlotWith(recipe)
     rcUtils.logRecipeDebug("Could not place output '" .. outputName .. "' because of existing item found with name: '" .. existingOutput.name .. "' in slot " .. storage.outputSlot)
     return
   end
+  
   local existingAmount = 0
   if(existingOutput) then
     existingAmount = existingOutput.count
   end
   local expectedNewAmount = recipe.output.count + existingAmount
   local outputItem = {name = outputName, count = expectedNewAmount}
-  rcUtils.logDebug("Placing output name: " .. outputItem.name .. " count: " .. outputItem.count .. " in slot " .. storage.outputSlot)
   
-  local existing = world.containerTakeAt(entity.id(), storage.outputSlot)
-  world.containerPutItemsAt(entity.id(), existing, storage.outputSlot)
-  local leftoverOutput = world.containerSwapItems(entity.id(), recipe.output, storage.outputSlot)
+  local leftoverOutput = rcUtils.setOutputItem(recipe, outputItem)
   local totalOutputCount = rcUtils.spawnLeftovers(leftoverOutput);
   
   local newOutput = world.containerItemAt(entity.id(), storage.outputSlot)
@@ -128,6 +127,34 @@ function rcUtils.updateOutputSlotWith(recipe)
   end
   
   rcUtils.releaseIngredients()
+end
+
+-- Returns leftover output
+function rcUtils.setOutputItem(recipe, outputItem)
+  ---if(storage.isRefridgerated) then
+  ---  rcUtils.logDebug("Attempting to stack output")
+   
+  ---  return world.containerItemApply(entity.id(), recipe.output, storage.outputSlot)
+  ---else
+    rcUtils.logDebug("Attempting to replace output")
+    if(outputItem == nil) then
+      return
+    end
+    rcUtils.logDebug("Placing output name: " .. outputItem.name .. " count: " .. outputItem.count .. " in slot " .. storage.outputSlot)
+    world.containerTakeAt(entity.id(), storage.outputSlot)
+    
+    local leftovers = world.containerPutItemsAt(entity.id(), outputItem, storage.outputSlot)
+    local newOutput = world.containerItemAt(entity.id(), storage.outputSlot)
+    local totalLeftovers = 0
+    if(leftovers) then
+      if(leftovers.name == outputItem.name and leftovers.count == outputItem.count) then
+        totalLeftovers = leftovers.count - newOutput.count
+      end
+    else
+      totalLeftovers = outputItem.count - newOutput.count
+    end
+    return { name = outputItem.name, count = totalLeftovers }
+  ---end
 end
 
 function rcUtils.spawnLeftovers(leftovers)

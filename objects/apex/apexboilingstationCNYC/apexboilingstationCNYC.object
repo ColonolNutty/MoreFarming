@@ -40,5 +40,6 @@
  "flickerIntensityVariance": 0.025,
  "scriptDelta": 1,
  "rarity": "Common",
- "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config"
+ "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+ "itemAgeMultiplier": 0
 }

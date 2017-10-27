@@ -50,30 +50,25 @@ function RecipeCrafterMFMApi.setEnableDebug(id, name, newValue)
 end
 
 function RecipeCrafterMFMApi.makeMeal()
-  if (isCrafting) then
+  rcUtils.logDebug("Make Meal Called")
+  if(isCrafting) then
     return
   end
   isCrafting = true
-  rcUtils.logDebug("Make Meal Called")
+  rcUtils.startCrafting()
+  isCrafting = false
+end
+
+-------------------------------------------------------------------
+
+function rcUtils.startCrafting()
   if not rcUtils.shouldLookForRecipe() then
     rcUtils.logDebug("No Look")
-    isCrafting = false
     return
   end
   local ingredients = rcUtils.getIngredients()
-  if ingredients == nil then
+  if ingredients == nil or rcUtils.hasNoIngredients(ingredients) then
     rcUtils.logDebug("No Ingredients")
-    isCrafting = false
-    return
-  end
-  local numberOfIngredients = 0
-  for slot,item in pairs(ingredients) do
-    if slot ~= storage.outputSlot + 1 then
-      numberOfIngredients = numberOfIngredients + 1
-    end
-  end
-  if numberOfIngredients == 0 then
-    isCrafting = false
     return
   end
   storage.previousRecipeName = nil
@@ -86,10 +81,7 @@ function RecipeCrafterMFMApi.makeMeal()
   end
   rcUtils.releaseIngredients()
   rcUtils.stopCraftSound()
-  isCrafting = false
 end
-
--------------------------------------------------------------------
 
 function rcUtils.craftWithRecipe(recipe)
   local outputName = recipe.output.name
@@ -320,6 +312,16 @@ end
 function rcUtils.shouldLookForRecipe()
   local outputSlotItem = world.containerItemAt(entity.id(), storage.outputSlot)
   return outputSlotItem == nil or storage.previousRecipeName == nil or storage.previousRecipeName == outputSlotItem.name
+end
+
+function rcUtils.hasNoIngredients(ingredients)
+  local numberOfIngredients = 0
+  for slot,item in pairs(ingredients) do
+    if slot ~= storage.outputSlot + 1 then
+      numberOfIngredients = numberOfIngredients + 1
+    end
+  end
+  return numberOfIngredients == 0
 end
 
 function rcUtils.onCraft()

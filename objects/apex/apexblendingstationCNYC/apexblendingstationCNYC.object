@@ -40,6 +40,5 @@
  "category": "Apex Cookware",
  "flickerIntensityVariance": 0.025,
  "scriptDelta": 1,
- "rarity": "Common",
- "itemAgeMultiplier": 0
+ "rarity": "Common"
 }

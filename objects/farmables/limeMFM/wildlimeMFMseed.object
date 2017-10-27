@@ -1,52 +1,48 @@
 {
   "objectName" : "wildlimeMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 10.0,
   "category" : "seed",
-  "price" : 10,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Green fruit, is it ripe?",
   "shortdescription" : "Wild Lime Seeds",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "floranDescription" : "Thisss growsss limesss",
   "glitchDescription" : "Statement. Limes grow from here.",
   "humanDescription" : "The juice is good in many dishes",
-
   "inventoryIcon" : "limeMFMseedicon.png",
   "largeImage" : "limeMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "limeMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [600, 600]
+      "duration" : [ 600, 600 ]
     },
+
     {
-      "duration" : [960, 960]
+      "duration" : [ 960, 960 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "limeMFMHarvest",
       "resetToStage" : 1
-    }
-  ],
+    } ],
   "maxImmersion" : 0.8,
+  "breakDropOptions" : [ [ [ "limeMFMseed", 1, 
+        {
 
-  "breakDropOptions" : [
-    [ [ "limeMFMseed", 1, { } ] ]
-  ]
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

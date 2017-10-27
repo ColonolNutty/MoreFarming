@@ -4,7 +4,7 @@
   "price" : 101.6,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A shell for making pie.",
+  "description" : "(BAKE):-} A shell for making pie.",
   "shortdescription" : "Dough - Pie Shell",
   "foodValue" : 14.61,
   "effects" : [ [ 

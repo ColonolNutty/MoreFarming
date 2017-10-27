@@ -1,74 +1,74 @@
 {
   "objectName" : "wildbellpepperMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 15.0,
   "category" : "seed",
-  "price" : 15,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "The color changing vegetable!",
   "shortdescription" : "Wild Bell Pepper Seeds",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "floranDescription" : "Ssseeds for bell peppersss!",
   "glitchDescription" : "Identify. Bell pepper seeds.",
   "humanDescription" : "So many colors!",
-
   "inventoryIcon" : "bellpepperMFMseedicon.png",
   "largeImage" : "bellpepperMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "bellpepperMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [360, 360]
+      "duration" : [ 360, 360 ]
     },
+
     {
-      "duration" : [360, 360]
+      "duration" : [ 360, 360 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [1080, 1080]
+      "duration" : [ 1080, 1080 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [240, 240],
+      "duration" : [ 240, 240 ],
       "harvestPool" : "greenbellpepperMFMHarvest",
       "resetToStage" : 2
     },
+
     {
       "alts" : 5,
-      "duration" : [180, 180],
+      "duration" : [ 180, 180 ],
       "harvestPool" : "yellowbellpepperMFMHarvest",
       "resetToStage" : 2
     },
+
     {
       "alts" : 5,
-      "duration" : [180, 180],
+      "duration" : [ 180, 180 ],
       "harvestPool" : "orangebellpepperMFMHarvest",
       "resetToStage" : 2
     },
+
     {
       "alts" : 5,
       "harvestPool" : "redbellpepperMFMHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25,
-  
-  "breakDropOptions" : [
-    [ [ "bellpepperMFMseed", 1, { } ] ]
-  ]
+  "breakDropOptions" : [ [ [ "bellpepperMFMseed", 1, 
+        {
+
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

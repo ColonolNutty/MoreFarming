@@ -4,7 +4,7 @@
   "price" : 63.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A moderately cooked Floran Fly Trap steak. I think I just saw it move!",
+  "description" : "(BAKE):-} A moderately cooked Floran Fly Trap steak. I think I just saw it move!",
   "shortdescription" : "Baked Floran Fly Trap Meat",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

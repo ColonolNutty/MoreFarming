@@ -4,7 +4,7 @@
   "price" : 496.55,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "A pie shell filled with butterscotch ingredients and cinnamon. Ready for baking.",
+  "description" : "(PREP):-} A pie shell filled with butterscotch ingredients and cinnamon. Ready for baking.",
   "shortdescription" : "Pie Unf.- Butterscotch",
   "foodValue" : 76.87,
   "effects" : [ [ 

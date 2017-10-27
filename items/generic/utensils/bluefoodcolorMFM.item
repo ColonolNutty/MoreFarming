@@ -1,10 +1,10 @@
 {
   "itemName" : "bluefoodcolorMFM",
-  "price" : 25.25,
   "rarity" : "Common",
+  "price" : 25.25,
   "category" : "craftingMaterial",
-  "inventoryIcon" : "bluefoodcolorMFM.png",
-  "description" : "Blue Food Coloring. I can color foods Blue with this.",
+  "description" : "(BLEND):-} Blue Food Coloring. I can color foods Blue with this.",
   "shortdescription" : "Food Coloring - Blue",
+  "inventoryIcon" : "bluefoodcolorMFM.png",
   "itemTags" : [ "reagent" ]
 }

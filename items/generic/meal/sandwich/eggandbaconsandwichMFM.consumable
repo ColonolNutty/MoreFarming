@@ -4,7 +4,7 @@
   "price" : 225.38,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A breakfast sandwich with bacon and eggs.",
+  "description" : "(PREP):-} A breakfast sandwich with bacon and eggs.",
   "shortdescription" : "Sandwich - Bacon and Egg",
   "foodValue" : 49.77,
   "effects" : [ [ 

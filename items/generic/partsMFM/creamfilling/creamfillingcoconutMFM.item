@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 359.44,
   "category" : "cookingIngredient",
-  "description" : "Coconut flavoured cream filling.",
+  "description" : "(BOIL):-} Coconut flavoured cream filling.",
   "shortdescription" : "Cream Filling - Coconut",
   "maxStack" : 1000,
   "inventoryIcon" : "creamfillingcoconutMFM.png"

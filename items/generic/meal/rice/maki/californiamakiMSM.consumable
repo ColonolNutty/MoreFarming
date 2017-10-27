@@ -4,7 +4,7 @@
   "price" : 395.22,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Chopped cucumber, lemon juice, and raw fish packed in a rice ball.",
+  "description" : "(PREP):-} Chopped cucumber, lemon juice, and raw fish packed in a rice ball.",
   "shortdescription" : "Maki - California",
   "foodValue" : 86.66,
   "effects" : [ [ 

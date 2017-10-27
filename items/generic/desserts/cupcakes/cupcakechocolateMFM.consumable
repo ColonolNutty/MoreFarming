@@ -4,7 +4,7 @@
   "price" : 397.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A cupcake with chocolate icing.",
+  "description" : "(PREP):-} A cupcake with chocolate icing.",
   "shortdescription" : "Cupcake - Chocolate",
   "foodValue" : 66.17,
   "effects" : [ [ 

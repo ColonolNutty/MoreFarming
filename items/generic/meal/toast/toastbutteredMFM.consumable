@@ -4,7 +4,7 @@
   "price" : 18.9,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Hot buttered toast.",
+  "description" : "(PREP):-} Hot buttered toast.",
   "shortdescription" : "Toast - Buttered",
   "foodValue" : 10.0,
   "effects" : [ [ 

@@ -1,9 +1,9 @@
 {
   "itemName" : "stewedapplesMFM",
   "rarity" : "Common",
-  "price" : 142.34,
+  "price" : 107.91,
   "category" : "cookingIngredient",
-  "description" : "Sweet stewed apples. Smells amazing!",
+  "description" : "(BOIL):-} Sweet stewed apples. Smells amazing!",
   "shortdescription" : "Stewed Apples",
   "maxStack" : 1000,
   "inventoryIcon" : "stewedapplesMFM.png"

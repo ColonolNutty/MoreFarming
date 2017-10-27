@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 296.89,
   "category" : "cookingIngredient",
-  "description" : "Raw rib meat drenched in syrup. Ready for baking.",
+  "description" : "(PREP):-} Raw rib meat drenched in syrup. Ready for baking.",
   "shortdescription" : "Raw Basted Rib Meat",
   "maxStack" : 1000,
   "inventoryIcon" : "rawbastedribmeatMFM.png"

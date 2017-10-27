@@ -4,7 +4,7 @@
   "price" : 569.8,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Butterscotch pie with a hint of cinnamon, tastes better with the whipped cream.",
+  "description" : "(BAKE):-} Butterscotch pie with a hint of cinnamon, tastes better with the whipped cream.",
   "shortdescription" : "Pie - Butterscotch",
   "foodValue" : 85.73,
   "effects" : [ [ 

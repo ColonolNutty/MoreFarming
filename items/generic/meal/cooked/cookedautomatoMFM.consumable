@@ -4,7 +4,7 @@
   "price" : 88.2,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "The screws add to the crunch.",
+  "description" : "(BAKE):-} The screws add to the crunch.",
   "shortdescription" : "Baked Automato",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

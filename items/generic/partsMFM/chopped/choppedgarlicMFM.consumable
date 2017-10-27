@@ -4,7 +4,7 @@
   "price" : 31.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled, and chopped garlic.",
+  "description" : "(CHOP):-} Washed, peeled, and chopped garlic.",
   "shortdescription" : "Chopped Garlic",
   "foodValue" : 10.5,
   "effects" : [ [ 

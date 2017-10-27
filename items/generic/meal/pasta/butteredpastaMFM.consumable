@@ -4,7 +4,7 @@
   "price" : 26.82,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Pasta with butter.",
+  "description" : "(BOIL):-} Pasta with butter.",
   "shortdescription" : "Pasta - Buttered",
   "foodValue" : 10.0,
   "effects" : [ [ 

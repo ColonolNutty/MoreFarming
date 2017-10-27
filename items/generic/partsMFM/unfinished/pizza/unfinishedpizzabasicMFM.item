@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 334.48,
   "category" : "cookingIngredient",
-  "description" : "A basic pizza. Ready for baking.",
+  "description" : "(PREP):-} A basic pizza. Ready for baking.",
   "shortdescription" : "Pizza Unfinished - Basic",
   "maxStack" : 1000,
   "inventoryIcon" : "unfinishedpizzabasicMFM.png"

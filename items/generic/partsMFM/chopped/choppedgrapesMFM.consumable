@@ -4,7 +4,7 @@
   "price" : 126.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped grapes.",
+  "description" : "(CHOP):-} Washed and chopped grapes.",
   "shortdescription" : "Chopped Grapes",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

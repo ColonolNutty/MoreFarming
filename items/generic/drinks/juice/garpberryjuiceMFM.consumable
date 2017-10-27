@@ -4,7 +4,7 @@
   "price" : 88.2,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Garpberry juice! It has a mildly juciey flavor.",
+  "description" : "(BLEND):-} Garpberry juice! It has a mildly juciey flavor.",
   "shortdescription" : "Juice - Garpberry",
   "foodValue" : 11.03,
   "effects" : [ [ 

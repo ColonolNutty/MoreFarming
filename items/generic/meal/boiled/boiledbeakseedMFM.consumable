@@ -4,7 +4,7 @@
   "price" : 99.23,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Beakseed boiled in water.",
+  "description" : "(BOIL):-} Beakseed boiled in water.",
   "shortdescription" : "Boiled Beakseed",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

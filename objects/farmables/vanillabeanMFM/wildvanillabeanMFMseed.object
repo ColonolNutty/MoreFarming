@@ -1,56 +1,53 @@
 {
   "objectName" : "wildvanillabeanMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 23.0,
   "category" : "seed",
-  "price" : 23,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Vanilla, a common base for all kinds of sweets.",
   "shortdescription" : "Wild Vanilla Bean Seeds",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "floranDescription" : "Ssseedsss for vanilla!",
   "glitchDescription" : "Identify. Vanilla beans.",
   "humanDescription" : "Good for making sweets!",
-
   "inventoryIcon" : "vanillabeanMFMseedicon.png",
   "largeImage" : "vanillabeanMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "vanillabeanMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [720, 720]
+      "duration" : [ 720, 720 ]
     },
+
     {
-      "duration" : [720, 720]
+      "duration" : [ 720, 720 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [2040, 2040]
+      "duration" : [ 2040, 2040 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "vanillabeanMFMHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.2,
-  
-  "breakDropOptions" : [
-    [ [ "vanillabeanMFMseed", 1, { } ] ]
-  ]
+  "breakDropOptions" : [ [ [ "vanillabeanMFMseed", 1, 
+        {
+
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

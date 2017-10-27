@@ -4,7 +4,7 @@
   "price" : 89.25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A baked sweet potato",
+  "description" : "(BAKE):-} A baked sweet potato",
   "shortdescription" : "Baked Sweet Potato",
   "foodValue" : 10.5,
   "effects" : [ [ 

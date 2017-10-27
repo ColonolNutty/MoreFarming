@@ -4,7 +4,7 @@
   "price" : 19.85,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "A simple batter. Suitable for coating and frying.",
+  "description" : "(BLEND):-} A simple batter. Suitable for coating and frying.",
   "shortdescription" : "Batter - Simple",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -4,7 +4,7 @@
   "price" : 88.2,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "An artichoke boiled in water.",
+  "description" : "(BOIL):-} An artichoke boiled in water.",
   "shortdescription" : "Boiled Artichoke",
   "foodValue" : 11.03,
   "effects" : [ [ 

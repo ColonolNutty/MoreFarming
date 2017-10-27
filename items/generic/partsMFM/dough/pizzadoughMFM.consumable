@@ -4,7 +4,7 @@
   "price" : 56.18,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A base for making pizza.",
+  "description" : "(BLEND):-} A base for making pizza.",
   "shortdescription" : "Dough - Pizza",
   "foodValue" : 10.0,
   "effects" : [ [ 

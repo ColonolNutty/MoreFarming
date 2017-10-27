@@ -4,7 +4,7 @@
   "price" : 909.29,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A spooky looking cake.",
+  "description" : "(PREP):-} A spooky looking cake.",
   "shortdescription" : "Cake - Spooky",
   "foodValue" : 106.08,
   "effects" : [ [ 

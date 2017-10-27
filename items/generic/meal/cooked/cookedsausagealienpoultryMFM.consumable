@@ -4,13 +4,13 @@
   "price" : 13.89,
   "category" : "food",
   "tooltipKind" : "food",
-  "description" : "A cooked sausage made of steak and poultry",
+  "description" : "(FRY):-} A cooked sausage made of steak and poultry",
   "shortdescription" : "Cooked Sausage",
   "foodValue" : 11.58,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
+  "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "cookedsausagealienpoultryMFM.png"
 }

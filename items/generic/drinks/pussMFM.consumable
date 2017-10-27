@@ -4,7 +4,7 @@
   "price" : 157.5,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "This is probably from a pussplum.",
+  "description" : "(BLEND):-} This is probably from a pussplum.",
   "shortdescription" : "Puss",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

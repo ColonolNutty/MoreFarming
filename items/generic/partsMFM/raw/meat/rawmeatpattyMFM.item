@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 13.23,
   "category" : "cookingIngredient",
-  "description" : "Meat formed into a patty. Ready for frying.",
+  "description" : "(PREP):-} Meat formed into a patty. Ready for frying.",
   "shortdescription" : "Raw Meat Patty",
   "maxStack" : 1000,
   "inventoryIcon" : "rawmeatpattyMFM.png"

@@ -57,5 +57,24 @@
       "path" : "/price",
       "value" : 80.0
     }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "Automatoes! Be sure to spit out the screws."
+    }
   ]
 ]

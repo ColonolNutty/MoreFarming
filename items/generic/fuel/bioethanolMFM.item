@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 26.56,
   "category" : "craftingMaterial",
-  "description" : "Renewable fuel for intergalactic conquest!",
+  "description" : "(DISTILL):-} Renewable fuel for intergalactic conquest!",
   "shortdescription" : "Bioethanol",
   "inventoryIcon" : "bioethanolMFM.png",
   "itemTags" : [ "reagent" ],

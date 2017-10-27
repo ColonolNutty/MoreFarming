@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 671.43,
   "category" : "cookingIngredient",
-  "description" : "An unfinished banana cream pie. Ready for baking.",
+  "description" : "(PREP):-} An unfinished banana cream pie. Ready for baking.",
   "shortdescription" : "Pie Unf - Banana Cream",
   "maxStack" : 1000,
   "inventoryIcon" : "unfinishedpiebananacreamMFM.png"

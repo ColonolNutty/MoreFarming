@@ -4,7 +4,7 @@
   "price" : 86.04,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "A mixture for making fondant, but it isn't quite ready yet.",
+  "description" : "(BOIL):-} A mixture for making fondant, but it isn't quite ready yet.",
   "shortdescription" : "Mix - Fondant",
   "foodValue" : 11.3,
   "effects" : [ [ 

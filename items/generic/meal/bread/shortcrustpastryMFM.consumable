@@ -4,7 +4,7 @@
   "price" : 37.84,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Shortcrust pastry rolled and folded ready for use.",
+  "description" : "(PREP):-} Shortcrust pastry rolled and folded ready for use.",
   "shortdescription" : "Shortcrust Pastry",
   "foodValue" : 10.0,
   "effects" : [ [ 

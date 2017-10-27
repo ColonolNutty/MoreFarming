@@ -4,7 +4,7 @@
   "price" : 63.0,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled, and chopped lemon.",
+  "description" : "(CHOP):-} Washed, peeled, and chopped lemon.",
   "shortdescription" : "Chopped Lemon",
   "foodValue" : 10.5,
   "effects" : [ [ 

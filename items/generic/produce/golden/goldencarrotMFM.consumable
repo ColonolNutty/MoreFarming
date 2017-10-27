@@ -4,7 +4,7 @@
   "price" : 106.05,
   "category" : "food",
   "tooltipKind" : "food",
-  "description" : "Shiny and edible!",
+  "description" : "(PREP):-} Shiny and edible!",
   "shortdescription" : "Golden Carrot",
   "foodValue" : 10.0,
   "effects" : [ [ 

@@ -4,7 +4,7 @@
   "price" : 1.22,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "A slice of fresh bread!",
+  "description" : "(CHOP):-} A slice of fresh bread!",
   "shortdescription" : "Bread Slice",
   "foodValue" : 10.0,
   "effects" : [ [ 

@@ -4,7 +4,7 @@
   "price" : 71.66,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A lettuce boiled in water.",
+  "description" : "(BOIL):-} A lettuce boiled in water.",
   "shortdescription" : "Boiled Lettuce",
   "foodValue" : 11.03,
   "effects" : [ [ 

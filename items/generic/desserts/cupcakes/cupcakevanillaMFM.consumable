@@ -4,7 +4,7 @@
   "price" : 370.42,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A cupcake with vanilla icing.",
+  "description" : "(PREP):-} A cupcake with vanilla icing.",
   "shortdescription" : "Cupcake - Vanilla",
   "foodValue" : 63.27,
   "effects" : [ [ 

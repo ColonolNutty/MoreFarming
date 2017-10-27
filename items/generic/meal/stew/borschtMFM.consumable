@@ -4,7 +4,7 @@
   "price" : 481.79,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A sour soup, filled with loads of ingredients.",
+  "description" : "(BOIL):-} A sour soup, filled with loads of ingredients.",
   "shortdescription" : "Borscht",
   "foodValue" : 110.68,
   "effects" : [ [ 

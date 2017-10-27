@@ -4,7 +4,7 @@
   "price" : 21.0,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled, and chopped orange.",
+  "description" : "(CHOP):-} Washed, peeled, and chopped orange.",
   "shortdescription" : "Chopped Orange",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

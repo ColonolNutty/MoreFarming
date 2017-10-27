@@ -4,7 +4,7 @@
   "price" : 105.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped coralcreep.",
+  "description" : "(CHOP):-} Washed and chopped coralcreep.",
   "shortdescription" : "Chopped Coralcreep",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 521.12,
   "category" : "cookingIngredient",
-  "description" : "The fluffy, risen, base of a carrot cake. Needs decorating.",
+  "description" : "(BAKE):-} The fluffy, risen, base of a carrot cake. Needs decorating.",
   "shortdescription" : "Cake Unfinished - Carrot",
   "maxStack" : 1000,
   "inventoryIcon" : "unfinishedcakecarrotMFM.png"

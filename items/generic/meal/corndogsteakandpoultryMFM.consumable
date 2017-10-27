@@ -4,7 +4,7 @@
   "price" : 23.51,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A steak and poultry sausage breaded and deep-fried.",
+  "description" : "(FRY):-} A steak and poultry sausage breaded and deep-fried.",
   "shortdescription" : "Corn Dog",
   "foodValue" : 14.68,
   "effects" : [ [ 

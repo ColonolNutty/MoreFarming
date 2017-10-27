@@ -4,7 +4,7 @@
   "price" : 211.92,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A milkshake made with bananas. Yum!",
+  "description" : "(BLEND):-} A milkshake made with bananas. Yum!",
   "shortdescription" : "Milkshake - Banana",
   "foodValue" : 16.91,
   "effects" : [ [ 

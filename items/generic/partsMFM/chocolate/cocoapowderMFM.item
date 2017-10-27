@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 19.85,
   "category" : "cookingIngredient",
-  "description" : "Ground cocoa beans.",
+  "description" : "(MILL):-} Ground cocoa beans.",
   "shortdescription" : "Cocoa Powder",
   "maxStack" : 1000,
   "inventoryIcon" : "cocoapowderMFM.png"

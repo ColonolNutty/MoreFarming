@@ -1,10 +1,10 @@
 {
   "itemName" : "ceramicplateMFM",
-  "price" : 4.2,
   "rarity" : "Common",
+  "price" : 4.2,
   "category" : "craftingMaterial",
-  "inventoryIcon" : "ceramicplateMFM.png",
   "description" : "A plate.",
   "shortdescription" : "Plate",
+  "inventoryIcon" : "ceramicplateMFM.png",
   "itemTags" : [ "reagent" ]
 }

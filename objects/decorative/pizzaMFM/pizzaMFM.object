@@ -1,10 +1,10 @@
 {
   "objectName" : "pizzaMFM",
+  "colonyTags" : [ "cooking" ],
   "rarity" : "Uncommon",
   "price" : 624.45,
   "category" : "decorative",
-  "colonyTags" : ["cooking"],
-  "description" : "A large pizza, perfect for a party.",
+  "description" : "(BAKE):-} A large pizza, perfect for a party.",
   "shortdescription" : "Pizza",
   "race" : "generic",
   "apexDescription" : "I always get grease in my fur when I eat these.",
@@ -14,39 +14,39 @@
   "humanDescription" : "I once ate five whole pizzas within an hour.",
   "hylotlDescription" : "The act of just throwing this stuff together disrespects what cooking means.",
   "inventoryIcon" : "pizzaMFMicon.png",
-  "orientations" : [
+  "largeImage" : "pizzaMFM.png:default.default",
+  "orientations" : [ 
     {
-      "imagePosition" : [-8, 0],
+      "dualImage" : "pizzaMFM.png:<color>.0",
+      "imagePosition" : [ -8, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
-      "dualImage" : "pizzaMFM.png:<color>.0",
-      "anchors" : ["bottom"]
-    }],
-  "largeImage" : "pizzaMFM.png:default.default",
-  "breakDropOptions" : [[["pizzaslice", 1, 
+      "anchors" : [ "bottom" ]
+    } ],
+  "breakDropOptions" : [ [ [ "pizzaslice", 1, 
         {
 
-        }],["pizzaslice", 1, 
+        } ],[ "pizzaslice", 1, 
         {
 
-        }],["pizzaslice", 1, 
+        } ],[ "pizzaslice", 1, 
         {
 
-        }],["pizzaslice", 1, 
+        } ],[ "pizzaslice", 1, 
         {
 
-        }],["pizzaslice", 1, 
+        } ],[ "pizzaslice", 1, 
         {
 
-        }],["pizzaslice", 1, 
+        } ],[ "pizzaslice", 1, 
         {
 
-        }],["pizzaslice", 1, 
+        } ],[ "pizzaslice", 1, 
         {
 
-        }],["pizzaslice", 1, 
+        } ],[ "pizzaslice", 1, 
         {
 
-        }]]]
+        } ] ] ]
 }

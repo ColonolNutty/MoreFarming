@@ -4,7 +4,7 @@
   "price" : 66.15,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A tomato boiled in water.",
+  "description" : "(BOIL):-} A tomato boiled in water.",
   "shortdescription" : "Boiled Tomato",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

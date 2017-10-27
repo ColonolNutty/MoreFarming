@@ -4,7 +4,7 @@
   "price" : 10.25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A soup containing mushrooms.",
+  "description" : "(BOIL):-} A soup containing mushrooms.",
   "shortdescription" : "Soup - Mushroom",
   "foodValue" : 20.5,
   "builder" : "/items/buildscripts/buildfood.lua",

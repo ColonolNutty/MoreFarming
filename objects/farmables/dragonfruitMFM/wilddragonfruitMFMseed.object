@@ -1,56 +1,53 @@
 {
   "objectName" : "wilddragonfruitMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 8.0,
   "category" : "seed",
-  "price" : 8,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Pitahaya Cactus.",
   "shortdescription" : "Wild Dragonfruit Seeds",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-  
   "floranDescription" : "Ssseedsss for dragonfruitsss!",
   "glitchDescription" : "Identify. Dragonfruit seeds.",
   "humanDescription" : "Oh sweet! Dragonfruit seeds!",
-
   "inventoryIcon" : "dragonfruitMFMseedicon.png",
   "largeImage" : "dragonfruitMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "dragonfruitMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [240, 240]
+      "duration" : [ 240, 240 ]
     },
+
     {
-      "duration" : [240, 240]
+      "duration" : [ 240, 240 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [720, 720]
+      "duration" : [ 720, 720 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "dragonfruitMFMHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25,
-  
-  "breakDropOptions" : [
-    [ [ "dragonfruitMFMseed", 1, { } ] ]
-  ]
+  "breakDropOptions" : [ [ [ "dragonfruitMFMseed", 1, 
+        {
+
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

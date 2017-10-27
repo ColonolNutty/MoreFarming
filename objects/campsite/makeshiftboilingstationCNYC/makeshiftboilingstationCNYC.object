@@ -1,195 +1,105 @@
 {
- "avianDescription": "Warmth and light.",
- "flickerPeriod": 0.3,
- "recipeGroup": "boilingMFM",
- "outputConfig": "/recipeCrafterMFM/boilingMFMRecipes.config",
- "flickerMinIntensity": 0.95,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "imageLayers": [
+  "objectName" : "makeshiftboilingstationCNYC",
+  "colonyTags" : [ "cooking", "nature", "light" ],
+  "rarity" : "Uncommon",
+  "price" : 50.5,
+  "category" : "Makeshift Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A campfire with a cookpot. I can make more filling meals with foraged produce.",
+  "shortdescription" : "^orange;Camp Cookpot (Boil)^white;",
+  "race" : "generic",
+  "apexDescription" : "A healthy camp fire, with a cookpot.",
+  "avianDescription" : "Warmth and light.",
+  "floranDescription" : "Floran stew meatsss.",
+  "glitchDescription" : "Observation. Portable cauldron!.",
+  "humanDescription" : "It's not the ritz, but it's better then a toasted marshmallow at least.",
+  "hylotlDescription" : "One pot meals, hopefully I can find ingredients.",
+  "inventoryIcon" : "makeshiftboilingstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "makeshiftboilingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "left",
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "spaces" : [ [ 0, 0 ],[ 0, 1 ],[ 1, 0 ],[ 1, 1 ] ],
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "makeshiftboilingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "makeshiftboilingstationCNYClit.png:<color>.<frame>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "makeshiftboilingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "flipImages": true,
-   "frames": 4,
-   "animationCycle": 0.5,
-   "imagePosition": [
-    0,
-    0
-   ],
-   "spaces": [
-    [
-     0,
-     0
-    ],
-    [
-     0,
-     1
-    ],
-    [
-     1,
-     0
-    ],
-    [
-     1,
-     1
-    ]
-   ],
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "imageLayers": [
+
     {
-     "image": "makeshiftboilingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "spaces" : [ [ 0, 0 ],[ 0, 1 ],[ 1, 0 ],[ 1, 1 ] ],
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "makeshiftboilingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "makeshiftboilingstationCNYClit.png:<color>.<frame>"
+        } ]
+    } ],
+  "recipeGroup" : "boilingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/boilingMFMRecipes.config",
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerPeriodVariance" : 0.075,
+  "maximumLiquidLevel" : 0.2,
+  "flickerMaxIntensity" : 1,
+  "statusEffects" : [ ],
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "particleEmitter" :   {
+    "emissionRate" : 1,
+    "particleVariance" :     {
+      "initialVelocity" : [ 0.5, 2 ],
+      "position" : [ 0.4, 0 ]
     },
-    {"image": "makeshiftboilingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "frames": 4,
-   "animationCycle": 0.5,
-   "imagePosition": [
-    0,
-    0
-   ],
-   "spaces": [
-    [
-     0,
-     0
-    ],
-    [
-     0,
-     1
-    ],
-    [
-     1,
-     0
-    ],
-    [
-     1,
-     1
-    ]
-   ],
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "A campfire with a cookpot. I can make more filling meals with foraged produce.",
- "maximumLiquidLevel": 0.2,
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "flickerMaxIntensity": 1,
- "objectType": "container",
- "hylotlDescription": "One pot meals, hopefully I can find ingredients.",
- "statusEffects": [],
- "glitchDescription": "Observation. Portable cauldron!.",
- "price": 50.5,
- "slotCount": 16,
- "soundEffect": "/sfx/objects/campfire.ogg",
- "colonyTags": [
-  "cooking",
-  "nature",
-  "light"
- ],
- "autoCloseCooldown": 3600,
- "scripts": [
-  "/scripts/npcToyObject.lua",
-  "/recipeCrafterMFM/recipeCrafterMFM.lua"
- ],
- "humanDescription": "It's not the ritz, but it's better then a toasted marshmallow at least.",
- "particleEmitter": {
-  "emissionRate": 1,
-  "particleVariance": {
-   "initialVelocity": [
-    0.5,
-    2
-   ],
-   "position": [
-    0.4,
-    0
-   ]
+    "particle" :     {
+      "timeToLive" : 2,
+      "fade" : 0.9,
+      "size" : 1,
+      "color" : [ 255, 100, 0, 255 ],
+      "light" : [ 150, 50, 50 ],
+      "initialVelocity" : [ 0, 5 ],
+      "finalVelocity" : [ 0, 3 ],
+      "position" : [ 0.5, 0.3 ],
+      "type" : "ember",
+      "approach" : [ 0, 20 ],
+      "layer" : "middle"
+    },
+    "emissionVariance" : 0.5
   },
-  "particle": {
-   "timeToLive": 2,
-   "fade": 0.9,
-   "size": 1,
-   "color": [
-    255,
-    100,
-    0,
-    255
-   ],
-   "light": [
-    150,
-    50,
-    50
-   ],
-   "initialVelocity": [
-    0,
-    5
-   ],
-   "finalVelocity": [
-    0,
-    3
-   ],
-   "position": [
-    0.5,
-    0.3
-   ],
-   "type": "ember",
-   "approach": [
-    0,
-    20
-   ],
-   "layer": "middle"
+  "lightColor" : [ 179, 149, 107 ],
+  "npcToy" :   {
+    "preciseStandPositionRight" : [ 2.5, 0 ],
+    "preciseStandPositionLeft" : [ -2.5, 0 ],
+    "maxNpcs" : 2,
+    "defaultReactions" :     {
+      "campfire" : [ [ 1, "warmhands" ],[ 1, "crouchwarm" ] ]
+    },
+    "influence" : [ "campfire", "campfire" ]
   },
-  "emissionVariance": 0.5
- },
- "shortdescription": "^orange;Camp Cookpot (Boil)^white;",
- "race": "generic",
- "lightColor": [
-  179,
-  149,
-  107
- ],
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "npcToy": {
-  "preciseStandPositionRight": [
-   2.5,
-   0
-  ],
-  "preciseStandPositionLeft": [
-   -2.5,
-   0
-  ],
-  "maxNpcs": 2,
-  "defaultReactions": {"campfire": [
-   [
-    1,
-    "warmhands"
-   ],
-   [
-    1,
-    "crouchwarm"
-   ]
-  ]},
-  "influence": [
-   "campfire",
-   "campfire"
-  ]
- },
- "frameCooldown": 67,
- "subtitle": "Campsite pot cooking.",
- "objectName": "makeshiftboilingstationCNYC",
- "apexDescription": "A healthy camp fire, with a cookpot.",
- "inventoryIcon": "makeshiftboilingstationCNYCicon.png",
- "category": "Makeshift Cookware",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 1,
- "floranDescription": "Floran stew meatsss.",
- "rarity": "Uncommon"
+  "subtitle" : "Campsite pot cooking.",
+  "flickerIntensityVariance" : 0.025
 }

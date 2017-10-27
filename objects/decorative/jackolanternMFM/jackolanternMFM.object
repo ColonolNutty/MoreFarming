@@ -1,115 +1,85 @@
 {
- "avianDescription": "This is a bad sign",
- "flickerPeriod": 0.3,
- "flickerMinIntensity": 0.7,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "imageLayers": [
+  "objectName" : "jackolanternMFM",
+  "colonyTags" : [ "nature", "spooky", "light" ],
+  "rarity" : "Common",
+  "price" : 126.56,
+  "category" : "light",
+  "printable" : false,
+  "description" : "The scariest thing ever...?",
+  "shortdescription" : "Large Jack 'O Lantern",
+  "race" : "generic",
+  "apexDescription" : "Someone will get a kick out of this.",
+  "avianDescription" : "This is a bad sign",
+  "floranDescription" : "Floran cut out face to ssscare away people.",
+  "glitchDescription" : "Suspicious. Something is not right.",
+  "humanDescription" : "Where's my candy?",
+  "hylotlDescription" : "A 'Do not disturb' sign.",
+  "inventoryIcon" : "jackolanternMFMicon.png",
+  "orientations" : [ 
     {
-     "image": "jackolanternMFM.png",
-     "fullbright": true
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "left",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "jackolanternMFM.png",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "jackolanternMFMlit.png"
+        } ],
+      "flipImages" : true,
+      "lightPosition" : [ 0, 0 ],
+      "animationPosition" : [ 0, 0 ],
+      "animationParts" :       {
+        "fg" : "jackolanternMFMlit.png",
+        "bg" : "jackolanternMFM.png"
+      }
     },
-    {"image": "jackolanternMFMlit.png"}
-   ],
-   "flipImages": true,
-   "lightPosition": [
-    0,
-    0
-   ],
-   "imagePosition": [
-    0,
-    0
-   ],
-   "spaceScan": 0.1,
-   "animationPosition": [
-    0,
-    0
-   ],
-   "anchors": ["bottom"],
-   "animationParts": {
-    "fg": "jackolanternMFMlit.png",
-    "bg": "jackolanternMFM.png"
-   },
-   "direction": "left"
+
+    {
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "jackolanternMFM.png",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "jackolanternMFMlit.png"
+        } ],
+      "lightPosition" : [ 0, 0 ],
+      "animationPosition" : [ 0, 0 ],
+      "animationParts" :       {
+        "fg" : "jackolanternMFMlit.png",
+        "bg" : "jackolanternMFM.png"
+      }
+    } ],
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.7,
+  "flickerPeriodVariance" : 0.075,
+  "maximumLiquidLevel" : 0.2,
+  "animationCustom" :   {
+    "sounds" :     {
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ],
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ]
+    }
   },
-  {
-   "imageLayers": [
-    {
-     "image": "jackolanternMFM.png",
-     "fullbright": true
-    },
-    {"image": "jackolanternMFMlit.png"}
-   ],
-   "lightPosition": [
-    0,
-    0
-   ],
-   "imagePosition": [
-    0,
-    0
-   ],
-   "spaceScan": 0.1,
-   "animationPosition": [
-    0,
-    0
-   ],
-   "anchors": ["bottom"],
-   "animationParts": {
-    "fg": "jackolanternMFMlit.png",
-    "bg": "jackolanternMFM.png"
-   },
-   "direction": "right"
-  }
- ],
- "description": "The scariest thing ever...?",
- "maximumLiquidLevel": 0.2,
- "animationCustom": {"sounds": {
-  "off": [
-   "/sfx/objects/torch_off1.ogg",
-   "/sfx/objects/torch_off2.ogg",
-   "/sfx/objects/torch_off3.ogg"
-  ],
-  "on": [
-   "/sfx/objects/torch_on1.ogg",
-   "/sfx/objects/torch_on2.ogg"
-  ]
- }},
- "flickerMaxIntensity": 0.75,
- "hylotlDescription": "A 'Do not disturb' sign.",
- "glitchDescription": "Suspicious. Something is not right.",
- "price": 126.56,
- "colonyTags": [
-  "nature",
-  "spooky",
-  "light"
- ],
- "scripts": ["/objects/wired/light/light.lua"],
- "humanDescription": "Where's my candy?",
- "animationParts": {
-  "fg": "jackolanternMFMlit.png",
-  "bg": "jackolanternMFM.png"
- },
- "shortdescription": "Large Jack 'O Lantern",
- "race": "generic",
- "novakidDescription": "Is that my cousin? ... No, it's just a funny plant.",
- "lightColor": [
-  229,
-  218,
-  207
- ],
- "printable": false,
- "animation": "jackolanternMFM.animation",
- "inputNodes": [[
-  0,
-  0
- ]],
- "objectName": "jackolanternMFM",
- "apexDescription": "Someone will get a kick out of this.",
- "inventoryIcon": "jackolanternMFMicon.png",
- "category": "light",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 60,
- "floranDescription": "Floran cut out face to ssscare away people.",
- "rarity": "Common"
+  "flickerMaxIntensity" : 0.75,
+  "animationParts" :   {
+    "fg" : "jackolanternMFMlit.png",
+    "bg" : "jackolanternMFM.png"
+  },
+  "novakidDescription" : "Is that my cousin? ... No, it's just a funny plant.",
+  "lightColor" : [ 229, 218, 207 ],
+  "animation" : "jackolanternMFM.animation",
+  "inputNodes" : [ [ 0, 0 ] ],
+  "flickerIntensityVariance" : 0.025
 }

@@ -4,7 +4,7 @@
   "price" : 110.25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A dirturchin boiled in water.",
+  "description" : "(BOIL):-} A dirturchin boiled in water.",
   "shortdescription" : "Boiled Dirturchin",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

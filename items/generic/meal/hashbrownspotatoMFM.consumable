@@ -4,7 +4,7 @@
   "price" : 105.76,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Shredded potatoes fried in butter.",
+  "description" : "(FRY):-} Shredded potatoes fried in butter.",
   "shortdescription" : "Hash Browns",
   "foodValue" : 13.84,
   "effects" : [ [ 

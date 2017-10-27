@@ -1,56 +1,53 @@
 {
   "objectName" : "wildblackberryPBJseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 13.0,
   "category" : "seed",
-  "price" : 13,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Blackberries, careful they bruise easily.",
   "shortdescription" : "Wild Blackberry Seeds",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "floranDescription" : "Ssseeds for blackberries!",
   "glitchDescription" : "Identify. Blackberry seeds.",
   "humanDescription" : "Oh sweet! Blackberry seeds!",
-
   "inventoryIcon" : "blackberryPBJseedicon.png",
   "largeImage" : "blackberryPBJseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "blackberryPBJseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [420, 420]
+      "duration" : [ 420, 420 ]
     },
+
     {
-      "duration" : [420, 420]
+      "duration" : [ 420, 420 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [1200, 1200]
+      "duration" : [ 1200, 1200 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "blackberriesPBJHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25,
-  
-  "breakDropOptions" : [
-    [ [ "blackberryPBJseed", 1, { } ] ]
-  ]
+  "breakDropOptions" : [ [ [ "blackberryPBJseed", 1, 
+        {
+
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

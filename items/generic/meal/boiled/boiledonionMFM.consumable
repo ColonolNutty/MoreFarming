@@ -4,7 +4,7 @@
   "price" : 38.59,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "An onion boiled in water.",
+  "description" : "(BOIL):-} An onion boiled in water.",
   "shortdescription" : "Boiled Onion",
   "foodValue" : 11.03,
   "effects" : [ [ 

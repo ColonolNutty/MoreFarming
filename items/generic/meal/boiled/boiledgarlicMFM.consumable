@@ -4,7 +4,7 @@
   "price" : 33.08,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Garlic boiled in water.",
+  "description" : "(BOIL):-} Garlic boiled in water.",
   "shortdescription" : "Boiled Garlic",
   "foodValue" : 11.03,
   "effects" : [ [ 

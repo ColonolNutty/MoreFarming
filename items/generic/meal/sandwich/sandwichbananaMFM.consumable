@@ -4,7 +4,7 @@
   "price" : 260.8,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A sandwich made with bananas.",
+  "description" : "(PREP):-} A sandwich made with bananas.",
   "shortdescription" : "Sandwich - Banana",
   "foodValue" : 10.0,
   "effects" : [ [ 

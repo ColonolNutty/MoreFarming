@@ -1,18 +1,16 @@
 {
   "itemName" : "pressedalienfruitMFM",
   "rarity" : "Common",
-  "price" : 42,
+  "price" : 42.0,
   "category" : "food",
-  "inventoryIcon" : "pressedalienfruitMFM.png",
-  "description" : "Alienfruit pressed into a thick pulp using a press",
+  "tooltipKind" : "food",
+  "description" : "(PRESS):-} Alienfruit pressed into a thick pulp using a press",
   "shortdescription" : "Pressed Alienfruit",
   "foodValue" : 10.5,
-  "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "pressedalienfruitMFM.png"
 }

@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 624.82,
   "category" : "cookingIngredient",
-  "description" : "A mixture for making beakseed bread. Ready for baking.",
+  "description" : "(BLEND):-} A mixture for making beakseed bread. Ready for baking.",
   "shortdescription" : "Mix Bread - Beakseed",
   "maxStack" : 1000,
   "inventoryIcon" : "mixbreadbeakseedMFM.png"

@@ -4,7 +4,7 @@
   "price" : 2.1,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Raw alien meat chopped into strips.",
+  "description" : "(CHOP):-} Raw alien meat chopped into strips.",
   "shortdescription" : "Raw Strip of Alien Meat",
   "foodValue" : 10.0,
   "effects" : [ [ 

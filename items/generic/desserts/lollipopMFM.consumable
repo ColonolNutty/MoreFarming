@@ -4,7 +4,7 @@
   "price" : 77.04,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A sweet candy sucker.",
+  "description" : "(BOIL):-} A sweet candy sucker.",
   "shortdescription" : "Lollipop",
   "foodValue" : 10.0,
   "effects" : [ [ 

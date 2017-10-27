@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 8.4,
   "category" : "cookingIngredient",
-  "description" : "Used in many recipes!",
+  "description" : "(MILL):-} Used in many recipes!",
   "shortdescription" : "Flour",
   "inventoryIcon" : "flourMFM.png",
   "learnBlueprintsOnPickup" : [ "doughMFM" ]

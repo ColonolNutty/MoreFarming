@@ -4,7 +4,7 @@
   "price" : 111.65,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A scrambled egg.",
+  "description" : "(FRY):-} A scrambled egg.",
   "shortdescription" : "Scrambled Egg",
   "foodValue" : 23.54,
   "effects" : [ [ 

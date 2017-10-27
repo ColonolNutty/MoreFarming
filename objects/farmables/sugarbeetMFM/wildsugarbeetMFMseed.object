@@ -1,51 +1,48 @@
 {
   "objectName" : "wildsugarbeetMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 20.0,
   "category" : "seed",
-  "price" : 20,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Sugar Beets. Can be turned into sugar",
   "shortdescription" : "Wild Sugar Beet Seeds",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "floranDescription" : "Ssseedsss for sssugar beetsss!",
   "glitchDescription" : "Identify. Sugar Beet seeds.",
   "humanDescription" : "Sugar, sugar, sugar, sugar!",
-
   "inventoryIcon" : "sugarbeetMFMseedicon.png",
   "largeImage" : "sugarbeetMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "sugarbeetMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [600, 600]
+      "duration" : [ 600, 600 ]
     },
+
     {
-      "duration" : [600, 600]
+      "duration" : [ 600, 600 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [1920, 1920]
+      "duration" : [ 1920, 1920 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "sugarbeetMFMHarvest"
-    }
-  ],
-  "maxImmersion" : 0.1
+    } ],
+  "maxImmersion" : 0.1,
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

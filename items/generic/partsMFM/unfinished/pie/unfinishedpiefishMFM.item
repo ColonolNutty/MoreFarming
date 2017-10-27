@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 646.34,
   "category" : "cookingIngredient",
-  "description" : "A pie shell filled with raw fish. Ready for baking.",
+  "description" : "(PREP):-} A pie shell filled with raw fish. Ready for baking.",
   "shortdescription" : "Pie Unfinished - Fish",
   "maxStack" : 1000,
   "inventoryIcon" : "unfinishedpiefishMFM.png"

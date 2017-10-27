@@ -3,16 +3,14 @@
   "rarity" : "Common",
   "price" : 22.05,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedeggMFM.png",
-  "description" : "Chopped hard-boiled egg.",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Chopped hard-boiled egg.",
   "shortdescription" : "Chopped Egg",
   "foodValue" : 11.03,
-  "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedeggMFM.png"
 }

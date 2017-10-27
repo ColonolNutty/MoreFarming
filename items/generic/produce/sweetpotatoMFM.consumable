@@ -1,25 +1,22 @@
 {
   "itemName" : "sweetpotatoMFM",
   "rarity" : "Common",
-  "price" : 85,
+  "price" : 85.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "sweetpotatoMFM.png",
+  "tooltipKind" : "food",
   "description" : "Yam?",
   "shortdescription" : "Sweet Potato",
-  "effects" : [ [
-    {
-      "effect" : "maxhealthscalingboostfood",
-      "duration" : 50
-    }
-  ] ],
-  "foodValue" : 10,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 50
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "sweetpotatoMFM.png"
 }

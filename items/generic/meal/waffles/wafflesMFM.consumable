@@ -4,7 +4,7 @@
   "price" : 18.08,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Do you like waffles?",
+  "description" : "(FRY):-} Do you like waffles?",
   "shortdescription" : "Waffles - Plain",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

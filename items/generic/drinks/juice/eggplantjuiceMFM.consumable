@@ -4,7 +4,7 @@
   "price" : 132.3,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "Eggplant juice, the juice of a 100 different flavours.",
+  "description" : "(BLEND):-} Eggplant juice, the juice of a 100 different flavours.",
   "shortdescription" : "Juice - Eggplant",
   "foodValue" : 11.03,
   "effects" : [ [ 

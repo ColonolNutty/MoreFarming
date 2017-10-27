@@ -1,34 +1,33 @@
 {
   "itemName" : "holidayfruitMFM",
   "rarity" : "Uncommon",
-  "price" : 150,
+  "price" : 150.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "holidayfruitMFM.png",
+  "tooltipKind" : "food",
   "description" : "Shiny, golden, and a sweet flavour. Yum! A bit crunchy, though.",
   "shortdescription" : "Holiday Fruit",
-  "effects" : [ [
-    {
-      "effect" : "regeneration3",
-      "duration" : 60
-    },
-    {
-      "effect" : "maxenergyscalingboostfood",
-      "duration" : 60
-    },
-    {
-      "effect" : "lowgrav",
-      "duration" : 60
-    }
-  ] ],
-  "emote" : "happy",
-  "foodValue" : 20,
-  "tooltipKind" : "food",
+  "foodValue" : 20.0,
+  "effects" : [ [ 
+      {
+        "effect" : "regeneration3",
+        "duration" : 60
+      },
+
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 60
+      },
+
+      {
+        "effect" : "lowgrav",
+        "duration" : 60
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "holidayfruitMFM.png",
+  "emote" : "happy"
 }

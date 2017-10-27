@@ -4,7 +4,7 @@
   "price" : 8.82,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Pasta with no sauce.",
+  "description" : "(BOIL):-} Pasta with no sauce.",
   "shortdescription" : "Pasta - Plain",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

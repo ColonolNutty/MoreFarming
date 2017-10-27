@@ -4,7 +4,7 @@
   "price" : 31.16,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Golden brown graham cracker; Good for snacking on or making smores.",
+  "description" : "(BAKE):-} Golden brown graham cracker; Good for snacking on or making smores.",
   "shortdescription" : "Graham Cracker",
   "foodValue" : 10.0,
   "effects" : [ [ 

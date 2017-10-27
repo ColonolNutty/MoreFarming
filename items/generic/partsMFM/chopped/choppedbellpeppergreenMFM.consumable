@@ -4,7 +4,7 @@
   "price" : 47.25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped green bell pepper.",
+  "description" : "(CHOP):-} Washed and chopped green bell pepper.",
   "shortdescription" : "Chopped Bell Pepper Green",
   "foodValue" : 10.5,
   "effects" : [ [ 

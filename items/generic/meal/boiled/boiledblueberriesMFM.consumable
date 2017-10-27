@@ -4,7 +4,7 @@
   "price" : 55.13,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Blueberries boiled in water.",
+  "description" : "(BOIL):-} Blueberries boiled in water.",
   "shortdescription" : "Boiled Blueberries",
   "foodValue" : 11.03,
   "effects" : [ [ 

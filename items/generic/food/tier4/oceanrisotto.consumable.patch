@@ -59,5 +59,24 @@
         ]
       ]
     }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(BOIL):-} A salty and aromatic rice dish."
+    }
   ]
 ]

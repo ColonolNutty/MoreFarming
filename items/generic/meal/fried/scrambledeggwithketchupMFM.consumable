@@ -4,7 +4,7 @@
   "price" : 340.25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A scrambled egg with ketchup.",
+  "description" : "(PREP):-} A scrambled egg with ketchup.",
   "shortdescription" : "Scrambled Egg With Ketchup",
   "foodValue" : 34.93,
   "effects" : [ [ 

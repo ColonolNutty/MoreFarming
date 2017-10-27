@@ -14,12 +14,11 @@
   "orientations" : [ 
     {
       "dualImage" : "sunflowerMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [-4, 0],
+      "imagePosition" : [ -4, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-      
-      "spaces" : [[0,0]],
       "requireTilledAnchors" : true,
+      "spaces" : [ [ 0, 0 ] ],
       "anchors" : [ "bottom" ]
     } ],
   "stages" : [ 

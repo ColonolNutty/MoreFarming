@@ -4,7 +4,7 @@
   "price" : 248.25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A ball of rice and kelp",
+  "description" : "(PREP):-} A ball of rice and kelp",
   "shortdescription" : "Riceball",
   "foodValue" : 51.0,
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -4,7 +4,7 @@
   "price" : 154.35,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A wartweed boiled in water.",
+  "description" : "(BOIL):-} A wartweed boiled in water.",
   "shortdescription" : "Boiled Wartweed",
   "foodValue" : 10.0,
   "effects" : [ [ 

@@ -4,7 +4,7 @@
   "price" : 23.39,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A cooked egg on top of toast.",
+  "description" : "(FRY):-} A cooked egg on top of toast.",
   "shortdescription" : "Sunny Side Up",
   "foodValue" : 11.36,
   "effects" : [ [ 

@@ -4,7 +4,7 @@
   "price" : 254.03,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Cooked octopus on top of rice.",
+  "description" : "(PREP):-} Cooked octopus on top of rice.",
   "shortdescription" : "Nigiri - Tako",
   "foodValue" : 51.53,
   "effects" : [ [ 

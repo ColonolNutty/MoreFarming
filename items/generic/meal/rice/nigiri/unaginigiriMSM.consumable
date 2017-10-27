@@ -4,7 +4,7 @@
   "price" : 270.56,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Cooked eel on top of rice.",
+  "description" : "(PREP):-} Cooked eel on top of rice.",
   "shortdescription" : "Nigiri - Unagi",
   "foodValue" : 51.53,
   "effects" : [ [ 

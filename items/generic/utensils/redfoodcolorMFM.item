@@ -1,10 +1,10 @@
 {
   "itemName" : "redfoodcolorMFM",
-  "price" : 25.25,
   "rarity" : "Common",
+  "price" : 25.25,
   "category" : "craftingMaterial",
-  "inventoryIcon" : "redfoodcolorMFM.png",
-  "description" : "Red Food Coloring. I can color foods Red with this.",
+  "description" : "(BLEND):-} Red Food Coloring. I can color foods Red with this.",
   "shortdescription" : "Food Coloring - Red",
+  "inventoryIcon" : "redfoodcolorMFM.png",
   "itemTags" : [ "reagent" ]
 }

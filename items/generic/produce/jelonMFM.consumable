@@ -1,30 +1,28 @@
 {
   "itemName" : "jelonMFM",
   "rarity" : "Uncommon",
-  "price" : 90,
+  "price" : 90.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "jelonMFM.png",
+  "tooltipKind" : "food",
   "description" : "A genetically engineered jelon.",
   "shortdescription" : "Jelon",
-  "effects" : [ [
+  "foodValue" : 10.0,
+  "effects" : [ [ 
       {
         "effect" : "energyregen",
         "duration" : 50
       },
+
       {
         "effect" : "swimboost",
         "duration" : 50
-      }
-    ] ],
-  "foodValue" : 10,
-  "tooltipKind" : "food",
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -2]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "jelonMFM.png",
+  "handPosition" : [ 0, -2 ]
 }

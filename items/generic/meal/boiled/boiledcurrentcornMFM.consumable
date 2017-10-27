@@ -4,7 +4,7 @@
   "price" : 88.2,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A currentcorn boiled in water.",
+  "description" : "(BOIL):-} A currentcorn boiled in water.",
   "shortdescription" : "Boiled Currentcorn",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

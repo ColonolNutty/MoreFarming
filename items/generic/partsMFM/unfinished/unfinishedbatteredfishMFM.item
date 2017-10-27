@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 41.84,
   "category" : "cookingIngredient",
-  "description" : "A raw fish fillet coated in a simple batter. Ready for frying.",
+  "description" : "(PREP):-} A raw fish fillet coated in a simple batter. Ready for frying.",
   "shortdescription" : "Battered Fish",
   "maxStack" : 1000,
   "inventoryIcon" : "unfinishedbatteredfishMFM.png"

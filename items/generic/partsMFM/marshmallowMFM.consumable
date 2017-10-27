@@ -4,7 +4,7 @@
   "price" : 11.59,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Fluffy little sugar blobs.",
+  "description" : "(BLEND):-} Fluffy little sugar blobs.",
   "shortdescription" : "Marshmallow",
   "foodValue" : 10.0,
   "effects" : [ [ 

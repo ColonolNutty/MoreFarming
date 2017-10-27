@@ -4,7 +4,7 @@
   "price" : 72.26,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Pasta with tomato sauce.",
+  "description" : "(BOIL):-} Pasta with tomato sauce.",
   "shortdescription" : "Pasta - Tomato",
   "foodValue" : 10.0,
   "effects" : [ [ 

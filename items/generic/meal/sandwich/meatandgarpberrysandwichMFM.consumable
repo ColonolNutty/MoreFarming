@@ -4,7 +4,7 @@
   "price" : 125.03,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Chunks of meat and garpberries sandwiched between bread.",
+  "description" : "(BAKE):-} Chunks of meat and garpberries sandwiched between bread.",
   "shortdescription" : "Sandwich - Mearpberry",
   "foodValue" : 26.28,
   "effects" : [ [ 

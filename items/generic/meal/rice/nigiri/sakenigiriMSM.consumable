@@ -4,7 +4,7 @@
   "price" : 330.12,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Smoked salmon on top of sake.",
+  "description" : "(PREP):-} Smoked salmon on top of sake.",
   "shortdescription" : "Nigiri - Sake",
   "foodValue" : 55.76,
   "effects" : [ [ 

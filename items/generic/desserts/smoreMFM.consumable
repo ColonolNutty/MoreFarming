@@ -4,7 +4,7 @@
   "price" : 334.37,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Toasted marshmallow and chocolate sandwiched between graham crackers.",
+  "description" : "(PREP):-} Toasted marshmallow and chocolate sandwiched between graham crackers.",
   "shortdescription" : "Smore",
   "foodValue" : 38.9,
   "effects" : [ [ 

@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 348.38,
   "category" : "cookingIngredient",
-  "description" : "A pie like dish containing seafood. Ready for baking.",
+  "description" : "(PREP):-} A pie like dish containing seafood. Ready for baking.",
   "shortdescription" : "Gratin Unfinished - Seafood",
   "maxStack" : 1000,
   "inventoryIcon" : "unfinishedgratinseafoodMFM.png"

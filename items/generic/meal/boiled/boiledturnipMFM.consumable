@@ -4,7 +4,7 @@
   "price" : 33.08,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A turnip boiled in water.",
+  "description" : "(BOIL):-} A turnip boiled in water.",
   "shortdescription" : "Boiled Turnip",
   "foodValue" : 11.03,
   "effects" : [ [ 

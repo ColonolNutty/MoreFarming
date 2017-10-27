@@ -4,7 +4,7 @@
   "price" : 203.74,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "A blended mixture used in making confectionaries",
+  "description" : "(BLEND):-} A blended mixture used in making confectionaries",
   "shortdescription" : "Fondant",
   "foodValue" : 19.97,
   "effects" : [ [ 

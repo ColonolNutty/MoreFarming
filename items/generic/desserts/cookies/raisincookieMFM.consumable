@@ -4,7 +4,7 @@
   "price" : 25.39,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A really chewy cookie.",
+  "description" : "(BAKE):-} A really chewy cookie.",
   "shortdescription" : "Cookie - Raisin",
   "foodValue" : 10.0,
   "effects" : [ [ 

@@ -4,7 +4,7 @@
   "price" : 31.5,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped dragonfruit.",
+  "description" : "(CHOP):-} Washed and chopped dragonfruit.",
   "shortdescription" : "Chopped Dragonfruit",
   "foodValue" : 10.5,
   "effects" : [ [ 

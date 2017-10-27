@@ -4,7 +4,7 @@
   "price" : 92.27,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Tasty fried garpberrys.",
+  "description" : "(FRY):-} Tasty fried garpberrys.",
   "shortdescription" : "Fried Garpberrys",
   "foodValue" : 13.26,
   "effects" : [ [ 

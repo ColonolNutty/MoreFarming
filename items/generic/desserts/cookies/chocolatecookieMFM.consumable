@@ -4,7 +4,7 @@
   "price" : 33.07,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Chocolate goodness.",
+  "description" : "(BAKE):-} Chocolate goodness.",
   "shortdescription" : "Cookie - Chocolate",
   "foodValue" : 10.0,
   "effects" : [ [ 

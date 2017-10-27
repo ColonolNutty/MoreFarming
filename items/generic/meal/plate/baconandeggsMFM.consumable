@@ -4,7 +4,7 @@
   "price" : 139.28,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Nothing beats a breakfast of bacon and eggs.",
+  "description" : "(PREP):-} Nothing beats a breakfast of bacon and eggs.",
   "shortdescription" : "Bacon and Eggs",
   "foodValue" : 35.74,
   "effects" : [ [ 

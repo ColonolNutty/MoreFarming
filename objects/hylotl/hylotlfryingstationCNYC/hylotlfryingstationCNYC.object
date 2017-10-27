@@ -1,126 +1,93 @@
 {
- "avianDescription": "Looks and smells seasoned",
- "flickerPeriod": 0.3,
- "recipeGroup": "fryingMFM",
- "outputConfig": "/recipeCrafterMFM/fryingMFMRecipes.config",
- "flickerMinIntensity": 0.85,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "imageLayers": [
+  "objectName" : "hylotlfryingstationCNYC",
+  "colonyTags" : [ "hylotl", "hylotlvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 286.05,
+  "category" : "Hylotl Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A large seasoned hylotl frypan!",
+  "shortdescription" : "^orange;Hylotl Frypan (Fry)^white;",
+  "race" : "generic",
+  "apexDescription" : "That could fry a whole lot of bananas!",
+  "avianDescription" : "Looks and smells seasoned",
+  "floranDescription" : "Floran hungry..",
+  "glitchDescription" : "Observation. A large hylotl frypan.",
+  "humanDescription" : "That's HUGE!",
+  "hylotlDescription" : "I'll get some good use out of this!",
+  "inventoryIcon" : "hylotlfryingstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "hylotlfryingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "hylotlfryingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "hylotlfryingstationCNYClit.png:<color>.<frame>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "hylotlfryingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "flipImages": true,
-   "frames": 4,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "imageLayers": [
+
     {
-     "image": "hylotlfryingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "hylotlfryingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "hylotlfryingstationCNYClit.png:<color>.<frame>"
+        } ]
+    } ],
+  "recipeGroup" : "fryingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/fryingMFMRecipes.config",
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.85,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 1,
+  "particleEmitter" :   {
+    "emissionRate" : 2,
+    "particleVariance" :     {
+      "initialVelocity" : [ -1, 0.4 ],
+      "position" : [ 0.6, 0 ]
     },
-    {"image": "hylotlfryingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "frames": 4,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "A large seasoned hylotl frypan!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "flickerMaxIntensity": 1,
- "objectType": "container",
- "hylotlDescription": "I'll get some good use out of this!",
- "glitchDescription": "Observation. A large hylotl frypan.",
- "price": 286.05,
- "slotCount": 16,
- "colonyTags": [
-  "hylotl",
-  "hylotlvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "humanDescription": "That's HUGE!",
- "particleEmitter": {
-  "emissionRate": 2,
-  "particleVariance": {
-   "initialVelocity": [
-    -1,
-    0.4
-   ],
-   "position": [
-    0.6,
-    0
-   ]
+    "particle" :     {
+      "timeToLive" : 0.8,
+      "fade" : 0.2,
+      "size" : 1,
+      "color" : [ 249, 162, 57, 255 ],
+      "initialVelocity" : [ 0, 4 ],
+      "finalVelocity" : [ 0, -1 ],
+      "position" : [ 0, 0.7 ],
+      "type" : "ember",
+      "approach" : [ 0, 20 ],
+      "layer" : "back"
+    },
+    "emissionVariance" : 1
   },
-  "particle": {
-   "timeToLive": 0.8,
-   "fade": 0.2,
-   "size": 1,
-   "color": [
-    249,
-    162,
-    57,
-    255
-   ],
-   "initialVelocity": [
-    0,
-    4
-   ],
-   "finalVelocity": [
-    0,
-    -1
-   ],
-   "position": [
-    0,
-    0.7
-   ],
-   "type": "ember",
-   "approach": [
-    0,
-    20
-   ],
-   "layer": "back"
-  },
-  "emissionVariance": 1
- },
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Hylotl Frypan (Fry)^white;",
- "race": "generic",
- "lightColor": [
-  179,
-  149,
-  107
- ],
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "frameCooldown": 67,
- "subtitle": "Fry food!",
- "objectName": "hylotlfryingstationCNYC",
- "apexDescription": "That could fry a whole lot of bananas!",
- "inventoryIcon": "hylotlfryingstationCNYCicon.png",
- "category": "Hylotl Cookware",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 1,
- "floranDescription": "Floran hungry..",
- "rarity": "Common"
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 179, 149, 107 ],
+  "subtitle" : "Fry food!",
+  "flickerIntensityVariance" : 0.025
 }

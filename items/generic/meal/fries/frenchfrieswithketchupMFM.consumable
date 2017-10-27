@@ -4,14 +4,14 @@
   "price" : 322.8,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A strange combo if you think about it..",
+  "description" : "(PREP):-} A strange combo if you think about it..",
   "shortdescription" : "Fries - French With Ketchup",
   "foodValue" : 21.53,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "frenchfrieswithketchupMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "frenchfrieswithketchupMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 82.26,
   "category" : "cookingIngredient",
-  "inventoryIcon" : "plantsludgeMFM.png",
-  "description" : "A mix of plant mush and acid.",
-  "shortdescription" : "Plant Sludge"
+  "description" : "(BLEND):-} A mix of plant mush and acid.",
+  "shortdescription" : "Plant Sludge",
+  "inventoryIcon" : "plantsludgeMFM.png"
 }

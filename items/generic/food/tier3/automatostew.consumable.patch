@@ -47,5 +47,24 @@
         ]
       ]
     }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(BOIL):-} A surprisingly tasty stew, if you watch out for the bits of metal."
+    }
   ]
 ]

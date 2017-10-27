@@ -4,7 +4,7 @@
   "price" : 210.0,
   "category" : "food",
   "tooltipKind" : "food",
-  "description" : "Toxictop pressed into a thick pulp using a press",
+  "description" : "(PRESS):-} Toxictop pressed into a thick pulp using a press",
   "shortdescription" : "Pressed Toxictop",
   "foodValue" : 10.5,
   "effects" : [ [ 

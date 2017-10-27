@@ -1,51 +1,47 @@
 {
   "objectName" : "wildmangoMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 18.0,
   "category" : "seed",
-  "price" : 18,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Mango, orange and sweet.",
   "shortdescription" : "Wild Mango Seed",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "floranDescription" : "Thisss growsss mangosss",
   "glitchDescription" : "Statement. Mangos grow from here.",
-
   "inventoryIcon" : "mangoMFMseedicon.png",
   "largeImage" : "mangoMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "mangoMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [1080, 1080]
+      "duration" : [ 1080, 1080 ]
     },
+
     {
-      "duration" : [1680, 1680]
+      "duration" : [ 1680, 1680 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "mangoMFMHarvest",
       "resetToStage" : 1
-    }
-  ],
+    } ],
   "maxImmersion" : 0.8,
+  "breakDropOptions" : [ [ [ "mangoMFMseed", 1, 
+        {
 
-  "breakDropOptions" : [
-    [ [ "mangoMFMseed", 1, { } ] ]
-  ]
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

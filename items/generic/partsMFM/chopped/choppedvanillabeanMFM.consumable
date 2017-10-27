@@ -4,7 +4,7 @@
   "price" : 94.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped vanilla bean.",
+  "description" : "(CHOP):-} Washed and chopped vanilla bean.",
   "shortdescription" : "Chopped Vanilla Bean",
   "foodValue" : 10.5,
   "effects" : [ [ 

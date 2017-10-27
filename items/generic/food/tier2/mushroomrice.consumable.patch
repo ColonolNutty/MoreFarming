@@ -50,5 +50,24 @@
         ]
       ]
     }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(FRY):-} Delicious eggy fried rice with mushrooms."
+    }
   ]
 ]

@@ -1,56 +1,53 @@
 {
   "objectName" : "wildasparagusMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 15.0,
   "category" : "seed",
-  "price" : 15,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Seeds for Asparagus!",
   "shortdescription" : "Wild Asparagus Seeds",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "floranDescription" : "Ssseeds for asparagusss!",
   "glitchDescription" : "Identify. Asparagus seeds.",
   "humanDescription" : "Makes your pee stink...",
-
   "inventoryIcon" : "asparagusMFMseedicon.png",
   "largeImage" : "asparagusMFMseed.png:default.3.0",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "asparagusMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [480, 480]
+      "duration" : [ 480, 480 ]
     },
+
     {
-      "duration" : [480, 480]
+      "duration" : [ 480, 480 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [1440, 1440]
+      "duration" : [ 1440, 1440 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "asparagusMFMHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25,
-  
-  "breakDropOptions" : [
-    [ [ "asparagusMFMseed", 1, { } ] ]
-  ]
+  "breakDropOptions" : [ [ [ "asparagusMFMseed", 1, 
+        {
+
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

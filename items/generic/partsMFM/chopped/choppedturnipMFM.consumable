@@ -4,7 +4,7 @@
   "price" : 31.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped turnip.",
+  "description" : "(CHOP):-} Washed and chopped turnip.",
   "shortdescription" : "Chopped Turnip",
   "foodValue" : 10.5,
   "effects" : [ [ 

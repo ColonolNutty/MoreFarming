@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 235.1,
   "category" : "cookingIngredient",
-  "description" : "An automato stuffed with corn, cheese, and breadcrumbs. Ready for baking.",
+  "description" : "(PREP):-} An automato stuffed with corn, cheese, and breadcrumbs. Ready for baking.",
   "shortdescription" : "Raw Stuffed Automato",
   "maxStack" : 1000,
   "inventoryIcon" : "rawstuffedautomatoMFM.png"

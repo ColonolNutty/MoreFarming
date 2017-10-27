@@ -1,54 +1,46 @@
 {
   "objectName" : "bamboogateBMB",
   "colonyTags" : [ "floran", "floranvillage", "door", "nature" ],
-  "printable" : false,
   "rarity" : "Common",
-
+  "price" : 402.0,
   "category" : "door",
-  "price" : 402,
+  "printable" : false,
   "description" : "A sturdy bamboo gate. Somewhat secure.",
   "shortdescription" : "Bamboo Gate",
   "race" : "generic",
-
   "apexDescription" : "A small bamboo gate.",
   "avianDescription" : "A gate. Easy to hop over.",
   "floranDescription" : "Sssmall door.",
   "glitchDescription" : "Statement. This is a gate.",
   "humanDescription" : "A good gate for a floran garden.",
   "hylotlDescription" : "A little gate made of bamboo.",
-
   "inventoryIcon" : "bamboogateBMBicon.png",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "bamboogateBMB.png:closed",
-      "imagePosition" : [-16, 0],
-
+      "imagePosition" : [ -16, 0 ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    }
-  ],
-
+    } ],
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/door/door.animation",
-  "animationCustom" : {
-    "sounds" : {
-      "open" : {
-        "pool" : [ "/sfx/objects/woodendoor_open.ogg" ],
-        "rangeMultiplier" : 0.5
+  "animationCustom" :   {
+    "sounds" :     {
+      "close" :       {
+        "rangeMultiplier" : 0.5,
+        "pool" : [ "/sfx/objects/woodendoor_close.ogg" ]
       },
-      "close" : {
-        "pool" : [ "/sfx/objects/woodendoor_close.ogg" ],
-        "rangeMultiplier" : 0.5
+      "open" :       {
+        "rangeMultiplier" : 0.5,
+        "pool" : [ "/sfx/objects/woodendoor_open.ogg" ]
       }
     }
   },
-  "animationParts" : {
+  "outputNodes" : [ [ 0, 0 ] ],
+  "animationPosition" : [ -16, 0 ],
+  "animationParts" :   {
     "door" : "bamboogateBMB.png"
   },
-  "animationPosition" : [-16, 0],
-
-  "inputNodes" : [ [0, 2] ],
-  "outputNodes" : [ [0, 0] ]
+  "animation" : "/objects/wired/door/door.animation",
+  "inputNodes" : [ [ 0, 2 ] ]
 }

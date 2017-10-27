@@ -4,7 +4,7 @@
   "price" : 126.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "When heated in this way, it's just like a boiled egg.",
+  "description" : "(BAKE):-} When heated in this way, it's just like a boiled egg.",
   "shortdescription" : "Baked Eggshoot",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -8,6 +8,6 @@
   "floranDescription" : "Tasssty block.",
   "glitchDescription" : "Statement. A block made of white chocolate.",
   "inventoryIcon" : "whitechocolateblockMFM.png",
-  "dropCollision" : [-2.5, -2, 2.5, 2],
+  "dropCollision" : [ -2.5, -2, 2.5, 2 ],
   "materialId" : 19207
 }

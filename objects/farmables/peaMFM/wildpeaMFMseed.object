@@ -1,56 +1,53 @@
 {
   "objectName" : "wildpeaMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 4.0,
   "category" : "seed",
-  "price" : 4,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Sweet peas, tiny.",
   "shortdescription" : "Wild Pea Seeds",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "floranDescription" : "Tiny plantsss?",
   "glitchDescription" : "Identify. Pea pods.",
   "humanDescription" : "Like peas in a pod",
-
   "inventoryIcon" : "peaMFMseedicon.png",
   "largeImage" : "peaMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "peaMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [120, 120]
+      "duration" : [ 120, 120 ]
     },
+
     {
-      "duration" : [120, 120]
+      "duration" : [ 120, 120 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [360, 360]
+      "duration" : [ 360, 360 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "peaMFMHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25,
-  
-  "breakDropOptions" : [
-    [ [ "peaMFMseed", 1, { } ] ]
-  ]
+  "breakDropOptions" : [ [ [ "peaMFMseed", 1, 
+        {
+
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

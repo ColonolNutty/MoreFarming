@@ -1,55 +1,52 @@
 {
   "objectName" : "wildbroccoliMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 15.0,
   "category" : "seed",
-  "price" : 15,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Broccoli Sprouts.",
   "shortdescription" : "Wild Broccoli Seeds",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "floranDescription" : "Ssseeds for broccoli!",
   "glitchDescription" : "Identify. Broccoli seeds.",
   "humanDescription" : "Broccoli, had to eat it before I got any cake!",
-
   "inventoryIcon" : "broccoliMFMseedicon.png",
   "largeImage" : "broccoliMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "broccoliMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [480, 480]
+      "duration" : [ 480, 480 ]
     },
+
     {
-      "duration" : [480, 480]
+      "duration" : [ 480, 480 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [1440, 1440]
+      "duration" : [ 1440, 1440 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "broccoliMFMHarvest"
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25,
-  
-  "breakDropOptions" : [
-    [ [ "broccoliMFMseed", 1, { } ] ]
-  ]
+  "breakDropOptions" : [ [ [ "broccoliMFMseed", 1, 
+        {
+
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

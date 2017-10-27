@@ -1,10 +1,10 @@
 {
   "objectName" : "bdaycakeMFM",
+  "colonyTags" : [ "light" ],
   "rarity" : "Uncommon",
   "price" : 541.08,
   "category" : "light",
-  "colonyTags" : ["light"],
-  "description" : "Throw a birthday party! Very filling.",
+  "description" : "(PREP):-} Throw a birthday party! Very filling.",
   "shortdescription" : "Birthday Cake",
   "race" : "generic",
   "apexDescription" : "Big ape would have liked bananas instead, but I don't care.",
@@ -14,30 +14,30 @@
   "humanDescription" : "Who has a present for me?",
   "hylotlDescription" : "This is the last thing I would want for my birthday.",
   "inventoryIcon" : "bdaycakeMFMicon.png",
-  "orientations" : [
+  "largeImage" : "bdaycakeMFM.png:<color>.0",
+  "orientations" : [ 
     {
       "image" : "bdaycakeMFM.png:<color>.<frame>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "direction" : "right",
-      "lightPosition" : [0, 0],
       "spaceScan" : 0.1,
-      "animationPosition" : [0, 0],
-      "anchors" : ["bottom"],
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [ 0, 0 ],
+      "animationPosition" : [ 0, 0 ],
       "animationParts" :       {
         "fg" : "bdaycakeMFM.png",
         "bg" : "bdaycakeMFM.png"
       }
-    }],
-  "scripts" : ["/objects/wired/light/light.lua"],
+    } ],
+  "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
-  "largeImage" : "bdaycakeMFM.png:<color>.0",
   "flickerMinIntensity" : 0.1,
   "flickerPeriodVariance" : 0.075,
   "maximumLiquidLevel" : 0.2,
   "animationCustom" :   {
     "sounds" :     {
-      "off" : ["/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg"],
-      "on" : ["/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg"]
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ],
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ]
     }
   },
   "flickerMaxIntensity" : 0.1,
@@ -47,21 +47,21 @@
     "fg" : "bdaycakeMFM.png",
     "bg" : "bdaycakeMFM.png"
   },
-  "breakDropOptions" : [[["bdaycakesliceMFM", 1, 
+  "breakDropOptions" : [ [ [ "bdaycakesliceMFM", 1, 
         {
 
-        }],["bdaycakesliceMFM", 1, 
+        } ],[ "bdaycakesliceMFM", 1, 
         {
 
-        }],["bdaycakesliceMFM", 1, 
+        } ],[ "bdaycakesliceMFM", 1, 
         {
 
-        }],["bdaycakesliceMFM", 1, 
+        } ],[ "bdaycakesliceMFM", 1, 
         {
 
-        }]]],
-  "lightColor" : [229, 218, 207],
+        } ] ] ],
+  "lightColor" : [ 229, 218, 207 ],
   "animation" : "bdaycakeMFM.animation",
-  "inputNodes" : [[0, 0]],
+  "inputNodes" : [ [ 0, 0 ] ],
   "flickerIntensityVariance" : 0.025
 }

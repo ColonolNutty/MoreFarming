@@ -1,29 +1,27 @@
 {
   "itemName" : "avocadoMSM",
   "rarity" : "Common",
-  "price" : 20,
+  "price" : 20.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "avocadoMSM.png",
+  "tooltipKind" : "food",
   "description" : "Avocado!",
   "shortdescription" : "Avocado",
-  "effects" : [ [
-    {
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 70
-    },
-    {
+      },
+
+      {
         "effect" : "thorns",
         "duration" : 70
-    }
-  ] ],
-  "foodValue" : 10,
-  "tooltipKind" : "food",
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "avocadoMSM.png"
 }

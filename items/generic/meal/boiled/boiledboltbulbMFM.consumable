@@ -4,7 +4,7 @@
   "price" : 132.3,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Boltbulb boiled in water.",
+  "description" : "(BOIL):-} Boltbulb boiled in water.",
   "shortdescription" : "Boiled Boltbulb",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

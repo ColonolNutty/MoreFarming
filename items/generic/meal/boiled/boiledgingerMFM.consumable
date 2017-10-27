@@ -4,7 +4,7 @@
   "price" : 22.05,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Ginger boiled in water.",
+  "description" : "(BOIL):-} Ginger boiled in water.",
   "shortdescription" : "Boiled Ginger",
   "foodValue" : 11.03,
   "effects" : [ [ 

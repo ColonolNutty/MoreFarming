@@ -4,7 +4,7 @@
   "price" : 11.03,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A strip of bird meat, roasted!",
+  "description" : "(BAKE):-} A strip of bird meat, roasted!",
   "shortdescription" : "Strip of Roasted Poultry",
   "foodValue" : 10.0,
   "effects" : [ [ "regeneration1" ] ],

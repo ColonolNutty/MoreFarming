@@ -1,55 +1,51 @@
 {
   "objectName" : "wildyeastMFMseed",
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "colonyTags" : ["nature"],
+  "price" : 9.0,
   "category" : "seed",
-  "price" : 9,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Yeast, perfect for baking or making alcohol, but why is this even here?",
   "shortdescription" : "Wild Yeast Pile",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "apexDescription" : "Yeast? In the wild? Not even I understand how this works.",
   "avianDescription" : "Yeast pile. Why is this even here?",
   "floranDescription" : "Floran take tiny bread mushroomsss. Thisss doesssn't ssseem natural",
   "glitchDescription" : "Analysis. This is yeast, but how does it grow?",
   "humanDescription" : "A pile of Yeast, I see bread making in my future, but where did this come from?",
   "hylotlDescription" : "Yeast pile, I should jar this. This land plant doesn't seem natural.",
-
   "inventoryIcon" : "yeastMFMseedicon.png",
   "largeImage" : "wildyeastMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "wildyeastMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [600, 600]
+      "duration" : [ 600, 600 ]
     },
+
     {
-      "duration" : [840, 840]
+      "duration" : [ 840, 840 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "yeastMFMHarvest",
       "resetToStage" : 1
-    }
-  ],
+    } ],
   "maxImmersion" : 1.0,
-  
-  "breakDropOptions" : [
-    [ [ "yeastMFMseed", 1, { } ] ]
-  ]
+  "breakDropOptions" : [ [ [ "yeastMFMseed", 1, 
+        {
+
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

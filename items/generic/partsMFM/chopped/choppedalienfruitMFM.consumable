@@ -1,18 +1,16 @@
 {
   "itemName" : "choppedalienfruitMFM",
   "rarity" : "Common",
-  "price" : 42,
+  "price" : 42.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedalienfruitMFM.png",
-  "description" : "Washed and chopped alien fruit.",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed and chopped alien fruit.",
   "shortdescription" : "Chopped Alien Fruit",
   "foodValue" : 10.5,
-  "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedalienfruitMFM.png"
 }

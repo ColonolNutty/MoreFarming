@@ -4,7 +4,7 @@
   "price" : 66.15,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A lemon boiled in water.",
+  "description" : "(BOIL):-} A lemon boiled in water.",
   "shortdescription" : "Boiled Lemon",
   "foodValue" : 11.03,
   "effects" : [ [ 

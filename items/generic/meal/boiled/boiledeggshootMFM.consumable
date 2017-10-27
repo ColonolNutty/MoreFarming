@@ -4,7 +4,7 @@
   "price" : 132.3,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "An eggshoot boiled in water.",
+  "description" : "(BOIL):-} An eggshoot boiled in water.",
   "shortdescription" : "Boiled Eggshoot",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

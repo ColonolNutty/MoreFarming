@@ -58,5 +58,24 @@
         ]
       ]
     }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(BAKE):-} It looks like the old spooky holiday treat, but there's actual corn in the centre of each morsel."
+    }
   ]
 ]

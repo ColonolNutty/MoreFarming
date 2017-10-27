@@ -4,7 +4,7 @@
   "price" : 523.68,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A type of Japanese omelette.",
+  "description" : "(FRY):-} A type of Japanese omelette.",
   "shortdescription" : "Tamagoyaki",
   "foodValue" : 110.82,
   "effects" : [ [ 

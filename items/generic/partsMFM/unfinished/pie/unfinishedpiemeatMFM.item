@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 515.69,
   "category" : "cookingIngredient",
-  "description" : "A pie shell filled with alien meat. Ready for baking.",
+  "description" : "(PREP):-} A pie shell filled with alien meat. Ready for baking.",
   "shortdescription" : "Pie Unfinished - Meat",
   "maxStack" : 1000,
   "inventoryIcon" : "unfinishedpiemeatMFM.png"

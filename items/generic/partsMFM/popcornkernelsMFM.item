@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 66.15,
   "category" : "cookingIngredient",
-  "description" : "Dried corn, ready for popping.",
+  "description" : "(BAKE):-} Dried corn, ready for popping.",
   "shortdescription" : "Part - Popcorn Kernels",
   "maxStack" : 1000,
   "inventoryIcon" : "popcornkernelsMFM.png"

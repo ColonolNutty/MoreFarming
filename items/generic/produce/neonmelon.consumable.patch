@@ -22,7 +22,7 @@
     {
       "op" : "replace",
       "path" : "/description",
-      "value" : "A fully grown Neonmelon. Tastes like bubblegum."
+      "value" : "A slice of bubblegum flavoured neonmelon."
     },
     {
       "op" : "replace",
@@ -37,14 +37,7 @@
     {
       "op" : "replace",
       "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 60
-          }
-        ]
-      ]
+      "value" : []
     }
   ],
   [
@@ -56,7 +49,7 @@
     {
       "op" : "add",
       "path" : "/foodValue",
-      "value" : 10.0
+      "value" : 0.0
     }
   ],
   [

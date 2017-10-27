@@ -4,7 +4,7 @@
   "price" : 66.15,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Asparagus boiled in water.",
+  "description" : "(BOIL):-} Asparagus boiled in water.",
   "shortdescription" : "Boiled Asparagus",
   "foodValue" : 11.03,
   "effects" : [ [ 

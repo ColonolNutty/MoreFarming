@@ -4,7 +4,7 @@
   "price" : 19.3,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "SFC, Space Fried Chicken; Chicken deep-fried in oil",
+  "description" : "(FRY):-} SFC, Space Fried Chicken; Chicken deep-fried in oil",
   "shortdescription" : "Fried Chicken",
   "foodValue" : 10.0,
   "effects" : [ [ 

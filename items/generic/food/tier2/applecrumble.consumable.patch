@@ -3,7 +3,7 @@
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 218.43
+      "value" : 180.46
     },
     {
       "op" : "replace",
@@ -45,6 +45,25 @@
           }
         ]
       ]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(BAKE):-} Sweet, stewed apple under a blanket of golden crumble."
     }
   ]
 ]

@@ -4,7 +4,7 @@
   "price" : 284.11,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A sandwich made with blueberry jelly.",
+  "description" : "(PREP):-} A sandwich made with blueberry jelly.",
   "shortdescription" : "Sandwich - Blueberry Jelly",
   "foodValue" : 57.78,
   "effects" : [ [ 

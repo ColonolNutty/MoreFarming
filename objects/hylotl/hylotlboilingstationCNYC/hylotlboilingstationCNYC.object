@@ -1,128 +1,95 @@
 {
- "avianDescription": "It's decorated with a sort of wave design",
- "flickerPeriod": 0.3,
- "recipeGroup": "boilingMFM",
- "outputConfig": "/recipeCrafterMFM/boilingMFMRecipes.config",
- "flickerMinIntensity": 0.85,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "imageLayers": [
+  "objectName" : "hylotlboilingstationCNYC",
+  "colonyTags" : [ "hylotl", "hylotlvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 244.03,
+  "category" : "Hylotl Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "One pot cooking!",
+  "shortdescription" : "^orange;Hylotl Boilpot (Boil)^white;",
+  "race" : "generic",
+  "apexDescription" : "Oh now that is fancy looking!",
+  "avianDescription" : "It's decorated with a sort of wave design",
+  "floranDescription" : "Floran put the hylotl in the ssstew..",
+  "glitchDescription" : "Observation. A traditional Hylotl pot!",
+  "humanDescription" : "That's alot of kelp noodle soup..",
+  "hylotlDescription" : "Finnaly I have my own pot again.",
+  "inventoryIcon" : "hylotlboilingstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "hylotlboilingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "hylotlboilingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "hylotlboilingstationCNYClit.png:<color>.<frame>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "hylotlboilingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "flipImages": true,
-   "frames": 4,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "imageLayers": [
+
     {
-     "image": "hylotlboilingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "hylotlboilingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "hylotlboilingstationCNYClit.png:<color>.<frame>"
+        } ]
+    } ],
+  "recipeGroup" : "boilingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/boilingMFMRecipes.config",
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.85,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 1,
+  "soundEffect" : "/sfx/objects/spookycauldron.ogg",
+  "soundEffectRadius" : 20,
+  "particleEmitter" :   {
+    "emissionRate" : 6,
+    "particleVariance" :     {
+      "initialVelocity" : [ 0.5, 2 ],
+      "position" : [ 0.8, 0 ]
     },
-    {"image": "hylotlboilingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "frames": 4,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "One pot cooking!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "flickerMaxIntensity": 1,
- "objectType": "container",
- "hylotlDescription": "Finnaly I have my own pot again.",
- "glitchDescription": "Observation. A traditional Hylotl pot!",
- "price": 244.03,
- "slotCount": 16,
- "soundEffect": "/sfx/objects/spookycauldron.ogg",
- "colonyTags": [
-  "hylotl",
-  "hylotlvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "soundEffectRadius": 20,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "humanDescription": "That's alot of kelp noodle soup..",
- "particleEmitter": {
-  "emissionRate": 6,
-  "particleVariance": {
-   "initialVelocity": [
-    0.5,
-    2
-   ],
-   "position": [
-    0.8,
-    0
-   ]
+    "particle" :     {
+      "timeToLive" : 0.3,
+      "fade" : 2,
+      "size" : 1,
+      "color" : [ 200, 200, 200, 100 ],
+      "initialVelocity" : [ 0, 4 ],
+      "finalVelocity" : [ 0, 2 ],
+      "position" : [ 0, 1.1 ],
+      "type" : "ember",
+      "approach" : [ 0, 20 ],
+      "layer" : "back"
+    },
+    "emissionVariance" : 1
   },
-  "particle": {
-   "timeToLive": 0.3,
-   "fade": 2,
-   "size": 1,
-   "color": [
-    200,
-    200,
-    200,
-    100
-   ],
-   "initialVelocity": [
-    0,
-    4
-   ],
-   "finalVelocity": [
-    0,
-    2
-   ],
-   "position": [
-    0,
-    1.1
-   ],
-   "type": "ember",
-   "approach": [
-    0,
-    20
-   ],
-   "layer": "back"
-  },
-  "emissionVariance": 1
- },
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Hylotl Boilpot (Boil)^white;",
- "race": "generic",
- "lightColor": [
-  179,
-  149,
-  107
- ],
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "frameCooldown": 67,
- "subtitle": "Boil and simmer",
- "objectName": "hylotlboilingstationCNYC",
- "apexDescription": "Oh now that is fancy looking!",
- "inventoryIcon": "hylotlboilingstationCNYCicon.png",
- "category": "Hylotl Cookware",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 1,
- "floranDescription": "Floran put the hylotl in the ssstew..",
- "rarity": "Common"
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 179, 149, 107 ],
+  "subtitle" : "Boil and simmer",
+  "flickerIntensityVariance" : 0.025
 }

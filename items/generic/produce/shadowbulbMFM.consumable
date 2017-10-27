@@ -1,29 +1,27 @@
 {
   "itemName" : "shadowbulbMFM",
   "rarity" : "Rare",
-  "price" : 50,
+  "price" : 50.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "shadowbulbMFM.png",
+  "tooltipKind" : "food",
   "description" : "Shadowbulb, tastes like darkness. Somehow.",
   "shortdescription" : "Shadowbulb",
-  "effects" : [ [
-    {
-      "effect" : "ghostlyglow",
-      "duration" : 60
-    },
-    {
-      "effect" : "poisonblock",
-      "duration" : 40
-    }
-  ] ],
-  "foodValue" : 10,
-  "tooltipKind" : "food",
+  "foodValue" : 10.0,
+  "effects" : [ [ 
+      {
+        "effect" : "ghostlyglow",
+        "duration" : 60
+      },
+
+      {
+        "effect" : "poisonblock",
+        "duration" : 40
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "shadowbulbMFM.png"
 }

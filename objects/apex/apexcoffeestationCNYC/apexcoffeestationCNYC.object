@@ -1,66 +1,59 @@
 {
- "flickerPeriod": 0.8,
- "recipeGroup": "coffeeMFM",
- "outputConfig": "/recipeCrafterMFM/coffeeMFMRecipes.config",
- "flickerMinIntensity": 0.2,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "image": "apexcoffeestationCNYC.png:default",
-   "collision": "platform",
-   "spaceScan": 0.1,
-   "anchors": ["bottom"]
-  },
-  {
-   "image": "apexcoffeestationCNYC.png:default",
-   "collision": "platform",
-   "spaceScan": 0.1,
-   "anchors": ["left"]
-  },
-  {
-   "image": "apexcoffeestationCNYC.png:default",
-   "collision": "platform",
-   "flipImages": true,
-   "spaceScan": 0.1,
-   "anchors": ["right"]
-  },
-  {
-   "image": "apexcoffeestationCNYC.png:default",
-   "collision": "platform",
-   "spaceScan": 0.1,
-   "anchors": ["top"]
-  }
- ],
- "description": "An espresso machine!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "flickerMaxIntensity": 0.3,
- "objectType": "container",
- "price": 720.58,
- "slotCount": 16,
- "colonyTags": [
-  "apex",
-  "apexvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Apex Esp. Machine (Coffee)^white;",
- "race": "generic",
- "lightColor": [
-  218,
-  83,
-  2,
-  5
- ],
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "frameCooldown": 67,
- "subtitle": "Espresso to go!",
- "objectName": "apexcoffeestationCNYC",
- "inventoryIcon": "apexcoffeestationCNYCicon.png",
- "category": "Apex Cookware",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 1,
- "rarity": "Common"
+  "objectName" : "apexcoffeestationCNYC",
+  "colonyTags" : [ "apex", "apexvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 720.58,
+  "category" : "Apex Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "An espresso machine!",
+  "shortdescription" : "^orange;Apex Esp. Machine (Coffee)^white;",
+  "race" : "generic",
+  "inventoryIcon" : "apexcoffeestationCNYCicon.png",
+  "orientations" : [ 
+    {
+      "image" : "apexcoffeestationCNYC.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+
+    {
+      "image" : "apexcoffeestationCNYC.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "collision" : "platform"
+    },
+
+    {
+      "image" : "apexcoffeestationCNYC.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+      "collision" : "platform",
+      "flipImages" : true
+    },
+
+    {
+      "image" : "apexcoffeestationCNYC.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "collision" : "platform"
+    } ],
+  "recipeGroup" : "coffeeMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/coffeeMFMRecipes.config",
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.2,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 0.3,
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 218, 83, 2, 5 ],
+  "subtitle" : "Espresso to go!",
+  "flickerIntensityVariance" : 0.025
 }

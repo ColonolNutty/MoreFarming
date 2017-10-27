@@ -1,127 +1,93 @@
 {
- "avianDescription": "Corden Jamsey cookpans, galvanised?",
- "flickerPeriod": 0.8,
- "recipeGroup": "boilingMFM",
- "outputConfig": "/recipeCrafterMFM/boilingMFMRecipes.config",
- "flickerMinIntensity": 0.1,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "imageLayers": [
+  "objectName" : "boilingstationCNYC",
+  "colonyTags" : [ "human", "humanvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 249.08,
+  "category" : "Basic Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "I can boil food with this!",
+  "shortdescription" : "^orange;Boiling Pans (Boil)^white;",
+  "race" : "generic",
+  "apexDescription" : "Better then those tin pans we had to use.",
+  "avianDescription" : "Corden Jamsey cookpans, galvanised?",
+  "floranDescription" : "Floran usse as hammer afterwardss.",
+  "glitchDescription" : "Inspect. Lightweight cauldrons.",
+  "humanDescription" : "Pans! Wonder if Jamsey used them!",
+  "hylotlDescription" : "Looks expensive.. Also limited edition?",
+  "inventoryIcon" : "boilingstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "boilingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 3,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "boilingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "boilingstationCNYClit.png:<color>.<frame>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "boilingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "flipImages": true,
-   "frames": 3,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "imageLayers": [
+
     {
-     "image": "boilingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 3,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "boilingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "boilingstationCNYClit.png:<color>.<frame>"
+        } ]
+    } ],
+  "recipeGroup" : "boilingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/boilingMFMRecipes.config",
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 0.3,
+  "particleEmitter" :   {
+    "emissionRate" : 6,
+    "particleVariance" :     {
+      "initialVelocity" : [ 0.5, 2 ],
+      "position" : [ 0.6, 0 ]
     },
-    {"image": "boilingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "frames": 3,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "I can boil food with this!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "flickerMaxIntensity": 0.3,
- "objectType": "container",
- "hylotlDescription": "Looks expensive.. Also limited edition?",
- "glitchDescription": "Inspect. Lightweight cauldrons.",
- "price": 249.08,
- "slotCount": 16,
- "colonyTags": [
-  "human",
-  "humanvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "humanDescription": "Pans! Wonder if Jamsey used them!",
- "particleEmitter": {
-  "emissionRate": 6,
-  "particleVariance": {
-   "initialVelocity": [
-    0.5,
-    2
-   ],
-   "position": [
-    0.6,
-    0
-   ]
+    "particle" :     {
+      "timeToLive" : 0.3,
+      "fade" : 2,
+      "size" : 1,
+      "color" : [ 200, 200, 200, 100 ],
+      "initialVelocity" : [ 0, 4 ],
+      "finalVelocity" : [ 0, 2 ],
+      "position" : [ 0, 1 ],
+      "type" : "ember",
+      "approach" : [ 0, 20 ],
+      "layer" : "back"
+    },
+    "emissionVariance" : 1
   },
-  "particle": {
-   "timeToLive": 0.3,
-   "fade": 2,
-   "size": 1,
-   "color": [
-    200,
-    200,
-    200,
-    100
-   ],
-   "initialVelocity": [
-    0,
-    4
-   ],
-   "finalVelocity": [
-    0,
-    2
-   ],
-   "position": [
-    0,
-    1
-   ],
-   "type": "ember",
-   "approach": [
-    0,
-    20
-   ],
-   "layer": "back"
-  },
-  "emissionVariance": 1
- },
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Boiling Pans (Boil)^white;",
- "race": "generic",
- "lightColor": [
-  116,
-  227,
-  225,
-  5
- ],
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "frameCooldown": 67,
- "subtitle": "Boil Food!",
- "objectName": "boilingstationCNYC",
- "apexDescription": "Better then those tin pans we had to use.",
- "inventoryIcon": "boilingstationCNYCicon.png",
- "category": "Basic Cookware",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 1,
- "floranDescription": "Floran usse as hammer afterwardss.",
- "rarity": "Common"
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 116, 227, 225, 5 ],
+  "subtitle" : "Boil Food!",
+  "flickerIntensityVariance" : 0.025
 }

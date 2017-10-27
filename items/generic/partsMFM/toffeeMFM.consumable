@@ -4,7 +4,7 @@
   "price" : 29.4,
   "category" : "food",
   "tooltipKind" : "food",
-  "description" : "Toffee! A common ingredient in sweets.",
+  "description" : "(BAKE):-} Toffee! A common ingredient in sweets.",
   "shortdescription" : "Toffee",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

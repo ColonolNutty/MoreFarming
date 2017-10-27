@@ -4,7 +4,7 @@
   "price" : 272.4,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "A Hylotl alcoholic drink made from rice.",
+  "description" : "(BLEND):-} A Hylotl alcoholic drink made from rice.",
   "shortdescription" : "Sake",
   "foodValue" : 42.6,
   "builder" : "/items/buildscripts/buildfood.lua",

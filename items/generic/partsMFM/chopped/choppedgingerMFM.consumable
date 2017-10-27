@@ -4,7 +4,7 @@
   "price" : 21.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped ginger.",
+  "description" : "(CHOP):-} Washed and chopped ginger.",
   "shortdescription" : "Chopped Ginger",
   "foodValue" : 10.5,
   "effects" : [ [ 

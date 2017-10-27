@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 21.0,
   "category" : "cookingIngredient",
-  "description" : "Ground corn.",
+  "description" : "(MILL):-} Ground corn.",
   "shortdescription" : "Cornmeal",
   "inventoryIcon" : "cornmealMFM.png"
 }

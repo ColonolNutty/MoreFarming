@@ -4,7 +4,7 @@
   "price" : 134.75,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A milkshake made with blueberries. Yum!",
+  "description" : "(BLEND):-} A milkshake made with blueberries. Yum!",
   "shortdescription" : "Milkshake - Blueberry",
   "foodValue" : 23.79,
   "effects" : [ [ 

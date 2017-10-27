@@ -4,7 +4,7 @@
   "price" : 54.79,
   "category" : "food",
   "tooltipKind" : "food",
-  "description" : "A cookie made using jelon.",
+  "description" : "(BAKE):-} A cookie made using jelon.",
   "shortdescription" : "Cookie - Jelon",
   "foodValue" : 10.27,
   "effects" : [ [ 

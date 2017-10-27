@@ -42,5 +42,24 @@
         ]
       ]
     }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(BLEND):-} A mixture of only the sweetest of sweet fruit."
+    }
   ]
 ]

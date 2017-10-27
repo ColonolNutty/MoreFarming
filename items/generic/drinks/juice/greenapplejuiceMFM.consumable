@@ -4,7 +4,7 @@
   "price" : 22.05,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "Sour apple juice from a green apple.",
+  "description" : "(BLEND):-} Sour apple juice from a green apple.",
   "shortdescription" : "Juice - Green Apple",
   "foodValue" : 10.0,
   "effects" : [ [ 

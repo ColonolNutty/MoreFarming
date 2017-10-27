@@ -4,7 +4,7 @@
   "price" : 69.15,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Is it a liquid or solid?",
+  "description" : "(BLEND):-} Is it a liquid or solid?",
   "shortdescription" : "Pudding - Vanilla",
   "foodValue" : 10.93,
   "effects" : [ [ 

@@ -17,7 +17,7 @@
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 20
+      "value" : 4.0
     },
     {
       "op" : "replace",
@@ -27,14 +27,26 @@
     {
       "op" : "replace",
       "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 60
-          }
-        ]
-      ]
+      "value" : []
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "A ripe red apple."
     }
   ]
 ]

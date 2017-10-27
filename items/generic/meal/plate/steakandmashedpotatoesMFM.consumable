@@ -4,7 +4,7 @@
   "price" : 210.63,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A plate of steak and mashed potatoes",
+  "description" : "(PREP):-} A plate of steak and mashed potatoes",
   "shortdescription" : "Steak and Potatoes",
   "foodValue" : 39.25,
   "effects" : [ [ 

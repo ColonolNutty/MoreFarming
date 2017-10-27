@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 364.57,
   "category" : "cookingIngredient",
-  "description" : "A quiche filled with eggs, milk, and meat. Ready for baking.",
+  "description" : "(PREP):-} A quiche filled with eggs, milk, and meat. Ready for baking.",
   "shortdescription" : "Quiche Unfinished - Lorraine",
   "maxStack" : 1000,
   "inventoryIcon" : "unfinishedquichelorraineMFM.png"

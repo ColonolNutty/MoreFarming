@@ -4,7 +4,7 @@
   "price" : 132.3,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "A popular Apex drink.",
+  "description" : "(BLEND):-} A popular Apex drink.",
   "shortdescription" : "Juice - Banana",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

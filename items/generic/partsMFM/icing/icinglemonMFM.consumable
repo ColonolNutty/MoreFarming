@@ -4,7 +4,7 @@
   "price" : 90.3,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Lemon flavoured icing. Sour!",
+  "description" : "(BLEND):-} Lemon flavoured icing. Sour!",
   "shortdescription" : "Icing - Lemon",
   "foodValue" : 13.9,
   "effects" : [ [ 

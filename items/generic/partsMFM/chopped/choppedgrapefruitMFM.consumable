@@ -4,7 +4,7 @@
   "price" : 42.0,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled, and chopped grapefruit.",
+  "description" : "(CHOP):-} Washed, peeled, and chopped grapefruit.",
   "shortdescription" : "Chopped Grapefruit",
   "foodValue" : 10.5,
   "effects" : [ [ 

@@ -4,7 +4,7 @@
   "price" : 176.4,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Boneboo boiled in water.",
+  "description" : "(BOIL):-} Boneboo boiled in water.",
   "shortdescription" : "Boiled Boneboo",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -4,7 +4,7 @@
   "price" : 63.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped asparagus.",
+  "description" : "(CHOP):-} Washed and chopped asparagus.",
   "shortdescription" : "Chopped Asparagus",
   "foodValue" : 10.5,
   "effects" : [ [ 

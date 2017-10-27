@@ -4,7 +4,7 @@
   "price" : 84.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Goes great with spices. You should take out the screws first.",
+  "description" : "(BAKE):-} Goes great with spices. You should take out the screws first.",
   "shortdescription" : "Dried Automato",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

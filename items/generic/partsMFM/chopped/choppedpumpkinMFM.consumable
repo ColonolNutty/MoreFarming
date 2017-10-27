@@ -5,7 +5,7 @@
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped pumpkin.",
+  "description" : "(CHOP):-} Washed and chopped pumpkin.",
   "shortdescription" : "Chopped Pumpkin",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

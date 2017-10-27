@@ -4,7 +4,7 @@
   "price" : 415.03,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "A pie shell filled with chopped pumpkins and a few other things. Ready for baking.",
+  "description" : "(PREP):-} A pie shell filled with chopped pumpkins and a few other things. Ready for baking.",
   "shortdescription" : "Pie Unfinished - Pumpkin",
   "foodValue" : 89.82,
   "effects" : [ [ 

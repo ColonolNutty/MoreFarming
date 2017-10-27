@@ -4,7 +4,7 @@
   "price" : 672.17,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A sandwich made with chips and bananas.",
+  "description" : "(PREP):-} A sandwich made with chips and bananas.",
   "shortdescription" : "Sandwich - Chipanana",
   "foodValue" : 61.27,
   "effects" : [ [ 

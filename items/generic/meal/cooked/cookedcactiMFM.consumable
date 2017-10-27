@@ -4,7 +4,7 @@
   "price" : 15.75,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Spiky, but somewhat more edible.",
+  "description" : "(BAKE):-} Spiky, but somewhat more edible.",
   "shortdescription" : "Baked Cactus",
   "foodValue" : 10.5,
   "effects" : [ [ 

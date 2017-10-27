@@ -4,7 +4,7 @@
   "price" : 434.7,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "A spicy curry made with tofu.",
+  "description" : "(BOIL):-} A spicy curry made with tofu.",
   "shortdescription" : "Curry - Tofu",
   "foodValue" : 37.49,
   "effects" : [ [ 

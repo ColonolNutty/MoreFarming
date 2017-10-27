@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 87.37,
   "category" : "cookingIngredient",
-  "description" : "Cookiedough mixed with chopped cacti. Ready for baking.",
+  "description" : "(PREP):-} Cookiedough mixed with chopped cacti. Ready for baking.",
   "shortdescription" : "Cookie Unfinished - Spiky",
   "maxStack" : 1000,
   "inventoryIcon" : "unfinishedcookiesspikyMFM.png"

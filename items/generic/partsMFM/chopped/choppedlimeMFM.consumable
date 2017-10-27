@@ -4,7 +4,7 @@
   "price" : 42.0,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled, and chopped  lime.",
+  "description" : "(CHOP):-} Washed, peeled, and chopped  lime.",
   "shortdescription" : "Chopped Lime",
   "foodValue" : 10.5,
   "effects" : [ [ 

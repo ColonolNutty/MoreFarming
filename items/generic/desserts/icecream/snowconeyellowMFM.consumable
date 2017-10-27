@@ -4,7 +4,7 @@
   "price" : 107.88,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A yellow snow cone.",
+  "description" : "(FREEZE):-} A yellow snow cone.",
   "shortdescription" : "Snow Cone - Yellow",
   "foodValue" : 156.23,
   "effects" : [ [ 

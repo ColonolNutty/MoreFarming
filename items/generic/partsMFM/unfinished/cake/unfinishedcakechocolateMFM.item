@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 282.05,
   "category" : "cookingIngredient",
-  "description" : "The fluffy, risen, base of a chocolate cake. Needs decorating.",
+  "description" : "(BAKE):-} The fluffy, risen, base of a chocolate cake. Needs decorating.",
   "shortdescription" : "Cake Unfinished - Chocolate",
   "maxStack" : 1000,
   "inventoryIcon" : "unfinishedcakechocolateMFM.png"

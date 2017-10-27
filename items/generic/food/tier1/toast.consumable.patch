@@ -8,7 +8,7 @@
     {
       "op" : "replace",
       "path" : "/description",
-      "value" : "A slice of warm bread. Delicious."
+      "value" : "(BAKE):-} A slice of warm, eggy bread. Delicious."
     },
     {
       "op" : "replace",

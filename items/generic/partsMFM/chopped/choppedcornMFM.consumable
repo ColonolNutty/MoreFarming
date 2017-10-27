@@ -4,7 +4,7 @@
   "price" : 63.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled, and chopped corn kernels straight from the husk.",
+  "description" : "(CHOP):-} Washed, peeled, and chopped corn kernels straight from the husk.",
   "shortdescription" : "Chopped Corn",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

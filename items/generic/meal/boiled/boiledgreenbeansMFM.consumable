@@ -4,7 +4,7 @@
   "price" : 38.59,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Green beans boiled in water.",
+  "description" : "(BOIL):-} Green beans boiled in water.",
   "shortdescription" : "Boiled Green Beans",
   "foodValue" : 11.03,
   "builder" : "/items/buildscripts/buildfood.lua",

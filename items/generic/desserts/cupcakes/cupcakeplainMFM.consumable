@@ -4,7 +4,7 @@
   "price" : 274.54,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A cupcake with no icing.",
+  "description" : "(BAKE):-} A cupcake with no icing.",
   "shortdescription" : "Cupcake - Plain",
   "foodValue" : 53.84,
   "effects" : [ [ 

@@ -4,7 +4,7 @@
   "price" : 157.5,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled, and chopped holiday fruit.",
+  "description" : "(CHOP):-} Washed, peeled, and chopped holiday fruit.",
   "shortdescription" : "Chopped Holiday Fruit",
   "foodValue" : 21.0,
   "effects" : [ [ 

@@ -4,7 +4,7 @@
   "price" : 46.01,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "How can you tell how good bread is without tasting it? The sound of the crust. Oh, the symphony of crackles...",
+  "description" : "(BAKE):-} How can you tell how good bread is without tasting it? The sound of the crust. Oh, the symphony of crackles...",
   "shortdescription" : "Bread - High Quality",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -1,84 +1,73 @@
 {
- "avianDescription": "No-one likes oil on their feathers",
- "flickerPeriod": 0.8,
- "recipeGroup": "fryingMFM",
- "outputConfig": "/recipeCrafterMFM/fryingMFMRecipes.config",
- "flickerMinIntensity": 0.1,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "imageLayers": [
+  "objectName" : "avianfryingstationCNYC",
+  "colonyTags" : [ "avian", "avianvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 82.23,
+  "category" : "Avian Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "Covered clay fryer!",
+  "shortdescription" : "^orange;Avian Tangine (Fry)^white;",
+  "race" : "generic",
+  "apexDescription" : "A frypot with a lid? Makes sense.",
+  "avianDescription" : "No-one likes oil on their feathers",
+  "floranDescription" : "Floran likess oily hatss..",
+  "glitchDescription" : "Inspect. Kiln-fired frypot.",
+  "humanDescription" : "Smells like toasted chili.. and avesmingo?",
+  "hylotlDescription" : "How delightful, I dislike spitting hot oil",
+  "inventoryIcon" : "avianfryingstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "avianfryingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "avianfryingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "avianfryingstationCNYClit.png:<color>.<frame>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "avianfryingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "flipImages": true,
-   "frames": 4,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "imageLayers": [
+
     {
-     "image": "avianfryingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
-    },
-    {"image": "avianfryingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "frames": 4,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "Covered clay fryer!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "flickerMaxIntensity": 0.3,
- "objectType": "container",
- "hylotlDescription": "How delightful, I dislike spitting hot oil",
- "glitchDescription": "Inspect. Kiln-fired frypot.",
- "price": 82.23,
- "slotCount": 16,
- "colonyTags": [
-  "avian",
-  "avianvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "humanDescription": "Smells like toasted chili.. and avesmingo?",
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Avian Tangine (Fry)^white;",
- "race": "generic",
- "lightColor": [
-  218,
-  83,
-  2,
-  5
- ],
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "frameCooldown": 67,
- "subtitle": "Fry Food!",
- "objectName": "avianfryingstationCNYC",
- "apexDescription": "A frypot with a lid? Makes sense.",
- "inventoryIcon": "avianfryingstationCNYCicon.png",
- "category": "Avian Cookware",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 1,
- "floranDescription": "Floran likess oily hatss..",
- "rarity": "Common"
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "avianfryingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "avianfryingstationCNYClit.png:<color>.<frame>"
+        } ]
+    } ],
+  "recipeGroup" : "fryingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/fryingMFMRecipes.config",
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 0.3,
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 218, 83, 2, 5 ],
+  "subtitle" : "Fry Food!",
+  "flickerIntensityVariance" : 0.025
 }

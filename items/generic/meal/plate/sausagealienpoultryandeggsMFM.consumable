@@ -4,7 +4,7 @@
   "price" : 131.82,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A plate of steak and poultry sausage with a side of scrambled eggs.",
+  "description" : "(PREP):-} A plate of steak and poultry sausage with a side of scrambled eggs.",
   "shortdescription" : "Sausage and Eggs",
   "foodValue" : 36.88,
   "effects" : [ [ 

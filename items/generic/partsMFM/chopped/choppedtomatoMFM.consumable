@@ -4,7 +4,7 @@
   "price" : 63.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped tomato.",
+  "description" : "(CHOP):-} Washed and chopped tomato.",
   "shortdescription" : "Chopped Tomato",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -4,7 +4,7 @@
   "price" : 175.2,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Tofu fried rice, a twist on a Hylotl staple.",
+  "description" : "(FRY):-} Tofu fried rice, a twist on a Hylotl staple.",
   "shortdescription" : "Tofu Fried Rice",
   "foodValue" : 34.05,
   "effects" : [ [ 

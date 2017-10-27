@@ -4,7 +4,7 @@
   "price" : 356.94,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Chocolate covered coffee beans.",
+  "description" : "(PREP):-} Chocolate covered coffee beans.",
   "shortdescription" : "Choc. Covered Coffee Beans",
   "foodValue" : 34.53,
   "effects" : [ [ 

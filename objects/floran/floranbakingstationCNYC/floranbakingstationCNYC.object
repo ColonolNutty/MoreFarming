@@ -1,78 +1,56 @@
 {
   "objectName" : "floranbakingstationCNYC",
-  "colonyTags" : ["floran", "floranvillage", "cooking"],
-  "retainObjectParametersInItem" : true,
-  "printable" : false,
+  "colonyTags" : [ "floran", "floranvillage", "cooking" ],
   "rarity" : "Common",
+  "price" : 30.15,
+  "category" : "Floran Cookware",
+  "objectType" : "container",
+  "printable" : false,
   "description" : "A bone coal oven!",
   "shortdescription" : "^orange;Floran Bone Oven (Bake)^white;",
-  "subtitle" : "Bake Food!",
   "race" : "generic",
-  "category" : "Floran Cookware",
-  "price" : 30.15,
-  "objectType" : "container", 
-
   "apexDescription" : "Suprisingly warm!",
   "avianDescription" : "Smells wonderful, I feel at home.",
   "floranDescription" : "Smellss like dinner",
   "glitchDescription" : "Inspect. Very hot firing kiln.",
   "humanDescription" : "Smells like spices.. I LOVE SPICES!",
   "hylotlDescription" : "It retains it's heat for hours, perfect for evening cooking.",
-  "novakidDescription" : "Primitive lookin' oven. I suppose it does the job.",
-
-  "lightColor" : [218, 83, 2, 5],
-
-  "flickerPeriod" : 0.8,
-  "flickerMinIntensity" : 0.2,
-  "flickerMaxIntensity" : 0.3,
-  "flickerPeriodVariance" : 0.075,
-  "flickerIntensityVariance" : 0.025,
-
   "inventoryIcon" : "floranbakingstationCNYCicon.png",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "floranbakingstationCNYC.png:default.<frame>",
-      "imagePosition" : [0, 0],
-      
+      "imagePosition" : [ 0, 0 ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  
-  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
-
-  "animation" : "floranbakingstationCNYC.animation",
-  "animationPosition" : [0, 0],  
-
-  "npcToy" : {
-    "influence" : [
-      "furnace",
-      "furnace",
-      "furnaceComplete"
-    ],
-    "defaultReactions" : {
-      "furnace" : [
-        [1.0, "warmhands"],
-        [1.0, "crouchwarm"]
-      ],
-      "furnaceComplete" : [
-        [1.0, "warmhands"],
-        [1.0, "crouchwarm"],
-        [1.0, "pokefire"]
-      ]
-    },
-    "preciseStandPositionLeft" : [-1.5, 0.0],
-    "preciseStandPositionRight" : [2.5, 0.0],
-    "maxNpcs" : 1
-  },
-
+    } ],
   "recipeGroup" : "bakingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
-  
+  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/bakingMFMRecipes.config"
+  "outputConfig" : "/recipeCrafterMFM/bakingMFMRecipes.config",
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.2,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 0.3,
+  "animationPosition" : [ 0, 0 ],
+  "retainObjectParametersInItem" : true,
+  "novakidDescription" : "Primitive lookin' oven. I suppose it does the job.",
+  "lightColor" : [ 218, 83, 2, 5 ],
+  "animation" : "floranbakingstationCNYC.animation",
+  "npcToy" :   {
+    "preciseStandPositionRight" : [ 2.5, 0.0 ],
+    "preciseStandPositionLeft" : [ -1.5, 0.0 ],
+    "maxNpcs" : 1,
+    "defaultReactions" :     {
+      "furnace" : [ [ 1.0, "warmhands" ],[ 1.0, "crouchwarm" ] ],
+      "furnaceComplete" : [ [ 1.0, "warmhands" ],[ 1.0, "crouchwarm" ],[ 1.0, "pokefire" ] ]
+    },
+    "influence" : [ "furnace", "furnace", "furnaceComplete" ]
+  },
+  "subtitle" : "Bake Food!",
+  "flickerIntensityVariance" : 0.025
 }

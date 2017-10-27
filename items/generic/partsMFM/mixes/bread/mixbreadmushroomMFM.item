@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 174.11,
   "category" : "cookingIngredient",
-  "description" : "A mixture for making mushroom bread. Ready for baking.",
+  "description" : "(BLEND):-} A mixture for making mushroom bread. Ready for baking.",
   "shortdescription" : "Mix Bread - Mushroom",
   "maxStack" : 1000,
   "inventoryIcon" : "mixbreadmushroomMFM.png"

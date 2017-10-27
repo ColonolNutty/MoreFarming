@@ -4,7 +4,7 @@
   "price" : 66.15,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "I feel tipsy...",
+  "description" : "(DISTILL):-} I feel tipsy...",
   "shortdescription" : "Alcohol - Ale",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

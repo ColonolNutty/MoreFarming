@@ -1,45 +1,36 @@
 {
- "sitEffectEmitters": ["sleepbubbles"],
- "avianDescription": "This is a comfortable enough place to rest my feathers.",
- "orientations": [{
-  "frames": 1,
-  "animationCycle": 1,
-  "imagePosition": [
-   -24,
-   0
-  ],
-  "spaceScan": 0.1,
-  "dualImage": "bamboobedBMB.png:<color>",
-  "anchors": ["bottom"]
- }],
- "description": "A sturdy bamboo bed.",
- "hylotlDescription": "It's not the best build quality, but it'll do.",
- "objectType": "loungeable",
- "glitchDescription": "Proud. My own simple bed.",
- "price": 704.26,
- "colonyTags": [
-  "floran",
-  "floranvillage",
-  "nature"
- ],
- "sitAngle": 90,
- "humanDescription": "A decent bed. Should be able to get some rest here.",
- "sitFlipDirection": true,
- "shortdescription": "Bamboo Bed",
- "race": "generic",
- "sitOrientation": "lay",
- "printable": false,
- "sitPosition": [
-  -10,
-  13
- ],
- "sitStatusEffects": ["bed1"],
- "objectName": "bamboobedBMB",
- "apexDescription": "A basic bed. Comfortable enough.",
- "inventoryIcon": "bamboobedBMBicon.png",
- "category": "furniture",
- "sitCoverImage": "/objects/generic/bamboobedBMB/bamboobedBMBcover.png",
- "sitEmote": "sleep",
- "floranDescription": "Floran ressst in sssimple bed.",
- "rarity": "Common"
+  "objectName" : "bamboobedBMB",
+  "colonyTags" : [ "floran", "floranvillage", "nature" ],
+  "rarity" : "Common",
+  "price" : 704.26,
+  "category" : "furniture",
+  "objectType" : "loungeable",
+  "printable" : false,
+  "description" : "A sturdy bamboo bed.",
+  "shortdescription" : "Bamboo Bed",
+  "race" : "generic",
+  "apexDescription" : "A basic bed. Comfortable enough.",
+  "avianDescription" : "This is a comfortable enough place to rest my feathers.",
+  "floranDescription" : "Floran ressst in sssimple bed.",
+  "glitchDescription" : "Proud. My own simple bed.",
+  "humanDescription" : "A decent bed. Should be able to get some rest here.",
+  "hylotlDescription" : "It's not the best build quality, but it'll do.",
+  "inventoryIcon" : "bamboobedBMBicon.png",
+  "orientations" : [ 
+    {
+      "dualImage" : "bamboobedBMB.png:<color>",
+      "imagePosition" : [ -24, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    } ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+  "sitAngle" : 90,
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitPosition" : [ -10, 13 ],
+  "sitStatusEffects" : [ "bed1" ],
+  "sitCoverImage" : "/objects/generic/bamboobedBMB/bamboobedBMBcover.png",
+  "sitEmote" : "sleep"
 }

@@ -4,7 +4,7 @@
   "price" : 93.26,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Pasta with automato sauce. It works. Kinda.",
+  "description" : "(BOIL):-} Pasta with automato sauce. It works. Kinda.",
   "shortdescription" : "Pasta - Automato",
   "foodValue" : 10.0,
   "effects" : [ [ 

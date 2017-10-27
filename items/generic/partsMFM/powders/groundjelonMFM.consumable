@@ -4,7 +4,7 @@
   "price" : 18.9,
   "category" : "food",
   "tooltipKind" : "food",
-  "description" : "A pile of ground jelon.",
+  "description" : "(MILL):-} A pile of ground jelon.",
   "shortdescription" : "Ground Jelon",
   "foodValue" : 10.0,
   "effects" : [ [ 

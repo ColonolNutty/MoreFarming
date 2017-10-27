@@ -4,7 +4,7 @@
   "price" : 477.82,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A Hylotl dish made of noodles and various ingredients.",
+  "description" : "(BAKE):-} A Hylotl dish made of noodles and various ingredients.",
   "shortdescription" : "Pad Thai",
   "foodValue" : 57.35,
   "effects" : [ [ 

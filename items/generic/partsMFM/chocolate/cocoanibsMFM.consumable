@@ -4,7 +4,7 @@
   "price" : 94.5,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Not super sweet..",
+  "description" : "(BAKE):-} Not super sweet..",
   "shortdescription" : "Cocoa Nibs",
   "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",

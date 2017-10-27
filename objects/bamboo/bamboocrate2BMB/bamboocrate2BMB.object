@@ -1,53 +1,45 @@
 {
   "objectName" : "bamboocrate2BMB",
   "colonyTags" : [ "floran", "floranvillage", "storage", "commerce", "nature" ],
-  "printable" : false,
   "rarity" : "Common",
+  "price" : 1002.0,
+  "category" : "storage",
   "objectType" : "container",
   "tooltipKind" : "container",
-
-  "category" : "storage",
-  "price" : 1002,
+  "printable" : false,
   "description" : "A mysterious bamboo crate.",
   "shortdescription" : "Large Bamboo Crate",
   "race" : "generic",
-
   "apexDescription" : "A bamboo crate.",
   "avianDescription" : "A storage box.",
   "floranDescription" : "Box!",
   "glitchDescription" : "Curiosity. Is there anything inside?",
   "humanDescription" : "A bamboo crate. It's open.",
   "hylotlDescription" : "An open crate.",
-
   "inventoryIcon" : "bamboocrate2BMBicon.png",
-  "orientations" : [
+  "orientations" : [ 
     {
       "image" : "bamboocrate2BMB.png:default",
+      "imagePosition" : [ -16, 0 ],
       "direction" : "left",
-      "flipImages" : true,
-
-      "imagePosition" : [-16, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "collision" : "platform"
+      "collision" : "platform",
+      "flipImages" : true
     },
+
     {
       "image" : "bamboocrate2BMB.png:default",
+      "imagePosition" : [ -16, 0 ],
       "direction" : "right",
-
-      "imagePosition" : [-16, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-    }
-  ],
-
+    } ],
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
   "slotCount" : 24,

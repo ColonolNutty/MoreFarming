@@ -3,7 +3,7 @@
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 111.34
+      "value" : 94.54
     },
     {
       "op" : "replace",
@@ -41,7 +41,7 @@
           },
           {
             "effect" : "maxenergyscalingboostfood",
-            "duration" : 66
+            "duration" : 6
           },
           {
             "effect" : "runboostfood",
@@ -57,6 +57,25 @@
           }
         ]
       ]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(BAKE):-} All the nutritious value of an apple masked by globs of sweet, sweet sugar."
     }
   ]
 ]

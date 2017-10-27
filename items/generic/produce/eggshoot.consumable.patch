@@ -57,5 +57,24 @@
       "path" : "/price",
       "value" : 120.0
     }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "Eggshoot, soft-boiled in texture. Break it open to find a yolk."
+    }
   ]
 ]

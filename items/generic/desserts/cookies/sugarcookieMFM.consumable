@@ -4,7 +4,7 @@
   "price" : 19.53,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "I just can't get enough of these.",
+  "description" : "(BAKE):-} I just can't get enough of these.",
   "shortdescription" : "Cookie - Sugar",
   "foodValue" : 10.0,
   "effects" : [ [ 

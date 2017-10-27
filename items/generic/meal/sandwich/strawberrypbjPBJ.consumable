@@ -4,7 +4,7 @@
   "price" : 443.18,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A sandwich made with peanut butter and strawberry jelly.",
+  "description" : "(PREP):-} A sandwich made with peanut butter and strawberry jelly.",
   "shortdescription" : "Sandwich - Strawberry PB+J",
   "foodValue" : 110.81,
   "effects" : [ [ 

@@ -17,14 +17,7 @@
     {
       "op" : "replace",
       "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 60
-          }
-        ]
-      ]
+      "value" : []
     }
   ],
   [
@@ -36,7 +29,7 @@
     {
       "op" : "add",
       "path" : "/foodValue",
-      "value" : 10.0
+      "value" : 0.0
     }
   ],
   [
@@ -55,7 +48,7 @@
     {
       "op" : "add",
       "path" : "/price",
-      "value" : 120.0
+      "value" : 0.0
     }
   ],
   [
@@ -63,6 +56,25 @@
       "op" : "replace",
       "path" : "/price",
       "value" : 120.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "Soft texture and sweet flavour, yum."
     }
   ]
 ]

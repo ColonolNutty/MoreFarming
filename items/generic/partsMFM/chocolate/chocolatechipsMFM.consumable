@@ -4,7 +4,7 @@
   "price" : 64.43,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Little chocolate bits.",
+  "description" : "(PREP):-} Little chocolate bits.",
   "shortdescription" : "Chocolate Chips",
   "foodValue" : 10.0,
   "effects" : [ [ 

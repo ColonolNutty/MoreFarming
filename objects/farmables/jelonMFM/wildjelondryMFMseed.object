@@ -1,54 +1,50 @@
 {
   "objectName" : "wildjelondryMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
+  "price" : 23.0,
   "category" : "seed",
-  "price" : 23,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Gelatinous and goopy, looks pretty dry",
   "shortdescription" : "Wild Dry Jelon Seed",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "apexDescription" : "A stolen experiment. The sweet taste rivals the rapid growth.",
   "avianDescription" : "A crop grown by some Apex in secret. Not so secret now it seems.",
   "floranDescription" : "Sssquissshy root.",
   "glitchDescription" : "Disgust. This plant is only good as a lubricant.",
   "humanDescription" : "Jelly that you can grow!",
   "hylotlDescription" : "A disgusting plant, invented for those who cannot cook.",
-
   "inventoryIcon" : "jelonMFMseedicon.png",
   "largeImage" : "jelondryMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "jelondryMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [1440, 1440]
+      "duration" : [ 1440, 1440 ]
     },
+
     {
-      "duration" : [2040, 2040]
+      "duration" : [ 2040, 2040 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "jelonMFMHarvest"
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25,
+  "breakDropOptions" : [ [ [ "jelonMFMseed", 1, 
+        {
 
-  "breakDropOptions" : [
-    [ [ "jelonMFMseed", 1, { } ] ]
-  ]
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

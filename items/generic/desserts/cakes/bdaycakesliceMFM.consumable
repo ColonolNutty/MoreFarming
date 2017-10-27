@@ -3,22 +3,19 @@
   "rarity" : "Uncommon",
   "price" : 144.22,
   "category" : "preparedFood",
-  "inventoryIcon" : "bdaycakesliceMFM.png",
+  "tooltipKind" : "food",
   "description" : "Tasty cake! Happy birthday!",
   "shortdescription" : "Birthday Cake Slice",
-  "effects" : [ [
+  "foodValue" : 12.53,
+  "effects" : [ [ 
       {
         "effect" : "regeneration1",
         "duration" : 20
-      }
-    ] ],
-  "foodValue" : 12.53,
-  "tooltipKind" : "food",
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "bdaycakesliceMFM.png"
 }

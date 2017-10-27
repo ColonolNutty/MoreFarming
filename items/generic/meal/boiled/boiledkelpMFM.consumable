@@ -4,7 +4,7 @@
   "price" : 5.51,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Kelp boiled in water.",
+  "description" : "(BOIL):-} Kelp boiled in water.",
   "shortdescription" : "Boiled Kelp",
   "foodValue" : 11.03,
   "builder" : "/items/buildscripts/buildfood.lua",

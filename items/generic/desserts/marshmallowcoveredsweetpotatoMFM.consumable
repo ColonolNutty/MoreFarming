@@ -4,7 +4,7 @@
   "price" : 193.63,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A baked sweet potato with butter, covered in marshmallows.",
+  "description" : "(BAKE):-} A baked sweet potato with butter, covered in marshmallows.",
   "shortdescription" : "Marshmallow Sw. Potato",
   "foodValue" : 19.1,
   "effects" : [ [ 

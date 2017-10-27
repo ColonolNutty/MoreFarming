@@ -4,7 +4,7 @@
   "price" : 126.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled and chopped banana.",
+  "description" : "(CHOP):-} Washed, peeled and chopped banana.",
   "shortdescription" : "Chopped Banana",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -2,32 +2,28 @@
   "objectName" : "bamboodeskBMB",
   "colonyTags" : [ "floran", "floranvillage", "storage", "commerce", "nature" ],
   "rarity" : "Common",
+  "price" : 602.0,
+  "category" : "storage",
   "objectType" : "container",
   "tooltipKind" : "container",
   "description" : "An sturdy-looking bamboo desk.",
   "shortdescription" : "Bamboo Desk",
   "race" : "generic",
-  "category" : "storage",
-  "price" : 602,
-
   "apexDescription" : "A solid bamboo desk.",
   "avianDescription" : "A table to work at.",
   "floranDescription" : "Floran not sssit at desskss!",
   "glitchDescription" : "Observe. A place to process data.",
   "humanDescription" : "A nice bamboo desk. I don't have much in the way of paperwork to complete.",
   "hylotlDescription" : "A desk at which to complete writing tasks.",
-
   "inventoryIcon" : "bamboodeskBMBicon.png",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "bamboodeskBMB.png:<color>",
-      "imagePosition" : [-16, 0],
+      "imagePosition" : [ -16, 0 ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-    }
-  ],
-
+    } ],
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
   "slotCount" : 9,

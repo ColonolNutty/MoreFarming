@@ -4,7 +4,7 @@
   "price" : 44.1,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A parsnip boiled in water.",
+  "description" : "(BOIL):-} A parsnip boiled in water.",
   "shortdescription" : "Boiled Parsnip",
   "foodValue" : 11.03,
   "effects" : [ [ 

@@ -1,51 +1,48 @@
 {
   "objectName" : "wildradishMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 8.0,
   "category" : "seed",
-  "price" : 8,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Red, looks like a beet.",
   "shortdescription" : "Wild Radish Seeds",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-  
   "floranDescription" : "Ssseedsss for Radisssh!",
   "glitchDescription" : "Identify. Radish seeds.",
   "humanDescription" : "Red, looks like an onion, but not",
-
   "inventoryIcon" : "radishMFMseedicon.png",
   "largeImage" : "radishMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "radishMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [240, 240]
+      "duration" : [ 240, 240 ]
     },
+
     {
-      "duration" : [240, 240]
+      "duration" : [ 240, 240 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [720, 720]
+      "duration" : [ 720, 720 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "radishMFMHarvest"
-    }
-  ],
-  "maxImmersion" : 0.25
+    } ],
+  "maxImmersion" : 0.25,
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

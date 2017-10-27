@@ -4,7 +4,7 @@
   "price" : 84.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped finkel.",
+  "description" : "(CHOP):-} Washed and chopped finkel.",
   "shortdescription" : "Chopped Finkel",
   "foodValue" : 10.5,
   "effects" : [ [ 

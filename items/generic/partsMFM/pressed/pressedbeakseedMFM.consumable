@@ -4,7 +4,7 @@
   "price" : 94.5,
   "category" : "food",
   "tooltipKind" : "food",
-  "description" : "Beakseeds pressed into a thick pulp using a press",
+  "description" : "(PRESS):-} Beakseeds pressed into a thick pulp using a press",
   "shortdescription" : "Pressed Beakseed",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

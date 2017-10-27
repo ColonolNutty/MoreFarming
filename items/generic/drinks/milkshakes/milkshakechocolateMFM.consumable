@@ -4,7 +4,7 @@
   "price" : 101.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A milkshake made with chocolate. Yum!",
+  "description" : "(BLEND):-} A milkshake made with chocolate. Yum!",
   "shortdescription" : "Milkshake - Chocolate",
   "foodValue" : 15.2,
   "effects" : [ [ 

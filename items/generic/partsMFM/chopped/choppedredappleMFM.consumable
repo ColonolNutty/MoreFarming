@@ -1,10 +1,10 @@
 {
   "itemName" : "choppedredappleMFM",
   "rarity" : "Common",
-  "price" : 21.0,
+  "price" : 4.2,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped red apple.",
+  "description" : "(CHOP):-} Washed and chopped red apple.",
   "shortdescription" : "Chopped Red Apple",
   "foodValue" : 10.5,
   "effects" : [ [ 

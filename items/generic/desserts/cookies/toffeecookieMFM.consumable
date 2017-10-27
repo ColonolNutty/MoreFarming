@@ -4,7 +4,7 @@
   "price" : 12.71,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Crunchy and sweet.",
+  "description" : "(BAKE):-} Crunchy and sweet.",
   "shortdescription" : "Cookie - Toffee",
   "foodValue" : 10.0,
   "effects" : [ [ 

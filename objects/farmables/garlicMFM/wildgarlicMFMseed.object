@@ -1,57 +1,54 @@
 {
   "objectName" : "wildgarlicMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 8.0,
   "category" : "seed",
-  "price" : 8,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Seeds for Garlic!",
   "shortdescription" : "Wild Garlic Seeds",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "apexDescription" : "Number one cause of bad breath. Curiously, no cure yet.",
   "floranDescription" : "Ssseedsss for garlic!",
   "glitchDescription" : "Identify. Garlic seeds.",
   "humanDescription" : "Vampires beware!",
-
   "inventoryIcon" : "garlicMFMseedicon.png",
   "largeImage" : "garlicMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "garlicMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [240, 240]
+      "duration" : [ 240, 240 ]
     },
+
     {
-      "duration" : [240, 240]
+      "duration" : [ 240, 240 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [720, 720]
+      "duration" : [ 720, 720 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "garlicMFMHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.2,
-  
-  "breakDropOptions" : [
-    [ [ "artichokeMFMseed", 1, { } ] ]
-  ]
+  "breakDropOptions" : [ [ [ "artichokeMFMseed", 1, 
+        {
+
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

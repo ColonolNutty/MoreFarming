@@ -1,115 +1,81 @@
 {
- "avianDescription": "Mass produced bitter beverages.",
- "recipeGroup": "coffeeMFM",
- "tooltipKind": "container",
- "outputConfig": "/recipeCrafterMFM/coffeeMFMRecipes.config",
- "orientations": [
-  {
-   "collision": "platform",
-   "imageLayers": [
+  "objectName" : "coffeestationCNYC",
+  "colonyTags" : [ "human", "humanvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 269.58,
+  "category" : "Basic Cookware",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "Brews Coffee, sign your own cup.",
+  "shortdescription" : "^orange;Espresso Machine (Coffee)^white;",
+  "race" : "generic",
+  "apexDescription" : "I'd wager you need to take a class just to operate it..",
+  "avianDescription" : "Mass produced bitter beverages.",
+  "floranDescription" : "Sssteamy..",
+  "glitchDescription" : "Observation. Wonder if it brews bolts?",
+  "humanDescription" : "I'm going to spell my own name wrong on the cup too!.",
+  "hylotlDescription" : "Es-what-now? How do you even work this thing?",
+  "inventoryIcon" : "coffeestationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "coffeestationCNYC.png:<color>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [ 
+        {
+          "image" : "coffeestationCNYC.png:<color>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "coffeestationCNYClit.png:<color>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "coffeestationCNYClit.png:<color>"}
-   ],
-   "flipImages": true,
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "collision": "platform",
-   "imageLayers": [
+
     {
-     "image": "coffeestationCNYC.png:<color>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [ 
+        {
+          "image" : "coffeestationCNYC.png:<color>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "coffeestationCNYClit.png:<color>"
+        } ]
+    } ],
+  "recipeGroup" : "coffeeMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/coffeeMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
+  "npcToy" :   {
+    "preciseStandPositionRight" : [ 1, 0 ],
+    "preciseStandPositionLeft" : [ -1, 0 ],
+    "maxNpcs" : 1,
+    "defaultReactions" :     {
+      "watercoolerConsume" : [ [ 1, "drink" ] ],
+      "watercoolerComplete" : [ [ 1, "smile" ],[ 0.1, "vomit" ] ],
+      "watercoolerCollect" : [ [ 1, "crouchcollect" ] ]
     },
-    {"image": "coffeestationCNYClit.png:<color>"}
-   ],
-   "frames": 1,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "Brews Coffee, sign your own cup.",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "objectType": "container",
- "hylotlDescription": "Es-what-now? How do you even work this thing?",
- "glitchDescription": "Observation. Wonder if it brews bolts?",
- "price": 269.58,
- "slotCount": 16,
- "colonyTags": [
-  "human",
-  "humanvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "scripts": [
-  "/scripts/npcToyObject.lua",
-  "/recipeCrafterMFM/recipeCrafterMFM.lua"
- ],
- "humanDescription": "I'm going to spell my own name wrong on the cup too!.",
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Espresso Machine (Coffee)^white;",
- "race": "generic",
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "npcToy": {
-  "preciseStandPositionRight": [
-   1,
-   0
-  ],
-  "preciseStandPositionLeft": [
-   -1,
-   0
-  ],
-  "maxNpcs": 1,
-  "defaultReactions": {
-   "watercoolerConsume": [[
-    1,
-    "drink"
-   ]],
-   "watercoolerComplete": [
-    [
-     1,
-     "smile"
-    ],
-    [
-     0.1,
-     "vomit"
-    ]
-   ],
-   "watercoolerCollect": [[
-    1,
-    "crouchcollect"
-   ]]
+    "influence" : [ "watercoolerCollect", "watercoolerConsume", "watercoolerComplete" ]
   },
-  "influence": [
-   "watercoolerCollect",
-   "watercoolerConsume",
-   "watercoolerComplete"
-  ]
- },
- "frameCooldown": 67,
- "subtitle": "Brew Coffee!",
- "objectName": "coffeestationCNYC",
- "apexDescription": "I'd wager you need to take a class just to operate it..",
- "inventoryIcon": "coffeestationCNYCicon.png",
- "category": "Basic Cookware",
- "scriptDelta": 1,
- "floranDescription": "Sssteamy..",
- "rarity": "Common"
+  "subtitle" : "Brew Coffee!"
 }

@@ -4,7 +4,7 @@
   "price" : 418.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A yellow bell pepper stuffed with rice, covered in tomato sauce.",
+  "description" : "(BAKE):-} A yellow bell pepper stuffed with rice, covered in tomato sauce.",
   "shortdescription" : "Stuffed Bell Pepper Yellow",
   "foodValue" : 56.13,
   "effects" : [ [ 

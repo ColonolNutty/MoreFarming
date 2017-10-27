@@ -4,7 +4,7 @@
   "price" : 135.26,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A chef took a try on making an Apex targeted pasta. It actually worked.",
+  "description" : "(BOIL):-} A chef took a try on making an Apex targeted pasta. It actually worked.",
   "shortdescription" : "Pasta - Banana",
   "foodValue" : 10.0,
   "effects" : [ [ 

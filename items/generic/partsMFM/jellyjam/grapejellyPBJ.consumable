@@ -1,19 +1,17 @@
 {
   "itemName" : "grapejellyPBJ",
   "rarity" : "Uncommon",
-  "price" : 606,
+  "price" : 606.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "grapejellyPBJ.png",
-  "description" : "Jelly made from grapes.",
+  "tooltipKind" : "food",
+  "description" : "(BLEND):-} Jelly made from grapes.",
   "shortdescription" : "Jelly - Grape",
   "foodValue" : 18.94,
-  "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -2]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "grapejellyPBJ.png",
+  "handPosition" : [ 0, -2 ]
 }

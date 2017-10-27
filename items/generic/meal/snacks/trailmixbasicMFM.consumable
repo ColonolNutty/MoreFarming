@@ -4,7 +4,7 @@
   "price" : 376.43,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A basic Trail Mix made with berries, chocolate, and sunflower seeds",
+  "description" : "(PREP):-} A basic Trail Mix made with berries, chocolate, and sunflower seeds",
   "shortdescription" : "Trail Mix - Basic",
   "foodValue" : 33.08,
   "effects" : [ [ 

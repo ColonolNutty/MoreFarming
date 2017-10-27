@@ -4,7 +4,7 @@
   "price" : 189.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Hot and steamy coppery taste.",
+  "description" : "(BAKE):-} Hot and steamy coppery taste.",
   "shortdescription" : "Baked Diodia",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

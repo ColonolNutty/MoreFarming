@@ -4,7 +4,7 @@
   "price" : 215.15,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A hearty mountainman meal that fills the boots!",
+  "description" : "(BOIL):-} A hearty mountainman meal that fills the boots!",
   "shortdescription" : "Stew - Mountainman",
   "foodValue" : 88.25,
   "effects" : [ [ 

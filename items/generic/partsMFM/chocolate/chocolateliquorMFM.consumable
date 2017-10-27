@@ -4,7 +4,7 @@
   "price" : 20.84,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Pure liquid chocolate.",
+  "description" : "(BAKE):-} Pure liquid chocolate.",
   "shortdescription" : "Chocolate Liquor",
   "foodValue" : 10.0,
   "effects" : [ [ 

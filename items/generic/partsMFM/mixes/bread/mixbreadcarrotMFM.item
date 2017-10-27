@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 483.07,
   "category" : "cookingIngredient",
-  "description" : "A mixture for making carrot bread. Ready for baking.",
+  "description" : "(BLEND):-} A mixture for making carrot bread. Ready for baking.",
   "shortdescription" : "Mix Bread - Carrot",
   "maxStack" : 1000,
   "inventoryIcon" : "mixbreadcarrotMFM.png"

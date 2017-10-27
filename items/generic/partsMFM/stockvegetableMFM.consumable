@@ -4,7 +4,7 @@
   "price" : 203.96,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Reduced vegetables. Flavoursome stock ready for use.",
+  "description" : "(BOIL):-} Reduced vegetables. Flavoursome stock ready for use.",
   "shortdescription" : "Stock - Vegetable",
   "foodValue" : 30.32,
   "effects" : [ [ 

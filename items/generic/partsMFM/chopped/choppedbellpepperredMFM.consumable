@@ -4,7 +4,7 @@
   "price" : 63.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped red bell pepper.",
+  "description" : "(CHOP):-} Washed and chopped red bell pepper.",
   "shortdescription" : "Chopped Bell Pepper Red",
   "foodValue" : 10.5,
   "effects" : [ [ 

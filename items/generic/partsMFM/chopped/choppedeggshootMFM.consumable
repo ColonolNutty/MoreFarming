@@ -4,7 +4,7 @@
   "price" : 126.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled, and chopped egg shoot.",
+  "description" : "(CHOP):-} Washed, peeled, and chopped egg shoot.",
   "shortdescription" : "Chopped Eggshoot",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

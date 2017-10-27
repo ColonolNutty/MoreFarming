@@ -4,7 +4,7 @@
   "price" : 136.67,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "A swill so sour it's almost corrosive.",
+  "description" : "(DISTILL):-} A swill so sour it's almost corrosive.",
   "shortdescription" : "Alcohol - Sour Swill",
   "foodValue" : 10.0,
   "effects" : [ [ 

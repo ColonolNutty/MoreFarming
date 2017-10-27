@@ -4,7 +4,7 @@
   "price" : 211.05,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Crunchy roasted sunflower seeds. Mmm.",
+  "description" : "(BAKE):-} Crunchy roasted sunflower seeds. Mmm.",
   "shortdescription" : "Roasted Sunflower Seeds",
   "foodValue" : 10.0,
   "effects" : [ [ 

@@ -1,10 +1,10 @@
 {
   "itemName" : "boiledredappleMFM",
   "rarity" : "Common",
-  "price" : 22.05,
+  "price" : 4.41,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A red apple boiled in water.",
+  "description" : "(BOIL):-} A red apple boiled in water.",
   "shortdescription" : "Boiled Red Apple",
   "foodValue" : 11.03,
   "effects" : [ [ 

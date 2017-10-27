@@ -4,7 +4,7 @@
   "price" : 476.74,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "Smoked salmon and cucumber, wrapped in sake and kelp.",
+  "description" : "(PREP):-} Smoked salmon and cucumber, wrapped in sake and kelp.",
   "shortdescription" : "Temaki - Sake",
   "foodValue" : 111.04,
   "effects" : [ [ 

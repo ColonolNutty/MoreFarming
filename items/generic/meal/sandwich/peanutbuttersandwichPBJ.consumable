@@ -4,7 +4,7 @@
   "price" : 178.06,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A sandwich made with peanut butter.",
+  "description" : "(PREP):-} A sandwich made with peanut butter.",
   "shortdescription" : "Sandwich - Peanut Butter",
   "foodValue" : 57.78,
   "effects" : [ [ 

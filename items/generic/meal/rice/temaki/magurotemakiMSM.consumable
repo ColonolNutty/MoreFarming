@@ -4,7 +4,7 @@
   "price" : 411.54,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "Raw tuna and cucumber, wrapped in rice and kelp.",
+  "description" : "(PREP):-} Raw tuna and cucumber, wrapped in rice and kelp.",
   "shortdescription" : "Temaki - Marguro",
   "foodValue" : 108.84,
   "effects" : [ [ 

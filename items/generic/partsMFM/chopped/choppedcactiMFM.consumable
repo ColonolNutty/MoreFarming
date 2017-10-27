@@ -4,7 +4,7 @@
   "price" : 15.75,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed, de-thorned, and chopped cacti.",
+  "description" : "(CHOP):-} Washed, de-thorned, and chopped cacti.",
   "shortdescription" : "Chopped Cacti",
   "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",

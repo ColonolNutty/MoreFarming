@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 875.43,
   "category" : "cookingIngredient",
-  "description" : "A pastry covered in toxictop jam. Ready for baking.",
+  "description" : "(PREP):-} A pastry covered in toxictop jam. Ready for baking.",
   "shortdescription" : "Tart Unfinished - Toxictop",
   "maxStack" : 1000,
   "inventoryIcon" : "unfinishedtarttoxictopMFM.png"

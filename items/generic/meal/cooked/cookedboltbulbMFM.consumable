@@ -4,7 +4,7 @@
   "price" : 126.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Now it tastes like it's covered in rust.",
+  "description" : "(BAKE):-} Now it tastes like it's covered in rust.",
   "shortdescription" : "Baked Boltbulb",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

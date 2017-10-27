@@ -4,7 +4,7 @@
   "price" : 274.04,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Vanilla ice cream.",
+  "description" : "(FREEZE):-} Vanilla ice cream.",
   "shortdescription" : "Snow Cone - Vanilla",
   "foodValue" : 33.56,
   "effects" : [ [ 

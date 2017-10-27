@@ -4,7 +4,7 @@
   "price" : 22.05,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "Sweet orange juice.",
+  "description" : "(BLEND):-} Sweet orange juice.",
   "shortdescription" : "Juice - Orange",
   "foodValue" : 10.0,
   "effects" : [ [ 

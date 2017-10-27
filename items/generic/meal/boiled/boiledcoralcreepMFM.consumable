@@ -4,7 +4,7 @@
   "price" : 110.25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Coralcreep boiled in water.",
+  "description" : "(BOIL):-} Coralcreep boiled in water.",
   "shortdescription" : "Boiled Coralcreep",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

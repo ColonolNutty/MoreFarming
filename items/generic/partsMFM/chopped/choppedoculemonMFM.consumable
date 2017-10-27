@@ -1,18 +1,16 @@
 {
   "itemName" : "choppedoculemonMFM",
   "rarity" : "Common",
-  "price" : 210,
+  "price" : 210.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedoculemonMFM.png",
-  "description" : "Washed, peeled, and chopped oculemon.",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed, peeled, and chopped oculemon.",
   "shortdescription" : "Chopped Oculemon",
   "foodValue" : 10.5,
-  "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedoculemonMFM.png"
 }

@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 183.23,
   "category" : "cookingIngredient",
-  "description" : "Chopped potatoes covered in salt. Ready for frying.",
+  "description" : "(PREP):-} Chopped potatoes covered in salt. Ready for frying.",
   "shortdescription" : "Raw Chips - Potato",
   "maxStack" : 1000,
   "inventoryIcon" : "rawchipspotatoMFM.png"

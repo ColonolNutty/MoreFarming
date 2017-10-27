@@ -4,7 +4,7 @@
   "price" : 23.15,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "Not actually green, but sweeter and sour!",
+  "description" : "(DISTILL):-} Not actually green, but sweeter and sour!",
   "shortdescription" : "Cider - Green Apple",
   "foodValue" : 10.0,
   "effects" : [ [ 

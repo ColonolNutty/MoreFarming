@@ -4,7 +4,7 @@
   "price" : 5.51,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A mushroom boiled in water.",
+  "description" : "(BOIL):-} A mushroom boiled in water.",
   "shortdescription" : "Boiled Mushroom",
   "foodValue" : 11.03,
   "builder" : "/items/buildscripts/buildfood.lua",

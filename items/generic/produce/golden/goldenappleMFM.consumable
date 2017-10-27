@@ -1,10 +1,10 @@
 {
   "itemName" : "goldenappleMFM",
   "rarity" : "Common",
-  "price" : 64.05,
+  "price" : 47.25,
   "category" : "food",
   "tooltipKind" : "food",
-  "description" : "Shiny and edible!",
+  "description" : "(PREP):-} Shiny and edible!",
   "shortdescription" : "Golden Apple",
   "foodValue" : 10.5,
   "effects" : [ [ 

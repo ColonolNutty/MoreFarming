@@ -4,7 +4,7 @@
   "price" : 63.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Goes great with spices.",
+  "description" : "(BAKE):-} Goes great with spices.",
   "shortdescription" : "Dried Tomato",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

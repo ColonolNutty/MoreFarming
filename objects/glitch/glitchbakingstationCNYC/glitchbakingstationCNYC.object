@@ -1,86 +1,75 @@
 {
- "avianDescription": "Wonderful",
- "flickerPeriod": 0.8,
- "recipeGroup": "bakingMFM",
- "outputConfig": "/recipeCrafterMFM/bakingMFMRecipes.config",
- "flickerMinIntensity": 0.2,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "collision": "platform",
-   "imageLayers": [
+  "objectName" : "glitchbakingstationCNYC",
+  "colonyTags" : [ "glitch", "glitchvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 259.18,
+  "category" : "Glitch Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A solid stone oven!",
+  "shortdescription" : "^orange;Glitch Stone Oven (Bake)^white;",
+  "race" : "generic",
+  "apexDescription" : "Suprisingly warm!",
+  "avianDescription" : "Wonderful",
+  "floranDescription" : "Floran disslikess hotboxesss.",
+  "glitchDescription" : "Inspect. Stone cooking oven.",
+  "humanDescription" : "Does the job, looks nice too!",
+  "hylotlDescription" : "Simple and effective.",
+  "inventoryIcon" : "glitchbakingstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "glitchbakingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [ 
+        {
+          "image" : "glitchbakingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "glitchbakingstationCNYClit.png:<color>.<frame>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "glitchbakingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "flipImages": true,
-   "frames": 4,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "collision": "platform",
-   "imageLayers": [
+
     {
-     "image": "glitchbakingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
-    },
-    {"image": "glitchbakingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "frames": 4,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "A solid stone oven!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "flickerMaxIntensity": 0.3,
- "objectType": "container",
- "hylotlDescription": "Simple and effective.",
- "glitchDescription": "Inspect. Stone cooking oven.",
- "price": 259.18,
- "slotCount": 16,
- "colonyTags": [
-  "glitch",
-  "glitchvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "humanDescription": "Does the job, looks nice too!",
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Glitch Stone Oven (Bake)^white;",
- "race": "generic",
- "lightColor": [
-  218,
-  83,
-  2,
-  5
- ],
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "frameCooldown": 67,
- "subtitle": "Bake Food!",
- "objectName": "glitchbakingstationCNYC",
- "apexDescription": "Suprisingly warm!",
- "inventoryIcon": "glitchbakingstationCNYCicon.png",
- "category": "Glitch Cookware",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 1,
- "floranDescription": "Floran disslikess hotboxesss.",
- "rarity": "Common"
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [ 
+        {
+          "image" : "glitchbakingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "glitchbakingstationCNYClit.png:<color>.<frame>"
+        } ]
+    } ],
+  "recipeGroup" : "bakingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/bakingMFMRecipes.config",
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.2,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 0.3,
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 218, 83, 2, 5 ],
+  "subtitle" : "Bake Food!",
+  "flickerIntensityVariance" : 0.025
 }

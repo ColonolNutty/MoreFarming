@@ -1,10 +1,10 @@
 {
   "objectName" : "pizzapMFM",
+  "colonyTags" : [ "cooking" ],
   "rarity" : "Uncommon",
   "price" : 868.99,
   "category" : "decorative",
-  "colonyTags" : ["cooking"],
-  "description" : "A large pizzap. It's good if you can get past the metallic aftertaste!",
+  "description" : "(BAKE):-} A large pizzap. It's good if you can get past the metallic aftertaste!",
   "shortdescription" : "Pizzap",
   "race" : "generic",
   "apexDescription" : "Comparable to the slop I used to be fed.",
@@ -14,21 +14,21 @@
   "humanDescription" : "It's good if you can get past the metallic aftertaste.",
   "hylotlDescription" : "The act of just throwing this stuff together disrespects what cooking means.",
   "inventoryIcon" : "pizzapMFMicon.png",
-  "orientations" : [
+  "largeImage" : "pizzapMFM.png:default.default",
+  "orientations" : [ 
     {
-      "imagePosition" : [-8, 0],
+      "dualImage" : "pizzapMFM.png",
+      "imagePosition" : [ -8, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
-      "dualImage" : "pizzapMFM.png",
-      "anchors" : ["bottom"]
-    }],
-  "largeImage" : "pizzapMFM.png:default.default",
-  "breakDropOptions" : [[["automato", 1, 
+      "anchors" : [ "bottom" ]
+    } ],
+  "breakDropOptions" : [ [ [ "automato", 1, 
         {
 
-        }],["boltbulb", 1, 
+        } ],[ "boltbulb", 1, 
         {
 
-        }]]]
+        } ] ] ]
 }

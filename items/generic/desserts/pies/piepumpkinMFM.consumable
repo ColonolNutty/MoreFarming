@@ -4,7 +4,7 @@
   "price" : 484.21,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Delicious, better with whipped cream.",
+  "description" : "(BAKE):-} Delicious, better with whipped cream.",
   "shortdescription" : "Pie - Pumpkin",
   "foodValue" : 99.33,
   "effects" : [ [ 

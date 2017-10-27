@@ -4,7 +4,7 @@
   "price" : 5.51,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A crystal plant boiled in water.",
+  "description" : "(BOIL):-} A crystal plant boiled in water.",
   "shortdescription" : "Boiled Crystal Plant",
   "foodValue" : 11.03,
   "builder" : "/items/buildscripts/buildfood.lua",

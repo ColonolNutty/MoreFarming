@@ -4,7 +4,7 @@
   "price" : 443.18,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A sandwich made with peanut butter and raspberry jelly.",
+  "description" : "(PREP):-} A sandwich made with peanut butter and raspberry jelly.",
   "shortdescription" : "Sandwich - Raspberry PB+J",
   "foodValue" : 110.81,
   "effects" : [ [ 

@@ -4,7 +4,7 @@
   "price" : 10.5,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Raw poultry chopped into strips.",
+  "description" : "(CHOP):-} Raw poultry chopped into strips.",
   "shortdescription" : "Raw Strip of Poultry",
   "foodValue" : 10.0,
   "effects" : [ [ 

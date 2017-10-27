@@ -4,7 +4,7 @@
   "price" : 89.25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled, and chopped sweet potato.",
+  "description" : "(CHOP):-} Washed, peeled, and chopped sweet potato.",
   "shortdescription" : "Chopped Sweet Potato",
   "foodValue" : 10.5,
   "effects" : [ [ 

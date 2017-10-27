@@ -4,7 +4,7 @@
   "price" : 93.71,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A sweet potato boiled in water.",
+  "description" : "(BOIL):-} A sweet potato boiled in water.",
   "shortdescription" : "Boiled Sweet Potato",
   "foodValue" : 11.03,
   "effects" : [ [ 

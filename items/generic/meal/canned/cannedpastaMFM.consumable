@@ -4,7 +4,7 @@
   "price" : 9.26,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Canned pasta. Not the best, but it'll do in a pinch.",
+  "description" : "(CAN):-} Canned pasta. Not the best, but it'll do in a pinch.",
   "shortdescription" : "Canned - Pasta",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

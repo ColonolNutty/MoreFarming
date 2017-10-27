@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 791.01,
   "category" : "cookingIngredient",
-  "description" : "A pastry covered in pussplum jam. Ready for baking.",
+  "description" : "(PREP):-} A pastry covered in pussplum jam. Ready for baking.",
   "shortdescription" : "Tart Unfinished - Pussplum",
   "maxStack" : 1000,
   "inventoryIcon" : "unfinishedtartpussplumMFM.png"

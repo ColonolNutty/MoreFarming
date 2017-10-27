@@ -4,7 +4,7 @@
   "price" : 22.17,
   "category" : "food",
   "tooltipKind" : "food",
-  "description" : "A cooked patty made of alien meat. Perfect for burgers!",
+  "description" : "(FRY):-} A cooked patty made of alien meat. Perfect for burgers!",
   "shortdescription" : "Cooked Patty - Alien Meat",
   "foodValue" : 10.0,
   "effects" : [ [ 

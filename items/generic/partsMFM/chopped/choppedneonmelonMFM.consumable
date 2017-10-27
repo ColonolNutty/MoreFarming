@@ -4,7 +4,7 @@
   "price" : 49.0,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled, and chopped neonmelon.",
+  "description" : "(CHOP):-} Washed, peeled, and chopped neonmelon.",
   "shortdescription" : "Chopped Neonmelon",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

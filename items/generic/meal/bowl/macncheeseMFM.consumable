@@ -4,7 +4,7 @@
   "price" : 100.53,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Pasta with some cheese. Arguably the best pasta.",
+  "description" : "(BOIL):-} Pasta with some cheese. Arguably the best pasta.",
   "shortdescription" : "Macaroni & Cheese",
   "foodValue" : 15.79,
   "effects" : [ [ 

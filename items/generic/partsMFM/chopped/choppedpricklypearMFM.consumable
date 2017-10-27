@@ -4,7 +4,7 @@
   "price" : 15.75,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed, de-thorned, and chopped prickly pear.",
+  "description" : "(CHOP):-} Washed, de-thorned, and chopped prickly pear.",
   "shortdescription" : "Chopped Pricklypear",
   "foodValue" : 10.5,
   "effects" : [ [ 

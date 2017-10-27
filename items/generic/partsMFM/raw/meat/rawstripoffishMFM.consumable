@@ -4,7 +4,7 @@
   "price" : 10.5,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Raw fish chopped into strips.",
+  "description" : "(CHOP):-} Raw fish chopped into strips.",
   "shortdescription" : "Raw Strip of Fish",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

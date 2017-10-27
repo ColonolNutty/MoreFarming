@@ -4,7 +4,7 @@
   "price" : 105.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped dirturchin.",
+  "description" : "(CHOP):-} Washed and chopped dirturchin.",
   "shortdescription" : "Chopped Dirturchin",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

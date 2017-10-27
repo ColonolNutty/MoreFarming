@@ -4,7 +4,7 @@
   "price" : 0.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A coconut prepared for eating instead of throwing.",
+  "description" : "(PREP):-} A coconut prepared for eating instead of throwing.",
   "shortdescription" : "Prepared Coconut",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

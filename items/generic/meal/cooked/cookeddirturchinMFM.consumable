@@ -4,7 +4,7 @@
   "price" : 105.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "If it can be baked, it WILL be baked.",
+  "description" : "(BAKE):-} If it can be baked, it WILL be baked.",
   "shortdescription" : "Baked Dirturchin",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

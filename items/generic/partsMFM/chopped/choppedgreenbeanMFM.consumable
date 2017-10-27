@@ -4,7 +4,7 @@
   "price" : 36.75,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled, and chopped green beans.",
+  "description" : "(CHOP):-} Washed, peeled, and chopped green beans.",
   "shortdescription" : "Chopped Green Beans",
   "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -4,7 +4,7 @@
   "price" : 126.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Dried grapes. Also known as Raisins.",
+  "description" : "(BAKE):-} Dried grapes. Also known as Raisins.",
   "shortdescription" : "Raisins",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -57,5 +57,24 @@
       "path" : "/price",
       "value" : 90.0
     }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "Bitter coffee beans."
+    }
   ]
 ]

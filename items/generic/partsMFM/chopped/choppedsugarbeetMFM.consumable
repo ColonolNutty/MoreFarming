@@ -4,7 +4,7 @@
   "price" : 84.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped sugar beet.",
+  "description" : "(CHOP):-} Washed and chopped sugar beet.",
   "shortdescription" : "Chopped Sugarbeet",
   "foodValue" : 10.5,
   "effects" : [ [ 

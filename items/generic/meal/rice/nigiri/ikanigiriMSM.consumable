@@ -4,7 +4,7 @@
   "price" : 258.75,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Raw squid on top of rice.",
+  "description" : "(PREP):-} Raw squid on top of rice.",
   "shortdescription" : "Nigiri - Ika",
   "foodValue" : 51.0,
   "effects" : [ [ 

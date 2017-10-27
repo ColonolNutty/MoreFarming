@@ -4,7 +4,7 @@
   "price" : 419.82,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Ice cream with chocolate chips.",
+  "description" : "(FREEZE):-} Ice cream with chocolate chips.",
   "shortdescription" : "Ice Cream - Chocolate Chip",
   "foodValue" : 50.82,
   "effects" : [ [ 

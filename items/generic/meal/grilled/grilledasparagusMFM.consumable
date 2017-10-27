@@ -4,7 +4,7 @@
   "price" : 63.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Grilled asparagus.",
+  "description" : "(BAKE):-} Grilled asparagus.",
   "shortdescription" : "Grilled Asparagus",
   "foodValue" : 10.5,
   "effects" : [ [ 

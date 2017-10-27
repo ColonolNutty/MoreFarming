@@ -4,7 +4,7 @@
   "price" : 682.21,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Cooked shrimp, poultry, and tamarai packed in a rice ball.",
+  "description" : "(PREP):-} Cooked shrimp, poultry, and tamarai packed in a rice ball.",
   "shortdescription" : "Maki - Ebi",
   "foodValue" : 140.78,
   "effects" : [ [ 

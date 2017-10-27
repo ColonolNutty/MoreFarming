@@ -4,7 +4,7 @@
   "price" : 168.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled, and chopped boneboo.",
+  "description" : "(CHOP):-} Washed, peeled, and chopped boneboo.",
   "shortdescription" : "Chopped Boneboo",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

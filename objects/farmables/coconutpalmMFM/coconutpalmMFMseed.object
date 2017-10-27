@@ -1,41 +1,39 @@
 {
   "objectName" : "coconutpalmMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
+  "price" : 3.0,
   "category" : "seed",
-  "price" : 3,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Coconut Palm.\nFirst Harvest: 6 mins\nRe-Harvest: 4 mins",
   "shortdescription" : "Coconut Palm Seed",
-  "objectType" : "farmable",
-  "printable" : false,
-  
   "inventoryIcon" : "coconutpalmMFMseedicon.png",
   "largeImage" : "coconutpalmMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "coconutpalmMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [-16, 0],
+      "imagePosition" : [ -16, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [120, 120]
+      "duration" : [ 120, 120 ]
     },
+
     {
-      "duration" : [240, 240]
+      "duration" : [ 240, 240 ]
     },
+
     {
       "alts" : 4,
       "harvestPool" : "coconutMFMHarvest",
       "resetToStage" : 1
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25
 }

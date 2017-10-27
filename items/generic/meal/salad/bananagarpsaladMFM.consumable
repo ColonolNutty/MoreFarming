@@ -4,7 +4,7 @@
   "price" : 278.25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Banana and garpberries make for a fruity, sweet salad.",
+  "description" : "(PREP):-} Banana and garpberries make for a fruity, sweet salad.",
   "shortdescription" : "Salad - Garpanana",
   "foodValue" : 24.94,
   "effects" : [ [ 

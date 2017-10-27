@@ -1,55 +1,52 @@
 {
   "objectName" : "wildbeetMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 10.0,
   "category" : "seed",
-  "price" : 10,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Grows Beets.",
   "shortdescription" : "Wild Beet Seeds",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "floranDescription" : "Ssseeds for beetss!",
   "glitchDescription" : "Identify. Beet seeds.",
   "humanDescription" : "Oh sweet! Beet seans!",
-
   "inventoryIcon" : "beetMFMseedicon.png",
   "largeImage" : "beetMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "beetMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
       "requireTilledAnchors" : false,
+      "spaces" : [ [ 1, 0 ],[ 0, 0 ],[ 1, 1 ],[ 0, 1 ] ],
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [300, 300]
+      "duration" : [ 300, 300 ]
     },
+
     {
-      "duration" : [300, 300]
+      "duration" : [ 300, 300 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [960, 960]
+      "duration" : [ 960, 960 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "beetMFMHarvest"
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25,
-  
-  "breakDropOptions" : [
-    [ [ "beetMFMseed", 1, { } ] ]
-  ]
+  "breakDropOptions" : [ [ [ "beetMFMseed", 1, 
+        {
+
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

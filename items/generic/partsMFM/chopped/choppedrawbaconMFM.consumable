@@ -4,7 +4,7 @@
   "price" : 10.5,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Raw bacon chopped into pieces.",
+  "description" : "(CHOP):-} Raw bacon chopped into pieces.",
   "shortdescription" : "Chopped Raw Bacon",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

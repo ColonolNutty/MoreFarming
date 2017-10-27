@@ -4,7 +4,7 @@
   "price" : 165.38,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A pussplum boiled in water.",
+  "description" : "(BOIL):-} A pussplum boiled in water.",
   "shortdescription" : "Boiled Pussplum",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

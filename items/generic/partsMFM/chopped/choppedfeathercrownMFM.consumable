@@ -1,18 +1,16 @@
 {
   "itemName" : "choppedfeathercrownMFM",
   "rarity" : "Common",
-  "price" : 126,
+  "price" : 126.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedfeathercrownMFM.png",
-  "description" : "Washed and chopped feather crown.",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed and chopped feather crown.",
   "shortdescription" : "Chopped Feathercrown",
   "foodValue" : 10.5,
-  "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedfeathercrownMFM.png"
 }

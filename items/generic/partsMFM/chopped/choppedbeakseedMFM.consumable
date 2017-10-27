@@ -4,7 +4,7 @@
   "price" : 94.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped beakseed.",
+  "description" : "(CHOP):-} Washed and chopped beakseed.",
   "shortdescription" : "Chopped Beakseed",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

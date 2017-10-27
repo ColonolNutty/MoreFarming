@@ -4,7 +4,7 @@
   "price" : 31.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Slightly sweet Dragonfruit juice.",
+  "description" : "(BLEND):-} Slightly sweet Dragonfruit juice.",
   "shortdescription" : "Juice - Dragonfruit",
   "foodValue" : 10.5,
   "effects" : [ [ 

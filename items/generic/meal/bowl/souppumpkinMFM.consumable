@@ -4,7 +4,7 @@
   "price" : 153.75,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A soup made with pumpkins.",
+  "description" : "(BOIL):-} A soup made with pumpkins.",
   "shortdescription" : "Soup - Pumpkin",
   "foodValue" : 51.41,
   "effects" : [ [ 

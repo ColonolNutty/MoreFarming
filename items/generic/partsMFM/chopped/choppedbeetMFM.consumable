@@ -4,7 +4,7 @@
   "price" : 42.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled, and chopped beet.",
+  "description" : "(CHOP):-} Washed, peeled, and chopped beet.",
   "shortdescription" : "Chopped Beet",
   "foodValue" : 10.5,
   "effects" : [ [ 

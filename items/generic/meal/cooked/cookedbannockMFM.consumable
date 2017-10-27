@@ -4,7 +4,7 @@
   "price" : 221.79,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A bannock.",
+  "description" : "(BAKE):-} A bannock.",
   "shortdescription" : "Bannock",
   "foodValue" : 34.66,
   "effects" : [ [ 

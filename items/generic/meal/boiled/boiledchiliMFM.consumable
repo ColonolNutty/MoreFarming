@@ -4,7 +4,7 @@
   "price" : 231.53,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Chili boiled in water.",
+  "description" : "(BOIL):-} Chili boiled in water.",
   "shortdescription" : "Boiled Chili",
   "foodValue" : 10.0,
   "effects" : [ [ 

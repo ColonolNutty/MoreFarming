@@ -4,7 +4,7 @@
   "price" : 36.75,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled, and chopped onion. I think I'm going to cry.",
+  "description" : "(CHOP):-} Washed, peeled, and chopped onion. I think I'm going to cry.",
   "shortdescription" : "Chopped Onion",
   "foodValue" : 10.5,
   "effects" : [ [ 

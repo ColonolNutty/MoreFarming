@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 146.84,
   "category" : "cookingIngredient",
-  "description" : "A banana coated in a simple batter. Ready for frying.",
+  "description" : "(PREP):-} A banana coated in a simple batter. Ready for frying.",
   "shortdescription" : "Battered Banana",
   "maxStack" : 1000,
   "inventoryIcon" : "unfinishedbatteredbananaMFM.png"

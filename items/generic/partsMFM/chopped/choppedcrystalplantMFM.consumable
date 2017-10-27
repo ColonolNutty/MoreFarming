@@ -4,7 +4,7 @@
   "price" : 5.25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped crystal plant.",
+  "description" : "(CHOP):-} Washed and chopped crystal plant.",
   "shortdescription" : "Chopped Crystalplant",
   "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",

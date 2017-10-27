@@ -4,7 +4,7 @@
   "price" : 381.81,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "Cooked octopus and cucumber, wrapped in rice and kelp.",
+  "description" : "(PREP):-} Cooked octopus and cucumber, wrapped in rice and kelp.",
   "shortdescription" : "Temaki - Tako",
   "foodValue" : 109.86,
   "effects" : [ [ 

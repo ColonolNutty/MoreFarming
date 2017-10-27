@@ -4,7 +4,7 @@
   "price" : 36.75,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A grilled onion.",
+  "description" : "(BAKE):-} A grilled onion.",
   "shortdescription" : "Grilled Onion",
   "foodValue" : 10.5,
   "effects" : [ [ 

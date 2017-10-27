@@ -17,18 +17,7 @@
     {
       "op" : "replace",
       "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "glow",
-            "duration" : 60
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 60
-          }
-        ]
-      ]
+      "value" : []
     }
   ],
   [
@@ -40,7 +29,7 @@
     {
       "op" : "add",
       "path" : "/foodValue",
-      "value" : 10.0
+      "value" : 0.0
     }
   ],
   [
@@ -59,7 +48,7 @@
     {
       "op" : "add",
       "path" : "/price",
-      "value" : 200.0
+      "value" : 0.0
     }
   ],
   [
@@ -67,6 +56,25 @@
       "op" : "replace",
       "path" : "/price",
       "value" : 200.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "Sour but so worth it."
     }
   ]
 ]

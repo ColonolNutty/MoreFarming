@@ -4,7 +4,7 @@
   "price" : 126.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped eggplant.",
+  "description" : "(CHOP):-} Washed and chopped eggplant.",
   "shortdescription" : "Chopped Eggplant",
   "foodValue" : 10.5,
   "effects" : [ [ 

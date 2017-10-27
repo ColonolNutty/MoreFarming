@@ -4,7 +4,7 @@
   "price" : 107.88,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A blue snow cone.",
+  "description" : "(FREEZE):-} A blue snow cone.",
   "shortdescription" : "Snow Cone - Blue",
   "foodValue" : 156.23,
   "effects" : [ [ 

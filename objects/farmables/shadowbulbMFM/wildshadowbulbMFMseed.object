@@ -1,55 +1,51 @@
 {
   "objectName" : "wildshadowbulbMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Rare",
+  "price" : 13.0,
   "category" : "seed",
-  "price" : 13,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Shadowbulb, glows in the dark.",
   "shortdescription" : "Wild Shadowbulb Seeds",
-  "objectType" : "farmable",
-  "lightColor" : [175, 175, 150],
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "apexDescription" : "A small glint in the darkness. Very symbolic.",
   "avianDescription" : "This plant gives off a faint light.",
   "floranDescription" : "Floran want more light!",
   "glitchDescription" : "Confused. This plant produces light from nothing?",
   "humanDescription" : "Cool! I needed a new desklamp.",
   "hylotlDescription" : "This plants light is more noticeable in complete darkness.",
-
   "inventoryIcon" : "shadowbulbMFMseedicon.png",
   "largeImage" : "shadowbulbMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "shadowbulbMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [840, 840]
+      "duration" : [ 840, 840 ]
     },
+
     {
-      "duration" : [1200, 1200]
+      "duration" : [ 1200, 1200 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "shadowbulbMFMHarvest"
-    }
-  ],
+    } ],
   "maxImmersion" : 0.1,
+  "hasObjectItem" : false,
+  "biomePlaced" : true,
+  "breakDropOptions" : [ [ [ "shadowbulbMFMseed", 1, 
+        {
 
-  "breakDropOptions" : [
-    [ [ "shadowbulbMFMseed", 1, { } ] ]
-  ]
+        } ] ] ],
+  "lightColor" : [ 175, 175, 150 ]
 }

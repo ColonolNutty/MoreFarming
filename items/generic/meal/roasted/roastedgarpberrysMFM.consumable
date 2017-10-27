@@ -4,7 +4,7 @@
   "price" : 164.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Crunchy roasted garpberries. Mmm.",
+  "description" : "(BAKE):-} Crunchy roasted garpberries. Mmm.",
   "shortdescription" : "Roasted Garpberries",
   "foodValue" : 20.5,
   "effects" : [ [ 

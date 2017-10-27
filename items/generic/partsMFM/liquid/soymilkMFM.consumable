@@ -4,7 +4,7 @@
   "price" : 72.22,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "Milk made from soy beans",
+  "description" : "(BLEND):-} Milk made from soy beans",
   "shortdescription" : "Soy Milk",
   "foodValue" : 11.58,
   "effects" : [ [ 

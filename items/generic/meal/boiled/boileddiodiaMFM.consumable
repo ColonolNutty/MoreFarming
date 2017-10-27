@@ -4,7 +4,7 @@
   "price" : 198.45,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A diodia boiled in water.",
+  "description" : "(BOIL):-} A diodia boiled in water.",
   "shortdescription" : "Boiled Diodia",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

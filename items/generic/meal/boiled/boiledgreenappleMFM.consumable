@@ -4,7 +4,7 @@
   "price" : 22.05,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A green apple boiled in water.",
+  "description" : "(BOIL):-} A green apple boiled in water.",
   "shortdescription" : "Boiled Green Apple",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

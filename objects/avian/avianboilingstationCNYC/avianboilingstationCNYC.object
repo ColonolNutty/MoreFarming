@@ -1,127 +1,93 @@
 {
- "avianDescription": "Simmering, delicious!",
- "flickerPeriod": 0.8,
- "recipeGroup": "boilingMFM",
- "outputConfig": "/recipeCrafterMFM/boilingMFMRecipes.config",
- "flickerMinIntensity": 0.1,
- "flickerPeriodVariance": 0.075,
- "orientations": [
-  {
-   "imageLayers": [
+  "objectName" : "avianboilingstationCNYC",
+  "colonyTags" : [ "avian", "avianvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 167.08,
+  "category" : "Avian Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A sturdy cast boilpot!",
+  "shortdescription" : "^orange;Avian Boilpot (Boil)^white;",
+  "race" : "generic",
+  "apexDescription" : "Heavy and heat retaining.",
+  "avianDescription" : "Simmering, delicious!",
+  "floranDescription" : "Hot hatsss?",
+  "glitchDescription" : "Inspect. Sturdy cookpot.",
+  "humanDescription" : "aaaaaaaah-muenga.. can't remember the rest..",
+  "hylotlDescription" : "Functional cookpot. A little heavier then i'm used to",
+  "inventoryIcon" : "avianboilingstationCNYCicon.png",
+  "orientations" : [ 
     {
-     "image": "avianboilingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "avianboilingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "avianboilingstationCNYClit.png:<color>.<frame>"
+        } ],
+      "flipImages" : true
     },
-    {"image": "avianboilingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "flipImages": true,
-   "frames": 4,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "left"
-  },
-  {
-   "imageLayers": [
+
     {
-     "image": "avianboilingstationCNYC.png:<color>.<frame>",
-     "fullbright": true
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [ 
+        {
+          "image" : "avianboilingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+
+        {
+          "image" : "avianboilingstationCNYClit.png:<color>.<frame>"
+        } ]
+    } ],
+  "recipeGroup" : "boilingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/boilingMFMRecipes.config",
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 0.3,
+  "particleEmitter" :   {
+    "emissionRate" : 6,
+    "particleVariance" :     {
+      "initialVelocity" : [ 0.5, 2 ],
+      "position" : [ 0.6, 0 ]
     },
-    {"image": "avianboilingstationCNYClit.png:<color>.<frame>"}
-   ],
-   "frames": 4,
-   "animationCycle": 0.6,
-   "imagePosition": [
-    -8,
-    0
-   ],
-   "spaceScan": 0.1,
-   "anchors": ["bottom"],
-   "direction": "right"
-  }
- ],
- "description": "A sturdy cast boilpot!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
- "flickerMaxIntensity": 0.3,
- "objectType": "container",
- "hylotlDescription": "Functional cookpot. A little heavier then i'm used to",
- "glitchDescription": "Inspect. Sturdy cookpot.",
- "price": 167.08,
- "slotCount": 16,
- "colonyTags": [
-  "avian",
-  "avianvillage",
-  "cooking"
- ],
- "autoCloseCooldown": 3600,
- "scripts": ["/recipeCrafterMFM/recipeCrafterMFM.lua"],
- "humanDescription": "aaaaaaaah-muenga.. can't remember the rest..",
- "particleEmitter": {
-  "emissionRate": 6,
-  "particleVariance": {
-   "initialVelocity": [
-    0.5,
-    2
-   ],
-   "position": [
-    0.6,
-    0
-   ]
+    "particle" :     {
+      "timeToLive" : 0.3,
+      "fade" : 2,
+      "size" : 1,
+      "color" : [ 200, 200, 200, 100 ],
+      "initialVelocity" : [ 0, 4 ],
+      "finalVelocity" : [ 0, 2 ],
+      "position" : [ 0, 1.5 ],
+      "type" : "ember",
+      "approach" : [ 0, 20 ],
+      "layer" : "back"
+    },
+    "emissionVariance" : 1
   },
-  "particle": {
-   "timeToLive": 0.3,
-   "fade": 2,
-   "size": 1,
-   "color": [
-    200,
-    200,
-    200,
-    100
-   ],
-   "initialVelocity": [
-    0,
-    4
-   ],
-   "finalVelocity": [
-    0,
-    2
-   ],
-   "position": [
-    0,
-    1.5
-   ],
-   "type": "ember",
-   "approach": [
-    0,
-    20
-   ],
-   "layer": "back"
-  },
-  "emissionVariance": 1
- },
- "retainObjectParametersInItem": true,
- "shortdescription": "^orange;Avian Boilpot (Boil)^white;",
- "race": "generic",
- "lightColor": [
-  218,
-  83,
-  2,
-  5
- ],
- "openSounds": ["/sfx/objects/campfire_use.ogg"],
- "printable": false,
- "frameCooldown": 67,
- "subtitle": "Boil Food!",
- "objectName": "avianboilingstationCNYC",
- "apexDescription": "Heavy and heat retaining.",
- "inventoryIcon": "avianboilingstationCNYCicon.png",
- "category": "Avian Cookware",
- "flickerIntensityVariance": 0.025,
- "scriptDelta": 1,
- "floranDescription": "Hot hatsss?",
- "rarity": "Common"
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 218, 83, 2, 5 ],
+  "subtitle" : "Boil Food!",
+  "flickerIntensityVariance" : 0.025
 }

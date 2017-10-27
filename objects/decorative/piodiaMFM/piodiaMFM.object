@@ -1,10 +1,10 @@
 {
   "objectName" : "piodiaMFM",
+  "colonyTags" : [ "cooking" ],
   "rarity" : "Uncommon",
   "price" : 1597.99,
   "category" : "decorative",
-  "colonyTags" : ["cooking"],
-  "description" : "A large piodia. A variation of pizzap- it's got a more coppery tang.",
+  "description" : "(BAKE):-} A large piodia. A variation of pizzap- it's got a more coppery tang.",
   "shortdescription" : "Piodia",
   "race" : "generic",
   "apexDescription" : "This reminds me of how the slop I used to be eat gave me jolts. I wonder if- OBEY BIG APE.",
@@ -14,39 +14,39 @@
   "humanDescription" : "It tastes like copper... I'd still eat it.",
   "hylotlDescription" : "The act of throwing this together disrespects what cooking means.",
   "inventoryIcon" : "piodiaMFMicon.png",
-  "orientations" : [
+  "largeImage" : "piodiaMFM.png:default.default",
+  "orientations" : [ 
     {
-      "imagePosition" : [-8, 0],
+      "dualImage" : "piodiaMFM.png:<color>.0",
+      "imagePosition" : [ -8, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
-      "dualImage" : "piodiaMFM.png:<color>.0",
-      "anchors" : ["bottom"]
-    }],
-  "largeImage" : "piodiaMFM.png:default.default",
-  "breakDropOptions" : [[["piodia", 1, 
+      "anchors" : [ "bottom" ]
+    } ],
+  "breakDropOptions" : [ [ [ "piodia", 1, 
         {
 
-        }],["piodia", 1, 
+        } ],[ "piodia", 1, 
         {
 
-        }],["piodia", 1, 
+        } ],[ "piodia", 1, 
         {
 
-        }],["piodia", 1, 
+        } ],[ "piodia", 1, 
         {
 
-        }],["piodia", 1, 
+        } ],[ "piodia", 1, 
         {
 
-        }],["piodia", 1, 
+        } ],[ "piodia", 1, 
         {
 
-        }],["piodia", 1, 
+        } ],[ "piodia", 1, 
         {
 
-        }],["piodia", 1, 
+        } ],[ "piodia", 1, 
         {
 
-        }]]]
+        } ] ] ]
 }

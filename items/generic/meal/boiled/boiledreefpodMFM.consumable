@@ -4,7 +4,7 @@
   "price" : 165.38,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A reefpod boiled in water.",
+  "description" : "(BOIL):-} A reefpod boiled in water.",
   "shortdescription" : "Boiled Reefpod",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

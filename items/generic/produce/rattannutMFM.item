@@ -1,10 +1,10 @@
 {
   "itemName" : "rattannutMFM",
-  "price" : 50,
   "rarity" : "Common",
+  "price" : 50.0,
   "category" : "craftingMaterial",
-  "inventoryIcon" : "rattannutMFM.png",
   "description" : "The nut of the Rattan plant. Useful for making dye and growing more Rattan.",
   "shortdescription" : "Rattan Nut",
+  "inventoryIcon" : "rattannutMFM.png",
   "itemTags" : [ "reagent" ]
 }

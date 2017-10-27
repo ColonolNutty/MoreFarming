@@ -4,7 +4,7 @@
   "price" : 717.74,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "A pie shell filled with chopped boneboos. Ready for baking.",
+  "description" : "(PREP):-} A pie shell filled with chopped boneboos. Ready for baking.",
   "shortdescription" : "Pie Unfinished - Spooky",
   "foodValue" : 109.24,
   "effects" : [ [ 

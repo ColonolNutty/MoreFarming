@@ -4,7 +4,7 @@
   "price" : 44.1,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A grapefruit boiled in water.",
+  "description" : "(BOIL):-} A grapefruit boiled in water.",
   "shortdescription" : "Boiled Grapefruit",
   "foodValue" : 11.03,
   "effects" : [ [ 

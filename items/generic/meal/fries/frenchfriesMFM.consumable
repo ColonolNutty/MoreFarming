@@ -4,14 +4,14 @@
   "price" : 95.03,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Bonjour!",
+  "description" : "(FRY):-} Bonjour!",
   "shortdescription" : "Fries - French",
   "foodValue" : 10.77,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : ["wellfed"],
-  "handPosition" : [0, -4],
-  "inventoryIcon" : "frenchfriesMFM.png"
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "frenchfriesMFM.png",
+  "handPosition" : [ 0, -4 ]
 }

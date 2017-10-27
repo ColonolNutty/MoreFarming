@@ -1,60 +1,57 @@
 {
   "objectName" : "wildrattanMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 13.0,
   "category" : "seed",
-  "price" : 13,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "A rattan plant, the material is used to make furniture.",
   "shortdescription" : "Wild Rattan Seeds",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "apexDescription" : "This plant is fast growing and very pliable. Makes for very nice furniture.",
   "avianDescription" : "A plant grown by the Floran for resources.",
   "floranDescription" : "Cocoon-kin grow Rattan. Ussse for building.",
   "glitchDescription" : "Statement. A fibrous plant grown for its pliability.",
   "humanDescription" : "That plant looks cool! What can I make from it?",
   "hylotlDescription" : "An ugly tropical plant that can be woven into cheap furniture.",
-  "novakidDescription" : "I have no idea what this stuff is, but it looks useful.",
-
   "inventoryIcon" : "rattanMFMseedicon.png",
   "largeImage" : "rattanMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "rattanMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [420, 420]
+      "duration" : [ 420, 420 ]
     },
+
     {
-      "duration" : [420, 420]
+      "duration" : [ 420, 420 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [1200, 1200]
+      "duration" : [ 1200, 1200 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "rattanMFMHarvest",
       "resetToStage" : 2
-    }
-  ],
-  "maxImmersion" : 0.50,
+    } ],
+  "maxImmersion" : 0.5,
+  "hasObjectItem" : false,
+  "biomePlaced" : true,
+  "breakDropOptions" : [ [ [ "rattanMFMseed", 1, 
+        {
 
-  "breakDropOptions" : [
-    [ [ "rattanMFMseed", 1, { } ] ]
-  ]
+        } ] ] ],
+  "novakidDescription" : "I have no idea what this stuff is, but it looks useful."
 }

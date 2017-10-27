@@ -1,56 +1,52 @@
 {
   "objectName" : "wildsaguaroMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 6.0,
   "category" : "seed",
-  "price" : 6,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "A Saguaro cactus, don't get poked!",
   "shortdescription" : "Wild Saguaro Seed",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-  
   "apexDescription" : "A foreign seed. Never seen one of these before.",
   "avianDescription" : "Tried pecking once. Did not taste good.",
   "floranDescription" : "I feel a strange form of might in this seed.",
   "glitchDescription" : "Curious. Could plant this to get wood. Wonder why not.",
   "humanDescription" : "Saguaro. Great opportunity to get Wood.",
   "hylotlDescription" : "These make the Desert a blast!",
-  
   "inventoryIcon" : "saguaroMFMseedicon.png",
   "largeImage" : "saguaroMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "saguaroMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
       "alts" : 1,
-      "duration" : [240, 240]
+      "duration" : [ 240, 240 ]
     },
+
     {
       "alts" : 1,
-      "duration" : [360, 360]
+      "duration" : [ 360, 360 ]
     },
+
     {
       "alts" : 1,
       "harvestPool" : "saguaroMFMHarvest"
-    }
-  ],
+    } ],
   "maxImmersion" : 1.0,
+  "breakDropOptions" : [ [ [ "saguaroMFMseed", 1, 
+        {
 
-  "breakDropOptions" : [
-    [ [ "saguaroMFMseed", 1, { } ] ]
-  ]
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

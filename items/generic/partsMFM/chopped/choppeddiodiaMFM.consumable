@@ -4,7 +4,7 @@
   "price" : 189.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed, peeled, and chopped diodia.",
+  "description" : "(CHOP):-} Washed, peeled, and chopped diodia.",
   "shortdescription" : "Chopped Diodia",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

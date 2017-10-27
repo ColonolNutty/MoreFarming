@@ -4,7 +4,7 @@
   "price" : 391.04,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "Raw squid and cucumber, wrapped in rice and kelp.",
+  "description" : "(PREP):-} Raw squid and cucumber, wrapped in rice and kelp.",
   "shortdescription" : "Temaki - Ika",
   "foodValue" : 108.84,
   "effects" : [ [ 

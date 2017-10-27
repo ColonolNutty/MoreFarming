@@ -4,7 +4,7 @@
   "price" : 88.2,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Automato boiled in water.",
+  "description" : "(BOIL):-} Automato boiled in water.",
   "shortdescription" : "Boiled Automato",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -4,7 +4,7 @@
   "price" : 49.61,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A green bell pepper boiled in water.",
+  "description" : "(BOIL):-} A green bell pepper boiled in water.",
   "shortdescription" : "Boiled Bell Pepper - Green",
   "foodValue" : 11.03,
   "effects" : [ [ 

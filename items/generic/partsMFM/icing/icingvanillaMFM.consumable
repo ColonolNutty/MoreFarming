@@ -4,7 +4,7 @@
   "price" : 78.24,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Vanilla flavoured icing. Treat yourself!",
+  "description" : "(BLEND):-} Vanilla flavoured icing. Treat yourself!",
   "shortdescription" : "Icing - Vanilla",
   "foodValue" : 10.0,
   "effects" : [ [ 

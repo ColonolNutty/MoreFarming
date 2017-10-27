@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 214.1,
   "category" : "cookingIngredient",
-  "description" : "A tomato stuffed with corn, cheese, and breadcrumbs. Ready for baking.",
+  "description" : "(PREP):-} A tomato stuffed with corn, cheese, and breadcrumbs. Ready for baking.",
   "shortdescription" : "Raw Stuffed Tomato",
   "maxStack" : 1000,
   "inventoryIcon" : "rawstuffedtomatoMFM.png"

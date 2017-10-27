@@ -4,7 +4,7 @@
   "price" : 63.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A washed and chopped carrot.",
+  "description" : "(CHOP):-} A washed and chopped carrot.",
   "shortdescription" : "Chopped Carrot",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

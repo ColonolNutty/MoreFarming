@@ -1,56 +1,52 @@
 {
   "objectName" : "wildcinnamonMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 8.0,
   "category" : "seed",
-  "price" : 8,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Spice of life!",
   "shortdescription" : "Wild Cinnamon Seed",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "apexDescription" : "A delicacy of a plant, grown for use as spice.",
   "avianDescription" : "Fermented beverages are a favorite amongst the Grounded. Nothing spells religious rebellion like getting drunk off of cinnamon schnapps.",
   "floranDescription" : "Not asss hot asss chili, but cinnamon isss ssstill hot!",
   "glitchDescription" : "Statement. Cinnamon. Used to flavor foods and fermented beverages.",
   "humanDescription" : "Back on Earth, they gave out spicy candies made of this stuff.",
   "hylotlDescription" : "An ugly tropical plant that can be woven into cheap furniture.",
-  "novakidDescription" : "Ah, yeah, this is that plant that makes that drink I like.",
-  
   "inventoryIcon" : "cinnamonMFMseedicon.png",
   "largeImage" : "cinnamonMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "cinnamonMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [480, 480]
+      "duration" : [ 480, 480 ]
     },
+
     {
-      "duration" : [720, 720]
+      "duration" : [ 720, 720 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "cinnamonMFMHarvest",
       "resetToStage" : 1
-    }
-  ],
+    } ],
   "maxImmersion" : 0.25,
-  
-  "breakDropOptions" : [
-    [ [ "cinnamonMFMseed", 1, { } ] ]
-  ]
+  "hasObjectItem" : false,
+  "biomePlaced" : true,
+  "breakDropOptions" : [ [ [ "cinnamonMFMseed", 1, 
+        {
+
+        } ] ] ],
+  "novakidDescription" : "Ah, yeah, this is that plant that makes that drink I like."
 }

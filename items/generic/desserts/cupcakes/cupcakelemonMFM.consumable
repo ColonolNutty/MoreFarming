@@ -4,7 +4,7 @@
   "price" : 383.08,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A cupcake with lemon icing.",
+  "description" : "(PREP):-} A cupcake with lemon icing.",
   "shortdescription" : "Cupcake - Lemon",
   "foodValue" : 71.13,
   "effects" : [ [ 

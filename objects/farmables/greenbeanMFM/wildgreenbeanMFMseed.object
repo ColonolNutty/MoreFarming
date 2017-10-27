@@ -1,56 +1,53 @@
 {
   "objectName" : "wildgreenbeanMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
+  "price" : 9.0,
   "category" : "seed",
-  "price" : 9,
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "Green beans.",
   "shortdescription" : "Wild Green Bean Seeds",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "floranDescription" : "Ssseeds for green beansss!",
   "glitchDescription" : "Identify. Green beans.",
   "humanDescription" : "Beans beans, the magical fruit.",
-
   "inventoryIcon" : "greenbeanMFMseedicon.png",
   "largeImage" : "greenbeanMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "greenbeanMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
-      "duration" : [300, 300]
+      "duration" : [ 300, 300 ]
     },
+
     {
-      "duration" : [300, 300]
+      "duration" : [ 300, 300 ]
     },
+
     {
       "alts" : 5,
-      "duration" : [840, 840]
+      "duration" : [ 840, 840 ]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "greenbeanMFMHarvest",
       "resetToStage" : 2
-    }
-  ],
+    } ],
   "maxImmersion" : 0.2,
-  
-  "breakDropOptions" : [
-    [ [ "greenbeanMFMseed", 1, { } ] ]
-  ]
+  "breakDropOptions" : [ [ [ "greenbeanMFMseed", 1, 
+        {
+
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

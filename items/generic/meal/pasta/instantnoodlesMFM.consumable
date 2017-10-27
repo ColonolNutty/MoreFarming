@@ -4,7 +4,7 @@
   "price" : 9.26,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Noodles prepared the easy way.",
+  "description" : "(BOIL):-} Noodles prepared the easy way.",
   "shortdescription" : "Instant Noodles",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

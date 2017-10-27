@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 403.7,
   "category" : "cookingIngredient",
-  "description" : "The fluffy, risen, base of a spooky cake. Needs decorating.",
+  "description" : "(BAKE):-} The fluffy, risen, base of a spooky cake. Needs decorating.",
   "shortdescription" : "Cake Unfinished - Spooky",
   "maxStack" : 1000,
   "inventoryIcon" : "unfinishedcakespookyMFM.png"

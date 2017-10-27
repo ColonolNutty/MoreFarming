@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 8.82,
   "category" : "cookingIngredient",
-  "description" : "Not the money kind.",
+  "description" : "(BLEND):-} Not the money kind.",
   "shortdescription" : "Dough",
   "maxStack" : 1000,
   "inventoryIcon" : "doughMFM.png"

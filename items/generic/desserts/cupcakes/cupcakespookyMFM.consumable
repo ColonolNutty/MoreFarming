@@ -4,7 +4,7 @@
   "price" : 559.74,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A cupcake with spooky icing.",
+  "description" : "(PREP):-} A cupcake with spooky icing.",
   "shortdescription" : "Cupcake - Spooky",
   "foodValue" : 69.39,
   "effects" : [ [ 

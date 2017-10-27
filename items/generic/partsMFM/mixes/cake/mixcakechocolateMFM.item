@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 268.62,
   "category" : "cookingIngredient",
-  "description" : "Cake mix for making chocolate cake. Ready for baking.",
+  "description" : "(BLEND):-} Cake mix for making chocolate cake. Ready for baking.",
   "shortdescription" : "Mix Cake - Chocolate",
   "maxStack" : 1000,
   "inventoryIcon" : "mixcakechocolateMFM.png"

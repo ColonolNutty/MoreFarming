@@ -4,7 +4,7 @@
   "price" : 84.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped palsterstick.",
+  "description" : "(CHOP):-} Washed and chopped palsterstick.",
   "shortdescription" : "Chopped Palsterstick",
   "foodValue" : 10.5,
   "effects" : [ [ 

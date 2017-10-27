@@ -4,7 +4,7 @@
   "price" : 269.25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Raw tuna on top of rice.",
+  "description" : "(PREP):-} Raw tuna on top of rice.",
   "shortdescription" : "Nigiri - Maguro",
   "foodValue" : 51.0,
   "effects" : [ [ 

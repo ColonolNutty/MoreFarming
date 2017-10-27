@@ -4,7 +4,7 @@
   "price" : 157.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped reefpod.",
+  "description" : "(CHOP):-} Washed and chopped reefpod.",
   "shortdescription" : "Chopped Reefpod",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

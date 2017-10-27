@@ -1,9 +1,9 @@
 {
   "itemName" : "rawapplecrumbleMFM",
   "rarity" : "Common",
-  "price" : 208.03,
+  "price" : 171.87,
   "category" : "cookingIngredient",
-  "description" : "Delicious looking apple crumble. Ready for baking.",
+  "description" : "(PREP):-} Delicious looking apple crumble. Ready for baking.",
   "shortdescription" : "Raw Apple Crumble",
   "maxStack" : 1000,
   "inventoryIcon" : "rawapplecrumbleMFM.png"

@@ -4,7 +4,7 @@
   "price" : 503.73,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Chocolate ice cream.",
+  "description" : "(FREEZE):-} Chocolate ice cream.",
   "shortdescription" : "Ice Cream - Chocolate",
   "foodValue" : 62.1,
   "effects" : [ [ 

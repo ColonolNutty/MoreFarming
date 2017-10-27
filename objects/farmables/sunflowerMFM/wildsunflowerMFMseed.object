@@ -1,33 +1,27 @@
 {
   "objectName" : "wildsunflowerMFMseed",
-  "colonyTags" : ["nature"],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "category" : "seed",
   "price" : 201.0,
+  "category" : "seed",
+  "objectType" : "farmable",
   "tooltipKind" : "seed",
+  "printable" : false,
   "description" : "The seeds of a Sunflower are commonly used to make oil for cooking.",
   "shortdescription" : "Wild Sunflower Seeds",
-  "objectType" : "farmable",
-  "printable" : false,
-  "hasObjectItem" : false,
-
-  "biomePlaced" : true,
-
   "inventoryIcon" : "sunflowerMFMseedicon.png",
   "largeImage" : "sunflowerMFMseed.png:default.default.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "sunflowerMFMseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [-4, 0],
+      "imagePosition" : [ -4, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
-      "spaces" : [[0,0]],
       "requireTilledAnchors" : false,
+      "spaces" : [ [ 0, 0 ] ],
       "anchors" : [ "bottom" ]
-    }
-  ],
-  "stages" : [
+    } ],
+  "stages" : [ 
     {
       "duration" : [ 180, 180 ]
     },
@@ -47,8 +41,10 @@
       "resetToStage" : 2
     } ],
   "maxImmersion" : 0.25,
-  
-  "breakDropOptions" : [
-    [ [ "sunflowerMFMseed", 1, { } ] ]
-  ]
+  "breakDropOptions" : [ [ [ "sunflowerMFMseed", 1, 
+        {
+
+        } ] ] ],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

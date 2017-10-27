@@ -4,7 +4,7 @@
   "price" : 46.12,
   "category" : "food",
   "tooltipKind" : "food",
-  "description" : "Thick blended cream and sugar.",
+  "description" : "(BLEND):-} Thick blended cream and sugar.",
   "shortdescription" : "Topping - Whipped Cream",
   "foodValue" : 10.0,
   "effects" : [ [ 

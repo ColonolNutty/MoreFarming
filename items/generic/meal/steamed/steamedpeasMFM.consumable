@@ -4,7 +4,7 @@
   "price" : 30.75,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Peas steamed in water.",
+  "description" : "(FRY):-} Peas steamed in water.",
   "shortdescription" : "Steamed Peas",
   "foodValue" : 20.5,
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 43.72,
   "category" : "cookingIngredient",
-  "description" : "Raw bacon drenched in syrup. Ready for baking.",
+  "description" : "(PREP):-} Raw bacon drenched in syrup. Ready for baking.",
   "shortdescription" : "Raw Basted Bacon",
   "maxStack" : 1000,
   "inventoryIcon" : "rawbastedbaconMFM.png"

@@ -4,7 +4,7 @@
   "price" : 66.15,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "Sour lemon juice.",
+  "description" : "(BLEND):-} Sour lemon juice.",
   "shortdescription" : "Juice - Lemon",
   "foodValue" : 11.03,
   "effects" : [ [ 

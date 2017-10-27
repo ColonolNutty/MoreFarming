@@ -4,7 +4,7 @@
   "price" : 210.0,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped toxictop.",
+  "description" : "(CHOP):-} Washed and chopped toxictop.",
   "shortdescription" : "Chopped Toxictop",
   "foodValue" : 10.5,
   "effects" : [ [ 

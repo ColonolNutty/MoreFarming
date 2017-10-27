@@ -4,7 +4,7 @@
   "price" : 168.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Garpberries baked within an automato.",
+  "description" : "(BAKE):-} Garpberries baked within an automato.",
   "shortdescription" : "Stuffed - Garpmato",
   "foodValue" : 13.13,
   "effects" : [ [ 

@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 72.22,
   "category" : "cookingIngredient",
-  "description" : "A product of boiling then pressing soybeans.",
+  "description" : "(PRESS):-} A product of boiling then pressing soybeans.",
   "shortdescription" : "Okara",
   "inventoryIcon" : "okaraMFM.png"
 }

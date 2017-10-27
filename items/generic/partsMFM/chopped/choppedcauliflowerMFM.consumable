@@ -4,7 +4,7 @@
   "price" : 52.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Washed and chopped cauliflower.",
+  "description" : "(CHOP):-} Washed and chopped cauliflower.",
   "shortdescription" : "Chopped Cauliflower",
   "foodValue" : 10.5,
   "effects" : [ [ 

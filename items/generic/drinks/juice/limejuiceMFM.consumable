@@ -4,7 +4,7 @@
   "price" : 44.1,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "Tart lime juice.",
+  "description" : "(BLEND):-} Tart lime juice.",
   "shortdescription" : "Juice - Lime",
   "foodValue" : 11.03,
   "effects" : [ [ 

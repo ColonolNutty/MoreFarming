@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 342.32,
   "category" : "cookingIngredient",
-  "description" : "A basic cream filling.",
+  "description" : "(BOIL):-} A basic cream filling.",
   "shortdescription" : "Cream Filling - Basic",
   "maxStack" : 1000,
   "inventoryIcon" : "creamfillingbasicMFM.png"

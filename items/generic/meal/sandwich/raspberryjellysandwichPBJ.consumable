@@ -4,7 +4,7 @@
   "price" : 284.11,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A sandwich made with raspberry jelly.",
+  "description" : "(PREP):-} A sandwich made with raspberry jelly.",
   "shortdescription" : "Sandwich - Raspberry Jelly",
   "foodValue" : 57.78,
   "effects" : [ [ 

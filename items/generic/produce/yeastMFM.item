@@ -1,10 +1,10 @@
 {
   "itemName" : "yeastMFM",
-  "price" : 35,
   "rarity" : "Common",
+  "price" : 35.0,
   "category" : "cookingIngredient",
-  "inventoryIcon" : "yeastMFM.png",
   "description" : "Very useful.",
   "shortdescription" : "Yeast",
-  "maxStack" : 1000
+  "maxStack" : 1000,
+  "inventoryIcon" : "yeastMFM.png"
 }

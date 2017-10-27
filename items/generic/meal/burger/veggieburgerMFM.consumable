@@ -4,7 +4,7 @@
   "price" : 110.19,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A vegetarian version of a juicy hamburger.",
+  "description" : "(BAKE):-} A vegetarian version of a juicy hamburger.",
   "shortdescription" : "Burger - Veggie",
   "foodValue" : 17.81,
   "effects" : [ [ 

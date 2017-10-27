@@ -4,7 +4,7 @@
   "price" : 73.5,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Oat grains.",
+  "description" : "(CHOP):-} Oat grains.",
   "shortdescription" : "Oatmeal",
   "foodValue" : 10.5,
   "effects" : [ [ 

@@ -4,7 +4,7 @@
   "price" : 76.52,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A plain salad.",
+  "description" : "(PREP):-} A plain salad.",
   "shortdescription" : "Salad - Plain",
   "foodValue" : 13.26,
   "effects" : [ [ 

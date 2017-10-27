@@ -4,7 +4,7 @@
   "price" : 43.05,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "A bottle of vodka.",
+  "description" : "(DISTILL):-} A bottle of vodka.",
   "shortdescription" : "Alcohol - Vodka",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

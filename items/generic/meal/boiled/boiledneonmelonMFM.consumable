@@ -4,7 +4,7 @@
   "price" : 51.45,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A neonmelon boiled in water.",
+  "description" : "(BOIL):-} A neonmelon boiled in water.",
   "shortdescription" : "Boiled Neonmelon",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

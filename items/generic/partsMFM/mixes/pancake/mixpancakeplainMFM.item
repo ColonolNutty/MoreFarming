@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 156.4,
   "category" : "cookingIngredient",
-  "description" : "A mixture for making plain pancakes.",
+  "description" : "(BLEND):-} A mixture for making plain pancakes.",
   "shortdescription" : "Mix Pancake - Plain",
   "maxStack" : 1000,
   "inventoryIcon" : "mixpancakeplainMFM.png"

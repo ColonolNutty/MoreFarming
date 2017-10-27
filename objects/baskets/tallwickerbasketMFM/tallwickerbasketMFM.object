@@ -2,40 +2,34 @@
   "objectName" : "tallwickerbasketMFM",
   "colonyTags" : [ "glitch", "glitchvillage", "storage" ],
   "rarity" : "Common",
+  "price" : 502.5,
+  "category" : "storage",
   "objectType" : "container",
   "tooltipKind" : "container",
-
-  "category" : "storage",
-  "price" : 502.5,
   "description" : "A wicker basket.",
   "shortdescription" : "Wicker Basket (Tall)",
   "race" : "generic",
-  "health" : 1.5,
-
   "apexDescription" : "A wicker basket.",
   "avianDescription" : "A woven basket.",
   "floranDescription" : "Basssket!",
   "glitchDescription" : "Examine. A wicker basket.",
   "humanDescription" : "A very small wicker basket.",
   "hylotlDescription" : "You can put tall things inside this.",
-  "novakidDescription" : "This looks kinda durable.",
-
   "inventoryIcon" : "tallwickerbasketMFMicon.png",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "tallwickerbasketMFM.png:<color>.<key>",
-      "imagePosition" : [0, 0],
-
+      "imagePosition" : [ 0, 0 ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-	  "collision" : "platform"
-    }
-  ],
-
+      "collision" : "platform"
+    } ],
   "openSounds" : [ "/sfx/objects/florancrate_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/florancrate_close.ogg" ],
   "slotCount" : 6,
   "uiConfig" : "/interface/chests/chest<slots>MFM.config",
   "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+  "novakidDescription" : "This looks kinda durable.",
+  "health" : 1.5
 }

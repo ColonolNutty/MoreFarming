@@ -4,7 +4,7 @@
   "price" : 68.78,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Soybeans boiled in salt and water.",
+  "description" : "(BOIL):-} Soybeans boiled in salt and water.",
   "shortdescription" : "Boiled Soybeans",
   "foodValue" : 11.03,
   "effects" : [ [ 

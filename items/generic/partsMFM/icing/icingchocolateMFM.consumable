@@ -4,7 +4,7 @@
   "price" : 104.03,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Chocolate flavoured icing.",
+  "description" : "(BLEND):-} Chocolate flavoured icing.",
   "shortdescription" : "Icing - Chocolate",
   "foodValue" : 10.0,
   "effects" : [ [ 

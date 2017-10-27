@@ -4,7 +4,7 @@
   "price" : 58.23,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A plain ring of fried chocolate flavoured dough. So bad but so good.",
+  "description" : "(FRY):-} A plain ring of fried chocolate flavoured dough. So bad but so good.",
   "shortdescription" : "Donut - Plain Chocolate",
   "foodValue" : 10.0,
   "effects" : [ [ 

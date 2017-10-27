@@ -4,7 +4,7 @@
   "price" : 13.54,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Hey, Santa can't hog all these for himself!",
+  "description" : "(BAKE):-} Hey, Santa can't hog all these for himself!",
   "shortdescription" : "Cookie - Gingerbread",
   "foodValue" : 10.0,
   "effects" : [ [ 

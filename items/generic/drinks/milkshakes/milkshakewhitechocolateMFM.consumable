@@ -4,7 +4,7 @@
   "price" : 338.43,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A milkshake made with white chocolate. Yum!",
+  "description" : "(BLEND):-} A milkshake made with white chocolate. Yum!",
   "shortdescription" : "Milkshake - White Chocolate",
   "foodValue" : 43.29,
   "effects" : [ [ 

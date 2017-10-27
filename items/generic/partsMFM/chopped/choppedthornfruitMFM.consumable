@@ -3,16 +3,14 @@
   "rarity" : "Common",
   "price" : 31.5,
   "category" : "preparedFood",
-  "inventoryIcon" : "choppedthornfruitMFM.png",
-  "description" : "Washed, de-thorned, and chopped thornfruit.",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed, de-thorned, and chopped thornfruit.",
   "shortdescription" : "Chopped Thornfruit",
   "foodValue" : 10.5,
-  "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedthornfruitMFM.png"
 }

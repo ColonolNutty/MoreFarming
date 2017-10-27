@@ -4,7 +4,7 @@
   "price" : 51.45,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "Also known as bubblegum juice due to the taste.",
+  "description" : "(BLEND):-} Also known as bubblegum juice due to the taste.",
   "shortdescription" : "Juice - Neonmelon",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

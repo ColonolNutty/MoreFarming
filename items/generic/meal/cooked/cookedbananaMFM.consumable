@@ -4,7 +4,7 @@
   "price" : 126.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A SUPER baked banana!",
+  "description" : "(BAKE):-} A SUPER baked banana!",
   "shortdescription" : "Baked Banana",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",

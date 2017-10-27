@@ -4,7 +4,7 @@
   "price" : 111.27,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Shredded sweet potatoes fried in butter.",
+  "description" : "(FRY):-} Shredded sweet potatoes fried in butter.",
   "shortdescription" : "Hash Browns",
   "foodValue" : 13.84,
   "effects" : [ [ 

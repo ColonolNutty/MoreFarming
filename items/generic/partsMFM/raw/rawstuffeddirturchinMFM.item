@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 234.05,
   "category" : "cookingIngredient",
-  "description" : "A dirturchin stuffed with pearlpeas, cheese, and breadcrumbs. Ready for baking.",
+  "description" : "(PREP):-} A dirturchin stuffed with pearlpeas, cheese, and breadcrumbs. Ready for baking.",
   "shortdescription" : "Raw Stuffed Dirturchin",
   "maxStack" : 1000,
   "inventoryIcon" : "rawstuffeddirturchinMFM.png"

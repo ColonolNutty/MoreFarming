@@ -1,19 +1,17 @@
 {
   "itemName" : "ER3031MFM",
   "rarity" : "Common",
-  "price" : 40,
+  "price" : 40.0,
   "category" : "preparedFood",
-  "inventoryIcon" : "ER3031MFM.png",
+  "tooltipKind" : "food",
   "description" : "011100100111010101101110MISSINGNO",
   "shortdescription" : "ER3031",
-  "foodValue" : 30,
-  "tooltipKind" : "food",
+  "foodValue" : 30.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "handPosition" : [0, -4]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "ER3031MFM.png",
+  "handPosition" : [ 0, -4 ]
 }

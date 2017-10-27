@@ -5,7 +5,7 @@
   "category" : "food",
   "eventCategory" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "Sausage links, contains steak and poultry",
+  "description" : "(PRESS):-} Sausage links, contains steak and poultry",
   "shortdescription" : "Raw Sausage",
   "foodValue" : 11.03,
   "effects" : [ [ 

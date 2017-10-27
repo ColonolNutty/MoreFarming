@@ -38,7 +38,7 @@ function die()
   rcUtils.releaseIngredients()
 end
 
----------------------------------------------
+-------------------------------------------------------------------
 
 function RecipeCrafterMFMApi.setEnableDebug(id, name, newValue)
   enableDebug = newValue or false
@@ -78,9 +78,10 @@ function rcUtils.startCrafting()
   if outputRecipe then
     rcUtils.logDebug("Updating Output")
     rcUtils.craftWithRecipe(outputRecipe)
+  else
+    rcUtils.logDebug("No output found")
   end
   rcUtils.releaseIngredients()
-  rcUtils.stopCraftSound()
 end
 
 function rcUtils.craftWithRecipe(recipe)
@@ -244,7 +245,7 @@ function rcUtils.checkIngredientsMatchRecipe(recipe, ingredients)
 end
 
 function rcUtils.checkCraftSoundDelay(dt)
-  if not storage.craftSoundIsPlaying then
+  if not storage.craftSoundIsPlaying or isCrafting then
     return
   end
   storage.timePassed = storage.timePassed + dt
@@ -334,6 +335,7 @@ function rcUtils.onCraft()
 end
 
 function rcUtils.stopCraftSound()
+  rcUtils.logDebug("Stopping onCraft Sound")
   if (animator.hasSound("onCraft") and storage.craftSoundIsPlaying) then
     animator.stopAllSounds("onCraft")
     storage.craftSoundIsPlaying = false

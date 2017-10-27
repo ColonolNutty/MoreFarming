@@ -10,7 +10,7 @@
   "anchors": ["bottom"]
  }],
  "description": "A giant pot for boiling!",
- "uiConfig": "/interface/objectcrafting/recipeCrafterMFM.config",
+ "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
  "flickerMaxIntensity": 0.3,
  "objectType": "container",
  "price": 412.05,

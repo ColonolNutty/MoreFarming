@@ -37,7 +37,7 @@
 
     {
       "alts" : 5,
-      "harvestPool" : "avocadoMFMHarvest",
+      "harvestPool" : "sunflowerMFMHarvest",
       "resetToStage" : 2
     } ],
   "maxImmersion" : 0.25,

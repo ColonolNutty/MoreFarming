@@ -23,6 +23,7 @@ function init(virtual)
   storage.craftSoundDelaySeconds = config.getParameter("craftSoundDelaySeconds", 10) -- In seconds
   storage.craftSoundIsPlaying = false
   enableDebug = false
+  enableRecipeGroupDebug = false
   storage.recipeGroup = config.getParameter("recipeGroup")
   storage.noRecipeBookGroup = storage.recipeGroup .. "NoRecipeBook"
   storage.isRefridgerated = config.getParameter("itemAgeMultiplier", 5) == 0
@@ -42,6 +43,7 @@ end
 
 function RecipeCrafterMFMApi.setEnableDebug(id, name, newValue)
   enableDebug = newValue or false
+  enableRecipeGroupDebug = newValue or false
   if(enableDebug) then
     sb.logInfo("Toggled Debug On")
   else
@@ -185,6 +187,8 @@ function rcUtils.findRecipe(recipesForItem, ingredients)
     if rcUtils.recipeCanBeCrafted(recipe) and rcUtils.checkIngredientsMatchRecipe(recipe, ingredients) then
       recipeFound = recipe
       break;
+    else
+      rcUtils.logRecipeDebug("Recipe cannot be crafted: " .. recipe.output.name)
     end
   end
   return recipeFound
@@ -206,21 +210,26 @@ function rcUtils.findOutput(ingredients)
 end
 
 function rcUtils.checkIngredientsMatchRecipe(recipe, ingredients)
+  rcUtils.logRecipeDebug("Checking Recipe Ingredients For Recipe: " .. recipe.output.name)
   -- Check the recipe inputs to verify ingredients match with all inputs
   local ingredientsUsed = {}
   local matchesAllInput = true
   for i,input in ipairs(recipe.input) do
+      rcUtils.logRecipeDebug("Checking Input: " .. input.name)
     local matchFound = false
     for slot,ingred in pairs(ingredients) do
+      rcUtils.logRecipeDebug("Checking Ingred: " .. ingred.name)
       if ingred.name ~= recipe.output.name then
         if input.name == ingred.name and input.count <= ingred.count then
           matchFound = true
+          rcUtils.logRecipeDebug("Match Found: " .. ingred.name)
           table.insert(ingredientsUsed, ingred.name)
           break
         end
       end
     end
     if not matchFound then
+      rcUtils.logRecipeDebug("All Inputs Do Not Match")
       matchesAllInput = false
       break;
     end
@@ -230,12 +239,15 @@ function rcUtils.checkIngredientsMatchRecipe(recipe, ingredients)
     if ingred.name ~= recipe.output.name then
       local matches = false
       for _,ingreds in ipairs(ingredientsUsed) do
+        rcUtils.logRecipeDebug("Checking Ingredient Matches With: " .. ingreds)
         if ingred.name == ingreds then
           matches = true
+          rcUtils.logRecipeDebug("Ingredient Matches: " .. ingred.name)
           break
         end
       end
       if not matches then
+        rcUtils.logRecipeDebug("Ingredient Doesn't Match: " .. ingred.name)
         matchesAllInput = false
         break;
       end

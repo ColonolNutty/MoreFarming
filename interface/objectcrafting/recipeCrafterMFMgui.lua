@@ -49,7 +49,7 @@ function updateDebugState()
   else
     sb.logInfo("[RCGUI] Debug is disabled")
   end
-  widget.setChecked("enableDebug", debugState)
+  widget.setChecked("toggleDebug", debugState)
   debugStateUpdated = true
   debugStateRequest = nil
 end

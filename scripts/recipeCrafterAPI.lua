@@ -38,7 +38,7 @@ function RecipeCrafterMFMApi.init(msgPrefix)
   if(storage.enableRecipeGroupDebug == nil) then
     storage.enableRecipeGroupDebug = false
   end
-  message.setHandler("craft", RecipeCrafterMFMApi.startCrafting)
+  message.setHandler("craft", rcUtils.craftHandler)
 end
 
 function RecipeCrafterMFMApi.update(dt)
@@ -113,6 +113,10 @@ function RecipeCrafterMFMApi.consumeIngredients()
   end
   DebugUtilsCN.logDebug("Consuming ingredients")
   storage.heldIngredients = nil
+end
+
+function rcUtils.craftHandler()
+  RecipeCrafterMFMApi.startCrafting()
 end
 
 function RecipeCrafterMFMApi.startCrafting(containerIngredients)

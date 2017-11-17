@@ -2,7 +2,12 @@ local debugStateUpdated = false;
 local debugStateRequest = nil;
 
 function craft()
+  sb.logInfo("Initializing GUI");
   world.sendEntityMessage(pane.containerEntityId(), "craft")
+end
+
+function init()
+  debugStateUpdated = false;
 end
 
 function update()

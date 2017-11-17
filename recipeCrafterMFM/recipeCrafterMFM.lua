@@ -1,6 +1,7 @@
 require "/scripts/recipeCrafterAPI.lua"
 
 function init(virtual)
+  DebugUtilsCN.logDebug("Initializing MFM");
   RecipeCrafterMFMApi.init()
 end
 

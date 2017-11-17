@@ -1,14 +1,16 @@
-DebugUtilsCN = {};
+DebugUtilsCN = {
+  debugMsgPrefix = "[DBGCN]"
+};
 local debugUtils = {};
 local debugLoggingEnabled = false;
 local debugMsgPrefix = "[DBGCN]"
 
 function DebugUtilsCN.init(messagePrefix)
-  if(messagePrefix) then
-    debugMsgPrefix = messagePrefix
+  if(messagePrefix ~= nil) then
+    DebugUtilsCN.debugMsgPrefix = messagePrefix
   end
   if(not storage) then
-    sb.logInfo(debugMsgPrefix .. " No 'storage' variable found within this script, disabling debug logging")
+    sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " No 'storage' variable found within this script, disabling debug logging")
     debugLoggingEnabled = false;
     return
   end
@@ -32,9 +34,9 @@ function debugUtils.setDebugState(id, name, newValue)
   end
   storage.enableDebug = newValue or false
   if(storage.enableDebug) then
-    sb.logInfo(debugMsgPrefix .. " Toggled Debug On")
+    sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " Toggled Debug On")
   else
-    sb.logInfo(debugMsgPrefix .. " Toggled Debug Off")
+    sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " Toggled Debug Off")
   end
 end
 
@@ -54,6 +56,6 @@ end
 
 function DebugUtilsCN.logDebug(msg, indentAmt)
   if(debugLoggingEnabled and storage.enableDebug) then
-    sb.logInfo(debugMsgPrefix .. " " .. debugUtils.getIndentString(indentAmt) .. msg)
+    sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " " .. debugUtils.getIndentString(indentAmt) .. msg)
   end
 end

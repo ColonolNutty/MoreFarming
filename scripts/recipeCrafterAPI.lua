@@ -82,8 +82,6 @@ function RecipeCrafterMFMApi.onNoRecipeFound()
 end
 
 --isOutputSlotAvailable() when craftItem is called, this method is determines if the output slot is available for placing a new output
---  Recipe - { output: { name (string), count (double) }, input: [{ name (string), count (double) }], groups: [string] }
---  outputSlotItem - { name (string), count (double) }
 -- Returns true if a new output can be placed
 -- Returns false if a new output can not be placed (Slot is full, or slot is not the same item)
 function RecipeCrafterMFMApi.isOutputSlotAvailable()
@@ -92,11 +90,32 @@ function RecipeCrafterMFMApi.isOutputSlotAvailable()
     DebugUtilsCN.logDebug("Output slot is empty")
     return true;
   end
+  
   if(storage.previousRecipe == nil) then
-    DebugUtilsCN.logDebug("Nothing crafted yet")
-    return true;
+    DebugUtilsCN.logDebug("Nothing crafted yet, but there is an output item")
+    return false;
   end
-  return storage.previousRecipe.output.name == outputSlotItem.name
+
+  local previousOutput = storage.previousRecipe.output;
+  
+  if(previousOutput == nil) then
+    storage.previousRecipe = nil;
+    return false;
+  end
+  
+  if(previousOutput.name ~= outputSlotItem.name) then
+    DebugUtilsCN.logDebug("Current output does not match previous recipe")
+    return false;
+  end
+  
+  -- Check current ingredients to verify the previous recipe still has the required ingredients
+  local hasRequiredIngredients = RecipeCrafterMFMApi.hasIngredientsForRecipe(storage.previousRecipe, storage.currentIngredients);
+  if(not hasRequiredIngredients) then
+    DebugUtilsCN.logDebug("Current output matched previous recipe, but the current ingredients weren't right")
+    return false;
+  end
+  
+  return false;
 end
 
 function containerCallback()
@@ -130,12 +149,16 @@ function RecipeCrafterMFMApi.craftItem()
     return;
   end
   
+  DebugUtilsCN.logDebug("Checking output slot for availability");
+  
   local outputSlotAvailable = RecipeCrafterMFMApi.isOutputSlotAvailable();
   if(not outputSlotAvailable) then
     DebugUtilsCN.logDebug("Cannot craft item, output is not available, aborting craft process")
     isCrafting = false;
     return;
   end
+  
+  DebugUtilsCN.logDebug("Output slot is available");
   
   RecipeCrafterMFMApi.onCraftStart();
   if(storage.playSoundBeforeOutputPlaced) then

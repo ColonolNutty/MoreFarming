@@ -115,7 +115,7 @@ function RecipeCrafterMFMApi.isOutputSlotAvailable()
     return false;
   end
   
-  return false;
+  return true;
 end
 
 function containerCallback()
@@ -285,8 +285,7 @@ function RecipeCrafterMFMApi.getIngredients()
     return nil;
   end
   for slot,item in pairs(ingredients) do
-    local isNotOutputItem = storage.previousRecipe == nil or (storage.previousRecipe and storage.previousRecipe.output.name ~= item.name);
-    if (ingredientNames[item.name] == nil and isNotOutputItem and slot ~= storage.nonZeroOutputSlot) then
+    if (ingredientNames[item.name] == nil and slot ~= storage.nonZeroOutputSlot) then
       item.count = world.containerAvailable(entity.id(), item.name)
       ingredientNames[item.name] = true
       uniqueIngredients[slot] = item

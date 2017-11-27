@@ -15,19 +15,7 @@
     {
       "op" : "replace",
       "path" : "/description",
-      "value" : "(BOIL):-} A bowl of rather bland boiled pearlpeas."
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 42
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 10.0
+      "value" : "(MILL):-} Pure, unadulterated sugary goodness."
     }
   ]
 ]

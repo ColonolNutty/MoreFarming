@@ -7,7 +7,7 @@
   "shortdescription" : "Dark Chocolate Block",
   "glitchDescription" : "Statement. A block made of dark chocolate.",
   "floranDescription" : "Tasssty block.",
-  "footstepSound" : "/sfx/blocks/footstep_gravel.wav",
+  "footstepSound" : "/sfx/blocks/footstep_gravel.ogg",
   "health" : 1,
   "category" : "materials",
 

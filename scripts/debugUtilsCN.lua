@@ -54,6 +54,10 @@ function debugUtils.getIndentString(indentAmt)
   return indent
 end
 
+function DebugUtilsCN.enableDebug()
+  debugUtils.setDebugState(nil, nil, true);
+end
+
 function DebugUtilsCN.logDebug(msg, indentAmt)
   if(debugLoggingEnabled and storage.enableDebug) then
     sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " " .. debugUtils.getIndentString(indentAmt) .. msg)

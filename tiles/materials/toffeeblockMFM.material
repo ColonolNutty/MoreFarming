@@ -8,7 +8,7 @@
   "shortdescription" : "Toffee Block.",
   "glitchDescription" : "Statement. Toffee Block.",
   "floranDescription" : "Sssweet toffee.",
-  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "footstepSound" : "/sfx/blocks/footstep_mud.ogg",
   "health" : 1.3,
   "category" : "materials",
   

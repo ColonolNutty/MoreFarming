@@ -7,7 +7,7 @@
   "shortdescription" : "Sugarcane Block",
   "glitchDescription" : "Curious. A block of made of sugarcane.",
   "floranDescription" : "Sssweet sssticksss.",
-  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
   "health" : 2,
   "category" : "materials",
   "damageTable" : "/tiles/flammableDamage.config",

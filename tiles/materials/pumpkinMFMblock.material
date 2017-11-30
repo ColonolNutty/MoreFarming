@@ -7,7 +7,7 @@
   "shortdescription" : "Pumpkin Block",
   "glitchDescription" : "Statement. A block made of Pumpkin.",
   "floranDescription" : "Tasssty block.",
-  "footstepSound" : "/sfx/blocks/footstep_rock.wav",
+  "footstepSound" : "/sfx/blocks/footstep_rock.ogg",
   "health" : 2,
   "category" : "materials",
 

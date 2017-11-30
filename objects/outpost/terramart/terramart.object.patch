@@ -62,6 +62,7 @@
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "strawberriesPBJ" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "sugarbeetMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "sweetpotatoMFM" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "tomato" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "turnipMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "vanillaMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "wholeoatsMFM" } },

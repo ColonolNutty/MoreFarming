@@ -98,12 +98,12 @@
     {
       "op" : "add",
       "path" : "/openSounds/-",
-      "value" : "/sfx/objects/sinkMFMenter.wav"
+      "value" : "/sfx/objects/sinkMFMenter.ogg"
     },
     {
       "op" : "add",
       "path" : "/closeSounds/-",
-      "value" : "/sfx/objects/sinkMFMexit.wav"
+      "value" : "/sfx/objects/sinkMFMexit.ogg"
     },
     {
       "op" : "replace",

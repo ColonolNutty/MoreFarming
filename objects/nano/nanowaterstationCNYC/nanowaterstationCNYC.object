@@ -53,8 +53,8 @@
         } ]
     } ],
   "recipeGroup" : "waterMFM",
-  "openSounds" : [ "/sfx/objects/sinkMFMenter.wav" ],
-  "closeSounds" : [ "/sfx/objects/sinkMFMexit.wav" ],
+  "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
+  "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
   "frameCooldown" : 67,

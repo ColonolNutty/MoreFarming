@@ -7,7 +7,7 @@
   "shortdescription" : "White Chocolate Block",
   "glitchDescription" : "Statement. A block made of white chocolate.",
   "floranDescription" : "Tasssty block.",
-  "footstepSound" : "/sfx/blocks/footstep_gravel.ogg",
+  "footstepSound" : "/sfx/blocks/footstep_stone1.ogg",
   "health" : 1,
   "category" : "materials",
 

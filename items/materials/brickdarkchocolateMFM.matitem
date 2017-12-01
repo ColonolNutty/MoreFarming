@@ -1,0 +1,16 @@
+{
+    "materialId": 19209,
+    "itemName": "brickdarkchocolateMFM",
+    "rarity": "Common",
+    "inventoryIcon": "brickdarkchocolateMFM.png",
+    "dropCollision": [
+        -2.5,
+        -2.0,
+        2.5,
+        2.0
+    ],
+    "description": "A brick carved out of dark chocolate.",
+    "shortdescription": "Dark Chocolate Brick",
+    "glitchdescription": "Statement. Chocolate.",
+    "florandescription": "Bad ssssugar."
+}

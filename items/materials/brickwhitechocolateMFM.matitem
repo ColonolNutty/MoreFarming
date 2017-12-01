@@ -1,0 +1,17 @@
+{
+    "materialId": 19210,
+    "itemName": "brickwhitechocolateMFM",
+    "rarity": "Common",
+    "inventoryIcon": "brickwhitechocolateMFM.png",
+    "dropCollision": [
+        -2.5,
+        -2.0,
+        2.5,
+        2.0
+    ],
+    "description": "A brick carved out of white chocolate.",
+    "shortdescription": "White Chocolate Brick",
+    "glitchdescription": "Statement. Chocolate.",
+    "florandescription": "Bad ssssugar."
+    
+}

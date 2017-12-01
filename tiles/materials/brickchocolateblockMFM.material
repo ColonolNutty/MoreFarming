@@ -1,0 +1,23 @@
+{
+  "materialId" : 19208,
+  "materialName" : "brickchocolateblockMFM",
+  "itemDrop" : "brickchocolateMFM",
+  "particleColor" : [130, 76, 11, 255],
+  "description" : "A brick, carved out of chocolate.",
+  "shortdescription" : "Chocolate Brick",
+  "glitchDescription" : "Statement. Brick Chocolate.",
+  "floranDescription" : "Bad Ssssugar.",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "brickchocolateblockMFM.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

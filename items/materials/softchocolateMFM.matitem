@@ -1,0 +1,11 @@
+{
+  "materialId" : 19212,
+  "itemName" : "softchocolateMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "softchocolateMFM.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Softened, delicious chocolate!",
+  "shortdescription" : "Soft Chocolate",
+  "glitchdescription" : "Statement. Chocolate.",
+  "floranDescription" : "Dissssgusting ssssugar sssludge."
+}

@@ -3,12 +3,13 @@
   "materialName" : "chocolateblockMFM",
   "particleColor" : [13, 39, 7, 255],
   "itemDrop" : "chocolateblockMFM",
+  
   "description" : "A block made of chocolate.",
   "shortdescription" : "Chocolate Block",
   "glitchDescription" : "Statement. A block made of chocolate.",
   "floranDescription" : "Tasssty block.",
-  "footstepSound" : "/sfx/blocks/footstep_gravel.ogg",
-  "health" : 1,
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 5,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

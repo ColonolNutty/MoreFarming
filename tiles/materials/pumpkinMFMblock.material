@@ -3,12 +3,13 @@
   "materialName" : "pumpkinblockMFM",
   "particleColor" : [170, 92, 12, 255],
   "itemDrop" : "pumpkinblockMFM",
+  
   "description" : "Pumpkin compressed into a solid block.",
   "shortdescription" : "Pumpkin Block",
   "glitchDescription" : "Statement. A block made of Pumpkin.",
-  "floranDescription" : "Tasssty block.",
-  "footstepSound" : "/sfx/blocks/footstep_rock.ogg",
-  "health" : 2,
+  "floranDescription" : "Bright orange block.",
+  "footstepSound" : "/sfx/blocks/footstep_grass.ogg",
+  "health" : 4,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

@@ -7,9 +7,9 @@
   "description" : "Neonmelon compressed into a solid block.",
   "shortdescription" : "Neonmelon Block",
   "glitchDescription" : "Statement. A block made of Neonmelons.",
-  "floranDescription" : "Tasssty block.",
-  "footstepSound" : "/sfx/blocks/footstep_rock.ogg",
-  "health" : 2,
+  "floranDescription" : "Bright blue block.",
+  "footstepSound" : "/sfx/blocks/footstep_grass.ogg",
+  "health" : 4,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

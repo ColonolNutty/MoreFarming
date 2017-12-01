@@ -3,11 +3,12 @@
   "materialName" : "harddarkchocolateblockMFM",
   "itemDrop" : "harddarkchocolateMFM",
   "particleColor" : [36, 11, 0, 255],
+  
   "description" : "Hard Dark chocolate. This definitely isn't good for your teeth.",
   "shortdescription" : "Dark Chocolate",
   "glitchDescription" : "Statement. Hardened Dark Chocolate.",
-  "floranDescription" : "Bad Ssssugar.",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "floranDescription" : "Bad Sssugar.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
   "health" : 10,
   "category" : "materials",
 

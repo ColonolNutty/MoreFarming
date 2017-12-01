@@ -3,12 +3,13 @@
   "materialName" : "hardchocolateblockMFM",
   "itemDrop" : "hardchocolateMFM",
   "particleColor" : [130, 76, 11, 255],
+  
   "description" : "Hard chocolate. This definitely isn't good for your teeth.",
   "shortdescription" : "Hard Chocolate",
   "glitchDescription" : "Statement. Hardened Chocolate.",
-  "floranDescription" : "Bad Ssssugar.",
+  "floranDescription" : "Bad Sssugar.",
   "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
-  "health" : 4,
+  "health" : 10,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

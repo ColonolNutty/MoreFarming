@@ -3,12 +3,13 @@
   "materialName" : "brickdarkchocolateblockMFM",
   "itemDrop" : "brickdarkchocolateMFM",
   "particleColor" : [ 36, 11, 0, 255 ],
+  
   "description" : "A brick, carved out of dark chocolate.",
   "shortdescription" : "Dark Chocolate Brick",
   "glitchDescription" : "Statement. Dark Brick Chocolate.",
-  "floranDescription" : "Bad Ssssugar.",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
-  "health" : 10,
+  "floranDescription" : "Bad Sssugar.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 20,
   "category" : "materials",
   
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

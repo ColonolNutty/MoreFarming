@@ -4,14 +4,14 @@
   "particleColor" : [50, 146, 230, 255],
   "itemDrop" : "jelonblockMFM",
   
-  "description" : "A block of gelatin-like jelons.",
+  "description" : "A block made of gelatin-like jelon.",
   "shortdescription" : "Jelon Block",
   "glitchDescription" : "Analysis. Jelon block, slimy.",
   "novakidDescription" : "This blue slime is some nasty lookin' stuff.",
   "falling" : true,
   "cascading" : true,
   "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
-  "health" : 2,
+  "health" : 1,
   "category" : "materials",
   
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

@@ -1,0 +1,9 @@
+[
+  [
+    { "op" : "test", "path" : "/subBlocks", "inverse": true },
+    { "op" : "add", "path" : "/subBlocks", "value": [] }
+  ],
+  [
+    { "op": "add", "path": "/subBlocks/-", "value": "jelonMFM" }
+  ]
+]

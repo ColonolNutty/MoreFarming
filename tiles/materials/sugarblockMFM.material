@@ -3,6 +3,7 @@
   "materialName" : "sugarblockMFM",
   "particleColor" : [200, 200, 200, 255],
   "itemDrop" : "sugarblockMFM",
+  
   "description" : "Sugar packed tight into a solid block.",
   "shortdescription" : "Sugar Block",
   "glitchDescription" : "Curious. A block of sugar.",
@@ -10,7 +11,6 @@
   "footstepSound" : "/sfx/blocks/footstep_ash.ogg",
   "falling" : true,
   "cascading" : true,
-  "soil" : true,
   "health" : 1,
   "category" : "materials",
 

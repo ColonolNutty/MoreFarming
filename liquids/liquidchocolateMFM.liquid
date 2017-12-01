@@ -1,0 +1,41 @@
+{
+  "name" : "liquidchocolateMFM",
+  "liquidId" : 138,
+  "description" : "Delicious, sugary congealed love, slowly oozing through your fingertips!",
+  "tickDelta" : 3,
+  "color" : [99, 55, 45, 240],
+  "statusEffects": [ "swimming", "tarslow" ],
+  "itemDrop" : "chocolateliquorMFM",
+
+  "interactions": [
+    //water
+    {
+      "liquid" : 1,
+      "liquidResult" : 138
+    },
+    //poison
+    {
+      "liquid" : 3,
+      "liquidResult" : 3
+    },
+    //slime
+    {
+      "liquid" : 13,
+      "liquidResult" : 0
+    },
+    //lava
+    {
+      "liquid" : 2,
+      "materialResult" : "hardchocolateblockMFM"
+    },
+    //corelava
+    {
+      "liquid" : 8,
+      "materialResult" : "harddarkchocolateblockMFM"
+    }
+  ],
+
+  "texture" : "/liquids/liquidchocolateMFMtex.png",
+  "bottomLightMix" : [0, 78, 255],
+  "textureMovementFactor" : 2.6
+}

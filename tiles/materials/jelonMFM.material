@@ -2,11 +2,14 @@
   "materialId" : 3302,
   "materialName" : "jelonMFM",
   "particleColor" : [50, 146, 230, 255],
-  "variants" : 5,
   "itemDrop" : "jelonblockMFM",
+  
   "description" : "A block of gelatin-like jelons.",
-  "shortdescription" : "Jelon Block.",
-  "glitchDescription" : "Analysis. Jelon Block.",
+  "shortdescription" : "Jelon Block",
+  "glitchDescription" : "Analysis. Jelon block, slimy.",
+  "novakidDescription" : "This blue slime is some nasty lookin' stuff.",
+  "falling" : true,
+  "cascading" : true,
   "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
   "health" : 2,
   "category" : "materials",
@@ -18,6 +21,6 @@
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
-    "zLevel" : 0
+    "zLevel" : 1790
   }
 }

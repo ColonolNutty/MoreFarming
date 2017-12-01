@@ -1,0 +1,13 @@
+{
+  "itemName" : "chocolateliquorMFM",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "description" : "(BAKE):-} Pure liquid chocolate.",
+  "shortdescription" : "Chocolate Liquor",
+  "inventoryIcon" : "chocolateliquorMFM.png",
+  "handPosition" : [ 0, -4 ],
+  "maxStack" : 1000,
+  
+  "liquid" : "liquidchocolateMFM",
+  "price" : 20.84
+}

@@ -1,0 +1,30 @@
+{
+  "objectName" : "chocolatestatueavianMFM",
+  "colonyTags" : [ "avian", "chocolate", "pretty", "valuable" ],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "description" : "A chocolate statue resembling an Avian. Not likely to fly away.",
+  "shortdescription" : "Chocolate Statue - Avian",
+  "race" : "generic",
+
+  "apexDescription" : "A curious-looking Avian. How regal.",
+  "avianDescription" : "This Avian is known for uniting the grounded and encouraging us to spread our wings.",
+  "floranDescription" : "Sssilly pecky manbird made of chocolate.",
+  "glitchDescription" : "Research. The Avian depicted here had great historical importance.",
+  "humanDescription" : "This Avian looks like a cool dude. I bet nobody messed with him.",
+  "hylotlDescription" : "The Avian's comical features have been captured well here.",
+
+  "inventoryIcon" : "chocolatestatueavianMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "chocolatestatueavianMFM.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

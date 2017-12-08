@@ -1,0 +1,25 @@
+{
+  "name" : "ceilingchocolatespikesdarkMFM",
+  "description" : "They loom over you.",
+  "shortdescription" : "Chocolate Spikes - Dark",
+  "floranDescription" : "Bitter and ssspiky.",
+  "glitchDescription" : "Analysis. Spikes made of dark chocolate.",
+  "ceiling" : true,
+  "shapes" : [
+    {
+      "base" : "base1.png"
+    },
+    {
+      "base" : "base2.png"
+    },
+    {
+      "base" : "base3.png"
+    },
+    {
+      "base" : "base4.png"
+    },
+    {
+      "base" : "base5.png"
+    }
+  ]
+}

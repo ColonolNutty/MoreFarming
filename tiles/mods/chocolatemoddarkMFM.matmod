@@ -1,0 +1,17 @@
+{
+  "modId" : 19217,
+  "modName" : "chocolatemoddarkMFM",
+  "description" : "Melted dark chocolate covers the ground here.",
+  "glitchDescription" : "Analysis. Melted dark chocolate covers the ground here.",
+  "floranDescription" : "Melted dark chocolate isss everywhere!",
+  "footstepSound" : "/sfx/blocks/footstep_wetclay.ogg",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "chocolatemoddarkMFM.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

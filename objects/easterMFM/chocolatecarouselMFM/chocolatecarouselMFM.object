@@ -1,0 +1,31 @@
+{
+  "objectName" : "chocolatecarouselMFM",
+  "colonyTags" : [ "easter", "chocolate", "pretty", "valuable" ],
+  "rarity" : "Uncommon",
+  "description" : "A Carousel made of chocolate! Weeeeee!",
+  "shortdescription" : "Chocolate - Carousel",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 2500,
+  
+  "apexDescription" : "Spinning and Chocolate do not mix well...",
+  "avianDescription" : "It looks fun! I wonder how safe it is...",
+  "floranDescription" : "Floran wantsss to sssit on round ssspinning thing!",
+  "glitchDescription" : "Excited. This contraption looks fun!",
+  "humanDescription" : "A younger me wouldn't give a second thought about eating this, an older me wouldn't either!",
+  "hylotlDescription" : "It's a wonder how this monstrosity functions.",
+
+  "inventoryIcon" : "chocolatecarouselMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "chocolatecarouselMFM.png:<color>.<frame>",
+      "imagePosition" : [-32, 0],
+      "frames" : 6,
+      "animationCycle" : 1.25,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

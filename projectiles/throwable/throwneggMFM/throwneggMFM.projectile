@@ -1,0 +1,40 @@
+{
+  "projectileName" : "throwneggMFM",
+  "speed" : 400,
+  "physics" : "snowball",
+  "image" : "throwneggMFM.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/snowballexplosion/snowballexplosion.config"
+    },
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "metamod:none",
+      "newMod" : "chocolatemodplainMFM",
+      "radius" : 1
+    },
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "chocolatemodwhiteMFM",
+      "newMod" : "chocolatemodplainMFM",
+      "radius" : 1
+    },
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "chocolatemodplainMFM",
+      "newMod" : "chocolatemoddarkMFM",
+      "radius" : 1
+    },
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "chocolatemoddarkMFM",
+      "newMod" : "chocolatemodwhiteMFM",
+      "radius" : 1
+    }
+  ],
+  "emitters" : [ "defaultbrown" ]
+}

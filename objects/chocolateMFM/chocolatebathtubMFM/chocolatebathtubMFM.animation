@@ -1,0 +1,46 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "switchState" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "frames" : 1
+          },
+          "on" : {
+            "frames" : 3,
+            "mode" : "loop",
+            "cycle" : 0.7,
+            "properties" : {
+              "persistentSound" : "/sfx/objects/spookycauldron.ogg"
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bath" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "switchState" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:off"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:on.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

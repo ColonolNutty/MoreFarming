@@ -1,0 +1,30 @@
+{
+  "objectName" : "chocolatestatuehumanMFM",
+  "colonyTags" : [ "human", "chocolate", "pretty", "valuable" ],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "description" : "A chocolate statue resembling a Human. Check out that hair.",
+  "shortdescription" : "Chocolate Statue - Human",
+  "race" : "generic",
+
+  "apexDescription" : "A Human. It's easy to see why people believe the Humans and the Apex are related.",
+  "avianDescription" : "A Human. His hairstyle almost looks like feathers.",
+  "floranDescription" : "Ssstupid fleshman with ssstupid hair.",
+  "glitchDescription" : "Concerned. I feel bad for the Humans, having to suffer such outlandish hairstyles.",
+  "humanDescription" : "A popular Human entertainer. I used to own all his albums.",
+  "hylotlDescription" : "A statue of a Human. This man appears to be attempting some kind of style.",
+
+  "inventoryIcon" : "chocolatestatueHumanMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "chocolatestatueHumanMFM.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

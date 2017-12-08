@@ -1,0 +1,39 @@
+{
+  "itemName" : "playbunnyMFMlegs",
+  "price" : 500,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "legwear",
+  "description" : "Very sexy underwear, with a very cute, fluffy tail!",
+  "shortdescription" : "Playbunny Bottom",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pantsf.png",
+
+  "colorOptions" : [
+     /* BLACK */
+    { "5f5f5f" : "5f5f5f", "434343" : "434343", "2a2a2a" : "2a2a2a", "111111" : "111111" },
+    /* WHITE */
+    { "5f5f5f" : "e6e6e6", "434343" : "b6b6b6", "2a2a2a" : "7b7b7b", "111111" : "373737" },
+    /* GREY */
+    { "5f5f5f" : "b5b5b5", "434343" : "808080", "2a2a2a" : "555555", "111111" : "303030" },
+    /* RED */
+    { "5f5f5f" : "f4988c", "434343" : "d93a3a", "2a2a2a" : "932625", "111111" : "601119" },
+    /* ORANGE */
+    { "5f5f5f" : "ffd495", "434343" : "ea9931", "2a2a2a" : "af4e00", "111111" : "6e2900" },
+    /* YELLOW */
+    { "5f5f5f" : "ffffa7", "434343" : "e2c344", "2a2a2a" : "a46e06", "111111" : "642f00" },
+    /* GREEN */
+    { "5f5f5f" : "b2e89d", "434343" : "51bd3b", "2a2a2a" : "247824", "111111" : "144216" },
+    /* BLUE */
+    { "5f5f5f" : "96cbe7", "434343" : "5588d4", "2a2a2a" : "344495", "111111" : "1a1c51" },
+    /* PURPLE */
+    { "5f5f5f" : "d29ce7", "434343" : "a451c4", "2a2a2a" : "6a2284", "111111" : "320c40" },
+    /* PINK */
+    { "5f5f5f" : "eab3db", "434343" : "d35eae", "2a2a2a" : "97276d", "111111" : "59163f" },
+    /* BROWN */
+    { "5f5f5f" : "ccae7c", "434343" : "a47844", "2a2a2a" : "754c23", "111111" : "472b13" }
+  ]
+}

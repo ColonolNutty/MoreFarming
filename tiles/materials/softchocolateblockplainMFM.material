@@ -1,0 +1,26 @@
+{
+  "materialId" : 19215,
+  "materialName" : "softchocolateblockplainMFM",
+  "itemDrop" : "softchocolateplainMFM",
+  "particleColor" : [130, 76, 11, 255],
+  
+  "description" : "Soft and delicious, plain chocolate. Crumbles when disturbed.",
+  "shortdescription" : "Soft Chocolate - Plain",
+  "glitchDescription" : "Analysis. Softened plain chocolate. Crumbles when disturbed.",
+  "floranDescription" : "Sssweet sssugar sssludge.",
+  "footstepSound" : "/sfx/blocks/footstep_wetclay.ogg",
+  "falling" : true,
+  "cascading" : true,
+  "health" : 1.5,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "softchocolateblockplainMFM.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

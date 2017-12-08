@@ -1,13 +1,13 @@
 {
   "itemName" : "neonmelonblockMFM",
-  "rarity" : "Common",
   "price" : 29.4,
   "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "neonmelonblockMFM.png",
   "description" : "Neonmelon compressed into a solid block.",
   "shortdescription" : "Neonmelon Block",
-  "floranDescription" : "Tasssty block.",
   "glitchDescription" : "Statement. A block made of Neonmelon.",
-  "inventoryIcon" : "neonmelonblockMFM.png",
-  "dropCollision" : [ -2.5, -2.0, 2.5, 2.0 ],
+  "floranDescription" : "Bright blue block.",
+  
   "materialId" : 19201
 }

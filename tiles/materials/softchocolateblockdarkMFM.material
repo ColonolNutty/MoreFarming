@@ -1,0 +1,26 @@
+{
+  "materialId" : 19214,
+  "materialName" : "softchocolateblockdarkMFM",
+  "itemDrop" : "softchocolatedarkMFM",
+  "particleColor" : [36, 11, 0, 255],
+  
+  "description" : "Soft and bitter, dark chocolate. Crumbles when disturbed.",
+  "shortdescription" : "Soft Chocolate - Dark",
+  "glitchDescription" : "Analysis. Softened dark chocolate. Crumbles when disturbed.",
+  "floranDescription" : "Bitter sssludge.",
+  "footstepSound" : "/sfx/blocks/footstep_wetclay.ogg",
+  "falling" : true,
+  "cascading" : true,
+  "health" : 1.5,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "softchocolateblockdarkMFM.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

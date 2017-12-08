@@ -1,0 +1,22 @@
+{
+  "itemName" : "icecreamchocolateswirlMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "icecreamchocolateswirlMFM.png",
+  "description" : "It's got everything you could ever want!",
+  "shortdescription" : "Ice Cream - Chocolate Swirl",
+  "handPosition" : [12, -6],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 50
+      },
+      {
+        "kind" : "health",
+        "amount" : 30
+      },
+      {
+        "kind" : "sugarrush"
+      }
+    ]
+  ]
+}

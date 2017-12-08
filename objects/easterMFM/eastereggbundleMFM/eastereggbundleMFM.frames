@@ -1,0 +1,14 @@
+{
+  "frameGrid" : {
+    "size" : [24, 24],
+    "dimensions" : [4, 6],
+    "names" : [
+      [ "state1", "state2", "state3", "state4" ],
+      [ "state5", "state6", "state7", "state8" ],
+      [ "state9", "state10", "state11", "state12" ],
+      [ "state13", "state14", "state15", "state16" ],
+      [ "state17", "state18", "state19", "state20" ],
+      [ "state21", "state22", "state23", "state24" ]
+    ]
+  }
+}

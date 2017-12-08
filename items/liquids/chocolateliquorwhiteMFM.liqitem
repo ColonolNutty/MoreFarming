@@ -1,0 +1,11 @@
+{
+  "itemName" : "chocolateliquorwhiteMFM",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "chocolateliquorwhiteMFMicon.png",
+  "shortdescription" : "Chocolate Liquor - White",
+  "description" : "(BAKE):-} Pure liquid white chocolate.",
+  
+  "liquid" : "liquidchocolatewhiteMFM",
+  "price" : 20.84
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "chocolateeggstashwhiteMFM",
+  "colonyTags" : [ "chocolate", "easter" ],
+  "rarity" : "Common",
+  "description" : "A stash of chocolate eggs.",
+  "shortdescription" : "Chocolate Egg Stash - White",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 1000,
+  "printable" : false,
+
+  "floranDescription" : "Bitter eggsss.",
+  "glitchDescription" : "Analysis. Eggs made of chocolate.",
+
+  "inventoryIcon" : "chocolateeggstashMFMicon.png",
+  "orientations" : [
+    {
+      "image" : "chocolateeggstashMFM.png:default.white",
+      "imagePosition" : [0, 0],
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "animation" : "chocolateeggstashMFM.animation",
+  "animationParts" : {
+    "switch" : "chocolateeggstashMFM.png"
+  },
+  "animationPosition" : [0, 0],
+  "scripts" : [ "/scripts/imageRandomizerMFM.lua" ],
+  "scriptDelta" : 5,
+  
+  "numberOfImages" : 8,
+  "animationStatePrefix" : "white",
+  
+  "breakDropOptions" : [ [ [ "chocolateeggMFM", 1, { } ] ] ]
+}

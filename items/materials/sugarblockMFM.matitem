@@ -1,13 +1,13 @@
 {
   "itemName" : "sugarblockMFM",
-  "rarity" : "Common",
   "price" : 57.4,
   "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "sugarblockMFM.png",
   "description" : "Sugar packed tight into a solid block.",
   "shortdescription" : "Sugar Block",
   "floranDescription" : "Sssweet block.",
   "glitchDescription" : "Curious. A block of sugar.",
-  "inventoryIcon" : "sugarblockMFM.png",
-  "dropCollision" : [ -2.5, -2, 2.5, 2 ],
+  
   "materialId" : 19203
 }

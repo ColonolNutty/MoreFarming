@@ -1,0 +1,34 @@
+{
+  "objectName" : "chocolatefountainMFM",
+  "colonyTags" : [ "chocolate", "pretty", "valuable" ],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+  "description" : "A chocolate fountain made of chocolate! Brilliant!",
+  "shortdescription" : "Chocolate Fountain",
+  "race" : "generic",
+  
+  "floranDescription" : "Sssugar water fun to hide in.",
+  "glitchDescription" : "Perplexed. Why is it called white chocolate when it's a pale yellow?",
+  "humanDescription" : "I have dreamed of this day!",
+  "hylotlDescription" : "It's a fountain... of diabetes.",
+
+  "inventoryIcon" : "chocolatefountainMFMicon.png",
+  "orientations" : [
+    {
+      "image" : "chocolatefountainMFM.png:<color>.<frame>",
+      "imagePosition" : [-32, 0],
+      "frames" : 4,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fountain1.ogg",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [14, 24]
+}

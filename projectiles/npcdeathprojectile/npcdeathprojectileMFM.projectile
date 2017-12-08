@@ -1,0 +1,12 @@
+{
+  "projectileName" : "npcdeathprojectileMFM",
+  "image" : "npcdeathprojectileMFM.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "npcdeathprojectileMFMicon.png",
+  "pointLight" : false,
+  "actionOnReap" : [],
+  "power" : 2000.0,
+  "damageKind" : "acid",
+  "emitters" : [ ]
+}

@@ -1,0 +1,31 @@
+{
+  "itemName" : "eastereggMFM",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "throwableItem",
+  "inventoryIcon" : "eastereggMFMicon.png",
+  "image" : "eastereggMFM.png",
+  "shortdescription" : "Easter Egg",
+  "description" : "These aren't made of chocolate, but they make a good weapon.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "throwneggMFM",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 1.5,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}
+

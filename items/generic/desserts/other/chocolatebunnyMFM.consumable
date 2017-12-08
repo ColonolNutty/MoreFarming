@@ -1,0 +1,14 @@
+{
+  "itemName" : "chocolatebunnyMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "chocolatebunnyMFM.png",
+  "description" : "A cute little bunny made of chocolate. Don't you just want to bite it's head off?",
+  "shortdescription" : "Chocolate Bunny",
+    "handPosition": [ 8, 10 ],
+  "effects" : [ [
+          {
+        "effect" : "foodheal25",
+        "duration" : 60
+		   }
+    ] ]
+}

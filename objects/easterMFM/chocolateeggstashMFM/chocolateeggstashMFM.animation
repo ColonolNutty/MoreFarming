@@ -1,0 +1,214 @@
+{
+	"animatedParts": {
+		"stateTypes": {
+			"switchState": {
+				"default": "plain1",
+				"states": {
+					"plain1": {
+						"frames": 1
+					},
+					"plain2": {
+						"frames": 1
+					},
+					"plain3": {
+						"frames": 1
+					},
+					"plain4": {
+						"frames": 1
+					},
+					"plain5": {
+						"frames": 1
+					},
+					"plain6": {
+						"frames": 1
+					},
+					"plain7": {
+						"frames": 1
+					},
+					"plain8": {
+						"frames": 1
+					},
+					"white1": {
+						"frames": 1
+					},
+					"white2": {
+						"frames": 1
+					},
+					"white3": {
+						"frames": 1
+					},
+					"white4": {
+						"frames": 1
+					},
+					"white5": {
+						"frames": 1
+					},
+					"white6": {
+						"frames": 1
+					},
+					"white7": {
+						"frames": 1
+					},
+					"white8": {
+						"frames": 1
+					},
+					"dark1": {
+						"frames": 1
+					},
+					"dark2": {
+						"frames": 1
+					},
+					"dark3": {
+						"frames": 1
+					},
+					"dark4": {
+						"frames": 1
+					},
+					"dark5": {
+						"frames": 1
+					},
+					"dark6": {
+						"frames": 1
+					},
+					"dark7": {
+						"frames": 1
+					},
+					"dark8": {
+						"frames": 1
+					}
+				}
+			}
+		},
+		"parts": {
+			"switch": {
+				"properties": {
+					"centered": false
+				},
+				"partStates": {
+					"switchState": {
+						"plain1": {
+							"properties": {
+								"image": "<partImage>:plain1"
+							}
+						},
+						"plain2": {
+							"properties": {
+								"image": "<partImage>:plain2"
+							}
+						},
+						"plain3": {
+							"properties": {
+								"image": "<partImage>:plain3"
+							}
+						},
+						"plain4": {
+							"properties": {
+								"image": "<partImage>:plain4"
+							}
+						},
+						"plain5": {
+							"properties": {
+								"image": "<partImage>:plain5"
+							}
+						},
+						"plain6": {
+							"properties": {
+								"image": "<partImage>:plain6"
+							}
+						},
+						"plain7": {
+							"properties": {
+								"image": "<partImage>:plain7"
+							}
+						},
+						"plain8": {
+							"properties": {
+								"image": "<partImage>:plain8"
+							}
+						},
+						"white1": {
+							"properties": {
+								"image": "<partImage>:white1"
+							}
+						},
+						"white2": {
+							"properties": {
+								"image": "<partImage>:white2"
+							}
+						},
+						"white3": {
+							"properties": {
+								"image": "<partImage>:white3"
+							}
+						},
+						"white4": {
+							"properties": {
+								"image": "<partImage>:white4"
+							}
+						},
+						"white5": {
+							"properties": {
+								"image": "<partImage>:white5"
+							}
+						},
+						"white6": {
+							"properties": {
+								"image": "<partImage>:white6"
+							}
+						},
+						"white7": {
+							"properties": {
+								"image": "<partImage>:white7"
+							}
+						},
+						"white8": {
+							"properties": {
+								"image": "<partImage>:white8"
+							}
+						},
+						"dark1": {
+							"properties": {
+								"image": "<partImage>:dark1"
+							}
+						},
+						"dark2": {
+							"properties": {
+								"image": "<partImage>:dark2"
+							}
+						},
+						"dark3": {
+							"properties": {
+								"image": "<partImage>:dark3"
+							}
+						},
+						"dark4": {
+							"properties": {
+								"image": "<partImage>:dark4"
+							}
+						},
+						"dark5": {
+							"properties": {
+								"image": "<partImage>:dark5"
+							}
+						},
+						"dark6": {
+							"properties": {
+								"image": "<partImage>:dark6"
+							}
+						},
+						"dark7": {
+							"properties": {
+								"image": "<partImage>:dark7"
+							}
+						},
+						"dark8": {
+							"properties": {
+								"image": "<partImage>:dark8"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

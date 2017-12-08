@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 20 },
+    { "item" : "cottonwool", "count" : 4 }
+  ],
+  "output" : { "item" : "bunnydollMFM", "count" : 1 },
+  "groups" : [ "craftingwheel", "ingredients" ]
+}

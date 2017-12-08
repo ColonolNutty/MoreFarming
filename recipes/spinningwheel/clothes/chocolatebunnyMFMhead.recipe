@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "hardchocolateplainMFM", "count" : 10 }
+  ],
+  "output" : { "item" : "chocolatebunnyMFMhead", "count" : 1 },
+  "groups" : [ "craftingwheel", "clothes" ]
+}

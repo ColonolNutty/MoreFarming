@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "hardchocolateplainMFM", "count" : 5 },
+    { "item" : "softchocolateplainMFM", "count" : 10 }
+  ],
+  "output" : { "item" : "chocolatechairMFM", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "objects", "all" ]
+}

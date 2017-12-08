@@ -1,0 +1,84 @@
+{
+  "animationParts" : {
+    "blade" : "eggbasketMFM.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "swoosh" : {
+          "properties" : {
+            "offset" : [-1.75, 1.75]
+          }
+        }
+      }
+    }
+  },
+
+  "ability" : {
+    "name" : "Egg Basket Slash",
+    "type" : "eggbasketMFMslash",
+    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
+    "class" : "MeleeSlash",
+
+    "swooshOffsetRegions" : [
+      [0.75, 0.0, 4.25, 5.0]
+    ],
+
+    "edgeTriggerGrace" : 0.25,
+
+    "fireTime" : 0.1,
+    "baseDps" : 3,
+
+    "damageConfig" : {
+      "damageSourceKind" : "eggbasketMFMhit",
+      "statusEffects" : [ ],
+      "knockbackMode" : "facing",
+      "timeout" : 0.5
+    },
+    "stepDamageConfig" : [
+      {
+        "baseDamageFactor" : 1.0,
+        "knockback" : 15
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "twoHanded" : false,
+        "armRotation" : -45,
+        "weaponRotation" : -45,
+        "handPosition" : [-6.0, -17.0],
+        "weaponOffset" : [0.75, 1.75],
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "windup" : {
+        "twoHanded" : false,
+        "duration" : 0.2,
+        "armRotation" : 90,
+        "weaponRotation" : -45,
+        "handPosition" : [-6.0, -17.0],
+        "weaponOffset" : [0.75, 1.75],
+
+        "windupBaseAngle" : -10,
+        "windupAngleRange" : 70,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "twoHanded" : false,
+        "duration" : 0.4,
+        "armRotation" : -45,
+        "weaponRotation" : -45,
+        "handPosition" : [-6.0, -17.5],
+        "weaponOffset" : [0.75, 1.75],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}
+ 

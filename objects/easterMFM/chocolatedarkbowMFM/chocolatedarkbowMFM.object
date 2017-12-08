@@ -1,0 +1,30 @@
+{
+  "objectName" : "chocolatedarkbowMFM",
+  "colonyTags" : [ "easter", "chocolate", "pretty", "valuable" ],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 350,
+  "description" : "A decorative bow made of dark chocolate.",
+  "shortdescription" : "Chocolate - Dark Bow",
+  "race" : "generic",
+
+  "apexDescription" : "It is a decorative chocolate bow.",
+  "avianDescription" : "A decorative chocolate ribbon.",
+  "floranDescription" : "Bow is sssugar. Yuck.",
+  "glitchDescription" : "Statement. A large bow made of chocolate.",
+  "humanDescription" : "It's a nice chocolate ribbon.",
+  "hylotlDescription" : "A very large, very chocolatey ribbon.",
+  "novakidDescription" : "That there is a large bow made of chocolate",
+
+  "inventoryIcon" : "chocolatedarkbowMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "chocolatedarkbowMFM.png:<color>",
+
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

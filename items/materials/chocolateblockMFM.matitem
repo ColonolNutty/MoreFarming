@@ -1,13 +1,13 @@
 {
   "itemName" : "chocolateblockMFM",
-  "rarity" : "Common",
   "price" : 25.77,
   "category" : "block",
-  "description" : "A block made of chocolate.",
-  "shortdescription" : "Chocolate Block",
-  "floranDescription" : "Tasssty block.",
-  "glitchDescription" : "Statement. A block made of chocolate.",
+  "rarity" : "Common",
   "inventoryIcon" : "chocolateblockMFM.png",
-  "dropCollision" : [ -2.5, -2, 2.5, 2 ],
+  "description" : "A block made of chocolate.",
+  "shortdescription" : "Chocolate Block - Plain",
+  "glitchDescription" : "Statement. A block made of chocolate.",
+  "floranDescription" : "Sssweet Tasssty block.",
+  
   "materialId" : 19205
 }

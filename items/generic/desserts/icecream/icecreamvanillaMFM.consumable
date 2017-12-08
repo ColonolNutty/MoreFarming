@@ -1,0 +1,22 @@
+{
+  "itemName" : "icecreamvanillaMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "icecreamvanillaMFM.png",
+  "description" : "Plain old vanilla ice cream",
+  "shortdescription" : "Ice Cream - Vanilla",
+  "handPosition" : [12, -6],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 50
+      },
+      {
+        "kind" : "health",
+        "amount" : 30
+      },
+      {
+        "kind" : "sugarrush"
+      }
+    ]
+  ]
+}

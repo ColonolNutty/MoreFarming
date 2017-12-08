@@ -1,0 +1,16 @@
+{
+    "itemName": "cupcakewhitechocolateMFM",
+    "rarity": "Common",
+    "inventoryIcon": "cupcakewhitechocolateMFM.png",
+    "description": "A cupcake made of delicious white chocolate. It has a butterfly design on it.",
+    "shortdescription": "Cupcake - White Chocolate",
+    "handPosition": [ 0, 4 ],
+    "effects": [
+      [
+        {
+          "effect" : "foodheal25",
+          "duration" : 60
+        }
+      ]
+    ]
+}

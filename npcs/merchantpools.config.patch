@@ -22,5 +22,13 @@
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "frenchtoastMFM" } } },
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "toastbutteredMFM" } } },
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "marshmallowcoveredsweetpotatoMFM" } } },
-  { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "hqbreadMFM" } } }
+  { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "hqbreadMFM" } } },
+  {
+    "op": "add",
+    "path": "/emptymerchantMFM",
+    "value": [
+      [0, [
+      ]]
+    ]
+  }
 ]

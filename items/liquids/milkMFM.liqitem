@@ -1,0 +1,11 @@
+{
+  "itemName" : "milkMFM",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "milkMFMicon.png",
+  "shortdescription" : "Milk",
+  "description" : "(BLEND):-} A measure of milk. The taste is amazing.",
+
+  "liquid" : "liquidmilkMFM",
+  "price" : 20.84
+}

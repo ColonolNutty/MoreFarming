@@ -1,0 +1,31 @@
+Liquids:
+138 - liquidchocolateMFM
+139 - liquiddarkchocolateMFM
+140 - liquidwhitechocolateMFM
+141 - liquidmilkMFM
+142 - liquidchocolatemilkMFM
+
+Materials:
+3302 - jelonMFM
+3304 - toffeeblockMFM
+19201 - neonmelonblockMFM
+19202 - pumpkinblockMFM
+19203 - sugarblockMFM
+19204 - sugarcaneblockMFM
+19205 - chocolateblockMFM
+19206 - darkchocolateblockMFM
+19207 - whitechocolateblockMFM
+
+19208 - brickchocolatedarkMFM
+19209 - brickchocolateplainMFM
+19210 - brickchocolatewhiteMFM
+19211 - hardchocolatedarkMFM
+19212 - hardchocolateplainMFM
+19213 - hardchocolatewhiteMFM
+19214 - softchocolatedarkMFM
+19215 - softchocolateplainMFM
+19216 - softchocolatewhiteMFM
+19217 - chocolatemoddarkMFM
+19218 - chocolatemodplainMFM
+19219 - chocolatemodwhiteMFM
+19990 - wickerplatformMFM

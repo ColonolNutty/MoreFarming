@@ -1,0 +1,32 @@
+{
+  "objectName" : "chocolatelightpawnMFM",
+  "colonyTags" : [ "chocolate", "pretty" ],
+  "rarity" : "Common",
+  "description" : "The Pawn; a chess piece made of white chocolate. You're the most important piece to me!",
+  "shortdescription" : "Chocolate - Light Pawn",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 200,
+
+  "apexDescription" : "A chess piece made of chocolate. The Miniknog does not permit games of chess. I may eat it instead.",
+  "avianDescription" : "Some kind of decorative statue? It tastes sweet.",
+  "floranDescription" : "Ssstrange ssstatue. What isss it?",
+  "glitchDescription" : "Sentimental. Glitch nobility learned to play chess from an early age. They play on large, outdoor boards.",
+  "humanDescription" : "A huge chess piece made of chocolate.",
+  "hylotlDescription" : "It looks like a large game piece. The Hylotl enjoy many boardgames.",
+  "novakidDescription" : "Whatever game this is looks mighty dull, but this piece tastes sweet.",
+
+  "inventoryIcon" : "chocolatelightpawnMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "chocolatelightpawnMFM.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

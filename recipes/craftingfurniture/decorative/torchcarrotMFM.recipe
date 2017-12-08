@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "carrot", "count" : 1 },
+    { "item" : "coalore", "count" : 1 }
+  ],
+  "output" : { "item" : "torchcarrotMFM", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "objects", "all" ]
+}

@@ -1,0 +1,24 @@
+{
+  "materialId" : 19211,
+  "materialName" : "hardchocolateblockdarkMFM",
+  "particleColor" : [36, 11, 0, 255],
+  "itemDrop" : "hardchocolatedarkMFM",
+  
+  "description" : "Hard dark chocolate. This definitely isn't good for your teeth.",
+  "shortdescription" : "Hard Chocolate - Dark",
+  "glitchDescription" : "Analysis. A hardened block made of dark chocolate.",
+  "floranDescription" : "It isss bitter!",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "hardchocolateblockdarkMFM.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

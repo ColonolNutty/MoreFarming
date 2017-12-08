@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 15 },
+    { "item" : "hardchocolateplainMFM", "count" : 50 },
+    { "item" : "eastereggMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "bunnycostumeMFMchest", "count" : 1 },
+  "groups" : [ "craftingwheel", "clothes" ]
+}

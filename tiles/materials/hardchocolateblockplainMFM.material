@@ -1,0 +1,24 @@
+{
+  "materialId" : 19212,
+  "materialName" : "hardchocolateblockplainMFM",
+  "particleColor" : [130, 76, 11, 255],
+  "itemDrop" : "hardchocolateplainMFM",
+  
+  "description" : "Hard plain chocolate. This definitely isn't good for your teeth.",
+  "shortdescription" : "Hard Chocolate - Plain",
+  "glitchDescription" : "Analysis. A hardened block made of plain chocolate.",
+  "floranDescription" : "Hard sssweet sssugar block.",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "hardchocolateblockplainMFM.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

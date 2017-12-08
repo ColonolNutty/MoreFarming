@@ -1,13 +1,13 @@
 {
   "itemName" : "pumpkinblockMFM",
-  "rarity" : "Common",
   "price" : 12.6,
   "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pumpkinblockMFM.png",
   "description" : "Pumpkin compressed into a solid block.",
   "shortdescription" : "Pumpkin Block",
-  "floranDescription" : "Tasssty block.",
   "glitchDescription" : "Statement. A block made of Pumpkin.",
-  "inventoryIcon" : "pumpkinblockMFM.png",
-  "dropCollision" : [ -2.5, -2.0, 2.5, 2.0 ],
+  "floranDescription" : "Bright orange block.",
+  
   "materialId" : 19202
 }

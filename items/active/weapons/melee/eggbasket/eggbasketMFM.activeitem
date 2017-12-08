@@ -1,0 +1,36 @@
+{
+  "itemName" : "eggbasketMFM",
+  "level" : 1,
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Everything is stuck together... a decoration that also serves as a blunt weapon.",
+  "shortdescription" : "Solid Egg Basket",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twohanded" : false,
+  "itemTags": [ "weapon", "melee", "eggbasket", "broadsword" ],
+  "inventoryIcon" : "eggbasketMFM.png",
+  "palette" : "eggbasketMFM.weaponcolors",
+  
+  "animation": "/items/active/weapons/melee/eggbasket/eggbasketMFM.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ]
+    }
+  },
+  
+  "scripts" : [ "/items/active/weapons/melee/meleeweapon.lua" ],
+  
+  "elementalType" : "physical",
+  
+  "primaryAbilityType" : "eggbasketMFMslash",
+  "primaryAbility" : {
+    "fireTime" : 0.1,
+    "baseDps" : 3
+  },
+  
+  "altAbilityType" : "eggbasketMFMslash",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "chocolatemilkMFM",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "chocolatemilkMFMicon.png",
+  "shortdescription" : "Chocolate Milk",
+  "description" : "(BLEND):-} A measure of chocolate milk. The taste is amazing.",
+
+  "liquid" : "liquidchocolatemilkMFM",
+  "price" : 20.84
+}

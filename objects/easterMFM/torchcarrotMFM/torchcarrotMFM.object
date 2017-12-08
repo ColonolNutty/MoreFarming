@@ -1,0 +1,42 @@
+{
+  "objectName" : "torchcarrotMFM",
+  "colonyTags" : [ "easter", "pretty", "light" ],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "price" : 10,
+  "description" : "A large glowing carrot.",
+  "shortdescription" : "Torch - Carrot",
+  "race" : "generic",
+
+  "maximumLiquidLevel" : 1,
+
+  "apexDescription" : "I am not even going to begin to speculate how this was achieved.",
+  "avianDescription" : "Almost good enough to eat! I wouldn't risk it though...",
+  "floranDescription" : "Floran like pretty orange light",
+  "glitchDescription" : "Statement. A very peculiar glowing vegetable.",
+  "humanDescription" : "Everyone knows that carrots make your eyesight better!",
+  "hylotlDescription" : "A glowing orange vegetable.",
+  "novakidDescription" : "I ain't never seen a glowing carrot before.",
+
+  "lightColor" : [204, 189, 173],
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "torchcarrotMFMicon.png",
+  "orientations" : [
+    {
+      "image" : "torchcarrotMFM.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 2,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/oillantern.ogg"
+}

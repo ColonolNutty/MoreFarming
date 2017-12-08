@@ -1,0 +1,12 @@
+{
+  "name" : "bouncyMFM",
+  "effectConfig" : {},
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "bouncyMFM.lua"
+  ],
+
+  "label" : "Bouncy",
+  "icon" : "/interface/statuses/bounceMFM.png"
+}

@@ -1,0 +1,48 @@
+{
+  "objectName" : "chocolateeggchairMFMblue",
+  "colonyTags" : [ "easter", "chocolate", "pretty" ],
+  "rarity" : "Uncommon",
+  "description" : "A blue egg chair made out of chocolate.",
+  "shortdescription" : "Chocolate - Egg Chair Blue",
+  "race" : "generic",
+  "category" : "furniture",
+  "printable" : false,
+  "price" : 400,
+  
+  "apexDescription" : "This chair looks quite comfortable.",
+  "avianDescription" : "A chair of chocolate.",
+  "floranDescription" : "A ssseat of sssugar. Sssick.",
+  "glitchDescription" : "Observation. It seems sturdy enough.",
+  "humanDescription" : "Oompa Loompa do-ba-dee-doo, I've got a chocolate egg chair for you.",
+  "hylotlDescription" : "Sitting on that would make my back ache.",
+  "novakidDescription" : "I reckon that'd be hard to sit on.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitCoverImage" : "/objects/easterMFM/chocolateeggchairMFM/chocolateeggchairMFMcover.png:blue",
+  
+  "inventoryIcon" : "chocolateeggchairMFMicon.png:blue",
+  "orientations" : [
+    {
+      "image" : "chocolateeggchairMFM.png:blue",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-12, 0],
+      "sitPosition" : [2, 19],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "chocolateeggchairMFM.png:blue",
+      "direction" : "right",
+
+      "imagePosition" : [-12, 0],
+      "sitPosition" : [2, 19],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

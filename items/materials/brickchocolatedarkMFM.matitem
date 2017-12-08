@@ -1,0 +1,13 @@
+{
+  "itemName": "brickchocolatedarkMFM",
+  "price" : 1,
+  "category" : "block",
+  "rarity": "Common",
+  "inventoryIcon": "brickchocolatedarkMFM.png",
+  "description": "A brick carved from dark chocolate.",
+  "shortdescription": "Chocolate Brick - Dark",
+  "glitchdescription": "Statement. A brick of dark chocolate.",
+  "florandescription": "It isss bitter!",
+
+  "materialId": 19208
+}

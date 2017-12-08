@@ -1,0 +1,15 @@
+{
+  "name" : "groundchocolateblockplainMFM",
+  "description" : "A melted block of chocolate.",
+  "shortdescription" : "Chocolate Block - Plain",
+  "floranDescription" : "Sssweet sssugar block.",
+  "glitchDescription" : "Analysis. It is made of plain chocolate.",
+  "shapes" : [
+    {
+      "base" : "1.png"
+    },
+    {
+      "base" : "2.png"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "itemName" : "chocolatebunnyMFMhead",
+  "price" : 20,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headwear",
+  "description" : "It's almost too tempting.",
+  "shortdescription" : "Chocolate Bunny Head",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "headm.png",
+  "femaleFrames" : "headf.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 5
+    },
+	{
+      "stat" : "bouncyMFM",
+	  "amount" : 1
+	}
+  ],
+
+  "colorOptions" : [
+	// CHOCOLATE
+    { "75400a" : "75400a", "85490b" : "85490b", "97540a" : "97540a", "a55c0c" : "a55c0c", "fff3db" : "fff3db", "fff1bf" : "fff1bf", "fff0af" : "fff0af", "5b2c00" : "5b2c00" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "itemName" : "bunnycostumeMFMlegs",
+  "price" : 20,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "legwear",
+  "description" : "A pair of festive bunny legs! They aren't as lucky as real rabbits feet.",
+  "shortdescription" : "Bunny Costume Legs",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pantsf.png",
+
+  "colorOptions" : [
+    /* WHITE */
+    { "fef1ce" : "fef1ce", "eadfbe" : "eadfbe", "d5cbaf" : "d5cbaf", "bfb69b" : "bfb69b" },
+    /* BLACK */
+    { "fef1ce" : "838383", "eadfbe" : "555555", "d5cbaf" : "383838", "bfb69b" : "151515" },
+    /* GREY */
+    { "fef1ce" : "b5b5b5", "eadfbe" : "808080", "d5cbaf" : "555555", "bfb69b" : "303030" },
+    /* RED */
+    { "fef1ce" : "f4988c", "eadfbe" : "d93a3a", "d5cbaf" : "932625", "bfb69b" : "601119" },
+    /* ORANGE */
+    { "fef1ce" : "ffd495", "eadfbe" : "ea9931", "d5cbaf" : "af4e00", "bfb69b" : "6e2900" },
+    /* YELLOW */
+    { "fef1ce" : "ffffa7", "eadfbe" : "e2c344", "d5cbaf" : "a46e06", "bfb69b" : "642f00" },
+    /* GREEN */
+    { "fef1ce" : "b2e89d", "eadfbe" : "51bd3b", "d5cbaf" : "247824", "bfb69b" : "144216" },
+    /* BLUE */
+    { "fef1ce" : "96cbe7", "eadfbe" : "5588d4", "d5cbaf" : "344495", "bfb69b" : "1a1c51" },
+    /* PURPLE */
+    { "fef1ce" : "d29ce7", "eadfbe" : "a451c4", "d5cbaf" : "6a2284", "bfb69b" : "320c40" },
+    /* PINK */
+    { "fef1ce" : "eab3db", "eadfbe" : "d35eae", "d5cbaf" : "97276d", "bfb69b" : "59163f" },
+    /* BROWN */
+    { "fef1ce" : "ccae7c", "eadfbe" : "a47844", "d5cbaf" : "754c23", "bfb69b" : "472b13" }
+
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "materialId" : 19210,
+  "materialName" : "brickchocolateblockwhiteMFM",
+  "particleColor" : [255, 241, 191, 255],
+  "itemDrop" : "brickchocolatewhiteMFM",
+  
+  "description" : "A brick carved from white chocolate.",
+  "shortdescription" : "Chocolate Brick - White",
+  "glitchDescription" : "Analysis. A brick made of white chocolate.",
+  "floranDescription" : "Sssweet brick.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "brickchocolateblockwhiteMFM.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

@@ -5,7 +5,7 @@
   "itemDrop" : "chocolateblockMFM",
   
   "description" : "A block made of chocolate.",
-  "shortdescription" : "Chocolate Block",
+  "shortdescription" : "Chocolate Block - Plain",
   "glitchDescription" : "Statement. A block made of chocolate.",
   "floranDescription" : "Tasssty block.",
   "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",

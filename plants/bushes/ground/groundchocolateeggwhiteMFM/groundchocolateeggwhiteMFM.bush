@@ -1,0 +1,64 @@
+{
+	"name": "groundchocolateeggwhiteMFM",
+	"description": "A stash of chocolate eggs.",
+	"shortdescription": "Chocolate Egg - White",
+	"floranDescription": "Sssweet eggsss.",
+	"glitchDescription": "Analysis. Eggs made of chocolate.",
+	"dropConfig": {
+		"drops": [
+      {
+        "item": "chocolateeggMFM",
+        "count": 1
+      }
+    ]
+	},
+	"mods": [ "decoration" ],
+	"shapes": [{
+		"base": "base1.png",
+		"mods": {
+			"decoration": [
+        "decoration1.png",
+        "decoration2.png",
+        "decoration3.png",
+        "decoration4.png",
+        ""
+      ]
+		}
+	},
+	{
+		"base": "base2.png",
+		"mods": {
+			"decoration": [
+        "decoration1.png",
+        "decoration2.png",
+        "decoration3.png",
+        "decoration4.png",
+        ""
+      ]
+		}
+	},
+	{
+		"base": "base3.png",
+		"mods": {
+			"decoration": [
+        "decoration1.png",
+        "decoration2.png",
+        "decoration3.png",
+        "decoration4.png",
+        ""
+      ]
+		}
+	},
+	{
+		"base": "base4.png",
+		"mods": {
+			"decoration": [
+        "decoration1.png",
+        "decoration2.png",
+        "decoration3.png",
+        "decoration4.png",
+        ""
+      ]
+		}
+	}]
+}

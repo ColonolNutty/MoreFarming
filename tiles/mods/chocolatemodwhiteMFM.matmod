@@ -1,0 +1,17 @@
+{
+  "modId" : 19219,
+  "modName" : "chocolatemodwhiteMFM",
+  "description" : "Melted white chocolate covers the ground here.",
+  "glitchDescription" : "Analysis. Melted white chocolate covers the ground here.",
+  "floranDescription" : "Melted white chocolate isss everywhere!",
+  "footstepSound" : "/sfx/blocks/footstep_wetclay.ogg",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "chocolatemodwhiteMFM.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

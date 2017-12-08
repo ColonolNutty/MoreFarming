@@ -1,0 +1,72 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "baseState" : {
+        "default" : "on",
+        "states" : {
+          "on" : {
+            "frames" : 1,
+            "mode": "loop"
+          }
+        }
+      },
+      "signState" : {
+        "default" : "on",
+        "states" : {
+          "on" : {
+            "frames" : 46,
+            "cycle": 4.0,
+            "mode": "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "base" : {
+        "properties" : {
+          "zLevel" : 0,
+          "offset" : [0.0, 0.0],
+          "centered" : false
+        },
+        "partStates" : {
+          "baseState" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:default"
+              }
+            }
+          }
+        }
+      },
+      "sign" : {
+        "properties" : {
+          "zLevel" : 1,
+          "offset" : [0.6, 6.0],
+          "centered" : false
+        },
+        "partStates" : {
+          "signState" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+  },
+  
+  "particleEmitters" : {
+    "dust" : {
+      "emissionRate" : 0.0,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [{ "particle" : "dust2"}]
+    }
+  }
+}

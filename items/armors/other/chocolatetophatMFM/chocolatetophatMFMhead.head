@@ -1,0 +1,28 @@
+{
+  "itemName" : "chocolatetophatMFMhead",
+  "price" : 20,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "headwear",
+  "description" : "Stylish, sweetened sophistication.",
+  "shortdescription" : "Chocolate Top Hat",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "headm.png",
+  "femaleFrames" : "headf.png",
+  "mask" : "mask.png",
+
+  "leveledStatusEffects" : [
+	{
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 5
+	}
+  ],
+
+  "colorOptions" : [
+	// CHOCOLATE
+    { "7f4b18" : "7f4b18", "3d1d00" : "3d1d00", "704215" : "704215", "270900" : "270900", "89511b" : "89511b", "ff945a" : "ff945a", "b35217" : "b35217", "1d0100" : "1d0100" }
+  ]
+}

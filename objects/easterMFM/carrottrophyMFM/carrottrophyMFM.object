@@ -1,0 +1,25 @@
+{
+  "objectName" : "carrottrophyMFM",
+  "colonyTags" : [ "easter", "pretty", "valuable" ],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 350,
+  "description" : "Two large carrots crossed over a chocolate shield.",
+  "shortdescription" : "Carrot Trophy",
+  "race" : "generic",
+
+  "floranDescription" : "Big carrotsss.",
+  "glitchDescription" : "Statement. Two large carrots crossed over a chocolate shield.",
+
+  "inventoryIcon" : "carrottrophyMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "carrottrophyMFM.png:<color>",
+
+      "imagePosition" : [-12, -12],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

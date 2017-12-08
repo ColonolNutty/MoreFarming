@@ -1,0 +1,13 @@
+{
+  "itemName" : "brickchocolatewhiteMFM",
+  "price" : 1,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "brickchocolatewhiteMFM.png",
+  "description" : "A brick carved from white chocolate.",
+  "shortdescription" : "Chocolate Brick - White",
+  "glitchdescription" : "Statement. A brick of white chocolate.",
+  "florandescription" : "Bright white sssugar.",
+
+  "materialId" : 19210
+}

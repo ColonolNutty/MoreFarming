@@ -1,0 +1,21 @@
+{
+  "itemName" : "hotchocolateMFM",
+  "rarity" : "Common",
+  "inventoryIcon" : "hotchocolateMFM.png",
+  "description" : "Good for cold days.",
+  "shortdescription" : "Hot Chocolate",
+  "handPosition": [ 4, -4 ],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 15
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      },
+      {
+        "kind" : "hotchoc"
+      }
+    ] ]
+}

@@ -1,0 +1,17 @@
+{
+  "frameGrid" : {
+    "size" : [16, 16],
+    "dimensions" : [3, 3],
+    "names" : [
+      [ "blue.0", "blue.1", "blue.2" ],
+      [ "green.0", "green.1", "green.2" ],
+      [ "red.0", "red.1", "red.2" ]
+    ]
+  },
+
+  "aliases" : {
+    "blue.default" : "blue.0",
+    "red.default" : "red.0",
+    "green.default" : "green.0"
+  }
+}

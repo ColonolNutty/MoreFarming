@@ -1,0 +1,13 @@
+{
+  "itemName" : "hardchocolateplainMFM",
+  "price" : 1,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "hardchocolateplainMFM.png",
+  "description" : "Plain chocolate as hard as rocks. It tastes sweet.",
+  "shortdescription" : "Hard Chocolate - Plain",
+  "glitchdescription" : "Statement. Hardened plain chocolate.",
+  "florandescription" : "Sssweet sssugar.",
+  
+  "materialId" : 19212
+}

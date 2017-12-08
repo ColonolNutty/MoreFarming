@@ -1,0 +1,35 @@
+{
+  "objectName" : "chocolatechairMFM",
+  "colonyTags" : [ "misc", "chair" ],
+  "rarity" : "Common",
+  "description" : "A chair made of chocolate.",
+  "shortdescription" : "Chocolate Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 400,
+  
+  "apexDescription" : "It looks quite comfortable.",
+  "floranDescription" : "A ssseat of sssugar. Sssick.",
+  "glitchDescription" : "Observation. It seems sturdy enough.",
+  "humanDescription" : "Oompa Loompa do-ba-dee-doo.",
+  "hylotlDescription" : "I am not sitting on that.",
+  
+  "inventoryIcon" : "chocolatechairMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "chocolatechairMFM.png:<color>",
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 20],
+  "sitCoverImage" : "/objects/chocolateMFM/chocolatechairMFM/chocolatechairMFMcover.png"
+}

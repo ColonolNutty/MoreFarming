@@ -1,0 +1,13 @@
+{
+  "itemName" : "hardchocolatewhiteMFM",
+  "price" : 1,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "hardchocolatewhiteMFM.png",
+  "shortdescription" : "Hard Chocolate - White",
+  "description" : "White chocolate as hard as rocks. It tastes sweet.",
+  "glitchdescription" : "Statement. Hardened white chocolate.",
+  "florandescription" : "Sssweet sssugar.",
+  
+  "materialId" : 19213
+}

@@ -1,0 +1,15 @@
+{
+  "name" : "groundchocolateblockdarkMFM",
+  "description" : "A melted block of chocolate.",
+  "shortdescription" : "Chocolate Block - Dark",
+  "floranDescription" : "Bitter block.",
+  "glitchDescription" : "Analysis. It is made of dark chocolate.",
+  "shapes" : [
+    {
+      "base" : "1.png"
+    },
+    {
+      "base" : "2.png"
+    }
+  ]
+}

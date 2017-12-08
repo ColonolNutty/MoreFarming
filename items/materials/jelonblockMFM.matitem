@@ -1,11 +1,12 @@
 {
   "itemName" : "jelonblockMFM",
-  "rarity" : "Common",
   "price" : 31.5,
   "category" : "block",
-  "description" : "Compressed jelons.",
-  "shortdescription" : "Jelon Block.",
+  "rarity" : "Common",
   "inventoryIcon" : "jelonblockMFM.png",
-  "glitchdescription" : "Analysis. Jelon Block.",
+  "description" : "Jelon compressed in a block shape.",
+  "shortdescription" : "Jelon Block",
+  "glitchdescription" : "Analysis. Block made of jelons.",
+  
   "materialId" : 3302
 }

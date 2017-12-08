@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "softchocolatewhiteMFM", "count" : 10 }
+  ],
+  "output" : { "item" : "chocolatelightbishopMFM", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "objects", "all" ]
+}

@@ -1,0 +1,15 @@
+{
+  "name" : "groundchocolateblockplaindarkwhiteMFM",
+  "description" : "A melted block of chocolate.",
+  "shortdescription" : "Chocolate Block - Plain/Dark/White",
+  "floranDescription" : "Melty, bitter, and sssweet block.",
+  "glitchDescription" : "Analysis. A block containing a mixture of plain, dark, and white chocolate.",
+  "shapes" : [
+    {
+      "base" : "1.png"
+    },
+    {
+      "base" : "2.png"
+    }
+  ]
+}

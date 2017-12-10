@@ -18,7 +18,7 @@
   "hylotlDescription" : "This is sure to leave grime on my equipment.",
   
   "inventoryIcon" : "chocolatechestplainMFMicon.png",
-  "largeImage" : "chocolatechestMFM.png:plain.0",
+  "largeImage" : "chocolatechestMFM.png:plain.default",
   "orientations" : [
     {
       "dualImage" : "chocolatechestMFM.png:plain.<key>",

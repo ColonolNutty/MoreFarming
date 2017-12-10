@@ -1,0 +1,17 @@
+{
+  "modId" : 19218,
+  "modName" : "chocolatemoddarkplainMFM",
+  "description" : "Melted dark chocolate and plain chocolate.",
+  "glitchDescription" : "Analysis. A melted mixture of dark chocolate and plain chocolate.",
+  "floranDescription" : "Melted chocolate isss everywhere!",
+  "footstepSound" : "/sfx/blocks/footstep_wetclay.ogg",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "chocolatemoddarkplainMFM.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

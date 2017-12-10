@@ -1,0 +1,35 @@
+[
+  {
+    "op" : "add",
+    "path" : "/chocolatechestplainMFM",
+    "value" : [
+      {
+        "containers" : [ "chocolatechestplainMFM" ],
+        "treasurePool" : "chocolateplainMFMtreasure",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/chocolatechestdarkMFM",
+    "value" : [
+      {
+        "containers" : [ "chocolatechestdarkMFM" ],
+        "treasurePool" : "chocolatedarkMFMtreasure",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/chocolatechestwhiteMFM",
+    "value" : [
+      {
+        "containers" : [ "chocolatechestwhiteMFM" ],
+        "treasurePool" : "chocolatewhiteMFMtreasure",
+        "minimumLevel" : 0
+      }
+    ]
+  }
+]

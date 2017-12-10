@@ -1,9 +1,9 @@
 {
-  "name" : "ceilingchocolatespikesplaindarkMFM",
+  "name" : "ceilingchocolatespikesdarkplainMFM",
   "description" : "They loom over you.",
-  "shortdescription" : "Chocolate Spike - Plain/Dark",
+  "shortdescription" : "Chocolate Spike - Dark/Plain",
   "floranDescription" : "Bitter and sssweet.",
-  "glitchDescription" : "Analysis. A mixture of plain chocolate and dark chocolate.",
+  "glitchDescription" : "Analysis. A mixture of dark chocolate and plain chocolate.",
   "ceiling" : true,
   "shapes" : [
     {

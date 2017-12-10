@@ -4,7 +4,7 @@
   "category" : "liquid",
   "inventoryIcon" : "chocolateliquorplainMFMicon.png",
   "shortdescription" : "Chocolate Liquor - Plain",
-  "description" : "(BAKE):-} Pure liquid plain chocolate.",
+  "description" : "(BAKE):-} Liquified plain chocolate.",
   
   "liquid" : "liquidchocolateplainMFM",
   "price" : 20.84

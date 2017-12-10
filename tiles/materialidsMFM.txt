@@ -25,7 +25,13 @@ Materials:
 19214 - softchocolatedarkMFM
 19215 - softchocolateplainMFM
 19216 - softchocolatewhiteMFM
-19217 - chocolatemoddarkMFM
-19218 - chocolatemodplainMFM
-19219 - chocolatemodwhiteMFM
 19990 - wickerplatformMFM
+
+Mods:
+19217 - chocolatemoddarkMFM
+19218 - chocolatemoddarkplainMFM
+19219 - chocolatemoddarkplainwhiteMFM
+19220 - chocolatemoddarkwhiteMFM
+19221 - chocolatemodplainMFM
+19222 - chocolatemodplainwhiteMFM
+19223 - chocolatemodwhiteMFM

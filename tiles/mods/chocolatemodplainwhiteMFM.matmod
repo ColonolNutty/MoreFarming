@@ -1,0 +1,17 @@
+{
+  "modId" : 19222,
+  "modName" : "chocolatemodplainwhiteMFM",
+  "description" : "Melted plain chocolate and white chocolate.",
+  "glitchDescription" : "Analysis. A melted mixture of plain chocolate and white chocolate.",
+  "floranDescription" : "Melted chocolate isss everywhere!",
+  "footstepSound" : "/sfx/blocks/footstep_wetclay.ogg",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "chocolatemodplainwhiteMFM.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

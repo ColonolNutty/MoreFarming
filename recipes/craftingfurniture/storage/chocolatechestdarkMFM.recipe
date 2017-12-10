@@ -4,6 +4,6 @@
     { "item" : "softchocolateplainMFM", "count" : 10 },
     { "item" : "softchocolatewhiteMFM", "count" : 10 }
   ],
-  "output" : { "item" : "chocolatechestMFM", "count" : 1 },
+  "output" : { "item" : "chocolatechestdarkMFM", "count" : 1 },
   "groups" : [ "craftingfurniture", "storage", "objects", "all" ]
 }

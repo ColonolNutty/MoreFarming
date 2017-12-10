@@ -4,7 +4,7 @@
   "category" : "liquid",
   "inventoryIcon" : "milkMFMicon.png",
   "shortdescription" : "Milk",
-  "description" : "(BLEND):-} A measure of milk. The taste is amazing.",
+  "description" : "(BLEND):-} Milk, possibly from an animal?",
 
   "liquid" : "liquidmilkMFM",
   "price" : 20.84

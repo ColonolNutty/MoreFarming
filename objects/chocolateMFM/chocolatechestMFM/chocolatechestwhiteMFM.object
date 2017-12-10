@@ -17,8 +17,8 @@
   "glitchDescription" : "Worried. Is this an efficient containment?",
   "hylotlDescription" : "This is sure to leave grime on my equipment.",
   
-  "inventoryIcon" : "chocolatechestMFMicon.png",
-  "largeImage" : "chocolatechestMFM.png:white.0",
+  "inventoryIcon" : "chocolatechestwhiteMFMicon.png",
+  "largeImage" : "chocolatechestMFM.png:white.default",
   "orientations" : [
     {
       "dualImage" : "chocolatechestMFM.png:white.<key>",

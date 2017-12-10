@@ -1,8 +1,8 @@
 {
-	"name": "groundchocolateeggplaindarkMFM",
+	"name": "groundchocolateeggdarkplainwhiteMFM",
 	"description": "A stash of chocolate eggs.",
-	"shortdescription": "Chocolate Egg - Plain/Dark",
-	"floranDescription": "Bitter sssugar eggsss.",
+	"shortdescription": "Chocolate Egg - Dark/Plain/White",
+	"floranDescription": "Bitter sssweet sssugar eggsss.",
 	"glitchDescription": "Analysis. Eggs made of chocolate.",
 	"dropConfig": {
 		"drops": [

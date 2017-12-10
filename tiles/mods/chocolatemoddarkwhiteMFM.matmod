@@ -1,0 +1,17 @@
+{
+  "modId" : 19220,
+  "modName" : "chocolatemoddarkwhiteMFM",
+  "description" : "Melted dark chocolate and white chocolate.",
+  "glitchDescription" : "Analysis. A melted mixture of dark chocolate and white chocolate.",
+  "floranDescription" : "Melted chocolate isss everywhere!",
+  "footstepSound" : "/sfx/blocks/footstep_wetclay.ogg",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "chocolatemoddarkwhiteMFM.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

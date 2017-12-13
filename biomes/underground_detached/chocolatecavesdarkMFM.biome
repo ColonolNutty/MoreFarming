@@ -1,0 +1,101 @@
+{
+	"name" : "chocolatecavesdarkMFM",
+	"friendlyName" : "Chocolate Caves - Dark",
+  
+	"spawnProfiles" : [
+    {
+      "groups" : ["mediumunderground1"],
+      "extraSpawns" : []
+    },
+    {
+      "groups" : ["mediumunderground2"],
+      "extraSpawns" : []
+    }
+  ],
+	"mainBlock" : "darkchocolateblockMFM",
+	"subBlocks" : [
+    "softchocolateblockdarkMFM",
+    "hardchocolateblockdarkMFM",
+    "brickchocolateblockdarkMFM",
+    "toffeeblockMFM"
+  ],
+	"ores" : "depth2",
+  "parallax" : "/parallax/underground/chocolatecavesdarkMFM.parallax",
+  "hueShiftOptions" : [0],
+  
+	"undergroundPlaceables" : {
+		"grassMod" : [ "chocolatemoddarkMFM" ],
+		"grassModDensity" : 0.8,
+    
+		"items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+        
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "chocolatechestdarkMFM" ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "ceilingchocolatespikesdarkMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateblockdarkMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateeggdarkMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+        
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [ 1, "chocolateeggstashdarkMFM" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+	}
+}

@@ -1,0 +1,116 @@
+[
+  [
+    {
+      "op" : "add",
+      "path" : "/regionTypes/chocolatecavesdarkMFM",
+      "value": {
+        "caveLiquid" : [ "liquidchocolatedarkMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
+        "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
+        "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
+        "biome" : [ 
+          [0, [ "chocolatecavesdarkMFM" ] ]
+        ]
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/regionTypes/chocolatecavesdarkplainMFM",
+      "value": {
+        "caveLiquid" : [ "liquidchocolateplainMFM", "liquidchocolatedarkMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
+        "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
+        "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
+        "biome" : [ 
+          [1, [ "chocolatecavesdarkplainMFM" ] ],
+          [2, [ "chocolatecavesdarkMFM", "chocolatecavesplainMFM" ] ]
+        ]
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/regionTypes/chocolatecavesdarkplainwhiteMFM",
+      "value": {
+        "caveLiquid" : [ "liquidchocolateplainMFM", "liquidchocolatedarkMFM", "liquidchocolatewhiteMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
+        "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
+        "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
+        "biome" : [
+          [1, [ "chocolatecavesdarkplainwhiteMFM" ] ],
+          [2, [ "chocolatecavesdarkMFM", "chocolatecavesdarkplainMFM", "chocolatecavesdarkwhiteMFM", "chocolatecavesplainMFM", "chocolatecavesplainwhiteMFM", "chocolatecaveswhiteMFM" ] ],
+          [3, [ "chocolatecavesdarkMFM", "chocolatecavesdarkplainMFM", "chocolatecavesdarkwhiteMFM", "chocolatecavesplainMFM", "chocolatecavesplainwhiteMFM", "chocolatecaveswhiteMFM" ] ]
+        ]
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/regionTypes/chocolatecavesdarkwhiteMFM",
+      "value": {
+        "caveLiquid" : [ "liquidchocolatedarkMFM", "liquidchocolatewhiteMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
+        "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
+        "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
+        "biome" : [ 
+          [1, [ "chocolatecavesdarkwhiteMFM" ] ],
+          [2, [ "chocolatecavesdarkMFM", "chocolatecaveswhiteMFM" ] ]
+        ]
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/regionTypes/chocolatecavesplainMFM",
+      "value": {
+        "caveLiquid" : [ "liquidchocolateplainMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
+        "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
+        "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
+        "biome" : [ 
+          [0, [ "chocolatecavesplainMFM" ] ]
+        ]
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/regionTypes/chocolatecavesplainwhiteMFM",
+      "value": {
+        "caveLiquid" : [ "liquidchocolateplainMFM", "liquidchocolatewhiteMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
+        "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
+        "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
+        "biome" : [ 
+          [1, [ "chocolatecavesplainwhiteMFM" ] ],
+          [2, [ "chocolatecavesplainMFM", "chocolatecaveswhiteMFM" ] ]
+        ]
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/regionTypes/chocolatecaveswhiteMFM",
+      "value": {
+        "caveLiquid" : [ "liquidchocolatewhiteMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
+        "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
+        "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
+        "biome" : [ 
+          [0, [ "chocolatecaveswhiteMFM" ] ]
+        ]
+      }
+    }
+  ],
+  [
+    { "op" : "test", "path" : "/regionTypes/midunderground/subRegion", "inverse" : true },
+    { "op" : "add", "path" : "/regionTypes/midunderground/subRegion", "value" : [] }
+  ],
+  [
+    { "op" : "test", "path" : "/regionTypes/deepunderground/subRegion", "inverse" : true },
+    { "op" : "add", "path" : "/regionTypes/deepunderground/subRegion", "value" : [] }
+  ],
+  [
+    { "op" : "add", "path" : "/regionTypes/midunderground/subRegion/-", "value" : "chocolatecavesdarkMFM" },
+    { "op" : "add", "path" : "/regionTypes/midunderground/subRegion/-", "value" : "chocolatecavesdarkplainMFM" },
+    { "op" : "add", "path" : "/regionTypes/midunderground/subRegion/-", "value" : "chocolatecavesdarkplainwhiteMFM" },
+    { "op" : "add", "path" : "/regionTypes/midunderground/subRegion/-", "value" : "chocolatecavesplainwhiteMFM" },
+    { "op" : "add", "path" : "/regionTypes/midunderground/subRegion/-", "value" : "chocolatecavesdarkwhiteMFM" },
+    { "op" : "add", "path" : "/regionTypes/midunderground/subRegion/-", "value" : "chocolatecaveswhiteMFM" },
+    
+    { "op" : "add", "path" : "/regionTypes/deepunderground/subRegion/-", "value" : "chocolatecavesdarkMFM" },
+    { "op" : "add", "path" : "/regionTypes/deepunderground/subRegion/-", "value" : "chocolatecavesdarkplainMFM" },
+    { "op" : "add", "path" : "/regionTypes/deepunderground/subRegion/-", "value" : "chocolatecavesdarkplainwhiteMFM" },
+    { "op" : "add", "path" : "/regionTypes/deepunderground/subRegion/-", "value" : "chocolatecavesdarkwhiteMFM" },
+    { "op" : "add", "path" : "/regionTypes/deepunderground/subRegion/-", "value" : "chocolatecavesplainwhiteMFM" },
+    { "op" : "add", "path" : "/regionTypes/deepunderground/subRegion/-", "value" : "chocolatecaveswhiteMFM" }
+  ]
+]

@@ -28,6 +28,14 @@
       "nearbyQuestRange" : 50
     },
 
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "sit", { "timeRange" : [0.6,0.2]}],
+        [1.0, "wander", { "timeRange" : [0.2, 0.6] }]
+      ]
+    },
+
     "merchant" : {
       "waitTime" : 40,
       "storeRadius" : 1,
@@ -37,7 +45,7 @@
       },
       "buyFactorRange" : [ 0, 0 ],
       "sellFactorRange" : [ 0, 0 ],
-      "numItems" : 1
+      "numItems" : 0
     },
     "dialog" : {
       "merchant" : {
@@ -65,7 +73,15 @@
         }
       },
       "accuse" : "/dialog/thief.config:accuse",
-      "alert" : "/dialog/thief.config:alert"
+      "alert" : "/dialog/thief.config:alert",
+
+      "attack" : "/dialog/combat.config:attack",
+      "reattack" : "/dialog/combat.config:reattack",
+      "killedTarget" : "/dialog/combat.config:killedTarget",
+      "lostTarget" : "/dialog/combat.config:lostTarget",
+      "outOfSight" : "/dialog/combat.config:outOfSight",
+      "cheerOn" : "/dialog/combat.config:cheerOn",
+      "cantReach" : "/dialog/combat.config:cantReach"
     }
   },
 

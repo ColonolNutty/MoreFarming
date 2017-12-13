@@ -1,0 +1,408 @@
+{
+	"name" : "chocolatecavesdarkplainwhiteMFM",
+	"friendlyName" : "Chocolate Caves - Dark/Plain/White",
+  
+	"spawnProfiles" : [
+    {
+      "groups" : ["mediumunderground1"],
+      "extraSpawns" : []
+    },
+    {
+      "groups" : ["mediumunderground2"],
+      "extraSpawns" : []
+    }
+  ],
+	"mainBlock" : "darkchocolateblockMFM",
+	"subBlocks" : [
+    "chocolateblockMFM",
+    "whitechocolateblockMFM",
+    "softchocolateblockdarkMFM",
+    "softchocolateblockplainMFM",
+    "softchocolateblockwhiteMFM",
+    "hardchocolateblockdarkMFM",
+    "hardchocolateblockplainMFM",
+    "hardchocolateblockwhiteMFM",
+    "brickchocolateblockdarkMFM",
+    "brickchocolateblockplainMFM",
+    "brickchocolateblockwhiteMFM",
+    "sugarblockMFM",
+    "toffeeblockMFM"
+  ],
+	"ores" : "depth2",
+  "parallax" : "/parallax/underground/chocolatecavesdarkplainwhiteMFM.parallax",
+  "hueShiftOptions" : [0],
+  
+	"undergroundPlaceables" : {
+		"grassMod" : [ "chocolatemoddarkplainwhiteMFM" ],
+		"grassModDensity" : 0.8,
+    
+		"items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+        
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "chocolatechestdarkMFM", "chocolatechestplainMFM", "chocolatechestwhiteMFM" ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "ceilingchocolatespikesdarkMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "ceilingchocolatespikesdarkplainMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "ceilingchocolatespikesdarkplainwhiteMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "ceilingchocolatespikesdarkwhiteMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "ceilingchocolatespikesplainMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "ceilingchocolatespikesplainwhiteMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "ceilingchocolatespikeswhiteMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateblockdarkMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateblockdarkplainMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateblockdarkplainwhiteMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateblockdarkwhiteMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateblockplainMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateblockplainwhiteMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateblockwhiteMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateeggdarkMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateeggdarkplainMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateeggdarkplainwhiteMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateeggdarkwhiteMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateeggplainMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateeggplainwhiteMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateeggwhiteMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+        
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [ 1, "chocolateeggstashdarkMFM" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+        
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [ 1, "chocolateeggstashplainMFM" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+        
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [ 1, "chocolateeggstashwhiteMFM" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+	}
+}

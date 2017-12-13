@@ -1,0 +1,25 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/chocolatecavesMFM/stalactites/plainwhite",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.0,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/chocolatecavesMFM/river/plainwhite",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/chocolatecavesMFM/wall/plainwhite",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id" : "easterbunnyMFMquest",
+  "title" : "^orange;Egg Hunt.^white;",
+  "text" : "I found a ^green;Chocolate Egg^white; it has a label on the side \"Craft it, and I will come\". A blueprint popped into my head, I should craft the ^green;Easter Bunny Shop^white; at a furniture workbench.",
+  "completionText" : "Well, that's settled, I finally crafted it, now to place it down.",
+  "speaker" : "player",
+  "moneyRange" : [0, 0],
+  "rewards" : [
+    [
+      [ "eastereggbundleMFM", 1 ],
+      [ "chocolateeggMFM", 100 ]
+    ]
+  ],
+
+  "canBeAbandoned" : false,
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "player",
+      "questComplete" : "player"
+    },
+    
+    "requireTurnIn" : false,
+    "canBeAbandoned" : false,
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "easterbunnyMFMshop",
+        "count" : 1,
+        "consume" : false
+      }
+    ]
+  }
+}

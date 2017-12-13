@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "chocolateeggMFM", "count" : 50 }
+    { "item" : "chocolateeggMFM", "count" : 200 }
   ],
   "output" : { "item" : "easterbunnyMFMshop", "count" : 1 },
   "groups" : [ "craftingfurniture", "decoration", "objects", "all" ]

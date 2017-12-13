@@ -1,6 +1,7 @@
 {
   "objectName" : "easterbunnyMFMshop",
   "colonyTags" : [ "easter", "shop" ],
+  "price" : 0,
   "rarity" : "Common",
   "category" : "other",
   "description" : "This shop offers various Easter related items.",

@@ -2,12 +2,11 @@
   "objectName" : "chocolatedarkbishopMFM",
   "colonyTags" : [ "chocolate", "pretty" ],
   "rarity" : "Common",
+  "price" : 5.13,
+  "category" : "decorative",
   "description" : "The Bishop; a chess piece made of dark chocolate. Watch your diagonals!",
   "shortdescription" : "Chocolate - Dark Bishop",
   "race" : "generic",
-  "category" : "decorative",
-  "price" : 200,
-
   "apexDescription" : "A chess piece made of chocolate. The Miniknog does not permit games of chess. I may eat it instead.",
   "avianDescription" : "Some kind of decorative statue? It tastes bitter.",
   "floranDescription" : "Ssstrange ssstatue. What isss it?",
@@ -15,18 +14,14 @@
   "humanDescription" : "A huge chess piece made of chocolate.",
   "hylotlDescription" : "It looks like a large game piece. The Hylotl enjoy many boardgames.",
   "novakidDescription" : "Whatever game this is looks mighty dull, but this piece tastes bitter.",
-
   "inventoryIcon" : "chocolatedarkbishopMFMicon.png",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "chocolatedarkbishopMFM.png:<color>",
-
-      "imagePosition" : [-8, 0],
+      "imagePosition" : [ -8, 0 ],
       "frames" : 1,
       "animationCycle" : 1.0,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    }
-  ]
+    } ]
 }

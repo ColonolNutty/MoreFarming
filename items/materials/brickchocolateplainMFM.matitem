@@ -1,13 +1,12 @@
 {
-  "itemName": "brickchocolateplainMFM",
-  "price" : 1,
+  "itemName" : "brickchocolateplainMFM",
+  "rarity" : "Common",
+  "price" : 0.52,
   "category" : "block",
-  "rarity": "Common",
-  "inventoryIcon": "brickchocolateplainMFM.png",
-  "description": "A brick carved from plain chocolate.",
-  "shortdescription": "Chocolate Brick - Plain",
-  "glitchdescription": "Statement. A brick of plain chocolate.",
-  "florandescription": "Sssweet sssugar.",
-
-  "materialId": 19209
+  "description" : "A brick carved from plain chocolate.",
+  "shortdescription" : "Chocolate Brick - Plain",
+  "inventoryIcon" : "brickchocolateplainMFM.png",
+  "florandescription" : "Sssweet sssugar.",
+  "glitchdescription" : "Statement. A brick of plain chocolate.",
+  "materialId" : 19209
 }

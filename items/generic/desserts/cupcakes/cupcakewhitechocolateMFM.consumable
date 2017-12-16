@@ -1,25 +1,47 @@
 {
-    "itemName": "cupcakewhitechocolateMFM",
-    "rarity": "Common",
-    "inventoryIcon": "cupcakewhitechocolateMFM.png",
-    "description": "A cupcake made of delicious white chocolate. It has a butterfly design on it.",
-    "shortdescription": "Cupcake - White Chocolate",
-    "handPosition": [ 0, 4 ],
-    "effects": [
-      [
-        {
-          "effect" : "foodheal25",
-          "duration" : 60
-        }
-      ]
-    ],
-  "price" : 91.09,
-  "foodValue" : 17.13,
+  "itemName" : "cupcakewhitechocolateMFM",
+  "rarity" : "Common",
+  "price" : 533.35,
   "category" : "food",
   "tooltipKind" : "food",
+  "description" : "(BAKE):-} A cupcake made of delicious white chocolate. It has a butterfly design on it.",
+  "shortdescription" : "Cupcake - White Chocolate",
+  "foodValue" : 84.37,
+  "effects" : [ [ 
+      {
+        "effect" : "regeneration2",
+        "duration" : 12
+      },
+
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 66
+      },
+
+      {
+        "effect" : "maxenergyscalingboost",
+        "duration" : 12
+      },
+
+      {
+        "effect" : "runboostfood",
+        "duration" : 12
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 66
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 132
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : [ "wellfed" ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cupcakewhitechocolateMFM.png",
+  "handPosition" : [ 0, 4 ]
 }

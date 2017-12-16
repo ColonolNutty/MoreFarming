@@ -1,11 +1,10 @@
 {
   "itemName" : "chocolateliquorMFM",
   "rarity" : "Common",
+  "price" : 20.84,
   "category" : "liquid",
-  "inventoryIcon" : "chocolateliquorplainMFMicon.png",
-  "shortdescription" : "Chocolate Liquor - Plain",
   "description" : "(BAKE):-} Liquified plain chocolate.",
-  
-  "liquid" : "liquidchocolateplainMFM",
-  "price" : 20.84
+  "shortdescription" : "Chocolate Liquor - Plain",
+  "inventoryIcon" : "chocolateliquorplainMFMicon.png",
+  "liquid" : "liquidchocolateplainMFM"
 }

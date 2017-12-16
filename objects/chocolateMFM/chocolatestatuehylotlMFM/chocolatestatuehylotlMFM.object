@@ -2,29 +2,25 @@
   "objectName" : "chocolatestatuehylotlMFM",
   "colonyTags" : [ "hylotl", "chocolate", "pretty", "valuable" ],
   "rarity" : "Common",
+  "price" : 30.5,
   "category" : "decorative",
-  "price" : 1500,
   "description" : "A chocolate statue resembling a Hylotl. It has the Innsmouth Look.",
   "shortdescription" : "Chocolate Statue - Hylotl",
   "race" : "generic",
-
   "apexDescription" : "A Hylotl statue. The artist has captured the sneer perfectly.",
   "avianDescription" : "A chocolate Hylotl. They appear to be gazing at me disapprovingly.",
   "floranDescription" : "Ssslimy fisssh ssstatue.",
   "glitchDescription" : "Critical. It appears the Hylotl have always suffered from poor fashion sense.",
   "humanDescription" : "A grumpy looking Hylotl. Pretty accurate.",
   "hylotlDescription" : "A statue of Lili Shian, a Hylotl princess of legend.",
-
   "inventoryIcon" : "chocolatestatuehylotlMFMicon.png",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "chocolatestatuehylotlMFM.png:<color>",
-      "imagePosition" : [-8, 0],
+      "imagePosition" : [ -8, 0 ],
       "frames" : 1,
       "animationCycle" : 1.0,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    }
-  ]
+    } ]
 }

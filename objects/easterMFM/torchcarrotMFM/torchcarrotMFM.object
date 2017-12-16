@@ -1,16 +1,13 @@
 {
   "objectName" : "torchcarrotMFM",
   "colonyTags" : [ "easter", "pretty", "light" ],
-  "printable" : false,
   "rarity" : "Uncommon",
+  "price" : 65.1,
   "category" : "light",
-  "price" : 10,
+  "printable" : false,
   "description" : "A large glowing carrot.",
   "shortdescription" : "Torch - Carrot",
   "race" : "generic",
-
-  "maximumLiquidLevel" : 1,
-
   "apexDescription" : "I am not even going to begin to speculate how this was achieved.",
   "avianDescription" : "Almost good enough to eat! I wouldn't risk it though...",
   "floranDescription" : "Floran like pretty orange light",
@@ -18,25 +15,22 @@
   "humanDescription" : "Everyone knows that carrots make your eyesight better!",
   "hylotlDescription" : "A glowing orange vegetable.",
   "novakidDescription" : "I ain't never seen a glowing carrot before.",
-
-  "lightColor" : [204, 189, 173],
-  "flickerPeriod" : 0.3,
-  "flickerMinIntensity" : 0.95,
-  "flickerMaxIntensity" : 1,
-  "flickerPeriodVariance" : 0.075,
-  "flickerIntensityVariance" : 0.025,
-
   "inventoryIcon" : "torchcarrotMFMicon.png",
-  "orientations" : [
+  "orientations" : [ 
     {
       "image" : "torchcarrotMFM.png:<color>.<frame>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 2,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
-    }
-  ],
-  "soundEffect" : "/sfx/objects/oillantern.ogg"
+    } ],
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerPeriodVariance" : 0.075,
+  "maximumLiquidLevel" : 1,
+  "flickerMaxIntensity" : 1,
+  "soundEffect" : "/sfx/objects/oillantern.ogg",
+  "lightColor" : [ 204, 189, 173 ],
+  "flickerIntensityVariance" : 0.025
 }

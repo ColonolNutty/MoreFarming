@@ -1,11 +1,10 @@
 {
   "itemName" : "chocolatemilkMFM",
   "rarity" : "Common",
+  "price" : 101.5,
   "category" : "liquid",
-  "inventoryIcon" : "chocolatemilkMFMicon.png",
-  "shortdescription" : "Chocolate Milk",
   "description" : "(BLEND):-} Chocolate and milk, what more could you want!",
-
-  "liquid" : "liquidchocolatemilkMFM",
-  "price" : 20.84
+  "shortdescription" : "Chocolate Milk",
+  "inventoryIcon" : "chocolatemilkMFMicon.png",
+  "liquid" : "liquidchocolatemilkMFM"
 }

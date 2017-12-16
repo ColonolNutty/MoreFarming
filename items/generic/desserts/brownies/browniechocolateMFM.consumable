@@ -1,25 +1,17 @@
 {
-    "itemName": "browniechocolateMFM",
-    "rarity": "Common",
-    "inventoryIcon": "browniechocolateMFM.png",
-    "description": "A brownie made of delicious dark chocolate.",
-    "shortdescription": "Brownie - Chocolate",
-    "handPosition": [ 0, -2 ],
-    "effects": [
-      [
-        {
-          "effect" : "foodheal25",
-          "duration" : 60
-        }
-      ]
-    ],
-  "price" : 91.09,
-  "foodValue" : 17.13,
+  "itemName" : "browniechocolateMFM",
+  "rarity" : "Common",
+  "price" : 71.24,
   "category" : "food",
   "tooltipKind" : "food",
+  "description" : "(BAKE):-} A brownie made of delicious dark chocolate.",
+  "shortdescription" : "Brownie - Chocolate",
+  "foodValue" : 14.92,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : [ "wellfed" ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "browniechocolateMFM.png",
+  "handPosition" : [ 0, -2 ]
 }

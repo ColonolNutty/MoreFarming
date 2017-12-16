@@ -1,31 +1,47 @@
 {
   "itemName" : "icecreamvanillaMFM",
   "rarity" : "Common",
-  "inventoryIcon" : "icecreamvanillaMFM.png",
-  "description" : "Plain old vanilla ice cream",
-  "shortdescription" : "Ice Cream - Vanilla",
-  "handPosition" : [12, -6],
-  "effects" : [ [
-      {
-        "kind" : "food",
-        "amount" : 50
-      },
-      {
-        "kind" : "health",
-        "amount" : 30
-      },
-      {
-        "kind" : "sugarrush"
-      }
-    ]
-  ],
-  "price" : 91.09,
-  "foodValue" : 17.13,
+  "price" : 223.5,
   "category" : "food",
   "tooltipKind" : "food",
+  "description" : "(FREEZE):-} Plain old vanilla ice cream",
+  "shortdescription" : "Ice Cream - Vanilla",
+  "foodValue" : 52.92,
+  "effects" : [ [ 
+      {
+        "effect" : "regeneration2",
+        "duration" : 6
+      },
+
+      {
+        "effect" : "maxenergyscalingboost",
+        "duration" : 6
+      },
+
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 36
+      },
+
+      {
+        "effect" : "runboostfood",
+        "duration" : 6
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 36
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 72
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : [ "wellfed" ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "icecreamvanillaMFM.png",
+  "handPosition" : [ 12, -6 ]
 }

@@ -1,23 +1,47 @@
 {
   "itemName" : "chocolatebunnyMFM",
   "rarity" : "Common",
-  "inventoryIcon" : "chocolatebunnyMFM.png",
-  "description" : "A cute little bunny made of chocolate. Don't you just want to bite it's head off?",
-  "shortdescription" : "Chocolate Bunny",
-    "handPosition": [ 8, 10 ],
-  "effects" : [ [
-          {
-        "effect" : "foodheal25",
-        "duration" : 60
-		   }
-    ] ],
-  "price" : 91.09,
-  "foodValue" : 17.13,
+  "price" : 503.15,
   "category" : "food",
   "tooltipKind" : "food",
+  "description" : "(PREP):-} A cute little bunny made of chocolate. Don't you just want to bite it's head off?",
+  "shortdescription" : "Chocolate Bunny",
+  "foodValue" : 59.35,
+  "effects" : [ [ 
+      {
+        "effect" : "regeneration2",
+        "duration" : 6
+      },
+
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+      },
+
+      {
+        "effect" : "maxenergyscalingboost",
+        "duration" : 6
+      },
+
+      {
+        "effect" : "runboostfood",
+        "duration" : 6
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 30
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 60
+      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
-  "blockingEffects" : [ "wellfed" ]
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "chocolatebunnyMFM.png",
+  "handPosition" : [ 8, 10 ]
 }

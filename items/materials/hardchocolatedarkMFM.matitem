@@ -1,13 +1,12 @@
 {
   "itemName" : "hardchocolatedarkMFM",
-  "price" : 1,
-  "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "hardchocolatedarkMFM.png",
-  "description" : "Dark chocolate as hard as rocks. It's a little bitter.",
+  "price" : 0.51,
+  "category" : "block",
+  "description" : "(BAKE):-} Dark chocolate as hard as rocks. It's a little bitter.",
   "shortdescription" : "Hard Chocolate - Dark",
-  "glitchdescription" : "Statement. Hardened dark chocolate.",
   "floranDescription" : "Hard bitter block.",
-  
+  "inventoryIcon" : "hardchocolatedarkMFM.png",
+  "glitchdescription" : "Statement. Hardened dark chocolate.",
   "materialId" : 19211
 }

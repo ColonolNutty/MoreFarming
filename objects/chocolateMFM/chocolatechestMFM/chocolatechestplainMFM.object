@@ -2,37 +2,31 @@
   "objectName" : "chocolatechestplainMFM",
   "colonyTags" : [ "storage", "chocolate" ],
   "rarity" : "Common",
+  "price" : 22.68,
+  "category" : "storage",
   "objectType" : "container",
   "tooltipKind" : "container",
-
-  "category" : "storage",
-  "price" : 300,
   "description" : "A chest made completely of chocolate! How doesn't this melt?",
   "shortdescription" : "Chocolate Chest - Plain",
   "race" : "generic",
-  "health" : 1.5,
-  
   "avianDescription" : "This could hold so many coffee beans!",
   "floranDescription" : "Sssweet sssugar box.",
   "glitchDescription" : "Worried. Is this an efficient containment?",
   "hylotlDescription" : "This is sure to leave grime on my equipment.",
-  
   "inventoryIcon" : "chocolatechestplainMFMicon.png",
   "largeImage" : "chocolatechestMFM.png:plain.default",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "chocolatechestMFM.png:plain.<key>",
-      "imagePosition" : [-8, 0],
-
+      "imagePosition" : [ -8, 0 ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    }
-  ],
-
+    } ],
   "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+  "health" : 1.5
 }

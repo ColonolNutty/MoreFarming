@@ -2,29 +2,25 @@
   "objectName" : "chocolatestatueapexMFM",
   "colonyTags" : [ "apex", "chocolate", "pretty", "valuable" ],
   "rarity" : "Common",
+  "price" : 30.5,
   "category" : "decorative",
-  "price" : 1500,
   "description" : "A chocolate statue resembling an Apex. A perfect likeness.",
   "shortdescription" : "Chocolate Statue - Apex",
   "race" : "generic",
-
   "apexDescription" : "This Apex looks familiar. I think they were a pro-wrestler.",
   "avianDescription" : "An Apex statue. A fitting tribute to the stoic simians.",
   "floranDescription" : "Ssstatue of monkey man, not good to eat.",
   "glitchDescription" : "Statement. A chocolate Apex, a fitting portrayal.",
   "humanDescription" : "A cool Apex statue. This Apex looks pretty tough.",
   "hylotlDescription" : "A crudely carved Apex. Their simple features suit the rough look.",
-
   "inventoryIcon" : "chocolatestatueapexMFMicon.png",
-  "orientations" : [
+  "orientations" : [ 
     {
       "dualImage" : "chocolatestatueapexMFM.png:<color>",
-      "imagePosition" : [-8, 0],
+      "imagePosition" : [ -8, 0 ],
       "frames" : 1,
       "animationCycle" : 1.0,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    }
-  ]
+    } ]
 }

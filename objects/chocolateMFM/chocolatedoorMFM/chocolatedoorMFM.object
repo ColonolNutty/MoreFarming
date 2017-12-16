@@ -1,58 +1,48 @@
 {
   "objectName" : "chocolatedoorMFM",
-  "colonyTags" : ["door"],
+  "colonyTags" : [ "door" ],
   "rarity" : "Common",
-
+  "price" : 12.63,
   "category" : "door",
-  "price" : 300,
+  "tooltipKind" : "door",
   "description" : "A door made of chocolate.",
   "shortdescription" : "Chocolate Door",
   "race" : "generic",
-  
   "apexDescription" : "It's a door. It shuts and it opens. And so happens to be made of chocolate.",
   "floranDescription" : "Sssilly door.",
   "glitchDescription" : "Curious. Is milk chocolate as sturdy as dark chocolate?",
   "humanDescription" : "I bet I could eat through this.",
   "hylotlDescription" : "The chocolate hinges seem to be cracking.",
   "novakidDescription" : "This here door be made of chocolate.",
-  
   "inventoryIcon" : "chocolatedoorMFMicon.png",
-
-  "tooltipKind" : "door",
   "largeImage" : "chocolatedoorMFM.png:right",
-  
-  "orientations" : [
+  "orientations" : [ 
     {
       "image" : "chocolatedoorMFM.png:default",
-      "imagePosition" : [-16, 0],
-      "renderLayer" : "Object+5",
-
+      "imagePosition" : [ -16, 0 ],
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom", "top" ]
-    }
-  ],
-
+      "anchors" : [ "bottom", "top" ],
+      "renderLayer" : "Object+5"
+    } ],
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/door/door.animation",
-  "animationCustom" : {
-    "sounds" : {
-      "open" : {
-        "pool" : [ "/sfx/objects/wooddoor_open.ogg" ],
-        "rangeMultiplier" : 0.5
+  "animationCustom" :   {
+    "sounds" :     {
+      "close" :       {
+        "rangeMultiplier" : 0.5,
+        "pool" : [ "/sfx/objects/wooddoor_close.ogg" ]
       },
-      "close" : {
-        "pool" : [ "/sfx/objects/wooddoor_close.ogg" ],
-        "rangeMultiplier" : 0.5
+      "open" :       {
+        "rangeMultiplier" : 0.5,
+        "pool" : [ "/sfx/objects/wooddoor_open.ogg" ]
       }
     }
   },
-  "animationParts" : {
+  "outputNodes" : [ [ 0, 0 ] ],
+  "animationPosition" : [ -16, 0 ],
+  "animationParts" :   {
     "door" : "chocolatedoorMFM.png"
   },
-  "animationPosition" : [-16, 0],
-
-  "inputNodes" : [ [0, 4] ],
-  "outputNodes" : [ [0, 0] ]
+  "animation" : "/objects/wired/door/door.animation",
+  "inputNodes" : [ [ 0, 4 ] ]
 }

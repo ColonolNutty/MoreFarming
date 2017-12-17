@@ -3,12 +3,12 @@
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 491.2
+      "value" : 68.79
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 67.42
+      "value" : 12.19
     },
     {
       "op" : "replace",
@@ -37,32 +37,8 @@
       "value" : [
         [
           {
-            "effect" : "rage",
-            "duration" : 30
-          },
-          {
-            "effect" : "poisonblock",
-            "duration" : 60
-          },
-          {
             "effect" : "camouflage25",
             "duration" : 7
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 45
-          },
-          {
-            "effect" : "burning",
-            "duration" : 30
-          },
-          {
-            "effect" : "iceblock",
-            "duration" : 60
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 52
           }
         ]
       ]

@@ -1,0 +1,36 @@
+{
+  "itemName" : "cheeseburgerMFM6",
+  "rarity" : "Common",
+  "price" : 313.75,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A burger topped with cheese, and ketchup.",
+  "shortdescription" : "Burger - Cheese",
+  "foodValue" : 25.93,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 7
+      },
+
+      {
+        "effect" : "camouflage25",
+        "duration" : 7
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 7
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 15
+      } ] ],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cheeseburgerMFM6.png"
+}

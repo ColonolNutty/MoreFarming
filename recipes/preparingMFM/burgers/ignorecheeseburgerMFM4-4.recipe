@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cheeseburgerMFM5", "count" : 1 },
+    { "item" : "ketchupMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "cheeseburgerMFM4", "count" : 1 },
+  "groups" : [ "preparingMFMNoRecipeBook" ]
+}

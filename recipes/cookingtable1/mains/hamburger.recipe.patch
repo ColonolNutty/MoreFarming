@@ -3,12 +3,8 @@
 		"op": "replace",
 		"path": "/input",
 		"value": [
-			{ "item" : "choppedtomatoMFM", "count" : 1 },
-			{ "item" : "choppedlettuceMFM", "count" : 1 },
-			{ "item" : "choppedonionMFM", "count" : 1 },
-			{ "item" : "relish", "count" : 1 },
 			{ "item" : "cookedalienmeatpattyMFM", "count" : 1 },
-			{ "item" : "breadsliceMFM", "count" : 2 }
+			{ "item" : "bunsburgerMFM", "count" : 2 }
 		]
 	},
 	{

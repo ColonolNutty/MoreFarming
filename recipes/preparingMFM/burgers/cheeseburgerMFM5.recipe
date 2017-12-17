@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "bunsburgerMFM", "count" : 2 },
+    { "item" : "cookedalienmeatpattyMFM", "count" : 1 },
+    { "item" : "cheesesliceMFM", "count" : 1 },
+    { "item" : "choppedlettuceMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "cheeseburgerMFM5", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

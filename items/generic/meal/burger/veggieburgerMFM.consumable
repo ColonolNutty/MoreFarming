@@ -1,12 +1,12 @@
 {
   "itemName" : "veggieburgerMFM",
   "rarity" : "Common",
-  "price" : 110.19,
+  "price" : 136.71,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A vegetarian version of a juicy hamburger.",
   "shortdescription" : "Burger - Veggie",
-  "foodValue" : 17.81,
+  "foodValue" : 15.96,
   "effects" : [ [ 
       {
         "effect" : "maxenergyscalingboostfood",
@@ -20,7 +20,7 @@
 
       {
         "effect" : "maxhealthscalingboostfood",
-        "duration" : 150
+        "duration" : 60
       } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

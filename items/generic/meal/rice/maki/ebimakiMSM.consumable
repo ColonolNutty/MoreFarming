@@ -4,7 +4,7 @@
   "price" : 682.21,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} Cooked shrimp, poultry, and tamarai packed in a rice ball.",
+  "description" : "(PREP):-} Cooked shrimp and tamari packed in a rice ball.",
   "shortdescription" : "Maki - Ebi",
   "foodValue" : 140.78,
   "effects" : [ [ 
@@ -25,7 +25,7 @@
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
-  "rottingMultiplier" : 1,
+  "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "ebimakiMSM.png",
   "handPosition" : [ 0, -4 ]

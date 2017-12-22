@@ -22,6 +22,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "unagitemakiMSM.png",
-  "emitters" : [ "drinking" ]
+  "inventoryIcon" : "unagitemakiMSM.png"
 }

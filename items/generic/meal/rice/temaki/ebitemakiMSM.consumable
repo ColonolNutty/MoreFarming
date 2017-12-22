@@ -4,7 +4,7 @@
   "price" : 414.1,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} Cooked shrimp, poultry, and cucumber, wrapped in rice and kelp.",
+  "description" : "(PREP):-} Cooked shrimp and cucumber, wrapped in rice and kelp.",
   "shortdescription" : "Temaki - Ebi",
   "foodValue" : 131.39,
   "effects" : [ [ 
@@ -20,8 +20,7 @@
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
-  "rottingMultiplier" : 1,
+  "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "ebitemakiMSM.png",
-  "emitters" : [ "drinking" ]
+  "inventoryIcon" : "ebitemakiMSM.png"
 }

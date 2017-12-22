@@ -4,7 +4,7 @@
   "price" : 270.56,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} Cooked shrimp and poultry on top of rice.",
+  "description" : "(PREP):-} Cooked shrimp on top of rice.",
   "shortdescription" : "Nigiri - Ebi",
   "foodValue" : 62.55,
   "effects" : [ [ 
@@ -15,7 +15,7 @@
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
-  "rottingMultiplier" : 1,
+  "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "ebinigiriMSM.png",
   "handPosition" : [ 0, -4 ]

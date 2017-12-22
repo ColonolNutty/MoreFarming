@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "riceballMSM", "count" : 1 },
     { "item" : "tamariMSM", "count" : 1 },
-    { "item" : "cookedshrimpMFM", "count" : 1 },
-    { "item" : "cookedpoultry", "count" : 1 }
+    { "item" : "cookedshrimpMFM", "count" : 1 }
   ],
   "output" : { "item" : "ebimakiMSM", "count" : 1 },
   "groups" : [ "preparingMFM" ]

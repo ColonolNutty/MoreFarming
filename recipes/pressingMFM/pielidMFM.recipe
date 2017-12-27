@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "doughMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "pielidMFM", "count" : 1 },
+  "groups" : [ "pressingMFM" ]
+}

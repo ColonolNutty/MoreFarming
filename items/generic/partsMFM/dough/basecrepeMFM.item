@@ -1,0 +1,10 @@
+{
+  "itemName" : "basecrepeMFM",
+  "rarity" : "Common",
+  "price" : 8.82,
+  "category" : "cookingIngredient",
+  "description" : "(BLEND):-} Thinly fried dough ready for making crepes.",
+  "shortdescription" : "Base - Crepe",
+  "maxStack" : 1000,
+  "inventoryIcon" : "basecrepeMFM.png"
+}

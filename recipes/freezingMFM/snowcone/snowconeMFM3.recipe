@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "snow", "count" : 2 }
+    { "item" : "ice", "count" : 1 }
   ],
   "output" : { "item" : "snowcone", "count" : 1 },
   "groups" : [ "freezingMFM" ],

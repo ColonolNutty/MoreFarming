@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "unfinishedpieappleredMFM", "count" : 1 },
+    { "item" : "toppingwhippedcreamMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "pieappleredMFM", "count" : 1 },
+  "groups" : [ "bakingMFM" ]
+}

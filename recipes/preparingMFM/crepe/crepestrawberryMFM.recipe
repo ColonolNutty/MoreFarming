@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "basecrepeMFM", "count" : 1 },
+    { "item" : "choppedstrawberryMFM", "count" : 1 },
+    { "item" : "toppingwhippedcreamMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "crepestrawberryMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

@@ -1,0 +1,32 @@
+{
+  "itemName" : "cheesencrackersplainMFM",
+  "rarity" : "Common",
+  "price" : 105.76,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(FRY):-} Plain crackers topped with cheese.",
+  "shortdescription" : "Cheese n' Crackers",
+  "foodValue" : 13.84,
+  "effects" : [ [ 
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 6
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 6
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 12
+      } ] ],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cheesencrackersplainMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

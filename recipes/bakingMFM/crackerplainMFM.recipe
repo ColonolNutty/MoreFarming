@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "doughMFM", "count" : 2 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "cookingoilMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "crackerplainMFM", "count" : 8 },
+  "groups" : [ "bakingMFM" ]
+}

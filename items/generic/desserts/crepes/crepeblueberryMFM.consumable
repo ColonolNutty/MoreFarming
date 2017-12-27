@@ -1,0 +1,47 @@
+{
+  "itemName" : "crepeblueberryMFM",
+  "rarity" : "Common",
+  "price" : 397.5,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A crepe made with juicy blueberries.",
+  "shortdescription" : "Crepe - Blueberry",
+  "foodValue" : 66.17,
+  "effects" : [ [ 
+      {
+        "effect" : "regeneration2",
+        "duration" : 12
+      },
+
+      {
+        "effect" : "maxenergyscalingboost",
+        "duration" : 12
+      },
+
+      {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 156
+      },
+
+      {
+        "effect" : "runboostfood",
+        "duration" : 12
+      },
+
+      {
+        "effect" : "energyregen",
+        "duration" : 36
+      },
+
+      {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 72
+      } ] ],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 0.3,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "crepeblueberryMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

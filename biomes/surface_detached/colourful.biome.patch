@@ -1,5 +1,21 @@
 [
 	{
+		"op" : "add",
+		"path" : "/surfacePlaceables/items/-",
+		"value" : {
+      "mode" : "floor",
+      "priority" : 0.5,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:denseSmall",
+
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 120,
+      "treeStemHueShiftMax" : 15,
+      "treeStemList" : [ "palmlike" ],
+      "treeFoliageList" : [ "dragonfruitleavesMFM", "coconutleavesMFM" ]
+    }
+	},
+	{
 		"op": "add",
 		"path": "/surfacePlaceables/items/-",
 		"value": {
@@ -13,7 +29,6 @@
 				{
 					"pool" : [
 						[1, "wildcocoaseed" ],
-						[1, "wilddragonfruitMFMseed" ],
 						[1, "wildgingerMSMseed" ],
 						[1, "wildjalapenopepperMFMseed" ],
 						[1, "wildlettuceMFMseed" ],
@@ -65,7 +80,6 @@
 			"objectSets" : [
         {
           "pool" : [
-            [1, "wildcoconutpalmMFMseed" ],
             [1, "wildgarpberryMFMseed" ],
             [1, "wildjelonalienMFMseed" ]
           ],

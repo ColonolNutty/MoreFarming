@@ -1,5 +1,21 @@
 [
 	{
+		"op" : "add",
+		"path" : "/surfacePlaceables/items/-",
+		"value" : {
+      "mode" : "floor",
+      "priority" : 0.5,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:denseSmall",
+
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 180,
+      "treeStemHueShiftMax" : 15,
+      "treeStemList" : [ "palmlike" ],
+      "treeFoliageList" : [ "orangeleavesMFM" ]
+    }
+	},
+	{
 	  "op": "add",
 	  "path": "/surfacePlaceables/items/-",
 	  "value": {
@@ -14,7 +30,6 @@
 				"pool" : [
 					[1, "wildpricklypearMFMseed" ],
 					[1, "wildjelondryMFMseed" ],
-					[1, "wildorangeMFMseed" ],
 					[1, "wilddungrootMFMseed" ],
           [1, "wildpalsterstickMFMseed" ],
           [1, "wildoatsMFMseed" ]
@@ -44,7 +59,6 @@
 						[1, "wildbeetMFMseed"],
 						[1, "wildblackberryPBJseed"],
 						[1, "wildcucumberMSMseed"],
-						[1, "wilddragonfruitMFMseed"],
 						[1, "wildgarlicMFMseed" ],
 						[1, "wildgreenbeanMFMseed"],
 						[1, "wildjalapenopepperMFMseed" ],

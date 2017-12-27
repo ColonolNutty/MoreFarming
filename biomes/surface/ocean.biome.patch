@@ -1,5 +1,37 @@
 [
 	{
+		"op" : "add",
+		"path" : "/surfacePlaceables/items/-",
+		"value" : {
+      "mode" : "floor",
+      "priority" : 0.5,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:denseSmall",
+
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 180,
+      "treeStemHueShiftMax" : 15,
+      "treeStemList" : [ "palmlike" ],
+      "treeFoliageList" : [ "avocadoleavesMFM", "mangoleavesMFM", "grapefruitleavesMFM", "lemonleavesMFM", "limeleavesMFM", "orangeleavesMFM" ]
+    }
+	},
+	{
+		"op" : "add",
+		"path" : "/surfacePlaceables/items/-",
+		"value" : {
+      "mode" : "floor",
+      "priority" : 0.5,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:denseSmall",
+
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 180,
+      "treeStemHueShiftMax" : 15,
+      "treeStemList" : [ "coconut" ],
+      "treeFoliageList" : [ "coconutleavesMFM" ]
+    }
+	},
+	{
 		"op": "add",
 		"path": "/surfacePlaceables/items/-",
 		"value": {
@@ -12,7 +44,6 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildavocadoMFMseed"],
 						[1, "wildcocoaseed"],
 						[1, "wildgingerMSMseed"],
 						[1, "wildjalapenopepperMFMseed"],
@@ -40,14 +71,8 @@
 				{
 					"pool" : [
 						[1, "wildcinnamonMFMseed" ],
-						[1, "wildcoconutpalmMFMseed" ],
 						[1, "wildeggplantMFMseed" ],
-						[1, "wildgrapefruitMFMseed" ],
 						[1, "wildjelonMFMseed" ],
-						[1, "wildlemonMFMseed" ],
-						[1, "wildlimeMFMseed" ],
-						[1, "wildmangoMFMseed" ],
-						[1, "wildorangeMFMseed" ],
 						[1, "wildsweetpotatoMFMseed" ]
 					],
 					"parameters" : {

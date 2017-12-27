@@ -1,5 +1,21 @@
 [
 	{
+		"op" : "add",
+		"path" : "/surfacePlaceables/items/-",
+		"value" : {
+      "mode" : "floor",
+      "priority" : 0.5,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:denseSmall",
+
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 0,
+      "treeStemHueShiftMax" : 10,
+      "treeStemList" : [ "palmlike" ],
+      "treeFoliageList" : [ "dragonfruitleavesMFM" ]
+    }
+	},
+	{
 		"op": "add",
 		"path": "/surfacePlaceables/items/-",
 		"value": {
@@ -13,7 +29,6 @@
 				{
 					"pool" : [
 						[1, "wildblackberryPBJseed"],
-						[1, "wilddragonfruitMFMseed" ],
 						[1, "wildraspberryPBJseed"]
 					],
 					"parameters" : {

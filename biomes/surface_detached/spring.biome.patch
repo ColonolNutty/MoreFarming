@@ -1,5 +1,21 @@
 [
 	{
+		"op" : "add",
+		"path" : "/surfacePlaceables/items/-",
+		"value" : {
+      "mode" : "floor",
+      "priority" : 0.5,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:denseSmall",
+
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 180,
+      "treeStemHueShiftMax" : 15,
+      "treeStemList" : [ "palmlike" ],
+      "treeFoliageList" : [ "dragonfruitleavesMFM" ]
+    }
+	},
+	{
 		"op": "add",
 		"path": "/surfacePlaceables/items/-",
 		"value": {
@@ -20,7 +36,6 @@
 						[1, "wildbrusselsproutMFMseed" ],
 						[1, "wildcauliflowerMFMseed" ],
 						[1, "wildcucumberMSMseed" ],
-						[1, "wilddragonfruitMFMseed" ],
 						[1, "wildgarlicMFMseed" ],
 						[1, "wildgreenbeanMFMseed" ],
 						[1, "wildlettuceMFMseed" ],

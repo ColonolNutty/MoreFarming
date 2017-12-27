@@ -3,6 +3,21 @@
 		"op": "add",
 		"path": "/surfacePlaceables/items/-",
 		"value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:denseSmall",
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 0,
+      "treeStemHueShiftMax" : 0,
+      "treeStemList" : [ "birch", "cocoa", "fleshy", "grumpy", "pine", "roottree", "slimey", "something", "spikey", "twisted", "wood", "slobby", "pineytree" ],
+      "treeFoliageList" : [ "appleleavesMFM", "greenappleleavesMFM", "nutmegleavesMFM" ]
+    }
+	},
+	{
+		"op": "add",
+		"path": "/surfacePlaceables/items/-",
+		"value": {
 			"mode" : "floor",
 			"priority" : 1,
 			"variants" : 1,
@@ -52,9 +67,7 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildappleMFMseed" ],
 						[1, "wilddungrootMFMseed" ],
-						[1, "wildgreenappleMFMseed" ],
 						[1, "wildjelonMFMseed" ],
 						[1, "wildoatsMFMseed" ],
 						[1, "wildportobelloMFMseed" ],

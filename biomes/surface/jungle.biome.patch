@@ -1,5 +1,53 @@
 [
 	{
+		"op" : "add",
+		"path" : "/surfacePlaceables/items/-",
+		"value" : {
+      "mode" : "floor",
+      "priority" : 0.5,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:denseSmall",
+
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 180,
+      "treeStemHueShiftMax" : 15,
+      "treeStemList" : [ "palmlike" ],
+      "treeFoliageList" : [ "coconutleavesMFM" ]
+    }
+	},
+	{
+		"op" : "add",
+		"path" : "/surfacePlaceables/items/-",
+		"value" : {
+      "mode" : "floor",
+      "priority" : 0.5,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:denseSmall",
+
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 180,
+      "treeStemHueShiftMax" : 15,
+      "treeStemList" : [ "palmlike" ],
+      "treeFoliageList" : [ "grapefruitleavesMFM" ]
+    }
+	},
+	{
+		"op" : "add",
+		"path" : "/surfacePlaceables/items/-",
+		"value" : {
+      "mode" : "floor",
+      "priority" : 0.5,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:denseSmall",
+
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 180,
+      "treeStemHueShiftMax" : 15,
+      "treeStemList" : [ "twisty", "woody", "oldwood", "crackly", "palmlike" ],
+      "treeFoliageList" : [ "avocadoleavesMFM", "lemonleavesMFM", "limeleavesMFM", "mangoleavesMFM", "nutmegleavesMFM" ]
+    }
+	},
+	{
 		"op": "add",
 		"path": "/surfacePlaceables/items/-",
 		"value": {
@@ -12,7 +60,6 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildavocadoMFMseed" ],
 						[1, "wildbambooBMBshoot" ],
 						[1, "wildbellpepperMFMseed"],
 						[1, "wildcocoaseed" ],
@@ -48,16 +95,11 @@
 				{
 					"pool" : [
 						[1, "wildcinnamonMFMseed" ],
-						[1, "wildcoconutpalmMFMseed" ],
 						[1, "wilddungrootMFMseed" ],
 						[1, "wildeggplantMFMseed" ],
 						[1, "wildflytrapMFMseed"],
-						[1, "wildgrapefruitMFMseed" ],
 						[1, "wildgreatbambooMFMseed"],
 						[1, "wildjelonMFMseed" ],
-						[1, "wildlemonMFMseed" ],
-						[1, "wildlimeMFMseed" ],
-						[1, "wildmangoMFMseed" ],
 						[1, "wildsoybeanMFMseed" ],
 						[1, "wildsweetpotatoMFMseed" ]
 					],

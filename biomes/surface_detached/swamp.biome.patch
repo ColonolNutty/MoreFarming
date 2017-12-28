@@ -4,7 +4,7 @@
 	  "path": "/surfacePlaceables/items/-",
 	  "value": {
 			"mode" : "floor",
-			"priority" : 1,
+			"priority" : 1.0,
 			"variants" : 1,
 			"distribution" : "/biomes/distributions.config:surfaceCrops",
 
@@ -33,7 +33,7 @@
 	  "path": "/surfacePlaceables/items/-",
 	  "value": {
 			"mode" : "floor",
-			"priority" : 1,
+			"priority" : 1.0,
 			"variants" : 1,
 			"distribution" : "/biomes/distributions.config:surfaceCrops",
 

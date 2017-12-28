@@ -4,47 +4,14 @@
 		"path" : "/surfacePlaceables/items/-",
 		"value" : {
       "mode" : "floor",
-      "priority" : 0.5,
+      "priority" : 1.0,
       "variants" : 1,
-      "distribution" : "/biomes/distributions.config:denseSmall",
-
+      "distribution" : "/biomes/distributions.config:uncommonRandomMFM",
       "type" : "tree",
       "treeFoliageHueShiftMax" : 180,
       "treeStemHueShiftMax" : 15,
-      "treeStemList" : [ "palmlike" ],
-      "treeFoliageList" : [ "coconutleavesMFM" ]
-    }
-	},
-	{
-		"op" : "add",
-		"path" : "/surfacePlaceables/items/-",
-		"value" : {
-      "mode" : "floor",
-      "priority" : 0.5,
-      "variants" : 1,
-      "distribution" : "/biomes/distributions.config:denseSmall",
-
-      "type" : "tree",
-      "treeFoliageHueShiftMax" : 180,
-      "treeStemHueShiftMax" : 15,
-      "treeStemList" : [ "palmlike" ],
-      "treeFoliageList" : [ "grapefruitleavesMFM" ]
-    }
-	},
-	{
-		"op" : "add",
-		"path" : "/surfacePlaceables/items/-",
-		"value" : {
-      "mode" : "floor",
-      "priority" : 0.5,
-      "variants" : 1,
-      "distribution" : "/biomes/distributions.config:denseSmall",
-
-      "type" : "tree",
-      "treeFoliageHueShiftMax" : 180,
-      "treeStemHueShiftMax" : 15,
-      "treeStemList" : [ "twisty", "woody", "oldwood", "crackly", "palmlike" ],
-      "treeFoliageList" : [ "avocadoleavesMFM", "lemonleavesMFM", "limeleavesMFM", "mangoleavesMFM", "nutmegleavesMFM" ]
+      "treeStemList" : [ "avocadowoodMFM", "lemonwoodMFM", "limewoodMFM", "mangowoodMFM", "nutmegwoodMFM", "grapefruitwoodMFM", "coconutwoodMFM" ],
+      "treeFoliageList" : [ "avocadoMFM", "lemonMFM", "limeMFM", "mangoMFM", "nutmegMFM", "grapefruitMFM", "coconutMFM" ]
     }
 	},
 	{
@@ -52,7 +19,7 @@
 		"path": "/surfacePlaceables/items/-",
 		"value": {
 			"mode" : "floor",
-			"priority" : 1,
+			"priority" : 1.0,
 			"variants" : 1,
 			"distribution" : "/biomes/distributions.config:surfaceCrops",
 
@@ -86,7 +53,7 @@
 		"path": "/surfacePlaceables/items/-",
 		"value": {
 			"mode" : "floor",
-			"priority" : 1,
+			"priority" : 1.0,
 			"variants" : 1,
 			"distribution" : "/biomes/distributions.config:surfaceCrops",
 

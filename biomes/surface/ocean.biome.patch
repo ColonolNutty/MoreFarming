@@ -4,31 +4,14 @@
 		"path" : "/surfacePlaceables/items/-",
 		"value" : {
       "mode" : "floor",
-      "priority" : 0.5,
+      "priority" : 1.0,
       "variants" : 1,
-      "distribution" : "/biomes/distributions.config:denseSmall",
-
+      "distribution" : "/biomes/distributions.config:uncommonRandomMFM",
       "type" : "tree",
       "treeFoliageHueShiftMax" : 180,
       "treeStemHueShiftMax" : 15,
-      "treeStemList" : [ "palmlike" ],
-      "treeFoliageList" : [ "avocadoleavesMFM", "mangoleavesMFM", "grapefruitleavesMFM", "lemonleavesMFM", "limeleavesMFM", "orangeleavesMFM" ]
-    }
-	},
-	{
-		"op" : "add",
-		"path" : "/surfacePlaceables/items/-",
-		"value" : {
-      "mode" : "floor",
-      "priority" : 0.5,
-      "variants" : 1,
-      "distribution" : "/biomes/distributions.config:denseSmall",
-
-      "type" : "tree",
-      "treeFoliageHueShiftMax" : 180,
-      "treeStemHueShiftMax" : 15,
-      "treeStemList" : [ "coconut" ],
-      "treeFoliageList" : [ "coconutleavesMFM" ]
+      "treeStemList" : [ "avocadowoodMFM", "mangowoodMFM", "grapefruitwoodMFM", "lemonwoodMFM", "limewoodMFM", "orangewoodMFM", "coconutwoodMFM" ],
+      "treeFoliageList" : [ "avocadoMFM", "mangoMFM", "grapefruitMFM", "lemonMFM", "limeMFM", "orangeMFM", "coconutMFM" ]
     }
 	},
 	{
@@ -36,7 +19,7 @@
 		"path": "/surfacePlaceables/items/-",
 		"value": {
 			"mode" : "floor",
-			"priority" : 1,
+			"priority" : 1.0,
 			"variants" : 1,
 			"distribution" : "/biomes/distributions.config:surfaceCrops",
 
@@ -62,7 +45,7 @@
 		"path": "/surfacePlaceables/items/-",
 		"value": {
 			"mode" : "floor",
-			"priority" : 1,
+			"priority" : 1.0,
 			"variants" : 1,
 			"distribution" : "/biomes/distributions.config:surfaceCrops",
 

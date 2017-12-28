@@ -6,12 +6,12 @@
       "mode" : "floor",
       "priority" : 1.0,
       "variants" : 1,
-      "distribution" : "/biomes/distributions.config:denseSmall",
+      "distribution" : "/biomes/distributions.config:uncommonRandomMFM",
       "type" : "tree",
       "treeFoliageHueShiftMax" : 40,
       "treeStemHueShiftMax" : 15,
-      "treeStemList" : [ "pineytree" ],
-      "treeFoliageList" : [ "appleleavesMFM", "greenappleleavesMFM", "nutmegleavesMFM" ]
+      "treeStemList" : [ "applewoodMFM", "greenapplewoodMFM", "nutmegwoodMFM" ],
+      "treeFoliageList" : [ "appleMFM", "greenappleMFM", "nutmegMFM" ]
     }
 	},
 	{
@@ -19,7 +19,7 @@
 		"path": "/surfacePlaceables/items/-",
 		"value": {
 			"mode" : "floor",
-			"priority" : 1,
+			"priority" : 1.0,
 			"variants" : 1,
 			"distribution" : "/biomes/distributions.config:surfaceCrops",
 
@@ -64,7 +64,7 @@
 		"path": "/surfacePlaceables/items/-",
 		"value": {
 			"mode" : "floor",
-			"priority" : 1,
+			"priority" : 1.0,
 			"variants" : 1,
 			"distribution" : "/biomes/distributions.config:surfaceCrops",
 

@@ -1,25 +1,18 @@
 [
 	{
-		"op":"add",
-		"path":"/surfacePlaceables/items/-",
-		"value":
-		{
-			"mode" : "floor",
-			"priority" : 1.0,
-			"variants" : 1,
-			"distribution" : "/biomes/distributions.config:surfaceCrops",
+		"op" : "add",
+		"path" : "/surfacePlaceables/items/-",
+		"value" : {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:uncommonRandomMFM",
 
-			"type" : "object",
-			"objectSets" : [
-        {
-          "pool" : [
-            [1, "wildcoconutpalmMFMseed" ]
-          ],
-          "parameters" : {
-            "startingStage" : 2
-          }
-        }
-      ]
-		}
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 180,
+      "treeStemHueShiftMax" : 15,
+      "treeStemList" : [ "coconutwoodMFM" ],
+      "treeFoliageList" : [ "coconutMFM" ]
+    }
 	}
 ]

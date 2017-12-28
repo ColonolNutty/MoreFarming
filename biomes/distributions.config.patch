@@ -1,4 +1,4 @@
-[  
+[
   {
     "op" : "add",
     "path" : "/scatteredMediumMFM",
@@ -16,6 +16,14 @@
       "densityOffset" : 0.3,
       
       "typePeriod" : 16
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/uncommonRandomMFM",
+    "value" : {
+      "type" : "random",
+      "blockProbability" : 0.025
     }
   }
 ]

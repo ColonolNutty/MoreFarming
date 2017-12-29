@@ -46,6 +46,7 @@
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "parsnipMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "peaMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "peanutPBJ" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "potato" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "portobellomushroomMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "preparedcoconutMFM" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "pricklypearMFM" } },

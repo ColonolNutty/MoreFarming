@@ -1,7 +1,7 @@
 {
   "itemName" : "preparedcoconutMFM",
   "rarity" : "Uncommon",
-  "price" : 0.0,
+  "price" : 10.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A coconut prepared for eating instead of throwing.",

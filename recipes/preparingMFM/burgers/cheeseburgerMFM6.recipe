@@ -6,5 +6,5 @@
     { "item" : "ketchupMFM", "count" : 1 }
   ],
   "output" : { "item" : "cheeseburgerMFM6", "count" : 1 },
-  "groups" : [ "preparingMFM" ]
+  "groups" : [ "preparingMFMNoRecipeBook" ]
 }

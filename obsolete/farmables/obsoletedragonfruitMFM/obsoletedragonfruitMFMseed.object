@@ -23,16 +23,16 @@
     } ],
   "stages" : [ 
     {
-      "duration" : [ 0, 0 ]
+      "duration" : [ 1, 1 ]
     },
 
     {
-      "duration" : [ 0, 0 ]
+      "duration" : [ 1, 1 ]
     },
 
     {
       "alts" : 5,
-      "duration" : [ 0, 0 ]
+      "duration" : [ 1, 1 ]
     },
 
     {

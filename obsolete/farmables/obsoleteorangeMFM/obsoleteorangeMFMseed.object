@@ -1,0 +1,38 @@
+{
+  "objectName" : "orangeMFMseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 201.0,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "Used to grow Oranges.",
+  "shortdescription" : "Orange Seed",
+  "inventoryIcon" : "obsoleteorangeMFMseedicon.png",
+  "largeImage" : "obsoleteorangeMFMseed.png:default.default.default",
+  "orientations" : [ 
+    {
+      "dualImage" : "obsoleteorangeMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    } ],
+  "stages" : [ 
+    {
+      "duration" : [ 0, 0 ]
+    },
+
+    {
+      "duration" : [ 0, 0 ]
+    },
+
+    {
+      "alts" : 5,
+      "harvestPool" : "orangeMFMHarvest"
+    } ],
+  "maxImmersion" : 0.8
+}

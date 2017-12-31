@@ -1,0 +1,38 @@
+{
+  "objectName" : "mangoMFMseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 703.5,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "Used to grow Mangos.",
+  "shortdescription" : "Old Mango Tree",
+  "inventoryIcon" : "obsoletemangoMFMseedicon.png",
+  "largeImage" : "obsoletemangoMFMseed.png:default.default.default",
+  "orientations" : [ 
+    {
+      "dualImage" : "obsoletemangoMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    } ],
+  "stages" : [ 
+    {
+      "duration" : [ 0, 0 ]
+    },
+
+    {
+      "duration" : [ 0, 0 ]
+    },
+
+    {
+      "alts" : 5,
+      "harvestPool" : "mangoMFMHarvest"
+    } ],
+  "maxImmersion" : 0.8
+}

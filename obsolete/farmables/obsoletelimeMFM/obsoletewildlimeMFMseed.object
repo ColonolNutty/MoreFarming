@@ -1,0 +1,40 @@
+{
+  "objectName" : "wildlimeMFMseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 10.0,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "Used to grow Limes.",
+  "shortdescription" : "Old Lime Tree",
+  "inventoryIcon" : "obsoletelimeMFMseedicon.png",
+  "largeImage" : "obsoletelimeMFMseed.png:default.default.default",
+  "orientations" : [ 
+    {
+      "dualImage" : "obsoletelimeMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    } ],
+  "stages" : [ 
+    {
+      "duration" : [ 0, 0 ]
+    },
+
+    {
+      "duration" : [ 0, 0 ]
+    },
+
+    {
+      "alts" : 5,
+      "harvestPool" : "limeMFMHarvest"
+    } ],
+  "maxImmersion" : 0.8,
+  "hasObjectItem" : false,
+  "biomePlaced" : true
+}

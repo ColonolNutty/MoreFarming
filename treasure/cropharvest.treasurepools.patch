@@ -3,12 +3,8 @@
     "op" : "add",
     "path" : "/appleMFMHarvest",
     "value" : [ [0, {
-        "fill": [
-          {"item" : "appleMFMseed"}
-        ],
         "pool" : [
           {"weight" : 0.6, "item" : "redapple"},
-          {"weight" : 0.2, "item" : "appleMFMseed"},
           {"weight" : 0.001, "item" : "goldenappleMFM"}
         ],
         "poolRounds" : [
@@ -62,12 +58,8 @@
     "op" : "add",
     "path" : "/avocadoMFMHarvest",
     "value" : [ [0, {
-        "fill" : [
-          {"item" : "avocadoMFMseed"}
-        ],
         "pool" : [
           {"weight" : 0.89, "item" : "avocadoMSM"},
-          {"weight" : 0.01, "item" : "avocadoMFMseed"},
           {"weight" : 0.1, "item" : "plantfibre"}
         ],
         "poolRounds" : [
@@ -291,12 +283,8 @@
     "op" : "add",
     "path" : "/coconutMFMHarvest",
     "value" : [ [0, {
-        "fill" : [
-          {"item" : "coconutpalmMFMseed"}
-        ],
         "pool" : [
           {"weight" : 0.89, "item" : "coconut"},
-          {"weight" : 0.01, "item" : "coconutpalmMFMseed"},
           {"weight" : 0.1, "item" : "plantfibre"}
         ],
         "poolRounds" : [
@@ -330,12 +318,8 @@
     "op" : "add",
     "path" : "/dragonfruitMFMHarvest",
     "value" : [ [0, {
-        "fill" : [
-          {"item" : "dragonfruitMFMseed"}
-        ],
         "pool" : [
           {"weight" : 0.89, "item" : "dragonfruitMFM"},
-          {"weight" : 0.01, "item" : "dragonfruitMFMseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],
         "poolRounds" : [
@@ -487,12 +471,8 @@
     "op" : "add",
     "path" : "/grapefruitMFMHarvest",
     "value" : [ [0, {
-        "fill" : [
-          {"item" : "grapefruitMFMseed"}
-        ],
         "pool" : [
           {"weight" : 0.89, "item" : "grapefruitMFM"},
-          {"weight" : 0.01, "item" : "grapefruitMFMseed"},
           {"weight" : 0.1, "item" : "plantfibre"}
         ],
         "poolRounds" : [
@@ -526,12 +506,8 @@
     "op" : "add",
     "path" : "/greenappleMFMHarvest",
     "value" : [ [0, {
-        "fill": [
-          {"item" : "greenappleMFMseed"}
-        ], 
         "pool" : [
           {"weight" : 0.89, "item" : "greenapple"},
-          {"weight" : 0.01, "item" : "greenappleMFMseed"},
           {"weight" : 0.001, "item" : "goldenappleMFM"}
         ],
         "poolRounds" : [
@@ -646,12 +622,8 @@
     "op" : "add",
     "path" : "/lemonMFMHarvest",
     "value" : [ [0, {
-        "fill" : [
-          {"item" : "lemonMFMseed"}
-        ],
         "pool" : [
           {"weight" : 0.89, "item" : "lemonMFM"},
-          {"weight" : 0.01, "item" : "lemonMFMseed"},
           {"weight" : 0.1, "item" : "plantfibre"}
         ],
         "poolRounds" : [
@@ -684,12 +656,8 @@
     "op" : "add",
     "path" : "/limeMFMHarvest",
     "value" : [ [0, {
-        "fill" : [
-          {"item" : "limeMFMseed"}
-        ],
         "pool" : [
           {"weight" : 0.89, "item" : "limeMFM"},
-          {"weight" : 0.01, "item" : "limeMFMseed"},
           {"weight" : 0.1, "item" : "plantfibre"}
         ],
         "poolRounds" : [
@@ -703,12 +671,8 @@
     "op" : "add",
     "path" : "/mangoMFMHarvest",
     "value" : [ [0, {
-        "fill" : [
-          {"item" : "mangoMFMseed"}
-        ],
         "pool" : [
           {"weight" : 0.89, "item" : "mangoMFM"},
-          {"weight" : 0.01, "item" : "mangoMFMseed"},
           {"weight" : 0.1, "item" : "plantfibre"}
         ],
         "poolRounds" : [
@@ -775,12 +739,8 @@
     "op" : "add",
     "path" : "/orangeMFMHarvest",
     "value" : [ [0, {
-        "fill": [
-          {"item" : "orangeMFMseed"}
-        ], 
         "pool" : [
           {"weight" : 0.6, "item" : "orange"},
-          {"weight" : 0.2, "item" : "orangeMFMseed"},
           {"weight" : 0.2, "item" : "plantfibre"}
         ],
         "poolRounds" : [

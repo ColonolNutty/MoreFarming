@@ -1,0 +1,38 @@
+{
+  "objectName" : "grapefruitMFMseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 402.0,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "Used to grow grapefruits.",
+  "shortdescription" : "Old Grapefruit Tree",
+  "inventoryIcon" : "obsoletegrapefruitMFMseedicon.png",
+  "largeImage" : "obsoletegrapefruitMFMseed.png:default.default.default",
+  "orientations" : [ 
+    {
+      "dualImage" : "obsoletegrapefruitMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    } ],
+  "stages" : [ 
+    {
+      "duration" : [ 0, 0 ]
+    },
+
+    {
+      "duration" : [ 0, 0 ]
+    },
+
+    {
+      "alts" : 5,
+      "harvestPool" : "grapefruitMFMHarvest"
+    } ],
+  "maxImmersion" : 0.8
+}

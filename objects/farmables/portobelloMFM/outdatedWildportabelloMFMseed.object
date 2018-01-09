@@ -17,7 +17,7 @@
   "hylotlDescription" : "Portobellos.",
   "inventoryIcon" : "portobelloMFMseedicon.png",
   "largeImage" : "portobelloMFMseed.png:default.3.0",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "portobelloMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -26,25 +26,18 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 600, 600 ]
-    },
-
-    {
-      "duration" : [ 300, 300 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 600, 600 ] },
+    { "duration" : [ 300, 300 ] },
     {
       "alts" : 5,
       "harvestPool" : "portobelloMFMHarvest"
-    } ],
+    }
+  ],
   "maxImmersion" : 0.1,
-  "breakDropOptions" : [ [ [ "portobelloMFMseed", 1, 
-        {
-
-        } ] ] ],
+  "breakDropOptions" : [[[ "portobelloMFMseed", 1, { } ]]],
   "hasObjectItem" : false,
   "biomePlaced" : true
 }

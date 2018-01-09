@@ -8,16 +8,16 @@
   "description" : "Eggplant, the plant of a 100 different flavours.",
   "shortdescription" : "Eggplant",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 45
-      },
-
-      {
-        "effect" : "regeneration3",
-        "duration" : 15
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 45
+    },
+    {
+      "effect" : "regeneration3",
+      "duration" : 15
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

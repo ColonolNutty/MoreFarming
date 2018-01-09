@@ -16,43 +16,49 @@
   "humanDescription" : "It's not the ritz, but it's better then a toasted marshmallow at least.",
   "hylotlDescription" : "One pot meals, hopefully I can find ingredients.",
   "inventoryIcon" : "makeshiftboilingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ 0, 0 ],
       "direction" : "left",
       "frames" : 4,
       "animationCycle" : 0.5,
-      "spaces" : [ [ 0, 0 ],[ 0, 1 ],[ 1, 0 ],[ 1, 1 ] ],
+      "spaces" : [
+        [ 0, 0 ],
+        [ 0, 1 ],
+        [ 1, 0 ],
+        [ 1, 1 ]
+      ],
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "makeshiftboilingstationCNYC.png:<color>.<frame>",
           "fullbright" : true
         },
-
-        {
-          "image" : "makeshiftboilingstationCNYClit.png:<color>.<frame>"
-        } ],
+        { "image" : "makeshiftboilingstationCNYClit.png:<color>.<frame>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ 0, 0 ],
       "direction" : "right",
       "frames" : 4,
       "animationCycle" : 0.5,
-      "spaces" : [ [ 0, 0 ],[ 0, 1 ],[ 1, 0 ],[ 1, 1 ] ],
+      "spaces" : [
+        [ 0, 0 ],
+        [ 0, 1 ],
+        [ 1, 0 ],
+        [ 1, 1 ]
+      ],
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "makeshiftboilingstationCNYC.png:<color>.<frame>",
           "fullbright" : true
         },
-
-        {
-          "image" : "makeshiftboilingstationCNYClit.png:<color>.<frame>"
-        } ]
-    } ],
+        { "image" : "makeshiftboilingstationCNYClit.png:<color>.<frame>" }
+      ]
+    }
+  ],
   "recipeGroup" : "boilingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
@@ -69,13 +75,13 @@
   "flickerMaxIntensity" : 1,
   "statusEffects" : [ ],
   "soundEffect" : "/sfx/objects/campfire.ogg",
-  "particleEmitter" :   {
+  "particleEmitter" : {
     "emissionRate" : 1,
-    "particleVariance" :     {
+    "particleVariance" : {
       "initialVelocity" : [ 0.5, 2 ],
       "position" : [ 0.4, 0 ]
     },
-    "particle" :     {
+    "particle" : {
       "timeToLive" : 2,
       "fade" : 0.9,
       "size" : 1,
@@ -91,13 +97,16 @@
     "emissionVariance" : 0.5
   },
   "lightColor" : [ 179, 149, 107 ],
-  "npcToy" :   {
+  "npcToy" : {
     "preciseStandPositionRight" : [ 2.5, 0 ],
     "preciseStandPositionLeft" : [ -2.5, 0 ],
     "maxNpcs" : 2,
-    "defaultReactions" :     {
-      "campfire" : [ [ 1, "warmhands" ],[ 1, "crouchwarm" ] ]
-    },
+    "defaultReactions" : {
+      "campfire" : [
+        [ 1, "warmhands" ],
+        [ 1, "crouchwarm" ]
+      ]
+},
     "influence" : [ "campfire", "campfire" ]
   },
   "subtitle" : "Campsite pot cooking.",

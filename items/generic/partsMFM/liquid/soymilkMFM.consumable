@@ -7,21 +7,20 @@
   "description" : "(BLEND):-} Milk made from soy beans",
   "shortdescription" : "Soy Milk",
   "foodValue" : 11.58,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 60
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 32
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 32
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 66
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

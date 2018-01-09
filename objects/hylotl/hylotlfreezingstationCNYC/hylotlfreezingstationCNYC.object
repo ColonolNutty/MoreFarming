@@ -17,7 +17,7 @@
   "humanDescription" : "I think it's a freezer.. why is there a fish in it?",
   "hylotlDescription" : "Thiers alot water can do if given the respect.",
   "inventoryIcon" : "hylotlfreezingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -26,18 +26,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "hylotlfreezingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "hylotlfreezingstationCNYClit.png:<color>"
-        } ],
+        { "image" : "hylotlfreezingstationCNYClit.png:<color>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -46,16 +43,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "hylotlfreezingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "hylotlfreezingstationCNYClit.png:<color>"
-        } ]
-    } ],
+        { "image" : "hylotlfreezingstationCNYClit.png:<color>" }
+      ]
+    }
+  ],
   "recipeGroup" : "freezingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

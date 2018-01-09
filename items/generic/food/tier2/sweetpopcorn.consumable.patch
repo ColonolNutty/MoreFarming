@@ -1,42 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 111.02
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 10.0
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "camouflage25",
-            "duration" : 7
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -53,9 +25,53 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 10.0
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} Freshly popped corn, with a sweet, buttery coating."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 111.02
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "camouflage25",
+          "duration" : 7
+        }
+      ]]
     }
   ]
 ]

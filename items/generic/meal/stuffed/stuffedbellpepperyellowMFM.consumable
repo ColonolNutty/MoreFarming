@@ -6,12 +6,13 @@
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A yellow bell pepper stuffed with rice, covered in tomato sauce.",
   "shortdescription" : "Stuffed Bell Pepper Yellow",
-  "foodValue" : 56.13,
-  "effects" : [ [ 
-      {
-        "effect" : "electricblock",
-        "duration" : 40
-      } ] ],
+  "foodValue" : 71.5,
+  "effects" : [[
+    {
+      "effect" : "electricblock",
+      "duration" : 42
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

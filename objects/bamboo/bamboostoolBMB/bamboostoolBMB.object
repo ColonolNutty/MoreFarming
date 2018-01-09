@@ -15,7 +15,7 @@
   "humanDescription" : "This stool is polished. It almost shines.",
   "hylotlDescription" : "A stool fashioned from bamboo?",
   "inventoryIcon" : "bamboostoolBMBicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "bamboostoolBMB.png:<color>",
       "imagePosition" : [ -6, 0 ],
@@ -23,7 +23,8 @@
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "sitPosition" : [ 2, 17 ],
   "sitFlipDirection" : false
 }

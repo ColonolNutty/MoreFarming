@@ -8,11 +8,12 @@
   "description" : "Tastes nothing like a grape!",
   "shortdescription" : "Grapefruit",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 30
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

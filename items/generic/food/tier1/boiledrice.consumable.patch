@@ -2,6 +2,18 @@
   [
     {
       "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -13,21 +25,31 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/description",
-      "value" : "(BOIL):-} Light and fluffy."
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
     }
   ],
   [
     {
       "op" : "replace",
-      "path" : "/price",
-      "value" : 63
+      "path" : "/foodValue",
+      "value" : 10.5
     },
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 10.5
+      "path" : "/description",
+      "value" : "(BOIL):-} Light and fluffy."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 63
     }
   ]
 ]

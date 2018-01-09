@@ -1,15 +1,21 @@
 [
   [
-    { "op": "test", "path": "/breakDropOptions", "inverse" : true },
-    { "op": "add", "path": "/breakDropOptions", "value": [] }
+    {
+      "op" : "test",
+      "path" : "/breakDropOptions",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/breakDropOptions",
+      "value" : [ ]
+    }
   ],
   [
     {
       "op" : "replace",
       "path" : "/breakDropOptions",
-      "value" : [
-        [ [ "cocoaMFMseed", 1, { } ] ]
-      ]
+      "value" : [[[ "cocoaMFMseed", 1, { } ]]]
     }
   ]
 ]

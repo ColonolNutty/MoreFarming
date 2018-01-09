@@ -16,7 +16,7 @@
   "humanDescription" : "At least this wasn't used for a sacrifice.. I hope..",
   "hylotlDescription" : "Strange marks underneath it..",
   "inventoryIcon" : "avianchoppingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "avianchoppingstationCNYC.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -24,7 +24,8 @@
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "choppingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

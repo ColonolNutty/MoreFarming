@@ -17,7 +17,7 @@
   "hylotlDescription" : "Finally! It's just perfect.",
   "inventoryIcon" : "soybeanMFMseedicon.png",
   "largeImage" : "soybeanMFMseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "soybeanMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -26,26 +26,19 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 720, 720 ]
-    },
-
-    {
-      "duration" : [ 1080, 1080 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 720, 720 ] },
+    { "duration" : [ 1080, 1080 ] },
     {
       "alts" : 5,
       "harvestPool" : "soybeanMFMHarvest",
       "resetToStage" : 1
-    } ],
+    }
+  ],
   "maxImmersion" : 0.4,
-  "breakDropOptions" : [ [ [ "soybeanMFMseed", 1, 
-        {
-
-        } ] ] ],
+  "breakDropOptions" : [[[ "soybeanMFMseed", 1, { } ]]],
   "hasObjectItem" : false,
   "biomePlaced" : true
 }

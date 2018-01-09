@@ -16,7 +16,7 @@
   "humanDescription" : "Makeshift food preparation. It'll do.",
   "hylotlDescription" : "It works, I can't complain about that.",
   "inventoryIcon" : "makeshiftgrindingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "makeshiftgrindingstationCNYC.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -24,7 +24,8 @@
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "millingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

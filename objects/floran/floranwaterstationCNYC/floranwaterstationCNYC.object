@@ -10,12 +10,13 @@
   "shortdescription" : "^orange;Floran Wash Basin (Water)^white;",
   "race" : "generic",
   "inventoryIcon" : "floranwaterstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "floranwaterstationCNYC.png:default",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "waterMFM",
   "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
   "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],

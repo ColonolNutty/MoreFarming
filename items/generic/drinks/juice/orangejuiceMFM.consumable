@@ -6,12 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Sweet orange juice.",
   "shortdescription" : "Juice - Orange",
-  "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 120
-      } ] ],
+  "foodValue" : 11.03,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

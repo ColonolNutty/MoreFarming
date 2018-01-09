@@ -11,7 +11,7 @@
   "shortdescription" : "Wild Eggplant Seeds",
   "inventoryIcon" : "eggplantMFMseedicon.png",
   "largeImage" : "eggplantMFMseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "eggplantMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -20,26 +20,19 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 1920, 1920 ]
-    },
-
-    {
-      "duration" : [ 2760, 2760 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 1920, 1920 ] },
+    { "duration" : [ 2760, 2760 ] },
     {
       "alts" : 5,
       "harvestPool" : "eggplantMFMHarvest",
       "resetToStage" : 1
-    } ],
+    }
+  ],
   "maxImmersion" : 0.25,
-  "breakDropOptions" : [ [ [ "eggplantMFMseed", 1, 
-        {
-
-        } ] ] ],
+  "breakDropOptions" : [[[ "eggplantMFMseed", 1, { } ]]],
   "hasObjectItem" : false,
   "biomePlaced" : true
 }

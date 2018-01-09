@@ -15,7 +15,7 @@
   "humanDescription" : "I really want to play five finger fillet",
   "hylotlDescription" : "A display in itself!",
   "inventoryIcon" : "novakidchoppingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -23,18 +23,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "novakidchoppingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "novakidchoppingstationCNYC.png:<color>"
-        } ],
+        { "image" : "novakidchoppingstationCNYC.png:<color>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -42,16 +39,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "novakidchoppingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "novakidchoppingstationCNYC.png:<color>"
-        } ]
-    } ],
+        { "image" : "novakidchoppingstationCNYC.png:<color>" }
+      ]
+    }
+  ],
   "recipeGroup" : "choppingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
@@ -61,14 +57,17 @@
   "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/choppingMFMRecipes.config",
-  "npcToy" :   {
+  "npcToy" : {
     "preciseStandPositionRight" : [ 1, 0 ],
     "preciseStandPositionLeft" : [ -1, 0 ],
     "maxNpcs" : 1,
-    "defaultReactions" :     {
-      "watercoolerConsume" : [ [ 1, "drink" ] ],
-      "watercoolerComplete" : [ [ 1, "smile" ],[ 0.1, "vomit" ] ],
-      "watercoolerCollect" : [ [ 1, "crouchcollect" ] ]
+    "defaultReactions" : {
+      "watercoolerConsume" : [[ 1, "drink" ]],
+      "watercoolerComplete" : [
+        [ 1, "smile" ],
+        [ 0.1, "vomit" ]
+      ],
+      "watercoolerCollect" : [[ 1, "crouchcollect" ]]
     },
     "influence" : [ "watercoolerCollect", "watercoolerConsume", "watercoolerComplete" ]
   },

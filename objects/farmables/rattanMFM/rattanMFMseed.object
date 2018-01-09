@@ -15,9 +15,10 @@
   "glitchDescription" : "Statement. A fibrous plant grown for its pliability.",
   "humanDescription" : "That plant looks cool! What can I make from it?",
   "hylotlDescription" : "An ugly tropical plant that can be woven into cheap furniture.",
+  "novakidDescription" : "I have no idea what this stuff is, but it looks useful.",
   "inventoryIcon" : "rattanMFMseedicon.png",
   "largeImage" : "rattanMFMseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "rattanMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -26,26 +27,20 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 420, 420 ]
-    },
-
-    {
-      "duration" : [ 420, 420 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 420, 420 ] },
+    { "duration" : [ 420, 420 ] },
     {
       "alts" : 5,
       "duration" : [ 1200, 1200 ]
     },
-
     {
       "alts" : 5,
       "harvestPool" : "rattanMFMHarvest",
       "resetToStage" : 2
-    } ],
-  "maxImmersion" : 0.5,
-  "novakidDescription" : "I have no idea what this stuff is, but it looks useful."
+    }
+  ],
+  "maxImmersion" : 0.5
 }

@@ -1,11 +1,10 @@
 {
   "itemName" : "chocolateliquordarkMFM",
   "rarity" : "Common",
+  "price" : 20.84,
   "category" : "liquid",
-  "inventoryIcon" : "chocolateliquordarkMFMicon.png",
-  "shortdescription" : "Chocolate Liquor - Dark",
   "description" : "(BAKE):-} Liquified dark chocolate.",
-  
-  "liquid" : "liquidchocolatedarkMFM",
-  "price" : 20.84
+  "shortdescription" : "Chocolate Liquor - Dark",
+  "inventoryIcon" : "chocolateliquordarkMFMicon.png",
+  "liquid" : "liquidchocolatedarkMFM"
 }

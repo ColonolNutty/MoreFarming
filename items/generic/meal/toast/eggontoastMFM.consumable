@@ -7,16 +7,12 @@
   "description" : "(PREP):-} An egg, but on toast.",
   "shortdescription" : "Toast - Egg",
   "foodValue" : 14.26,
-  "effects" : [ [ 
-      {
-        "effect" : "camouflage25",
-        "duration" : 7
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 11
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 7
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

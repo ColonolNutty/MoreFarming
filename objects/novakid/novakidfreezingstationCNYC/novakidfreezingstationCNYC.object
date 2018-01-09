@@ -16,7 +16,7 @@
   "humanDescription" : "All aboard the icecream train!",
   "hylotlDescription" : "Novel and functional.",
   "inventoryIcon" : "novakidfreezingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -25,18 +25,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "novakidfreezingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "novakidfreezingstationCNYClit.png:<color>"
-        } ],
+        { "image" : "novakidfreezingstationCNYClit.png:<color>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -45,16 +42,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "novakidfreezingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "novakidfreezingstationCNYClit.png:<color>"
-        } ]
-    } ],
+        { "image" : "novakidfreezingstationCNYClit.png:<color>" }
+      ]
+    }
+  ],
   "recipeGroup" : "freezingMFM",
   "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
@@ -66,14 +62,17 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
   "soundEffect" : "/sfx/objects/fridge_hum.ogg",
-  "npcToy" :   {
+  "npcToy" : {
     "preciseStandPositionRight" : [ 1, 0 ],
     "preciseStandPositionLeft" : [ -1, 0 ],
     "maxNpcs" : 1,
-    "defaultReactions" :     {
-      "watercoolerConsume" : [ [ 1, "drink" ] ],
-      "watercoolerComplete" : [ [ 1, "smile" ],[ 0.1, "vomit" ] ],
-      "watercoolerCollect" : [ [ 1, "crouchcollect" ] ]
+    "defaultReactions" : {
+      "watercoolerConsume" : [[ 1, "drink" ]],
+      "watercoolerComplete" : [
+        [ 1, "smile" ],
+        [ 0.1, "vomit" ]
+      ],
+      "watercoolerCollect" : [[ 1, "crouchcollect" ]]
     },
     "influence" : [ "watercoolerCollect", "watercoolerConsume", "watercoolerComplete" ]
   },

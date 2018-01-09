@@ -14,7 +14,7 @@
   "humanDescription" : "The other side of this screen is covered in blood.",
   "hylotlDescription" : "The screen smells of blood.",
   "inventoryIcon" : "bambooscreenBMBicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "bambooscreenBMB.png:<color>",
       "imagePosition" : [ -24, 0 ],
@@ -22,5 +22,6 @@
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ]
+    }
+]
 }

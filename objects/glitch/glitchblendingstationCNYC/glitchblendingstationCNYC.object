@@ -16,7 +16,7 @@
   "humanDescription" : "Smells like old socks and engine oil..",
   "hylotlDescription" : "The inside is revolting..",
   "inventoryIcon" : "glitchblendingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -24,18 +24,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "glitchblendingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "glitchblendingstationCNYC.png:<color>"
-        } ],
+        { "image" : "glitchblendingstationCNYC.png:<color>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -43,16 +40,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "glitchblendingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "glitchblendingstationCNYC.png:<color>"
-        } ]
-    } ],
+        { "image" : "glitchblendingstationCNYC.png:<color>" }
+      ]
+    }
+  ],
   "recipeGroup" : "blendingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

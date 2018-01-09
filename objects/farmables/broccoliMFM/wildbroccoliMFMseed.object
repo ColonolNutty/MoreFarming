@@ -14,7 +14,7 @@
   "humanDescription" : "Broccoli, had to eat it before I got any cake!",
   "inventoryIcon" : "broccoliMFMseedicon.png",
   "largeImage" : "broccoliMFMseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "broccoliMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -23,30 +23,22 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 480, 480 ]
-    },
-
-    {
-      "duration" : [ 480, 480 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 480, 480 ] },
+    { "duration" : [ 480, 480 ] },
     {
       "alts" : 5,
       "duration" : [ 1440, 1440 ]
     },
-
     {
       "alts" : 5,
       "harvestPool" : "broccoliMFMHarvest"
-    } ],
+    }
+  ],
   "maxImmersion" : 0.25,
-  "breakDropOptions" : [ [ [ "broccoliMFMseed", 1, 
-        {
-
-        } ] ] ],
+  "breakDropOptions" : [[[ "broccoliMFMseed", 1, { } ]]],
   "hasObjectItem" : false,
   "biomePlaced" : true
 }

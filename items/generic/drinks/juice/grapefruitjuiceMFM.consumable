@@ -7,11 +7,12 @@
   "description" : "(BLEND):-} tart grapefruit juice.",
   "shortdescription" : "Juice - Grapefruit",
   "foodValue" : 11.03,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 32
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -14,17 +14,16 @@
   "glitchDescription" : "Inspired. kitchen appliance Crafting module activated.",
   "humanDescription" : "I could make well tuned kitchen appliances with this.",
   "hylotlDescription" : "All you need to make kitchen appliances",
+  "novakidDescription" : "I could make some mighty fine kitchen appliances with this table.",
   "inventoryIcon" : "cn_craftingkitchenicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "cn_craftingkitchen.png:default",
       "imagePosition" : [ -16, 0 ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
-  "novakidDescription" : "I could make some mighty fine kitchen appliances with this table.",
+    }
+],
   "interactAction" : "OpenCraftingInterface",
-  "interactData" :   {
-    "config" : "/interface/windowconfig/cn_craftingkitchen.config"
-  }
+  "interactData" : { "config" : "/interface/windowconfig/cn_craftingkitchen.config" }
 }

@@ -6,17 +6,17 @@
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A orange bell pepper stuffed with rice, covered in tomato sauce.",
   "shortdescription" : "Stuffed Bell Pepper Orange",
-  "foodValue" : 56.13,
-  "effects" : [ [ 
-      {
-        "effect" : "fireblock",
-        "duration" : 60
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      } ] ],
+  "foodValue" : 71.5,
+  "effects" : [[
+    {
+      "effect" : "fireblock",
+      "duration" : 63
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 31
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

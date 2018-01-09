@@ -7,11 +7,6 @@
   "description" : "(FREEZE):-} A blue snow cone.",
   "shortdescription" : "Snow Cone - Blue",
   "foodValue" : 156.23,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 180
-      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

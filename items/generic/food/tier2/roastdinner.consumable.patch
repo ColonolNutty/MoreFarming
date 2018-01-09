@@ -1,54 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 458.7
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 65.72
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "regeneration1",
-            "duration" : 5
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 81
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 36
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 117
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -65,9 +25,65 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 65.72
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(PREP):-} Just a regular roast dinner. Nothing fancy, but satisfying all the same."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 458.7
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "regeneration1",
+          "duration" : 5
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 81
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 36
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 117
+        }
+      ]]
     }
   ]
 ]

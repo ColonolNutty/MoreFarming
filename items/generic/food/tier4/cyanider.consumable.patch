@@ -1,51 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 1234.28
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 64.16
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Alcohol - Cyanider"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "ragefood",
-            "duration" : 158
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 158
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -62,9 +25,62 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Alcohol - Cyanider"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 64.16
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(DISTILL):-} A mulled drink made of oculemon and pussplum. Delicious!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 1234.28
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "ragefood",
+          "duration" : 158
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 158
+        }
+      ]]
     }
   ]
 ]

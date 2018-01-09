@@ -6,12 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A chef took a try on making an Apex targeted pasta. It actually worked.",
   "shortdescription" : "Pasta - Banana",
-  "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "jumpboostfood",
-        "duration" : 180
-      } ] ],
+  "foodValue" : 12.82,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

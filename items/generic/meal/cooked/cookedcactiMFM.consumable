@@ -7,11 +7,6 @@
   "description" : "(BAKE):-} Spiky, but somewhat more edible.",
   "shortdescription" : "Baked Cactus",
   "foodValue" : 10.5,
-  "effects" : [ [ 
-      {
-        "effect" : "thorns",
-        "duration" : 60
-      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

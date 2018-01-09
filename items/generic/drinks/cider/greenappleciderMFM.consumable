@@ -6,12 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(DISTILL):-} Not actually green, but sweeter and sour!",
   "shortdescription" : "Cider - Green Apple",
-  "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 120
-      } ] ],
+  "foodValue" : 11.58,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

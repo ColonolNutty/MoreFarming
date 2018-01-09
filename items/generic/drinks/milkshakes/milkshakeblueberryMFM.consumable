@@ -7,26 +7,24 @@
   "description" : "(BLEND):-} A milkshake made with blueberries. Yum!",
   "shortdescription" : "Milkshake - Blueberry",
   "foodValue" : 23.79,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "iceblock",
-        "duration" : 45
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 60
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 34
+    },
+    {
+      "effect" : "iceblock",
+      "duration" : 49
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 72
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

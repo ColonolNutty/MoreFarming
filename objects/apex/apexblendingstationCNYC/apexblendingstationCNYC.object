@@ -10,12 +10,13 @@
   "shortdescription" : "^orange;Apex Blender (Blend)^white;",
   "race" : "generic",
   "inventoryIcon" : "apexblendingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "apexblendingstationCNYC.png:default",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "blendingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

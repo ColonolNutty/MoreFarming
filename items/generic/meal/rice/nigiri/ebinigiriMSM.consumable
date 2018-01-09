@@ -1,17 +1,12 @@
 {
   "itemName" : "ebinigiriMSM",
   "rarity" : "Common",
-  "price" : 270.56,
+  "price" : 248.51,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Cooked shrimp on top of rice.",
   "shortdescription" : "Nigiri - Ebi",
-  "foodValue" : 62.55,
-  "effects" : [ [ 
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 90
-      } ] ],
+  "foodValue" : 51.53,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

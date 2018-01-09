@@ -1,62 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 213.93
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 20.97
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "regeneration2",
-            "duration" : 6
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 6
-          },
-          {
-            "effect" : "maxenergyscalingboost",
-            "duration" : 6
-          },
-          {
-            "effect" : "runboostfood",
-            "duration" : 12
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 6
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 24
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -73,9 +25,73 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 20.97
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(FREEZE):-} Confectionery perfection."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 213.93
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "regeneration2",
+          "duration" : 6
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 6
+        },
+        {
+          "effect" : "maxenergyscalingboost",
+          "duration" : 6
+        },
+        {
+          "effect" : "runboostfood",
+          "duration" : 12
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 6
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 24
+        }
+      ]]
     }
   ]
 ]

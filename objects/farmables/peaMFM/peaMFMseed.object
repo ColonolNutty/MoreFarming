@@ -14,7 +14,7 @@
   "humanDescription" : "Like peas in a pod",
   "inventoryIcon" : "peaMFMseedicon.png",
   "largeImage" : "peaMFMseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "peaMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -23,25 +23,20 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 120, 120 ]
-    },
-
-    {
-      "duration" : [ 120, 120 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 120, 120 ] },
+    { "duration" : [ 120, 120 ] },
     {
       "alts" : 5,
       "duration" : [ 360, 360 ]
     },
-
     {
       "alts" : 5,
       "harvestPool" : "peaMFMHarvest",
       "resetToStage" : 2
-    } ],
+    }
+  ],
   "maxImmersion" : 0.25
 }

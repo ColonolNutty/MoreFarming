@@ -7,21 +7,20 @@
   "description" : "(PREP):-} Shortcrust pastry rolled and folded ready for use.",
   "shortdescription" : "Shortcrust Pastry",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 12
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 6
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 6
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 14
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

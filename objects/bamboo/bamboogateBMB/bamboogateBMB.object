@@ -15,32 +15,31 @@
   "humanDescription" : "A good gate for a floran garden.",
   "hylotlDescription" : "A little gate made of bamboo.",
   "inventoryIcon" : "bamboogateBMBicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "bamboogateBMB.png:closed",
       "imagePosition" : [ -16, 0 ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
-  "animationCustom" :   {
-    "sounds" :     {
-      "close" :       {
+  "animationCustom" : {
+    "sounds" : {
+      "close" : {
         "rangeMultiplier" : 0.5,
         "pool" : [ "/sfx/objects/woodendoor_close.ogg" ]
       },
-      "open" :       {
+      "open" : {
         "rangeMultiplier" : 0.5,
         "pool" : [ "/sfx/objects/woodendoor_open.ogg" ]
       }
     }
-  },
-  "outputNodes" : [ [ 0, 0 ] ],
+},
+  "outputNodes" : [[ 0, 0 ]],
   "animationPosition" : [ -16, 0 ],
-  "animationParts" :   {
-    "door" : "bamboogateBMB.png"
-  },
+  "animationParts" : { "door" : "bamboogateBMB.png" },
   "animation" : "/objects/wired/door/door.animation",
-  "inputNodes" : [ [ 0, 2 ] ]
+  "inputNodes" : [[ 0, 2 ]]
 }

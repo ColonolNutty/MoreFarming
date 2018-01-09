@@ -16,7 +16,7 @@
   "humanDescription" : "Reminds me of that place back on earth that made awesome gadgets",
   "hylotlDescription" : "I feel quite at home",
   "inventoryIcon" : "hylotlchoppingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "hylotlchoppingstationCNYC.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -24,7 +24,8 @@
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "choppingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

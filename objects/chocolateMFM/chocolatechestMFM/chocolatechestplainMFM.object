@@ -15,13 +15,14 @@
   "hylotlDescription" : "This is sure to leave grime on my equipment.",
   "inventoryIcon" : "chocolatechestplainMFMicon.png",
   "largeImage" : "chocolatechestMFM.png:plain.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "chocolatechestMFM.png:plain.<key>",
       "imagePosition" : [ -8, 0 ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
   "slotCount" : 16,

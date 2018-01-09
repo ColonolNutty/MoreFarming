@@ -1,59 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 338.66
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 46.32
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Salad - Garden"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "poisonblock",
-            "duration" : 60
-          },
-          {
-            "effect" : "camouflage25",
-            "duration" : 7
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 45
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 30
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -70,9 +25,70 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Salad - Garden"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 46.32
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(PREP):-} A big bowl of mixed veggies. Nutritious!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 338.66
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "poisonblock",
+          "duration" : 60
+        },
+        {
+          "effect" : "camouflage25",
+          "duration" : 7
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 45
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 30
+        }
+      ]]
     }
   ]
 ]

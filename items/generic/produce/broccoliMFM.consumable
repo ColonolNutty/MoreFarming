@@ -8,11 +8,12 @@
   "description" : "Broccoli is classified in the Italica cultivar group of the species Brassica oleracea.",
   "shortdescription" : "Broccoli",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 45
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 45
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

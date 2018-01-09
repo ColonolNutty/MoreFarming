@@ -1,50 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 441.0
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 28.39
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "runboostfood",
-            "duration" : 210
-          },
-          {
-            "effect" : "jumpboostfood",
-            "duration" : 210
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 210
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -61,9 +25,61 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 28.39
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BLEND):-} A tropical mix that packs a punch."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 441.0
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "runboostfood",
+          "duration" : 210
+        },
+        {
+          "effect" : "jumpboostfood",
+          "duration" : 210
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 210
+        }
+      ]]
     }
   ]
 ]

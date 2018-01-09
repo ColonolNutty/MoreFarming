@@ -14,7 +14,7 @@
   "humanDescription" : "A good seasoning for any dish, almost any...",
   "inventoryIcon" : "gingerMSMseedicon.png",
   "largeImage" : "gingerMSMseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "gingerMSMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -23,31 +23,23 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 180, 180 ]
-    },
-
-    {
-      "duration" : [ 180, 180 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 180, 180 ] },
+    { "duration" : [ 180, 180 ] },
     {
       "alts" : 5,
       "duration" : [ 480, 480 ]
     },
-
     {
       "alts" : 5,
       "harvestPool" : "gingerMSMHarvest",
       "resetToStage" : 2
-    } ],
+    }
+  ],
   "maxImmersion" : 0.25,
-  "breakDropOptions" : [ [ [ "gingerMSMseed", 1, 
-        {
-
-        } ] ] ],
+  "breakDropOptions" : [[[ "gingerMSMseed", 1, { } ]]],
   "hasObjectItem" : false,
   "biomePlaced" : true
 }

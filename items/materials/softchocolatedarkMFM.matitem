@@ -1,13 +1,12 @@
 {
   "itemName" : "softchocolatedarkMFM",
-  "price" : 1,
-  "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "softchocolatedarkMFM.png",
+  "price" : 1.0,
+  "category" : "block",
   "description" : "Softened dark chocolate. It is very bitter.",
   "shortdescription" : "Soft Chocolate - Dark",
-  "glitchdescription" : "Statement. Softened dark chocolate.",
   "floranDescription" : "Fluffy and sssweet sssugar sssludge.",
-  
+  "inventoryIcon" : "softchocolatedarkMFM.png",
+  "glitchdescription" : "Statement. Softened dark chocolate.",
   "materialId" : 19214
 }

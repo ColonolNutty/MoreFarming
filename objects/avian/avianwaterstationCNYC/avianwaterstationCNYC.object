@@ -16,7 +16,7 @@
   "humanDescription" : "Really need the loo.. again!",
   "hylotlDescription" : "I could listen to this for days..",
   "inventoryIcon" : "avianwaterstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -24,18 +24,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "avianwaterstationCNYC.png:<color>.<frame>",
           "fullbright" : true
         },
-
-        {
-          "image" : "avianwaterstationCNYClit.png:<color>.<frame>"
-        } ],
+        { "image" : "avianwaterstationCNYClit.png:<color>.<frame>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -43,16 +40,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "avianwaterstationCNYC.png:<color>.<frame>",
           "fullbright" : true
         },
-
-        {
-          "image" : "avianwaterstationCNYClit.png:<color>.<frame>"
-        } ]
-    } ],
+        { "image" : "avianwaterstationCNYClit.png:<color>.<frame>" }
+      ]
+    }
+  ],
   "recipeGroup" : "waterMFM",
   "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
   "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],
@@ -69,13 +65,13 @@
   "flickerMaxIntensity" : 0.55,
   "soundEffect" : "/sfx/objects/fountain_small1.ogg",
   "soundEffectRadius" : 20,
-  "particleEmitter" :   {
+  "particleEmitter" : {
     "emissionRate" : 4,
-    "particleVariance" :     {
+    "particleVariance" : {
       "initialVelocity" : [ -1, 0.4 ],
       "position" : [ 0.2, 0 ]
     },
-    "particle" :     {
+    "particle" : {
       "timeToLive" : 0.6,
       "fade" : 2,
       "size" : 1,

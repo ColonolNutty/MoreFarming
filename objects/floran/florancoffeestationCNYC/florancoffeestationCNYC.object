@@ -10,12 +10,13 @@
   "shortdescription" : "^orange;Floran Coffeepot (Coffee)^white;",
   "race" : "generic",
   "inventoryIcon" : "florancoffeestationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "florancoffeestationCNYC.png:default",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "coffeeMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

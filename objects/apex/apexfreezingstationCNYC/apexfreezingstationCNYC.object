@@ -11,13 +11,14 @@
   "shortdescription" : "^orange;Apex Freezer (Freeze)^white;",
   "race" : "generic",
   "inventoryIcon" : "apexfreezingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "apexfreezingstationCNYC.png:default",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-    } ],
+    }
+],
   "recipeGroup" : "freezingMFM",
   "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],

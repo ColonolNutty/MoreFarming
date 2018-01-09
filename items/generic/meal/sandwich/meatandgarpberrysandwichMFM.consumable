@@ -7,16 +7,16 @@
   "description" : "(BAKE):-} Chunks of meat and garpberries sandwiched between bread.",
   "shortdescription" : "Sandwich - Mearpberry",
   "foodValue" : 26.28,
-  "effects" : [ [ 
-      {
-        "effect" : "nova",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 360
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "nova",
+      "duration" : 31
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 189
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

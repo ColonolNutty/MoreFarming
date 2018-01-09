@@ -16,7 +16,7 @@
   "humanDescription" : "Excellent, I could use a cuppa.. wait.. no teabags. Typical.",
   "hylotlDescription" : "Efficent!",
   "inventoryIcon" : "purifierstationMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "purifierstationMFM.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -24,7 +24,8 @@
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "purifyingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
@@ -34,13 +35,13 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/purifyingMFMRecipes.config",
-  "particleEmitter" :   {
+  "particleEmitter" : {
     "emissionRate" : 6,
-    "particleVariance" :     {
+    "particleVariance" : {
       "initialVelocity" : [ 0.3, 2 ],
       "position" : [ 0.2, 0 ]
     },
-    "particle" :     {
+    "particle" : {
       "timeToLive" : 1,
       "fade" : 1,
       "size" : 1,

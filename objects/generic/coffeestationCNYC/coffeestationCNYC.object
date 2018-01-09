@@ -17,7 +17,7 @@
   "humanDescription" : "I'm going to spell my own name wrong on the cup too!.",
   "hylotlDescription" : "Es-what-now? How do you even work this thing?",
   "inventoryIcon" : "coffeestationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -26,18 +26,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "coffeestationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "coffeestationCNYClit.png:<color>"
-        } ],
+        { "image" : "coffeestationCNYClit.png:<color>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -46,16 +43,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "coffeestationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "coffeestationCNYClit.png:<color>"
-        } ]
-    } ],
+        { "image" : "coffeestationCNYClit.png:<color>" }
+      ]
+    }
+  ],
   "recipeGroup" : "coffeeMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
@@ -66,14 +62,17 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/coffeeMFMRecipes.config",
   "retainObjectParametersInItem" : true,
-  "npcToy" :   {
+  "npcToy" : {
     "preciseStandPositionRight" : [ 1, 0 ],
     "preciseStandPositionLeft" : [ -1, 0 ],
     "maxNpcs" : 1,
-    "defaultReactions" :     {
-      "watercoolerConsume" : [ [ 1, "drink" ] ],
-      "watercoolerComplete" : [ [ 1, "smile" ],[ 0.1, "vomit" ] ],
-      "watercoolerCollect" : [ [ 1, "crouchcollect" ] ]
+    "defaultReactions" : {
+      "watercoolerConsume" : [[ 1, "drink" ]],
+      "watercoolerComplete" : [
+        [ 1, "smile" ],
+        [ 0.1, "vomit" ]
+      ],
+      "watercoolerCollect" : [[ 1, "crouchcollect" ]]
     },
     "influence" : [ "watercoolerCollect", "watercoolerConsume", "watercoolerComplete" ]
   },

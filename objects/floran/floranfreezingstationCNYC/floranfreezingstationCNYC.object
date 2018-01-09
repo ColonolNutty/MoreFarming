@@ -16,13 +16,15 @@
   "glitchDescription" : "Inspect. Chest coldbox.",
   "humanDescription" : "Really could go for an icecream..",
   "hylotlDescription" : "Remains cold on hot days, ideal!",
+  "novakidDescription" : "Primitive lookin' freezer. I suppose it does the job.",
   "inventoryIcon" : "floranfreezingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "floranfreezingstationCNYC.png:default",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "freezingMFM",
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
@@ -34,7 +36,6 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
   "retainObjectParametersInItem" : true,
-  "novakidDescription" : "Primitive lookin' freezer. I suppose it does the job.",
   "subtitle" : "Freeze and Chill!",
   "itemAgeMultiplier" : 0
 }

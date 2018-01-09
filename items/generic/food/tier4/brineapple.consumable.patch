@@ -1,42 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 313.27
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 15.08
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "regeneration3",
-            "duration" : 2
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -53,9 +25,53 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 15.08
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} Jellied coralcreep inside of a glazed pineapple, served warm. A fancy Hylotl treat!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 313.27
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "regeneration3",
+          "duration" : 2
+        }
+      ]]
     }
   ]
 ]

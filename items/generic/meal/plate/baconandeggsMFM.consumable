@@ -7,21 +7,20 @@
   "description" : "(PREP):-} Nothing beats a breakfast of bacon and eggs.",
   "shortdescription" : "Bacon and Eggs",
   "foodValue" : 35.74,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 60
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 35
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 35
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 75
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

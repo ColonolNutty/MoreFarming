@@ -1,47 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 507.22
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 54.59
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Bread - Carrot"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 180
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -58,9 +25,58 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Bread - Carrot"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 54.59
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} A loaf of carrot bread. Let's be honest, it's just bread-shaped cake."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 507.22
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 180
+        }
+      ]]
     }
   ]
 ]

@@ -1,55 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 573.3
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 30.32
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Salad - Fruit"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "runboostfood",
-            "duration" : 210
-          },
-          {
-            "effect" : "jumpboostfood",
-            "duration" : 210
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 210
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -66,9 +25,66 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Salad - Fruit"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 30.32
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(PREP):-} Various fruits all conveniently mixed together."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 573.3
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "runboostfood",
+          "duration" : 210
+        },
+        {
+          "effect" : "jumpboostfood",
+          "duration" : 210
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 210
+        }
+      ]]
     }
   ]
 ]

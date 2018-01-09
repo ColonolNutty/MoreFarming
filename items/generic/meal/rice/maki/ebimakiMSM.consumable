@@ -1,27 +1,26 @@
 {
   "itemName" : "ebimakiMSM",
   "rarity" : "Uncommon",
-  "price" : 682.21,
+  "price" : 660.16,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Cooked shrimp and tamari packed in a rice ball.",
   "shortdescription" : "Maki - Ebi",
-  "foodValue" : 140.78,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 60
-      } ] ],
+  "foodValue" : 129.76,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 33
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 33
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 69
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

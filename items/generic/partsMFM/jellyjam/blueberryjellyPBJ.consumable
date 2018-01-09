@@ -7,11 +7,12 @@
   "description" : "(BLEND):-} Jelly made from blueberries.",
   "shortdescription" : "Jelly - Blueberry",
   "foodValue" : 50.5,
-  "effects" : [ [ 
-      {
-        "effect" : "iceblock",
-        "duration" : 45
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "iceblock",
+      "duration" : 227
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

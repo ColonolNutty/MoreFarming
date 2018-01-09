@@ -7,11 +7,12 @@
   "description" : "(CHOP):-} Raw alien meat chopped into strips.",
   "shortdescription" : "Raw Strip of Alien Meat",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "foodpoison",
-        "duration" : 30
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "foodpoison",
+      "duration" : 31
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

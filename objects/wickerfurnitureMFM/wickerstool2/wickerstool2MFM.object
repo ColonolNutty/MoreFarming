@@ -14,8 +14,9 @@
   "glitchDescription" : "Observation. A stool.",
   "humanDescription" : "A cute little stool.",
   "hylotlDescription" : "A charming stool.",
+  "novakidDescription" : "A lil wooden stool, straight outta some fairytale.",
   "inventoryIcon" : "wickerstool2MFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "image" : "wickerstool2MFM.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -26,7 +27,6 @@
       "anchors" : [ "bottom" ],
       "sitPosition" : [ 0, 23 ]
     },
-
     {
       "image" : "wickerstool2MFM.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -36,7 +36,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "sitPosition" : [ 0, 23 ]
-    } ],
-  "novakidDescription" : "A lil wooden stool, straight outta some fairytale.",
+    }
+  ],
   "sitFlipDirection" : false
 }

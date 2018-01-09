@@ -1,22 +1,22 @@
 {
   "itemName" : "ebitemakiMSM",
   "rarity" : "Uncommon",
-  "price" : 414.1,
+  "price" : 371.05,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Cooked shrimp and cucumber, wrapped in rice and kelp.",
   "shortdescription" : "Temaki - Ebi",
-  "foodValue" : 131.39,
-  "effects" : [ [ 
-      {
-        "effect" : "camouflage25",
-        "duration" : 7
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 45
-      } ] ],
+  "foodValue" : 109.86,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 7
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 96
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

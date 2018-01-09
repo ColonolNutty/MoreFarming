@@ -2,52 +2,43 @@
   "name" : "liquidchocolatemilkMFM",
   "liquidId" : 142,
   "description" : "Creamy milk mixed with delicious chocolate.",
-  "glitchDescription" : "Analysis. A mixture of milk and chocolate.",
   "floranDescription" : "Yummy chocolate milk!",
-  "tickDelta" : 1,
-  "color" : [255, 255, 255, 240],
-  "statusEffects": [ "swimming" ],
+  "glitchDescription" : "Analysis. A mixture of milk and chocolate.",
+  "color" : [ 255, 255, 255, 240 ],
+  "textureMovementFactor" : 2,
+  "texture" : "/liquids/liquidchocolatemilkMFMtex.png",
   "itemDrop" : "chocolatemilkMFM",
-
   "interactions" : [
-    //coconutmilk
     {
       "liquid" : 7,
       "liquidResult" : 142
     },
-    //water
     {
       "liquid" : 8,
       "liquidResult" : 141
     },
-    //poison
     {
       "liquid" : 3,
       "liquidResult" : 3
     },
-    //liquidchocolateMFM
     {
       "liquid" : 138,
       "liquidResult" : 142
     },
-    //liquiddarkchocolateMFM
     {
       "liquid" : 139,
       "liquidResult" : 142
     },
-    //liquidwhitechocolateMFM
     {
       "liquid" : 140,
       "liquidResult" : 142
     },
-    //liquidmilkMFM
     {
       "liquid" : 141,
       "liquidResult" : 142
     }
   ],
-
-  "texture" : "/liquids/liquidchocolatemilkMFMtex.png",
-  "bottomLightMix" : [255, 255, 255],
-  "textureMovementFactor" : 2
+  "statusEffects" : [ "swimming" ],
+  "tickDelta" : 1,
+  "bottomLightMix" : [ 255, 255, 255 ]
 }

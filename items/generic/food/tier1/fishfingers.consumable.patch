@@ -1,46 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 21.26
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 10.0
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "camouflage25",
-            "duration" : 7
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 11
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -57,9 +25,57 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 10.0
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(FRY):-} Tasty fried fish in stick form. Where's the custard?"
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 21.26
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "camouflage25",
+          "duration" : 7
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 11
+        }
+      ]]
     }
   ]
 ]

@@ -2,22 +2,13 @@
   [
     {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/description",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : []
+      "path" : "/description",
+      "value" : ""
     }
   ],
   [
@@ -34,21 +25,14 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 60.0
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/description",
+      "path" : "/effects",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/description",
-      "value" : ""
+      "path" : "/effects",
+      "value" : [[ ]]
     }
   ],
   [
@@ -56,6 +40,16 @@
       "op" : "replace",
       "path" : "/description",
       "value" : "Mmm crunchy."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 60.0
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [ ]
     }
   ]
 ]

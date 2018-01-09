@@ -7,11 +7,12 @@
   "description" : "(BOIL):-} Cauliflower boiled in water.",
   "shortdescription" : "Boiled Cauliflower",
   "foodValue" : 11.03,
-  "effects" : [ [ 
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 45
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 49
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

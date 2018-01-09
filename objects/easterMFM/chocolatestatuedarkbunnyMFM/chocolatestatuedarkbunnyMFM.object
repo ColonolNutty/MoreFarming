@@ -2,12 +2,11 @@
   "objectName" : "chocolatestatuedarkbunnyMFM",
   "colonyTags" : [ "easter", "chocolate", "pretty", "valuable" ],
   "rarity" : "Uncommon",
+  "price" : 1500.0,
   "category" : "decorative",
-  "price" : 1500,
   "description" : "A bunny statue made of dark chocolate! It's wishing you a Happy Easter!",
   "shortdescription" : "Chocolate Statue - D. Bunny",
   "race" : "generic",
-
   "apexDescription" : "The engravings state \"This is totally the real Easter Bunny\".",
   "avianDescription" : "The plaque at the bottom says, \"This is totally the real Easter Bunny\".",
   "floranDescription" : "Floran read wordsss. Wordsss say, \"Thisss is totally the real Eassster Bunny\".",
@@ -15,15 +14,13 @@
   "humanDescription" : "The plaque says, \"This is totally the real Easter Bunny\".",
   "hylotlDescription" : "The engravings claim, \"This is totally the real Easter Bunny\".",
   "novakidDescription" : "I can't read good, but it says, \"This is totally tha rail Eastare Bunny\".",
-
   "inventoryIcon" : "chocolatestatuedarkbunnyMFMicon.png",
   "orientations" : [
     {
       "dualImage" : "chocolatestatuedarkbunnyMFM.png:<color>",
-      "imagePosition" : [-8, 0],
-
+      "imagePosition" : [ -8, 0 ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+]
 }

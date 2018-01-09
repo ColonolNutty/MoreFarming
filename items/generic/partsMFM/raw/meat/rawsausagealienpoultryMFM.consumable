@@ -8,11 +8,12 @@
   "description" : "(PRESS):-} Sausage links, contains steak and poultry",
   "shortdescription" : "Raw Sausage",
   "foodValue" : 11.03,
-  "effects" : [ [ 
-      {
-        "effect" : "foodpoison",
-        "duration" : 60
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "foodpoison",
+      "duration" : 64
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

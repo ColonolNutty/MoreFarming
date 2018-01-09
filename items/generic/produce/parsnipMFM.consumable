@@ -8,11 +8,12 @@
   "description" : "Sub-parsnip at best.",
   "shortdescription" : "Parsnip",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "glow",
-        "duration" : 30
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "glow",
+      "duration" : 30
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

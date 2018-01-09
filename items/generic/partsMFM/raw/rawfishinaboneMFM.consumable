@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} Boneboo filled with strips of raw fish. Ready for baking.",
   "shortdescription" : "Raw Fish in a Bone",
-  "foodValue" : 10.76,
+  "foodValue" : 16.01,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

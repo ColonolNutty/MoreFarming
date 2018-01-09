@@ -6,12 +6,13 @@
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A green bell pepper stuffed with rice, covered in tomato sauce.",
   "shortdescription" : "Stuffed Bell Pepper Green",
-  "foodValue" : 56.13,
-  "effects" : [ [ 
-      {
-        "effect" : "poisonblock",
-        "duration" : 60
-      } ] ],
+  "foodValue" : 71.5,
+  "effects" : [[
+    {
+      "effect" : "poisonblock",
+      "duration" : 63
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

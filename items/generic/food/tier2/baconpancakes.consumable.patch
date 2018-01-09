@@ -1,55 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 207.27
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 53.43
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Pancakes - Bacon"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 36
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 36
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 72
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -66,9 +25,66 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Pancakes - Bacon"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 53.43
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} Pancake. Bacon. Pancake. Bacon. Pancake. Butter. Eat."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 207.27
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 36
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 36
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 72
+        }
+      ]]
     }
   ]
 ]

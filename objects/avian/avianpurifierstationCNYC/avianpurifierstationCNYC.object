@@ -16,7 +16,7 @@
   "humanDescription" : "It's like elevenses with old-former-now-destroyed-world leaders!",
   "hylotlDescription" : "Very quiant",
   "inventoryIcon" : "avianpurifierstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "avianpurifierstationCNYC.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -24,7 +24,8 @@
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "purifyingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

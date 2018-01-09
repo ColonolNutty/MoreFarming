@@ -10,13 +10,14 @@
   "shortdescription" : "^orange;Floran Bone Knife (Chop)^white;",
   "race" : "generic",
   "inventoryIcon" : "floranchoppingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "floranchoppingstationCNYC.png:default.<frame>",
       "imagePosition" : [ 0, 0 ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "choppingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

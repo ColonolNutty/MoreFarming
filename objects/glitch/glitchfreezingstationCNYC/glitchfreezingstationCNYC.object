@@ -17,7 +17,7 @@
   "humanDescription" : "Oh an icebox! Any cold ones in there?",
   "hylotlDescription" : "A crate of ice.. deceptivley simple",
   "inventoryIcon" : "glitchfreezingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -26,18 +26,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "glitchfreezingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "glitchfreezingstationCNYClit.png:<color>"
-        } ],
+        { "image" : "glitchfreezingstationCNYClit.png:<color>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -46,16 +43,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "glitchfreezingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "glitchfreezingstationCNYClit.png:<color>"
-        } ]
-    } ],
+        { "image" : "glitchfreezingstationCNYClit.png:<color>" }
+      ]
+    }
+  ],
   "recipeGroup" : "freezingMFM",
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],

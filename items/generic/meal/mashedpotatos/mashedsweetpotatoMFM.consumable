@@ -7,21 +7,20 @@
   "description" : "(BOIL):-} Smashing sweet potatoes is scientifically proven to make them 500% tastier.",
   "shortdescription" : "Mashed Sweet Potato",
   "foodValue" : 26.36,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 36
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 36
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 122
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 40
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 40
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 138
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

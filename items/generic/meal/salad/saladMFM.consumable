@@ -7,16 +7,16 @@
   "description" : "(PREP):-} A plain salad.",
   "shortdescription" : "Salad - Plain",
   "foodValue" : 13.26,
-  "effects" : [ [ 
-      {
-        "effect" : "camouflage25",
-        "duration" : 7
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 30
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 7
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 31
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

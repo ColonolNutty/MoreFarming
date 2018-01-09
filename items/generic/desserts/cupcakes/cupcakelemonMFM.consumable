@@ -1,42 +1,38 @@
 {
   "itemName" : "cupcakelemonMFM",
   "rarity" : "Common",
-  "price" : 383.08,
+  "price" : 152.46,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A cupcake with lemon icing.",
   "shortdescription" : "Cupcake - Lemon",
-  "foodValue" : 71.13,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 12
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 12
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 36
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 42
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 36
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 102
-      } ] ],
+  "foodValue" : 25.9,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 7
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 7
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 8
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 41
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 8
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 51
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

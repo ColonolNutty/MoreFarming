@@ -13,7 +13,7 @@
   "humanDescription" : "I have dreamed of this day!",
   "hylotlDescription" : "It's a fountain... of diabetes.",
   "inventoryIcon" : "chocolatefountainMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "image" : "chocolatefountainMFM.png:<color>.<frame>",
       "imagePosition" : [ -32, 0 ],
@@ -21,7 +21,8 @@
       "animationCycle" : 0.4,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "sitPosition" : [ 14, 24 ],
   "soundEffect" : "/sfx/objects/fountain1.ogg",
   "sitFlipDirection" : false

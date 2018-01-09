@@ -1,59 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 194.55
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 77.54
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Omelette - Ba.Ch.Mu."
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "camouflage25",
-            "duration" : 7
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 30
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 30
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 60
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -70,9 +25,70 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Omelette - Ba.Ch.Mu."
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 77.54
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(FRY):-} Easily prepared and delicious, you can't go wrong with an omelette!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 194.55
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "camouflage25",
+          "duration" : 7
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 30
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 30
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 60
+        }
+      ]]
     }
   ]
 ]

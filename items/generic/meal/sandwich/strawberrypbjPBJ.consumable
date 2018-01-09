@@ -7,21 +7,16 @@
   "description" : "(PREP):-} A sandwich made with peanut butter and strawberry jelly.",
   "shortdescription" : "Sandwich - Strawberry PB+J",
   "foodValue" : 110.81,
-  "effects" : [ [ 
-      {
-        "effect" : "camouflage25",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 90
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 158
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 158
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

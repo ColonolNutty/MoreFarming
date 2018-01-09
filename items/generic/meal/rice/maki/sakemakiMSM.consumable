@@ -7,11 +7,12 @@
   "description" : "(PREP):-} Smoked salmon and cucumber packed in sake.",
   "shortdescription" : "Maki - Sake",
   "foodValue" : 77.28,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 45
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 49
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

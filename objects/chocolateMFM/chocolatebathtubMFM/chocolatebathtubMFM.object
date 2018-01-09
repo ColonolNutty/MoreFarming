@@ -14,7 +14,7 @@
   "humanDescription" : "Well, it was a good idea in theory...",
   "hylotlDescription" : "This should be used solely for decoration.",
   "inventoryIcon" : "chocolatebathtubMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "image" : "chocolatebathtubMFM.png:<color>.<frame>",
       "imagePosition" : [ -16, 0 ],
@@ -22,11 +22,10 @@
       "animationCycle" : 0.4,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "scripts" : [ "chocolatebathtubMFM.lua" ],
   "animation" : "chocolatebathtubMFM.animation",
   "animationPosition" : [ -16, 0 ],
-  "animationParts" :   {
-    "bath" : "chocolatebathtubMFM.png"
-  }
+  "animationParts" : { "bath" : "chocolatebathtubMFM.png" }
 }

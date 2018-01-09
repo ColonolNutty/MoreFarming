@@ -14,7 +14,7 @@
   "humanDescription" : "Why must I cry while cutting these?!",
   "inventoryIcon" : "onionMFMseedicon.png",
   "largeImage" : "onionMFMseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "onionMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -23,25 +23,20 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 300, 300 ]
-    },
-
-    {
-      "duration" : [ 300, 300 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 300, 300 ] },
+    { "duration" : [ 300, 300 ] },
     {
       "alts" : 5,
       "duration" : [ 840, 840 ]
     },
-
     {
       "alts" : 5,
       "harvestPool" : "onionMFMHarvest",
       "resetToStage" : 2
-    } ],
+    }
+  ],
   "maxImmersion" : 0.25
 }

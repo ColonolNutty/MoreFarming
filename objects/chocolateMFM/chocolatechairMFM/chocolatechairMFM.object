@@ -14,7 +14,7 @@
   "humanDescription" : "Oompa Loompa do-ba-dee-doo.",
   "hylotlDescription" : "I am not sitting on that.",
   "inventoryIcon" : "chocolatechairMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "chocolatechairMFM.png:<color>",
       "imagePosition" : [ -12, 0 ],
@@ -22,7 +22,8 @@
       "animationCycle" : 1.0,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "sitPosition" : [ 2, 20 ],
   "sitCoverImage" : "/objects/chocolateMFM/chocolatechairMFM/chocolatechairMFMcover.png",
   "sitFlipDirection" : false

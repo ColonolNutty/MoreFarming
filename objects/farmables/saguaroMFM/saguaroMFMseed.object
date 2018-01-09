@@ -17,7 +17,7 @@
   "hylotlDescription" : "These make the Desert a blast!",
   "inventoryIcon" : "saguaroMFMseedicon.png",
   "largeImage" : "saguaroMFMseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "saguaroMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -26,21 +26,21 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
+    }
+],
+  "stages" : [
     {
       "alts" : 1,
       "duration" : [ 240, 240 ]
     },
-
     {
       "alts" : 1,
       "duration" : [ 360, 360 ]
     },
-
     {
       "alts" : 1,
       "harvestPool" : "saguaroMFMHarvest"
-    } ],
+    }
+  ],
   "maxImmersion" : 1.0
 }

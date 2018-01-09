@@ -7,21 +7,20 @@
   "description" : "(FREEZE):-} Chocolate ice cream.",
   "shortdescription" : "Ice Cream - Chocolate",
   "foodValue" : 62.1,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 270
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 60
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 133
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 133
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 279
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

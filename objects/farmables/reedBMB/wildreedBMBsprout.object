@@ -13,7 +13,7 @@
   "glitchDescription" : "Statement. Just reeds.",
   "inventoryIcon" : "reedBMBsprouticon.png",
   "largeImage" : "reedBMBsprout.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "reedBMBsprout.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -22,31 +22,23 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 1140, 1140 ]
-    },
-
-    {
-      "duration" : [ 1140, 1140 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 1140, 1140 ] },
+    { "duration" : [ 1140, 1140 ] },
     {
       "alts" : 5,
       "duration" : [ 3480, 3480 ]
     },
-
     {
       "alts" : 5,
       "harvestPool" : "reedBMBHarvest",
       "resetToStage" : 2
-    } ],
+    }
+  ],
   "maxImmersion" : 1.0,
-  "breakDropOptions" : [ [ [ "reedBMBsprout", 1, 
-        {
-
-        } ] ] ],
+  "breakDropOptions" : [[[ "reedBMBsprout", 1, { } ]]],
   "hasObjectItem" : false,
   "biomePlaced" : true
 }

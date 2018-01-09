@@ -8,11 +8,12 @@
   "description" : "Peanuts in space!",
   "shortdescription" : "Peanut",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "camouflage25",
-        "duration" : 30
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 30
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

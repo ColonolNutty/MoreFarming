@@ -7,26 +7,24 @@
   "description" : "(CHOP):-} Washed and chopped asparagus.",
   "shortdescription" : "Chopped Asparagus",
   "foodValue" : 10.5,
-  "effects" : [ [ 
-      {
-        "effect" : "swimboost",
-        "duration" : 70
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 70
-      },
-
-      {
-        "effect" : "jumpboostfood",
-        "duration" : 70
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 70
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "swimboost",
+      "duration" : 73
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 73
+    },
+    {
+      "effect" : "jumpboostfood",
+      "duration" : 73
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 73
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

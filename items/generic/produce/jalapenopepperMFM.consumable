@@ -8,21 +8,20 @@
   "description" : "Hot.",
   "shortdescription" : "Jalapeno Pepper",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "rage",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "burning",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "iceblock",
-        "duration" : 60
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "rage",
+      "duration" : 30
+    },
+    {
+      "effect" : "burning",
+      "duration" : 30
+    },
+    {
+      "effect" : "iceblock",
+      "duration" : 60
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

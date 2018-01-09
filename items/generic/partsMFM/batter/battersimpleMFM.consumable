@@ -1,12 +1,26 @@
 {
   "itemName" : "battersimpleMFM",
   "rarity" : "Common",
-  "price" : 19.85,
+  "price" : 99.47,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A simple batter. Suitable for coating and frying.",
   "shortdescription" : "Batter - Simple",
-  "foodValue" : 10.0,
+  "foodValue" : 15.25,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 34
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 72
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -1,62 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 330.32
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 29.53
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "regeneration2",
-            "duration" : 12
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 6
-          },
-          {
-            "effect" : "maxenergyscalingboost",
-            "duration" : 12
-          },
-          {
-            "effect" : "runboostfood",
-            "duration" : 18
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 6
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 24
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -73,9 +25,73 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 29.53
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} It looks like the old spooky holiday treat, but there's actual corn in the centre of each morsel."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 330.32
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "regeneration2",
+          "duration" : 12
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 6
+        },
+        {
+          "effect" : "maxenergyscalingboost",
+          "duration" : 12
+        },
+        {
+          "effect" : "runboostfood",
+          "duration" : 18
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 6
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 24
+        }
+      ]]
     }
   ]
 ]

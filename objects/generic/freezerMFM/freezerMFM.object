@@ -16,8 +16,9 @@
   "glitchDescription" : "Counting. There are exactly six thousand, four hundred and eighty four frozen items in this freezer.",
   "humanDescription" : "A freezer, one of humanity's greatest inventions.",
   "hylotlDescription" : "A freezer for freezing stuff. Interesting.",
+  "novakidDescription" : "Freezes stuff I put in. Interesting.",
   "inventoryIcon" : "freezerMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "image" : "freezerMFMleft.png:<color>",
       "imagePosition" : [ -16, 0 ],
@@ -25,9 +26,13 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "collisionSpaces" : [ [ -1, 2 ],[ 0, 2 ],[ 1, 2 ],[ 2, 2 ] ]
+      "collisionSpaces" : [
+        [ -1, 2 ],
+        [ 0, 2 ],
+        [ 1, 2 ],
+        [ 2, 2 ]
+      ]
     },
-
     {
       "image" : "freezerMFMright.png:<color>",
       "imagePosition" : [ -16, 0 ],
@@ -35,8 +40,14 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "collisionSpaces" : [ [ -2, 2 ],[ -1, 2 ],[ 0, 2 ],[ 1, 2 ] ]
-    } ],
+      "collisionSpaces" : [
+        [ -2, 2 ],
+        [ -1, 2 ],
+        [ 0, 2 ],
+        [ 1, 2 ]
+      ]
+    }
+  ],
   "recipeGroup" : "freezingMFM",
   "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
@@ -48,6 +59,5 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
   "soundEffect" : "/sfx/objects/fridge_hum.ogg",
-  "novakidDescription" : "Freezes stuff I put in. Interesting.",
   "itemAgeMultiplier" : 0
 }

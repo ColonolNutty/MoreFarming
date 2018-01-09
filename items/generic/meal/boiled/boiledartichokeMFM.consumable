@@ -7,21 +7,20 @@
   "description" : "(BOIL):-} An artichoke boiled in water.",
   "shortdescription" : "Boiled Artichoke",
   "foodValue" : 11.03,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration1",
-        "duration" : 60
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 60
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 60
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "regeneration1",
+      "duration" : 66
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 66
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 66
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

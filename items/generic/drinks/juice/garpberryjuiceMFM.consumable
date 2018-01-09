@@ -7,16 +7,16 @@
   "description" : "(BLEND):-} Garpberry juice! It has a mildly juciey flavor.",
   "shortdescription" : "Juice - Garpberry",
   "foodValue" : 11.03,
-  "effects" : [ [ 
-      {
-        "effect" : "nova",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 180
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "nova",
+      "duration" : 32
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 198
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

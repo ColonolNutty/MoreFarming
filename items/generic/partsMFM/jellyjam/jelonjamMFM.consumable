@@ -7,16 +7,16 @@
   "description" : "(BLEND):-} Jam made from jelons.",
   "shortdescription" : "Jam - Jelon",
   "foodValue" : 52.6,
-  "effects" : [ [ 
-      {
-        "effect" : "swimboost",
-        "duration" : 50
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 50
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "swimboost",
+      "duration" : 252
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 252
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

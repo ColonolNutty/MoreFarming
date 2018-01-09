@@ -16,7 +16,7 @@
   "humanDescription" : "I'm going to lose a finger, or my face..",
   "hylotlDescription" : "Ideal if you like chunks in your juice",
   "inventoryIcon" : "avianblendingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "avianblendingstationCNYC.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -24,7 +24,8 @@
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "blendingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

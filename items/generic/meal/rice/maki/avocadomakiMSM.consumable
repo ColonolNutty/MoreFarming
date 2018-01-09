@@ -7,21 +7,20 @@
   "description" : "(PREP):-} Chopped avocado and ginger packed in a rice ball.",
   "shortdescription" : "Maki - Avocado",
   "foodValue" : 75.08,
-  "effects" : [ [ 
-      {
-        "effect" : "thorns",
-        "duration" : 70
-      },
-
-      {
-        "effect" : "poisonblock",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 70
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "thorns",
+      "duration" : 76
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 31
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 76
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

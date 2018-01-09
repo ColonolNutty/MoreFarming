@@ -1,50 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 180.46
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 38.54
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 66
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 6
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 12
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -61,9 +25,61 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 38.54
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} Sweet, stewed apple under a blanket of golden crumble."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 180.46
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 66
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 6
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 12
+        }
+      ]]
     }
   ]
 ]

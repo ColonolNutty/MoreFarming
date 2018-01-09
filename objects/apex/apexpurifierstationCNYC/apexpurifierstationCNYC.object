@@ -10,12 +10,13 @@
   "shortdescription" : "^orange;Apex Tea Machine (Purify)^white;",
   "race" : "generic",
   "inventoryIcon" : "apexpurifierstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "image" : "apexpurifierstationCNYC.png:default",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "purifyingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

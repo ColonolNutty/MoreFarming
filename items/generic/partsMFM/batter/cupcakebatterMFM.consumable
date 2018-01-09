@@ -1,42 +1,38 @@
 {
   "itemName" : "cupcakebatterMFM",
   "rarity" : "Common",
-  "price" : 261.47,
+  "price" : 52.29,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Its bloody raw!",
   "shortdescription" : "Batter - Cupcake",
-  "foodValue" : 51.28,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 36
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 36
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 72
-      } ] ],
+  "foodValue" : 10.26,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 1
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 1
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 8
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 1
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 8
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 17
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

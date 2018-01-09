@@ -1,59 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 919.2
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 61.78
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Tart - Toxictop"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 6
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 6
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 12
-          },
-          {
-            "effect" : "weakpoison",
-            "duration" : 5
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -70,9 +25,70 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Tart - Toxictop"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 61.78
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} What else are you going to do with all that toxictop jam?"
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 919.2
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 6
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 6
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 12
+        },
+        {
+          "effect" : "weakpoison",
+          "duration" : 5
+        }
+      ]]
     }
   ]
 ]

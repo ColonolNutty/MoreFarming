@@ -1,14 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Book"
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
     },
     {
-      "op" : "replace",
+      "op" : "add",
       "path" : "/description",
-      "value" : "A pile of dusty old books, they're full of tales of dragons and knights."
+      "value" : ""
     }
   ],
   [
@@ -24,6 +24,16 @@
     }
   ],
   [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Book"
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "A pile of dusty old books, they're full of tales of dragons and knights."
+    },
     {
       "op" : "replace",
       "path" : "/price",

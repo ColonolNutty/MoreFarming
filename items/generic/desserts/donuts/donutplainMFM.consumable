@@ -7,11 +7,12 @@
   "description" : "(FRY):-} A plain ring of fried dough.",
   "shortdescription" : "Donut - Plain",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "camouflage25",
-        "duration" : 7
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 7
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

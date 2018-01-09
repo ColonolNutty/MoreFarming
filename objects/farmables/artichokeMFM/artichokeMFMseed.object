@@ -14,7 +14,7 @@
   "humanDescription" : "The heart of any dish!",
   "inventoryIcon" : "artichokeMFMseedicon.png",
   "largeImage" : "artichokeMFMseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "artichokeMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -23,25 +23,20 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 600, 600 ]
-    },
-
-    {
-      "duration" : [ 600, 600 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 600, 600 ] },
+    { "duration" : [ 600, 600 ] },
     {
       "alts" : 5,
       "duration" : [ 1920, 1920 ]
     },
-
     {
       "alts" : 5,
       "harvestPool" : "artichokeMFMHarvest",
       "resetToStage" : 2
-    } ],
+    }
+  ],
   "maxImmersion" : 0.25
 }

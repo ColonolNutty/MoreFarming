@@ -7,11 +7,12 @@
   "description" : "(MILL):-} A pile of milled ginger.",
   "shortdescription" : "Ground Ginger",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "poisonblock",
-        "duration" : 6
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "poisonblock",
+      "duration" : 6
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

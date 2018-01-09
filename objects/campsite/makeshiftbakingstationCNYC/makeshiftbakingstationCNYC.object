@@ -11,12 +11,13 @@
   "race" : "generic",
   "inventoryIcon" : "makeshiftbakingstationCNYCicon.png",
   "largeImage" : "makeshiftbakingstationCNYC.png:default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "makeshiftbakingstationCNYCplacementpreview.png:<color>",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "bakingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
@@ -31,13 +32,16 @@
   "retainObjectParametersInItem" : true,
   "soundEffectRangeMultiplier" : 0.5,
   "animation" : "makeshiftbakingstationCNYC.animation",
-  "npcToy" :   {
+  "npcToy" : {
     "preciseStandPositionRight" : [ 2.5, 0 ],
     "preciseStandPositionLeft" : [ -2.5, 0 ],
     "maxNpcs" : 1,
-    "defaultReactions" :     {
-      "campfire" : [ [ 1, "warmhands" ],[ 1, "crouchwarm" ] ]
-    },
+    "defaultReactions" : {
+      "campfire" : [
+        [ 1, "warmhands" ],
+        [ 1, "crouchwarm" ]
+      ]
+},
     "influence" : [ "campfire", "campfire" ]
   },
   "subtitle" : "Bake Food!"

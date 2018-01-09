@@ -15,14 +15,16 @@
   "glitchDescription" : "Inspect. Kiln-fired frypot.",
   "humanDescription" : "Smells like toasted chilli.. and avesmingo?",
   "hylotlDescription" : "How delightful, I dislike spitting hot oil",
+  "novakidDescription" : "Primitive lookin' fryer. I suppose it does the job.",
   "inventoryIcon" : "floranfryingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "floranfryingstationCNYC.png:default.<frame>",
       "imagePosition" : [ 0, 0 ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "fryingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
@@ -38,16 +40,22 @@
   "flickerMaxIntensity" : 0.3,
   "animationPosition" : [ 0, 0 ],
   "retainObjectParametersInItem" : true,
-  "novakidDescription" : "Primitive lookin' fryer. I suppose it does the job.",
   "lightColor" : [ 218, 83, 2, 5 ],
   "animation" : "floranfryingstationCNYC.animation",
-  "npcToy" :   {
+  "npcToy" : {
     "preciseStandPositionRight" : [ 2.5, 0 ],
     "preciseStandPositionLeft" : [ -1.5, 0 ],
     "maxNpcs" : 1,
-    "defaultReactions" :     {
-      "furnace" : [ [ 1, "warmhands" ],[ 1, "crouchwarm" ] ],
-      "furnaceComplete" : [ [ 1, "warmhands" ],[ 1, "crouchwarm" ],[ 1, "pokefire" ] ]
+    "defaultReactions" : {
+      "furnace" : [
+        [ 1, "warmhands" ],
+        [ 1, "crouchwarm" ]
+      ],
+      "furnaceComplete" : [
+        [ 1, "warmhands" ],
+        [ 1, "crouchwarm" ],
+        [ 1, "pokefire" ]
+      ]
     },
     "influence" : [ "furnace", "furnace", "furnaceComplete" ]
   },

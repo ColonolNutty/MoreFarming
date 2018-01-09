@@ -7,36 +7,32 @@
   "description" : "(BLEND):-} A milkshake made from vanilla beans. Yum!",
   "shortdescription" : "Milkshake - Vanilla",
   "foodValue" : 15.09,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 60
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 6
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 6
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 6
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 72
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

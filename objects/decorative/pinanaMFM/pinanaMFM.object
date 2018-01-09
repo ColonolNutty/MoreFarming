@@ -15,7 +15,7 @@
   "hylotlDescription" : "The act of just throwing this stuff together disrespects what cooking means.",
   "inventoryIcon" : "pinanaMFMicon.png",
   "largeImage" : "pinanaMFM.png:default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "pinanaMFM.png:<color>.0",
       "imagePosition" : [ -8, 0 ],
@@ -23,30 +23,16 @@
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
-  "breakDropOptions" : [ [ [ "pinanasliceMFM", 1, 
-        {
-
-        } ],[ "pinanasliceMFM", 1, 
-        {
-
-        } ],[ "pinanasliceMFM", 1, 
-        {
-
-        } ],[ "pinanasliceMFM", 1, 
-        {
-
-        } ],[ "pinanasliceMFM", 1, 
-        {
-
-        } ],[ "pinanasliceMFM", 1, 
-        {
-
-        } ],[ "pinanasliceMFM", 1, 
-        {
-
-        } ],[ "pinanasliceMFM", 1, 
-        {
-
-        } ] ] ]
+    }
+],
+  "breakDropOptions" : [[
+    [ "pinanasliceMFM", 1, { } ],
+    [ "pinanasliceMFM", 1, { } ],
+    [ "pinanasliceMFM", 1, { } ],
+    [ "pinanasliceMFM", 1, { } ],
+    [ "pinanasliceMFM", 1, { } ],
+    [ "pinanasliceMFM", 1, { } ],
+    [ "pinanasliceMFM", 1, { } ],
+    [ "pinanasliceMFM", 1, { } ]
+  ]]
 }

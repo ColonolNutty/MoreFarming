@@ -7,21 +7,20 @@
   "description" : "(BAKE):-} Meaty rice.",
   "shortdescription" : "Pho",
   "foodValue" : 55.53,
-  "effects" : [ [ 
-      {
-        "effect" : "poisonblock",
-        "duration" : 66
-      },
-
-      {
-        "effect" : "jumpboostfood",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 30
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "poisonblock",
+      "duration" : 69
+    },
+    {
+      "effect" : "jumpboostfood",
+      "duration" : 32
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 32
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

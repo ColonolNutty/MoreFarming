@@ -16,7 +16,7 @@
   "humanDescription" : "Pans! Wonder if Jamsey used them!",
   "hylotlDescription" : "Looks expensive.. Also limited edition?",
   "inventoryIcon" : "boilingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -24,18 +24,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "boilingstationCNYC.png:<color>.<frame>",
           "fullbright" : true
         },
-
-        {
-          "image" : "boilingstationCNYClit.png:<color>.<frame>"
-        } ],
+        { "image" : "boilingstationCNYClit.png:<color>.<frame>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -43,16 +40,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "boilingstationCNYC.png:<color>.<frame>",
           "fullbright" : true
         },
-
-        {
-          "image" : "boilingstationCNYClit.png:<color>.<frame>"
-        } ]
-    } ],
+        { "image" : "boilingstationCNYClit.png:<color>.<frame>" }
+      ]
+    }
+  ],
   "recipeGroup" : "boilingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
@@ -66,13 +62,13 @@
   "flickerMinIntensity" : 0.1,
   "flickerPeriodVariance" : 0.075,
   "flickerMaxIntensity" : 0.3,
-  "particleEmitter" :   {
+  "particleEmitter" : {
     "emissionRate" : 6,
-    "particleVariance" :     {
+    "particleVariance" : {
       "initialVelocity" : [ 0.5, 2 ],
       "position" : [ 0.6, 0 ]
     },
-    "particle" :     {
+    "particle" : {
       "timeToLive" : 0.3,
       "fade" : 2,
       "size" : 1,

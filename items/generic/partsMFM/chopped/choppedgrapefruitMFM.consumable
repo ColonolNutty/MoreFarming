@@ -7,11 +7,12 @@
   "description" : "(CHOP):-} Washed, peeled, and chopped grapefruit.",
   "shortdescription" : "Chopped Grapefruit",
   "foodValue" : 10.5,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 31
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

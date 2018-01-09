@@ -7,11 +7,12 @@
   "description" : "(CHOP):-} Washed and chopped cauliflower.",
   "shortdescription" : "Chopped Cauliflower",
   "foodValue" : 10.5,
-  "effects" : [ [ 
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 45
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 47
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

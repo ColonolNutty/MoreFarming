@@ -13,7 +13,7 @@
   "humanDescription" : "There's nothing quite like a nice cup of coffee and a sit-down.",
   "hylotlDescription" : "The Hylotl brew similar drinks from ocean flora.",
   "inventoryIcon" : "coffeemugMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "image" : "coffeemugMFM.png:<color>.<frame>",
       "imagePosition" : [ 0, 0 ],
@@ -23,7 +23,6 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
-
     {
       "image" : "coffeemugMFM.png:<color>.<frame>",
       "imagePosition" : [ 0, 0 ],
@@ -33,5 +32,6 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "flipImages" : true
-    } ]
+    }
+  ]
 }

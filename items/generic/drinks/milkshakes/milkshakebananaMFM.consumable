@@ -6,22 +6,21 @@
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A milkshake made with bananas. Yum!",
   "shortdescription" : "Milkshake - Banana",
-  "foodValue" : 16.91,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 60
-      } ] ],
+  "foodValue" : 23.79,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 34
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 72
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

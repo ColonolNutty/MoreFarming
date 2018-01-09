@@ -1,47 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 457.54
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 27.58
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Salad - Salt"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 30
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -58,9 +25,58 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Salad - Salt"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 27.58
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(PREP):-} Coralcreep, reefpod and pearlpea make for a salty, crunchy salad."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 457.54
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 30
+        }
+      ]]
     }
   ]
 ]

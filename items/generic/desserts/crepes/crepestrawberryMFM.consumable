@@ -1,42 +1,26 @@
 {
   "itemName" : "crepestrawberryMFM",
   "rarity" : "Common",
-  "price" : 397.5,
+  "price" : 175.04,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A crepe made with juicy strawberries.",
   "shortdescription" : "Crepe - Strawberry",
-  "foodValue" : 66.17,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 12
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 12
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 156
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 12
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 36
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 72
-      } ] ],
+  "foodValue" : 29.79,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 20
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 52
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 46
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

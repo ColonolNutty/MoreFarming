@@ -16,7 +16,7 @@
   "humanDescription" : "Oooh... Time to get po faced.",
   "hylotlDescription" : "Used to further a process commonly associated to debauchery.",
   "inventoryIcon" : "distilleryMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "distilleryMFM.png:<color>.<frame>",
       "imagePosition" : [ 0, 0 ],
@@ -25,7 +25,8 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-    } ],
+    }
+],
   "recipeGroup" : "distillingMFM",
   "openSounds" : [ "/sfx/objects/florandrum2.ogg" ],
   "slotCount" : 16,

@@ -7,11 +7,12 @@
   "description" : "(BOIL):-} A radish boiled in water.",
   "shortdescription" : "Boiled Radish",
   "foodValue" : 11.03,
-  "effects" : [ [ 
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 60
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 66
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -16,7 +16,7 @@
   "humanDescription" : "A simple table for preparing!",
   "hylotlDescription" : "This is a sturdy looking table",
   "inventoryIcon" : "preparationstationMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "preparationstationMFM.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -24,7 +24,8 @@
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "preparingMFM",
   "slotCount" : 16,
   "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",

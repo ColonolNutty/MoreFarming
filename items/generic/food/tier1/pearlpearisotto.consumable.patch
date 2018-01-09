@@ -1,59 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 341.14
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 56.96
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Risotto - Pearlpea"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "poisonblock",
-            "duration" : 60
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 6
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 6
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 12
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -70,9 +25,70 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Risotto - Pearlpea"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 56.96
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BOIL):-} Perfectly ripe pearlpeas work best for this hearty rice dish."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 341.14
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "poisonblock",
+          "duration" : 60
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 6
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 6
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 12
+        }
+      ]]
     }
   ]
 ]

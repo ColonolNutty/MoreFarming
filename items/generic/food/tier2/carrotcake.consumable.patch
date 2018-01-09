@@ -1,71 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 843.26
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 117.32
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Cake - Carrot"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "regeneration2",
-            "duration" : 12
-          },
-          {
-            "effect" : "maxenergyscalingboost",
-            "duration" : 12
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 12
-          },
-          {
-            "effect" : "camouflage25",
-            "duration" : 7
-          },
-          {
-            "effect" : "runboostfood",
-            "duration" : 18
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 12
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 36
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -82,9 +25,82 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Cake - Carrot"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 117.32
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(PREP):-} It's a delicious carrot cake! Tastes better than it sounds."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 843.26
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "regeneration2",
+          "duration" : 12
+        },
+        {
+          "effect" : "maxenergyscalingboost",
+          "duration" : 12
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 12
+        },
+        {
+          "effect" : "camouflage25",
+          "duration" : 7
+        },
+        {
+          "effect" : "runboostfood",
+          "duration" : 18
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 12
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 36
+        }
+      ]]
     }
   ]
 ]

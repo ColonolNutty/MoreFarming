@@ -17,7 +17,7 @@
   "humanDescription" : "A bamboo crate. It's open.",
   "hylotlDescription" : "An open crate.",
   "inventoryIcon" : "bamboocrate2BMBicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "image" : "bamboocrate2BMB.png:default",
       "imagePosition" : [ -16, 0 ],
@@ -29,7 +29,6 @@
       "collision" : "platform",
       "flipImages" : true
     },
-
     {
       "image" : "bamboocrate2BMB.png:default",
       "imagePosition" : [ -16, 0 ],
@@ -39,7 +38,8 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-    } ],
+    }
+  ],
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
   "slotCount" : 24,

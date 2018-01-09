@@ -6,22 +6,21 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} A pie shell filled with chopped boneboos. Ready for baking.",
   "shortdescription" : "Pie Unfinished - Spooky",
-  "foodValue" : 109.24,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 48
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 48
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 96
-      } ] ],
+  "foodValue" : 115.03,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 68
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 68
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 153
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

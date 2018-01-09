@@ -7,11 +7,12 @@
   "description" : "(CHOP):-} Washed and chopped blackberries.",
   "shortdescription" : "Chopped Blackberries",
   "foodValue" : 10.5,
-  "effects" : [ [ 
-      {
-        "effect" : "fireblock",
-        "duration" : 45
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "fireblock",
+      "duration" : 47
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

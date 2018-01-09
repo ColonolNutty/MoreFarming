@@ -7,16 +7,16 @@
   "description" : "(CHOP):-} Washed and chopped avocado.",
   "shortdescription" : "Chopped Avocado",
   "foodValue" : 10.5,
-  "effects" : [ [ 
-      {
-        "effect" : "thorns",
-        "duration" : 70
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 70
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "thorns",
+      "duration" : 73
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 73
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

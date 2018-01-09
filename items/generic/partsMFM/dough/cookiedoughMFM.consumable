@@ -7,36 +7,32 @@
   "description" : "(BLEND):-} The basis for all manner of cookie creations.",
   "shortdescription" : "Dough - Cookie",
   "foodValue" : 15.47,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 3
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 3
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 3
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 3
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 3
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 7
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 3
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 3
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 3
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 3
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 3
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 8
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

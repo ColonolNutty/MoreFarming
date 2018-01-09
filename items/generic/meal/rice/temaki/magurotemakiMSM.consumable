@@ -7,16 +7,16 @@
   "description" : "(PREP):-} Raw tuna and cucumber, wrapped in rice and kelp.",
   "shortdescription" : "Temaki - Marguro",
   "foodValue" : 108.84,
-  "effects" : [ [ 
-      {
-        "effect" : "camouflage25",
-        "duration" : 7
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 45
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 7
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 96
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

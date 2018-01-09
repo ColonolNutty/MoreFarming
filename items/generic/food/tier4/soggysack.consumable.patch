@@ -1,42 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 269.75
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 10.75
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 180
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -53,9 +25,53 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 10.75
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BOIL):-} Dirturchin innards stuffed into a coralcreep to make a dish that sounds terrible and tastes alright."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 269.75
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 180
+        }
+      ]]
     }
   ]
 ]

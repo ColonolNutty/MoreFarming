@@ -7,21 +7,20 @@
   "description" : "(FRY):-} Tasty fried garpberrys.",
   "shortdescription" : "Fried Garpberrys",
   "foodValue" : 13.26,
-  "effects" : [ [ 
-      {
-        "effect" : "nova",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "camouflage25",
-        "duration" : 7
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 180
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "nova",
+      "duration" : 31
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 7
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 189
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

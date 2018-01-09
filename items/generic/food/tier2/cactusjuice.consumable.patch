@@ -1,47 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 16.54
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 11.03
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Juice - Cactus"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "thorns",
-            "duration" : 90
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -58,9 +25,58 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Juice - Cactus"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 11.03
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BLEND):-} Cool as a cactus."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 16.54
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "thorns",
+          "duration" : 90
+        }
+      ]]
     }
   ]
 ]

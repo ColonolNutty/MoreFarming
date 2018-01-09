@@ -7,16 +7,16 @@
   "description" : "(CHOP):-} Washed and chopped sugar beet.",
   "shortdescription" : "Chopped Sugarbeet",
   "foodValue" : 10.5,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 40
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 42
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 31
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

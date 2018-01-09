@@ -1,71 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 620.52
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 95.81
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Cake - Coffee"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "regeneration2",
-            "duration" : 6
-          },
-          {
-            "effect" : "maxenergyscalingboost",
-            "duration" : 6
-          },
-          {
-            "effect" : "camouflage25",
-            "duration" : 7
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 153
-          },
-          {
-            "effect" : "runboostfood",
-            "duration" : 12
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 18
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 48
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -82,9 +25,82 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Cake - Coffee"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 95.81
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(PREP):-} A moist cake enriched with coffee. Moreish!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 620.52
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "regeneration2",
+          "duration" : 6
+        },
+        {
+          "effect" : "maxenergyscalingboost",
+          "duration" : 6
+        },
+        {
+          "effect" : "camouflage25",
+          "duration" : 7
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 153
+        },
+        {
+          "effect" : "runboostfood",
+          "duration" : 12
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 18
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 48
+        }
+      ]]
     }
   ]
 ]

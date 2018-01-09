@@ -7,21 +7,20 @@
   "description" : "(PREP):-} A plate of steak and mashed potatoes",
   "shortdescription" : "Steak and Potatoes",
   "foodValue" : 39.25,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 36
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 36
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 72
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 42
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 42
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 90
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

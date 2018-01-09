@@ -15,7 +15,7 @@
   "humanDescription" : "Holographic knives! Chefnobi!.. I'll get my coat..",
   "hylotlDescription" : "Knives that do not require sharpening",
   "inventoryIcon" : "nanochoppingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -23,18 +23,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "nanochoppingstationCNYC.png:<color>.<frame>",
           "fullbright" : true
         },
-
-        {
-          "image" : "nanochoppingstationCNYClit.png:<color>.<frame>"
-        } ],
+        { "image" : "nanochoppingstationCNYClit.png:<color>.<frame>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -42,16 +39,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "nanochoppingstationCNYC.png:<color>.<frame>",
           "fullbright" : true
         },
-
-        {
-          "image" : "nanochoppingstationCNYClit.png:<color>.<frame>"
-        } ]
-    } ],
+        { "image" : "nanochoppingstationCNYClit.png:<color>.<frame>" }
+      ]
+    }
+  ],
   "recipeGroup" : "choppingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

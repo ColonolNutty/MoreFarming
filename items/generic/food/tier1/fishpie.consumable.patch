@@ -1,59 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 678.66
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 114.64
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Pie - Fish"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "poisonblock",
-            "duration" : 60
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 144
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 144
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 288
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -70,9 +25,70 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Pie - Fish"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 114.64
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} Stargazy pie! Baked fish in sauce, topped with creamy mash."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 678.66
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "poisonblock",
+          "duration" : 60
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 144
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 144
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 288
+        }
+      ]]
     }
   ]
 ]

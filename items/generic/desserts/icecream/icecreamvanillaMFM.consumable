@@ -7,36 +7,32 @@
   "description" : "(FREEZE):-} Plain old vanilla ice cream",
   "shortdescription" : "Ice Cream - Vanilla",
   "foodValue" : 52.92,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 36
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 36
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 72
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 6
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 6
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 46
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 6
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 46
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 100
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

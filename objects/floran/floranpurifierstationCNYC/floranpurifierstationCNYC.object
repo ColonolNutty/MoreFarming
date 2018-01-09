@@ -10,12 +10,13 @@
   "shortdescription" : "^orange;Floran Teapot (Purify)^white;",
   "race" : "generic",
   "inventoryIcon" : "floranpurifierstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "floranpurifierstationCNYC.png:default",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "purifyingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

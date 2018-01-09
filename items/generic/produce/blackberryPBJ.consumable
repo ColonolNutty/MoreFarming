@@ -8,11 +8,12 @@
   "description" : "Sweet and tart!",
   "shortdescription" : "Blackberry",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "fireblock",
-        "duration" : 45
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "fireblock",
+      "duration" : 45
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

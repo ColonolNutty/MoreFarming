@@ -7,26 +7,24 @@
   "description" : "(BLEND):-} Lemon flavoured icing. Sour!",
   "shortdescription" : "Icing - Lemon",
   "foodValue" : 13.9,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 36
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 30
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 6
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 6
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 39
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 33
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

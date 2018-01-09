@@ -6,12 +6,13 @@
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Chili boiled in water.",
   "shortdescription" : "Boiled Chili",
-  "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "burning",
-        "duration" : 5
-      } ] ],
+  "foodValue" : 11.03,
+  "effects" : [[
+    {
+      "effect" : "burning",
+      "duration" : 5
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -6,12 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Crunchy roasted coffee beans. Mmm.",
   "shortdescription" : "Roasted Coffee Beans",
-  "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 20
-      } ] ],
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

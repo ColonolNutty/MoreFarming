@@ -14,7 +14,7 @@
   "humanDescription" : "A popular Human entertainer. I used to own all his albums.",
   "hylotlDescription" : "A statue of a Human. This man appears to be attempting some kind of style.",
   "inventoryIcon" : "chocolatestatueHumanMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "chocolatestatueHumanMFM.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -22,5 +22,6 @@
       "animationCycle" : 1.0,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ]
+    }
+]
 }

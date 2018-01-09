@@ -6,37 +6,33 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} Chocolate covered coffee beans.",
   "shortdescription" : "Choc. Covered Coffee Beans",
-  "foodValue" : 34.53,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 410
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 60
-      } ] ],
+  "foodValue" : 41.42,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 6
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 6
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 35
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 6
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 35
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 75
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

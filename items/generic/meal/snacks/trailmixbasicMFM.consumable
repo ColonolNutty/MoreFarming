@@ -7,21 +7,20 @@
   "description" : "(PREP):-} A basic Trail Mix made with berries, chocolate, and sunflower seeds",
   "shortdescription" : "Trail Mix - Basic",
   "foodValue" : 33.08,
-  "effects" : [ [ 
-      {
-        "effect" : "fireblock",
-        "duration" : 45
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "iceblock",
-        "duration" : 45
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "fireblock",
+      "duration" : 49
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 32
+    },
+    {
+      "effect" : "iceblock",
+      "duration" : 49
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

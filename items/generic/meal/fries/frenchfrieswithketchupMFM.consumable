@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} A strange combo if you think about it..",
   "shortdescription" : "Fries - French With Ketchup",
-  "foodValue" : 21.53,
+  "foodValue" : 45.54,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

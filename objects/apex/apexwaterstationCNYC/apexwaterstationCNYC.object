@@ -10,12 +10,13 @@
   "shortdescription" : "^orange;Apex Sink (Water)^white;",
   "race" : "generic",
   "inventoryIcon" : "apexwaterstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "apexwaterstationCNYC.png:default",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "waterMFM",
   "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
   "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],

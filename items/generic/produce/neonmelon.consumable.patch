@@ -2,42 +2,13 @@
   [
     {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/description",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/inventoryIcon",
-      "value" : "fullneonmelonMFM.png"
-    },
-    {
-      "op" : "replace",
       "path" : "/description",
-      "value" : "A slice of bubblegum flavoured neonmelon."
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Fully Grown Neonmelon"
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 280
-    },
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : []
+      "value" : ""
     }
   ],
   [
@@ -54,9 +25,58 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Fully Grown Neonmelon"
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "A slice of bubblegum flavoured neonmelon."
+    },
+    {
       "op" : "replace",
       "path" : "/foodValue",
       "value" : 10.0
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 280
+    },
+    {
+      "op" : "replace",
+      "path" : "/inventoryIcon",
+      "value" : "fullneonmelonMFM.png"
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [ ]
     }
   ]
 ]

@@ -7,21 +7,20 @@
   "description" : "(BOIL):-} It is squishy.",
   "shortdescription" : "Tofu",
   "foodValue" : 12.43,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 60
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 33
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 33
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 69
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

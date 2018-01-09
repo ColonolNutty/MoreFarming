@@ -1,47 +1,42 @@
 {
   "itemName" : "unfinishedpiepumpkinMFM",
   "rarity" : "Common",
-  "price" : 415.03,
+  "price" : 430.47,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A pie shell filled with chopped pumpkins and a few other things. Ready for baking.",
   "shortdescription" : "Pie Unfinished - Pumpkin",
-  "foodValue" : 89.82,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "poisonblock",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 42
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 42
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 84
-      } ] ],
+  "foodValue" : 92.02,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 6
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 6
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 6
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 54
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 6
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 54
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 119
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -1,55 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 245.75
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 22.85
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Stuffed Dirturchin"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 30
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 30
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 71
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -66,9 +25,66 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Stuffed Dirturchin"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 22.85
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} A dirturchin stuffed with pearlpeas. The taste is kind of bland..."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 245.75
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 30
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 30
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 71
+        }
+      ]]
     }
   ]
 ]

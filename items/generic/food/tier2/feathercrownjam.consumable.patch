@@ -1,51 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 497.7
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 40.13
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Jam - Feathercrown"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 158
-          },
-          {
-            "effect" : "jumpboostfood",
-            "duration" : 158
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -62,9 +25,62 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Jam - Feathercrown"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 40.13
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BOIL):-} A sweet and flavoursome preserve, precious among Avians."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 497.7
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 158
+        },
+        {
+          "effect" : "jumpboostfood",
+          "duration" : 158
+        }
+      ]]
     }
   ]
 ]

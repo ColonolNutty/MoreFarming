@@ -2,13 +2,12 @@
   "objectName" : "chocolateplainbowMFM",
   "colonyTags" : [ "easter", "chocolate", "pretty" ],
   "rarity" : "Uncommon",
+  "price" : 350.0,
+  "category" : "decorative",
+  "printable" : false,
   "description" : "A large bow made of chocolate.",
   "shortdescription" : "Chocolate - Plain Bow",
   "race" : "generic",
-  "category" : "decorative",
-  "printable" : false,
-  "price" : 350,
-
   "apexDescription" : "It's a decorative chocolate bow.",
   "avianDescription" : "A decorative chocolate ribbon.",
   "floranDescription" : "Bow is sssugar. Yuck.",
@@ -16,18 +15,15 @@
   "humanDescription" : "It's a nice chocolate ribbon.",
   "hylotlDescription" : "A very large, very chocolatey ribbon.",
   "novakidDescription" : "Chocolate ribbon.",
-
   "inventoryIcon" : "chocolateplainbowMFMicon.png",
   "orientations" : [
     {
       "dualImage" : "chocolateplainbowMFM.png:<color>",
-
-      "imagePosition" : [-16, -16],
+      "imagePosition" : [ -16, -16 ],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
     }
-  ]
+]
 }

@@ -6,12 +6,13 @@
   "tooltipKind" : "food",
   "description" : "(FRY):-} Fluffy popcorn, freshly popped, good to eat when watching Apex Wrestling!",
   "shortdescription" : "Popcorn - Plain",
-  "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "camouflage25",
-        "duration" : 7
-      } ] ],
+  "foodValue" : 14.34,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 7
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

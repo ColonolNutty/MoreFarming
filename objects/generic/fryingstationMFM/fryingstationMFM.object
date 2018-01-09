@@ -10,7 +10,7 @@
   "shortdescription" : "^orange;Frying Pan (Fry)^white;",
   "race" : "generic",
   "inventoryIcon" : "fryingstationMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -18,18 +18,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "fryingstationMFM.png:<color>.<frame>",
           "fullbright" : true
         },
-
-        {
-          "image" : "fryingstationMFMlit.png:<color>.<frame>"
-        } ],
+        { "image" : "fryingstationMFMlit.png:<color>.<frame>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -37,16 +34,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "fryingstationMFM.png:<color>.<frame>",
           "fullbright" : true
         },
-
-        {
-          "image" : "fryingstationMFMlit.png:<color>.<frame>"
-        } ]
-    } ],
+        { "image" : "fryingstationMFMlit.png:<color>.<frame>" }
+      ]
+    }
+  ],
   "recipeGroup" : "fryingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
@@ -57,13 +53,13 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/fryingMFMRecipes.config",
   "subtitle" : "Fry Food!",
-  "particleEmitter" :   {
+  "particleEmitter" : {
     "emissionRate" : 2,
-    "particleVariance" :     {
+    "particleVariance" : {
       "initialVelocity" : [ -1, 0.4 ],
       "position" : [ 0.6, 0 ]
     },
-    "particle" :     {
+    "particle" : {
       "timeToLive" : 0.8,
       "fade" : 0.2,
       "size" : 1,

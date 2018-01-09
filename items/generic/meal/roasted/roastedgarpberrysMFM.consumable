@@ -7,16 +7,16 @@
   "description" : "(BAKE):-} Crunchy roasted garpberries. Mmm.",
   "shortdescription" : "Roasted Garpberries",
   "foodValue" : 20.5,
-  "effects" : [ [ 
-      {
-        "effect" : "nova",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 180
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "nova",
+      "duration" : 61
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 369
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

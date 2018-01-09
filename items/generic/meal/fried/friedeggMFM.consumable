@@ -7,11 +7,12 @@
   "description" : "(FRY):-} And this is your brain on drugs.",
   "shortdescription" : "Fried Egg",
   "foodValue" : 13.26,
-  "effects" : [ [ 
-      {
-        "effect" : "camouflage25",
-        "duration" : 7
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 7
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

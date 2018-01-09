@@ -7,21 +7,20 @@
   "description" : "(FRY):-} Tofu fried rice, a twist on a Hylotl staple.",
   "shortdescription" : "Tofu Fried Rice",
   "foodValue" : 34.05,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 60
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 34
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 72
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

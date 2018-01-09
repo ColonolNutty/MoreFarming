@@ -14,8 +14,9 @@
   "glitchDescription" : "Bored. A very simple table.",
   "humanDescription" : "Not much to say about this table.",
   "hylotlDescription" : "A table, very simple in every way.",
+  "novakidDescription" : "Just a table.",
   "inventoryIcon" : "wickertable1MFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "wickertable1MFM.png:<color>",
       "imagePosition" : [ -16, 0 ],
@@ -24,6 +25,6 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-    } ],
-  "novakidDescription" : "Just a table."
+    }
+]
 }

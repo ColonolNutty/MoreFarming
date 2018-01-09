@@ -7,11 +7,12 @@
   "description" : "(BLEND):-} Jelly made from blackberries.",
   "shortdescription" : "Jelly - Blackberry",
   "foodValue" : 50.5,
-  "effects" : [ [ 
-      {
-        "effect" : "fireblock",
-        "duration" : 45
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "fireblock",
+      "duration" : 227
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

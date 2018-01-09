@@ -14,7 +14,7 @@
   "humanDescription" : "A cool Apex statue. This Apex looks pretty tough.",
   "hylotlDescription" : "A crudely carved Apex. Their simple features suit the rough look.",
   "inventoryIcon" : "chocolatestatueapexMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "chocolatestatueapexMFM.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -22,5 +22,6 @@
       "animationCycle" : 1.0,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ]
+    }
+]
 }

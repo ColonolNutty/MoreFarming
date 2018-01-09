@@ -10,21 +10,19 @@
   "shortdescription" : "^orange;Apex Esp. Machine (Coffee)^white;",
   "race" : "generic",
   "inventoryIcon" : "apexcoffeestationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "image" : "apexcoffeestationCNYC.png:default",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     },
-
     {
       "image" : "apexcoffeestationCNYC.png:default",
       "spaceScan" : 0.1,
       "anchors" : [ "left" ],
       "collision" : "platform"
     },
-
     {
       "image" : "apexcoffeestationCNYC.png:default",
       "spaceScan" : 0.1,
@@ -32,13 +30,13 @@
       "collision" : "platform",
       "flipImages" : true
     },
-
     {
       "image" : "apexcoffeestationCNYC.png:default",
       "spaceScan" : 0.1,
       "anchors" : [ "top" ],
       "collision" : "platform"
-    } ],
+    }
+  ],
   "recipeGroup" : "coffeeMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

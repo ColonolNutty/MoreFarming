@@ -10,12 +10,13 @@
   "shortdescription" : "^orange;Apex Boiling Pot (Boil)^white;",
   "race" : "generic",
   "inventoryIcon" : "apexboilingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "apexboilingstationCNYC.png:default",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "boilingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

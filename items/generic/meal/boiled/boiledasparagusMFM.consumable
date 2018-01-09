@@ -7,26 +7,24 @@
   "description" : "(BOIL):-} Asparagus boiled in water.",
   "shortdescription" : "Boiled Asparagus",
   "foodValue" : 11.03,
-  "effects" : [ [ 
-      {
-        "effect" : "swimboost",
-        "duration" : 70
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 70
-      },
-
-      {
-        "effect" : "jumpboostfood",
-        "duration" : 70
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 70
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "swimboost",
+      "duration" : 76
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 76
+    },
+    {
+      "effect" : "jumpboostfood",
+      "duration" : 76
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 76
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

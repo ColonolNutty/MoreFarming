@@ -6,17 +6,13 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with peanut butter and bananas.",
   "shortdescription" : "Sandwich - PB+Banana",
-  "foodValue" : 61.72,
-  "effects" : [ [ 
-      {
-        "effect" : "camouflage25",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 90
-      } ] ],
+  "foodValue" : 68.28,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 158
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

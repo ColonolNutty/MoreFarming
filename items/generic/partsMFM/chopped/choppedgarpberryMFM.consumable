@@ -7,16 +7,16 @@
   "description" : "(CHOP):-} Washed and chopped garpberries.",
   "shortdescription" : "Chopped Garpberry",
   "foodValue" : 10.5,
-  "effects" : [ [ 
-      {
-        "effect" : "nova",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 180
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "nova",
+      "duration" : 31
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 189
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -1,13 +1,12 @@
 {
   "itemName" : "whitechocolateblockMFM",
+  "rarity" : "Common",
   "price" : 258.8,
   "category" : "block",
-  "rarity" : "Common",
-  "inventoryIcon" : "whitechocolateblockMFM.png",
   "description" : "A block made of white chocolate.",
   "shortdescription" : "Chocolate Block - White",
   "floranDescription" : "Tasssty block.",
   "glitchDescription" : "Statement. A block made of white chocolate.",
-  
+  "inventoryIcon" : "whitechocolateblockMFM.png",
   "materialId" : 19207
 }

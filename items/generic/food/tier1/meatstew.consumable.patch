@@ -1,47 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 272.21
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 43.29
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Stew - Meat"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "poisonblock",
-            "duration" : 60
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -58,9 +25,58 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Stew - Meat"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 43.29
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BOIL):-} Just like mama used to make!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 272.21
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "poisonblock",
+          "duration" : 60
+        }
+      ]]
     }
   ]
 ]

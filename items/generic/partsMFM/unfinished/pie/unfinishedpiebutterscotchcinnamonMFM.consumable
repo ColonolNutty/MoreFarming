@@ -7,36 +7,32 @@
   "description" : "(PREP):-} A pie shell filled with butterscotch ingredients and cinnamon. Ready for baking.",
   "shortdescription" : "Pie Unf.- Butterscotch",
   "foodValue" : 76.87,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 42
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 12
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 42
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 156
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 6
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 6
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 85
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 19
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 85
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 197
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

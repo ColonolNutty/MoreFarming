@@ -16,7 +16,7 @@
   "humanDescription" : "It even cleans itself! What a time to be alive!",
   "hylotlDescription" : "Limited Edition? Wonder how many were made.",
   "inventoryIcon" : "bakingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -25,18 +25,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "bakingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "bakingstationCNYClit.png:<color>"
-        } ],
+        { "image" : "bakingstationCNYClit.png:<color>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -45,16 +42,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "bakingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "bakingstationCNYClit.png:<color>"
-        } ]
-    } ],
+        { "image" : "bakingstationCNYClit.png:<color>" }
+      ]
+    }
+  ],
   "recipeGroup" : "bakingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

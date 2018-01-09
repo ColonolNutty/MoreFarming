@@ -14,7 +14,7 @@
   "hylotlDescription" : "Bamboo is very useful.",
   "inventoryIcon" : "bambooBMBshooticon.png",
   "largeImage" : "bambooBMBshoot.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "bambooBMBshoot.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -23,31 +23,23 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 300, 300 ]
-    },
-
-    {
-      "duration" : [ 300, 300 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 300, 300 ] },
+    { "duration" : [ 300, 300 ] },
     {
       "alts" : 5,
       "duration" : [ 960, 960 ]
     },
-
     {
       "alts" : 5,
       "harvestPool" : "bambooBMBHarvest",
       "resetToStage" : 2
-    } ],
+    }
+  ],
   "maxImmersion" : 0.25,
-  "breakDropOptions" : [ [ [ "bambooBMBshoot", 1, 
-        {
-
-        } ] ] ],
+  "breakDropOptions" : [[[ "bambooBMBshoot", 1, { } ]]],
   "hasObjectItem" : false,
   "biomePlaced" : true
 }

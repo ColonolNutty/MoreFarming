@@ -7,26 +7,24 @@
   "description" : "(FRY):-} Light, fluffy and oh so good.",
   "shortdescription" : "Pancakes - Plain",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "camouflage25",
-        "duration" : 1
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 9
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 9
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 18
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 1
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 10
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 10
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 22
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

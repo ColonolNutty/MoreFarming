@@ -7,21 +7,20 @@
   "description" : "(PREP):-} Chopped cucumber, lemon juice, and raw fish packed in a rice ball.",
   "shortdescription" : "Maki - California",
   "foodValue" : 86.66,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 45
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 30
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 49
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 33
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 33
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

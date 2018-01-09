@@ -10,12 +10,13 @@
   "shortdescription" : "^orange;Apex Slicer (Chop)^white;",
   "race" : "generic",
   "inventoryIcon" : "apexchoppingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "image" : "apexchoppingstationCNYC.png:default",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "choppingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

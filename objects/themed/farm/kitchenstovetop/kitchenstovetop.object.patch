@@ -2,121 +2,13 @@
   [
     {
       "op" : "test",
-      "path" : "/recipeGroup",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/recipeGroup",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/outputConfig",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/outputConfig",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/scripts",
       "inverse" : true
     },
     {
       "op" : "add",
       "path" : "/scripts",
-      "value" : []
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/uiConfig",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/uiConfig",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/category",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/category",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/objectType",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/objectType",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/openSounds",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/openSounds",
-      "value" : []
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/closeSounds",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/closeSounds",
-      "value" : []
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/slotCount",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/slotCount",
-      "value" : 1
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/frameCooldown",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/frameCooldown",
-      "value" : 1
+      "value" : [ ]
     }
   ],
   [
@@ -134,6 +26,66 @@
   [
     {
       "op" : "test",
+      "path" : "/category",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/category",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/closeSounds",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/closeSounds",
+      "value" : [ ]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/recipeGroup",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/recipeGroup",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/uiConfig",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/uiConfig",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/interactData",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/interactData",
+      "value" : { }
+    }
+  ],
+  [
+    {
+      "op" : "test",
       "path" : "/scriptDelta",
       "inverse" : true
     },
@@ -141,6 +93,18 @@
       "op" : "add",
       "path" : "/scriptDelta",
       "value" : 1
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/openSounds",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/openSounds",
+      "value" : [ ]
     }
   ],
   [
@@ -158,105 +122,13 @@
   [
     {
       "op" : "test",
-      "path" : "/interactData",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/interactData",
-      "value" : {}
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/maximumLiquidLevel",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/maximumLiquidLevel",
-      "value" : 1.0
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Kitchen Stove Top (Boil)"
-    },
-    {
-      "op" : "replace",
-      "path" : "/recipeGroup",
-      "value" : "boilingMFM"
-    },
-    {
-      "op" : "replace",
-      "path" : "/outputConfig",
-      "value" : "/recipeCrafterMFM/boilingMFMRecipes.config"
-    },
-    {
-      "op" : "add",
-      "path" : "/scripts/-",
-      "value" : "/recipeCrafterMFM/recipeCrafterMFM.lua"
-    },
-    {
-      "op" : "replace",
-      "path" : "/uiConfig",
-      "value" : "/interface/objectcrafting/recipeCrafterMFM.config"
-    },
-    {
-      "op" : "replace",
-      "path" : "/category",
-      "value" : "crafting"
-    },
-    {
-      "op" : "replace",
-      "path" : "/objectType",
-      "value" : "container"
-    },
-    {
-      "op" : "add",
-      "path" : "/openSounds/-",
-      "value" : "/sfx/objects/campfire_use.ogg"
-    },
-    {
-      "op" : "add",
-      "path" : "/closeSounds/-",
-      "value" : "/sfx/objects/campfire_use.ogg"
-    },
-    {
-      "op" : "replace",
-      "path" : "/slotCount",
-      "value" : 16
-    },
-    {
-      "op" : "replace",
       "path" : "/frameCooldown",
-      "value" : 5
+      "inverse" : true
     },
     {
-      "op" : "replace",
-      "path" : "/autoCloseCooldown",
-      "value" : 3600
-    },
-    {
-      "op" : "replace",
-      "path" : "/scriptDelta",
+      "op" : "add",
+      "path" : "/frameCooldown",
       "value" : 1
-    },
-    {
-      "op" : "remove",
-      "path" : "/interactAction"
-    },
-    {
-      "op" : "remove",
-      "path" : "/interactData"
-    },
-    {
-      "op" : "replace",
-      "path" : "/maximumLiquidLevel",
-      "value" : 1.0
     }
   ],
   [
@@ -273,9 +145,135 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/objectType",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/objectType",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/outputConfig",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/outputConfig",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/slotCount",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/slotCount",
+      "value" : 1
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/maximumLiquidLevel",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/maximumLiquidLevel",
+      "value" : 1.0
+    }
+  ],
+  [
+    {
+      "op" : "add",
+      "path" : "/scripts/-",
+      "value" : "/recipeCrafterMFM/recipeCrafterMFM.lua"
+    },
+    {
+      "op" : "replace",
+      "path" : "/autoCloseCooldown",
+      "value" : 3600
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "crafting"
+    },
+    {
+      "op" : "add",
+      "path" : "/closeSounds/-",
+      "value" : "/sfx/objects/campfire_use.ogg"
+    },
+    {
+      "op" : "replace",
+      "path" : "/recipeGroup",
+      "value" : "boilingMFM"
+    },
+    {
+      "op" : "replace",
+      "path" : "/uiConfig",
+      "value" : "/interface/objectcrafting/recipeCrafterMFM.config"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Kitchen Stove Top (Boil)"
+    },
+    {
+      "op" : "remove",
+      "path" : "/interactData"
+    },
+    {
+      "op" : "replace",
+      "path" : "/scriptDelta",
+      "value" : 1
+    },
+    {
+      "op" : "add",
+      "path" : "/openSounds/-",
+      "value" : "/sfx/objects/campfire_use.ogg"
+    },
+    {
+      "op" : "remove",
+      "path" : "/interactAction"
+    },
+    {
+      "op" : "replace",
+      "path" : "/frameCooldown",
+      "value" : 5
+    },
+    {
       "op" : "replace",
       "path" : "/price",
       "value" : 299.23
+    },
+    {
+      "op" : "replace",
+      "path" : "/objectType",
+      "value" : "container"
+    },
+    {
+      "op" : "replace",
+      "path" : "/outputConfig",
+      "value" : "/recipeCrafterMFM/boilingMFMRecipes.config"
+    },
+    {
+      "op" : "replace",
+      "path" : "/slotCount",
+      "value" : 16
+    },
+    {
+      "op" : "replace",
+      "path" : "/maximumLiquidLevel",
+      "value" : 1.0
     }
   ]
 ]

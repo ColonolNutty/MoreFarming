@@ -7,11 +7,12 @@
   "description" : "(CHOP):-} Washed and chopped yellow bell pepper",
   "shortdescription" : "Chopped Bell Pepper Yellow",
   "foodValue" : 10.5,
-  "effects" : [ [ 
-      {
-        "effect" : "electricblock",
-        "duration" : 40
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "electricblock",
+      "duration" : 42
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

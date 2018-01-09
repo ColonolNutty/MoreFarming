@@ -15,7 +15,7 @@
   "hylotlDescription" : "The act of just throwing this stuff together disrespects what cooking means.",
   "inventoryIcon" : "pizzaMFMicon.png",
   "largeImage" : "pizzaMFM.png:default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "pizzaMFM.png:<color>.0",
       "imagePosition" : [ -8, 0 ],
@@ -23,30 +23,16 @@
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
-  "breakDropOptions" : [ [ [ "pizzaslice", 1, 
-        {
-
-        } ],[ "pizzaslice", 1, 
-        {
-
-        } ],[ "pizzaslice", 1, 
-        {
-
-        } ],[ "pizzaslice", 1, 
-        {
-
-        } ],[ "pizzaslice", 1, 
-        {
-
-        } ],[ "pizzaslice", 1, 
-        {
-
-        } ],[ "pizzaslice", 1, 
-        {
-
-        } ],[ "pizzaslice", 1, 
-        {
-
-        } ] ] ]
+    }
+],
+  "breakDropOptions" : [[
+    [ "pizzaslice", 1, { } ],
+    [ "pizzaslice", 1, { } ],
+    [ "pizzaslice", 1, { } ],
+    [ "pizzaslice", 1, { } ],
+    [ "pizzaslice", 1, { } ],
+    [ "pizzaslice", 1, { } ],
+    [ "pizzaslice", 1, { } ],
+    [ "pizzaslice", 1, { } ]
+  ]]
 }

@@ -14,7 +14,7 @@
   "humanDescription" : "Parsnips, they are white and wrinkly.",
   "inventoryIcon" : "parsnipMFMseedicon.png",
   "largeImage" : "parsnipMFMseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "parsnipMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -23,24 +23,19 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 300, 300 ]
-    },
-
-    {
-      "duration" : [ 300, 300 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 300, 300 ] },
+    { "duration" : [ 300, 300 ] },
     {
       "alts" : 5,
       "duration" : [ 960, 960 ]
     },
-
     {
       "alts" : 5,
       "harvestPool" : "parsnipMFMHarvest"
-    } ],
+    }
+  ],
   "maxImmersion" : 0.25
 }

@@ -13,7 +13,7 @@
   "floranDescription" : "Floran can put thingsss inssside and churn them.",
   "glitchDescription" : "Observe. A butterchurn, used to churn milk into butter.",
   "inventoryIcon" : "butterchurnMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "butterchurnMFM.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -21,7 +21,8 @@
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "churningMFM",
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],

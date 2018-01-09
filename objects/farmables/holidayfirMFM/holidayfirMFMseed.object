@@ -17,7 +17,7 @@
   "hylotlDescription" : "A partially authentic holiday tree with a gift of fruit. I'm partially impressed.",
   "inventoryIcon" : "holidayfirMFMseedicon.png",
   "largeImage" : "holidayfirMFMseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "holidayfirMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -26,20 +26,16 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 2280, 2280 ]
-    },
-
-    {
-      "duration" : [ 3480, 3480 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 2280, 2280 ] },
+    { "duration" : [ 3480, 3480 ] },
     {
       "alts" : 5,
       "harvestPool" : "holidayfirMFMHarvest",
       "resetToStage" : 1
-    } ],
+    }
+  ],
   "maxImmersion" : 0.8
 }

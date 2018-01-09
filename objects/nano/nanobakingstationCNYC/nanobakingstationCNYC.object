@@ -15,7 +15,7 @@
   "humanDescription" : "I could probably put my hand in there while it's cooking..",
   "hylotlDescription" : "Oddly hypnotic, yet functional",
   "inventoryIcon" : "nanobakingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -24,18 +24,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "nanobakingstationCNYC.png:<color>.<frame>",
           "fullbright" : true
         },
-
-        {
-          "image" : "nanobakingstationCNYClit.png:<color>.<frame>"
-        } ],
+        { "image" : "nanobakingstationCNYClit.png:<color>.<frame>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -44,16 +41,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "nanobakingstationCNYC.png:<color>.<frame>",
           "fullbright" : true
         },
-
-        {
-          "image" : "nanobakingstationCNYClit.png:<color>.<frame>"
-        } ]
-    } ],
+        { "image" : "nanobakingstationCNYClit.png:<color>.<frame>" }
+      ]
+    }
+  ],
   "recipeGroup" : "bakingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

@@ -16,7 +16,7 @@
   "humanDescription" : "A chopping board and tap! Cordon Jamsey makes good stuff!",
   "hylotlDescription" : "Those knives looks impossibly sharp",
   "inventoryIcon" : "choppingstationMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "choppingstationMFM.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -24,7 +24,8 @@
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "choppingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

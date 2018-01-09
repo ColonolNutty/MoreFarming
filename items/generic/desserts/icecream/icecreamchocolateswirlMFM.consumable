@@ -7,36 +7,32 @@
   "description" : "(BLEND):-} It's got everything you could ever want!",
   "shortdescription" : "Ice Cream - Chocolate Swirl",
   "foodValue" : 87.62,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 18
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 60
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 18
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 18
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 60
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 120
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 24
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 105
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 24
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 24
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 105
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 223
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

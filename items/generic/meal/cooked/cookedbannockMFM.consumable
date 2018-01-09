@@ -7,21 +7,20 @@
   "description" : "(BAKE):-} A bannock.",
   "shortdescription" : "Bannock",
   "foodValue" : 34.66,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 37
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 37
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 74
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 43
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 43
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 92
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

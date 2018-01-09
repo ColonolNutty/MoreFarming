@@ -16,7 +16,7 @@
   "humanDescription" : "How has it not set itself on fire?",
   "hylotlDescription" : "Quaint and warm.",
   "inventoryIcon" : "hylotlbakingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "hylotlbakingstationCNYC.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -25,7 +25,8 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-    } ],
+    }
+],
   "recipeGroup" : "bakingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

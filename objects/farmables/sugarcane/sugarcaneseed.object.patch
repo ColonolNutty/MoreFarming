@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/stages/2/harvestPool",
-      "value" : "sugarcaneHarvest"
-    },
-    {
-      "op" : "replace",
-      "path" : "/stages/2/harvestPool",
-      "value" : "sugarcaneMFMHarvest"
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/price",
       "inverse" : true
     },

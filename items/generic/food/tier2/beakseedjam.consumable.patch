@@ -1,51 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 401.63
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 20.12
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Jam - Beakseed"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "jumpboostfood",
-            "duration" : 135
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 135
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -62,9 +25,62 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Jam - Beakseed"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 20.12
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BOIL):-} Sweet and crunchy. If only there was a seedless variety."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 401.63
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "jumpboostfood",
+          "duration" : 135
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 135
+        }
+      ]]
     }
   ]
 ]

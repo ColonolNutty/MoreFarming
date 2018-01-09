@@ -1,47 +1,30 @@
 {
   "itemName" : "unfinishedpieappleredMFM",
   "rarity" : "Common",
-  "price" : 415.03,
+  "price" : 331.71,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A pie shell filled with chopped red apples and a few other things. Ready for baking.",
   "shortdescription" : "Pie Unfinished - Red Apple",
-  "foodValue" : 89.82,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "poisonblock",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 42
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 42
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 84
-      } ] ],
+  "foodValue" : 97.46,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 12
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 33
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 12
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 62
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

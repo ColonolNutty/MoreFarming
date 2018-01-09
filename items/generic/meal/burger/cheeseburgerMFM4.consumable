@@ -6,27 +6,25 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} A burger topped with cheese, lettuce, and ketchup.",
   "shortdescription" : "Burger - Cheese",
-  "foodValue" : 36.95,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 7
-      },
-
-      {
-        "effect" : "camouflage25",
-        "duration" : 7
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 7
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 45
-      } ] ],
+  "foodValue" : 60.97,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 8
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 7
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 8
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 50
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

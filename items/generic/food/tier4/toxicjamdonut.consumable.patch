@@ -1,51 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 810.01
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 47.47
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Donut - Toxictop"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "camouflage25",
-            "duration" : 7
-          },
-          {
-            "effect" : "weakpoison",
-            "duration" : 5
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -62,9 +25,62 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Donut - Toxictop"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 47.47
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(PREP):-} A harmless donut filled with toxictop jam."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 810.01
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "camouflage25",
+          "duration" : 7
+        },
+        {
+          "effect" : "weakpoison",
+          "duration" : 5
+        }
+      ]]
     }
   ]
 ]

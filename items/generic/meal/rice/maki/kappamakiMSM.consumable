@@ -7,11 +7,12 @@
   "description" : "(PREP):-} Chopped cucumbers packed in a rice ball.",
   "shortdescription" : "Maki - Kappa",
   "foodValue" : 75.07,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 45
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 96
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

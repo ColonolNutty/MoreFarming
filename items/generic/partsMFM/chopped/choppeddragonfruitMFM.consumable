@@ -7,21 +7,20 @@
   "description" : "(CHOP):-} Washed and chopped dragonfruit.",
   "shortdescription" : "Chopped Dragonfruit",
   "foodValue" : 10.5,
-  "effects" : [ [ 
-      {
-        "effect" : "nova",
-        "duration" : 45
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 45
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 45
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "nova",
+      "duration" : 47
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 47
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 47
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

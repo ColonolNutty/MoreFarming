@@ -7,21 +7,20 @@
   "description" : "(BAKE):-} A dinner fit for an omniscience fish administrator.",
   "shortdescription" : "Tofurkey Dinner",
   "foodValue" : 43.86,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 60
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 67
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 67
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 141
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

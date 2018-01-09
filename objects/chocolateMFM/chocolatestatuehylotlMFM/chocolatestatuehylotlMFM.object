@@ -14,7 +14,7 @@
   "humanDescription" : "A grumpy looking Hylotl. Pretty accurate.",
   "hylotlDescription" : "A statue of Lili Shian, a Hylotl princess of legend.",
   "inventoryIcon" : "chocolatestatuehylotlMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "chocolatestatuehylotlMFM.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -22,5 +22,6 @@
       "animationCycle" : 1.0,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ]
+    }
+]
 }

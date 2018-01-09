@@ -7,11 +7,6 @@
   "description" : "(BLEND):-} Pumpkin blended into a thick creamy paste",
   "shortdescription" : "Puree - Pumpkin",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 120
-      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

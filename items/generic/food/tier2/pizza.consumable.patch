@@ -1,67 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 351.2
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 57.71
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Pizza - Pepperoni"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "poisonblock",
-            "duration" : 60
-          },
-          {
-            "effect" : "camouflage25",
-            "duration" : 3
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 210
-          },
-          {
-            "effect" : "iceblock",
-            "duration" : 60
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 30
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 60
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -78,9 +25,78 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Pizza - Pepperoni"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 57.71
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} A whole pizza! Are you going to eat all that?"
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 351.2
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "poisonblock",
+          "duration" : 60
+        },
+        {
+          "effect" : "camouflage25",
+          "duration" : 3
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 210
+        },
+        {
+          "effect" : "iceblock",
+          "duration" : 60
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 30
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 60
+        }
+      ]]
     }
   ]
 ]

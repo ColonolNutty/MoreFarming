@@ -2,32 +2,13 @@
   [
     {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 4.0
-    },
-    {
-      "op" : "replace",
       "path" : "/foodValue",
-      "value" : 10.0
-    },
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : []
+      "value" : 0.0
     }
   ],
   [
@@ -44,9 +25,48 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 10.0
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "A ripe red apple."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 4.0
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [ ]
     }
   ]
 ]

@@ -16,7 +16,7 @@
   "humanDescription" : "A fistfull of baked goods!",
   "hylotlDescription" : "Wel at least it doesn't clang..",
   "inventoryIcon" : "novakidbakingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -25,18 +25,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "novakidbakingstationCNYC.png:<color>.<frame>",
           "fullbright" : true
         },
-
-        {
-          "image" : "novakidbakingstationCNYClit.png:<color>.<frame>"
-        } ],
+        { "image" : "novakidbakingstationCNYClit.png:<color>.<frame>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -45,16 +42,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "novakidbakingstationCNYC.png:<color>.<frame>",
           "fullbright" : true
         },
-
-        {
-          "image" : "novakidbakingstationCNYClit.png:<color>.<frame>"
-        } ]
-    } ],
+        { "image" : "novakidbakingstationCNYClit.png:<color>.<frame>" }
+      ]
+    }
+  ],
   "recipeGroup" : "bakingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
@@ -68,13 +64,13 @@
   "flickerMinIntensity" : 0.2,
   "flickerPeriodVariance" : 0.075,
   "flickerMaxIntensity" : 0.3,
-  "particleEmitter" :   {
+  "particleEmitter" : {
     "emissionRate" : 6,
-    "particleVariance" :     {
+    "particleVariance" : {
       "initialVelocity" : [ 0.3, 2 ],
       "position" : [ 0.4, 0 ]
     },
-    "particle" :     {
+    "particle" : {
       "timeToLive" : 1,
       "fade" : 1,
       "size" : 1,

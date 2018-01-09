@@ -10,13 +10,14 @@
   "shortdescription" : "^orange;Floran Bone Blender (Blend)^white;",
   "race" : "generic",
   "inventoryIcon" : "floranblendingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "floranblendingstationCNYC.png:default.<frame>",
       "imagePosition" : [ 0, 0 ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "blendingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
@@ -34,13 +35,20 @@
   "retainObjectParametersInItem" : true,
   "lightColor" : [ 218, 83, 2, 5 ],
   "animation" : "floranblendingstationCNYC.animation",
-  "npcToy" :   {
+  "npcToy" : {
     "preciseStandPositionRight" : [ 2.5, 0 ],
     "preciseStandPositionLeft" : [ -1.5, 0 ],
     "maxNpcs" : 1,
-    "defaultReactions" :     {
-      "furnace" : [ [ 1, "warmhands" ],[ 1, "crouchwarm" ] ],
-      "furnaceComplete" : [ [ 1, "warmhands" ],[ 1, "crouchwarm" ],[ 1, "pokefire" ] ]
+    "defaultReactions" : {
+      "furnace" : [
+        [ 1, "warmhands" ],
+        [ 1, "crouchwarm" ]
+      ],
+      "furnaceComplete" : [
+        [ 1, "warmhands" ],
+        [ 1, "crouchwarm" ],
+        [ 1, "pokefire" ]
+      ]
     },
     "influence" : [ "furnace", "furnace", "furnaceComplete" ]
   },

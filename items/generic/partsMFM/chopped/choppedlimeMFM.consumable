@@ -7,16 +7,16 @@
   "description" : "(CHOP):-} Washed, peeled, and chopped  lime.",
   "shortdescription" : "Chopped Lime",
   "foodValue" : 10.5,
-  "effects" : [ [ 
-      {
-        "effect" : "jumpboostfood",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 30
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "jumpboostfood",
+      "duration" : 31
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 31
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

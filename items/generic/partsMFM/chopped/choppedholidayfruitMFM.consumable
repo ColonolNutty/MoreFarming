@@ -7,21 +7,20 @@
   "description" : "(CHOP):-} Washed, peeled, and chopped holiday fruit.",
   "shortdescription" : "Chopped Holiday Fruit",
   "foodValue" : 21.0,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration3",
-        "duration" : 60
-      },
-
-      {
-        "effect" : "lowgrav",
-        "duration" : 60
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 60
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "regeneration3",
+      "duration" : 63
+    },
+    {
+      "effect" : "lowgrav",
+      "duration" : 63
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 63
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

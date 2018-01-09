@@ -2,34 +2,27 @@
   "objectName" : "eastereggbundleMFM",
   "colonyTags" : [ "chocolate", "easter", "pretty" ],
   "rarity" : "Uncommon",
+  "price" : 100.0,
+  "category" : "decorative",
+  "printable" : false,
   "description" : "A bundle of decorative Easter Eggs!",
   "shortdescription" : "Easter Egg Bundle",
   "race" : "generic",
-  "category" : "decorative",
-  "price" : 100,
-  "printable" : false,
-
   "floranDescription" : "Colourful Eggsss.",
   "glitchDescription" : "Statement. Colourful Easter Eggs.",
-
   "inventoryIcon" : "eastereggbundleMFMicon.png",
   "orientations" : [
     {
       "image" : "eastereggbundleMFM.png:state1",
-      "imagePosition" : [-12, 0],
-      
+      "imagePosition" : [ -12, 0 ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ],
-  
-  "animation" : "eastereggbundleMFM.animation",
-  "animationParts" : {
-    "switch" : "eastereggbundleMFM.png"
-  },
-  "animationPosition" : [-12, -0],
+],
   "scripts" : [ "/scripts/imageRandomizerMFM.lua" ],
   "scriptDelta" : 5,
-  
-  "numberOfImages": 24
+  "animation" : "eastereggbundleMFM.animation",
+  "numberOfImages" : 24,
+  "animationPosition" : [ -12, -0.0 ],
+  "animationParts" : { "switch" : "eastereggbundleMFM.png" }
 }

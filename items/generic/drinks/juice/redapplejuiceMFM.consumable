@@ -7,11 +7,6 @@
   "description" : "(BLEND):-} sweet apple juice.",
   "shortdescription" : "Juice - Red Apple",
   "foodValue" : 11.03,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 60
-      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

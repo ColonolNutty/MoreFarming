@@ -1,55 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 382.8
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 89.91
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Quiche - Lorraine"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 96
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 96
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 192
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -66,9 +25,66 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Quiche - Lorraine"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 89.91
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} A classic bacon quiche. Perfect for picnics!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 382.8
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 96
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 96
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 192
+        }
+      ]]
     }
   ]
 ]

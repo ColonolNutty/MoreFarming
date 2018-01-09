@@ -6,12 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} Shiny and edible!",
   "shortdescription" : "Golden Banana",
-  "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration3",
-        "duration" : 20
-      } ] ],
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -7,16 +7,16 @@
   "description" : "(BLEND):-} Eggplant juice, the juice of a 100 different flavours.",
   "shortdescription" : "Juice - Eggplant",
   "foodValue" : 11.03,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration3",
-        "duration" : 15
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 45
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "regeneration3",
+      "duration" : 15
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 49
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

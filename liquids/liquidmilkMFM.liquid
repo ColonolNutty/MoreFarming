@@ -2,51 +2,42 @@
   "name" : "liquidmilkMFM",
   "liquidId" : 141,
   "description" : "Creamy milk from some alien animal.",
-  "glitchDescription" : "Analysis. Milk from an unknown animal.",
   "floranDescription" : "Yummy milk!",
+  "glitchDescription" : "Analysis. Milk from an unknown animal.",
   "tickDelta" : 1,
-  "color" : [255, 255, 255, 240],
+  "color" : [ 255, 255, 255, 240 ],
+  "textureMovementFactor" : 2,
+  "texture" : "/liquids/liquidmilkMFMtex.png",
   "itemDrop" : "milkMFM",
-
+  "bottomLightMix" : [ 255, 255, 255 ],
   "interactions" : [
-    //coconutmilk
     {
       "liquid" : 7,
       "liquidResult" : 141
     },
-    //water
     {
       "liquid" : 8,
       "liquidResult" : 141
     },
-    //poison
     {
       "liquid" : 3,
       "liquidResult" : 3
     },
-    //chocolateMFM
     {
-      "liquid" : 138 ,
+      "liquid" : 138,
       "liquidResult" : 142
     },
-    //darkchocolateMFM
     {
       "liquid" : 139,
       "liquidResult" : 142
     },
-    //whitechocolateMFM
     {
       "liquid" : 140,
       "liquidResult" : 142
     },
-    //chocolatemilkMFM
     {
       "liquid" : 142,
       "liquidResult" : 142
     }
-  ],
-
-  "texture" : "/liquids/liquidmilkMFMtex.png",
-  "bottomLightMix" : [255, 255, 255],
-  "textureMovementFactor" : 2
+  ]
 }

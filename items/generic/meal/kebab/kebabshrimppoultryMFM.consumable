@@ -7,11 +7,6 @@
   "description" : "(PREP):-} A kebab made with Shrimp and Poultry.",
   "shortdescription" : "Kebab - Shrmp+Pltry",
   "foodValue" : 16.81,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration1",
-        "duration" : 5
-      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

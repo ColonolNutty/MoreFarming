@@ -15,7 +15,7 @@
   "humanDescription" : "A table that makes seeds.",
   "hylotlDescription" : "A table that makes seeds.",
   "inventoryIcon" : "seedtableMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "seedtableMFM.png:default",
       "imagePosition" : [ 0, 0 ],
@@ -24,9 +24,8 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-    } ],
+    }
+],
   "interactAction" : "OpenCraftingInterface",
-  "interactData" :   {
-    "config" : "/interface/windowconfig/cn_seedtableMFM.config"
-  }
+  "interactData" : { "config" : "/interface/windowconfig/cn_seedtableMFM.config" }
 }

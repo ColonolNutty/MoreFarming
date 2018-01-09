@@ -15,21 +15,22 @@
   "glitchDescription" : "Examine. A wicker basket.",
   "humanDescription" : "A very small wicker basket.",
   "hylotlDescription" : "You can put wide things inside this.",
+  "novakidDescription" : "This looks kinda durable.",
   "inventoryIcon" : "widewickerbasketMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "widewickerbasketMFM.png:<color>.<key>",
       "imagePosition" : [ -8, 0 ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-    } ],
+    }
+],
   "openSounds" : [ "/sfx/objects/florancrate_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/florancrate_close.ogg" ],
   "slotCount" : 6,
   "uiConfig" : "/interface/chests/chest<slots>MFM.config",
   "frameCooldown" : 5,
   "autoCloseCooldown" : 3600,
-  "novakidDescription" : "This looks kinda durable.",
   "health" : 1.5
 }

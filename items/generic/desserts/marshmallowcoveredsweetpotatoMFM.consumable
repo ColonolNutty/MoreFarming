@@ -7,41 +7,36 @@
   "description" : "(BAKE):-} A baked sweet potato with butter, covered in marshmallows.",
   "shortdescription" : "Marshmallow Sw. Potato",
   "foodValue" : 19.1,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 1
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 1
-      },
-
-      {
-        "effect" : "camouflage25",
-        "duration" : 1
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 1
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 62
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 4
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 6
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 4
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 4
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 4
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 6
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 68
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

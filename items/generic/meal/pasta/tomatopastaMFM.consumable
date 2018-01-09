@@ -6,17 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Pasta with tomato sauce.",
   "shortdescription" : "Pasta - Tomato",
-  "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "jumpboostfood",
-        "duration" : 180
-      },
-
-      {
-        "effect" : "regeneration3",
-        "duration" : 20
-      } ] ],
+  "foodValue" : 12.82,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -7,11 +7,6 @@
   "description" : "(PREP):-} Cooked octopus on top of rice.",
   "shortdescription" : "Nigiri - Tako",
   "foodValue" : 51.53,
-  "effects" : [ [ 
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 90
-      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

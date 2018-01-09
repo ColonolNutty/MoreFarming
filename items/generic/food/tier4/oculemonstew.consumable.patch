@@ -1,51 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 1134.0
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 69.03
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Stew - Oculemon"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "ragefood",
-            "duration" : 293
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 293
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -62,9 +25,62 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Stew - Oculemon"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 69.03
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BOIL):-} A tangy, somewhat slimy stew made of oculemon and meat scraps."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 1134.0
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "ragefood",
+          "duration" : 293
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 293
+        }
+      ]]
     }
   ]
 ]

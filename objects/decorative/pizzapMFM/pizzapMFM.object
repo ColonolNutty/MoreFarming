@@ -15,7 +15,7 @@
   "hylotlDescription" : "The act of just throwing this stuff together disrespects what cooking means.",
   "inventoryIcon" : "pizzapMFMicon.png",
   "largeImage" : "pizzapMFM.png:default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "pizzapMFM.png",
       "imagePosition" : [ -8, 0 ],
@@ -23,12 +23,10 @@
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
-  "breakDropOptions" : [ [ [ "automato", 1, 
-        {
-
-        } ],[ "boltbulb", 1, 
-        {
-
-        } ] ] ]
+    }
+],
+  "breakDropOptions" : [[
+    [ "automato", 1, { } ],
+    [ "boltbulb", 1, { } ]
+  ]]
 }

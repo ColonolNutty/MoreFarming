@@ -7,21 +7,20 @@
   "description" : "(BOIL):-} Pasta with some cheese. Arguably the best pasta.",
   "shortdescription" : "Macaroni & Cheese",
   "foodValue" : 15.79,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 33
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 33
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 66
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 37
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 37
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 80
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

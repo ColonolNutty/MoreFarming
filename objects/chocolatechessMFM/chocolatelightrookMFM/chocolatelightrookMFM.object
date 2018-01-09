@@ -15,7 +15,7 @@
   "hylotlDescription" : "It looks like a large game piece. The Hylotl enjoy many boardgames.",
   "novakidDescription" : "Whatever game this is looks mighty dull, but this piece tastes sweet.",
   "inventoryIcon" : "chocolatelightrookMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "chocolatelightrookMFM.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -23,5 +23,6 @@
       "animationCycle" : 1.0,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ]
+    }
+]
 }

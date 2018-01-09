@@ -6,12 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Pasta with automato sauce. It works. Kinda.",
   "shortdescription" : "Pasta - Automato",
-  "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "jumpboostfood",
-        "duration" : 180
-      } ] ],
+  "foodValue" : 12.82,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

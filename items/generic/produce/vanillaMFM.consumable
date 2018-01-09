@@ -8,21 +8,20 @@
   "description" : "Vanilla.",
   "shortdescription" : "Vanilla Bean",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 30
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 30
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 30
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 30
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

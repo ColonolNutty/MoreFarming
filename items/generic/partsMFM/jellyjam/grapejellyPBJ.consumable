@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Jelly made from grapes.",
   "shortdescription" : "Jelly - Grape",
-  "foodValue" : 18.94,
+  "foodValue" : 50.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

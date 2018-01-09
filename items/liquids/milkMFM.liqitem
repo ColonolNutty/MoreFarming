@@ -1,11 +1,10 @@
 {
   "itemName" : "milkMFM",
   "rarity" : "Common",
+  "price" : 20.84,
   "category" : "liquid",
-  "inventoryIcon" : "milkMFMicon.png",
-  "shortdescription" : "Milk",
   "description" : "(BLEND):-} Milk, possibly from an animal?",
-
-  "liquid" : "liquidmilkMFM",
-  "price" : 20.84
+  "shortdescription" : "Milk",
+  "inventoryIcon" : "milkMFMicon.png",
+  "liquid" : "liquidmilkMFM"
 }

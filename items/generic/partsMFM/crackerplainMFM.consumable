@@ -1,27 +1,12 @@
 {
   "itemName" : "crackerplainMFM",
   "rarity" : "Common",
-  "price" : 31.16,
+  "price" : 8.35,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Plain lightly browned cracker; Good for making extravagant snacks.",
   "shortdescription" : "Cracker - Plain",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 4
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 4
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 9
-      } ] ],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -17,7 +17,7 @@
   "humanDescription" : "Icecream, in space! I sound suprised..",
   "hylotlDescription" : "A freezing device? Interesting..",
   "inventoryIcon" : "freezingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -25,18 +25,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "freezingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "freezingstationCNYClit.png:<color>"
-        } ],
+        { "image" : "freezingstationCNYClit.png:<color>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -44,16 +41,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "freezingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "freezingstationCNYClit.png:<color>"
-        } ]
-    } ],
+        { "image" : "freezingstationCNYClit.png:<color>" }
+      ]
+    }
+  ],
   "recipeGroup" : "freezingMFM",
   "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
@@ -65,13 +61,13 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
   "soundEffect" : "/sfx/objects/fridge_hum.ogg",
-  "particleEmitter" :   {
+  "particleEmitter" : {
     "emissionRate" : 3,
-    "particleVariance" :     {
+    "particleVariance" : {
       "initialVelocity" : [ 0.3, 2 ],
       "position" : [ 0.2, 0 ]
     },
-    "particle" :     {
+    "particle" : {
       "timeToLive" : 2,
       "fade" : 1,
       "size" : 1,

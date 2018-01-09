@@ -7,21 +7,20 @@
   "description" : "(FRY):-} Crispy golden shrimp tempura. Yum!",
   "shortdescription" : "Shrimp Tempura",
   "foodValue" : 50.58,
-  "effects" : [ [ 
-      {
-        "effect" : "camouflage25",
-        "duration" : 7
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 23
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 7
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 13
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 13
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -7,11 +7,12 @@
   "description" : "(PREP):-} Cooked octopus and cucumber packed in a rice ball.",
   "shortdescription" : "Maki - Tako",
   "foodValue" : 75.6,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 45
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 49
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -7,21 +7,20 @@
   "description" : "(FRY):-} FRENCH TOAST!",
   "shortdescription" : "French Toast - Cinnamon",
   "foodValue" : 26.99,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 150
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 35
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 35
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 75
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

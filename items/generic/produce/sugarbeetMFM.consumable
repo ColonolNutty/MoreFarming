@@ -8,16 +8,16 @@
   "description" : "Sweet!",
   "shortdescription" : "Sugar Beet",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 40
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "energyregen",
+      "duration" : 30
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 40
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

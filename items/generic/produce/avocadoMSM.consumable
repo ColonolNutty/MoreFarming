@@ -8,16 +8,16 @@
   "description" : "Avocado!",
   "shortdescription" : "Avocado",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 70
-      },
-
-      {
-        "effect" : "thorns",
-        "duration" : 70
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 70
+    },
+    {
+      "effect" : "thorns",
+      "duration" : 70
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

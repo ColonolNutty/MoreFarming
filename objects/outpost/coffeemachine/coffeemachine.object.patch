@@ -2,97 +2,25 @@
   [
     {
       "op" : "test",
-      "path" : "/recipeGroup",
+      "path" : "/autoCloseCooldown",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/recipeGroup",
-      "value" : ""
+      "path" : "/autoCloseCooldown",
+      "value" : 1
     }
   ],
   [
     {
       "op" : "test",
-      "path" : "/outputConfig",
+      "path" : "/maximumLiquidLevel",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/outputConfig",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/scripts",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/scripts",
-      "value" : []
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/uiConfig",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/uiConfig",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/category",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/category",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/objectType",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/objectType",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/openSounds",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/openSounds",
-      "value" : []
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/closeSounds",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/closeSounds",
-      "value" : []
+      "path" : "/maximumLiquidLevel",
+      "value" : 1.0
     }
   ],
   [
@@ -110,6 +38,18 @@
   [
     {
       "op" : "test",
+      "path" : "/objectType",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/objectType",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
       "path" : "/frameCooldown",
       "inverse" : true
     },
@@ -122,25 +62,25 @@
   [
     {
       "op" : "test",
-      "path" : "/autoCloseCooldown",
+      "path" : "/openSounds",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/autoCloseCooldown",
-      "value" : 1
+      "path" : "/openSounds",
+      "value" : [ ]
     }
   ],
   [
     {
       "op" : "test",
-      "path" : "/scriptDelta",
+      "path" : "/uiConfig",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/scriptDelta",
-      "value" : 1
+      "path" : "/uiConfig",
+      "value" : ""
     }
   ],
   [
@@ -158,110 +98,49 @@
   [
     {
       "op" : "test",
-      "path" : "/interactData",
+      "path" : "/scriptDelta",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/interactData",
-      "value" : {}
+      "path" : "/scriptDelta",
+      "value" : 1
     }
   ],
   [
     {
       "op" : "test",
-      "path" : "/maximumLiquidLevel",
+      "path" : "/outputConfig",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/maximumLiquidLevel",
-      "value" : 1.0
+      "path" : "/outputConfig",
+      "value" : ""
     }
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Coffee Machine (Coffee)"
-    },
-    {
-      "op" : "replace",
-      "path" : "/recipeGroup",
-      "value" : "coffeeMFM"
-    },
-    {
-      "op" : "replace",
-      "path" : "/outputConfig",
-      "value" : "/recipeCrafterMFM/coffeeMFMRecipes.config"
+      "op" : "test",
+      "path" : "/interactData",
+      "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/scripts/-",
-      "value" : "/recipeCrafterMFM/recipeCrafterMFM.lua"
-    },
+      "path" : "/interactData",
+      "value" : { }
+    }
+  ],
+  [
     {
-      "op" : "replace",
-      "path" : "/uiConfig",
-      "value" : "/interface/objectcrafting/recipeCrafterMFM.config"
-    },
-    {
-      "op" : "replace",
-      "path" : "/category",
-      "value" : "crafting"
-    },
-    {
-      "op" : "replace",
-      "path" : "/objectType",
-      "value" : "container"
+      "op" : "test",
+      "path" : "/scripts",
+      "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/openSounds/-",
-      "value" : "/sfx/objects/campfire_use.ogg"
-    },
-    {
-      "op" : "add",
-      "path" : "/closeSounds/-",
-      "value" : "/sfx/objects/campfire_use.ogg"
-    },
-    {
-      "op" : "replace",
-      "path" : "/slotCount",
-      "value" : 16
-    },
-    {
-      "op" : "replace",
-      "path" : "/frameCooldown",
-      "value" : 5
-    },
-    {
-      "op" : "replace",
-      "path" : "/autoCloseCooldown",
-      "value" : 3600
-    },
-    {
-      "op" : "replace",
-      "path" : "/scriptDelta",
-      "value" : 1
-    },
-    {
-      "op" : "remove",
-      "path" : "/interactAction"
-    },
-    {
-      "op" : "remove",
-      "path" : "/interactData"
-    },
-    {
-      "op" : "replace",
-      "path" : "/maximumLiquidLevel",
-      "value" : 1.0
-    },
-    {
-      "op" : "add",
-      "path" : "/colonyTags/-",
-      "value" : "cooking"
+      "path" : "/scripts",
+      "value" : [ ]
     }
   ],
   [
@@ -278,9 +157,128 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/recipeGroup",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/recipeGroup",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/category",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/closeSounds",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/closeSounds",
+      "value" : [ ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/autoCloseCooldown",
+      "value" : 3600
+    },
+    {
+      "op" : "replace",
+      "path" : "/maximumLiquidLevel",
+      "value" : 1.0
+    },
+    {
+      "op" : "replace",
+      "path" : "/slotCount",
+      "value" : 16
+    },
+    {
+      "op" : "replace",
+      "path" : "/objectType",
+      "value" : "container"
+    },
+    {
+      "op" : "replace",
+      "path" : "/frameCooldown",
+      "value" : 5
+    },
+    {
+      "op" : "add",
+      "path" : "/openSounds/-",
+      "value" : "/sfx/objects/campfire_use.ogg"
+    },
+    {
+      "op" : "replace",
+      "path" : "/uiConfig",
+      "value" : "/interface/objectcrafting/recipeCrafterMFM.config"
+    },
+    {
+      "op" : "add",
+      "path" : "/colonyTags/-",
+      "value" : "cooking"
+    },
+    {
+      "op" : "remove",
+      "path" : "/interactAction"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Coffee Machine (Coffee)"
+    },
+    {
+      "op" : "replace",
+      "path" : "/scriptDelta",
+      "value" : 1
+    },
+    {
+      "op" : "replace",
+      "path" : "/outputConfig",
+      "value" : "/recipeCrafterMFM/coffeeMFMRecipes.config"
+    },
+    {
+      "op" : "remove",
+      "path" : "/interactData"
+    },
+    {
+      "op" : "add",
+      "path" : "/scripts/-",
+      "value" : "/recipeCrafterMFM/recipeCrafterMFM.lua"
+    },
+    {
       "op" : "replace",
       "path" : "/price",
       "value" : 172.2
+    },
+    {
+      "op" : "replace",
+      "path" : "/recipeGroup",
+      "value" : "coffeeMFM"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "crafting"
+    },
+    {
+      "op" : "add",
+      "path" : "/closeSounds/-",
+      "value" : "/sfx/objects/campfire_use.ogg"
     }
   ]
 ]

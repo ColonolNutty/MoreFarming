@@ -15,7 +15,7 @@
   "hylotlDescription" : "This is the last thing I would want for my birthday.",
   "inventoryIcon" : "bdaycakeMFMicon.png",
   "largeImage" : "bdaycakeMFM.png:<color>.0",
-  "orientations" : [ 
+  "orientations" : [
     {
       "image" : "bdaycakeMFM.png:<color>.<frame>",
       "imagePosition" : [ 0, 0 ],
@@ -24,44 +24,38 @@
       "anchors" : [ "bottom" ],
       "lightPosition" : [ 0, 0 ],
       "animationPosition" : [ 0, 0 ],
-      "animationParts" :       {
+      "animationParts" : {
         "fg" : "bdaycakeMFM.png",
         "bg" : "bdaycakeMFM.png"
       }
-    } ],
+    }
+],
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
   "flickerMinIntensity" : 0.1,
   "flickerPeriodVariance" : 0.075,
   "maximumLiquidLevel" : 0.2,
-  "animationCustom" :   {
-    "sounds" :     {
+  "animationCustom" : {
+    "sounds" : {
       "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ],
       "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ]
     }
-  },
+},
   "flickerMaxIntensity" : 0.1,
   "flickerDistance" : 0.2,
   "flickerStrength" : 0.1,
-  "animationParts" :   {
+  "animationParts" : {
     "fg" : "bdaycakeMFM.png",
     "bg" : "bdaycakeMFM.png"
   },
-  "breakDropOptions" : [ [ [ "bdaycakesliceMFM", 1, 
-        {
-
-        } ],[ "bdaycakesliceMFM", 1, 
-        {
-
-        } ],[ "bdaycakesliceMFM", 1, 
-        {
-
-        } ],[ "bdaycakesliceMFM", 1, 
-        {
-
-        } ] ] ],
+  "breakDropOptions" : [[
+    [ "bdaycakesliceMFM", 1, { } ],
+    [ "bdaycakesliceMFM", 1, { } ],
+    [ "bdaycakesliceMFM", 1, { } ],
+    [ "bdaycakesliceMFM", 1, { } ]
+  ]],
   "lightColor" : [ 229, 218, 207 ],
   "animation" : "bdaycakeMFM.animation",
-  "inputNodes" : [ [ 0, 0 ] ],
+  "inputNodes" : [[ 0, 0 ]],
   "flickerIntensityVariance" : 0.025
 }

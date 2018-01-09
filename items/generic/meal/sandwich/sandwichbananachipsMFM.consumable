@@ -6,17 +6,13 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with chips and bananas.",
   "shortdescription" : "Sandwich - Chipanana",
-  "foodValue" : 61.27,
-  "effects" : [ [ 
-      {
-        "effect" : "camouflage25",
-        "duration" : 7
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 11
-      } ] ],
+  "foodValue" : 74.72,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 14
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

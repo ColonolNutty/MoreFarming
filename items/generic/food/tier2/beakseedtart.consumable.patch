@@ -1,59 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 484.51
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 28.15
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Tart - Beakseed"
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 141
-          },
-          {
-            "effect" : "jumpboostfood",
-            "duration" : 135
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 6
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 12
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -70,9 +25,70 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Tart - Beakseed"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 28.15
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} Created out of necessity in beakseed season to make use of all the jam."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 484.51
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 141
+        },
+        {
+          "effect" : "jumpboostfood",
+          "duration" : 135
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 6
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 12
+        }
+      ]]
     }
   ]
 ]

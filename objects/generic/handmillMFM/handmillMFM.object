@@ -17,63 +17,103 @@
   "humanDescription" : "A hand mill. Good for grinding things up.",
   "hylotlDescription" : "A hand mill for grinding items up.",
   "inventoryIcon" : "handmillMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "image" : "handmillMFM.png:<color>",
       "imagePosition" : [ 0, 0 ],
       "direction" : "right",
-      "spaces" : [ [ 0, 1 ],[ 0, 2 ],[ 1, 1 ],[ 1, 2 ],[ 0, 0 ] ],
-      "fgAnchors" : [ [ 1, 0 ] ],
+      "spaces" : [
+        [ 0, 1 ],
+        [ 0, 2 ],
+        [ 1, 1 ],
+        [ 1, 2 ],
+        [ 0, 0 ]
+      ],
+      "fgAnchors" : [[ 1, 0 ]],
       "collision" : "platform"
     },
-
     {
       "image" : "handmillMFM.png:<color>",
       "imagePosition" : [ 0, 0 ],
       "direction" : "left",
-      "spaces" : [ [ 0, 1 ],[ 0, 2 ],[ 1, 1 ],[ 1, 2 ],[ 1, 0 ] ],
-      "fgAnchors" : [ [ 0, 0 ] ],
+      "spaces" : [
+        [ 0, 1 ],
+        [ 0, 2 ],
+        [ 1, 1 ],
+        [ 1, 2 ],
+        [ 1, 0 ]
+      ],
+      "fgAnchors" : [[ 0, 0 ]],
       "collision" : "platform",
       "flipImages" : true
     },
-
     {
       "image" : "handmillMFM.png:<color>",
       "imagePosition" : [ 0, 0 ],
       "direction" : "right",
-      "spaces" : [ [ 0, 1 ],[ 0, 2 ],[ 1, 1 ],[ 1, 2 ],[ 0, 0 ] ],
-      "fgAnchors" : [ [ 0, -1 ] ],
+      "spaces" : [
+        [ 0, 1 ],
+        [ 0, 2 ],
+        [ 1, 1 ],
+        [ 1, 2 ],
+        [ 0, 0 ]
+      ],
+      "fgAnchors" : [[ 0, -1 ]],
       "collision" : "platform"
     },
-
     {
       "image" : "handmillMFM.png:<color>",
       "imagePosition" : [ 0, 0 ],
       "direction" : "left",
-      "spaces" : [ [ 0, 1 ],[ 0, 2 ],[ 1, 1 ],[ 1, 2 ],[ 1, 0 ] ],
-      "fgAnchors" : [ [ 1, -1 ] ],
+      "spaces" : [
+        [ 0, 1 ],
+        [ 0, 2 ],
+        [ 1, 1 ],
+        [ 1, 2 ],
+        [ 1, 0 ]
+      ],
+      "fgAnchors" : [[ 1, -1 ]],
       "collision" : "platform",
       "flipImages" : true
     },
-
     {
       "image" : "handmillMFM.png:<color>",
       "imagePosition" : [ 0, 0 ],
       "direction" : "right",
-      "spaces" : [ [ 0, 1 ],[ 0, 2 ],[ 1, 1 ],[ 1, 2 ],[ 0, 0 ] ],
-      "fgAnchors" : [ [ -1, 0 ],[ -1, 1 ],[ -1, 2 ] ],
+      "spaces" : [
+        [ 0, 1 ],
+        [ 0, 2 ],
+        [ 1, 1 ],
+        [ 1, 2 ],
+        [ 0, 0 ]
+      ],
+      "fgAnchors" : [
+        [ -1, 0 ],
+        [ -1, 1 ],
+        [ -1, 2 ]
+      ],
       "collision" : "platform"
     },
-
     {
       "image" : "handmillMFM.png:<color>",
       "imagePosition" : [ 0, 0 ],
       "direction" : "left",
-      "spaces" : [ [ 0, 1 ],[ 0, 2 ],[ 1, 1 ],[ 1, 2 ],[ 1, 0 ] ],
-      "fgAnchors" : [ [ 2, 0 ],[ 2, 1 ],[ 2, 2 ] ],
+      "spaces" : [
+        [ 0, 1 ],
+        [ 0, 2 ],
+        [ 1, 1 ],
+        [ 1, 2 ],
+        [ 1, 0 ]
+      ],
+      "fgAnchors" : [
+        [ 2, 0 ],
+        [ 2, 1 ],
+        [ 2, 2 ]
+      ],
       "collision" : "platform",
       "flipImages" : true
-    } ],
+    }
+  ],
   "recipeGroup" : "millingMFM",
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],

@@ -10,12 +10,13 @@
   "shortdescription" : "^orange;Apex Deep Fryer (Fry)^white;",
   "race" : "generic",
   "inventoryIcon" : "apexfryingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "apexfryingstationCNYC.png:default",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "fryingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

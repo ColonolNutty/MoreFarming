@@ -16,7 +16,7 @@
   "humanDescription" : "I need oranges.. lots of oranges",
   "hylotlDescription" : "Blended kelp, I must remember.",
   "inventoryIcon" : "hylotlblendingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -24,18 +24,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "hylotlblendingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "hylotlblendingstationCNYClit.png:<color>"
-        } ],
+        { "image" : "hylotlblendingstationCNYClit.png:<color>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -43,16 +40,15 @@
       "animationCycle" : 0.6,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "hylotlblendingstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "hylotlblendingstationCNYClit.png:<color>"
-        } ]
-    } ],
+        { "image" : "hylotlblendingstationCNYClit.png:<color>" }
+      ]
+    }
+  ],
   "recipeGroup" : "blendingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

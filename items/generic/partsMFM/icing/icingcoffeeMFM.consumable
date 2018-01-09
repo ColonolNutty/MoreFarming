@@ -6,22 +6,21 @@
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Coffee flavoured icing. Wake up!",
   "shortdescription" : "Icing - Coffee",
-  "foodValue" : 11.26,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 141
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 12
-      } ] ],
+  "foodValue" : 18.5,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 6
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 6
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 14
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -8,16 +8,16 @@
   "description" : "Its orange!",
   "shortdescription" : "Orange Bell Pepper",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "fireblock",
-        "duration" : 60
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "fireblock",
+      "duration" : 60
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 30
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

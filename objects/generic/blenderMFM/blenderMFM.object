@@ -17,7 +17,7 @@
   "humanDescription" : "A blender. Good for grinding up things.",
   "hylotlDescription" : "A blender for grinding up items.",
   "inventoryIcon" : "blenderMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "blenderMFM.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -25,7 +25,8 @@
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "blendingMFM",
   "openSounds" : [ "/sfx/objects/blenderMFMenter.ogg" ],
   "closeSounds" : [ "/sfx/objects/blenderMFMexit.ogg" ],

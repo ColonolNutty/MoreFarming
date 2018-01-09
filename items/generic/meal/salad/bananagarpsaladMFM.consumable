@@ -6,17 +6,17 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} Banana and garpberries make for a fruity, sweet salad.",
   "shortdescription" : "Salad - Garpanana",
-  "foodValue" : 24.94,
-  "effects" : [ [ 
-      {
-        "effect" : "nova",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 210
-      } ] ],
+  "foodValue" : 31.5,
+  "effects" : [[
+    {
+      "effect" : "nova",
+      "duration" : 31
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 220
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

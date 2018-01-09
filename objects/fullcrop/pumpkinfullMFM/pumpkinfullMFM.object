@@ -14,23 +14,30 @@
   "glitchDescription" : "Suspicious. Why do I have the urge to cut up this plant?",
   "humanDescription" : "You could eat these, or decorate your room with them. I'm going for the second option.",
   "hylotlDescription" : "Other people like to add spices to them and make pies.",
+  "novakidDescription" : "Is that a newborn? No, wait, that's a plant...",
   "inventoryIcon" : "pumpkinfullMFMicon.png",
   "largeImage" : "pumpkinfullMFM.png:default.3.0",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "pumpkinfullMFM.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "requireTilledAnchors" : false,
-      "spaces" : [ [ 1, 0 ],[ 0, 0 ],[ 1, 1 ],[ 0, 1 ] ],
+      "spaces" : [
+        [ 1, 0 ],
+        [ 0, 0 ],
+        [ 1, 1 ],
+        [ 0, 1 ]
+      ],
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
+    }
+],
+  "stages" : [
     {
       "alts" : 5,
       "harvestPool" : "pumpkinfullMFMHarvest"
-    } ],
-  "learnBlueprintsOnPickup" : [ "jackolanternMFM", "largejackolanternMFM" ],
-  "novakidDescription" : "Is that a newborn? No, wait, that's a plant..."
+    }
+],
+  "learnBlueprintsOnPickup" : [ "jackolanternMFM", "largejackolanternMFM" ]
 }

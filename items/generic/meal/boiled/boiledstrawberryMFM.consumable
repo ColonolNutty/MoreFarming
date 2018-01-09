@@ -7,11 +7,12 @@
   "description" : "(BOIL):-} A strawberry boiled in water.",
   "shortdescription" : "Boiled Strawberry",
   "foodValue" : 11.03,
-  "effects" : [ [ 
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "energyregen",
+      "duration" : 32
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

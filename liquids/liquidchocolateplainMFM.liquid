@@ -2,47 +2,39 @@
   "name" : "liquidchocolateplainMFM",
   "liquidId" : 138,
   "description" : "Sugary and sweet plain chocolate. It slowly oozes through your fingertips.",
-  "glitchDescription" : "Analysis. It oozes slowly through this ones fingertips.",
   "floranDescription" : "It goesss through fingersss!",
-  "tickDelta" : 3,
-  "color" : [99, 55, 45, 240],
-  "statusEffects": [ "swimming", "tarslow" ],
+  "glitchDescription" : "Analysis. It oozes slowly through this ones fingertips.",
+  "color" : [ 99, 55, 45, 240 ],
+  "textureMovementFactor" : 2.6,
+  "texture" : "/liquids/liquidchocolateplainMFMtex.png",
   "itemDrop" : "chocolateliquorMFM",
-
-  "interactions": [
-    //coconutmilk
+  "interactions" : [
     {
       "liquid" : 7,
       "liquidResult" : 142
     },
-    //water
     {
       "liquid" : 1,
       "liquidResult" : 138
     },
-    //poison
     {
       "liquid" : 3,
       "liquidResult" : 3
     },
-    //slime
     {
       "liquid" : 13,
       "liquidResult" : 0
     },
-    //lava
     {
       "liquid" : 2,
       "materialResult" : "hardchocolateblockplainMFM"
     },
-    //corelava
     {
       "liquid" : 8,
       "materialResult" : "hardchocolateblockplainMFM"
     }
   ],
-
-  "texture" : "/liquids/liquidchocolateplainMFMtex.png",
-  "bottomLightMix" : [0, 78, 255],
-  "textureMovementFactor" : 2.6
+  "statusEffects" : [ "swimming", "tarslow" ],
+  "tickDelta" : 3,
+  "bottomLightMix" : [ 0, 78, 255 ]
 }

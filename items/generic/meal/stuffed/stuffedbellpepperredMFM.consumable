@@ -6,17 +6,17 @@
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A red bell pepper stuffed with rice, covered in tomato sauce.",
   "shortdescription" : "Stuffed Bell Pepper Red",
-  "foodValue" : 56.13,
-  "effects" : [ [ 
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 180
-      },
-
-      {
-        "effect" : "iceblock",
-        "duration" : 60
-      } ] ],
+  "foodValue" : 71.5,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 189
+    },
+    {
+      "effect" : "iceblock",
+      "duration" : 63
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

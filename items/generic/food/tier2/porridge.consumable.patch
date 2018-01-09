@@ -1,50 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 406.7
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 57.39
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 30
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 30
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 120
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -61,9 +25,61 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 57.39
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BOIL):-} A bowl of piping hot porridge. The healthy way to start your day."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 406.7
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 30
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 30
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 120
+        }
+      ]]
     }
   ]
 ]

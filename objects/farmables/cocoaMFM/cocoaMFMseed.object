@@ -14,7 +14,7 @@
   "humanDescription" : "Did someone say chocolate..!? CHOCOLATE!! CHOCOLATE!!",
   "inventoryIcon" : "cocoaMFMseedicon.png",
   "largeImage" : "cocoaMFMseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "cocoaMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -23,25 +23,20 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 720, 720 ]
-    },
-
-    {
-      "duration" : [ 720, 720 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 720, 720 ] },
+    { "duration" : [ 720, 720 ] },
     {
       "alts" : 5,
       "duration" : [ 2040, 2040 ]
     },
-
     {
       "alts" : 5,
       "harvestPool" : "cocoaMFMHarvest",
       "resetToStage" : 2
-    } ],
+    }
+  ],
   "maxImmersion" : 0.25
 }

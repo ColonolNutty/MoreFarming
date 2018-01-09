@@ -14,7 +14,7 @@
   "humanDescription" : "Good for making sweets!",
   "inventoryIcon" : "vanillabeanMFMseedicon.png",
   "largeImage" : "vanillabeanMFMseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "vanillabeanMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -23,31 +23,23 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 720, 720 ]
-    },
-
-    {
-      "duration" : [ 720, 720 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 720, 720 ] },
+    { "duration" : [ 720, 720 ] },
     {
       "alts" : 5,
       "duration" : [ 2040, 2040 ]
     },
-
     {
       "alts" : 5,
       "harvestPool" : "vanillabeanMFMHarvest",
       "resetToStage" : 2
-    } ],
+    }
+  ],
   "maxImmersion" : 0.2,
-  "breakDropOptions" : [ [ [ "vanillabeanMFMseed", 1, 
-        {
-
-        } ] ] ],
+  "breakDropOptions" : [[[ "vanillabeanMFMseed", 1, { } ]]],
   "hasObjectItem" : false,
   "biomePlaced" : true
 }

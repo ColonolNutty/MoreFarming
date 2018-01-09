@@ -1,50 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 196.4
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 26.88
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 36
-          },
-          {
-            "effect" : "energyregen",
-            "duration" : 36
-          },
-          {
-            "effect" : "maxhealthscalingboostfood",
-            "duration" : 72
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -61,9 +25,61 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 26.88
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BOIL):-} Smashing potatoes is scientifically proven to make them 500% tastier."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 196.4
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 36
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 36
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 72
+        }
+      ]]
     }
   ]
 ]

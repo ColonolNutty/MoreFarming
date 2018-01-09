@@ -7,11 +7,12 @@
   "description" : "(BLEND):-} A base for making pizza.",
   "shortdescription" : "Dough - Pizza",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "camouflage25",
-        "duration" : 3
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 3
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

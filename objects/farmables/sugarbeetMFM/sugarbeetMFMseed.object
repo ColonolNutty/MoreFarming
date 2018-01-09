@@ -14,7 +14,7 @@
   "humanDescription" : "Sugar, sugar, sugar, sugar!",
   "inventoryIcon" : "sugarbeetMFMseedicon.png",
   "largeImage" : "sugarbeetMFMseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "sugarbeetMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -23,24 +23,19 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 600, 600 ]
-    },
-
-    {
-      "duration" : [ 600, 600 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 600, 600 ] },
+    { "duration" : [ 600, 600 ] },
     {
       "alts" : 5,
       "duration" : [ 1920, 1920 ]
     },
-
     {
       "alts" : 5,
       "harvestPool" : "sugarbeetMFMHarvest"
-    } ],
+    }
+  ],
   "maxImmersion" : 0.1
 }

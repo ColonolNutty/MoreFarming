@@ -15,7 +15,7 @@
   "humanDescription" : "Would I even fit in this cage?",
   "hylotlDescription" : "A cage from which Floran prisoners rarely escape.",
   "inventoryIcon" : "bamboocageBMBicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "bamboocageBMB.png:<color>",
       "imagePosition" : [ -16, 0 ],
@@ -23,7 +23,8 @@
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "sitOrientation" : "lay",
   "sitPosition" : [ -4, 22 ],
   "sitStatusEffects" : [ "nude" ],

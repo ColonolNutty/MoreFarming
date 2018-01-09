@@ -16,7 +16,7 @@
   "humanDescription" : "I don't trust the hygeine standards of a darkages robot..",
   "hylotlDescription" : "Blood and screws everywhere..",
   "inventoryIcon" : "glitchchoppingstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "glitchchoppingstationCNYC.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -24,7 +24,8 @@
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "choppingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

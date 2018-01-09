@@ -16,7 +16,7 @@
   "humanDescription" : "I knew a guy that had one of these. Filled it with green coffee. Found him in the woods two weeks later talking to squirrels.. odd..",
   "hylotlDescription" : "I'll get used to the taste, shame it doesn't brew teas",
   "inventoryIcon" : "hylotlcoffeestationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "hylotlcoffeestationCNYC.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -24,7 +24,8 @@
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "coffeeMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

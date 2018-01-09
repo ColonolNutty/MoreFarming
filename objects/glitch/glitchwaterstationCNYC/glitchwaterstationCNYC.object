@@ -16,7 +16,7 @@
   "humanDescription" : "Could be oil, could be water..",
   "hylotlDescription" : "Smells like water.. thanks the stars.",
   "inventoryIcon" : "glitchwaterstationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "left",
@@ -25,18 +25,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "glitchwaterstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "glitchwaterstationCNYClit.png:<color>"
-        } ],
+        { "image" : "glitchwaterstationCNYClit.png:<color>" }
+      ],
       "flipImages" : true
     },
-
     {
       "imagePosition" : [ -8, 0 ],
       "direction" : "right",
@@ -45,16 +42,15 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "imageLayers" : [ 
+      "imageLayers" : [
         {
           "image" : "glitchwaterstationCNYC.png:<color>",
           "fullbright" : true
         },
-
-        {
-          "image" : "glitchwaterstationCNYClit.png:<color>"
-        } ]
-    } ],
+        { "image" : "glitchwaterstationCNYClit.png:<color>" }
+      ]
+    }
+  ],
   "recipeGroup" : "waterMFM",
   "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
   "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],

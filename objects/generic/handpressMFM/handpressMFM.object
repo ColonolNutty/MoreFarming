@@ -17,7 +17,7 @@
   "humanDescription" : "A press. Good for squishing things.",
   "hylotlDescription" : "A press for squishing items.",
   "inventoryIcon" : "handpressMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "handpressMFM.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -25,7 +25,8 @@
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "pressingMFM",
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],

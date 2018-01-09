@@ -8,21 +8,20 @@
   "description" : "Shiny, golden, and a sweet flavour. Yum! A bit crunchy, though.",
   "shortdescription" : "Holiday Fruit",
   "foodValue" : 20.0,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration3",
-        "duration" : 60
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 60
-      },
-
-      {
-        "effect" : "lowgrav",
-        "duration" : 60
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "regeneration3",
+      "duration" : 60
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 60
+    },
+    {
+      "effect" : "lowgrav",
+      "duration" : 60
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

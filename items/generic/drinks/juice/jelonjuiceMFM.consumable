@@ -6,16 +6,16 @@
   "description" : "(BLEND):-} A sweet glass of jelon juice.",
   "shortdescription" : "Juice - Jelon",
   "foodValue" : 11.03,
-  "effects" : [ [ 
-      {
-        "effect" : "swimboost",
-        "duration" : 50
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 50
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "swimboost",
+      "duration" : 54
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 54
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

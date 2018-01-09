@@ -1,42 +1,38 @@
 {
   "itemName" : "cupcakecoffeeMFM",
   "rarity" : "Common",
-  "price" : 476.37,
+  "price" : 245.75,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A cupcake with coffee icing.",
   "shortdescription" : "Cupcake - Coffee",
-  "foodValue" : 68.36,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 177
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 42
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 84
-      } ] ],
+  "foodValue" : 30.73,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 1
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 1
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 14
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 1
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 14
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 31
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -16,7 +16,7 @@
   "hylotlDescription" : "A glowing orange vegetable.",
   "novakidDescription" : "I ain't never seen a glowing carrot before.",
   "inventoryIcon" : "torchcarrotMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "image" : "torchcarrotMFM.png:<color>.<frame>",
       "imagePosition" : [ 0, 0 ],
@@ -24,7 +24,8 @@
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
-    } ],
+    }
+],
   "flickerPeriod" : 0.3,
   "flickerMinIntensity" : 0.95,
   "flickerPeriodVariance" : 0.075,

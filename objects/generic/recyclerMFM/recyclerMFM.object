@@ -10,7 +10,7 @@
   "shortdescription" : "Recycler (Recycle)",
   "race" : "generic",
   "inventoryIcon" : "recyclerMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "recyclerMFM.png:<color>.<frame>",
       "imagePosition" : [ 0, 0 ],
@@ -19,7 +19,8 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-    } ],
+    }
+],
   "recipeGroup" : "recyclingMFM",
   "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],

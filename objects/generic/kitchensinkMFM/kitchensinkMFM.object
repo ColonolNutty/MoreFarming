@@ -17,7 +17,7 @@
   "humanDescription" : "A nice sink. I wonder if the water is fresh.",
   "hylotlDescription" : "Water!",
   "inventoryIcon" : "kitchensinkMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "kitchensinkMFM.png:<color>",
       "imagePosition" : [ -16, 0 ],
@@ -25,7 +25,8 @@
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "waterMFM",
   "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
   "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],

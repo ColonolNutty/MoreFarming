@@ -13,7 +13,7 @@
   "humanDescription" : "I've always wanted a Glitch sidekick. This statue is the next best thing.",
   "hylotlDescription" : "A Glitch. Their man-made appearance will forever be jarring.",
   "inventoryIcon" : "chocolatestatueglitchMFMicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "chocolatestatueglitchMFM.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -21,6 +21,7 @@
       "animationCycle" : 1.0,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "genericDescription" : "A statue of a Glitch. I wonder if this one was important."
 }

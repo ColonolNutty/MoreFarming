@@ -14,7 +14,7 @@
   "humanDescription" : "Chocolate covered strawberries are the best!",
   "inventoryIcon" : "strawberryPBJseedicon.png",
   "largeImage" : "strawberryPBJseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "strawberryPBJseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -23,31 +23,23 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 420, 420 ]
-    },
-
-    {
-      "duration" : [ 420, 420 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 420, 420 ] },
+    { "duration" : [ 420, 420 ] },
     {
       "alts" : 5,
       "duration" : [ 1200, 1200 ]
     },
-
     {
       "alts" : 5,
       "harvestPool" : "strawberryPBJHarvest",
       "resetToStage" : 2
-    } ],
+    }
+  ],
   "maxImmersion" : 0.4,
-  "breakDropOptions" : [ [ [ "strawberryPBJseed", 1, 
-        {
-
-        } ] ] ],
+  "breakDropOptions" : [[[ "strawberryPBJseed", 1, { } ]]],
   "hasObjectItem" : false,
   "biomePlaced" : true
 }

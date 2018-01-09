@@ -1,54 +1,14 @@
 [
   [
     {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 232.97
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 68.13
-    }
-  ],
-  [
-    {
       "op" : "test",
-      "path" : "/effects",
+      "path" : "/foodValue",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/effects",
-      "value" : [
-        []
-      ]
-    }
-  ],
-  [
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [
-        [
-          {
-            "effect" : "poisonblock",
-            "duration" : 60
-          },
-          {
-            "effect" : "camouflage25",
-            "duration" : 7
-          },
-          {
-            "effect" : "maxenergyscalingboostfood",
-            "duration" : 180
-          },
-          {
-            "effect" : "iceblock",
-            "duration" : 60
-          }
-        ]
-      ]
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -65,9 +25,65 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 68.13
+    },
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(FRY):-} Delicious eggy fried rice with mushrooms."
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 232.97
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "poisonblock",
+          "duration" : 60
+        },
+        {
+          "effect" : "camouflage25",
+          "duration" : 7
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 180
+        },
+        {
+          "effect" : "iceblock",
+          "duration" : 60
+        }
+      ]]
     }
   ]
 ]

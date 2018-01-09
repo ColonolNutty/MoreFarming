@@ -7,41 +7,36 @@
   "description" : "(PREP):-} Toasted marshmallow and chocolate sandwiched between graham crackers.",
   "shortdescription" : "Smore",
   "foodValue" : 38.9,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 7
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 398
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 7
-      },
-
-      {
-        "effect" : "camouflage25",
-        "duration" : 1
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 7
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 38
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 78
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 7
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 45
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 7
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 1
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 7
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 45
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 97
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

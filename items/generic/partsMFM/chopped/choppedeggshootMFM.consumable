@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed, peeled, and chopped egg shoot.",
   "shortdescription" : "Chopped Eggshoot",
-  "foodValue" : 10.0,
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -16,7 +16,7 @@
   "humanDescription" : "A bamboo bookcase.",
   "hylotlDescription" : "A spot to place books.",
   "inventoryIcon" : "bamboobookcaseBMBicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "bamboobookcaseBMB.png:<color>",
       "imagePosition" : [ -16, 0 ],
@@ -25,7 +25,8 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-    } ],
+    }
+],
   "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
   "slotCount" : 32,

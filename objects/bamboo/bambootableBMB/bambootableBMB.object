@@ -15,7 +15,7 @@
   "humanDescription" : "A nice bamboo table.",
   "hylotlDescription" : "As far as basic bamboo tables go, this one's not bad.",
   "inventoryIcon" : "bambootableBMBicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "image" : "bambootableBMB.png:<color>",
       "imagePosition" : [ -16, 0 ],
@@ -25,7 +25,6 @@
       "collision" : "platform",
       "flipImages" : true
     },
-
     {
       "image" : "bambootableBMB.png:<color>",
       "imagePosition" : [ -16, 0 ],
@@ -33,5 +32,6 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-    } ]
+    }
+  ]
 }

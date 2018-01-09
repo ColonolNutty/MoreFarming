@@ -7,41 +7,36 @@
   "description" : "(FREEZE):-} A lovely icecream made with a garpberry-taste. Mmmm",
   "shortdescription" : "Ice Cream - Garpberry",
   "foodValue" : 55.74,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "nova",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 6
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 30
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 240
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 12
+    },
+    {
+      "effect" : "nova",
+      "duration" : 61
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 12
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 70
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 12
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 70
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 517
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

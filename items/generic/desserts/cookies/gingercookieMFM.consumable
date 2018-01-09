@@ -7,41 +7,12 @@
   "description" : "(BAKE):-} Hey, Santa can't hog all these for himself!",
   "shortdescription" : "Cookie - Gingerbread",
   "foodValue" : 10.0,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 0
-      },
-
-      {
-        "effect" : "poisonblock",
-        "duration" : 0
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 0
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 0
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 0
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 0
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 0
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 1
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

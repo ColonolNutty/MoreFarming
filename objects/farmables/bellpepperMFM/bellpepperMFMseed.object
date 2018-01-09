@@ -14,7 +14,7 @@
   "humanDescription" : "So many colors!",
   "inventoryIcon" : "bellpepperMFMseedicon.png",
   "largeImage" : "bellpepperMFMseed.png:default.default.default",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "bellpepperMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
@@ -23,46 +23,38 @@
       "spaceScan" : 0.1,
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-    } ],
-  "stages" : [ 
-    {
-      "duration" : [ 360, 360 ]
-    },
-
-    {
-      "duration" : [ 360, 360 ]
-    },
-
+    }
+],
+  "stages" : [
+    { "duration" : [ 360, 360 ] },
+    { "duration" : [ 360, 360 ] },
     {
       "alts" : 5,
       "duration" : [ 1080, 1080 ]
     },
-
     {
       "alts" : 5,
       "duration" : [ 240, 240 ],
       "harvestPool" : "greenbellpepperMFMHarvest",
       "resetToStage" : 2
     },
-
     {
       "alts" : 5,
       "duration" : [ 180, 180 ],
       "harvestPool" : "yellowbellpepperMFMHarvest",
       "resetToStage" : 2
     },
-
     {
       "alts" : 5,
       "duration" : [ 180, 180 ],
       "harvestPool" : "orangebellpepperMFMHarvest",
       "resetToStage" : 2
     },
-
     {
       "alts" : 5,
       "harvestPool" : "redbellpepperMFMHarvest",
       "resetToStage" : 2
-    } ],
+    }
+  ],
   "maxImmersion" : 0.25
 }

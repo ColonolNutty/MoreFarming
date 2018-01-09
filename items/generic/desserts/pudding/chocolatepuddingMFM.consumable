@@ -7,36 +7,32 @@
   "description" : "(BLEND):-} I need more!",
   "shortdescription" : "Pudding - Chocolate",
   "foodValue" : 13.8,
-  "effects" : [ [ 
-      {
-        "effect" : "regeneration2",
-        "duration" : 2
-      },
-
-      {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 12
-      },
-
-      {
-        "effect" : "maxenergyscalingboost",
-        "duration" : 2
-      },
-
-      {
-        "effect" : "runboostfood",
-        "duration" : 2
-      },
-
-      {
-        "effect" : "energyregen",
-        "duration" : 12
-      },
-
-      {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 24
-      } ] ],
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 2
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 2
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 13
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 2
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 13
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 29
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -16,7 +16,7 @@
   "humanDescription" : "Coffee with grinds in.. real nice..",
   "hylotlDescription" : "At least it doesn't smell like oil..",
   "inventoryIcon" : "glitchcoffeestationCNYCicon.png",
-  "orientations" : [ 
+  "orientations" : [
     {
       "dualImage" : "glitchcoffeestationCNYC.png:<color>",
       "imagePosition" : [ -8, 0 ],
@@ -24,7 +24,8 @@
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    } ],
+    }
+],
   "recipeGroup" : "coffeeMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

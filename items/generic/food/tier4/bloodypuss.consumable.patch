@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -50,13 +50,13 @@
   [
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 18.38
+      "path" : "/description",
+      "value" : "(BLEND):-} A thick, shake-like drink of meat and pussplum."
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(BLEND):-} A thick, shake-like drink of meat and pussplum."
+      "path" : "/foodValue",
+      "value" : 18.38
     },
     {
       "op" : "replace",

@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -55,13 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 11.03
+      "path" : "/description",
+      "value" : "(BLEND):-} A sweet and tropical juice made of kiwis."
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(BLEND):-} A sweet and tropical juice made of kiwis."
+      "path" : "/foodValue",
+      "value" : 11.03
     },
     {
       "op" : "replace",

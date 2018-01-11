@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -50,13 +50,13 @@
   [
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 29.53
+      "path" : "/description",
+      "value" : "(BAKE):-} It looks like the old spooky holiday treat, but there's actual corn in the centre of each morsel."
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(BAKE):-} It looks like the old spooky holiday treat, but there's actual corn in the centre of each morsel."
+      "path" : "/foodValue",
+      "value" : 29.53
     },
     {
       "op" : "replace",

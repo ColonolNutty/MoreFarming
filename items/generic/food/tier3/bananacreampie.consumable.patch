@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -55,13 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 113.19
+      "path" : "/description",
+      "value" : "(BAKE):-} Better for eating, or for throwing in people's faces?"
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(BAKE):-} Better for eating, or for throwing in people's faces?"
+      "path" : "/foodValue",
+      "value" : 113.19
     },
     {
       "op" : "replace",

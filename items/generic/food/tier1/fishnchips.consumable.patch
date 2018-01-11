@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -50,13 +50,13 @@
   [
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 44.28
+      "path" : "/description",
+      "value" : "(PREP):-} Fry all the things! This is an old favorite for humans."
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(PREP):-} Fry all the things! This is an old favorite for humans."
+      "path" : "/foodValue",
+      "value" : 44.28
     },
     {
       "op" : "replace",

@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -55,13 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 47.97
+      "path" : "/description",
+      "value" : "(BAKE):-} Pretty much the only good use for pussplum jam."
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(BAKE):-} Pretty much the only good use for pussplum jam."
+      "path" : "/foodValue",
+      "value" : 47.97
     },
     {
       "op" : "replace",

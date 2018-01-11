@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -55,13 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 64.16
+      "path" : "/description",
+      "value" : "(DISTILL):-} A mulled drink made of oculemon and pussplum. Delicious!"
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(DISTILL):-} A mulled drink made of oculemon and pussplum. Delicious!"
+      "path" : "/foodValue",
+      "value" : 64.16
     },
     {
       "op" : "replace",

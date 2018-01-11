@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -55,13 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 21.54
+      "path" : "/description",
+      "value" : "(BAKE):-} Tastes like an actual stuffed tomato, if you can get through it without breaking your teeth!"
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(BAKE):-} Tastes like an actual stuffed tomato, if you can get through it without breaking your teeth!"
+      "path" : "/foodValue",
+      "value" : 21.54
     },
     {
       "op" : "replace",

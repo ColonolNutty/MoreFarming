@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -26,6 +14,18 @@
   [
     {
       "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
       "path" : "/price",
       "inverse" : true
     },
@@ -38,13 +38,13 @@
   [
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 10.0
+      "path" : "/description",
+      "value" : "(BOIL):-} A bowl of rather bland boiled pearlpeas."
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(BOIL):-} A bowl of rather bland boiled pearlpeas."
+      "path" : "/foodValue",
+      "value" : 10.0
     },
     {
       "op" : "replace",

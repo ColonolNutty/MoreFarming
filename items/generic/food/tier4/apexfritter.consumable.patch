@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -50,13 +50,13 @@
   [
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 17.82
+      "path" : "/description",
+      "value" : "(FRY):-} A crispy Apex dish. A fried corn fritter, with banana of course."
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(FRY):-} A crispy Apex dish. A fried corn fritter, with banana of course."
+      "path" : "/foodValue",
+      "value" : 17.82
     },
     {
       "op" : "replace",

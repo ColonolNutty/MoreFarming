@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -55,13 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 53.43
+      "path" : "/description",
+      "value" : "(BAKE):-} Pancake. Bacon. Pancake. Bacon. Pancake. Butter. Eat."
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(BAKE):-} Pancake. Bacon. Pancake. Bacon. Pancake. Butter. Eat."
+      "path" : "/foodValue",
+      "value" : 53.43
     },
     {
       "op" : "replace",

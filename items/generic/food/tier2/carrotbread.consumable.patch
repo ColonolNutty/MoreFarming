@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -55,13 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 54.59
+      "path" : "/description",
+      "value" : "(BAKE):-} A loaf of carrot bread. Let's be honest, it's just bread-shaped cake."
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(BAKE):-} A loaf of carrot bread. Let's be honest, it's just bread-shaped cake."
+      "path" : "/foodValue",
+      "value" : 54.59
     },
     {
       "op" : "replace",

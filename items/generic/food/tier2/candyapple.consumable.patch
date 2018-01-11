@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -50,13 +50,13 @@
   [
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 22.37
+      "path" : "/description",
+      "value" : "(BAKE):-} All the nutritious value of an apple masked by globs of sweet, sweet sugar."
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(BAKE):-} All the nutritious value of an apple masked by globs of sweet, sweet sugar."
+      "path" : "/foodValue",
+      "value" : 22.37
     },
     {
       "op" : "replace",

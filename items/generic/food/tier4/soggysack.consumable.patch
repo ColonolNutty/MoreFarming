@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -50,13 +50,13 @@
   [
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 10.75
+      "path" : "/description",
+      "value" : "(BOIL):-} Dirturchin innards stuffed into a coralcreep to make a dish that sounds terrible and tastes alright."
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(BOIL):-} Dirturchin innards stuffed into a coralcreep to make a dish that sounds terrible and tastes alright."
+      "path" : "/foodValue",
+      "value" : 10.75
     },
     {
       "op" : "replace",

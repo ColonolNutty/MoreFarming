@@ -74,30 +74,6 @@
   [
     {
       "op" : "test",
-      "path" : "/interactData",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/interactData",
-      "value" : { }
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/scriptDelta",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/scriptDelta",
-      "value" : 1
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/openSounds",
       "inverse" : true
     },
@@ -110,13 +86,25 @@
   [
     {
       "op" : "test",
-      "path" : "/interactAction",
+      "path" : "/scriptDelta",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/interactAction",
-      "value" : ""
+      "path" : "/scriptDelta",
+      "value" : 1
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/interactData",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/interactData",
+      "value" : { }
     }
   ],
   [
@@ -134,12 +122,12 @@
   [
     {
       "op" : "test",
-      "path" : "/objectType",
+      "path" : "/interactAction",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/objectType",
+      "path" : "/interactAction",
       "value" : ""
     }
   ],
@@ -152,6 +140,18 @@
     {
       "op" : "add",
       "path" : "/outputConfig",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/objectType",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/objectType",
       "value" : ""
     }
   ],
@@ -216,8 +216,9 @@
       "value" : "Wooden Sink (Water)"
     },
     {
-      "op" : "remove",
-      "path" : "/interactData"
+      "op" : "add",
+      "path" : "/openSounds/-",
+      "value" : "/sfx/objects/sinkMFMenter.ogg"
     },
     {
       "op" : "replace",
@@ -225,13 +226,8 @@
       "value" : 1
     },
     {
-      "op" : "add",
-      "path" : "/openSounds/-",
-      "value" : "/sfx/objects/sinkMFMenter.ogg"
-    },
-    {
       "op" : "remove",
-      "path" : "/interactAction"
+      "path" : "/interactData"
     },
     {
       "op" : "replace",
@@ -239,14 +235,18 @@
       "value" : 5
     },
     {
-      "op" : "replace",
-      "path" : "/objectType",
-      "value" : "container"
+      "op" : "remove",
+      "path" : "/interactAction"
     },
     {
       "op" : "replace",
       "path" : "/outputConfig",
       "value" : "/recipeCrafterMFM/waterMFMRecipes.config"
+    },
+    {
+      "op" : "replace",
+      "path" : "/objectType",
+      "value" : "container"
     },
     {
       "op" : "replace",

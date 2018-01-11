@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -55,13 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 104.21
+      "path" : "/description",
+      "value" : "(PREP):-} A cake made of chocolate! And other cake ingredients."
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(PREP):-} A cake made of chocolate! And other cake ingredients."
+      "path" : "/foodValue",
+      "value" : 104.21
     },
     {
       "op" : "replace",

@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -55,13 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 28.15
+      "path" : "/description",
+      "value" : "(BAKE):-} Created out of necessity in beakseed season to make use of all the jam."
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(BAKE):-} Created out of necessity in beakseed season to make use of all the jam."
+      "path" : "/foodValue",
+      "value" : 28.15
     },
     {
       "op" : "replace",

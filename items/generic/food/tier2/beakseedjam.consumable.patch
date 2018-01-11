@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -55,13 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 20.12
+      "path" : "/description",
+      "value" : "(BOIL):-} Sweet and crunchy. If only there was a seedless variety."
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(BOIL):-} Sweet and crunchy. If only there was a seedless variety."
+      "path" : "/foodValue",
+      "value" : 20.12
     },
     {
       "op" : "replace",

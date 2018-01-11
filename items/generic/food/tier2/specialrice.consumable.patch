@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,6 +9,18 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
     }
   ],
   [
@@ -50,13 +50,13 @@
   [
     {
       "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 33.64
+      "path" : "/description",
+      "value" : "(PREP):-} This pleasantly filling dish leaves you with a warm feeling."
     },
     {
       "op" : "replace",
-      "path" : "/description",
-      "value" : "(PREP):-} This pleasantly filling dish leaves you with a warm feeling."
+      "path" : "/foodValue",
+      "value" : 33.64
     },
     {
       "op" : "replace",

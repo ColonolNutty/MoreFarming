@@ -2,7 +2,7 @@
   "objectName" : "saguaroMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 50.25,
+  "price" : 0.5,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",

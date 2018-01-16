@@ -1,6 +1,6 @@
 {
-	"name" : "chocolatecavesdarkplainMFM",
-	"friendlyName" : "Chocolate Caves - Dark/Plain 1",
+	"name" : "chocolatecavesdarkplainMFM5",
+	"friendlyName" : "Chocolate Caves - Dark/Plain 5",
   
 	"spawnProfiles" : [
     {
@@ -12,10 +12,10 @@
       "extraSpawns" : []
     }
   ],
-	"mainBlock" : "darkchocolateblockMFM",
+	"mainBlock" : "softchocolateblockplainMFM",
 	"subBlocks" : [
-    "softchocolateblockplainMFM",
-    "hardchocolateblockdarkMFM",
+    "softchocolateblockdarkMFM",
+    "sugarblockMFM",
     "toffeeblockMFM"
   ],
 	"ores" : "depth2",
@@ -180,7 +180,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [ 0.5, "chocolateeggstashplainMFM" ], [ 0.5, "chocolateeggstashdarkMFM" ] ],
+            "pool" : [ [ 0.5, "chocolateeggstashplainMFM" ],  [ 0.5, "chocolateeggstashdarkMFM" ] ],
             "parameters" : { }
           }
         ]

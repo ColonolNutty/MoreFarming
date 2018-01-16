@@ -20,7 +20,7 @@
         "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
         "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
         "biome" : [ 
-          [1, [ "chocolatecavesdarkplainMFM" ] ],
+          [1, [ "chocolatecavesdarkplainMFM", "chocolatecavesdarkplainMFM2", "chocolatecavesdarkplainMFM3", "chocolatecavesdarkplainMFM4", "chocolatecavesdarkplainMFM5", "chocolatecavesdarkplainMFM6" ] ],
           [2, [ "chocolatecavesdarkMFM", "chocolatecavesplainMFM" ] ]
         ]
       }
@@ -33,7 +33,7 @@
         "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
         "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
         "biome" : [
-          [1, [ "chocolatecavesdarkplainwhiteMFM" ] ],
+          [1, [ "chocolatecavesdarkplainwhiteMFM", "chocolatecavesdarkplainwhiteMFM2", "chocolatecavesdarkplainwhiteMFM3", "chocolatecavesdarkplainwhiteMFM4", "chocolatecavesdarkplainwhiteMFM5", "chocolatecavesdarkplainwhiteMFM6", "chocolatecavesdarkplainwhiteMFM7", "chocolatecavesdarkplainwhiteMFM8" ] ],
           [2, [ "chocolatecavesdarkMFM", "chocolatecavesdarkplainMFM", "chocolatecavesdarkwhiteMFM", "chocolatecavesplainMFM", "chocolatecavesplainwhiteMFM", "chocolatecaveswhiteMFM" ] ],
           [3, [ "chocolatecavesdarkMFM", "chocolatecavesdarkplainMFM", "chocolatecavesdarkwhiteMFM", "chocolatecavesplainMFM", "chocolatecavesplainwhiteMFM", "chocolatecaveswhiteMFM" ] ]
         ]
@@ -47,7 +47,7 @@
         "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
         "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
         "biome" : [ 
-          [1, [ "chocolatecavesdarkwhiteMFM" ] ],
+          [1, [ "chocolatecavesdarkwhiteMFM", "chocolatecavesdarkwhiteMFM2", "chocolatecavesdarkwhiteMFM3", "chocolatecavesdarkwhiteMFM4", "chocolatecavesdarkwhiteMFM5", "chocolatecavesdarkwhiteMFM6" ] ],
           [2, [ "chocolatecavesdarkMFM", "chocolatecaveswhiteMFM" ] ]
         ]
       }
@@ -72,7 +72,7 @@
         "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
         "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
         "biome" : [ 
-          [1, [ "chocolatecavesplainwhiteMFM" ] ],
+          [1, [ "chocolatecavesplainwhiteMFM", "chocolatecavesplainwhiteMFM2", "chocolatecavesplainwhiteMFM3", "chocolatecavesplainwhiteMFM4", "chocolatecavesplainwhiteMFM5", "chocolatecavesplainwhiteMFM6" ] ],
           [2, [ "chocolatecavesplainMFM", "chocolatecaveswhiteMFM" ] ]
         ]
       }

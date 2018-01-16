@@ -1,6 +1,6 @@
 {
-	"name" : "chocolatecavesdarkplainwhiteMFM",
-	"friendlyName" : "Chocolate Caves - Dark/Plain/White",
+	"name" : "chocolatecavesdarkplainwhiteMFM2",
+	"friendlyName" : "Chocolate Caves - Dark/Plain/White 2",
   
 	"spawnProfiles" : [
     {
@@ -12,11 +12,11 @@
       "extraSpawns" : []
     }
   ],
-	"mainBlock" : "darkchocolateblockMFM",
+	"mainBlock" : "chocolateblockMFM",
 	"subBlocks" : [
     "softchocolateblockwhiteMFM",
-    "hardchocolateblockplainMFM",
-    "toffeeblockMFM"
+    "hardchocolateblockdarkMFM",
+    "sugarblockMFM"
   ],
 	"ores" : "depth2",
   "parallax" : "/parallax/underground/chocolatecavesdarkplainwhiteMFM.parallax",
@@ -360,7 +360,21 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [ 0.35, "chocolateeggstashwhiteMFM" ], [ 0.35, "chocolateeggstashdarkMFM" ], [ 0.35, "chocolateeggstashplainMFM" ] ],
+            "pool" : [ [ 1, "chocolateeggstashdarkMFM" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rare",
+        
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [ 0.5, "chocolateeggstashwhiteMFM" ], [ 0.5, "chocolateeggstashplainMFM" ] ],
             "parameters" : { }
           }
         ]

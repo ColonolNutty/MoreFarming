@@ -1,6 +1,6 @@
 {
-	"name" : "chocolatecavesdarkplainwhiteMFM",
-	"friendlyName" : "Chocolate Caves - Dark/Plain/White",
+	"name" : "chocolatecavesdarkplainwhiteMFM5",
+	"friendlyName" : "Chocolate Caves - Dark/Plain/White 5",
   
 	"spawnProfiles" : [
     {
@@ -12,11 +12,11 @@
       "extraSpawns" : []
     }
   ],
-	"mainBlock" : "darkchocolateblockMFM",
+	"mainBlock" : "softchocolateblockplainMFM",
 	"subBlocks" : [
+    "softchocolateblockdarkMFM",
     "softchocolateblockwhiteMFM",
-    "hardchocolateblockplainMFM",
-    "toffeeblockMFM"
+    "sugarblockMFM"
   ],
 	"ores" : "depth2",
   "parallax" : "/parallax/underground/chocolatecavesdarkplainwhiteMFM.parallax",

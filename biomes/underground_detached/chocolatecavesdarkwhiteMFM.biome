@@ -1,6 +1,6 @@
 {
 	"name" : "chocolatecavesdarkwhiteMFM",
-	"friendlyName" : "Chocolate Caves - Dark/White",
+	"friendlyName" : "Chocolate Caves - Dark/White 1",
   
 	"spawnProfiles" : [
     {
@@ -14,14 +14,8 @@
   ],
 	"mainBlock" : "darkchocolateblockMFM",
 	"subBlocks" : [
-    "whitechocolateblockMFM",
-    "softchocolateblockdarkMFM",
     "softchocolateblockwhiteMFM",
     "hardchocolateblockdarkMFM",
-    "hardchocolateblockwhiteMFM",
-    "brickchocolateblockdarkMFM",
-    "brickchocolateblockwhiteMFM",
-    "sugarblockMFM",
     "toffeeblockMFM"
   ],
 	"ores" : "depth2",
@@ -46,7 +40,7 @@
         "mode" : "ceiling",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        "distribution" : "/biomes/distributions.config:common",
         
         "type" : "bush",
         "bushes" : [
@@ -61,7 +55,7 @@
         "mode" : "ceiling",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        "distribution" : "/biomes/distributions.config:common",
         
         "type" : "bush",
         "bushes" : [
@@ -76,7 +70,7 @@
         "mode" : "ceiling",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        "distribution" : "/biomes/distributions.config:common",
         
         "type" : "bush",
         "bushes" : [
@@ -91,7 +85,7 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        "distribution" : "/biomes/distributions.config:uncommon",
         
         "type" : "bush",
         "bushes" : [
@@ -106,7 +100,7 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        "distribution" : "/biomes/distributions.config:uncommon",
         
         "type" : "bush",
         "bushes" : [
@@ -121,7 +115,7 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        "distribution" : "/biomes/distributions.config:uncommon",
         
         "type" : "bush",
         "bushes" : [
@@ -136,7 +130,7 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        "distribution" : "/biomes/distributions.config:rare",
         
         "type" : "bush",
         "bushes" : [
@@ -151,7 +145,7 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        "distribution" : "/biomes/distributions.config:rare",
         
         "type" : "bush",
         "bushes" : [
@@ -166,7 +160,7 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        "distribution" : "/biomes/distributions.config:rare",
         
         "type" : "bush",
         "bushes" : [
@@ -179,28 +173,14 @@
       },
       {
         "mode" : "floor",
-        "priority" : 2.0,
+        "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
+        "distribution" : "/biomes/distributions.config:rare",
         
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [ 1, "chocolateeggstashdarkMFM" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-        
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [ 1, "chocolateeggstashwhiteMFM" ] ],
+            "pool" : [ [ 0.5, "chocolateeggstashwhiteMFM" ], [ 0.5, "chocolateeggstashdarkMFM" ] ],
             "parameters" : { }
           }
         ]

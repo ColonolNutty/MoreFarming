@@ -1,6 +1,6 @@
 {
-	"name" : "chocolatecavesdarkplainwhiteMFM",
-	"friendlyName" : "Chocolate Caves - Dark/Plain/White",
+	"name" : "chocolatecavesdarkplainwhiteMFM7",
+	"friendlyName" : "Chocolate Caves - Dark/Plain/White 7",
   
 	"spawnProfiles" : [
     {
@@ -12,10 +12,10 @@
       "extraSpawns" : []
     }
   ],
-	"mainBlock" : "darkchocolateblockMFM",
+	"mainBlock" : "softchocolateblockdarkMFM",
 	"subBlocks" : [
-    "softchocolateblockwhiteMFM",
-    "hardchocolateblockplainMFM",
+    "softchocolateblockplainMFM",
+    "hardchocolateblockwhiteMFM",
     "toffeeblockMFM"
   ],
 	"ores" : "depth2",

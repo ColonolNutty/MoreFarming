@@ -1,6 +1,6 @@
 {
-	"name" : "chocolatecavesdarkplainMFM",
-	"friendlyName" : "Chocolate Caves - Dark/Plain 1",
+	"name" : "chocolatecavesplainwhiteMFM5",
+	"friendlyName" : "Chocolate Caves - Plain/White 5",
   
 	"spawnProfiles" : [
     {
@@ -12,19 +12,19 @@
       "extraSpawns" : []
     }
   ],
-	"mainBlock" : "darkchocolateblockMFM",
+	"mainBlock" : "chocolateblockMFM",
 	"subBlocks" : [
     "softchocolateblockplainMFM",
-    "hardchocolateblockdarkMFM",
-    "toffeeblockMFM"
+    "softchocolateblockwhiteMFM",
+    "sugarblockMFM"
   ],
 	"ores" : "depth2",
-  "parallax" : "/parallax/underground/chocolatecavesdarkplainMFM.parallax",
+  "parallax" : "/parallax/underground/chocolatecavesplainwhiteMFM.parallax",
   "hueShiftOptions" : [0],
   
 	"undergroundPlaceables" : {
-		"grassMod" : [ "chocolatemoddarkplainMFM" ],
-		"grassModDensity" : 0.6,
+		"grassMod" : [ "chocolatemodplainwhiteMFM" ],
+		"grassModDensity" : 0.8,
     
 		"items" : [
       {
@@ -34,37 +34,7 @@
         "distribution" : "/biomes/distributions.config:minibiomeChests",
         
         "type" : "treasureBox",
-        "treasureBoxSets" : [ "chocolatechestdarkMFM", "chocolatechestplainMFM" ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:common",
-        
-        "type" : "bush",
-        "bushes" : [
-          {
-            "name" : "ceilingchocolatespikesdarkMFM",
-            "baseHueShiftMax" : 0,
-            "modHueShiftMax" : 0
-          }
-        ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:common",
-        
-        "type" : "bush",
-        "bushes" : [
-          {
-            "name" : "ceilingchocolatespikesdarkplainMFM",
-            "baseHueShiftMax" : 0,
-            "modHueShiftMax" : 0
-          }
-        ]
+        "treasureBoxSets" : [ "chocolatechestplainMFM", "chocolatechestwhiteMFM" ]
       },
       {
         "mode" : "ceiling",
@@ -82,30 +52,30 @@
         ]
       },
       {
-        "mode" : "floor",
+        "mode" : "ceiling",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:uncommon",
+        "distribution" : "/biomes/distributions.config:common",
         
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "groundchocolateblockdarkMFM",
+            "name" : "ceilingchocolatespikesplainwhiteMFM",
             "baseHueShiftMax" : 0,
             "modHueShiftMax" : 0
           }
         ]
       },
       {
-        "mode" : "floor",
+        "mode" : "ceiling",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:uncommon",
+        "distribution" : "/biomes/distributions.config:common",
         
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "groundchocolateblockdarkplainMFM",
+            "name" : "ceilingchocolatespikeswhiteMFM",
             "baseHueShiftMax" : 0,
             "modHueShiftMax" : 0
           }
@@ -130,12 +100,12 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:rare",
+        "distribution" : "/biomes/distributions.config:uncommon",
         
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "groundchocolateeggdarkMFM",
+            "name" : "groundchocolateblockplainwhiteMFM",
             "baseHueShiftMax" : 0,
             "modHueShiftMax" : 0
           }
@@ -145,12 +115,12 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:rare",
+        "distribution" : "/biomes/distributions.config:uncommon",
         
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "groundchocolateeggdarkplainMFM",
+            "name" : "groundchocolateblockwhiteMFM",
             "baseHueShiftMax" : 0,
             "modHueShiftMax" : 0
           }
@@ -177,10 +147,40 @@
         "variants" : 1,
         "distribution" : "/biomes/distributions.config:rare",
         
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateeggplainwhiteMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rare",
+        
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "groundchocolateeggwhiteMFM",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rare",
+        
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [ 0.5, "chocolateeggstashplainMFM" ], [ 0.5, "chocolateeggstashdarkMFM" ] ],
+            "pool" : [ [ 0.5, "chocolateeggstashwhiteMFM" ],  [ 0.5, "chocolateeggstashplainMFM" ] ],
             "parameters" : { }
           }
         ]

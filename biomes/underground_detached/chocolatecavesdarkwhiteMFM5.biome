@@ -1,6 +1,6 @@
 {
-	"name" : "chocolatecavesdarkplainMFM",
-	"friendlyName" : "Chocolate Caves - Dark/Plain 1",
+	"name" : "chocolatecavesdarkwhiteMFM5",
+	"friendlyName" : "Chocolate Caves - Dark/White 5",
   
 	"spawnProfiles" : [
     {
@@ -12,19 +12,19 @@
       "extraSpawns" : []
     }
   ],
-	"mainBlock" : "darkchocolateblockMFM",
+	"mainBlock" : "softchocolateblockdarkMFM",
 	"subBlocks" : [
-    "softchocolateblockplainMFM",
-    "hardchocolateblockdarkMFM",
+    "softchocolateblockwhiteMFM",
+    "sugarblockMFM",
     "toffeeblockMFM"
   ],
 	"ores" : "depth2",
-  "parallax" : "/parallax/underground/chocolatecavesdarkplainMFM.parallax",
+  "parallax" : "/parallax/underground/chocolatecavesdarkwhiteMFM.parallax",
   "hueShiftOptions" : [0],
   
 	"undergroundPlaceables" : {
-		"grassMod" : [ "chocolatemoddarkplainMFM" ],
-		"grassModDensity" : 0.6,
+		"grassMod" : [ "chocolatemoddarkwhiteMFM" ],
+		"grassModDensity" : 0.8,
     
 		"items" : [
       {
@@ -34,7 +34,7 @@
         "distribution" : "/biomes/distributions.config:minibiomeChests",
         
         "type" : "treasureBox",
-        "treasureBoxSets" : [ "chocolatechestdarkMFM", "chocolatechestplainMFM" ]
+        "treasureBoxSets" : [ "chocolatechestdarkMFM", "chocolatechestwhiteMFM" ]
       },
       {
         "mode" : "ceiling",
@@ -60,7 +60,7 @@
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "ceilingchocolatespikesdarkplainMFM",
+            "name" : "ceilingchocolatespikesdarkwhiteMFM",
             "baseHueShiftMax" : 0,
             "modHueShiftMax" : 0
           }
@@ -75,7 +75,7 @@
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "ceilingchocolatespikesplainMFM",
+            "name" : "ceilingchocolatespikeswhiteMFM",
             "baseHueShiftMax" : 0,
             "modHueShiftMax" : 0
           }
@@ -105,7 +105,7 @@
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "groundchocolateblockdarkplainMFM",
+            "name" : "groundchocolateblockdarkwhiteMFM",
             "baseHueShiftMax" : 0,
             "modHueShiftMax" : 0
           }
@@ -120,7 +120,7 @@
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "groundchocolateblockplainMFM",
+            "name" : "groundchocolateblockwhiteMFM",
             "baseHueShiftMax" : 0,
             "modHueShiftMax" : 0
           }
@@ -150,7 +150,7 @@
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "groundchocolateeggdarkplainMFM",
+            "name" : "groundchocolateeggdarkwhiteMFM",
             "baseHueShiftMax" : 0,
             "modHueShiftMax" : 0
           }
@@ -165,7 +165,7 @@
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "groundchocolateeggplainMFM",
+            "name" : "groundchocolateeggwhiteMFM",
             "baseHueShiftMax" : 0,
             "modHueShiftMax" : 0
           }
@@ -180,7 +180,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [ 0.5, "chocolateeggstashplainMFM" ], [ 0.5, "chocolateeggstashdarkMFM" ] ],
+            "pool" : [ [ 0.5, "chocolateeggstashwhiteMFM" ], [ 0.5, "chocolateeggstashdarkMFM" ] ],
             "parameters" : { }
           }
         ]

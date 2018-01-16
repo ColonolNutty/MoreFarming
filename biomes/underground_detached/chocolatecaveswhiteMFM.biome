@@ -16,7 +16,6 @@
 	"subBlocks" : [
     "softchocolateblockwhiteMFM",
     "hardchocolateblockwhiteMFM",
-    "brickchocolateblockwhiteMFM",
     "sugarblockMFM"
   ],
 	"ores" : "depth2",
@@ -41,7 +40,7 @@
         "mode" : "ceiling",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        "distribution" : "/biomes/distributions.config:common",
         
         "type" : "bush",
         "bushes" : [
@@ -56,7 +55,7 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        "distribution" : "/biomes/distributions.config:uncommon",
         
         "type" : "bush",
         "bushes" : [
@@ -71,7 +70,7 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredMediumMFM",
+        "distribution" : "/biomes/distributions.config:rare",
         
         "type" : "bush",
         "bushes" : [
@@ -84,9 +83,9 @@
       },
       {
         "mode" : "floor",
-        "priority" : 2.0,
+        "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
+        "distribution" : "/biomes/distributions.config:rare",
         
         "type" : "object",
         "objectSets" : [

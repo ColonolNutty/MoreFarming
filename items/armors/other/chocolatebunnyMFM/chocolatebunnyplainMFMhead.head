@@ -1,0 +1,31 @@
+{
+  "itemName" : "chocolatebunnyplainMFMhead",
+  "price" : 20,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headwear",
+  "description" : "It smells deliciously sweet. It's almost too tempting.",
+  "shortdescription" : "Bunny Head - Plain Choc.",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "headm.png",
+  "femaleFrames" : "headf.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 5
+    },
+	{
+      "stat" : "bouncyMFM",
+	  "amount" : 1
+	}
+  ],
+
+  "colorOptions" : [
+	// CHOCOLATE
+    { "604426" : "604426", "3b2917" : "3b2917", "805933" : "805933", "9a734d" : "9a734d", "ffe5ad" : "ffe5ad" }
+  ]
+}

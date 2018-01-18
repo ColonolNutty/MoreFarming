@@ -1,0 +1,31 @@
+{
+  "itemName" : "chocolatebunnywhiteMFMhead",
+  "price" : 20,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headwear",
+  "description" : "It smells sweet. It's almost too tempting.",
+  "shortdescription" : "Bunny Head - White Choc.",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "headm.png",
+  "femaleFrames" : "headf.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 5
+    },
+	{
+      "stat" : "bouncyMFM",
+	  "amount" : 1
+	}
+  ],
+
+  "colorOptions" : [
+	// WHITE CHOCOLATE
+    { "604426" : "e5c989", "3b2917" : "af9969", "ffe5ad" : "44301b", "805933" : "ffe5ad", "9a734d" : "ffffc7" }
+  ]
+}

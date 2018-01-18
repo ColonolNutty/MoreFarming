@@ -1,0 +1,28 @@
+{
+  "itemName" : "chocolatetophatplainMFMhead",
+  "price" : 20,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "headwear",
+  "description" : "Stylish and it smells deliciously sweet.",
+  "shortdescription" : "Top Hat - Plain Choc.",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "headm.png",
+  "femaleFrames" : "headf.png",
+  "mask" : "mask.png",
+
+  "leveledStatusEffects" : [
+	{
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 5
+	}
+  ],
+
+  "colorOptions" : [
+	// CHOCOLATE
+    { "604426" : "604426", "3b2917" : "3b2917", "805933" : "805933", "9a734d" : "9a734d", "fd8049" : "fd8049", "a23f13" : "a23f13" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "itemName" : "chocolatetophatdarkMFMhead",
+  "price" : 20,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "headwear",
+  "description" : "Stylish and it smells bitter.",
+  "shortdescription" : "Top Hat - Dark Choc.",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "headm.png",
+  "femaleFrames" : "headf.png",
+  "mask" : "mask.png",
+
+  "leveledStatusEffects" : [
+	{
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 5
+	}
+  ],
+
+  "colorOptions" : [
+	// DARK CHOCOLATE
+    { "604426" : "332415", "3b2917" : "20160d", "805933" : "44301b", "9a734d" : "523d29", "fd8049" : "fd8049", "a23f13" : "a23f13" }
+  ]
+}

@@ -1,0 +1,20 @@
+PLAIN
+604426
+3b2917
+805933
+9a734d
+ffe5ad - decorations
+
+DARK
+332415
+20160d
+44301b
+523d29
+805933 - decorations
+
+WHITE
+e5c989
+af9969
+44301b
+ffe5ad
+ffffc7 - decorations

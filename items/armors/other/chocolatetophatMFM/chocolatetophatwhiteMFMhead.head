@@ -1,0 +1,28 @@
+{
+  "itemName" : "chocolatetophatwhiteMFMhead",
+  "price" : 20,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "headwear",
+  "description" : "Stylish and it smells sweet.",
+  "shortdescription" : "Top Hat - White Choc.",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "headm.png",
+  "femaleFrames" : "headf.png",
+  "mask" : "mask.png",
+
+  "leveledStatusEffects" : [
+	{
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 5
+	}
+  ],
+
+  "colorOptions" : [
+	// WHITE CHOCOLATE
+    { "604426" : "e5c989", "3b2917" : "af9969", "805933" : "ffe5ad", "9a734d" : "ffffc7", "fd8049" : "fd8049", "a23f13" : "a23f13" }
+  ]
+}

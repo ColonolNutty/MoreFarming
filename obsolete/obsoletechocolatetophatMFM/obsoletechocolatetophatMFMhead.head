@@ -1,17 +1,17 @@
 {
   "itemName" : "chocolatetophatMFMhead",
   "price" : 20,
-  "inventoryIcon" : "icons.png:head",
+  "inventoryIcon" : "oldicons.png:head",
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "headwear",
-  "description" : "Stylish, sweetened sophistication.",
-  "shortdescription" : "Chocolate Top Hat",
+  "description" : "Not so stylish anymore, looks like it has gone stale.",
+  "shortdescription" : "Top Hat - Stale Chocolate",
   "inspectionKind" : "armor",
 
-  "maleFrames" : "headm.png",
-  "femaleFrames" : "headf.png",
-  "mask" : "mask.png",
+  "maleFrames" : "oldheadm.png",
+  "femaleFrames" : "oldheadf.png",
+  "mask" : "oldmask.png",
 
   "leveledStatusEffects" : [
 	{

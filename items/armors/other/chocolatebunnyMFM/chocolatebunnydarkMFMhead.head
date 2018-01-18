@@ -1,12 +1,12 @@
 {
-  "itemName" : "chocolatebunnyMFMhead",
+  "itemName" : "chocolatebunnydarkMFMhead",
   "price" : 20,
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "headwear",
-  "description" : "It's almost too tempting.",
-  "shortdescription" : "Chocolate Bunny Head",
+  "description" : "It smells bitter. It's almost too tempting.",
+  "shortdescription" : "Bunny Head - Dark Choc.",
   "tooltipKind" : "armor",
 
   "maleFrames" : "headm.png",
@@ -25,7 +25,7 @@
   ],
 
   "colorOptions" : [
-	// CHOCOLATE
-    { "75400a" : "75400a", "85490b" : "85490b", "97540a" : "97540a", "a55c0c" : "a55c0c", "fff3db" : "fff3db", "fff1bf" : "fff1bf", "fff0af" : "fff0af", "5b2c00" : "5b2c00" }
+	// DARK CHOCOLATE
+    { "604426" : "332415", "3b2917" : "20160d", "805933" : "44301b", "9a734d" : "523d29", "ffe5ad" : "805933" }
   ]
 }

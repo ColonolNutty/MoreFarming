@@ -1,0 +1,23 @@
+{
+  "objectName" : "recipebookMFM",
+  "colonyTags" : [ "cooking" ],
+  "rarity" : "Legendary",
+  "price" : 19.25,
+  "category" : "Recipe Book",
+  "printable" : false,
+  "description" : "Contains a plethora of recipes.",
+  "shortdescription" : "^orange;Recipe Book (MFM)^white;",
+  "race" : "generic",
+  "inventoryIcon" : "recipebookMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "recipebookMFM.png:<color>",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "interactAction" : "ScriptPane",
+	"interactData" : "/interface/scripted/recipebookMFM/recipebookMFM.config",
+  "scripts" : [ "recipebookMFM.lua" ],
+  "scriptDelta" : 1
+}

@@ -1,0 +1,18 @@
+{
+  "recipeFilters" : [
+    "bakingMFM",
+    "blendingMFM",
+    "boilingMFM",
+    "canningMFM",
+    "choppingMFM",
+    "churningMFM",
+    "coffeeMFM",
+    "distillingMFM",
+    "freezingMFM",
+    "fryingMFM",
+    "millingMFM",
+    "preparingMFM",
+    "pressingMFM",
+    "purifyingMFM"
+  ]
+}

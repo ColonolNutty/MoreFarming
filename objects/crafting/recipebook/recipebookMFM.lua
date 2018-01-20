@@ -12,6 +12,9 @@ uninit = nil
 function init()
   DebugUtilsCN.init("[CNRB]")
   DebugUtilsCN.enableDebug()
+  message.setHandler("storeIngredient", storeIngredient)
+  message.setHandler("storeSelectedRecipeId", storeSelectedRecipeId)
+  message.setHandler("getSelectedRecipeId", getSelectedRecipeId)
   message.setHandler("getIngredientStore", getIngredientStore)
   message.setHandler("getRecipeFilterStore", getRecipeFilterStore)
   message.setHandler("getRecipeFilters", getRecipeFilters)
@@ -31,7 +34,7 @@ function init()
   storage.ingredientStore = {}
   storage.selectedFilters = {}
   storage.recipeFilters = root.assetJson(RECIPE_FILTERS_PATH).recipeFilters
-  storage.recipeGroupFriendlyNames = root.assetJson(RECIPE_GROUP_FRIENDLY_NAMES)
+  storage.recipeMethodFriendlyNames = root.assetJson(RECIPE_GROUP_FRIENDLY_NAMES)
   if(#storage.recipeFilters == 0) then
     return
   end
@@ -52,37 +55,67 @@ function updateRecipeStore(itemsArray)
   local itemsList = {}
   for idx,itemName in ipairs(itemsArray) do
     if(storage.ingredientStore[itemName] == nil) then
-      local itemData = root.itemConfig({ name = itemName })
-      if(itemData ~= nil) then
-        if type(itemData.config.inventoryIcon) == 'table' then
-          itemData.config.inventoryIcon = itemData.config.inventoryIcon[1].image
-        end
-        local recipes = root.recipesForItem(itemName)
-        local item = { id = itemName, name = itemData.config.shortdescription, icon = rescale(canonicalise(itemData.config.inventoryIcon, itemData.directory), 16, 16), recipes = recipes, methods = getMethods(recipes) }
-        storage.ingredientStore[itemName] = item
-      end
+      itemsList[itemName] = loadItem(itemName)
     end
-    itemsList[itemName] = storage.ingredientStore[itemName]
   end
   return itemsList
 end
 
-function getMethods(recipes)
-  local appliedGroups = {}
-  local methods = {}
-  local length = #recipes
+function loadItem(itemId)
+  if(storage.ingredientStore[itemId] ~= nil) then
+    return storage.ingredientStore[itemId]
+  end
+  local item = nil
+  local itemData = root.itemConfig({ name = itemId })
+  if(itemData ~= nil) then
+    if type(itemData.config.inventoryIcon) == 'table' then
+      itemData.config.inventoryIcon = itemData.config.inventoryIcon[1].image
+    end
+    local recipes = filterNonRecipeBookRecipes(root.recipesForItem(itemId))
+    item = { id = itemId, name = itemData.config.shortdescription, icon = rescale(canonicalise(itemData.config.inventoryIcon, itemData.directory), 16, 16), recipes = recipes, methods = getMethods(recipes) }
+    storage.ingredientStore[itemId] = item
+  end
+  return item
+end
+
+function filterNonRecipeBookRecipes(recipes)
+  if(recipes == nil) then
+    return {}
+  end
+  local result = {}
   for idx,recipe in ipairs(recipes) do
+    if(recipe.methods == nil) then
+      recipe.methods = {}
+    end
+    local include = false
+    DebugUtilsCN.logDebug("Looking at recipe " .. recipe.output.name)
     local groups = recipe.groups
     for idx,group in ipairs(groups) do
-      if(appliedGroups[group] == nil and not string.match(group, "NoRecipeBook")) then
-        if(storage.recipeGroupFriendlyNames[group] ~= nil) then
-          appliedGroups[group] = true
-          table.insert(methods, storage.recipeGroupFriendlyNames[group])
-        end
+      DebugUtilsCN.logDebug("Looking at recipe group: " .. group)
+      if(not string.match(group, "NoRecipeBook")) then
+        DebugUtilsCN.logDebug("Including recipe " .. recipe.output.name)
+        include = true
+      end
+      local friendlyName = storage.recipeMethodFriendlyNames[group]
+      if(friendlyName ~= nil and recipe.methods[group] == nil) then
+        recipe.methods[group] = friendlyName
       end
     end
+    if(include) then
+      table.insert(result, recipe)
+    end
   end
-  return methods
+  return result
+end
+
+function getMethods(recipes)
+  local allMethods = {}
+  for idx,recipe in ipairs(recipes) do
+    for methodName,friendlyName in pairs(recipe.methods) do
+      allMethods[methodName] = friendlyName
+    end
+  end
+  return allMethods
 end
 
 function canonicalise(file, directory)
@@ -94,6 +127,18 @@ function rescale(image, x, y)
 	local size = root.imageSize(image)
 	if size[1] <= x and size[2] <= y then return image end
 	return image .. '?scalebilinear=' .. math.min(x / size[1], y / size[2])
+end
+
+function storeIngredient(id, name, itemName)
+  loadItem(itemName)
+end
+
+function storeSelectedRecipeId(id, name, recipeId)
+  storage.selectedRecipeId = recipeId
+end
+
+function getSelectedRecipeId(id, name, recipeId)
+  return storage.selectedRecipeId
 end
 
 function getIngredientStore()

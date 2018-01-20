@@ -1,121 +1,166 @@
-local recipeStoreUpdated = false;
-local recipeStoreRequest = nil;
-local recipeFiltersUpdated = false;
-local recipeFiltersRequest = nil;
-local selectedFiltersUpdated = false;
-local selectedFiltersRequest = nil;
+local recipeListNeedsUpdate = true
+local requests = {}
+local enableDebug = true
 
-recipeStore = {}
-selectedFilters = {}
-recipeFilters = {}
+ingredientStore = nil
+selectedFilters = nil
+recipeFilters = nil
+recipeFilterStore = nil
+
+RECIPE_LIST_NAME = "recipeList.itemList"
+RECIPE_LIST_EMPTY = "recipeList.empty"
+INGREDIENTS_LIST_NAME = "ingredientList.ingredientItemList"
+INGREDIENTS_LIST_EMPTY = "ingredientList.ingredientRecipeList.empty"
 
 function init()
-  recipeStoreUpdated = false
-  recipeFiltersUpdated = false
-  selectedFiltersUpdated = false
 end
 
 function update()
-  updateRecipeStore()
-  updateRecipeFilters()
-  updateSelectedFilters()
-end
-
-function toggleFilter(valOne, valTwo, valThree)
-  sb.logInfo("Did it")
-end
-
-function filterByName(val)
-  sb.logInfo("Filtering")
-end
-
-function btnFilterHaveMaterials(val, valTwo)
-  sb.logInfo("Filter has Mats")
-end
-
-function updateRecipeStore()
-  if(recipeStoreUpdated) then
-    return
-  end
-  if(recipeStoreRequest == nil) then
-    recipeStoreRequest = world.sendEntityMessage(pane.sourceEntity(), "getRecipeStore")
-  end
-  if(not recipeStoreRequest:finished()) then
-    return
-  end
-  if(not recipeStoreRequest:succeeded()) then
-    local errorMsg = recipeStoreRequest:error()
-    if(errorMsg ~= nil) then
-      sb.logError(errorMsg)
+  if(ingredientStore == nil or recipeFilterStore == nil or recipeFilters == nil or selectedFilters == nil) then
+    local ingredientStoreResult = updateStore("getIngredientStore", {})
+    if(ingredientStoreResult ~= nil) then
+      ingredientStore = ingredientStoreResult
     end
-    recipeStoreUpdated = true
-    return
-  end
-  local recipeStoreRequestResult = recipeStoreRequest:result()
-  if(not recipeStoreRequestResult) then
-    recipeStoreUpdated = true
-    return
-  end
-  sb.logInfo("Loaded recipe store")
-  recipeStore = recipeStoreRequestResult
-  recipeStoreUpdated = true
-  recipeStoreRequest = nil
-end
-
-function updateRecipeFilters()
-  if(recipeFiltersUpdated) then
-    return
-  end
-  if(recipeFiltersRequest == nil) then
-    recipeFiltersRequest = world.sendEntityMessage(pane.sourceEntity(), "getRecipeFilters")
-  end
-  if(not recipeFiltersRequest:finished()) then
-    return
-  end
-  if(not recipeFiltersRequest:succeeded()) then
-    local errorMsg = recipeFiltersRequest:error()
-    if(errorMsg ~= nil) then
-      sb.logError(errorMsg)
+    local filterStoreResult = updateStore("getRecipeFilterStore", {})
+    if(filterStoreResult ~= nil) then
+      recipeFilterStore = filterStoreResult
     end
-    recipeFiltersUpdated = true
+    local recipeFiltersResult = updateStore("getRecipeFilters", {})
+    if(recipeFiltersResult ~= nil) then
+      recipeFilters = recipeFiltersResult
+    end
+    local selectedFiltersResult = updateStore("getSelectedFilters", {})
+    if(selectedFiltersResult ~= nil) then
+      selectedFilters = selectedFiltersResult
+      updateSelectedFilters()
+    end
+    recipeListNeedsUpdate = true
     return
   end
-  local recipeFiltersRequestResult = recipeFiltersRequest:result()
-  if(not recipeFiltersRequestResult) then
-    recipeFiltersUpdated = true
-    return
+  if(recipeListNeedsUpdate) then
+    updateRecipeList()
+    recipeListNeedsUpdate = false
   end
-  sb.logInfo("Loaded recipe filters")
-  recipeFilters = recipeFiltersRequestResult
-  recipeFiltersUpdated = true
-  recipeFiltersRequest = nil
+  world.sendEntityMessage(pane.sourceEntity(), "setSelectedFilters", selectedFilters)
 end
 
 function updateSelectedFilters()
-  if(selectedFiltersUpdated) then
-    return
+  for name,isSelected in pairs(selectedFilters) do
+    widget.setChecked(name .. "chkbox", isSelected)
   end
-  if(selectedFiltersRequest == nil) then
-    selectedFiltersRequest = world.sendEntityMessage(pane.sourceEntity(), "getSelectedFilters")
+end
+
+function updateRecipeList()
+  widget.clearListItems(RECIPE_LIST_NAME)
+  widget.setVisible(RECIPE_LIST_EMPTY, false)
+  
+  local hasRecipes = false
+  local includedRecipes = {}
+  logInfo("Updating recipe list")
+  for filterName, isSelected in pairs(selectedFilters) do
+    logInfo("Using filter: " .. filterName)
+    if(isSelected and recipeFilterStore[filterName] ~= nil) then
+      logInfo("Is selected and found")
+      for recipeName, recipeItem in pairs(recipeFilterStore[filterName]) do
+        logInfo("Looking at recipe: " .. recipeName)
+        if(includedRecipes[recipeName] == nil) then
+          local item = ingredientStore[recipeName]
+          if(item ~= nil) then
+            logInfo("Loading recipe with name: " .. recipeName)
+            includedRecipes[recipeName] = true
+            local path = string.format("%s.%s", RECIPE_LIST_NAME, widget.addListItem(RECIPE_LIST_NAME))
+            widget.setText(path .. ".itemName", item.name .. " " .. formatMethods(item.methods))
+            widget.setImage(path .. ".itemIcon", item.icon)
+            widget.setData(path, { id = item.id, recipes = item.recipes})
+            widget.setVisible(path .. ".itemName", true)
+            widget.setVisible(path .. ".itemIcon", true)
+            hasRecipes = true
+          end
+        else
+          logInfo("Skipping dupe ingred: " .. recipeName)
+            hasRecipes = true
+        end
+      end
+    end
   end
-  if(not selectedFiltersRequest:finished()) then
-    return
+  
+  widget.setVisible(RECIPE_LIST_EMPTY, not hasRecipes)
+end
+
+function formatMethods(methods)
+  if(methods == nil) then
+    return ""
   end
-  if(not selectedFiltersRequest:succeeded()) then
-    local errorMsg = selectedFiltersRequest:error()
+  local formatted = ""
+  for idx, method in ipairs(methods) do
+    formatted = formatted .. "(" .. method .. ")"
+  end
+  return formatted
+end
+
+function updateIngredientList()
+  widget.clearListItems(INGREDIENTS_LIST_NAME)
+  widget.setVisible(INGREDIENTS_LIST_EMPTY, false)
+  
+  local hasIngredients = false
+  
+  widget.setVisible(INGREDIENTS_LIST_EMPTY, not hasIngredients)
+end
+
+function toggleFilter(id, data)
+  local newValue = widget.getChecked(id)
+  if(newValue) then
+    logInfo("New value is true")
+  end
+  selectedFilters[data.filterName] = newValue
+  updateRecipeList()
+end
+
+function filterByName(val)
+  logInfo("Filtering")
+end
+
+function btnFilterHaveMaterials(val, valTwo)
+  logInfo("Filter has Mats")
+end
+
+function updateStore(requestName, defaultValue)
+  local updatedName = requestName .. "Updated"
+  if(requests[updatedName] ~= nil and not requests[updatedName]) then
+    return nil
+  end
+  local request = requests[requestName]
+  if(request == nil) then
+    requests[requestName] = world.sendEntityMessage(pane.sourceEntity(), requestName)
+    request = requests[requestName]
+  end
+  if(not request:finished()) then
+    return nil
+  end
+  if(not request:succeeded()) then
+    local errorMsg = request:error()
     if(errorMsg ~= nil) then
       sb.logError(errorMsg)
     end
-    selectedFiltersUpdated = true
-    return
+    requests[updatedName] = true
+    return defaultValue
   end
-  local selectedFiltersRequestResult = selectedFiltersRequest:result()
-  if(not selectedFiltersRequestResult) then
-    selectedFiltersUpdated = true
-    return
+  local result = request:result()
+  if(not result) then
+    requests[updatedName] = true
+    return defaultValue
   end
-  sb.logInfo("Loaded selected filters")
-  selectedFilters = selectedFiltersRequestResult
-  selectedFiltersUpdated = true
-  selectedFiltersRequest = nil
+  logInfo("Loaded store: " .. requestName)
+  requests[updatedName] = true
+  requests[requestName] = nil
+  return result
+end
+
+function logInfo(msg)
+  if(enableDebug) then
+    sb.logInfo(msg)
+  end
+end
+
+function uninit()
 end

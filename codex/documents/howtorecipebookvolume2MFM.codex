@@ -1,0 +1,74 @@
+{
+  "id" : "howtorecipebookvolume2MFM",
+  "title" : "^orange;(MFM) How To: Recipe Book^reset;",
+  "description" : "Volume 2 - This is a guide on how to acquire and use the improved Recipe Book",
+  "icon" : "howtocodexMFM.png",
+  "contentPages" : [
+
+"^blue;Introduction:^reset;
+This How To contains information about the ^orange;Recipe Book volume 2^reset;, particularly where to find it, the interface, and how to utilize it",
+
+"^blue;Where to find the Recipe Book^reset;
+Option 1: You craft it
+In order to craft the recipe book you must:
+1. Craft and place an ^orange;Inventors Table^reset;.
+2. Open the ^orange;Inventors Table^reset; and craft a ^orange;Kitchen Crafting Table^reset;.
+3. Place the ^orange;Kitchen Crafting Table^reset;
+4. Open the ^orange;Kitchen Crafting Table^reset;.
+5. On the left, there will be filters (^yellow;All, Apex, Avian, etc.^reset;) and at the bottom there is a ^green;Search Box^reset;
+
+Continues on the next page...",
+
+"6. Click the ^green;Search Box^reset; and type in ^cyan;Recipe Book^reset;
+7. Now you should see a ^orange;Recipe Book (MFM) v2^reset; entry above the ^green;Search Box^reset;
+8. Select the ^orange;Recipe Book (MFM) v2^reset; and click ^green;Craft^reset; in the bottom right
+9. Once crafted, the ^orange;Recipe Book^reset; should appear in your inventory under the ^cyan;Objects^reset; tab
+10. Place the ^orange;Recipe Book (MFM) v2^reset; anywhere on the ground, on a table, or on a shelf",
+
+"^blue;Where to find the Recipe Book II^reset;
+Option 2: You buy it at an ^orange;Infinity Express^reset;",
+
+"^blue;Recipe Book Interface^reset;
+Now that you have the ^orange;Recipe Book^reset; placed, go ahead and interact with it. The interface should appear.
+In the interface there are ^green;Filters^reset; on the ^cyan;left hand side^reset; by default ^yellow;BAKE^reset; is selected. These filters allow you to ^green;filter^reset; by ^cyan;cooking method^reset; (More details about ^cyan;cooking methods^reset; later in this guide).",
+
+"When you ^yellow;filter^reset;, you will see all foods that can be prepared using the selected ^cyan;cooking method(s)^reset;. The filters are essentially ways to find foods for a particular method of cooking.
+
+For example, selecting ^green;BAKE^reset; would show all foods that can be prepared in an ^orange;Oven^reset;.",
+
+"^blue;Recipe Book Interface II^reset;
+^cyan;Below the list of foods^reset; is a ^yellow;Search^reset; field, this allows you to filter foods by their name.
+
+^green;Select^reset; a food and the recipes to make that food will show on the right.",
+
+"You may have noticed, there is No ^red;Craft^reset; or ^red;Prepare^reset; buttons in the interface, this is intentional. There is a different process in which you prepare and cook the foods detailed in a different How To guide and through a few of the starting quests (search the ^yellow;Terra Mart^reset;)",
+
+"^blue;How can I tell what appliance I need to use?^reset;
+Every appliance added or modified by this mod contains the ^yellow;Method^reset; it is used for ^cyan;in the name of it^reset; surrounded by parenthesis -> ().
+The ^yellow;Filters^reset; ARE the ^yellow;Methods^reset; (^yellow;Mill, Bake, Boil, etc.^reset;).",
+
+"As an example, I want to craft an ^green;Automato Shake^reset;. The recipe for it appears ^cyan;in the Recipe List^reset; when I select the ^yellow;BLEND^reset; Filter the ^green;Automato Shake^reset; Food shows up with 'BLEND' next to it's name, this means you need to look for something that can ^cyan;BLEND the ingredients^reset;. So, look for an appliance with ^yellow;(BLEND)^reset; ^cyan;in the name^reset;, such as the ^orange;Blender (BLEND)^reset; which is a ^yellow;BASIC^reset; appliance. (All appliances added or modified by this mod are crafted at the ^orange;Kitchen Crafting Table^reset; some vanilla appliances can be found in the wild as well)",
+
+"^blue;Recipe Book Tips^reset;
+- When searching for how to cook a recipe, it is much easier to click one of the filters on the left first and find the recipe, than to find how to cook something through the ^yellow;All^reset; filter.
+The mod has been designed (Mostly, there are a few kinks that occassionally happen) to be intuitive, for instance if you needed to make something such as a ^orange;Sliced Tomato^reset; you could assume that you'd need to ^cyan;Chop^reset; a ^green;Tomato^reset;",
+
+"^blue;Recipe Book Tips II^reset;
+- The information provided by this guide and the recipe book itself may make more sense by finding and reading the ^orange;How To: Appliances^reset; codex.",
+
+"^blue;Recipe Book Tips III^reset;
+- If you want to say 'Screw Immersion!' There is a ^orange;Cheater's Recipe Book^reset;, crafted in the same location. The only noticeable difference is that you can craft straight from it. Use this if you encounter issues crafting any of the items using the normal process. It is highly recommended that you ^red;don't use it^reset;, it is ^red;not^reset; the intended method of cooking and ^yellow;support for it will be minimal^reset; but it is available for those who preferred the old way of cooking (i.e. Like the vanilla cooking table).",
+
+"^blue;Recipe Book Tips IIII^reset;
+- You are not required to (and you will not) learn the blueprints of ANY of the recipes in the ^orange;Recipe Book^reset; to craft them, all are available from the start (Because in real life, when have you ever had to look at a 'blueprint' to figure out how to fry an egg or make a bowl of cereal?). Experiment to your hearts content.",
+
+"^blue;More to come:^reset;
+For more guides and other more updated volumes of ^orange;How To: Recipe Book^reset;, check out your local ^orange;Terra Mart^reset;.
+If you encounter any more issues or have additional questions. Please ask them in the Steam Workshop page, no question is too dumb, though some come close! (Be sure to thoroughly check this and other in-game guides first though)"
+
+  ],
+  "itemConfig" : {
+    "rarity" : "Legendary",
+    "price" : 10
+  }
+}

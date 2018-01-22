@@ -1,65 +1,65 @@
 {
   "id" : "howtorecipebookvolume1MFM",
-  "title" : "^orange;(MFM) How To: Recipe Book - Volume 1^white;",
+  "title" : "^orange;(MFM) How To: Recipe Book - Volume 1^reset;",
   "description" : "Volume 1 - This is a guide on how to acquire and use the Recipe Book",
   "icon" : "howtocodexMFM.png",
   "contentPages" : [
 
-"^blue;Introduction:^white;
-This How To contains information about the ^orange;Recipe Book^white;, particularly where to find it, the interface, and how to utilize it",
+"^blue;Introduction:^reset;
+This How To contains information about the ^orange;Recipe Book^reset;, particularly where to find it, the interface, and how to utilize it",
 
-"^blue;Where to find the Recipe Book:^white;
+"^blue;Where to find the Recipe Book:^reset;
 In order to craft the recipe book you must:
-1. Craft and place an ^orange;Inventors Table^white;.
-2. Open the ^orange;Inventors Table^white; and craft a ^orange;Kitchen Crafting Table^white;.
-3. Place the ^orange;Kitchen Crafting Table^white;
-4. Open the ^orange;Kitchen Crafting Table^white;.
-5. On the left, there will be filters (^yellow;All, Apex, Avian, etc.^white;) and at the bottom there is a ^green;Search Box^white;
+1. Craft and place an ^orange;Inventors Table^reset;.
+2. Open the ^orange;Inventors Table^reset; and craft a ^orange;Kitchen Crafting Table^reset;.
+3. Place the ^orange;Kitchen Crafting Table^reset;
+4. Open the ^orange;Kitchen Crafting Table^reset;.
+5. On the left, there will be filters (^yellow;All, Apex, Avian, etc.^reset;) and at the bottom there is a ^green;Search Box^reset;
 
 Continues on the next page...",
 
-"6. Click the ^green;Search Box^white; and type in ^cyan;Recipe Book^white;
-7. Now you should see a ^orange;Recipe Book (MFM)^white; entry above the ^green;Search Box^white;
-8. Select the ^orange;Recipe Book (MFM)^white; and click ^green;Craft^white; in the bottom right
-9. Once crafted, the ^orange;Recipe Book^white; should appear in your inventory under the ^cyan;Objects^white; tab
-10. Place the ^orange;Recipe Book (MFM)^white; anywhere on the ground, on a table, or on a shelf",
+"6. Click the ^green;Search Box^reset; and type in ^cyan;Recipe Book^reset;
+7. Now you should see a ^orange;Recipe Book (MFM)^reset; entry above the ^green;Search Box^reset;
+8. Select the ^orange;Recipe Book (MFM)^reset; and click ^green;Craft^reset; in the bottom right
+9. Once crafted, the ^orange;Recipe Book^reset; should appear in your inventory under the ^cyan;Objects^reset; tab
+10. Place the ^orange;Recipe Book (MFM)^reset; anywhere on the ground, on a table, or on a shelf",
 
-"^blue;Recipe Book Interface^white;
-Now that you have the ^orange;Recipe Book^white; placed, go ahead and interact with it. The interface should appear.
-In the interface there are ^green;Filters^white; on the ^cyan;left hand side^white; by default ^yellow;All^white; is selected. These filters allow you to ^green;filter^white; by ^yellow;method^white; (More details about ^yellow;methods^white; later in this guide).",
+"^blue;Recipe Book Interface^reset;
+Now that you have the ^orange;Recipe Book^reset; placed, go ahead and interact with it. The interface should appear.
+In the interface there are ^green;Filters^reset; on the ^cyan;left hand side^reset; by default ^yellow;All^reset; is selected. These filters allow you to ^green;filter^reset; by ^yellow;method^reset; (More details about ^yellow;methods^reset; later in this guide).",
 
-"When you select a ^yellow;filter^white;, you will see all recipes that can be prepared using the selected method.
-Think of the ^yellow;Method Filters^white; ^cyan;the same as^white; you would the tabs in the vanilla ^orange;Cooking Table^white; (^yellow;Mains, Sides, Desserts, etc.^white;), or the ^orange;Furnace^white; (^yellow;Materials, Ingots, Other, etc.^white;).
+"When you select a ^yellow;filter^reset;, you will see all recipes that can be prepared using the selected method.
+Think of the ^yellow;Method Filters^reset; ^cyan;the same as^reset; you would the tabs in the vanilla ^orange;Cooking Table^reset; (^yellow;Mains, Sides, Desserts, etc.^reset;), or the ^orange;Furnace^reset; (^yellow;Materials, Ingots, Other, etc.^reset;).
 They function the same, they are just placed in a different location.",
 
-"^blue;Recipe Book Interface II^white;
-^cyan;Below the list of recipes^white; you will see a checkbox for ^yellow;Ingredients Available^white;, if checked, only the recipes you have all of the ingredients for will be shown.
-^cyan;Below the checkbox^white; is a ^yellow;Search^white; field, when you type something in this box, all recipes with a name that contains what you typed will be shown.
-^cyan;Hovering over^white; a recipe will show you the required ingredients needed to prepare a recipe.",
+"^blue;Recipe Book Interface II^reset;
+^cyan;Below the list of recipes^reset; you will see a checkbox for ^yellow;Ingredients Available^reset;, if checked, only the recipes you have all of the ingredients for will be shown.
+^cyan;Below the checkbox^reset; is a ^yellow;Search^reset; field, when you type something in this box, all recipes with a name that contains what you typed will be shown.
+^cyan;Hovering over^reset; a recipe will show you the required ingredients needed to prepare a recipe.",
 
-"If you notice, there is ^red;No Craft or Prepare button^white; in the bottom right of the interface, this is intentional. There is a different process in which you prepare and cook the recipes shown within the ^orange;Recipe Book^white;",
+"If you notice, there is ^red;No Craft or Prepare button^reset; in the bottom right of the interface, this is intentional. There is a different process in which you prepare and cook the recipes shown within the ^orange;Recipe Book^reset;",
 
-"^blue;How can I tell what appliance I need to use?^white;
-Every appliance that is modified or added by the mod contains the ^yellow;Method^white; it is used for ^cyan;in the name of it^white; surrounded by parenthesis -> ().
-The ^yellow;Methods^white; on the left side have the exact same name as ^cyan;what you will find in the appliance names^white; (^yellow;Mill, Bake, Boil, etc.^white;).",
+"^blue;How can I tell what appliance I need to use?^reset;
+Every appliance that is modified or added by the mod contains the ^yellow;Method^reset; it is used for ^cyan;in the name of it^reset; surrounded by parenthesis -> ().
+The ^yellow;Methods^reset; on the left side have the exact same name as ^cyan;what you will find in the appliance names^reset; (^yellow;Mill, Bake, Boil, etc.^reset;).",
 
-"As an example, I want to craft an ^green;Automato Shake^white;. The recipe for it appears ^cyan;in the Recipe List^white; when I select the ^yellow;BLEND^white; Method on the left hand side of the recipe book, this makes tells you that you need to look for something that can ^cyan;BLEND the ingredients^white;. So, you would look for an appliance with ^yellow;(BLEND)^white; ^cyan;in the name^white;, such as the ^orange;Blender (BLEND)^white; which is a ^yellow;BASIC^white; appliance. (All appliances from or modified by this mod are crafted at the ^orange;Kitchen Crafting Table^white;)",
+"As an example, I want to craft an ^green;Automato Shake^reset;. The recipe for it appears ^cyan;in the Recipe List^reset; when I select the ^yellow;BLEND^reset; Method on the left hand side of the recipe book, this makes tells you that you need to look for something that can ^cyan;BLEND the ingredients^reset;. So, you would look for an appliance with ^yellow;(BLEND)^reset; ^cyan;in the name^reset;, such as the ^orange;Blender (BLEND)^reset; which is a ^yellow;BASIC^reset; appliance. (All appliances from or modified by this mod are crafted at the ^orange;Kitchen Crafting Table^reset;)",
 
-"^blue;Recipe Book Tips^white;
-- When searching for how to cook a recipe, it is much easier to click one of the filters on the left first and find the recipe, than to find how to cook something through the ^yellow;All^white; filter.
-The mod has been designed (Mostly, there are a few kinks that occassionally happen) to be intuitive, for instance if you needed to make something such as a ^orange;Sliced Tomato^white; you could assume that you'd need to ^cyan;Chop^white; a ^green;Tomato^white;",
+"^blue;Recipe Book Tips^reset;
+- When searching for how to cook a recipe, it is much easier to click one of the filters on the left first and find the recipe, than to find how to cook something through the ^yellow;All^reset; filter.
+The mod has been designed (Mostly, there are a few kinks that occassionally happen) to be intuitive, for instance if you needed to make something such as a ^orange;Sliced Tomato^reset; you could assume that you'd need to ^cyan;Chop^reset; a ^green;Tomato^reset;",
 
-"^blue;Recipe Book Tips II^white;
-- The recipe book may make more sense in how it correlates to the different appliances by finding and reading the ^orange;How To: Appliances^white; codex.",
+"^blue;Recipe Book Tips II^reset;
+- The recipe book may make more sense in how it correlates to the different appliances by finding and reading the ^orange;How To: Appliances^reset; codex.",
 
-"^blue;Recipe Book Tips III^white;
-- If you want to say 'Screw Immersion!' There is a ^orange;Cheater's Recipe Book^white;, crafted in the same location. The only noticeable difference is that you can craft straight from it. Use this if you encounter issues crafting any of the items using the normal process. It is highly recommended that you ^red;don't use it^white;, it is ^red;not^white; the intended method of cooking and ^yellow;support for it will be minimal^white; but it is available for those who preferred the old way of cooking (From the cooking table).",
+"^blue;Recipe Book Tips III^reset;
+- If you want to say 'Screw Immersion!' There is a ^orange;Cheater's Recipe Book^reset;, crafted in the same location. The only noticeable difference is that you can craft straight from it. Use this if you encounter issues crafting any of the items using the normal process. It is highly recommended that you ^red;don't use it^reset;, it is ^red;not^reset; the intended method of cooking and ^yellow;support for it will be minimal^reset; but it is available for those who preferred the old way of cooking (From the cooking table).",
 
-"^blue;Recipe Book Tips IIII^white;
-- You are not required to learn the blueprints of ANY of the recipes in the ^orange;Recipe Book^white; to craft them, all are available from the start. Experiment to your hearts content.",
+"^blue;Recipe Book Tips IIII^reset;
+- You are not required to learn the blueprints of ANY of the recipes in the ^orange;Recipe Book^reset; to craft them, all are available from the start. Experiment to your hearts content.",
 
-"^blue;More to come:^white;
-For more guides and other more updated volumes of ^orange;How To: Recipe Book^white;, check out your local ^orange;Terra Mart^white;.
+"^blue;More to come:^reset;
+For more guides and other more updated volumes of ^orange;How To: Recipe Book^reset;, check out your local ^orange;Terra Mart^reset;.
 If you encounter any more issues or have additional questions. Please ask them in the Steam Workshop page, no question is too dumb, though some come close! (Be sure to thoroughly check this and other in-game guides first though)"
 
   ],

@@ -17,6 +17,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "howtorecipebookvolume2MFM-codex" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "wildernesssurvivalguideCNYC-codex" }
   },
   {

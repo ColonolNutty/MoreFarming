@@ -2,6 +2,16 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "cn_recipebook" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : "recipebookMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "bakingpowderMFM" }
   },
   {

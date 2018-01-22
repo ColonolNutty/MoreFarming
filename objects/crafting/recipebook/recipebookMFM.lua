@@ -30,11 +30,9 @@ end
 function updateRecipeStore(itemsArray)
   local itemsList = {}
   for idx,itemName in ipairs(itemsArray) do
-    if(dataStore.ingredientStore[itemName] == nil) then
-      local item = loadItem(itemName)
-      if(item ~= nil) then
-        itemsList[itemName] = item
-      end
+    local item = loadItem(itemName)
+    if(item ~= nil) then
+      itemsList[itemName] = item
     end
   end
   return itemsList

@@ -2,7 +2,7 @@
 
 local ignoreRecipeSelected = false
 local ignoreFilterSelected = false
-local refreshDataStore = false
+local refreshIngredients = false
 local needsUpdate = true
 local enableDebug = true
 local requests = {}
@@ -16,16 +16,21 @@ function uninit()
 end
 
 function update()
-  if(dataStore == nil or refreshDataStore) then
+
+  if(dataStore == nil) then
     local dataStoreResult = updateStore("getDataStore", nil)
     if(dataStoreResult ~= nil) then
       dataStore = dataStoreResult
       updateFilterList()
       needsUpdate = true
-      refreshDataStore = false
+      refreshIngredients = false
     end
     ready = false
     return
+  end
+  if(refreshIngredients and reloadIngredientStore()) then
+    refreshIngredients = false
+    onRecipeSelected()
   end
   if(needsUpdate) then
     updateRecipeList()
@@ -266,6 +271,7 @@ function updateRecipeList()
   recipeSelectionItems = {}
   widget.setVisible(RECIPE_LIST_EMPTY, false)
   
+  local addedRecipes = {}
   logInfo("Updating recipe list")
   local recipeListItems = {}
   for filterName, isSelected in pairs(dataStore.selectedFilters) do
@@ -273,7 +279,10 @@ function updateRecipeList()
     if(isSelected and dataStore.recipeFilterStore[filterName] ~= nil) then
       for recipeName, recipeItem in pairs(dataStore.recipeFilterStore[filterName]) do
         logInfo("Looking at recipe: " .. recipeName)
-        table.insert(recipeListItems, recipeItem)
+        if(addedRecipes[recipeName] == nil) then
+          table.insert(recipeListItems, recipeItem)
+          addedRecipes[recipeName] = true
+        end
       end
     end
   end
@@ -308,8 +317,7 @@ function updateRecipeList()
   end
   
   if(dataStore.selectedRecipeId ~= nil and recipeSelectionItems[dataStore.selectedRecipeId] ~= nil) then
-    logInfo("Selecting recipe with id: " .. dataStore.selectedRecipeId)
-    widget.setListSelected(RECIPE_LIST_NAME, recipeSelectionItems[dataStore.selectedRecipeId])
+    selectRecipeById(dataStore.selectedRecipeId)
     --widget.focus(string.format("%s.%s", RECIPE_LIST_NAME, recipeSelectionItems[dataStore.selectedRecipeId]))
   end
 end
@@ -333,6 +341,15 @@ function setSelectedRecipeId(id)
   updateDataStore()
 end
 
+function selectRecipeById(recipeId)
+  if(recipeSelectionItems[recipeId] ~= nil) then
+    logInfo("Selecting recipe with id: " .. recipeId)
+    widget.setListSelected(RECIPE_LIST_NAME, recipeSelectionItems[recipeId])
+    return true
+  end
+  return false
+end
+
 -----------------------------------------------------------------
 
 
@@ -350,22 +367,36 @@ function onIngredientSelected()
     logInfo("Ignoring Ingredient Selection Change")
     return
   end
-  logInfo("Not ignoring ingredient change")
   local id, data = getSelectedItemData(INGREDIENTS_LIST_NAME)
-  if(id == nil or data == nil) then
-    logInfo("Selected Ingredient")
+  if(id == nil or data == nil or data.isHidden) then
     return
   end
+  --- Selected a recipe header, deselect by selecting hidden list item
+  if(data.isHeader) then
+    selectHiddenIngredient()
+    return
+  end
+  --- Recipe to select has already been selected
+  if(dataStore.selectedRecipeId == data.id) then
+    logInfo("Recipe already selected, skipping reload")
+    return
+  end
+  setSelectedRecipeId(data.id)
+  --- Select recipe if it is already visible
+  if(selectRecipeById(data.id)) then
+    return
+  end
+  --- Recipe wasn't visible, so change filters to ensure it is and update recipe list
   local success = changeSelectedMethods(data.methods)
   if(not success) then
     return
   end
-  setSelectedRecipeId(data.id)
   needsUpdate = true
 end
 
 function updateIngredientList(recipes)
   widget.clearListItems(INGREDIENTS_LIST_NAME)
+  hiddenIngredientListItemId = nil
   if(recipes == nil or dataStore.selectedRecipeId == nil) then
     widget.setVisible(INGREDIENTS_LIST_EMPTY, true)
     return
@@ -377,34 +408,35 @@ function updateIngredientList(recipes)
   local allListItems = {}
   local currentRecipeIdx = 1
   for idx,recipe in ipairs(recipes) do
-    local ingredientListItems = {}
+    local recipeIngredientListItems = {}
     
     local headerIcon = nil
     if(dataStore.ingredientStore[recipe.output.name] ~= nil) then
       headerIcon = dataStore.ingredientStore[recipe.output.name].icon
     end
     
-    table.insert(allListItems, { id = recipe.output.name, name = "RECIPE " .. currentRecipeIdx .. ":" .. formatMethods(recipe.methods), isHeader = true, count = recipe.output.count, icon = headerIcon, methods = dataStore.ingredientStore[recipe.output.name].methods })
+    table.insert(allListItems, { id = recipe.output.name, name = "RECIPE " .. currentRecipeIdx .. ":" .. formatMethods(recipe.methods), isHeader = true, isHidden = false, count = recipe.output.count, icon = headerIcon, methods = dataStore.ingredientStore[recipe.output.name].methods })
     currentRecipeIdx = currentRecipeIdx + 1
     
     for idx,inputItem in ipairs(recipe.input) do
       local item = getItem(inputItem.name)
       item.count = inputItem.count
       item.isHeader = false
+      item.isHidden = false
       hasIngredients = true
       if(dataStore.ingredientStore[item.id] ~= nil) then
         item.methods = dataStore.ingredientStore[item.id].methods
       else
         item.methods = {}
       end
-      table.insert(ingredientListItems, item)
+      table.insert(recipeIngredientListItems, item)
     end
   
-    table.sort(ingredientListItems, function(a, b)
+    table.sort(recipeIngredientListItems, function(a, b)
       return a.id < b.id
     end)
     
-    for idx,ingredListItem in ipairs(ingredientListItems) do
+    for idx,ingredListItem in ipairs(recipeIngredientListItems) do
       table.insert(allListItems, ingredListItem)
     end
   end
@@ -412,8 +444,13 @@ function updateIngredientList(recipes)
   for idx,listItem in ipairs(allListItems) do
     local isHeader = listItem.isHeader
     local path = string.format("%s.%s", INGREDIENTS_LIST_NAME, widget.addListItem(INGREDIENTS_LIST_NAME))
+    widget.setVisible(path .. ".selectedBackground", false)
+    widget.setVisible(path .. ".unselectedBackground", true)
     if(isHeader) then
-      widget.setImage(path .. ".background", INGREDIENT_HEADER_BACKGROUD)
+      widget.setImage(path .. ".selectedBackground", "")
+      widget.setVisible(path .. ".selectedBackground", false)
+      widget.setImage(path .. ".unselectedBackground", INGREDIENT_HEADER_BACKGROUD)
+      widget.setVisible(path .. ".unselectedBackground", true)
     end
     widget.setText(path .. ".itemName", listItem.name)
     widget.setVisible(path .. ".itemName", true)
@@ -424,7 +461,7 @@ function updateIngredientList(recipes)
     else
       widget.setVisible(path .. ".itemIcon", false)
     end
-    widget.setData(path, { id = listItem.id, methods = listItem.methods, isHeader = isHeader })
+    widget.setData(path, { id = listItem.id, methods = listItem.methods, isHeader = isHeader, isHidden = listItem.isHidden })
   end
   
   widget.setVisible(INGREDIENTS_LIST_EMPTY, not hasIngredients)
@@ -436,7 +473,7 @@ function getItem(itemId)
   end
   local item = { id = itemId, name = itemId, icon = nil }
   world.sendEntityMessage(pane.sourceEntity(), "storeIngredient", itemId)
-  refreshDataStore = true
+  refreshIngredients = true
   return item
 end
 
@@ -445,6 +482,15 @@ end
 
 
 ------------------------- Utility -------------------------------
+
+function reloadIngredientStore()
+  local dataStoreResult = updateStore("getDataStore", nil)
+  if(dataStoreResult ~= nil) then
+    dataStore.ingredientStore = dataStoreResult.ingredientStore
+    return true
+  end
+  return false
+end
 
 function updateDataStore()
   world.sendEntityMessage(pane.sourceEntity(), "setDataStore", dataStore)

@@ -4,7 +4,7 @@ local ignoreRecipeSelected = false
 local ignoreFilterSelected = false
 local refreshIngredients = false
 local needsUpdate = true
-local enableDebug = true
+local enableDebug = false
 local requests = {}
 local dataStore = nil
 local ready = false
@@ -380,7 +380,6 @@ function onIngredientSelected()
   end
   --- Selected a recipe header, deselect by selecting hidden list item
   if(data.isHeader) then
-    selectHiddenIngredient()
     return
   end
   --- Recipe to select has already been selected

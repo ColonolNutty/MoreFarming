@@ -13,7 +13,7 @@ local dataStore = nil
 
 function init()
   DebugUtilsCN.init("[CNRB]")
-  DebugUtilsCN.enableDebug()
+  --DebugUtilsCN.enableDebug()
   message.setHandler("getDataStore", getDataStore)
   message.setHandler("setDataStore", setDataStore)
   message.setHandler("storeIngredient", storeIngredient)

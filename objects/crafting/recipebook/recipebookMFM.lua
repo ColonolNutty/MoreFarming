@@ -31,7 +31,10 @@ function updateRecipeStore(itemsArray)
   local itemsList = {}
   for idx,itemName in ipairs(itemsArray) do
     if(dataStore.ingredientStore[itemName] == nil) then
-      itemsList[itemName] = loadItem(itemName)
+      local item = loadItem(itemName)
+      if(item ~= nil) then
+        itemsList[itemName] = item
+      end
     end
   end
   return itemsList
@@ -50,13 +53,16 @@ function loadItem(itemId)
     local recipes = filterNonRecipeBookRecipes(root.recipesForItem(itemId))
     item = { id = itemId, name = itemData.config.shortdescription, icon = rescale(canonicalise(itemData.config.inventoryIcon, itemData.directory), 16, 16), recipes = recipes, methods = getMethods(recipes) }
     dataStore.ingredientStore[itemId] = item
+    if(isArrEmpty(recipes)) then
+      return nil
+    end
   end
   return item
 end
 
 function filterNonRecipeBookRecipes(recipes)
-  if(recipes == nil) then
-    return {}
+  if(isArrEmpty(recipes)) then
+    return nil
   end
   local result = {}
   for idx,recipe in ipairs(recipes) do
@@ -77,7 +83,7 @@ function filterNonRecipeBookRecipes(recipes)
         recipe.methods[group] = friendlyName
       end
     end
-    if(include) then
+    if(include and not isEmpty(recipe.methods)) then
       table.insert(result, recipe)
     end
   end
@@ -85,6 +91,9 @@ function filterNonRecipeBookRecipes(recipes)
 end
 
 function getMethods(recipes)
+  if(isArrEmpty(recipes)) then
+    return nil
+  end
   local allMethods = {}
   for idx,recipe in ipairs(recipes) do
     for methodName,friendlyName in pairs(recipe.methods) do
@@ -144,4 +153,28 @@ function initializeDataStore()
   end
   dataStore.selectedFilters[dataStore.methodFilterNames[1]] = true
   storage.recipeBookDataStorage = dataStore
+end
+
+function isArrEmpty(ipairTable)
+  if(ipairTable == nil) then
+    return true
+  end
+  local empty = true;
+  for one,two in ipairs(ipairTable) do
+    empty = false
+    break;
+  end
+  return empty
+end
+
+function isEmpty(pairTable)
+  if(pairTable == nil) then
+    return true
+  end
+  local empty = true;
+  for one,two in pairs(pairTable) do
+    empty = false
+    break;
+  end
+  return empty
 end

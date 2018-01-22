@@ -17,7 +17,7 @@
     }
   ],
   "interactAction" : "ScriptPane",
-	"interactData" : "/interface/scripted/recipebookMFM/recipebookMFM.config",
+  "interactData" : "/interface/scripted/recipebookMFM/recipebookMFM.config",
   "scripts" : [ "recipebookMFM.lua" ],
   "scriptDelta" : 1
 }

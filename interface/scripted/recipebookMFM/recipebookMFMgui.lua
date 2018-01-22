@@ -1,232 +1,31 @@
-local recipeListNeedsUpdate = true
-local requests = {}
+------------------------- Basic -------------------------------
+
+local needsUpdate = true
 local enableDebug = true
-local forceUpdate = false
-
-local ingredientStore = nil
-local selectedFilters = nil
-local recipeFilters = nil
-local recipeFilterStore = nil
-local recipeSelectionItems = {}
-local selectedRecipeId = nil
-local filters = { nameFilter = nil }
-local ignoreSelected = false
--- Implement a bread crumb thing here
-local breadCrumb = {}
-
-INGREDIENT_HEADER_BACKGROUD = "/interface/crafting/MFM/shared/craftableheaderbackgroundMFM.png"
-
-RECIPE_LIST_NAME = "recipeList.itemList"
-RECIPE_LIST_EMPTY = "recipeList.empty"
-INGREDIENTS_LIST_NAME = "ingredientList.ingredientItemList"
-INGREDIENTS_LIST_EMPTY = "ingredientList.empty"
+local requests = {}
+local dataStore = nil
 
 function init()
 end
 
+function uninit()
+end
+
 function update()
-  if(forceUpdate) then
-    ingredientStore = nil
-    recipeFilterStore = nil
-    recipeFilters = nil
-    selectedFilters = nil
-    forceUpdate = false
-  end
-  if(ingredientStore == nil or recipeFilterStore == nil or recipeFilters == nil or selectedFilters == nil) then
-    local ingredientStoreResult = updateStore("getIngredientStore", {})
-    if(ingredientStoreResult ~= nil) then
-      ingredientStore = ingredientStoreResult
+  if(dataStore == nil) then
+    local dataStoreResult = updateStore("getDataStore", nil)
+    if(dataStoreResult ~= nil) then
+      dataStore = dataStoreResult
+      needsUpdate = true
     end
-    local filterStoreResult = updateStore("getRecipeFilterStore", {})
-    if(filterStoreResult ~= nil) then
-      recipeFilterStore = filterStoreResult
-    end
-    local recipeFiltersResult = updateStore("getRecipeFilters", {})
-    if(recipeFiltersResult ~= nil) then
-      recipeFilters = recipeFiltersResult
-    end
-    local selectedFiltersResult = updateStore("getSelectedFilters", {})
-    if(selectedFiltersResult ~= nil) then
-      selectedFilters = selectedFiltersResult
-      updateSelectedFilters()
-    end
-    recipeListNeedsUpdate = true
     return
   end
-  if(selectedRecipeId == nil) then
-    local recipeIdResult = updateStore("getSelectedRecipeId", "")
-    if(recipeIdResult ~= nil) then
-      selectedRecipeId = recipeIdResult
-    end
-    recipeListNeedsUpdate = true
-    return
-  end
-  if(recipeListNeedsUpdate) then
+  if(needsUpdate) then
+    updateFilterList()
     updateRecipeList()
-    recipeListNeedsUpdate = false
+    updateIngredientList()
+    needsUpdate = false
   end
-  world.sendEntityMessage(pane.sourceEntity(), "setSelectedFilters", selectedFilters)
-end
-
-function updateSelectedFilters()
-  for name,isSelected in pairs(selectedFilters) do
-    widget.setChecked(name .. "chkbox", isSelected)
-  end
-end
-
-function updateRecipeList()
-  ignoreSelected = true
-  widget.clearListItems(RECIPE_LIST_NAME)
-  recipeSelectionItems = {}
-  widget.setVisible(RECIPE_LIST_EMPTY, false)
-  
-  logInfo("Updating recipe list")
-  local recipeListItems = {}
-  for filterName, isSelected in pairs(selectedFilters) do
-    logInfo("Using filter: " .. filterName)
-    if(isSelected and recipeFilterStore[filterName] ~= nil) then
-      for recipeName, recipeItem in pairs(recipeFilterStore[filterName]) do
-        logInfo("Looking at recipe: " .. recipeName)
-        table.insert(recipeListItems, recipeItem)
-      end
-    end
-  end
-  
-  table.sort(recipeListItems, function(a, b)
-		if a.name < b.name then return true end
-		if a.name > b.name then return false end
-		return a.id < b.id
-	end)
-  
-  local hasRecipes = false
-  for idx,recipeItem in ipairs(recipeListItems) do
-    logInfo("Loading recipe with name: " .. recipeItem.name)
-    local listItemId = widget.addListItem(RECIPE_LIST_NAME)
-    local path = string.format("%s.%s", RECIPE_LIST_NAME, listItemId)
-    widget.setText(path .. ".itemName", recipeItem.name .. " " .. formatMethods(recipeItem.methods))
-    widget.setImage(path .. ".itemIcon", recipeItem.icon)
-    widget.setData(path, { id = recipeItem.id, recipes = recipeItem.recipes})
-    widget.setVisible(path .. ".itemName", true)
-    widget.setVisible(path .. ".itemIcon", true)
-    recipeSelectionItems[recipeItem.id] = listItemId
-    hasRecipes = true
-  end
-  
-  widget.setVisible(RECIPE_LIST_EMPTY, not hasRecipes)
-  ignoreSelected = false
-  
-  if(selectedRecipeId ~= nil and recipeSelectionItems[selectedRecipeId] ~= nil) then
-    logInfo("Selecting recipe with id: " .. selectedRecipeId)
-    widget.setListSelected(RECIPE_LIST_NAME, recipeSelectionItems[selectedRecipeId])
-  end
-end
-
-function formatMethods(methods)
-  if(isEmpty(methods)) then
-    return "Unknown"
-  end
-  local formatted = ""
-  for method,friendlyMethod in pairs(methods) do
-    formatted = formatted .. "(" .. friendlyMethod .. ")"
-  end
-  if(formatted == "") then
-    return "Unknown"
-  end
-  return formatted
-end
-
-function updateIngredientList(recipes)
-  widget.clearListItems(INGREDIENTS_LIST_NAME)
-  if(selectedRecipeId == nil) then
-    widget.setVisible(INGREDIENTS_LIST_EMPTY, true)
-    return
-  end
-  widget.setVisible(INGREDIENTS_LIST_EMPTY, false)
-  
-  local hasIngredients = false
-  
-  local allListItems = {}
-  local currentRecipeIdx = 1
-  for idx,recipe in ipairs(recipes) do
-    local ingredientListItems = {}
-    
-    local headerIcon = nil
-    if(ingredientStore[recipe.output.name] ~= nil) then
-      headerIcon = ingredientStore[recipe.output.name].icon
-    end
-    
-    table.insert(allListItems, { id = recipe.output.name, name = "RECIPE " .. currentRecipeIdx .. ": " .. formatMethods(recipe.methods), isHeader = true, count = recipe.output.count, icon = headerIcon, methods = ingredientStore[recipe.output.name].methods })
-    currentRecipeIdx = currentRecipeIdx + 1
-    
-    for idx,inputItem in ipairs(recipe.input) do
-      local item = getItem(inputItem.name)
-      item.count = inputItem.count
-      item.isHeader = false
-      hasIngredients = true
-      if(ingredientStore[item.id] ~= nil) then
-        item.methods = ingredientStore[item.id].methods
-      else
-        item.methods = {}
-      end
-      table.insert(ingredientListItems, item)
-    end
-  
-    table.sort(ingredientListItems, function(a, b)
-      return a.id < b.id
-    end)
-    
-    for idx,ingredListItem in ipairs(ingredientListItems) do
-      table.insert(allListItems, ingredListItem)
-    end
-  end
-  
-  for idx,listItem in ipairs(allListItems) do
-    local isHeader = listItem.isHeader
-    local path = string.format("%s.%s", INGREDIENTS_LIST_NAME, widget.addListItem(INGREDIENTS_LIST_NAME))
-    if(isHeader) then
-      widget.setImage(path .. ".background", INGREDIENT_HEADER_BACKGROUD)
-    end
-    widget.setText(path .. ".itemName", listItem.name)
-    widget.setVisible(path .. ".itemName", true)
-    widget.setText(path .. ".countLabel", (isHeader and "Output: " or "Input: ") .. listItem.count)
-    if(listItem.icon ~= nil) then
-      widget.setImage(path .. ".itemIcon", listItem.icon)
-      widget.setVisible(path .. ".itemIcon", true)
-    else
-      widget.setVisible(path .. ".itemIcon", false)
-    end
-    widget.setData(path, { id = listItem.id, methods = listItem.methods, isHeader = isHeader })
-  end
-  
-  widget.setVisible(INGREDIENTS_LIST_EMPTY, not hasIngredients)
-end
-
-function getItem(itemId)
-  if(ingredientStore[itemId] ~= nil) then
-    return ingredientStore[itemId]
-  end
-  local item = { id = itemId, name = itemId, icon = nil }
-  world.sendEntityMessage(pane.sourceEntity(), "storeIngredient", itemId)
-  forceUpdate = true
-  return item
-end
-
-function toggleFilter(id, data)
-  local newValue = widget.getChecked(id)
-  if(newValue) then
-    logInfo("New value is true")
-  end
-  selectedFilters[data.filterName] = newValue
-  updateRecipeList()
-end
-
-function filterByName(id, data)
-  logInfo("Filtering: " .. id)
-  logInfo("Filtering 2: " .. data)
-end
-
-function btnFilterHaveMaterials(id, data)
-  logInfo("Filter has Mats")
 end
 
 function updateStore(requestName, defaultValue, data)
@@ -261,67 +60,389 @@ function updateStore(requestName, defaultValue, data)
   return result
 end
 
-function logInfo(msg)
-  if(enableDebug) then
-    sb.logInfo(msg)
+-----------------------------------------------------------------
+
+
+
+------------------------- Bread Crumb ---------------------------
+
+-- Implement a bread crumb thing here
+local breadCrumb = {}
+
+-----------------------------------------------------------------
+
+
+
+------------------------- Method Filters ------------------------
+
+local ignoreFilterSelected = false
+local filterSelectionItems = {}
+-- Finish adding support for this
+local filters = { nameFilter = nil }
+
+FILTER_LIST_NAME = "filterList.filterItemList"
+FILTER_LIST_EMPTY = "filterList.empty"
+
+function onFilterSelected()
+  if(ignoreFilterSelected) then
+    logInfo("Ignoring Filter Selection Change")
+    return
   end
+  local id, data = getSelectedItemData(FILTER_LIST_NAME)
+  if(id == nil or data == nil or data.id == "hidden") then
+    return
+  end
+  local isSelected = toggleFilter(data.id)
+  updateFilterColor(id, isSelected)
+  selectHiddenFilter()
+  updateDataStore()
+  needsUpdate = true
 end
 
-function onRecipeSelected()
-  if(ignoreSelected) then
-    logInfo("Ignoring Selection Change")
-    return
-  end
-  local selectedItem = widget.getListSelected(RECIPE_LIST_NAME)
-  if(selectedItem == nil) then
-    logInfo("Clearing selected")
-    selectedRecipeId = nil
-    return
-  end
-  local id = string.format("%s.%s", RECIPE_LIST_NAME, selectedItem)
-  local data = widget.getData(id)
-  if(data.recipes ~= nil) then
-    selectedRecipeId = data.id
-    world.sendEntityMessage(pane.sourceEntity(), "storeSelectedRecipeId", selectedRecipeId)
-    updateIngredientList(data.recipes)
-  end
+function updateFilterColor(filterPath, isSelected)
+  widget.setVisible(filterPath .. ".backgroundSelected", isSelected)
+  widget.setVisible(filterPath .. ".backgroundUnselected", not isSelected)
+  widget.setFontColor(filterPath .. ".itemName", isSelected and {0, 0, 0, 255} or {255, 255, 255, 255})
 end
 
-function onIngredientSelected()
-  if(ignoreSelected) then
-    logInfo("Ignoring Selection Change")
-    return
+function toggleFilter(filterId)
+  local oldValue = dataStore.selectedFilters[filterId]
+  if(oldValue == nil) then
+    oldValue = false
   end
-  local selectedItem = widget.getListSelected(INGREDIENTS_LIST_NAME)
-  if(selectedItem == nil) then
-    logInfo("Clearing selected")
-    selectedRecipeId = nil
-    return
+  dataStore.selectedFilters[filterId] = not oldValue
+  return dataStore.selectedFilters[filterId]
+end
+
+function selectHiddenFilter()
+  ignoreFilterSelected = true
+  widget.setListSelected(FILTER_LIST_NAME, filterSelectionItems["hidden"])
+  ignoreFilterSelected = false
+end
+
+function updateFilterList()
+  ignoreFilterSelected = true
+  widget.clearListItems(FILTER_LIST_NAME)
+  recipeSelectionItems = {}
+  widget.setVisible(FILTER_LIST_EMPTY, false)
+  
+  -- Do thing
+  local filterListItems = {}
+  for idx,recipeFilter in ipairs(dataStore.methodFilterNames) do
+    local friendlyName = dataStore.methodFriendlyNames[recipeFilter]
+    if(friendlyName ~= nil) then
+      table.insert(filterListItems, { id = recipeFilter, name = friendlyName, isSelected = dataStore.selectedFilters[recipeFilter] })
+    end
   end
-  local id = string.format("%s.%s", INGREDIENTS_LIST_NAME, selectedItem)
-  local data = widget.getData(id)
-  local failedToSelectMethods = ensureSelectedMethods(data.methods)
-  if(failedToSelectMethods) then
-    return
+  
+  table.sort(filterListItems, function(a, b)
+		if a.name < b.name then return true end
+		if a.name > b.name then return false end
+		return a.id < b.id
+	end)
+  
+  local hasFilters = false
+  for idx,filterItem in ipairs(filterListItems) do
+    logInfo("Loading filter with name: " .. filterItem.name)
+    local listItemId = widget.addListItem(FILTER_LIST_NAME)
+    local path = string.format("%s.%s", FILTER_LIST_NAME, listItemId)
+    widget.setText(path .. ".itemName", filterItem.name)
+    widget.setData(path, { id = filterItem.id })
+    widget.setVisible(path .. ".itemName", true)
+    filterSelectionItems[filterItem.id] = listItemId
+    hasFilters = true
   end
-  selectedRecipeId = data.id
-  world.sendEntityMessage(pane.sourceEntity(), "storeSelectedRecipeId", selectedRecipeId)
-  forceUpdate = true
+  
+  if(hasFilters) then
+    --- Hidden filter for deselection ---
+      local hiddenListItemId = widget.addListItem(FILTER_LIST_NAME)
+      local hiddenPath = string.format("%s.%s", FILTER_LIST_NAME, hiddenListItemId)
+      widget.setText(hiddenPath .. ".itemName", "")
+      widget.setData(hiddenPath, { id = "hidden" })
+      widget.setVisible(hiddenPath, false)
+      filterSelectionItems["hidden"] = hiddenListItemId
+    ---
+  end
+  
+  updateFilterSelections()
+  
+  widget.setVisible(FILTER_LIST_EMPTY, not hasFilters)
+  ignoreFilterSelected = false
+end
+
+function updateFilterSelections()
+  for name,isSelected in pairs(dataStore.selectedFilters) do
+    if(filterSelectionItems[name] ~= nil) then
+      local filterItemId = filterSelectionItems[name]
+      local path = string.format("%s.%s", FILTER_LIST_NAME, filterItemId)
+      updateFilterColor(path, isSelected)
+    end
+  end
+  needsUpdate = true
 end
 
 function ensureSelectedMethods(methods)
   if(isEmpty(methods)) then
-    return true
+    return false
   end
-  for name,val in pairs(selectedFilters) do
-    selectedFilters[name] = false
+  for name,val in pairs(dataStore.selectedFilters) do
+    if(name ~= "hidden") then
+      dataStore.selectedFilters[name] = false
+    end
   end
   for methodName,fn in pairs(methods) do
-    selectedFilters[methodName] = true
+    dataStore.selectedFilters[methodName] = true
   end
-  world.sendEntityMessage(pane.sourceEntity(), "setSelectedFilters", selectedFilters)
-  updateSelectedFilters()
-  return false
+  updateDataStore()
+  updateFilterSelections()
+  updateRecipeList()
+  return true
+end
+
+function unselectAllFilters()
+  for idx,name in ipairs(dataStore.methodFilterNames) do
+    dataStore.selectedFilters[name] = false
+  end
+  updateFilterSelections()
+end
+
+-----------------------------------------------------------------
+
+
+
+------------------------- Name Filters --------------------------
+
+function filterByName(id)
+  local nameFilter = widget.getText(filterByName)
+  logInfo("Text thing: " .. nameFilter)
+end
+
+-----------------------------------------------------------------
+
+
+
+------------------------- Recipes -------------------------------
+
+local ignoreRecipeSelected = false
+local recipeSelectionItems = {}
+
+RECIPE_LIST_NAME = "recipeList.recipeItemList"
+RECIPE_LIST_EMPTY = "recipeList.empty"
+
+
+function onRecipeSelected()
+  if(ignoreRecipeSelected) then
+    logInfo("Ignoring Selection Change")
+    return
+  end
+  local id, data = getSelectedItemData(RECIPE_LIST_NAME)
+  if(id == nil or data == nil) then
+    return
+  end
+  if(data.recipes ~= nil) then
+    setSelectedRecipeId(data.id)
+    updateIngredientList(data.recipes)
+  end
+end
+
+function updateRecipeList()
+  ignoreRecipeSelected = true
+  ignoreIngredientSelected = true
+  widget.clearListItems(RECIPE_LIST_NAME)
+  recipeSelectionItems = {}
+  widget.setVisible(RECIPE_LIST_EMPTY, false)
+  
+  logInfo("Updating recipe list")
+  local recipeListItems = {}
+  for filterName, isSelected in pairs(dataStore.selectedFilters) do
+    logInfo("Using filter: " .. filterName)
+    if(isSelected and dataStore.recipeFilterStore[filterName] ~= nil) then
+      for recipeName, recipeItem in pairs(dataStore.recipeFilterStore[filterName]) do
+        logInfo("Looking at recipe: " .. recipeName)
+        table.insert(recipeListItems, recipeItem)
+      end
+    end
+  end
+  
+  table.sort(recipeListItems, function(a, b)
+		if a.name < b.name then return true end
+		if a.name > b.name then return false end
+		return a.id < b.id
+	end)
+  
+  local hasRecipes = false
+  for idx,recipeItem in ipairs(recipeListItems) do
+    logInfo("Loading recipe with name: " .. recipeItem.name)
+    local listItemId = widget.addListItem(RECIPE_LIST_NAME)
+    local path = string.format("%s.%s", RECIPE_LIST_NAME, listItemId)
+    widget.setText(path .. ".itemName", recipeItem.name .. " " .. formatMethods(recipeItem.methods))
+    widget.setImage(path .. ".itemIcon", recipeItem.icon)
+    widget.setData(path, { id = recipeItem.id, recipes = recipeItem.recipes})
+    widget.setVisible(path .. ".itemName", true)
+    widget.setVisible(path .. ".itemIcon", true)
+    recipeSelectionItems[recipeItem.id] = listItemId
+    hasRecipes = true
+  end
+  
+  widget.setVisible(RECIPE_LIST_EMPTY, not hasRecipes)
+  ignoreRecipeSelected = false
+  ignoreIngredientSelected = false
+  
+  if(dataStore.selectedRecipeId ~= nil and recipeSelectionItems[dataStore.selectedRecipeId] ~= nil) then
+    logInfo("Selecting recipe with id: " .. dataStore.selectedRecipeId)
+    widget.setListSelected(RECIPE_LIST_NAME, recipeSelectionItems[dataStore.selectedRecipeId])
+    widget.focus(string.format("%s.%s", RECIPE_LIST_NAME, recipeSelectionItems[dataStore.selectedRecipeId]))
+  end
+  
+  updateIngredientList()
+end
+
+function formatMethods(methods)
+  if(isEmpty(methods)) then
+    return "Unknown"
+  end
+  local formatted = ""
+  for method,friendlyMethod in pairs(methods) do
+    formatted = formatted .. "(" .. friendlyMethod .. ")"
+  end
+  if(formatted == "") then
+    return "Unknown"
+  end
+  return formatted
+end
+
+function setSelectedRecipeId(id)
+  dataStore.selectedRecipeId = id
+  updateDataStore()
+end
+
+-----------------------------------------------------------------
+
+
+
+----------------------- Ingredients -----------------------------
+
+local ignoreIngredientSelected = false
+
+INGREDIENT_HEADER_BACKGROUD = "/interface/crafting/MFM/shared/craftableheaderbackgroundMFM.png"
+
+INGREDIENTS_LIST_NAME = "ingredientList.ingredientItemList"
+INGREDIENTS_LIST_EMPTY = "ingredientList.empty"
+
+function onIngredientSelected()
+  if(ignoreIngredientSelected) then
+    logInfo("Ignoring Ingredient Selection Change")
+    return
+  end
+  local id, data = getSelectedItemData(INGREDIENTS_LIST_NAME)
+  if(id == nil or data == nil) then
+    logInfo("Selected Ingredient")
+    return
+  end
+  logInfo("Thingy: " .. id)
+  logInfo("Data Id: " .. data.id)
+  local success = ensureSelectedMethods(data.methods)
+  if(not success) then
+    return
+  end
+  setSelectedRecipeId(data.id)
+  updateFilterSelections()
+end
+
+function updateIngredientList(recipes)
+  ignoreIngredientSelected = true
+  widget.clearListItems(INGREDIENTS_LIST_NAME)
+  if(recipes == nil or dataStore.selectedRecipeId == nil) then
+    widget.setVisible(INGREDIENTS_LIST_EMPTY, true)
+    return
+  end
+  widget.setVisible(INGREDIENTS_LIST_EMPTY, false)
+  
+  local hasIngredients = false
+  
+  local allListItems = {}
+  local currentRecipeIdx = 1
+  for idx,recipe in ipairs(recipes) do
+    local ingredientListItems = {}
+    
+    local headerIcon = nil
+    if(dataStore.ingredientStore[recipe.output.name] ~= nil) then
+      headerIcon = dataStore.ingredientStore[recipe.output.name].icon
+    end
+    
+    table.insert(allListItems, { id = recipe.output.name, name = "RECIPE " .. currentRecipeIdx .. ": " .. formatMethods(recipe.methods), isHeader = true, count = recipe.output.count, icon = headerIcon, methods = dataStore.ingredientStore[recipe.output.name].methods })
+    currentRecipeIdx = currentRecipeIdx + 1
+    
+    for idx,inputItem in ipairs(recipe.input) do
+      local item = getItem(inputItem.name)
+      item.count = inputItem.count
+      item.isHeader = false
+      hasIngredients = true
+      if(dataStore.ingredientStore[item.id] ~= nil) then
+        item.methods = dataStore.ingredientStore[item.id].methods
+      else
+        item.methods = {}
+      end
+      table.insert(ingredientListItems, item)
+    end
+  
+    table.sort(ingredientListItems, function(a, b)
+      return a.id < b.id
+    end)
+    
+    for idx,ingredListItem in ipairs(ingredientListItems) do
+      table.insert(allListItems, ingredListItem)
+    end
+  end
+  
+  for idx,listItem in ipairs(allListItems) do
+    local isHeader = listItem.isHeader
+    local path = string.format("%s.%s", INGREDIENTS_LIST_NAME, widget.addListItem(INGREDIENTS_LIST_NAME))
+    if(isHeader) then
+      widget.setImage(path .. ".background", INGREDIENT_HEADER_BACKGROUD)
+    end
+    widget.setText(path .. ".itemName", listItem.name)
+    widget.setVisible(path .. ".itemName", true)
+    widget.setText(path .. ".countLabel", (isHeader and "Output: " or "Input: ") .. listItem.count)
+    if(listItem.icon ~= nil) then
+      widget.setImage(path .. ".itemIcon", listItem.icon)
+      widget.setVisible(path .. ".itemIcon", true)
+    else
+      widget.setVisible(path .. ".itemIcon", false)
+    end
+    widget.setData(path, { id = listItem.id, methods = listItem.methods, isHeader = isHeader })
+  end
+  
+  widget.setVisible(INGREDIENTS_LIST_EMPTY, not hasIngredients)
+  ignoreIngredientSelected = false
+end
+
+function getItem(itemId)
+  if(dataStore.ingredientStore[itemId] ~= nil) then
+    return dataStore.ingredientStore[itemId]
+  end
+  local item = { id = itemId, name = itemId, icon = nil }
+  world.sendEntityMessage(pane.sourceEntity(), "storeIngredient", itemId)
+  return item
+end
+
+-----------------------------------------------------------------
+
+
+
+------------------------- Utility -------------------------------
+
+function updateDataStore()
+  world.sendEntityMessage(pane.sourceEntity(), "setDataStore", dataStore)
+end
+
+function getSelectedItemData(listName)
+  local selectedItem = widget.getListSelected(listName)
+  if(selectedItem == nil) then
+    return nil, nil
+  end
+  local id = string.format("%s.%s", listName, selectedItem)
+  return id, widget.getData(id)
 end
 
 function isEmpty(pairTable)
@@ -336,5 +457,10 @@ function isEmpty(pairTable)
   return empty
 end
 
-function uninit()
+
+function logInfo(msg)
+  if(enableDebug) then
+    sb.logInfo("[RBGUI] " .. msg)
+  end
 end
+-----------------------------------------------------------------

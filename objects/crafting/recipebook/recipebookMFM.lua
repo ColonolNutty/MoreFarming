@@ -2,59 +2,35 @@ require "/scripts/debugUtilsCN.lua"
 
 currentPage = 1
 
-RECIPE_FILTERS_PATH = "/recipeCrafterMFM/recipeFiltersMFM.json"
-RECIPE_GROUP_FRIENDLY_NAMES = "/recipeCrafterMFM/recipeGroupFriendlyNamesMFM.json"
+METHOD_FILTER_NAMES_PATH = "/recipeCrafterMFM/methodFilterNamesMFM.json"
+RECIPE_METHOD_FRIENDLY_NAMES = "/recipeCrafterMFM/methodFriendlyNamesMFM.json"
 RECIPE_CONFIGURATION_PATH = "/recipeCrafterMFM/"
 
 update = nil
 uninit = nil
 
+local dataStore = nil
+
 function init()
   DebugUtilsCN.init("[CNRB]")
   DebugUtilsCN.enableDebug()
+  message.setHandler("getDataStore", getDataStore)
+  message.setHandler("setDataStore", setDataStore)
   message.setHandler("storeIngredient", storeIngredient)
-  message.setHandler("storeSelectedRecipeId", storeSelectedRecipeId)
-  message.setHandler("getSelectedRecipeId", getSelectedRecipeId)
-  message.setHandler("getIngredientStore", getIngredientStore)
-  message.setHandler("getRecipeFilterStore", getRecipeFilterStore)
-  message.setHandler("getRecipeFilters", getRecipeFilters)
-  message.setHandler("getSelectedFilters", getSelectedFilters)
-  message.setHandler("setSelectedFilters", setSelectedFilters)
   
-  if(storage.selectedFilters ~= nil and storage.recipeFilters ~= nil and storage.recipeFilterStore ~= nil and storage.recipeStore ~= nil) then
+  if(storage.recipeBookDataStorage ~= nil) then
+    dataStore = storage.recipeBookDataStore
     DebugUtilsCN.logDebug("Recipe already loaded, skipping load")
     return
   end
   
-  if(storage.ingredientStore == nil) then
-    storage.ingredientStore = {}
-  end
-  
-  storage.recipeFilterStore = {}
-  storage.ingredientStore = {}
-  storage.selectedFilters = {}
-  storage.recipeFilters = root.assetJson(RECIPE_FILTERS_PATH).recipeFilters
-  storage.recipeMethodFriendlyNames = root.assetJson(RECIPE_GROUP_FRIENDLY_NAMES)
-  if(#storage.recipeFilters == 0) then
-    return
-  end
-  for i, recipeFilter in ipairs(storage.recipeFilters) do
-    storage.selectedFilters[recipeFilter] = false
-    local recipeConfigPath = RECIPE_CONFIGURATION_PATH .. recipeFilter .. "Recipes.config"
-    DebugUtilsCN.logDebug("Looking for recipe configuration at path: " .. recipeConfigPath)
-    local recipeNames = root.assetJson(recipeConfigPath)
-    if(recipeNames ~= nil) then
-      DebugUtilsCN.logDebug("Storing recipe names for filter: " .. recipeFilter)
-      storage.recipeFilterStore[recipeFilter] = updateRecipeStore(recipeNames.possibleOutput)
-    end
-  end
-  storage.selectedFilters[storage.recipeFilters[1]] = true
+  initializeDataStore()
 end
 
 function updateRecipeStore(itemsArray)
   local itemsList = {}
   for idx,itemName in ipairs(itemsArray) do
-    if(storage.ingredientStore[itemName] == nil) then
+    if(dataStore.ingredientStore[itemName] == nil) then
       itemsList[itemName] = loadItem(itemName)
     end
   end
@@ -62,8 +38,8 @@ function updateRecipeStore(itemsArray)
 end
 
 function loadItem(itemId)
-  if(storage.ingredientStore[itemId] ~= nil) then
-    return storage.ingredientStore[itemId]
+  if(dataStore.ingredientStore[itemId] ~= nil) then
+    return dataStore.ingredientStore[itemId]
   end
   local item = nil
   local itemData = root.itemConfig({ name = itemId })
@@ -73,7 +49,7 @@ function loadItem(itemId)
     end
     local recipes = filterNonRecipeBookRecipes(root.recipesForItem(itemId))
     item = { id = itemId, name = itemData.config.shortdescription, icon = rescale(canonicalise(itemData.config.inventoryIcon, itemData.directory), 16, 16), recipes = recipes, methods = getMethods(recipes) }
-    storage.ingredientStore[itemId] = item
+    dataStore.ingredientStore[itemId] = item
   end
   return item
 end
@@ -96,7 +72,7 @@ function filterNonRecipeBookRecipes(recipes)
         DebugUtilsCN.logDebug("Including recipe " .. recipe.output.name)
         include = true
       end
-      local friendlyName = storage.recipeMethodFriendlyNames[group]
+      local friendlyName = dataStore.methodFriendlyNames[group]
       if(friendlyName ~= nil and recipe.methods[group] == nil) then
         recipe.methods[group] = friendlyName
       end
@@ -129,34 +105,43 @@ function rescale(image, x, y)
 	return image .. '?scalebilinear=' .. math.min(x / size[1], y / size[2])
 end
 
+function getDataStore()
+  if(dataStore == nil) then
+    initializeDataStore()
+  end
+  return dataStore
+end
+
+function setDataStore(id, name, newDataStore)
+  dataStore = newDataStore
+  storage.recipeBookDataStorage = dataStore
+end
+
 function storeIngredient(id, name, itemName)
   loadItem(itemName)
 end
 
-function storeSelectedRecipeId(id, name, recipeId)
-  storage.selectedRecipeId = recipeId
-end
-
-function getSelectedRecipeId(id, name, recipeId)
-  return storage.selectedRecipeId
-end
-
-function getIngredientStore()
-  return storage.ingredientStore
-end
-
-function getRecipeFilterStore()
-  return storage.recipeFilterStore
-end
-
-function getRecipeFilters()
-  return storage.recipeFilters
-end
-
-function getSelectedFilters()
-  return storage.selectedFilters
-end
-
-function setSelectedFilters(id, name, filters)
-  storage.selectedFilters = filters
+function initializeDataStore()
+  dataStore = {
+    recipeFilterStore = {},
+    ingredientStore = {},
+    selectedFilters = {},
+    methodFilterNames = root.assetJson(METHOD_FILTER_NAMES_PATH).filterNames,
+    methodFriendlyNames = root.assetJson(RECIPE_METHOD_FRIENDLY_NAMES)
+  };
+  if(#dataStore.methodFilterNames == 0) then
+    return
+  end
+  for i, methodFilterName in ipairs(dataStore.methodFilterNames) do
+    dataStore.selectedFilters[methodFilterName] = false
+    local recipeConfigPath = RECIPE_CONFIGURATION_PATH .. methodFilterName .. "Recipes.config"
+    DebugUtilsCN.logDebug("Looking for recipe configuration at path: " .. recipeConfigPath)
+    local recipeNames = root.assetJson(recipeConfigPath)
+    if(recipeNames ~= nil) then
+      DebugUtilsCN.logDebug("Storing recipe names for filter: " .. methodFilterName)
+      dataStore.recipeFilterStore[methodFilterName] = updateRecipeStore(recipeNames.possibleOutput)
+    end
+  end
+  dataStore.selectedFilters[dataStore.methodFilterNames[1]] = true
+  storage.recipeBookDataStorage = dataStore
 end

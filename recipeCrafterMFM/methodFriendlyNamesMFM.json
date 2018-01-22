@@ -7,7 +7,7 @@
   "churningMFM" : "CHURN",
   "coffeeMFM" : "COFFEE",
   "distillingMFM" : "DISTILL",
-  "freezingMFM" : "FRZ",
+  "freezingMFM" : "FREEZE",
   "fryingMFM" : "FRY",
   "millingMFM" : "MILL",
   "preparingMFM" : "PREP",

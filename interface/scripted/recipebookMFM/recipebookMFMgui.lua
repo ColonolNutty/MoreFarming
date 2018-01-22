@@ -8,7 +8,7 @@ local enableDebug = false
 local requests = {}
 local dataStore = nil
 local ready = false
--- Since the filter activates for every keystroke (twice for some reason), this is here to reduce lag while filtering by name --
+-- Since the filter activates for every keystroke (twice for some reason), this is here to reduce lag experienced when filtering by name (In other words, there is a 1 second delay before results will filter) --
 local nameFilterBuffer = 1
 local currentTime = 0
 local filteringName = false
@@ -36,6 +36,7 @@ function update(dt)
     onRecipeSelected()
   end
   if(needsUpdate) then
+    updateIngredientList()
     updateRecipeList()
     needsUpdate = false
     ready = true
@@ -229,12 +230,18 @@ function changeAllFilters(allSelected)
   if(not ready) then
     return
   end
+  local didChange = false
   for idx,name in ipairs(dataStore.methodFilterNames) do
-    dataStore.selectedFilters[name] = allSelected
+    if(dataStore.selectedFilters[name] ~= allSelected) then
+      dataStore.selectedFilters[name] = allSelected
+      didChange = true
+    end
   end
-  updateDataStore()
-  updateFilterSelections()
-  needsUpdate = true
+  if(didChange) then
+    updateDataStore()
+    updateFilterSelections()
+    needsUpdate = true
+  end
 end
 
 -----------------------------------------------------------------

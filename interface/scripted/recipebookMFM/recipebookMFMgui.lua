@@ -326,7 +326,7 @@ function updateRecipeList()
   
   if(dataStore.selectedRecipeId ~= nil and recipeSelectionItems[dataStore.selectedRecipeId] ~= nil) then
     selectRecipeById(dataStore.selectedRecipeId)
-    --widget.focus(string.format("%s.%s", RECIPE_LIST_NAME, recipeSelectionItems[dataStore.selectedRecipeId]))
+    widget.active(string.format("%s.%s", RECIPE_LIST_NAME, recipeSelectionItems[dataStore.selectedRecipeId]))
   end
 end
 
@@ -398,6 +398,7 @@ function onIngredientSelected()
   if(not success) then
     return
   end
+  widget.setText("filterByName", "")
   needsUpdate = true
 end
 

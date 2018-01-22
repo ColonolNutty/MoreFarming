@@ -8,6 +8,10 @@ local enableDebug = true
 local requests = {}
 local dataStore = nil
 local ready = false
+-- Since the filter activates for every keystroke (twice for some reason), this is here to reduce lag while filtering by name --
+local nameFilterBuffer = 1
+local currentTime = 0
+local filteringName = false
 
 function init()
 end
@@ -15,8 +19,7 @@ end
 function uninit()
 end
 
-function update()
-
+function update(dt)
   if(dataStore == nil) then
     local dataStoreResult = updateStore("getDataStore", nil)
     if(dataStoreResult ~= nil) then
@@ -36,6 +39,15 @@ function update()
     updateRecipeList()
     needsUpdate = false
     ready = true
+  end
+  if(filteringName) then
+    if(currentTime < nameFilterBuffer) then
+      currentTime = currentTime + dt
+    else
+      updateRecipeList()
+      currentTime = 0
+      filteringName = false
+    end
   end
 end
 
@@ -229,20 +241,10 @@ end
 
 
 
-------------------------- Name Filters --------------------------
-
-function filterByName(id)
-  local nameFilter = widget.getText(filterByName)
-  logInfo("Text thing: " .. nameFilter)
-end
-
------------------------------------------------------------------
-
-
-
 ------------------------- Recipes -------------------------------
 
 local recipeSelectionItems = {}
+local recipeSelectionIdx = {}
 
 RECIPE_LIST_NAME = "recipeList.recipeItemList"
 RECIPE_LIST_EMPTY = "recipeList.empty"
@@ -295,16 +297,22 @@ function updateRecipeList()
   
   local hasRecipes = false
   for idx,recipeItem in ipairs(recipeListItems) do
-    logInfo("Loading recipe with name: " .. recipeItem.name)
-    local listItemId = widget.addListItem(RECIPE_LIST_NAME)
-    local path = string.format("%s.%s", RECIPE_LIST_NAME, listItemId)
-    widget.setText(path .. ".itemName", recipeItem.name .. formatMethods(recipeItem.methods))
-    widget.setImage(path .. ".itemIcon", recipeItem.icon)
-    widget.setData(path, { id = recipeItem.id, recipes = recipeItem.recipes})
-    widget.setVisible(path .. ".itemName", true)
-    widget.setVisible(path .. ".itemIcon", true)
-    recipeSelectionItems[recipeItem.id] = listItemId
-    hasRecipes = true
+    local shouldAdd = true
+    if(filters.nameFilter ~= nil) then
+      shouldAdd = containsSubString(recipeItem.name, filters.nameFilter) or containsSubString(recipeItem.id, filters.nameFilter)
+    end
+    if(shouldAdd) then
+      logInfo("Loading recipe with name: " .. recipeItem.name)
+      local listItemId = widget.addListItem(RECIPE_LIST_NAME)
+      local path = string.format("%s.%s", RECIPE_LIST_NAME, listItemId)
+      widget.setText(path .. ".itemName", recipeItem.name .. formatMethods(recipeItem.methods))
+      widget.setImage(path .. ".itemIcon", recipeItem.icon)
+      widget.setData(path, { id = recipeItem.id, recipes = recipeItem.recipes})
+      widget.setVisible(path .. ".itemName", true)
+      widget.setVisible(path .. ".itemIcon", true)
+      recipeSelectionItems[recipeItem.id] = listItemId
+      hasRecipes = true
+    end
   end
   
   widget.setVisible(RECIPE_LIST_EMPTY, not hasRecipes)
@@ -355,7 +363,6 @@ end
 
 
 ----------------------- Ingredients -----------------------------
-
 
 INGREDIENT_HEADER_BACKGROUD = "/interface/crafting/MFM/shared/craftableheaderbackgroundMFM.png"
 
@@ -481,6 +488,24 @@ end
 
 
 
+------------------------- Name Filters --------------------------
+
+function filterByName(id)
+  local nameFilter = widget.getText(id)
+  if(nameFilter == nil or nameFilter == "") then
+    filters.nameFilter = nil
+  else
+    filters.nameFilter = nameFilter
+  end
+  logInfo("Filtering by name")
+  currentTime = 0
+  filteringName = true
+end
+
+-----------------------------------------------------------------
+
+
+
 ------------------------- Utility -------------------------------
 
 function reloadIngredientStore()
@@ -523,4 +548,9 @@ function logInfo(msg)
     sb.logInfo("[RBGUI] " .. msg)
   end
 end
+
+function containsSubString(one, two)
+  return string.match(string.lower(one), string.lower(two))
+end
+
 -----------------------------------------------------------------

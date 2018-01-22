@@ -28,6 +28,7 @@ function debugUtils.getDebugState(id, name)
   }
 end
 
+--- Meant to be called from a GUI script ---
 function debugUtils.setDebugState(id, name, newValue)
   if(not debugLoggingEnabled) then
     return

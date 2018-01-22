@@ -1,6 +1,6 @@
 {
-  "id" : "howtorecipebookvolume2MFM",
-  "title" : "^orange;(MFM) How To: Recipe Book^reset;",
+  "id" : "howtorecipebookMFMvolume2",
+  "title" : "^orange;(MFM) How To: Recipe Book - Volume 2^reset;",
   "description" : "Volume 2 - This is a guide on how to acquire and use the improved Recipe Book",
   "icon" : "howtocodexMFM.png",
   "contentPages" : [

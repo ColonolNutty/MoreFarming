@@ -781,7 +781,7 @@ function filterByInput(id)
   else
     filters.inputNameFilter = inputNameFilter;
   end
-  logDebug("Filtering by ingredient name")
+  logDebug("Filtering by input name")
   currentTime = 0;
   enableDelayedRecipeUpdate = true
 end

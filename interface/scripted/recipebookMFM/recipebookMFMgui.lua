@@ -6,10 +6,11 @@ require "/scripts/utilsCN.lua"
 -- { active = boolean, handle = function() (return isDone, result), onCompleted = function(result) }
 ---
 local filters = {
- nameFilter = nil,
- ingredientsAvailable = false,
- recipeFilters = {}
-}
+    nameFilter = nil,
+    inputNameFilter = nil,
+    ingredientsAvailable = false,
+    recipeFilters = {}
+  }
 local requestIdentifiers = {}
 local requests = {}
 local requestsToObject = {}
@@ -33,11 +34,20 @@ local enableDelayedRecipeUpdate = false
 local debugStateUpdated = false
 
 function init()
+  filters.clear = function()
+    widget.setText("filterByName", "")
+    filters.nameFilter = nil;
+    widget.setText("filterByInput", "")
+    filters.inputNameFilter = nil;
+    widget.setChecked("filterByHasIngredients", false)
+    filters.ingredientsAvailable = false;
+  end
   requestsToObject = {}
   completedInitialSetup = false
   enableDebug = nil
   currentTime = 0
   table.insert(filters.recipeFilters, nameMatchesFilter)
+  table.insert(filters.recipeFilters, inputNameMatchesFilter)
   table.insert(filters.recipeFilters, hasAvailableIngredients)
 end
 
@@ -303,12 +313,34 @@ local breadCrumb = {}
 
 ------------------------- Method Filters ------------------------
 
-
 function nameMatchesFilter(item)
   if(filters.nameFilter == nil) then
     return true;
   end
   return containsSubString(item.name, filters.nameFilter) or containsSubString(item.id, filters.nameFilter)
+end
+
+function inputNameMatchesFilter(item)
+  if(item.recipes == nil) then
+    return false;
+  end
+  if(filters.inputNameFilter == nil) then
+    return true;
+  end
+  local matches = false;
+  for idx,recipe in ipairs(item.recipes) do
+    for idxTwo,inputItem in ipairs(recipe.input) do
+      local input = getItem(inputItem.name)
+      if(input ~= nil and (containsSubString(input.name, filters.inputNameFilter) or containsSubString(input.id, filters.inputNameFilter))) then
+        matches = true
+        break;
+      end
+    end
+    if(matches) then
+      break;
+    end
+  end
+  return matches;
 end
 
 function hasAvailableIngredients(item)
@@ -718,7 +750,7 @@ function getItem(itemId)
   if(dataStore.ingredientStore[itemId] ~= nil) then
     return dataStore.ingredientStore[itemId]
   end
-  local item = { id = itemId, name = itemId, icon = "", isCraftable = function() end }
+  local item = { id = itemId, name = itemId, icon = "", recipes = {}, isCraftable = function() end }
   requestStoreIngredient(itemId, item)
   return item
 end
@@ -727,13 +759,14 @@ end
 
 
 
-------------------------- Name Filters --------------------------
+------------------------- Filters --------------------------
 
 function filterByName(id)
   local nameFilter = widget.getText(id)
   if(nameFilter == nil or nameFilter == "") then
     filters.nameFilter = nil
   else
+    
     filters.nameFilter = nameFilter
   end
   logDebug("Filtering by name")
@@ -741,11 +774,17 @@ function filterByName(id)
   enableDelayedRecipeUpdate = true
 end
 
------------------------------------------------------------------
-
-
-
-------------------- Has Ingredients Filters ---------------------
+function filterByInput(id)
+  local inputNameFilter = widget.getText(id)
+  if(inputNameFilter == nil or inputNameFilter == "") then
+    filters.inputNameFilter = nil
+  else
+    filters.inputNameFilter = inputNameFilter;
+  end
+  logDebug("Filtering by ingredient name")
+  currentTime = 0;
+  enableDelayedRecipeUpdate = true
+end
 
 function filterByHasIngredients(id)
   local enableFilter = widget.getChecked(id)
@@ -832,9 +871,7 @@ function requestFoodSelect(id, methods)
   if(not success) then
     return
   end
-  widget.setText("filterByName", "")
-  widget.setChecked("filterByHasIngredients", false)
-  filters.ingredientsAvailable = false
+  filters.clear()
   requestFoodListUpdate()
 end
 

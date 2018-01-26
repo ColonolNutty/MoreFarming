@@ -85,12 +85,13 @@ end
 function setupInitialFilterList()
   ignoreFilterSelected = true
   methodFilterListItemIds = {}
+  widget.clearListItems(FILTER_LIST_NAME)
   
   local hasFilters = false
   for idx,methodFilter in pairs(dataStore.sortedMethodFilters) do
     logDebug("Loading filter with id: " .. methodFilter.id .. " and name " .. methodFilter.name)
     local methodId, methodPath = addToList(FILTER_LIST_NAME, methodFilter)
-    setFilterColor(methodPath, methodFilter.isSelected)
+    setFilterColor(methodPath, dataStore.methodFilters[methodFilter.id].isSelected)
     methodFilter.listId = methodId
     methodFilterListItemIds[methodFilter.id] = methodId
     hasFilters = true
@@ -113,6 +114,7 @@ end
 function setupInitialFoodList()
   ignoreFoodSelected = true
   foodListItemIds = {}
+  widget.clearListItems(FOOD_LIST_NAME)
   
   logDebug("Updating food list")
   local sortedFoodItems = sortedFoodItemsFromMethodFilters()
@@ -182,6 +184,7 @@ function addToFoodItemsList(sortedFoodItems)
 end
 
 function setupInitialIngredientList()
+  widget.clearListItems(INGREDIENTS_LIST_NAME)
   widget.setVisible(INGREDIENTS_LIST_EMPTY, true)
 end
 
@@ -554,9 +557,8 @@ function updateIngredientList()
   end
   logDebug("Selected food was: " .. selectedFoodId)
   local selectedFood = dataStore.ingredientStore[selectedFoodId]
-  local recipes = selectedFood.recipes
-  if(recipes == nil) then
-    logDebug("No recipes found: " .. selectedFoodId)
+  if(selectedFood == nil or selectedFood.recipes == nil) then
+    logDebug("No recipes found: " .. (selectedFoodId or "none"))
     widget.setVisible(INGREDIENTS_LIST_EMPTY, true)
     ignoreIngredientSelected = false
     return
@@ -567,17 +569,13 @@ function updateIngredientList()
   local recipeHeaderItems = {}
   local currentRecipeIdx = 1
   
-  for idx,recipe in ipairs(recipes) do
+  for idx,recipe in ipairs(selectedFood.recipes) do
     if(recipe ~= nil) then
       printTable(recipe)
     end
     
-    local headerIcon = nil
     local outputFoodItem = getItem(recipe.output.name)
-    if(outputFoodItem ~= nil) then
-      headerIcon = outputFoodItem.icon
-    end
-    local recipeHeaderItem = { id = outputFoodItem.id, name = "RECIPE " .. currentRecipeIdx .. ":" .. formatMethods(recipe.methods), isHeader = true, isCraftable = recipe.isCraftable, count = recipe.output.count, icon = headerIcon, methods = outputFoodItem.methods }
+    local recipeHeaderItem = { id = outputFoodItem.id, name = "RECIPE " .. currentRecipeIdx .. ":" .. formatMethods(recipe.methods), isHeader = true, isCraftable = recipe.isCraftable, count = recipe.output.count, icon = "", methods = outputFoodItem.methods }
     currentRecipeIdx = currentRecipeIdx + 1
     local headerChildren = {}
     
@@ -616,13 +614,13 @@ function updateIngredientList()
     end
   end
   
-  table.sort(recipeHeaderItems, function(a, b)
-    return a.count > b.count
-  end)
+  --table.sort(recipeHeaderItems, function(a, b)
+  --  return a.count > b.count
+  --end)
 
   local itemHeader = {
     id = "itemHeader",
-    name = selectedFood.name,
+    name = selectedFood.displayName,
     icon = selectedFood.icon,
     isCraftable = true,
     isHeader = true,

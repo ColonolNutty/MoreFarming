@@ -43,7 +43,6 @@ local completedInitialSetup = false
 
 function init()
   DebugUtilsCN.init("[CNRB]");
-  DebugUtilsCN.enableDebug();
   message.setHandler("getDataStore", getDataStore);
   message.setHandler("setDataStore", setDataStore);
   message.setHandler("updateSelectedFilters", updateSelectedFilters);
@@ -86,7 +85,7 @@ function initializeDataStore()
     return
   end
   for i, methodFilterName in ipairs(storage.rbDataStore.methodFilterNames) do
-      DebugUtilsCN.logDebug("Storing filter: " .. methodFilterName)
+     DebugUtilsCN.logDebug("Storing filter: " .. methodFilterName)
      local methodFilter = {
       id = methodFilterName,
       name = storage.rbDataStore.methodFriendlyNames[methodFilterName],

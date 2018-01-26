@@ -147,6 +147,7 @@ function sortedFoodItemsFromMethodFilters()
     if(methodFilter.isSelected) then
       for foodName,foodItem in pairs(methodFilter.foods) do
         if(recipeListItems[foodName] == nil) then
+          updateIsCraftable(foodItem)
           local passesFilters = true
           for idx,filter in ipairs(filters.recipeFilters) do
             if(not filter(foodItem)) then
@@ -155,7 +156,6 @@ function sortedFoodItemsFromMethodFilters()
             end
           end
           if(passesFilters) then
-            updateIsCraftable(foodItem)
             recipeListItems[foodName] = foodItem
           end
         end
@@ -316,9 +316,9 @@ function hasAvailableIngredients(item)
     return true;
   end
   if(item.isCraftable ~= nil and item.isCraftable()) then
-    logDebug("Is Craft")
+    logDebug("Is Craft " .. item.id)
   else
-    logDebug("No craft")
+    logDebug("No craft " .. item.id)
   end
   return item.isCraftable ~= nil and item.isCraftable()
 end
@@ -345,8 +345,13 @@ function onFilterSelected()
   end
   local id, data = getSelectedItemData(FILTER_LIST_NAME)
   if(id == nil or data == nil or data.id == "hidden") then
+    if(data.id == "hidden") then
+      logDebug("Id was hidden")
+    end
+      logDebug("No data")
     return
   end
+  logDebug("Filtering things: " .. data.id)
   local isSelected = toggleFilter(data.id)
   requestFilterSelectedUpdate(data.id, isSelected, nil)
   setFilterColor(id, isSelected)
@@ -374,14 +379,34 @@ function selectHiddenFilter()
 end
 
 function updateFilterSelections()
+  local bundledSelections = {}
   for name,methodFilter in pairs(dataStore.methodFilters) do
     if(methodFilterListItemIds[methodFilter.id] ~= nil) then
       local filterItemId = methodFilterListItemIds[methodFilter.id]
       local path = string.format("%s.%s", FILTER_LIST_NAME, filterItemId)
-      requestFilterSelectedUpdate(methodFilter.id, methodFilter.isSelected)
+      table.insert(bundledSelections, { id = methodFilter.id, isSelected = methodFilter.isSelected })
       setFilterColor(path, methodFilter.isSelected)
     end
   end
+  local handle = function(bundles)
+    local done = {}
+    return function()
+      for idx,bundle in ipairs(bundles) do
+        local result = requestData("updateSelectedFilters", bundle.id, nil, { id = bundle.id, isSelected = bundle.selected })
+        if(result ~= nil) then
+          table.insert(done, bundle)
+        end
+      end
+      if(#done == #bundles) then
+        return true, nil
+      end
+      return false, nil
+    end
+  end
+  local onComplete = function(result)
+    requestFoodListUpdate()
+  end
+  addRequest(handle(bundledSelections), onComplete)
 end
 
 function changeSelectedMethods(methods)
@@ -808,6 +833,8 @@ function requestFoodSelect(id, methods)
     return
   end
   widget.setText("filterByName", "")
+  widget.setChecked("filterByHasIngredients", false)
+  filters.ingredientsAvailable = false
   requestFoodListUpdate()
 end
 

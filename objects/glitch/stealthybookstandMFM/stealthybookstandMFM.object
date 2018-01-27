@@ -6,6 +6,7 @@
   "category" : "storage",
   "objectType" : "container",
   "tooltipKind" : "container",
+  "printable" : false,
   "description" : "This book has a secret compartment.",
   "shortdescription" : "Stealthy Book Stand",
   "race" : "glitch",

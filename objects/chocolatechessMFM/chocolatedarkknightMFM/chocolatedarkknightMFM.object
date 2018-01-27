@@ -4,6 +4,7 @@
   "rarity" : "Common",
   "price" : 5.13,
   "category" : "decorative",
+  "printable" : false,
   "description" : "The Knight; a chess piece made of dark chocolate. If the knight can jump over pieces, I can too!",
   "shortdescription" : "Chocolate - Dark Knight",
   "race" : "generic",

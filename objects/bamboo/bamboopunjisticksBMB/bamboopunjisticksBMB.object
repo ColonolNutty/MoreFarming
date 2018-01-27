@@ -4,6 +4,7 @@
   "rarity" : "Common",
   "price" : 202.0,
   "category" : "trap",
+  "printable" : false,
   "description" : "Sharp, spiky bamboo sticks. Don't fall on them.",
   "shortdescription" : "Bamboo spikes.",
   "race" : "generic",

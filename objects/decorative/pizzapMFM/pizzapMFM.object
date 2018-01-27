@@ -4,6 +4,7 @@
   "rarity" : "Uncommon",
   "price" : 868.99,
   "category" : "decorative",
+  "printable" : false,
   "description" : "(BAKE):-} A large pizzap. It's good if you can get past the metallic aftertaste!",
   "shortdescription" : "Pizzap",
   "race" : "generic",

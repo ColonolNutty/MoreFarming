@@ -4,6 +4,7 @@
   "rarity" : "Common",
   "price" : 30.5,
   "category" : "decorative",
+  "printable" : false,
   "description" : "A chocolate statue resembling a Glitch. It's not sentient.",
   "shortdescription" : "Chocolate Statue - Glitch",
   "race" : "generic",

@@ -4,6 +4,7 @@
   "rarity" : "Common",
   "price" : 30.5,
   "category" : "decorative",
+  "printable" : false,
   "description" : "A chocolate statue resembling an Apex. A perfect likeness.",
   "shortdescription" : "Chocolate Statue - Apex",
   "race" : "generic",

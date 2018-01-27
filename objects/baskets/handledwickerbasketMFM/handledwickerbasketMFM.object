@@ -6,6 +6,7 @@
   "category" : "storage",
   "objectType" : "container",
   "tooltipKind" : "container",
+  "printable" : false,
   "description" : "A small wicker basket with a handle.",
   "shortdescription" : "Wicker Basket (Handled)",
   "race" : "generic",

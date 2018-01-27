@@ -5,6 +5,7 @@
   "price" : 316.73,
   "category" : "Novakid Cookware",
   "objectType" : "container",
+  "printable" : false,
   "description" : "Blends with pressured steam!",
   "shortdescription" : "^orange;Novakid Blender (Blend)^white;",
   "race" : "generic",

@@ -5,6 +5,7 @@
   "price" : 272.72,
   "category" : "Novakid Cookware",
   "objectType" : "container",
+  "printable" : false,
   "description" : "Purifies water, whistles with encouragement!",
   "shortdescription" : "^orange;Novakid Kettle (Purify)^white;",
   "race" : "generic",

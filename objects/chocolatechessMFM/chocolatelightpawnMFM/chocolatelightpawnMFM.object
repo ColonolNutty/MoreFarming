@@ -4,6 +4,7 @@
   "rarity" : "Common",
   "price" : 10.05,
   "category" : "decorative",
+  "printable" : false,
   "description" : "The Pawn; a chess piece made of white chocolate. You're the most important piece to me!",
   "shortdescription" : "Chocolate - Light Pawn",
   "race" : "generic",

@@ -4,6 +4,7 @@
   "rarity" : "Uncommon",
   "price" : 1192.99,
   "category" : "decorative",
+  "printable" : false,
   "description" : "(BAKE):-} A large pinana. It's like a sweet pizza.",
   "shortdescription" : "Pinana",
   "race" : "generic",

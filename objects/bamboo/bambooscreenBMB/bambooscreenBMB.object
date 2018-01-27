@@ -4,6 +4,7 @@
   "rarity" : "Common",
   "price" : 402.0,
   "category" : "decorative",
+  "printable" : false,
   "description" : "A bamboo dressing screen, for the modest Floran?",
   "shortdescription" : "Bamboo Dressing Screen",
   "race" : "floran",

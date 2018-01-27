@@ -4,6 +4,7 @@
   "rarity" : "Common",
   "price" : 30.5,
   "category" : "decorative",
+  "printable" : false,
   "description" : "A chocolate statue resembling a Hylotl. It has the Innsmouth Look.",
   "shortdescription" : "Chocolate Statue - Hylotl",
   "race" : "generic",

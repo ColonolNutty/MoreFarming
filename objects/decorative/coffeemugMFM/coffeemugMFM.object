@@ -3,6 +3,7 @@
   "colonyTags" : [ "cooking" ],
   "rarity" : "Common",
   "price" : 4.2,
+  "printable" : false,
   "description" : "A steaming cup of coffee.",
   "shortdescription" : "Coffee Mug",
   "race" : "generic",

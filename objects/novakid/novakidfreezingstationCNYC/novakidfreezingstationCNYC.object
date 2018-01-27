@@ -6,6 +6,7 @@
   "category" : "Refridgerated Nanokid Cookware",
   "objectType" : "container",
   "tooltipKind" : "container",
+  "printable" : false,
   "description" : "Freezes food and outlaws, used for storage or making cold treats!",
   "shortdescription" : "^orange;Novakid Freezer (Freeze)^white;",
   "race" : "generic",

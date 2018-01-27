@@ -5,6 +5,7 @@
   "price" : 63.15,
   "category" : "Novakid Cookware",
   "objectType" : "container",
+  "printable" : false,
   "description" : "Ideally not for playing five finger fillet..",
   "shortdescription" : "^orange;Novakid Chopboard (Chop)^white;",
   "race" : "generic",

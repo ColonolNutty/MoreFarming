@@ -5,6 +5,7 @@
   "price" : 12.63,
   "category" : "door",
   "tooltipKind" : "door",
+  "printable" : false,
   "description" : "A door made of chocolate.",
   "shortdescription" : "Chocolate Door",
   "race" : "generic",

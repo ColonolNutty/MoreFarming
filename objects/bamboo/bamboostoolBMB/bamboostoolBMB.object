@@ -5,6 +5,7 @@
   "price" : 202.0,
   "category" : "furniture",
   "objectType" : "loungeable",
+  "printable" : false,
   "description" : "A tiny bamboo stool.",
   "shortdescription" : "Bamboo Stool",
   "race" : "floran",

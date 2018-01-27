@@ -6,6 +6,7 @@
   "category" : "storage",
   "objectType" : "container",
   "tooltipKind" : "container",
+  "printable" : false,
   "description" : "Hey look at this book, 50 Shades of Green. It's about aliens.",
   "shortdescription" : "Bamboo Bookcase",
   "race" : "generic",

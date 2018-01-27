@@ -4,6 +4,7 @@
   "rarity" : "Common",
   "price" : 5.15,
   "category" : "decorative",
+  "printable" : false,
   "description" : "The Queen; a chess piece made of dark chocolate. A very powerful piece on the board.",
   "shortdescription" : "Chocolate - Dark Queen",
   "race" : "generic",

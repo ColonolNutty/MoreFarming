@@ -4,6 +4,7 @@
   "rarity" : "Common",
   "price" : 5.13,
   "category" : "decorative",
+  "printable" : false,
   "description" : "The Rook; a chess piece made of dark chocolate. I wish I had the power to move sideways!",
   "shortdescription" : "Chocolate - Dark Rook",
   "race" : "generic",

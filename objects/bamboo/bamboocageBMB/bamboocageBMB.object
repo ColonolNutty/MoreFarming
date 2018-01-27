@@ -5,6 +5,7 @@
   "price" : 802.0,
   "category" : "decorative",
   "objectType" : "loungeable",
+  "printable" : false,
   "description" : "A cage. Looks like there was an angry rat in it.",
   "shortdescription" : "Bamboo Cage",
   "race" : "generic",

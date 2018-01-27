@@ -4,6 +4,7 @@
   "rarity" : "Common",
   "price" : 20.1,
   "category" : "decorative",
+  "printable" : false,
   "description" : "A bathtub made of white chocolate.",
   "shortdescription" : "Chocolate Bathtub",
   "race" : "generic",

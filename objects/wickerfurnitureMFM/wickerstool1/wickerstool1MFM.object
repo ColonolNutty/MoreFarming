@@ -5,6 +5,7 @@
   "price" : 502.5,
   "category" : "furniture",
   "objectType" : "loungeable",
+  "printable" : false,
   "description" : "A small wicker stool.",
   "shortdescription" : "Wicker Stool",
   "race" : "generic",

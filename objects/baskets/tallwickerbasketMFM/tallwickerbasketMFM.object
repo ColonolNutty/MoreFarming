@@ -6,6 +6,7 @@
   "category" : "storage",
   "objectType" : "container",
   "tooltipKind" : "container",
+  "printable" : false,
   "description" : "A wicker basket.",
   "shortdescription" : "Wicker Basket (Tall)",
   "race" : "generic",

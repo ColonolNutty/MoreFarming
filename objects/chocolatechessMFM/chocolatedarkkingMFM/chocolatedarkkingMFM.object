@@ -4,6 +4,7 @@
   "rarity" : "Common",
   "price" : 5.15,
   "category" : "decorative",
+  "printable" : false,
   "description" : "The King; a chess piece made of dark chocolate. Checkmate.",
   "shortdescription" : "Chocolate - Dark King",
   "race" : "generic",

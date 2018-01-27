@@ -4,6 +4,7 @@
   "rarity" : "Common",
   "price" : 10.05,
   "category" : "decorative",
+  "printable" : false,
   "description" : "The Bishop; a chess piece made of white chocolate. Watch your diagonals!",
   "shortdescription" : "Chocolate - Light Bishop",
   "race" : "generic",

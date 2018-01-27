@@ -4,6 +4,7 @@
   "rarity" : "Common",
   "price" : 30.5,
   "category" : "decorative",
+  "printable" : false,
   "description" : "A chocolate statue resembling a Human. Check out that hair.",
   "shortdescription" : "Chocolate Statue - Human",
   "race" : "generic",

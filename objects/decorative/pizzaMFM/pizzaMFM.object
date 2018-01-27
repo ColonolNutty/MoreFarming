@@ -4,6 +4,7 @@
   "rarity" : "Uncommon",
   "price" : 624.45,
   "category" : "decorative",
+  "printable" : false,
   "description" : "(BAKE):-} A large pizza, perfect for a party.",
   "shortdescription" : "Pizza",
   "race" : "generic",

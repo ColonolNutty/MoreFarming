@@ -5,6 +5,7 @@
   "price" : 65.53,
   "category" : "decorative",
   "objectType" : "loungeable",
+  "printable" : false,
   "description" : "A chocolate fountain made of chocolate! Brilliant!",
   "shortdescription" : "Chocolate Fountain",
   "race" : "generic",

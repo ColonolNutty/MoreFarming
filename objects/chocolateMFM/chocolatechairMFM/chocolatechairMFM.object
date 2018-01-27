@@ -5,6 +5,7 @@
   "price" : 12.63,
   "category" : "furniture",
   "objectType" : "loungeable",
+  "printable" : false,
   "description" : "A chair made of chocolate.",
   "shortdescription" : "Chocolate Chair",
   "race" : "generic",

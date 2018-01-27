@@ -6,6 +6,7 @@
   "category" : "storage",
   "objectType" : "container",
   "tooltipKind" : "container",
+  "printable" : false,
   "description" : "A strange looking egg, it looks cracked.",
   "shortdescription" : "Egg Container - Red",
   "race" : "generic",

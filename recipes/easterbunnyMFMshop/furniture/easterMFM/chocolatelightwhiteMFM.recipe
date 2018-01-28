@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "chocolateeggMFM", "count" : 40 }
   ],
-  "output" : { "item" : "chocolatelightMFM", "count" : 1 },
+  "output" : { "item" : "chocolatelightwhiteMFM", "count" : 1 },
   "groups" : [ "easterbunnyMFMgoods" ]
 }

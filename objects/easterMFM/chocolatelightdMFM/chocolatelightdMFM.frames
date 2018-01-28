@@ -1,0 +1,13 @@
+{
+  "frameGrid" : {
+    "size" : [8, 8],
+    "dimensions" : [5, 1],
+    "names" : [
+      [ "plain.top", "plain.left", "plain.bottom", "plain.right", "plain.background" ]
+    ]
+  },
+
+  "aliases" : {
+    "default" : "plain.top"
+  }
+}

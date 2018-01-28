@@ -11,8 +11,8 @@
 
   "aliases" : {
     "default.default" : "plain.off",
-    "plain" : "plain.off",
-    "white" : "white.off",
-    "dark" : "dark.off"
+    "plain.default" : "plain.off",
+    "white.default" : "white.off",
+    "dark.default" : "dark.off"
   }
 }

@@ -1,12 +1,12 @@
 {
-  "objectName" : "chocolatelightMFM",
+  "objectName" : "chocolatelightdplainMFM",
   "colonyTags" : [ "chocolate", "light" ],
   "rarity" : "Uncommon",
   "price" : 300.0,
   "category" : "light",
   "printable" : false,
-  "description" : "Glowing Chocolate",
-  "shortdescription" : "Chocolate Light",
+  "description" : "Glowing chocolate, makes a nice looking light. I can direct it whereever I want",
+  "shortdescription" : "Chocolate Light Directional",
   "race" : "generic",
   "apexDescription" : "It's a wonder how this chocolate glows. It is very calming however.",
   "avianDescription" : "The chocolate inside seems to glow brightly.",
@@ -15,10 +15,10 @@
   "humanDescription" : "I wonder what it tastes like...",
   "hylotlDescription" : "I don't think this is actually chocolate... I would rather not touch it.",
   "novakidDescription" : "A strange light.",
-  "inventoryIcon" : "chocolatelightMFMicon.png",
+  "inventoryIcon" : "chocolatelightdMFMicon.png:plain",
   "orientations" : [
     {
-      "image" : "chocolatelightMFM.png:top",
+      "image" : "chocolatelightdMFM.png:plain.top",
       "imagePosition" : [ 0, 0 ],
       "direction" : "right",
       "spaceScan" : 0.1,
@@ -27,7 +27,7 @@
       "beamAngle" : 270
     },
     {
-      "image" : "chocolatelightMFM.png:left",
+      "image" : "chocolatelightdMFM.png:plain.left",
       "imagePosition" : [ 0, 0 ],
       "direction" : "right",
       "spaceScan" : 0.1,
@@ -36,7 +36,7 @@
       "beamAngle" : 0
     },
     {
-      "image" : "chocolatelightMFM.png:right",
+      "image" : "chocolatelightdMFM.png:plain.right",
       "imagePosition" : [ 0, 0 ],
       "direction" : "right",
       "spaceScan" : 0.1,
@@ -45,7 +45,7 @@
       "beamAngle" : 180
     },
     {
-      "image" : "chocolatelightMFM.png:bottom",
+      "image" : "chocolatelightdMFM.png:plain.bottom",
       "imagePosition" : [ 0, 0 ],
       "direction" : "right",
       "spaceScan" : 0.1,
@@ -54,7 +54,7 @@
       "beamAngle" : 90
     },
     {
-      "image" : "chocolatelightMFM.png:background",
+      "image" : "chocolatelightdMFM.png:plain.background",
       "imagePosition" : [ 0, 0 ],
       "direction" : "right",
       "spaceScan" : 0.1,

@@ -7,14 +7,14 @@
   "objectType" : "container",
   "tooltipKind" : "container",
   "printable" : false,
-  "description" : "A chest made completely of chocolate! How doesn't this melt?",
+  "description" : "A chest made completely of white chocolate! How doesn't this melt?",
   "shortdescription" : "Chocolate Chest - White",
   "race" : "generic",
   "avianDescription" : "This could hold so many coffee beans!",
   "floranDescription" : "Sssweet box.",
   "glitchDescription" : "Worried. Is this an efficient containment?",
   "hylotlDescription" : "This is sure to leave grime on my equipment.",
-  "inventoryIcon" : "chocolatechestwhiteMFMicon.png",
+  "inventoryIcon" : "chocolatechestMFMicon.png:white",
   "largeImage" : "chocolatechestMFM.png:white.default",
   "orientations" : [
     {

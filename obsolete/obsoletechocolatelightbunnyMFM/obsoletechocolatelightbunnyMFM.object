@@ -1,0 +1,22 @@
+{
+  "objectName" : "chocolatelightbunnyMFM",
+  "colonyTags" : [ "easter", "chocolate", "pretty" ],
+  "rarity" : "Uncommon",
+  "price" : 1000.0,
+  "category" : "decorative",
+  "printable" : false,
+  "description" : "An old and moldy statue of a bunny made of white chocolate. Blegh!",
+  "shortdescription" : "Old Light Bunny Statue",
+  "race" : "generic",
+  "floranDescription" : "Isss moldy!",
+  "glitchDescription" : "Disappointed. It is moldy now.",
+  "inventoryIcon" : "obsoletechocolatelightbunnyMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "obsoletechocolatelightbunnyMFM.png:<color>",
+      "imagePosition" : [ -8, 0 ],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+]
+}

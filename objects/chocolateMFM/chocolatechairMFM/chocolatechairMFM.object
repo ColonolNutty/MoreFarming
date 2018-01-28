@@ -24,8 +24,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "sitPosition" : [ 2, 20 ],
-  "sitCoverImage" : "/objects/chocolateMFM/chocolatechairMFM/chocolatechairMFMcover.png",
   "sitFlipDirection" : false
 }

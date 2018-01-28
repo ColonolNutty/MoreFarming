@@ -1,11 +1,11 @@
 {
-  "itemName" : "chocolatebunnyMFM",
+  "itemName" : "chocolatebunnydarkMFM",
   "rarity" : "Common",
   "price" : 503.15,
   "category" : "food",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} A cute little bunny made of chocolate. Don't you just want to bite it's head off?",
-  "shortdescription" : "Chocolate Bunny",
+  "description" : "(PREP):-} A cute little bunny made of chocolate. Don't you just want to microwave it?",
+  "shortdescription" : "Chocolate Bunny - Dark",
   "foodValue" : 59.35,
   "effects" : [[
     {
@@ -38,6 +38,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "chocolatebunnyMFM.png",
+  "inventoryIcon" : "chocolatebunnydarkMFM.png",
   "handPosition" : [ 8, 10 ]
 }

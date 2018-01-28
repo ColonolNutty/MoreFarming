@@ -2,7 +2,7 @@
   "objectName" : "dungrootMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 0.4,
+  "price" : 1.0,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",

@@ -1,9 +1,9 @@
 {
   "itemName" : "cupcakepaperMFM",
   "rarity" : "Common",
-  "price" : 0.53,
+  "price" : 5,
   "category" : "craftingMaterial",
-  "description" : "A bit of paper.",
+  "description" : "Paper used for making cupcakes.",
   "shortdescription" : "Cupcake Paper",
   "inventoryIcon" : "cupcakepaperMFM.png",
   "itemTags" : [ "reagent" ]

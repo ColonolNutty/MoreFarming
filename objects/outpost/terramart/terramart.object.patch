@@ -97,6 +97,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "corn" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "cucumberMSM" }
   },
   {
@@ -423,6 +428,11 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : [ "coffeeseed", 3 ] }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : [ "cornseed", 3 ] }
   },
   {
     "op" : "add",

@@ -5,45 +5,45 @@
   "price" : 0.0,
   "category" : "other",
   "printable" : false,
-  "description" : "This shop offers various Easter related items.",
-  "shortdescription" : "Easter Bunny Shop",
+  "description" : "This shop used to offer various Easter related items.",
+  "shortdescription" : "Old Bunny Shop",
   "race" : "generic",
-  "inventoryIcon" : "easterbunnyMFMshopicon.png",
+  "inventoryIcon" : "obsoleteeasterbunnyMFMshopicon.png",
   "orientations" : [
     {
-      "image" : "easterbunnyMFMshop.png:default",
+      "image" : "obsoleteeasterbunnyMFMshop.png:default",
       "imagePosition" : [ 0, 0 ],
       "direction" : "right",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "animationPosition" : [ 0, 0 ],
       "animationParts" : {
-        "sign" : "easterbunnyMFMshopsign.png",
-        "base" : "easterbunnyMFMshop.png"
+        "sign" : "obsoleteeasterbunnyMFMshopsign.png",
+        "base" : "obsoleteeasterbunnyMFMshop.png"
       }
     }
 ],
-  "scripts" : [ "easterBunnyMFMshop.lua" ],
+  "scripts" : [ "obsoleteeasterBunnyMFMshop.lua" ],
   "scriptDelta" : 1,
   "lightColor" : [ 89, 140, 179 ],
-  "animation" : "easterbunnyMFMshop.animation",
+  "animation" : "obsoleteeasterbunnyMFMshop.animation",
   "interactAction" : "OpenCraftingInterface",
   "easterBunnySpecies" : "human",
   "lightPosition" : [ 0, 7 ],
   "easterBunnyType" : "easterbunnyMFM",
   "interactData" : {
-    "filter" : [ "easterbunnyMFMgoods" ],
+    "filter" : [ "none" ],
     "config" : "/interface/windowconfig/craftingmerchant.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
         "subtitle" : "If you've got the eggs, I've got the goods!",
         "icon" : { "file" : "/interface/crafting/easterbunnyMFMshopicon.png" },
-        "title" : "Easter Bunny Shop"
+        "title" : "Old Bunny Shop"
       }
 }
   },
   "animationParts" : {
-    "sign" : "easterbunnyMFMshopsign.png",
-    "base" : "easterbunnyMFMshop.png"
+    "sign" : "obsoleteeasterbunnyMFMshopsign.png",
+    "base" : "obsoleteeasterbunnyMFMshop.png"
   }
 }

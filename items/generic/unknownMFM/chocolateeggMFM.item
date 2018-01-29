@@ -6,6 +6,6 @@
   "description" : "A chocolate egg. It looks delicious but I should hold onto it.",
   "shortdescription" : "Chocolate Egg",
   "inventoryIcon" : "chocolateeggMFM.png",
-  "learnBlueprintsOnPickup" : [ "easterbunnyMFMshop" ],
+  "learnBlueprintsOnPickup" : [ "easterbunnyshopMFM" ],
   "pickupQuestTemplates" : [ "easterbunnyMFMquest" ]
 }

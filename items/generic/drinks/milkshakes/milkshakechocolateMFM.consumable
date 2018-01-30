@@ -2,7 +2,7 @@
   "itemName" : "milkshakechocolateMFM",
   "rarity" : "Common",
   "price" : 101.5,
-  "category" : "preparedFood",
+  "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A milkshake made with chocolate. Yum!",
   "shortdescription" : "Milkshake - Chocolate",

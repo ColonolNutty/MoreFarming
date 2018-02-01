@@ -37,5 +37,5 @@
     }
   ],
   "maxImmersion" : 0.1,
-  "lightColor" : [ 175, 175, 150 ]
+  "lightColor" : [ 100, 175, 200 ]
 }

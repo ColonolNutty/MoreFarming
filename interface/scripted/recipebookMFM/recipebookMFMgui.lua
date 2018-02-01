@@ -46,6 +46,7 @@ function init()
   completedInitialSetup = false
   enableDebug = nil
   currentTime = 0
+  table.insert(filters.recipeFilters, hasRecipesFilter)
   table.insert(filters.recipeFilters, nameMatchesFilter)
   table.insert(filters.recipeFilters, inputNameMatchesFilter)
   table.insert(filters.recipeFilters, hasAvailableIngredients)
@@ -313,7 +314,12 @@ local breadCrumb = {}
 
 ------------------------- Method Filters ------------------------
 
+function hasRecipesFilter(item)
+  return not UtilsCN.isEmpty(item.recipes)
+end
+
 function nameMatchesFilter(item)
+  logDebug("Filtering name")
   if(filters.nameFilter == nil) then
     return true;
   end

@@ -41,6 +41,10 @@ local completedInitialSetup = false
 -- updateSelectedId
 ---
 
+local recipeFilters = { 
+  groupFilters = { }
+}
+
 function init()
   DebugUtilsCN.init("[CNRB]");
   message.setHandler("getDataStore", getDataStore);
@@ -48,6 +52,8 @@ function init()
   message.setHandler("updateSelectedFilters", updateSelectedFilters);
   message.setHandler("storeIngredient", storeIngredient);
   message.setHandler("updateSelectedId", updateSelectedId);
+  table.insert(recipeFilters.groupFilters, doesNotContainNoRecipeBookfilter)
+  table.insert(recipeFilters.groupFilters, hasFriendlyNamefilter)
   
   doInitialSetup();
 end
@@ -108,10 +114,6 @@ function initializeDataStore()
   storage.rbDataStore.sortedMethodFilters = UtilsCN.sortByValueNameId(storage.rbDataStore.methodFilters)
 end
 
-local recipeFilters = { 
-  groupFilters = { doesNotContainNoRecipeBookfilter, hasFriendlyNamefilter }
-}
-
 function doesNotContainNoRecipeBookfilter(recipeGroup)
   return not string.match(recipeGroup, "NoRecipeBook");
 end
@@ -146,6 +148,7 @@ function filterRecipes(recipes)
     for idx, group in ipairs(recipe.groups) do
       DebugUtilsCN.logDebug("Looking at recipe group: " .. group)
       if(passesAllFilters(recipeFilters.groupFilters, group)) then
+        DebugUtilsCN.logDebug("Recipe group passes filters: " .. group)
         -- Include recipe if at least one group passes all filters
         includeRecipe = true
         -- If the group matches the filters, there must be a friendly name for it, set it

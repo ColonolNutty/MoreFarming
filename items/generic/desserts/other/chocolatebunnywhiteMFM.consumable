@@ -39,5 +39,6 @@
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "chocolatebunnywhiteMFM.png",
-  "handPosition" : [ 8, 10 ]
+  "handPosition" : [ 8, 10 ],
+  "collectablesOnPickup" : { "mfm_desserts" : "chocolatebunnywhiteMFM" }
 }

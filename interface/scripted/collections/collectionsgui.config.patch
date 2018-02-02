@@ -38,40 +38,6 @@
   ],
   // MFM Collections
   [
-    {
-      "op": "add",
-      "path": "/gui/collectionTabs/buttons/-",
-      "value": {
-        "selected": false,
-        "position": [ 4, 24 ],
-        "baseImage": "/interface/scripted/collections/tab_mfm_deselect.png",
-        "baseImageChecked": "/interface/scripted/collections/tab_mfm_select.png",
-        "pressedOffset": [ 0, 0 ],
-        "data": "customCollectionsMFM"
-      }
-    }
-  ],
-  [
-    {
-      "op": "add",
-      "path": "/gui/collectionTabs/buttons/-",
-      "value": {
-        "visible": false,
-        "selected": false,
-        "data": "customCollectionsMFMVisible"
-      }
-    }
-  ],
-  [
-    {
-      "op": "replace",
-      "path": "/customCollectionsMFM",
-      "value": [
-        "mfm_food"
-      ]
-    }
-  ],
-  [
     { "op" : "test", "path" : "/customCollectionsMFMTitle", "inverse": true },
     {
       "op": "add",
@@ -87,8 +53,38 @@
       "value": []
     }
   ],
+  [
+    {
+      "op": "add",
+      "path": "/gui/collectionTabs/buttons/-",
+      "value": {
+        "selected": false,
+        "position": [ 4, 24 ],
+        "baseImage": "/interface/scripted/collections/tab_mfm_deselect.png",
+        "baseImageChecked": "/interface/scripted/collections/tab_mfm_select.png",
+        "pressedOffset": [ 0, 0 ],
+        "data": "customCollectionsMFM"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/collectionTabs/buttons/-",
+      "value": {
+        "visible": false,
+        "selected": false,
+        "data": "customCollectionsMFMVisible"
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/customCollectionsMFM",
+      "value": [
+        "mfm_desserts"
+      ]
+    }
+  ],
   //Frackin Universe Support
-   [
+  [
     { "op" : "test", "path" : "/customCollectionsFU" },
     {
       "op" : "replace",
@@ -158,9 +154,87 @@
       "value" : [40, 74]
     }
   ],
+  //Old Frackin Universe Support
+  [
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/6" },
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/6/baseImage", "value" : "/interface/scripted/collections/tab_fu_deselect.png" },
+    {
+      "op" : "replace",
+      "path" : "/gui/scrollAreaCustom/rect",
+      "value" : [88, 35, 308, 205]
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/0/position",
+      "value" : [11, 178]
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/1/position",
+      "value" : [40, 178]
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/2/position",
+      "value" : [11, 152]
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/3/position",
+      "value" : [40, 152]
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/4/position",
+      "value" : [11, 126]
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/5/position",
+      "value" : [40, 126]
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/6/position",
+      "value" : [11, 100]
+    }
+  ],
+  [
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/6" },
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/6/baseImage", "value" : "/interface/scripted/collections/tab_fu_deselect.png" },
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/8" },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/8/position",
+      "value" : [40, 100]
+    }
+  ],
+  [
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/6" },
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/6/baseImage", "value" : "/interface/scripted/collections/tab_fu_deselect.png" },
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/9" },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/9/position",
+      "value" : [11, 74]
+    }
+  ],
+  [
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/6" },
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/6/baseImage", "value" : "/interface/scripted/collections/tab_fu_deselect.png" },
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/10" },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/10/position",
+      "value" : [40, 74]
+    }
+  ],
   // Frackin' Universe not loaded, set position properly
   [
     { "op" : "test", "path" : "/customCollectionsFU", "inverse": true },
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/6/baseImage",
+    "value" : "/interface/scripted/collections/tab_fu_deselect.png",
+    "inverse" : true },
     { "op" : "test", "path" : "/gui/collectionTabs/buttons/7" },
     {
       "op" : "replace",

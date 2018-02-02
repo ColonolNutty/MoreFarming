@@ -38,5 +38,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "puddingMFM.png"
+  "inventoryIcon" : "puddingMFM.png",
+  "collectablesOnPickup" : { "mfm_desserts" : "puddingMFM" }
 }

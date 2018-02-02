@@ -18,5 +18,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "chocolatecookieMFM.png"
+  "inventoryIcon" : "chocolatecookieMFM.png",
+  "collectablesOnPickup" : { "mfm_desserts" : "chocolatecookieMFM" }
 }

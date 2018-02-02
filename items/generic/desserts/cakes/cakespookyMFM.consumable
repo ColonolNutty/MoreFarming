@@ -42,5 +42,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "cakespookyMFM.png"
+  "inventoryIcon" : "cakespookyMFM.png",
+  "collectablesOnPickup" : { "mfm_desserts" : "cakespookyMFM" }
 }

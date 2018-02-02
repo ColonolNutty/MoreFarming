@@ -14,5 +14,5 @@
   "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "browniechocolateMFM.png",
   "handPosition" : [ 0, -2 ],
-  "collectablesOnPickup" : { "mfm_food" : "browniechocolateMFM" }
+  "collectablesOnPickup" : { "mfm_desserts" : "browniechocolateMFM" }
 }

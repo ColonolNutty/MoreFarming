@@ -18,5 +18,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "bdaycakesliceMFM.png"
+  "inventoryIcon" : "bdaycakesliceMFM.png",
+  "collectablesOnPickup" : { "mfm_desserts" : "bdaycakesliceMFM" }
 }

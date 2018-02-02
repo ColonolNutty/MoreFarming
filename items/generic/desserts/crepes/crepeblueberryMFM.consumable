@@ -31,5 +31,6 @@
   "rottingMultiplier" : 0.3,
   "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "crepeblueberryMFM.png",
-  "handPosition" : [ 0, -4 ]
+  "handPosition" : [ 0, -4 ],
+  "collectablesOnPickup" : { "mfm_desserts" : "crepeblueberryMFM" }
 }

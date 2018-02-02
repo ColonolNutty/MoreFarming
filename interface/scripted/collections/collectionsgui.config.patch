@@ -1,0 +1,171 @@
+[
+  //Custom Collections UI
+  [
+    { "op" : "test", "path" : "/gui/scrollAreaCustom", "inverse": true },
+    {
+      "op": "add",
+      "path": "/gui/scrollAreaCustom",
+      "value": {
+        "type": "scrollArea",
+        "rect": [ 38, 35, 256, 205 ],
+        "children": {
+          "customCollectionList": {
+            "type": "list",
+            "//callback": "selectCustomCollection",
+            "schema": {
+              "spacing": [ 4, 2 ],
+              "memberSize": [ 204, 11 ],
+              "listTemplate": {
+                "background": {
+                  "type": "image",
+                  "file": "/interface/scripted/collections/tab_customcollections_bg.png",
+                  "position": [ 0, 1 ],
+                  "zlevel": -1
+                },
+                "collectionName": {
+                  "type": "label",
+                  "position": [ 102, 1 ],
+                  "hAnchor": "mid",
+                  "width": 198,
+                  "value": "Replace Me"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  // MFM Collections
+  [
+    {
+      "op": "add",
+      "path": "/gui/collectionTabs/buttons/-",
+      "value": {
+        "selected": false,
+        "position": [ 4, 24 ],
+        "baseImage": "/interface/scripted/collections/tab_mfm_deselect.png",
+        "baseImageChecked": "/interface/scripted/collections/tab_mfm_select.png",
+        "pressedOffset": [ 0, 0 ],
+        "data": "customCollectionsMFM"
+      }
+    }
+  ],
+  [
+    {
+      "op": "add",
+      "path": "/gui/collectionTabs/buttons/-",
+      "value": {
+        "visible": false,
+        "selected": false,
+        "data": "customCollectionsMFMVisible"
+      }
+    }
+  ],
+  [
+    {
+      "op": "replace",
+      "path": "/customCollectionsMFM",
+      "value": [
+        "mfm_food"
+      ]
+    }
+  ],
+  [
+    { "op" : "test", "path" : "/customCollectionsMFMTitle", "inverse": true },
+    {
+      "op": "add",
+      "path": "/customCollectionsMFMTitle",
+      "value": "Custom MFM Collections"
+    }
+  ],
+  [
+    { "op" : "test", "path" : "/customCollectionsMFM", "inverse": true },
+    {
+      "op": "add",
+      "path": "/customCollectionsMFM",
+      "value": []
+    }
+  ],
+  //Frackin Universe Support
+   [
+    { "op" : "test", "path" : "/customCollectionsFU" },
+    {
+      "op" : "replace",
+      "path" : "/gui/scrollAreaCustom/rect",
+      "value" : [88, 35, 308, 205]
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/0/position",
+      "value" : [11, 178]
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/1/position",
+      "value" : [40, 178]
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/2/position",
+      "value" : [11, 152]
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/3/position",
+      "value" : [40, 152]
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/4/position",
+      "value" : [11, 126]
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/5/position",
+      "value" : [40, 126]
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/6/position",
+      "value" : [11, 100]
+    }
+  ],
+  [
+    { "op" : "test", "path" : "/customCollectionsFU" },
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/8" },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/8/position",
+      "value" : [40, 100]
+    }
+  ],
+  [
+    { "op" : "test", "path" : "/customCollectionsFU" },
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/9" },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/9/position",
+      "value" : [11, 74]
+    }
+  ],
+  [
+    { "op" : "test", "path" : "/customCollectionsFU" },
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/10" },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/10/position",
+      "value" : [40, 74]
+    }
+  ],
+  // Frackin' Universe not loaded, set position properly
+  [
+    { "op" : "test", "path" : "/customCollectionsFU", "inverse": true },
+    { "op" : "test", "path" : "/gui/collectionTabs/buttons/7" },
+    {
+      "op" : "replace",
+      "path" : "/gui/collectionTabs/buttons/7/position",
+      "value" : [4, 24]
+    }
+  ]
+]

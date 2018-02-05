@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "choppedonionMFM", "count" : 1 },
+    { "item" : "cookedalienmeat", "count" : 2 },
+    { "item" : "groundgingerMFM", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 4 }
+  ],
+  "output" : { "item" : "brothphoMFM", "count" : 3 },
+  "groups" : [ "boilingMFM" ]
+}

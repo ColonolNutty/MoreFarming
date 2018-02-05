@@ -2,7 +2,7 @@
   "itemName" : "browniechocolateMFM",
   "rarity" : "Common",
   "price" : 71.24,
-  "category" : "food",
+  "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A brownie made of delicious dark chocolate.",
   "shortdescription" : "Brownie - Chocolate",

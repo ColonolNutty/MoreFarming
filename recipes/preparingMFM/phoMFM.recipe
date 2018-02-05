@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "boiledrice", "count" : 2 },
+    { "item" : "cookedalienmeat", "count" : 1 },
+    { "item" : "brothphoMFM", "count" : 1 },
+    { "item" : "choppedlimeMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "phoMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

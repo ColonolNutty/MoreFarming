@@ -22,7 +22,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
   "sitOrientation" : "lay",
   "sitPosition" : [ -10, 14.5 ],

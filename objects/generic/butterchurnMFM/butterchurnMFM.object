@@ -22,7 +22,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "recipeGroup" : "churningMFM",
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],

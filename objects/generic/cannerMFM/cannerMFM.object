@@ -26,7 +26,7 @@
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-],
+  ],
   "recipeGroup" : "canningMFM",
   "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],

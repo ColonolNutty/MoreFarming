@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/scripts",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/scripts",
-      "value" : [ ]
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/autoCloseCooldown",
       "inverse" : true
     },
@@ -50,49 +38,25 @@
   [
     {
       "op" : "test",
-      "path" : "/recipeGroup",
+      "path" : "/frameCooldown",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/recipeGroup",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/uiConfig",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/uiConfig",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/openSounds",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/openSounds",
-      "value" : [ ]
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/scriptDelta",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/scriptDelta",
+      "path" : "/frameCooldown",
       "value" : 1
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/interactAction",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/interactAction",
+      "value" : ""
     }
   ],
   [
@@ -110,24 +74,48 @@
   [
     {
       "op" : "test",
-      "path" : "/frameCooldown",
+      "path" : "/maximumLiquidLevel",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/frameCooldown",
-      "value" : 1
+      "path" : "/maximumLiquidLevel",
+      "value" : 1.0
     }
   ],
   [
     {
       "op" : "test",
-      "path" : "/interactAction",
+      "path" : "/objectType",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/interactAction",
+      "path" : "/objectType",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/openSounds",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/openSounds",
+      "value" : [ ]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/outputConfig",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/outputConfig",
       "value" : ""
     }
   ],
@@ -146,25 +134,37 @@
   [
     {
       "op" : "test",
-      "path" : "/outputConfig",
+      "path" : "/recipeGroup",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/outputConfig",
+      "path" : "/recipeGroup",
       "value" : ""
     }
   ],
   [
     {
       "op" : "test",
-      "path" : "/objectType",
+      "path" : "/scriptDelta",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/objectType",
-      "value" : ""
+      "path" : "/scriptDelta",
+      "value" : 1
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/scripts",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/scripts",
+      "value" : [ ]
     }
   ],
   [
@@ -182,21 +182,16 @@
   [
     {
       "op" : "test",
-      "path" : "/maximumLiquidLevel",
+      "path" : "/uiConfig",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/maximumLiquidLevel",
-      "value" : 1.0
+      "path" : "/uiConfig",
+      "value" : ""
     }
   ],
   [
-    {
-      "op" : "add",
-      "path" : "/scripts/-",
-      "value" : "/recipeCrafterMFM/recipeCrafterMFM.lua"
-    },
     {
       "op" : "replace",
       "path" : "/autoCloseCooldown",
@@ -214,35 +209,6 @@
     },
     {
       "op" : "replace",
-      "path" : "/recipeGroup",
-      "value" : "bakingMFM"
-    },
-    {
-      "op" : "replace",
-      "path" : "/uiConfig",
-      "value" : "/interface/objectcrafting/recipeCrafterMFM.config"
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Microwave Oven (Bake)"
-    },
-    {
-      "op" : "add",
-      "path" : "/openSounds/-",
-      "value" : "/sfx/objects/campfire_use.ogg"
-    },
-    {
-      "op" : "replace",
-      "path" : "/scriptDelta",
-      "value" : 1
-    },
-    {
-      "op" : "remove",
-      "path" : "/interactData"
-    },
-    {
-      "op" : "replace",
       "path" : "/frameCooldown",
       "value" : 5
     },
@@ -251,9 +217,23 @@
       "path" : "/interactAction"
     },
     {
+      "op" : "remove",
+      "path" : "/interactData"
+    },
+    {
       "op" : "replace",
-      "path" : "/price",
-      "value" : 187.58
+      "path" : "/maximumLiquidLevel",
+      "value" : 1.0
+    },
+    {
+      "op" : "replace",
+      "path" : "/objectType",
+      "value" : "container"
+    },
+    {
+      "op" : "add",
+      "path" : "/openSounds/-",
+      "value" : "/sfx/objects/campfire_use.ogg"
     },
     {
       "op" : "replace",
@@ -262,8 +242,28 @@
     },
     {
       "op" : "replace",
-      "path" : "/objectType",
-      "value" : "container"
+      "path" : "/price",
+      "value" : 187.58
+    },
+    {
+      "op" : "replace",
+      "path" : "/recipeGroup",
+      "value" : "bakingMFM"
+    },
+    {
+      "op" : "replace",
+      "path" : "/scriptDelta",
+      "value" : 1
+    },
+    {
+      "op" : "add",
+      "path" : "/scripts/-",
+      "value" : "/recipeCrafterMFM/recipeCrafterMFM.lua"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Microwave Oven (Bake)"
     },
     {
       "op" : "replace",
@@ -272,8 +272,8 @@
     },
     {
       "op" : "replace",
-      "path" : "/maximumLiquidLevel",
-      "value" : 1.0
+      "path" : "/uiConfig",
+      "value" : "/interface/objectcrafting/recipeCrafterMFM.config"
     }
   ]
 ]

@@ -25,7 +25,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "sitOrientation" : "lay",
   "sitPosition" : [ -4, 22 ],
   "sitStatusEffects" : [ "nude" ],

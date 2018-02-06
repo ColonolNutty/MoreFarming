@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,24 +25,33 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Pancakes - Pearlpea"
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
       "value" : "(FRY):-} They look like pancakes, but they've got an aftertaste of mushy peas."
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 39.8
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 254.49
     },
     {
       "op" : "replace",
@@ -89,6 +74,21 @@
           "duration" : 72
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 39.8
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 254.49
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Pancakes - Pearlpea"
     }
   ]
 ]

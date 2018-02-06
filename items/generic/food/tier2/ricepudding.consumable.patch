@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,24 +25,33 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Pudding - Rice"
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BOIL):-} A sweet, warm bowl of rice pudding."
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 41.98
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 255.61
     },
     {
       "op" : "replace",
@@ -97,6 +82,21 @@
           "duration" : 24
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 41.98
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 255.61
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Pudding - Rice"
     }
   ]
 ]

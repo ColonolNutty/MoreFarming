@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,24 +25,33 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Cake - Plain"
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
       "value" : "(PREP):-} It's a delicious cake!"
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 143.76
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 541.08
     },
     {
       "op" : "replace",
@@ -101,6 +86,21 @@
           "duration" : 36
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 143.76
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 541.08
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Cake - Plain"
     }
   ]
 ]

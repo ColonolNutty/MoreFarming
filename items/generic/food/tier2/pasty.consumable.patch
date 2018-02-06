@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,19 +25,33 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} A traditional Earthling pastry meant for snacking on when underground."
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 83.75
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 299.06
     },
     {
       "op" : "replace",
@@ -84,6 +74,16 @@
           "duration" : 12
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 83.75
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 299.06
     }
   ]
 ]

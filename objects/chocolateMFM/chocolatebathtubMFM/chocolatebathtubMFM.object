@@ -24,7 +24,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "scripts" : [ "chocolatebathtubMFM.lua" ],
   "animation" : "chocolatebathtubMFM.animation",
   "animationPosition" : [ -16, 0 ],

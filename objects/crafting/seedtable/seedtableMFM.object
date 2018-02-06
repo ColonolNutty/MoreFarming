@@ -25,7 +25,7 @@
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-],
+  ],
   "interactAction" : "OpenCraftingInterface",
   "interactData" : { "config" : "/interface/windowconfig/cn_seedtableMFM.config" }
 }

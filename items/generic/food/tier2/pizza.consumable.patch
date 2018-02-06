@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,24 +25,33 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Pizza - Pepperoni"
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} A whole pizza! Are you going to eat all that?"
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 57.71
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 351.2
     },
     {
       "op" : "replace",
@@ -97,6 +82,21 @@
           "duration" : 60
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 57.71
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 351.2
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Pizza - Pepperoni"
     }
   ]
 ]

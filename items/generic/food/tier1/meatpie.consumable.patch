@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,24 +25,33 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Pie - Meat"
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} Minced meat in a rich gravy, topped with creamy mash."
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 101.44
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 541.47
     },
     {
       "op" : "replace",
@@ -89,6 +74,21 @@
           "duration" : 84
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 101.44
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 541.47
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Pie - Meat"
     }
   ]
 ]

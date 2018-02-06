@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,24 +25,33 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Pie - Spooky"
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} Just spooky enough."
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 114.7
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 753.63
     },
     {
       "op" : "replace",
@@ -85,6 +70,21 @@
           "duration" : 96
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 114.7
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 753.63
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Pie - Spooky"
     }
   ]
 ]

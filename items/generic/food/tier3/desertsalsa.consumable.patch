@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,24 +25,33 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Salsa - Desert"
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BLEND):-} A refreshing salsa made from desert fruits."
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 47.69
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 600.5
     },
     {
       "op" : "replace",
@@ -81,6 +66,21 @@
           "duration" : 383
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 47.69
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 600.5
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Salsa - Desert"
     }
   ]
 ]

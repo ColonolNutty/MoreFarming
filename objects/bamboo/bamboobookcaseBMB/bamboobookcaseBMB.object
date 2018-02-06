@@ -27,7 +27,7 @@
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-],
+  ],
   "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
   "slotCount" : 32,

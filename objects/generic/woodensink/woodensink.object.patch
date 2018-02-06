@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/scripts",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/scripts",
-      "value" : [ ]
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/autoCloseCooldown",
       "inverse" : true
     },
@@ -50,49 +38,25 @@
   [
     {
       "op" : "test",
-      "path" : "/recipeGroup",
+      "path" : "/frameCooldown",
       "inverse" : true
     },
     {
       "op" : "add",
-      "path" : "/recipeGroup",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/uiConfig",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/uiConfig",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/openSounds",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/openSounds",
-      "value" : [ ]
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/scriptDelta",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/scriptDelta",
+      "path" : "/frameCooldown",
       "value" : 1
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/interactAction",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/interactAction",
+      "value" : ""
     }
   ],
   [
@@ -110,66 +74,6 @@
   [
     {
       "op" : "test",
-      "path" : "/frameCooldown",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/frameCooldown",
-      "value" : 1
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/interactAction",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/interactAction",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/outputConfig",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/outputConfig",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/objectType",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/objectType",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/slotCount",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/slotCount",
-      "value" : 1
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/maximumLiquidLevel",
       "inverse" : true
     },
@@ -181,10 +85,101 @@
   ],
   [
     {
-      "op" : "add",
-      "path" : "/scripts/-",
-      "value" : "/recipeCrafterMFM/recipeCrafterMFM.lua"
+      "op" : "test",
+      "path" : "/objectType",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/objectType",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/openSounds",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/openSounds",
+      "value" : [ ]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/outputConfig",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/outputConfig",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/recipeGroup",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/recipeGroup",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/scriptDelta",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/scriptDelta",
+      "value" : 1
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/scripts",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/scripts",
+      "value" : [ ]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/slotCount",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/slotCount",
+      "value" : 1
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/uiConfig",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/uiConfig",
+      "value" : ""
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/autoCloseCooldown",
@@ -202,35 +197,6 @@
     },
     {
       "op" : "replace",
-      "path" : "/recipeGroup",
-      "value" : "waterMFM"
-    },
-    {
-      "op" : "replace",
-      "path" : "/uiConfig",
-      "value" : "/interface/objectcrafting/recipeCrafterMFM.config"
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Wooden Sink (Water)"
-    },
-    {
-      "op" : "add",
-      "path" : "/openSounds/-",
-      "value" : "/sfx/objects/sinkMFMenter.ogg"
-    },
-    {
-      "op" : "replace",
-      "path" : "/scriptDelta",
-      "value" : 1
-    },
-    {
-      "op" : "remove",
-      "path" : "/interactData"
-    },
-    {
-      "op" : "replace",
       "path" : "/frameCooldown",
       "value" : 5
     },
@@ -239,14 +205,48 @@
       "path" : "/interactAction"
     },
     {
+      "op" : "remove",
+      "path" : "/interactData"
+    },
+    {
+      "op" : "replace",
+      "path" : "/maximumLiquidLevel",
+      "value" : 1.0
+    },
+    {
+      "op" : "replace",
+      "path" : "/objectType",
+      "value" : "container"
+    },
+    {
+      "op" : "add",
+      "path" : "/openSounds/-",
+      "value" : "/sfx/objects/sinkMFMenter.ogg"
+    },
+    {
       "op" : "replace",
       "path" : "/outputConfig",
       "value" : "/recipeCrafterMFM/waterMFMRecipes.config"
     },
     {
       "op" : "replace",
-      "path" : "/objectType",
-      "value" : "container"
+      "path" : "/recipeGroup",
+      "value" : "waterMFM"
+    },
+    {
+      "op" : "replace",
+      "path" : "/scriptDelta",
+      "value" : 1
+    },
+    {
+      "op" : "add",
+      "path" : "/scripts/-",
+      "value" : "/recipeCrafterMFM/recipeCrafterMFM.lua"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Wooden Sink (Water)"
     },
     {
       "op" : "replace",
@@ -255,8 +255,8 @@
     },
     {
       "op" : "replace",
-      "path" : "/maximumLiquidLevel",
-      "value" : 1.0
+      "path" : "/uiConfig",
+      "value" : "/interface/objectcrafting/recipeCrafterMFM.config"
     }
   ]
 ]

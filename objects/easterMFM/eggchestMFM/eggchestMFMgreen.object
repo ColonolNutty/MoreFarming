@@ -25,7 +25,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "openSounds" : [ "/sfx/objects/egg_hatch1.ogg", "/sfx/objects/egg_hatch2.ogg" ],
   "closeSounds" : [ "/sfx/objects/egg_hatch1.ogg", "/sfx/objects/egg_hatch2.ogg" ],
   "slotCount" : 9,

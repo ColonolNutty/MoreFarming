@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,19 +25,33 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BLEND):-} A tropical mix that packs a punch."
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 28.39
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 441.0
     },
     {
       "op" : "replace",
@@ -80,6 +70,16 @@
           "duration" : 210
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 28.39
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 441.0
     }
   ]
 ]

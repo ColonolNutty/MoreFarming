@@ -27,7 +27,7 @@
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "stages" : [
     {
       "alts" : 1,

@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,14 +25,43 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Juice - Pineapple"
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BLEND):-} Sweet, tasty pineapple juice."
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "runboostfood",
+          "duration" : 180
+        }
+      ]]
     },
     {
       "op" : "replace",
@@ -70,13 +75,8 @@
     },
     {
       "op" : "replace",
-      "path" : "/effects",
-      "value" : [[
-        {
-          "effect" : "runboostfood",
-          "duration" : 180
-        }
-      ]]
+      "path" : "/shortdescription",
+      "value" : "Juice - Pineapple"
     }
   ]
 ]

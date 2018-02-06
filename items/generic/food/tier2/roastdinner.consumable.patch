@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,19 +25,33 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(PREP):-} Just a regular roast dinner. Nothing fancy, but satisfying all the same."
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 65.72
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 458.7
     },
     {
       "op" : "replace",
@@ -84,6 +74,16 @@
           "duration" : 117
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 65.72
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 458.7
     }
   ]
 ]

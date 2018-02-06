@@ -15,7 +15,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "interactAction" : "OpenCraftingInterface",
   "npcToy" : { },
   "interactData" : { "config" : "/interface/windowconfig/cn_cheatersrecipebook.config" }

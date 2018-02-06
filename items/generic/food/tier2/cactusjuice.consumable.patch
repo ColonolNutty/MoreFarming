@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,14 +25,43 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Juice - Cactus"
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BLEND):-} Cool as a cactus."
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "thorns",
+          "duration" : 90
+        }
+      ]]
     },
     {
       "op" : "replace",
@@ -70,13 +75,8 @@
     },
     {
       "op" : "replace",
-      "path" : "/effects",
-      "value" : [[
-        {
-          "effect" : "thorns",
-          "duration" : 90
-        }
-      ]]
+      "path" : "/shortdescription",
+      "value" : "Juice - Cactus"
     }
   ]
 ]

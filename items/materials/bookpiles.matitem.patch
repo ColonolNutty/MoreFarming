@@ -26,11 +26,6 @@
   [
     {
       "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Book"
-    },
-    {
-      "op" : "replace",
       "path" : "/description",
       "value" : "A pile of dusty old books, they're full of tales of dragons and knights."
     },
@@ -38,6 +33,11 @@
       "op" : "replace",
       "path" : "/price",
       "value" : 0.46
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Book"
     }
   ]
 ]

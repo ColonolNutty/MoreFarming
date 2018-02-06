@@ -67,7 +67,7 @@
       "count" : 5,
       "particle" : "woodshard"
     }
-],
+  ],
   "smashable" : true,
   "biomePlaced" : false,
   "smashSounds" : [ "/sfx/objects/wood_break1.ogg", "/sfx/objects/wood_break2.ogg", "/sfx/objects/wood_break3.ogg", "/sfx/objects/wood_break4.ogg", "/sfx/objects/wood_break5.ogg", "/sfx/objects/wood_break6.ogg" ],

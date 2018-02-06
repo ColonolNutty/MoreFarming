@@ -25,7 +25,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
     }
-],
+  ],
   "flickerPeriod" : 0.3,
   "flickerMinIntensity" : 0.95,
   "flickerPeriodVariance" : 0.075,

@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,14 +25,43 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Toast - Plain"
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} A slice of warm, eggy bread. Delicious."
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 11
+        }
+      ]]
     },
     {
       "op" : "replace",
@@ -70,13 +75,8 @@
     },
     {
       "op" : "replace",
-      "path" : "/effects",
-      "value" : [[
-        {
-          "effect" : "maxhealthscalingboostfood",
-          "duration" : 11
-        }
-      ]]
+      "path" : "/shortdescription",
+      "value" : "Toast - Plain"
     }
   ]
 ]

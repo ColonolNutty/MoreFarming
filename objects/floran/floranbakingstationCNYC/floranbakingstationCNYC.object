@@ -24,7 +24,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "recipeGroup" : "bakingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

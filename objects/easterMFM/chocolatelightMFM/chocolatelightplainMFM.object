@@ -20,87 +20,72 @@
     {
       "image" : "chocolatelightMFM.png:plain.off",
       "imagePosition" : [ 0, 0 ],
-
-      "animationParts" : {
-        "bg" : "chocolatelightMFM.png:plain",
-        "fg" : "chocolatelightMFMlit.png:plain"
-      },
-      "animationPosition" : [1, 0],
+      "direction" : "right",
       "spaceScan" : 0.1,
-      
       "anchors" : [ "top" ],
-      "direction" : "right"
+      "animationPosition" : [ 1, 0 ],
+      "animationParts" : {
+        "fg" : "chocolatelightMFMlit.png:plain",
+        "bg" : "chocolatelightMFM.png:plain"
+      }
     },
     {
       "image" : "chocolatelightleftMFM.png:plain.off",
       "imagePosition" : [ 0, 0 ],
-
-      "animationParts" : {
-        "bg" : "chocolatelightleftMFM.png:plain",
-        "fg" : "chocolatelightleftMFMlit.png:plain"
-      },
-      "animationPosition" : [1, 0],
+      "direction" : "right",
       "spaceScan" : 0.1,
-      
       "anchors" : [ "left" ],
-      "direction" : "right"
+      "animationPosition" : [ 1, 0 ],
+      "animationParts" : {
+        "fg" : "chocolatelightleftMFMlit.png:plain",
+        "bg" : "chocolatelightleftMFM.png:plain"
+      }
     },
     {
       "image" : "chocolatelightrightMFM.png:plain.off",
       "imagePosition" : [ 0, 0 ],
-
-      "animationParts" : {
-        "bg" : "chocolatelightrightMFM.png:plain",
-        "fg" : "chocolatelightrightMFMlit.png:plain"
-      },
-      "animationPosition" : [1, 0],
+      "direction" : "right",
       "spaceScan" : 0.1,
-      
       "anchors" : [ "right" ],
-      "direction" : "right"
+      "animationPosition" : [ 1, 0 ],
+      "animationParts" : {
+        "fg" : "chocolatelightrightMFMlit.png:plain",
+        "bg" : "chocolatelightrightMFM.png:plain"
+      }
     },
     {
       "image" : "chocolatelightMFM.png:plain.off",
       "imagePosition" : [ 0, 0 ],
-
-      "animationParts" : {
-        "bg" : "chocolatelightMFM.png:plain",
-        "fg" : "chocolatelightMFMlit.png:plain"
-      },
-      "animationPosition" : [1, 0],
+      "direction" : "right",
       "spaceScan" : 0.1,
-      
       "anchors" : [ "bottom" ],
-      "direction" : "right"
+      "animationPosition" : [ 1, 0 ],
+      "animationParts" : {
+        "fg" : "chocolatelightMFMlit.png:plain",
+        "bg" : "chocolatelightMFM.png:plain"
+      }
     },
     {
       "image" : "chocolatelightMFM.png:plain.off",
       "imagePosition" : [ 0, 0 ],
-
-      "animationParts" : {
-        "bg" : "chocolatelightMFM.png:plain",
-        "fg" : "chocolatelightMFMlit.png:plain"
-      },
-      "animationPosition" : [1, 0],
+      "direction" : "right",
       "spaceScan" : 0.1,
-      
       "bgAnchors" : [[ 0, 0 ]],
-      "direction" : "right"
+      "animationPosition" : [ 1, 0 ],
+      "animationParts" : {
+        "fg" : "chocolatelightMFMlit.png:plain",
+        "bg" : "chocolatelightMFM.png:plain"
+      }
     }
   ],
-
-  "animation" : "chocolatelightMFM.animation",
-  "animationParts" : {
-    "bg" : "chocolatelightMFM.png:plain",
-    "fg" : "chocolatelightMFM.png:plain"
-  },
-  "lightColor" : [ 204, 189, 173 ],
-  "beamAmbience" : 0.1,
-
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
-
-  // "interactive" : false,
-
-  "inputNodes" : [ [0, 0] ]
+  "beamAmbience" : 0.1,
+  "animationParts" : {
+    "fg" : "chocolatelightMFM.png:plain",
+    "bg" : "chocolatelightMFM.png:plain"
+  },
+  "lightColor" : [ 204, 189, 173 ],
+  "animation" : "chocolatelightMFM.animation",
+  "inputNodes" : [[ 0, 0 ]]
 }

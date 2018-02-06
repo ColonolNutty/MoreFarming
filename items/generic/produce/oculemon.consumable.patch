@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/description",
       "inverse" : true
     },
@@ -21,18 +9,6 @@
       "op" : "add",
       "path" : "/description",
       "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
     }
   ],
   [
@@ -49,10 +25,29 @@
   ],
   [
     {
-      "op" : "replace",
+      "op" : "test",
       "path" : "/foodValue",
-      "value" : 10.0
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
@@ -60,13 +55,18 @@
     },
     {
       "op" : "replace",
-      "path" : "/price",
-      "value" : 200.0
+      "path" : "/effects",
+      "value" : [ ]
     },
     {
       "op" : "replace",
-      "path" : "/effects",
-      "value" : [ ]
+      "path" : "/foodValue",
+      "value" : 10.0
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 200.0
     }
   ]
 ]

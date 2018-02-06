@@ -18,7 +18,7 @@
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-],
+  ],
   "recipeGroup" : "freezingMFM",
   "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],

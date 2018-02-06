@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,19 +25,33 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(PREP):-} A Hylotl dish, overloaded with ingredients of questionable oceanic origin."
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 27.05
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 291.9
     },
     {
       "op" : "replace",
@@ -72,6 +62,16 @@
           "duration" : 450
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 27.05
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 291.9
     }
   ]
 ]

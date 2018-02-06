@@ -23,7 +23,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "interactAction" : "OpenCraftingInterface",
   "interactData" : { "config" : "/interface/windowconfig/cn_craftingkitchen.config" }
 }

@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,24 +25,33 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Jam - Beakseed"
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BOIL):-} Sweet and crunchy. If only there was a seedless variety."
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 20.12
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 401.63
     },
     {
       "op" : "replace",
@@ -81,6 +66,21 @@
           "duration" : 135
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 20.12
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 401.63
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Jam - Beakseed"
     }
   ]
 ]

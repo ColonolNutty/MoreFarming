@@ -17,7 +17,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "recipeGroup" : "blendingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,

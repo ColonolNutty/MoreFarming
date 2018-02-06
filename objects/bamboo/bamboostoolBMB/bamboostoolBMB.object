@@ -25,7 +25,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "sitPosition" : [ 2, 17 ],
   "sitFlipDirection" : false
 }

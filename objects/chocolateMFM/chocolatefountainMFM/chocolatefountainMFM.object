@@ -23,7 +23,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "sitPosition" : [ 14, 24 ],
   "soundEffect" : "/sfx/objects/fountain1.ogg",
   "sitFlipDirection" : false

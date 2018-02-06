@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,24 +25,33 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Pie - Fish"
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} Stargazy pie! Baked fish in sauce, topped with creamy mash."
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 114.64
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 678.66
     },
     {
       "op" : "replace",
@@ -89,6 +74,21 @@
           "duration" : 288
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 114.64
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 678.66
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Pie - Fish"
     }
   ]
 ]

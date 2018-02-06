@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,19 +25,33 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(PREP):-} Delicious rolls of rice and seaweed. A Hylotl favourite."
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 61.27
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 315.42
     },
     {
       "op" : "replace",
@@ -72,6 +62,16 @@
           "duration" : 360
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 61.27
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 315.42
     }
   ]
 ]

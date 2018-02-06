@@ -22,7 +22,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
   "animationCustom" : {

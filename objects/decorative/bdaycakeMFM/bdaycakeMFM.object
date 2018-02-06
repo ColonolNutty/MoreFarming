@@ -30,7 +30,7 @@
         "bg" : "bdaycakeMFM.png"
       }
     }
-],
+  ],
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
   "flickerMinIntensity" : 0.1,

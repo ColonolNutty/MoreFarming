@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,24 +25,33 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Stew - Automato"
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BOIL):-} A surprisingly tasty stew, if you watch out for the bits of metal."
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 50.59
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 597.83
     },
     {
       "op" : "replace",
@@ -81,6 +66,21 @@
           "duration" : 90
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 50.59
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 597.83
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Stew - Automato"
     }
   ]
 ]

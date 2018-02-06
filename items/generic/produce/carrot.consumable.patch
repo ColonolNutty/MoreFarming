@@ -14,18 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -37,19 +25,31 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "Mmm crunchy."
     },
     {
       "op" : "replace",
-      "path" : "/price",
-      "value" : 60.0
+      "path" : "/effects",
+      "value" : [ ]
     },
     {
       "op" : "replace",
-      "path" : "/effects",
-      "value" : [ ]
+      "path" : "/price",
+      "value" : 60.0
     }
   ]
 ]

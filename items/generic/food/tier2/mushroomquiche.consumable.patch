@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,24 +25,33 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Quiche - Mushroom"
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
       "value" : "(BAKE):-} A cheesy quiche packed full of fresh mushrooms."
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 133.26
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 363.09
     },
     {
       "op" : "replace",
@@ -89,6 +74,21 @@
           "duration" : 132
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 133.26
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 363.09
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Quiche - Mushroom"
     }
   ]
 ]

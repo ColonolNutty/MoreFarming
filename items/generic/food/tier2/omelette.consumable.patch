@@ -14,30 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/foodValue",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/foodValue",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/price",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/price",
-      "value" : 0.0
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -49,24 +25,33 @@
   ],
   [
     {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Omelette - Ba.Ch.Mu."
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
     },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
     {
       "op" : "replace",
       "path" : "/description",
       "value" : "(FRY):-} Easily prepared and delicious, you can't go wrong with an omelette!"
-    },
-    {
-      "op" : "replace",
-      "path" : "/foodValue",
-      "value" : 77.54
-    },
-    {
-      "op" : "replace",
-      "path" : "/price",
-      "value" : 194.55
     },
     {
       "op" : "replace",
@@ -89,6 +74,21 @@
           "duration" : 60
         }
       ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 77.54
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 194.55
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Omelette - Ba.Ch.Mu."
     }
   ]
 ]

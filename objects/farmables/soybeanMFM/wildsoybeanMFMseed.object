@@ -27,7 +27,7 @@
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "stages" : [
     { "duration" : [ 720, 720 ] },
     { "duration" : [ 1080, 1080 ] },

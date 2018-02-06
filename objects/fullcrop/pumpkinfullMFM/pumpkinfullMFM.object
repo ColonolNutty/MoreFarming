@@ -32,12 +32,12 @@
       ],
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "stages" : [
     {
       "alts" : 5,
       "harvestPool" : "pumpkinfullMFMHarvest"
     }
-],
+  ],
   "learnBlueprintsOnPickup" : [ "jackolanternMFM", "largejackolanternMFM" ]
 }

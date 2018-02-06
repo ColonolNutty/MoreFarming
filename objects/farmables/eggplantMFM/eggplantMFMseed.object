@@ -21,7 +21,7 @@
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
     }
-],
+  ],
   "stages" : [
     { "duration" : [ 1920, 1920 ] },
     { "duration" : [ 2760, 2760 ] },

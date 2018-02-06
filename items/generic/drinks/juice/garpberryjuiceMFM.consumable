@@ -22,7 +22,7 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "emitters" : [ "drinking" ],
   "inventoryIcon" : "garpberryjuiceMFM.png",
+  "emitters" : [ "drinking" ],
   "handPosition" : [ 0, -3 ]
 }

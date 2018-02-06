@@ -4,7 +4,7 @@
     "size" : [16, 16],
     "dimensions" : [3, 1],
     "names" : [
-      [ "plain", "white", "dark" ]
+      [ "dark", "plain", "white" ]
     ]
   },
 

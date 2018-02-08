@@ -1,12 +1,12 @@
 {
   "itemName" : "milkshakewhitechocolateMFM",
   "rarity" : "Common",
-  "price" : 338.43,
+  "price" : 355.14,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A milkshake made with white chocolate. Yum!",
   "shortdescription" : "Milkshake - White Chocolate",
-  "foodValue" : 43.29,
+  "foodValue" : 45.97,
   "effects" : [[
     {
       "effect" : "regeneration2",
@@ -18,7 +18,7 @@
     },
     {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 69
+      "duration" : 75
     },
     {
       "effect" : "runboostfood",
@@ -26,11 +26,11 @@
     },
     {
       "effect" : "energyregen",
-      "duration" : 69
+      "duration" : 75
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 147
+      "duration" : 161
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

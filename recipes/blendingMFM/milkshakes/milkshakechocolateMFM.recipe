@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "chocolateliquorMFM", "count" : 1 },
+    { "item" : "creamMFM", "count" : 1 },
     { "item" : "milk", "count" : 1 }
   ],
   "output" : { "item" : "milkshakechocolateMFM", "count" : 1 },

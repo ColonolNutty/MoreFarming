@@ -1,12 +1,12 @@
 {
   "itemName" : "milkshakevanillaMFM",
   "rarity" : "Common",
-  "price" : 100.46,
+  "price" : 117.18,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A milkshake made from vanilla beans. Yum!",
   "shortdescription" : "Milkshake - Vanilla",
-  "foodValue" : 15.09,
+  "foodValue" : 17.77,
   "effects" : [[
     {
       "effect" : "regeneration2",
@@ -14,7 +14,7 @@
     },
     {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 34
+      "duration" : 40
     },
     {
       "effect" : "maxenergyscalingboost",
@@ -26,11 +26,11 @@
     },
     {
       "effect" : "energyregen",
-      "duration" : 34
+      "duration" : 40
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 72
+      "duration" : 86
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

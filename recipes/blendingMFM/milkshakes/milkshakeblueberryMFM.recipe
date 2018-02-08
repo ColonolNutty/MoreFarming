@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "choppedblueberriesMFM", "count" : 1 },
+    { "item" : "creamMFM", "count" : 1 },
     { "item" : "milk", "count" : 1 }
   ],
   "output" : { "item" : "milkshakeblueberryMFM", "count" : 1 },

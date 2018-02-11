@@ -1,12 +1,12 @@
 {
   "itemName" : "shortcrustpastryMFM",
   "rarity" : "Common",
-  "price" : 37.84,
+  "price" : 41.35,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Shortcrust pastry rolled and folded ready for use.",
   "shortdescription" : "Shortcrust Pastry",
-  "foodValue" : 10.0,
+  "foodValue" : 61.18,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

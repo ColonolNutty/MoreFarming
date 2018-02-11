@@ -1,12 +1,12 @@
 {
   "itemName" : "whitechocolateMFM",
   "rarity" : "Common",
-  "price" : 246.48,
+  "price" : 252.03,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Yummmmmmm!",
   "shortdescription" : "White Chocolate",
-  "foodValue" : 29.07,
+  "foodValue" : 157.9,
   "effects" : [[
     {
       "effect" : "regeneration2",

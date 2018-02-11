@@ -1,16 +1,20 @@
 {
   "itemName" : "strawberryjellysandwichPBJ",
   "rarity" : "Uncommon",
-  "price" : 284.11,
+  "price" : 286.36,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with strawberry jelly.",
   "shortdescription" : "Sandwich - Strawberry Jelly",
-  "foodValue" : 57.78,
+  "foodValue" : 98.23,
   "effects" : [[
     {
       "effect" : "energyregen",
       "duration" : 158
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 184
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -1,12 +1,12 @@
 {
   "itemName" : "cookedalienmeatpattyMFM",
   "rarity" : "Common",
-  "price" : 22.17,
+  "price" : 22.4,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(FRY):-} A cooked patty made of alien meat. Perfect for burgers!",
   "shortdescription" : "Cooked Patty - Alien Meat",
-  "foodValue" : 10.0,
+  "foodValue" : 32.55,
   "effects" : [[
     {
       "effect" : "camouflage25",

@@ -1,12 +1,12 @@
 {
   "itemName" : "fondantMFM",
   "rarity" : "Common",
-  "price" : 203.74,
+  "price" : 209.19,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A blended mixture used in making confectionaries",
   "shortdescription" : "Fondant",
-  "foodValue" : 19.97,
+  "foodValue" : 122.11,
   "effects" : [[
     {
       "effect" : "regeneration2",

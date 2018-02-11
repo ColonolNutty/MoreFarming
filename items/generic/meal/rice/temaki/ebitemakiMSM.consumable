@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} Cooked shrimp and cucumber, wrapped in rice and kelp.",
   "shortdescription" : "Temaki - Ebi",
-  "foodValue" : 109.86,
+  "foodValue" : 117.6,
   "effects" : [[
     {
       "effect" : "camouflage25",

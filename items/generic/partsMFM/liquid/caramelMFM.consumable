@@ -1,12 +1,12 @@
 {
   "itemName" : "caramelMFM",
   "rarity" : "Common",
-  "price" : 127.06,
+  "price" : 130.14,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(FRY):-} Its sticky..!",
   "shortdescription" : "Caramel",
-  "foodValue" : 12.75,
+  "foodValue" : 80.53,
   "effects" : [[
     {
       "effect" : "regeneration2",

@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A strip of bird meat, roasted!",
   "shortdescription" : "Strip of Roasted Poultry",
-  "foodValue" : 10.0,
+  "foodValue" : 10.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

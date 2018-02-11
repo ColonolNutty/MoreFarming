@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledlettuceMFM",
   "rarity" : "Common",
-  "price" : 71.66,
+  "price" : 73.71,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A lettuce boiled in water.",
   "shortdescription" : "Boiled Lettuce",
-  "foodValue" : 11.03,
+  "foodValue" : 31.53,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

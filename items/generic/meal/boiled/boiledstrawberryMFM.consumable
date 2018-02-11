@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledstrawberryMFM",
   "rarity" : "Common",
-  "price" : 55.13,
+  "price" : 57.18,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A strawberry boiled in water.",
   "shortdescription" : "Boiled Strawberry",
-  "foodValue" : 11.03,
+  "foodValue" : 31.53,
   "effects" : [[
     {
       "effect" : "energyregen",

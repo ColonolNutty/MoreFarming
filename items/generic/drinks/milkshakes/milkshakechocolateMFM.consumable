@@ -1,12 +1,12 @@
 {
   "itemName" : "milkshakechocolateMFM",
   "rarity" : "Common",
-  "price" : 118.22,
+  "price" : 124.43,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A milkshake made with chocolate. Yum!",
   "shortdescription" : "Milkshake - Chocolate",
-  "foodValue" : 17.88,
+  "foodValue" : 110.52,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

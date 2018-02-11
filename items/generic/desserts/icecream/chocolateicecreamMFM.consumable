@@ -1,12 +1,12 @@
 {
   "itemName" : "chocolateicecreamMFM",
   "rarity" : "Common",
-  "price" : 503.73,
+  "price" : 491.3,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} Chocolate ice cream.",
   "shortdescription" : "Ice Cream - Chocolate",
-  "foodValue" : 62.1,
+  "foodValue" : 462.21,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

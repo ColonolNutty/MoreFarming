@@ -1,16 +1,20 @@
 {
   "itemName" : "peanutbuttersandwichPBJ",
   "rarity" : "Uncommon",
-  "price" : 178.06,
+  "price" : 180.31,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with peanut butter.",
   "shortdescription" : "Sandwich - Peanut Butter",
-  "foodValue" : 57.78,
+  "foodValue" : 98.23,
   "effects" : [[
     {
       "effect" : "camouflage25",
       "duration" : 158
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 184
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

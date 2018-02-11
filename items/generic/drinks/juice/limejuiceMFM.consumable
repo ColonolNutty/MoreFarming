@@ -1,12 +1,12 @@
 {
   "itemName" : "limejuiceMFM",
   "rarity" : "Common",
-  "price" : 44.1,
+  "price" : 46.15,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Tart lime juice.",
   "shortdescription" : "Juice - Lime",
-  "foodValue" : 11.03,
+  "foodValue" : 31.53,
   "effects" : [[
     {
       "effect" : "jumpboostfood",

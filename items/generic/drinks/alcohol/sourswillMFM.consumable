@@ -1,12 +1,12 @@
 {
   "itemName" : "sourswillMFM",
   "rarity" : "Common",
-  "price" : 136.67,
+  "price" : 137.68,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(DISTILL):-} A swill so sour it's almost corrosive.",
   "shortdescription" : "Alcohol - Sour Swill",
-  "foodValue" : 10.0,
+  "foodValue" : 17.0,
   "effects" : [[
     {
       "effect" : "weakpoison",

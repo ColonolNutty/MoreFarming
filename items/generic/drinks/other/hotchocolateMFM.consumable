@@ -1,12 +1,12 @@
 {
   "itemName" : "hotchocolateMFM",
   "rarity" : "Common",
-  "price" : 512.58,
+  "price" : 538.48,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Good for cold days.",
   "shortdescription" : "Hot Chocolate",
-  "foodValue" : 76.76,
+  "foodValue" : 470.91,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

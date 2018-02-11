@@ -1,12 +1,12 @@
 {
   "itemName" : "dragonfruitjuiceMFM",
   "rarity" : "Common",
-  "price" : 31.5,
+  "price" : 33.55,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Slightly sweet Dragonfruit juice.",
   "shortdescription" : "Juice - Dragonfruit",
-  "foodValue" : 10.5,
+  "foodValue" : 31.0,
   "effects" : [[
     {
       "effect" : "nova",

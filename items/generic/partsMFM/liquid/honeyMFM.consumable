@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Sweet sweet sweet!",
   "shortdescription" : "Honey",
-  "foodValue" : 14.6,
+  "foodValue" : 31.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

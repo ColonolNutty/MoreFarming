@@ -1,16 +1,20 @@
 {
   "itemName" : "pbjPBJ",
   "rarity" : "Uncommon",
-  "price" : 814.36,
+  "price" : 816.61,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with peanut butter and grape jelly.",
   "shortdescription" : "Sandwich - Grape PB+J",
-  "foodValue" : 110.81,
+  "foodValue" : 151.25,
   "effects" : [[
     {
       "effect" : "camouflage25",
       "duration" : 158
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 184
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

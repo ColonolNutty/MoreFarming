@@ -1,12 +1,12 @@
 {
   "itemName" : "cupcakelemonMFM",
   "rarity" : "Common",
-  "price" : 152.46,
+  "price" : 156.69,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A cupcake with lemon icing.",
   "shortdescription" : "Cupcake - Lemon",
-  "foodValue" : 25.9,
+  "foodValue" : 90.52,
   "effects" : [[
     {
       "effect" : "regeneration2",

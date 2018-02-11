@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Tasty and sweet brownie with jelon used as the sweetener.",
   "shortdescription" : "Brownie - Jelon",
-  "foodValue" : 17.13,
+  "foodValue" : 42.0,
   "effects" : [[
     {
       "effect" : "swimboost",

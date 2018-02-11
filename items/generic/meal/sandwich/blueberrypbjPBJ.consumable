@@ -1,12 +1,12 @@
 {
   "itemName" : "blueberrypbjPBJ",
   "rarity" : "Uncommon",
-  "price" : 443.18,
+  "price" : 445.44,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with peanut butter and blueberry jelly.",
   "shortdescription" : "Sandwich - Blueberry PB+J",
-  "foodValue" : 110.81,
+  "foodValue" : 151.25,
   "effects" : [[
     {
       "effect" : "camouflage25",
@@ -15,6 +15,10 @@
     {
       "effect" : "iceblock",
       "duration" : 238
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 184
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

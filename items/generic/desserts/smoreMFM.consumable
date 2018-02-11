@@ -1,12 +1,12 @@
 {
   "itemName" : "smoreMFM",
   "rarity" : "Common",
-  "price" : 334.37,
+  "price" : 343.28,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Toasted marshmallow and chocolate sandwiched between graham crackers.",
   "shortdescription" : "Smore",
-  "foodValue" : 38.9,
+  "foodValue" : 231.84,
   "effects" : [[
     {
       "effect" : "regeneration2",

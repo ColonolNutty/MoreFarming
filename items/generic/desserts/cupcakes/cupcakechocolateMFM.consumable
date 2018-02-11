@@ -1,12 +1,12 @@
 {
   "itemName" : "cupcakechocolateMFM",
   "rarity" : "Common",
-  "price" : 166.88,
+  "price" : 168.88,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A cupcake with chocolate icing.",
   "shortdescription" : "Cupcake - Chocolate",
-  "foodValue" : 20.95,
+  "foodValue" : 90.49,
   "effects" : [[
     {
       "effect" : "regeneration2",

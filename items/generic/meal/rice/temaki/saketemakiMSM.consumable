@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} Smoked salmon and cucumber, wrapped in sake and kelp.",
   "shortdescription" : "Temaki - Sake",
-  "foodValue" : 111.04,
+  "foodValue" : 127.6,
   "effects" : [[
     {
       "effect" : "camouflage25",

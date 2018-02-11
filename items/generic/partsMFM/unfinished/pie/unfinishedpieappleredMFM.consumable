@@ -1,12 +1,12 @@
 {
   "itemName" : "unfinishedpieappleredMFM",
   "rarity" : "Common",
-  "price" : 331.71,
+  "price" : 341.16,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A pie shell filled with chopped red apples and a few other things. Ready for baking.",
   "shortdescription" : "Pie Unfinished - Red Apple",
-  "foodValue" : 97.46,
+  "foodValue" : 298.26,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

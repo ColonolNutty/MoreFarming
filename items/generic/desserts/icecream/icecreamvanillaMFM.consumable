@@ -1,12 +1,12 @@
 {
   "itemName" : "icecreamvanillaMFM",
   "rarity" : "Common",
-  "price" : 223.5,
+  "price" : 231.17,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} Plain old vanilla ice cream",
   "shortdescription" : "Ice Cream - Vanilla",
-  "foodValue" : 52.92,
+  "foodValue" : 167.45,
   "effects" : [[
     {
       "effect" : "regeneration2",

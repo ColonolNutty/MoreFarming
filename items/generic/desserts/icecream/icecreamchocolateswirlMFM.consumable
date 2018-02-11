@@ -1,12 +1,12 @@
 {
   "itemName" : "icecreamchocolateswirlMFM",
   "rarity" : "Common",
-  "price" : 764.42,
+  "price" : 764.98,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} It's got everything you could ever want!",
   "shortdescription" : "Ice Cream - Chocolate Swirl",
-  "foodValue" : 87.62,
+  "foodValue" : 522.48,
   "effects" : [[
     {
       "effect" : "regeneration2",

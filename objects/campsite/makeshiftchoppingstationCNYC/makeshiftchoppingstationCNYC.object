@@ -2,7 +2,7 @@
   "objectName" : "makeshiftchoppingstationCNYC",
   "colonyTags" : [ "cooking", "nature" ],
   "rarity" : "Common",
-  "price" : 40.1,
+  "price" : 20.05,
   "category" : "Makeshift Cookware",
   "objectType" : "container",
   "printable" : false,

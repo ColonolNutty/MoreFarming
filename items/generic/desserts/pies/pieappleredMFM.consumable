@@ -1,12 +1,12 @@
 {
   "itemName" : "pieappleredMFM",
   "rarity" : "Common",
-  "price" : 396.72,
+  "price" : 407.78,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Red Apple Pie with a hint of cinnamon and nutmeg. Made with 100% real apples.",
   "shortdescription" : "Pie - Red Apple",
-  "foodValue" : 107.35,
+  "foodValue" : 342.33,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

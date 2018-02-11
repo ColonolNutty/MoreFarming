@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A Hylotl alcoholic drink made from rice.",
   "shortdescription" : "Sake",
-  "foodValue" : 42.6,
+  "foodValue" : 51.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

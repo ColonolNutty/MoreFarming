@@ -1,12 +1,12 @@
 {
   "itemName" : "donutplainMFM",
   "rarity" : "Common",
-  "price" : 17.54,
+  "price" : 18.64,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FRY):-} A plain ring of fried dough.",
   "shortdescription" : "Donut - Plain",
-  "foodValue" : 10.0,
+  "foodValue" : 32.55,
   "effects" : [[
     {
       "effect" : "camouflage25",

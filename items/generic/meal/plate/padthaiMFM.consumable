@@ -1,12 +1,12 @@
 {
   "itemName" : "padthaiMFM",
   "rarity" : "Uncommon",
-  "price" : 477.82,
+  "price" : 480.73,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A Hylotl dish made of noodles and various ingredients.",
   "shortdescription" : "Pad Thai",
-  "foodValue" : 63.91,
+  "foodValue" : 126.57,
   "effects" : [[
     {
       "effect" : "burning",

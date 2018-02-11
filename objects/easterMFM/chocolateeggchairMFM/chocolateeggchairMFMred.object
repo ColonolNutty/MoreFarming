@@ -2,7 +2,7 @@
   "objectName" : "chocolateeggchairMFMred",
   "colonyTags" : [ "easter", "chocolate", "pretty" ],
   "rarity" : "Uncommon",
-  "price" : 400.0,
+  "price" : 1.0,
   "category" : "furniture",
   "objectType" : "loungeable",
   "printable" : false,

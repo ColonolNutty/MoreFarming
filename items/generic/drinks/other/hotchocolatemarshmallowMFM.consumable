@@ -1,12 +1,12 @@
 {
   "itemName" : "hotchocolatemarshmallowMFM",
   "rarity" : "Common",
-  "price" : 550.38,
+  "price" : 578.22,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Good for cold days.",
   "shortdescription" : "Hot Chocolate w/ Marshmallows",
-  "foodValue" : 81.9,
+  "foodValue" : 507.14,
   "effects" : [[
     {
       "effect" : "regeneration2",

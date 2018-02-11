@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(FRY):-} SFC, Space Fried Chicken; Chicken deep-fried in oil",
   "shortdescription" : "Fried Chicken",
-  "foodValue" : 10.0,
+  "foodValue" : 21.0,
   "effects" : [[
     {
       "effect" : "camouflage25",

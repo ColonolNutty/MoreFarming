@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} Raw squid and cucumber, wrapped in rice and kelp.",
   "shortdescription" : "Temaki - Ika",
-  "foodValue" : 108.84,
+  "foodValue" : 116.57,
   "effects" : [[
     {
       "effect" : "camouflage25",

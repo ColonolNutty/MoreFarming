@@ -1,12 +1,18 @@
 {
   "itemName" : "sandwichbananaMFM",
   "rarity" : "Uncommon",
-  "price" : 260.8,
+  "price" : 261.09,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with bananas.",
   "shortdescription" : "Sandwich - Banana",
-  "foodValue" : 22.14,
+  "foodValue" : 42.03,
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 22
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -1,12 +1,12 @@
 {
   "itemName" : "crepeblueberryMFM",
   "rarity" : "Common",
-  "price" : 175.04,
+  "price" : 178.79,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A crepe made with juicy blueberries.",
   "shortdescription" : "Crepe - Blueberry",
-  "foodValue" : 29.79,
+  "foodValue" : 101.64,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

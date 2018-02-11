@@ -1,12 +1,18 @@
 {
   "itemName" : "breadandbirdMFM",
   "rarity" : "Common",
-  "price" : 21.3,
+  "price" : 22.46,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "Bread with a strip of roasted poultry. Mountainman cuisine keeps you going!",
   "shortdescription" : "Bread and Bird",
-  "foodValue" : 10.0,
+  "foodValue" : 34.18,
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 94
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

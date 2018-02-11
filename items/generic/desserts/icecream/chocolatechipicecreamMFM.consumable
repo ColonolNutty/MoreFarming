@@ -1,12 +1,12 @@
 {
   "itemName" : "chocolatechipicecreamMFM",
   "rarity" : "Common",
-  "price" : 419.82,
+  "price" : 417.07,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} Ice cream with chocolate chips.",
   "shortdescription" : "Ice Cream - Chocolate Chip",
-  "foodValue" : 50.82,
+  "foodValue" : 340.42,
   "effects" : [[
     {
       "effect" : "regeneration2",

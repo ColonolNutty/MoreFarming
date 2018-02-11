@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} Smoked salmon and cucumber packed in sake.",
   "shortdescription" : "Maki - Sake",
-  "foodValue" : 77.28,
+  "foodValue" : 86.1,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

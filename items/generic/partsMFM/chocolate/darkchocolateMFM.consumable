@@ -1,12 +1,12 @@
 {
   "itemName" : "darkchocolateMFM",
   "rarity" : "Common",
-  "price" : 186.66,
+  "price" : 187.09,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} So chocolatey.",
   "shortdescription" : "Dark Chocolate",
-  "foodValue" : 18.5,
+  "foodValue" : 85.64,
   "effects" : [[
     {
       "effect" : "regeneration2",

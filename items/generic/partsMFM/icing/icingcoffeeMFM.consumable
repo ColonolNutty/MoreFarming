@@ -1,16 +1,16 @@
 {
   "itemName" : "icingcoffeeMFM",
   "rarity" : "Common",
-  "price" : 179.15,
+  "price" : 182.43,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Coffee flavoured icing. Wake up!",
   "shortdescription" : "Icing - Coffee",
-  "foodValue" : 18.5,
+  "foodValue" : 71.74,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 6
+      "duration" : 147
     },
     {
       "effect" : "energyregen",

@@ -2,7 +2,7 @@
   "objectName" : "eggchestMFMred",
   "colonyTags" : [ "easter", "storage" ],
   "rarity" : "Uncommon",
-  "price" : 250.0,
+  "price" : 1.0,
   "category" : "storage",
   "objectType" : "container",
   "tooltipKind" : "container",

@@ -2,7 +2,7 @@
   "objectName" : "easterbunnyshopMFM",
   "colonyTags" : [ "easter", "shop" ],
   "rarity" : "Common",
-  "price" : 5.0,
+  "price" : 1.0,
   "category" : "other",
   "printable" : false,
   "description" : "This shop offers various Easter related items (and some other goodies).",

@@ -1,12 +1,12 @@
 {
   "itemName" : "californiamakiMSM",
   "rarity" : "Uncommon",
-  "price" : 395.22,
+  "price" : 397.37,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Chopped cucumber, lemon juice, and raw fish packed in a rice ball.",
   "shortdescription" : "Maki - California",
-  "foodValue" : 86.66,
+  "foodValue" : 108.18,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

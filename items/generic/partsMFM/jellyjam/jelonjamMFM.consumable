@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Jam made from jelons.",
   "shortdescription" : "Jam - Jelon",
-  "foodValue" : 52.6,
+  "foodValue" : 61.0,
   "effects" : [[
     {
       "effect" : "swimboost",

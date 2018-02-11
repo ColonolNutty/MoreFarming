@@ -1,12 +1,12 @@
 {
   "itemName" : "icingvanillaMFM",
   "rarity" : "Common",
-  "price" : 78.24,
+  "price" : 78.67,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Vanilla flavoured icing. Treat yourself!",
   "shortdescription" : "Icing - Vanilla",
-  "foodValue" : 10.0,
+  "foodValue" : 31.0,
   "effects" : [[
     {
       "effect" : "regeneration2",

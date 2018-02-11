@@ -7,7 +7,7 @@
   "tooltipKind" : "food",
   "description" : "(PRESS):-} Sausage links, contains steak and poultry",
   "shortdescription" : "Raw Sausage",
-  "foodValue" : 11.03,
+  "foodValue" : 21.0,
   "effects" : [[
     {
       "effect" : "foodpoison",

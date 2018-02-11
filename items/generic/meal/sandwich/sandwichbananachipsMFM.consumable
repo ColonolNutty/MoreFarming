@@ -1,16 +1,20 @@
 {
   "itemName" : "sandwichbananachipsMFM",
   "rarity" : "Uncommon",
-  "price" : 672.17,
+  "price" : 672.93,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with chips and bananas.",
   "shortdescription" : "Sandwich - Chipanana",
-  "foodValue" : 74.72,
+  "foodValue" : 132.49,
   "effects" : [[
     {
       "effect" : "camouflage25",
       "duration" : 14
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 22
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

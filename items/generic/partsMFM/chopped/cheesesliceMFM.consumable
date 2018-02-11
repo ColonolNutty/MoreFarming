@@ -1,12 +1,12 @@
 {
   "itemName" : "cheesesliceMFM",
   "rarity" : "Common",
-  "price" : 20.9,
+  "price" : 22.25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} A slice of cheese.",
   "shortdescription" : "Cheese Slice",
-  "foodValue" : 10.0,
+  "foodValue" : 21.59,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

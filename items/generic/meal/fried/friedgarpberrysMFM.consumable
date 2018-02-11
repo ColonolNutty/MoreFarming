@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(FRY):-} Tasty fried garpberrys.",
   "shortdescription" : "Fried Garpberrys",
-  "foodValue" : 13.26,
+  "foodValue" : 21.0,
   "effects" : [[
     {
       "effect" : "nova",

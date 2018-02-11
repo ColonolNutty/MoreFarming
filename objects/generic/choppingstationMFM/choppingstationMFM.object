@@ -2,7 +2,7 @@
   "objectName" : "choppingstationMFM",
   "colonyTags" : [ "human", "humanvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 63.15,
+  "price" : 53.1,
   "category" : "Cookware",
   "objectType" : "container",
   "printable" : false,

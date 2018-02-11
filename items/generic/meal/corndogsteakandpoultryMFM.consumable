@@ -1,16 +1,20 @@
 {
   "itemName" : "corndogsteakandpoultryMFM",
   "rarity" : "Common",
-  "price" : 23.51,
+  "price" : 23.67,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FRY):-} A steak and poultry sausage breaded and deep-fried.",
   "shortdescription" : "Corn Dog",
-  "foodValue" : 14.68,
+  "foodValue" : 43.58,
   "effects" : [[
     {
       "effect" : "camouflage25",
       "duration" : 7
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 11
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

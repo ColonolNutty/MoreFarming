@@ -1,12 +1,18 @@
 {
   "itemName" : "snowconeredMFM",
   "rarity" : "Common",
-  "price" : 107.88,
+  "price" : 108.99,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} A red snow cone.",
   "shortdescription" : "Snow Cone - Red",
-  "foodValue" : 156.23,
+  "foodValue" : 176.08,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 189
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

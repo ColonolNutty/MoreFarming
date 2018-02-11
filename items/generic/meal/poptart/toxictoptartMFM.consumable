@@ -1,12 +1,12 @@
 {
   "itemName" : "toxictoptartMFM",
   "rarity" : "Common",
-  "price" : 1030.68,
+  "price" : 1036.6,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A sweet treat made from a bitter fruit.",
   "shortdescription" : "Poptart - Toxictop",
-  "foodValue" : 64.79,
+  "foodValue" : 228.19,
   "effects" : [[
     {
       "effect" : "regeneration2",

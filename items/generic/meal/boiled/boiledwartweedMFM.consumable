@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledwartweedMFM",
   "rarity" : "Common",
-  "price" : 154.35,
+  "price" : 156.4,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A wartweed boiled in water.",
   "shortdescription" : "Boiled Wartweed",
-  "foodValue" : 10.0,
+  "foodValue" : 31.0,
   "effects" : [[
     {
       "effect" : "weakpoison",

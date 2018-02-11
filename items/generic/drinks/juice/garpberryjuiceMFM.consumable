@@ -1,12 +1,12 @@
 {
   "itemName" : "garpberryjuiceMFM",
   "rarity" : "Common",
-  "price" : 88.2,
+  "price" : 90.25,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Garpberry juice! It has a mildly juciey flavor.",
   "shortdescription" : "Juice - Garpberry",
-  "foodValue" : 11.03,
+  "foodValue" : 31.53,
   "effects" : [[
     {
       "effect" : "nova",

@@ -1,12 +1,12 @@
 {
   "itemName" : "toxictopjuiceMFM",
   "rarity" : "Common",
-  "price" : 220.5,
+  "price" : 222.55,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Looks toxic..",
   "shortdescription" : "Juice - Toxictop",
-  "foodValue" : 11.03,
+  "foodValue" : 31.53,
   "effects" : [[
     {
       "effect" : "weakpoison",

@@ -1,12 +1,12 @@
 {
   "itemName" : "tofuMFM",
   "rarity" : "Common",
-  "price" : 86.86,
+  "price" : 94.01,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} It is squishy.",
   "shortdescription" : "Tofu",
-  "foodValue" : 12.43,
+  "foodValue" : 109.31,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

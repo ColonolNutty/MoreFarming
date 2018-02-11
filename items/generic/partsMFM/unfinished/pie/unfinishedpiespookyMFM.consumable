@@ -1,12 +1,12 @@
 {
   "itemName" : "unfinishedpiespookyMFM",
   "rarity" : "Common",
-  "price" : 717.74,
+  "price" : 732.88,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A pie shell filled with chopped boneboos. Ready for baking.",
   "shortdescription" : "Pie Unfinished - Spooky",
-  "foodValue" : 115.03,
+  "foodValue" : 430.85,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

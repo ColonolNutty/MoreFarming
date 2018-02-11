@@ -1,12 +1,12 @@
 {
   "itemName" : "ebimakiMSM",
   "rarity" : "Uncommon",
-  "price" : 660.16,
+  "price" : 662.89,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Cooked shrimp and tamari packed in a rice ball.",
   "shortdescription" : "Maki - Ebi",
-  "foodValue" : 129.76,
+  "foodValue" : 174.38,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

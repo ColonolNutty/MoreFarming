@@ -1,16 +1,20 @@
 {
   "itemName" : "pbandbananaPBJ",
   "rarity" : "Uncommon",
-  "price" : 304.06,
+  "price" : 306.31,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with peanut butter and bananas.",
   "shortdescription" : "Sandwich - PB+Banana",
-  "foodValue" : 68.28,
+  "foodValue" : 108.73,
   "effects" : [[
     {
       "effect" : "camouflage25",
       "duration" : 158
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 184
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -2,7 +2,7 @@
   "objectName" : "preparationstationMFM",
   "colonyTags" : [ "human", "humanvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 20.1,
+  "price" : 10.05,
   "category" : "Cookware",
   "objectType" : "container",
   "printable" : false,

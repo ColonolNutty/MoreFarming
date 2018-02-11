@@ -1,12 +1,12 @@
 {
   "itemName" : "lollipopMFM",
   "rarity" : "Common",
-  "price" : 77.04,
+  "price" : 80.66,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A sweet candy sucker.",
   "shortdescription" : "Lollipop",
-  "foodValue" : 10.0,
+  "foodValue" : 59.59,
   "effects" : [[
     {
       "effect" : "runboostfood",

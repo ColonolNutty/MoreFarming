@@ -1,12 +1,12 @@
 {
   "itemName" : "garpberryicecreamMFM",
   "rarity" : "Common",
-  "price" : 451.74,
+  "price" : 446.02,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} A lovely icecream made with a garpberry-taste. Mmmm",
   "shortdescription" : "Ice Cream - Garpberry",
-  "foodValue" : 55.74,
+  "foodValue" : 276.24,
   "effects" : [[
     {
       "effect" : "regeneration2",

@@ -1,12 +1,12 @@
 {
   "itemName" : "marshmallowcoveredsweetpotatoMFM",
   "rarity" : "Common",
-  "price" : 193.63,
+  "price" : 197.4,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A baked sweet potato with butter, covered in marshmallows.",
   "shortdescription" : "Marshmallow Sw. Potato",
-  "foodValue" : 19.1,
+  "foodValue" : 91.01,
   "effects" : [[
     {
       "effect" : "regeneration2",

@@ -1,12 +1,12 @@
 {
   "itemName" : "milkshakewhitechocolateMFM",
   "rarity" : "Common",
-  "price" : 355.14,
+  "price" : 367.17,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A milkshake made with white chocolate. Yum!",
   "shortdescription" : "Milkshake - White Chocolate",
-  "foodValue" : 45.97,
+  "foodValue" : 265.29,
   "effects" : [[
     {
       "effect" : "regeneration2",

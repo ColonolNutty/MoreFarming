@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A brownie made of delicious dark chocolate.",
   "shortdescription" : "Brownie - Chocolate",
-  "foodValue" : 14.92,
+  "foodValue" : 31.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

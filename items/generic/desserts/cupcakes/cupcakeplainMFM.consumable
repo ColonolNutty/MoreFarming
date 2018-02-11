@@ -1,12 +1,12 @@
 {
   "itemName" : "cupcakeplainMFM",
   "rarity" : "Common",
-  "price" : 54.9,
+  "price" : 56.35,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A cupcake with no icing.",
   "shortdescription" : "Cupcake - Plain",
-  "foodValue" : 10.77,
+  "foodValue" : 42.6,
   "effects" : [[
     {
       "effect" : "regeneration2",

@@ -1,12 +1,12 @@
 {
   "itemName" : "vanillaicecreamMFM",
   "rarity" : "Common",
-  "price" : 274.04,
+  "price" : 268.59,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} Vanilla ice cream.",
   "shortdescription" : "Snow Cone - Vanilla",
-  "foodValue" : 33.56,
+  "foodValue" : 243.56,
   "effects" : [[
     {
       "effect" : "regeneration2",

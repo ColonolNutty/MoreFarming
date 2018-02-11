@@ -1,12 +1,12 @@
 {
   "itemName" : "californiatemakiMSM",
   "rarity" : "Uncommon",
-  "price" : 470.74,
+  "price" : 472.9,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Chopped cucumber, lemon juice, and raw fish, wrapped in rice and kelp",
   "shortdescription" : "Temaki - California",
-  "foodValue" : 120.42,
+  "foodValue" : 149.68,
   "effects" : [[
     {
       "effect" : "camouflage25",

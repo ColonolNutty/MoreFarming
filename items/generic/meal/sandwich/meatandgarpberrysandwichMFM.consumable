@@ -1,12 +1,12 @@
 {
   "itemName" : "meatandgarpberrysandwichMFM",
   "rarity" : "Common",
-  "price" : 125.03,
+  "price" : 127.29,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Chunks of meat and garpberries sandwiched between bread.",
   "shortdescription" : "Sandwich - Mearpberry",
-  "foodValue" : 26.28,
+  "foodValue" : 66.73,
   "effects" : [[
     {
       "effect" : "nova",
@@ -14,7 +14,7 @@
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 189
+      "duration" : 373
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

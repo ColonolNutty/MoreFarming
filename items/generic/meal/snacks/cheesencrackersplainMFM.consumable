@@ -1,12 +1,12 @@
 {
   "itemName" : "cheesencrackersplainMFM",
   "rarity" : "Common",
-  "price" : 30.71,
+  "price" : 32.43,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Plain crackers topped with cheese.",
   "shortdescription" : "Cheese n' Crackers",
-  "foodValue" : 10.0,
+  "foodValue" : 33.17,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

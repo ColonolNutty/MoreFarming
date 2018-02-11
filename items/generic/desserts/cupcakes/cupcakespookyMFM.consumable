@@ -1,12 +1,12 @@
 {
   "itemName" : "cupcakespookyMFM",
   "rarity" : "Common",
-  "price" : 329.12,
+  "price" : 331.12,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A cupcake with spooky icing.",
   "shortdescription" : "Cupcake - Spooky",
-  "foodValue" : 29.97,
+  "foodValue" : 90.49,
   "effects" : [[
     {
       "effect" : "regeneration2",

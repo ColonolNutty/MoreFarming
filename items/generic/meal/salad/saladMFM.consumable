@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} A plain salad.",
   "shortdescription" : "Salad - Plain",
-  "foodValue" : 13.26,
+  "foodValue" : 21.0,
   "effects" : [[
     {
       "effect" : "camouflage25",

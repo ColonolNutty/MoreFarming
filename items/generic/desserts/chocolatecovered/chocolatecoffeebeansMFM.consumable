@@ -1,12 +1,12 @@
 {
   "itemName" : "chocolatecoffeebeansMFM",
   "rarity" : "Common",
-  "price" : 356.94,
+  "price" : 362.76,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Chocolate covered coffee beans.",
   "shortdescription" : "Choc. Covered Coffee Beans",
-  "foodValue" : 41.42,
+  "foodValue" : 176.25,
   "effects" : [[
     {
       "effect" : "regeneration2",

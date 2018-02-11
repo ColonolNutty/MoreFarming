@@ -1,12 +1,12 @@
 {
   "itemName" : "toppingwhippedcreamMFM",
   "rarity" : "Common",
-  "price" : 46.12,
+  "price" : 47.2,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Thick blended cream and sugar.",
   "shortdescription" : "Topping - Whipped Cream",
-  "foodValue" : 10.0,
+  "foodValue" : 27.77,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

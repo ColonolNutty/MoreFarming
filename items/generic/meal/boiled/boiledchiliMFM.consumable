@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledchiliMFM",
   "rarity" : "Common",
-  "price" : 231.53,
+  "price" : 233.58,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Chili boiled in water.",
   "shortdescription" : "Boiled Chili",
-  "foodValue" : 11.03,
+  "foodValue" : 31.53,
   "effects" : [[
     {
       "effect" : "burning",

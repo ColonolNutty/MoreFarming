@@ -1,12 +1,12 @@
 {
   "itemName" : "cupcakebatterMFM",
   "rarity" : "Common",
-  "price" : 52.29,
+  "price" : 53.67,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Its bloody raw!",
   "shortdescription" : "Batter - Cupcake",
-  "foodValue" : 10.26,
+  "foodValue" : 40.57,
   "effects" : [[
     {
       "effect" : "regeneration2",

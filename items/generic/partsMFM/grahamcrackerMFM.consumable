@@ -1,12 +1,12 @@
 {
   "itemName" : "grahamcrackerMFM",
   "rarity" : "Common",
-  "price" : 31.16,
+  "price" : 32.33,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Golden brown graham cracker; Good for snacking on or making smores.",
   "shortdescription" : "Graham Cracker",
-  "foodValue" : 10.0,
+  "foodValue" : 26.0,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

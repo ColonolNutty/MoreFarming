@@ -1,12 +1,12 @@
 {
   "itemName" : "steamedcauliflowerMFM",
   "rarity" : "Common",
-  "price" : 102.5,
+  "price" : 103.55,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FRY):-} Cauliflower steamed in water.",
   "shortdescription" : "Steamed Cauliflower",
-  "foodValue" : 20.5,
+  "foodValue" : 31.0,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

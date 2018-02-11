@@ -1,12 +1,12 @@
 {
   "itemName" : "pizzadoughMFM",
   "rarity" : "Common",
-  "price" : 56.18,
+  "price" : 57.89,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A base for making pizza.",
   "shortdescription" : "Dough - Pizza",
-  "foodValue" : 10.0,
+  "foodValue" : 47.78,
   "effects" : [[
     {
       "effect" : "camouflage25",

@@ -1,12 +1,12 @@
 {
   "itemName" : "baconandeggsMFM",
   "rarity" : "Uncommon",
-  "price" : 139.28,
+  "price" : 144.89,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Nothing beats a breakfast of bacon and eggs.",
   "shortdescription" : "Bacon and Eggs",
-  "foodValue" : 35.74,
+  "foodValue" : 119.42,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

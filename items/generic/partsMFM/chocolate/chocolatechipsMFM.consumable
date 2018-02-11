@@ -1,12 +1,12 @@
 {
   "itemName" : "chocolatechipsMFM",
   "rarity" : "Common",
-  "price" : 64.43,
+  "price" : 65.88,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Little chocolate bits.",
   "shortdescription" : "Chocolate Chips",
-  "foodValue" : 10.0,
+  "foodValue" : 41.31,
   "effects" : [[
     {
       "effect" : "regeneration2",

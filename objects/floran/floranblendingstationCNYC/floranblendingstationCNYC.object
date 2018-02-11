@@ -2,7 +2,7 @@
   "objectName" : "floranblendingstationCNYC",
   "colonyTags" : [ "floran", "floranvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 30.15,
+  "price" : 20.1,
   "category" : "Floran Cookware",
   "objectType" : "container",
   "printable" : false,

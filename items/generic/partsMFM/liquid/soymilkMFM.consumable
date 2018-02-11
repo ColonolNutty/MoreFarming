@@ -1,12 +1,12 @@
 {
   "itemName" : "soymilkMFM",
   "rarity" : "Common",
-  "price" : 72.22,
+  "price" : 76.87,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Milk made from soy beans",
   "shortdescription" : "Soy Milk",
-  "foodValue" : 11.58,
+  "foodValue" : 74.58,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

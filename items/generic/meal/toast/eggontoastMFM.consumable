@@ -1,16 +1,20 @@
 {
   "itemName" : "eggontoastMFM",
   "rarity" : "Common",
-  "price" : 32.08,
+  "price" : 32.24,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} An egg, but on toast.",
   "shortdescription" : "Toast - Egg",
-  "foodValue" : 14.26,
+  "foodValue" : 33.08,
   "effects" : [[
     {
       "effect" : "camouflage25",
       "duration" : 7
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 11
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

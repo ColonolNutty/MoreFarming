@@ -1,12 +1,12 @@
 {
   "itemName" : "toastbutteredMFM",
   "rarity" : "Common",
-  "price" : 18.9,
+  "price" : 20.19,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Hot buttered toast.",
   "shortdescription" : "Toast - Buttered",
-  "foodValue" : 10.0,
+  "foodValue" : 29.16,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",
@@ -18,7 +18,7 @@
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 14
+      "duration" : 25
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

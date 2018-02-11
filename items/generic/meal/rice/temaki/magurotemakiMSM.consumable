@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} Raw tuna and cucumber, wrapped in rice and kelp.",
   "shortdescription" : "Temaki - Marguro",
-  "foodValue" : 108.84,
+  "foodValue" : 116.57,
   "effects" : [[
     {
       "effect" : "camouflage25",

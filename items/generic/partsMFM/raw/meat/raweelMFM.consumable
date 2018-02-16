@@ -9,7 +9,7 @@
   "shortdescription" : "Raw Eel",
   "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1,
+  "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 0.5,
   "blockingEffects" : [ "wellfed" ],

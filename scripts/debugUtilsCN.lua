@@ -59,6 +59,12 @@ function DebugUtilsCN.enableDebug()
   debugUtils.setDebugState(nil, nil, true);
 end
 
+function DebugUtilsCN.logInfo(msg, indentAmt)
+  if(debugLoggingEnabled) then
+    sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " " .. debugUtils.getIndentString(indentAmt) .. msg)
+  end
+end
+
 function DebugUtilsCN.logDebug(msg, indentAmt)
   if(debugLoggingEnabled and storage.enableDebug) then
     sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " " .. debugUtils.getIndentString(indentAmt) .. msg)

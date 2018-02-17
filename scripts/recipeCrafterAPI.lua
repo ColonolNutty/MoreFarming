@@ -6,11 +6,12 @@ RecipeCrafterMFMApi = {
 local rcUtils = {};
 local isCrafting = false;
 
-function RecipeCrafterMFMApi.init(msgPrefix)
+function RecipeCrafterMFMApi.init(msgPrefix, versioningConfig)
   if(msgPrefix ~= nil) then
     RecipeCrafterMFMApi.debugMsgPrefix = msgPrefix
   end
   DebugUtilsCN.init(RecipeCrafterMFMApi.debugMsgPrefix)
+  rcUtils.printMetaData(versioningConfig)
   DebugUtilsCN.logDebug("Initializing API");
   local outputConfigPath = config.getParameter("outputConfig")
   if outputConfigPath == nil then
@@ -55,6 +56,17 @@ function RecipeCrafterMFMApi.init(msgPrefix)
   storage.appendNewOutputToCurrentOutput = true;
   -------------------------
   message.setHandler("craft", RecipeCrafterMFMApi.craftItem)
+end
+
+function rcUtils.printMetaData(versioningConfig)
+  if versioningConfig == nil then
+    return
+  end
+  local metadata = root.assetJson(versioningConfig)
+  if(metadata) then
+    DebugUtilsCN.logInfo("----- Recipe Crafter Init -----")
+    DebugUtilsCN.logInfo("Running with " .. metadata.friendlyName .. " " .. metadata.version)
+  end
 end
 
 function RecipeCrafterMFMApi.update(dt)

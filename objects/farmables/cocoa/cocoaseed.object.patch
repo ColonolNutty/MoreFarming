@@ -2,6 +2,17 @@
   [
     {
       "op" : "test",
+      "path" : "/stages/3/resetToStage",
+      "value" : 2
+    },
+    {
+      "op" : "remove",
+      "path" : "/stages/3/resetToStage"
+    }
+  ],
+  [
+    {
+      "op" : "test",
       "path" : "/price",
       "inverse" : true
     },

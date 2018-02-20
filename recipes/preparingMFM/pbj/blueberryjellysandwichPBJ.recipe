@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "blueberryjellyPBJ", "count" : 1 },
-    { "item" : "bread", "count" : 2 }
+    { "item" : "breadsliceMFM", "count" : 2 }
   ],
   "output" : { "item" : "blueberryjellysandwichPBJ", "count" : 1 },
   "groups" : [ "preparingMFM" ]

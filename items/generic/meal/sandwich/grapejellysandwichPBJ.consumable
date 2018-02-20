@@ -1,16 +1,16 @@
 {
   "itemName" : "grapejellysandwichPBJ",
   "rarity" : "Uncommon",
-  "price" : 657.54,
+  "price" : 639.09,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with grape jelly.",
   "shortdescription" : "Sandwich - Grape Jelly",
-  "foodValue" : 98.23,
+  "foodValue" : 73.53,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 184
+      "duration" : 22
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

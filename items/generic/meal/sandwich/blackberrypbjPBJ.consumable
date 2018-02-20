@@ -1,12 +1,12 @@
 {
   "itemName" : "blackberrypbjPBJ",
   "rarity" : "Uncommon",
-  "price" : 445.44,
+  "price" : 426.99,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with blueberry jelly.",
   "shortdescription" : "Sandwich - Blackberry PB+J",
-  "foodValue" : 151.25,
+  "foodValue" : 126.55,
   "effects" : [[
     {
       "effect" : "fireblock",
@@ -18,7 +18,7 @@
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 184
+      "duration" : 22
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

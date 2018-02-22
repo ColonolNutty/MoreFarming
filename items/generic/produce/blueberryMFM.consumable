@@ -1,12 +1,12 @@
 {
-  "itemName" : "blueberriesPBJ",
+  "itemName" : "blueberryMFM",
   "rarity" : "Common",
   "price" : 50.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
-  "description" : "Sweet and blue!",
-  "shortdescription" : "Blueberries",
+  "description" : "A small dark blue sphere with a star pattern on top. It oozes with juices.",
+  "shortdescription" : "Blueberry",
   "foodValue" : 10.0,
   "effects" : [[
     {
@@ -19,5 +19,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "blueberriesPBJ.png"
+  "inventoryIcon" : "blueberryMFM.png"
 }

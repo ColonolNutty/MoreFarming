@@ -142,7 +142,7 @@
           {"item" : "blueberriesPBJseed"}
         ],
         "pool" : [
-          {"weight" : 0.89, "item" : "blueberriesPBJ"},
+          {"weight" : 0.89, "item" : "blueberryMFM"},
           {"weight" : 0.01, "item" : "blueberriesPBJseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],

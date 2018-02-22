@@ -62,7 +62,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : "blueberriesPBJ" }
+    "value" : { "item" : "blueberryMFM" }
   },
   {
     "op" : "add",

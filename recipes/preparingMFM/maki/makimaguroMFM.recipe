@@ -4,6 +4,6 @@
     { "item" : "rawtunaMFM", "count" : 1 },
     { "item" : "choppedcucumberMFM", "count" : 1 }
   ],
-  "output" : { "item" : "maguromakiMSM", "count" : 1 },
+  "output" : { "item" : "makimaguroMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

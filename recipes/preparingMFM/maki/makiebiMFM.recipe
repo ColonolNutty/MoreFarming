@@ -4,6 +4,6 @@
     { "item" : "tamariMFM", "count" : 1 },
     { "item" : "cookedshrimpMFM", "count" : 1 }
   ],
-  "output" : { "item" : "ebimakiMSM", "count" : 1 },
+  "output" : { "item" : "makiebiMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

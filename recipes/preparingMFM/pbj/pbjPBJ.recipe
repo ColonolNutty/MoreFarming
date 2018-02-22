@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "grapejellyPBJ", "count" : 1 },
+    { "item" : "jellygrapeMFM", "count" : 1 },
     { "item" : "peanutbutterPBJ", "count" : 1 },
     { "item" : "breadsliceMFM", "count" : 2 }
   ],

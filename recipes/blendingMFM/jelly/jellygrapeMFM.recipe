@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "grapes", "count" : 5 }
   ],
-  "output" : { "item" : "grapejellyPBJ", "count" : 1 },
+  "output" : { "item" : "jellygrapeMFM", "count" : 1 },
   "groups" : [ "blendingMFM" ]
 }

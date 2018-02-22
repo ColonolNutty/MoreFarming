@@ -12,6 +12,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "grapejellyPBJ.png",
+  "inventoryIcon" : "obsoletegrapejellyPBJ.png",
   "handPosition" : [ 0, -2 ]
 }

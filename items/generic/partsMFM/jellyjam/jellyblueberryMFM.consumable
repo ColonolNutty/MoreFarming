@@ -1,10 +1,10 @@
 {
-  "itemName" : "blueberryjellyPBJ",
+  "itemName" : "jellyblueberryMFM",
   "rarity" : "Uncommon",
   "price" : 252.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(BLEND):-} Jelly made from blueberries.",
+  "description" : "(BLEND):-} A bluish jelly made from blueberries.",
   "shortdescription" : "Jelly - Blueberry",
   "foodValue" : 50.5,
   "effects" : [[
@@ -18,6 +18,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "blueberryjellyPBJ.png",
+  "inventoryIcon" : "jellyblueberryMFM.png",
   "handPosition" : [ 0, -2 ]
 }

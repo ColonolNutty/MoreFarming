@@ -122,7 +122,7 @@
           {"item" : "blackberryPBJseed"}
         ],
         "pool" : [
-          {"weight" : 0.89, "item" : "blackberryPBJ"},
+          {"weight" : 0.89, "item" : "blackberryMFM"},
           {"weight" : 0.01, "item" : "blackberryPBJseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],

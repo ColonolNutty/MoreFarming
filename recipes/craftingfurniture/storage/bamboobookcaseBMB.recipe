@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "bamboostalkBMB", "count" : 15 }
+    { "item" : "bamboostalkMFM", "count" : 15 }
   ],
   "output" : { "item" : "bamboobookcaseBMB", "count" : 1 },
   "groups" : [ "craftingfurniture", "storage", "objects", "all" ]

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "bamboostalkBMB", "count" : 10 }
+    { "item" : "bamboostalkMFM", "count" : 10 }
   ],
   "output" : { "item" : "bambooBMBshoot", "count" : 1 },
   "groups" : [ "germinatingMFM", "fibreMFM" ]

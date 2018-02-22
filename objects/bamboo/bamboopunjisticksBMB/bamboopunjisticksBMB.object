@@ -97,5 +97,5 @@
     },
     "emissionVariance" : 0.05
   },
-  "breakDropOptions" : [[[ "bamboostalkBMB", 3, { } ]]]
+  "breakDropOptions" : [[[ "bamboostalkMFM", 3, { } ]]]
 }

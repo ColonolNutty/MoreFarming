@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "bamboostalkBMB", "count" : 3 },
+    { "item" : "bamboostalkMFM", "count" : 3 },
     { "item" : "ironbar", "count" : 1 }
   ],
   "output" : { "item" : "hylotlchoppingstationCNYC", "count" : 1 },

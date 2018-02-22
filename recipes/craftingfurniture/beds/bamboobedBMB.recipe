@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "bamboostalkBMB", "count" : 15 },
+    { "item" : "bamboostalkMFM", "count" : 15 },
     { "item" : "fabric", "count" : 5 }
   ],
   "output" : { "item" : "bamboobedBMB", "count" : 1 },

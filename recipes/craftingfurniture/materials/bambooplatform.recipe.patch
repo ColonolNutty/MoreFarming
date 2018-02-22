@@ -3,7 +3,7 @@
 		"op": "replace",
 		"path": "/input",
 		"value":  [
-      { "item" : "bamboostalkBMB", "count" : 2 }
+      { "item" : "bamboostalkMFM", "count" : 2 }
     ]
 	}
 ]

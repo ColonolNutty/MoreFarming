@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "bamboostalkBMB", "count" : 10 }
+    { "item" : "bamboostalkMFM", "count" : 10 }
   ],
   "output" : { "item" : "bambooscreenBMB", "count" : 1 },
   "groups" : [ "craftingfurniture", "decoration", "objects", "all" ]

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "bamboostalkBMB", "count" : 5 },
+    { "item" : "bamboostalkMFM", "count" : 5 },
     { "item" : "glass", "count" : 2 }
   ],
   "output" : { "item" : "hylotlpurifierstationCNYC", "count" : 1 },

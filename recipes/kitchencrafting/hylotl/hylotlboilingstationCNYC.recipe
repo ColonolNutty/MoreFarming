@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "bamboostalkBMB", "count" : 5 },
+    { "item" : "bamboostalkMFM", "count" : 5 },
     { "item" : "copperbar", "count" : 2 }
   ],
   "output" : { "item" : "hylotlboilingstationCNYC", "count" : 1 },

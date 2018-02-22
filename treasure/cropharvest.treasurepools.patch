@@ -77,7 +77,7 @@
           {"item" : "bambooBMBshoot"}
         ],
         "pool" : [
-          {"weight" : 0.89, "item" : "bamboostalkBMB"},
+          {"weight" : 0.89, "item" : "bamboostalkMFM"},
           {"weight" : 0.01, "item" : "bambooBMBshoot"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],
@@ -491,7 +491,7 @@
         ],
         "pool" : [
           {"weight" : 0.5, "item" : "bambooBMBshoot"},
-          {"weight" : 0.5, "item" : "bamboostalkBMB"},
+          {"weight" : 0.5, "item" : "bamboostalkMFM"},
           {"weight" : 0.1, "item" : "greatbambooMFMseed"}
         ],
         "poolRounds" : [

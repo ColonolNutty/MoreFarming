@@ -47,7 +47,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : "bamboostalkBMB" }
+    "value" : { "item" : "bamboostalkMFM" }
   },
   {
     "op" : "add",

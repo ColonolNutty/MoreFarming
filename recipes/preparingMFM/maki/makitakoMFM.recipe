@@ -4,6 +4,6 @@
     { "item" : "cookedoctopusMFM", "count" : 1 },
     { "item" : "choppedcucumberMFM", "count" : 1 }
   ],
-  "output" : { "item" : "takomakiMSM", "count" : 1 },
+  "output" : { "item" : "makitakoMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

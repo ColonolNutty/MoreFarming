@@ -2,9 +2,9 @@
   "itemName" : "californiatemakiMSM",
   "rarity" : "Uncommon",
   "price" : 472.9,
-  "category" : "drink",
+  "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} Chopped cucumber, lemon juice, and raw fish, wrapped in rice and kelp",
+  "description" : "Chopped cucumber, lemon juice, and raw fish, wrapped in rice and kelp",
   "shortdescription" : "Temaki - California",
   "foodValue" : 149.68,
   "effects" : [[
@@ -30,5 +30,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "californiatemakiMSM.png"
+  "inventoryIcon" : "obsoletecaliforniatemakiMSM.png"
 }

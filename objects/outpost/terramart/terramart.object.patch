@@ -242,7 +242,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : "peanutPBJ" }
+    "value" : { "item" : "peanutshelledMFM" }
   },
   {
     "op" : "add",

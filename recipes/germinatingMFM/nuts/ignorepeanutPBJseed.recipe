@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "peanutPBJ", "count" : 10 }
+    { "item" : "peanutshelledMFM", "count" : 10 }
   ],
   "output" : { "item" : "peanutPBJseed", "count" : 1 },
   "groups" : [ "germinatingMFM", "nutMFM" ]

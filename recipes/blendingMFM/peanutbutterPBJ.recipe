@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "peanutPBJ", "count" : 5 }
+    { "item" : "peanutshelledMFM", "count" : 5 }
   ],
   "output" : { "item" : "peanutbutterPBJ", "count" : 1 },
   "groups" : [ "blendingMFM" ]

@@ -1,12 +1,12 @@
 {
-  "itemName" : "peanutPBJ",
+  "itemName" : "peanutshelledMFM",
   "rarity" : "Common",
   "price" : 30.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
-  "description" : "Peanuts in space!",
-  "shortdescription" : "Peanut",
+  "description" : "A hard-shelled nut with an hourglass shape.",
+  "shortdescription" : "Shelled Peanut",
   "foodValue" : 10.0,
   "effects" : [[
     {
@@ -19,5 +19,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "peanutPBJ.png"
+  "inventoryIcon" : "peanutshelledMFM.png"
 }

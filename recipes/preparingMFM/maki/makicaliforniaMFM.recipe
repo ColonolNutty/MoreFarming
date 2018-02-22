@@ -5,6 +5,6 @@
     { "item" : "rawfish", "count" : 1 },
     { "item" : "choppedcucumberMFM", "count" : 1 }
   ],
-  "output" : { "item" : "californiamakiMSM", "count" : 1 },
+  "output" : { "item" : "makicaliforniaMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

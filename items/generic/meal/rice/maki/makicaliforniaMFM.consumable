@@ -1,10 +1,10 @@
 {
-  "itemName" : "californiamakiMSM",
+  "itemName" : "makicaliforniaMFM",
   "rarity" : "Uncommon",
   "price" : 397.37,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} Chopped cucumber, lemon juice, and raw fish packed in a rice ball.",
+  "description" : "(PREP):-} Chopped cucumber, lemon juice, and raw fish packed in a ball of rice.",
   "shortdescription" : "Maki - California",
   "foodValue" : 108.18,
   "effects" : [[
@@ -26,6 +26,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "californiamakiMSM.png",
+  "inventoryIcon" : "makicaliforniaMFM.png",
   "handPosition" : [ 0, -4 ]
 }

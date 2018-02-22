@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "gingerMSM", "count" : 1 }
+    { "item" : "gingerMFM", "count" : 1 }
   ],
   "output" : { "item" : "groundgingerMFM", "count" : 5 },
   "groups" : [ "millingMFM" ]

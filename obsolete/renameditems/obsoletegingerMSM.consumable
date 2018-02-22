@@ -19,5 +19,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "gingerMSM.png"
+  "inventoryIcon" : "obsoletegingerMSM.png"
 }

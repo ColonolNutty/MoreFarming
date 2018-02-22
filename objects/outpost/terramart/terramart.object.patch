@@ -137,7 +137,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : "gingerMSM" }
+    "value" : { "item" : "gingerMFM" }
   },
   {
     "op" : "add",

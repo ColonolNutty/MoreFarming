@@ -455,7 +455,7 @@
           {"item" : "gingerMSMseed"}
         ],
         "pool" : [
-          {"weight" : 0.89, "item" : "gingerMSM"},
+          {"weight" : 0.89, "item" : "gingerMFM"},
           {"weight" : 0.01, "item" : "gingerMSMseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "gingerMSM", "count" : 1 }
+    { "item" : "gingerMFM", "count" : 1 }
   ],
   "output" : { "item" : "choppedgingerMFM", "count" : 1 },
   "groups" : [ "choppingMFM" ]

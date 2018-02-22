@@ -1108,7 +1108,7 @@
           {"item" : "strawberryPBJseed"}
         ],
         "pool" : [
-          {"weight" : 0.89, "item" : "strawberriesPBJ"},
+          {"weight" : 0.89, "item" : "strawberryMFM"},
           {"weight" : 0.01, "item" : "strawberryPBJseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],

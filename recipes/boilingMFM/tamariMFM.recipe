@@ -3,6 +3,6 @@
     { "item" : "boiledsoybeansMFM", "count" : 1 },
     { "item" : "rice", "count" : 5 }
   ],
-  "output" : { "item" : "tamariMSM", "count" : 1 },
+  "output" : { "item" : "tamariMFM", "count" : 1 },
   "groups" : [ "boilingMFM" ]
 }

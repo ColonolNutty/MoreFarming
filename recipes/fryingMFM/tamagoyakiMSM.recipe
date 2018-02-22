@@ -4,7 +4,7 @@
     { "item" : "saltMFM", "count" : 1 },
     { "item" : "egg", "count" : 4 },
     { "item" : "sugar", "count" : 1 },
-    { "item" : "tamariMSM", "count" : 1 }
+    { "item" : "tamariMFM", "count" : 1 }
   ],
   "output" : { "item" : "tamagoyakiMSM", "count" : 1 },
   "groups" : [ "fryingMFM" ]

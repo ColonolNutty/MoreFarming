@@ -252,7 +252,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : "tamariMSM" }
+    "value" : { "item" : "tamariMFM" }
   },
   {
     "op" : "add",

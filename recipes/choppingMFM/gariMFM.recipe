@@ -4,6 +4,6 @@
     { "item" : "vinegarMFM", "count" : 1 },
     { "item" : "sugar", "count" : 1 }
   ],
-  "output" : { "item" : "gariMSM", "count" : 1 },
+  "output" : { "item" : "gariMFM", "count" : 1 },
   "groups" : [ "choppingMFM" ]
 }

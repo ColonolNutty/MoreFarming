@@ -1,10 +1,10 @@
 {
-  "itemName" : "unagitemakiMSM",
+  "itemName" : "temakiunagiMFM",
   "rarity" : "Uncommon",
   "price" : 414.1,
-  "category" : "drink",
+  "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} Cooked eel and cucumber, wrapped in rice and kelp.",
+  "description" : "(PREP):-} Cooked eel and cucumber, wrapped in a ball of rice and kelp.",
   "shortdescription" : "Temaki - Unagi",
   "foodValue" : 117.6,
   "effects" : [[
@@ -22,5 +22,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "unagitemakiMSM.png"
+  "inventoryIcon" : "temakiunagiMFM.png"
 }

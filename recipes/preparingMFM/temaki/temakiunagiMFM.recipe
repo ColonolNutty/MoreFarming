@@ -6,6 +6,6 @@
     { "item" : "choppedcucumberMFM", "count" : 2 },
     { "item" : "cookingoilMFM", "count" : 1 }
   ],
-  "output" : { "item" : "unagitemakiMSM", "count" : 1 },
+  "output" : { "item" : "temakiunagiMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

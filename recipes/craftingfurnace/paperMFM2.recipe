@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "sugarcaneBMB", "count" : 3 }
+    { "item" : "sugarcanestalkMFM", "count" : 3 }
   ],
   "output" : { "item" : "paper", "count" : 5 },
   "groups" : [ "craftingfurnace", "ingredients" ]

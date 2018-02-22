@@ -5,7 +5,6 @@
   "category" : "craftingMaterial",
   "description" : "Freshly harvested Sugarcane stalk. Can be milled into Sugar.",
   "shortdescription" : "Sugarcane Stalk",
-  "inventoryIcon" : "sugarcaneBMB.png",
-  "itemTags" : [ "reagent" ],
-  "learnBlueprintsOnPickup" : [ "paper" ]
+  "inventoryIcon" : "obsoletesugarcaneBMB.png",
+  "itemTags" : [ "reagent" ]
 }

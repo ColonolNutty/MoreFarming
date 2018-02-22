@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "sugarcaneBMB", "count" : 10 }
+    { "item" : "sugarcanestalkMFM", "count" : 10 }
   ],
   "output" : { "item" : "sugarcaneseed", "count" : 1 },
   "groups" : [ "germinatingMFM", "grassMFM" ]

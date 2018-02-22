@@ -1148,7 +1148,7 @@
           {"item" : "sugarcaneseed"}
         ],
         "pool" : [
-          {"weight" : 0.89, "item" : "sugarcaneBMB"},
+          {"weight" : 0.89, "item" : "sugarcanestalkMFM"},
           {"weight" : 0.01, "item" : "sugarcaneseed"},
           {"weight" : 0.1, "item" : "plantfibre"}
         ],

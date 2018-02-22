@@ -332,6 +332,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "sugarcanestalkMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "sweetpotatoMFM" }
   },
   {

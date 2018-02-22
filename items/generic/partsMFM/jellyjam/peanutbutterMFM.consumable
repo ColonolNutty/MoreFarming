@@ -1,10 +1,10 @@
 {
-  "itemName" : "peanutbutterPBJ",
+  "itemName" : "peanutbutterMFM",
   "rarity" : "Uncommon",
   "price" : 151.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(BLEND):-} Buttery peanut butter, made from peanuts.",
+  "description" : "(BLEND):-} A brownish, buttery, and creamy spread, made from peanuts.",
   "shortdescription" : "Peanut Butter",
   "foodValue" : 50.5,
   "effects" : [[
@@ -18,6 +18,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "peanutbutterPBJ.png",
+  "inventoryIcon" : "peanutbutterMFM.png",
   "handPosition" : [ 0, -2 ]
 }

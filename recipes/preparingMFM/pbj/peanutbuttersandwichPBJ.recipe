@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "peanutbutterPBJ", "count" : 1 },
+    { "item" : "peanutbutterMFM", "count" : 1 },
     { "item" : "breadsliceMFM", "count" : 2 }
   ],
   "output" : { "item" : "peanutbuttersandwichPBJ", "count" : 1 },

@@ -1,0 +1,23 @@
+{
+  "itemName" : "peanutbutterPBJ",
+  "rarity" : "Uncommon",
+  "price" : 151.5,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BLEND):-} Buttery peanut butter, made from peanuts.",
+  "shortdescription" : "Peanut Butter",
+  "foodValue" : 50.5,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 151
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "obsoletepeanutbutterPBJ.png",
+  "handPosition" : [ 0, -2 ]
+}

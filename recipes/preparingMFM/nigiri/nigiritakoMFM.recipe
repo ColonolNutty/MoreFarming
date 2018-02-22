@@ -3,6 +3,6 @@
     { "item" : "rice", "count" : 4 },
     { "item" : "cookedoctopusMFM", "count" : 1 }
   ],
-  "output" : { "item" : "takonigiriMSM", "count" : 1 },
+  "output" : { "item" : "nigiritakoMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

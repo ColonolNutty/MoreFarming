@@ -1,10 +1,10 @@
 {
-  "itemName" : "avocadomakiMSM",
+  "itemName" : "makiavocadoMFM",
   "rarity" : "Uncommon",
   "price" : 303.71,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} Chopped avocado and ginger packed in a rice ball.",
+  "description" : "(PREP):-} Chopped avocado and ginger packed in a ball of rice.",
   "shortdescription" : "Maki - Avocado",
   "foodValue" : 75.08,
   "effects" : [[
@@ -26,6 +26,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "avocadomakiMSM.png",
+  "inventoryIcon" : "makiavocadoMFM.png",
   "handPosition" : [ 0, -4 ]
 }

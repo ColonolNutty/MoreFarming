@@ -3,6 +3,6 @@
     { "item" : "riceballMSM", "count" : 1 },
     { "item" : "choppedcucumberMFM", "count" : 2 }
   ],
-  "output" : { "item" : "kappamakiMSM", "count" : 1 },
+  "output" : { "item" : "makikappaMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

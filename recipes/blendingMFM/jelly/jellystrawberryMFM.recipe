@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "strawberryMFM", "count" : 5 }
   ],
-  "output" : { "item" : "strawberryjellyPBJ", "count" : 1 },
+  "output" : { "item" : "jellystrawberryMFM", "count" : 1 },
   "groups" : [ "blendingMFM" ]
 }

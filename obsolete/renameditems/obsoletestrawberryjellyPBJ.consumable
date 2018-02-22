@@ -1,0 +1,23 @@
+{
+  "itemName" : "strawberryjellyPBJ",
+  "rarity" : "Uncommon",
+  "price" : 252.5,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "Jelly made from strawberries.",
+  "shortdescription" : "Jelly - Strawberry",
+  "foodValue" : 50.5,
+  "effects" : [[
+    {
+      "effect" : "energyregen",
+      "duration" : 151
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "obsoletestrawberryjellyPBJ.png",
+  "handPosition" : [ 0, -2 ]
+}

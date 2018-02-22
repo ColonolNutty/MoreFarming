@@ -3,6 +3,6 @@
     { "item" : "sakeMFM", "count" : 1 },
     { "item" : "smokedsalmonMFM", "count" : 1 }
   ],
-  "output" : { "item" : "sakenigiriMSM", "count" : 1 },
+  "output" : { "item" : "nigirisakeMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

@@ -1,5 +1,5 @@
 {
-  "itemName" : "sakenigiriMSM",
+  "itemName" : "nigirisakeMFM",
   "rarity" : "Common",
   "price" : 330.12,
   "category" : "preparedFood",
@@ -12,6 +12,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "sakenigiriMSM.png",
+  "inventoryIcon" : "nigirisakeMFM.png",
   "handPosition" : [ 0, -4 ]
 }

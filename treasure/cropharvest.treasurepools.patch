@@ -302,7 +302,7 @@
           {"item" : "cucumberMSMseed"}
         ],
         "pool" : [
-          {"weight" : 0.89, "item" : "cucumberMSM"},
+          {"weight" : 0.89, "item" : "cucumberMFM"},
           {"weight" : 0.01, "item" : "cucumberMSMseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],

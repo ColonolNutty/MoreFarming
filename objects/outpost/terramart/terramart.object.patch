@@ -102,7 +102,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : "cucumberMSM" }
+    "value" : { "item" : "cucumberMFM" }
   },
   {
     "op" : "add",

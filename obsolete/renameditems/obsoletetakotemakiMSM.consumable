@@ -1,0 +1,26 @@
+{
+  "itemName" : "takotemakiMSM",
+  "rarity" : "Uncommon",
+  "price" : 381.81,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "Cooked octopus and cucumber, wrapped in a ball of rice and kelp.",
+  "shortdescription" : "Temaki - Tako",
+  "foodValue" : 117.6,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 7
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 96
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "obsoletetakotemakiMSM.png"
+}

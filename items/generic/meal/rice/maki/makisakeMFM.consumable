@@ -1,10 +1,10 @@
 {
-  "itemName" : "sakemakiMSM",
+  "itemName" : "makisakeMFM",
   "rarity" : "Uncommon",
   "price" : 379.47,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} Smoked salmon and cucumber packed in sake.",
+  "description" : "Smoked salmon and cucumber packed in sake.",
   "shortdescription" : "Maki - Sake",
   "foodValue" : 86.1,
   "effects" : [[
@@ -18,6 +18,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "sakemakiMSM.png",
+  "inventoryIcon" : "makisakeMFM.png",
   "handPosition" : [ 0, -4 ]
 }

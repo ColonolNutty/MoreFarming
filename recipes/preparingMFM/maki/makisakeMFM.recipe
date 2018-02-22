@@ -5,6 +5,6 @@
     { "item" : "smokedsalmonMFM", "count" : 1 },
     { "item" : "choppedcucumberMFM", "count" : 1 }
   ],
-  "output" : { "item" : "sakemakiMSM", "count" : 1 },
+  "output" : { "item" : "makisakeMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

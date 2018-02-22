@@ -1,0 +1,26 @@
+{
+  "itemName" : "ikatemakiMSM",
+  "rarity" : "Uncommon",
+  "price" : 391.04,
+  "category" : "drink",
+  "tooltipKind" : "food",
+  "description" : "Raw squid and cucumber, wrapped in rice and kelp.",
+  "shortdescription" : "Temaki - Ika",
+  "foodValue" : 116.57,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 7
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 96
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "obsoleteikatemakiMSM.png"
+}

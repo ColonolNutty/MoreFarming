@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "avocadoMSM", "count" : 1 }
+    { "item" : "avocadoMFM", "count" : 1 }
   ],
   "output" : { "item" : "choppedavocadoMFM", "count" : 1 },
   "groups" : [ "choppingMFM" ]

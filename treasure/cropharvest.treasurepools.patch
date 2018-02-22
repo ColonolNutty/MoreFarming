@@ -59,7 +59,7 @@
     "path" : "/avocadoMFMHarvest",
     "value" : [ [0, {
         "pool" : [
-          {"weight" : 0.89, "item" : "avocadoMSM"},
+          {"weight" : 0.89, "item" : "avocadoMFM"},
           {"weight" : 0.1, "item" : "plantfibre"}
         ],
         "poolRounds" : [

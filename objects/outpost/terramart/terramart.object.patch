@@ -42,7 +42,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : "avocadoMSM" }
+    "value" : { "item" : "avocadoMFM" }
   },
   {
     "op" : "add",

@@ -4,7 +4,7 @@
   "price" : 270.56,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} Cooked eel on top of rice.",
+  "description" : "Cooked eel on top of rice.",
   "shortdescription" : "Nigiri - Unagi",
   "foodValue" : 51.53,
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -12,6 +12,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "unaginigiriMSM.png",
+  "inventoryIcon" : "obsoleteunaginigiriMSM.png",
   "handPosition" : [ 0, -4 ]
 }

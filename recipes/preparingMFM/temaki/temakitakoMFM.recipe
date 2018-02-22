@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "riceballMSM", "count" : 1 },
+    { "item" : "riceballMFM", "count" : 1 },
     { "item" : "kelp", "count" : 1 },
     { "item" : "cookedoctopusMFM", "count" : 2 },
     { "item" : "choppedcucumberMFM", "count" : 2 },

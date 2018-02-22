@@ -3,6 +3,6 @@
     { "item" : "rice", "count" : 4 },
     { "item" : "kelp", "count" : 1 }
   ],
-  "output" : { "item" : "riceballMSM", "count" : 1 },
+  "output" : { "item" : "riceballMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

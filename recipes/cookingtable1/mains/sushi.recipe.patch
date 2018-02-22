@@ -3,7 +3,7 @@
 		"op": "replace",
 		"path": "/input",
 		"value": [
-      { "item" : "riceballMSM", "count" : 1 },
+      { "item" : "riceballMFM", "count" : 1 },
       { "item" : "rawstripoffishMFM", "count" : 1 },
       { "item" : "vinegarMFM", "count" : 1 }
 		]

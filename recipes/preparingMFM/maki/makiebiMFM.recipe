@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "riceballMSM", "count" : 1 },
+    { "item" : "riceballMFM", "count" : 1 },
     { "item" : "tamariMFM", "count" : 1 },
     { "item" : "cookedshrimpMFM", "count" : 1 }
   ],

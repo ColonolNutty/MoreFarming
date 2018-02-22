@@ -4,7 +4,7 @@
   "price" : 248.25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} A ball of rice and kelp",
+  "description" : "A ball of rice and kelp",
   "shortdescription" : "Riceball",
   "foodValue" : 51.0,
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -12,5 +12,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "riceballMSM.png"
+  "inventoryIcon" : "obsoletericeballMSM.png"
 }

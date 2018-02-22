@@ -1,0 +1,16 @@
+{
+  "itemName" : "riceballMFM",
+  "rarity" : "Common",
+  "price" : 248.25,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} Rice formed into the shape of a ball.",
+  "shortdescription" : "Rice Ball",
+  "foodValue" : 51.0,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "riceballMFM.png"
+}

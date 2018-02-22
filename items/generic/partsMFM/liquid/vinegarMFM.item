@@ -1,0 +1,9 @@
+{
+  "itemName" : "vinegarMFM",
+  "rarity" : "Common",
+  "price" : 42.37,
+  "category" : "cookingIngredient",
+  "description" : "(DISTILL):-} A clear liquid.",
+  "shortdescription" : "Vinegar",
+  "inventoryIcon" : "vinegarMFM.png"
+}

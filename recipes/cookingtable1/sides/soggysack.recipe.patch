@@ -4,7 +4,7 @@
 		"path": "/input",
 		"value": [
       { "item" : "rawsoggysackMFM", "count" : 1 },
-      { "item" : "vinegarMSM", "count" : 1 }
+      { "item" : "vinegarMFM", "count" : 1 }
 		]
 	},
 	{

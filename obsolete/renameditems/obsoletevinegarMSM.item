@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 42.37,
   "category" : "cookingIngredient",
-  "description" : "(DISTILL):-} Good ol' vinegar.",
+  "description" : "Good ol' vinegar.",
   "shortdescription" : "Vinegar",
-  "inventoryIcon" : "vinegarMSM.png"
+  "inventoryIcon" : "obsoletevinegarMSM.png"
 }

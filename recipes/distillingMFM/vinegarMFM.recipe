@@ -3,6 +3,6 @@
     { "item" : "sugarcanejuiceMFM", "count" : 1 },
     { "item" : "yeastMFM", "count" : 1 }
   ],
-  "output" : { "item" : "vinegarMSM", "count" : 3 },
+  "output" : { "item" : "vinegarMFM", "count" : 3 },
   "groups" : [ "distillingMFM" ]
 }

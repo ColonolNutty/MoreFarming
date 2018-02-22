@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "gingerMFM", "count" : 2 },
-    { "item" : "vinegarMSM", "count" : 1 },
+    { "item" : "vinegarMFM", "count" : 1 },
     { "item" : "sugar", "count" : 1 }
   ],
   "output" : { "item" : "gariMSM", "count" : 1 },

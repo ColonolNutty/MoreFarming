@@ -8,7 +8,7 @@
     { "item" : "choppedonionMFM", "count" : 2 },
     { "item" : "choppedparsnipMFM", "count" : 2 },
     { "item" : "cookingoilMFM", "count" : 1 },
-    { "item" : "vinegarMSM", "count" : 1 },
+    { "item" : "vinegarMFM", "count" : 1 },
     { "item" : "sourcreamMFM", "count" : 1 },
     { "item" : "liquidwater", "count" : 2 }
   ],

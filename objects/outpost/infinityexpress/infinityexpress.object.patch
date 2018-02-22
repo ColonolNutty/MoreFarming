@@ -267,7 +267,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : "vinegarMSM" }
+    "value" : { "item" : "vinegarMFM" }
   },
   {
     "op" : "add",

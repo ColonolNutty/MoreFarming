@@ -4,7 +4,7 @@
   "price" : 269.25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} Raw tuna on top of rice.",
+  "description" : "Raw tuna on top of rice.",
   "shortdescription" : "Nigiri - Maguro",
   "foodValue" : 51.0,
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -12,6 +12,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "maguronigiriMSM.png",
+  "inventoryIcon" : "obsoletemaguronigiriMSM.png",
   "handPosition" : [ 0, -4 ]
 }

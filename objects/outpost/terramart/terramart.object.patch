@@ -277,7 +277,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : "raspberryPBJ" }
+    "value" : { "item" : "raspberryMFM" }
   },
   {
     "op" : "add",

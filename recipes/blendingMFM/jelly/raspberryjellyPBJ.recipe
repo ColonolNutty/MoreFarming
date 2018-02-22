@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "raspberryPBJ", "count" : 5 }
+    { "item" : "raspberryMFM", "count" : 5 }
   ],
   "output" : { "item" : "raspberryjellyPBJ", "count" : 1 },
   "groups" : [ "blendingMFM" ]

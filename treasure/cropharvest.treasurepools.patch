@@ -951,7 +951,7 @@
           {"item" : "raspberryPBJseed"}
         ],
         "pool" : [
-          {"weight" : 0.89, "item" : "raspberryPBJ"},
+          {"weight" : 0.89, "item" : "raspberryMFM"},
           {"weight" : 0.01, "item" : "raspberryPBJseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],

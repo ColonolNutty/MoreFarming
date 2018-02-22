@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "raspberryPBJ", "count" : 10 }
+    { "item" : "raspberryMFM", "count" : 10 }
   ],
   "output" : { "item" : "raspberryPBJseed", "count" : 1 },
   "groups" : [ "germinatingMFM", "fruitMFM" ]

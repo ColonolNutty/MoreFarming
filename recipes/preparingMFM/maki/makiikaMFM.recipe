@@ -4,6 +4,6 @@
     { "item" : "rawsquidMFM", "count" : 1 },
     { "item" : "choppedcucumberMFM", "count" : 1 }
   ],
-  "output" : { "item" : "ikamakiMSM", "count" : 1 },
+  "output" : { "item" : "makiikaMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

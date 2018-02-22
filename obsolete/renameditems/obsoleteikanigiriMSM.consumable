@@ -1,17 +1,17 @@
 {
-  "itemName" : "nigiriebiMFM",
+  "itemName" : "ikanigiriMSM",
   "rarity" : "Common",
-  "price" : 248.51,
+  "price" : 258.75,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} Cooked shrimp placed on top of a ball of rice.",
-  "shortdescription" : "Nigiri - Ebi",
-  "foodValue" : 51.53,
+  "description" : "Raw squid on top of rice.",
+  "shortdescription" : "Nigiri - Ika",
+  "foodValue" : 51.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "nigiriebiMFM.png",
+  "inventoryIcon" : "obsoleteikanigiriMSM.png",
   "handPosition" : [ 0, -4 ]
 }

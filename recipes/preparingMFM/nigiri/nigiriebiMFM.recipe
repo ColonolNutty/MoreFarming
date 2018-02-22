@@ -3,6 +3,6 @@
     { "item" : "rice", "count" : 4 },
     { "item" : "cookedshrimpMFM", "count" : 1 }
   ],
-  "output" : { "item" : "ebinigiriMSM", "count" : 1 },
+  "output" : { "item" : "nigiriebiMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

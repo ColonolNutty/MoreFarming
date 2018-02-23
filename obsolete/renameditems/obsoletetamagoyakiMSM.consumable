@@ -4,7 +4,7 @@
   "price" : 526.63,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(FRY):-} A type of Japanese omelette.",
+  "description" : "A type of Japanese omelette.",
   "shortdescription" : "Tamagoyaki",
   "foodValue" : 181.81,
   "effects" : [[
@@ -30,5 +30,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "tamagoyakiMSM.png"
+  "inventoryIcon" : "obsoletetamagoyakiMSM.png"
 }

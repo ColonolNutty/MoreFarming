@@ -3,6 +3,6 @@
     { "item" : "jellyblackberryMFM", "count" : 1 },
     { "item" : "breadsliceMFM", "count" : 2 }
   ],
-  "output" : { "item" : "blackberryjellysandwichPBJ", "count" : 1 },
+  "output" : { "item" : "sandwichjellyblackberryMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

@@ -1,0 +1,27 @@
+{
+  "itemName" : "sandwichjellyblackberryMFM",
+  "rarity" : "Uncommon",
+  "price" : 267.91,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A sandwich made with blackberry jelly.",
+  "shortdescription" : "Sandwich - Blackberry Jelly",
+  "foodValue" : 73.53,
+  "effects" : [[
+    {
+      "effect" : "fireblock",
+      "duration" : 238
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 22
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "sandwichjellyblackberryMFM.png",
+  "handPosition" : [ 0, -2 ]
+}

@@ -1,10 +1,10 @@
 {
-  "itemName" : "chocolateicecreamMFM",
+  "itemName" : "icecreamchocolateMFM",
   "rarity" : "Common",
   "price" : 62.66,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(FREEZE):-} Chocolate ice cream.",
+  "description" : "(FREEZE):-} A scoop of ice cream with a chocolate flavor.",
   "shortdescription" : "Ice Cream - Chocolate",
   "foodValue" : 40.64,
   "effects" : [[
@@ -38,6 +38,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "chocolateicecreamMFM.png",
+  "inventoryIcon" : "icecreamchocolateMFM.png",
   "handPosition" : [ 0, -4 ]
 }

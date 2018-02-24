@@ -1,0 +1,31 @@
+{
+  "itemName" : "raspberrypbjPBJ",
+  "rarity" : "Uncommon",
+  "price" : 426.99,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "A sandwich made with peanut butter and raspberry jelly.",
+  "shortdescription" : "Sandwich - Raspberry PB+J",
+  "foodValue" : 126.55,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 158
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 158
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 22
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "obsoleteraspberrypbjPBJ.png",
+  "handPosition" : [ 0, -2 ]
+}

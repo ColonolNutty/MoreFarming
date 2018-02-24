@@ -7,10 +7,9 @@ METHOD_FILTER_NAMES_PATH = "/recipeCrafterMFM/methodFilterNamesMFM.json"
 RECIPE_METHOD_FRIENDLY_NAMES = "/recipeCrafterMFM/methodFriendlyNamesMFM.json"
 RECIPE_CONFIGURATION_PATH = "/recipeCrafterMFM/"
 
-local completedInitialSetup = false
-
 -- Storage Property Names --
 -- rbDataStore
+---- selectedFoodId (Int) (FoodId)
 ---- ingredientStore (Table) (FoodId, FoodItem)
 ------ id (String) (FoodId)
 ------ name (String)
@@ -55,33 +54,21 @@ function init()
   table.insert(recipeFilters.groupFilters, doesNotContainNoRecipeBookfilter)
   table.insert(recipeFilters.groupFilters, hasFriendlyNamefilter)
   
-  doInitialSetup();
+  storage.rbDataStore = nil
+  initializeDataStore()
 end
 
 function update()
-  loadRecipeIngredients();
 end
 
 function uninit()
-  DebugUtilsCN.logInfo("uninitializing");
-  storage.rbDataStore = nil
-  completedInitialSetup = false
-end
-
-function doInitialSetup()
-  if(completedInitialSetup and storage.rbDataStore ~= nil) then
-    return;
-  end
-  
-  initializeDataStore()
-  
-  completedInitialSetup = true;
 end
 
 function initializeDataStore()
   if(storage.rbDataStore ~= nil) then
     return;
   end
+  DebugUtilsCN.logInfo("Initializing DataStore")
   storage.rbDataStore = {
     selectedFoodId = nil,
     ingredientStore = {},
@@ -163,10 +150,6 @@ function filterRecipes(recipes)
     end
   end
   return allMethods, result
-end
-
--- Currently I load the recipe inputs as you look at recipes, so we load only what we need to (Faster? Safer? Less taxing? or should we load all at the beginning?) --
-function loadRecipeIngredients()
 end
 
 ------------------------- Handlers ----------------------

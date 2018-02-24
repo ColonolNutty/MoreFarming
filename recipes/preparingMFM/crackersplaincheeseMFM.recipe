@@ -3,6 +3,6 @@
     { "item" : "cheesesliceMFM", "count" : 1 },
     { "item" : "crackerplainMFM", "count" : 1 }
   ],
-  "output" : { "item" : "cheesencrackersplainMFM", "count" : 1 },
+  "output" : { "item" : "crackersplaincheeseMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

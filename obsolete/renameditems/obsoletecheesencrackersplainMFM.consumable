@@ -4,7 +4,7 @@
   "price" : 32.43,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} Plain crackers topped with cheese.",
+  "description" : "Plain crackers topped with cheese.",
   "shortdescription" : "Cheese n' Crackers",
   "foodValue" : 33.17,
   "effects" : [[
@@ -26,6 +26,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "cheesencrackersplainMFM.png",
+  "inventoryIcon" : "obsoletecheesencrackersplainMFM.png",
   "handPosition" : [ 0, -4 ]
 }

@@ -65,10 +65,11 @@ end
 function uninit()
   DebugUtilsCN.logInfo("uninitializing");
   storage.rbDataStore = nil
+  completedInitialSetup = false
 end
 
 function doInitialSetup()
-  if(completedInitialSetup) then
+  if(completedInitialSetup and storage.rbDataStore ~= nil) then
     return;
   end
   

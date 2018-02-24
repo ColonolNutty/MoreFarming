@@ -4,6 +4,6 @@
     { "item" : "garpberryMFM", "count" : 1 },
     { "item" : "lettuceMFM", "count" : 1 }
   ],
-  "output" : { "item" : "bananagarpsaladMFM", "count" : 1 },
+  "output" : { "item" : "saladbananagarpberryMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

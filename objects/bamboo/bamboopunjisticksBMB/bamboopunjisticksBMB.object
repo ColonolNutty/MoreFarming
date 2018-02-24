@@ -68,6 +68,7 @@
       "particle" : "woodshard"
     }
   ],
+  "breakDropOptions" : [[[ "bamboostalkMFM", 3, { } ]]],
   "smashable" : true,
   "biomePlaced" : false,
   "smashSounds" : [ "/sfx/objects/wood_break1.ogg", "/sfx/objects/wood_break2.ogg", "/sfx/objects/wood_break3.ogg", "/sfx/objects/wood_break4.ogg", "/sfx/objects/wood_break5.ogg", "/sfx/objects/wood_break6.ogg" ],
@@ -96,6 +97,5 @@
       "initialVelocity" : [ 3, 4 ]
     },
     "emissionVariance" : 0.05
-  },
-  "breakDropOptions" : [[[ "bamboostalkMFM", 3, { } ]]]
+  }
 }

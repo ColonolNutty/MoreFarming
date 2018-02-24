@@ -4,7 +4,7 @@
   "price" : 127.29,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(BAKE):-} Chunks of meat and garpberries sandwiched between bread.",
+  "description" : "Chunks of meat and garpberries sandwiched between bread.",
   "shortdescription" : "Sandwich - Mearpberry",
   "foodValue" : 66.73,
   "effects" : [[
@@ -22,5 +22,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "meatandgarpberrysandwichMFM.png"
+  "inventoryIcon" : "obsoletemeatandgarpberrysandwichMFM.png"
 }

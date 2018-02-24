@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "cookedbacon", "count" : 1 },
-    { "item" : "scrambledeggMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "sandwichbaconeggMFM", "count" : 1 },
-  "groups" : [ "preparingMFM" ]
-}

@@ -5,6 +5,6 @@
     { "item" : "cheese", "count" : 1 },
     { "item" : "breadsliceMFM", "count" : 2 }
   ],
-  "output" : { "item" : "eggandbaconsandwichMFM", "count" : 1 },
+  "output" : { "item" : "sandwichbaconeggMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

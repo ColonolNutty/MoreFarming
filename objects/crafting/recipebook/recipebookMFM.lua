@@ -63,7 +63,8 @@ function update()
 end
 
 function uninit()
-  
+  DebugUtilsCN.logInfo("uninitializing");
+  storage.rbDataStore = nil
 end
 
 function doInitialSetup()

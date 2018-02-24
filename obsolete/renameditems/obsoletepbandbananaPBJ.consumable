@@ -4,7 +4,7 @@
   "price" : 287.86,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} A sandwich made with peanut butter and bananas.",
+  "description" : "A sandwich made with peanut butter and bananas.",
   "shortdescription" : "Sandwich - PB+Banana",
   "foodValue" : 84.03,
   "effects" : [[
@@ -22,6 +22,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "pbandbananaPBJ.png",
+  "inventoryIcon" : "obsoletepbandbananaPBJ.png",
   "handPosition" : [ 0, -2 ]
 }

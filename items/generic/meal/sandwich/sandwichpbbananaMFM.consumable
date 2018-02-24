@@ -1,0 +1,27 @@
+{
+  "itemName" : "sandwichpbbananaMFM",
+  "rarity" : "Uncommon",
+  "price" : 287.86,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A sandwich made with peanut butter and chopped bananas.",
+  "shortdescription" : "Sandwich PB+Banana",
+  "foodValue" : 84.03,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 158
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 22
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "sandwichpbbananaMFM.png",
+  "handPosition" : [ 0, -2 ]
+}

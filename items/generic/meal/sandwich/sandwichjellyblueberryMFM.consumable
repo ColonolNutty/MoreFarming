@@ -1,11 +1,11 @@
 {
-  "itemName" : "blueberryjellysandwichPBJ",
+  "itemName" : "sandwichjellyblueberryMFM",
   "rarity" : "Uncommon",
   "price" : 267.91,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with blueberry jelly.",
-  "shortdescription" : "Sandwich - Blueberry Jelly",
+  "shortdescription" : "Sandwich Jelly - Blueberry",
   "foodValue" : 73.53,
   "effects" : [[
     {
@@ -22,6 +22,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "blueberryjellysandwichPBJ.png",
+  "inventoryIcon" : "sandwichjellyblueberryMFM.png",
   "handPosition" : [ 0, -2 ]
 }

@@ -1,24 +1,24 @@
 {
-  "itemName" : "icecreamchocolateswirlMFM",
+  "itemName" : "icecreamconechocolateswirlMFM",
   "rarity" : "Common",
-  "price" : 21.29,
+  "price" : 63.07,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(FREEZE):-} Dark, Plain, and White chocolate mixed into vanilla ice cream.",
-  "shortdescription" : "Ice Cream - Chocolate Swirl",
-  "foodValue" : 10.0,
+  "description" : "(PREP):-} Dark, Plain, and White chocolate mixed into vanilla ice cream.",
+  "shortdescription" : "Ice Cream Cone - Chocolate Swirl",
+  "foodValue" : 42.49,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 1
+      "duration" : 9
     },
     {
       "effect" : "energyregen",
-      "duration" : 1
+      "duration" : 9
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 3
+      "duration" : 20
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -26,6 +26,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "icecreamchocolateswirlMFM.png",
+  "inventoryIcon" : "icecreamconechocolateswirlMFM.png",
   "handPosition" : [ 12, -6 ]
 }

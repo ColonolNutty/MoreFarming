@@ -1,11 +1,11 @@
 {
-  "itemName" : "chocolatechipicecreamMFM",
+  "itemName" : "icecreamvanillachocolatechipMFM",
   "rarity" : "Common",
   "price" : 175.84,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(FREEZE):-} Ice cream with chocolate chips.",
-  "shortdescription" : "Ice Cream - Chocolate Chip",
+  "description" : "(FREEZE):-} Vanilla and chocolate chip ice cream.",
+  "shortdescription" : "Ice Cream - Vanilla Chocolate Chip",
   "foodValue" : 114.3,
   "effects" : [[
     {
@@ -38,6 +38,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "chocolatechipicecreamMFM.png",
+  "inventoryIcon" : "icecreamvanillachocolatechipMFM.png",
   "handPosition" : [ 0, -4 ]
 }

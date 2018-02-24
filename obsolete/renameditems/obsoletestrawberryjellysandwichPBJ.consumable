@@ -4,7 +4,7 @@
   "price" : 267.91,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} A sandwich made with strawberry jelly.",
+  "description" : "A sandwich made with strawberry jelly.",
   "shortdescription" : "Sandwich - Strawberry Jelly",
   "foodValue" : 73.53,
   "effects" : [[
@@ -22,6 +22,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "strawberryjellysandwichPBJ.png",
+  "inventoryIcon" : "obsoletestrawberryjellysandwichPBJ.png",
   "handPosition" : [ 0, -2 ]
 }

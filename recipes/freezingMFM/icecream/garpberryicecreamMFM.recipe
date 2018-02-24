@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "garpberryMFM", "count" : 2 },
-    { "item" : "vanillaicecreamMFM", "count" : 1 }
+    { "item" : "garpberryjuiceMFM", "count" : 1 },
+    { "item" : "icecreamvanillaMFM", "count" : 1 }
   ],
   "output" : { "item" : "garpberryicecreamMFM", "count" : 1 },
   "groups" : [ "freezingMFM" ]

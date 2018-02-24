@@ -1,28 +1,16 @@
 {
-  "itemName" : "icecreamvanillaMFM",
+  "itemName" : "waffleconeMFM",
   "rarity" : "Common",
-  "price" : 38.84,
+  "price" : 38.78,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(FREEZE):-} A scoop of ice cream with a vanilla flavor.",
-  "shortdescription" : "Ice Cream - Vanilla",
-  "foodValue" : 28.2,
+  "description" : "(BAKE):-} A cone with a waffle pattern.",
+  "shortdescription" : "Waffle Cone",
+  "foodValue" : 30.47,
   "effects" : [[
-    {
-      "effect" : "regeneration2",
-      "duration" : 1
-    },
-    {
-      "effect" : "maxenergyscalingboost",
-      "duration" : 1
-    },
     {
       "effect" : "maxenergyscalingboostfood",
       "duration" : 8
-    },
-    {
-      "effect" : "runboostfood",
-      "duration" : 1
     },
     {
       "effect" : "energyregen",
@@ -38,6 +26,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "icecreamvanillaMFM.png",
-  "handPosition" : [ 0, -4 ]
+  "inventoryIcon" : "waffleconeMFM.png"
 }

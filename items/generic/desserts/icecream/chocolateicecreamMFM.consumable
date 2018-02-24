@@ -1,24 +1,36 @@
 {
   "itemName" : "chocolateicecreamMFM",
   "rarity" : "Common",
-  "price" : 491.3,
+  "price" : 62.66,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} Chocolate ice cream.",
   "shortdescription" : "Ice Cream - Chocolate",
-  "foodValue" : 462.21,
+  "foodValue" : 40.64,
   "effects" : [[
     {
+      "effect" : "regeneration2",
+      "duration" : 1
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 1
+    },
+    {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 133
+      "duration" : 8
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 1
     },
     {
       "effect" : "energyregen",
-      "duration" : 133
+      "duration" : 8
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 279
+      "duration" : 17
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

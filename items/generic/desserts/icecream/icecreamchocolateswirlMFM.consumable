@@ -1,36 +1,36 @@
 {
   "itemName" : "icecreamchocolateswirlMFM",
   "rarity" : "Common",
-  "price" : 764.98,
+  "price" : 106.43,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} It's got everything you could ever want!",
   "shortdescription" : "Ice Cream - Chocolate Swirl",
-  "foodValue" : 522.48,
+  "foodValue" : 40.64,
   "effects" : [[
     {
       "effect" : "regeneration2",
-      "duration" : 24
-    },
-    {
-      "effect" : "maxenergyscalingboostfood",
-      "duration" : 105
+      "duration" : 1
     },
     {
       "effect" : "maxenergyscalingboost",
-      "duration" : 24
+      "duration" : 1
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 8
     },
     {
       "effect" : "runboostfood",
-      "duration" : 24
+      "duration" : 1
     },
     {
       "effect" : "energyregen",
-      "duration" : 105
+      "duration" : 8
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 223
+      "duration" : 17
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

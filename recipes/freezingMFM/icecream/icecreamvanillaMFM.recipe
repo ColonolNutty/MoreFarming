@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "creamMFM", "count" : 1 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "egg", "count" : 2 },
+    { "item" : "vanillaextractMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "icecreamvanillaMFM", "count" : 5 },
+  "groups" : [ "freezingMFM" ]
+}

@@ -1,9 +1,7 @@
 {
   "input" : [
-    { "item" : "milk", "count" : 4 },
-    { "item" : "ice", "count" : 4 },
-    { "item" : "sugar", "count" : 4 },
-    { "item" : "chocolateliquorMFM", "count" : 2 }
+    { "item" : "icecreamvanillaMFM", "count" : 1 },
+    { "item" : "chocolateliquorMFM", "count" : 1 }
   ],
   "output" : { "item" : "chocolateicecreamMFM", "count" : 1 },
   "groups" : [ "freezingMFM" ]

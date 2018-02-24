@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "flourMFM", "count" : 1 },
+    { "item" : "butterMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "egg", "count" : 2 },
+    { "item" : "milk", "count" : 1 }
+  ],
+  "output" : { "item" : "waffleconeMFM", "count" : 5 },
+  "groups" : [ "bakingMFM" ]
+}

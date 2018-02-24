@@ -4,6 +4,6 @@
     { "item" : "peanutbutterMFM", "count" : 1 },
     { "item" : "breadsliceMFM", "count" : 2 }
   ],
-  "output" : { "item" : "pbjPBJ", "count" : 1 },
+  "output" : { "item" : "sandwichpbjgrapeMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

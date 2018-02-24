@@ -4,7 +4,7 @@
   "price" : 798.16,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} A sandwich made with peanut butter and grape jelly.",
+  "description" : "A sandwich made with peanut butter and grape jelly.",
   "shortdescription" : "Sandwich - Grape PB+J",
   "foodValue" : 126.55,
   "effects" : [[
@@ -22,6 +22,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "pbjPBJ.png",
+  "inventoryIcon" : "obsoletepbjPBJ.png",
   "handPosition" : [ 0, -2 ]
 }

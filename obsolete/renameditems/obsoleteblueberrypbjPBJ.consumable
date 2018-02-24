@@ -1,20 +1,20 @@
 {
-  "itemName" : "sandwichpbjblackberryMFM",
+  "itemName" : "blueberrypbjPBJ",
   "rarity" : "Uncommon",
   "price" : 426.99,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} A sandwich made with peanut butter and blackberry jelly.",
-  "shortdescription" : "Sandwich PB+J - Blackberry",
+  "description" : "A sandwich made with peanut butter and blueberry jelly.",
+  "shortdescription" : "Sandwich - Blueberry PB+J",
   "foodValue" : 126.55,
   "effects" : [[
     {
-      "effect" : "fireblock",
-      "duration" : 238
-    },
-    {
       "effect" : "camouflage25",
       "duration" : 158
+    },
+    {
+      "effect" : "iceblock",
+      "duration" : 238
     },
     {
       "effect" : "maxhealthscalingboostfood",
@@ -26,6 +26,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "sandwichpbjblackberryMFM.png",
+  "inventoryIcon" : "obsoleteblueberrypbjPBJ.png",
   "handPosition" : [ 0, -2 ]
 }

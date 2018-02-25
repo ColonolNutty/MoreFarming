@@ -1,0 +1,25 @@
+{
+  "itemName" : "honeyglazeMFM",
+  "rarity" : "Common",
+  "price" : 13.37,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} A mixture of honey and butter melted together",
+  "shortdescription" : "Honey Glaze",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "runboostfood",
+      "duration" : 1
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 2
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "inventoryIcon" : "honeyglazeMFM.png"
+}

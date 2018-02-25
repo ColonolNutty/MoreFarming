@@ -1,0 +1,26 @@
+{
+  "itemName" : "honeyglazedhamMFM",
+  "rarity" : "Common",
+  "price" : 40.29,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} Ham glazed with honey",
+  "shortdescription" : "Honey Glazed Ham",
+  "foodValue" : 21.0,
+  "effects" : [[
+    {
+      "effect" : "runboostfood",
+      "duration" : 1
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 2
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "honeyglazedhamMFM.png"
+}

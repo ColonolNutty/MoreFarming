@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "cornsyrupMFM", "count" : 1 },
+    { "item" : "honeyMFM", "count" : 1 },
+    { "item" : "butterMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "honeyglazeMFM", "count" : 10 },
+  "groups" : [ "boilingMFM" ]
+}

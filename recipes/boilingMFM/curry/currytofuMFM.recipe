@@ -1,13 +1,14 @@
 {
   "input" : [
     { "item" : "choppedonionMFM", "count" : 1 },
-    { "item" : "choppedgarlicMFM", "count" : 2 },
+    { "item" : "choppedgarlicMFM", "count" : 1 },
     { "item" : "cookingoilMFM", "count" : 1 },
     { "item" : "currypowderMFM", "count" : 1 },
     { "item" : "rice", "count" : 2 },
     { "item" : "saltMFM", "count" : 1 },
+    { "item" : "tofuMFM", "count" : 1 },
     { "item" : "liquidwater", "count" : 2 }
   ],
-  "output" : { "item" : "curryriceMFM", "count" : 1 },
+  "output" : { "item" : "currytofuMFM", "count" : 2 },
   "groups" : [ "boilingMFM" ]
 }

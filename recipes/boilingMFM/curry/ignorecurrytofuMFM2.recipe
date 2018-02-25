@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "curryriceMFM", "count" : 1 },
+    { "item" : "tofuMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "currytofuMFM", "count" : 2 },
+  "groups" : [ "boilingMFMNoRecipeBook" ]
+}

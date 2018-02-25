@@ -319,10 +319,10 @@ function hasRecipesFilter(item)
 end
 
 function nameMatchesFilter(item)
-  logDebug("Filtering name")
   if(filters.nameFilter == nil) then
     return true;
   end
+  --logDebug("Filtering name with value: " .. filters.nameFilter)
   return containsSubString(item.name, filters.nameFilter) or containsSubString(item.id, filters.nameFilter)
 end
 

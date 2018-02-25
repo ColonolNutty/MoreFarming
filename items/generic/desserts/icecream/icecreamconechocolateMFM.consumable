@@ -1,20 +1,16 @@
 {
-  "itemName" : "icecreamgarpberryMFM",
+  "itemName" : "icecreamconechocolateMFM",
   "rarity" : "Common",
-  "price" : 135.54,
+  "price" : 106.51,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(FREEZE):-} A scoop of ice cream with a garpberry flavor.",
-  "shortdescription" : "Ice Cream - Garpberry",
-  "foodValue" : 62.72,
+  "description" : "(PREP):-} A scoop of chocolate ice cream on a waffle cone.",
+  "shortdescription" : "Ice Cream Cone - Chocolate",
+  "foodValue" : 74.67,
   "effects" : [[
     {
       "effect" : "regeneration2",
       "duration" : 1
-    },
-    {
-      "effect" : "nova",
-      "duration" : 33
     },
     {
       "effect" : "maxenergyscalingboost",
@@ -22,7 +18,7 @@
     },
     {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 8
+      "duration" : 16
     },
     {
       "effect" : "runboostfood",
@@ -30,11 +26,11 @@
     },
     {
       "effect" : "energyregen",
-      "duration" : 8
+      "duration" : 16
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 224
+      "duration" : 34
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -42,6 +38,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "icecreamgarpberryMFM.png",
-  "handPosition" : [ 0, -4 ]
+  "inventoryIcon" : "icecreamconechocolateMFM.png",
+  "handPosition" : [ 12, -6 ]
 }

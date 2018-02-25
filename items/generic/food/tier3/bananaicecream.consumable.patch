@@ -84,7 +84,7 @@
     {
       "op" : "replace",
       "path" : "/shortdescription",
-      "value" : "Ice Cream - Banana"
+      "value" : "Ice Cream Cone - Banana"
     }
   ]
 ]

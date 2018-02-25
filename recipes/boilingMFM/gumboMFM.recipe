@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "roastedstripofpoultryMFM", "count" : 3 },
+    { "item" : "rawstripofalienmeatMFM", "count" : 3 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "cookingoilMFM", "count" : 1 },
+    { "item" : "choppedonionMFM", "count" : 1 },
+    { "item" : "choppedgarlicMFM", "count" : 3 },
+    { "item" : "cookedshrimpMFM", "count" : 1 },
+    { "item" : "tomatojuice", "count" : 1 },
+    { "item" : "choppedbellpeppergreenMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 3 }
+  ],
+  "output" : { "item" : "gumboMFM", "count" : 4 },
+  "groups" : [ "boilingMFM" ]
+}

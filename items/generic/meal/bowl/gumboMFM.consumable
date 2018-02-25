@@ -1,0 +1,35 @@
+{
+  "itemName" : "gumboMFM",
+  "rarity" : "Common",
+  "price" : 81.0,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} A mish mash of a load of ingredients.",
+  "shortdescription" : "Gumbo",
+  "foodValue" : 53.06,
+  "effects" : [[
+    {
+      "effect" : "antidote",
+      "duration" : 3
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 56
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 1
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 23
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "gumboMFM.png",
+  "handPosition" : [ 0, -3 ]
+}

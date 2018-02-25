@@ -10,11 +10,11 @@
   "effects" : [[
     {
       "effect" : "swimboost",
-      "duration" : 10
+      "duration" : 52
     },
     {
       "effect" : "energyregen",
-      "duration" : 10
+      "duration" : 52
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

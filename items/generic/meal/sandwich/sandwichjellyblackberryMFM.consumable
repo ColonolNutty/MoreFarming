@@ -14,7 +14,7 @@
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 22
+      "duration" : 192
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

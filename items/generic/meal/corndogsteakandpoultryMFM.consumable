@@ -10,11 +10,11 @@
   "effects" : [[
     {
       "effect" : "camouflage25",
-      "duration" : 7
+      "duration" : 32
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 11
+      "duration" : 102
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

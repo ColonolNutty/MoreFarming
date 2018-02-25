@@ -18,7 +18,7 @@
     },
     {
       "effect" : "camouflage25",
-      "duration" : 7
+      "duration" : 32
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

@@ -10,7 +10,7 @@
   "effects" : [[
     {
       "effect" : "poisonblock",
-      "duration" : 6
+      "duration" : 31
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

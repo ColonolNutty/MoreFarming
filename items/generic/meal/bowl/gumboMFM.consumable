@@ -10,19 +10,19 @@
   "effects" : [[
     {
       "effect" : "antidote",
-      "duration" : 3
+      "duration" : 15
     },
     {
       "effect" : "poisonblock",
-      "duration" : 56
+      "duration" : 226
     },
     {
       "effect" : "camouflage25",
-      "duration" : 1
+      "duration" : 32
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 23
+      "duration" : 94
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

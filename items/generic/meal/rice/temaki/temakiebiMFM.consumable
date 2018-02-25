@@ -10,7 +10,7 @@
   "effects" : [[
     {
       "effect" : "camouflage25",
-      "duration" : 7
+      "duration" : 32
     },
     {
       "effect" : "maxenergyscalingboostfood",

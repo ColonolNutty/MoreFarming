@@ -1,0 +1,43 @@
+{
+  "itemName" : "icecreambananaMFM",
+  "rarity" : "Common",
+  "price" : 62.66,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(FREEZE):-} A scoop of ice cream with a banana flavor.",
+  "shortdescription" : "Ice Cream - Banana",
+  "foodValue" : 40.64,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 1
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 1
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 8
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 1
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 8
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 17
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "icecreambananaMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

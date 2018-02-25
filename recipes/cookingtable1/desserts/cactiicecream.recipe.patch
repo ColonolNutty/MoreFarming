@@ -3,14 +3,13 @@
 		"op": "replace",
 		"path": "/input",
 		"value": [
-      { "item" : "choppedcactiMFM", "count" : 1 },
-      { "item" : "creamMFM", "count" : 2 },
-      { "item" : "sugar", "count" : 4 }
+      { "item" : "icecreamcactiMFM", "count" : 1 },
+      { "item" : "waffleconeMFM", "count" : 1 }
 		]
 	},
 	{
 		"op": "add",
 		"path": "/groups/-",
-		"value": "freezingMFM"
+		"value": "preparingMFM"
 	}
 ]

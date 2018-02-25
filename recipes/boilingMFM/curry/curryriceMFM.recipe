@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "choppedonionMFM", "count" : 1 },
+    { "item" : "choppedgarlicMFM", "count" : 2 },
+    { "item" : "cookingoilMFM", "count" : 1 },
+    { "item" : "currypowderMFM", "count" : 1 },
+    { "item" : "riceMFM", "count" : 2 },
+    { "item" : "salfMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
+  ],
+  "output" : { "item" : "curryriceMFM", "count" : 1 },
+  "groups" : [ "boilingMFM" ]
+}

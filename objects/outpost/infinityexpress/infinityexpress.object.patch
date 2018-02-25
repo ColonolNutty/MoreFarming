@@ -2,11 +2,6 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : "cn_recipebook" }
-  },
-  {
-    "op" : "add",
-    "path" : "/interactData/items/-",
     "value" : { "item" : "recipebookMFM" }
   },
   {
@@ -83,6 +78,11 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : "cupcakepaperMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : "currypowderMFM" }
   },
   {
     "op" : "add",

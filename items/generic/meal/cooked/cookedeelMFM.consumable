@@ -2,7 +2,7 @@
   "itemName" : "cookedeelMFM",
   "rarity" : "Common",
   "price" : 26.25,
-  "category" : "food",
+  "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A tasty fillet of cooked eel.",
   "shortdescription" : "Cooked Eel",

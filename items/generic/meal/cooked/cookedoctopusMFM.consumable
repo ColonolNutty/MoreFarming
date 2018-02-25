@@ -2,7 +2,7 @@
   "itemName" : "cookedoctopusMFM",
   "rarity" : "Common",
   "price" : 10.5,
-  "category" : "food",
+  "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A tasty fillet of cooked octopus.",
   "shortdescription" : "Cooked Octopus",

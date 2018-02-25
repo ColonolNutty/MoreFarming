@@ -2,7 +2,7 @@
   "itemName" : "cookedshrimpMFM",
   "rarity" : "Common",
   "price" : 5.25,
-  "category" : "food",
+  "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Teeny tiny cooked shrimp.",
   "shortdescription" : "Cooked Shrimp",

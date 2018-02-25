@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "rawtunaMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "cookedtunaMFM", "count" : 1 },
+  "groups" : [ "bakingMFM" ]
+}

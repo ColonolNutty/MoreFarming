@@ -3,6 +3,6 @@
     { "item" : "garpberryjuiceMFM", "count" : 1 },
     { "item" : "icecreamvanillaMFM", "count" : 1 }
   ],
-  "output" : { "item" : "garpberryicecreamMFM", "count" : 1 },
+  "output" : { "item" : "icecreamgarpberryMFM", "count" : 1 },
   "groups" : [ "freezingMFM" ]
 }

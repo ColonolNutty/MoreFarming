@@ -2,7 +2,7 @@
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "macncheeseMFM" } } },
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "tofucurryMFM" } } },
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "veggieburgerMFM" } } },
-  { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "automatopastaMFM" } } },
+  { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "pastaautomatoMFM" } } },
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "bananapastaMFM" } } },
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "butteredpastaMFM" } } },
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "tomatopastaMFM" } } },

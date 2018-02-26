@@ -4,7 +4,7 @@
   "price" : 97.46,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(BOIL):-} Pasta with automato sauce. It works. Kinda.",
+  "description" : "Pasta with automato sauce. It works. Kinda.",
   "shortdescription" : "Pasta - Automato",
   "foodValue" : 63.55,
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -12,6 +12,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "automatopastaMFM.png",
+  "inventoryIcon" : "obsoleteautomatopastaMFM.png",
   "handPosition" : [ 0, -3 ]
 }

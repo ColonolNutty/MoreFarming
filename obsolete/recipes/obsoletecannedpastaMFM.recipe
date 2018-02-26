@@ -3,5 +3,5 @@
     { "item" : "freshpastaMFM", "count" : 1 }
   ],
   "output" : { "item" : "cannedpastaMFM", "count" : 1 },
-  "groups" : [ "canningMFMNoRecipeBook" ]
+  "groups" : [ "canningMFM", "ExcludeFromRecipeBook" ]
 }

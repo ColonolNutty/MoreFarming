@@ -5,5 +5,5 @@
     { "item" : "liquidwater", "count" : 2 }
   ],
   "output" : { "item" : "butteredpastaMFM", "count" : 1 },
-  "groups" : [ "boilingMFMNoRecipeBook" ]
+  "groups" : [ "boilingMFM", "ExcludeFromRecipeBook" ]
 }

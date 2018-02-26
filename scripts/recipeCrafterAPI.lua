@@ -30,7 +30,6 @@ function RecipeCrafterMFMApi.init(msgPrefix, versioningConfig)
   storage.craftSoundDelaySeconds = config.getParameter("craftSoundDelaySeconds", 10) -- In seconds
   storage.craftSoundIsPlaying = false
   storage.recipeGroup = config.getParameter("recipeGroup")
-  storage.noRecipeBookGroup = storage.recipeGroup .. "NoRecipeBook"
   storage.isRefridgerated = config.getParameter("itemAgeMultiplier", 5) == 0
   
   if(storage.enableRecipeGroupDebug == nil) then
@@ -437,7 +436,7 @@ function rcUtils.recipeCanBeCrafted(recipe)
   DebugUtilsCN.logDebug("Recipe group specified: " .. storage.recipeGroup)
   local canBeCrafted = false
   for _,group in ipairs(recipe.groups) do
-    if group == storage.recipeGroup or group == storage.noRecipeBookGroup then
+    if group == storage.recipeGroup then
       canBeCrafted = true
       break
     end

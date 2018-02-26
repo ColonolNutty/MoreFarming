@@ -4,5 +4,5 @@
     { "item" : "liquidwater", "count" : 2 }
   ],
   "output" : { "item" : "instantnoodlesMFM", "count" : 1 },
-  "groups" : [ "boilingMFMNoRecipeBook" ]
+  "groups" : [ "boilingMFM", "ExcludeFromRecipeBook" ]
 }

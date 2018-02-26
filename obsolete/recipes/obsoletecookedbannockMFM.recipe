@@ -3,5 +3,5 @@
     { "item" : "bannockMFM", "count" : 1 }
   ],
   "output" : { "item" : "cookedbannockMFM", "count" : 1 },
-  "groups" : [ "fryingMFMNoRecipeBook" ]
+  "groups" : [ "fryingMFM", "ExcludeFromRecipeBook" ]
 }

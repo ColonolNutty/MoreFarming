@@ -7,5 +7,5 @@
     { "item" : "ketchupMFM", "count" : 1 }
   ],
   "output" : { "item" : "cheeseburgerMFM7", "count" : 1 },
-  "groups" : [ "preparingMFMNoRecipeBook" ]
+  "groups" : [ "preparingMFM", "ExcludeFromRecipeBook" ]
 }

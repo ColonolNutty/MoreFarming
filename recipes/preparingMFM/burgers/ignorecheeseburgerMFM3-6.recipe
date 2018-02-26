@@ -4,5 +4,5 @@
     { "item" : "choppedtomatoMFM", "count" : 1 }
   ],
   "output" : { "item" : "cheeseburgerMFM3", "count" : 1 },
-  "groups" : [ "preparingMFMNoRecipeBook" ]
+  "groups" : [ "preparingMFM", "ExcludeFromRecipeBook" ]
 }

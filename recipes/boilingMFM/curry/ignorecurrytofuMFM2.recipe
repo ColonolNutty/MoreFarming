@@ -4,5 +4,5 @@
     { "item" : "tofuMFM", "count" : 1 }
   ],
   "output" : { "item" : "currytofuMFM", "count" : 2 },
-  "groups" : [ "boilingMFMNoRecipeBook" ]
+  "groups" : [ "boilingMFM", "ExcludeFromRecipeBook" ]
 }

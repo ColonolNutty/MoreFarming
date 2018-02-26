@@ -51,7 +51,6 @@ function init()
   message.setHandler("updateSelectedFilters", updateSelectedFilters);
   message.setHandler("storeIngredient", storeIngredient);
   message.setHandler("updateSelectedId", updateSelectedId);
-  table.insert(recipeFilters.groupFilters, doesNotContainNoRecipeBookfilter)
   table.insert(recipeFilters.groupFilters, hasFriendlyNamefilter)
   
   storage.rbDataStore = nil
@@ -103,8 +102,8 @@ function initializeDataStore()
   storage.rbDataStore.sortedMethodFilters = UtilsCN.sortByValueNameId(storage.rbDataStore.methodFilters)
 end
 
-function doesNotContainNoRecipeBookfilter(recipeGroup)
-  return not string.match(recipeGroup, "NoRecipeBook");
+function isExcludedFromRecipeBook(recipeGroup)
+  return recipeGroup == "ExcludeFromRecipeBook";
 end
 
 function hasFriendlyNamefilter(recipeGroup)
@@ -133,10 +132,15 @@ function filterRecipes(recipes)
       recipe.methods = {}
     end
     local includeRecipe = false
+    local excludeRecipe = false
     DebugUtilsCN.logDebug("Looking at recipe " .. recipe.output.name)
     for idx, group in ipairs(recipe.groups) do
       DebugUtilsCN.logDebug("Looking at recipe group: " .. group)
-      if(passesAllFilters(recipeFilters.groupFilters, group)) then
+      if(isExcludedFromRecipeBook(group)) then
+        excludeRecipe = true
+        includeRecipe = false
+      end
+      if(not excludeRecipe and passesAllFilters(recipeFilters.groupFilters, group)) then
         DebugUtilsCN.logDebug("Recipe group passes filters: " .. group)
         -- Include recipe if at least one group passes all filters
         includeRecipe = true
@@ -145,7 +149,7 @@ function filterRecipes(recipes)
         allMethods[group] = recipe.methods[group]
       end
     end
-    if(includeRecipe) then
+    if(includeRecipe and not excludeRecipe) then
       table.insert(result, recipe)
     end
   end

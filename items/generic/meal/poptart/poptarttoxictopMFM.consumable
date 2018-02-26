@@ -1,24 +1,24 @@
 {
-  "itemName" : "toxictoptartMFM",
+  "itemName" : "poptarttoxictopMFM",
   "rarity" : "Common",
-  "price" : 1036.6,
+  "price" : 919.77,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(BAKE):-} A sweet treat made from a bitter fruit.",
+  "description" : "(BAKE):-} A square breakfast pastry coated with a vanilla icing and toxictop jam spread.",
   "shortdescription" : "Poptart - Toxictop",
-  "foodValue" : 228.19,
+  "foodValue" : 194.47,
   "effects" : [[
     {
       "effect" : "regeneration2",
       "duration" : 34
     },
     {
-      "effect" : "maxenergyscalingboost",
-      "duration" : 34
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 37
     },
     {
-      "effect" : "maxenergyscalingboostfood",
-      "duration" : 71
+      "effect" : "maxenergyscalingboost",
+      "duration" : 34
     },
     {
       "effect" : "runboostfood",
@@ -26,11 +26,11 @@
     },
     {
       "effect" : "energyregen",
-      "duration" : 71
+      "duration" : 37
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 153
+      "duration" : 81
     },
     {
       "effect" : "weakpoison",
@@ -42,6 +42,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "toxictoptartMFM.png",
+  "inventoryIcon" : "poptarttoxictopMFM.png",
   "handPosition" : [ 0, -4 ]
 }

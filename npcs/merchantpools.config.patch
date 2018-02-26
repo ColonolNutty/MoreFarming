@@ -16,11 +16,11 @@
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "pastaplainMFM" } } },
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "pastatomatoMFM" } } },
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "phoMFM" } } },
+  { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "poptarttoxictopMFM" } } },
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "saladMFM" } } },
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "tamagoyakiMFM" } } },
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "toastbutteredMFM" } } },
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "tofurkeydinnerMFM" } } },
-  { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "toxictoptartMFM" } } },
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "veggieburgerMFM" } } },
   { "op" : "add", "path" : "/chefmerchant/2/1/-", "value" : { "item" : { "name" : "wafflesMFM" } } },
   {

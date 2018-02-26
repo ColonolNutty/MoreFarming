@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "toxictopjam", "count" : 1 },
+    { "item" : "icingvanillaMFM", "count" : 1 },
+    { "item" : "shortcrustpastryMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "poptarttoxictopMFM", "count" : 1 },
+  "groups" : [ "bakingMFM" ]
+}

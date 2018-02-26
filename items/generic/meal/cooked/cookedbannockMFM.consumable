@@ -1,12 +1,12 @@
 {
   "itemName" : "cookedbannockMFM",
   "rarity" : "Common",
-  "price" : 228.65,
+  "price" : 155.87,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(BAKE):-} A bannock.",
+  "description" : "(FRY):-} A bannock.",
   "shortdescription" : "Bannock",
-  "foodValue" : 201.45,
+  "foodValue" : 180.98,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

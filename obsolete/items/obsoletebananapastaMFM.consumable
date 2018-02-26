@@ -4,7 +4,7 @@
   "price" : 139.46,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(BOIL):-} A chef took a try on making an Apex targeted pasta. It actually worked.",
+  "description" : "A chef took a try on making an Apex targeted pasta. It actually worked.",
   "shortdescription" : "Pasta - Banana",
   "foodValue" : 63.55,
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -12,6 +12,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "bananapastaMFM.png",
+  "inventoryIcon" : "obsoletebananapastaMFM.png",
   "handPosition" : [ 0, -3 ]
 }

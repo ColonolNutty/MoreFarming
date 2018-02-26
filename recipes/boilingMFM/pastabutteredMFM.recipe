@@ -4,6 +4,6 @@
     { "item" : "pastaplainMFM", "count" : 1 },
     { "item" : "liquidwater", "count" : 2 }
   ],
-  "output" : { "item" : "butteredpastaMFM", "count" : 1 },
+  "output" : { "item" : "pastabutteredMFM", "count" : 1 },
   "groups" : [ "boilingMFM" ]
 }

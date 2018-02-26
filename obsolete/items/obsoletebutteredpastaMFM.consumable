@@ -4,7 +4,7 @@
   "price" : 32.15,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(BOIL):-} Pasta with butter.",
+  "description" : "Pasta with butter.",
   "shortdescription" : "Pasta - Buttered",
   "foodValue" : 71.18,
   "effects" : [[
@@ -26,6 +26,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "butteredpastaMFM.png",
+  "inventoryIcon" : "obsoletebutteredpastaMFM.png",
   "handPosition" : [ 0, -3 ]
 }

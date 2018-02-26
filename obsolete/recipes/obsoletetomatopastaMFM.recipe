@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "tomato", "count" : 1 },
+    { "item" : "freshpastaMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
+  ],
+  "output" : { "item" : "tomatopastaMFM", "count" : 1 },
+  "groups" : [ "boilingMFMNoRecipeBook" ]
+}

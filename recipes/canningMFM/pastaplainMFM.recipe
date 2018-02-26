@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "cannedpastaMFM", "count" : 1 }
   ],
-  "output" : { "item" : "freshpastaMFM", "count" : 1 },
+  "output" : { "item" : "pastaplainMFM", "count" : 1 },
   "groups" : [ "canningMFM" ]
 }

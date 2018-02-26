@@ -1,10 +1,10 @@
 {
-  "itemName" : "freshpastaMFM",
+  "itemName" : "pastaplainMFM",
   "rarity" : "Common",
   "price" : 10.87,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(BOIL):-} Pasta with no sauce.",
+  "description" : "(BOIL):-} Plain pasta with no sauce.",
   "shortdescription" : "Pasta - Plain",
   "foodValue" : 31.0,
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -12,6 +12,6 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "freshpastaMFM.png",
+  "inventoryIcon" : "pastaplainMFM.png",
   "handPosition" : [ 0, -3 ]
 }

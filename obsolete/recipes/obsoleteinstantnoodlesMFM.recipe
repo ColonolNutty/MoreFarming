@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "pastaplainMFM", "count" : 1 },
+    { "item" : "freshpastaMFM", "count" : 1 },
     { "item" : "liquidwater", "count" : 2 }
   ],
   "output" : { "item" : "instantnoodlesMFM", "count" : 1 },
-  "groups" : [ "boilingMFM" ]
+  "groups" : [ "boilingMFMNoRecipeBook" ]
 }

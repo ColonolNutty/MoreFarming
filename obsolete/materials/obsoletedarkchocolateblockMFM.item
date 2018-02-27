@@ -1,0 +1,11 @@
+{
+  "itemName" : "darkchocolateblockMFM",
+  "rarity" : "Common",
+  "price" : 19.64,
+  "category" : "block",
+  "description" : "I need to recycle this to make it usable for building.",
+  "shortdescription" : "Old Chocolate Block - Dark",
+  "glitchDescription" : "Statement. A block made of dark chocolate.",
+  "floranDescription" : "Block isss bitter!",
+  "inventoryIcon" : "obsoletedarkchocolateblockMFM.png"
+}

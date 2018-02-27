@@ -1,20 +1,20 @@
 {
   "materialId" : 19206,
-  "materialName" : "darkchocolateblockMFM",
+  "materialName" : "blockchocolatedarkMFM",
   "particleColor" : [13, 39, 7, 255],
-  "itemDrop" : "darkchocolateblockMFM",
+  "itemDrop" : "blockchocolatedarkMFM",
   
   "description" : "A block made of dark chocolate.",
   "shortdescription" : "Chocolate Block - Dark",
   "glitchDescription" : "Statement. A block made of dark chocolate.",
-  "floranDescription" : "Tasssty block.",
+  "floranDescription" : "Block isss bitter!",
   "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
   "health" : 5,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "darkchocolateblockMFM.png",
+    "texture" : "blockchocolatedarkMFM.png",
     "variants" : 5,
     "lightTransparent" : false,
     "multiColored" : false,

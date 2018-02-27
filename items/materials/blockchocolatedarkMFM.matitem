@@ -1,5 +1,5 @@
 {
-  "itemName" : "darkchocolateblockMFM",
+  "itemName" : "blockchocolatedarkMFM",
   "rarity" : "Common",
   "price" : 19.64,
   "category" : "block",
@@ -7,6 +7,6 @@
   "shortdescription" : "Chocolate Block - Dark",
   "floranDescription" : "Block isss bitter!",
   "glitchDescription" : "Statement. A block made of dark chocolate.",
-  "inventoryIcon" : "darkchocolateblockMFM.png",
+  "inventoryIcon" : "blockchocolatedarkMFM.png",
   "materialId" : 19206
 }

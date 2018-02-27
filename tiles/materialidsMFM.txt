@@ -12,8 +12,8 @@ Materials:
 19202 - pumpkinblockMFM
 19203 - sugarblockMFM
 19204 - sugarcaneblockMFM
-19205 - chocolateblockMFM
-19206 - darkchocolateblockMFM
+19205 - blockchocolateplainMFM
+19206 - blockchocolatedarkMFM
 19207 - whitechocolateblockMFM
 
 19208 - brickchocolatedarkMFM

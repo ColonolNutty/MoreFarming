@@ -14,7 +14,7 @@ Materials:
 19204 - sugarcaneblockMFM
 19205 - blockchocolateplainMFM
 19206 - blockchocolatedarkMFM
-19207 - whitechocolateblockMFM
+19207 - blockchocolatewhiteMFM
 
 19208 - brickchocolatedarkMFM
 19209 - brickchocolateplainMFM

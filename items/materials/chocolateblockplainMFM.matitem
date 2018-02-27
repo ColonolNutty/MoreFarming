@@ -1,5 +1,5 @@
 {
-  "itemName" : "chocolateblockMFM",
+  "itemName" : "chocolateblockplainMFM",
   "rarity" : "Common",
   "price" : 26.35,
   "category" : "block",
@@ -7,6 +7,6 @@
   "shortdescription" : "Chocolate Block - Plain",
   "floranDescription" : "Sssweet Tasssty block.",
   "glitchDescription" : "Statement. A block made of chocolate.",
-  "inventoryIcon" : "chocolateblockMFM.png",
+  "inventoryIcon" : "chocolateblockplainMFM.png",
   "materialId" : 19205
 }

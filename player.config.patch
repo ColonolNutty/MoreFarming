@@ -8,7 +8,7 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "bluefoodcolorMFM" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "bookpiles" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "ceramicplateMFM" }},
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "chocolateblockMFM" }},
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "chocolateblockplainMFM" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "cupcakepaperMFM" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "coffeemugMFM" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "darkchocolateblockMFM" }},

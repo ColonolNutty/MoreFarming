@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "chocolate", "count" : 1 }
   ],
-  "output" : { "item" : "chocolateblockMFM", "count" : 10 },
+  "output" : { "item" : "chocolateblockplainMFM", "count" : 10 },
   "groups" : [ "craftingfurniture", "materials", "all" ]
 }

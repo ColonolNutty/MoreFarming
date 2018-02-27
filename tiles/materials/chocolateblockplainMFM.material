@@ -1,8 +1,8 @@
 {
   "materialId" : 19205,
-  "materialName" : "chocolateblockMFM",
+  "materialName" : "chocolateblockplainMFM",
   "particleColor" : [13, 39, 7, 255],
-  "itemDrop" : "chocolateblockMFM",
+  "itemDrop" : "chocolateblockplainMFM",
   
   "description" : "A block made of chocolate.",
   "shortdescription" : "Chocolate Block - Plain",
@@ -14,7 +14,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "chocolateblockMFM.png",
+    "texture" : "chocolateblockplainMFM.png",
     "variants" : 5,
     "lightTransparent" : false,
     "multiColored" : false,

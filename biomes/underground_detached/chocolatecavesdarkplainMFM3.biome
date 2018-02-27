@@ -14,7 +14,7 @@
   ],
 	"mainBlock" : "darkchocolateblockMFM",
 	"subBlocks" : [
-    "chocolateblockplainMFM",
+    "blockchocolateplainMFM",
     "hardchocolateblockdarkMFM",
     "hardchocolateblockplainMFM"
   ],

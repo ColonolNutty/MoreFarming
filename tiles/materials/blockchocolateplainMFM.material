@@ -1,12 +1,12 @@
 {
   "materialId" : 19205,
-  "materialName" : "chocolateblockplainMFM",
+  "materialName" : "blockchocolateplainMFM",
   "particleColor" : [13, 39, 7, 255],
-  "itemDrop" : "chocolateblockplainMFM",
+  "itemDrop" : "blockchocolateplainMFM",
   
   "description" : "A block made of chocolate.",
   "shortdescription" : "Chocolate Block - Plain",
-  "glitchDescription" : "Statement. A block made of chocolate.",
+  "glitchDescription" : "Statement. A block made of plain chocolate.",
   "floranDescription" : "Tasssty block.",
   "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "health" : 5,
@@ -14,7 +14,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "chocolateblockplainMFM.png",
+    "texture" : "blockchocolateplainMFM.png",
     "variants" : 5,
     "lightTransparent" : false,
     "multiColored" : false,

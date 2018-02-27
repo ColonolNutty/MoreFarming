@@ -12,7 +12,7 @@
       "extraSpawns" : []
     }
   ],
-	"mainBlock" : "chocolateblockplainMFM",
+	"mainBlock" : "blockchocolateplainMFM",
 	"subBlocks" : [
     "softchocolateblockwhiteMFM",
     "hardchocolateblockplainMFM",

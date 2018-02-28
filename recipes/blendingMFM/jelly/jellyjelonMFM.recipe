@@ -3,6 +3,6 @@
     { "item" : "jelonMFM", "count" : 5 },
     { "item" : "sugar", "count" : 1 }
   ],
-  "output" : { "item" : "jamjelonMFM", "count" : 1 },
+  "output" : { "item" : "jellyjelonMFM", "count" : 1 },
   "groups" : [ "blendingMFM" ]
 }

@@ -1,0 +1,35 @@
+{
+  "itemName" : "sandwichpbjjelonMFM",
+  "rarity" : "Uncommon",
+  "price" : 669.96,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A sandwich made with peanut butter and jelon jelly.",
+  "shortdescription" : "Sandwich PB+J - Jelon",
+  "foodValue" : 137.57,
+  "effects" : [[
+    {
+      "effect" : "swimboost",
+      "duration" : 264
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 158
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 264
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 192
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "sandwichpbjjelonMFM.png",
+  "handPosition" : [ 0, -2 ]
+}

@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "sugar", "count" : 2 }
   ],
-  "output" : { "item" : "sugarblockMFM", "count" : 1 },
+  "output" : { "item" : "softblocksugarMFM", "count" : 5 },
   "groups" : [ "craftingfurniture", "materials", "all" ]
 }

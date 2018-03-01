@@ -22,7 +22,7 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "makeshiftbakingstationCNYC" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "milk" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "redfoodcolorMFM" }},
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "sugarblockMFM" }},
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "softblocksugarMFM" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "sugarcaneblockMFM" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "thatch" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "toffeeblockMFM" }},

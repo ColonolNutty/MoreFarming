@@ -16,7 +16,7 @@
 	"subBlocks" : [
     "hardchocolateblockplainMFM",
     "hardchocolateblockwhiteMFM",
-    "sugarblockMFM"
+    "softblocksugarMFM"
   ],
 	"ores" : "depth2",
   "parallax" : "/parallax/underground/chocolatecavesdarkplainwhiteMFM.parallax",

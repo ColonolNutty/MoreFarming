@@ -15,7 +15,7 @@
 	"mainBlock" : "hardchocolateblockdarkMFM",
 	"subBlocks" : [
     "hardchocolateblockplainMFM",
-    "sugarblockMFM",
+    "softblocksugarMFM",
     "toffeeblockMFM"
   ],
 	"ores" : "depth2",

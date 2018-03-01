@@ -1,13 +1,13 @@
 {
   "materialId" : 19203,
-  "materialName" : "sugarblockMFM",
+  "materialName" : "softblocksugarMFM",
   "particleColor" : [200, 200, 200, 255],
-  "itemDrop" : "sugarblockMFM",
+  "itemDrop" : "softblocksugarMFM",
   
-  "description" : "Sugar packed tight into a solid block.",
-  "shortdescription" : "Sugar Block",
-  "glitchDescription" : "Curious. A block of sugar.",
-  "floranDescription" : "Sssweet block.",
+  "description" : "Loosely packed sugar. Crumbles when disturbed.",
+  "shortdescription" : "Soft Block Sugar",
+  "glitchDescription" : "Curious. A block of sugar. It crumbles when disturbed.",
+  "floranDescription" : "Sssugar block. It getsss everywhere when I touch it!",
   "footstepSound" : "/sfx/blocks/footstep_ash.ogg",
   "falling" : true,
   "cascading" : true,
@@ -16,7 +16,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "sugarblockMFM.png",
+    "texture" : "softblocksugarMFM.png",
     "variants" : 5,
     "lightTransparent" : false,
     "multiColored" : true,

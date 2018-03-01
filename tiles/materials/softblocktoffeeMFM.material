@@ -1,12 +1,12 @@
 {
   "materialId" : 3304,
-  "materialName" : "toffeeblockMFM",
+  "materialName" : "softblocktoffeeMFM",
   "particleColor" : [150, 84, 17, 255],
-  "itemDrop" : "toffeeblockMFM",
+  "itemDrop" : "softblocktoffeeMFM",
   
-  "description" : "Toffee compressed into solid blocks.",
-  "shortdescription" : "Toffee Block.",
-  "glitchDescription" : "Statement. Toffee Block.",
+  "description" : "Softly packed Toffee.",
+  "shortdescription" : "Soft Block Toffee",
+  "glitchdescription" : "Analysis. Soft Toffee Block.",
   "floranDescription" : "Sssweet toffee.",
   "footstepSound" : "/sfx/blocks/footstep_wetclay.ogg",
   "health" : 3,
@@ -14,7 +14,7 @@
   
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "toffeeblockMFM.png",
+    "texture" : "softblocktoffeeMFM.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,

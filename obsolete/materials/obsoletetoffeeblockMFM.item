@@ -1,0 +1,9 @@
+{
+  "itemName" : "toffeeblockMFM",
+  "rarity" : "Common",
+  "price" : 11.01,
+  "category" : "block",
+  "description" : "I need to recycle this to make it usable for building.",
+  "shortdescription" : "Old Toffee Block",
+  "inventoryIcon" : "obsoletetoffeeblockMFM.png"
+}

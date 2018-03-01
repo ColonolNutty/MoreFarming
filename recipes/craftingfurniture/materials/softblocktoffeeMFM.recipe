@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "toffeeMFM", "count" : 1 }
   ],
-  "output" : { "item" : "toffeeblockMFM", "count" : 3 },
+  "output" : { "item" : "softblocktoffeeMFM", "count" : 5 },
   "groups" : [ "craftingfurniture", "materials", "all" ]
 }

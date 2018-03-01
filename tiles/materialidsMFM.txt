@@ -9,7 +9,7 @@ Materials:
 3302 - blockjelonMFM
 3304 - toffeeblockMFM
 19201 - blockneonmelonMFM
-19202 - pumpkinblockMFM
+19202 - blockpumpkinMFM
 19203 - sugarblockMFM
 19204 - sugarcaneblockMFM
 19205 - blockchocolateplainMFM

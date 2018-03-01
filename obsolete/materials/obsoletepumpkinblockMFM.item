@@ -1,0 +1,9 @@
+{
+  "itemName" : "pumpkinblockMFM",
+  "rarity" : "Common",
+  "price" : 12.6,
+  "category" : "block",
+  "description" : "I need to recycle this to make it usable for building.",
+  "shortdescription" : "Old Pumpkin Block",
+  "inventoryIcon" : "obsoletepumpkinblockMFM.png"
+}

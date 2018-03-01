@@ -1,11 +1,11 @@
 {
   "materialId" : 19202,
-  "materialName" : "pumpkinblockMFM",
+  "materialName" : "blockpumpkinMFM",
   "particleColor" : [170, 92, 12, 255],
-  "itemDrop" : "pumpkinblockMFM",
+  "itemDrop" : "blockpumpkinMFM",
   
   "description" : "Pumpkin compressed into a solid block.",
-  "shortdescription" : "Pumpkin Block",
+  "shortdescription" : "Block Pumpkin",
   "glitchDescription" : "Statement. A block made of Pumpkin.",
   "floranDescription" : "Bright orange block.",
   "footstepSound" : "/sfx/blocks/footstep_grass.ogg",
@@ -14,7 +14,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "pumpkinblockMFM.png",
+    "texture" : "blockpumpkinMFM.png",
     "variants" : 5,
     "lightTransparent" : false,
     "multiColored" : true,

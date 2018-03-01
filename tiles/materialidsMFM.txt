@@ -11,7 +11,7 @@ Materials:
 19201 - blockneonmelonMFM
 19202 - blockpumpkinMFM
 19203 - softblocksugarMFM
-19204 - sugarcaneblockMFM
+19204 - blocksugarcaneMFM
 19205 - blockchocolateplainMFM
 19206 - blockchocolatedarkMFM
 19207 - blockchocolatewhiteMFM

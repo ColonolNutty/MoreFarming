@@ -1,12 +1,12 @@
 {
   "materialId" : 19204,
-  "materialName" : "sugarcaneblockMFM",
+  "materialName" : "blocksugarcaneMFM",
   "particleColor" : [139, 39, 88, 255],
-  "itemDrop" : "sugarcaneblockMFM",
+  "itemDrop" : "blocksugarcaneMFM",
   "description" : "Sugarcane crafted into a block.",
-  "shortdescription" : "Sugarcane Block",
+  "shortdescription" : "Block Sugarcane",
   "glitchDescription" : "Curious. A block of made of sugarcane.",
-  "floranDescription" : "Sssweet sssticksss.",
+  "floranDescription" : "Sssweet sticksss.",
   "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
   "health" : 2,
   "category" : "materials",
@@ -14,7 +14,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "sugarcaneblockMFM.png",
+    "texture" : "blocksugarcaneMFM.png",
     "variants" : 5,
     "lightTransparent" : false,
     "multiColored" : true,

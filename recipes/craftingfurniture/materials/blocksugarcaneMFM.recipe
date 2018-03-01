@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "sugarcanestalkMFM", "count" : 1 }
   ],
-  "output" : { "item" : "sugarcaneblockMFM", "count" : 1 },
+  "output" : { "item" : "blocksugarcaneMFM", "count" : 10 },
   "groups" : [ "craftingfurniture", "materials", "all" ]
 }

@@ -6,7 +6,7 @@ Liquids:
 142 - liquidchocolatemilkMFM
 
 Materials:
-3302 - jelonMFM
+3302 - blockjelonMFM
 3304 - toffeeblockMFM
 19201 - neonmelonblockMFM
 19202 - pumpkinblockMFM

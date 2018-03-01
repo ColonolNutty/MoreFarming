@@ -1,8 +1,8 @@
 {
   "materialId" : 3302,
-  "materialName" : "jelonMFM",
+  "materialName" : "blockjelonMFM",
   "particleColor" : [50, 146, 230, 255],
-  "itemDrop" : "jelonblockMFM",
+  "itemDrop" : "blockjelonMFM",
   
   "description" : "A block made of gelatin-like jelon.",
   "shortdescription" : "Jelon Block",
@@ -16,7 +16,7 @@
   
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "jelonMFM.png",
+    "texture" : "blockjelonMFM.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,

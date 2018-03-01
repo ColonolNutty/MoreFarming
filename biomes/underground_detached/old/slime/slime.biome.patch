@@ -4,6 +4,6 @@
     { "op" : "add", "path" : "/subBlocks", "value": [] }
   ],
   [
-    { "op": "add", "path": "/subBlocks/-", "value": "jelonMFM" }
+    { "op": "add", "path": "/subBlocks/-", "value": "blockjelonMFM" }
   ]
 ]

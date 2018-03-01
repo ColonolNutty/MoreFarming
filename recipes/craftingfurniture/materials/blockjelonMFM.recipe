@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "jelonMFM", "count" : 1 }
   ],
-  "output" : { "item" : "jelonblockMFM", "count" : 3 },
+  "output" : { "item" : "blockjelonMFM", "count" : 3 },
   "groups" : [ "craftingfurniture", "materials", "all" ]
 }

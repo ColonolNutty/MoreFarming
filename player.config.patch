@@ -15,7 +15,7 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "coffeemugMFM" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "grassy" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "ice" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jelonblockMFM" }},
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "blockjelonMFM" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lavalamp1" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "makeshiftbakingstationCNYC" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "milk" }},

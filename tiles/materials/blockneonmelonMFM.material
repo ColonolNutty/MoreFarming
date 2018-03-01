@@ -1,11 +1,11 @@
 {
   "materialId" : 19201,
-  "materialName" : "neonmelonblockMFM",
+  "materialName" : "blockneonmelonMFM",
   "particleColor" : [120, 82, 63, 255],
-  "itemDrop" : "neonmelonblockMFM",
+  "itemDrop" : "blockneonmelonMFM",
   
   "description" : "Neonmelon compressed into a solid block.",
-  "shortdescription" : "Neonmelon Block",
+  "shortdescription" : "Block Neonmelon",
   "glitchDescription" : "Statement. A block made of Neonmelons.",
   "floranDescription" : "Bright blue block.",
   "footstepSound" : "/sfx/blocks/footstep_grass.ogg",
@@ -14,7 +14,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "neonmelonblockMFM.png",
+    "texture" : "blockneonmelonMFM.png",
     "variants" : 5,
     "lightTransparent" : false,
     "multiColored" : true,

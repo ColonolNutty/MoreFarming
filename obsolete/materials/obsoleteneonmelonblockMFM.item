@@ -1,0 +1,10 @@
+{
+  "itemName" : "neonmelonblockMFM",
+  "rarity" : "Common",
+  "price" : 29.4,
+  "category" : "block",
+  "description" : "I need to recycle this to make it usable for building.",
+  "shortdescription" : "Old Neonmelon Block",
+  "inventoryIcon" : "obsoleteneonmelonblockMFM.png",
+  "materialId" : 19201
+}

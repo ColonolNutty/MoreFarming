@@ -8,7 +8,7 @@ Liquids:
 Materials:
 3302 - blockjelonMFM
 3304 - toffeeblockMFM
-19201 - neonmelonblockMFM
+19201 - blockneonmelonMFM
 19202 - pumpkinblockMFM
 19203 - sugarblockMFM
 19204 - sugarcaneblockMFM

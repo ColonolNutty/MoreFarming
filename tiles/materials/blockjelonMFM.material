@@ -5,7 +5,7 @@
   "itemDrop" : "blockjelonMFM",
   
   "description" : "A block made of gelatin-like jelon.",
-  "shortdescription" : "Jelon Block",
+  "shortdescription" : "Block Jelon",
   "glitchDescription" : "Analysis. Jelon block, slimy.",
   "novakidDescription" : "This blue slime is some nasty lookin' stuff.",
   "falling" : true,

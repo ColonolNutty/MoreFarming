@@ -1,5 +1,4 @@
 {
-  "materialId" : 19201,
   "itemName" : "blockneonmelonMFM",
   "rarity" : "Common",
   "price" : 29.4,
@@ -8,5 +7,6 @@
   "shortdescription" : "Block Neonmelon",
   "floranDescription" : "Bright blue block.",
   "glitchDescription" : "Statement. A block made of Neonmelon.",
-  "inventoryIcon" : "blockneonmelonMFM.png"
+  "inventoryIcon" : "blockneonmelonMFM.png",
+  "materialId" : 19201
 }

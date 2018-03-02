@@ -1,5 +1,4 @@
 {
-  "materialId" : 3302,
   "itemName" : "blockjelonMFM",
   "rarity" : "Common",
   "price" : 31.5,
@@ -7,5 +6,6 @@
   "description" : "Jelon compressed in a block shape.",
   "shortdescription" : "Block Jelon",
   "inventoryIcon" : "blockjelonMFM.png",
-  "glitchdescription" : "Analysis. Block made of jelons."
+  "glitchdescription" : "Analysis. Block made of jelons.",
+  "materialId" : 3302
 }

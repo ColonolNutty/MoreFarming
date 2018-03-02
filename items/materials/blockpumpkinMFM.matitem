@@ -1,5 +1,4 @@
 {
-  "materialId" : 19202,
   "itemName" : "blockpumpkinMFM",
   "rarity" : "Common",
   "price" : 12.6,
@@ -8,5 +7,6 @@
   "shortdescription" : "Block Pumpkin",
   "floranDescription" : "Bright orange block.",
   "glitchDescription" : "Statement. A block made of Pumpkin.",
-  "inventoryIcon" : "blockpumpkinMFM.png"
+  "inventoryIcon" : "blockpumpkinMFM.png",
+  "materialId" : 19202
 }

@@ -1,12 +1,12 @@
 {
-  "materialId" : 19204,
   "itemName" : "blocksugarcaneMFM",
   "rarity" : "Common",
-  "price" : 84.0,
+  "price" : 8.4,
   "category" : "block",
   "description" : "Sugarcane compressed into a block shape.",
   "shortdescription" : "Block Sugarcane",
-  "glitchDescription" : "Curious. A block of made of sugarcane.",
   "floranDescription" : "Sssweet sticksss.",
-  "inventoryIcon" : "blocksugarcaneMFM.png"
+  "glitchDescription" : "Curious. A block of made of sugarcane.",
+  "inventoryIcon" : "blocksugarcaneMFM.png",
+  "materialId" : 19204
 }

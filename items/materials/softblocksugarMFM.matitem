@@ -1,12 +1,12 @@
 {
-  "materialId" : 19203,
   "itemName" : "softblocksugarMFM",
   "rarity" : "Common",
-  "price" : 57.4,
+  "price" : 11.48,
   "category" : "block",
   "description" : "Loosely packed sugar. Crumbles when disturbed.",
   "shortdescription" : "Soft Block Sugar",
-  "glitchDescription" : "Curious. A block of sugar.",
   "floranDescription" : "Sssweet block.",
-  "inventoryIcon" : "softblocksugarMFM.png"
+  "glitchDescription" : "Curious. A block of sugar.",
+  "inventoryIcon" : "softblocksugarMFM.png",
+  "materialId" : 19203
 }

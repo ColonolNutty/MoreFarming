@@ -1,4 +1,5 @@
 require "/scripts/debugUtilsCN.lua"
+require "/scripts/recipebookMFMQueryAPI.lua"
 
 RecipeCrafterMFMApi = {
   debugMsgPrefix = "[RCAPI]"
@@ -11,6 +12,7 @@ function RecipeCrafterMFMApi.init(msgPrefix, versioningConfig)
     RecipeCrafterMFMApi.debugMsgPrefix = msgPrefix
   end
   DebugUtilsCN.init(RecipeCrafterMFMApi.debugMsgPrefix)
+  RecipeBookMFMAPI.init();
   rcUtils.printMetaData(versioningConfig)
   DebugUtilsCN.logDebug("Initializing API");
   local outputConfigPath = config.getParameter("outputConfig")

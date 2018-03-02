@@ -1,4 +1,6 @@
 require "/scripts/utilsCN.lua"
+RBMFMGui = {}
+
 
 ----------------------- Properties ------------------------------
 
@@ -19,50 +21,78 @@ local enableDebug = nil
 local methodFilterListItemIds = nil
 local foodListItemIds = nil
 
+RECIPE_BOOK_FRAME_NAME = "recipeBookFrame"
+
+FILTER_BY_NAME_NAME = RECIPE_BOOK_FRAME_NAME .. ".filterByName"
+FILTER_BY_INPUT_NAME = RECIPE_BOOK_FRAME_NAME .. ".filterByInput"
+FILTER_BY_HAS_INGREDIENTS_NAME = RECIPE_BOOK_FRAME_NAME .. ".filterByHasIngredients"
+
+TOGGLE_DEBUG_NAME = RECIPE_BOOK_FRAME_NAME .. ".toggleDebug"
+
+FILTER_LIST_NAME = RECIPE_BOOK_FRAME_NAME .. ".filterList.filterItemList"
+FILTER_LIST_EMPTY = RECIPE_BOOK_FRAME_NAME .. ".filterList.empty"
+
+FOOD_LIST_NAME = RECIPE_BOOK_FRAME_NAME .. ".foodList.foodItemList"
+FOOD_LIST_EMPTY = RECIPE_BOOK_FRAME_NAME .. ".foodList.empty"
+
+INGREDIENT_HEADER_BACKGROUD = "/interface/crafting/MFM/shared/craftableheaderbackgroundMFM.png"
+
+INGREDIENTS_LIST_NAME = RECIPE_BOOK_FRAME_NAME .. ".ingredientList.ingredientItemList"
+INGREDIENTS_LIST_EMPTY = RECIPE_BOOK_FRAME_NAME .. ".ingredientList.empty"
 -----------------------------------------------------------------
 
 ------------------------- Basic ---------------------------------
 
+local sourceEntityId = nil
 local ignoreFoodSelected = false
 local ignoreFilterSelected = false
 local dataStore = nil
 local hasError = false
--- Since the filter activates for every keystroke (twice for some reason), this is here to reduce lag experienced when filtering by name (In other words, there is a 1 second delay before results will filter)
-local updateBuffer = 1
-local currentTime = 0
-local enableDelayedRecipeUpdate = false
 local debugStateUpdated = false
 
-function init()
+function RBMFMGui.init(entityId)
+  sourceEntityId = entityId
   filters.clear = function()
-    widget.setText("filterByName", "")
+    widget.setText(FILTER_BY_NAME_NAME, "")
     filters.nameFilter = nil;
-    widget.setText("filterByInput", "")
+    widget.setText(FILTER_BY_INPUT_NAME, "")
     filters.inputNameFilter = nil;
-    widget.setChecked("filterByHasIngredients", false)
+    widget.setChecked(FILTER_BY_HAS_INGREDIENTS_NAME, false)
     filters.ingredientsAvailable = false;
   end
   requestsToObject = {}
   completedInitialSetup = false
   enableDebug = nil
-  currentTime = 0
   table.insert(filters.recipeFilters, hasRecipesFilter)
   table.insert(filters.recipeFilters, nameMatchesFilter)
   table.insert(filters.recipeFilters, inputNameMatchesFilter)
   table.insert(filters.recipeFilters, hasAvailableIngredients)
 end
 
+function init()
+  sb.logInfo("Running RBMFMGui init");
+  if(pane.sourceEntity) then
+    RBMFMGui.init(pane.sourceEntity())
+  elseif(pane.containerEntityId) then
+    RBMFMGui.init(pane.containerEntityId())
+  else
+    RBMFMGui.init(nil)
+  end
+end
+
 function uninit()
 end
 
 function update(dt)
+  if(hasError) then
+    return
+  end
   if(player == nil or player.id() == nil) then
     logDebug("No player, returning")
     return
   end
   ensureInitialSetup()
   updateRequests()
-  applyFilters(dt)
 end
 
 ------------------------- Initial Setup ---------------------------
@@ -250,24 +280,6 @@ function updateRequests()
   logDebug("Done with requests")
 end
 
-function applyFilters(dt)
-  if(not completedInitialSetup) then
-    logDebug("Cannot apply filters, initial setup not complete")
-    return
-  end
-  if(not enableDelayedRecipeUpdate) then
-    return
-  end
-  
-  if(currentTime < updateBuffer) then
-    currentTime = currentTime + dt
-  else
-    updateFoodList()
-    currentTime = 0
-    enableDelayedRecipeUpdate = false
-  end
-end
-
 -----------------------------------------------------------------
 
 function updateIsCraftable(foodItem)
@@ -371,10 +383,6 @@ function passesAllFilters(filters, val)
   end
   return passesFilters;
 end
-
-
-FILTER_LIST_NAME = "filterList.filterItemList"
-FILTER_LIST_EMPTY = "filterList.empty"
 
 function onFilterSelected()
   if(ignoreFilterSelected) then
@@ -494,8 +502,6 @@ end
 
 ------------------------- Recipes -------------------------------
 
-FOOD_LIST_NAME = "foodList.foodItemList"
-FOOD_LIST_EMPTY = "foodList.empty"
 
 
 function onFoodSelected()
@@ -581,11 +587,6 @@ end
 ----------------------- Ingredients -----------------------------
 
 local ignoreIngredientSelected = false
-
-INGREDIENT_HEADER_BACKGROUD = "/interface/crafting/MFM/shared/craftableheaderbackgroundMFM.png"
-
-INGREDIENTS_LIST_NAME = "ingredientList.ingredientItemList"
-INGREDIENTS_LIST_EMPTY = "ingredientList.empty"
 
 function onIngredientSelected()
   if(ignoreFoodSelected or ignoreIngredientSelected) then
@@ -767,33 +768,32 @@ end
 
 ------------------------- Filters --------------------------
 
-function filterByName(id)
-  local nameFilter = widget.getText(id)
+function filterByName()
+  local nameFilter = widget.getText(FILTER_BY_NAME_NAME)
   if(nameFilter == nil or nameFilter == "") then
     filters.nameFilter = nil
   else
-    
     filters.nameFilter = nameFilter
+    logDebug("Filtering by name: '" .. filters.nameFilter .. "'")
   end
   logDebug("Filtering by name")
-  currentTime = 0
-  enableDelayedRecipeUpdate = true
+  requestFoodListUpdate()
 end
 
 function filterByInput(id)
-  local inputNameFilter = widget.getText(id)
+  local inputNameFilter = widget.getText(FILTER_BY_INPUT_NAME)
   if(inputNameFilter == nil or inputNameFilter == "") then
     filters.inputNameFilter = nil
   else
     filters.inputNameFilter = inputNameFilter;
+    logDebug("Filtering by input name: '" .. filters.inputNameFilter .. "'")
   end
   logDebug("Filtering by input name")
-  currentTime = 0;
-  enableDelayedRecipeUpdate = true
+  requestFoodListUpdate()
 end
 
-function filterByHasIngredients(id)
-  local enableFilter = widget.getChecked(id)
+function filterByHasIngredients()
+  local enableFilter = widget.getChecked(FILTER_BY_HAS_INGREDIENTS_NAME)
   if(enableFilter) then
     logDebug("Doing filter")
   else
@@ -816,9 +816,9 @@ function logDebug(msg)
 end
 
 function toggleDebug()
-  local toEnable = widget.getChecked("toggleDebug")
+  local toEnable = widget.getChecked(TOGGLE_DEBUG_NAME)
   enableDebug = toEnable
-  world.sendEntityMessage(pane.sourceEntity(), "setDebugState", toEnable)
+  world.sendEntityMessage(sourceEntity, "setDebugState", toEnable)
   if(toEnable) then
     sb.logInfo("[RBGUI] Debug is enabled")
   else
@@ -833,7 +833,7 @@ function updateDebugState()
   local enableDebugResult = requestData("getDebugState", 0, nil)
   if(enableDebugResult ~= nil) then
     enableDebug = enableDebugResult.debugState
-    widget.setChecked("toggleDebug", enableDebug)
+    widget.setChecked(TOGGLE_DEBUG_NAME, enableDebug)
     debugStateUpdated = true
   end
 end
@@ -980,13 +980,18 @@ function containsSubString(one, two)
 end
 
 function requestData(requestName, requestId, defaultResponse, data)
+  if(sourceEntityId == nil) then
+    sb.logError("[RBMFMGUI] No SourceEntityId found")
+    hasError = true
+    return defaultResponse
+  end
   local requestIdentifier = requestName .. requestId
   local request = requestsToObject[requestIdentifier]
   if(request == nil) then
     if(data ~= nil) then
-      requestsToObject[requestIdentifier] = world.sendEntityMessage(pane.sourceEntity(), requestName, data)
+      requestsToObject[requestIdentifier] = world.sendEntityMessage(sourceEntityId, requestName, data)
     else
-      requestsToObject[requestIdentifier] = world.sendEntityMessage(pane.sourceEntity(), requestName)
+      requestsToObject[requestIdentifier] = world.sendEntityMessage(sourceEntityId, requestName)
     end
     request = requestsToObject[requestIdentifier]
   end
@@ -1014,3 +1019,6 @@ function requestData(requestName, requestId, defaultResponse, data)
 end
 
 -----------------------------------------------------------------
+
+function dummy()
+end

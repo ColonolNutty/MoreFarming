@@ -36,6 +36,7 @@ RECIPE_CONFIGURATION_PATH = "/recipeCrafterMFM/"
 --- Handlers ---
 -- getDataStore
 -- setDataStore
+-- updateSelectedFilters
 -- storeIngredient
 -- updateSelectedId
 ---
@@ -72,6 +73,7 @@ function initializeDataStore()
     selectedFoodId = nil,
     ingredientStore = {},
     methodFilters = {},
+    sortedMethodFilters = {},
     methodFilterNames = root.assetJson(METHOD_FILTER_NAMES_PATH).filterNames,
     methodFriendlyNames = root.assetJson(RECIPE_METHOD_FRIENDLY_NAMES)
   };

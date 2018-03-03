@@ -1,6 +1,5 @@
 local recipeBookVisible = false
 local setInitialFilter = false
-local addedRequest = false
 
 function init()
   setInitialFilter = false
@@ -10,9 +9,8 @@ function init()
 end
 
 function update(dt)
-  if(RBMFMGui.isInitialized and not setInitialFilter and not addedRequest) then
+  if(RBMFMGui.isInitialized and not setInitialFilter) then
     requestEnableSingleFilter()
-    addedRequest = true
   end
   RBMFMGui.update(dt)
 end
@@ -31,11 +29,8 @@ function requestEnableSingleFilter()
     return false, nil
   end
   local onComplete = function(result)
-    local success = RBMFMGui.enableSingleFilter(result)
-    if(success) then
-      setInitialFilter = true
-    end
-    addedRequest = false
+    RBMFMGui.filterByMethod(result)
+    setInitialFilter = true
   end
   RequestsMFMAPI.addRequest(handle, onComplete)
 end

@@ -12,6 +12,7 @@ RequestsMFMAPI = {}
 local filters = {
     nameFilter = nil,
     inputNameFilter = nil,
+    methodNameFilter = nil,
     ingredientsAvailable = false,
     recipeFilters = {}
   }
@@ -58,6 +59,7 @@ function RBMFMGui.init(entityId)
     filters.nameFilter = nil;
     widget.setText(FILTER_BY_INPUT_NAME, "")
     filters.inputNameFilter = nil;
+    filters.methodNameFilter = nil
     widget.setChecked(FILTER_BY_HAS_INGREDIENTS_NAME, false)
     filters.ingredientsAvailable = false;
   end
@@ -66,6 +68,7 @@ function RBMFMGui.init(entityId)
   enableDebug = nil
   table.insert(filters.recipeFilters, hasRecipesFilter)
   table.insert(filters.recipeFilters, nameMatchesFilter)
+  table.insert(filters.recipeFilters, methodNamesMatchFilters)
   table.insert(filters.recipeFilters, inputNameMatchesFilter)
   table.insert(filters.recipeFilters, hasAvailableIngredients)
 end
@@ -364,6 +367,22 @@ function inputNameMatchesFilter(item)
     end
   end
   return matches;
+end
+
+function methodNamesMatchFilters(item)
+  if(item.methods == nil) then
+    return false;
+  end
+  if(filters.methodNameFilter == nil) then
+    return true;
+  end
+  local methodMatches = false
+  for methodId,methodName in pairs(item.methods) do
+    if(containsSubString(methodId, filters.methodNameFilter)) then
+      methodMatches = true
+    end
+  end
+  return methodMatches
 end
 
 function hasAvailableIngredients(item)
@@ -772,6 +791,11 @@ end
 
 
 ------------------------- Filters --------------------------
+
+function RBMFMGui.filterByMethod(methodName)
+  filters.methodNameFilter = methodName
+  selectAllFilters()
+end
 
 function filterByName()
   local nameFilter = widget.getText(FILTER_BY_NAME_NAME)

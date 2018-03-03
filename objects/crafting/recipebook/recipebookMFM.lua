@@ -52,6 +52,7 @@ function init()
   message.setHandler("updateSelectedFilters", updateSelectedFilters);
   message.setHandler("storeIngredient", storeIngredient);
   message.setHandler("updateSelectedId", updateSelectedId);
+  message.setHandler("getRecipesForFilter", getRecipesForFilter);
   table.insert(recipeFilters.groupFilters, hasFriendlyNamefilter)
   
   storage.rbDataStore = nil
@@ -178,6 +179,7 @@ function updateSelectedId(id, name, newId)
 end
 
 function updateSelectedFilters(id, name, filterData)
+  sb.logInfo("Updating filter " .. filterData.id)
   storage.rbDataStore.methodFilters[filterData.id].isSelected = filterData.isSelected
   return true
 end
@@ -186,6 +188,17 @@ function storeIngredient(id, name, foodId)
   return loadFood(foodId)
 end
 
+function getRecipesForFilter(id, name, filterName)
+  local dataStore = getDataStore()
+  if(filterName == nil) then
+    return {}
+  end
+  
+  if(dataStore.methodFilters and dataStore.methodFilters[filterName]) then
+    return dataStore.methodFilters[filterName].foods
+  end
+  return {}
+end
 ---------------------------------------------------------
 
 function loadFoods(foodsArray)

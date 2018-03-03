@@ -29,6 +29,10 @@ function rbAPI.getRecipeBookEntityId()
   return foundRecipeBookIds[1]
 end
 
+function rbAPI.getRecipesForFilter(id, name, filterName)
+  return rbAPI.queryRecipeBook("getRecipesForFilter", id, {}, filterName)
+end
+
 function rbAPI.queryRecipeBook(requestName, requestId, defaultResponse, data)
   local recipeBookId = rbAPI.getRecipeBookEntityId()
   if(recipeBookId == nil) then
@@ -63,6 +67,7 @@ function RecipeBookMFMAPI.init()
   message.setHandler("updateSelectedFilters", rbAPI.updateSelectedFilters);
   message.setHandler("storeIngredient", rbAPI.storeIngredient);
   message.setHandler("updateSelectedId", rbAPI.updateSelectedId);
+  message.setHandler("getRecipesForFilter", rbAPI.getRecipesForFilter);
 end
 
 function rbAPI.requestData(entityId, requestName, requestId, defaultResponse, data)

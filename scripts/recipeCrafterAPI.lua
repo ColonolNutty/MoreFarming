@@ -57,6 +57,11 @@ function RecipeCrafterMFMApi.init(msgPrefix, versioningConfig)
   storage.appendNewOutputToCurrentOutput = true;
   -------------------------
   message.setHandler("craft", RecipeCrafterMFMApi.craftItem)
+  message.setHandler("getFilterId", rcUtils.getFilterId);
+end
+
+function rcUtils.getFilterId()
+  return storage.recipeGroup
 end
 
 function rcUtils.printMetaData(versioningConfig)

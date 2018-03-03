@@ -1,6 +1,8 @@
 require "/scripts/utilsCN.lua"
-RBMFMGui = {}
-
+RBMFMGui = {
+  isInitialized = false
+}
+RequestsMFMAPI = {}
 
 ----------------------- Properties ------------------------------
 
@@ -16,7 +18,6 @@ local filters = {
 local requestIdentifiers = {}
 local requests = {}
 local requestsToObject = {}
-local completedInitialSetup = false
 local enableDebug = nil
 local methodFilterListItemIds = nil
 local foodListItemIds = nil
@@ -27,7 +28,7 @@ FILTER_BY_NAME_NAME = RECIPE_BOOK_FRAME_NAME .. ".filterByName"
 FILTER_BY_INPUT_NAME = RECIPE_BOOK_FRAME_NAME .. ".filterByInput"
 FILTER_BY_HAS_INGREDIENTS_NAME = RECIPE_BOOK_FRAME_NAME .. ".filterByHasIngredients"
 
-TOGGLE_DEBUG_NAME = RECIPE_BOOK_FRAME_NAME .. ".toggleDebug"
+TOGGLE_DEBUG_NAME = "toggleDebug"
 
 FILTER_LIST_NAME = RECIPE_BOOK_FRAME_NAME .. ".filterList.filterItemList"
 FILTER_LIST_EMPTY = RECIPE_BOOK_FRAME_NAME .. ".filterList.empty"
@@ -61,7 +62,7 @@ function RBMFMGui.init(entityId)
     filters.ingredientsAvailable = false;
   end
   requestsToObject = {}
-  completedInitialSetup = false
+  RBMFMGui.isInitialized = false
   enableDebug = nil
   table.insert(filters.recipeFilters, hasRecipesFilter)
   table.insert(filters.recipeFilters, nameMatchesFilter)
@@ -71,10 +72,10 @@ end
 
 function init()
   sb.logInfo("Running RBMFMGui init");
-  if(pane.sourceEntity) then
-    RBMFMGui.init(pane.sourceEntity())
-  elseif(pane.containerEntityId) then
+  if(pane.containerEntityId) then
     RBMFMGui.init(pane.containerEntityId())
+  elseif(pane.sourceEntity) then
+    RBMFMGui.init(pane.sourceEntity())
   else
     RBMFMGui.init(nil)
   end
@@ -83,7 +84,7 @@ end
 function uninit()
 end
 
-function update(dt)
+function RBMFMGui.update(dt)
   if(hasError) then
     return
   end
@@ -95,16 +96,20 @@ function update(dt)
   updateRequests()
 end
 
+function update(dt)
+  RBMFMGui.update(dt)
+end
+
 ------------------------- Initial Setup ---------------------------
 
 function ensureInitialSetup()
-  if(completedInitialSetup) then
+  if(RBMFMGui.isInitialized) then
     return;
   end
   
   updateDebugState();
   if(dataStore == nil) then
-    local dataStoreResult = requestData("getDataStore", 0, nil);
+    local dataStoreResult = RequestsMFMAPI.requestData("getDataStore", 0, nil);
     if(dataStoreResult ~= nil) then
       dataStore = dataStoreResult;
       updateIngredientCraftable();
@@ -112,7 +117,7 @@ function ensureInitialSetup()
       setupInitialIngredientList();
       setupInitialFoodList();
       logDebug("Initial load complete")
-      completedInitialSetup = true;
+      RBMFMGui.isInitialized = true;
     end
   end
 end
@@ -255,7 +260,7 @@ end
 --------------------------- Handlers ----------------------------
 
 function updateRequests()
-  if(not completedInitialSetup) then
+  if(not RBMFMGui.isInitialized) then
     logDebug("Cannot update requests, initial setup not complete")
     return
   end
@@ -438,7 +443,7 @@ function updateFilterSelections()
     local done = {}
     return function()
       for idx,bundle in ipairs(bundles) do
-        local result = requestData("updateSelectedFilters", bundle.id, nil, { id = bundle.id, isSelected = bundle.selected })
+        local result = RequestsMFMAPI.requestData("updateSelectedFilters", bundle.id, nil, { id = bundle.id, isSelected = bundle.selected })
         if(result ~= nil) then
           table.insert(done, bundle)
         end
@@ -452,7 +457,7 @@ function updateFilterSelections()
   local onComplete = function(result)
     requestFoodListUpdate()
   end
-  addRequest(handle(bundledSelections), onComplete)
+  RequestsMFMAPI.addRequest(handle(bundledSelections), onComplete)
 end
 
 function changeSelectedMethods(methods)
@@ -480,7 +485,7 @@ function unselectAllFilters()
 end
 
 function changeAllFilters(allSelected)
-  if(not completedInitialSetup) then
+  if(not RBMFMGui.isInitialized) then
     return
   end
   local didChange = false
@@ -816,9 +821,13 @@ function logDebug(msg)
 end
 
 function toggleDebug()
+  if(sourceEntityId == nil) then
+    sb.logError("Failed to toggle debug, sourceEntityId is nil")
+    return
+  end
   local toEnable = widget.getChecked(TOGGLE_DEBUG_NAME)
   enableDebug = toEnable
-  world.sendEntityMessage(sourceEntity, "setDebugState", toEnable)
+  world.sendEntityMessage(sourceEntityId, "setDebugState", toEnable)
   if(toEnable) then
     sb.logInfo("[RBGUI] Debug is enabled")
   else
@@ -830,7 +839,7 @@ function updateDebugState()
   if(debugStateUpdated or enableDebug ~= nil) then
     return
   end
-  local enableDebugResult = requestData("getDebugState", 0, nil)
+  local enableDebugResult = RequestsMFMAPI.requestData("getDebugState", 0, nil)
   if(enableDebugResult ~= nil) then
     enableDebug = enableDebugResult.debugState
     widget.setChecked(TOGGLE_DEBUG_NAME, enableDebug)
@@ -892,7 +901,7 @@ end
 function requestStoreIngredient(itemId, defaultItem)
   local handle = function(id, defaultIt)
     return function()
-      local result = requestData("storeIngredient", id, defaultIt, id)
+      local result = RequestsMFMAPI.requestData("storeIngredient", id, defaultIt, id)
       if(result ~= nil) then
         logDebug("Loaded item: " .. id)
         return true, result
@@ -912,13 +921,13 @@ function requestStoreIngredient(itemId, defaultItem)
       requestIngredientListUpdate()
     end
   end
-  addRequest(handle(itemId, defaultItem), onComplete(itemId, defaultItem))
+  RequestsMFMAPI.addRequest(handle(itemId, defaultItem), onComplete(itemId, defaultItem))
 end
 
 function requestFilterSelectedUpdate(filterId, isSelected)
   local handle = function(id, selected)
     return function()
-      local result = requestData("updateSelectedFilters", id, nil, { id = id, isSelected = selected })
+      local result = RequestsMFMAPI.requestData("updateSelectedFilters", id, nil, { id = id, isSelected = selected })
       if(result ~= nil) then
         logDebug("Loaded item: " .. id)
         return true, nil
@@ -926,14 +935,14 @@ function requestFilterSelectedUpdate(filterId, isSelected)
       return false, nil
     end
   end
-  addRequest(handle(filterId, isSelected), nil)
+  RequestsMFMAPI.addRequest(handle(filterId, isSelected), nil)
 end
 
 function requestSelectedIdUpdate(foodId)
   local handle = function(id)
     return function()
       id = id or "none"
-      local result = requestData("updateSelectedId", id, nil, id)
+      local result = RequestsMFMAPI.requestData("updateSelectedId", id, nil, id)
       if(result ~= nil) then
         logDebug("Selected item: " .. id)
         return true, nil
@@ -946,10 +955,20 @@ function requestSelectedIdUpdate(foodId)
       selectRecipeById(id)
     end
   end
-  addRequest(handle(foodId), onComplete(foodId))
+  RequestsMFMAPI.addRequest(handle(foodId), onComplete(foodId))
 end
 
-function addRequest(handle, onCompleted)
+function RBMFMGui.enableSingleFilter(filterId)
+  if(dataStore == nil) then
+    return false
+  end
+  local selectedMethods = {}
+  selectedMethods[filterId] = filterId
+  changeSelectedMethods(selectedMethods)
+  return dataStore.methodFilters[filterId].isSelected
+end
+
+function RequestsMFMAPI.addRequest(handle, onCompleted)
   if(onCompleted == nil) then
     onCompleted = function(result) end
   end
@@ -979,7 +998,7 @@ function containsSubString(one, two)
   return string.match(string.lower(one), string.lower(two))
 end
 
-function requestData(requestName, requestId, defaultResponse, data)
+function RequestsMFMAPI.requestData(requestName, requestId, defaultResponse, data)
   if(sourceEntityId == nil) then
     sb.logError("[RBMFMGUI] No SourceEntityId found")
     hasError = true

@@ -76,7 +76,8 @@ function initializeDataStore()
     methodFilters = {},
     sortedMethodFilters = {},
     methodFilterNames = root.assetJson(METHOD_FILTER_NAMES_PATH).filterNames,
-    methodFriendlyNames = root.assetJson(RECIPE_METHOD_FRIENDLY_NAMES)
+    methodFriendlyNames = root.assetJson(RECIPE_METHOD_FRIENDLY_NAMES),
+    recipeBookExists = true
   };
   if(#storage.rbDataStore.methodFilterNames == 0) then
     return

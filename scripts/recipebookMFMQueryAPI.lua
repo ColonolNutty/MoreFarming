@@ -12,7 +12,8 @@ function rbAPI.getDefaultDataStore()
     methodFilters = {},
     sortedMethodFilters = {},
     methodFilterNames = {},
-    methodFriendlyNames = {}
+    methodFriendlyNames = {},
+    recipeBookExists = false
   };
 end
 
@@ -36,7 +37,7 @@ end
 function rbAPI.queryRecipeBook(requestName, requestId, defaultResponse, data)
   local recipeBookId = rbAPI.getRecipeBookEntityId()
   if(recipeBookId == nil) then
-    return defaultReturnData
+    return defaultResponse
   end
   return rbAPI.requestData(recipeBookId, requestName, requestId, defaultResponse, data)
 end

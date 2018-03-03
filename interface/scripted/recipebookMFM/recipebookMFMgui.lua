@@ -36,11 +36,13 @@ FILTER_LIST_EMPTY = RECIPE_BOOK_FRAME_NAME .. ".filterList.empty"
 
 FOOD_LIST_NAME = RECIPE_BOOK_FRAME_NAME .. ".foodList.foodItemList"
 FOOD_LIST_EMPTY = RECIPE_BOOK_FRAME_NAME .. ".foodList.empty"
+FOOD_LIST_NO_RECIPE_BOOK = RECIPE_BOOK_FRAME_NAME .. ".foodList.norecipebook"
 
 INGREDIENT_HEADER_BACKGROUD = "/interface/crafting/MFM/shared/craftableheaderbackgroundMFM.png"
 
 INGREDIENTS_LIST_NAME = RECIPE_BOOK_FRAME_NAME .. ".ingredientList.ingredientItemList"
 INGREDIENTS_LIST_EMPTY = RECIPE_BOOK_FRAME_NAME .. ".ingredientList.empty"
+INGREDIENTS_LIST_NO_RECIPE_BOOK = RECIPE_BOOK_FRAME_NAME .. ".ingredientList.norecipebook"
 -----------------------------------------------------------------
 
 ------------------------- Basic ---------------------------------
@@ -136,6 +138,12 @@ function setupInitialFilterList()
   methodFilterListItemIds = {}
   widget.clearListItems(FILTER_LIST_NAME)
   
+  if(not dataStore.recipeBookExists) then
+    widget.setVisible(FILTER_LIST_EMPTY, true)
+    ignoreFilterSelected = false
+    return
+  end
+  
   local hasFilters = false
   for idx,methodFilter in pairs(dataStore.sortedMethodFilters) do
     logDebug("Loading filter with id: " .. methodFilter.id .. " and name " .. methodFilter.name)
@@ -164,6 +172,13 @@ function setupInitialFoodList()
   ignoreFoodSelected = true
   foodListItemIds = {}
   widget.clearListItems(FOOD_LIST_NAME)
+  
+  if(not dataStore.recipeBookExists) then
+    widget.setVisible(FOOD_LIST_EMPTY, false)
+    widget.setVisible(FOOD_LIST_NO_RECIPE_BOOK, true)
+    ignoreFoodSelected = false
+    return
+  end
   
   logDebug("Updating food list")
   local sortedFoodItems = sortedFoodItemsFromMethodFilters()
@@ -234,6 +249,11 @@ end
 
 function setupInitialIngredientList()
   widget.clearListItems(INGREDIENTS_LIST_NAME)
+  if(not dataStore.recipeBookExists) then
+    widget.setVisible(INGREDIENTS_LIST_EMPTY, false)
+    widget.setVisible(INGREDIENTS_LIST_NO_RECIPE_BOOK, true)
+    return
+  end
   widget.setVisible(INGREDIENTS_LIST_EMPTY, true)
 end
 
@@ -551,6 +571,12 @@ function updateFoodList()
   widget.clearListItems(FOOD_LIST_NAME)
   widget.setVisible(FOOD_LIST_EMPTY, false)
   
+  if(not dataStore.recipeBookExists) then
+    widget.setVisible(FOOD_LIST_NO_RECIPE_BOOK, true)
+    ignoreFoodSelected = false
+    return
+  end
+  
   logDebug("Updating food list")
   local sortedFoodItems = sortedFoodItemsFromMethodFilters()
   
@@ -637,6 +663,13 @@ function updateIngredientList()
   logDebug("Updating ingredient list")
   ignoreIngredientSelected = true
   widget.clearListItems(INGREDIENTS_LIST_NAME)
+  
+  if(not dataStore.recipeBookExists) then
+    widget.setVisible(INGREDIENTS_LIST_EMPTY, false)
+    widget.setVisible(INGREDIENTS_LIST_NO_RECIPE_BOOK, true)
+    ignoreIngredientSelected = false
+    return
+  end
   local selectedFoodId = dataStore.selectedFoodId
   if(selectedFoodId == nil) then
     widget.setVisible(INGREDIENTS_LIST_EMPTY, true)
@@ -651,6 +684,7 @@ function updateIngredientList()
     ignoreIngredientSelected = false
     return
   end
+  
   widget.setVisible(INGREDIENTS_LIST_EMPTY, false)
   
   local hasIngredients = false
@@ -666,21 +700,32 @@ function updateIngredientList()
     local recipeHeaderItem = { id = outputFoodItem.id, name = "RECIPE " .. currentRecipeIdx .. ":" .. formatMethods(recipe.methods), isHeader = true, isCraftable = recipe.isCraftable, count = recipe.output.count, icon = "", methods = outputFoodItem.methods }
     currentRecipeIdx = currentRecipeIdx + 1
     local headerChildren = {}
-    
-    for idxTwo,inputItem in ipairs(recipe.input) do
-      local item = getItem(inputItem.name)
-      item.count = inputItem.count
-      item.isHeader = false
-      item.isCraftable = inputItem.isCraftable
-      item.craftableCount = inputItem.craftableCount
-      logDebug("Has ingredient " .. item.id)
-      if(dataStore.ingredientStore[item.id] ~= nil) then
-        item.methods = dataStore.ingredientStore[item.id].methods
-      else
-        item.methods = {}
+    local methodMatches = false
+    if(filters.methodNameFilter == nil) then
+      methodMatches = true
+    else
+      for methodId,methodName in pairs(recipe.groups) do
+        if(containsSubString(methodId, filters.methodNameFilter)) then
+          methodMatches = true
+        end
       end
-      table.insert(headerChildren, item)
-      hasIngredients = true
+    end
+    if(methodMatches) then
+      for idxTwo,inputItem in ipairs(recipe.input) do
+        local item = getItem(inputItem.name)
+        item.count = inputItem.count
+        item.isHeader = false
+        item.isCraftable = inputItem.isCraftable
+        item.craftableCount = inputItem.craftableCount
+        logDebug("Has ingredient " .. item.id)
+        if(dataStore.ingredientStore[item.id] ~= nil) then
+          item.methods = dataStore.ingredientStore[item.id].methods
+        else
+          item.methods = {}
+        end
+        table.insert(headerChildren, item)
+        hasIngredients = true
+      end
     end
   
     table.sort(headerChildren, function(a, b)

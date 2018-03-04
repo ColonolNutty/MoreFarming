@@ -1,8 +1,6 @@
 require "/scripts/debugUtilsCN.lua"
 require "/scripts/utilsCN.lua"
 
-currentPage = 1
-
 METHOD_FILTER_NAMES_PATH = "/recipeCrafterMFM/methodFilterNamesMFM.json"
 RECIPE_METHOD_FRIENDLY_NAMES = "/recipeCrafterMFM/methodFriendlyNamesMFM.json"
 RECIPE_CONFIGURATION_PATH = "/recipeCrafterMFM/"
@@ -41,12 +39,14 @@ RECIPE_CONFIGURATION_PATH = "/recipeCrafterMFM/"
 -- updateSelectedId
 ---
 
+local logger = nil
+
 local recipeFilters = { 
   groupFilters = { }
 }
 
 function init()
-  DebugUtilsCN.init("[CNRB]");
+  logger = DebugUtilsCN.init("[CNRB]");
   message.setHandler("getDataStore", getDataStore);
   message.setHandler("setDataStore", setDataStore);
   message.setHandler("updateSelectedFilters", updateSelectedFilters);
@@ -69,7 +69,7 @@ function initializeDataStore()
   if(storage.rbDataStore ~= nil) then
     return;
   end
-  DebugUtilsCN.logInfo("Initializing DataStore")
+  logger.logInfo("Initializing DataStore")
   storage.rbDataStore = {
     selectedFoodId = nil,
     ingredientStore = {},
@@ -83,7 +83,7 @@ function initializeDataStore()
     return
   end
   for i, methodFilterName in ipairs(storage.rbDataStore.methodFilterNames) do
-     DebugUtilsCN.logDebug("Storing filter: " .. methodFilterName)
+     logger.logDebug("Storing filter: " .. methodFilterName)
      local methodFilter = {
       id = methodFilterName,
       name = storage.rbDataStore.methodFriendlyNames[methodFilterName],
@@ -92,11 +92,11 @@ function initializeDataStore()
     };
     
     local recipeConfigPath = RECIPE_CONFIGURATION_PATH .. methodFilterName .. "Recipes.config"
-    DebugUtilsCN.logDebug("Looking for recipe configuration at path: " .. recipeConfigPath)
+    logger.logDebug("Looking for recipe configuration at path: " .. recipeConfigPath)
     
     local recipeNames = root.assetJson(recipeConfigPath)
     if(recipeNames ~= nil) then
-      DebugUtilsCN.logDebug("Storing recipe names for filter: " .. methodFilterName)
+      logger.logDebug("Storing recipe names for filter: " .. methodFilterName)
       methodFilter.foods = loadFoods(recipeNames.possibleOutput)
     end
     storage.rbDataStore.methodFilters[methodFilterName] = methodFilter
@@ -137,15 +137,15 @@ function filterRecipes(recipes)
     end
     local includeRecipe = false
     local excludeRecipe = false
-    DebugUtilsCN.logDebug("Looking at recipe " .. recipe.output.name)
+    logger.logDebug("Looking at recipe " .. recipe.output.name)
     for idx, group in ipairs(recipe.groups) do
-      DebugUtilsCN.logDebug("Looking at recipe group: " .. group)
+      logger.logDebug("Looking at recipe group: " .. group)
       if(isExcludedFromRecipeBook(group)) then
         excludeRecipe = true
         includeRecipe = false
       end
       if(not excludeRecipe and passesAllFilters(recipeFilters.groupFilters, group)) then
-        DebugUtilsCN.logDebug("Recipe group passes filters: " .. group)
+        logger.logDebug("Recipe group passes filters: " .. group)
         -- Include recipe if at least one group passes all filters
         includeRecipe = true
         -- If the group matches the filters, there must be a friendly name for it, set it
@@ -180,7 +180,11 @@ function updateSelectedId(id, name, newId)
 end
 
 function updateSelectedFilters(id, name, filterData)
-  sb.logInfo("Updating filter " .. filterData.id)
+  if(filterData.isSelected) then
+    logger.logDebug("Selecting filter " .. filterData.id)
+  else
+    logger.logDebug("Deselecting filter " .. filterData.id)
+  end
   storage.rbDataStore.methodFilters[filterData.id].isSelected = filterData.isSelected
   return true
 end
@@ -219,14 +223,14 @@ function loadFood(foodId)
   end
   local foodItemData = root.itemConfig({ name = foodId })
   if(foodItemData == nil) then
-    DebugUtilsCN.logDebug("No food data found: " .. foodId)
+    logger.logDebug("No food data found: " .. foodId)
     return nil
   end
   if type(foodItemData.config.inventoryIcon) == 'table' then
     foodItemData.config.inventoryIcon = foodItemData.config.inventoryIcon[1].image
   end
   local foodCookMethods, filteredRecipes = filterRecipes(root.recipesForItem(foodId))
-  DebugUtilsCN.logDebug("Food data found: icon " .. foodItemData.config.inventoryIcon .. " directory " .. foodItemData.directory)
+  logger.logDebug("Food data found: icon " .. foodItemData.config.inventoryIcon .. " directory " .. foodItemData.directory)
   local itemIcon = UtilsCN.resizeImageToIconSize(foodItemData.config.inventoryIcon, foodItemData.directory)
   local foodItem = { id = foodId, name = foodItemData.config.shortdescription, icon = itemIcon, recipes = filteredRecipes, methods = foodCookMethods }
   foodItem.displayName = foodItem.name .. formatMethods(foodItem.methods)

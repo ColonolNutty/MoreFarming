@@ -1,11 +1,19 @@
+require "/scripts/debugUtilsCN.lua"
+require "/scripts/MFM/entityQueryAPI.lua"
+
 local recipeBookVisible = false
 local setInitialFilter = false
+local entityId = nil
+local logger = nil
 
 function init()
+  logger = DebugUtilsCN.init("[RCGUI]")
+  entityId = pane.containerEntityId()
   setInitialFilter = false
   sb.logInfo("Initializing Recipe Crafter GUI");
   recipeBookVisible = false
-  RBMFMGui.init(pane.containerEntityId())
+  RBMFMGui.init(entityId)
+  EntityQueryAPI.init()
 end
 
 function update(dt)
@@ -13,16 +21,17 @@ function update(dt)
     requestEnableSingleFilter()
   end
   RBMFMGui.update(dt)
+  EntityQueryAPI.update(dt)
 end
 
 function craft()
-  sb.logInfo("Crafting with Crafter GUI");
-  world.sendEntityMessage(pane.containerEntityId(), "craft")
+  logger.logInfo("Crafting with Crafter GUI");
+  world.sendEntityMessage(entityId, "craft")
 end
 
 function requestEnableSingleFilter()
   local handle = function()
-    local result = RequestsMFMAPI.requestData("getFilterId", 0)
+    local result = EntityQueryAPI.requestData(entityId, "getFilterId", entityId)
     if(result ~= nil) then
       return true, result
     end
@@ -32,5 +41,5 @@ function requestEnableSingleFilter()
     RBMFMGui.filterByMethod(result)
     setInitialFilter = true
   end
-  RequestsMFMAPI.addRequest(handle, onComplete)
+  EntityQueryAPI.addRequest("requestEnableSingleFilter" .. entityId, handle, onComplete)
 end

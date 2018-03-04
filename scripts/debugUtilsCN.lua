@@ -1,6 +1,4 @@
-DebugUtilsCN = {
-  debugMsgPrefix = "[DBGCN]"
-};
+DebugUtilsCN = {};
 local debugUtils = {};
 
 ------------------------ Settings ------------------------
@@ -15,11 +13,16 @@ function settings.initialize()
   end
 end
 
-function settings.setDebugState(val)
+function settings.setDebugState(val, prefix)
   if(storage) then
     storage.debugState = val or false
   else
     settings.debugState = val or false
+  end
+  if(settings.getDebugState()) then
+    sb.logInfo(prefix .. " Debug Toggled On")
+  else
+    sb.logInfo(prefix .. " Debug Toggled Off")
   end
 end
 
@@ -34,28 +37,12 @@ end
 ----------------------------------------------------------
 
 function DebugUtilsCN.init(messagePrefix)
-  if(messagePrefix ~= nil) then
-    DebugUtilsCN.debugMsgPrefix = messagePrefix
-  end
   settings.initialize()
-  message.setHandler("getDebugState", debugUtils.getDebugState)
-  message.setHandler("setDebugState", debugUtils.setDebugState)
-end
-
-function DebugUtilsCN.enableDebug()
-  settings.setDebugState(true);
-end
-
-function DebugUtilsCN.logInfo(msg, indentAmt)
-  if(settings.getDebugState()) then
-    sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " " .. debugUtils.getIndentString(indentAmt) .. msg)
+  if(message) then
+    message.setHandler("getDebugState", debugUtils.getDebugState)
+    message.setHandler("setDebugState", debugUtils.setDebugState)
   end
-end
-
-function DebugUtilsCN.logDebug(msg, indentAmt)
-  if(settings.getDebugState()) then
-    sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " " .. debugUtils.getIndentString(indentAmt) .. msg)
-  end
+  return debugUtils.createNewLogger(messagePrefix)
 end
 
 ------------------------ Handlers ------------------------
@@ -69,12 +56,7 @@ end
 
 --- Meant to be called from a GUI script query ---
 function debugUtils.setDebugState(id, name, newValue)
-  settings.setDebugState(newValue)
-  if(settings.getDebugState()) then
-    sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " Debug Toggled On")
-  else
-    sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " Debug Toggled Off")
-  end
+  settings.setDebugState(newValue, "Global")
 end
 
 ----------------------------------------------------------
@@ -91,4 +73,32 @@ function debugUtils.getIndentString(indentAmt)
     indent = indent .. " "
   end
   return indent
+end
+
+function debugUtils.createNewLogger(messagePrefix)
+  sb.logInfo("Initializing Logger with prefix " .. messagePrefix)
+  local logger = {
+    messagePrefix = messagePrefix
+  }
+  logger.setDebugState = function(val)
+    settings.setDebugState(val, logger.messagePrefix)
+  end
+  logger.getDebugState = settings.getDebugState
+  logger.logInfo = function(msg, indentAmt)
+    sb.logInfo(logger.messagePrefix .. " " .. debugUtils.getIndentString(indentAmt) .. msg)
+  end
+  logger.logDebug = function(msg, indentAmt)
+    if(not settings.getDebugState()) then
+      return;
+    end
+    sb.logInfo(logger.messagePrefix .. " " .. debugUtils.getIndentString(indentAmt) .. msg)
+  end
+  logger.logError = function(msg, indentAmt)
+    sb.logError(logger.messagePrefix .. " " .. debugUtils.getIndentString(indentAmt) .. msg)
+  end
+  logger.enableDebug = function()
+    logger.setDebugState(true)
+  end
+  
+  return logger
 end

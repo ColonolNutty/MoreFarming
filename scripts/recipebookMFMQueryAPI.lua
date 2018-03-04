@@ -1,9 +1,32 @@
-RecipeBookMFMAPI = {}
+require "/scripts/debugUtilsCN.lua"
+require "/scripts/MFM/entityQueryAPI.lua"
+
+RecipeBookMFMQueryAPI = {
+  isInitialized = false
+}
 
 local rbAPI = {
         hasError = false,
         requestsToObject = {}
       }
+
+local logger = nil
+
+function RecipeBookMFMQueryAPI.init()
+  logger = DebugUtilsCN.init("[RBMFMQAPI]")
+  EntityQueryAPI.init()
+  message.setHandler("getDataStore", rbAPI.getDataStore);
+  message.setHandler("setDataStore", rbAPI.setDataStore);
+  message.setHandler("updateSelectedFilters", rbAPI.updateSelectedFilters);
+  message.setHandler("storeIngredient", rbAPI.storeIngredient);
+  message.setHandler("updateSelectedId", rbAPI.updateSelectedId);
+  message.setHandler("getRecipesForFilter", rbAPI.getRecipesForFilter);
+  RecipeBookMFMQueryAPI.isInitialized = true;
+end
+
+function RecipeBookMFMQueryAPI.update(dt)
+  EntityQueryAPI.update(dt)
+end
 
 function rbAPI.getDefaultDataStore()
   return {
@@ -24,7 +47,7 @@ end
 function rbAPI.getRecipeBookEntityId()
   local foundRecipeBookIds = world.objectQuery(object.position(), 5000, { name = "recipebookMFM" })
   if(#foundRecipeBookIds == 0) then
-    sb.logInfo("No recipe book found nearby")
+    logger.logDebug("No recipe book found nearby")
     return nil
   end
   return foundRecipeBookIds[1]
@@ -35,11 +58,15 @@ function rbAPI.getRecipesForFilter(id, name, filterName)
 end
 
 function rbAPI.queryRecipeBook(requestName, requestId, defaultResponse, data)
+  if(not RecipeBookMFMQueryAPI.isInitialized) then
+    sb.logInfo("RecipeBookMFMQueryAPI not initialized")
+    return defaultResponse
+  end
   local recipeBookId = rbAPI.getRecipeBookEntityId()
   if(recipeBookId == nil) then
     return defaultResponse
   end
-  return rbAPI.requestData(recipeBookId, requestName, requestId, defaultResponse, data)
+  return EntityQueryAPI.requestData(recipeBookId, requestName, requestId, defaultResponse, data)
 end
 
 function rbAPI.getDataStore(id)
@@ -60,63 +87,4 @@ end
 
 function rbAPI.updateSelectedId(id, name, newId)
     return rbAPI.queryRecipeBook("updateSelectedId", id, false, newId)
-end
-
-function RecipeBookMFMAPI.init()
-  message.setHandler("getDataStore", rbAPI.getDataStore);
-  message.setHandler("setDataStore", rbAPI.setDataStore);
-  message.setHandler("updateSelectedFilters", rbAPI.updateSelectedFilters);
-  message.setHandler("storeIngredient", rbAPI.storeIngredient);
-  message.setHandler("updateSelectedId", rbAPI.updateSelectedId);
-  message.setHandler("getRecipesForFilter", rbAPI.getRecipesForFilter);
-end
-
-function rbAPI.requestData(entityId, requestName, requestId, defaultResponse, data)
-  if(entityId == nil) then
-    sb.logError("[RBMFMQAPI] No EntityId found")
-    rbAPI.hasError = true
-    return defaultResponse
-  end
-  local requestIdentifier = requestName .. requestId
-  local request = rbAPI.requestsToObject[requestIdentifier]
-  if(request == nil) then
-    if(data ~= nil) then
-      rbAPI.requestsToObject[requestIdentifier] = world.sendEntityMessage(entityId, requestName, data)
-    else
-      rbAPI.requestsToObject[requestIdentifier] = world.sendEntityMessage(entityId, requestName)
-    end
-    request = rbAPI.requestsToObject[requestIdentifier]
-  end
-  if(not request:finished()) then
-    logDebug("Request not finished: " .. requestIdentifier)
-    return nil
-  end
-  if(not request:succeeded()) then
-    local errorMsg = request:error()
-    if(errorMsg ~= nil) then
-      sb.logError(errorMsg .. " the message was '" .. requestIdentifier .. "'")
-      rbAPI.hasError = true
-    end
-    logDebug("Request failed: " .. requestIdentifier)
-    rbAPI.requestsToObject[requestIdentifier] = nil
-    return defaultResponse
-  end
-  local result = request:result()
-  if(not result) then
-    return defaultResponse
-  end
-  logDebug("Finished request: " .. requestIdentifier)
-  rbAPI.requestsToObject[requestIdentifier] = nil
-  return result
-end
-
-function logDebug(msg)
-  if(not enableDebug) then
-    return
-  end
-  if(DebugUtilsCN) then
-    DebugUtilsCN.logDebug(msg)
-  else
-    sb.logInfo("[RBGUI] " .. msg)
-  end
 end

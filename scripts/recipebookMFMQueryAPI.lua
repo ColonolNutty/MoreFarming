@@ -20,7 +20,7 @@ function RecipeBookMFMQueryAPI.init()
   message.setHandler("updateSelectedFilters", rbAPI.updateSelectedFilters);
   message.setHandler("storeIngredient", rbAPI.storeIngredient);
   message.setHandler("updateSelectedId", rbAPI.updateSelectedId);
-  message.setHandler("getRecipesForFilter", rbAPI.getRecipesForFilter);
+  message.setHandler("getRecipesForFilter", RecipeBookMFMQueryAPI.getRecipesForFilter);
   RecipeBookMFMQueryAPI.isInitialized = true;
 end
 
@@ -53,8 +53,8 @@ function rbAPI.getRecipeBookEntityId()
   return foundRecipeBookIds[1]
 end
 
-function rbAPI.getRecipesForFilter(id, name, filterName)
-  return rbAPI.queryRecipeBook("getRecipesForFilter", id, {}, filterName)
+function RecipeBookMFMQueryAPI.getRecipesForFilter(id, name, filterName)
+  return rbAPI.queryRecipeBook("getRecipesForFilter", id or filterName, {}, filterName)
 end
 
 function rbAPI.queryRecipeBook(requestName, requestId, defaultResponse, data)

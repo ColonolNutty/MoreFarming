@@ -1,12 +1,15 @@
 require "/scripts/debugUtilsCN.lua"
+require "/scripts/utilsCN.lua"
 require "/scripts/recipebookMFMQueryAPI.lua"
 
 RecipeCrafterMFMApi = {
-  debugMsgPrefix = "[RCAPI]"
+  debugMsgPrefix = "[RCAPI]",
+  loadedRecipes = false
 };
 local rcUtils = {};
 local logger = nil;
 local isCrafting = false;
+local next = next;
 
 function RecipeCrafterMFMApi.init(versioningConfig)
   logger = DebugUtilsCN.init(RecipeCrafterMFMApi.debugMsgPrefix)
@@ -75,12 +78,39 @@ end
 
 function RecipeCrafterMFMApi.update(dt)
   rcUtils.checkCraftSoundDelay(dt)
+  rcUtils.loadRecipeBookRecipes()
   RecipeBookMFMQueryAPI.update(dt)
 end
 
 function RecipeCrafterMFMApi.die()
   isCrafting = false
   RecipeCrafterMFMApi.releaseIngredients()
+end
+
+function rcUtils.loadRecipeBookRecipes()
+  if(RecipeCrafterMFMApi.loadedRecipes) then
+    return
+  end
+  local handle = function()
+    local result = RecipeBookMFMQueryAPI.getRecipesForFilter(storage.recipeGroup, nil, storage.recipeGroup)
+    if(result ~= nil) then
+      return true, result;
+    end
+    return false, nil;
+  end
+  
+  local onComplete = function(result)
+    if(next(result) == nil) then
+      storage.recipeBookRecipes = nil
+      RecipeCrafterMFMApi.loadedRecipes = false
+      logger.logDebug("Recipe Book Not Found")
+    else
+      storage.recipeBookRecipes = result;
+      RecipeCrafterMFMApi.loadedRecipes = true
+      logger.logDebug("Loaded Recipe Book Recipes")
+    end
+  end
+  EntityQueryAPI.addRequest("loadRecipeBookRecipes", handle, onComplete)
 end
 
 --------------------------Callbacks---------------------------------------
@@ -453,7 +483,7 @@ end
 function rcUtils.findRecipe(recipesForItem, ingredients)
   local recipeFound = nil
   for _,recipe in ipairs(recipesForItem) do
-    if rcUtils.recipeCanBeCrafted(recipe) and RecipeCrafterMFMApi.hasIngredientsForRecipe(recipe, ingredients) then
+    if (rcUtils.recipeCanBeCrafted(recipe) and RecipeCrafterMFMApi.hasIngredientsForRecipe(recipe, ingredients)) then
       recipeFound = recipe
       break;
     else
@@ -475,16 +505,31 @@ function rcUtils.findOutput(ingredients)
   end
 
   local foundOutput = nil
-  for _,itemName in ipairs(storage.possibleOutputs) do
-    local recipesForItem = root.recipesForItem(itemName)
-    if recipesForItem ~= nil and #recipesForItem > 0 then
-      foundOutput = rcUtils.findRecipe(recipesForItem, ingredients)
-      if foundOutput then
-        logger.logDebug("Found recipe with output name: " .. foundOutput.output.name)
-        break;
+  
+  if(storage.recipeBookRecipes ~= nil) then
+    logger.logDebug("Using Recipe Book Recipes")
+    for itemName,item in pairs(storage.recipeBookRecipes) do
+      local recipesForItem = item.recipes
+      if recipesForItem ~= nil and #recipesForItem > 0 then
+        foundOutput = rcUtils.findRecipe(recipesForItem, ingredients)
+        if foundOutput then
+          logger.logDebug("Found recipe with output name: " .. foundOutput.output.name)
+          break;
+        end
       end
     end
-  end
+  else
+    for _,itemName in ipairs(storage.possibleOutputs) do
+        local recipesForItem = root.recipesForItem(itemName)
+        if recipesForItem ~= nil and #recipesForItem > 0 then
+          foundOutput = rcUtils.findRecipe(recipesForItem, ingredients)
+          if foundOutput then
+            logger.logDebug("Found recipe with output name: " .. foundOutput.output.name)
+            break;
+          end
+        end
+      end
+    end
   return foundOutput
 end
 

@@ -194,11 +194,11 @@ function storeIngredient(id, name, foodId)
 end
 
 function getRecipesForFilter(id, name, filterName)
-  local dataStore = getDataStore()
   if(filterName == nil) then
     return {}
   end
   
+  local dataStore = getDataStore()
   if(dataStore.methodFilters and dataStore.methodFilters[filterName]) then
     return dataStore.methodFilters[filterName].foods
   end

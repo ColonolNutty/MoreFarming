@@ -8,13 +8,11 @@ local rcUtils = {};
 local logger = nil;
 local isCrafting = false;
 
-function RecipeCrafterMFMApi.init(msgPrefix, versioningConfig)
-  if(msgPrefix ~= nil) then
-    RecipeCrafterMFMApi.debugMsgPrefix = msgPrefix
-  end
+function RecipeCrafterMFMApi.init(versioningConfig)
   logger = DebugUtilsCN.init(RecipeCrafterMFMApi.debugMsgPrefix)
   RecipeBookMFMQueryAPI.init();
-  rcUtils.printMetaData(versioningConfig)
+  logger.logInfo("----- Recipe Crafter Init -----")
+  RecipeCrafterMFMApi.printMetaData(versioningConfig)
   logger.logDebug("Initializing API");
   local outputConfigPath = config.getParameter("outputConfig")
   if outputConfigPath == nil then
@@ -65,13 +63,12 @@ function rcUtils.getFilterId()
   return storage.recipeGroup
 end
 
-function rcUtils.printMetaData(versioningConfig)
+function RecipeCrafterMFMApi.printMetaData(versioningConfig)
   if versioningConfig == nil then
     return
   end
   local metadata = root.assetJson(versioningConfig)
   if(metadata) then
-    logger.logInfo("----- Recipe Crafter Init -----")
     logger.logInfo("Running with " .. metadata.friendlyName .. " " .. metadata.version)
   end
 end

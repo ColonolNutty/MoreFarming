@@ -658,19 +658,18 @@ function updateIngredientList()
   
   for idx,recipe in ipairs(selectedFood.recipes) do
     if(recipe ~= nil) then
-      UtilsCN.printTable(recipe, logger)
+      UtilsCN.printTable(recipe, nil, logger)
     end
     
     local outputFoodItem = getItem(recipe.output.name)
     local recipeHeaderItem = { id = outputFoodItem.id, name = "RECIPE " .. currentRecipeIdx .. ":" .. formatMethods(recipe.methods), isHeader = true, isCraftable = recipe.isCraftable, count = recipe.output.count, icon = "", methods = outputFoodItem.methods }
-    currentRecipeIdx = currentRecipeIdx + 1
     local headerChildren = {}
     local methodMatches = false
     if(filters.methodNameFilter == nil) then
       methodMatches = true
     else
-      for methodId,methodName in pairs(recipe.groups) do
-        if(containsSubString(methodId, filters.methodNameFilter)) then
+      for idx,methodName in ipairs(recipe.groups) do
+        if(containsSubString(methodName, filters.methodNameFilter)) then
           methodMatches = true
         end
       end
@@ -691,24 +690,25 @@ function updateIngredientList()
         table.insert(headerChildren, item)
         hasIngredients = true
       end
-    end
-  
-    table.sort(headerChildren, function(a, b)
-      if a.name < b.name then return true end
-      if a.name > b.name then return false end
-      return a.id < b.id
-    end)
     
-    local recipeHeaderChildren = {}
-    
-    for idxThree,ingredListItem in ipairs(headerChildren) do
-      table.insert(recipeHeaderChildren, ingredListItem)
-    end
-    
-    recipeHeaderItem.children = recipeHeaderChildren
-    
-    if(hasIngredients) then
-      table.insert(recipeHeaderItems, recipeHeaderItem)
+      table.sort(headerChildren, function(a, b)
+        if a.name < b.name then return true end
+        if a.name > b.name then return false end
+        return a.id < b.id
+      end)
+      
+      local recipeHeaderChildren = {}
+      
+      for idxThree,ingredListItem in ipairs(headerChildren) do
+        table.insert(recipeHeaderChildren, ingredListItem)
+      end
+      
+      recipeHeaderItem.children = recipeHeaderChildren
+      
+      if(hasIngredients) then
+        table.insert(recipeHeaderItems, recipeHeaderItem)
+        currentRecipeIdx = currentRecipeIdx + 1
+      end
     end
   end
   

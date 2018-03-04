@@ -1,21 +1,31 @@
 UtilsCN = {}
 
-function UtilsCN.printTable(tabVal, previousName)
+local uCN = {};
+
+function uCN.logDebug(logger, msg)
+  if(not logger) then
+    sb.logInfo(msg)
+  else
+    logger.logDebug(msg)
+  end
+end
+
+function UtilsCN.printTable(tabVal, previousName, logger)
   if(tabVal == nil) then
-    sb.logInfo("tabVal is nil. Nothing to print")
+    uCN.logDebug(logger, "tabVal is nil. Nothing to print")
     return;
   end
   local prevName = previousName or ""
   for name,val in pairs(tabVal) do
     if(type(val) == "table") then
-      UtilsCN.printTable(val, prevName .. " " .. name)
+      UtilsCN.printTable(val, prevName .. " " .. name, logger)
     else
       if (val == true) then
-        sb.logInfo(prevName .. " Name " .. name .. " val true")
+        uCN.logDebug(logger, prevName .. " Name " .. name .. " val true")
       elseif (val == false) then
-        sb.logInfo(prevName .. " Name " .. name .. " val false")
+        uCN.logDebug(logger, prevName .. " Name " .. name .. " val false")
       else
-        sb.logInfo(prevName .. " Name " .. name .. " val " .. val)
+        uCN.logDebug(logger, prevName .. " Name " .. name .. " val " .. val)
       end
     end
   end

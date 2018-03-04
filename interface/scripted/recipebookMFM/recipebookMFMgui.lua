@@ -658,7 +658,7 @@ function updateIngredientList()
   
   for idx,recipe in ipairs(selectedFood.recipes) do
     if(recipe ~= nil) then
-      printTable(recipe)
+      UtilsCN.printTable(recipe, logger)
     end
     
     local outputFoodItem = getItem(recipe.output.name)
@@ -878,25 +878,6 @@ function updateDebugState()
   end
   
   EntityQueryAPI.addRequest("updateDebugState", handle, onCompleted)
-end
-
-function printTable(tabVal, previousName)
-  if(not logger.getDebugState()) then
-    return
-  end
-  for name,val in pairs(tabVal) do
-    if(type(val) == "table") then
-      printTable(val, (previousName or "") .. " " .. name)
-    else
-      if (val == true) then
-        logger.logDebug((previousName or "") .. " Name " .. name .. " val true")
-      elseif (val == false) then
-        logger.logDebug((previousName or "") .. " Name " .. name .. " val false")
-      else
-        logger.logDebug((previousName or "") .. " Name " .. name .. " val " .. val)
-      end
-    end
-  end
 end
 
 -----------------------------------------------------------------

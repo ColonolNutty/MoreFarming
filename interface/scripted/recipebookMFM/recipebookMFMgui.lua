@@ -953,9 +953,11 @@ function requestFilterSelectedUpdate(filterId, isSelected)
 end
 
 function requestSelectedIdUpdate(itemId)
+  if(itemId == nil) then
+    itemId = "none"
+  end
   local handle = function(id)
     return function()
-      id = id or "none"
       local result = EntityQueryAPI.requestData(sourceEntityId, "updateSelectedId", id, nil, id)
       if(result ~= nil) then
         logger.logDebug("Selected item: " .. id)

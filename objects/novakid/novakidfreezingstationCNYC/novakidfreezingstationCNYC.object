@@ -56,7 +56,7 @@
   "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
   "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
   "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],

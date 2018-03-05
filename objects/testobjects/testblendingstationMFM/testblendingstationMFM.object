@@ -17,7 +17,7 @@
       "anchors" : [ "bottom" ]
     }
   ],
-  "recipeGroup" : "boilingMFM",
+  "recipeGroup" : "blendingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
@@ -25,7 +25,7 @@
   "autoCloseCooldown" : 3600,
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig" : "/recipeCrafterMFM/boilingMFMRecipes.config",
+  "outputConfig" : "/recipeCrafterMFM/blendingMFMRecipes.config",
   "flickerPeriod" : 0.8,
   "flickerMinIntensity" : 0.2,
   "flickerPeriodVariance" : 0.075,

@@ -123,6 +123,16 @@ function RecipeCrafterMFMApi.onContainerContentsChanged()
 
 end
 
+--onRecipeFound() when craftItem is called, this method is invoked when a recipe is found using the current ingredients
+function RecipeCrafterMFMApi.onRecipeFound()
+
+end
+
+--onNoIngredientsFound() when craftItem is called, this method is invoked when no ingredients are found in the container
+function RecipeCrafterMFMApi.onNoIngredientsFound()
+
+end
+
 --onNoRecipeFound() when craftItem is called, this method is invoked when no recipe is found using the current ingredients
 function RecipeCrafterMFMApi.onNoRecipeFound()
 
@@ -192,7 +202,7 @@ function RecipeCrafterMFMApi.craftItem()
   if not rcUtils.hasIngredients() then
     logger.logDebug("No ingredients found, aborting craft process")
     isCrafting = false;
-    RecipeCrafterMFMApi.onNoRecipeFound()
+    RecipeCrafterMFMApi.onNoIngredientsFound()
     return;
   end
   
@@ -215,6 +225,7 @@ function RecipeCrafterMFMApi.craftItem()
   local outputRecipe = rcUtils.findOutput(storage.currentIngredients)
   if outputRecipe then
     logger.logDebug("Found recipe, updating output")
+    RecipeCrafterMFMApi.onRecipeFound()
     rcUtils.craftWithRecipe(outputRecipe)
   else
     logger.logDebug("Failed to locate valid recipe")

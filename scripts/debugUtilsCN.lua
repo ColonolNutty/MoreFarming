@@ -76,7 +76,7 @@ function debugUtils.getIndentString(indentAmt)
 end
 
 function debugUtils.createNewLogger(messagePrefix)
-  sb.logInfo("Initializing Logger with prefix " .. messagePrefix)
+  --sb.logInfo("Initializing Logger with prefix " .. messagePrefix)
   local logger = {
     messagePrefix = messagePrefix
   }

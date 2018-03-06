@@ -5,15 +5,17 @@ local recipeBookVisible = false
 local setInitialFilter = false
 local entityId = nil
 local logger = nil
+local byproductSlot = 17
 
 function init()
   logger = DebugUtilsCN.init("[RCGUI]")
   entityId = pane.containerEntityId()
   setInitialFilter = false
-  sb.logInfo("Initializing Recipe Crafter GUI");
+  --sb.logInfo("Initializing Recipe Crafter GUI");
   recipeBookVisible = false
   RBMFMGui.init(entityId)
   EntityQueryAPI.init()
+  hideByproductSlotIfSpacesNotAvailable()
 end
 
 function update(dt)
@@ -42,4 +44,12 @@ function requestEnableSingleFilter()
     setInitialFilter = true
   end
   EntityQueryAPI.addRequest("requestEnableSingleFilter" .. entityId, handle, onComplete)
+end
+
+function hideByproductSlotIfSpacesNotAvailable()
+  local containerSize = world.containerSize(entityId)
+  if(containerSize < byproductSlot) then
+    widget.setVisible("lblByproduct", false)
+    widget.setVisible("pointerBottom", false)
+  end
 end

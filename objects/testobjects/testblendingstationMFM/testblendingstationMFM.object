@@ -19,7 +19,7 @@
   ],
   "recipeGroup" : "blendingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 16,
+  "slotCount" : 17,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,

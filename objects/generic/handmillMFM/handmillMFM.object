@@ -118,7 +118,7 @@
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
   "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],

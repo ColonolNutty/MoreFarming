@@ -273,7 +273,7 @@
     {
       "op" : "replace",
       "path" : "/uiConfig",
-      "value" : "/interface/objectcrafting/recipeCrafterMFM.config"
+      "value" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config"
     }
   ]
 ]

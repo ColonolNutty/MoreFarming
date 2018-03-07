@@ -1,45 +1,65 @@
-DebugUtilsCN = {
-  debugMsgPrefix = "[DBGCN]"
-};
+DebugUtilsCN = {};
 local debugUtils = {};
-local debugLoggingEnabled = false;
-local debugMsgPrefix = "[DBGCN]"
 
-function DebugUtilsCN.init(messagePrefix)
-  if(messagePrefix ~= nil) then
-    DebugUtilsCN.debugMsgPrefix = messagePrefix
+------------------------ Settings ------------------------
+
+local settings = {
+  debugState = nil
+}
+
+function settings.initialize()
+  if(settings.debugState == nil) then
+    settings.debugState = false
   end
-  if(not storage) then
-    sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " No 'storage' variable found within this script, disabling debug logging")
-    debugLoggingEnabled = false;
-    return
-  end
-  debugLoggingEnabled = true
-  if(storage.enableDebug == nil) then
-    storage.enableDebug = false
-  end
-  message.setHandler("getDebugState", debugUtils.getDebugState)
-  message.setHandler("setDebugState", debugUtils.setDebugState)
 end
 
-function debugUtils.getDebugState(id, name)
+function settings.setDebugState(val, prefix)
+  if(storage) then
+    storage.debugState = val or false
+  else
+    settings.debugState = val or false
+  end
+  if(settings.getDebugState()) then
+    sb.logInfo(prefix .. " Debug Toggled On")
+  else
+    sb.logInfo(prefix .. " Debug Toggled Off")
+  end
+end
+
+function settings.getDebugState()
+  if(storage) then
+    return storage.debugState
+  else
+    return settings.debugState
+  end
+end
+
+----------------------------------------------------------
+
+function DebugUtilsCN.init(messagePrefix)
+  settings.initialize()
+  if(message) then
+    message.setHandler("getDebugState", debugUtils.getDebugState)
+    message.setHandler("setDebugState", debugUtils.setDebugState)
+  end
+  return debugUtils.createNewLogger(messagePrefix)
+end
+
+------------------------ Handlers ------------------------
+
+--- Meant to be called from a GUI script query ---
+function debugUtils.getDebugState()
   return {
-    debugState = debugLoggingEnabled and storage.enableDebug
+    debugState = settings.getDebugState()
   }
 end
 
---- Meant to be called from a GUI script ---
+--- Meant to be called from a GUI script query ---
 function debugUtils.setDebugState(id, name, newValue)
-  if(not debugLoggingEnabled) then
-    return
-  end
-  storage.enableDebug = newValue or false
-  if(storage.enableDebug) then
-    sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " Toggled Debug On")
-  else
-    sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " Toggled Debug Off")
-  end
+  settings.setDebugState(newValue, "Global")
 end
+
+----------------------------------------------------------
 
 function debugUtils.getIndentString(indentAmt)
   if(not indentAmt or indentAmt < 1) then
@@ -55,18 +75,30 @@ function debugUtils.getIndentString(indentAmt)
   return indent
 end
 
-function DebugUtilsCN.enableDebug()
-  debugUtils.setDebugState(nil, nil, true);
-end
-
-function DebugUtilsCN.logInfo(msg, indentAmt)
-  if(debugLoggingEnabled) then
-    sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " " .. debugUtils.getIndentString(indentAmt) .. msg)
+function debugUtils.createNewLogger(messagePrefix)
+  --sb.logInfo("Initializing Logger with prefix " .. messagePrefix)
+  local logger = {
+    messagePrefix = messagePrefix
+  }
+  logger.setDebugState = function(val)
+    settings.setDebugState(val, logger.messagePrefix)
   end
-end
-
-function DebugUtilsCN.logDebug(msg, indentAmt)
-  if(debugLoggingEnabled and storage.enableDebug) then
-    sb.logInfo(DebugUtilsCN.debugMsgPrefix .. " " .. debugUtils.getIndentString(indentAmt) .. msg)
+  logger.getDebugState = settings.getDebugState
+  logger.logInfo = function(msg, indentAmt)
+    sb.logInfo(logger.messagePrefix .. " " .. debugUtils.getIndentString(indentAmt) .. msg)
   end
+  logger.logDebug = function(msg, indentAmt)
+    if(not settings.getDebugState()) then
+      return;
+    end
+    sb.logInfo(logger.messagePrefix .. " " .. debugUtils.getIndentString(indentAmt) .. msg)
+  end
+  logger.logError = function(msg, indentAmt)
+    sb.logError(logger.messagePrefix .. " " .. debugUtils.getIndentString(indentAmt) .. msg)
+  end
+  logger.enableDebug = function()
+    logger.setDebugState(true)
+  end
+  
+  return logger
 end

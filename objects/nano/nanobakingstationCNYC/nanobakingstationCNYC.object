@@ -53,7 +53,7 @@
   "recipeGroup" : "bakingMFM",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
-  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],

@@ -11,12 +11,9 @@ local logger = nil;
 local isCrafting = false;
 local next = next;
 
-function RecipeCrafterMFMApi.init(versioningConfig)
+function RecipeCrafterMFMApi.init()
   logger = DebugUtilsCN.init(RecipeCrafterMFMApi.debugMsgPrefix)
   RecipeBookMFMQueryAPI.init();
-  logger.logInfo("----- Recipe Crafter Init -----")
-  RecipeCrafterMFMApi.printMetaData(versioningConfig)
-  logger.logDebug("Initializing API");
   local outputConfigPath = config.getParameter("outputConfig")
   if outputConfigPath == nil then
     storage.possibleOutputs = {}
@@ -26,7 +23,6 @@ function RecipeCrafterMFMApi.init(versioningConfig)
   storage.slotCount = config.getParameter("slotCount", 16)
   storage.outputSlot = config.getParameter("outputSlot", 15)
   storage.nonZeroOutputSlot = storage.outputSlot + 1;
-  logger.logDebug("Setting output slot to: " .. storage.outputSlot)
   if storage.outputSlot < 0 then
     storage.outputSlot = 0
   end
@@ -64,16 +60,6 @@ end
 
 function rcUtils.getFilterId()
   return storage.recipeGroup
-end
-
-function RecipeCrafterMFMApi.printMetaData(versioningConfig)
-  if versioningConfig == nil then
-    return
-  end
-  local metadata = root.assetJson(versioningConfig)
-  if(metadata) then
-    logger.logInfo("Running with " .. metadata.friendlyName .. " " .. metadata.version)
-  end
 end
 
 function RecipeCrafterMFMApi.update(dt)

@@ -31,5 +31,7 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "yellowfoodcolorMFM" }},
   { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "makeshiftchoppingstationCNYC" } },
   { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "makeshiftboilingstationCNYC" } },
-  { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "makeshiftgrindingstationCNYC" } }
+  { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "makeshiftgrindingstationCNYC" } },
+  
+	{ "op": "add", "path" : "/deploymentConfig/scripts/-", "value" : "/scripts/mfm_player_init.lua"}
 ]

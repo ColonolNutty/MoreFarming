@@ -1,7 +1,7 @@
 require "/scripts/recipeCrafterAPI.lua"
 
 function init(virtual)
-  RecipeCrafterMFMApi.init("/_MFMversioning.config");
+  RecipeCrafterMFMApi.init();
 end
 
 function update(dt)

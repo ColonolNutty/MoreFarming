@@ -69,7 +69,6 @@ function initializeDataStore()
   if(storage.rbDataStore ~= nil) then
     return;
   end
-  logger.logInfo("Initializing DataStore")
   storage.rbDataStore = {
     selectedFoodId = nil,
     ingredientStore = {},

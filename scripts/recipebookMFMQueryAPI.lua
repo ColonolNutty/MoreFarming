@@ -59,7 +59,7 @@ end
 
 function rbAPI.queryRecipeBook(requestName, requestId, defaultResponse, data)
   if(not RecipeBookMFMQueryAPI.isInitialized) then
-    sb.logInfo("RecipeBookMFMQueryAPI not initialized")
+    logger.logError("RecipeBookMFMQueryAPI not initialized")
     return defaultResponse
   end
   local recipeBookId = rbAPI.getRecipeBookEntityId()

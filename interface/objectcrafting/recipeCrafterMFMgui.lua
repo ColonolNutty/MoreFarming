@@ -1,60 +1,59 @@
+require "/scripts/debugUtilsCN.lua"
+require "/scripts/MFM/entityQueryAPI.lua"
+
 local debugStateUpdated = false;
-local debugStateRequest = nil;
+local entityId = nil
+local logger = nil
+
+TOGGLE_DEBUG_NAME = "toggleDebug"
 
 function craft()
-  sb.logInfo("Initializing GUI");
-  world.sendEntityMessage(pane.containerEntityId(), "craft")
+  logger.logDebug("Crafting with old crafting GUI");
+  world.sendEntityMessage(entityId, "craft")
 end
 
 function init()
+  logger = DebugUtilsCN.init("[OldRCGUI]")
+  EntityQueryAPI.init()
+  entityId = pane.containerEntityId()
   debugStateUpdated = false;
 end
 
-function update()
+function update(dt)
+  if(not EntityQueryAPI.update(dt)) then
+    return
+  end
   updateDebugState()
 end
 
 function toggleDebug()
-  local toEnable = widget.getChecked("toggleDebug")
-  world.sendEntityMessage(pane.containerEntityId(), "setDebugState", toEnable)
-  if(toEnable) then
-    sb.logInfo("[RCGUI] Debug is enabled")
-  else
-    sb.logInfo("[RCGUI] Debug is disabled")
+  if(entityId == nil) then
+    logger.logError("Failed to toggle debug, entityId is nil")
+    return
   end
+  local toEnable = widget.getChecked(TOGGLE_DEBUG_NAME)
+  logger.setDebugState(toEnable)
+  world.sendEntityMessage(entityId, "setDebugState", toEnable)
 end
 
 function updateDebugState()
   if(debugStateUpdated) then
     return
   end
-  if(debugStateRequest == nil) then
-    debugStateRequest = world.sendEntityMessage(pane.containerEntityId(), "getDebugState")
-  end
-  if(not debugStateRequest:finished()) then
-    return
-  end
-  if(not debugStateRequest:succeeded()) then
-    local errorMsg = debugStateRequest:error()
-    if(errorMsg ~= nil) then
-      sb.logError(errorMsg)
+  local handle = function()
+    local result = EntityQueryAPI.requestData(entityId, "getDebugState", 0, nil)
+    if(result ~= nil) then
+      return true, result
     end
-    toggleDebug()
+    return false, nil
+  end
+  
+  local onCompleted = function(result)
+    local debugState = result.debugState
+    logger.setDebugState(debugState)
+    widget.setChecked(TOGGLE_DEBUG_NAME, debugState)
     debugStateUpdated = true
-    return
   end
-  local debugStateRequestResult = debugStateRequest:result()
-  if(not debugStateRequestResult) then
-    debugStateUpdated = true
-    return
-  end
-  local debugState = debugStateRequestResult.debugState
-  if(debugState) then
-    sb.logInfo("[RCGUI] Debug is enabled")
-  else
-    sb.logInfo("[RCGUI] Debug is disabled")
-  end
-  widget.setChecked("toggleDebug", debugState)
-  debugStateUpdated = true
-  debugStateRequest = nil
+  
+  EntityQueryAPI.addRequest("updateDebugState", handle, onCompleted)
 end

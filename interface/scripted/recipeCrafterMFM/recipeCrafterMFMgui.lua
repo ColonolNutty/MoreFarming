@@ -27,7 +27,7 @@ function update(dt)
 end
 
 function craft()
-  logger.logInfo("Crafting with Crafter GUI");
+  logger.logDebug("Crafting with Crafter GUI");
   world.sendEntityMessage(entityId, "craft")
 end
 

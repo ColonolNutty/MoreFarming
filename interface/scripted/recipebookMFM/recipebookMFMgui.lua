@@ -73,7 +73,6 @@ function RBMFMGui.init(entityId)
 end
 
 function init()
-  sb.logInfo("Running RBMFMGui init");
   if(pane.containerEntityId) then
     RBMFMGui.init(pane.containerEntityId())
   elseif(pane.sourceEntity) then

@@ -2,8 +2,8 @@ local origInit = init;
 
 function init()
   origInit();
-  sb.logInfo("----- MFM FU player init -----");
-  local metadata = root.assetJson("/_MFMFUversioning.config")
+  sb.logInfo("----- MFM player init -----");
+  local metadata = root.assetJson("/_MFMversioning.config")
   if(metadata) then
     sb.logInfo("Running with " .. metadata.friendlyName .. " " .. metadata.version)
   end

@@ -13,5 +13,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 0.5,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "rawhamMFM.png"
+  "inventoryIcon" : "obsoleterawhamMFM.png"
 }

@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "rawham", "count" : 1 },
+    { "item" : "rawhamMFM", "count" : 1 },
     { "item" : "honeyglazeMFM", "count" : 1 }
   ],
   "output" : { "item" : "honeyglazedhamMFM", "count" : 1 },
-  "groups" : [ "bakingMFM" ]
+  "groups" : [ "bakingMFM", "ExcludeFromRecipeBook" ]
 }

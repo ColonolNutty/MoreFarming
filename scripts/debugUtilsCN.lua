@@ -19,11 +19,6 @@ function settings.setDebugState(val, prefix)
   else
     settings.debugState = val or false
   end
-  if(settings.getDebugState()) then
-    sb.logInfo(prefix .. " Debug Toggled On")
-  else
-    sb.logInfo(prefix .. " Debug Toggled Off")
-  end
 end
 
 function settings.getDebugState()

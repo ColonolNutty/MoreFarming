@@ -620,6 +620,25 @@
   },
   {
     "op" : "add",
+    "path" : "/kaleMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "kaleMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "kaleMFM"},
+          {"weight" : 0.01, "item" : "kaleMFMseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/lemonMFMHarvest",
     "value" : [ [0, {
         "pool" : [

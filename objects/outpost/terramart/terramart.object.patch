@@ -182,6 +182,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "kaleMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "lemonMFM" }
   },
   {
@@ -503,6 +508,11 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : [ "jelonMFMseed", 3 ] }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : [ "kaleMFMseed", 3 ] }
   },
   {
     "op" : "add",

@@ -31,11 +31,12 @@
 						[1, "wildartichokeMFMseed" ],
 						[1, "wildcauliflowerMFMseed" ],
 						[1, "wildgingerMSMseed" ],
+						[1, "wildkaleMFMseed" ],
 						[1, "wildlettuceMFMseed" ],
 						[1, "wildparsnipMFMseed" ],
 						[1, "wildradishMFMseed"],
-						[1, "wildturnipMFMseed" ],
 						[1, "wildsunflowerMFMseed"],
+						[1, "wildturnipMFMseed" ],
 						[1, "wildvanillabeanMFMseed" ]
 					],
 					"parameters" : {

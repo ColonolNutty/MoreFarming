@@ -6,6 +6,7 @@ local setInitialFilter = false
 local entityId = nil
 local logger = nil
 local byproductSlot = 17
+local checkedForRecipeBook = false
 
 function init()
   logger = DebugUtilsCN.init("[RCGUI]")
@@ -24,6 +25,26 @@ function update(dt)
   end
   RBMFMGui.update(dt)
   EntityQueryAPI.update(dt)
+end
+
+function checkForRecipeBook()
+  if(checkedForRecipeBook) then
+    return;
+  end
+  checkedForRecipeBook = true
+  local handle = function()
+    local result = EntityQueryAPI.requestData(entityId, "reloadRecipeBook", entityId)
+    if(result ~= nil) then
+      return true, result
+    end
+    return false, nil
+  end
+  local onComplete = function(result)
+    if(result) then
+      RBMFMGui.reloadDataStore()
+    end
+  end
+  EntityQueryAPI.addRequest("checkForRecipeBook" .. entityId, handle, onComplete)
 end
 
 function craft()

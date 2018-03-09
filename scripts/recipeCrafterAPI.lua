@@ -4,7 +4,9 @@ require "/scripts/recipebookMFMQueryAPI.lua"
 
 RecipeCrafterMFMApi = {
   debugMsgPrefix = "[RCAPI]",
-  loadedRecipes = false
+  loadedRecipes = false,
+  reloadingRecipeBook = false,
+  reloadedRecipeBook = false
 };
 local rcUtils = {};
 local logger = nil;
@@ -22,7 +24,9 @@ function RecipeCrafterMFMApi.init()
   end
   storage.slotCount = config.getParameter("slotCount", 16)
   storage.outputSlot = config.getParameter("outputSlot", 15)
+  storage.byproductSlot = config.getParameter("byproductSlot", 16)
   storage.nonZeroOutputSlot = storage.outputSlot + 1;
+  storage.nonZeroByproductSlot = storage.byproductSlot + 1;
   if storage.outputSlot < 0 then
     storage.outputSlot = 0
   end
@@ -56,6 +60,7 @@ function RecipeCrafterMFMApi.init()
   -------------------------
   message.setHandler("craft", RecipeCrafterMFMApi.craftItem)
   message.setHandler("getFilterId", rcUtils.getFilterId);
+  message.setHandler("reloadRecipeBook", rcUtils.reloadRecipeBook);
 end
 
 function rcUtils.getFilterId()
@@ -73,10 +78,20 @@ function RecipeCrafterMFMApi.die()
   RecipeCrafterMFMApi.releaseIngredients()
 end
 
+function rcUtils.reloadRecipeBook()
+  if(not RecipeCrafterMFMApi.reloadingRecipeBook) then
+    RecipeCrafterMFMApi.loadedRecipes = false
+    rcUtils.loadRecipeBookRecipes()
+  end
+  return RecipeCrafterMFMApi.reloadedRecipeBook;
+end
+
 function rcUtils.loadRecipeBookRecipes()
-  if(RecipeCrafterMFMApi.loadedRecipes) then
+  if(RecipeCrafterMFMApi.loadedRecipes or RecipeCrafterMFMApi.reloadingRecipeBook) then
     return
   end
+  RecipeCrafterMFMApi.reloadingRecipeBook = true;
+  RecipeCrafterMFMApi.reloadedRecipeBook = false;
   local handle = function()
     local result = RecipeBookMFMQueryAPI.getRecipesForFilter(storage.recipeGroup, nil, storage.recipeGroup)
     if(result ~= nil) then
@@ -88,13 +103,14 @@ function rcUtils.loadRecipeBookRecipes()
   local onComplete = function(result)
     if(next(result) == nil) then
       storage.recipeBookRecipes = nil
-      RecipeCrafterMFMApi.loadedRecipes = false
       logger.logDebug("Recipe Book Not Found")
     else
       storage.recipeBookRecipes = result;
-      RecipeCrafterMFMApi.loadedRecipes = true
       logger.logDebug("Loaded Recipe Book Recipes")
     end
+    RecipeCrafterMFMApi.loadedRecipes = true
+    RecipeCrafterMFMApi.reloadingRecipeBook = false
+    RecipeCrafterMFMApi.reloadedRecipeBook = true;
   end
   EntityQueryAPI.addRequest("loadRecipeBookRecipes", handle, onComplete)
 end
@@ -271,7 +287,7 @@ function RecipeCrafterMFMApi.hasIngredientsForRecipe(recipe, ingredients)
     local matchFound = false
     for slot,ingred in pairs(ingredients) do
       local ingredName = ingred.name
-      logger.logDebug("Verifying container ingredient name '" .. ingredName .. "' matches with recipe ingredient name '" .. inputName .. "'", indent + 1)
+      logger.logDebug("Verifying container ingredient name '" .. ingredName .. "' in slot " .. slot .. " matches with recipe ingredient name '" .. inputName .. "'", indent + 1)
       if ingredName ~= recipe.output.name then
         if ingredName == inputName then
           logger.logDebug("Name matches, verifying count: " .. ingredName, indent + 2)
@@ -329,7 +345,7 @@ function RecipeCrafterMFMApi.getIngredients()
     return nil;
   end
   for slot,item in pairs(ingredients) do
-    if (ingredientNames[item.name] == nil and slot ~= storage.nonZeroOutputSlot) then
+    if (ingredientNames[item.name] == nil and slot ~= storage.nonZeroOutputSlot and slot ~= storage.nonZeroByproductSlot) then
       item.count = world.containerAvailable(entity.id(), item.name)
       ingredientNames[item.name] = true
       uniqueIngredients[slot] = item
@@ -536,7 +552,7 @@ function rcUtils.hasIngredients()
   end
   local numberOfIngredients = 0
   for slot,item in pairs(storage.currentIngredients) do
-    if slot ~= storage.nonZeroOutputSlot then
+    if slot ~= storage.nonZeroOutputSlot and slot ~= storage.nonZeroByproductSlot then
       numberOfIngredients = numberOfIngredients + 1
     end
   end

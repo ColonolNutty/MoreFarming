@@ -110,6 +110,11 @@ function ensureInitialSetup()
   
   updateDebugState();
   if(dataStore == nil) then
+    RBMFMGui.reloadDataStore()
+  end
+end
+
+function RBMFMGui.reloadDataStore()
     local dataStoreResult = EntityQueryAPI.requestData(sourceEntityId, "getDataStore", 0, nil);
     if(dataStoreResult ~= nil) then
       dataStore = dataStoreResult;
@@ -117,10 +122,8 @@ function ensureInitialSetup()
       setupInitialFilterList();
       setupInitialIngredientList();
       setupInitialFoodList();
-      logger.logDebug("Initial load complete")
-      RBMFMGui.isInitialized = true;
+      RBMFMGui.isInitialized = true
     end
-  end
 end
 
 function updateIngredientCraftable()

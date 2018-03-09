@@ -47,7 +47,7 @@ end
 function rbAPI.getRecipeBookEntityId()
   local foundRecipeBookIds = world.objectQuery(object.position(), 5000, { name = "recipebookMFM" })
   if(#foundRecipeBookIds == 0) then
-    logger.logDebug("No recipe book found nearby")
+    --logger.logDebug("No recipe book found nearby")
     return nil
   end
   return foundRecipeBookIds[1]

@@ -1083,6 +1083,26 @@
   },
   {
     "op" : "add",
+    "path" : "/scallionMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "scallionMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "scallionMFM"},
+          {"weight" : 0.01, "item" : "scallionMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/shadowbulbMFMHarvest",
     "value" : [ [0, {
         "fill": [

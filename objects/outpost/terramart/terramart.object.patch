@@ -312,6 +312,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "scallionMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "shadowbulbMFM" }
   },
   {
@@ -603,6 +608,11 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : [ "saguaroMFMseed", 3 ] }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : [ "scallionMFMseed", 3 ] }
   },
   {
     "op" : "add",

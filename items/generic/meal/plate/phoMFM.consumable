@@ -1,12 +1,12 @@
 {
   "itemName" : "phoMFM",
   "rarity" : "Uncommon",
-  "price" : 205.28,
+  "price" : 210.55,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Meaty rice.",
   "shortdescription" : "Pho",
-  "foodValue" : 118.52,
+  "foodValue" : 125.69,
   "effects" : [[
     {
       "effect" : "poisonblock",

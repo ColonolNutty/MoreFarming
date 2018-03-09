@@ -1254,6 +1254,22 @@
   },
   {
     "op" : "add",
+    "path" : "/watermelonMFMHarvest",
+    "value" : [ [0, {
+        "fill": [
+          {"item" : "watermelonMFMseed"}
+        ], 
+        "pool" : [
+          {"weight" : 1, "item" : "watermelonMFM"}
+        ],
+        "poolRounds" : [
+          [1.0, 1]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/yeastMFMHarvest",
     "value" : [ [0, {
         "fill": [

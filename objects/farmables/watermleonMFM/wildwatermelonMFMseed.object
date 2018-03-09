@@ -1,0 +1,44 @@
+{
+  "objectName" : "wildwatermelonMFMseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 70.0,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "Bright green oblong melons.",
+  "shortdescription" : "Wild Watermelon Seed",
+  "floranDescription" : "Floran sssmash melon to make sssquelch sounds. Also to nom.",
+  "glitchDescription" : "Analysis. Tough on the outside, wet on the inside.",
+  "inventoryIcon" : "watermelonMFMseedicon.png",
+  "largeImage" : "watermelonMFMseed.png:default.2.0",
+  "orientations" : [
+    {
+      "dualImage" : "watermelonMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [1230, 1230]
+    },
+    {
+      "duration" : [1230, 1230]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "watermelonMFMHarvest",
+      "resetToStage" : 1
+    }
+  ],
+  "maxImmersion" : 0.25,
+  "breakDropOptions" : [[[ "watermleonMFMseed", 1, { } ]]],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
+}

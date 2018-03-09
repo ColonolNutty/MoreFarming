@@ -59,7 +59,8 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildsweetpotatoMFMseed" ]
+						[1, "wildsweetpotatoMFMseed" ],
+            [1, "wildwatermelonMFMseed" ]
 					],
 					"parameters" : {
 						"startingStage" : 2

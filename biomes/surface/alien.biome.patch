@@ -15,7 +15,8 @@
 						[1, "wildflytrapMFMseed"],
             [1, "wildgarpberryMFMseed" ],
 						[1, "wildjelonalienMFMseed" ],
-            [1, "wildpalsterstickMFMseed" ]
+            [1, "wildpalsterstickMFMseed" ],
+            [1, "wildwatermelonMFMseed" ]
 					],
 					"parameters" : {
 						"startingStage" : 2

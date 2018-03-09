@@ -82,7 +82,8 @@
         {
           "pool" : [
             [1, "wildgarpberryMFMseed" ],
-            [1, "wildjelonalienMFMseed" ]
+            [1, "wildjelonalienMFMseed" ],
+            [1, "wildwatermelonMFMseed" ]
           ],
           "parameters" : {
             "startingStage" : 2

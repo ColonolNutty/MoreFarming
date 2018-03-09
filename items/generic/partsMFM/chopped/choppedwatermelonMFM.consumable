@@ -1,0 +1,17 @@
+{
+  "itemName" : "choppedwatermelonMFM",
+  "rarity" : "Common",
+  "price" : 49.0,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed and chopped watermelon.",
+  "shortdescription" : "Chopped Watermelon",
+  "foodValue" : 10.0,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedwatermelonMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

@@ -45,7 +45,8 @@
             [1, "wildflytrapMFMseed"],
             [1, "wildjelonMFMseed" ],
             [1, "wilddungrootMFMseed" ],
-            [1, "wildfinkelMFMseed" ]
+            [1, "wildfinkelMFMseed" ],
+            [1, "wildwatermelonMFMseed" ]
           ],
           "parameters" : {
             "startingStage" : 2

@@ -51,7 +51,7 @@
     {
       "op" : "replace",
       "path" : "/description",
-      "value" : "A slice of bubblegum flavoured neonmelon."
+      "value" : "Bubblegum flavoured neonmelon."
     },
     {
       "op" : "replace",

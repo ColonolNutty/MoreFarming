@@ -362,6 +362,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "watermelonMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "wholeoatsMFM" }
   },
   {
@@ -643,6 +648,11 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : [ "vanillabeanMFMseed", 3 ] }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : [ "watermelonMFMseed", 3 ] }
   },
   {
     "op" : "add",

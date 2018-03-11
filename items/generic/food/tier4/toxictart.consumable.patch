@@ -83,7 +83,7 @@
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 925.33
+      "value" : 823.75
     },
     {
       "op" : "replace",

@@ -1,12 +1,12 @@
 {
   "itemName" : "borschtMFM",
   "rarity" : "Common",
-  "price" : 485.73,
+  "price" : 460.65,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A sour soup, filled with loads of ingredients.",
   "shortdescription" : "Borscht",
-  "foodValue" : 177.26,
+  "foodValue" : 177.59,
   "effects" : [[
     {
       "effect" : "antidote",

@@ -1,107 +1,113 @@
-{"ingredients": [
-  {
-    "itemName": "wheat",
-    "foodValue": 2.0
-  },
-  {
-    "itemName": "cacti",
-    "foodValue": 2.0
-  },
-  {
-    "itemName": "cocoa",
-    "foodValue": 2.0
-  },
-  {
-    "itemName": "crystalplant",
-    "price": 2.0,
-    "foodValue": 2.0
-  },
-  {
-    "itemName": "kelp",
-    "price": 2.0,
-    "foodValue": 2.0
-  },
-  {
-    "itemName": "rice",
-    "foodValue": 3.0
-  },
-  {
-    "itemName": "shroom",
-    "foodValue": 3.0
-  },
-  {
-    "itemName": "portobellomushroomMFM",
-    "foodValue": 3.0
-  },
-  {
-    "itemName": "sugar",
-    "foodValue": 0.1
-  },
-  {
-    "itemName": "clay",
-    "price": 4.0
-  },
-  {
-    "itemName": "giantflowerpetal",
-    "price": 5.0,
-    "foodValue": 0.3
-  },
-  {
-    "itemName": "paper",
-    "price": 3.0
-  },
-  {
-    "itemName": "plantfibre",
-    "price": 0.1,
-    "foodValue": 1.0
-  },
-  {
-    "itemName": "petalblue",
-    "price": 0.3,
-    "foodValue": 1.0
-  },
-  {
-    "itemName": "petalred",
-    "price": 0.3,
-    "foodValue": 1.0
-  },
-  {
-    "itemName": "petalyellow",
-    "price": 0.3,
-    "foodValue": 2.0
-  },
-  {
-    "itemName": "darkwoodmaterial",
-    "price": 2.0
-  },
-  {
-    "itemName": "cobblestonematerial",
-    "price": 2.0
-  },
-  {
-    "itemName": "sand",
-    "price": 2.0
-  },
-  {
-    "itemName": "ice",
-    "price": 0.1
-  },
-  {
-    "itemName": "fleshstrand",
-    "price": 0.1,
-    "foodValue": 1.0
-  },
-  {
-    "itemName": "sugarcanestalkMFM",
-    "foodValue": 5.7
-  },
-  {
-    "itemName": "glass",
-    "price": 3.0
-  },
-  {
-    "name": "liquidmilk",
-    "price": 1.0,
-    "foodValue": 3.0
-  }
- ]}
+{
+  "ingredients": [
+    {
+      "itemName": "cacti",
+      "foodValue": 2.0
+    },
+    {
+      "itemName": "clay",
+      "price": 4.0
+    },
+    {
+      "itemName": "cobblestonematerial",
+      "price": 2.0
+    },
+    {
+      "itemName": "cocoa",
+      "foodValue": 2.0
+    },
+    {
+      "itemName": "crystalplant",
+      "price": 2.0,
+      "foodValue": 2.0
+    },
+    {
+      "itemName": "darkwoodmaterial",
+      "price": 2.0
+    },
+    {
+      "itemName": "fleshstrand",
+      "price": 0.1,
+      "foodValue": 1.0
+    },
+    {
+      "itemName": "giantflowerpetal",
+      "price": 5.0,
+      "foodValue": 0.3
+    },
+    {
+      "itemName": "glass",
+      "price": 3.0
+    },
+    {
+      "itemName": "ice",
+      "price": 0.1
+    },
+    {
+      "itemName": "kelp",
+      "price": 2.0,
+      "foodValue": 2.0
+    },
+    {
+      "name": "liquidmilk",
+      "price": 1.0,
+      "foodValue": 3.0
+    },
+    {
+      "itemName": "paper",
+      "price": 3.0
+    },
+    {
+      "itemName": "petalblue",
+      "price": 0.3,
+      "foodValue": 1.0
+    },
+    {
+      "itemName": "petalred",
+      "price": 0.3,
+      "foodValue": 1.0
+    },
+    {
+      "itemName": "petalyellow",
+      "price": 0.3,
+      "foodValue": 2.0
+    },
+    {
+      "itemName": "plantfibre",
+      "price": 0.1,
+      "foodValue": 1.0
+    },
+    {
+      "itemName": "portobellomushroomMFM",
+      "foodValue": 3.0
+    },
+    {
+      "itemName": "rice",
+      "foodValue": 3.0
+    },
+    {
+      "itemName": "sand",
+      "price": 2.0
+    },
+    {
+      "itemName": "shroom",
+      "foodValue": 3.0
+    },
+    {
+      "itemName": "sugar",
+      "foodValue": 0.1
+    },
+    {
+      "itemName": "sugarcanestalkMFM",
+      "foodValue": 5.7
+    },
+    {
+      "itemName": "wheat",
+      "foodValue": 2.0
+    },
+    {
+      "name": "yeastMFM",
+      "foodValue": 3.0
+    }
+  ]
+}

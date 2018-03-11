@@ -91,7 +91,7 @@
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 11.69
+      "value" : 10.04
     },
     {
       "op" : "replace",

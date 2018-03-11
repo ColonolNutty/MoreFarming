@@ -13,10 +13,6 @@
       "duration" : 31
     },
     {
-      "effect" : "camouflage25",
-      "duration" : 32
-    },
-    {
       "effect" : "maxhealthscalingboostfood",
       "duration" : 189
     }

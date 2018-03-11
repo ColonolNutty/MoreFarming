@@ -17,20 +17,8 @@
       "duration" : 192
     },
     {
-      "effect" : "maxenergyscalingboostfood",
-      "duration" : 36
-    },
-    {
-      "effect" : "camouflage25",
-      "duration" : 32
-    },
-    {
-      "effect" : "energyregen",
-      "duration" : 36
-    },
-    {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 176
+      "duration" : 98
     },
     {
       "effect" : "glow",

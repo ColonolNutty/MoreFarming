@@ -9,10 +9,6 @@
   "foodValue" : 21.0,
   "effects" : [[
     {
-      "effect" : "camouflage25",
-      "duration" : 32
-    },
-    {
       "effect" : "maxhealthscalingboostfood",
       "duration" : 31
     }

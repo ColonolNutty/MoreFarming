@@ -71,7 +71,7 @@
         },
         {
           "effect" : "maxenergyscalingboostfood",
-          "duration" : 148
+          "duration" : 112
         },
         {
           "effect" : "runboostfood",
@@ -79,11 +79,11 @@
         },
         {
           "effect" : "energyregen",
-          "duration" : 148
+          "duration" : 112
         },
         {
           "effect" : "maxhealthscalingboostfood",
-          "duration" : 318
+          "duration" : 242
         }
       ]]
     },

@@ -58,20 +58,8 @@
       "path" : "/effects",
       "value" : [[
         {
-          "effect" : "maxenergyscalingboostfood",
-          "duration" : 115
-        },
-        {
           "effect" : "camouflage25",
           "duration" : 33
-        },
-        {
-          "effect" : "energyregen",
-          "duration" : 115
-        },
-        {
-          "effect" : "maxhealthscalingboostfood",
-          "duration" : 247
         }
       ]]
     },

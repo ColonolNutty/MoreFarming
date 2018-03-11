@@ -9,16 +9,8 @@
   "foodValue" : 43.61,
   "effects" : [[
     {
-      "effect" : "regeneration2",
-      "duration" : 33
-    },
-    {
-      "effect" : "maxenergyscalingboost",
-      "duration" : 33
-    },
-    {
       "effect" : "runboostfood",
-      "duration" : 66
+      "duration" : 33
     },
     {
       "effect" : "maxhealthscalingboostfood",

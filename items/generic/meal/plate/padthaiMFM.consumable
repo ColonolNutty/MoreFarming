@@ -9,12 +9,12 @@
   "foodValue" : 147.41,
   "effects" : [[
     {
-      "effect" : "burning",
-      "duration" : 5
+      "effect" : "camouflage25",
+      "duration" : 31
     },
     {
-      "effect" : "camouflage25",
-      "duration" : 63
+      "effect" : "burning",
+      "duration" : 5
     },
     {
       "effect" : "runboostfood",

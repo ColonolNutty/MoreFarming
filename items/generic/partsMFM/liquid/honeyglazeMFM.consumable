@@ -10,19 +10,15 @@
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 73
-    },
-    {
-      "effect" : "runboostfood",
-      "duration" : 68
+      "duration" : 36
     },
     {
       "effect" : "energyregen",
-      "duration" : 73
+      "duration" : 36
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 228
+      "duration" : 78
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

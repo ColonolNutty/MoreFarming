@@ -9,28 +9,16 @@
   "foodValue" : 274.83,
   "effects" : [[
     {
-      "effect" : "regeneration2",
-      "duration" : 34
-    },
-    {
-      "effect" : "maxenergyscalingboost",
-      "duration" : 34
-    },
-    {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 144
-    },
-    {
-      "effect" : "runboostfood",
-      "duration" : 34
+      "duration" : 71
     },
     {
       "effect" : "energyregen",
-      "duration" : 144
+      "duration" : 71
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 310
+      "duration" : 153
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

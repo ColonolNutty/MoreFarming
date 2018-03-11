@@ -62,10 +62,6 @@
           "duration" : 66
         },
         {
-          "effect" : "camouflage25",
-          "duration" : 32
-        },
-        {
           "effect" : "maxenergyscalingboostfood",
           "duration" : 49
         },

@@ -9,20 +9,8 @@
   "foodValue" : 110.52,
   "effects" : [[
     {
-      "effect" : "maxenergyscalingboostfood",
-      "duration" : 69
-    },
-    {
       "effect" : "iceblock",
       "duration" : 49
-    },
-    {
-      "effect" : "energyregen",
-      "duration" : 69
-    },
-    {
-      "effect" : "maxhealthscalingboostfood",
-      "duration" : 147
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

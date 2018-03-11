@@ -9,10 +9,6 @@
   "foodValue" : 110.62,
   "effects" : [[
     {
-      "effect" : "poisonblock",
-      "duration" : 102
-    },
-    {
       "effect" : "jumpboostfood",
       "duration" : 32
     },

@@ -1,95 +1,95 @@
 {"ingredients": [
   {
     "itemName": "wheat",
-    "foodValue": 10
+    "foodValue": 2.0
   },
   {
     "itemName": "cacti",
-    "foodValue": 10
+    "foodValue": 2.0
   },
   {
     "itemName": "cocoa",
-    "foodValue": 10
+    "foodValue": 2.0
   },
   {
     "itemName": "crystalplant",
-    "price": 5,
-    "foodValue": 10
+    "price": 2.0,
+    "foodValue": 2.0
   },
   {
     "itemName": "kelp",
-    "price": 5,
-    "foodValue": 10
+    "price": 2.0,
+    "foodValue": 2.0
   },
   {
     "itemName": "rice",
-    "foodValue": 10
+    "foodValue": 3.0
   },
   {
     "itemName": "shroom",
-    "foodValue": 10
+    "foodValue": 3.0
   },
   {
     "itemName": "portobellomushroomMFM",
-    "foodValue": 10
+    "foodValue": 3.0
   },
   {
     "itemName": "sugar",
-    "foodValue": 10
+    "foodValue": 0.1
   },
   {
     "itemName": "clay",
-    "price": 4
+    "price": 4.0
   },
   {
     "itemName": "giantflowerpetal",
-    "price": 5,
-    "foodValue": 10
+    "price": 5.0,
+    "foodValue": 0.3
   },
   {
     "itemName": "paper",
-    "price": 3
+    "price": 3.0
   },
   {
     "itemName": "plantfibre",
-    "price": 5,
-    "foodValue": 10
+    "price": 0.1,
+    "foodValue": 1.0
   },
   {
     "itemName": "petalblue",
-    "price": 5,
-    "foodValue": 10
+    "price": 0.3,
+    "foodValue": 1.0
   },
   {
     "itemName": "petalred",
-    "price": 5,
-    "foodValue": 10
+    "price": 0.3,
+    "foodValue": 1.0
   },
   {
     "itemName": "petalyellow",
-    "price": 5,
-    "foodValue": 10
+    "price": 0.3,
+    "foodValue": 2.0
   },
   {
     "itemName": "darkwoodmaterial",
-    "price": 2
+    "price": 2.0
   },
   {
     "itemName": "cobblestonematerial",
-    "price": 2
+    "price": 2.0
   },
   {
     "itemName": "sand",
-    "price": 2
+    "price": 2.0
   },
   {
     "itemName": "ice",
-    "price": 10
+    "price": 0.1
   },
   {
     "itemName": "fleshstrand",
-    "price": 5,
-    "foodValue": 10
+    "price": 0.1,
+    "foodValue": 1.0
   },
   {
     "itemName": "sugarcanestalkMFM",
@@ -97,11 +97,11 @@
   },
   {
     "itemName": "glass",
-    "price": 3
+    "price": 3.0
   },
   {
     "name": "liquidmilk",
-    "price": 10,
-    "foodValue": 10
+    "price": 1.0,
+    "foodValue": 3.0
   }
  ]}

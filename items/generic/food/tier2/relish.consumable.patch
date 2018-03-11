@@ -59,31 +59,31 @@
       "value" : [[
         {
           "effect" : "rage",
-          "duration" : 30
+          "duration" : 32
         },
         {
           "effect" : "burning",
-          "duration" : 30
+          "duration" : 32
         },
         {
           "effect" : "maxenergyscalingboostfood",
-          "duration" : 45
+          "duration" : 49
         },
         {
           "effect" : "iceblock",
-          "duration" : 60
+          "duration" : 66
         }
       ]]
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 31.15
+      "value" : 54.6
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 275.26
+      "value" : 276.01
     }
   ]
 ]

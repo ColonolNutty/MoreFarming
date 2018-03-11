@@ -1,12 +1,12 @@
 {
   "itemName" : "snowconeblueMFM",
   "rarity" : "Common",
-  "price" : 108.99,
+  "price" : 6.89,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} A blue snow cone.",
   "shortdescription" : "Snow Cone - Blue",
-  "foodValue" : 176.08,
+  "foodValue" : 53.11,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} Meaty rice.",
   "shortdescription" : "Pho",
-  "foodValue" : 125.69,
+  "foodValue" : 110.62,
   "effects" : [[
     {
       "effect" : "poisonblock",

@@ -1,12 +1,12 @@
 {
   "itemName" : "makikappaMFM",
   "rarity" : "Uncommon",
-  "price" : 346.76,
+  "price" : 343.46,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Chopped cucumbers packed in a ball of rice.",
   "shortdescription" : "Maki - Kappa",
-  "foodValue" : 75.07,
+  "foodValue" : 36.49,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

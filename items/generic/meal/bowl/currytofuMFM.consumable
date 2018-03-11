@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A spicy curry made with tofu.",
   "shortdescription" : "Curry - Tofu",
-  "foodValue" : 99.41,
+  "foodValue" : 92.24,
   "effects" : [[
     {
       "effect" : "antidote",

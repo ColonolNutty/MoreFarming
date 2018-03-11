@@ -51,7 +51,7 @@
     {
       "op" : "replace",
       "path" : "/description",
-      "value" : "(BOIL):-} A light stew that goes down easy."
+      "value" : "(FREEZE):-} One tasty snowcone, multiple flavours!"
     },
     {
       "op" : "replace",
@@ -59,32 +59,19 @@
       "value" : [[
         {
           "effect" : "maxenergyscalingboostfood",
-          "duration" : 67
-        },
-        {
-          "effect" : "energyregen",
-          "duration" : 67
-        },
-        {
-          "effect" : "maxhealthscalingboostfood",
-          "duration" : 141
+          "duration" : 180
         }
       ]]
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 212.69
+      "value" : 21.53
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 423.95
-    },
-    {
-      "op" : "replace",
-      "path" : "/shortdescription",
-      "value" : "Stew - Fish"
+      "value" : 2.15
     }
   ]
 ]

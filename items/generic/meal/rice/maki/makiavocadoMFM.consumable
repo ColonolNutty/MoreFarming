@@ -1,12 +1,12 @@
 {
   "itemName" : "makiavocadoMFM",
   "rarity" : "Uncommon",
-  "price" : 303.71,
+  "price" : 300.41,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Chopped avocado and ginger packed in a ball of rice.",
   "shortdescription" : "Maki - Avocado",
-  "foodValue" : 75.08,
+  "foodValue" : 36.49,
   "effects" : [[
     {
       "effect" : "thorns",

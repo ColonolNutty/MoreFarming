@@ -59,19 +59,19 @@
       "value" : [[
         {
           "effect" : "camouflage25",
-          "duration" : 7
+          "duration" : 33
         }
       ]]
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 12.19
+      "value" : 61.09
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 68.79
+      "value" : 69.95
     },
     {
       "op" : "replace",

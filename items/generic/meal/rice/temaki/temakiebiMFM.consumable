@@ -1,12 +1,12 @@
 {
   "itemName" : "temakiebiMFM",
   "rarity" : "Uncommon",
-  "price" : 371.05,
+  "price" : 364.59,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Cooked shrimp and cucumber, wrapped in a ball of rice and kelp.",
   "shortdescription" : "Temaki - Ebi",
-  "foodValue" : 117.6,
+  "foodValue" : 70.61,
   "effects" : [[
     {
       "effect" : "camouflage25",

@@ -63,31 +63,31 @@
         },
         {
           "effect" : "poisonblock",
-          "duration" : 180
+          "duration" : 200
         },
         {
           "effect" : "maxenergyscalingboostfood",
-          "duration" : 6
+          "duration" : 35
         },
         {
           "effect" : "energyregen",
-          "duration" : 6
+          "duration" : 35
         },
         {
           "effect" : "maxhealthscalingboostfood",
-          "duration" : 12
+          "duration" : 75
         }
       ]]
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 67.49
+      "value" : 159.62
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 568.71
+      "value" : 572.17
     },
     {
       "op" : "replace",

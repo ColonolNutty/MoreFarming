@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A mushroom boiled in water.",
   "shortdescription" : "Boiled Mushroom",
-  "foodValue" : 31.53,
+  "foodValue" : 31.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -1,12 +1,12 @@
 {
   "itemName" : "stewmountainmanMFM",
   "rarity" : "Common",
-  "price" : 218.36,
+  "price" : 193.61,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A hearty mountainman meal that fills the boots!",
   "shortdescription" : "Stew - Mountainman",
-  "foodValue" : 157.2,
+  "foodValue" : 111.75,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

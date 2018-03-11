@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A mushroom that is somewhat more edible.",
   "shortdescription" : "Baked Mushroom",
-  "foodValue" : 10.5,
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

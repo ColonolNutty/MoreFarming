@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(FRY):-} Tasty, and may not be poisonous!",
   "shortdescription" : "Fried Mushroom",
-  "foodValue" : 21.0,
+  "foodValue" : 13.65,
   "effects" : [[
     {
       "effect" : "camouflage25",

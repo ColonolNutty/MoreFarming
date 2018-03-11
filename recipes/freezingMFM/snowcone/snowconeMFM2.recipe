@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "snow", "count" : 2 }
-  ],
-  "output" : { "item" : "snowcone", "count" : 1 },
-  "groups" : [ "freezingMFM" ],
-  "collectables" : { "cooking" : "snowcone" }
-}

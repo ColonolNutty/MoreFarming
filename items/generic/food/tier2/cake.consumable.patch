@@ -59,43 +59,43 @@
       "value" : [[
         {
           "effect" : "regeneration2",
-          "duration" : 12
+          "duration" : 69
         },
         {
           "effect" : "maxenergyscalingboost",
-          "duration" : 12
+          "duration" : 69
         },
         {
           "effect" : "camouflage25",
-          "duration" : 7
+          "duration" : 34
         },
         {
           "effect" : "maxenergyscalingboostfood",
-          "duration" : 12
+          "duration" : 156
         },
         {
           "effect" : "runboostfood",
-          "duration" : 18
+          "duration" : 145
         },
         {
           "effect" : "energyregen",
-          "duration" : 12
+          "duration" : 156
         },
         {
           "effect" : "maxhealthscalingboostfood",
-          "duration" : 36
+          "duration" : 418
         }
       ]]
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 143.76
+      "value" : 311.72
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 541.08
+      "value" : 524.77
     },
     {
       "op" : "replace",

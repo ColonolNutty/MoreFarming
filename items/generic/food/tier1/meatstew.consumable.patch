@@ -59,19 +59,19 @@
       "value" : [[
         {
           "effect" : "poisonblock",
-          "duration" : 60
+          "duration" : 66
         }
       ]]
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 43.29
+      "value" : 95.08
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 272.21
+      "value" : 274.26
     },
     {
       "op" : "replace",

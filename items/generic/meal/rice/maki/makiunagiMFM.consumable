@@ -1,12 +1,12 @@
 {
   "itemName" : "makiunagiMFM",
   "rarity" : "Uncommon",
-  "price" : 332.33,
+  "price" : 329.02,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Cooked eel and cucumber packed in a ball of rice.",
   "shortdescription" : "Maki - Unagi",
-  "foodValue" : 75.6,
+  "foodValue" : 37.01,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

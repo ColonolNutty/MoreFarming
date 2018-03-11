@@ -59,23 +59,23 @@
       "value" : [[
         {
           "effect" : "camouflage25",
-          "duration" : 7
+          "duration" : 32
         },
         {
           "effect" : "maxhealthscalingboostfood",
-          "duration" : 11
+          "duration" : 107
         }
       ]]
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 10.0
+      "value" : 33.11
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 21.26
+      "value" : 21.43
     }
   ]
 ]

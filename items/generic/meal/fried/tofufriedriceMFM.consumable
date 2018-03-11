@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(FRY):-} Tofu fried rice, a twist on a Hylotl staple.",
   "shortdescription" : "Tofu Fried Rice",
-  "foodValue" : 135.78,
+  "foodValue" : 128.43,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

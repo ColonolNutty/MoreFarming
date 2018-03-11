@@ -70,7 +70,7 @@
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 24.03
+      "value" : 64.05
     },
     {
       "op" : "replace",

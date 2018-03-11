@@ -58,10 +58,6 @@
       "path" : "/effects",
       "value" : [[
         {
-          "effect" : "regeneration3",
-          "duration" : 2
-        },
-        {
           "effect" : "burning",
           "duration" : 5
         }
@@ -70,12 +66,12 @@
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 16.84
+      "value" : 55.16
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 311.73
+      "value" : 312.4
     }
   ]
 ]

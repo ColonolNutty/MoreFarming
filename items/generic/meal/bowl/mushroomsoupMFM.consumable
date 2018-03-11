@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A soup containing mushrooms.",
   "shortdescription" : "Soup - Mushroom",
-  "foodValue" : 41.0,
+  "foodValue" : 26.65,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

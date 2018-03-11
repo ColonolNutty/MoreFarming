@@ -15,7 +15,7 @@
     {
       "op" : "replace",
       "path" : "/description",
-      "value" : "(CHURN):-} A wedge of cheese."
+      "value" : "A wedge of cheese."
     }
   ]
 ]

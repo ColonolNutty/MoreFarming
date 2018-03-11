@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} Raw tuna placed on top of a ball of rice.",
   "shortdescription" : "Nigiri - Maguro",
-  "foodValue" : 51.0,
+  "foodValue" : 22.65,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

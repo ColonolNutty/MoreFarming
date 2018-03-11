@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(FRY):-} Several layers of cooked egg rolled together with Sugar and Tamari.",
   "shortdescription" : "Tamagoyaki",
-  "foodValue" : 181.81,
+  "foodValue" : 144.69,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

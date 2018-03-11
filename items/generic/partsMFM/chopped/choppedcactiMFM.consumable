@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed, de-thorned, and chopped cacti.",
   "shortdescription" : "Chopped Cacti",
-  "foodValue" : 10.5,
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -59,27 +59,27 @@
       "value" : [[
         {
           "effect" : "maxenergyscalingboostfood",
-          "duration" : 30
+          "duration" : 34
         },
         {
           "effect" : "energyregen",
-          "duration" : 30
+          "duration" : 34
         },
         {
           "effect" : "maxhealthscalingboostfood",
-          "duration" : 60
+          "duration" : 72
         }
       ]]
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 15.53
+      "value" : 93.25
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 167.82
+      "value" : 172.95
     },
     {
       "op" : "replace",

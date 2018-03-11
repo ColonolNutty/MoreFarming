@@ -58,12 +58,28 @@
       "path" : "/effects",
       "value" : [[
         {
-          "effect" : "thorns",
-          "duration" : 248
+          "effect" : "regeneration2",
+          "duration" : 35
+        },
+        {
+          "effect" : "maxenergyscalingboost",
+          "duration" : 35
         },
         {
           "effect" : "maxenergyscalingboostfood",
-          "duration" : 248
+          "duration" : 78
+        },
+        {
+          "effect" : "runboostfood",
+          "duration" : 35
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 78
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 171
         }
       ]]
     },
@@ -75,7 +91,7 @@
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 11.47
+      "value" : 11.69
     },
     {
       "op" : "replace",

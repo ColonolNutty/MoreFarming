@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped mushroom.",
   "shortdescription" : "Chopped Mushroom",
-  "foodValue" : 10.5,
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -51,35 +51,47 @@
     {
       "op" : "replace",
       "path" : "/description",
-      "value" : "(FREEZE):-} Creamy, icy, banana goodness."
+      "value" : "(PREP):-} Creamy, icy, banana goodness."
     },
     {
       "op" : "replace",
       "path" : "/effects",
       "value" : [[
         {
+          "effect" : "regeneration2",
+          "duration" : 35
+        },
+        {
+          "effect" : "maxenergyscalingboost",
+          "duration" : 35
+        },
+        {
           "effect" : "maxenergyscalingboostfood",
-          "duration" : 6
+          "duration" : 148
+        },
+        {
+          "effect" : "runboostfood",
+          "duration" : 35
         },
         {
           "effect" : "energyregen",
-          "duration" : 6
+          "duration" : 148
         },
         {
           "effect" : "maxhealthscalingboostfood",
-          "duration" : 12
+          "duration" : 318
         }
       ]]
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 21.4
+      "value" : 97.85
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 404.34
+      "value" : 231.66
     },
     {
       "op" : "replace",

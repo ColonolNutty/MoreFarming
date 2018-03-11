@@ -51,35 +51,51 @@
     {
       "op" : "replace",
       "path" : "/description",
-      "value" : "(FREEZE):-} A tasty, prickly treat!"
+      "value" : "(PREP):-} A tasty, prickly treat!"
     },
     {
       "op" : "replace",
       "path" : "/effects",
       "value" : [[
         {
+          "effect" : "thorns",
+          "duration" : 98
+        },
+        {
+          "effect" : "regeneration2",
+          "duration" : 35
+        },
+        {
+          "effect" : "maxenergyscalingboost",
+          "duration" : 35
+        },
+        {
           "effect" : "maxenergyscalingboostfood",
-          "duration" : 6
+          "duration" : 148
+        },
+        {
+          "effect" : "runboostfood",
+          "duration" : 35
         },
         {
           "effect" : "energyregen",
-          "duration" : 6
+          "duration" : 148
         },
         {
           "effect" : "maxhealthscalingboostfood",
-          "duration" : 12
+          "duration" : 318
         }
       ]]
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 24.35
+      "value" : 97.26
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 162.57
+      "value" : 104.03
     },
     {
       "op" : "replace",

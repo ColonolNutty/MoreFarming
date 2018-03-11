@@ -59,23 +59,23 @@
       "value" : [[
         {
           "effect" : "camouflage25",
-          "duration" : 7
+          "duration" : 33
         },
         {
           "effect" : "weakpoison",
-          "duration" : 5
+          "duration" : 15
         }
       ]]
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 47.47
+      "value" : 131.86
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 810.01
+      "value" : 813.32
     },
     {
       "op" : "replace",

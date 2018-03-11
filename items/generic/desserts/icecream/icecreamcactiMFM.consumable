@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} A scoop of ice cream with a cactus flavor.",
   "shortdescription" : "Ice Cream - Cacti",
-  "foodValue" : 62.72,
+  "foodValue" : 62.16,
   "effects" : [[
     {
       "effect" : "thorns",

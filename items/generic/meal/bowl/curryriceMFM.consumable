@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A curry containing rice.",
   "shortdescription" : "Curry - Rice",
-  "foodValue" : 94.55,
+  "foodValue" : 80.2,
   "effects" : [[
     {
       "effect" : "antidote",

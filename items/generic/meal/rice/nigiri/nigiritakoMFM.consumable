@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} Cooked octopus placed on top of a ball of rice.",
   "shortdescription" : "Nigiri - Tako",
-  "foodValue" : 51.53,
+  "foodValue" : 23.18,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

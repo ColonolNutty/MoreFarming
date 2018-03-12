@@ -18,7 +18,12 @@ local filters = {
     recipeFilters = {}
   }
 local methodFilterListItemIds = nil
-local foodListItemIds = nil
+local itemListItemIds = nil
+local sourceEntityId = nil
+local ignoreFilterSelected = false
+local ignoreItemSelected = false
+local ignoreIngredientSelected = false
+local dataStore = nil
 
 RECIPE_BOOK_FRAME_NAME = "recipeBookFrame"
 
@@ -31,9 +36,9 @@ TOGGLE_DEBUG_NAME = "toggleDebug"
 FILTER_LIST_NAME = RECIPE_BOOK_FRAME_NAME .. ".filterList.filterItemList"
 FILTER_LIST_EMPTY = RECIPE_BOOK_FRAME_NAME .. ".filterList.empty"
 
-FOOD_LIST_NAME = RECIPE_BOOK_FRAME_NAME .. ".foodList.foodItemList"
-FOOD_LIST_EMPTY = RECIPE_BOOK_FRAME_NAME .. ".foodList.empty"
-FOOD_LIST_NO_RECIPE_BOOK = RECIPE_BOOK_FRAME_NAME .. ".foodList.norecipebook"
+ITEM_LIST_NAME = RECIPE_BOOK_FRAME_NAME .. ".itemList.itemList"
+ITEM_LIST_EMPTY = RECIPE_BOOK_FRAME_NAME .. ".itemList.empty"
+ITEM_LIST_NO_RECIPE_BOOK = RECIPE_BOOK_FRAME_NAME .. ".itemList.norecipebook"
 
 INGREDIENT_HEADER_BACKGROUD = "/interface/crafting/MFM/shared/craftableheaderbackgroundMFM.png"
 
@@ -43,13 +48,65 @@ INGREDIENTS_LIST_NO_RECIPE_BOOK = RECIPE_BOOK_FRAME_NAME .. ".ingredientList.nor
 
 -----------------------------------------------------------------
 
-------------------------- Basic ---------------------------------
 
-local sourceEntityId = nil
-local ignoreFoodSelected = false
-local ignoreFilterSelected = false
-local dataStore = nil
-local hasError = false
+
+------------------------- Debug ---------------------------------
+
+function toggleDebug()
+  if(sourceEntityId == nil) then
+    logger.logError("Failed to toggle debug, sourceEntityId is nil")
+    return
+  end
+  local toEnable = widget.getChecked(TOGGLE_DEBUG_NAME)
+  logger.setDebugState(toEnable)
+  world.sendEntityMessage(sourceEntityId, "setDebugState", toEnable)
+end
+
+function updateDebugState()
+  if(debugStateUpdated) then
+    return
+  end
+  local handle = function()
+    local result = EntityQueryAPI.requestData(sourceEntityId, "getDebugState", 0, nil)
+    if(result ~= nil) then
+      return true, result
+    end
+    return false, nil
+  end
+  
+  local onCompleted = function(result)
+    local debugState = result.debugState
+    logger.setDebugState(debugState)
+    widget.setChecked(TOGGLE_DEBUG_NAME, debugState)
+    debugStateUpdated = true
+  end
+  
+  EntityQueryAPI.addRequest("updateDebugState", handle, onCompleted)
+end
+
+-------------------------------------------------------------------
+
+
+
+------------------------- Vanilla hooks ---------------------------
+
+function init()
+  if(pane.containerEntityId) then
+    RBMFMGui.init(pane.containerEntityId())
+  elseif(pane.sourceEntity) then
+    RBMFMGui.init(pane.sourceEntity())
+  else
+    RBMFMGui.init(nil)
+  end
+end
+
+function uninit()
+  EntityQueryAPI.uninit()
+end
+
+function update(dt)
+  RBMFMGui.update(dt)
+end
 
 function RBMFMGui.init(entityId)
   logger = DebugUtilsCN.init("[RBMFMGUI]")
@@ -72,20 +129,6 @@ function RBMFMGui.init(entityId)
   table.insert(filters.recipeFilters, hasAvailableIngredients)
 end
 
-function init()
-  if(pane.containerEntityId) then
-    RBMFMGui.init(pane.containerEntityId())
-  elseif(pane.sourceEntity) then
-    RBMFMGui.init(pane.sourceEntity())
-  else
-    RBMFMGui.init(nil)
-  end
-end
-
-function uninit()
-  EntityQueryAPI.uninit()
-end
-
 function RBMFMGui.update(dt)
   if(not EntityQueryAPI.update(dt)) then
     return
@@ -97,11 +140,23 @@ function RBMFMGui.update(dt)
   ensureInitialSetup()
 end
 
-function update(dt)
-  RBMFMGui.update(dt)
-end
+-------------------------------------------------------------------
+
+
 
 ------------------------- Initial Setup ---------------------------
+
+function RBMFMGui.reloadDataStore()
+    local dataStoreResult = EntityQueryAPI.requestData(sourceEntityId, "getDataStore", 0, nil);
+    if(dataStoreResult ~= nil) then
+      dataStore = dataStoreResult;
+      updateIngredientCraftable();
+      setupInitialFilterList();
+      setupInitialIngredientList();
+      setupInitialItemList();
+      RBMFMGui.isInitialized = true
+    end
+end
 
 function ensureInitialSetup()
   if(RBMFMGui.isInitialized) then
@@ -112,18 +167,6 @@ function ensureInitialSetup()
   if(dataStore == nil) then
     RBMFMGui.reloadDataStore()
   end
-end
-
-function RBMFMGui.reloadDataStore()
-    local dataStoreResult = EntityQueryAPI.requestData(sourceEntityId, "getDataStore", 0, nil);
-    if(dataStoreResult ~= nil) then
-      dataStore = dataStoreResult;
-      updateIngredientCraftable();
-      setupInitialFilterList();
-      setupInitialIngredientList();
-      setupInitialFoodList();
-      RBMFMGui.isInitialized = true
-    end
 end
 
 function updateIngredientCraftable()
@@ -156,10 +199,10 @@ function setupInitialFilterList()
   if(hasFilters) then
     logger.logDebug("Setting up hidden filter")
     --- Hidden filter for deselection ---
-      local hiddenItem = { id = "hidden", name = "" }
-      local hiddenId, hiddenPath = addToList(FILTER_LIST_NAME, hiddenItem)
-      widget.setVisible(hiddenPath, false)
-      methodFilterListItemIds[hiddenItem.id] = hiddenId
+    local hiddenItem = { id = "hidden", name = "" }
+    local hiddenId, hiddenPath = addToList(FILTER_LIST_NAME, hiddenItem)
+    widget.setVisible(hiddenPath, false)
+    methodFilterListItemIds[hiddenItem.id] = hiddenId
     ---
   end
   
@@ -167,59 +210,59 @@ function setupInitialFilterList()
   ignoreFilterSelected = false
 end
 
-function setupInitialFoodList()
-  ignoreFoodSelected = true
-  foodListItemIds = {}
-  widget.clearListItems(FOOD_LIST_NAME)
+function setupInitialItemList()
+  ignoreItemSelected = true
+  itemListItemIds = {}
+  widget.clearListItems(ITEM_LIST_NAME)
   
   if(not dataStore.recipeBookExists) then
-    widget.setVisible(FOOD_LIST_EMPTY, false)
-    widget.setVisible(FOOD_LIST_NO_RECIPE_BOOK, true)
-    ignoreFoodSelected = false
+    widget.setVisible(ITEM_LIST_EMPTY, false)
+    widget.setVisible(ITEM_LIST_NO_RECIPE_BOOK, true)
+    ignoreItemSelected = false
     return
   end
   
-  logger.logDebug("Updating food list")
-  local sortedFoodItems = sortedFoodItemsFromMethodFilters()
+  logger.logDebug("Updating item list")
+  local sortedItems = sortedItemsFromMethodFilters()
   
-  local hasFoods = addToFoodItemsList(sortedFoodItems)
-  widget.setVisible(FOOD_LIST_EMPTY, not hasFoods)
-  ignoreFoodSelected = false
+  local hasItems = addToItemsList(sortedItems)
+  widget.setVisible(ITEM_LIST_EMPTY, not hasItems)
+  ignoreItemSelected = false
   
-  if(not hasFoods) then
-    setSelectedFoodId(nil)
+  if(not hasItems) then
+    setSelectedItemId(nil)
     return
   end
   
-  if(dataStore.selectedFoodId ~= nil) then
-    if(not selectRecipeById(dataStore.selectedFoodId)) then
-      logger.logDebug("Selecting recipe with id: " .. dataStore.selectedFoodId)
+  if(dataStore.selectedItemId ~= nil) then
+    if(not selectRecipeById(dataStore.selectedItemId)) then
+      logger.logDebug("Selecting recipe with id: " .. dataStore.selectedItemId)
       requestIngredientListUpdate()
     else
-      logger.logDebug("Failed to select recipe with id: " .. dataStore.selectedFoodId)
+      logger.logDebug("Failed to select recipe with id: " .. dataStore.selectedItemId)
     end
   else
     logger.logDebug("No selected recipe")
   end
 end
 
-function sortedFoodItemsFromMethodFilters()
+function sortedItemsFromMethodFilters()
   local recipeListItems = {}
   for filterName,methodFilter in pairs(dataStore.methodFilters) do
     logger.logDebug("Using filter: " .. filterName)
     if(methodFilter.isSelected) then
-      for foodName,foodItem in pairs(methodFilter.foods) do
-        if(recipeListItems[foodName] == nil) then
-          updateIsCraftable(foodItem)
+      for itemName,item in pairs(methodFilter.items) do
+        if(recipeListItems[itemName] == nil) then
+          updateIsCraftable(item)
           local passesFilters = true
           for idx,filter in ipairs(filters.recipeFilters) do
-            if(not filter(foodItem)) then
+            if(not filter(item)) then
               passesFilters = false
               break;
             end
           end
           if(passesFilters) then
-            recipeListItems[foodName] = foodItem
+            recipeListItems[itemName] = item
           end
         end
       end
@@ -228,22 +271,22 @@ function sortedFoodItemsFromMethodFilters()
   return UtilsCN.sortByValueNameId(recipeListItems)
 end
 
-function addToFoodItemsList(sortedFoodItems)
-  local hasFoods = false
-  for idx,foodItem in ipairs(sortedFoodItems) do
-    logger.logDebug("Loading recipe with name: " .. foodItem.name)
-    local itemId, itemPath = addToList(FOOD_LIST_NAME, foodItem, function(item) return item.displayName end)
-    widget.setImage(itemPath .. ".itemIcon", foodItem.icon)
-    widget.setData(itemPath, { id = foodItem.id })
-    if(foodItem.isCraftable ~= nil and foodItem.isCraftable()) then
+function addToItemsList(sortedItems)
+  local hasItems = false
+  for idx,item in ipairs(sortedItems) do
+    logger.logDebug("Loading recipe with name: " .. item.name)
+    local itemId, itemPath = addToList(ITEM_LIST_NAME, item, function(item) return item.displayName end)
+    widget.setImage(itemPath .. ".itemIcon", item.icon)
+    widget.setData(itemPath, { id = item.id })
+    if(item.isCraftable ~= nil and item.isCraftable()) then
       widget.setVisible(itemPath .. ".notcraftableoverlay", false)
     else
       widget.setVisible(itemPath .. ".notcraftableoverlay", true)
     end
-    foodListItemIds[foodItem.id] = itemId
-    hasFoods = true
+    itemListItemIds[item.id] = itemId
+    hasItems = true
   end
-  return hasFoods
+  return hasItems
 end
 
 function setupInitialIngredientList()
@@ -277,38 +320,6 @@ end
 
 -----------------------------------------------------------------
 
-function updateIsCraftable(foodItem)
-  if(foodItem == nil or foodItem.recipes == nil) then
-    return
-  end
-  for idx,recipe in ipairs(foodItem.recipes) do
-    local canCraftRecipe = true
-    for idx,input in ipairs(recipe.input) do
-      local isCraftable, craftableCount = playerHasItems(input)
-      input.isCraftable = isCraftable
-      input.craftableCount = craftableCount
-      if(not input.isCraftable) then
-        canCraftRecipe = false
-      end
-    end
-    recipe.isCraftable = canCraftRecipe;
-  end
-  foodItem.isCraftable = function()
-    local canCraftFood = false
-    for idx,recipe in ipairs(foodItem.recipes) do
-      if(recipe.isCraftable) then
-        canCraftFood = true
-        break;
-      end
-    end
-    return canCraftFood
-  end
-end
-
-function playerHasItems(item)
-  local result = player.hasCountOfItem(item)
-  return result >= item.count, result
-end
 
 ------------------------- Bread Crumb ---------------------------
 
@@ -319,7 +330,7 @@ local breadCrumb = {}
 
 
 
-------------------------- Method Filters ------------------------
+------------------------ Filter Checks --------------------------
 
 function hasRecipesFilter(item)
   return not UtilsCN.isEmpty(item.recipes)
@@ -395,6 +406,12 @@ function passesAllFilters(filters, val)
   return passesFilters;
 end
 
+-----------------------------------------------------------------
+
+
+
+------------------------- Method Filters ------------------------
+
 function onFilterSelected()
   if(ignoreFilterSelected) then
     logger.logDebug("Ignoring Filter Selection Change")
@@ -413,7 +430,7 @@ function onFilterSelected()
   requestFilterSelectedUpdate(data.id, isSelected, nil)
   setFilterColor(id, isSelected)
   selectHiddenFilter()
-  requestFoodListUpdate()
+  requestItemListUpdate()
 end
 
 function setFilterColor(filterPath, isSelected)
@@ -461,7 +478,7 @@ function updateFilterSelections()
     end
   end
   local onComplete = function(result)
-    requestFoodListUpdate()
+    requestItemListUpdate()
   end
   EntityQueryAPI.addRequest("updateFilterSelections", handle(bundledSelections), onComplete)
 end
@@ -503,7 +520,7 @@ function changeAllFilters(allSelected)
   end
   if(didChange) then
     updateFilterSelections()
-    requestFoodListUpdate()
+    requestItemListUpdate()
   end
 end
 
@@ -511,58 +528,56 @@ end
 
 
 
-------------------------- Recipes -------------------------------
+------------------------- Craftable Items -------------------------------
 
-
-
-function onFoodSelected()
-  if(ignoreFoodSelected) then
+function onItemSelected()
+  if(ignoreItemSelected) then
     logger.logDebug("Ignoring Recipe Selection Change")
     return
   end
   logger.logDebug("Not ignoring recipe change")
-  local id, data = getSelectedItemData(FOOD_LIST_NAME)
+  local id, data = getSelectedItemData(ITEM_LIST_NAME)
   if(id == nil or data == nil or data.id == nil) then
     logger.logDebug("No data or id found")
-    setSelectedFoodId(nil)
+    setSelectedItemId(nil)
     requestIngredientListUpdate()
     return
   end
-  setSelectedFoodId(data.id)
+  setSelectedItemId(data.id)
   requestIngredientListUpdate()
 end
 
-function updateFoodList()
-  ignoreFoodSelected = true
-  foodListItemIds = {}
-  widget.clearListItems(FOOD_LIST_NAME)
-  widget.setVisible(FOOD_LIST_EMPTY, false)
+function updateItemList()
+  ignoreItemSelected = true
+  itemListItemIds = {}
+  widget.clearListItems(ITEM_LIST_NAME)
+  widget.setVisible(ITEM_LIST_EMPTY, false)
   
   if(not dataStore.recipeBookExists) then
-    widget.setVisible(FOOD_LIST_NO_RECIPE_BOOK, true)
-    ignoreFoodSelected = false
+    widget.setVisible(ITEM_LIST_NO_RECIPE_BOOK, true)
+    ignoreItemSelected = false
     return
   end
   
-  logger.logDebug("Updating food list")
-  local sortedFoodItems = sortedFoodItemsFromMethodFilters()
+  logger.logDebug("Updating item list")
+  local sortedItems = sortedItemsFromMethodFilters()
   
-  local hasFoods = addToFoodItemsList(sortedFoodItems)
-  widget.setVisible(FOOD_LIST_EMPTY, not hasFoods)
-  ignoreFoodSelected = false
+  local hasItems = addToItemsList(sortedItems)
+  widget.setVisible(ITEM_LIST_EMPTY, not hasItems)
+  ignoreItemSelected = false
   
-  if(not hasFoods) then
-    setSelectedFoodId(nil)
+  if(not hasItems) then
+    setSelectedItemId(nil)
     requestIngredientListUpdate()
     return
   end
   
-  if(dataStore.selectedFoodId ~= nil) then
-    if(not selectRecipeById(dataStore.selectedFoodId)) then
-      logger.logDebug("Selecting recipe with id: " .. dataStore.selectedFoodId)
+  if(dataStore.selectedItemId ~= nil) then
+    if(not selectRecipeById(dataStore.selectedItemId)) then
+      logger.logDebug("Selecting recipe with id: " .. dataStore.selectedItemId)
       requestIngredientListUpdate()
     else
-      logger.logDebug("Failed to select recipe with id: " .. dataStore.selectedFoodId)
+      logger.logDebug("Failed to select recipe with id: " .. dataStore.selectedItemId)
     end
   else
     logger.logDebug("No selected recipe")
@@ -583,15 +598,15 @@ function formatMethods(methods)
   return formatted
 end
 
-function setSelectedFoodId(id)
-  dataStore.selectedFoodId = id
+function setSelectedItemId(id)
+  dataStore.selectedItemId = id
   requestSelectedIdUpdate(id)
 end
 
-function selectRecipeById(foodId)
-  if(foodListItemIds[foodId] ~= nil) then
-    logger.logDebug("Selecting food with id: " .. foodId)
-    widget.setListSelected(FOOD_LIST_NAME, foodListItemIds[foodId])
+function selectRecipeById(itemId)
+  if(itemListItemIds[itemId] ~= nil) then
+    logger.logDebug("Selecting item with id: " .. itemId)
+    widget.setListSelected(ITEM_LIST_NAME, itemListItemIds[itemId])
     return true
   end
   return false
@@ -603,10 +618,8 @@ end
 
 ----------------------- Ingredients -----------------------------
 
-local ignoreIngredientSelected = false
-
 function onIngredientSelected()
-  if(ignoreFoodSelected or ignoreIngredientSelected) then
+  if(ignoreItemSelected or ignoreIngredientSelected) then
     logger.logDebug("Ignoring Ingredient Selection Change")
     return
   end
@@ -619,11 +632,11 @@ function onIngredientSelected()
     return
   end
   --- Recipe to select has already been selected
-  if(dataStore.selectedFoodId == data.id) then
+  if(dataStore.selectedItemId == data.id) then
     logger.logDebug("Recipe already selected, skipping reload")
     return
   end
-  requestFoodSelect(data.id, data.methods)
+  requestItemSelect(data.id, data.methods)
 end
 
 function updateIngredientList()
@@ -637,16 +650,16 @@ function updateIngredientList()
     ignoreIngredientSelected = false
     return
   end
-  local selectedFoodId = dataStore.selectedFoodId
-  if(selectedFoodId == nil) then
+  local selectedItemId = dataStore.selectedItemId
+  if(selectedItemId == nil) then
     widget.setVisible(INGREDIENTS_LIST_EMPTY, true)
     ignoreIngredientSelected = false
     return
   end
-  logger.logDebug("Selected food was: " .. selectedFoodId)
-  local selectedFood = dataStore.ingredientStore[selectedFoodId]
-  if(selectedFood == nil or selectedFood.recipes == nil) then
-    logger.logDebug("No recipes found: " .. (selectedFoodId or "none"))
+  logger.logDebug("Selected item was: " .. selectedItemId)
+  local selectedItem = dataStore.ingredientStore[selectedItemId]
+  if(selectedItem == nil or selectedItem.recipes == nil) then
+    logger.logDebug("No recipes found: " .. (selectedItemId or "none"))
     widget.setVisible(INGREDIENTS_LIST_EMPTY, true)
     ignoreIngredientSelected = false
     return
@@ -658,13 +671,13 @@ function updateIngredientList()
   local recipeHeaderItems = {}
   local currentRecipeIdx = 1
   
-  for idx,recipe in ipairs(selectedFood.recipes) do
+  for idx,recipe in ipairs(selectedItem.recipes) do
     if(recipe ~= nil) then
       UtilsCN.printTable(recipe, nil, logger)
     end
     
-    local outputFoodItem = getItem(recipe.output.name)
-    local recipeHeaderItem = { id = outputFoodItem.id, name = "RECIPE " .. currentRecipeIdx .. ":" .. formatMethods(recipe.methods), isHeader = true, isCraftable = recipe.isCraftable, count = recipe.output.count, icon = "", methods = outputFoodItem.methods }
+    local outputItem = getItem(recipe.output.name)
+    local recipeHeaderItem = { id = outputItem.id, name = "RECIPE " .. currentRecipeIdx .. ":" .. formatMethods(recipe.methods), isHeader = true, isCraftable = recipe.isCraftable, count = recipe.output.count, icon = "", methods = outputItem.methods }
     local headerChildren = {}
     local methodMatches = false
     if(filters.methodNameFilter == nil) then
@@ -720,8 +733,8 @@ function updateIngredientList()
 
   local itemHeader = {
     id = "itemHeader",
-    name = selectedFood.displayName,
-    icon = selectedFood.icon,
+    name = selectedItem.displayName,
+    icon = selectedItem.icon,
     isCraftable = true,
     isHeader = true,
     children = {}
@@ -818,7 +831,7 @@ function filterByName()
     logger.logDebug("Filtering by name: '" .. filters.nameFilter .. "'")
   end
   logger.logDebug("Filtering by name")
-  requestFoodListUpdate()
+  requestItemListUpdate()
 end
 
 function filterByInput(id)
@@ -830,7 +843,7 @@ function filterByInput(id)
     logger.logDebug("Filtering by input name: '" .. filters.inputNameFilter .. "'")
   end
   logger.logDebug("Filtering by input name")
-  requestFoodListUpdate()
+  requestItemListUpdate()
 end
 
 function filterByHasIngredients()
@@ -841,45 +854,7 @@ function filterByHasIngredients()
     logger.logDebug("Not doing filter")
   end
   filters.ingredientsAvailable = enableFilter
-  requestFoodListUpdate()
-end
-
------------------------------------------------------------------
-
-
-
-------------------------- Debug ---------------------------------
-
-function toggleDebug()
-  if(sourceEntityId == nil) then
-    logger.logError("Failed to toggle debug, sourceEntityId is nil")
-    return
-  end
-  local toEnable = widget.getChecked(TOGGLE_DEBUG_NAME)
-  logger.setDebugState(toEnable)
-  world.sendEntityMessage(sourceEntityId, "setDebugState", toEnable)
-end
-
-function updateDebugState()
-  if(debugStateUpdated) then
-    return
-  end
-  local handle = function()
-    local result = EntityQueryAPI.requestData(sourceEntityId, "getDebugState", 0, nil)
-    if(result ~= nil) then
-      return true, result
-    end
-    return false, nil
-  end
-  
-  local onCompleted = function(result)
-    local debugState = result.debugState
-    logger.setDebugState(debugState)
-    widget.setChecked(TOGGLE_DEBUG_NAME, debugState)
-    debugStateUpdated = true
-  end
-  
-  EntityQueryAPI.addRequest("updateDebugState", handle, onCompleted)
+  requestItemListUpdate()
 end
 
 -----------------------------------------------------------------
@@ -888,8 +863,8 @@ end
 
 ------------------------- Requests ------------------------------
 
-function requestFoodSelect(id, methods)
-  setSelectedFoodId(id)
+function requestItemSelect(id, methods)
+  setSelectedItemId(id)
   if(id == nil or methods == nil) then
     return
   end
@@ -903,11 +878,11 @@ function requestFoodSelect(id, methods)
     return
   end
   filters.clear()
-  requestFoodListUpdate()
+  requestItemListUpdate()
 end
 
-function requestFoodListUpdate()
-  updateFoodList()
+function requestItemListUpdate()
+  updateItemList()
 end
 
 function requestIngredientListUpdate()
@@ -1003,6 +978,39 @@ end
 
 function containsSubString(one, two)
   return string.match(string.lower(one), string.lower(two))
+end
+
+function updateIsCraftable(item)
+  if(item == nil or item.recipes == nil) then
+    return
+  end
+  for idx,recipe in ipairs(item.recipes) do
+    local canCraftRecipe = true
+    for idx,input in ipairs(recipe.input) do
+      local isCraftable, craftableCount = playerHasItems(input)
+      input.isCraftable = isCraftable
+      input.craftableCount = craftableCount
+      if(not input.isCraftable) then
+        canCraftRecipe = false
+      end
+    end
+    recipe.isCraftable = canCraftRecipe;
+  end
+  item.isCraftable = function()
+    local canCraftItem = false
+    for idx,recipe in ipairs(item.recipes) do
+      if(recipe.isCraftable) then
+        canCraftItem = true
+        break;
+      end
+    end
+    return canCraftItem
+  end
+end
+
+function playerHasItems(item)
+  local result = player.hasCountOfItem(item)
+  return result >= item.count, result
 end
 
 -----------------------------------------------------------------

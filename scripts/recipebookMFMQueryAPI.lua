@@ -30,7 +30,7 @@ end
 
 function rbAPI.getDefaultDataStore()
   return {
-    selectedFoodId = nil,
+    selectedItemId = nil,
     ingredientStore = {},
     methodFilters = {},
     sortedMethodFilters = {},

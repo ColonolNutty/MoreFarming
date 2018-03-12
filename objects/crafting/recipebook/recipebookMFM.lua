@@ -7,17 +7,17 @@ RECIPE_CONFIGURATION_PATH = "/recipeCrafterMFM/"
 
 -- Storage Property Names --
 -- rbDataStore
----- selectedFoodId (Int) (FoodId)
----- ingredientStore (Table) (FoodId, FoodItem)
------- id (String) (FoodId)
+---- selectedItemId (Int) (ItemId)
+---- ingredientStore (Table) (ItemId, Item)
+------ id (String) (ItemId)
 ------ name (String)
 ------ icon (String)
 ------ recipes (Table Array) (Idx, RecipeItem)
 -------- input (Table Array) (Idx, ItemDescriptor)
----------- name (String) (FoodId)
+---------- name (String) (ItemId)
 ---------- count (Int)
 -------- output (Table Array) (Idx, ItemDescriptor)
----------- name (String) (FoodId)
+---------- name (String) (ItemId)
 ---------- count (Int)
 -------- groups (String Array)
 -------- methods (Table) (MethodName, MethodFriendlyName)
@@ -26,7 +26,7 @@ RECIPE_CONFIGURATION_PATH = "/recipeCrafterMFM/"
 ------ id (String)
 ------ name (String)
 ------ isSelected (Boolean)
------- foods (Table) (FoodId, FoodItem)
+------ items (Table) (ItemId, Item)
 ---- methodFilterNames (String Array)
 ---- methodFriendlyNames (String Array)
 ---
@@ -70,7 +70,7 @@ function initializeDataStore()
     return;
   end
   storage.rbDataStore = {
-    selectedFoodId = nil,
+    selectedItemId = nil,
     ingredientStore = {},
     methodFilters = {},
     sortedMethodFilters = {},
@@ -87,7 +87,7 @@ function initializeDataStore()
       id = methodFilterName,
       name = storage.rbDataStore.methodFriendlyNames[methodFilterName],
       isSelected = false,
-      foods = {}
+      items = {}
     };
     
     local recipeConfigPath = RECIPE_CONFIGURATION_PATH .. methodFilterName .. "Recipes.config"
@@ -96,7 +96,7 @@ function initializeDataStore()
     local recipeNames = root.assetJson(recipeConfigPath)
     if(recipeNames ~= nil) then
       logger.logDebug("Storing recipe names for filter: " .. methodFilterName)
-      methodFilter.foods = loadFoods(recipeNames.possibleOutput)
+      methodFilter.items = loadItems(recipeNames.possibleOutput)
     end
     storage.rbDataStore.methodFilters[methodFilterName] = methodFilter
   end
@@ -174,7 +174,7 @@ function setDataStore(id, name, newDataStore)
 end
 
 function updateSelectedId(id, name, newId)
-  storage.rbDataStore.selectedFoodId = newId;
+  storage.rbDataStore.selectedItemId = newId;
   return true
 end
 
@@ -188,8 +188,8 @@ function updateSelectedFilters(id, name, filterData)
   return true
 end
 
-function storeIngredient(id, name, foodId)
-  return loadFood(foodId)
+function storeIngredient(id, name, itemId)
+  return loadItem(itemId)
 end
 
 function getRecipesForFilter(id, name, filterName)
@@ -199,42 +199,42 @@ function getRecipesForFilter(id, name, filterName)
   
   local dataStore = getDataStore()
   if(dataStore.methodFilters and dataStore.methodFilters[filterName]) then
-    return dataStore.methodFilters[filterName].foods
+    return dataStore.methodFilters[filterName].items
   end
   return {}
 end
 ---------------------------------------------------------
 
-function loadFoods(foodsArray)
-  local foodsList = {}
-  for idx,foodId in ipairs(foodsArray) do
-    local food = loadFood(foodId)
-    if(food ~= nil) then
-      foodsList[foodId] = food
+function loadItems(items)
+  local itemsList = {}
+  for idx,itemId in ipairs(items) do
+    local item = loadItem(itemId)
+    if(item ~= nil) then
+      itemsList[itemId] = item
     end
   end
-  return foodsList
+  return itemsList
 end
 
-function loadFood(foodId)
-  if(storage.rbDataStore.ingredientStore[foodId] ~= nil) then
-    return storage.rbDataStore.ingredientStore[foodId]
+function loadItem(itemId)
+  if(storage.rbDataStore.ingredientStore[itemId] ~= nil) then
+    return storage.rbDataStore.ingredientStore[itemId]
   end
-  local foodItemData = root.itemConfig({ name = foodId })
-  if(foodItemData == nil) then
-    logger.logDebug("No food data found: " .. foodId)
+  local itemData = root.itemConfig({ name = itemId })
+  if(itemData == nil) then
+    logger.logDebug("No item data found: " .. itemId)
     return nil
   end
-  if type(foodItemData.config.inventoryIcon) == 'table' then
-    foodItemData.config.inventoryIcon = foodItemData.config.inventoryIcon[1].image
+  if type(itemData.config.inventoryIcon) == 'table' then
+    itemData.config.inventoryIcon = itemData.config.inventoryIcon[1].image
   end
-  local foodCookMethods, filteredRecipes = filterRecipes(root.recipesForItem(foodId))
-  logger.logDebug("Food data found: icon " .. foodItemData.config.inventoryIcon .. " directory " .. foodItemData.directory)
-  local itemIcon = UtilsCN.resizeImageToIconSize(foodItemData.config.inventoryIcon, foodItemData.directory)
-  local foodItem = { id = foodId, name = foodItemData.config.shortdescription, icon = itemIcon, recipes = filteredRecipes, methods = foodCookMethods }
-  foodItem.displayName = foodItem.name .. formatMethods(foodItem.methods)
-  storage.rbDataStore.ingredientStore[foodId] = foodItem
-  return foodItem
+  local craftMethods, filteredRecipes = filterRecipes(root.recipesForItem(itemId))
+  logger.logDebug("Item data found: icon " .. itemData.config.inventoryIcon .. " directory " .. itemData.directory)
+  local itemIcon = UtilsCN.resizeImageToIconSize(itemData.config.inventoryIcon, itemData.directory)
+  local item = { id = itemId, name = itemData.config.shortdescription, icon = itemIcon, recipes = filteredRecipes, methods = craftMethods }
+  item.displayName = item.name .. formatMethods(item.methods)
+  storage.rbDataStore.ingredientStore[itemId] = item
+  return item
 end
 
 function formatMethods(methods)

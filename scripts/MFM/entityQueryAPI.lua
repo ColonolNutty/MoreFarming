@@ -1,6 +1,6 @@
 require "/scripts/debugUtilsCN.lua"
 require "/scripts/utilsCN.lua"
-if(not EntityQueryAPI) then
+if(EntityQueryAPI == nil) then
   EntityQueryAPI = {
     hasError = false,
     isInitialized = false,
@@ -16,15 +16,20 @@ local entityRequests = {}
 
 function EntityQueryAPI.init()
   logger = DebugUtilsCN.init("[EQAPI]")
+  if(EntityQueryAPI.isInitialized) then
+    return;
+  end
   EntityQueryAPI.hasError = false;
   EntityQueryAPI.isInitialized = true;
 end
 
 function EntityQueryAPI.update(dt)
   if(EntityQueryAPI.hasError) then
+    sb.logInfo("Error Occurred")
     return false
   end
   if(not EntityQueryAPI.isInitialized) then
+    sb.logInfo("Not Initialized")
     return false
   end
   eqApi.updateRequests()
@@ -41,23 +46,33 @@ function eqApi.updateRequests()
   end
   
   logger.logDebug("Requests found, handling")
+  local currentRequests = EntityQueryAPI.requests
+  EntityQueryAPI.requests = {}
   local activeRequests = {}
-  for i = 1, #EntityQueryAPI.requests do
-    if(EntityQueryAPI.requests[i] ~= nil and EntityQueryAPI.requests[i].active) then
-      local isDone, result = EntityQueryAPI.requests[i].handle();
+  for i = 1, #currentRequests do
+    local request = currentRequests[i]
+    if(request ~= nil and request.active) then
+      logger.logDebug("Handling request: " .. request.id)
+      local isDone, result = request.handle();
       if(isDone) then
-        EntityQueryAPI.requests[i].active = false;
-        EntityQueryAPI.requests[i].onCompleted(result);
+        logger.logDebug("Finished request: " .. request.id)
+        request.active = false;
+        request.onCompleted(result);
       else
-        table.insert(activeRequests, EntityQueryAPI.requests[i])
+        table.insert(activeRequests, request)
       end
     end
   end
-  EntityQueryAPI.requests = activeRequests
+  for i = 1, #activeRequests do
+    table.insert(EntityQueryAPI.requests, activeRequests[i])
+  end
   logger.logDebug("Done with requests")
 end
 
 function EntityQueryAPI.addRequest(requestId, handle, onCompleted)
+  if(EntityQueryAPI.requestIds[requestId] == false) then
+    return
+  end
   if(onCompleted == nil) then
     onCompleted = function(result) end
   end
@@ -67,13 +82,11 @@ function EntityQueryAPI.addRequest(requestId, handle, onCompleted)
       oldOnCompleted(result)
     end
   end
-  if(EntityQueryAPI.requestIds[requestId] == false) then
-    return
-  end
   logger.logDebug("Adding request: " .. requestId)
   EntityQueryAPI.requestIds[requestId] = false
   table.insert(EntityQueryAPI.requests, {
     active = true,
+    id = requestId,
     handle = handle,
     onCompleted = newOnCompleted(requestId, onCompleted)
   });
@@ -85,7 +98,7 @@ function EntityQueryAPI.requestData(entityId, requestName, requestId, defaultRes
     return
   end
   if(entityId == nil) then
-    logger.logError("No EntityId found")
+    sb.logError("No EntityId found")
     EntityQueryAPI.hasError = true
     return defaultResponse
   end

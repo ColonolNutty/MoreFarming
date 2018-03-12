@@ -1,5 +1,6 @@
 require "/scripts/debugUtilsCN.lua"
 require "/scripts/MFM/entityQueryAPI.lua"
+require "/interface/scripted/recipebookMFM/recipebookMFMgui.lua"
 
 local recipeBookVisible = false
 local setInitialFilter = false
@@ -7,24 +8,26 @@ local entityId = nil
 local logger = nil
 local byproductSlot = 17
 local checkedForRecipeBook = false
+local dataStore = nil;
 
 function init()
   logger = DebugUtilsCN.init("[RCGUI]")
   entityId = pane.containerEntityId()
+  EntityQueryAPI.init()
   setInitialFilter = false
   --sb.logInfo("Initializing Recipe Crafter GUI");
   recipeBookVisible = false
   RBMFMGui.init(entityId)
-  EntityQueryAPI.init()
   hideByproductSlotIfSpacesNotAvailable()
 end
 
 function update(dt)
-  if(RBMFMGui.isInitialized and not setInitialFilter) then
-    requestEnableSingleFilter()
-  end
   RBMFMGui.update(dt)
-  EntityQueryAPI.update(dt)
+end
+
+function RBMFMGui.onDataStoreLoaded(dataStoreResult)
+  dataStore = dataStoreResult;
+  requestEnableSingleFilter();
 end
 
 function checkForRecipeBook()
@@ -41,7 +44,7 @@ function checkForRecipeBook()
   end
   local onComplete = function(result)
     if(result) then
-      RBMFMGui.reloadDataStore()
+      RBMFMGui.loadDataStore()
     end
   end
   EntityQueryAPI.addRequest("checkForRecipeBook" .. entityId, handle, onComplete)
@@ -53,18 +56,22 @@ function craft()
 end
 
 function requestEnableSingleFilter()
-  local handle = function()
-    local result = EntityQueryAPI.requestData(entityId, "getFilterId", entityId)
-    if(result ~= nil) then
-      return true, result
+  local handle = function(eId)
+    return function()
+      local result = EntityQueryAPI.requestData(eId, "getFilterId", eId)
+      if(result ~= nil) then
+        return true, result
+      end
+      return false, nil
     end
-    return false, nil
   end
   local onComplete = function(result)
-    RBMFMGui.filterByMethod(result)
+    local methodNames = {}
+    table.insert(methodNames, result)
+    RBMFMGui.displayItemsByMethod(methodNames)
     setInitialFilter = true
   end
-  EntityQueryAPI.addRequest("requestEnableSingleFilter" .. entityId, handle, onComplete)
+  EntityQueryAPI.addRequest("requestEnableSingleFilter" .. entityId, handle(entityId), onComplete)
 end
 
 function hideByproductSlotIfSpacesNotAvailable()

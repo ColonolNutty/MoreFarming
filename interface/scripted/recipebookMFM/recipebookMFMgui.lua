@@ -62,7 +62,7 @@ function toggleDebug()
   world.sendEntityMessage(sourceEntityId, "setDebugState", toEnable)
 end
 
-function updateDebugState()
+function RBMFMGui.updateDebugState()
   if(debugStateUpdated) then
     return
   end
@@ -81,7 +81,7 @@ function updateDebugState()
     debugStateUpdated = true
   end
   
-  EntityQueryAPI.addRequest("updateDebugState", handle, onCompleted)
+  EntityQueryAPI.addRequest("RGMFMGui.updateDebugState", handle, onCompleted)
 end
 
 -------------------------------------------------------------------
@@ -137,7 +137,7 @@ function RBMFMGui.update(dt)
     logger.logDebug("No player, returning")
     return
   end
-  ensureInitialSetup()
+  initialSetup()
 end
 
 -------------------------------------------------------------------
@@ -146,27 +146,38 @@ end
 
 ------------------------- Initial Setup ---------------------------
 
-function RBMFMGui.reloadDataStore()
-    local dataStoreResult = EntityQueryAPI.requestData(sourceEntityId, "getDataStore", 0, nil);
-    if(dataStoreResult ~= nil) then
-      dataStore = dataStoreResult;
-      updateIngredientCraftable();
-      setupInitialFilterList();
-      setupInitialIngredientList();
-      setupInitialItemList();
-      RBMFMGui.isInitialized = true
+function RBMFMGui.loadDataStore()
+    local handle = function(eId)
+      return function()
+        local result = EntityQueryAPI.requestData(eId, "getDataStore", 0);
+        if(result ~= nil) then
+          return true, result;
+        end
+        return false, nil;
+      end
     end
+    local onCompleted = function(result)
+        dataStore = result;
+        RBMFMGui.onDataStoreLoaded(dataStore)
+        RBMFMGui.isInitialized = true
+      end
+    EntityQueryAPI.addRequest("RBMFMGui.loadDataStore", handle(sourceEntityId), onCompleted)
 end
 
-function ensureInitialSetup()
+function RBMFMGui.onDataStoreLoaded(dataStoreResult)
+  updateIngredientCraftable();
+  setupInitialFilterList();
+  setupInitialIngredientList();
+  setupInitialItemList();
+end
+
+function initialSetup()
   if(RBMFMGui.isInitialized) then
     return;
   end
   
-  updateDebugState();
-  if(dataStore == nil) then
-    RBMFMGui.reloadDataStore()
-  end
+  RBMFMGui.updateDebugState();
+  RBMFMGui.loadDataStore();
 end
 
 function updateIngredientCraftable()
@@ -236,13 +247,13 @@ function setupInitialItemList()
   
   if(dataStore.selectedItemId ~= nil) then
     if(not selectRecipeById(dataStore.selectedItemId)) then
-      logger.logDebug("Selecting recipe with id: " .. dataStore.selectedItemId)
+      logger.logDebug("Selecting item with id: " .. dataStore.selectedItemId)
       requestIngredientListUpdate()
     else
-      logger.logDebug("Failed to select recipe with id: " .. dataStore.selectedItemId)
+      logger.logDebug("Failed to select item with id: " .. dataStore.selectedItemId)
     end
   else
-    logger.logDebug("No selected recipe")
+    logger.logDebug("No selected item")
   end
 end
 
@@ -327,6 +338,73 @@ end
 local breadCrumb = {}
 
 -----------------------------------------------------------------
+
+
+function RBMFMGui.displayItemsByMethod(methodNames)
+  if(methodNames == nil) then
+    return;
+  end
+  
+  ignoreItemSelected = true
+  itemListItemIds = {}
+  widget.clearListItems(ITEM_LIST_NAME)
+  
+  if(not dataStore.recipeBookExists) then
+    widget.setVisible(ITEM_LIST_EMPTY, false)
+    widget.setVisible(ITEM_LIST_NO_RECIPE_BOOK, true)
+    ignoreItemSelected = false
+    return
+  end
+  
+  logger.logDebug("Updating item list")
+  local sortedItems = getItemsByMethodName(methodNames)
+  
+  local hasItems = addToItemsList(sortedItems)
+  widget.setVisible(ITEM_LIST_EMPTY, not hasItems)
+  ignoreItemSelected = false
+  
+  if(not hasItems) then
+    setSelectedItemId(nil)
+    return
+  end
+  
+  if(dataStore.selectedItemId ~= nil) then
+    if(not selectRecipeById(dataStore.selectedItemId)) then
+      logger.logDebug("Selecting item with id: " .. dataStore.selectedItemId)
+      requestIngredientListUpdate()
+    else
+      logger.logDebug("Failed to select item with id: " .. dataStore.selectedItemId)
+    end
+  else
+    logger.logDebug("No selected item")
+  end
+end
+
+function getItemsByMethodName(methodNames)
+  local recipeListItems = {}
+  for idx,methodName in ipairs(methodNames) do
+    logger.logDebug("Using filter: " .. methodName)
+    local methodFilter = dataStore.methodFilters[methodName]
+    if(methodFilter ~= nil) then
+      for itemName,item in pairs(methodFilter.items) do
+        if(recipeListItems[itemName] == nil) then
+          updateIsCraftable(item)
+          local passesFilters = true
+          for idx,filter in ipairs(filters.recipeFilters) do
+            if(not filter(item)) then
+              passesFilters = false
+              break;
+            end
+          end
+          if(passesFilters) then
+            recipeListItems[itemName] = item
+          end
+        end
+      end
+    end
+  end
+  return UtilsCN.sortByValueNameId(recipeListItems)
+end
 
 
 

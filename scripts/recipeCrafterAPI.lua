@@ -64,6 +64,7 @@ function RecipeCrafterMFMApi.init()
 end
 
 function rcUtils.getFilterId()
+  sb.logInfo("Loading filter Id")
   return storage.recipeGroup
 end
 
@@ -182,7 +183,7 @@ function containerCallback()
     storage.ignoreContainerContentChanges = false
     return
   end
-  logger.logDebug("Container contents changed")
+  --logger.logDebug("Container contents changed")
   RecipeCrafterMFMApi.onContainerContentsChanged()
 end
 
@@ -190,19 +191,19 @@ end
 
 -- Main Craft Process --
 function RecipeCrafterMFMApi.craftItem()
-  logger.logDebug("craftItem Called")
+  --logger.logDebug("craftItem Called")
   if(isCrafting) then
-    logger.logDebug("Already crafting, ignoring request")
+    --logger.logDebug("Already crafting, ignoring request")
     return
   end
   isCrafting = true;
   
-  logger.logDebug("Craft Process Started");
+  --logger.logDebug("Craft Process Started");
   
   storage.currentIngredients = RecipeCrafterMFMApi.getIngredients();
   
   if not rcUtils.hasIngredients() then
-    logger.logDebug("No ingredients found, aborting craft process")
+    --logger.logDebug("No ingredients found, aborting craft process")
     isCrafting = false;
     RecipeCrafterMFMApi.onNoIngredientsFound()
     return;

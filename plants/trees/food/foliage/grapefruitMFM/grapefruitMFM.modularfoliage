@@ -96,31 +96,30 @@
     }
   },
 
-
+  
   "crownLeaves" : {
     "crown1" : {
-      "image" : "",
-      "backimage" : "crown1.png",
+      "image" : "crown1.png",
+      "backimage" : "",
       "attachment" : {
-        "bx" : -54,
-        "by" : -5
+        "bx" : 0,
+        "by" : 0
       }
     },
     "crown2" : {
-      "image" : "",
-      "backimage" : "crown2.png",
+      "image" : "crown2.png",
+      "backimage" : "",
       "attachment" : {
-        "bx" : -53,
-        "by" : -8
-
+        "bx" : 0,
+        "by" : 0
       }
     },
     "crown3" : {
-      "image" : "",
-      "backimage" : "crown3.png",
+      "image" : "crown3.png",
+      "backimage" : "",
       "attachment" : {
-        "bx" : -54,
-        "by" : -5
+        "bx" : 0,
+        "by" : 0
       }
     }
   },

@@ -11,8 +11,8 @@
       "type" : "tree",
       "treeFoliageHueShiftMax" : 180,
       "treeStemHueShiftMax" : 15,
-      "treeStemList" : [ "dragonfruitwoodMFM", "coconutwoodMFM" ],
-      "treeFoliageList" : [ "dragonfruitMFM", "coconutMFM" ]
+      "treeStemList" : [ "dragonfruitwoodMFM", "coconutwoodMFM", "clovewoodMFM" ],
+      "treeFoliageList" : [ "dragonfruitMFM", "coconutMFM", "cloveMFM" ]
     }
 	},
 	{

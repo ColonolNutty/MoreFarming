@@ -1,5 +1,21 @@
 [
 	{
+		"op" : "add",
+		"path" : "/surfacePlaceables/items/-",
+		"value" : {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:uncommonRandomMFM",
+
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 180,
+      "treeStemHueShiftMax" : 15,
+      "treeStemList" : [ "clovewoodMFM" ],
+      "treeFoliageList" : [ "cloveMFM" ]
+    }
+	},
+	{
 	  "op": "add",
 	  "path": "/surfacePlaceables/items/-",
 	  "value": {

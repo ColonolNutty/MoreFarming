@@ -1,0 +1,23 @@
+{
+  "itemName" : "cloveMFM",
+  "rarity" : "Common",
+  "price" : 10.0,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "tooltipKind" : "food",
+  "description" : "Cloves are an aromatic flower bud commonly used for spices.",
+  "shortdescription" : "Clove",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 10
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cloveMFM.png"
+}

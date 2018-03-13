@@ -40,7 +40,7 @@ ITEM_LIST_NAME = RECIPE_BOOK_FRAME_NAME .. ".itemList.itemList"
 ITEM_LIST_EMPTY = RECIPE_BOOK_FRAME_NAME .. ".itemList.empty"
 ITEM_LIST_NO_RECIPE_BOOK = RECIPE_BOOK_FRAME_NAME .. ".itemList.norecipebook"
 
-INGREDIENT_HEADER_BACKGROUD = "/interface/crafting/MFM/shared/craftableheaderbackgroundMFM.png"
+INGREDIENT_HEADER_BACKGROUD = "/interface/scripted/shared/MFM/craftableheaderbackgroundMFM.png"
 
 INGREDIENTS_LIST_NAME = RECIPE_BOOK_FRAME_NAME .. ".ingredientList.ingredientItemList"
 INGREDIENTS_LIST_EMPTY = RECIPE_BOOK_FRAME_NAME .. ".ingredientList.empty"

@@ -55,7 +55,7 @@ function eqApi.updateRequests()
       logger.logDebug("Handling request: " .. request.id)
       local isDone, result = request.handle();
       if(isDone) then
-        logger.logDebug("Finished request: " .. request.id)
+        logger.logDebug("Finished Handling request: " .. request.id)
         request.active = false;
         request.onCompleted(result);
       else
@@ -82,7 +82,7 @@ function EntityQueryAPI.addRequest(requestId, handle, onCompleted)
       oldOnCompleted(result)
     end
   end
-  logger.logDebug("Adding request: " .. requestId)
+  logger.logDebug("Adding new request: " .. requestId)
   EntityQueryAPI.requestIds[requestId] = false
   table.insert(EntityQueryAPI.requests, {
     active = true,
@@ -102,7 +102,7 @@ function EntityQueryAPI.requestData(entityId, requestName, requestId, defaultRes
     EntityQueryAPI.hasError = true
     return defaultResponse
   end
-  local requestIdentifier = requestName .. requestId
+  local requestIdentifier = requestName .. "_" .. requestId
   local request = EntityQueryAPI.requestsToObject[requestIdentifier]
   if(request == nil) then
     if(data ~= nil) then
@@ -119,7 +119,7 @@ function EntityQueryAPI.requestData(entityId, requestName, requestId, defaultRes
   if(not request:succeeded()) then
     local errorMsg = request:error()
     if(errorMsg ~= nil) then
-      logger.logError(errorMsg .. " the message was '" .. requestIdentifier .. "'")
+      logger.logError("Error occurred during request with identifier '" .. requestIdentifier .. "', Message: '" .. errorMsg .. "'")
       EntityQueryAPI.hasError = true
     end
     logger.logDebug("Request failed: " .. requestIdentifier)

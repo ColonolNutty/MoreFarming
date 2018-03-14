@@ -86,12 +86,12 @@
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 33.39
+      "value" : 25.05
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 60.47
+      "value" : 45.36
     },
     {
       "op" : "replace",

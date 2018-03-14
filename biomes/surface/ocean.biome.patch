@@ -10,8 +10,8 @@
       "type" : "tree",
       "treeFoliageHueShiftMax" : 180,
       "treeStemHueShiftMax" : 15,
-      "treeStemList" : [ "avocadowoodMFM", "mangowoodMFM", "grapefruitwoodMFM", "lemonwoodMFM", "limewoodMFM", "orangewoodMFM", "coconutwoodMFM", "clovewoodMFM" ],
-      "treeFoliageList" : [ "avocadoMFM", "mangoMFM", "grapefruitMFM", "lemonMFM", "limeMFM", "orangeMFM", "coconutMFM", "cloveMFM" ]
+      "treeStemList" : [ "avocadowoodMFM", "mangowoodMFM", "grapefruitwoodMFM", "lemonwoodMFM", "limewoodMFM", "orangewoodMFM", "coconutwoodMFM", "clovewoodMFM", "staranisewoodMFM" ],
+      "treeFoliageList" : [ "avocadoMFM", "mangoMFM", "grapefruitMFM", "lemonMFM", "limeMFM", "orangeMFM", "coconutMFM", "cloveMFM", "staraniseMFM" ]
     }
 	},
 	{

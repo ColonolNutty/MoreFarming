@@ -82,6 +82,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "celeryMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "cinnamonMFM" }
   },
   {
@@ -438,6 +443,11 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : [ "cauliflowerMFMseed", 3 ] }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : [ "celeryMFMseed", 3 ] }
   },
   {
     "op" : "add",

@@ -221,6 +221,26 @@
   },
   {
     "op" : "add",
+    "path" : "/celeryMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "celeryMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "celeryMFM"},
+          {"weight" : 0.01, "item" : "celeryMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/cinnamonMFMHarvest",
     "value" : [ [0, {
         "fill" : [

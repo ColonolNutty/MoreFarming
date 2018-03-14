@@ -1,0 +1,23 @@
+{
+  "itemName" : "celeryMFM",
+  "rarity" : "Common",
+  "price" : 65.0,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "tooltipKind" : "food",
+  "description" : "Celery. A vegetable that usually grows in marshlands.",
+  "shortdescription" : "Celery",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 45
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "celeryMFM.png"
+}

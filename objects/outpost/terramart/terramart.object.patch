@@ -227,6 +227,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "okraMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "onionMFM" }
   },
   {
@@ -553,6 +558,11 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : [ "oatsMFMseed", 3 ] }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : [ "okraMFMseed", 3 ] }
   },
   {
     "op" : "add",

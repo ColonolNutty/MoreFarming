@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "pizzadoughMFM", "count" : 1 },
-    { "item" : "pineapple", "count" : 4 },
-    { "item" : "banana", "count" : 4 }
+    { "item" : "choppedpineappleMFM", "count" : 4 },
+    { "item" : "choppedbananaMFM", "count" : 4 }
   ],
   "output" : { "item" : "pinanaMFM", "count" : 1 },
   "groups" : [ "bakingMFM" ]

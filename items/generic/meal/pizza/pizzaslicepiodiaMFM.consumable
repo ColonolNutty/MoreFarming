@@ -1,12 +1,12 @@
 {
   "itemName" : "pizzaslicepiodiaMFM",
   "rarity" : "Common",
-  "price" : 208.33,
+  "price" : 218.42,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} A hot slice of piodia pizza.",
   "shortdescription" : "Pizza Slice - Piodia",
-  "foodValue" : 17.43,
+  "foodValue" : 17.96,
   "effects" : [[
     {
       "effect" : "regeneration3",

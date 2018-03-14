@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "pizzadoughMFM", "count" : 1 },
-    { "item" : "diodia", "count" : 4 },
-    { "item" : "toxictop", "count" : 4 }
+    { "item" : "choppeddiodiaMFM", "count" : 4 },
+    { "item" : "choppedtoxictopMFM", "count" : 4 }
   ],
   "output" : { "item" : "piodiaMFM", "count" : 1 },
   "groups" : [ "bakingMFM" ]

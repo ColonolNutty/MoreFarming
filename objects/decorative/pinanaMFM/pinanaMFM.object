@@ -2,10 +2,10 @@
   "objectName" : "pinanaMFM",
   "colonyTags" : [ "cooking" ],
   "rarity" : "Uncommon",
-  "price" : 1182.24,
+  "price" : 1238.94,
   "category" : "decorative",
   "printable" : false,
-  "description" : "(BAKE):-} A large pinana. It's like a sweet pizza.",
+  "description" : "(BAKE):-} A large pinana. It's like a sweet pizza made with pineapples.",
   "shortdescription" : "Pinana",
   "race" : "generic",
   "apexDescription" : "The best kind of pizza. Ever.",
@@ -27,13 +27,13 @@
     }
   ],
   "breakDropOptions" : [[
-    [ "pinanasliceMFM", 1, { } ],
-    [ "pinanasliceMFM", 1, { } ],
-    [ "pinanasliceMFM", 1, { } ],
-    [ "pinanasliceMFM", 1, { } ],
-    [ "pinanasliceMFM", 1, { } ],
-    [ "pinanasliceMFM", 1, { } ],
-    [ "pinanasliceMFM", 1, { } ],
-    [ "pinanasliceMFM", 1, { } ]
+    [ "pizzaslicepinanaMFM", 1, { } ],
+    [ "pizzaslicepinanaMFM", 1, { } ],
+    [ "pizzaslicepinanaMFM", 1, { } ],
+    [ "pizzaslicepinanaMFM", 1, { } ],
+    [ "pizzaslicepinanaMFM", 1, { } ],
+    [ "pizzaslicepinanaMFM", 1, { } ],
+    [ "pizzaslicepinanaMFM", 1, { } ],
+    [ "pizzaslicepinanaMFM", 1, { } ]
   ]]
 }

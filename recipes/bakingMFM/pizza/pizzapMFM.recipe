@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "pizzadoughMFM", "count" : 1 },
-    { "item" : "automato", "count" : 4 },
-    { "item" : "boltbulb", "count" : 4 }
+    { "item" : "choppedautomatoMFM", "count" : 4 },
+    { "item" : "choppedboltbulbMFM", "count" : 4 }
   ],
   "output" : { "item" : "pizzapMFM", "count" : 1 },
   "groups" : [ "bakingMFM" ]

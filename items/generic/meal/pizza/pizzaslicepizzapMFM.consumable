@@ -1,12 +1,12 @@
 {
   "itemName" : "pizzaslicepizzapMFM",
   "rarity" : "Common",
-  "price" : 112.64,
+  "price" : 117.96,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} A hot slice of pizzap pizza.",
   "shortdescription" : "Pizza Slice - Pizzap",
-  "foodValue" : 17.43,
+  "foodValue" : 17.96,
   "effects" : [[
     {
       "effect" : "regeneration3",

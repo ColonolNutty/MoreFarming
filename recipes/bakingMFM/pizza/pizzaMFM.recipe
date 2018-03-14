@@ -1,8 +1,6 @@
 {
   "input" : [
-    { "item" : "pizzadoughMFM", "count" : 1 },
-    { "item" : "tomato", "count" : 4 },
-    { "item" : "cheese", "count" : 4 }
+    { "item" : "unfinishedpizzabasicMFM", "count" : 1 }
   ],
   "output" : { "item" : "pizzaMFM", "count" : 1 },
   "groups" : [ "bakingMFM" ]

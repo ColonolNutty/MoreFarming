@@ -1,12 +1,12 @@
 {
-  "itemName" : "pinanasliceMFM",
+  "itemName" : "pizzaslicepinanaMFM",
   "rarity" : "Common",
-  "price" : 155.17,
+  "price" : 162.61,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} A hot slice of pinana pizza.",
   "shortdescription" : "Pizza Slice - Pinana",
-  "foodValue" : 17.43,
+  "foodValue" : 17.96,
   "effects" : [[
     {
       "effect" : "regeneration3",
@@ -18,5 +18,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "pinanasliceMFM.png"
+  "inventoryIcon" : "pizzaslicepinanaMFM.png"
 }

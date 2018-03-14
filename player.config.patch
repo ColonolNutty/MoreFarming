@@ -20,7 +20,6 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "grassy" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "ice" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lavalamp1" }},
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "makeshiftbakingstationCNYC" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "milk" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "redfoodcolorMFM" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "softblocksugarMFM" }},
@@ -29,9 +28,10 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "wickerplatformMFM" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "wickersupport" }},
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "yellowfoodcolorMFM" }},
-  { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "makeshiftchoppingstationCNYC" } },
-  { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "makeshiftboilingstationCNYC" } },
-  { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "makeshiftgrindingstationCNYC" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "makeshiftbakingstationCNYC" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "makeshiftboilingstationCNYC" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "makeshiftchoppingstationCNYC" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "makeshiftgrindingstationCNYC" } },
   
 	{ "op": "add", "path" : "/deploymentConfig/scripts/-", "value" : "/scripts/mfm_player_init.lua"}
 ]

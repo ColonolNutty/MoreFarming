@@ -30,7 +30,10 @@
   ],
   "stages" : [
     { "duration" : [ 720, 720 ] },
-    { "duration" : [ 1080, 1080 ] },
+    {
+      "duration" : [ 1080, 1080 ],
+      "harvestPool" : "beansproutMFMHarvest"
+    },
     {
       "alts" : 5,
       "harvestPool" : "soybeanMFMHarvest",

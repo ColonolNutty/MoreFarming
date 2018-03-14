@@ -27,7 +27,10 @@
   ],
   "stages" : [
     { "duration" : [ 300, 300 ] },
-    { "duration" : [ 300, 300 ] },
+    {
+      "duration" : [ 300, 300 ],
+      "harvestPool" : "beansproutMFMHarvest"
+    },
     {
       "alts" : 5,
       "duration" : [ 840, 840 ]

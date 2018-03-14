@@ -96,6 +96,19 @@
   },
   {
     "op" : "add",
+    "path" : "/beansproutMFMHarvest",
+    "value" : [ [0, {
+        "pool" : [
+          {"weight" : 1.0, "item" : "beansproutMFM"}
+        ],
+        "poolRounds" : [
+          [1.0, 3]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/beetMFMHarvest",
     "value" : [ [0, {
         "fill" : [

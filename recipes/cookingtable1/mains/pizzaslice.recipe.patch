@@ -9,7 +9,7 @@
   {
     "op": "replace",
     "path": "/output",
-    "value": { "item" : "pizzaslice", "count" : 6 }
+    "value": { "item" : "pizzaslice", "count" : 8 }
   },
   {
     "op": "add",

@@ -27,7 +27,13 @@
     }
   ],
   "breakDropOptions" : [[
-    [ "automato", 1, { } ],
-    [ "boltbulb", 1, { } ]
+    [ "pizzaslicepizzapMFM", 1, { } ],
+    [ "pizzaslicepizzapMFM", 1, { } ],
+    [ "pizzaslicepizzapMFM", 1, { } ],
+    [ "pizzaslicepizzapMFM", 1, { } ],
+    [ "pizzaslicepizzapMFM", 1, { } ],
+    [ "pizzaslicepizzapMFM", 1, { } ],
+    [ "pizzaslicepizzapMFM", 1, { } ],
+    [ "pizzaslicepizzapMFM", 1, { } ]
   ]]
 }

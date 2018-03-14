@@ -8,7 +8,8 @@
     { "item" : "peanutshelledMFM", "count" : 1 },
     { "item" : "pastaplainMFM", "count" : 1 },
     { "item" : "egg", "count" : 2 },
-    { "item" : "sugar", "count" : 2 }
+    { "item" : "sugar", "count" : 2 },
+    { "item" : "beansproutMFM", "count" : 1 }
   ],
   "output" : { "item" : "padthaiMFM", "count" : 1 },
   "groups" : [ "bakingMFM" ]

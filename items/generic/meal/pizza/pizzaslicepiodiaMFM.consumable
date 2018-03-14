@@ -1,0 +1,22 @@
+{
+  "itemName" : "pizzaslicepiodiaMFM",
+  "rarity" : "Common",
+  "price" : 202.41,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "A hot slice of piodia pizza.",
+  "shortdescription" : "Pizza Slice - Piodia",
+  "foodValue" : 10.05,
+  "effects" : [[
+    {
+      "effect" : "regeneration3",
+      "duration" : 20
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "pizzaslicepiodiaMFM.png"
+}

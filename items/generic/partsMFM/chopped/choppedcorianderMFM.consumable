@@ -1,20 +1,16 @@
 {
-  "itemName" : "phoMFM",
-  "rarity" : "Uncommon",
-  "price" : 243.46,
+  "itemName" : "choppedcorianderMFM",
+  "rarity" : "Common",
+  "price" : 24.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} Meaty rice.",
-  "shortdescription" : "Pho",
-  "foodValue" : 121.12,
+  "description" : "(CHOP):-} Washed and chopped coriander.",
+  "shortdescription" : "Chopped Coriander",
+  "foodValue" : 10.0,
   "effects" : [[
     {
-      "effect" : "jumpboostfood",
-      "duration" : 32
-    },
-    {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 54
+      "duration" : 21
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",
@@ -22,6 +18,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "phoMFM.png",
-  "handPosition" : [ 0, -3 ]
+  "inventoryIcon" : "choppedcorianderMFM.png"
 }

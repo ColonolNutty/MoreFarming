@@ -5,6 +5,7 @@
     { "item" : "groundgingerMFM", "count" : 1 },
     { "item" : "choppedscallionMFM", "count" : 2 },
     { "item" : "saltMFM", "count" : 1 },
+    { "item" : "staraniseMFM", "count" : 2 },
     { "item" : "liquidwater", "count" : 4 }
   ],
   "output" : { "item" : "brothphoMFM", "count" : 3 },

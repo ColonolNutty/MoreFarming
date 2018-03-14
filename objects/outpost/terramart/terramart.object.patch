@@ -102,12 +102,22 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "coconut" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "coffeebeans" }
   },
   {
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : "corn" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : "corianderMFM" }
   },
   {
     "op" : "add",
@@ -473,6 +483,11 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : [ "cornseed", 3 ] }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : [ "corianderMFMseed", 3 ] }
   },
   {
     "op" : "add",

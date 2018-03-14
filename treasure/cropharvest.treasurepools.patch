@@ -316,6 +316,22 @@
   },
   {
     "op" : "add",
+    "path" : "/corianderMFMHarvest",
+    "value" : [ [0, {
+        "pool" : [
+          {"weight" : 0.89, "item" : "corianderMFM"},
+          {"weight" : 0.01, "item" : "corianderMFMseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/cucumberMSMHarvest",
     "value" : [ [0, {
         "fill" : [

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "choppedgreenappleMFM", "count" : 4 },
+    { "item" : "groundcinnamonMFM", "count" : 1 },
+    { "item" : "raisinsMFM", "count" : 1 },
+    { "item" : "flourMFM", "count" : 1 },
+    { "item" : "honeyMFM", "count" : 1 },
+    { "item" : "lemonjuiceMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "toppinghoneyappleraisinMFM", "count" : 1 },
+  "groups" : [ "blendingMFM", "ExcludeFromRecipeBook" ]
+}

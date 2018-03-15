@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "unfinishedcakeappleanarchyMFM", "count" : 1 },
+    { "item" : "toppinghoneyappleraisinMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "cakeappleanarchyMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

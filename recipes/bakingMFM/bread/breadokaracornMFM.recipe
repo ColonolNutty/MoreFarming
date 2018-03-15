@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "mixbreadokaracornMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "breadokaracornMFM", "count" : 1 },
+  "groups" : [ "bakingMFM" ]
+}

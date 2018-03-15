@@ -1,0 +1,10 @@
+{
+  "itemName" : "mixbreadokaracornMFM",
+  "rarity" : "Common",
+  "price" : 495.45,
+  "category" : "cookingIngredient",
+  "description" : "(BLEND):-} A mixture for making okara corn bread. Ready for baking.",
+  "shortdescription" : "Mix Bread - Okara Corn",
+  "maxStack" : 1000,
+  "inventoryIcon" : "mixbreadokaracornMFM.png"
+}

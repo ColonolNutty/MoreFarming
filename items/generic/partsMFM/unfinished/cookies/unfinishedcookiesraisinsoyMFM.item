@@ -1,0 +1,10 @@
+{
+  "itemName" : "unfinishedcookiesraisinsoyMFM",
+  "rarity" : "Common",
+  "price" : 521.82,
+  "category" : "cookingIngredient",
+  "description" : "(PREP):-} Cookiedough mixed with raisins and okara. Ready for baking.",
+  "shortdescription" : "Cookie Unfinished - Raisin-Soy",
+  "maxStack" : 1000,
+  "inventoryIcon" : "unfinishedcookiesraisinsoyMFM.png"
+}

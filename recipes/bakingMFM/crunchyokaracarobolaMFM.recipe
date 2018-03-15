@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "unfinishedcrunchyokaracarobolaMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "crunchyokaracarobolaMFM", "count" : 2 },
+  "groups" : [ "bakingMFM" ]
+}

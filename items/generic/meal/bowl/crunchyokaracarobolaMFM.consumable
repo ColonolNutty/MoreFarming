@@ -1,0 +1,17 @@
+{
+  "itemName" : "crunchyokaracarobolaMFM",
+  "rarity" : "Common",
+  "price" : 326.32,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} A crunchy treat that goes well with milk as a morning cereal.",
+  "shortdescription" : "Crunchy Okara Carobola",
+  "foodValue" : 216.33,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "crunchyokaracarobolaMFM.png",
+  "handPosition" : [ 0, -3 ]
+}

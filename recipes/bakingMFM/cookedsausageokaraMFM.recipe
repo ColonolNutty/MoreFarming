@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "rawsausageokaraMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "cookedsausageokaraMFM", "count" : 1 },
+  "groups" : [ "bakingMFM" ]
+}

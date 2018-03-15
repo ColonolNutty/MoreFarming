@@ -1,0 +1,26 @@
+{
+  "itemName" : "cookedsausageokaraMFM",
+  "rarity" : "Common",
+  "price" : 894.31,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} A sausage made with okara.",
+  "shortdescription" : "Cooked Sausage - Okara",
+  "foodValue" : 398.94,
+  "effects" : [[
+    {
+      "effect" : "antidote",
+      "duration" : 5
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 102
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cookedsausageokaraMFM.png"
+}

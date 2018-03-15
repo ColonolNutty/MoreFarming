@@ -1271,13 +1271,16 @@
     "op" : "add",
     "path" : "/sunflowerMFMHarvest",
     "value" : [ [0, {
+        "fill" : [
+          {"item" : "sunflowerMFMseed"}
+        ],
         "pool" : [
           {"weight" : 0.90, "item" : "sunflowerMFMseed"},
           {"weight" : 0.1, "item" : "plantfibre"}
         ],
         "poolRounds" : [
-          [0.6, 1],
-          [0.4, 2]
+          [0.6, 3],
+          [0.4, 6]
         ]
       } ]
     ]

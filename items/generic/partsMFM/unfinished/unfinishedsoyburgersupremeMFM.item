@@ -1,0 +1,10 @@
+{
+  "itemName" : "unfinishedsoyburgersupremeMFM",
+  "rarity" : "Common",
+  "price" : 943.02,
+  "category" : "cookingIngredient",
+  "description" : "(PREP):-} A raw soy patty made using okara",
+  "shortdescription" : "Raw Patty - Soyburger Supr.",
+  "maxStack" : 1000,
+  "inventoryIcon" : "unfinishedsoyburgersupremeMFM.png"
+}

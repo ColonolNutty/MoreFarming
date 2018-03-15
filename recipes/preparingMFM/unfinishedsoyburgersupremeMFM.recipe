@@ -1,0 +1,16 @@
+{
+	"input" : [
+    { "item" : "egg", "count" : 2 },
+    { "item" : "tamariMFM", "count" : 1 },
+    { "item" : "ketchupMFM", "count" : 1 },
+    { "item" : "choppedonionMFM", "count" : 1 },
+    { "item" : "okaraMFM", "count" : 1 },
+    { "item" : "yeastMFM", "count" : 2 },
+    { "item" : "cookingoilMFM", "count" : 1 },
+    { "item" : "groundgarlicMFM", "count" : 1 },
+    { "item" : "flourMFM", "count" : 1 },
+    { "item" : "boiledrice", "count" : 1 }
+  ],
+	"output" : { "item" : "unfinishedsoyburgersupremeMFM", "count" : 1 },
+	"groups" : [ "preparingMFM" ]
+}

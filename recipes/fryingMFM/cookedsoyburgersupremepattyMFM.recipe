@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "unfinishedsoyburgersupremeMFM", "count" : 1 },
+    { "item" : "sunflowerMFMseed", "count" : 2 },
+    { "item" : "cookingoilMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "cookedsoyburgersupremepattyMFM", "count" : 1 },
+  "groups" : [ "fryingMFM" ]
+}

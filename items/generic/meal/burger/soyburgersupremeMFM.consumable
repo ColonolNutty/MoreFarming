@@ -1,0 +1,22 @@
+{
+  "itemName" : "soyburgersupremeMFM",
+  "rarity" : "Common",
+  "price" : 1093.62,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A healthy alternative to your typical burger.",
+  "shortdescription" : "Burger - Soyburger Supreme",
+  "foodValue" : 333.95,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 33
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "soyburgersupremeMFM.png"
+}

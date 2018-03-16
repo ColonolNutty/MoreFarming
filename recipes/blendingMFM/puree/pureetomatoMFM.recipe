@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "choppedtomatoMFM", "count" : 2 }
+  ],
+  "output" : { "item" : "pureetomatoMFM", "count" : 4 },
+  "groups" : [ "blendingMFM" ]
+}

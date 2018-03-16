@@ -1,0 +1,10 @@
+{
+  "itemName" : "saucespaghettibalogneseMFM",
+  "rarity" : "Common",
+  "price" : 293.23,
+  "category" : "cookingIngredient",
+  "description" : "(BOIL):-} Spaghetti sauce with vegetables and a mixture of meats.",
+  "shortdescription" : "Sauce - Spaghetti Balognese",
+  "maxStack" : 1000,
+  "inventoryIcon" : "saucespaghettibalogneseMFM.png"
+}

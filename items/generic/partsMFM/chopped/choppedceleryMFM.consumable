@@ -1,0 +1,22 @@
+{
+  "itemName" : "choppedceleryMFM",
+  "rarity" : "Common",
+  "price" : 22.75,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed and chopped celery.",
+  "shortdescription" : "Chopped Celery",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 47
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedceleryMFM.png"
+}

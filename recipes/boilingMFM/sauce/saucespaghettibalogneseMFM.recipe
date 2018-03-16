@@ -1,0 +1,15 @@
+{
+  "input" : [
+      { "item" : "rawbacon", "count" : 1 },
+      { "item" : "rawstripofalienmeatMFM", "count" : 1 },
+      { "item" : "cookingoilMFM", "count" : 1 },
+      { "item" : "choppedonionMFM", "count" : 1 },
+      { "item" : "choppedcarrotMFM", "count" : 1 },
+      { "item" : "choppedceleryMFM", "count" : 1 },
+      { "item" : "choppedgarlicMFM", "count" : 1 },
+      { "item" : "choppedtomatoMFM", "count" : 1 },
+      { "item" : "pureetomatoMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "saucespaghettibalogneseMFM", "count" : 1 },
+  "groups" : [ "boilingMFM" ]
+}

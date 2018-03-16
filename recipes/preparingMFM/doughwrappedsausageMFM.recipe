@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rawsausagealienpoultryMFM", "count" : 1 },
+    { "item" : "doughMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "doughwrappedsausageMFM", "count" : 6 },
+  "groups" : [ "preparingMFM" ]
+}

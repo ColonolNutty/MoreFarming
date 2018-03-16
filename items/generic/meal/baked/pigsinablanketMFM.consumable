@@ -1,0 +1,31 @@
+{
+  "itemName" : "pigsinablanketMFM",
+  "rarity" : "Common",
+  "price" : 4.24,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} Baked dough wrapped sausage",
+  "shortdescription" : "Pigs in a Blanket",
+  "foodValue" : 10.5,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 36
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 36
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 78
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "pigsinablanketMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

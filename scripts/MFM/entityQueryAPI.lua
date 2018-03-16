@@ -25,11 +25,11 @@ end
 
 function EntityQueryAPI.update(dt)
   if(EntityQueryAPI.hasError) then
-    sb.logInfo("Error Occurred")
     return false
   end
   if(not EntityQueryAPI.isInitialized) then
-    sb.logInfo("Not Initialized")
+    sb.logError("EntityQueryAPI was not Initialized")
+    EntityQueryAPI.hasError = true
     return false
   end
   eqApi.updateRequests()

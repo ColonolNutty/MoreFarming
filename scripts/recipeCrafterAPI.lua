@@ -64,7 +64,9 @@ function RecipeCrafterMFMApi.init()
 end
 
 function rcUtils.getFilterId()
-  sb.logInfo("Loading filter Id")
+  if(not storage.recipeGroup) then
+    return "none"
+  end
   return storage.recipeGroup
 end
 

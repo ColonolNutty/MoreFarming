@@ -3,6 +3,7 @@
     { "item" : "peanutshelledMFM", "count" : 1 },
     { "item" : "honeyMFM", "count" : 1 },
     { "item" : "wholeoatsMFM", "count" : 1 },
+    { "item" : "proteinpowderMFM", "count" : 1 },
     { "item" : "choppedraspberriesMFM", "count" : 1 },
     { "item" : "darkchocolateMFM", "count" : 1 }
   ],

@@ -187,6 +187,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "proteinpowderMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "raweelMFM" }
   },
   {

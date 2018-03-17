@@ -1,0 +1,9 @@
+{
+  "itemName" : "proteinpowderMFM",
+  "rarity" : "Common",
+  "price" : 3.0,
+  "category" : "cookingIngredient",
+  "description" : "Useful for buffing up!",
+  "shortdescription" : "Protein Powder",
+  "inventoryIcon" : "proteinpowderMFM.png"
+}

@@ -108,6 +108,28 @@
     {
       "name": "yeastMFM",
       "foodValue": 3.0
+    },
+    {
+      "name": "proteinpowderMFM",
+      "foodValue" : 1.0,
+      "effects" : [[
+        {
+          "effect" : "ragefood",
+          "duration" : 100
+        },
+        {
+          "effect" : "maxenergyscalingboost",
+          "duration" : 100
+        },
+        {
+          "effect" : "runboostfood",
+          "duration" : 50
+        },
+        {
+          "effect" : "jumpboostfood",
+          "duration" : 50
+        }
+      ]]
     }
   ]
 }

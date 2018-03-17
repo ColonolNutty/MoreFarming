@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "mixproteinbarraspberrychocolateMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "proteinbarraspberrychocolateMFM", "count" : 5 },
+  "groups" : [ "freezingMFM" ]
+}

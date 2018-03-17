@@ -1,0 +1,10 @@
+{
+  "itemName" : "mixproteinbarraspberrychocolateMFM",
+  "rarity" : "Common",
+  "price" : 391.51,
+  "category" : "cookingIngredient",
+  "description" : "(BOIL):-} A sweet protein bar mix of raspberries and chocolate.",
+  "shortdescription" : "Mix Protein B. - Rasp. Chocolate",
+  "maxStack" : 1000,
+  "inventoryIcon" : "mixproteinbarraspberrychocolateMFM.png"
+}

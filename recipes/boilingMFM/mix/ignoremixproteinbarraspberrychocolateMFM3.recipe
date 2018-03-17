@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "peanutshelledMFM", "count" : 1 },
+    { "item" : "honeyMFM", "count" : 1 },
+    { "item" : "wholeoatsMFM", "count" : 1 },
+    { "item" : "choppedraspberriesMFM", "count" : 1 },
+    { "item" : "whitechocolateMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "mixproteinbarraspberrychocolateMFM", "count" : 1 },
+  "groups" : [ "boilingMFM" ]
+}

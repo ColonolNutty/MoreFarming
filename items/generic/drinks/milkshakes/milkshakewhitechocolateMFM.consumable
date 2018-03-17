@@ -18,7 +18,7 @@
     },
     {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 35
+      "duration" : 104
     },
     {
       "effect" : "runboostfood",
@@ -26,11 +26,11 @@
     },
     {
       "effect" : "energyregen",
-      "duration" : 35
+      "duration" : 104
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 75
+      "duration" : 222
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

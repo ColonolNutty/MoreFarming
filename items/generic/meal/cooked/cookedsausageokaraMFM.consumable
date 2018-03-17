@@ -15,6 +15,22 @@
     {
       "effect" : "poisonblock",
       "duration" : 102
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 170
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 33
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 170
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 352
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

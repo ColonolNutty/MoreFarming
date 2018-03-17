@@ -15,6 +15,18 @@
     {
       "effect" : "poisonblock",
       "duration" : 98
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 35
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 35
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 75
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

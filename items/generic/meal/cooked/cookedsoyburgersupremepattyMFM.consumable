@@ -9,8 +9,28 @@
   "foodValue" : 290.91,
   "effects" : [[
     {
+      "effect" : "antidote",
+      "duration" : 5
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 102
+    },
+    {
       "effect" : "camouflage25",
-      "duration" : 32
+      "duration" : 65
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 69
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 69
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 144
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

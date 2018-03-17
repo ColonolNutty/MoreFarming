@@ -21,6 +21,10 @@
       "duration" : 34
     },
     {
+      "effect" : "camouflage25",
+      "duration" : 32
+    },
+    {
       "effect" : "energyregen",
       "duration" : 34
     },

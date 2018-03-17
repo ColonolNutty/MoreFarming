@@ -58,16 +58,28 @@
       "path" : "/effects",
       "value" : [[
         {
+          "effect" : "regeneration2",
+          "duration" : 34
+        },
+        {
+          "effect" : "maxenergyscalingboost",
+          "duration" : 34
+        },
+        {
           "effect" : "maxenergyscalingboostfood",
-          "duration" : 37
+          "duration" : 76
+        },
+        {
+          "effect" : "runboostfood",
+          "duration" : 106
         },
         {
           "effect" : "energyregen",
-          "duration" : 37
+          "duration" : 76
         },
         {
           "effect" : "maxhealthscalingboostfood",
-          "duration" : 81
+          "duration" : 239
         }
       ]]
     },

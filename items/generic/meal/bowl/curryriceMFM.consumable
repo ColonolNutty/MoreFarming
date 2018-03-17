@@ -15,6 +15,10 @@
     {
       "effect" : "poisonblock",
       "duration" : 129
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 32
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

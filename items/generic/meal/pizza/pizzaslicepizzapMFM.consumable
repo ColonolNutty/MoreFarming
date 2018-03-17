@@ -9,8 +9,8 @@
   "foodValue" : 17.96,
   "effects" : [[
     {
-      "effect" : "regeneration3",
-      "duration" : 20
+      "effect" : "camouflage25",
+      "duration" : 34
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

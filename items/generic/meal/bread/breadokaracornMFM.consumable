@@ -7,6 +7,24 @@
   "description" : "(BAKE):-} Corn bread made with okara.",
   "shortdescription" : "Bread - Okara Corn",
   "foodValue" : 409.85,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 33
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 207
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 207
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 434
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

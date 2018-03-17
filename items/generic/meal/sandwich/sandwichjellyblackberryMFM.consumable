@@ -11,10 +11,6 @@
     {
       "effect" : "fireblock",
       "duration" : 238
-    },
-    {
-      "effect" : "maxhealthscalingboostfood",
-      "duration" : 192
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

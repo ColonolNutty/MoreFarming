@@ -4,7 +4,7 @@
   "price" : 140.45,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(BLEND):-} So chocolatey.",
+  "description" : "(BLEND):-} Has a bitter taste.",
   "shortdescription" : "Dark Chocolate",
   "foodValue" : 85.64,
   "effects" : [[

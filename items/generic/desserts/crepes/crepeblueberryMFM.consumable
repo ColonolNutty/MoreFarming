@@ -10,7 +10,7 @@
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 36
+      "duration" : 150
     },
     {
       "effect" : "iceblock",
@@ -18,11 +18,11 @@
     },
     {
       "effect" : "energyregen",
-      "duration" : 36
+      "duration" : 150
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 78
+      "duration" : 324
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

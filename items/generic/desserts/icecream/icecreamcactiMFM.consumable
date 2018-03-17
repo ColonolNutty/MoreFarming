@@ -9,10 +9,6 @@
   "foodValue" : 62.16,
   "effects" : [[
     {
-      "effect" : "thorns",
-      "duration" : 94
-    },
-    {
       "effect" : "regeneration2",
       "duration" : 34
     },

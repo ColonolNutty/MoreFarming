@@ -7,6 +7,36 @@
   "description" : "(BAKE):-} A crunchy treat that goes well with milk as a morning cereal.",
   "shortdescription" : "Crunchy Okara Carobola",
   "foodValue" : 216.33,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 34
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 66
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 202
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 34
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 202
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 485
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -9,6 +9,10 @@
   "foodValue" : 131.62,
   "effects" : [[
     {
+      "effect" : "poisonblock",
+      "duration" : 102
+    },
+    {
       "effect" : "maxenergyscalingboostfood",
       "duration" : 10
     },

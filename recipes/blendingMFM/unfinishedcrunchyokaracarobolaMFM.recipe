@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "okaraMFM", "count" : 6 },
+    { "item" : "carobpowderMFM", "count" : 1 },
     { "item" : "peanutshelledMFM", "count" : 1 },
     { "item" : "sunflowerMFMseed", "count" : 1 },
     { "item" : "cookingoilMFM", "count" : 1 },
@@ -8,7 +9,8 @@
     { "item" : "wholeoatsMFM", "count" : 1 },
     { "item" : "choppedcoconutMFM", "count" : 1 },
     { "item" : "saltMFM", "count" : 1 },
-    { "item" : "vanillaextractMFM", "count" : 1 }
+    { "item" : "vanillaextractMFM", "count" : 1 },
+    { "item" : "maltextractMFM", "count" : 1 }
   ],
   "output" : { "item" : "unfinishedcrunchyokaracarobolaMFM", "count" : 1 },
   "groups" : [ "blendingMFM" ]

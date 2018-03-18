@@ -27,6 +27,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "carobpowderMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "chocolatechipsMFM" }
   },
   {
@@ -278,6 +283,16 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : "tofuMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : "almondextractMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : "maltextractMFM" }
   },
   {
     "op" : "add",

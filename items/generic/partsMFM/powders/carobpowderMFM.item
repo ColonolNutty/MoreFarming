@@ -1,0 +1,10 @@
+{
+  "itemName" : "carobpowderMFM",
+  "rarity" : "Common",
+  "price" : 50.0,
+  "category" : "cookingIngredient",
+  "description" : "A base ingredient in making carobola.",
+  "shortdescription" : "Carob Powder",
+  "maxStack" : 1000,
+  "inventoryIcon" : "carobpowderMFM.png"
+}

@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "cornmealMFM", "count" : 2 },
+    { "item" : "maltextractMFM", "count" : 1 },
     { "item" : "bakingpowderMFM", "count" : 1 },
     { "item" : "saltMFM", "count" : 1 },
     { "item" : "egg", "count" : 2 },

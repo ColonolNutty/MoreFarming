@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "mixcakeplainMFM", "count" : 1 },
+    { "item" : "maltextractMFM", "count" : 1 },
     { "item" : "honeyMFM", "count" : 1 },
     { "item" : "egg", "count" : 2 },
     { "item" : "soymilkMFM", "count" : 1 },

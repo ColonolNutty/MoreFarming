@@ -70,7 +70,8 @@
 						[1, "wildrosemaryMFMseed"],
 						[1, "wildsageMFMseed"],
 						[1, "wildscallionMFMseed" ],
-						[1, "wildsunflowerMFMseed"]
+						[1, "wildsunflowerMFMseed"],
+						[1, "wildthymeMFMseed"]
 					],
 					"parameters" : {
 						"startingStage" : 3

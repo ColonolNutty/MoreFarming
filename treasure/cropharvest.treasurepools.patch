@@ -1348,6 +1348,25 @@
   },
   {
     "op" : "add",
+    "path" : "/thymeMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "thymeMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "thymebundleMFM"},
+          {"weight" : 0.01, "item" : "thymeMFMseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 2],
+          [0.4, 3]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/turnipMFMHarvest",
     "value" : [ [0, {
         "fill" : [

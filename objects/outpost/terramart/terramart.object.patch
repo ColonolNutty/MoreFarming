@@ -407,6 +407,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "thymebundleMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "tomato" }
   },
   {
@@ -728,6 +733,11 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : [ "sweetpotatoMFMseed", 3 ] }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : [ "thymeMFMseed", 3 ] }
   },
   {
     "op" : "add",

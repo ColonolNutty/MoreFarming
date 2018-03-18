@@ -1,0 +1,11 @@
+{
+  "itemName" : "thymebundleMFM",
+  "rarity" : "Common",
+  "price" : 5.0,
+  "category" : "cookingIngredient",
+  "description" : "A bundle of thyme, a minty grass useful in cooking.",
+  "shortdescription" : "Thyme Bundle",
+  "inventoryIcon" : "thymebundleMFM.png",
+  "maxStack" : 1000,
+  "itemTags" : [ "reagent" ]
+}

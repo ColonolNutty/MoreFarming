@@ -267,6 +267,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "parsleyleafMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "parsnipMFM" }
   },
   {
@@ -337,12 +342,12 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : "rosemaryleafMFM" }
+    "value" : { "item" : "rosemaryflowerpetalMFM" }
   },
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : "rosemaryflowerpetalMFM" }
+    "value" : { "item" : "rosemaryleafMFM" }
   },
   {
     "op" : "add",
@@ -623,6 +628,11 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : [ "palsterstickMFMseed", 3 ] }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : [ "parsleyMFMseed", 3 ] }
   },
   {
     "op" : "add",

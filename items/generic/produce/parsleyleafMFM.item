@@ -1,0 +1,11 @@
+{
+  "itemName" : "parsleyleafMFM",
+  "rarity" : "Common",
+  "price" : 2.0,
+  "category" : "cookingIngredient",
+  "description" : "For that professional chef touch!",
+  "shortdescription" : "Parsley Leaf",
+  "inventoryIcon" : "parsleyleafMFM.png",
+  "maxStack" : 1000,
+  "itemTags" : [ "reagent", "spice" ]
+}

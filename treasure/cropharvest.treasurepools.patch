@@ -878,6 +878,25 @@
   },
   {
     "op" : "add",
+    "path" : "/parsleyMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "parsleyMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "parsleyleafMFM"},
+          {"weight" : 0.01, "item" : "parsleyMFMseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/parsnipMFMHarvest",
     "value" : [ [0, {
         "fill" : [

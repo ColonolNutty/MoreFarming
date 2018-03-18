@@ -2,7 +2,7 @@
   "itemName" : "choppedrosemaryleafMFM",
   "rarity" : "Common",
   "price" : 1.0,
-  "category" : "preparedFood",
+  "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped rosemary leaf.",
   "shortdescription" : "Chopped Rosemary Leaf",

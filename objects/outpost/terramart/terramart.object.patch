@@ -337,6 +337,16 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "rosemaryleafMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : "rosemaryflowerpetalMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "rutabagaMFM" }
   },
   {
@@ -658,6 +668,11 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : [ "reedBMBsprout", 3 ] }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : [ "rosemaryMFMseed", 3 ] }
   },
   {
     "op" : "add",

@@ -1113,6 +1113,26 @@
   },
   {
     "op" : "add",
+    "path" : "/rosemaryMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "rosemaryMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.60, "item" : "rosemaryflowerpetalMFM"},
+          {"weight" : 0.30, "item" : "rosemaryleafMFM"},
+          {"weight" : 0.01, "item" : "rosemaryMFMseed"},
+          {"weight" : 0.09, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 3],
+          [0.4, 4]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/rutabagaMFMHarvest",
     "value" : [ [0, {
         "fill" : [

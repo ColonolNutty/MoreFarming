@@ -1,0 +1,11 @@
+{
+  "itemName" : "rosemaryflowerpetalMFM",
+  "rarity" : "Common",
+  "price" : 1.0,
+  "category" : "cookingIngredient",
+  "description" : "A purple flower petal, useful in cooking.",
+  "shortdescription" : "Flower Petal - Rosemary",
+  "inventoryIcon" : "rosemaryflowerpetalMFM.png",
+  "maxStack" : 1000,
+  "itemTags" : [ "reagent" ]
+}

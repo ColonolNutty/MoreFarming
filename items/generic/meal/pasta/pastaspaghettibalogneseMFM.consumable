@@ -1,12 +1,12 @@
 {
   "itemName" : "pastaspaghettibalogneseMFM",
   "rarity" : "Common",
-  "price" : 320.41,
+  "price" : 321.51,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Pasta topped with spaghetti balognese sauce.",
   "shortdescription" : "Pasta - Spaghetti Balognese",
-  "foodValue" : 144.46,
+  "foodValue" : 155.48,
   "effects" : [[
     {
       "effect" : "antidote",

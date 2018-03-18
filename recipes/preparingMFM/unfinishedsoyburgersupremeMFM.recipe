@@ -9,7 +9,8 @@
     { "item" : "cookingoilMFM", "count" : 1 },
     { "item" : "groundgarlicMFM", "count" : 1 },
     { "item" : "flourMFM", "count" : 1 },
-    { "item" : "boiledrice", "count" : 1 }
+    { "item" : "boiledrice", "count" : 1 },
+    { "item" : "groundparsleyMFM", "count" : 1 }
   ],
 	"output" : { "item" : "unfinishedsoyburgersupremeMFM", "count" : 1 },
 	"groups" : [ "preparingMFM" ]

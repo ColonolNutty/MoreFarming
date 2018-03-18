@@ -9,7 +9,8 @@
     { "item" : "okaraMFM", "count" : 4 },
     { "item" : "liquidwater", "count" : 1 },
     { "item" : "saltMFM", "count" : 1 },
-    { "item" : "groundgarlicMFM", "count" : 1 }
+    { "item" : "groundgarlicMFM", "count" : 1 },
+    { "item" : "groundparsleyMFM", "count" : 1 }
   ],
   "output" : { "item" : "rawsausageokaraMFM", "count" : 1 },
   "groups" : [ "pressingMFM" ]

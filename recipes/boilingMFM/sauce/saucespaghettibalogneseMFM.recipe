@@ -8,6 +8,7 @@
       { "item" : "choppedceleryMFM", "count" : 1 },
       { "item" : "choppedgarlicMFM", "count" : 1 },
       { "item" : "choppedtomatoMFM", "count" : 1 },
+      { "item" : "choppedsageleafMFM", "count" : 1 },
       { "item" : "pureetomatoMFM", "count" : 1 }
   ],
   "output" : { "item" : "saucespaghettibalogneseMFM", "count" : 1 },

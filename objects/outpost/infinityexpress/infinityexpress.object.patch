@@ -197,6 +197,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "rawbacon" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "raweelMFM" }
   },
   {

@@ -149,6 +149,25 @@
   },
   {
     "op" : "add",
+    "path" : "/blackpepperMFMHarvest",
+    "value" : [ [0, {
+        "fill" : [
+          {"item" : "blackpepperMFMseed"}
+        ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "blackpeppercornMFM"},
+          {"weight" : 0.01, "item" : "blackpepperMFMseed"},
+          {"weight" : 0.10, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 3],
+          [0.4, 4]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/blueberriesPBJHarvest",
     "value" : [ [0, {
         "fill" : [

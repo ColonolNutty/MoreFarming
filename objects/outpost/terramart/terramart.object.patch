@@ -482,6 +482,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : [ "blackpepperMFMseed", 3 ] }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : [ "blueberriesPBJseed", 3 ] }
   },
   {

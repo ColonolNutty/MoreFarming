@@ -1,0 +1,10 @@
+{
+  "itemName" : "blackpeppercornMFM",
+  "rarity" : "Common",
+  "price" : 3.0,
+  "category" : "cookingIngredient",
+  "description" : "Once grinded it can be used to spice up dishes.",
+  "shortdescription" : "Black Peppercorn",
+  "maxStack" : 1000,
+  "inventoryIcon" : "blackpeppercornMFM.png"
+}

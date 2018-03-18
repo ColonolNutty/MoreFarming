@@ -342,6 +342,16 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "sageflowerpetalMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : "sageleafMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "scallionMFM" }
   },
   {
@@ -653,6 +663,11 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : [ "rutabagaMFMseed", 3 ] }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : [ "sageMFMseed", 3 ] }
   },
   {
     "op" : "add",

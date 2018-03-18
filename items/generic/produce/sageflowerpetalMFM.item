@@ -1,0 +1,11 @@
+{
+  "itemName" : "sageflowerpetalMFM",
+  "rarity" : "Common",
+  "price" : 1.0,
+  "category" : "cookingIngredient",
+  "description" : "A bluish-purple flower petal, useful in cooking.",
+  "shortdescription" : "Flower Petal - Sage",
+  "inventoryIcon" : "sageflowerpetalMFM.png",
+  "maxStack" : 1000,
+  "itemTags" : [ "reagent" ]
+}

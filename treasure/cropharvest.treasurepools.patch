@@ -1133,6 +1133,27 @@
   },
   {
     "op": "add",
+    "path": "/sageMFMHarvest",
+    "value": [ [0, {
+        "fill" : [
+          {"item" : "sageflowerpetalMFM"},
+          {"item" : "sageleafMFM"}
+        ],
+        "pool" : [
+          {"weight" : 0.60, "item" : "sageflowerpetalMFM"},
+          {"weight" : 0.30, "item" : "sageleafMFM"},
+          {"weight" : 0.01, "item" : "sageMFMseed"},
+          {"weight" : 0.09, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 3],
+          [0.4, 4]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op": "add",
     "path": "/saguaroMFMHarvest",
     "value": [ [0, {
         "fill": [
@@ -1140,8 +1161,8 @@
         ],
         "pool" : [
           {"weight" : 0.80, "item" : "liquidwater"},
-          {"weight" : 0.1, "item" : "saguaroMFMseed"},
-          {"weight" : 0.1, "item" : "fullwood1"}
+          {"weight" : 0.01, "item" : "saguaroMFMseed"},
+          {"weight" : 0.10, "item" : "fullwood1"}
         ],
         "poolRounds" : [
           [0.6, 2],

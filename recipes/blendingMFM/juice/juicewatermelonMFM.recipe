@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "choppedwatermelonMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
+  ],
+  "output" : { "item" : "juicewatermelonMFM", "count" : 1 },
+  "groups" : [ "blendingMFM" ]
+}

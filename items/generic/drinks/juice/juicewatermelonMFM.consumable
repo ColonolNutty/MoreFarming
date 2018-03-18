@@ -1,0 +1,19 @@
+{
+  "itemName" : "juicewatermelonMFM",
+  "rarity" : "Common",
+  "price" : 53.5,
+  "category" : "drink",
+  "tooltipKind" : "food",
+  "description" : "(BLEND):-} Slightly sweet Watermelon juice.",
+  "shortdescription" : "Juice - Watermelon",
+  "foodValue" : 31.0,
+  "effects" : [[ ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "juicewatermelonMFM.png",
+  "emitters" : [ "drinking" ],
+  "handPosition" : [ 0, -4 ]
+}

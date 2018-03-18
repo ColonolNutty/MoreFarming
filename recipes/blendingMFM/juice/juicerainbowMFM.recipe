@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "redapplejuiceMFM", "count" : 1 },
+    { "item" : "orangejuiceMFM", "count" : 1 },
+    { "item" : "juicewatermelonMFM", "count" : 1 },
+    { "item" : "bananajuiceMFM", "count" : 1 },
+    { "item" : "grapejuice", "count" : 1 }
+  ],
+  "output" : { "item" : "juicerainbowMFM", "count" : 1 },
+  "groups" : [ "blendingMFM" ]
+}

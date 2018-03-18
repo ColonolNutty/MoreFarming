@@ -29,6 +29,7 @@
 			"objectSets" : [
         {
           "pool" : [
+            [1, "wildfinkelMFMseed" ],
             [1, "wildportobelloMFMseed" ]
           ],
           "parameters" : {

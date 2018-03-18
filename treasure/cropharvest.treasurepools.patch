@@ -1251,6 +1251,24 @@
   },
   {
     "op" : "add",
+    "path" : "/sesameMFMHarvest",
+    "value" : [ [0, {
+        "fill": [
+          {"item" : "sesameMFMseed"}
+        ], 
+        "pool" : [
+          {"weight" : 0.9, "item" : "sesameMFMseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.7, 3],
+          [0.3, 6]
+        ]
+      } ]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/shadowbulbMFMHarvest",
     "value" : [ [0, {
         "fill": [

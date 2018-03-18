@@ -1,0 +1,44 @@
+{
+  "objectName" : "wildsesameMFMseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 15.0,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "Produces many seeds.",
+  "shortdescription" : "Wild Sesame Seeds",
+  "floranDescription" : "Sesssame seedsss!",
+  "glitchDescription" : "Identify. Sesame seeds.",
+  "inventoryIcon" : "sesameMFMseedicon.png",
+  "largeImage" : "sesameMFMseed.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "sesameMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    { "duration" : [ 480, 480 ] },
+    { "duration" : [ 480, 480 ] },
+    {
+      "alts" : 5,
+      "duration" : [ 1440, 1440 ]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "sesameMFMHarvest",
+      "resetToStage" : 2
+    }
+  ],
+  "maxImmersion" : 0.25,
+  "breakDropOptions" : [[[ "sesameMFMseed", 1, { } ]]],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
+}

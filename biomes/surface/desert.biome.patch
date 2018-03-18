@@ -55,6 +55,7 @@
             [1, "wildcorianderMFMseed" ],
             [1, "wildjalapenopepperMFMseed" ],
 						[1, "wildradishMFMseed"],
+            [1, "wildsesameMFMseed" ],
 						[1, "wildthymeMFMseed"]
           ],
           "parameters" : {

@@ -722,6 +722,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : [ "sesameMFMseed", 3 ] }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : [ "shadowbulbMFMseed", 3 ] }
   },
   {

@@ -1,0 +1,17 @@
+{
+  "itemName" : "soupvoltboltMFM",
+  "rarity" : "Common",
+  "price" : 439.95,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} A metallic and coppery tasting soup.",
+  "shortdescription" : "Soup - Volt Bolt",
+  "foodValue" : 33.08,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "soupvoltboltMFM.png",
+  "handPosition" : [ 0, -3 ]
+}

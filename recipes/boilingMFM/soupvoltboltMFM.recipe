@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "choppeddiodiaMFM", "count" : 1 },
+    { "item" : "choppedboltbulbMFM", "count" : 1 },
+    { "item" : "choppedautomatoMFM", "count" : 1 },
+    { "item" : "ironore", "count" : 1 },
+    { "item" : "liquidoil", "count" : 2 }
+  ],
+  "output" : { "item" : "soupvoltboltMFM", "count" : 1 },
+  "groups" : [ "boilingMFM" ]
+}

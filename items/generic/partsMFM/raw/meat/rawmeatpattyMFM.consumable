@@ -1,12 +1,12 @@
 {
-  "itemName" : "rawtunaMFM",
+  "itemName" : "rawmeatpattyMFM",
   "rarity" : "Common",
-  "price" : 25.0,
+  "price" : 13.45,
   "category" : "food",
   "eventCategory" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "A raw tuna filet...slimy.",
-  "shortdescription" : "Raw Tuna",
+  "description" : "(PREP):-} Raw meat formed into a patty. Ready for frying.",
+  "shortdescription" : "Raw Patty - Alien Meat",
   "foodValue" : 10.0,
   "effects" : [[
     {
@@ -19,5 +19,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 0.5,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "rawtunaMFM.png"
+  "inventoryIcon" : "rawmeatpattyMFM.png"
 }

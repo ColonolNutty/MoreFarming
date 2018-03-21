@@ -2,21 +2,22 @@
   "itemName" : "rawstripofalienmeatMFM",
   "rarity" : "Common",
   "price" : 2.1,
-  "category" : "cookingIngredient",
+  "category" : "food",
+  "eventCategory" : "cookingIngredient",
   "tooltipKind" : "food",
-  "description" : "(CHOP):-} Raw alien meat chopped into strips.",
-  "shortdescription" : "Raw Strip of Alien Meat",
+  "description" : "(CHOP):-} Raw meat chopped into strips.",
+  "shortdescription" : "Raw Strip of Meat",
   "foodValue" : 10.0,
   "effects" : [[
     {
       "effect" : "foodpoison",
-      "duration" : 63
+      "duration" : 60
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
-  "rottingMultiplier" : 1,
+  "rottingMultiplier" : 0.6,
   "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "rawstripofalienmeatMFM.png"
 }

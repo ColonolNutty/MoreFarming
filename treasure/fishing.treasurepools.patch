@@ -87,6 +87,11 @@
     {
       "op" : "add",
       "path" : "/fishingrare/0/1/pool/-",
+      "value" : {"weight" : 0.1, "item" : "rawlobsterMFM"}
+    },
+    {
+      "op" : "add",
+      "path" : "/fishingrare/0/1/pool/-",
       "value" : {"weight" : 0.2, "item" : "rawoctopusMFM"}
     },
     {

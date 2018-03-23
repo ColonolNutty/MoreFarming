@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "butterMFM", "count" : 1 },
+    { "item" : "choppedonionMFM", "count" : 1 },
+    { "item" : "choppedpotatoMFM", "count" : 1 },
+    { "item" : "stockvegetableMFM", "count" : 1 },
+    { "item" : "parsleyleafMFM", "count" : 1 },
+    { "item" : "choppedcorianderMFM", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "blackpepperMFM", "count" : 1 },
+    { "item" : "lemonjuiceMFM", "count" : 2 }
+  ],
+  "output" : { "item" : "soupherbMFM", "count" : 1 },
+  "groups" : [ "boilingMFM" ]
+}

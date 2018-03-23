@@ -1,10 +1,10 @@
 {
   "itemName" : "steamedlobsterMFM",
   "rarity" : "Common",
-  "price" : 31.8,
+  "price" : 28.3,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(FRY):-} Lobster steamed to perfection.",
+  "description" : "(BOIL):-} Lobster steamed to perfection.",
   "shortdescription" : "Steamed Lobster",
   "foodValue" : 31.0,
   "builder" : "/items/buildscripts/buildfood.lua",

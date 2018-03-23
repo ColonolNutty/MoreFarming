@@ -10,7 +10,7 @@
   "effects" : [[
     {
       "effect" : "foodpoison",
-      "duration" : 60
+      "duration" : 63
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

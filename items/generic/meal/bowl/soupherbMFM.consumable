@@ -1,0 +1,43 @@
+{
+  "itemName" : "soupherbMFM",
+  "rarity" : "Common",
+  "price" : 543.98,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} A soup made with herbs boiled in lemon juice.",
+  "shortdescription" : "Soup - Herb",
+  "foodValue" : 203.59,
+  "effects" : [[
+    {
+      "effect" : "antidote",
+      "duration" : 5
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 168
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 36
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 65
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 36
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 165
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "soupherbMFM.png",
+  "handPosition" : [ 0, -3 ]
+}

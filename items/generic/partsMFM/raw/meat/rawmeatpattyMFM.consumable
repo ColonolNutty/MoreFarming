@@ -7,11 +7,11 @@
   "tooltipKind" : "food",
   "description" : "(PREP):-} Raw meat formed into a patty. Ready for frying.",
   "shortdescription" : "Raw Patty - Alien Meat",
-  "foodValue" : 10.0,
+  "foodValue" : 21.0,
   "effects" : [[
     {
       "effect" : "foodpoison",
-      "duration" : 60
+      "duration" : 66
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

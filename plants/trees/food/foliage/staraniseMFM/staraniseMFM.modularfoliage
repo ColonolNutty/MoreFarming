@@ -126,5 +126,29 @@
     }
   },
   "branchLeaves" : {
+    "branch1" : {
+      "image" : "branch1.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "branch2" : {
+      "image" : "branch2.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "branch3" : {
+      "image" : "branch3.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    }
   }
 }

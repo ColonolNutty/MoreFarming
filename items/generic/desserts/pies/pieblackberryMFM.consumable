@@ -1,12 +1,12 @@
 {
   "itemName" : "pieblackberryMFM",
   "rarity" : "Common",
-  "price" : 337.87,
+  "price" : 362.34,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Blackberry Pie, it has a semi-bitter taste and is very juicy.",
   "shortdescription" : "Pie - Blackberry",
-  "foodValue" : 223.28,
+  "foodValue" : 252.44,
   "effects" : [[
     {
       "effect" : "fireblock",
@@ -14,15 +14,15 @@
     },
     {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 77
+      "duration" : 113
     },
     {
       "effect" : "energyregen",
-      "duration" : 77
+      "duration" : 113
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 168
+      "duration" : 246
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

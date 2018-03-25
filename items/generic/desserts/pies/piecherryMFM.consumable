@@ -1,12 +1,12 @@
 {
   "itemName" : "piecherryMFM",
   "rarity" : "Common",
-  "price" : 216.32,
+  "price" : 240.8,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Cherry Pie, it has a semi-sweet taste and is very juicy.",
   "shortdescription" : "Pie - Cherry",
-  "foodValue" : 270.22,
+  "foodValue" : 299.38,
   "effects" : [[
     {
       "effect" : "camouflage25",
@@ -14,7 +14,7 @@
     },
     {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 353
+      "duration" : 389
     },
     {
       "effect" : "runboostfood",
@@ -22,11 +22,11 @@
     },
     {
       "effect" : "energyregen",
-      "duration" : 154
+      "duration" : 190
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 407
+      "duration" : 485
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

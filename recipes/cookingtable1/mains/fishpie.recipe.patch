@@ -3,7 +3,7 @@
 		"op": "replace",
 		"path": "/input",
 		"value": [
-      { "item" : "unfinishedpiefishMFM", "count" : 1 }
+      { "item" : "rawpiefishMFM", "count" : 1 }
 		]
 	},
   {

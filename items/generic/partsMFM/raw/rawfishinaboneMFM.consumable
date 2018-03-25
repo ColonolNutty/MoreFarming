@@ -7,6 +7,12 @@
   "description" : "(PREP):-} Boneboo filled with strips of raw fish. Ready for baking.",
   "shortdescription" : "Raw Fish in a Bone",
   "foodValue" : 21.0,
+  "effects" : [[
+    {
+      "effect" : "foodpoison",
+      "duration" : 66
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

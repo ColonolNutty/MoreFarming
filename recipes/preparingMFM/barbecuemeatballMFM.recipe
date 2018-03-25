@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cannedmeatballMFM", "count" : 1 },
+    { "item" : "saucebarbecueMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "barbecuemeatballMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

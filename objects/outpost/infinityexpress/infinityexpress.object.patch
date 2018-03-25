@@ -22,6 +22,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "cannedmeatballMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "caramelsquareMFM" }
   },
   {
@@ -268,6 +273,11 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : "saltMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : "saucebarbecueMFM" }
   },
   {
     "op" : "add",

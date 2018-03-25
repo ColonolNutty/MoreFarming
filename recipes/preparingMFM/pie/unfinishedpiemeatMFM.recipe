@@ -1,5 +1,6 @@
 {
   "input" : [
+    { "item" : "pielidMFM", "count" : 1 },
     { "item" : "peaMFM", "count" : 2 },
     { "item" : "rawstripofalienmeatMFM", "count" : 2 },
     { "item" : "choppedcarrotMFM", "count" : 2 },

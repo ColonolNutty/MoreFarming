@@ -8,6 +8,6 @@
     { "item" : "mashedpotato", "count" : 1 },
     { "item" : "pieshellMFM", "count" : 1 }
   ],
-  "output" : { "item" : "unfinishedpiemeatMFM", "count" : 1 },
+  "output" : { "item" : "rawpiemeatMFM", "count" : 1 },
   "groups" : [ "preparingMFM" ]
 }

@@ -1,0 +1,38 @@
+{
+  "itemName" : "unfinishedpiecherryMFM",
+  "rarity" : "Common",
+  "price" : 206.02,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A pie shell filled with cherries. Ready for baking.",
+  "shortdescription" : "Pie Unfinished - Cherry",
+  "foodValue" : 257.35,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 255
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 337
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 68
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 147
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 388
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "unfinishedpiecherryMFM.png"
+}

@@ -2,18 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/description",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/description",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/effects",
       "inverse" : true
     },
@@ -48,11 +36,6 @@
     }
   ],
   [
-    {
-      "op" : "replace",
-      "path" : "/description",
-      "value" : "Super hot to humans, super, super hot to everyone else."
-    },
     {
       "op" : "replace",
       "path" : "/effects",

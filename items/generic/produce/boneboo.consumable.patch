@@ -2,30 +2,6 @@
   [
     {
       "op" : "test",
-      "path" : "/description",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/description",
-      "value" : ""
-    }
-  ],
-  [
-    {
-      "op" : "test",
-      "path" : "/effects",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/effects",
-      "value" : [[ ]]
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/foodValue",
       "inverse" : true
     },
@@ -48,16 +24,6 @@
     }
   ],
   [
-    {
-      "op" : "replace",
-      "path" : "/description",
-      "value" : "Spooky."
-    },
-    {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [ ]
-    },
     {
       "op" : "replace",
       "path" : "/foodValue",

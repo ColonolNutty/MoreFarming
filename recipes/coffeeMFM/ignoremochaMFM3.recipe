@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "groundcoffeeMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "chocolateliquorMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "mocha", "count" : 1 },
+  "groups" : [ "coffeeMFM", "ExcludeFromRecipeBook" ],
+  "collectables" : { "cooking" : "mocha" }
+}

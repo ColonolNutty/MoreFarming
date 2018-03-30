@@ -1,0 +1,21 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "choppedchiliMFM", "count" : 1 },
+      { "item" : "choppedcoralcreepMFM", "count" : 1 },
+      { "item" : "choppedtomatoMFM", "count" : 1 },
+      { "item" : "cookingoilMFM", "count" : 1 },
+      { "item" : "currypowderMFM", "count" : 1 },
+      { "item" : "rice", "count" : 1 },
+      { "item" : "saltMFM", "count" : 1 },
+      { "item" : "liquidwater", "count" : 2 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "boilingMFM"
+	}
+]

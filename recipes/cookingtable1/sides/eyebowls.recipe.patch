@@ -1,0 +1,16 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "choppedeggshootMFM", "count" : 1 },
+      { "item" : "choppedoculemonMFM", "count" : 1 },
+      { "item" : "liquidwater", "count" : 2 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "boilingMFM"
+	}
+]

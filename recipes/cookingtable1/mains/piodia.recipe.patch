@@ -1,0 +1,19 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "piodiaMFM", "count" : 1 }
+		]
+	},
+  {
+    "op": "replace",
+    "path": "/output",
+    "value": { "item" : "piodia", "count" : 8 }
+  },
+  {
+    "op": "add",
+    "path": "/groups/-",
+    "value": "choppingMFM"
+  }
+]

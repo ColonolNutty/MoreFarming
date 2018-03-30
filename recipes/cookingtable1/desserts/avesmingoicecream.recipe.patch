@@ -1,0 +1,15 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "icecreamvanillaMFM", "count" : 1 },
+      { "item" : "avesmingojuice", "count" : 1 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "freezingMFM"
+	}
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "choppedavesmingoMFM", "count" : 1 },
+      { "item" : "liquidwater", "count" : 1 }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groups/-",
+    "value": "blendingMFM"
+  }
+]

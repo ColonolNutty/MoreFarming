@@ -1,0 +1,16 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+			{ "item" : "choppedboltbulbMFM", "count" : 1 },
+			{ "item" : "choppedcurrentcornMFM", "count" : 1 },
+			{ "item" : "choppeddiodiaMFM", "count" : 1 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "preparingMFM"
+	}
+]

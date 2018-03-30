@@ -1,0 +1,17 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "choppedavesmingoMFM", "count" : 1 },
+      { "item" : "choppedchiliMFM", "count" : 1 },
+      { "item" : "rawstripofalienmeatMFM", "count" : 1 },
+      { "item" : "liquidlava", "count" : 2 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "boilingMFM"
+	}
+]

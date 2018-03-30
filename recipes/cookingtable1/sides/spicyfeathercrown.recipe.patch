@@ -1,0 +1,15 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "choppedchiliMFM", "count" : 1 },
+      { "item" : "feathercrown", "count" : 1 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "bakingMFM"
+	}
+]

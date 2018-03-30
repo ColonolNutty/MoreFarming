@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "pizzapMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "pizzaslicepizzapMFM", "count" : 8 },
-  "groups" : [ "choppingMFM" ]
-}

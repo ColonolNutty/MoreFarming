@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "groundcoffeeMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 1 },
+    { "item" : "milk", "count" : 1 }
+  ],
+  "output" : { "item" : "flatwhite", "count" : 1 },
+  "groups" : [ "coffeeMFM", "ExcludeFromRecipeBook" ],
+  "collectables" : { "cooking" : "flatwhite" }
+}

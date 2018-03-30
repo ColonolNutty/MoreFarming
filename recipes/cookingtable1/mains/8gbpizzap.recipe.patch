@@ -1,0 +1,19 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "pizzapMFM", "count" : 1 }
+		]
+	},
+  {
+    "op": "replace",
+    "path": "/output",
+    "value": { "item" : "8gbpizzap", "count" : 8 }
+  },
+  {
+    "op": "add",
+    "path": "/groups/-",
+    "value": "choppingMFM"
+  }
+]

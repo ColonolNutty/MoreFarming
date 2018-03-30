@@ -1,0 +1,19 @@
+[
+  {
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "choppedbonebooMFM", "count" : 1 },
+      { "item" : "choppedfeathercrownMFM", "count" : 1 },
+      { "item" : "choppedoculemonMFM", "count" : 1 },
+      { "item" : "choppedneonmelonMFM", "count" : 1 },
+      { "item" : "choppedtoxictopMFM", "count" : 1 },
+      { "item" : "liquidwater", "count" : 2 }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groups/-",
+    "value": "blendingMFM"
+  }
+]

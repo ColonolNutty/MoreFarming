@@ -1,10 +1,10 @@
 {
-  "itemName" : "pizzaslicepizzapMFM",
+  "itemName" : "obsoletepizzaslicepizzapMFM",
   "rarity" : "Common",
   "price" : 117.96,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(CHOP):-} A hot slice of pizzap pizza.",
+  "description" : "A cold slice of pizzap pizza.",
   "shortdescription" : "Pizza Slice - Pizzap",
   "foodValue" : 17.96,
   "effects" : [[
@@ -18,5 +18,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "pizzaslicepizzapMFM.png"
+  "inventoryIcon" : "obsoletepizzaslicepizzapMFM.png"
 }

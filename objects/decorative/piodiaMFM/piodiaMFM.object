@@ -27,13 +27,13 @@
     }
   ],
   "breakDropOptions" : [[
-    [ "pizzaslicepiodiaMFM", 1, { } ],
-    [ "pizzaslicepiodiaMFM", 1, { } ],
-    [ "pizzaslicepiodiaMFM", 1, { } ],
-    [ "pizzaslicepiodiaMFM", 1, { } ],
-    [ "pizzaslicepiodiaMFM", 1, { } ],
-    [ "pizzaslicepiodiaMFM", 1, { } ],
-    [ "pizzaslicepiodiaMFM", 1, { } ],
-    [ "pizzaslicepiodiaMFM", 1, { } ]
+    [ "piodia", 1, { } ],
+    [ "piodia", 1, { } ],
+    [ "piodia", 1, { } ],
+    [ "piodia", 1, { } ],
+    [ "piodia", 1, { } ],
+    [ "piodia", 1, { } ],
+    [ "piodia", 1, { } ],
+    [ "piodia", 1, { } ]
   ]]
 }

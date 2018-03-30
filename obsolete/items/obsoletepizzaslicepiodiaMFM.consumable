@@ -1,10 +1,10 @@
 {
-  "itemName" : "pizzaslicepiodiaMFM",
+  "itemName" : "obsoletepizzaslicepiodiaMFM",
   "rarity" : "Common",
   "price" : 218.42,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(CHOP):-} A hot slice of piodia pizza.",
+  "description" : "A cold slice of piodia pizza.",
   "shortdescription" : "Pizza Slice - Piodia",
   "foodValue" : 17.96,
   "effects" : [[
@@ -22,5 +22,5 @@
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "pizzaslicepiodiaMFM.png"
+  "inventoryIcon" : "obsoletepizzaslicepiodiaMFM.png"
 }

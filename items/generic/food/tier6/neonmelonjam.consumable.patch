@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(BOIL):-} A tangy jam made from neonmelons."
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "lowgrav",
+          "duration" : 158
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 158
+        }
+      ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 93.03
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 151.41
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Jam - Neonmelon"
+    }
+  ]
+]

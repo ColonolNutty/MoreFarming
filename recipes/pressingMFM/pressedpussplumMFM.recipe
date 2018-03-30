@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "pussplum", "count" : 1 }
+  ],
+  "output" : { "item" : "pressedpussplumMFM", "count" : 1 },
+  "groups" : [ "pressingMFM" ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "wartweed", "count" : 1 }
+  ],
+  "output" : { "item" : "pressedwartweedMFM", "count" : 1 },
+  "groups" : [ "pressingMFM" ]
+}

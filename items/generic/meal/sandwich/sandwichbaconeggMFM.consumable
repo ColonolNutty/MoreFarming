@@ -1,24 +1,24 @@
 {
   "itemName" : "sandwichbaconeggMFM",
   "rarity" : "Common",
-  "price" : 236.67,
+  "price" : 167.3,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A breakfast sandwich containing bacon and eggs.",
   "shortdescription" : "Sandwich - Bacon and Eggs",
-  "foodValue" : 226.26,
+  "foodValue" : 158.95,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 70
+      "duration" : 72
     },
     {
       "effect" : "energyregen",
-      "duration" : 70
+      "duration" : 72
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 150
+      "duration" : 156
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

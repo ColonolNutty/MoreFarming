@@ -1,24 +1,24 @@
 {
   "itemName" : "cheesesliceMFM",
   "rarity" : "Common",
-  "price" : 22.25,
+  "price" : 4.91,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} A slice of cheese.",
   "shortdescription" : "Cheese Slice",
-  "foodValue" : 21.59,
+  "foodValue" : 10.0,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 35
+      "duration" : 37
     },
     {
       "effect" : "energyregen",
-      "duration" : 35
+      "duration" : 37
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 75
+      "duration" : 81
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

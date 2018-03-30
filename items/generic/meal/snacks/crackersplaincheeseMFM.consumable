@@ -1,28 +1,28 @@
 {
   "itemName" : "crackersplaincheeseMFM",
   "rarity" : "Common",
-  "price" : 29.31,
+  "price" : 11.1,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Plain crackers topped with cheese.",
   "shortdescription" : "Crackers Plain - Cheese",
-  "foodValue" : 33.17,
+  "foodValue" : 21.0,
   "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 38
+    },
     {
       "effect" : "camouflage25",
       "duration" : 33
     },
     {
-      "effect" : "maxenergyscalingboostfood",
-      "duration" : 36
-    },
-    {
       "effect" : "energyregen",
-      "duration" : 36
+      "duration" : 38
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 78
+      "duration" : 85
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

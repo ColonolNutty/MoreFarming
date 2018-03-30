@@ -1,24 +1,24 @@
 {
   "itemName" : "sandwichgrilledcheeseMFM",
   "rarity" : "Common",
-  "price" : 44.84,
+  "price" : 26.63,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FRY):-} Fried bread containing melted cheese.",
   "shortdescription" : "Sandwich - Grilled Cheese",
-  "foodValue" : 61.3,
+  "foodValue" : 49.13,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 72
+      "duration" : 74
     },
     {
       "effect" : "energyregen",
-      "duration" : 72
+      "duration" : 74
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 156
+      "duration" : 163
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

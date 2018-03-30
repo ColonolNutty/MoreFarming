@@ -58,24 +58,20 @@
       "path" : "/effects",
       "value" : [[
         {
-          "effect" : "lowgrav",
-          "duration" : 158
-        },
-        {
-          "effect" : "maxenergyscalingboostfood",
-          "duration" : 158
+          "effect" : "weakpoison",
+          "duration" : 15
         }
       ]]
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 93.03
+      "value" : 91.5
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 151.41
+      "value" : 471.66
     },
     {
       "op" : "replace",

@@ -62,12 +62,12 @@
           "duration" : 72
         },
         {
-          "effect" : "maxenergyscalingboostfood",
-          "duration" : 256
-        },
-        {
           "effect" : "camouflage25",
           "duration" : 35
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 258
         },
         {
           "effect" : "iceblock",
@@ -75,23 +75,23 @@
         },
         {
           "effect" : "energyregen",
-          "duration" : 37
+          "duration" : 39
         },
         {
           "effect" : "maxhealthscalingboostfood",
-          "duration" : 81
+          "duration" : 89
         }
       ]]
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 25.05
+      "value" : 15.77
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 45.36
+      "value" : 35.8
     },
     {
       "op" : "replace",

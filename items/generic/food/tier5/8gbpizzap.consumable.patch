@@ -51,31 +51,27 @@
     {
       "op" : "replace",
       "path" : "/description",
-      "value" : "(BOIL):-} A hot slice of pizzap pizza."
+      "value" : "(CHOP):-} A hot slice of pizzap pizza."
     },
     {
       "op" : "replace",
       "path" : "/effects",
       "value" : [[
         {
-          "effect" : "lowgrav",
-          "duration" : 158
-        },
-        {
-          "effect" : "maxenergyscalingboostfood",
-          "duration" : 158
+          "effect" : "camouflage25",
+          "duration" : 34
         }
       ]]
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 93.03
+      "value" : 17.96
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 151.41
+      "value" : 117.96
     },
     {
       "op" : "replace",

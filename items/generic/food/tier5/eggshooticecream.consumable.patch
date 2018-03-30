@@ -1,0 +1,102 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(PREP):-} Ice cream with the delightful taste of custard."
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "regeneration2",
+          "duration" : 35
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 148
+        },
+        {
+          "effect" : "maxenergyscalingboost",
+          "duration" : 35
+        },
+        {
+          "effect" : "runboostfood",
+          "duration" : 35
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 148
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 318
+        }
+      ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 97.85
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 221.38
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Ice Cream Cone - Eggshoot"
+    }
+  ]
+]

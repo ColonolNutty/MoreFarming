@@ -1,0 +1,90 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(BAKE):-} A pasty big enough to hold all your favourite metallic tasting vegetables."
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 37
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 37
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 81
+        }
+      ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 96.79
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 376.37
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Pastry - Rusty"
+    }
+  ]
+]

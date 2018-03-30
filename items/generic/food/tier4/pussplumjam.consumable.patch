@@ -55,27 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/effects",
-      "value" : [[
-        {
-          "effect" : "lowgrav",
-          "duration" : 158
-        },
-        {
-          "effect" : "maxenergyscalingboostfood",
-          "duration" : 158
-        }
-      ]]
-    },
-    {
-      "op" : "replace",
       "path" : "/foodValue",
       "value" : 93.03
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 151.41
+      "value" : 503.69
     },
     {
       "op" : "replace",

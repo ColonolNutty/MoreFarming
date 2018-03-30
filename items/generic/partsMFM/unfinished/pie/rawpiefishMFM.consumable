@@ -1,24 +1,24 @@
 {
   "itemName" : "rawpiefishMFM",
   "rarity" : "Common",
-  "price" : 664.62,
+  "price" : 595.25,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A pie shell filled with raw fish. Ready for baking.",
   "shortdescription" : "Pie Raw - Fish",
-  "foodValue" : 612.93,
+  "foodValue" : 545.62,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",
-      "duration" : 320
+      "duration" : 322
     },
     {
       "effect" : "energyregen",
-      "duration" : 320
+      "duration" : 322
     },
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 686
+      "duration" : 692
     },
     {
       "effect" : "foodpoison",

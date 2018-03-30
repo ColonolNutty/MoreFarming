@@ -51,31 +51,31 @@
     {
       "op" : "replace",
       "path" : "/description",
-      "value" : "(BOIL):-} A hot slice of piodia pizza."
+      "value" : "(CHOP):-} A hot slice of piodia pizza."
     },
     {
       "op" : "replace",
       "path" : "/effects",
       "value" : [[
         {
-          "effect" : "lowgrav",
-          "duration" : 158
+          "effect" : "camouflage25",
+          "duration" : 34
         },
         {
-          "effect" : "maxenergyscalingboostfood",
-          "duration" : 158
+          "effect" : "weakpoison",
+          "duration" : 21
         }
       ]]
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 93.03
+      "value" : 17.96
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 151.41
+      "value" : 218.42
     },
     {
       "op" : "replace",

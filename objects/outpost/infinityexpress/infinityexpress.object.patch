@@ -17,6 +17,11 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
+    "value" : { "item" : "bunhotdogMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
     "value" : { "item" : "butterMFM" }
   },
   {
@@ -163,6 +168,11 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : "ketchupMFM" }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : "mustardMFM" }
   },
   {
     "op" : "add",

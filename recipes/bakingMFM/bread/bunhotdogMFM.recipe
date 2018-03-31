@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "doughMFM", "count" : 3 },
+    { "item" : "saltMFM", "count" : 2 },
+    { "item" : "yeastMFM", "count" : 2 }
+  ],
+  "output" : { "item" : "bunhotdogMFM", "count" : 8 },
+  "groups" : [ "bakingMFM" ]
+}

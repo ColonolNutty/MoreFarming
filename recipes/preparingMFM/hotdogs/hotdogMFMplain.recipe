@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "bunhotdogMFM", "count" : 1 },
+    { "item" : "cookedsausagealienpoultryMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "hotdogMFMplain", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

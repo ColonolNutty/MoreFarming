@@ -1,0 +1,43 @@
+{
+  "itemName" : "hotdogMFMmr",
+  "rarity" : "Common",
+  "price" : 311.05,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A sausage in a bun coated with mustard and relish.",
+  "shortdescription" : "Hotdog",
+  "foodValue" : 110.01,
+  "effects" : [[
+    {
+      "effect" : "antidote",
+      "duration" : 5
+    },
+    {
+      "effect" : "rage",
+      "duration" : 33
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 33
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 51
+    },
+    {
+      "effect" : "burning",
+      "duration" : 33
+    },
+    {
+      "effect" : "iceblock",
+      "duration" : 69
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "hotdogMFMmr.png",
+  "handPosition" : [ 0, -4 ]
+}

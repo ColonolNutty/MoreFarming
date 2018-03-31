@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "hotdogMFMr", "count" : 1 },
+    { "item" : "mustardMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "hotdogMFMmr", "count" : 1 },
+  "groups" : [ "preparingMFM", "ExcludeFromRecipeBook" ]
+}

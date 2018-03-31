@@ -1220,7 +1220,7 @@
         "pool" : [
           {"weight" : 0.80, "item" : "liquidwater"},
           {"weight" : 0.01, "item" : "saguaroMFMseed"},
-          {"weight" : 0.10, "item" : "fullwood1"}
+          {"weight" : 0.10, "item" : "cactiblock"}
         ],
         "poolRounds" : [
           [0.6, 2],

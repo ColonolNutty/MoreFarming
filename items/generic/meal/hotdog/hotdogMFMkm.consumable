@@ -1,0 +1,27 @@
+{
+  "itemName" : "hotdogMFMkm",
+  "rarity" : "Common",
+  "price" : 245.51,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A sausage in a bun coated with ketchup and mustard.",
+  "shortdescription" : "Hotdog",
+  "foodValue" : 95.37,
+  "effects" : [[
+    {
+      "effect" : "antidote",
+      "duration" : 5
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 33
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "hotdogMFMkm.png",
+  "handPosition" : [ 0, -4 ]
+}

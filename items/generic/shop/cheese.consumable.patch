@@ -13,9 +13,43 @@
   ],
   [
     {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
       "op" : "replace",
       "path" : "/description",
       "value" : "(CHURN):-} A wedge of cheese."
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 18.13
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 18.69
     }
   ]
 ]

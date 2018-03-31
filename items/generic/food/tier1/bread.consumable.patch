@@ -39,17 +39,17 @@
     {
       "op" : "replace",
       "path" : "/description",
-      "value" : "(BAKE):-} Just objectively the best thing ever."
+      "value" : "(BAKE):-} Mmm, fresh out of the oven."
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 157.36
+      "value" : 22.05
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 204.36
+      "value" : 10.36
     }
   ]
 ]

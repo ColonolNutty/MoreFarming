@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "soda", "count" : 1 },
+    { "item" : "reefjuice", "count" : 1 }
+  ],
+  "output" : { "item" : "reefcola", "count" : 1 },
+  "groups" : [ "blendingMFM" ]
+}

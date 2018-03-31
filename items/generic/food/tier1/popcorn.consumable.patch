@@ -14,6 +14,18 @@
   [
     {
       "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "test",
       "path" : "/foodValue",
       "inverse" : true
     },
@@ -39,17 +51,17 @@
     {
       "op" : "replace",
       "path" : "/description",
-      "value" : "(BAKE):-} Just objectively the best thing ever."
+      "value" : "(BAKE):-} Pop it like it's hot!"
     },
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 157.36
+      "value" : 11.58
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 204.36
+      "value" : 69.46
     }
   ]
 ]

@@ -1,18 +1,18 @@
 {
-  "itemName" : "juicewatermelonMFM",
+  "itemName" : "juiceoculemonMFM",
   "rarity" : "Common",
-  "price" : 18.59,
+  "price" : 222.55,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "(BLEND):-} Slightly sweet Watermelon juice.",
-  "shortdescription" : "Juice - Watermelon",
-  "foodValue" : 31.0,
+  "description" : "(BLEND):-} A glass of oculemon juice.",
+  "shortdescription" : "Juice - Oculemon",
+  "foodValue" : 31.53,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "juicewatermelonMFM.png",
+  "inventoryIcon" : "juiceoculemonMFM.png",
   "emitters" : [ "drinking" ],
-  "handPosition" : [ 0, -4 ]
+  "handPosition" : [ 0, -3 ]
 }

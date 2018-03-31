@@ -1,7 +1,7 @@
 {
   "itemName" : "watermelonMFM",
   "rarity" : "Common",
-  "price" : 280.0,
+  "price" : 90.0,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",

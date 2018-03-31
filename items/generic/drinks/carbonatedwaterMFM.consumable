@@ -1,17 +1,17 @@
 {
-  "itemName" : "juicerainbowMFM",
+  "itemName" : "carbonatedwaterMFM",
   "rarity" : "Common",
-  "price" : 333.74,
+  "price" : 1.02,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "(BLEND):-} A combination of other juices.",
-  "shortdescription" : "Juice - Rainbow",
-  "foodValue" : 164.98,
+  "description" : "(BLEND):-} Water blended with oxygen.",
+  "shortdescription" : "Carbonated Water",
+  "foodValue" : 10.17,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
   "rottingMultiplier" : 1,
   "blockingEffects" : [ "wellfed" ],
-  "inventoryIcon" : "juicerainbowMFM.png",
+  "inventoryIcon" : "carbonatedwaterMFM.png",
   "emitters" : [ "drinking" ]
 }

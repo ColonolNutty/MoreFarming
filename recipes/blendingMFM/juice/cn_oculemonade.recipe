@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "juiceoculemonMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 1 }
+  ],
+  "output" : { "item" : "oculemonade", "count" : 1 },
+  "groups" : [ "blendingMFM" ]
+}

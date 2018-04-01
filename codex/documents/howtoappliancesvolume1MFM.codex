@@ -37,7 +37,7 @@ After placing an appliance, interact with it. You will see a number of boxes on 
 See next page when nothing appears in the output...",
 
 "^blue;How do I use an appliance? II^white;
-If nothing appears, it means there is no recipe with that combination, or more unlikely, there is a bug in which I (ColonolNutty) screwed up somewhere. In this case, the workaround is to utilize the ^orange;Cheater's Recipe Book^white; and ^cyan;post the recipe you were trying to make in the Steam Workshop comments section^white;",
+If nothing appears, it means there is no recipe with that combination, or more unlikely, there is a bug in which I (ColonolNutty) screwed up somewhere. In this case, the workaround is to utilize the ^orange;Magic Recipe Book^white; and ^cyan;post the recipe you were trying to make in the Steam Workshop comments section or Chucklefish Forums mod page^white;",
 
 "^blue;Example Appliance Use^white;
 For instance, when looking at the ^orange;Hand Mill (Mill)^white;, if you place one ^green;Potato^white; in one of the boxes on the left. The result box (The one on the bottom right) will show ^green;Flour^white;. As soon as you pick up the ^green;Flour^white; to drag it to your inventory, the ingredients on the left will be consumed. The amount of ingredients consumed depends on what the recipe specifies. In this case, it will consume one ^green;Potato^white;.",

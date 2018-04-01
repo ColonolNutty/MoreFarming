@@ -1,12 +1,12 @@
 {
   "itemName" : "batterdessertMFM",
   "rarity" : "Common",
-  "price" : 40.09,
+  "price" : 38.8,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A batter for making desserts. Suitable for coating and frying.",
   "shortdescription" : "Batter - Dessert",
-  "foodValue" : 38.47,
+  "foodValue" : 27.78,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

@@ -55,23 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/effects",
-      "value" : [[
-        {
-          "effect" : "maxhealthscalingboostfood",
-          "duration" : 180
-        }
-      ]]
-    },
-    {
-      "op" : "replace",
       "path" : "/foodValue",
-      "value" : 25.17
+      "value" : 24.83
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 245.42
+      "value" : 244.66
     }
   ]
 ]

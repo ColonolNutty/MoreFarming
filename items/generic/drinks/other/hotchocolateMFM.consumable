@@ -1,26 +1,12 @@
 {
   "itemName" : "hotchocolateMFM",
   "rarity" : "Common",
-  "price" : 538.48,
+  "price" : 1.0,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Good for cold days.",
   "shortdescription" : "Hot Chocolate",
-  "foodValue" : 470.91,
-  "effects" : [[
-    {
-      "effect" : "maxenergyscalingboostfood",
-      "duration" : 171
-    },
-    {
-      "effect" : "energyregen",
-      "duration" : 171
-    },
-    {
-      "effect" : "maxhealthscalingboostfood",
-      "duration" : 363
-    }
-  ]],
+  "foodValue" : 10.0,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

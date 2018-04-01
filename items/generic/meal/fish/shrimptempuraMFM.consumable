@@ -1,20 +1,20 @@
 {
   "itemName" : "shrimptempuraMFM",
   "rarity" : "Common",
-  "price" : 83.15,
+  "price" : 80.21,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(FRY):-} Crispy golden shrimp tempura. Yum!",
   "shortdescription" : "Shrimp Tempura",
-  "foodValue" : 112.12,
+  "foodValue" : 86.38,
   "effects" : [[
-    {
-      "effect" : "camouflage25",
-      "duration" : 32
-    },
     {
       "effect" : "maxenergyscalingboostfood",
       "duration" : 37
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 32
     },
     {
       "effect" : "runboostfood",

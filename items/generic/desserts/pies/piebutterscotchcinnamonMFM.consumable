@@ -1,12 +1,12 @@
 {
   "itemName" : "piebutterscotchcinnamonMFM",
   "rarity" : "Common",
-  "price" : 470.47,
+  "price" : 449.1,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Butterscotch pie with a hint of cinnamon, tastes better with the whipped cream.",
   "shortdescription" : "Pie - Butterscotch",
-  "foodValue" : 457.92,
+  "foodValue" : 281.75,
   "effects" : [[
     {
       "effect" : "regeneration2",

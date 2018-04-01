@@ -1,12 +1,12 @@
 {
   "itemName" : "milkshakeblueberryMFM",
   "rarity" : "Common",
-  "price" : 157.67,
+  "price" : 151.46,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A milkshake made with blueberries. Yum!",
   "shortdescription" : "Milkshake - Blueberry",
-  "foodValue" : 110.52,
+  "foodValue" : 57.41,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

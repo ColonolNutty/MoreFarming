@@ -1,12 +1,12 @@
 {
   "itemName" : "icecreamvanillachocolatechipMFM",
   "rarity" : "Common",
-  "price" : 145.74,
+  "price" : 95.34,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} Vanilla and chocolate chip ice cream.",
   "shortdescription" : "Ice Cream - Vanilla Chocolate Chip",
-  "foodValue" : 114.3,
+  "foodValue" : 65.49,
   "effects" : [[
     {
       "effect" : "regeneration2",

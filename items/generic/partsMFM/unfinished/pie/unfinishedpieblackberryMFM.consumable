@@ -1,12 +1,12 @@
 {
   "itemName" : "unfinishedpieblackberryMFM",
   "rarity" : "Common",
-  "price" : 321.78,
+  "price" : 314.71,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A pie shell filled with blackberries. Ready for baking.",
   "shortdescription" : "Pie Unfinished - Blackberry",
-  "foodValue" : 212.65,
+  "foodValue" : 152.88,
   "effects" : [[
     {
       "effect" : "fireblock",

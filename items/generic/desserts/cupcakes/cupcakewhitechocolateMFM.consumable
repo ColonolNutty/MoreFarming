@@ -1,12 +1,12 @@
 {
   "itemName" : "cupcakewhitechocolateMFM",
   "rarity" : "Common",
-  "price" : 262.23,
+  "price" : 166.16,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A cupcake made of delicious white chocolate. It has a butterfly design on it.",
   "shortdescription" : "Cupcake - White Chocolate",
-  "foodValue" : 208.39,
+  "foodValue" : 144.13,
   "effects" : [[
     {
       "effect" : "regeneration2",

@@ -1,12 +1,12 @@
 {
   "itemName" : "hotdogMFMkor",
   "rarity" : "Common",
-  "price" : 532.38,
+  "price" : 531.08,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sausage in a bun coated with ketchup, chopped onions, and relish.",
   "shortdescription" : "Hotdog",
-  "foodValue" : 148.57,
+  "foodValue" : 146.74,
   "effects" : [[
     {
       "effect" : "rage",
@@ -17,12 +17,12 @@
       "duration" : 66
     },
     {
-      "effect" : "maxenergyscalingboostfood",
-      "duration" : 51
-    },
-    {
       "effect" : "burning",
       "duration" : 33
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 51
     },
     {
       "effect" : "iceblock",

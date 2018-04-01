@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledradishMFM",
   "rarity" : "Common",
-  "price" : 35.13,
+  "price" : 33.08,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A radish boiled in water.",
   "shortdescription" : "Boiled Radish",
-  "foodValue" : 31.53,
+  "foodValue" : 11.03,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

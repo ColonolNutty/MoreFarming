@@ -1,24 +1,24 @@
 {
   "itemName" : "icecreamconechocolateswirlMFM",
   "rarity" : "Common",
-  "price" : 56.99,
+  "price" : 41.57,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A scoop of chocolate swirl ice cream on a waffle cone.",
   "shortdescription" : "Ice Cream Cone - Chocolate Swirl",
-  "foodValue" : 42.49,
+  "foodValue" : 31.27,
   "effects" : [[
     {
       "effect" : "regeneration2",
       "duration" : 35
     },
     {
-      "effect" : "maxenergyscalingboost",
-      "duration" : 35
-    },
-    {
       "effect" : "maxenergyscalingboostfood",
       "duration" : 148
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 35
     },
     {
       "effect" : "runboostfood",

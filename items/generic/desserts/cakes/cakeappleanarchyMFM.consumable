@@ -1,12 +1,12 @@
 {
   "itemName" : "cakeappleanarchyMFM",
   "rarity" : "Uncommon",
-  "price" : 997.98,
+  "price" : 981.58,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sweet 'upside down' cake made with apple and okara.",
   "shortdescription" : "Cake - Apple Anarchy",
-  "foodValue" : 608.78,
+  "foodValue" : 472.8,
   "effects" : [[
     {
       "effect" : "poisonblock",

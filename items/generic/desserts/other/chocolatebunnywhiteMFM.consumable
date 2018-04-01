@@ -1,12 +1,12 @@
 {
   "itemName" : "chocolatebunnywhiteMFM",
   "rarity" : "Common",
-  "price" : 421.05,
+  "price" : 236.32,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A cute little bunny made of chocolate. Don't you just want to watch it melt in the sun?",
   "shortdescription" : "Chocolate Bunny - White",
-  "foodValue" : 323.7,
+  "foodValue" : 220.15,
   "effects" : [[
     {
       "effect" : "regeneration2",

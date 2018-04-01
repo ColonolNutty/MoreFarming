@@ -1,24 +1,24 @@
 {
   "itemName" : "cupcakecoffeeMFM",
   "rarity" : "Common",
-  "price" : 191.49,
+  "price" : 186.51,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A cupcake with coffee icing.",
   "shortdescription" : "Cupcake - Coffee",
-  "foodValue" : 120.06,
+  "foodValue" : 78.2,
   "effects" : [[
     {
       "effect" : "regeneration2",
       "duration" : 35
     },
     {
-      "effect" : "maxenergyscalingboost",
-      "duration" : 35
-    },
-    {
       "effect" : "maxenergyscalingboostfood",
       "duration" : 113
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 35
     },
     {
       "effect" : "runboostfood",

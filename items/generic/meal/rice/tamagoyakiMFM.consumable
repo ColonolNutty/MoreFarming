@@ -1,20 +1,20 @@
 {
   "itemName" : "tamagoyakiMFM",
   "rarity" : "Common",
-  "price" : 502.74,
+  "price" : 499.79,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FRY):-} Several layers of cooked egg rolled together with Sugar and Tamari.",
   "shortdescription" : "Tamagoyaki",
-  "foodValue" : 144.69,
+  "foodValue" : 122.09,
   "effects" : [[
-    {
-      "effect" : "maxenergyscalingboostfood",
-      "duration" : 33
-    },
     {
       "effect" : "camouflage25",
       "duration" : 32
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 33
     },
     {
       "effect" : "energyregen",

@@ -14,6 +14,18 @@
   [
     {
       "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "test",
       "path" : "/foodValue",
       "inverse" : true
     },
@@ -43,13 +55,31 @@
     },
     {
       "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 36
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 36
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 78
+        }
+      ]]
+    },
+    {
+      "op" : "replace",
       "path" : "/foodValue",
-      "value" : 28.63
+      "value" : 21.53
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 102.69
+      "value" : 101.56
     }
   ]
 ]

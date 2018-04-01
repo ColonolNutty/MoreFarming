@@ -1,12 +1,12 @@
 {
   "itemName" : "unfinishedpiepumpkinMFM",
   "rarity" : "Common",
-  "price" : 393.46,
+  "price" : 380.3,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A pie shell filled with chopped pumpkins and a few other things. Ready for baking.",
   "shortdescription" : "Pie Unfinished - Pumpkin",
-  "foodValue" : 346.9,
+  "foodValue" : 242.58,
   "effects" : [[
     {
       "effect" : "regeneration2",

@@ -55,27 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/effects",
-      "value" : [[
-        {
-          "effect" : "thorns",
-          "duration" : 383
-        },
-        {
-          "effect" : "jumpboostfood",
-          "duration" : 383
-        }
-      ]]
-    },
-    {
-      "op" : "replace",
       "path" : "/foodValue",
-      "value" : 76.46
+      "value" : 76.13
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 576.17
+      "value" : 575.41
     },
     {
       "op" : "replace",

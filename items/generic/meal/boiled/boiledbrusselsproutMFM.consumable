@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledbrusselsproutMFM",
   "rarity" : "Common",
-  "price" : 79.22,
+  "price" : 77.18,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Brussel sprouts boiled in water.",
   "shortdescription" : "Boiled Brussel Sprouts",
-  "foodValue" : 31.53,
+  "foodValue" : 11.03,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

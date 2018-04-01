@@ -1,12 +1,12 @@
 {
   "itemName" : "veggieburgerMFM",
   "rarity" : "Common",
-  "price" : 133.19,
+  "price" : 124.76,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A vegetarian version of a juicy hamburger.",
   "shortdescription" : "Burger - Veggie",
-  "foodValue" : 143.27,
+  "foodValue" : 67.41,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

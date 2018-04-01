@@ -1,12 +1,12 @@
 {
   "itemName" : "waffleconeMFM",
   "rarity" : "Common",
-  "price" : 34.0,
+  "price" : 32.71,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A cone with a waffle pattern.",
   "shortdescription" : "Waffle Cone",
-  "foodValue" : 30.47,
+  "foodValue" : 19.78,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

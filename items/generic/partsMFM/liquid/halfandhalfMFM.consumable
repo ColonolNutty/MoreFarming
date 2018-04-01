@@ -1,12 +1,12 @@
 {
   "itemName" : "halfandhalfMFM",
   "rarity" : "Common",
-  "price" : 20.51,
+  "price" : 19.27,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A mixture of milk and the creamiest of creams",
   "shortdescription" : "Half-and-half",
-  "foodValue" : 19.9,
+  "foodValue" : 10.0,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

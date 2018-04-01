@@ -1,12 +1,12 @@
 {
   "itemName" : "unfinishedpieblueberryMFM",
   "rarity" : "Common",
-  "price" : 414.18,
+  "price" : 404.18,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A pie shell filled with blueberries. Ready for baking.",
   "shortdescription" : "Pie Unfinished - Blueberry",
-  "foodValue" : 270.38,
+  "foodValue" : 188.27,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

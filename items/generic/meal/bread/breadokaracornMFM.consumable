@@ -1,12 +1,12 @@
 {
   "itemName" : "breadokaracornMFM",
   "rarity" : "Uncommon",
-  "price" : 630.47,
+  "price" : 611.63,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Corn bread made with okara.",
   "shortdescription" : "Bread - Okara Corn",
-  "foodValue" : 409.85,
+  "foodValue" : 250.44,
   "effects" : [[
     {
       "effect" : "camouflage25",

@@ -1,24 +1,24 @@
 {
   "itemName" : "caramelMFM",
   "rarity" : "Common",
-  "price" : 83.51,
+  "price" : 80.42,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(FRY):-} Its sticky..!",
   "shortdescription" : "Caramel",
-  "foodValue" : 80.53,
+  "foodValue" : 63.03,
   "effects" : [[
     {
       "effect" : "regeneration2",
       "duration" : 33
     },
     {
-      "effect" : "maxenergyscalingboost",
-      "duration" : 33
-    },
-    {
       "effect" : "maxenergyscalingboostfood",
       "duration" : 108
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 33
     },
     {
       "effect" : "runboostfood",

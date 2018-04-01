@@ -1,24 +1,24 @@
 {
   "itemName" : "milkshakevanillaMFM",
   "rarity" : "Common",
-  "price" : 123.82,
+  "price" : 117.18,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A milkshake made from vanilla beans. Yum!",
   "shortdescription" : "Milkshake - Vanilla",
-  "foodValue" : 110.0,
+  "foodValue" : 56.89,
   "effects" : [[
     {
       "effect" : "regeneration2",
       "duration" : 33
     },
     {
-      "effect" : "maxenergyscalingboostfood",
-      "duration" : 69
-    },
-    {
       "effect" : "maxenergyscalingboost",
       "duration" : 33
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 69
     },
     {
       "effect" : "runboostfood",

@@ -55,23 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/effects",
-      "value" : [[
-        {
-          "effect" : "thorns",
-          "duration" : 180
-        }
-      ]]
-    },
-    {
-      "op" : "replace",
       "path" : "/foodValue",
-      "value" : 31.53
+      "value" : 11.03
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 35.13
+      "value" : 33.08
     },
     {
       "op" : "replace",

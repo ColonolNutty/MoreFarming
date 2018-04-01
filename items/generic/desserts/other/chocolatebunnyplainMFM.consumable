@@ -1,12 +1,12 @@
 {
   "itemName" : "chocolatebunnyplainMFM",
   "rarity" : "Common",
-  "price" : 418.94,
+  "price" : 232.22,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A cute little bunny made of plain chocolate. Don't you just want to bite into it?",
   "shortdescription" : "Chocolate Bunny - Plain",
-  "foodValue" : 322.59,
+  "foodValue" : 179.15,
   "effects" : [[
     {
       "effect" : "regeneration2",

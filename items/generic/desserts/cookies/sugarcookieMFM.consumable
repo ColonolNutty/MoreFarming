@@ -1,12 +1,12 @@
 {
   "itemName" : "sugarcookieMFM",
   "rarity" : "Common",
-  "price" : 9.49,
+  "price" : 9.29,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} I just can't get enough of these.",
   "shortdescription" : "Cookie - Sugar",
-  "foodValue" : 10.55,
+  "foodValue" : 10.0,
   "effects" : [[
     {
       "effect" : "regeneration2",

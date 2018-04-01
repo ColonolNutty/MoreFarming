@@ -58,10 +58,6 @@
       "path" : "/effects",
       "value" : [[
         {
-          "effect" : "poisonblock",
-          "duration" : 69
-        },
-        {
           "effect" : "maxenergyscalingboostfood",
           "duration" : 338
         },
@@ -78,12 +74,12 @@
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 572.9
+      "value" : 311.24
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 625.01
+      "value" : 594.11
     },
     {
       "op" : "replace",

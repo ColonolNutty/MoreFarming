@@ -1,24 +1,24 @@
 {
   "itemName" : "eggnogMFM",
   "rarity" : "Common",
-  "price" : 306.31,
+  "price" : 293.77,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A delicious drink, even when it's not Christmas!",
   "shortdescription" : "Eggnog",
-  "foodValue" : 256.26,
+  "foodValue" : 152.57,
   "effects" : [[
     {
       "effect" : "regeneration2",
       "duration" : 33
     },
     {
-      "effect" : "maxenergyscalingboost",
-      "duration" : 33
-    },
-    {
       "effect" : "maxenergyscalingboostfood",
       "duration" : 136
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 33
     },
     {
       "effect" : "runboostfood",

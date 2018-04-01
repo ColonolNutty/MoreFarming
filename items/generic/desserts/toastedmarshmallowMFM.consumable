@@ -1,12 +1,12 @@
 {
   "itemName" : "toastedmarshmallowMFM",
   "rarity" : "Common",
-  "price" : 8.64,
+  "price" : 7.99,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A staple camping food.",
   "shortdescription" : "Toasted Marshmallow",
-  "foodValue" : 12.68,
+  "foodValue" : 10.5,
   "effects" : [[
     {
       "effect" : "regeneration2",

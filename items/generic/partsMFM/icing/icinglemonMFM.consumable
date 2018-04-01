@@ -1,12 +1,12 @@
 {
   "itemName" : "icinglemonMFM",
   "rarity" : "Common",
-  "price" : 92.88,
+  "price" : 90.3,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Lemon flavoured icing. Sour!",
   "shortdescription" : "Icing - Lemon",
-  "foodValue" : 43.61,
+  "foodValue" : 22.08,
   "effects" : [[
     {
       "effect" : "regeneration2",

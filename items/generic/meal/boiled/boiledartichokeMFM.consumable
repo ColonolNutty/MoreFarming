@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledartichokeMFM",
   "rarity" : "Common",
-  "price" : 90.25,
+  "price" : 88.2,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} An artichoke boiled in water.",
   "shortdescription" : "Boiled Artichoke",
-  "foodValue" : 31.53,
+  "foodValue" : 11.03,
   "effects" : [[
     {
       "effect" : "regeneration1",

@@ -1,12 +1,12 @@
 {
   "itemName" : "stockvegetableMFM",
   "rarity" : "Common",
-  "price" : 206.01,
+  "price" : 203.96,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Reduced vegetables. Flavoursome stock ready for use.",
   "shortdescription" : "Stock - Vegetable",
-  "foodValue" : 64.07,
+  "foodValue" : 43.58,
   "effects" : [[
     {
       "effect" : "antidote",

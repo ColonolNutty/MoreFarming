@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledturnipMFM",
   "rarity" : "Common",
-  "price" : 35.13,
+  "price" : 33.08,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A turnip boiled in water.",
   "shortdescription" : "Boiled Turnip",
-  "foodValue" : 31.53,
+  "foodValue" : 11.03,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

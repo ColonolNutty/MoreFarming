@@ -1,12 +1,12 @@
 {
   "itemName" : "hotdogMFMor",
   "rarity" : "Common",
-  "price" : 334.45,
+  "price" : 333.14,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sausage in a bun coated with chopped onions and relish.",
   "shortdescription" : "Hotdog",
-  "foodValue" : 105.53,
+  "foodValue" : 103.69,
   "effects" : [[
     {
       "effect" : "rage",
@@ -17,12 +17,12 @@
       "duration" : 66
     },
     {
-      "effect" : "maxenergyscalingboostfood",
-      "duration" : 51
-    },
-    {
       "effect" : "burning",
       "duration" : 33
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 51
     },
     {
       "effect" : "iceblock",

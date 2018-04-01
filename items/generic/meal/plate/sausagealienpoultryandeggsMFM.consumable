@@ -1,12 +1,12 @@
 {
   "itemName" : "sausagealienpoultryandeggsMFM",
   "rarity" : "Uncommon",
-  "price" : 137.42,
+  "price" : 131.82,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A plate of steak and poultry sausage with a side of scrambled eggs.",
   "shortdescription" : "Sausage and Eggs",
-  "foodValue" : 131.54,
+  "foodValue" : 82.89,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

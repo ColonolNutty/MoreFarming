@@ -1,12 +1,12 @@
 {
   "itemName" : "crunchyokaracarobolaMFM",
   "rarity" : "Common",
-  "price" : 409.01,
+  "price" : 400.41,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A crunchy treat that goes well with milk as a morning cereal.",
   "shortdescription" : "Crunchy Okara Carobola",
-  "foodValue" : 216.33,
+  "foodValue" : 147.94,
   "effects" : [[
     {
       "effect" : "regeneration2",

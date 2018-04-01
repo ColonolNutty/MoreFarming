@@ -1,24 +1,24 @@
 {
   "itemName" : "pieblueberryMFM",
   "rarity" : "Common",
-  "price" : 459.36,
+  "price" : 447.73,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Blueberry Pie, it has a semi-sweet taste and is very juicy.",
   "shortdescription" : "Pie - Blueberry",
-  "foodValue" : 313.06,
+  "foodValue" : 219.73,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",
       "duration" : 190
     },
     {
-      "effect" : "iceblock",
-      "duration" : 199
-    },
-    {
       "effect" : "runboostfood",
       "duration" : 71
+    },
+    {
+      "effect" : "iceblock",
+      "duration" : 199
     },
     {
       "effect" : "energyregen",

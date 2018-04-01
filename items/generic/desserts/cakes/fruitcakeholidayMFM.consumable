@@ -1,20 +1,20 @@
 {
   "itemName" : "fruitcakeholidayMFM",
   "rarity" : "Uncommon",
-  "price" : 594.63,
+  "price" : 586.51,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A fruitcake for the holidays.",
   "shortdescription" : "Fruitcake - Holiday",
-  "foodValue" : 344.96,
+  "foodValue" : 281.01,
   "effects" : [[
-    {
-      "effect" : "camouflage25",
-      "duration" : 67
-    },
     {
       "effect" : "maxenergyscalingboostfood",
       "duration" : 218
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 67
     },
     {
       "effect" : "energyregen",

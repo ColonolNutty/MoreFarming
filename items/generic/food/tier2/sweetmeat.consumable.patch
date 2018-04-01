@@ -55,23 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/effects",
-      "value" : [[
-        {
-          "effect" : "regeneration3",
-          "duration" : 2
-        }
-      ]]
-    },
-    {
-      "op" : "replace",
       "path" : "/foodValue",
       "value" : 33.08
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 46.36
+      "value" : 45.91
     }
   ]
 ]

@@ -1,12 +1,12 @@
 {
   "itemName" : "scrambledeggwithketchupMFM",
   "rarity" : "Common",
-  "price" : 320.77,
+  "price" : 315.17,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A scrambled egg with ketchup.",
   "shortdescription" : "Scrambled Egg With Ketchup",
-  "foodValue" : 151.44,
+  "foodValue" : 102.78,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

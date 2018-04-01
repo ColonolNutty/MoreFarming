@@ -1,12 +1,12 @@
 {
   "itemName" : "pieraspberryMFM",
   "rarity" : "Common",
-  "price" : 418.34,
+  "price" : 406.94,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Raspberry Pie, it has a semi-sweet taste and is very juicy.",
   "shortdescription" : "Pie - Raspberry",
-  "foodValue" : 301.51,
+  "foodValue" : 208.18,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

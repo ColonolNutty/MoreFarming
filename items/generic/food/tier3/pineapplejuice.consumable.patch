@@ -55,23 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/effects",
-      "value" : [[
-        {
-          "effect" : "runboostfood",
-          "duration" : 180
-        }
-      ]]
-    },
-    {
-      "op" : "replace",
       "path" : "/foodValue",
-      "value" : 31.53
+      "value" : 11.03
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 178.45
+      "value" : 176.4
     },
     {
       "op" : "replace",

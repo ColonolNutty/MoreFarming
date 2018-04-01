@@ -1,12 +1,12 @@
 {
   "itemName" : "mangojuiceMFM",
   "rarity" : "Common",
-  "price" : 79.22,
+  "price" : 77.18,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Sweet Mango juice.",
   "shortdescription" : "Juice - Mango",
-  "foodValue" : 31.53,
+  "foodValue" : 11.03,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

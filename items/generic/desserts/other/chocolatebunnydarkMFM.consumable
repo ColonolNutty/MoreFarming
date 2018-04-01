@@ -1,12 +1,12 @@
 {
   "itemName" : "chocolatebunnydarkMFM",
   "rarity" : "Common",
-  "price" : 287.92,
+  "price" : 69.0,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A cute little bunny made of chocolate. Don't you just want to microwave it?",
   "shortdescription" : "Chocolate Bunny - Dark",
-  "foodValue" : 175.56,
+  "foodValue" : 105.58,
   "effects" : [[
     {
       "effect" : "regeneration2",

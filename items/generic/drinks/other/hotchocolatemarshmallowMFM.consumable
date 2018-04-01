@@ -1,12 +1,12 @@
 {
   "itemName" : "hotchocolatemarshmallowMFM",
   "rarity" : "Common",
-  "price" : 574.05,
+  "price" : 9.04,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Good for cold days.",
   "shortdescription" : "Hot Chocolate w/ Marshmallows",
-  "foodValue" : 507.14,
+  "foodValue" : 21.0,
   "effects" : [[
     {
       "effect" : "regeneration2",
@@ -21,20 +21,8 @@
       "duration" : 33
     },
     {
-      "effect" : "maxenergyscalingboostfood",
-      "duration" : 179
-    },
-    {
       "effect" : "runboostfood",
       "duration" : 34
-    },
-    {
-      "effect" : "energyregen",
-      "duration" : 179
-    },
-    {
-      "effect" : "maxhealthscalingboostfood",
-      "duration" : 381
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

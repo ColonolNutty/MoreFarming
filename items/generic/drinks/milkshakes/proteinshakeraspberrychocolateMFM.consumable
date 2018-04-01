@@ -1,20 +1,20 @@
 {
   "itemName" : "proteinshakeraspberrychocolateMFM",
   "rarity" : "Common",
-  "price" : 182.7,
+  "price" : 154.61,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A protein shake made with chocolate and raspberries. Yum!",
   "shortdescription" : "Protein Shake - Rasp-Chocolate",
-  "foodValue" : 122.6,
+  "foodValue" : 58.46,
   "effects" : [[
-    {
-      "effect" : "maxenergyscalingboost",
-      "duration" : 105
-    },
     {
       "effect" : "maxenergyscalingboostfood",
       "duration" : 101
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 105
     },
     {
       "effect" : "jumpboostfood",
@@ -29,12 +29,12 @@
       "duration" : 69
     },
     {
-      "effect" : "maxhealthscalingboostfood",
-      "duration" : 147
-    },
-    {
       "effect" : "ragefood",
       "duration" : 105
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 147
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

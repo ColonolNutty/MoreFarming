@@ -1,20 +1,20 @@
 {
   "itemName" : "friedfishMFM",
   "rarity" : "Common",
-  "price" : 145.88,
+  "price" : 139.99,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(FRY):-} Crispy golden fried fish fillet. Yum!",
   "shortdescription" : "Fried Fish",
-  "foodValue" : 135.33,
+  "foodValue" : 84.24,
   "effects" : [[
-    {
-      "effect" : "camouflage25",
-      "duration" : 32
-    },
     {
       "effect" : "maxenergyscalingboostfood",
       "duration" : 36
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 32
     },
     {
       "effect" : "energyregen",

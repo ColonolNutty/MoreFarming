@@ -1,12 +1,12 @@
 {
   "itemName" : "jelonbreadMFM",
   "rarity" : "Common",
-  "price" : 30.21,
+  "price" : 29.11,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Bread made with jelon. Tasty!",
   "shortdescription" : "Bread - Jelon",
-  "foodValue" : 32.55,
+  "foodValue" : 21.53,
   "effects" : [[
     {
       "effect" : "swimboost",

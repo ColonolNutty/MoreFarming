@@ -1,12 +1,12 @@
 {
   "itemName" : "tofurkeydinnerMFM",
   "rarity" : "Uncommon",
-  "price" : 381.72,
+  "price" : 367.06,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A dinner fit for an omniscience fish administrator.",
   "shortdescription" : "Tofurkey Dinner",
-  "foodValue" : 242.46,
+  "foodValue" : 109.97,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

@@ -1,12 +1,12 @@
 {
   "itemName" : "hotdogMFMo",
   "rarity" : "Common",
-  "price" : 70.97,
+  "price" : 70.47,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sausage in a bun coated with chopped onions.",
   "shortdescription" : "Hotdog",
-  "foodValue" : 47.84,
+  "foodValue" : 46.36,
   "effects" : [[
     {
       "effect" : "poisonblock",

@@ -1,24 +1,24 @@
 {
   "itemName" : "icecreamvanillaMFM",
   "rarity" : "Common",
-  "price" : 34.07,
+  "price" : 32.74,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} A scoop of ice cream with a vanilla flavor.",
   "shortdescription" : "Ice Cream - Vanilla",
-  "foodValue" : 28.2,
+  "foodValue" : 17.58,
   "effects" : [[
     {
       "effect" : "regeneration2",
       "duration" : 33
     },
     {
-      "effect" : "maxenergyscalingboost",
-      "duration" : 33
-    },
-    {
       "effect" : "maxenergyscalingboostfood",
       "duration" : 69
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 33
     },
     {
       "effect" : "runboostfood",

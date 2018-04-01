@@ -1,12 +1,12 @@
 {
   "itemName" : "darkchocolateMFM",
   "rarity" : "Common",
-  "price" : 140.45,
+  "price" : 33.66,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Has a bitter taste.",
   "shortdescription" : "Dark Chocolate",
-  "foodValue" : 85.64,
+  "foodValue" : 51.5,
   "effects" : [[
     {
       "effect" : "regeneration2",

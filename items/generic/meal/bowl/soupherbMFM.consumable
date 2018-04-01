@@ -1,12 +1,12 @@
 {
   "itemName" : "soupherbMFM",
   "rarity" : "Common",
-  "price" : 543.98,
+  "price" : 536.27,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A soup made with herbs boiled in lemon juice.",
   "shortdescription" : "Soup - Herb",
-  "foodValue" : 203.59,
+  "foodValue" : 132.95,
   "effects" : [[
     {
       "effect" : "antidote",

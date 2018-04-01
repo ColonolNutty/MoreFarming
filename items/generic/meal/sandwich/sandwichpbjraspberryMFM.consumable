@@ -1,7 +1,7 @@
 {
   "itemName" : "sandwichpbjraspberryMFM",
   "rarity" : "Uncommon",
-  "price" : 426.99,
+  "price" : 426.7,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with peanut butter and raspberry jelly.",
@@ -9,11 +9,11 @@
   "foodValue" : 126.55,
   "effects" : [[
     {
-      "effect" : "camouflage25",
+      "effect" : "maxenergyscalingboostfood",
       "duration" : 158
     },
     {
-      "effect" : "maxenergyscalingboostfood",
+      "effect" : "camouflage25",
       "duration" : 158
     }
   ]],

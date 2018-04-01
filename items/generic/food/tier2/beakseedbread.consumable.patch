@@ -55,23 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/effects",
-      "value" : [[
-        {
-          "effect" : "jumpboostfood",
-          "duration" : 225
-        }
-      ]]
-    },
-    {
-      "op" : "replace",
       "path" : "/foodValue",
-      "value" : 166.09
+      "value" : 144.56
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 609.47
+      "value" : 607.09
     },
     {
       "op" : "replace",

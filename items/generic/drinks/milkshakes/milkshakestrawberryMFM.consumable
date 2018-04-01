@@ -1,12 +1,12 @@
 {
   "itemName" : "milkshakestrawberryMFM",
   "rarity" : "Common",
-  "price" : 157.67,
+  "price" : 151.46,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A milkshake made with strawberries. Yum!",
   "shortdescription" : "Milkshake - Strawberry",
-  "foodValue" : 110.52,
+  "foodValue" : 57.41,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

@@ -1,12 +1,12 @@
 {
   "itemName" : "milkshakebananaMFM",
   "rarity" : "Common",
-  "price" : 234.84,
+  "price" : 228.64,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A milkshake made with bananas. Yum!",
   "shortdescription" : "Milkshake - Banana",
-  "foodValue" : 110.52,
+  "foodValue" : 57.41,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

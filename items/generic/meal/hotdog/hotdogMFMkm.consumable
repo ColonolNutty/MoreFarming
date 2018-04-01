@@ -1,12 +1,12 @@
 {
   "itemName" : "hotdogMFMkm",
   "rarity" : "Common",
-  "price" : 245.51,
+  "price" : 244.37,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sausage in a bun coated with ketchup and mustard.",
   "shortdescription" : "Hotdog",
-  "foodValue" : 95.37,
+  "foodValue" : 89.52,
   "effects" : [[
     {
       "effect" : "antidote",

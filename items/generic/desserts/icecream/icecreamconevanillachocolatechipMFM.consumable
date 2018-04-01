@@ -1,24 +1,24 @@
 {
   "itemName" : "icecreamconevanillachocolatechipMFM",
   "rarity" : "Common",
-  "price" : 188.73,
+  "price" : 134.45,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A scoop of vanilla chocolate chip ice cream on a waffle cone.",
   "shortdescription" : "Ice Cream Cone - Vanilla Chocolate Chip",
-  "foodValue" : 152.01,
+  "foodValue" : 89.53,
   "effects" : [[
     {
       "effect" : "regeneration2",
       "duration" : 108
     },
     {
-      "effect" : "maxenergyscalingboost",
-      "duration" : 108
-    },
-    {
       "effect" : "maxenergyscalingboostfood",
       "duration" : 223
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 108
     },
     {
       "effect" : "runboostfood",

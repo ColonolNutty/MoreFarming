@@ -1,12 +1,12 @@
 {
   "itemName" : "frenchtoastMFM",
   "rarity" : "Common",
-  "price" : 116.62,
+  "price" : 110.34,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FRY):-} FRENCH TOAST!",
   "shortdescription" : "French Toast - Plain",
-  "foodValue" : 115.88,
+  "foodValue" : 57.97,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

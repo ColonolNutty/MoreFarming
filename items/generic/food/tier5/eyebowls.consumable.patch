@@ -14,18 +14,6 @@
   [
     {
       "op" : "test",
-      "path" : "/effects",
-      "inverse" : true
-    },
-    {
-      "op" : "add",
-      "path" : "/effects",
-      "value" : [[ ]]
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/foodValue",
       "inverse" : true
     },
@@ -56,12 +44,12 @@
     {
       "op" : "replace",
       "path" : "/foodValue",
-      "value" : 42.55
+      "value" : 22.05
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 354.85
+      "value" : 352.8
     }
   ]
 ]

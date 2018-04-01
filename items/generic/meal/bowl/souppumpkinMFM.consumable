@@ -1,12 +1,12 @@
 {
   "itemName" : "souppumpkinMFM",
   "rarity" : "Common",
-  "price" : 157.1,
+  "price" : 153.75,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A soup made with pumpkins.",
   "shortdescription" : "Soup - Pumpkin",
-  "foodValue" : 121.32,
+  "foodValue" : 94.05,
   "effects" : [[
     {
       "effect" : "antidote",

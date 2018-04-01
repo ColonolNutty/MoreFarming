@@ -1,12 +1,12 @@
 {
   "itemName" : "jelonjuiceMFM",
   "rarity" : "Common",
-  "price" : 101.28,
+  "price" : 99.23,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A sweet glass of jelon juice.",
   "shortdescription" : "Juice - Jelon",
-  "foodValue" : 31.53,
+  "foodValue" : 11.03,
   "effects" : [[
     {
       "effect" : "swimboost",

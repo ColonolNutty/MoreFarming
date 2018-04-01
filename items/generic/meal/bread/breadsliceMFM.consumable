@@ -1,18 +1,12 @@
 {
   "itemName" : "breadsliceMFM",
   "rarity" : "Common",
-  "price" : 1.36,
+  "price" : 1.22,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} A slice of fresh bread!",
   "shortdescription" : "Bread Slice",
   "foodValue" : 10.0,
-  "effects" : [[
-    {
-      "effect" : "maxhealthscalingboostfood",
-      "duration" : 94
-    }
-  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

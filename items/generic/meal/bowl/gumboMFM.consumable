@@ -1,12 +1,12 @@
 {
   "itemName" : "gumboMFM",
   "rarity" : "Common",
-  "price" : 81.0,
+  "price" : 79.65,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A mish mash of a load of ingredients.",
   "shortdescription" : "Gumbo",
-  "foodValue" : 53.06,
+  "foodValue" : 40.05,
   "effects" : [[
     {
       "effect" : "antidote",

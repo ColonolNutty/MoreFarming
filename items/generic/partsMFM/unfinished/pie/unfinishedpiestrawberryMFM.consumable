@@ -1,12 +1,12 @@
 {
   "itemName" : "unfinishedpiestrawberryMFM",
   "rarity" : "Common",
-  "price" : 874.05,
+  "price" : 865.4,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A pie shell filled with strawberries. Ready for baking.",
   "shortdescription" : "Pie Unfinished - Strawberry",
-  "foodValue" : 344.77,
+  "foodValue" : 269.77,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

@@ -1,24 +1,24 @@
 {
   "itemName" : "poptarttoxictopMFM",
   "rarity" : "Common",
-  "price" : 774.06,
+  "price" : 767.77,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A square breakfast pastry coated with a vanilla icing and toxictop jam spread.",
   "shortdescription" : "Poptart - Toxictop",
-  "foodValue" : 194.47,
+  "foodValue" : 142.88,
   "effects" : [[
     {
       "effect" : "regeneration2",
       "duration" : 34
     },
     {
-      "effect" : "maxenergyscalingboostfood",
-      "duration" : 37
-    },
-    {
       "effect" : "maxenergyscalingboost",
       "duration" : 34
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 37
     },
     {
       "effect" : "runboostfood",

@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledgingerMFM",
   "rarity" : "Common",
-  "price" : 24.1,
+  "price" : 22.05,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Ginger boiled in water.",
   "shortdescription" : "Boiled Ginger",
-  "foodValue" : 31.53,
+  "foodValue" : 11.03,
   "effects" : [[
     {
       "effect" : "poisonblock",

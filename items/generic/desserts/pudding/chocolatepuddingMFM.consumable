@@ -1,12 +1,12 @@
 {
   "itemName" : "chocolatepuddingMFM",
   "rarity" : "Common",
-  "price" : 79.55,
+  "price" : 77.12,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} I need more!",
   "shortdescription" : "Pudding - Chocolate",
-  "foodValue" : 63.83,
+  "foodValue" : 45.12,
   "effects" : [[
     {
       "effect" : "regeneration2",

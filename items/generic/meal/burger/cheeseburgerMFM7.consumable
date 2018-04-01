@@ -1,12 +1,12 @@
 {
   "itemName" : "cheeseburgerMFM7",
   "rarity" : "Common",
-  "price" : 327.24,
+  "price" : 325.76,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A burger topped with cheese, tomatoes, and ketchup.",
   "shortdescription" : "Burger - Cheese",
-  "foodValue" : 127.25,
+  "foodValue" : 119.25,
   "effects" : [[
     {
       "effect" : "camouflage25",

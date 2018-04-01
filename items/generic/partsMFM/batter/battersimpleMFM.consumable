@@ -1,12 +1,12 @@
 {
   "itemName" : "battersimpleMFM",
   "rarity" : "Common",
-  "price" : 104.81,
+  "price" : 99.47,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A simple batter. Suitable for coating and frying.",
   "shortdescription" : "Batter - Simple",
-  "foodValue" : 103.23,
+  "foodValue" : 56.89,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

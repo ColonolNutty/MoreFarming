@@ -1,12 +1,12 @@
 {
   "itemName" : "toffeecookieMFM",
   "rarity" : "Common",
-  "price" : 8.49,
+  "price" : 8.01,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Crunchy and sweet.",
   "shortdescription" : "Cookie - Toffee",
-  "foodValue" : 10.81,
+  "foodValue" : 10.0,
   "effects" : [[
     {
       "effect" : "regeneration2",

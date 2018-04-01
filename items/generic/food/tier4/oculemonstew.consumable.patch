@@ -55,27 +55,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/effects",
-      "value" : [[
-        {
-          "effect" : "ragefood",
-          "duration" : 293
-        },
-        {
-          "effect" : "maxhealthscalingboostfood",
-          "duration" : 293
-        }
-      ]]
-    },
-    {
-      "op" : "replace",
       "path" : "/foodValue",
-      "value" : 115.55
+      "value" : 95.05
     },
     {
       "op" : "replace",
       "path" : "/price",
-      "value" : 1136.05
+      "value" : 1134.0
     },
     {
       "op" : "replace",

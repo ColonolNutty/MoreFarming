@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledbellpepperyellowMFM",
   "rarity" : "Common",
-  "price" : 57.18,
+  "price" : 55.13,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A yellow bell pepper boiled in water.",
   "shortdescription" : "Boiled Bell Pepper - Yellow",
-  "foodValue" : 31.53,
+  "foodValue" : 11.03,
   "effects" : [[
     {
       "effect" : "electricblock",

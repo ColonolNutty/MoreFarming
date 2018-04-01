@@ -1,12 +1,12 @@
 {
   "itemName" : "macncheeseMFM",
   "rarity" : "Common",
-  "price" : 73.88,
+  "price" : 67.95,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Pasta with some cheese. Arguably the best pasta.",
   "shortdescription" : "Macaroni & Cheese",
-  "foodValue" : 91.47,
+  "foodValue" : 40.01,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

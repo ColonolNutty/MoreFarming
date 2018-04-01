@@ -1,12 +1,12 @@
 {
   "itemName" : "icingchocolateMFM",
   "rarity" : "Common",
-  "price" : 55.52,
+  "price" : 33.19,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Chocolate flavoured icing.",
   "shortdescription" : "Icing - Chocolate",
-  "foodValue" : 43.58,
+  "foodValue" : 32.55,
   "effects" : [[
     {
       "effect" : "regeneration2",

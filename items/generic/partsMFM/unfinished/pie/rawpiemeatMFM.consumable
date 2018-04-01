@@ -1,12 +1,12 @@
 {
   "itemName" : "rawpiemeatMFM",
   "rarity" : "Common",
-  "price" : 516.36,
+  "price" : 500.33,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A pie shell filled with raw meat. Ready for baking.",
   "shortdescription" : "Pie Raw - Meat",
-  "foodValue" : 371.65,
+  "foodValue" : 234.25,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

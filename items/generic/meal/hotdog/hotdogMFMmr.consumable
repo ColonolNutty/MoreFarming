@@ -1,12 +1,12 @@
 {
   "itemName" : "hotdogMFMmr",
   "rarity" : "Common",
-  "price" : 311.05,
+  "price" : 309.11,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sausage in a bun coated with mustard and relish.",
   "shortdescription" : "Hotdog",
-  "foodValue" : 110.01,
+  "foodValue" : 103.8,
   "effects" : [[
     {
       "effect" : "antidote",
@@ -21,12 +21,12 @@
       "duration" : 33
     },
     {
-      "effect" : "maxenergyscalingboostfood",
-      "duration" : 51
-    },
-    {
       "effect" : "burning",
       "duration" : 33
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 51
     },
     {
       "effect" : "iceblock",

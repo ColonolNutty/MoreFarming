@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "softchocolatewhiteMFM", "count" : 5 }
   ],
-  "output" : { "item" : "hardchocolatewhiteMFM", "count" : 5 },
+  "output" : { "item" : "chocolateliquorwhiteMFM", "count" : 10 },
   "groups" : [ "bakingMFM" ]
 }

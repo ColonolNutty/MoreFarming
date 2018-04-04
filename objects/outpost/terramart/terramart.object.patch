@@ -597,11 +597,6 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : [ "holidayfirMFMseed", 3 ] }
-  },
-  {
-    "op" : "add",
-    "path" : "/interactData/items/-",
     "value" : { "item" : [ "jalapenopepperMFMseed", 3 ] }
   },
   {

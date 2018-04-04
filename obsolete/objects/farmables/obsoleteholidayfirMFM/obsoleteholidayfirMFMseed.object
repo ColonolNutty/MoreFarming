@@ -1,44 +1,40 @@
 {
-  "objectName" : "wildholidayfirMFMseed",
+  "objectName" : "holidayfirMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
-  "price" : 40.0,
+  "price" : 15.08,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Grows golden fruit.",
-  "shortdescription" : "Wild Holiday Fir Seed",
-  "apexDescription" : "This tree is deceptive. Fruits are golden and sweet, but are not bananas.",
+  "description" : "Grows golden fruit.\nFirst Harvest: 96 mins\nRe-Harvest: None",
+  "shortdescription" : "Holiday Fir Seed",
+  "apexDescription" : "This tree is deceptive. These fruits are golden and sweet, but are not bananas.",
   "avianDescription" : "Both festive and functional. Nice.",
   "floranDescription" : "Ssslightly sssparkly tree. Sssomewhat edible.",
   "glitchDescription" : "Disappointed. While the decoration is edible, there is no tin or tinsel.",
   "humanDescription" : "Ahh, the smell of a real Christmas tree! Genetically-engineered, that is...",
   "hylotlDescription" : "A partially authentic holiday tree with a gift of fruit. I'm partially impressed.",
-  "inventoryIcon" : "holidayfirMFMseedicon.png",
-  "largeImage" : "holidayfirMFMseed.png:default.default.default",
+  "inventoryIcon" : "obsoleteholidayfirMFMseedicon.png",
+  "largeImage" : "obsoleteholidayfirMFMseed.png:default.default.default",
   "orientations" : [
     {
-      "dualImage" : "holidayfirMFMseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "obsoleteholidayfirMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
-      "requireTilledAnchors" : false,
+      "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
     }
   ],
   "stages" : [
-    { "duration" : [ 2280, 2280 ] },
-    { "duration" : [ 3480, 3480 ] },
+    { "duration" : [ 1, 1 ] },
+    { "duration" : [ 1, 1 ] },
     {
       "alts" : 5,
-      "harvestPool" : "holidayfirMFMHarvest",
-      "resetToStage" : 1
+      "harvestPool" : "holidayfirMFMHarvest"
     }
   ],
-  "maxImmersion" : 0.8,
-  "breakDropOptions" : [[[ "holidayfirMFMseed", 1, { } ]]],
-  "hasObjectItem" : false,
-  "biomePlaced" : true
+  "maxImmersion" : 0.8
 }

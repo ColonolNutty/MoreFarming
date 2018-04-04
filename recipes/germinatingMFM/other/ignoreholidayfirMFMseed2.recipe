@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "holidayspirit", "count" : 10 }
-  ],
-  "output" : { "item" : "holidayfirMFMseed", "count" : 3 },
-  "groups" : [ "germinatingMFM", "otherMFM" ]
-}

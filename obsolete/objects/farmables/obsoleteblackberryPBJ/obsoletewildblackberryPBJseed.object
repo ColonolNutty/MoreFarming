@@ -1,27 +1,27 @@
 {
-  "objectName" : "blackberryPBJseed",
+  "objectName" : "wildblackberryPBJseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 5.03,
+  "price" : 13.0,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Blackberries they bruise easily.\nFirst Harvest: 34 mins\nRe-Harvest: 20 mins",
-  "shortdescription" : "Blackberry Seeds",
+  "description" : "Blackberries, careful they bruise easily.",
+  "shortdescription" : "Old Wild Blackberry Seeds",
   "floranDescription" : "Ssseeds for blackberries!",
   "glitchDescription" : "Identify. Blackberry seeds.",
   "humanDescription" : "Oh sweet! Blackberry seeds!",
-  "inventoryIcon" : "blackberryPBJseedicon.png",
-  "largeImage" : "blackberryPBJseed.png:default.default.default",
+  "inventoryIcon" : "obsoleteblackberryPBJseedicon.png",
+  "largeImage" : "obsoleteblackberryPBJseed.png:default.default.default",
   "orientations" : [
     {
-      "dualImage" : "blackberryPBJseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "obsoleteblackberryPBJseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
-      "requireTilledAnchors" : true,
+      "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }
   ],
@@ -38,5 +38,8 @@
       "resetToStage" : 2
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.25,
+  "breakDropOptions" : [[[ "blackberryMFMseed", 1, { } ]]],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

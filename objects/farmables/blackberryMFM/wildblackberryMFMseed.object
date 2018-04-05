@@ -1,5 +1,5 @@
 {
-  "objectName" : "wildblackberryPBJseed",
+  "objectName" : "wildblackberryMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "price" : 13.0,
@@ -12,11 +12,11 @@
   "floranDescription" : "Ssseeds for blackberries!",
   "glitchDescription" : "Identify. Blackberry seeds.",
   "humanDescription" : "Oh sweet! Blackberry seeds!",
-  "inventoryIcon" : "blackberryPBJseedicon.png",
-  "largeImage" : "blackberryPBJseed.png:default.default.default",
+  "inventoryIcon" : "blackberryMFMseedicon.png",
+  "largeImage" : "blackberryMFMseed.png:default.default.default",
   "orientations" : [
     {
-      "dualImage" : "blackberryPBJseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "blackberryMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -39,7 +39,7 @@
     }
   ],
   "maxImmersion" : 0.25,
-  "breakDropOptions" : [[[ "blackberryPBJseed", 1, { } ]]],
+  "breakDropOptions" : [[[ "blackberryMFMseed", 1, { } ]]],
   "hasObjectItem" : false,
   "biomePlaced" : true
 }

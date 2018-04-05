@@ -132,11 +132,11 @@
     "path" : "/blackberryMFMHarvest",
     "value" : [ [0, {
         "fill" : [
-          {"item" : "blackberryPBJseed"}
+          {"item" : "blackberryMFMseed"}
         ],
         "pool" : [
           {"weight" : 0.89, "item" : "blackberryMFM"},
-          {"weight" : 0.01, "item" : "blackberryPBJseed"},
+          {"weight" : 0.01, "item" : "blackberryMFMseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],
         "poolRounds" : [

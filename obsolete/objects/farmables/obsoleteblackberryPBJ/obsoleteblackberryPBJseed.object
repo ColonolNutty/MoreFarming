@@ -1,0 +1,41 @@
+{
+  "objectName" : "blackberryPBJseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 5.03,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "Blackberries, but these seeds look old.\nFirst Harvest: 34 mins\nRe-Harvest: None",
+  "shortdescription" : "Old Blackberry Seeds",
+  "floranDescription" : "Ssseeds for blackberries!",
+  "glitchDescription" : "Identify. Blackberry seeds.",
+  "humanDescription" : "Oh sweet! Blackberry seeds!",
+  "inventoryIcon" : "obsoleteblackberryPBJseedicon.png",
+  "largeImage" : "obsoleteblackberryPBJseed.png:default.default.default",
+  "orientations" : [
+    {
+      "dualImage" : "obsoleteblackberryPBJseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    { "duration" : [ 420, 420 ] },
+    { "duration" : [ 420, 420 ] },
+    {
+      "alts" : 5,
+      "duration" : [ 1200, 1200 ]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "blackberryMFMHarvest"
+    }
+  ],
+  "maxImmersion" : 0.25
+}

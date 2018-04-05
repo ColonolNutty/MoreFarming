@@ -26,12 +26,8 @@
     }
   ],
   "stages" : [
-    {
-      "duration" : [1230, 1230]
-    },
-    {
-      "duration" : [1230, 1230]
-    },
+    { "duration" : [1230, 1230] },
+    { "duration" : [1230, 1230] },
     {
       "alts" : 5,
       "harvestPool" : "watermelonMFMHarvest",

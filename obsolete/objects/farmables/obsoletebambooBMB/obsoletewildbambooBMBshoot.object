@@ -7,16 +7,16 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Fast growing Bamboo.",
-  "shortdescription" : "Wild Bamboo Shoot",
+  "description" : "An old bamboo shoot.",
+  "shortdescription" : "Old Wild Bamboo Shoot",
   "floranDescription" : "Sssharp sssticksss for ssstabbing!",
   "glitchDescription" : "Statement. Bamboo.",
   "hylotlDescription" : "Bamboo is very useful.",
-  "inventoryIcon" : "bambooBMBshooticon.png",
-  "largeImage" : "bambooBMBshoot.png:default.default.default",
+  "inventoryIcon" : "obsoletebambooBMBshooticon.png",
+  "largeImage" : "obsoletebambooBMBshoot.png:default.default.default",
   "orientations" : [
     {
-      "dualImage" : "bambooBMBshoot.png:<color>.<stage>.<alt>",
+      "dualImage" : "obsoletebambooBMBshoot.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -34,12 +34,11 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "bambooMFMHarvest",
-      "resetToStage" : 2
+      "harvestPool" : "bambooMFMHarvest"
     }
   ],
   "maxImmersion" : 0.25,
-  "breakDropOptions" : [[[ "bambooBMBshoot", 1, { } ]]],
+  "breakDropOptions" : [[[ "bambooMFMseed", 1, { } ]]],
   "hasObjectItem" : false,
   "biomePlaced" : true
 }

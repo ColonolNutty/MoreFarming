@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "bamboostalkMFM", "count" : 10 }
   ],
-  "output" : { "item" : "bambooBMBshoot", "count" : 1 },
+  "output" : { "item" : "bambooMFMseed", "count" : 1 },
   "groups" : [ "germinatingMFM", "fibreMFM" ]
 }

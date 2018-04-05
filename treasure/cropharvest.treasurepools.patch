@@ -74,11 +74,11 @@
     "path" : "/bambooMFMHarvest",
     "value" : [ [0, {
         "fill" : [
-          {"item" : "bambooBMBshoot"}
+          {"item" : "bambooMFMseed"}
         ],
         "pool" : [
           {"weight" : 0.89, "item" : "bamboostalkMFM"},
-          {"weight" : 0.01, "item" : "bambooBMBshoot"},
+          {"weight" : 0.01, "item" : "bambooMFMseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],
         "poolRounds" : [

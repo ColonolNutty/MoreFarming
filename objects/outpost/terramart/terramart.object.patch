@@ -472,7 +472,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : [ "bambooBMBshoot", 3 ] }
+    "value" : { "item" : [ "bambooMFMseed", 3 ] }
   },
   {
     "op" : "add",

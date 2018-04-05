@@ -71,7 +71,7 @@
   },
   {
     "op" : "add",
-    "path" : "/bambooBMBHarvest",
+    "path" : "/bambooMFMHarvest",
     "value" : [ [0, {
         "fill" : [
           {"item" : "bambooBMBshoot"}
@@ -129,7 +129,7 @@
   },
   {
     "op" : "add",
-    "path" : "/blackberriesPBJHarvest",
+    "path" : "/blackberryMFMHarvest",
     "value" : [ [0, {
         "fill" : [
           {"item" : "blackberryPBJseed"}
@@ -168,7 +168,7 @@
   },
   {
     "op" : "add",
-    "path" : "/blueberriesPBJHarvest",
+    "path" : "/blueberryMFMHarvest",
     "value" : [ [0, {
         "fill" : [
           {"item" : "blueberriesPBJseed"}
@@ -364,7 +364,7 @@
   },
   {
     "op" : "add",
-    "path" : "/cucumberMSMHarvest",
+    "path" : "/cucumberMFMHarvest",
     "value" : [ [0, {
         "fill" : [
           {"item" : "cucumberMSMseed"}
@@ -517,7 +517,7 @@
   },
   {
     "op" : "add",
-    "path" : "/gingerMSMHarvest",
+    "path" : "/gingerMFMHarvest",
     "value" : [ [0, {
         "fill" : [
           {"item" : "gingerMSMseed"}
@@ -953,7 +953,7 @@
   },
   {
     "op" : "add",
-    "path" : "/peanutPBJHarvest",
+    "path" : "/peanutMFMHarvest",
     "value" : [ [0, {
         "fill" : [
           {"item" : "peanutPBJseed"}
@@ -991,7 +991,7 @@
   },
   {
     "op": "add",
-    "path": "/pricklyPearMFMHarvest",
+    "path": "/pricklypearMFMHarvest",
     "value": [ [0, {
         "fill" : [
           {"item" : "pricklypearMFMseed"}
@@ -1069,7 +1069,7 @@
   },
   {
     "op" : "add",
-    "path" : "/raspberryPBJHarvest",
+    "path" : "/raspberryMFMHarvest",
     "value" : [ [0, {
         "fill" : [
           {"item" : "raspberryPBJseed"}
@@ -1109,7 +1109,7 @@
   },
   {
     "op" : "add",
-    "path" : "/reedBMBHarvest",
+    "path" : "/reedMFMHarvest",
     "value" : [ [0, {
         "fill" : [
           {"item" : "reedBMBsprout"}
@@ -1305,7 +1305,7 @@
   },
   {
     "op" : "add",
-    "path" : "/strawberryPBJHarvest",
+    "path" : "/strawberryMFMHarvest",
     "value" : [ [0, {
         "fill" : [
           {"item" : "strawberryPBJseed"}

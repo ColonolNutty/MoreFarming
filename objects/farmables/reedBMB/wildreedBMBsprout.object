@@ -33,7 +33,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "reedBMBHarvest",
+      "harvestPool" : "reedMFMHarvest",
       "resetToStage" : 2
     }
   ],

@@ -34,7 +34,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "gingerMSMHarvest",
+      "harvestPool" : "gingerMFMHarvest",
       "resetToStage" : 2
     }
   ],

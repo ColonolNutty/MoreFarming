@@ -34,7 +34,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "raspberryPBJHarvest",
+      "harvestPool" : "raspberryMFMHarvest",
       "resetToStage" : 2
     }
   ],

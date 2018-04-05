@@ -33,7 +33,7 @@
     { "duration" : [ 360, 360 ] },
     {
       "alts" : 5,
-      "harvestPool" : "pricklyPearMFMHarvest",
+      "harvestPool" : "pricklypearMFMHarvest",
       "resetToStage" : 1
     }
   ],

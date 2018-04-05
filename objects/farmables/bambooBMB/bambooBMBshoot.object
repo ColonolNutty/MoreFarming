@@ -34,7 +34,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "bambooBMBHarvest",
+      "harvestPool" : "bambooMFMHarvest",
       "resetToStage" : 2
     }
   ],

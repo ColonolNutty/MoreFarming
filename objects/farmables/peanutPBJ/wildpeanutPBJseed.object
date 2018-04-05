@@ -34,7 +34,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "peanutPBJHarvest",
+      "harvestPool" : "peanutMFMHarvest",
       "resetToStage" : 2
     }
   ],

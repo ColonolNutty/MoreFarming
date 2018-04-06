@@ -32,11 +32,11 @@
     { "duration" : [ 300, 300 ] },
     { "duration" : [ 300, 300 ] },
     {
-      "alts" : 5,
+      "alts" : 1,
       "duration" : [ 960, 960 ]
     },
     {
-      "alts" : 3,
+      "alts" : 2,
       "harvestPool" : "greatbambooMFMHarvest",
       "resetToStage" : 1
     }

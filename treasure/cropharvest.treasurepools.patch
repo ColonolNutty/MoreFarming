@@ -1308,11 +1308,11 @@
     "path" : "/strawberryMFMHarvest",
     "value" : [ [0, {
         "fill" : [
-          {"item" : "strawberryPBJseed"}
+          {"item" : "strawberryMFMseed"}
         ],
         "pool" : [
           {"weight" : 0.89, "item" : "strawberryMFM"},
-          {"weight" : 0.01, "item" : "strawberryPBJseed"},
+          {"weight" : 0.01, "item" : "strawberryMFMseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],
         "poolRounds" : [

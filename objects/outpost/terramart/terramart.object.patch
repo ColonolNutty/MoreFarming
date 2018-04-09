@@ -737,7 +737,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : [ "strawberryPBJseed", 3 ] }
+    "value" : { "item" : [ "strawberryMFMseed", 3 ] }
   },
   {
     "op" : "add",

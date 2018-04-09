@@ -1,27 +1,27 @@
 {
-  "objectName" : "wildstrawberryPBJseed",
+  "objectName" : "strawberryMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 13.0,
+  "price" : 5.03,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Strawberries, nature's other snack food, is it a berry?",
-  "shortdescription" : "Wild Strawberry Seeds",
-  "floranDescription" : "Ssseedsss for ssstrawberriesss!",
+  "description" : "Sweet berry?\nFirst Harvest: 34 mins\nRe-Harvest: 20 mins",
+  "shortdescription" : "Strawberry Seeds",
+  "floranDescription" : "Ssseedsss for strawberriesss!",
   "glitchDescription" : "Identify. Strawberry.",
   "humanDescription" : "Chocolate covered strawberries are the best!",
-  "inventoryIcon" : "strawberryPBJseedicon.png",
-  "largeImage" : "strawberryPBJseed.png:default.default.default",
+  "inventoryIcon" : "strawberryMFMseedicon.png",
+  "largeImage" : "strawberryMFMseed.png:default.default.default",
   "orientations" : [
     {
-      "dualImage" : "strawberryPBJseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "strawberryMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
-      "requireTilledAnchors" : false,
+      "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
     }
   ],
@@ -38,8 +38,5 @@
       "resetToStage" : 2
     }
   ],
-  "maxImmersion" : 0.4,
-  "breakDropOptions" : [[[ "strawberryPBJseed", 1, { } ]]],
-  "hasObjectItem" : false,
-  "biomePlaced" : true
+  "maxImmersion" : 0.4
 }

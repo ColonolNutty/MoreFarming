@@ -657,7 +657,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : [ "peanutPBJseed", 3 ] }
+    "value" : { "item" : [ "peanutMFMseed", 3 ] }
   },
   {
     "op" : "add",

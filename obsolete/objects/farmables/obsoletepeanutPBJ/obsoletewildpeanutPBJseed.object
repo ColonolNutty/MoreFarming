@@ -8,15 +8,15 @@
   "tooltipKind" : "seed",
   "printable" : false,
   "description" : "A tender plant. Because of how tender it is, this plant is usually grown annually.",
-  "shortdescription" : "Wild Peanut Seeds",
+  "shortdescription" : "Old Wild Peanut Seeds",
   "floranDescription" : "Ssseeds for Peanuts!",
   "glitchDescription" : "Identify. Peanut seeds.",
   "humanDescription" : "Mmmm, Peanut butter",
-  "inventoryIcon" : "peanutPBJseedicon.png",
-  "largeImage" : "peanutPBJseed.png:default.default.default",
+  "inventoryIcon" : "obsoletepeanutPBJseedicon.png",
+  "largeImage" : "obsoletepeanutPBJseed.png:default.default.default",
   "orientations" : [
     {
-      "dualImage" : "peanutPBJseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "obsoletepeanutPBJseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -34,12 +34,11 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "peanutMFMHarvest",
-      "resetToStage" : 2
+      "harvestPool" : "peanutMFMHarvest"
     }
   ],
   "maxImmersion" : 0.25,
-  "breakDropOptions" : [[[ "peanutPBJseed", 1, { } ]]],
+  "breakDropOptions" : [[[ "peanutMFMseed", 1, { } ]]],
   "hasObjectItem" : false,
   "biomePlaced" : true
 }

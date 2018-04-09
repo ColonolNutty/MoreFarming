@@ -956,11 +956,11 @@
     "path" : "/peanutMFMHarvest",
     "value" : [ [0, {
         "fill" : [
-          {"item" : "peanutPBJseed"}
+          {"item" : "peanutMFMseed"}
         ],
         "pool" : [
           {"weight" : 0.89, "item" : "peanutshelledMFM"},
-          {"weight" : 0.01, "item" : "peanutPBJseed"},
+          {"weight" : 0.01, "item" : "peanutMFMseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],
         "poolRounds" : [

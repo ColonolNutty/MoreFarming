@@ -692,7 +692,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : [ "reedBMBsprout", 3 ] }
+    "value" : { "item" : [ "reedMFMseed", 3 ] }
   },
   {
     "op" : "add",

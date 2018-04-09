@@ -1112,11 +1112,11 @@
     "path" : "/reedMFMHarvest",
     "value" : [ [0, {
         "fill" : [
-          {"item" : "reedBMBsprout"}
+          {"item" : "reedMFMseed"}
         ],
         "pool" : [
           {"weight" : 0.89, "item" : "reed"},
-          {"weight" : 0.01, "item" : "reedBMBsprout"},
+          {"weight" : 0.01, "item" : "reedMFMseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],
         "poolRounds" : [

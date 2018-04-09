@@ -7,15 +7,15 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "A reed plant.\nFirst Harvest: 96 mins\nRe-Harvest: 58 mins",
-  "shortdescription" : "Reed Sprout",
+  "description" : "A reed plant.\nFirst Harvest: 96 mins\nRe-Harvest: None",
+  "shortdescription" : "Old Reed Sprout",
   "floranDescription" : "Reedssss.",
   "glitchDescription" : "Statement. Just reeds.",
-  "inventoryIcon" : "reedBMBsprouticon.png",
-  "largeImage" : "reedBMBsprout.png:default.default.default",
+  "inventoryIcon" : "obsoletereedBMBsprouticon.png",
+  "largeImage" : "obsoletereedBMBsprout.png:default.default.default",
   "orientations" : [
     {
-      "dualImage" : "reedBMBsprout.png:<color>.<stage>.<alt>",
+      "dualImage" : "obsoletereedBMBsprout.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -33,8 +33,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "reedMFMHarvest",
-      "resetToStage" : 2
+      "harvestPool" : "reedMFMHarvest"
     }
   ],
   "maxImmersion" : 1.0

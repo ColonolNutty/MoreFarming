@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "reed", "count" : 10 }
   ],
-  "output" : { "item" : "reedBMBsprout", "count" : 1 },
+  "output" : { "item" : "reedMFMseed", "count" : 1 },
   "groups" : [ "germinatingMFM", "otherMFM" ]
 }

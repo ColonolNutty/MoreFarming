@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "reedBMBsprout", "count" : 1 }
+  ],
+  "output" : { "item" : "reedMFMseed", "count" : 1 },
+  "groups" : [ "recyclingMFM" ]
+}

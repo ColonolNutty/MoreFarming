@@ -1,5 +1,5 @@
 {
-  "objectName" : "wildreedBMBsprout",
+  "objectName" : "reedMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "price" : 20.0,
@@ -7,20 +7,20 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "A reed plant. Grows best near water.",
-  "shortdescription" : "Wild Reed Sprout",
-  "floranDescription" : "Reedssss.",
-  "glitchDescription" : "Statement. Just reeds.",
-  "inventoryIcon" : "reedBMBsprouticon.png",
-  "largeImage" : "reedBMBsprout.png:default.default.default",
+  "description" : "A reed plant.\nFirst Harvest: 96 mins\nRe-Harvest: 58 mins",
+  "shortdescription" : "Reed Seed",
+  "floranDescription" : "Reedsss.",
+  "glitchDescription" : "Statement. Reeds, could be useful in crafting.",
+  "inventoryIcon" : "reedMFMseedicon.png",
+  "largeImage" : "reedMFMseed.png:default.default.default",
   "orientations" : [
     {
-      "dualImage" : "reedBMBsprout.png:<color>.<stage>.<alt>",
+      "dualImage" : "reedMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
-      "requireTilledAnchors" : false,
+      "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
     }
   ],
@@ -37,8 +37,5 @@
       "resetToStage" : 2
     }
   ],
-  "maxImmersion" : 1.0,
-  "breakDropOptions" : [[[ "reedBMBsprout", 1, { } ]]],
-  "hasObjectItem" : false,
-  "biomePlaced" : true
+  "maxImmersion" : 1.0
 }

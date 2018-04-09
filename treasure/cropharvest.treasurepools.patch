@@ -520,11 +520,11 @@
     "path" : "/gingerMFMHarvest",
     "value" : [ [0, {
         "fill" : [
-          {"item" : "gingerMSMseed"}
+          {"item" : "gingerMFMseed"}
         ],
         "pool" : [
           {"weight" : 0.89, "item" : "gingerMFM"},
-          {"weight" : 0.01, "item" : "gingerMSMseed"},
+          {"weight" : 0.01, "item" : "gingerMFMseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],
         "poolRounds" : [

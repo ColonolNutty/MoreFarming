@@ -582,7 +582,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : [ "gingerMSMseed", 3 ] }
+    "value" : { "item" : [ "gingerMFMseed", 3 ] }
   },
   {
     "op" : "add",

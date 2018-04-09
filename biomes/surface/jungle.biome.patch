@@ -27,26 +27,18 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildbambooMFMseed" ],
-						[1, "wildbellpepperMFMseed"],
-						[1, "wildblackpepperMFMseed"],
-						[1, "wildceleryMFMseed"],
-						[1, "wildcocoaseed" ],
-						[1, "wildgingerMSMseed" ],
-						[1, "wildgreatbambooMFMseed"],
-						[1, "wildjalapenopepperMFMseed"],
-						[1, "wildkaleMFMseed" ],
-						[1, "wildlettuceMFMseed" ],
-						[1, "wildparsnipMFMseed" ],
-						[1, "wildpeanutPBJseed"],
-						[1, "wildradishMFMseed"],
-						[1, "wildrattanMFMseed"],
-						[1, "wildreedBMBsprout"],
-						[1, "wildsunflowerMFMseed"],
-						[1, "wildvanillabeanMFMseed"]
+						[1, "wildcinnamonMFMseed" ],
+						[1, "wilddungrootMFMseed" ],
+						[1, "wildeggplantMFMseed" ],
+						[1, "wildflytrapMFMseed"],
+						[1, "wildjelonMFMseed" ],
+						[1, "wildokraMFMseed" ],
+						[1, "wildsoybeanMFMseed" ],
+						[1, "wildsweetpotatoMFMseed" ],
+            [1, "wildwatermelonMFMseed" ]
 					],
 					"parameters" : {
-						"startingStage" : 3
+						"startingStage" : 2
 					}
 				}
 			]
@@ -65,18 +57,26 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildcinnamonMFMseed" ],
-						[1, "wilddungrootMFMseed" ],
-						[1, "wildeggplantMFMseed" ],
-						[1, "wildflytrapMFMseed"],
-						[1, "wildjelonMFMseed" ],
-						[1, "wildokraMFMseed" ],
-						[1, "wildsoybeanMFMseed" ],
-						[1, "wildsweetpotatoMFMseed" ],
-            [1, "wildwatermelonMFMseed" ]
+						[1, "wildbambooMFMseed" ],
+						[1, "wildbellpepperMFMseed"],
+						[1, "wildblackpepperMFMseed"],
+						[1, "wildceleryMFMseed"],
+						[1, "wildcocoaseed" ],
+						[1, "wildgingerMFMseed" ],
+						[1, "wildgreatbambooMFMseed"],
+						[1, "wildjalapenopepperMFMseed"],
+						[1, "wildkaleMFMseed" ],
+						[1, "wildlettuceMFMseed" ],
+						[1, "wildparsnipMFMseed" ],
+						[1, "wildpeanutPBJseed"],
+						[1, "wildradishMFMseed"],
+						[1, "wildrattanMFMseed"],
+						[1, "wildreedBMBsprout"],
+						[1, "wildsunflowerMFMseed"],
+						[1, "wildvanillabeanMFMseed"]
 					],
 					"parameters" : {
-						"startingStage" : 2
+						"startingStage" : 3
 					}
 				}
 			]

@@ -1,27 +1,27 @@
 {
-  "objectName" : "wildblueberriesPBJseed",
+  "objectName" : "blueberriesPBJseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 13.0,
+  "price" : 5.03,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Produces Blueberries.",
-  "shortdescription" : "Wild Blueberry Seeds",
+  "description" : "Produces blueberries.\nFirst Harvest: 34 mins\nRe-Harvest: None",
+  "shortdescription" : "Old Blueberry Seeds",
   "floranDescription" : "Ssseeds for blueberries!",
   "glitchDescription" : "Identify. Blueberry seeds.",
   "humanDescription" : "Oh sweet! Blueberry seeds!",
-  "inventoryIcon" : "blueberriesPBJseedicon.png",
-  "largeImage" : "blueberriesPBJseed.png:default.default.default",
+  "inventoryIcon" : "obsoleteblueberriesPBJseedicon.png",
+  "largeImage" : "obsoleteblueberriesPBJseed.png:default.default.default",
   "orientations" : [
     {
-      "dualImage" : "blueberriesPBJseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "obsoleteblueberriesPBJseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
-      "requireTilledAnchors" : false,
+      "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
     }
   ],
@@ -34,12 +34,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "blueberryMFMHarvest",
-      "resetToStage" : 2
+      "harvestPool" : "blueberryMFMHarvest"
     }
   ],
-  "maxImmersion" : 0.25,
-  "breakDropOptions" : [[[ "blueberriesPBJseed", 1, { } ]]],
-  "hasObjectItem" : false,
-  "biomePlaced" : true
+  "maxImmersion" : 0.25
 }

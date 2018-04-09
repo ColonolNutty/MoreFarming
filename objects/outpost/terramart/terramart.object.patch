@@ -497,7 +497,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : [ "blueberriesPBJseed", 3 ] }
+    "value" : { "item" : [ "blueberryMFMseed", 3 ] }
   },
   {
     "op" : "add",

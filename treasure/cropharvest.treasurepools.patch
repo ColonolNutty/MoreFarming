@@ -171,11 +171,11 @@
     "path" : "/blueberryMFMHarvest",
     "value" : [ [0, {
         "fill" : [
-          {"item" : "blueberriesPBJseed"}
+          {"item" : "blueberryMFMseed"}
         ],
         "pool" : [
           {"weight" : 0.89, "item" : "blueberryMFM"},
-          {"weight" : 0.01, "item" : "blueberriesPBJseed"},
+          {"weight" : 0.01, "item" : "blueberryMFMseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],
         "poolRounds" : [

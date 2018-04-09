@@ -1,0 +1,124 @@
+{
+  "id" : "howtobasicingredientsvolume2MFM",
+  "title" : "^orange;(MFM) How To: Basic Ingredients - Vol. II^white;",
+  "description" : "Volume II - This is a guide on where to find a number of basic ingredients",
+  "icon" : "howtocodexMFM.png",
+  "contentPages" : [
+
+"^blue;Introduction:^white;
+This How To contains information on the location and procurement of some of the basic ingredients within More Farming. It is meant as a simple guide to finding base ingredients.
+All ingredients can be bought at either the ^orange;Infinity Express^white; or the ^orange;Terra Mart^white;",
+
+"^blue;Basic Ingredients:^white;
+^green;Salt^white; - ^cyan;Boil^white; ^green;Coral Creep^white;, or ^green;Reef Pod^white;, both of which are most often found on ^cyan;Ocean Planets^white;
+^green;Raw Eel, Octopus, Salmon, Shrimp, Squid, Tuna, Lobster^white; - Found while ^cyan;Fishing^white; and when ^cyan;Killing^white; fish with ^green;Hunting Tools^white;",
+
+"^blue;Farmable Locations I:^white;
+Locations mentioned are locations added by this Mod, vanilla locations still occur
+^green;Artichoke^white; - Garden, Savannah, Giant Flower
+^green;Asparagus^white; - Forest, Garden, Savannah, Spring
+^green;Avocado^white; - Jungle, Ocean
+^green;Bamboo^white; - Forest, Garden, Jungle, Oasis, Spring",
+
+"^blue;Farmable Locations II:^white;
+^green;Beet^white; - Garden, Savannah, Alpine, Oasis
+^green;Bell Pepper^white; - Desert, Garden, Jungle, Savannah, Scorched City, Colourful, Oasis
+^green;Blackberry^white; - Forest, Garden, Savannah, Scorched City, Snow, Tundra, Alpine, Mushroom Patch, Spring, Swamp
+^green;Black Pepper^white; - Alien, Ocean, Jungle
+^green;Blueberry^white; - Forest, Snow, Tundra, Alpine, Spring, Swamp
+^green;Broccoli^white; - Forest, Garden, Spring",
+
+"^blue;Farmable Locations III:^white;
+^green;Brussel Sprouts^white; - Forest, Garden, Spring
+^green;Cauliflower^white; - Forest, Garden, Giant Flower, Spring
+^green;Celery^white; - Alien, Eyepatch, Jungle, Mushroom Patch, Steam Spring, Swamp, Tar, Tentacle
+^green;Cinnamon^white; - Jungle, Ocean
+^green;Clove Tree^white; - Flesh, Oasis, Ocean, Swamp
+^green;Cocoa^white; - Jungle, Ocean, Colourful
+^green;Coconut Palm^white; - Jungle, Oasis, Ocean, Colourful",
+
+"^blue;Farmable Locations IV:^white;
+^green;Coriander^white; - Desert, Oasis, Savannah
+^green;Cotton^white; - Forest, Garden, Jungle
+^green;Cucumber^white; - Garden, Savannah, Oasis, Spring
+^green;Dragonfruit^white; - Desert, Savannah, Scorched City, Colourful, Giant Flower, Oasis, Spring
+^green;Dung Root^white; - Forest, Garden, Jungle, Savannah, Toxic, Swamp
+^green;Eggplant^white; - Garden, Jungle, Ocean
+^green;Finkel^white; - Mushroom Patch, Swamp, Tar",
+
+"^blue;Farmable Locations V:^white;
+^green;Fly Trap^white; - Alien, Jungle, Tentacle, Swamp
+^green;Garlic^white; - Savannah, Oasis, Spring
+^green;Garpberry^white; - Alien, Colourful, Mushroom Patch, Tar
+^green;Ginger^white; - Jungle, Ocean, Colourful, Giant Flower
+^green;Grapefruit^white; - Jungle, Ocean
+^green;Green Apple^white; - Forest, Garden
+^green;Green Bean^white; - Forest, Garden, Savannah, Alpine, Spring",
+
+"^blue;Farmable Locations VI:^white;
+^green;Holiday Fruit^white; - Alpine
+^green;Kale^white; - Alien, Colourful, Forest, Garden, Giant Flowers, Jungle, Spring, Steam Spring, Swamp
+^green;Jalapeno Pepper^white; - Desert, Garden, Jungle, Ocean, Savannah, Colourful, Oasis
+^green;Jelon^white; - Alien, Colourful, Desert, Forest, Garden, Jungle, Ocean, Oasis, Savannah, Spring, Swamp
+^green;Lemon^white; - Jungle, Ocean
+^green;Lettuce^white; - Alien, Forest, Garden, Jungle, Colourful, Giant Flower, Spring, Steam Spring, Swamp",
+
+"^blue;Farmable Locations VII:^white;
+^green;Lime^white; - Jungle, Ocean
+^green;Nutmeg^white; - Forest, Garden, Jungle
+^green;Mango^white; - Jungle, Ocean
+^green;Okra^white; - Jungle, Oasis, Ocean
+^green;Onion^white; - Garden, Savannah, Alpine, Oasis, Spring
+^green;Orange^white; - Ocean, Savannah
+^green;Palsterstick^white; - Alien, Desert, Savannah, Scorched, Scorched City, Mushroom Patch, Tar",
+
+"^blue;Farmable Locations VIII:^white;
+^green;Parsnip^white; - Forest, Garden, Jungle, Snow, Alpine, Giant Flower, Spring, Steam Spring, Swamp
+^green;Parsley^white; - Forest, Oasis, Ocean, Savannah, Tundra
+^green;Peas^white; - Forest, Garden, Savannah, Spring
+^green;Peanut^white; - Garden, Jungle, Savannah, Spring
+^green;Prickly Pear^white; - Desert, Savannah
+^green;Portobello^white; - Forest, Eyepatch, Flesh, Mushroom Patch
+^green;Pumpkin^white; - Forest, Garden",
+
+"^blue;Farmable Locations IX:^white;
+^green;Radish^white; - Desert, Forest, Garden, Jungle, Savannah, Snow, Tundra, Alpine, Colourful, Giant Flower, Mushroom Patch, Oasis, Spring, Swamp
+^green;Raspberry^white; - Forest, Garden, Savannah, Scorched City, Tundra, Colourful, Mushroom Patch, Oasis, Spring, Swamp
+^green;Rattan^white; - Jungle, Ocean
+^green;Red Apple^white; - Forest, Garden
+^green;Reed^white; - Eyepatch, Flesh, Mushroom Patch, Oasis, Steam Spring, Swamp
+^green;Rosemary^white; - Forest, Oasis, Savannah",
+
+"^blue;Farmable Locations X:^white;
+^green;Rutabaga^white; - Forest, Garden, Alpine, Spring
+^green;Saguaro^white; - Desert, Scorched
+^green;Scallion^white; - Alpine, Garden, Oasis, Savannah, Spring
+^green;Sage^white; - Forest, Oasis, Savannah
+^green;Sesame^white; - Desert, Oasis, Savannah, Scorched, Scorched City, Toxic
+^green;Shadow Bulb^white; - Available only from the ^orange;Terra Mart^white;
+^green;Soy Beans^white; - Forest, Garden, Jungle
+^green;Star Anise Tree^white; - Jungle, Oasis, Ocean",
+
+"^blue;Farmable Locations XI:^white;
+^green;Strawberries^white; - Forest, Garden, Alpine, Spring
+^green;Sugar Beet^white; - Forest, Alpine, Spring, Steam Spring
+^green;Sweet Potato^white; - Garden, Jungle, Ocean, Giant Flower, Spring
+^green;Thyme^white; - Desert, Forest, Oasis, Savannah, Swamp, Tundra",
+
+"^blue;Farmable Locations XII:^white;
+^green;Turnip^white; - Forest, Garden, Snow, Tundra, Alpine, Giant Flowers, Oasis, Steamspring
+^green;Vanilla^white; - Jungle, Ocean, Colourful, Giant Flower
+^green;Watermelon^white; - Alien, Colourful, Garden, Giant Flowers, Jungle, Oasis, Ocean, Spring, Swamp
+^green;Whole Oats^white; - Forest, Garden, Savannah, Spring
+^green;Yeast^white; - Available only from the ^orange;Terra Mart^white;",
+
+"^blue;More to come:^white;
+For more guides and other more updated volumes of ^orange;How To: Basic Ingredients^white;, check out your local ^orange;Terra Mart^white;.
+If you encounter any more issues or have additional questions. Please ask them in the Steam Workshop page, no question is too dumb, though some come close! (Be sure to thoroughly check this and other in-game guides first though)"
+
+  ],
+  "itemConfig" : {
+    "rarity" : "Legendary",
+    "price" : 10
+  }
+}

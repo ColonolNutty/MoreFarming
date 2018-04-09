@@ -367,11 +367,11 @@
     "path" : "/cucumberMFMHarvest",
     "value" : [ [0, {
         "fill" : [
-          {"item" : "cucumberMSMseed"}
+          {"item" : "cucumberMFMseed"}
         ],
         "pool" : [
           {"weight" : 0.89, "item" : "cucumberMFM"},
-          {"weight" : 0.01, "item" : "cucumberMSMseed"},
+          {"weight" : 0.01, "item" : "cucumberMFMseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],
         "poolRounds" : [

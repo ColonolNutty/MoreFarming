@@ -1,5 +1,5 @@
 {
-  "objectName" : "wildcucumberMSMseed",
+  "objectName" : "wildcucumberMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "price" : 10.0,
@@ -7,17 +7,17 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Seeds for cucumbers!",
+  "description" : "A vine like plant that grows cucumbers.",
   "shortdescription" : "Wild Cucumber Seeds",
   "floranDescription" : "Ssseedsss for cucumbersss!",
   "glitchDescription" : "Identify. Cucumber seeds.",
   "humanDescription" : "Good for using at a sauna!",
   "hylotlDescription" : "A kappa's favorite.",
-  "inventoryIcon" : "cucumberMSMseedicon.png",
-  "largeImage" : "cucumberMSMseed.png:default.default.default",
+  "inventoryIcon" : "cucumberMFMseedicon.png",
+  "largeImage" : "cucumberMFMseed.png:default.default.default",
   "orientations" : [
     {
-      "dualImage" : "cucumberMSMseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "cucumberMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -40,7 +40,7 @@
     }
   ],
   "maxImmersion" : 0.25,
-  "breakDropOptions" : [[[ "cucumberMSMseed", 1, { } ]]],
+  "breakDropOptions" : [[[ "cucumberMFMseed", 1, { } ]]],
   "hasObjectItem" : false,
   "biomePlaced" : true
 }

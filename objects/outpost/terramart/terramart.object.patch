@@ -547,7 +547,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : [ "cucumberMSMseed", 3 ] }
+    "value" : { "item" : [ "cucumberMFMseed", 3 ] }
   },
   {
     "op" : "add",

@@ -7,17 +7,17 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Seeds for cucumbers!\nFirst Harvest: 26 mins\nRe-Harvest: 16 min",
-  "shortdescription" : "Cucumber Seeds",
+  "description" : "Seeds for cucumbers!\nFirst Harvest: 26 mins\nRe-Harvest: None",
+  "shortdescription" : "Old Cucumber Seeds",
   "floranDescription" : "Ssseedsss for cucumbersss!",
   "glitchDescription" : "Identify. Cucumber seeds.",
   "humanDescription" : "Good for using at a sauna!",
   "hylotlDescription" : "A kappa's favorite.",
-  "inventoryIcon" : "cucumberMSMseedicon.png",
-  "largeImage" : "cucumberMSMseed.png:default.default.default",
+  "inventoryIcon" : "obsoletecucumberMSMseedicon.png",
+  "largeImage" : "obsoletecucumberMSMseed.png:default.default.default",
   "orientations" : [
     {
-      "dualImage" : "cucumberMSMseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "obsoletecucumberMSMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -35,8 +35,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "cucumberMFMHarvest",
-      "resetToStage" : 2
+      "harvestPool" : "cucumberMFMHarvest"
     }
   ],
   "maxImmersion" : 0.25

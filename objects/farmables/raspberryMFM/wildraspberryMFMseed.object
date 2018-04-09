@@ -1,27 +1,27 @@
 {
-  "objectName" : "raspberryPBJseed",
+  "objectName" : "wildraspberryMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 5.03,
+  "price" : 13.0,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Sweet and tart.\nFirst Harvest: 34 mins\nRe-Harvest: 20 mins",
-  "shortdescription" : "Raspberry Seeds",
+  "description" : "Sweet and tart.",
+  "shortdescription" : "Wild Raspberry Seeds",
   "floranDescription" : "Ssseedsss for Rassspberriesss!",
   "glitchDescription" : "Identify. Raspberry seeds.",
   "humanDescription" : "Oh sweet! Raspberry seeds!",
-  "inventoryIcon" : "raspberryPBJseedicon.png",
-  "largeImage" : "raspberryPBJseed.png:default.default.default",
+  "inventoryIcon" : "raspberryMFMseedicon.png",
+  "largeImage" : "raspberryMFMseed.png:default.default.default",
   "orientations" : [
     {
-      "dualImage" : "raspberryPBJseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "raspberryMFMseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "spaceScan" : 0.1,
-      "requireTilledAnchors" : true,
+      "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }
   ],
@@ -38,5 +38,8 @@
       "resetToStage" : 2
     }
   ],
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.25,
+  "breakDropOptions" : [[[ "raspberryMFMseed", 1, { } ]]],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
 }

@@ -28,8 +28,30 @@
 			"objectSets" : [
 				{
 					"pool" : [
+						[1, "wildpalsterstickMFMseed"]
+					],
+					"parameters" : {
+						"startingStage" : 2
+					}
+				}
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/surfacePlaceables/items/-",
+		"value": {
+			"mode" : "floor",
+			"priority" : 1.0,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:surfaceCrops",
+
+			"type" : "object",
+			"objectSets" : [
+				{
+					"pool" : [
 						[1, "wildblackberryMFMseed"],
-						[1, "wildraspberryPBJseed"],
+						[1, "wildraspberryMFMseed"],
             [1, "wildsesameMFMseed" ]
 					],
 					"parameters" : {
@@ -56,28 +78,6 @@
 					],
 					"parameters" : {
 						"startingStage" : 6
-					}
-				}
-			]
-		}
-	},
-	{
-		"op": "add",
-		"path": "/surfacePlaceables/items/-",
-		"value": {
-			"mode" : "floor",
-			"priority" : 1.0,
-			"variants" : 1,
-			"distribution" : "/biomes/distributions.config:surfaceCrops",
-
-			"type" : "object",
-			"objectSets" : [
-				{
-					"pool" : [
-						[1, "wildpalsterstickMFMseed"]
-					],
-					"parameters" : {
-						"startingStage" : 2
 					}
 				}
 			]

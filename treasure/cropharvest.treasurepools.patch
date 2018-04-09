@@ -1072,11 +1072,11 @@
     "path" : "/raspberryMFMHarvest",
     "value" : [ [0, {
         "fill" : [
-          {"item" : "raspberryPBJseed"}
+          {"item" : "raspberryMFMseed"}
         ],
         "pool" : [
           {"weight" : 0.89, "item" : "raspberryMFM"},
-          {"weight" : 0.01, "item" : "raspberryPBJseed"},
+          {"weight" : 0.01, "item" : "raspberryMFMseed"},
           {"weight" : 0.10, "item" : "plantfibre"}
         ],
         "poolRounds" : [

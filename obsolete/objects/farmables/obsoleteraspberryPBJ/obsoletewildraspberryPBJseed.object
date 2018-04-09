@@ -8,15 +8,15 @@
   "tooltipKind" : "seed",
   "printable" : false,
   "description" : "Sweet and tart.",
-  "shortdescription" : "Wild Raspberry Seeds",
+  "shortdescription" : "Old Wild Raspberry Seeds",
   "floranDescription" : "Ssseedsss for Rassspberriesss!",
   "glitchDescription" : "Identify. Raspberry seeds.",
   "humanDescription" : "Oh sweet! Raspberry seeds!",
-  "inventoryIcon" : "raspberryPBJseedicon.png",
-  "largeImage" : "raspberryPBJseed.png:default.default.default",
+  "inventoryIcon" : "obsoleteraspberryPBJseedicon.png",
+  "largeImage" : "obsoleteraspberryPBJseed.png:default.default.default",
   "orientations" : [
     {
-      "dualImage" : "raspberryPBJseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "obsoleteraspberryPBJseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -34,12 +34,11 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "raspberryMFMHarvest",
-      "resetToStage" : 2
+      "harvestPool" : "raspberryMFMHarvest"
     }
   ],
   "maxImmersion" : 0.25,
-  "breakDropOptions" : [[[ "raspberryPBJseed", 1, { } ]]],
+  "breakDropOptions" : [[[ "raspberryMFMseed", 1, { } ]]],
   "hasObjectItem" : false,
   "biomePlaced" : true
 }

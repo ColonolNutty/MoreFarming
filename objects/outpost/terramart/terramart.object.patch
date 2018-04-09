@@ -682,7 +682,7 @@
   {
     "op" : "add",
     "path" : "/interactData/items/-",
-    "value" : { "item" : [ "raspberryPBJseed", 3 ] }
+    "value" : { "item" : [ "raspberryMFMseed", 3 ] }
   },
   {
     "op" : "add",

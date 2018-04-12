@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "rawchipstortillaMFM", "count" : 6 }
+  ],
+  "output" : { "item" : "chipstortillaMFM", "count" : 6 },
+  "groups" : [ "bakingMFM" ]
+}

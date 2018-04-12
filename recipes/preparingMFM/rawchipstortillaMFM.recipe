@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "tortillacornMFM", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "cookingoilMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "rawchipstortillaMFM", "count" : 6 },
+  "groups" : [ "preparingMFM" ]
+}

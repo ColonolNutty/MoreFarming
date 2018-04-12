@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "choppedtomatoMFM", "count" : 2 },
+    { "item" : "choppedonionMFM", "count" : 2 },
+    { "item" : "choppedcorianderMFM", "count" : 2 },
+    { "item" : "choppedjalapenopepperMFM", "count" : 1 },
+    { "item" : "choppedgarlicMFM", "count" : 1 },
+    { "item" : "limejuiceMFM", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "salsaMFM", "count" : 5 },
+  "groups" : [ "blendingMFM" ]
+}

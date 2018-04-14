@@ -4,8 +4,8 @@
   "price" : 252.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Jelly made from raspberries.",
-  "shortdescription" : "Jelly - Raspberry",
+  "description" : "^gray;Jelly made from raspberries.",
+  "shortdescription" : "^gray;Jelly - Raspberry",
   "foodValue" : 50.5,
   "effects" : [[
     {

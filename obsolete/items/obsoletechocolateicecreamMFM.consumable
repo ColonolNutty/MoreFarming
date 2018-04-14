@@ -4,8 +4,8 @@
   "price" : 62.66,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Chocolate ice cream.",
-  "shortdescription" : "Ice Cream - Chocolate",
+  "description" : "^gray;Chocolate ice cream.",
+  "shortdescription" : "^gray;Ice Cream - Chocolate",
   "foodValue" : 40.64,
   "effects" : [[
     {

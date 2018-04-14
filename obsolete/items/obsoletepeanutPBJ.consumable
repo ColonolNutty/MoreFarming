@@ -5,8 +5,8 @@
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
-  "description" : "Peanuts in space!",
-  "shortdescription" : "Peanut",
+  "description" : "^gray;Peanuts in space!",
+  "shortdescription" : "^gray;Peanut",
   "foodValue" : 10.0,
   "effects" : [[
     {

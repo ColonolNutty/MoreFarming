@@ -6,8 +6,8 @@
   "tooltipKind" : "container",
   "category" : "storage",
   "price" : 503,
-  "description" : "An obsolete machine, I should recycle it.",
-  "shortdescription" : "Obsolete Juicer",
+  "description" : "^gray;An obsolete machine, I should recycle it.",
+  "shortdescription" : "^gray;Obsolete Juicer",
   "race" : "generic",
 
   "hydrophobic" : true,

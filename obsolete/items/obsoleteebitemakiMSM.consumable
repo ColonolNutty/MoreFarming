@@ -4,8 +4,8 @@
   "price" : 371.05,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "(PREP):-} Cooked shrimp and cucumber, wrapped in rice and kelp.",
-  "shortdescription" : "Temaki - Ebi",
+  "description" : "^gray;Cooked shrimp and cucumber, wrapped in rice and kelp.",
+  "shortdescription" : "^gray;Temaki - Ebi",
   "foodValue" : 117.6,
   "effects" : [[
     {

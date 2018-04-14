@@ -4,8 +4,8 @@
   "price" : 32.43,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Plain crackers topped with cheese.",
-  "shortdescription" : "Cheese n' Crackers",
+  "description" : "^gray;Plain crackers topped with cheese.",
+  "shortdescription" : "^gray;Cheese n' Crackers",
   "foodValue" : 33.17,
   "effects" : [[
     {

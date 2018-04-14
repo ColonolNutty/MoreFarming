@@ -4,8 +4,8 @@
   "price" : 287.86,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A sandwich made with peanut butter and bananas.",
-  "shortdescription" : "Sandwich - PB+Banana",
+  "description" : "^gray;A sandwich made with peanut butter and bananas.",
+  "shortdescription" : "^gray;Sandwich - PB+Banana",
   "foodValue" : 84.03,
   "effects" : [[
     {

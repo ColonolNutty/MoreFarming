@@ -7,8 +7,8 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "Used to grow Oranges.",
-  "shortdescription" : "Orange Seed",
+  "description" : "^gray;Used to grow Oranges.",
+  "shortdescription" : "^gray;Orange Seed",
   "inventoryIcon" : "obsoleteorangeMFMseedicon.png",
   "largeImage" : "obsoleteorangeMFMseed.png:default.default.default",
   "orientations" : [ 

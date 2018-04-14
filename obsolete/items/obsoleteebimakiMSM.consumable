@@ -4,8 +4,8 @@
   "price" : 662.89,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Cooked shrimp and tamari packed in a rice ball.",
-  "shortdescription" : "Maki - Ebi",
+  "description" : "^gray;Cooked shrimp and tamari packed in a rice ball.",
+  "shortdescription" : "^gray;Maki - Ebi",
   "foodValue" : 174.38,
   "effects" : [[
     {

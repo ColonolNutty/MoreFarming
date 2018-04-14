@@ -4,8 +4,8 @@
   "price" : 303.71,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Chopped avocado and ginger packed in a rice ball.",
-  "shortdescription" : "Maki - Avocado",
+  "description" : "^gray;Chopped avocado and ginger packed in a rice ball.",
+  "shortdescription" : "^gray;Maki - Avocado",
   "foodValue" : 75.08,
   "effects" : [[
     {

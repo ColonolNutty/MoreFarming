@@ -4,8 +4,8 @@
   "price" : 267.91,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A sandwich made with blackberry jelly.",
-  "shortdescription" : "Sandwich - Blackberry Jelly",
+  "description" : "^gray;A sandwich made with blackberry jelly.",
+  "shortdescription" : "^gray;Sandwich - Blackberry Jelly",
   "foodValue" : 73.53,
   "effects" : [[
     {

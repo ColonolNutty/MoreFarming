@@ -4,8 +4,8 @@
   "price" : 414.1,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "Cooked eel and cucumber, wrapped in rice and kelp.",
-  "shortdescription" : "Temaki - Unagi",
+  "description" : "^gray;Cooked eel and cucumber, wrapped in rice and kelp.",
+  "shortdescription" : "^gray;Temaki - Unagi",
   "foodValue" : 117.6,
   "effects" : [[
     {

@@ -4,8 +4,8 @@
   "price" : 50,
   "category" : "preparedFood",
   "inventoryIcon" : "obsoletecookedmarshmallowMFM.png",
-  "description" : "A staple camping treat!",
-  "shortdescription" : "Cooked Marshmallow",
+  "description" : "^gray;A staple camping treat!",
+  "shortdescription" : "^gray;Cooked Marshmallow",
   "effects" : [ [
       {
         "effect" : "regeneration1",

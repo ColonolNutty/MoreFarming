@@ -5,8 +5,8 @@
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
-  "description" : "Sweet and juicy!",
-  "shortdescription" : "Strawberries",
+  "description" : "^gray;Sweet and juicy!",
+  "shortdescription" : "^gray;Strawberries",
   "foodValue" : 10.0,
   "effects" : [[
     {

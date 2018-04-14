@@ -7,8 +7,8 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "An old tree that used to grow Coconuts.",
-  "shortdescription" : "Old Coconut Tree",
+  "description" : "^gray;An old tree that used to grow Coconuts.",
+  "shortdescription" : "^gray;Old Coconut Tree",
   "inventoryIcon" : "obsoletecoconutpalmMFMseedicon.png",
   "largeImage" : "obsoletecoconutpalmMFMseed.png:default.default.default",
   "orientations" : [ 

@@ -4,8 +4,8 @@
   "price" : 483.9,
   "category" : "food",
   "tooltipKind" : "food",
-  "description" : "(BLEND):-} Jam made from jelons.",
-  "shortdescription" : "Jam - Jelon",
+  "description" : "^gray;Jam made from jelons.",
+  "shortdescription" : "^gray;Jam - Jelon",
   "foodValue" : 61.0,
   "effects" : [[
     {

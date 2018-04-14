@@ -4,8 +4,8 @@
   "price" : 252.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Jelly made from strawberries.",
-  "shortdescription" : "Jelly - Strawberry",
+  "description" : "^gray;Jelly made from strawberries.",
+  "shortdescription" : "^gray;Jelly - Strawberry",
   "foodValue" : 50.5,
   "effects" : [[
     {

@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 26.46,
   "category" : "block",
-  "description" : "I need to recycle this to make it usable for building.",
-  "shortdescription" : "Old Chocolate Block - White",
+  "description" : "^gray;I need to recycle this to make it usable for building.",
+  "shortdescription" : "^gray;Old Chocolate Block - White",
   "inventoryIcon" : "obsoletewhitechocolateblockMFM.png"
 }

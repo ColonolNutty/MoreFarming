@@ -4,8 +4,8 @@
   "price" : 218.42,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A cold slice of piodia pizza.",
-  "shortdescription" : "Pizza Slice - Piodia",
+  "description" : "^gray;A cold slice of piodia pizza.",
+  "shortdescription" : "^gray;Pizza Slice - Piodia",
   "foodValue" : 17.96,
   "effects" : [[
     {

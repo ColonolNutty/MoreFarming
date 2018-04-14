@@ -4,8 +4,8 @@
   "price" : 267.91,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A sandwich made with strawberry jelly.",
-  "shortdescription" : "Sandwich - Strawberry Jelly",
+  "description" : "^gray;A sandwich made with strawberry jelly.",
+  "shortdescription" : "^gray;Sandwich - Strawberry Jelly",
   "foodValue" : 73.53,
   "effects" : [[
     {

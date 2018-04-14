@@ -4,8 +4,8 @@
   "price" : 798.16,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A sandwich made with peanut butter and grape jelly.",
-  "shortdescription" : "Sandwich - Grape PB+J",
+  "description" : "^gray;A sandwich made with peanut butter and grape jelly.",
+  "shortdescription" : "^gray;Sandwich - Grape PB+J",
   "foodValue" : 126.55,
   "effects" : [[
     {

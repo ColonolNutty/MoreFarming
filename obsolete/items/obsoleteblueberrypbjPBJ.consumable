@@ -4,8 +4,8 @@
   "price" : 426.99,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A sandwich made with peanut butter and blueberry jelly.",
-  "shortdescription" : "Sandwich - Blueberry PB+J",
+  "description" : "^gray;A sandwich made with peanut butter and blueberry jelly.",
+  "shortdescription" : "^gray;Sandwich - Blueberry PB+J",
   "foodValue" : 126.55,
   "effects" : [[
     {

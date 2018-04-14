@@ -5,8 +5,8 @@
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
-  "description" : "A pear shaped fruit housing a large seed in the center.",
-  "shortdescription" : "Avocado",
+  "description" : "^gray;A pear shaped fruit housing a large seed in the center.",
+  "shortdescription" : "^gray;Avocado",
   "foodValue" : 10.0,
   "effects" : [[
     {

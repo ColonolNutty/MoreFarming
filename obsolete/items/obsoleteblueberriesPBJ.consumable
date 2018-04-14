@@ -5,8 +5,8 @@
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
-  "description" : "Sweet and blue!",
-  "shortdescription" : "Blueberries",
+  "description" : "^gray;Sweet and blue!",
+  "shortdescription" : "^gray;Blueberries",
   "foodValue" : 10.0,
   "effects" : [[
     {

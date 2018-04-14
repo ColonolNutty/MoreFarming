@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "bamboostalkMFM", "count" : 10 }
+  ],
+  "output" : { "item" : "islandcabinet", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "genericMFM", "storageMFM", "all" ]
+}

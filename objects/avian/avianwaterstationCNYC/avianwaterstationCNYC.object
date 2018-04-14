@@ -7,7 +7,7 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "Fresh water fountain. Fill your bottle!",
-  "shortdescription" : "^orange;Avian Waterfountain (Water)^white;",
+  "shortdescription" : "^orange;Avian Fount (Water)^white;",
   "race" : "generic",
   "apexDescription" : "In constant motion, almost a metaphor in itself",
   "avianDescription" : "Always fresh. Refreshing.",

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 }
+  ],
+  "output" : { "item" : "retroscificabinet", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "genericMFM", "storageMFM", "all" ]
+}

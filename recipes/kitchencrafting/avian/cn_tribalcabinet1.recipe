@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 10 }
+  ],
+  "output" : { "item" : "tribalcabinet1", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "avianMFM", "storageMFM", "all" ]
+}

@@ -7,8 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Used to grow Lemons",
-  "shortdescription" : "^gray;Old Lemon Tree",
+  "description" : "^gray;Used to grow Lemons^reset;",
+  "shortdescription" : "^gray;Old Lemon Tree^reset;",
+  
   "inventoryIcon" : "obsoletelemonMFMseedicon.png",
   "largeImage" : "obsoletelemonMFMseed.png:default.default.default",
   "orientations" : [ 

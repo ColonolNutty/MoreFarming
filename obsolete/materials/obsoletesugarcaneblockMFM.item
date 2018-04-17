@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 84.0,
   "category" : "block",
-  "description" : "^gray;I need to recycle this to make it usable for building.",
-  "shortdescription" : "^gray;Old Sugarcane Block",
+  "description" : "^gray;I need to recycle this to make it usable for building.^reset;",
+  "shortdescription" : "^gray;Old Sugarcane Block^reset;",
   "inventoryIcon" : "obsoletesugarcaneblockMFM.png"
 }

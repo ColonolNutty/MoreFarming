@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "price" : 377.82,
   "category" : "cookingIngredient",
-  "description" : "^gray;A fermented sauce made from soybeans.",
-  "shortdescription" : "^gray;Tamari",
+  "description" : "^gray;A fermented sauce made from soybeans.^reset;",
+  "shortdescription" : "^gray;Tamari^reset;",
   "inventoryIcon" : "obsoletetamariMSM.png"
 }

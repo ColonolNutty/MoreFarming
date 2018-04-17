@@ -4,8 +4,8 @@
   "price" : 332.33,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;Cooked eel and cucumber packed in a rice ball.",
-  "shortdescription" : "^gray;Maki - Unagi",
+  "description" : "^gray;Cooked eel and cucumber packed in a rice ball.^reset;",
+  "shortdescription" : "^gray;Maki - Unagi^reset;",
   "foodValue" : 75.6,
   "effects" : [[
     {

@@ -4,8 +4,8 @@
   "price" : 331.01,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;Raw tuna and cucumber packed in a rice ball.",
-  "shortdescription" : "^gray;Maki - Marguro",
+  "description" : "^gray;Raw tuna and cucumber packed in a rice ball.^reset;",
+  "shortdescription" : "^gray;Maki - Marguro^reset;",
   "foodValue" : 75.08,
   "effects" : [[
     {

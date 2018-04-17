@@ -5,16 +5,9 @@
   "price" : 350.0,
   "category" : "decorative",
   "printable" : false,
-  "description" : "^gray;An old and molding bow made of plain chocolate.",
-  "shortdescription" : "^gray;Old Plain Bow",
+  "description" : "^gray;An old and molding bow made of plain chocolate.^reset;",
+  "shortdescription" : "^gray;Stale Plain Choc Bow^reset;",
   "race" : "generic",
-  "apexDescription" : "It's a decorative chocolate bow.",
-  "avianDescription" : "A decorative chocolate ribbon.",
-  "floranDescription" : "Bow is sssugar. Yuck.",
-  "glitchDescription" : "Statement. A large bow made of chocolate.",
-  "humanDescription" : "It's a nice chocolate ribbon.",
-  "hylotlDescription" : "A very large, very chocolatey ribbon.",
-  "novakidDescription" : "Chocolate ribbon.",
   "inventoryIcon" : "obsoletechocolateplainbowMFMicon.png",
   "orientations" : [
     {

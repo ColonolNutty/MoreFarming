@@ -5,8 +5,8 @@
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
-  "description" : "^gray;A kappa's favorite.",
-  "shortdescription" : "^gray;Cucumber",
+  "description" : "^gray;A kappa's favorite.^reset;",
+  "shortdescription" : "^gray;Cucumber^reset;",
   "foodValue" : 10.0,
   "effects" : [[
     {

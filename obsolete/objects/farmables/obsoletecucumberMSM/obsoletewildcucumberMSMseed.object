@@ -7,12 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Seeds for cucumbers!",
-  "shortdescription" : "^gray;Old Wild Cucumber Seeds",
-  "floranDescription" : "Ssseedsss for cucumbersss!",
-  "glitchDescription" : "Identify. Cucumber seeds.",
-  "humanDescription" : "Good for using at a sauna!",
-  "hylotlDescription" : "A kappa's favorite.",
+  "description" : "^gray;Seeds for cucumbers!^reset;",
+  "shortdescription" : "^gray;Old Wild Cucumber Seeds^reset;",
+  
   "inventoryIcon" : "obsoletecucumberMSMseedicon.png",
   "largeImage" : "obsoletecucumberMSMseed.png:default.default.default",
   "orientations" : [

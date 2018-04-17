@@ -7,11 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Sweet and tart.\nFirst Harvest: 34 mins\nRe-Harvest: None",
-  "shortdescription" : "^gray;Old Raspberry Seeds",
-  "floranDescription" : "Ssseedsss for Rassspberriesss!",
-  "glitchDescription" : "Identify. Raspberry seeds.",
-  "humanDescription" : "Oh sweet! Raspberry seeds!",
+  "description" : "^gray;Sweet and tart.\nFirst Harvest: 34 mins\nRe-Harvest: None^reset;",
+  "shortdescription" : "^gray;Old Raspberry Seeds^reset;",
+  
   "inventoryIcon" : "obsoleteraspberryPBJseedicon.png",
   "largeImage" : "obsoleteraspberryPBJseed.png:default.default.default",
   "orientations" : [

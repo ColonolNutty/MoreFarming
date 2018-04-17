@@ -4,8 +4,8 @@
   "price" : 175.84,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;Ice cream with chocolate chips.",
-  "shortdescription" : "^gray;Ice Cream - Chocolate Chip",
+  "description" : "^gray;Ice cream with chocolate chips.^reset;",
+  "shortdescription" : "^gray;Ice Cream - Chocolate Chip^reset;",
   "foodValue" : 114.3,
   "effects" : [[
     {

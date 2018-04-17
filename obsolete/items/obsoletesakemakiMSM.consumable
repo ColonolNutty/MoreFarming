@@ -4,8 +4,8 @@
   "price" : 379.47,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;Smoked salmon and cucumber packed in sake.",
-  "shortdescription" : "^gray;Maki - Sake",
+  "description" : "^gray;Smoked salmon and cucumber packed in sake.^reset;",
+  "shortdescription" : "^gray;Maki - Sake^reset;",
   "foodValue" : 86.1,
   "effects" : [[
     {

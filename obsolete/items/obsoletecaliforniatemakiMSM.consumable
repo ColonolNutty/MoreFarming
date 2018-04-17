@@ -4,8 +4,8 @@
   "price" : 472.9,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;Chopped cucumber, lemon juice, and raw fish, wrapped in rice and kelp",
-  "shortdescription" : "^gray;Temaki - California",
+  "description" : "^gray;Chopped cucumber, lemon juice, and raw fish, wrapped in rice and kelp^reset;",
+  "shortdescription" : "^gray;Temaki - California^reset;",
   "foodValue" : 149.68,
   "effects" : [[
     {

@@ -4,8 +4,8 @@
   "price" : 320.51,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;Raw squid and cucumber packed in a rice ball.",
-  "shortdescription" : "^gray;Maki - Ika",
+  "description" : "^gray;Raw squid and cucumber packed in a rice ball.^reset;",
+  "shortdescription" : "^gray;Maki - Ika^reset;",
   "foodValue" : 75.08,
   "effects" : [[
     {

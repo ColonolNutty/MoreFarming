@@ -5,8 +5,8 @@
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
-  "description" : "^gray;May contain a soul.",
-  "shortdescription" : "^gray;Ginger",
+  "description" : "^gray;May contain a soul.^reset;",
+  "shortdescription" : "^gray;Ginger^reset;",
   "foodValue" : 10.0,
   "effects" : [[
     {

@@ -4,8 +4,8 @@
   "price" : 391.04,
   "category" : "drink",
   "tooltipKind" : "food",
-  "description" : "^gray;Raw squid and cucumber, wrapped in rice and kelp.",
-  "shortdescription" : "^gray;Temaki - Ika",
+  "description" : "^gray;Raw squid and cucumber, wrapped in rice and kelp.^reset;",
+  "shortdescription" : "^gray;Temaki - Ika^reset;",
   "foodValue" : 116.57,
   "effects" : [[
     {

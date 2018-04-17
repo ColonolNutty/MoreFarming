@@ -7,11 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;A tender plant.\nFirst Harvest: 20 mins\nRe-Harvest: None",
-  "shortdescription" : "^gray;Old Peanut Seeds",
-  "floranDescription" : "Ssseeds for Peanuts!",
-  "glitchDescription" : "Identify. Peanut seeds.",
-  "humanDescription" : "Mmmm, Peanut butter",
+  "description" : "^gray;A tender plant.\nFirst Harvest: 20 mins\nRe-Harvest: None^reset;",
+  "shortdescription" : "^gray;Old Peanut Seeds^reset;",
+  
   "inventoryIcon" : "obsoletepeanutPBJseedicon.png",
   "largeImage" : "obsoletepeanutPBJseed.png:default.default.default",
   "orientations" : [

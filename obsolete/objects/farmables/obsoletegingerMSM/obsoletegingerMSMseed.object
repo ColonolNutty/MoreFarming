@@ -7,11 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;A good seasoning.\nFirst Harvest: 14 mins\nRe-Harvest: None",
-  "shortdescription" : "^gray;Old Ginger Seeds",
-  "floranDescription" : "Ssseedsss for Ginger!",
-  "glitchDescription" : "Identify. Ginger seeds.",
-  "humanDescription" : "A good seasoning for any dish, almost any...",
+  "description" : "^gray;A good seasoning.\nFirst Harvest: 14 mins\nRe-Harvest: None^reset;",
+  "shortdescription" : "^gray;Old Ginger Seeds^reset;",
+  
   "inventoryIcon" : "obsoletegingerMSMseedicon.png",
   "largeImage" : "obsoletegingerMSMseed.png:default.default.default",
   "orientations" : [

@@ -7,8 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Used to grow Dragonfruits",
-  "shortdescription" : "^gray;Old Dragonfruit Seeds",
+  "description" : "^gray;Used to grow Dragonfruits^reset;",
+  "shortdescription" : "^gray;Old Dragonfruit Seeds^reset;",
+  
   "inventoryIcon" : "obsoletedragonfruitMFMseedicon.png",
   "largeImage" : "obsoletedragonfruitMFMseed.png:default.default.default",
   "orientations" : [ 

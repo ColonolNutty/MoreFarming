@@ -1,0 +1,36 @@
+{
+  "objectName" : "avianblendingstation",
+  "colonyTags" : ["avian", "avianvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;A pestle and waterjug!^reset;",
+  "shortdescription" : "^gray;Avian Waterblender (Blend)^reset;",
+  "race" : "generic",
+  "category" : "Cookware",
+  "price" : 84.35,
+  "objectType" : "container",
+
+  "inventoryIcon" : "obsoleteavianblendingstationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "obsoleteavianblendingstation.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "blendingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/blendingFMRecipes.config"
+}

@@ -1,0 +1,64 @@
+{
+  "objectName" : "hylotlfreezingstation",
+  "colonyTags" : ["hylotl", "hylotlvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;A waterfilled freezer, used for storage or making cold treats.^reset;",
+  "shortdescription" : "^gray;Hylotl Freezer (Freeze)^reset;",
+  "race" : "generic",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "Refridgerated Cookware",
+  "price" : 249.15,
+
+  "lightColor" : [125, 143, 179],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.5,
+  "flickerMaxIntensity" : 0.55,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "obsoletehylotlfreezingstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "obsoletehylotlfreezingstation.png:<color>", "fullbright" : true }, { "image" : "obsoletehylotlfreezingstationlit.png:<color>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "obsoletehylotlfreezingstation.png:<color>", "fullbright" : true }, { "image" : "obsoletehylotlfreezingstationlit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "recipeGroup" : "freezingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config"
+}

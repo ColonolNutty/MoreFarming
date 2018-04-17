@@ -7,11 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Produces blueberries.",
-  "shortdescription" : "^gray;Old Wild Blueberry Seeds",
-  "floranDescription" : "Ssseeds for blueberries!",
-  "glitchDescription" : "Identify. Blueberry seeds.",
-  "humanDescription" : "Oh sweet! Blueberry seeds!",
+  "description" : "^gray;Produces blueberries.^reset;",
+  "shortdescription" : "^gray;Old Wild Blueberry Seeds^reset;",
+  
   "inventoryIcon" : "obsoleteblueberriesPBJseedicon.png",
   "largeImage" : "obsoleteblueberriesPBJseed.png:default.default.default",
   "orientations" : [

@@ -3,8 +3,8 @@
   "rarity" : "Common",
   "price" : 80.0,
   "category" : "craftingMaterial",
-  "description" : "^gray;Freshly harvested Sugarcane stalk. Can be milled into Sugar.",
-  "shortdescription" : "^gray;Sugarcane Stalk",
+  "description" : "^gray;Freshly harvested Sugarcane stalk. Can be milled into Sugar.^reset;",
+  "shortdescription" : "^gray;Sugarcane Stalk^reset;",
   "inventoryIcon" : "obsoletesugarcaneBMB.png",
   "itemTags" : [ "reagent" ]
 }

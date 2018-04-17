@@ -4,8 +4,8 @@
   "price" : 151.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;Buttery peanut butter, made from peanuts.",
-  "shortdescription" : "^gray;Peanut Butter",
+  "description" : "^gray;Buttery peanut butter, made from peanuts.^reset;",
+  "shortdescription" : "^gray;Peanut Butter^reset;",
   "foodValue" : 50.5,
   "effects" : [[
     {

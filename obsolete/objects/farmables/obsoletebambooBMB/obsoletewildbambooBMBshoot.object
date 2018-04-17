@@ -7,11 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;An old bamboo shoot.",
-  "shortdescription" : "^gray;Old Wild Bamboo Shoot",
-  "floranDescription" : "Sssharp sssticksss for ssstabbing!",
-  "glitchDescription" : "Statement. Bamboo.",
-  "hylotlDescription" : "Bamboo is very useful.",
+  "description" : "^gray;An old bamboo shoot.^reset;",
+  "shortdescription" : "^gray;Old Wild Bamboo Shoot^reset;",
+  
   "inventoryIcon" : "obsoletebambooBMBshooticon.png",
   "largeImage" : "obsoletebambooBMBshoot.png:default.default.default",
   "orientations" : [

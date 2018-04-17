@@ -7,11 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;A tender plant. Because of how tender it is, this plant is usually grown annually.",
-  "shortdescription" : "^gray;Old Wild Peanut Seeds",
-  "floranDescription" : "Ssseeds for Peanuts!",
-  "glitchDescription" : "Identify. Peanut seeds.",
-  "humanDescription" : "Mmmm, Peanut butter",
+  "description" : "^gray;A tender plant. Because of how tender it is, this plant is usually grown annually.^reset;",
+  "shortdescription" : "^gray;Old Wild Peanut Seeds^reset;",
+  
   "inventoryIcon" : "obsoletepeanutPBJseedicon.png",
   "largeImage" : "obsoletepeanutPBJseed.png:default.default.default",
   "orientations" : [

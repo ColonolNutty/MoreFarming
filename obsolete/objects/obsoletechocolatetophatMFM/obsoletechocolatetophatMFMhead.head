@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "headwear",
-  "description" : "^gray;Not so stylish anymore, looks like it has gone stale.",
-  "shortdescription" : "^gray;Top Hat - Stale Chocolate",
+  "description" : "^gray;Not so stylish anymore, looks like it has gone stale.^reset;",
+  "shortdescription" : "^gray;Top Hat - Stale Chocolate^reset;",
   "inspectionKind" : "armor",
 
   "maleFrames" : "oldheadm.png",

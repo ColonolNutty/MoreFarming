@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "headwear",
-  "description" : "^gray;It looks like the chocolate has gone stale.",
-  "shortdescription" : "^gray;Bunny Head - Stale Chocolate",
+  "description" : "^gray;It looks like the chocolate has gone stale.^reset;",
+  "shortdescription" : "^gray;Bunny Head - Stale Chocolate^reset;",
   "tooltipKind" : "armor",
 
   "maleFrames" : "oldheadm.png",

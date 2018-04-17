@@ -4,7 +4,7 @@
   "price" : 40,
   "category" : "cookingIngredient",
   "inventoryIcon" : "obsoleteSeedoilMFM.png",
-  "description" : "^gray;Oil! For stir-frying and FTL traveling.",
-  "shortdescription" : "^gray;Seed Oil",
+  "description" : "^gray;Oil! For stir-frying and FTL traveling.^reset;",
+  "shortdescription" : "^gray;Seed Oil^reset;",
   "fuelAmount" : 4
 }

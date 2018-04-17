@@ -7,10 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;A reed plant.\nFirst Harvest: 96 mins\nRe-Harvest: None",
-  "shortdescription" : "^gray;Old Reed Sprout",
-  "floranDescription" : "Reedssss.",
-  "glitchDescription" : "Statement. Just reeds.",
+  "description" : "^gray;A reed plant.\nFirst Harvest: 96 mins\nRe-Harvest: None^reset;",
+  "shortdescription" : "^gray;Old Reed Sprout^reset;",
+  
   "inventoryIcon" : "obsoletereedBMBsprouticon.png",
   "largeImage" : "obsoletereedBMBsprout.png:default.default.default",
   "orientations" : [

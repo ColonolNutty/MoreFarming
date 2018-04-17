@@ -4,8 +4,8 @@
   "price" : 252.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;Jelly made from blueberries.",
-  "shortdescription" : "^gray;Jelly - Blueberry",
+  "description" : "^gray;Jelly made from blueberries.^reset;",
+  "shortdescription" : "^gray;Jelly - Blueberry^reset;",
   "foodValue" : 50.5,
   "effects" : [[
     {

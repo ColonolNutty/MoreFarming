@@ -1,0 +1,96 @@
+{
+  "objectName" : "novakidkettlestation",
+  "colonyTags" : ["novakid", "novakidvillage", "cooking"],
+  "rarity" : "Common",
+  "description" : "^gray;Purifies water, whistles with encouragement!^reset;",
+  "objectType" : "container",
+  "shortdescription" : "^gray;Novakid Kettle (Purify)^reset;",
+  "race" : "generic",
+  "category" : "Cookware",
+  "price" : 266.15,
+
+  "inventoryIcon" : "obsoletenovakidkettlestationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "obsoletenovakidkettlestation.png:<color>", "fullbright" : true }, { "image" : "obsoletenovakidkettlestationlit.png:<color>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "obsoletenovakidkettlestation.png:<color>", "fullbright" : true }, { "image" : "obsoletenovakidkettlestationlit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "particleEmitter" : {
+    "emissionRate" : 2.0,
+    "emissionVariance" : 1.0,
+
+    "particle" : {
+      "type" : "animated",
+      "animation" : "/animations/coldbreath/coldbreath.animation",
+      "position" : [-3.5, 1.1],
+      "size" : 1.0,
+      "color" : [255, 255, 255, 50],
+      "fade" : 1,
+      "initialVelocity" : [2.0, 0.0],
+      "finalVelocity" : [1.0, 0.0],
+      "approach" : [0, 20],
+      "timeToLive" : 2,
+      "layer" : "back"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.3, 0.0],
+      "position" : [0.0, 0.0]
+    }
+  },
+
+    
+  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "npcToy" : {
+    "influence" : [
+      "watercoolerCollect",
+      "watercoolerConsume",
+      "watercoolerComplete"
+    ],
+    "defaultReactions" : {
+      "watercoolerCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "watercoolerConsume" : [
+        [1.0, "drink"]
+      ],
+      "watercoolerComplete" : [
+        [1.0, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  },
+  "recipeGroup" : "purifyingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config"
+}

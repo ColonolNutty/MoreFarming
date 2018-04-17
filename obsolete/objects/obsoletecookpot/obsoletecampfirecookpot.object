@@ -3,22 +3,14 @@
   "colonyTags" : [ "cooking", "light" ],
   "printable" : false,
   "rarity" : "Uncommon",
-  "description" : "^gray;A campfire with a cookpot. I can make more filling meals with foraged produce.",
-  "shortdescription" : "^gray;Camp Fire Cookpot (Boil)^white;",
-  "subtitle" : "Campsite pot cooking.",
+  "description" : "^gray;A campfire with a cookpot. I can make more filling meals with foraged produce.^reset;",
+  "shortdescription" : "^gray;Camp Fire Cookpot (Boil)^reset;",
   "race" : "generic",
   "category" : "Makeshift Cookware",
   "price" : 132,
   "objectType" : "container",
 
   "maximumLiquidLevel" : 0.2,
-
-  "apexDescription" : "A healthy camp fire, with a cookpot.",
-  "avianDescription" : "Warmth and light.",
-  "floranDescription" : "Floran stew meatsss.",
-  "glitchDescription" : "Observation. Portable cauldron!.",
-  "humanDescription" : "It's not the ritz, but it's better then a toasted marshmallow at least.",
-  "hylotlDescription" : "One pot meals, hopefully I can find ingredients.",
 
   "lightColor" : [179, 149, 107],
 

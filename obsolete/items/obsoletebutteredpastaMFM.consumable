@@ -4,8 +4,8 @@
   "price" : 32.15,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;Pasta with butter.",
-  "shortdescription" : "^gray;Pasta - Buttered",
+  "description" : "^gray;Pasta with butter.^reset;",
+  "shortdescription" : "^gray;Pasta - Buttered^reset;",
   "foodValue" : 71.18,
   "effects" : [[
     {

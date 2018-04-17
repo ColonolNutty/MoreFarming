@@ -4,20 +4,12 @@
   "retainObjectParametersInItem" : true,
   "printable" : false,
   "rarity" : "Common",
-  "description" : "^gray;Two rocks and a bit of effort can grind up wheat and other things!",
-  "shortdescription" : "^gray;Camp Millstone (Mill)^white;",
-  "subtitle" : "Grind Ingredients!",
+  "description" : "^gray;Two rocks and a bit of effort can grind up wheat and other things!^reset;",
+  "shortdescription" : "^gray;Camp Millstone (Mill)^reset;",
   "race" : "generic",
   "category" : "Makeshift Cookware",
   "price" : 20.1,
   "objectType" : "container",
-
-  "apexDescription" : "Those rocks were heavy.",
-  "avianDescription" : "Useful!",
-  "floranDescription" : "Floran ssmassh!",
-  "glitchDescription" : "Observation. Basic stone rocks.",
-  "humanDescription" : "Makeshift food preparation. It'll do.",
-  "hylotlDescription" : "It works, I can't complain about that.",
 
   "inventoryIcon" : "obsoletecampgrinder.png",
   "orientations" : [

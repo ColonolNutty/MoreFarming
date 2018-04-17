@@ -4,8 +4,8 @@
   "price" : 114.89,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;Ginger marinated in a solution of sugar and vinegar.",
-  "shortdescription" : "^gray;Gari",
+  "description" : "^gray;Ginger marinated in a solution of sugar and vinegar.^reset;",
+  "shortdescription" : "^gray;Gari^reset;",
   "foodValue" : 41.5,
   "effects" : [[
     {

@@ -3,8 +3,8 @@
   "rarity" : "Common",
   "price" : 217.76,
   "category" : "cookingIngredient",
-  "description" : "^gray;Bannock.",
-  "shortdescription" : "^gray;Raw Bannock",
+  "description" : "^gray;Bannock.^reset;",
+  "shortdescription" : "^gray;Raw Bannock^reset;",
   "inventoryIcon" : "obsoletebannockMFM.png",
   "itemTags" : [ "reagent" ]
 }

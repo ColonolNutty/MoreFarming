@@ -1,0 +1,54 @@
+{
+  "objectName" : "glitchwaterstation",
+  "colonyTags" : ["glitch", "glitchvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;Fresh water barrel. Fill your bottle!^reset;",
+  "shortdescription" : "^gray;Glitch Water Barrel (Water)^reset;",
+  "race" : "generic",
+  "category" : "Cookware",
+  "price" : 253.1,
+  "objectType" : "container",
+
+  "inventoryIcon" : "obsoleteglitchwaterstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "obsoleteglitchwaterstation.png:<color>", "fullbright" : true }, { "image" : "obsoleteglitchwaterstationlit.png:<color>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "obsoleteglitchwaterstation.png:<color>", "fullbright" : true }, { "image" : "obsoleteglitchwaterstationlit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "recipeGroup" : "waterMFM",
+  "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
+  "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config"
+}

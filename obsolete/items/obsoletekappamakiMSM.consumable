@@ -4,8 +4,8 @@
   "price" : 346.76,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;Chopped cucumbers packed in a rice ball.",
-  "shortdescription" : "^gray;Maki - Kappa",
+  "description" : "^gray;Chopped cucumbers packed in a rice ball.^reset;",
+  "shortdescription" : "^gray;Maki - Kappa^reset;",
   "foodValue" : 75.07,
   "effects" : [[
     {

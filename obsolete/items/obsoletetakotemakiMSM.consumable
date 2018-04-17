@@ -4,8 +4,8 @@
   "price" : 381.81,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;Cooked octopus and cucumber, wrapped in a ball of rice and kelp.",
-  "shortdescription" : "^gray;Temaki - Tako",
+  "description" : "^gray;Cooked octopus and cucumber, wrapped in a ball of rice and kelp.^reset;",
+  "shortdescription" : "^gray;Temaki - Tako^reset;",
   "foodValue" : 117.6,
   "effects" : [[
     {

@@ -7,8 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Used to grow Mangos.",
-  "shortdescription" : "^gray;Old Mango Tree",
+  "description" : "^gray;Used to grow Mangos.^reset;",
+  "shortdescription" : "^gray;Old Mango Tree^reset;",
+  
   "inventoryIcon" : "obsoletemangoMFMseedicon.png",
   "largeImage" : "obsoletemangoMFMseed.png:default.default.default",
   "orientations" : [ 

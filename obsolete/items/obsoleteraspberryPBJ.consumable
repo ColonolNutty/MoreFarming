@@ -5,8 +5,8 @@
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
-  "description" : "^gray;Sweet and tart!",
-  "shortdescription" : "^gray;Raspberry",
+  "description" : "^gray;Sweet and tart!^reset;",
+  "shortdescription" : "^gray;Raspberry^reset;",
   "foodValue" : 10.0,
   "effects" : [[
     {

@@ -4,8 +4,8 @@
   "price" : 161.86,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;A sandwich made with peanut butter.",
-  "shortdescription" : "^gray;Sandwich - Peanut Butter",
+  "description" : "^gray;A sandwich made with peanut butter.^reset;",
+  "shortdescription" : "^gray;Sandwich - Peanut Butter^reset;",
   "foodValue" : 73.53,
   "effects" : [[
     {

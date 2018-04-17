@@ -7,11 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Strawberries, nature's other snack food, is it a berry?",
-  "shortdescription" : "^gray;Old Wild Strawberry Seeds",
-  "floranDescription" : "Ssseedsss for strawberriesss!",
-  "glitchDescription" : "Identify. Strawberry.",
-  "humanDescription" : "Chocolate covered strawberries are the best!",
+  "description" : "^gray;Strawberries, nature's other snack food, is it a berry?^reset;",
+  "shortdescription" : "^gray;Old Wild Strawberry Seeds^reset;",
+  
   "inventoryIcon" : "obsoletestrawberryPBJseedicon.png",
   "largeImage" : "obsoletestrawberryPBJseed.png:default.default.default",
   "orientations" : [

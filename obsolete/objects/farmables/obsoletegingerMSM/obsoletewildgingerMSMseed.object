@@ -7,11 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;A good seasoning.",
-  "shortdescription" : "^gray;Old Wild Ginger Seeds",
-  "floranDescription" : "Ssseedsss for Ginger!",
-  "glitchDescription" : "Identify. Ginger seeds.",
-  "humanDescription" : "A good seasoning for any dish, almost any...",
+  "description" : "^gray;A good seasoning.^reset;",
+  "shortdescription" : "^gray;Old Wild Ginger Seeds^reset;",
+  
   "inventoryIcon" : "obsoletegingerMSMseedicon.png",
   "largeImage" : "obsoletegingerMSMseed.png:default.default.default",
   "orientations" : [

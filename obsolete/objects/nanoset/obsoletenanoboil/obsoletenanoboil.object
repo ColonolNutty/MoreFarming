@@ -1,0 +1,88 @@
+{
+  "objectName" : "nanoboil",
+  "tags" : ["cooking"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;Boiling water in zero gravity. Science!^reset;",
+  "shortdescription" : "^gray;Nanoboil (Boil)^reset;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 607.5,
+  "objectType" : "container",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "lightColor" : [125, 143, 179],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "obsoletenanoboilicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "obsoletenanoboil.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoletenanoboillit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "obsoletenanoboil.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoletenanoboillit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "particleEmitter" : {
+    "emissionRate" : 6.0,
+    "emissionVariance" : 1.0,
+
+    "particle" : {
+      "type" : "ember",
+      "position" : [0.0, 1],
+      "size" : 1.0,
+      "color" : [200, 200, 200, 100],
+      "fade" : 2,
+      "initialVelocity" : [0.0, 4.0],
+      "finalVelocity" : [0.0, 2.0],
+      "approach" : [0, 20],
+      "timeToLive" : 0.3,
+      "layer" : "back"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0],
+      "position" : [0.4, 0]
+    }
+  },
+
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "boilingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/boilingMFMRecipes.config"
+}

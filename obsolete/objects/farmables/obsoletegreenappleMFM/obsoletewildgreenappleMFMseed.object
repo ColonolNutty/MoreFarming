@@ -7,8 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Used to grow Green Apples",
-  "shortdescription" : "^gray;Green Apple Tree",
+  "description" : "^gray;Used to grow Green Apples^reset;",
+  "shortdescription" : "^gray;Green Apple Tree^reset;",
+  
   "inventoryIcon" : "obsoletegreenappleMFMseedicon.png",
   "largeImage" : "obsoletegreenappleMFMseed.png:default.default.default",
   "orientations" : [ 

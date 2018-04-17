@@ -4,8 +4,8 @@
   "price" : 1036.6,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;A sweet treat made from a bitter fruit.",
-  "shortdescription" : "^gray;Poptart - Toxictop",
+  "description" : "^gray;A sweet treat made from a bitter fruit.^reset;",
+  "shortdescription" : "^gray;Poptart - Toxictop^reset;",
   "foodValue" : 228.19,
   "effects" : [[
     {

@@ -4,8 +4,8 @@
   "price" : 639.09,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;A sandwich made with grape jelly.",
-  "shortdescription" : "^gray;Sandwich - Grape Jelly",
+  "description" : "^gray;A sandwich made with grape jelly.^reset;",
+  "shortdescription" : "^gray;Sandwich - Grape Jelly^reset;",
   "foodValue" : 73.53,
   "effects" : [[
     {

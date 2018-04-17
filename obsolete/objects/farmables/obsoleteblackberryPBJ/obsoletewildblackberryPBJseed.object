@@ -7,11 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Blackberries, careful they bruise easily.",
-  "shortdescription" : "^gray;Old Wild Blackberry Seeds",
-  "floranDescription" : "Ssseeds for blackberries!",
-  "glitchDescription" : "Identify. Blackberry seeds.",
-  "humanDescription" : "Oh sweet! Blackberry seeds!",
+  "description" : "^gray;Blackberries, careful they bruise easily.^reset;",
+  "shortdescription" : "^gray;Old Wild Blackberry Seeds^reset;",
+  
   "inventoryIcon" : "obsoleteblackberryPBJseedicon.png",
   "largeImage" : "obsoleteblackberryPBJseed.png:default.default.default",
   "orientations" : [

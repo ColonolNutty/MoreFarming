@@ -7,11 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Sweet and tart.",
-  "shortdescription" : "^gray;Old Wild Raspberry Seeds",
-  "floranDescription" : "Ssseedsss for Rassspberriesss!",
-  "glitchDescription" : "Identify. Raspberry seeds.",
-  "humanDescription" : "Oh sweet! Raspberry seeds!",
+  "description" : "^gray;Sweet and tart.^reset;",
+  "shortdescription" : "^gray;Old Wild Raspberry Seeds^reset;",
+  
   "inventoryIcon" : "obsoleteraspberryPBJseedicon.png",
   "largeImage" : "obsoleteraspberryPBJseed.png:default.default.default",
   "orientations" : [

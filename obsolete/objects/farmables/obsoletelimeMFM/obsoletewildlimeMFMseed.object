@@ -7,8 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Used to grow Limes.",
-  "shortdescription" : "^gray;Old Lime Tree",
+  "description" : "^gray;Used to grow Limes.^reset;",
+  "shortdescription" : "^gray;Old Lime Tree^reset;",
+  
   "inventoryIcon" : "obsoletelimeMFMseedicon.png",
   "largeImage" : "obsoletelimeMFMseed.png:default.default.default",
   "orientations" : [ 

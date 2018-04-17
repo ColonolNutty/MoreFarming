@@ -7,11 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;This old tree used to produce Red Apples.",
-  "shortdescription" : "^gray;Old Apple Seed",
-  "floranDescription" : "Tree isss old.",
-  "glitchDescription" : "Statement. Grew Red Apples.",
-  "humanDescription" : "How American can it get?",
+  "description" : "^gray;This old tree used to produce Red Apples.^reset;",
+  "shortdescription" : "^gray;Old Apple Seed^reset;",
+  
   "inventoryIcon" : "obsoleteappleMFMseedicon.png",
   "largeImage" : "obsoleteappleMFMseed.png:default.default.default",
   "orientations" : [ 

@@ -1,0 +1,89 @@
+{
+  "objectName" : "hylotlwaterstation",
+  "colonyTags" : ["hylotl", "hylotlvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;Fresh water fountain. Fill your bottle at your own risk!^reset;",
+  "shortdescription" : "^gray;Hylotl Fountain (Water)^reset;",
+  "race" : "generic",
+  "category" : "Cookware",
+  "price" : 223,
+  "objectType" : "container",
+
+"lightColor" : [125, 143, 179],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.5,
+  "flickerMaxIntensity" : 0.55,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "particleEmitter" : {
+    "emissionRate" : 4.0,
+    "emissionVariance" : 1.0,
+
+    "particle" : {
+      "type" : "ember",
+      "position" : [-0.2, 0.1],
+      "size" : 1.0,
+      "color" : [58, 183, 253, 255],
+      "fade" : 2,
+      "initialVelocity" : [0.0, 4.0],
+      "finalVelocity" : [0.0, -1.0],
+      "approach" : [0, 20],
+      "timeToLive" : 0.6,
+      "layer" : "back"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [-1.0, 0.4],
+      "position" : [0.2, 0]
+    }
+  },
+
+
+  "inventoryIcon" : "obsoletehylotlwaterstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "obsoletehylotlwaterstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoletehylotlwaterstationlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 3,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "obsoletehylotlwaterstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoletehylotlwaterstationlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 3,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "soundEffect" : "/sfx/objects/fountain_small1.ogg",
+  "soundEffectRadius" : 20,
+
+
+  "recipeGroup" : "waterMFM",
+  "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
+  "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config"
+}

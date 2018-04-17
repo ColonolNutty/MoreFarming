@@ -7,11 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;An old bamboo shoot.\nFirst Harvest: 26 mins\nRe-Harvest: None",
-  "shortdescription" : "^gray;Old Bamboo Shoot",
-  "floranDescription" : "Sssharp sssticksss for ssstabbing!",
-  "glitchDescription" : "Statement. Bamboo.",
-  "hylotlDescription" : "Bamboo is very useful.",
+  "description" : "^gray;An old bamboo shoot.\nFirst Harvest: 26 mins\nRe-Harvest: None^reset;",
+  "shortdescription" : "^gray;Old Bamboo Shoot^reset;",
+  
   "inventoryIcon" : "obsoletebambooBMBshooticon.png",
   "largeImage" : "obsoletebambooBMBshoot.png:default.default.default",
   "orientations" : [

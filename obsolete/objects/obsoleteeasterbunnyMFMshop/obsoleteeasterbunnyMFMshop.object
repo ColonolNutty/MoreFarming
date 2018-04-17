@@ -5,8 +5,8 @@
   "price" : 0.0,
   "category" : "other",
   "printable" : false,
-  "description" : "^gray;This shop used to offer various Easter related items.",
-  "shortdescription" : "^gray;Old Bunny Shop",
+  "description" : "^gray;This shop used to offer various Easter related items.^reset;",
+  "shortdescription" : "^gray;Old Bunny Shop^reset;",
   "race" : "generic",
   "inventoryIcon" : "obsoleteeasterbunnyMFMshopicon.png",
   "orientations" : [

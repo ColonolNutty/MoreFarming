@@ -7,11 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;An old tree that used to grow Avocados",
-  "shortdescription" : "^gray;Old Avocado Tree",
-  "floranDescription" : "Tree isss old",
-  "glitchDescription" : "Identify. Used to grow Avocados.",
-  "humanDescription" : "Just an old tree.",
+  "description" : "^gray;An old tree that used to grow Avocados^reset;",
+  "shortdescription" : "^gray;Old Avocado Tree^reset;",
+  
   "inventoryIcon" : "obsoleteavocadoMFMseedicon.png",
   "largeImage" : "obsoleteavocadoMFMseed.png:default.default.default",
   "orientations" : [ 

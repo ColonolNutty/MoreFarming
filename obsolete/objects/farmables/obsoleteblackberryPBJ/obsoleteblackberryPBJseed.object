@@ -7,11 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Blackberries, but these seeds look old.\nFirst Harvest: 34 mins\nRe-Harvest: None",
-  "shortdescription" : "^gray;Old Blackberry Seeds",
-  "floranDescription" : "Ssseeds for blackberries!",
-  "glitchDescription" : "Identify. Blackberry seeds.",
-  "humanDescription" : "Oh sweet! Blackberry seeds!",
+  "description" : "^gray;Blackberries, but these seeds look old.\nFirst Harvest: 34 mins\nRe-Harvest: None^reset;",
+  "shortdescription" : "^gray;Old Blackberry Seeds^reset;",
+  
   "inventoryIcon" : "obsoleteblackberryPBJseedicon.png",
   "largeImage" : "obsoleteblackberryPBJseed.png:default.default.default",
   "orientations" : [

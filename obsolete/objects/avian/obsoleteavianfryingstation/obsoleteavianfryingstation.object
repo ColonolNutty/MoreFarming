@@ -1,0 +1,59 @@
+{
+  "objectName" : "avianfryingstation",
+  "colonyTags" : ["avian", "avianvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;Covered clay fryer!^reset;",
+  "shortdescription" : "^gray;Avian Tangine (Fry)^reset;",
+  "race" : "generic",
+  "category" : "Cookware",
+  "price" : 81.2,
+  "objectType" : "container",
+
+  "lightColor" : [218, 83, 2, 5],
+
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.1,
+  "flickerMaxIntensity" : 0.3,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "obsoleteavianfryingstationnicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "obsoleteavianfryingstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoleteavianfryingstationlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "obsoleteavianfryingstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoleteavianfryingstationlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "fryingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/fryingMFMRecipes.config"
+}

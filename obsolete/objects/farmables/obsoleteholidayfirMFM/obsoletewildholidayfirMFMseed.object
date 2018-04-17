@@ -7,14 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Grows golden fruit.",
-  "shortdescription" : "^gray;Wild Holiday Fir Seed",
-  "apexDescription" : "This tree is deceptive. Fruits are golden and sweet, but are not bananas.",
-  "avianDescription" : "Both festive and functional. Nice.",
-  "floranDescription" : "Ssslightly sssparkly tree. Sssomewhat edible.",
-  "glitchDescription" : "Disappointed. While the decoration is edible, there is no tin or tinsel.",
-  "humanDescription" : "Ahh, the smell of a real Christmas tree! Genetically-engineered, that is...",
-  "hylotlDescription" : "A partially authentic holiday tree with a gift of fruit. I'm partially impressed.",
+  "description" : "^gray;Grows golden fruit.^reset;",
+  "shortdescription" : "^gray;Wild Holiday Fir Seed^reset;",
+  
   "inventoryIcon" : "obsoleteholidayfirMFMseedicon.png",
   "largeImage" : "obsoleteholidayfirMFMseed.png:default.default.default",
   "orientations" : [

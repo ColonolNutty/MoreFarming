@@ -7,10 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;A reed plant. Grows best near water.",
-  "shortdescription" : "^gray;Old Wild Reed Sprout",
-  "floranDescription" : "Reedssss.",
-  "glitchDescription" : "Statement. Just reeds.",
+  "description" : "^gray;A reed plant. Grows best near water.^reset;",
+  "shortdescription" : "^gray;Old Wild Reed Sprout^reset;",
+  
   "inventoryIcon" : "obsoletereedBMBsprouticon.png",
   "largeImage" : "obsoletereedBMBsprout.png:default.default.default",
   "orientations" : [

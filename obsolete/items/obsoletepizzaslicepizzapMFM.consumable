@@ -4,8 +4,8 @@
   "price" : 117.96,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "^gray;A cold slice of pizzap pizza.",
-  "shortdescription" : "^gray;Pizza Slice - Pizzap",
+  "description" : "^gray;A cold slice of pizzap pizza.^reset;",
+  "shortdescription" : "^gray;Pizza Slice - Pizzap^reset;",
   "foodValue" : 17.96,
   "effects" : [[
     {

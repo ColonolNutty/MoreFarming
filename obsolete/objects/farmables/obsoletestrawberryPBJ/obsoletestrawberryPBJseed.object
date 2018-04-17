@@ -7,11 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Sweet berry?\nFirst Harvest: 34 mins\nRe-Harvest: None",
-  "shortdescription" : "^gray;Old Strawberry Seeds",
-  "floranDescription" : "Ssseedsss for strawberriesss!",
-  "glitchDescription" : "Identify. Strawberry.",
-  "humanDescription" : "Chocolate covered strawberries are the best!",
+  "description" : "^gray;Sweet berry?\nFirst Harvest: 34 mins\nRe-Harvest: None^reset;",
+  "shortdescription" : "^gray;Old Strawberry Seeds^reset;",
+  
   "inventoryIcon" : "obsoletestrawberryPBJseedicon.png",
   "largeImage" : "obsoletestrawberryPBJseed.png:default.default.default",
   "orientations" : [

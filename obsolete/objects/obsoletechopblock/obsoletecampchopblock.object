@@ -4,20 +4,12 @@
   "retainObjectParametersInItem" : true,
   "printable" : false,
   "rarity" : "Common",
-  "description" : "^gray;A treestump makes for a perfect chopping board!",
-  "shortdescription" : "^gray;Camp Chopblock (Chop)^white;",
-  "subtitle" : "Prepare Ingredients!",
+  "description" : "^gray;A treestump makes for a perfect chopping board!^reset;",
+  "shortdescription" : "^gray;Camp Chopblock (Chop)^white;^reset;",
   "race" : "generic",
   "category" : "Makeshift Cookware",
   "price" : 40.1,
   "objectType" : "container",
-
-  "apexDescription" : "Resourceful",
-  "avianDescription" : "Use whats available I guess",
-  "floranDescription" : "Treestump chop meatss",
-  "glitchDescription" : "Inspect. A good use of a felled tree.",
-  "humanDescription" : "Makeshift food preparation. It'll do.",
-  "hylotlDescription" : "I can make use of this",
 
   "inventoryIcon" : "obsoletecampchopblock.png",
   "orientations" : [

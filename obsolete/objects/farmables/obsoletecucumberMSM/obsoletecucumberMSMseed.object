@@ -7,12 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Seeds for cucumbers!\nFirst Harvest: 26 mins\nRe-Harvest: None",
-  "shortdescription" : "^gray;Old Cucumber Seeds",
-  "floranDescription" : "Ssseedsss for cucumbersss!",
-  "glitchDescription" : "Identify. Cucumber seeds.",
-  "humanDescription" : "Good for using at a sauna!",
-  "hylotlDescription" : "A kappa's favorite.",
+  "description" : "^gray;Seeds for cucumbers!\nFirst Harvest: 26 mins\nRe-Harvest: None^reset;",
+  "shortdescription" : "^gray;Old Cucumber Seeds^reset;",
+  
   "inventoryIcon" : "obsoletecucumberMSMseedicon.png",
   "largeImage" : "obsoletecucumberMSMseed.png:default.default.default",
   "orientations" : [

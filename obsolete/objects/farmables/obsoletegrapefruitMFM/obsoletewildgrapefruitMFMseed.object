@@ -7,8 +7,9 @@
   "objectType" : "farmable",
   "tooltipKind" : "seed",
   "printable" : false,
-  "description" : "^gray;Used to grow grapefruits.",
-  "shortdescription" : "^gray;Old Grapefruit Tree",
+  "description" : "^gray;Used to grow grapefruits.^reset;",
+  "shortdescription" : "^gray;Old Grapefruit Tree^reset;",
+  
   "inventoryIcon" : "obsoletegrapefruitMFMseedicon.png",
   "largeImage" : "obsoletegrapefruitMFMseed.png:default.default.default",
   "orientations" : [ 

@@ -60,5 +60,6 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/blendingMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/blendingMFMRecipes.config",
+  "breakDropOptions" : [[[ "nanoblendingstationCNYC", 1, { } ]]]
 }

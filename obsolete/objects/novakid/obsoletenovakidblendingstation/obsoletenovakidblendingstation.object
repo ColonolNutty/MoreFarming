@@ -68,5 +68,6 @@
   "autoCloseCooldown" : 3600,
   
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/blendingMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/blendingMFMRecipes.config",
+  "breakDropOptions" : [[[ "novakidblendingstationCNYC", 1, { } ]]]
 }

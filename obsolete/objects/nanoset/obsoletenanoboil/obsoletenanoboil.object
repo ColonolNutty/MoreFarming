@@ -84,5 +84,6 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/boilingMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/boilingMFMRecipes.config",
+  "breakDropOptions" : [[[ "nanoboilingstationCNYC", 1, { } ]]]
 }

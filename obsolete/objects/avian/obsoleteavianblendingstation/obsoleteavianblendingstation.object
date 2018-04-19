@@ -32,5 +32,6 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/blendingFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/blendingFMRecipes.config",
+  "breakDropOptions" : [[[ "avianblendingstationCNYC", 1, { } ]]]
 }

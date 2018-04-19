@@ -38,5 +38,6 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config",
+  "breakDropOptions" : [[[ "apexpurifierstationCNYC", 1, { } ]]]
 }

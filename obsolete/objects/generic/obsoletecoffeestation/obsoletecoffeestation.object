@@ -70,6 +70,6 @@
   "autoCloseCooldown" : 3600,
   
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/coffeeMFMRecipes.config"
-
+  "outputConfig": "/recipeCrafterMFM/coffeeMFMRecipes.config",
+  "breakDropOptions" : [[[ "coffeestationCNYC", 1, { } ]]]
 }

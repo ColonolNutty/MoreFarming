@@ -92,6 +92,6 @@
   "autoCloseCooldown" : 3600,
   
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config"
-
+  "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config",
+  "breakDropOptions" : [[[ "waterstationCNYC", 1, { } ]]]
 }

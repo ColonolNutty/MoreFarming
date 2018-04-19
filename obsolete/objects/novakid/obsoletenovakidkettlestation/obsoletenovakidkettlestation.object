@@ -92,5 +92,6 @@
   "autoCloseCooldown" : 3600,
   
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/purifyingMFMRecipes.config",
+  "breakDropOptions" : [[[ "novakidpurifierstationCNYC", 1, { } ]]]
 }

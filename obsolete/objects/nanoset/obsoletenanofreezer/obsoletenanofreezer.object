@@ -66,5 +66,6 @@
   "scriptDelta" : 1,
   "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config",
 
-  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg",
+  "breakDropOptions" : [[[ "nanofreezingstationCNYC", 1, { } ]]]
 }

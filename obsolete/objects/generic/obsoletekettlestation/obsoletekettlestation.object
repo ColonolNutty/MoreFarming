@@ -1,0 +1,37 @@
+{
+  "objectName" : "kettlestation",
+  "colonyTags" : ["human", "humanvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;This kettle looks outdated, perhaps I could update it at the ^reset;^orange;Kitchen Appliance Crafting Table^reset;",
+  "shortdescription" : "^gray;Old Kettle^reset;",
+  "race" : "generic",
+  "category" : "Old Cookware",
+  "price" : 0,
+  "objectType" : "container",
+
+  "inventoryIcon" : "obsoletekettlestationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "obsoletekettlestation.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/obsoleteRecipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/obsoleteMFMRecipes.config",
+  "breakDropOptions" : [[[ "purifierstationMFM", 1, { } ]]]
+}

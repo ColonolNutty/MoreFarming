@@ -61,5 +61,6 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config",
+  "breakDropOptions" : [[[ "nanowaterstationCNYC", 1, { } ]]]
 }

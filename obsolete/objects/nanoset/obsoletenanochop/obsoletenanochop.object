@@ -60,5 +60,6 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/choppingMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/choppingMFMRecipes.config",
+  "breakDropOptions" : [[[ "nanochoppingstationCNYC", 1, { } ]]]
 }

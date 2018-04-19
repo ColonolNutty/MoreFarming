@@ -55,5 +55,6 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/fryingMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/fryingMFMRecipes.config",
+  "breakDropOptions" : [[[ "avianfryingstationCNYC", 1, { } ]]]
 }

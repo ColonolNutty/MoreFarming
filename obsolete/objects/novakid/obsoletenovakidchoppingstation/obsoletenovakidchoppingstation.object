@@ -68,5 +68,6 @@
   "autoCloseCooldown" : 3600,
   
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/choppingMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/choppingMFMRecipes.config",
+  "breakDropOptions" : [[[ "novakidchoppingstationCNYC", 1, { } ]]]
 }

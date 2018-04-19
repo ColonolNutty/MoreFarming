@@ -60,5 +60,6 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/coffeeMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/coffeeMFMRecipes.config",
+  "breakDropOptions" : [[[ "nanocoffeestationCNYC", 1, { } ]]]
 }

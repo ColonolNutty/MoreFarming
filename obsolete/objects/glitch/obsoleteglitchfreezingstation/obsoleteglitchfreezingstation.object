@@ -61,5 +61,6 @@
   
   "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config"
+  "outputConfig": "/recipeCrafterMFM/freezingMFMRecipes.config",
+  "breakDropOptions" : [[[ "glitchfreezingstationCNYC", 1, { } ]]]
 }

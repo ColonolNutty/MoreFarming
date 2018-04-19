@@ -1,0 +1,9 @@
+{
+  "name" : "pigMFMbodypink",
+  "category" : "pigMFM",
+  "type" : "pigMFMbodypink",
+
+  "frames" : {
+    "body" : "pigMFMbodypink.png"
+  }
+}

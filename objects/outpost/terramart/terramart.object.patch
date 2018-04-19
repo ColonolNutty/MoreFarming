@@ -783,5 +783,10 @@
     "op" : "add",
     "path" : "/interactData/items/-",
     "value" : { "item" : [ "yeastMFMseed", 3 ] }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : { "item" : "pigMFMeggpink" }
   }
 ]]

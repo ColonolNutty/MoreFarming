@@ -1,0 +1,9 @@
+{
+  "name" : "pigMFMevolution",
+  "category" : "pigMFM",
+  "type" : "pigMFMevolution",
+
+  "frames" : {
+    "spawn" : "pigMFMevolution.png"
+  }
+}

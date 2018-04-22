@@ -1,0 +1,48 @@
+{
+  "objectName" : "pigMFMeggpink",
+  "colonyTags" : [],
+  "printable" : false,
+  "rarity" : "Rare",
+  "category" : "farmBeastEgg",
+  "price" : 2000,
+
+  "description" : "Hatches into a pink piglet, which grows into an adult pig. Pigs produce bacon and ham.",
+  "shortdescription" : "Pig Egg - Pink",
+  "race" : "generic",
+
+  "apexDescription" : "The egg of a pig. Adult pigs produce bacon and ham.",
+  "avianDescription" : "This egg has a piglet inside.",
+  "floranDescription" : "Floran can't wait 'til piggy egg hatchess!",
+  "glitchDescription" : "Pleased. A Pig egg!",
+  "humanDescription" : "Pig egg! Please hatch little egg.",
+  "hylotlDescription" : "There is an infant pig inside this egg.",
+  "novakidDescription" : "This here's a pig egg. You want bacon, you better get a pig.",
+
+  "inventoryIcon" : "pigMFMeggpink.png:idle.1",
+  "orientations" : [
+    {
+      "image" : "pigMFMeggpink.png:idle.1",
+      "imagePosition" : [-7, -3],
+
+      "spaces" : [ [-1, 0], [-1, 1], [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "anchors" : [ "bottom" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "/objects/farmables/eggs/farmableegg.animation",
+  "animationPosition" : [-7, -3],
+  "animationParts" : {
+    "egg" : "pigMFMeggpink.png"
+  },
+
+  "scripts" : ["/objects/farmables/eggs/farmableegg.lua"],
+  "scriptDelta" : 60,
+
+  "hatchTime" : 40,
+  "forceHatchTime" : 80,
+
+  "spawnMonster" : "pigMFMbabypink",
+  "spawnOffset" : [0.5, 0.5]
+}

@@ -27,14 +27,7 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/waterMFMRecipes.config",
-  "flickerPeriod" : 0.8,
-  "flickerMinIntensity" : 0.2,
-  "flickerPeriodVariance" : 0.075,
-  "flickerMaxIntensity" : 0.3,
-  "soundEffect" : "/sfx/objects/fountain_small1.ogg",
-  "soundEffectRadius" : 20,
   "retainObjectParametersInItem" : true,
-  "lightColor" : [ 218, 83, 2, 5 ],
-  "subtitle" : "All things water!",
-  "flickerIntensityVariance" : 0.025
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "apexwaterstationCNYC.animation"
 }

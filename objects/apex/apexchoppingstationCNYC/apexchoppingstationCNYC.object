@@ -18,7 +18,8 @@
     }
   ],
   "recipeGroup" : "choppingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ ],
+  "closeSounds" : [ ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -26,12 +27,7 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/choppingMFMRecipes.config",
-  "flickerPeriod" : 0.8,
-  "flickerMinIntensity" : 0.2,
-  "flickerPeriodVariance" : 0.075,
-  "flickerMaxIntensity" : 0.3,
   "retainObjectParametersInItem" : true,
-  "lightColor" : [ 218, 83, 2, 5 ],
-  "subtitle" : "Chop things to bits!",
-  "flickerIntensityVariance" : 0.025
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "apexchoppingstationCNYC.animation"
 }

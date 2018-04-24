@@ -20,8 +20,8 @@
     }
   ],
   "recipeGroup" : "freezingMFM",
-  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg", "/sfx/objects/freezerMFMenter2.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg", "/sfx/objects/freezerMFMexit2.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -29,14 +29,9 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
-  "flickerPeriod" : 0.8,
-  "flickerMinIntensity" : 0.2,
-  "flickerPeriodVariance" : 0.075,
-  "flickerMaxIntensity" : 0.3,
   "soundEffect" : "/sfx/objects/fridge_hum.ogg",
   "retainObjectParametersInItem" : true,
-  "lightColor" : [ 218, 83, 2, 5 ],
-  "subtitle" : "Make the Ice!",
   "itemAgeMultiplier" : 0,
-  "flickerIntensityVariance" : 0.025
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "apexfreezingstationCNYC.animation"
 }

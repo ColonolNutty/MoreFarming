@@ -12,13 +12,61 @@
   "inventoryIcon" : "apexfryingstationCNYCicon.png",
   "orientations" : [
     {
-      "dualImage" : "apexfryingstationCNYC.png:default",
+      "image" : "apexfryingstationCNYC.png:default",
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom" ],
+      "direction": "left",
+      "flipImages" : true,
+      "particleEmitter" : {
+        "emissionRate" : 3,
+        "particleVariance" : {
+          "initialVelocity" : [ -1, 0.4 ],
+          "position" : [ 0.4, 0 ]
+        },
+        "particle" : {
+          "timeToLive" : 0.8,
+          "fade" : 0.2,
+          "size" : 1,
+          "color" : [ 249, 162, 57, 255 ],
+          "initialVelocity" : [ 0, 4 ],
+          "finalVelocity" : [ 0, -1 ],
+          "position" : [ 0.5, 1 ],
+          "type" : "ember",
+          "approach" : [ 0, 20 ],
+          "layer" : "back"
+        },
+        "emissionVariance" : 1
+      }
+    },
+    {
+      "image" : "apexfryingstationCNYC.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction": "right",
+      "particleEmitter" : {
+        "emissionRate" : 3,
+        "particleVariance" : {
+          "initialVelocity" : [ -1, 0.4 ],
+          "position" : [ 0.4, 0 ]
+        },
+        "particle" : {
+          "timeToLive" : 0.8,
+          "fade" : 0.2,
+          "size" : 1,
+          "color" : [ 249, 162, 57, 255 ],
+          "initialVelocity" : [ 0, 4 ],
+          "finalVelocity" : [ 0, -1 ],
+          "position" : [ 1.2, 1 ],
+          "type" : "ember",
+          "approach" : [ 0, 20 ],
+          "layer" : "back"
+        },
+        "emissionVariance" : 1
+      }
     }
   ],
   "recipeGroup" : "fryingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/fryingMFMenter1.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -26,12 +74,9 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/fryingMFMRecipes.config",
-  "flickerPeriod" : 0.8,
-  "flickerMinIntensity" : 0.2,
-  "flickerPeriodVariance" : 0.075,
-  "flickerMaxIntensity" : 0.3,
+  "soundEffect" : "/sfx/objects/fryingMFMambience1.ogg",
+  "soundEffectRadius" : 20,
   "retainObjectParametersInItem" : true,
-  "lightColor" : [ 218, 83, 2, 5 ],
-  "subtitle" : "Fry Food!",
-  "flickerIntensityVariance" : 0.025
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "apexfryingstationCNYC.animation"
 }

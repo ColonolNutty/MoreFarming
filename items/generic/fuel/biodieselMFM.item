@@ -6,6 +6,5 @@
   "description" : "(DISTILL):-} Renewable fuel for intergalactic conquest!",
   "shortdescription" : "Bio-diesel",
   "inventoryIcon" : "biodieselMFM.png",
-  "itemTags" : [ "reagent" ],
   "fuelAmount" : 4
 }

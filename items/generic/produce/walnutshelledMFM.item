@@ -2,9 +2,9 @@
   "itemName" : "walnutshelledMFM",
   "rarity" : "Common",
   "price" : 24.0,
-  "category" : "craftingMaterial",
+  "category" : "cookingIngredient",
   "description" : "The nut of the Walnut tree.",
   "shortdescription" : "Shelled Walnut",
   "inventoryIcon" : "walnutshelledMFM.png",
-  "itemTags" : [ "reagent" ]
+  "maxStack" : 1000
 }

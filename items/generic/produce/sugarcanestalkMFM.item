@@ -7,6 +7,5 @@
   "shortdescription" : "Sugarcane Stalk",
   "inventoryIcon" : "sugarcanestalkMFM.png",
   "maxStack" : 1000,
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [ "paper" ]
 }

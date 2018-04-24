@@ -5,6 +5,5 @@
   "category" : "craftingMaterial",
   "description" : "The fruit of a Star Anise tree. Has a nice aroma. Useful in a variety of applications.",
   "shortdescription" : "Star Anise",
-  "inventoryIcon" : "staraniseMFM.png",
-  "itemTags" : [ "reagent" ]
+  "inventoryIcon" : "staraniseMFM.png"
 }

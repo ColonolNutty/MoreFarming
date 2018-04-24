@@ -6,6 +6,5 @@
   "description" : "^gray;Harvested stalk from the fast-growing bamboo plant.^reset;",
   "shortdescription" : "^gray;Bamboo Stalk^reset;",
   "maxStack" : 1000,
-  "inventoryIcon" : "obsoletebamboostalkBMB.png",
-  "itemTags" : [ "reagent" ]
+  "inventoryIcon" : "obsoletebamboostalkBMB.png"
 }

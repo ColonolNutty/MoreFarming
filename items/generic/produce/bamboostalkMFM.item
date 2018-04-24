@@ -7,6 +7,5 @@
   "shortdescription" : "Bamboo Stalk",
   "maxStack" : 1000,
   "inventoryIcon" : "bamboostalkMFM.png",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [ "bamboo", "bamboobedBMB", "bamboobookcaseBMB", "bamboocageBMB", "bamboochairBMB", "bamboocrate1BMB", "bamboocrate2BMB", "bamboodeskBMB", "bamboogateBMB", "bamboopunjisticksBMB", "bambooscreenBMB", "bamboostoolBMB", "bambootableBMB", "bambooplatform" ]
 }

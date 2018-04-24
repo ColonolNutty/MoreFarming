@@ -5,6 +5,5 @@
   "category" : "craftingMaterial",
   "description" : "A dirty plate.",
   "shortdescription" : "Dirty Plate",
-  "inventoryIcon" : "dirtyceramicplateMFM.png",
-  "itemTags" : [ "reagent" ]
+  "inventoryIcon" : "dirtyceramicplateMFM.png"
 }

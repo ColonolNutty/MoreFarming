@@ -6,6 +6,5 @@
   "description" : "For that professional chef touch!",
   "shortdescription" : "Parsley Leaf",
   "inventoryIcon" : "parsleyleafMFM.png",
-  "maxStack" : 1000,
-  "itemTags" : [ "reagent", "spice" ]
+  "maxStack" : 1000
 }

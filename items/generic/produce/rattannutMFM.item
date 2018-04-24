@@ -5,6 +5,5 @@
   "category" : "craftingMaterial",
   "description" : "The nut of the Rattan plant. Useful for making dye and growing more Rattan.",
   "shortdescription" : "Rattan Nut",
-  "inventoryIcon" : "rattannutMFM.png",
-  "itemTags" : [ "reagent" ]
+  "inventoryIcon" : "rattannutMFM.png"
 }

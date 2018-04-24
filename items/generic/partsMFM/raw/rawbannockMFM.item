@@ -5,6 +5,5 @@
   "category" : "cookingIngredient",
   "description" : "(PREP):-} A simple mix of Butter, Flour, and Water.",
   "shortdescription" : "Raw Bannock",
-  "inventoryIcon" : "rawbannockMFM.png",
-  "itemTags" : [ "reagent" ]
+  "inventoryIcon" : "rawbannockMFM.png"
 }

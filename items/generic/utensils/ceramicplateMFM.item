@@ -5,6 +5,5 @@
   "category" : "craftingMaterial",
   "description" : "A plate.",
   "shortdescription" : "Plate",
-  "inventoryIcon" : "ceramicplateMFM.png",
-  "itemTags" : [ "reagent" ]
+  "inventoryIcon" : "ceramicplateMFM.png"
 }

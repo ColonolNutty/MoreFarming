@@ -6,6 +6,5 @@
   "description" : "A bundle of thyme, a minty grass useful in cooking.",
   "shortdescription" : "Thyme Bundle",
   "inventoryIcon" : "thymebundleMFM.png",
-  "maxStack" : 1000,
-  "itemTags" : [ "reagent" ]
+  "maxStack" : 1000
 }

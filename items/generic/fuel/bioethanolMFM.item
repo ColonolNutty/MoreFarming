@@ -6,7 +6,6 @@
   "description" : "(DISTILL):-} Renewable fuel for intergalactic conquest!",
   "shortdescription" : "Bioethanol",
   "inventoryIcon" : "bioethanolMFM.png",
-  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [ "molotov" ],
   "fuelAmount" : 2
 }

@@ -5,6 +5,5 @@
   "category" : "craftingMaterial",
   "description" : "(BLEND):-} Blue Food Coloring. I can color foods Blue with this.",
   "shortdescription" : "Food Coloring - Blue",
-  "inventoryIcon" : "bluefoodcolorMFM.png",
-  "itemTags" : [ "reagent" ]
+  "inventoryIcon" : "bluefoodcolorMFM.png"
 }

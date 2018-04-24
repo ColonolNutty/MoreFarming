@@ -5,6 +5,5 @@
   "category" : "craftingMaterial",
   "description" : "(BLEND):-} Yellow Food Coloring. I can color foods Yellow with this",
   "shortdescription" : "Food Coloring - Yellow",
-  "inventoryIcon" : "yellowfoodcolorMFM.png",
-  "itemTags" : [ "reagent" ]
+  "inventoryIcon" : "yellowfoodcolorMFM.png"
 }

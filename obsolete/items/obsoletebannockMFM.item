@@ -5,6 +5,5 @@
   "category" : "cookingIngredient",
   "description" : "^gray;Bannock.^reset;",
   "shortdescription" : "^gray;Raw Bannock^reset;",
-  "inventoryIcon" : "obsoletebannockMFM.png",
-  "itemTags" : [ "reagent" ]
+  "inventoryIcon" : "obsoletebannockMFM.png"
 }

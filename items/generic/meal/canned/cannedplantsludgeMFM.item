@@ -6,6 +6,5 @@
   "description" : "(CAN):-} Plant Sludge in a Can.",
   "shortdescription" : "Canned - Plant Sludge",
   "maxStack" : 1000,
-  "inventoryIcon" : "cannedplantsludgeMFM.png",
-  "itemTags" : [ "reagent" ]
+  "inventoryIcon" : "cannedplantsludgeMFM.png"
 }

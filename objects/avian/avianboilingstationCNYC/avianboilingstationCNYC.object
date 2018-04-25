@@ -50,7 +50,8 @@
     }
   ],
   "recipeGroup" : "boilingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter2.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit1.ogg", "/sfx/objects/metalpotMFMexit2.ogg", "/sfx/objects/metalpotMFMexit4.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -58,10 +59,6 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/boilingMFMRecipes.config",
-  "flickerPeriod" : 0.8,
-  "flickerMinIntensity" : 0.1,
-  "flickerPeriodVariance" : 0.075,
-  "flickerMaxIntensity" : 0.3,
   "particleEmitter" : {
     "emissionRate" : 6,
     "particleVariance" : {
@@ -82,8 +79,15 @@
     },
     "emissionVariance" : 1
   },
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 0.3,
   "retainObjectParametersInItem" : true,
   "lightColor" : [ 218, 83, 2, 5 ],
-  "subtitle" : "Boil Food!",
-  "flickerIntensityVariance" : 0.025
+  "flickerIntensityVariance" : 0.025,
+  "craftSoundDelaySeconds" : 5,
+  "soundEffect" : "/sfx/objects/bubblesMFMambience2.ogg",
+  "soundEffectRadius" : 10,
+  "animation" : "avianboilingstationCNYC.animation"
 }

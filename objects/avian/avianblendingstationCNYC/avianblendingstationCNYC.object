@@ -27,7 +27,6 @@
     }
   ],
   "recipeGroup" : "blendingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -36,5 +35,6 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/blendingMFMRecipes.config",
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Blend Food!"
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "avianblendingstationCNYC.animation"
 }

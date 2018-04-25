@@ -51,8 +51,8 @@
     }
   ],
   "recipeGroup" : "freezingMFM",
-  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg", "/sfx/objects/freezerMFMenter2.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg", "/sfx/objects/freezerMFMexit2.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -62,6 +62,7 @@
   "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
   "soundEffect" : "/sfx/objects/fridge_hum.ogg",
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Freeze and Chill!",
-  "itemAgeMultiplier" : 0
+  "itemAgeMultiplier" : 0,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "avianfreezingstationCNYC.animation"
 }

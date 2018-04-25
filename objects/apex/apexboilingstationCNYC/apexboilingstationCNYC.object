@@ -28,6 +28,8 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/boilingMFMRecipes.config",
   "retainObjectParametersInItem" : true,
+  "soundEffect" : "/sfx/objects/bubblesMFMambience2.ogg",
+  "soundEffectRadius" : 10,
   "craftSoundDelaySeconds" : 5,
   "animation" : "apexboilingstationCNYC.animation"
 }

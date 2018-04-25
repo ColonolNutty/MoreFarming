@@ -1,0 +1,5 @@
+{
+  "sounds" : {
+    "onCraft": [ "/sfx/objects/boilMFMcraft1.ogg" ]
+  }
+}

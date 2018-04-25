@@ -75,7 +75,7 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/fryingMFMRecipes.config",
   "soundEffect" : "/sfx/objects/fryingMFMambience1.ogg",
-  "soundEffectRadius" : 20,
+  "soundEffectRadius" : 10,
   "retainObjectParametersInItem" : true,
   "craftSoundDelaySeconds" : 5,
   "animation" : "apexfryingstationCNYC.animation"

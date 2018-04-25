@@ -18,8 +18,6 @@
     }
   ],
   "recipeGroup" : "choppingMFM",
-  "openSounds" : [ ],
-  "closeSounds" : [ ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,

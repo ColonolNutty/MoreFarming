@@ -27,7 +27,6 @@
     }
   ],
   "recipeGroup" : "choppingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -36,5 +35,6 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/choppingMFMRecipes.config",
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Prepare food!"
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "avianchoppingstationCNYC.animation"
 }

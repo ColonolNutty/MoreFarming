@@ -27,7 +27,8 @@
     }
   ],
   "recipeGroup" : "purifyingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/glassMFMenter1.ogg" ],
+  "closeSounds" : [ "/sfx/objects/glassMFMexit1.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -35,6 +36,9 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/purifyingMFMRecipes.config",
+  "soundEffect" : "/sfx/objects/bubblesMFMambience3.ogg",
+  "soundEffectRadius" : 10,
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Purify Water!"
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "avianpurifierstationCNYC.animation"
 }

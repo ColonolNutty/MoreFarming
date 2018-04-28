@@ -6,8 +6,8 @@
   "category" : "Floran Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "A bone coffeepot!",
-  "shortdescription" : "^orange;Floran Coffeepot (Coffee)^white;",
+  "description" : "A coffeepot made of bone.",
+  "shortdescription" : "^orange;Floran Coffeepot (Coffee)^reset;",
   "race" : "generic",
   "inventoryIcon" : "florancoffeestationCNYCicon.png",
   "orientations" : [
@@ -18,7 +18,8 @@
     }
   ],
   "recipeGroup" : "coffeeMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/glassMFMenter1.ogg" ],
+  "closeSounds" : [ "/sfx/objects/glassMFMexit1.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -26,6 +27,9 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/coffeeMFMRecipes.config",
-  "subtitle" : "Brew Coffee!",
-  "retainObjectParametersInItem" : true
+  "retainObjectParametersInItem" : true,
+  "soundEffect" : "/sfx/objects/bubblesMFMambience3.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "florancoffeestationCNYC.animation"
 }

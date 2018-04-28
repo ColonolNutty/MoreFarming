@@ -6,8 +6,8 @@
   "category" : "Floran Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "A bone blender, look at it spin!",
-  "shortdescription" : "^orange;Floran Bone Blender (Blend)^white;",
+  "description" : "A blending pot made of bone.",
+  "shortdescription" : "^orange;Floran Bone Blender (Blend)^reset;",
   "race" : "generic",
   "inventoryIcon" : "floranblendingstationCNYCicon.png",
   "orientations" : [
@@ -19,7 +19,6 @@
     }
   ],
   "recipeGroup" : "blendingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -27,13 +26,8 @@
   "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/blendingMFMRecipes.config",
-  "flickerPeriod" : 0.8,
-  "flickerMinIntensity" : 0.2,
-  "flickerPeriodVariance" : 0.075,
-  "flickerMaxIntensity" : 0.3,
   "animationPosition" : [ 0, 0 ],
   "retainObjectParametersInItem" : true,
-  "lightColor" : [ 218, 83, 2, 5 ],
   "animation" : "floranblendingstationCNYC.animation",
   "npcToy" : {
     "preciseStandPositionRight" : [ 2.5, 0 ],
@@ -51,7 +45,5 @@
       ]
     },
     "influence" : [ "furnace", "furnace", "furnaceComplete" ]
-  },
-  "subtitle" : "Blend Food!",
-  "flickerIntensityVariance" : 0.025
+  }
 }

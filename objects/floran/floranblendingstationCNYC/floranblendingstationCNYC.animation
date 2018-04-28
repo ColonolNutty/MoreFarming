@@ -34,6 +34,7 @@
   },
 
   "sounds" : {
+    "onCraft": [ "/sfx/objects/stirringMFM_craft1.ogg", "/sfx/objects/stirringMFM_craft3.ogg" ]
   },
   
   "particleEmitters" : {

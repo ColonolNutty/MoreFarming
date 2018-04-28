@@ -6,8 +6,8 @@
   "category" : "Floran Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "A bone knife, chops things up!",
-  "shortdescription" : "^orange;Floran Bone Knife (Chop)^white;",
+  "description" : "A bone knife, chop things up.",
+  "shortdescription" : "^orange;Floran Bone Knife (Chop)^reset;",
   "race" : "generic",
   "inventoryIcon" : "floranchoppingstationCNYCicon.png",
   "orientations" : [
@@ -19,7 +19,6 @@
     }
   ],
   "recipeGroup" : "choppingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -29,6 +28,5 @@
   "outputConfig" : "/recipeCrafterMFM/choppingMFMRecipes.config",
   "animationPosition" : [ 0, 0 ],
   "retainObjectParametersInItem" : true,
-  "animation" : "floranchoppingstationCNYC.animation",
-  "subtitle" : "Chop Food!"
+  "animation" : "floranchoppingstationCNYC.animation"
 }

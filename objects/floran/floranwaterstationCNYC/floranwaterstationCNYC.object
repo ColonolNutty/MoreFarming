@@ -6,8 +6,8 @@
   "category" : "Floran Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "Bone bowl containing a pool of water!",
-  "shortdescription" : "^orange;Floran Wash Basin (Water)^white;",
+  "description" : "A sink made of bone.",
+  "shortdescription" : "^orange;Floran Wash Basin (Water)^reset;",
   "race" : "generic",
   "inventoryIcon" : "floranwaterstationCNYCicon.png",
   "orientations" : [
@@ -27,6 +27,7 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/waterMFMRecipes.config",
-  "subtitle" : "Water tub!",
-  "retainObjectParametersInItem" : true
+  "retainObjectParametersInItem" : true,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "floranwaterstationCNYC.animation"
 }

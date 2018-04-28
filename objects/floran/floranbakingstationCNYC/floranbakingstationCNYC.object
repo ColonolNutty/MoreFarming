@@ -6,14 +6,14 @@
   "category" : "Floran Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "A bone coal oven!",
-  "shortdescription" : "^orange;Floran Bone Oven (Bake)^white;",
+  "description" : "A bone oven powered by coal.",
+  "shortdescription" : "^orange;Floran Bone Oven (Bake)^reset;",
   "race" : "generic",
   "apexDescription" : "Suprisingly warm!",
   "avianDescription" : "Smells wonderful, I feel at home.",
-  "floranDescription" : "Smellss like dinner",
+  "floranDescription" : "Smellsss like dinner.",
   "glitchDescription" : "Inspect. Very hot firing kiln.",
-  "humanDescription" : "Smells like spices.. I LOVE SPICES!",
+  "humanDescription" : "Smells like spices... I LOVE SPICES!",
   "hylotlDescription" : "It retains it's heat for hours, perfect for evening cooking.",
   "novakidDescription" : "Primitive lookin' oven. I suppose it does the job.",
   "inventoryIcon" : "floranbakingstationCNYCicon.png",
@@ -59,6 +59,7 @@
     },
     "influence" : [ "furnace", "furnace", "furnaceComplete" ]
   },
-  "subtitle" : "Bake Food!",
+  "soundEffect" : "/sfx/objects/woodburningMFM_ambience1.ogg",
+  "soundEffectRadius" : 10,
   "flickerIntensityVariance" : 0.025
 }

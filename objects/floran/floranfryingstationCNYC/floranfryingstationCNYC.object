@@ -26,7 +26,7 @@
     }
   ],
   "recipeGroup" : "fryingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/fryingMFMenter1.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -59,6 +59,7 @@
     },
     "influence" : [ "furnace", "furnace", "furnaceComplete" ]
   },
-  "subtitle" : "Fry Food!",
+  "soundEffect" : "/sfx/objects/fryingMFMambience1.ogg",
+  "soundEffectRadius" : 10,
   "flickerIntensityVariance" : 0.025
 }

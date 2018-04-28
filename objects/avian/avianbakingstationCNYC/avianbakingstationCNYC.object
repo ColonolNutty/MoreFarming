@@ -59,6 +59,6 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/bakingMFMRecipes.config",
   "soundEffect" : "/sfx/objects/woodburningMFM_ambience1.ogg",
-  "soundEffectRadius" : 20,
+  "soundEffectRadius" : 10,
   "retainObjectParametersInItem" : true
 }

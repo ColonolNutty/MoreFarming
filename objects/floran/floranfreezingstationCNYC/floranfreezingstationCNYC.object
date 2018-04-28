@@ -7,12 +7,12 @@
   "objectType" : "container",
   "tooltipKind" : "container",
   "printable" : false,
-  "description" : "Bone chest freezer, used for storage or making cold treats!",
-  "shortdescription" : "^orange;Floran Freezer (Freeze)^white;",
+  "description" : "A freezer made of wood, used for storage or making cold treats!",
+  "shortdescription" : "^orange;Floran Freezer (Freeze)^reset;",
   "race" : "generic",
   "apexDescription" : "Like a small fridge, but colder.",
   "avianDescription" : "The only way to keep anything cold during the hot days..",
-  "floranDescription" : "Floran notss sleepss in..",
+  "floranDescription" : "Not for sleepsss...",
   "glitchDescription" : "Inspect. Chest coldbox.",
   "humanDescription" : "Really could go for an icecream..",
   "hylotlDescription" : "Remains cold on hot days, ideal!",
@@ -26,8 +26,8 @@
     }
   ],
   "recipeGroup" : "freezingMFM",
-  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "openSounds" : [ "/sfx/objects/freezerMFMenter1.ogg" ],
+  "closeSounds" : [ "/sfx/objects/freezerMFMexit1.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -36,6 +36,5 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Freeze and Chill!",
   "itemAgeMultiplier" : 0
 }

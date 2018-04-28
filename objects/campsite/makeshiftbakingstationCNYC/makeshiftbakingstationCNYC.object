@@ -27,7 +27,7 @@
   "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/bakingMFMRecipes.config",
-  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "soundEffect" : "/sfx/objects/woodburningMFM_ambience1.ogg",
   "animationPosition" : [ 0, 0 ],
   "retainObjectParametersInItem" : true,
   "soundEffectRangeMultiplier" : 0.5,

@@ -1,0 +1,5 @@
+{
+  "sounds" : {
+    "onCraft": [ "/sfx/objects/millMFM_craft1.ogg" ]
+  }
+}

@@ -60,7 +60,8 @@
     }
   ],
   "recipeGroup" : "boilingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter2.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit1.ogg", "/sfx/objects/metalpotMFMexit2.ogg", "/sfx/objects/metalpotMFMexit4.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -74,7 +75,8 @@
   "maximumLiquidLevel" : 0.2,
   "flickerMaxIntensity" : 1,
   "statusEffects" : [ ],
-  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "soundEffect" : "/sfx/objects/bubblesMFMambience2.ogg",
+  "soundEffectRadius" : 10,
   "particleEmitter" : {
     "emissionRate" : 1,
     "particleVariance" : {
@@ -109,6 +111,7 @@
 },
     "influence" : [ "campfire", "campfire" ]
   },
-  "subtitle" : "Campsite pot cooking.",
-  "flickerIntensityVariance" : 0.025
+  "flickerIntensityVariance" : 0.025,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "makeshiftboilingstationCNYC.animation"
 }

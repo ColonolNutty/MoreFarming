@@ -1,13 +1,13 @@
 {
   "objectName" : "recyclerMFM",
   "colonyTags" : [ "cooking" ],
-  "rarity" : "Common",
+  "rarity" : "Legendary",
   "price" : 1.98,
   "category" : "crafting",
   "objectType" : "container",
   "printable" : false,
   "description" : "Put obsolete items or objects inside to recycle them.",
-  "shortdescription" : "Recycler (Recycle)",
+  "shortdescription" : "^orange;Recycler (Recycle)^reset;",
   "race" : "generic",
   "inventoryIcon" : "recyclerMFMicon.png",
   "orientations" : [

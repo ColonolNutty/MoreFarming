@@ -3,11 +3,11 @@
   "colonyTags" : [ "human", "humanvillage", "cooking" ],
   "rarity" : "Common",
   "price" : 269.58,
-  "category" : "Cookware",
+  "category" : "Basic Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "I can fry food with this!",
-  "shortdescription" : "^orange;Frying Pan (Fry)^white;",
+  "description" : "Allows frying of various foods.",
+  "shortdescription" : "^orange;Frying Pan (Fry)^reset;",
   "race" : "generic",
   "inventoryIcon" : "fryingstationMFMicon.png",
   "orientations" : [
@@ -73,5 +73,9 @@
     },
     "emissionVariance" : 1
   },
-  "retainObjectParametersInItem" : true
+  "retainObjectParametersInItem" : true,
+  "soundEffect" : "/sfx/objects/fryingMFMambience1.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "fryingstationMFM.animation"
 }

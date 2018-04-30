@@ -13,9 +13,9 @@
   "apexDescription" : "A wooden press. Anything inside?",
   "avianDescription" : "A press crafted of wood and iron.",
   "floranDescription" : "Floran can put thingsss insside and ssquish them.",
-  "glitchDescription" : "Observe. A press, used to squish and crunch items.",
+  "glitchDescription" : "Observation. A press, used to squish and crunch items.",
   "humanDescription" : "A press. Good for squishing things.",
-  "hylotlDescription" : "A press for squishing items.",
+  "hylotlDescription" : "A press for pressing items.",
   "inventoryIcon" : "handpressMFMicon.png",
   "orientations" : [
     {
@@ -36,5 +36,7 @@
   "autoCloseCooldown" : 3600,
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig" : "/recipeCrafterMFM/pressingMFMRecipes.config"
+  "outputConfig" : "/recipeCrafterMFM/pressingMFMRecipes.config",
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "handpressMFM.animation"
 }

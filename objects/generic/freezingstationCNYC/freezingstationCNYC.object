@@ -8,14 +8,14 @@
   "tooltipKind" : "container",
   "printable" : false,
   "description" : "A portable flashfreezer, used for storage or making cold treats!",
-  "shortdescription" : "^orange;Freezer (Freeze)^white;",
+  "shortdescription" : "^orange;Freezer (Freeze)^reset;",
   "race" : "generic",
-  "apexDescription" : "Banana icecream?!! I need a moment..",
+  "apexDescription" : "Banana icecream?! I need a moment...",
   "avianDescription" : "Cold treats even on our native planets!",
-  "floranDescription" : "Floran ssstick tounge againsst.. bad floran.",
+  "floranDescription" : "Floran ssstick tounge againssst... bad floran.",
   "glitchDescription" : "Observation. Cold!",
-  "humanDescription" : "Icecream, in space! I sound suprised..",
-  "hylotlDescription" : "A freezing device? Interesting..",
+  "humanDescription" : "Icecream, in space! I sound suprised...",
+  "hylotlDescription" : "A freezing device? Interesting...",
   "inventoryIcon" : "freezingstationCNYCicon.png",
   "orientations" : [
     {
@@ -60,7 +60,6 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
-  "soundEffect" : "/sfx/objects/fridge_hum.ogg",
   "particleEmitter" : {
     "emissionRate" : 3,
     "particleVariance" : {
@@ -83,6 +82,9 @@
     "emissionVariance" : 1
   },
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Makes Ice and Icecreams!",
-  "itemAgeMultiplier" : 0
+  "soundEffect" : "/sfx/objects/freezerMFMambience1.ogg",
+  "soundEffectRadius" : 10,
+  "itemAgeMultiplier" : 0,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "freezingstationCNYC.animation"
 }

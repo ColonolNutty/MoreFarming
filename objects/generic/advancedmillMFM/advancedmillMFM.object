@@ -7,15 +7,15 @@
   "objectType" : "container",
   "tooltipKind" : "container",
   "printable" : false,
-  "description" : "A mill of steel. Used for grinding up things.",
+  "description" : "A mill made of steel. Used for milling.",
   "shortdescription" : "Advanced Mill (Mill)",
   "race" : "generic",
-  "apexDescription" : "A mill of steel. Anything inside?",
-  "avianDescription" : "Steel container crafted together with metal.",
+  "apexDescription" : "A mill made of steel. Anything inside?",
+  "avianDescription" : "Steel container for milling.",
   "floranDescription" : "Floran can put thingsss inssside and crunch them.",
-  "glitchDescription" : "Observe. A mill of steel, used to grind wheat into grain among other things.",
-  "humanDescription" : "A mill of steel. Good for grinding things up.",
-  "hylotlDescription" : "A mill of steel, for grinding items up.",
+  "glitchDescription" : "Analysis. A mill made of steel, used to grind wheat into grain among other things.",
+  "humanDescription" : "A mill made of steel. Good for grinding things up.",
+  "hylotlDescription" : "A mill made of steel, for grinding items up.",
   "inventoryIcon" : "advancedmillMFMicon.png",
   "orientations" : [
     {
@@ -34,5 +34,7 @@
   "autoCloseCooldown" : 3600,
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig" : "/recipeCrafterMFM/millingMFMRecipes.config"
+  "outputConfig" : "/recipeCrafterMFM/millingMFMRecipes.config",
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "advancedmillMFM.animation"
 }

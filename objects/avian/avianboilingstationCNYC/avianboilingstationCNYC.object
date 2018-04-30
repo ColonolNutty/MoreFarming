@@ -7,14 +7,14 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "A sturdy cast boilpot!",
-  "shortdescription" : "^orange;Avian Boilpot (Boil)^white;",
+  "shortdescription" : "^orange;Avian Boilpot (Boil)^reset;",
   "race" : "generic",
-  "apexDescription" : "Heavy and heat retaining.",
-  "avianDescription" : "Simmering, delicious!",
+  "apexDescription" : "It is heavy and it retains heat.",
+  "avianDescription" : "Simmering deliciousness!",
   "floranDescription" : "Hot hatsss?",
-  "glitchDescription" : "Inspect. Sturdy cookpot.",
-  "humanDescription" : "aaaaaaaah-muenga.. can't remember the rest..",
-  "hylotlDescription" : "Functional cookpot. A little heavier then i'm used to",
+  "glitchDescription" : "Analysis. Sturdy cookpot.",
+  "humanDescription" : "aaaaaaaah-muenga... can't remember the rest...",
+  "hylotlDescription" : "Functional cookpot. A little heavier then I'm used to.",
   "inventoryIcon" : "avianboilingstationCNYCicon.png",
   "orientations" : [
     {
@@ -86,8 +86,8 @@
   "retainObjectParametersInItem" : true,
   "lightColor" : [ 218, 83, 2, 5 ],
   "flickerIntensityVariance" : 0.025,
-  "craftSoundDelaySeconds" : 5,
   "soundEffect" : "/sfx/objects/bubblesMFMambience2.ogg",
   "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
   "animation" : "avianboilingstationCNYC.animation"
 }

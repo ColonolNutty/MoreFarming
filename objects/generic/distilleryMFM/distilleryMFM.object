@@ -11,9 +11,9 @@
   "race" : "generic",
   "apexDescription" : "The Miniknogs would... 'confiscate' these.",
   "avianDescription" : "A human once told me how to use these. Why ruin good corn and wheat?",
-  "floranDescription" : "Put plantsss in, get tasssty beverage. What happensss if put meat in?",
+  "floranDescription" : "Put plantsss, get tasssty beverage. What happensss if put meat in?",
   "glitchDescription" : "Perplexed. Fleshy species apparently like drinking fuel in their spare time.",
-  "humanDescription" : "Oooh... Time to get po faced.",
+  "humanDescription" : "Oooh... Time to get my drink on!",
   "hylotlDescription" : "Used to further a process commonly associated to debauchery.",
   "inventoryIcon" : "distilleryMFMicon.png",
   "orientations" : [
@@ -28,7 +28,8 @@
     }
   ],
   "recipeGroup" : "distillingMFM",
-  "openSounds" : [ "/sfx/objects/florandrum2.ogg" ],
+  "openSounds" : [ "/sfx/objects/metalMFMenter1.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalhollowMFMexit1.ogg", "/sfx/objects/metalhollowMFMexit2.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -37,7 +38,8 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/distillingMFMRecipes.config",
   "hydrophobic" : false,
-  "soundEffect" : "/sfx/objects/apexpod.ogg",
-  "soundEffectRadius" : 50,
-  "subtitle" : "Grownups only!"
+  "soundEffect" : "/sfx/objects/bubblesMFMambience1.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "distilleryMFM.animation"
 }

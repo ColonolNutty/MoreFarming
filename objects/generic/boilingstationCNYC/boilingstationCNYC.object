@@ -6,15 +6,15 @@
   "category" : "Basic Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "I can boil food with this!",
-  "shortdescription" : "^orange;Boiling Pans (Boil)^white;",
+  "description" : "Useful for boiling food.",
+  "shortdescription" : "^orange;Boiling Pans (Boil)^reset;",
   "race" : "generic",
-  "apexDescription" : "Better then those tin pans we had to use.",
+  "apexDescription" : "Better than those tin pans we had to use.",
   "avianDescription" : "Corden Jamsey cookpans, galvanised?",
-  "floranDescription" : "Floran usse as hammer afterwardss.",
+  "floranDescription" : "Floran use as hammer afterwardsss.",
   "glitchDescription" : "Inspect. Lightweight cauldrons.",
   "humanDescription" : "Pans! Wonder if Jamsey used them!",
-  "hylotlDescription" : "Looks expensive.. Also limited edition?",
+  "hylotlDescription" : "Looks expensive... also limited edition?",
   "inventoryIcon" : "boilingstationCNYCicon.png",
   "orientations" : [
     {
@@ -50,7 +50,8 @@
     }
   ],
   "recipeGroup" : "boilingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter2.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit1.ogg", "/sfx/objects/metalpotMFMexit2.ogg", "/sfx/objects/metalpotMFMexit4.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -84,6 +85,9 @@
   },
   "retainObjectParametersInItem" : true,
   "lightColor" : [ 116, 227, 225, 5 ],
-  "subtitle" : "Boil Food!",
-  "flickerIntensityVariance" : 0.025
+  "flickerIntensityVariance" : 0.025,
+  "soundEffect" : "/sfx/objects/bubblesMFMambience2.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "boilingstationCNYC.animation"
 }

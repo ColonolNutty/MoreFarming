@@ -7,13 +7,13 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "A blender! Blends, juices, blends and blends!",
-  "shortdescription" : "^orange;Blender (Blend)^white;",
+  "shortdescription" : "^orange;Blender (Blend)^reset;",
   "race" : "generic",
-  "apexDescription" : "Banana milkshakes.. heaven!",
+  "apexDescription" : "Banana milkshakes are heavenly!",
   "avianDescription" : "Novel..",
   "floranDescription" : "Floran make meat drinksss",
-  "glitchDescription" : "Wonder. Does it?",
-  "humanDescription" : "Wooo.. question is, does it blend?!",
+  "glitchDescription" : "Query. Does it?",
+  "humanDescription" : "Wooo... question is, does it blend?!",
   "hylotlDescription" : "A blender? Interesting",
   "inventoryIcon" : "blendingstationCNYCicon.png",
   "orientations" : [
@@ -27,8 +27,8 @@
     }
   ],
   "recipeGroup" : "blendingMFM",
-  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "openSounds" : [ "/sfx/objects/blenderMFMenter.ogg" ],
+  "closeSounds" : [ "/sfx/objects/blenderMFMexit.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -37,5 +37,6 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/blendingMFMRecipes.config",
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Blend and Juice!"
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "blendingstationCNYC.animation"
 }

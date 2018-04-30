@@ -7,14 +7,15 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "An Oven! I can bake, roast and dry with this!",
-  "shortdescription" : "^orange;Oven (Bake)^white;",
+  "shortdescription" : "^orange;Oven (Bake)^reset;",
   "race" : "generic",
   "apexDescription" : "It's an oven, the label reads Corden Jamsey Limited Edition.",
   "avianDescription" : "Who is Corden Jamsey anyway?",
   "floranDescription" : "Hot box. Floran not sssleep in.",
   "glitchDescription" : "Admiration. Fit for a king!",
   "humanDescription" : "It even cleans itself! What a time to be alive!",
-  "hylotlDescription" : "Limited Edition? Wonder how many were made.",
+  "hylotlDescription" : "Limited Edition? I wonder how many were made.",
+  "novakidDescription" : "A new fangled stove.",
   "inventoryIcon" : "bakingstationCNYCicon.png",
   "orientations" : [
     {
@@ -52,7 +53,8 @@
     }
   ],
   "recipeGroup" : "bakingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -60,6 +62,5 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/bakingMFMRecipes.config",
-  "retainObjectParametersInItem" : true,
-  "subtitle" : "Bake, Roast and Dry!"
+  "retainObjectParametersInItem" : true
 }

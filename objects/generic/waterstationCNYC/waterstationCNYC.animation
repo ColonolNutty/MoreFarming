@@ -1,0 +1,5 @@
+{
+  "sounds" : {
+    "onCraft": [ "/sfx/objects/sinkMFMcraft1.ogg", "/sfx/objects/sinkMFMcraft2.ogg" ]
+  }
+}

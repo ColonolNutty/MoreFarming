@@ -8,11 +8,11 @@
   "tooltipKind" : "container",
   "printable" : false,
   "description" : "A fresh water dispenser!",
-  "shortdescription" : "^orange;Water Dispenser (Water)^white;",
+  "shortdescription" : "^orange;Water Dispenser (Water)^reset;",
   "race" : "generic",
   "apexDescription" : "Cool, clear water. Refreshing!",
   "avianDescription" : "I could do with a drink.",
-  "floranDescription" : "Floran drinksss from taps..",
+  "floranDescription" : "Floran drinksss from taps...",
   "glitchDescription" : "Gossiping. I'm not sure about all these apex.",
   "humanDescription" : "Refreshing, and stylish!.",
   "hylotlDescription" : "Nice, but sadly not enough to swim in.",
@@ -51,8 +51,6 @@
     }
   ],
   "recipeGroup" : "waterMFM",
-  "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
-  "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -60,6 +58,8 @@
   "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/waterMFMRecipes.config",
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "waterstationCNYC.animation",
   "particleEmitter" : {
     "emissionRate" : 6,
     "particleVariance" : {

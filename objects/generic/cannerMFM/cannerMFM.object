@@ -13,7 +13,7 @@
   "avianDescription" : "Cans are like metallic vases. They stack tidily.",
   "floranDescription" : "Put thingsss in, thingsss become one with can.",
   "glitchDescription" : "Candid. Can it be the canner that'll can my can?",
-  "humanDescription" : "Not to be confused with the cancer, which is so last century.",
+  "humanDescription" : "I hope they are organic cans.",
   "hylotlDescription" : "The cans are so tightly sealed, they're waterproof.",
   "inventoryIcon" : "cannerMFMicon.png",
   "orientations" : [
@@ -40,5 +40,6 @@
   "hydrophobic" : false,
   "soundEffect" : "/sfx/objects/fridge_hum.ogg",
   "soundEffectRadius" : 50,
-  "subtitle" : "Free cans included!"
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "cannerMFM.animation"
 }

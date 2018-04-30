@@ -1,0 +1,5 @@
+{
+  "sounds" : {
+    "onCraft": [ "/sfx/objects/miningchest_open.ogg", "/sfx/objects/miningchest_close.ogg" ]
+  }
+}

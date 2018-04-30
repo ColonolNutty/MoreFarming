@@ -7,12 +7,12 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "A solid stone oven!",
-  "shortdescription" : "^orange;Glitch Stone Oven (Bake)^white;",
+  "shortdescription" : "^orange;Glitch Stone Oven (Bake)^reset;",
   "race" : "generic",
   "apexDescription" : "Suprisingly warm!",
-  "avianDescription" : "Wonderful",
-  "floranDescription" : "Floran disslikess hotboxesss.",
-  "glitchDescription" : "Inspect. Stone cooking oven.",
+  "avianDescription" : "Wonderfully crafted.",
+  "floranDescription" : "Floran no like hotboxesss.",
+  "glitchDescription" : "Analysis. Stone cooking oven.",
   "humanDescription" : "Does the job, looks nice too!",
   "hylotlDescription" : "Simple and effective.",
   "inventoryIcon" : "glitchbakingstationCNYCicon.png",
@@ -66,6 +66,7 @@
   "flickerMaxIntensity" : 0.3,
   "retainObjectParametersInItem" : true,
   "lightColor" : [ 218, 83, 2, 5 ],
-  "subtitle" : "Bake Food!",
-  "flickerIntensityVariance" : 0.025
+  "flickerIntensityVariance" : 0.025,
+  "soundEffect" : "/sfx/objects/woodburningMFM_ambience1.ogg",
+  "soundEffectRadius" : 10
 }

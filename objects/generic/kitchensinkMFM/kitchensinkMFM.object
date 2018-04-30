@@ -7,12 +7,12 @@
   "objectType" : "container",
   "tooltipKind" : "container",
   "printable" : false,
-  "description" : "A wooden sink... I haven't washed my hands in a long time.",
+  "description" : "A sink made of wood.",
   "shortdescription" : "Kitchen Sink (Water)",
   "race" : "generic",
   "apexDescription" : "A kitchen sink.",
   "avianDescription" : "A water basin.",
-  "floranDescription" : "Turn handle, water come out!",
+  "floranDescription" : "Turn on, water comesss out!",
   "glitchDescription" : "Identify. A sink.",
   "humanDescription" : "A nice sink. I wonder if the water is fresh.",
   "hylotlDescription" : "Water!",
@@ -36,5 +36,7 @@
   "autoCloseCooldown" : 3600,
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
-  "outputConfig" : "/recipeCrafterMFM/waterMFMRecipes.config"
+  "outputConfig" : "/recipeCrafterMFM/waterMFMRecipes.config",
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "kitchensinkMFM.animation"
 }

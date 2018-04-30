@@ -7,14 +7,14 @@
   "objectType" : "container",
   "tooltipKind" : "container",
   "printable" : false,
-  "description" : "Brews Coffee, sign your own cup.",
-  "shortdescription" : "^orange;Espresso Machine (Coffee)^white;",
+  "description" : "Brews coffee, sign your own cup.",
+  "shortdescription" : "^orange;Espresso Machine (Coffee)^reset;",
   "race" : "generic",
-  "apexDescription" : "I'd wager you need to take a class just to operate it..",
+  "apexDescription" : "I'd wager you need to take a class just to operate it...",
   "avianDescription" : "Mass produced bitter beverages.",
-  "floranDescription" : "Sssteamy..",
-  "glitchDescription" : "Observation. Wonder if it brews bolts?",
-  "humanDescription" : "I'm going to spell my own name wrong on the cup too!.",
+  "floranDescription" : "Sssteamy...",
+  "glitchDescription" : "Observation. I wonder if it brews bolts?",
+  "humanDescription" : "It's going to spell my name wrong on the cup too!",
   "hylotlDescription" : "Es-what-now? How do you even work this thing?",
   "inventoryIcon" : "coffeestationCNYCicon.png",
   "orientations" : [
@@ -76,5 +76,6 @@
     },
     "influence" : [ "watercoolerCollect", "watercoolerConsume", "watercoolerComplete" ]
   },
-  "subtitle" : "Brew Coffee!"
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "coffeestationCNYC.animation"
 }

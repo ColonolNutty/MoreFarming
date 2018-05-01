@@ -7,13 +7,13 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "A traditonal looking oven.",
-  "shortdescription" : "^orange;Hylotl Oven (Bake)^white;",
+  "shortdescription" : "^orange;Hylotl Oven (Bake)^reset;",
   "race" : "generic",
-  "apexDescription" : "An oven. Exquisite!",
-  "avianDescription" : "Quite the craftsmenship",
-  "floranDescription" : "Floran ssmassh when not looking..",
+  "apexDescription" : "An oven. Absolutely exquisite!",
+  "avianDescription" : "Quite the craftsmanship.",
+  "floranDescription" : "Floran smasssh when not looking!",
   "glitchDescription" : "Observation. An ornate yet functional oven.",
-  "humanDescription" : "How has it not set itself on fire?",
+  "humanDescription" : "How has it not caught fire?",
   "hylotlDescription" : "Quaint and warm.",
   "inventoryIcon" : "hylotlbakingstationCNYCicon.png",
   "orientations" : [
@@ -36,6 +36,7 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/bakingMFMRecipes.config",
-  "retainObjectParametersInItem" : true,
-  "subtitle" : "Bake and Roast!"
+  "soundEffect" : "/sfx/objects/woodburningMFM_ambience1.ogg",
+  "soundEffectRadius" : 10,
+  "retainObjectParametersInItem" : true
 }

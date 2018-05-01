@@ -7,14 +7,14 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "A compact coffee machine.",
-  "shortdescription" : "^orange;Hylotl Percolator (Coffee)^white;",
+  "shortdescription" : "^orange;Hylotl Percolator (Coffee)^reset;",
   "race" : "generic",
-  "apexDescription" : "Wood and glass, it's a nice combination. The coffee's good too!",
-  "avianDescription" : "Coffee seems to be everywhere these days",
-  "floranDescription" : "Floran eatsss beanss insstead..",
+  "apexDescription" : "Wood and glass, it makes a nice combination. The coffee is good too!",
+  "avianDescription" : "Coffee seems to be everywhere these days.",
+  "floranDescription" : "Floran eat beansss.",
   "glitchDescription" : "Observation. A compact coffee maker.",
-  "humanDescription" : "I knew a guy that had one of these. Filled it with green coffee. Found him in the woods two weeks later talking to squirrels.. odd..",
-  "hylotlDescription" : "I'll get used to the taste, shame it doesn't brew teas",
+  "humanDescription" : "I knew a guy that had one of these. Filled it with green coffee. Found him in the woods two weeks later talking to squirrels...",
+  "hylotlDescription" : "I'll get used to the taste, shame it doesn't brew tea.",
   "inventoryIcon" : "hylotlcoffeestationCNYCicon.png",
   "orientations" : [
     {
@@ -27,7 +27,8 @@
     }
   ],
   "recipeGroup" : "coffeeMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/plasticMFMenter1.ogg", "/sfx/objects/plasticMFMenter2.ogg", "/sfx/objects/plasticMFMenter3.ogg", "/sfx/objects/plasticMFMenter4.ogg" ],
+  "closeSounds" : [ "/sfx/objects/plasticMFMexit1.ogg", "/sfx/objects/plasticMFMexit2.ogg", "/sfx/objects/plasticMFMexit3.ogg", "/sfx/objects/plasticMFMexit4.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -36,5 +37,6 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/coffeeMFMRecipes.config",
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Brew Coffee!"
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "hylotlcoffeestationCNYC.animation"
 }

@@ -6,15 +6,15 @@
   "category" : "Hylotl Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "Solid wood choppingboard!",
-  "shortdescription" : "^orange;Hylotl Chopboard (Chop)^white;",
+  "description" : "A solid chopping board made of wood.",
+  "shortdescription" : "^orange;Hylotl Chopboard (Chop)^reset;",
   "race" : "generic",
-  "apexDescription" : "Sturdy dark hardwood and a cleaver. perfect",
-  "avianDescription" : "It looks carved from a solid piece of wood",
-  "floranDescription" : "Floran likess ssmall axess..",
-  "glitchDescription" : "Observation. Hardwood chopboard.",
-  "humanDescription" : "Reminds me of that place back on earth that made awesome gadgets",
-  "hylotlDescription" : "I feel quite at home",
+  "apexDescription" : "Sturdy hardwood and a cleaver. Perfect!",
+  "avianDescription" : "It looks like it was carved from a solid piece of wood.",
+  "floranDescription" : "Floran likes ssmall axesss...",
+  "glitchDescription" : "Observation. A sturdy hardwood chopboard.",
+  "humanDescription" : "Reminds me of that place back on earth that made awesome gadgets.",
+  "hylotlDescription" : "I feel quite at home.",
   "inventoryIcon" : "hylotlchoppingstationCNYCicon.png",
   "orientations" : [
     {
@@ -27,7 +27,6 @@
     }
   ],
   "recipeGroup" : "choppingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -36,5 +35,6 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/choppingMFMRecipes.config",
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Prepare food!"
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "hylotlchoppingstationCNYC.animation"
 }

@@ -7,14 +7,14 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "Traditional teapot. One in every Hylotl kitchen.",
-  "shortdescription" : "^orange;Hylotl Teapot (Purify)^white;",
+  "shortdescription" : "^orange;Hylotl Teapot (Purify)^reset;",
   "race" : "generic",
-  "apexDescription" : "Smells divine! I'm parched",
-  "avianDescription" : "I haven't seen one of these in a long time",
-  "floranDescription" : "Floran not likess teass.. floran likess bloodss..",
-  "glitchDescription" : "Observation. A traditional hylotl teapot",
+  "apexDescription" : "It smells divine and I am parched.",
+  "avianDescription" : "I haven't seen one of these in a long time.",
+  "floranDescription" : "Floran no like tea, Floran like blood!",
+  "glitchDescription" : "Observation. A traditional Hylotl teapot.",
   "humanDescription" : "Always time for tea!",
-  "hylotlDescription" : "Ah, refreshing and calming.. good idea!",
+  "hylotlDescription" : "Ah, it is both refreshing and calming. Good idea!",
   "inventoryIcon" : "hylotlpurifierstationCNYCicon.png",
   "orientations" : [
     {
@@ -27,7 +27,8 @@
     }
   ],
   "recipeGroup" : "purifyingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/glassMFMenter1.ogg" ],
+  "closeSounds" : [ "/sfx/objects/glassMFMexit1.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -36,5 +37,8 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/purifyingMFMRecipes.config",
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Purify Water!"
+  "soundEffect" : "/sfx/objects/bubblesMFMambience3.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "hylotlpurifierstationCNYC.animation"
 }

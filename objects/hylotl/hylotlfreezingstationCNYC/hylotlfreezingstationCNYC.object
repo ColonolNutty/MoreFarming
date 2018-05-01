@@ -8,14 +8,14 @@
   "tooltipKind" : "container",
   "printable" : false,
   "description" : "A waterfilled freezer, used for storage or making cold treats.",
-  "shortdescription" : "^orange;Hylotl Freezer (Freeze)^white;",
+  "shortdescription" : "^orange;Hylotl Freezer (Freeze)^reset;",
   "race" : "generic",
-  "apexDescription" : "It's full of water.. how does it freeze?!",
+  "apexDescription" : "It is full of water. How does it freeze?",
   "avianDescription" : "Is it a freezer or a waterbucket?",
-  "floranDescription" : "Floran ssstick face..",
+  "floranDescription" : "Floran face ssstuck!",
   "glitchDescription" : "Observation. A liquid suspension flash freezer.",
-  "humanDescription" : "I think it's a freezer.. why is there a fish in it?",
-  "hylotlDescription" : "Thiers alot water can do if given the respect.",
+  "humanDescription" : "I think it's a freezer. Why is there a fish in it?",
+  "hylotlDescription" : "There is alot water can do if given the respect.",
   "inventoryIcon" : "hylotlfreezingstationCNYCicon.png",
   "orientations" : [
     {
@@ -53,7 +53,8 @@
     }
   ],
   "recipeGroup" : "freezingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/freezerMFMenter1.ogg" ],
+  "closeSounds" : [ "/sfx/objects/freezerMFMexit1.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -61,13 +62,6 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
-  "flickerPeriod" : 0.3,
-  "flickerMinIntensity" : 0.5,
-  "flickerPeriodVariance" : 0.075,
-  "flickerMaxIntensity" : 0.55,
   "retainObjectParametersInItem" : true,
-  "lightColor" : [ 125, 143, 179 ],
-  "subtitle" : "Freeze and Chill",
-  "itemAgeMultiplier" : 0,
-  "flickerIntensityVariance" : 0.025
+  "itemAgeMultiplier" : 0
 }

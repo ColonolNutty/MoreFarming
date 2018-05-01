@@ -7,7 +7,7 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "A steel blender!",
-  "shortdescription" : "^orange;Apex Blender (Blend)^white;",
+  "shortdescription" : "^orange;Apex Blender (Blend)^reset;",
   "race" : "generic",
   "inventoryIcon" : "apexblendingstationCNYCicon.png",
   "orientations" : [

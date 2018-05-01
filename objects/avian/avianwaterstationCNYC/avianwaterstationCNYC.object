@@ -6,15 +6,15 @@
   "category" : "Avian Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "Fresh water fountain. Fill your bottle!",
-  "shortdescription" : "^orange;Avian Fount (Water)^white;",
+  "description" : "A fresh water fountain. Fill your bottle!",
+  "shortdescription" : "^orange;Avian Fount (Water)^reset;",
   "race" : "generic",
-  "apexDescription" : "In constant motion, almost a metaphor in itself",
+  "apexDescription" : "It is in constant motion, almost a metaphor in itself.",
   "avianDescription" : "Always fresh. Refreshing.",
-  "floranDescription" : "Not bloodss.. floran drinksss anyway.",
+  "floranDescription" : "Not blood? Floran drinksss anyway.",
   "glitchDescription" : "Observation. Fresh water fountain.",
-  "humanDescription" : "Really need the loo.. again!",
-  "hylotlDescription" : "I could listen to this for days..",
+  "humanDescription" : "Really makes me need to pee!",
+  "hylotlDescription" : "I could listen to this for days...",
   "inventoryIcon" : "avianwaterstationCNYCicon.png",
   "orientations" : [
     {
@@ -57,12 +57,6 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/waterMFMRecipes.config",
-  "flickerPeriod" : 0.3,
-  "flickerMinIntensity" : 0.5,
-  "flickerPeriodVariance" : 0.075,
-  "flickerMaxIntensity" : 0.55,
-  "soundEffect" : "/sfx/objects/fountainMFMambience2.ogg",
-  "soundEffectRadius" : 10,
   "particleEmitter" : {
     "emissionRate" : 4,
     "particleVariance" : {
@@ -83,7 +77,5 @@
     },
     "emissionVariance" : 1
   },
-  "retainObjectParametersInItem" : true,
-  "lightColor" : [ 125, 143, 179 ],
-  "flickerIntensityVariance" : 0.025
+  "retainObjectParametersInItem" : true
 }

@@ -6,15 +6,15 @@
   "category" : "Hylotl Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "A large seasoned hylotl frypan!",
-  "shortdescription" : "^orange;Hylotl Frypan (Fry)^white;",
+  "description" : "A large seasoned Hylotl frypan.",
+  "shortdescription" : "^orange;Hylotl Frypan (Fry)^reset;",
   "race" : "generic",
   "apexDescription" : "That could fry a whole lot of bananas!",
-  "avianDescription" : "Looks and smells seasoned",
-  "floranDescription" : "Floran hungry..",
-  "glitchDescription" : "Observation. A large hylotl frypan.",
+  "avianDescription" : "Looks and smells seasoned.",
+  "floranDescription" : "Floran hungry...",
+  "glitchDescription" : "Observation. A large Hylotl frypan.",
   "humanDescription" : "That's HUGE!",
-  "hylotlDescription" : "I'll get some good use out of this!",
+  "hylotlDescription" : "I'll get some good use out of this.",
   "inventoryIcon" : "hylotlfryingstationCNYCicon.png",
   "orientations" : [
     {
@@ -50,7 +50,7 @@
     }
   ],
   "recipeGroup" : "fryingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/fryingMFMenter1.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -84,6 +84,9 @@
   },
   "retainObjectParametersInItem" : true,
   "lightColor" : [ 179, 149, 107 ],
-  "subtitle" : "Fry food!",
-  "flickerIntensityVariance" : 0.025
+  "flickerIntensityVariance" : 0.025,
+  "soundEffect" : "/sfx/objects/fryingMFMambience1.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "hylotlfryingstationCNYC.animation"
 }

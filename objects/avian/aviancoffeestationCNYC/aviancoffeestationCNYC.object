@@ -9,12 +9,12 @@
   "description" : "A fine cast coffeepot!",
   "shortdescription" : "^orange;Avian Coffeepot (Coffee)^reset;",
   "race" : "generic",
-  "apexDescription" : "Coffee is becoming widespread, I wonder how long before Big Ape stops that...",
-  "avianDescription" : "Fantastic, full bodied...",
-  "floranDescription" : "Floran mixesss blood inssside...",
+  "apexDescription" : "Coffee is becoming widespread, I wonder how long before Big Ape stops that?",
+  "avianDescription" : "Fantastic, full bodied.",
+  "floranDescription" : "Floran mixesss blood.",
   "glitchDescription" : "Observation. A delicately cast coffeepot.",
-  "humanDescription" : "Oh! Any dates? Good dates... not bad dates...",
-  "hylotlDescription" : "I'll try it...",
+  "humanDescription" : "Oh! Any dates? Good dates, not bad dates, never bad dates.",
+  "hylotlDescription" : "I'll give it a try...",
   "inventoryIcon" : "aviancoffeestationCNYCicon.png",
   "orientations" : [
     {

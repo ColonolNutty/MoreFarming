@@ -7,14 +7,14 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "One pot cooking!",
-  "shortdescription" : "^orange;Hylotl Boilpot (Boil)^white;",
+  "shortdescription" : "^orange;Hylotl Boilpot (Boil)^reset;",
   "race" : "generic",
-  "apexDescription" : "Oh now that is fancy looking!",
-  "avianDescription" : "It's decorated with a sort of wave design",
-  "floranDescription" : "Floran put the hylotl in the ssstew..",
-  "glitchDescription" : "Observation. A traditional Hylotl pot!",
-  "humanDescription" : "That's alot of kelp noodle soup..",
-  "hylotlDescription" : "Finnaly I have my own pot again.",
+  "apexDescription" : "That is one fancy looking pot!",
+  "avianDescription" : "It's decorated with a wave-like design.",
+  "floranDescription" : "Floran put Hylotl in the ssstew...",
+  "glitchDescription" : "Observation. A traditional Hylotl pot.",
+  "humanDescription" : "That's alot of kelp noodle soup...",
+  "hylotlDescription" : "Finally, I have my own pot again.",
   "inventoryIcon" : "hylotlboilingstationCNYCicon.png",
   "orientations" : [
     {
@@ -50,7 +50,8 @@
     }
   ],
   "recipeGroup" : "boilingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter2.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit1.ogg", "/sfx/objects/metalpotMFMexit2.ogg", "/sfx/objects/metalpotMFMexit4.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -62,8 +63,6 @@
   "flickerMinIntensity" : 0.85,
   "flickerPeriodVariance" : 0.075,
   "flickerMaxIntensity" : 1,
-  "soundEffect" : "/sfx/objects/spookycauldron.ogg",
-  "soundEffectRadius" : 20,
   "particleEmitter" : {
     "emissionRate" : 6,
     "particleVariance" : {
@@ -86,6 +85,9 @@
   },
   "retainObjectParametersInItem" : true,
   "lightColor" : [ 179, 149, 107 ],
-  "subtitle" : "Boil and simmer",
-  "flickerIntensityVariance" : 0.025
+  "flickerIntensityVariance" : 0.025,
+  "soundEffect" : "/sfx/objects/bubblesMFMambience2.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "hylotlboilingstationCNYC.animation"
 }

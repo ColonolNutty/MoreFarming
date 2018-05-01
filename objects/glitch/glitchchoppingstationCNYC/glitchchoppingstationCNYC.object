@@ -7,14 +7,14 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "Solid wood choppingboard!",
-  "shortdescription" : "^orange;Glitch Chopboard (Chop)^white;",
+  "shortdescription" : "^orange;Glitch Chopboard (Chop)^reset;",
   "race" : "generic",
-  "apexDescription" : "More splinters..",
-  "avianDescription" : "Well used.. well stained..",
-  "floranDescription" : "Floran smellsss sstrange thingss..",
+  "apexDescription" : "More splinters!",
+  "avianDescription" : "Well used and well stained...",
+  "floranDescription" : "Floran smellsss strange thingsss...",
   "glitchDescription" : "Observation. Hardwood chopboard.",
-  "humanDescription" : "I don't trust the hygeine standards of a darkages robot..",
-  "hylotlDescription" : "Blood and screws everywhere..",
+  "humanDescription" : "I don't trust the hygeine standards of medieval robots...",
+  "hylotlDescription" : "There are screws and blood everywhere!",
   "inventoryIcon" : "glitchchoppingstationCNYCicon.png",
   "orientations" : [
     {
@@ -36,5 +36,6 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/choppingMFMRecipes.config",
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Prepare food!"
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "glitchchoppingstationCNYC.animation"
 }

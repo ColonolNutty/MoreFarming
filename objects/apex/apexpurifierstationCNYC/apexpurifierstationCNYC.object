@@ -7,7 +7,7 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "A tea machine!",
-  "shortdescription" : "^orange;Apex Tea Machine (Purify)^white;",
+  "shortdescription" : "^orange;Apex Tea Machine (Purify)^reset;",
   "race" : "generic",
   "inventoryIcon" : "apexpurifierstationCNYCicon.png",
   "orientations" : [

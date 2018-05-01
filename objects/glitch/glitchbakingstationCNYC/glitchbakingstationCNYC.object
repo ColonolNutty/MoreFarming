@@ -6,7 +6,7 @@
   "category" : "Glitch Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "A solid stone oven!",
+  "description" : "An oven made of solid stone.",
   "shortdescription" : "^orange;Glitch Stone Oven (Bake)^reset;",
   "race" : "generic",
   "apexDescription" : "Suprisingly warm!",

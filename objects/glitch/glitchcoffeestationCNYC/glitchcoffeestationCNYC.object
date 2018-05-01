@@ -7,14 +7,14 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "A basic coffee jug.",
-  "shortdescription" : "^orange;Glitch Coffee Jug (Coffee)^white;",
+  "shortdescription" : "^orange;Glitch Coffee Jug (Coffee)^reset;",
   "race" : "generic",
-  "apexDescription" : "Simple enough..",
-  "avianDescription" : "Wait.. how do you strain it?",
-  "floranDescription" : "Crunchysss..",
+  "apexDescription" : "Simple enough...",
+  "avianDescription" : "Wait... how do you strain it?",
+  "floranDescription" : "Crunchysss...",
   "glitchDescription" : "Observation. Coffee jug.",
-  "humanDescription" : "Coffee with grinds in.. real nice..",
-  "hylotlDescription" : "At least it doesn't smell like oil..",
+  "humanDescription" : "Coffee with grinds in... real nice...",
+  "hylotlDescription" : "At least it doesn't smell like oil...",
   "inventoryIcon" : "glitchcoffeestationCNYCicon.png",
   "orientations" : [
     {
@@ -36,5 +36,6 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/coffeeMFMRecipes.config",
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Brew Coffee!"
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "glitchcoffeestationCNYC.animation"
 }

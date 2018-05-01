@@ -6,15 +6,15 @@
   "category" : "Glitch Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "Fresh water barrel. Fill your bottle!",
-  "shortdescription" : "^orange;Glitch Water Barrel (Water)^white;",
+  "description" : "Fresh water barrel. Fill your bottle.",
+  "shortdescription" : "^orange;Glitch Water Barrel (Water)^reset;",
   "race" : "generic",
-  "apexDescription" : "A barrel of water",
-  "avianDescription" : "Hopefully water...",
-  "floranDescription" : "Not bloodss.. floran drinksss anyway.",
+  "apexDescription" : "A barrel of water.",
+  "avianDescription" : "Hopefully this contains water.",
+  "floranDescription" : "Not bloodsss... Floran drinksss anyway.",
   "glitchDescription" : "Observation. Oxygen and Hydrogen, in a liquid state.",
-  "humanDescription" : "Could be oil, could be water..",
-  "hylotlDescription" : "Smells like water.. thanks the stars.",
+  "humanDescription" : "Could be oil, could be water.",
+  "hylotlDescription" : "Smells like water. Thank the stars!",
   "inventoryIcon" : "glitchwaterstationCNYCicon.png",
   "orientations" : [
     {
@@ -52,8 +52,6 @@
     }
   ],
   "recipeGroup" : "waterMFM",
-  "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
-  "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -62,5 +60,6 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/waterMFMRecipes.config",
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Drinking waterbarrel!"
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "glitchwaterstationCNYC.animation"
 }

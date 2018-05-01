@@ -9,12 +9,12 @@
   "description" : "A waterlogged wooden blender.",
   "shortdescription" : "^orange;Glitch Blender (Blend)^reset;",
   "race" : "generic",
-  "apexDescription" : "Splinters..",
-  "avianDescription" : "It smells..",
-  "floranDescription" : "Floran likesss smellss..",
+  "apexDescription" : "Splinters...",
+  "avianDescription" : "It smells...",
+  "floranDescription" : "Floran like smellsss...",
   "glitchDescription" : "Observation. Blender!",
-  "humanDescription" : "Smells like old socks and engine oil..",
-  "hylotlDescription" : "The inside is revolting..",
+  "humanDescription" : "Smells like old socks and engine oil...",
+  "hylotlDescription" : "The inside is revolting...",
   "inventoryIcon" : "glitchblendingstationCNYCicon.png",
   "orientations" : [
     {
@@ -50,7 +50,8 @@
     }
   ],
   "recipeGroup" : "blendingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/blenderMFMenter.ogg" ],
+  "closeSounds" : [ "/sfx/objects/blenderMFMexit.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -59,5 +60,6 @@
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/blendingMFMRecipes.config",
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Blend and Juice!"
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "glitchblendingstationCNYC.animation"
 }

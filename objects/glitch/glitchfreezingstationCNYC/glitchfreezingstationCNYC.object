@@ -7,15 +7,15 @@
   "objectType" : "container",
   "tooltipKind" : "container",
   "printable" : false,
-  "description" : "A crate full of ice that doesn't seem to melt, used for storage or making cold treats",
-  "shortdescription" : "^orange;Glitch Ice Crate (Freeze)^white;",
+  "description" : "A crate full of ice, it is used for storage or making cold treats.",
+  "shortdescription" : "^orange;Glitch Ice Crate (Freeze)^reset;",
   "race" : "generic",
-  "apexDescription" : "It's full of ice.. Not exactly high tech..",
-  "avianDescription" : "That's.. a freezer?",
-  "floranDescription" : "Floran ssstick face..",
+  "apexDescription" : "It's full of ice... Not exactly high tech...",
+  "avianDescription" : "That is... a freezer?",
+  "floranDescription" : "Floran ssstick face...",
   "glitchDescription" : "Observation. A crate of ice for freezing.",
   "humanDescription" : "Oh an icebox! Any cold ones in there?",
-  "hylotlDescription" : "A crate of ice.. deceptivley simple",
+  "hylotlDescription" : "A crate of ice... deceptively simple.",
   "inventoryIcon" : "glitchfreezingstationCNYCicon.png",
   "orientations" : [
     {
@@ -53,8 +53,8 @@
     }
   ],
   "recipeGroup" : "freezingMFM",
-  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "openSounds" : [ "/sfx/objects/freezerMFMenter1.ogg" ],
+  "closeSounds" : [ "/sfx/objects/freezerMFMexit1.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -62,13 +62,6 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
-  "flickerPeriod" : 0.3,
-  "flickerMinIntensity" : 0.5,
-  "flickerPeriodVariance" : 0.075,
-  "flickerMaxIntensity" : 0.55,
   "retainObjectParametersInItem" : true,
-  "lightColor" : [ 125, 143, 179 ],
-  "subtitle" : "Freeze and Chill",
-  "itemAgeMultiplier" : 0,
-  "flickerIntensityVariance" : 0.025
+  "itemAgeMultiplier" : 0
 }

@@ -6,15 +6,15 @@
   "category" : "Glitch Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "One pot cooking!",
-  "shortdescription" : "^orange;Glitch Boilpot (Boil)^white;",
+  "description" : "A large metallic pot.",
+  "shortdescription" : "^orange;Glitch Boilpot (Boil)^reset;",
   "race" : "generic",
   "apexDescription" : "Large copper pot, at least it looks clean.",
-  "avianDescription" : "It's full of dents..",
-  "floranDescription" : "Floran likess ssshiny hats..",
-  "glitchDescription" : "Observation. Perfect cooking pot!",
-  "humanDescription" : "Smells like it was last full of oil..",
-  "hylotlDescription" : "Simple and does the job I suppose.",
+  "avianDescription" : "It's full of dents...",
+  "floranDescription" : "Floran likess ssshiny hats...",
+  "glitchDescription" : "Observation. A perfect boiling pot!",
+  "humanDescription" : "Smells like it was last full of oil...",
+  "hylotlDescription" : "Simple and does the job, I suppose.",
   "inventoryIcon" : "glitchboilingstationCNYCicon.png",
   "orientations" : [
     {
@@ -62,8 +62,6 @@
   "flickerMinIntensity" : 0.85,
   "flickerPeriodVariance" : 0.075,
   "flickerMaxIntensity" : 1,
-  "soundEffect" : "/sfx/objects/spookycauldron.ogg",
-  "soundEffectRadius" : 20,
   "particleEmitter" : {
     "emissionRate" : 6,
     "particleVariance" : {
@@ -86,6 +84,9 @@
   },
   "retainObjectParametersInItem" : true,
   "lightColor" : [ 179, 149, 107 ],
-  "subtitle" : "Boil and simmer",
-  "flickerIntensityVariance" : 0.025
+  "flickerIntensityVariance" : 0.025,
+  "soundEffect" : "/sfx/objects/bubblesMFMambience2.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "glitchboilingstationCNYC.animation"
 }

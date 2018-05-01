@@ -6,15 +6,15 @@
   "category" : "Glitch Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "A basic looking frypan!",
-  "shortdescription" : "^orange;Glitch Frypan (Fry)^white;",
+  "description" : "A basic looking frypan.",
+  "shortdescription" : "^orange;Glitch Frypan (Fry)^reset;",
   "race" : "generic",
-  "apexDescription" : "Food and rust are engrained into the surface..!",
-  "avianDescription" : "Needs cleaning.. with a starship booster..",
-  "floranDescription" : "Floran hungry..",
+  "apexDescription" : "Food and rust are engrained into the surface.",
+  "avianDescription" : "It needs cleaning, maybe with a starship booster.",
+  "floranDescription" : "Floran hungersss.",
   "glitchDescription" : "Observation. A standard frypan.",
-  "humanDescription" : "Definatley not non-stick..",
-  "hylotlDescription" : "Id rather eat my food cold then use that..",
+  "humanDescription" : "It is definitely not a non-stick pan.",
+  "hylotlDescription" : "I'd rather eat my food cold than use that.",
   "inventoryIcon" : "glitchfryingstationCNYCicon.png",
   "orientations" : [
     {
@@ -50,7 +50,7 @@
     }
   ],
   "recipeGroup" : "fryingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/fryingMFMenter1.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -84,6 +84,9 @@
   },
   "retainObjectParametersInItem" : true,
   "lightColor" : [ 179, 149, 107 ],
-  "subtitle" : "Fry food!",
-  "flickerIntensityVariance" : 0.025
+  "flickerIntensityVariance" : 0.025,
+  "soundEffect" : "/sfx/objects/fryingMFMambience1.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "glitchfryingstationCNYC.animation"
 }

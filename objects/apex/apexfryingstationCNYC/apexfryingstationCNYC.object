@@ -6,8 +6,8 @@
   "category" : "Apex Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "A deep fryer!",
-  "shortdescription" : "^orange;Apex Deep Fryer (Fry)^white;",
+  "description" : "A frying pan for frying.",
+  "shortdescription" : "^orange;Apex Deep Fryer (Fry)^reset;",
   "race" : "generic",
   "inventoryIcon" : "apexfryingstationCNYCicon.png",
   "orientations" : [
@@ -74,9 +74,9 @@
   "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/fryingMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
   "soundEffect" : "/sfx/objects/fryingMFMambience1.ogg",
   "soundEffectRadius" : 10,
-  "retainObjectParametersInItem" : true,
   "craftSoundDelaySeconds" : 5,
   "animation" : "apexfryingstationCNYC.animation"
 }

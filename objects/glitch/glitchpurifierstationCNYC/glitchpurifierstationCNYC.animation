@@ -1,0 +1,5 @@
+{
+  "sounds" : {
+    "onCraft": [ "/sfx/objects/bubblingMFMcraft1.ogg" ]
+  }
+}

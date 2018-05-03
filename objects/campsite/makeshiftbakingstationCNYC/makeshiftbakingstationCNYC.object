@@ -7,7 +7,7 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "I can bake things with this!",
-  "shortdescription" : "^orange;Camp Oven (Bake)^white;",
+  "shortdescription" : "^orange;Camp Oven (Bake)^reset;",
   "race" : "generic",
   "inventoryIcon" : "makeshiftbakingstationCNYCicon.png",
   "largeImage" : "makeshiftbakingstationCNYC.png:default.default",

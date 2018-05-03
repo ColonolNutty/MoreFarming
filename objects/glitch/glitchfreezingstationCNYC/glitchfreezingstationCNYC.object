@@ -10,11 +10,11 @@
   "description" : "A crate full of ice, it is used for storage or making cold treats.",
   "shortdescription" : "^orange;Glitch Ice Crate (Freeze)^reset;",
   "race" : "generic",
-  "apexDescription" : "It's full of ice... Not exactly high tech...",
+  "apexDescription" : "It is full of ice, not exactly high tech.",
   "avianDescription" : "That is... a freezer?",
   "floranDescription" : "Floran ssstick face...",
   "glitchDescription" : "Observation. A crate of ice for freezing.",
-  "humanDescription" : "Oh an icebox! Any cold ones in there?",
+  "humanDescription" : "Oh an ice box! Any cold ones in there?",
   "hylotlDescription" : "A crate of ice... deceptively simple.",
   "inventoryIcon" : "glitchfreezingstationCNYCicon.png",
   "orientations" : [

@@ -6,7 +6,7 @@
   "category" : "Apex Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "A tea machine!",
+  "description" : "A tea machine.",
   "shortdescription" : "^orange;Apex Tea Machine (Purify)^reset;",
   "race" : "generic",
   "inventoryIcon" : "apexpurifierstationCNYCicon.png",

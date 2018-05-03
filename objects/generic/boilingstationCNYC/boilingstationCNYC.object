@@ -9,12 +9,12 @@
   "description" : "Useful for boiling food.",
   "shortdescription" : "^orange;Boiling Pans (Boil)^reset;",
   "race" : "generic",
-  "apexDescription" : "Better than those tin pans we had to use.",
+  "apexDescription" : "These are better than those tin pans we used to use.",
   "avianDescription" : "Corden Jamsey cookpans, galvanised?",
   "floranDescription" : "Floran use as hammer afterwardsss.",
-  "glitchDescription" : "Inspect. Lightweight cauldrons.",
-  "humanDescription" : "Pans! Wonder if Jamsey used them!",
-  "hylotlDescription" : "Looks expensive... also limited edition?",
+  "glitchDescription" : "Analysis. Lightweight metallic cauldrons.",
+  "humanDescription" : "Pans! I wonder if Jamsey used them!",
+  "hylotlDescription" : "It looks expensive... also limited edition?",
   "inventoryIcon" : "boilingstationCNYCicon.png",
   "orientations" : [
     {

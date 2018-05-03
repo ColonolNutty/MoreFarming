@@ -7,7 +7,7 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "A steel chopping tool!",
-  "shortdescription" : "^orange;Apex Slicer (Chop)^white;",
+  "shortdescription" : "^orange;Apex Slicer (Chop)^reset;",
   "race" : "generic",
   "inventoryIcon" : "apexchoppingstationCNYCicon.png",
   "orientations" : [

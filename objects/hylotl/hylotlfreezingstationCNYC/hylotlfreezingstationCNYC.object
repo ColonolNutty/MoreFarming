@@ -14,8 +14,8 @@
   "avianDescription" : "Is it a freezer or a waterbucket?",
   "floranDescription" : "Floran face ssstuck!",
   "glitchDescription" : "Observation. A liquid suspension flash freezer.",
-  "humanDescription" : "I think it's a freezer. Why is there a fish in it?",
-  "hylotlDescription" : "There is alot water can do if given the respect.",
+  "humanDescription" : "If this is a freezer why is there a fish in it?",
+  "hylotlDescription" : "There is a lot water can do if given the respect.",
   "inventoryIcon" : "hylotlfreezingstationCNYCicon.png",
   "orientations" : [
     {

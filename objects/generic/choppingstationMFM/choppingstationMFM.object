@@ -9,12 +9,12 @@
   "description" : "I can wash and prepare ingredients with this!",
   "shortdescription" : "^orange;Chopping Board (Chop)^reset;",
   "race" : "generic",
-  "apexDescription" : "Well... this is quite impressive",
-  "avianDescription" : "Is there anything this 'Jamsey' doesn't make?",
+  "apexDescription" : "Well... this is quite impressive.",
+  "avianDescription" : "Is there anything this \"Jamsey\" doesn't make?",
   "floranDescription" : "Floran like knivesss...",
   "glitchDescription" : "Impressed. Impressive!",
   "humanDescription" : "A chopping board and tap! Cordon Jamsey makes good stuff!",
-  "hylotlDescription" : "Those knives looks impossibly sharp.",
+  "hylotlDescription" : "Those knives look impossibly sharp.",
   "inventoryIcon" : "choppingstationMFMicon.png",
   "orientations" : [
     {

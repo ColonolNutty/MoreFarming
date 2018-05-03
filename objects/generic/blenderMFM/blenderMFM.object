@@ -12,10 +12,10 @@
   "race" : "generic",
   "apexDescription" : "A blender. Anything inside?",
   "avianDescription" : "A device used to quickly liquify foods.",
-  "floranDescription" : "Floran can put thingsss insside and grind them up!",
-  "glitchDescription" : "Observe. A blender, used to grind food up.",
-  "humanDescription" : "A blender. Good for grinding up things.",
-  "hylotlDescription" : "A blender for grinding up items.",
+  "floranDescription" : "Floran can put thing inssside and blend, blend, blend!",
+  "glitchDescription" : "Obversation. A blender, used to grind food up.",
+  "humanDescription" : "A blender. Good for blending up things.",
+  "hylotlDescription" : "A blender for blending.",
   "inventoryIcon" : "blenderMFMicon.png",
   "orientations" : [
     {

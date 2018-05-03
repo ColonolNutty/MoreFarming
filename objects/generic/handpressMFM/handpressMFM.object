@@ -7,7 +7,7 @@
   "objectType" : "container",
   "tooltipKind" : "container",
   "printable" : false,
-  "description" : "A press. used for pressing things.",
+  "description" : "A press. Used for pressing things.",
   "shortdescription" : "Hand Press (Press)",
   "race" : "generic",
   "apexDescription" : "A wooden press. Anything inside?",

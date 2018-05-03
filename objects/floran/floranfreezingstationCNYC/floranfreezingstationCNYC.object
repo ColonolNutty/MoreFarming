@@ -13,10 +13,10 @@
   "apexDescription" : "Like a small fridge, but colder.",
   "avianDescription" : "The only way to keep anything cold during the hot days...",
   "floranDescription" : "Not for sleepsss...",
-  "glitchDescription" : "Inspect. Chest coldbox.",
-  "humanDescription" : "Really could go for an icecream...",
+  "glitchDescription" : "Analysis. A wooden box used for refridgeration.",
+  "humanDescription" : "I could really go for an icecream right now.",
   "hylotlDescription" : "Remains cold on hot days, ideal for summer!",
-  "novakidDescription" : "Primitive lookin' freezer. I suppose it does the job.",
+  "novakidDescription" : "A primitive lookin' freezer. I s'pose it does the job.",
   "inventoryIcon" : "floranfreezingstationCNYCicon.png",
   "orientations" : [
     {

@@ -11,10 +11,10 @@
   "race" : "generic",
   "apexDescription" : "It is in constant motion, almost a metaphor in itself.",
   "avianDescription" : "Always fresh. Refreshing.",
-  "floranDescription" : "Not blood? Floran drinksss anyway.",
-  "glitchDescription" : "Observation. Fresh water fountain.",
+  "floranDescription" : "Not blood? Floran still drink.",
+  "glitchDescription" : "Observation. A fountain flowing with fresh water.",
   "humanDescription" : "Really makes me need to pee!",
-  "hylotlDescription" : "I could listen to this for days...",
+  "hylotlDescription" : "I could listen to this for days.",
   "inventoryIcon" : "hylotlwaterstationCNYCicon.png",
   "orientations" : [
     {

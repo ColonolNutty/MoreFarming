@@ -10,10 +10,10 @@
   "shortdescription" : "^orange;Glitch Chopboard (Chop)^reset;",
   "race" : "generic",
   "apexDescription" : "More splinters!",
-  "avianDescription" : "Well used and well stained...",
-  "floranDescription" : "Floran smellsss strange thingsss...",
+  "avianDescription" : "Well used and well stained.",
+  "floranDescription" : "Floran smellsss strange thingsss.",
   "glitchDescription" : "Observation. Hardwood chopboard.",
-  "humanDescription" : "I don't trust the hygeine standards of medieval robots...",
+  "humanDescription" : "I don't trust the hygiene standards of medieval robots.",
   "hylotlDescription" : "There are screws and blood everywhere!",
   "inventoryIcon" : "glitchchoppingstationCNYCicon.png",
   "orientations" : [

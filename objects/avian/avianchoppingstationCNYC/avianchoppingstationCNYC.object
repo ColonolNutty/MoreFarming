@@ -7,7 +7,7 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "A solid wooden chopping board.",
-  "shortdescription" : "^orange;Avian Chopboard (Chop)^white;",
+  "shortdescription" : "^orange;Avian Chopboard (Chop)^reset;",
   "race" : "generic",
   "apexDescription" : "Intricately carved and sharp.",
   "avianDescription" : "Lovely craftsmanship.",

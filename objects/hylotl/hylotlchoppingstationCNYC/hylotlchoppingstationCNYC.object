@@ -11,9 +11,9 @@
   "race" : "generic",
   "apexDescription" : "Sturdy hardwood and a cleaver. Perfect!",
   "avianDescription" : "It looks like it was carved from a solid piece of wood.",
-  "floranDescription" : "Floran likes ssmall axesss...",
-  "glitchDescription" : "Observation. A sturdy hardwood chopboard.",
-  "humanDescription" : "Reminds me of that place back on earth that made awesome gadgets.",
+  "floranDescription" : "Floran likes small axesss.",
+  "glitchDescription" : "Analysis. A sturdy hardwood chopboard.",
+  "humanDescription" : "Reminds me of a place back on earth that made awesome gadgets.",
   "hylotlDescription" : "I feel quite at home.",
   "inventoryIcon" : "hylotlchoppingstationCNYCicon.png",
   "orientations" : [

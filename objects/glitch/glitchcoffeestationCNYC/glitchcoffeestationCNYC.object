@@ -11,10 +11,10 @@
   "race" : "generic",
   "apexDescription" : "Simple enough...",
   "avianDescription" : "Wait... how do you strain it?",
-  "floranDescription" : "Crunchysss...",
+  "floranDescription" : "Crunchiesss...",
   "glitchDescription" : "Observation. Coffee jug.",
-  "humanDescription" : "Coffee with grinds in... real nice...",
-  "hylotlDescription" : "At least it doesn't smell like oil...",
+  "humanDescription" : "Coffee with grinds in... real nice.",
+  "hylotlDescription" : "At least it doesn't smell like oil.",
   "inventoryIcon" : "glitchcoffeestationCNYCicon.png",
   "orientations" : [
     {

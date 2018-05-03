@@ -1,19 +1,20 @@
 {
   "objectName" : "nanopurifierstationCNYC",
+  "colonyTags" : [ "cooking", "electronic" ],
   "rarity" : "Common",
   "price" : 321.03,
   "category" : "Nano Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "Nanites purify without needing to boil!",
+  "description" : "Nanites purify without ever needing to boil!",
   "shortdescription" : "Nano Kettle (Purify)",
   "race" : "generic",
   "apexDescription" : "Very efficient!",
   "avianDescription" : "Praise nanotechnology!",
-  "floranDescription" : "Floran try blood.. no, floran drink blood insstead",
-  "glitchDescription" : "Idea. Can I program it to turn water to oil?.",
-  "humanDescription" : "It's sure going to last longer then those pre-age filters.",
-  "hylotlDescription" : "But what happens to the impurities?",
+  "floranDescription" : "Floran try blood... no, Floran drink insstead!",
+  "glitchDescription" : "Enlightened. Can I program it to turn water to oil?.",
+  "humanDescription" : "It looks like it may last longer than those pre-age filters.",
+  "hylotlDescription" : "What happens to the impurities? Do they disappear?",
   "inventoryIcon" : "nanopurifierstationCNYCicon.png",
   "orientations" : [
     {
@@ -49,7 +50,8 @@
     }
   ],
   "recipeGroup" : "purifyingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/plasticMFMenter2.ogg", "/sfx/objects/plasticMFMenter1.ogg" ],
+  "closeSounds" : [ "/sfx/objects/plasticMFMexit3.ogg", "/sfx/objects/plasticMFMexit4.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -62,10 +64,8 @@
   "flickerPeriodVariance" : 0.075,
   "maximumLiquidLevel" : 0.2,
   "flickerMaxIntensity" : 1,
-  "statusEffects" : [ ],
-  "soundEffect" : "/sfx/objects/campfire.ogg",
   "lightColor" : [ 125, 143, 179 ],
-  "tags" : [ "cooking", "electronic" ],
-  "subtitle" : "Nanite purification.",
-  "flickerIntensityVariance" : 0.025
+  "flickerIntensityVariance" : 0.025,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "nanopurifierstationCNYC.animation"
 }

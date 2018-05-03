@@ -6,8 +6,8 @@
   "category" : "Apex Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "A giant pot for boiling!",
-  "shortdescription" : "^orange;Apex Boiling Pot (Boil)^white;",
+  "description" : "A giant pot for boiling.",
+  "shortdescription" : "^orange;Apex Boiling Pot (Boil)^reset;",
   "race" : "generic",
   "inventoryIcon" : "apexboilingstationCNYCicon.png",
   "orientations" : [

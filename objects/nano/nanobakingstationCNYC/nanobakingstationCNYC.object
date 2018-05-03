@@ -1,19 +1,20 @@
 {
   "objectName" : "nanobakingstationCNYC",
+  "colonyTags" : [ "cooking", "electronic" ],
   "rarity" : "Common",
   "price" : 317.98,
   "category" : "crafting",
   "objectType" : "container",
   "printable" : false,
-  "description" : "Ion cannon oven! Kinda...",
+  "description" : "An ion cannon oven! Kinda...",
   "shortdescription" : "Nano Oven (Bake)",
   "race" : "generic",
   "apexDescription" : "A marvel of our time!",
-  "avianDescription" : "I have no idea where the heat is generated..",
-  "floranDescription" : "Floran like ssspinny..",
-  "glitchDescription" : "Admiration. This oven cooks.. I don't even know how..",
-  "humanDescription" : "I could probably put my hand in there while it's cooking..",
-  "hylotlDescription" : "Oddly hypnotic, yet functional",
+  "avianDescription" : "I have no idea where or how the heat is generated...",
+  "floranDescription" : "Floran like ssspinny...",
+  "glitchDescription" : "Puzzled. I am unable to determine how this oven is heated.",
+  "humanDescription" : "I could probably put my hand in there while it's cooking. Would I feel it?",
+  "hylotlDescription" : "Functional, yet oddly hypnotic.",
   "inventoryIcon" : "nanobakingstationCNYCicon.png",
   "orientations" : [
     {
@@ -51,7 +52,8 @@
     }
   ],
   "recipeGroup" : "bakingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter2.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit1.ogg", "/sfx/objects/metalpotMFMexit2.ogg", "/sfx/objects/metalpotMFMexit4.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -65,9 +67,6 @@
   "maximumLiquidLevel" : 0.2,
   "flickerMaxIntensity" : 1,
   "statusEffects" : [ ],
-  "soundEffect" : "/sfx/objects/campfire.ogg",
   "lightColor" : [ 125, 143, 179 ],
-  "tags" : [ "cooking", "electronic" ],
-  "subtitle" : "Hi-tech baking",
   "flickerIntensityVariance" : 0.025
 }

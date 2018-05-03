@@ -1,19 +1,20 @@
 {
   "objectName" : "nanoboilingstationCNYC",
+  "colonyTags" : [ "cooking", "electronic" ],
   "rarity" : "Common",
   "price" : 526.03,
   "category" : "crafting",
   "objectType" : "container",
   "printable" : false,
-  "description" : "Boiling water in zero gravity. Science!.",
+  "description" : "Boiling water in zero gravity. Science!",
   "shortdescription" : "Nano Boiler (Boil)",
   "race" : "generic",
-  "apexDescription" : "Anti-gravitational? Oh my..",
-  "avianDescription" : "Suspended boiling water? In a hologram?!",
+  "apexDescription" : "Anti-gravitational? Oh my!",
+  "avianDescription" : "Suspended boiling water? Is it a hologram?!",
   "floranDescription" : "Floran not underssstand..",
-  "glitchDescription" : "Fear. What is this devi- Oh!",
-  "humanDescription" : "Well.. at least I don't have to stir it!",
-  "hylotlDescription" : "The hologram actually holds the water? Impressive",
+  "glitchDescription" : "Fearful. What is this devi- Oh!",
+  "humanDescription" : "Well, at least I don't have to stir it!",
+  "hylotlDescription" : "The hologram actually holds the water? Impressive!",
   "inventoryIcon" : "nanoboilingstationCNYCicon.png",
   "orientations" : [
     {
@@ -49,7 +50,6 @@
     }
   ],
   "recipeGroup" : "boilingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -63,7 +63,6 @@
   "maximumLiquidLevel" : 0.2,
   "flickerMaxIntensity" : 1,
   "statusEffects" : [ ],
-  "soundEffect" : "/sfx/objects/campfire.ogg",
   "particleEmitter" : {
     "emissionRate" : 6,
     "particleVariance" : {
@@ -85,7 +84,9 @@
     "emissionVariance" : 1
   },
   "lightColor" : [ 125, 143, 179 ],
-  "tags" : [ "cooking", "electronic" ],
-  "subtitle" : "Zero-G Liquid Boiler.",
-  "flickerIntensityVariance" : 0.025
+  "flickerIntensityVariance" : 0.025,
+  "soundEffect" : "/sfx/objects/bubblesMFMambience2.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "nanoboilingstationCNYC.animation"
 }

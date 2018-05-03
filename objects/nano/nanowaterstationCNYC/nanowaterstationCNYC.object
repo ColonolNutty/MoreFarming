@@ -1,5 +1,6 @@
 {
   "objectName" : "nanowaterstationCNYC",
+  "colonyTags" : [ "cooking", "electronic" ],
   "rarity" : "Common",
   "price" : 531.18,
   "category" : "Nano Cookware",
@@ -8,12 +9,12 @@
   "description" : "Creates water from thin air, literally!",
   "shortdescription" : "Nano Condenser (Water)",
   "race" : "generic",
-  "apexDescription" : "Water from air!",
+  "apexDescription" : "Water from the air? It must be water vapours!",
   "avianDescription" : "A supply of water even in the desert!",
-  "floranDescription" : "Floran leave tapss on.. takess bath",
-  "glitchDescription" : "Deflated. Always water.. why never oil?.",
+  "floranDescription" : "Floran leave water on for bathsss.",
+  "glitchDescription" : "Disappointed. Always water... why never oil?.",
   "humanDescription" : "A potential lifesaver!",
-  "hylotlDescription" : "I wonder if the water is oxygenated..",
+  "hylotlDescription" : "I wonder if the water is oxygenated.",
   "inventoryIcon" : "nanowaterstationCNYCicon.png",
   "orientations" : [
     {
@@ -49,8 +50,6 @@
     }
   ],
   "recipeGroup" : "waterMFM",
-  "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
-  "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -63,10 +62,8 @@
   "flickerPeriodVariance" : 0.075,
   "maximumLiquidLevel" : 0.2,
   "flickerMaxIntensity" : 1,
-  "statusEffects" : [ ],
-  "soundEffect" : "/sfx/objects/campfire.ogg",
   "lightColor" : [ 125, 143, 179 ],
-  "tags" : [ "cooking", "electronic" ],
-  "subtitle" : "Hi-tech Vapour Harvesting.",
-  "flickerIntensityVariance" : 0.025
+  "flickerIntensityVariance" : 0.025,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "nanowaterstationCNYC.animation"
 }

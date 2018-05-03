@@ -1,0 +1,5 @@
+{
+  "sounds" : {
+    "onCraft": [ "/sfx/objects/laserMFM_craft4.ogg" ]
+  }
+}

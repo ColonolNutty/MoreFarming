@@ -1,19 +1,20 @@
 {
   "objectName" : "nanocoffeestationCNYC",
+  "colonyTags" : [ "cooking", "electronic" ],
   "rarity" : "Common",
   "price" : 530.13,
   "category" : "Nano Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "Not so much brewing as re-atomising",
+  "description" : "Not so much brewing as re-atomising.",
   "shortdescription" : "Nano Coffee M. (Coffee)",
   "race" : "generic",
   "apexDescription" : "Nanites literally fuse the coffee with water!",
-  "avianDescription" : "Talk about overegging the pudding..",
-  "floranDescription" : "Drinkss..",
-  "glitchDescription" : "Admiration. Why brew when you can re-atomise?",
-  "humanDescription" : "Last time I used this put the coffee in the wrong place..",
-  "hylotlDescription" : "Where do you even put the coffee?",
+  "avianDescription" : "Talk about overegging the pudding.",
+  "floranDescription" : "Drinksss?",
+  "glitchDescription" : "Admiration. Why brew, when you can re-atomise!",
+  "humanDescription" : "Last time I used one of these, I put the coffee beans in the wrong place.",
+  "hylotlDescription" : "Where do you put the coffee beans?",
   "inventoryIcon" : "nanocoffeestationCNYCicon.png",
   "orientations" : [
     {
@@ -49,7 +50,8 @@
     }
   ],
   "recipeGroup" : "coffeeMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/plasticMFMenter2.ogg" ],
+  "closeSounds" : [ "/sfx/objects/plasticMFMexit2.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -62,10 +64,8 @@
   "flickerPeriodVariance" : 0.075,
   "maximumLiquidLevel" : 0.2,
   "flickerMaxIntensity" : 1,
-  "statusEffects" : [ ],
-  "soundEffect" : "/sfx/objects/campfire.ogg",
   "lightColor" : [ 125, 143, 179 ],
-  "tags" : [ "cooking", "electronic" ],
-  "subtitle" : "Space Caffeine.",
-  "flickerIntensityVariance" : 0.025
+  "flickerIntensityVariance" : 0.025,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "nanocoffeestationCNYC.animation"
 }

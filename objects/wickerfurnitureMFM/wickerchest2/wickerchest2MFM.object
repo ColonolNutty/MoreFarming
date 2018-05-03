@@ -27,8 +27,8 @@
       "collision" : "platform"
     }
   ],
-  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "openSounds" : [ "/sfx/objects/wickerMFM_enter1.ogg" ],
+  "closeSounds" : [ "/sfx/objects/wickerMFM_exit1.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,

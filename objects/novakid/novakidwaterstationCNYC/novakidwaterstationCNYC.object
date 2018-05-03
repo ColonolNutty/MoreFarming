@@ -6,15 +6,16 @@
   "category" : "Novakid Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "Dispenses fresh water!",
-  "shortdescription" : "^orange;Novakid Watertower (Water)^white;",
+  "description" : "It dispenses the freshest water.",
+  "shortdescription" : "^orange;Novakid Watertower (Water)^reset;",
   "race" : "generic",
-  "apexDescription" : "A water dispenser!",
-  "avianDescription" : "Fresh water, lovley!",
-  "floranDescription" : "Wetss..",
-  "glitchDescription" : "Observation. Small water container.",
-  "humanDescription" : "All this steam and water can give a person ideas..",
-  "hylotlDescription" : "Water is always a welcome sight",
+  "apexDescription" : "Quite a strange shape for a water dispenser.",
+  "avianDescription" : "Fresh water, lovely!",
+  "floranDescription" : "Floran likesss water, so good!",
+  "glitchDescription" : "Observation. A small container of water.",
+  "humanDescription" : "All this steam and water gives me a few ideas...",
+  "hylotlDescription" : "Water is always a welcome sight!",
+  "novakidDescription" : "An absolute necessity for any ranch owner.",
   "inventoryIcon" : "novakidwaterstationCNYCicon.png",
   "orientations" : [
     {
@@ -50,8 +51,6 @@
     }
   ],
   "recipeGroup" : "waterMFM",
-  "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
-  "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -59,6 +58,8 @@
   "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/waterMFMRecipes.config",
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "novakidwaterstationCNYC.animation",
   "npcToy" : {
     "preciseStandPositionRight" : [ 1, 0 ],
     "preciseStandPositionLeft" : [ -1, 0 ],
@@ -72,6 +73,5 @@
       "watercoolerCollect" : [[ 1, "crouchcollect" ]]
     },
     "influence" : [ "watercoolerCollect", "watercoolerConsume", "watercoolerComplete" ]
-  },
-  "subtitle" : "Dispenses water!"
+  }
 }

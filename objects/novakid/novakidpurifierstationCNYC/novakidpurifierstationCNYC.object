@@ -6,15 +6,16 @@
   "category" : "Novakid Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "Purifies water, whistles with encouragement!",
-  "shortdescription" : "^orange;Novakid Kettle (Purify)^white;",
+  "description" : "It purifies water, it whistles with encouragement!",
+  "shortdescription" : "^orange;Novakid Kettle (Purify)^reset;",
   "race" : "generic",
-  "apexDescription" : "Haven't seen anything like this before..",
+  "apexDescription" : "I have not seen anything like this before.",
   "avianDescription" : "Whistles while it works.",
-  "floranDescription" : "Sssteamy..",
-  "glitchDescription" : "Observation. Appears to be a clensing machine. With a whistle.",
-  "humanDescription" : "Chooooooooo!",
-  "hylotlDescription" : "It's very loud..",
+  "floranDescription" : "Floran not like soundsss!",
+  "glitchDescription" : "Observation. This appears to be a cleansing machine. It also whistles.",
+  "humanDescription" : "Chooooo Chooooooooo!",
+  "hylotlDescription" : "It's very loud!",
+  "novakidDescription" : "Next stop! The wild west!",
   "inventoryIcon" : "novakidpurifierstationCNYCicon.png",
   "orientations" : [
     {
@@ -50,12 +51,13 @@
     }
   ],
   "recipeGroup" : "purifyingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit3.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
-  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/purifyingMFMRecipes.config",
   "particleEmitter" : {
@@ -78,20 +80,5 @@
       "animation" : "/animations/coldbreath/coldbreath.animation"
     },
     "emissionVariance" : 1
-  },
-  "npcToy" : {
-    "preciseStandPositionRight" : [ 1, 0 ],
-    "preciseStandPositionLeft" : [ -1, 0 ],
-    "maxNpcs" : 1,
-    "defaultReactions" : {
-      "watercoolerConsume" : [[ 1, "drink" ]],
-      "watercoolerComplete" : [
-        [ 1, "smile" ],
-        [ 0.1, "vomit" ]
-      ],
-      "watercoolerCollect" : [[ 1, "crouchcollect" ]]
-    },
-    "influence" : [ "watercoolerCollect", "watercoolerConsume", "watercoolerComplete" ]
-  },
-  "subtitle" : "Purify Water!"
+  }
 }

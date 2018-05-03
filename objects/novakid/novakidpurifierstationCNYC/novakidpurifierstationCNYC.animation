@@ -1,0 +1,5 @@
+{
+  "sounds" : {
+    "onCraft": [ "/sfx/objects/trainwhistleMFM_craft.ogg" ]
+  }
+}

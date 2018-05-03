@@ -6,15 +6,16 @@
   "category" : "Novakid Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "A steam ranch percolator!",
-  "shortdescription" : "^orange;Novakid Percolator (Coffee)^white;",
+  "description" : "A steampowered percolator.",
+  "shortdescription" : "^orange;Novakid Percolator (Coffee)^reset;",
   "race" : "generic",
-  "apexDescription" : "I have no idea what that display means..",
-  "avianDescription" : "Brews ready for high noon.. What happens at high noon?",
-  "floranDescription" : "Floran dissssy..",
-  "glitchDescription" : "Inspect. Very hot firing kiln.",
-  "humanDescription" : "I bet a horseshoe would standup in a cup of that stuff",
+  "apexDescription" : "I have no idea what that display is telling me.",
+  "avianDescription" : "Brews ready for high noon. What happens at high noon?",
+  "floranDescription" : "It makes Floran dizzy.",
+  "glitchDescription" : "Observation. It brews coffee.",
+  "humanDescription" : "I bet you could stand a horseshoe up in a cup of that stuff.",
   "hylotlDescription" : "Smells incredibly strong.",
+  "novakidDescription" : "Black, just the way I like it!",
   "inventoryIcon" : "novakidcoffeestationCNYCicon.png",
   "orientations" : [
     {
@@ -50,7 +51,8 @@
     }
   ],
   "recipeGroup" : "coffeeMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/percolatorMFMenter1.ogg" ],
+  "closeSounds" : [ "/sfx/objects/percolatorMFMexit1.ogg", "/sfx/objects/percolatorMFMexit2.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -80,5 +82,6 @@
     "emissionVariance" : 1
   },
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Brew Coffee!"
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "novakidcoffeestationCNYC.animation"
 }

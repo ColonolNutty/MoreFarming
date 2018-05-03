@@ -7,14 +7,15 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "A plasma frontier frypan!",
-  "shortdescription" : "^orange;Novakid Frypan (Fry)^white;",
+  "shortdescription" : "^orange;Novakid Frypan (Fry)^reset;",
   "race" : "generic",
-  "apexDescription" : "A plasma heat source! Fantastic idea!",
-  "avianDescription" : "That heat source doesn't look stable..",
-  "floranDescription" : "Floran hungryss...",
-  "glitchDescription" : "Inspect. Unstable plasma generated heat source.",
-  "humanDescription" : "Looks dangerous. I love it.",
-  "hylotlDescription" : "These creatures appear to have no self preservation code cooking with that thing..",
+  "apexDescription" : "A plasma heat source! Quite a fantastic idea!",
+  "avianDescription" : "The heat source looks unstable.",
+  "floranDescription" : "Floran hungersss.",
+  "glitchDescription" : "Analysis. Unstable plasma generating heat.",
+  "humanDescription" : "It looks dangerous. I love it!",
+  "hylotlDescription" : "Whoever uses this clearly isn't worried about self-preservation.",
+  "novakidDescription" : "Nothing like some ol' fashioned bacon n' eggs in the mornin'.",
   "inventoryIcon" : "novakidfryingstationCNYCicon.png",
   "orientations" : [
     {
@@ -50,7 +51,7 @@
     }
   ],
   "recipeGroup" : "fryingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/fryingMFMenter1.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -79,5 +80,8 @@
     "emissionVariance" : 1
   },
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Fry Food!"
+  "soundEffect" : "/sfx/objects/fryingMFMambience1.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "novakidfryingstationCNYC.animation"
 }

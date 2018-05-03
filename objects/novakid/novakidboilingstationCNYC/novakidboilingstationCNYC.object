@@ -6,14 +6,14 @@
   "category" : "Novakid Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "A steampowered pressureboiler!",
-  "shortdescription" : "^orange;Novakid Boiler (Boil)^white;",
+  "description" : "A steampowered pressure boiler.",
+  "shortdescription" : "^orange;Novakid Boiler (Boil)^reset;",
   "race" : "generic",
-  "apexDescription" : "A pressure boiler?",
+  "apexDescription" : "A pressure boiler. It uses steam.",
   "avianDescription" : "So much steam!",
   "floranDescription" : "Sssteamy...",
-  "glitchDescription" : "Inspect. Very hot firing kiln.",
-  "humanDescription" : "I daren't press any of the buttons!",
+  "glitchDescription" : "Analysis. A very hot boiler.",
+  "humanDescription" : "I dare not press any of the buttons.",
   "hylotlDescription" : "Is this thing going to explode? I hope not!",
   "inventoryIcon" : "novakidboilingstationCNYCicon.png",
   "orientations" : [
@@ -50,7 +50,8 @@
     }
   ],
   "recipeGroup" : "boilingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter2.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit1.ogg", "/sfx/objects/metalpotMFMexit2.ogg", "/sfx/objects/metalpotMFMexit4.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -80,5 +81,8 @@
     "emissionVariance" : 1
   },
   "retainObjectParametersInItem" : true,
-  "subtitle" : "Boil Food!"
+  "soundEffect" : "/sfx/objects/bubblesMFMambience2.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "novakidboilingstationCNYC.animation"
 }

@@ -6,14 +6,14 @@
   "category" : "Novakid Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "Ideally not for playing five finger fillet..",
-  "shortdescription" : "^orange;Novakid Chopboard (Chop)^white;",
+  "description" : "I sink/chopping board combination.",
+  "shortdescription" : "^orange;Novakid Chopboard (Chop)^reset;",
   "race" : "generic",
-  "apexDescription" : "Now THATS a knife!",
-  "avianDescription" : "Looks big enough to skin a.. something really large!",
-  "floranDescription" : "Ssstabbysss..",
-  "glitchDescription" : "Observation. Very large knife.",
-  "humanDescription" : "I really want to play five finger fillet",
+  "apexDescription" : "That is quite the knife!",
+  "avianDescription" : "It looks big enough to skin a... a... well, something really big!",
+  "floranDescription" : "Ssstabbysss...",
+  "glitchDescription" : "Observation. It comes with a very large knife.",
+  "humanDescription" : "Not ideal for playing five finger fillet.",
   "hylotlDescription" : "A display in itself!",
   "inventoryIcon" : "novakidchoppingstationCNYCicon.png",
   "orientations" : [
@@ -50,27 +50,13 @@
     }
   ],
   "recipeGroup" : "choppingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
-  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/choppingMFMRecipes.config",
-  "npcToy" : {
-    "preciseStandPositionRight" : [ 1, 0 ],
-    "preciseStandPositionLeft" : [ -1, 0 ],
-    "maxNpcs" : 1,
-    "defaultReactions" : {
-      "watercoolerConsume" : [[ 1, "drink" ]],
-      "watercoolerComplete" : [
-        [ 1, "smile" ],
-        [ 0.1, "vomit" ]
-      ],
-      "watercoolerCollect" : [[ 1, "crouchcollect" ]]
-    },
-    "influence" : [ "watercoolerCollect", "watercoolerConsume", "watercoolerComplete" ]
-  },
-  "subtitle" : "Prepare Produce!"
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "novakidchoppingstationCNYC.animation"
 }

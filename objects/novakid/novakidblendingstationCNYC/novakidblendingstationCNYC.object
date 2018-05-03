@@ -6,15 +6,15 @@
   "category" : "Novakid Cookware",
   "objectType" : "container",
   "printable" : false,
-  "description" : "Blends with pressured steam!",
-  "shortdescription" : "^orange;Novakid Blender (Blend)^white;",
+  "description" : "It blends using pressurized steam.",
+  "shortdescription" : "^orange;Novakid Blender (Blend)^reset;",
   "race" : "generic",
-  "apexDescription" : "At least this one saves your fingers..",
+  "apexDescription" : "This one protects your fingers.",
   "avianDescription" : "I hope the lid seals tight.",
-  "floranDescription" : "Sssteamy ssspinnny..",
-  "glitchDescription" : "Observation. Produce blender.",
-  "humanDescription" : "A few blends more!",
-  "hylotlDescription" : "Does the job.",
+  "floranDescription" : "Sssteamy ssspinnny...",
+  "glitchDescription" : "Observation. A blender in the shape of a bowl.",
+  "humanDescription" : "Just a few blends more!",
+  "hylotlDescription" : "It does the job it was made for.",
   "inventoryIcon" : "novakidblendingstationCNYCicon.png",
   "orientations" : [
     {
@@ -50,7 +50,8 @@
     }
   ],
   "recipeGroup" : "blendingMFM",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "openSounds" : [ "/sfx/objects/blenderMFMenter.ogg" ],
+  "closeSounds" : [ "/sfx/objects/blenderMFMexit.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
   "frameCooldown" : 67,
@@ -58,6 +59,8 @@
   "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
   "scriptDelta" : 1,
   "outputConfig" : "/recipeCrafterMFM/blendingMFMRecipes.config",
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "novakidblendingstationCNYC.animation",
   "npcToy" : {
     "preciseStandPositionRight" : [ 1, 0 ],
     "preciseStandPositionLeft" : [ -1, 0 ],
@@ -71,6 +74,5 @@
       "watercoolerCollect" : [[ 1, "crouchcollect" ]]
     },
     "influence" : [ "watercoolerCollect", "watercoolerConsume", "watercoolerComplete" ]
-  },
-  "subtitle" : "Blend and Juice!"
+  }
 }

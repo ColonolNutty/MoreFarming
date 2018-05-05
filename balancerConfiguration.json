@@ -1,14 +1,21 @@
 {
-  "locationsToUpdate" : [ "mods/MoreFarming/items", "mods/MoreFarming/objects" ],
-  "includeLocations" : [ "AssetsUnpacked", "mods/MoreFarming/recipes", "mods/MoreFarming/objects/farmables" ],
+  "logFile" : "logs/updatelog.log",
+  "enableConsoleDebug" : false,
+  "enableTreeView" : false,
+  "enableVerboseLogging" : true,
+  "propertyOrderFile" : "configuration/propertyOrder.json",
+  "propertiesToUpdate" : [ "foodValue", "price", "effects", "description", "printable" ],
+  "forceUpdate" : false,
+  "locationsToUpdate" : [ "mods/MoreFarming/items", "mods/MoreFarming/objects", "mods/MoreFarming/liquids" ],
+  "includeLocations" : [ "AssetsUnpacked", "mods/MoreFarming/recipes" ],
   "excludedEffects" : [ "foodpoison" ],
   "increasePercentage" : 0.05,
   "minimumFoodValue" : 10,
   "ingredientOverridePath" : "mods/MoreFarming/valueOverrides.json",
-  "logFile" : "updatelog.log",
   "numberOfPasses" : 15,
-  "enableTreeView" : true,
-  "enableConsoleDebug" : false,
-  "enableVerboseLogging" : false,
-  "enableEffectsUpdate" : false
+  "enableEffectsUpdate" : true,
+  "includeCraftGroups" : true,
+  "showConfirmation" : false,
+  "friendlyNamesFilePath" : "configuration\\friendlyNames.json",
+  "fileTypesToUpdate" : [ ".item", ".consumable", ".object", ".matitem", ".projectile", ".liquid" ]
 }

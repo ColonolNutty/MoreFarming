@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "pearlpea", "count" : 1 }
+  ],
+  "output" : { "item" : "cannedpearlpeaMFM", "count" : 1 },
+  "groups" : [ "canningMFM" ]
+}

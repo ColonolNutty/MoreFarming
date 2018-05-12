@@ -1,0 +1,16 @@
+{
+  "itemName" : "cannedautomatoMFM",
+  "rarity" : "Common",
+  "price" : 11.41,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "An automato, in a can.",
+  "shortdescription" : "Canned - Automato",
+  "foodValue" : 10.55,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 5,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cannedautomatoMFM.png"
+}

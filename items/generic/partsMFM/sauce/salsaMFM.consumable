@@ -4,8 +4,8 @@
   "price" : 80.05,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "(BLEND):-} Salsa, good as a chip dip.",
-  "shortdescription" : "Salsa - Spaghetti Balognese",
+  "description" : "(BLEND):-} Salsa, good for dipping chips.",
+  "shortdescription" : "Salsa",
   "foodValue" : 21.54,
   "effects" : [[
     {

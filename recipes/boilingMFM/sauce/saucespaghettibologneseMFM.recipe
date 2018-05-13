@@ -12,6 +12,6 @@
       { "item" : "choppedrosemaryleafMFM", "count" : 1 },
       { "item" : "pureetomatoMFM", "count" : 1 }
   ],
-  "output" : { "item" : "saucespaghettibalogneseMFM", "count" : 1 },
+  "output" : { "item" : "saucespaghettibologneseMFM", "count" : 1 },
   "groups" : [ "boilingMFM" ]
 }

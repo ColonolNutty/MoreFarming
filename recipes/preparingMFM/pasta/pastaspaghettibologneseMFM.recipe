@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "saucespaghettibologneseMFM", "count" : 1 },
+    { "item" : "pastaplainMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "pastaspaghettibologneseMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

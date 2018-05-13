@@ -3,6 +3,6 @@
     { "item" : "saucespaghettibalogneseMFM", "count" : 1 },
     { "item" : "pastaplainMFM", "count" : 1 }
   ],
-  "output" : { "item" : "pastaspaghettibalogneseMFM", "count" : 1 },
-  "groups" : [ "preparingMFM" ]
+  "output" : { "item" : "pastaspaghettibologneseMFM", "count" : 1 },
+  "groups" : [ "preparingMFM", "ExcludeFromRecipeBook" ]
 }

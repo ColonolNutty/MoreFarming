@@ -1,12 +1,18 @@
 {
   "itemName" : "cannedstrawberryMFM",
   "rarity" : "Common",
-  "price" : 11.41,
+  "price" : 52.5,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A strawberry, in a can.",
+  "description" : "(CAN):-} A strawberry, in a can.",
   "shortdescription" : "Canned - Strawberry",
-  "foodValue" : 10.55,
+  "foodValue" : 10.5,
+  "effects" : [[
+    {
+      "effect" : "energyregen",
+      "duration" : 31
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

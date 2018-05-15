@@ -1,12 +1,18 @@
 {
   "itemName" : "rawcannedfishMFM",
   "rarity" : "Common",
-  "price" : 11.41,
+  "price" : 21.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "Raw fish, in a can.",
+  "description" : "(CAN):-} Raw fish, in a can.",
   "shortdescription" : "Canned - Raw Fish",
-  "foodValue" : 10.55,
+  "foodValue" : 10.5,
+  "effects" : [[
+    {
+      "effect" : "foodpoison",
+      "duration" : 63
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

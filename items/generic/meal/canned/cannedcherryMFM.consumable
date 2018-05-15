@@ -1,12 +1,22 @@
 {
   "itemName" : "cannedcherryMFM",
   "rarity" : "Common",
-  "price" : 11.41,
+  "price" : 21.0,
   "category" : "preparedFood",
   "tooltipKind" : "food",
-  "description" : "A cherry, in a can.",
+  "description" : "(CAN):-} A cherry, in a can.",
   "shortdescription" : "Canned - Cherry",
-  "foodValue" : 10.55,
+  "foodValue" : 10.5,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 63
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 47
+    }
+  ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

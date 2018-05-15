@@ -1,0 +1,31 @@
+{
+  "itemName" : "bologneseMFM",
+  "rarity" : "Common",
+  "price" : 5,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BLEND):-} A blend of meats.",
+  "shortdescription" : "Bolognese",
+  "foodValue" : 15.0,
+  "effects" : [[
+    {
+      "effect" : "regeneration1",
+      "duration" : 60
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 60
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 60
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "bologneseMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

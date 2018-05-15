@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "alienmeat", "count" : 1 },
+    { "item" : "rawbacon", "count" : 1 }
+  ],
+  "output" : { "item" : "bologneseMFM", "count" : 1 },
+  "groups" : [ "blendingMFM", "ExcludeFromRecipeBook" ],
+  "alternativeIngredients" : {
+    "alienmeat" : [ "rawfish", "rawham", "rawpoultry", "rawribmeat", "rawtentacle" ],
+    "rawbacon" : [ "rawfish", "rawham", "rawpoultry", "rawribmeat", "rawtentacle" ],
+    "allowDuplicates" : false
+  }
+}

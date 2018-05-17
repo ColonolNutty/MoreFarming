@@ -12,22 +12,30 @@ end
 
 function UtilsCN.printTable(tabVal, previousName, logger)
   if(tabVal == nil) then
-    uCN.logDebug(logger, "tabVal is nil. Nothing to print")
+    uCN.logDebug(logger, "tabVal is nil for '" .. previousName .. "'. Nothing to print")
     return;
   end
-  local prevName = previousName or ""
-  for name,val in pairs(tabVal) do
-    if(type(val) == "table") then
-      UtilsCN.printTable(val, prevName .. " " .. name, logger)
-    else
-      if (val == true) then
-        uCN.logDebug(logger, prevName .. " Name " .. name .. " val true")
-      elseif (val == false) then
-        uCN.logDebug(logger, prevName .. " Name " .. name .. " val false")
+  if(type(tabVal) == "table") then
+    local prevName = previousName or ""
+    for name,val in pairs(tabVal) do
+      if(type(val) == "table") then
+        UtilsCN.printTable(val, prevName .. " " .. name, logger)
       else
-        uCN.logDebug(logger, prevName .. " Name " .. name .. " val " .. val)
+        UtilsCN.printValue(val, prevName, logger)
       end
     end
+  else
+    UtilsCN.printValue(tabVal, previousName, logger)
+  end
+end
+
+function UtilsCN.printValue(val, previousName, logger)
+  if (val == true) then
+    uCN.logDebug(logger, " Name " .. previousName .. " val true")
+  elseif (val == false) then
+    uCN.logDebug(logger, " Name " .. previousName .. " val false")
+  else
+    uCN.logDebug(logger, " Name " .. previousName .. " val " .. val)
   end
 end
 

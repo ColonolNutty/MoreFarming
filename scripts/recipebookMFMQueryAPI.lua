@@ -1,16 +1,18 @@
 require "/scripts/debugUtilsCN.lua"
 require "/scripts/MFM/entityQueryAPI.lua"
 
-RecipeBookMFMQueryAPI = {
-  isInitialized = false
-}
+if(RecipeBookMFMQueryAPI == nil) then
+  RecipeBookMFMQueryAPI = {
+    isInitialized = false
+};
+end
 
 local rbAPI = {
         hasError = false,
         requestsToObject = {}
-      }
+      };
 
-local logger = nil
+local logger = nil;
 
 function RecipeBookMFMQueryAPI.init()
   logger = DebugUtilsCN.init("[RBMFMQAPI]")
@@ -25,7 +27,7 @@ function RecipeBookMFMQueryAPI.init()
 end
 
 function RecipeBookMFMQueryAPI.update(dt)
-  EntityQueryAPI.update(dt)
+  EntityQueryAPI.update(dt);
 end
 
 function rbAPI.getDefaultDataStore()

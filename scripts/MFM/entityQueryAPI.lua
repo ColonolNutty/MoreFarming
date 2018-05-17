@@ -1,5 +1,6 @@
 require "/scripts/debugUtilsCN.lua"
 require "/scripts/utilsCN.lua"
+
 if(EntityQueryAPI == nil) then
   EntityQueryAPI = {
     hasError = false,

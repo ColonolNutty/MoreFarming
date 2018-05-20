@@ -380,3 +380,5 @@ function rcUtils.hasIngredients()
   end
   return numberOfIngredients > 0
 end
+
+return RecipeCrafterMFMApi;

@@ -4,7 +4,7 @@ require "/scripts/recipebookMFMQueryAPI.lua"
 
 if(RecipeLocatorAPI == nil) then
   RecipeLocatorAPI = {
-    debugMsgPrefix = "[RCAPI]",
+    debugMsgPrefix = "[RLAPI]",
     loadedRecipes = false,
     reloadingRecipeBook = false,
     reloadedRecipeBook = false,
@@ -16,8 +16,8 @@ local rlUtils = {};
 local logger = nil;
 
 function RecipeLocatorAPI.init()
-  logger = DebugUtilsCN.init("[RLAPI]")
-  RecipeLocatorAPI.loadPossibleOutputs({});
+  logger = DebugUtilsCN.init(RecipeLocatorAPI.debugMsgPrefix)
+  rlUtils.loadPossibleOutputs();
   
   if(storage.previouslyFoundRecipe == nil) then
     storage.previouslyFoundRecipe = nil;
@@ -28,21 +28,22 @@ function RecipeLocatorAPI.update()
   rlUtils.loadRecipeBookRecipes()
 end
 
-function RecipeLocatorAPI.loadPossibleOutputs(defaultPossibleOutputs)
+function rlUtils.loadPossibleOutputs(defaultPossibleOutputs)
+  local defaultValue = defaultPossibleOutputs or {};
   if(not config) then
-    storage.possibleOutputs = defaultPossibleOutputs;
+    storage.possibleOutputs = defaultValue;
     return;
   end
   local outputConfigPath = config.getParameter("outputConfig");
   if outputConfigPath == nil then
-    storage.possibleOutputs = defaultPossibleOutputs;
+    storage.possibleOutputs = defaultValue;
   else
     storage.possibleOutputs = root.assetJson(outputConfigPath).possibleOutput;
   end
 end
 
 function RecipeLocatorAPI.hasIngredientsForRecipe(recipe, ingredients)
-  if(ingredients == nil or recipe == nil or recipe.output == nil) then
+  if(recipe == nil or recipe.output == nil or ingredients == nil) then
     return false;
   end
   local outputName = recipe.output.name;

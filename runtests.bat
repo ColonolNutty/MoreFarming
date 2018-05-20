@@ -1,0 +1,1 @@
+$LUA ./scripts/MFM/MFMTests/recipeCrafterAPItests.lua

@@ -15,9 +15,13 @@ end
 local rlUtils = {};
 local logger = nil;
 
-function RecipeLocatorAPI.init()
+function RecipeLocatorAPI.init(virtual)
   logger = DebugUtilsCN.init(RecipeLocatorAPI.debugMsgPrefix)
   rlUtils.loadPossibleOutputs();
+  
+  if(virtual) then
+    RecipeLocatorAPI.rlUtils = rlUtils;
+  end
   
   if(storage.previouslyFoundRecipe == nil) then
     storage.previouslyFoundRecipe = nil;

@@ -14,9 +14,9 @@ local rbAPI = {
 
 local logger = nil;
 
-function RecipeBookMFMQueryAPI.init()
+function RecipeBookMFMQueryAPI.init(virtual)
   logger = DebugUtilsCN.init("[RBMFMQAPI]")
-  EntityQueryAPI.init()
+  EntityQueryAPI.init(virtual)
   message.setHandler("getDataStore", rbAPI.getDataStore);
   message.setHandler("setDataStore", rbAPI.setDataStore);
   message.setHandler("updateSelectedFilters", rbAPI.updateSelectedFilters);

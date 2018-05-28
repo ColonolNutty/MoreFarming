@@ -14,20 +14,24 @@ local rcUtils = {};
 local logger = nil;
 local next = next;
 
-function RecipeCrafterMFMApi.init()
+function RecipeCrafterMFMApi.init(virtual)
   logger = DebugUtilsCN.init(RecipeCrafterMFMApi.debugMsgPrefix);
-  RecipeBookMFMQueryAPI.init();
-  RecipeLocatorAPI.init();
+  RecipeBookMFMQueryAPI.init(virtual);
+  RecipeLocatorAPI.init(virtual);
+  
+  if(virtual) then
+    RecipeCrafterMFMApi.rcUtils = rcUtils;
+  end
   
   storage.recipeGroup = config.getParameter("recipeGroup");
   storage.slotCount = config.getParameter("slotCount", 16);
   storage.outputSlot = config.getParameter("outputSlot", 15);
-  storage.byproductSlot = config.getParameter("byproductSlot", 16);
-  storage.nonZeroOutputSlot = storage.outputSlot + 1;
-  storage.nonZeroByproductSlot = storage.byproductSlot + 1;
   if storage.outputSlot < 0 then
     storage.outputSlot = 0;
   end
+  storage.byproductSlot = config.getParameter("byproductSlot", 16);
+  storage.nonZeroOutputSlot = storage.outputSlot + 1;
+  storage.nonZeroByproductSlot = storage.byproductSlot + 1;
   storage.timePassed = 0;
   storage.craftSoundDelaySeconds = config.getParameter("craftSoundDelaySeconds", 10); -- In seconds
   storage.craftSoundIsPlaying = false;
@@ -155,9 +159,9 @@ function RecipeCrafterMFMApi.craftItem()
   
   --logger.logDebug("Craft Process Started");
   
-  storage.currentIngredients = RecipeCrafterMFMApi.getIngredients();
+  local ingredients = RecipeCrafterMFMApi.getIngredients();
   
-  if not rcUtils.hasIngredients() then
+  if not rcUtils.hasIngredients(ingredients) then
     --logger.logDebug("No ingredients found, aborting craft process")
     RecipeCrafterMFMApi.isCrafting = false;
     RecipeCrafterMFMApi.onNoIngredientsFound()
@@ -181,7 +185,7 @@ function RecipeCrafterMFMApi.craftItem()
   if(storage.playSoundBeforeOutputPlaced) then
     RecipeCrafterMFMApi.playCraftSound()
   end
-  local outputRecipe = RecipeLocatorAPI.findRecipeForIngredients(storage.currentIngredients, storage.recipeGroup)
+  local outputRecipe = RecipeLocatorAPI.findRecipeForIngredients(ingredients, storage.recipeGroup)
   if (outputRecipe) then
     logger.logDebug("Found recipe, updating output");
     RecipeCrafterMFMApi.onRecipeFound();
@@ -367,13 +371,12 @@ function rcUtils.craftWithRecipe(recipe)
   logger.logDebug("Output not successfully placed, item found instead: " .. newOutput.name)
 end
 
-
-function rcUtils.hasIngredients()
-  if(storage.currentIngredients == nil) then
+function rcUtils.hasIngredients(ingredients)
+  if(ingredients == nil) then
     return false;
   end
   local numberOfIngredients = 0
-  for slot,item in pairs(storage.currentIngredients) do
+  for slot,item in pairs(ingredients) do
     if slot ~= storage.nonZeroOutputSlot and slot ~= storage.nonZeroByproductSlot then
       numberOfIngredients = numberOfIngredients + 1
     end

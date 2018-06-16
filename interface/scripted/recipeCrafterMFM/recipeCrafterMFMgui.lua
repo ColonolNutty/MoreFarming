@@ -2,15 +2,23 @@ require "/scripts/debugUtilsCN.lua"
 require "/scripts/MFM/entityQueryAPI.lua"
 require "/interface/scripted/recipebookMFM/recipebookMFMgui.lua"
 
-local recipeBookVisible = false
-local setInitialFilter = false
-local entityId = nil
-local logger = nil
-local byproductSlot = 17
-local checkedForRecipeBook = false
+if(not RecipeCrafterMFMGui) then
+  RecipeCrafterMFMGui = {};
+end
+
+local recipeBookVisible = false;
+local setInitialFilter = false;
+local entityId = nil;
+local logger = nil;
+local byproductSlot = 17;
+local checkedForRecipeBook = false;
 local dataStore = nil;
 
 function init()
+  RecipeCrafterMFMGui.init()
+end
+
+function RecipeCrafterMFMGui.init()
   logger = DebugUtilsCN.init("[RCGUI]")
   entityId = pane.containerEntityId()
   EntityQueryAPI.init()
@@ -22,6 +30,13 @@ function init()
 end
 
 function update(dt)
+  RecipeCrafterMFMGui.update(dt)
+end
+
+function RecipeCrafterMFMGui.update(dt)
+  if(not EntityQueryAPI.update(dt)) then
+    return
+  end
   RBMFMGui.update(dt)
 end
 
@@ -53,6 +68,10 @@ end
 function craft()
   logger.logDebug("Crafting with Crafter GUI");
   world.sendEntityMessage(entityId, "craft")
+end
+
+function requestItemListUpdate()
+  requestEnableSingleFilter()
 end
 
 function requestEnableSingleFilter()

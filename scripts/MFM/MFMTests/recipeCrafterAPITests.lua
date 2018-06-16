@@ -11,16 +11,7 @@ if(storage == nil) then
   storage = {};
 end
 
-local rcUtils;
-
-test.start_up = function()
-  config.setParameter("recipeGroup", "bakingMFM")
-  RecipeCrafterMFMApi.init(true);
-  rcUtils = RecipeCrafterMFMApi.rcUtils;
-end
-
-test.shouldLoadSettingsFromConfig = function()
-  local parameters = {
+local testParameters = {
     recipeGroup = "bananaMFM",
     slotCount = 24,
     outputSlot = 299,
@@ -28,12 +19,20 @@ test.shouldLoadSettingsFromConfig = function()
     craftSoundDelaySeconds = 5,
     itemAgeMultiplier = 1.2
   };
-  config.setParameters(parameters);
+local rcUtils;
+
+test.start_up = function()
   RecipeCrafterMFMApi.init(true);
-  test.equal(storage.recipeGroup, parameters["recipeGroup"]);
-  test.equal(storage.slotCount, parameters["slotCount"]);
-  test.equal(storage.outputSlot, parameters["outputSlot"]);
-  test.equal(storage.byproductSlot, parameters["byproductSlot"]);
-  test.equal(storage.craftSoundDelaySeconds, parameters["craftSoundDelaySeconds"]);
+  rcUtils = RecipeCrafterMFMApi.rcUtils;
+end
+
+test.shouldLoadSettingsFromConfig = function()
+  config.setParameters(testParameters);
+  RecipeCrafterMFMApi.init(true);
+  test.equal(storage.recipeGroup, testParameters.recipeGroup);
+  test.equal(storage.slotCount, testParameters.slotCount);
+  test.equal(storage.outputSlot, testParameters.outputSlot);
+  test.equal(storage.byproductSlot, testParameters.byproductSlot);
+  test.equal(storage.craftSoundDelaySeconds, testParameters.craftSoundDelaySeconds);
   test.is_false(storage.isRefridgerated);
 end

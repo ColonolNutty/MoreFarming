@@ -23,6 +23,7 @@ function RecipeCrafterMFMApi.init(virtual)
     RecipeCrafterMFMApi.rcUtils = rcUtils;
   end
   
+  logger.setDebugState(false);
   storage.recipeGroup = config.getParameter("recipeGroup");
   storage.slotCount = config.getParameter("slotCount", 16);
   storage.outputSlot = config.getParameter("outputSlot", 15);
@@ -98,6 +99,10 @@ end
 
 --onNoRecipeFound() when craftItem is called, this method is invoked when no recipe is found using the current ingredients
 function RecipeCrafterMFMApi.onNoRecipeFound()
+  RecipeCrafterMFMApi.onNoRecipeFoundBase()
+end
+
+function RecipeCrafterMFMApi.onNoRecipeFoundBase()
 
 end
 
@@ -105,6 +110,10 @@ end
 -- Returns true if a new output can be placed
 -- Returns false if a new output can not be placed (Slot is full, or slot is not the same item)
 function RecipeCrafterMFMApi.isOutputSlotAvailable()
+  RecipeCrafterMFMApi.isOutputSlotAvailableBase()
+end
+
+function RecipeCrafterMFMApi.isOutputSlotAvailableBase()
   local outputSlotItem = world.containerItemAt(entity.id(), storage.outputSlot)
   if outputSlotItem == nil then
     logger.logDebug("Output slot is empty")

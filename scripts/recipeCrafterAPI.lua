@@ -110,7 +110,7 @@ end
 -- Returns true if a new output can be placed
 -- Returns false if a new output can not be placed (Slot is full, or slot is not the same item)
 function RecipeCrafterMFMApi.isOutputSlotAvailable()
-  RecipeCrafterMFMApi.isOutputSlotAvailableBase()
+  return RecipeCrafterMFMApi.isOutputSlotAvailableBase()
 end
 
 function RecipeCrafterMFMApi.isOutputSlotAvailableBase()

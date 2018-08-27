@@ -10,14 +10,32 @@ if(RecipeCrafterMFMApi == nil) then
     isCrafting = false
   };
 end
+local onRecipeCraftedCallbacks = {};
+local additionalOnDropItems = {};
+local additionalOnDropTreasurePoolNames = {};
 local rcUtils = {};
 local logger = nil;
 local next = next;
+
+function RecipeCrafterMFMApi.dropAdditionalItems(recipeCrafted)
+  for _,additionalItem in ipairs(additionalOnDropItems) do
+    world.spawnItem(additionalItem, world.xwrap(object.position()))
+  end
+end
+
+function RecipeCrafterMFMApi.dropAdditionalPoolItems(recipeCrafted)
+  for _,poolName in ipairs(additionalOnDropTreasurePoolNames) do
+    world.spawnTreasure(world.xwrap(object.position()), poolName, 0)
+  end
+end
 
 function RecipeCrafterMFMApi.init(virtual)
   logger = DebugUtilsCN.init(RecipeCrafterMFMApi.debugMsgPrefix);
   RecipeBookMFMQueryAPI.init(virtual);
   RecipeLocatorAPI.init(virtual);
+
+  table.insert(onRecipeCraftedCallbacks, RecipeCrafterMFMApi.dropAdditionalItems)
+  table.insert(onRecipeCraftedCallbacks, RecipeCrafterMFMApi.dropAdditionalPoolItems)
   
   if(virtual) then
     RecipeCrafterMFMApi.rcUtils = rcUtils;
@@ -60,6 +78,30 @@ function RecipeCrafterMFMApi.init(virtual)
   message.setHandler("craft", RecipeCrafterMFMApi.craftItem);
   message.setHandler("getFilterId", rcUtils.getFilterId);
   message.setHandler("reloadRecipeBook", rcUtils.reloadRecipeBook);
+  
+  RecipeCrafterMFMApi.loadAdditionalData()
+end
+
+function RecipeCrafterMFMApi.loadAdditionalData()
+  local additionalData = root.assetJson("/scripts/data/additional-rc-data.config")
+  sb.logInfo("Loading additional MFM data")
+  if(additionalData) then
+    -- Valid Types POOL, ITEM
+    for _, toDropOnRecipeCrafted in ipairs(additionalData.toDropOnRecipeCrafted) do
+      local toDropType = toDropOnRecipeCrafted.type;
+      if toDropType == "ITEM" then
+        sb.logInfo("dropping item on craft: " .. toDropOnRecipeCrafted.name)
+        table.insert(additionalOnDropItems, { name = toDropOnRecipeCrafted.name, count = toDropOnRecipeCrafted.count })
+      elseif toDropType == "POOL" then
+        sb.logInfo("dropping pool on craft: " .. toDropOnRecipeCrafted.name)
+        table.insert(additionalOnDropTreasurePoolNames, toDropOnRecipeCrafted.name)
+      else
+        sb.logInfo("Unknown toDrop type: '" .. toDropType .. "'")
+      end
+    end
+  else
+    sb.logInfo("Failed to load additional MFM data")
+  end
 end
 
 function rcUtils.getFilterId()
@@ -307,6 +349,11 @@ function RecipeCrafterMFMApi.getOutputItem(recipe)
   return {name = recipe.output.name, count = expectedNewAmount}
 end
 
+function RecipeCrafterMFMApi.registerOnRecipeCrafted(uniqueIdentifier, onRecipeCraftedCallback)
+  if uniqueIdentifier ~= nil and onRecipeCraftedCallback ~= nil and onRecipeCraftedCallbacks[uniqueIdentifier] == nil then
+      onRecipeCraftedCallbacks[uniqueIdentifier] = onRecipeCraftedCallback;
+  end
+end
 ------------------------------------------------------------------
 
 function RecipeCrafterMFMApi.playCraftSound()
@@ -371,6 +418,7 @@ function rcUtils.craftWithRecipe(recipe)
   if newOutput.name == outputItem.name and totalOutputCount == outputItem.count then
     if(storage.consumeIngredientsOnCraft) then
       RecipeCrafterMFMApi.consumeIngredients()
+      RecipeCrafterMFMApi.recipeCrafted(storage.currentlySelectedRecipe)
     end
     storage.currentlySelectedRecipe = recipe
     storage.outputPlacedSuccessfully = true
@@ -391,6 +439,13 @@ function rcUtils.hasIngredients(ingredients)
     end
   end
   return numberOfIngredients > 0
+end
+
+function RecipeCrafterMFMApi.recipeCrafted(recipeCrafted)
+  for identifier, onRecipeCraftedCallback in pairs(onRecipeCraftedCallbacks) do
+    logger.logDebug("Recipe Crafted, Calling callback with name: " .. identifier)
+    onRecipeCraftedCallback(recipeCrafted)
+  end
 end
 
 return RecipeCrafterMFMApi;

@@ -19,13 +19,13 @@ function UtilsCN.printTable(tabVal, previousName, logger)
     local prevName = previousName or ""
     for name,val in pairs(tabVal) do
       if(type(val) == "table") then
-        UtilsCN.printTable(val, prevName .. " " .. name, logger)
+        UtilsCN.printTable(val, "'" .. prevName .. "' - table '" .. name .. "'", logger)
       else
-        UtilsCN.printValue(val, prevName, logger)
+        UtilsCN.printValue(val, "'" .. prevName .. "'", logger)
       end
     end
   else
-    UtilsCN.printValue(tabVal, previousName, logger)
+    UtilsCN.printValue(tabVal, "'" .. previousName .. "'", logger)
   end
 end
 

@@ -24,7 +24,7 @@
   [
     {
       "op" : "replace",
-      "path" : "/smallfishtreasure/0/1/pool/0/weight",
+      "path" : "/largefishtreasure/0/1/pool/0/weight",
       "value" : 0.3
     },
     {

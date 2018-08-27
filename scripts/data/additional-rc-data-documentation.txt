@@ -1,0 +1,23 @@
+Used to configure some additional details of recipe crafting
+
+Properties:
+toDropOnRecipeCrafted - array of items and treasure pools to be dropped upon crafting a recipe (It will drop at the objects position)
+	Format:
+	name (string) - item or pool name
+	count (int) - amount of items to drop (only used with type ITEM)
+	type (string) - specifies the type of drop, valid values are ITEM, POOL
+	Example ITEM:
+	```
+	{
+      "name" : "peach",
+      "count" : 5,
+      "type" : "ITEM"
+    }
+	```
+	Example POOL:
+	```
+	{
+      "name" : "peachPool",
+      "type" : "POOL"
+    }
+	```

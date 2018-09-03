@@ -84,23 +84,17 @@ end
 
 function RecipeCrafterMFMApi.loadAdditionalData()
   local additionalData = root.assetJson("/scripts/data/additional-rc-data.config")
-  sb.logInfo("Loading additional MFM data")
   if(additionalData) then
     -- Valid Types POOL, ITEM
     for _, toDropOnRecipeCrafted in ipairs(additionalData.toDropOnRecipeCrafted) do
       local toDropType = toDropOnRecipeCrafted.type;
       if toDropType == "ITEM" then
-        sb.logInfo("dropping item on craft: " .. toDropOnRecipeCrafted.name)
         table.insert(additionalOnDropItems, { name = toDropOnRecipeCrafted.name, count = toDropOnRecipeCrafted.count })
       elseif toDropType == "POOL" then
-        sb.logInfo("dropping pool on craft: " .. toDropOnRecipeCrafted.name)
         table.insert(additionalOnDropTreasurePoolNames, toDropOnRecipeCrafted.name)
       else
-        sb.logInfo("Unknown toDrop type: '" .. toDropType .. "'")
       end
     end
-  else
-    sb.logInfo("Failed to load additional MFM data")
   end
 end
 

@@ -6,6 +6,7 @@ if(not RecipeCrafterMFMGui) then
   RecipeCrafterMFMGui = {};
 end
 
+local autoCraftStateUpdated = false;
 local recipeBookVisible = false;
 local setInitialFilter = false;
 local entityId = nil;
@@ -13,20 +14,26 @@ local logger = nil;
 local byproductSlot = 17;
 local checkedForRecipeBook = false;
 local dataStore = nil;
+local settings = {
+  autoCraftState = false
+};
+
+TOGGLE_AUTOCRAFT_NAME = "toggleAutoCraft";
 
 function init()
   RecipeCrafterMFMGui.init()
 end
 
 function RecipeCrafterMFMGui.init()
-  logger = DebugUtilsCN.init("[RCGUI]")
-  entityId = pane.containerEntityId()
-  EntityQueryAPI.init()
-  setInitialFilter = false
+  logger = DebugUtilsCN.init("[RCGUI]");
+  entityId = pane.containerEntityId();
+  EntityQueryAPI.init();
+  setInitialFilter = false;
   --sb.logInfo("Initializing Recipe Crafter GUI");
-  recipeBookVisible = false
-  RBMFMGui.init(entityId)
-  hideByproductSlotIfSpacesNotAvailable()
+  recipeBookVisible = false;
+  autoCraftStateUpdated = false;
+  RBMFMGui.init(entityId);
+  hideByproductSlotIfSpacesNotAvailable();
 end
 
 function update(dt)
@@ -37,6 +44,7 @@ function RecipeCrafterMFMGui.update(dt)
   if(not EntityQueryAPI.update(dt)) then
     return
   end
+  updateAutoCraftState()
   RBMFMGui.update(dt)
 end
 
@@ -99,4 +107,64 @@ function hideByproductSlotIfSpacesNotAvailable()
     widget.setVisible("lblByproduct", false)
     widget.setVisible("pointerBottom", false)
   end
+end
+
+---------------------------------------------------------------------
+
+function getAutoCraftState()
+  if(storage) then
+    return storage.autoCraftState
+  else
+    return settings.autoCraftState
+  end
+end
+
+function setAutoCraftState(val)
+  if(storage) then
+    storage.autoCraftState = toEnable
+  else
+    settings.autoCraftState = toEnable
+  end
+  hideCraftButtonIfAutoCraftEnabled()
+end
+
+function toggleAutoCraft()
+  if(entityId == nil) then
+    return
+  end
+  local toEnable = widget.getChecked(TOGGLE_AUTOCRAFT_NAME)
+  setAutoCraftState(toEnable)
+  hideCraftButtonIfAutoCraftEnabled()
+  world.sendEntityMessage(entityId, "setAutoCraftState", toEnable)
+end
+
+function hideCraftButtonIfAutoCraftEnabled()
+  if(getAutoCraftState()) then
+    widget.setVisible("craft", false)
+  else
+    widget.setVisible("craft", true)
+  end
+end
+
+function updateAutoCraftState()
+  if(autoCraftStateUpdated) then
+    return
+  end
+  local handle = function()
+    local result = EntityQueryAPI.requestData(entityId, "getAutoCraftState", 0, nil)
+    if(result ~= nil) then
+      return true, result
+    end
+    return false, nil
+  end
+  
+  local onCompleted = function(result)
+    local autoCraftState = result.autoCraftState
+    setAutoCraftState(autoCraftState)
+    hideCraftButtonIfAutoCraftEnabled()
+    widget.setChecked(TOGGLE_AUTOCRAFT_NAME, autoCraftState)
+    autoCraftStateUpdated = true
+  end
+  
+  EntityQueryAPI.addRequest("RGMFMGui.updateAutoCraftState", handle, onCompleted)
 end

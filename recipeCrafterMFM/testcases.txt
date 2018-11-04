@@ -1,0 +1,286 @@
+These are tests that should be run through to ensure the Appliances are in working order
+
+Perform these tests within an appliance for "Pressing" handpressMFM for example
+--- Scenario ---
+--- Things needed: One peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place one peanutPBJ in container ingredient slots
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+----------------
+
+--- Scenario ---
+--- Things needed: One peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place one peanutPBJ in container ingredient slots
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+3. Right click the output slot to take one cooking oil
+4. Expected Output:
+- One cooking oil should be on the cursor
+- Three cooking oil should be in the output slot
+- The peanutPBJ should be consumed (Should disappear from the ingredient slots)
+----------------
+
+--- Scenario ---
+--- Things needed: One peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place one peanutPBJ in container ingredient slots
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+3. Left click the output slot to take all items
+4. Expected Output:
+- Four cooking oil should be on the cursor
+- The output slot should be empty
+- The peanutPBJ should be consumed (Should disappear from the ingredient slots)
+----------------
+
+--- Scenario ---
+--- Things needed: One peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place one peanutPBJ in container ingredient slots
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+3. Replace the output slot with an item from your inventory
+4. Expected Output:
+- Four cooking oil should be on the cursor
+- The output slot should contain the item from your inventory
+- One peanutPBJ should be consumed (Should disappear from the ingredient slots)
+----------------
+
+--- Scenario ---
+--- Things needed: Two peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place two peanutPBJ in container ingredient slots (stacked)
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+3. Right click the output slot to take one cooking oil
+4. Expected Output:
+- One cooking oil should be on the cursor
+- Three cooking oil should be in the output slot
+- One peanutPBJ should be left within the ingredient slots
+----------------
+
+--- Scenario ---
+--- Things needed: Two peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place two peanutPBJ in container ingredient slots (stacked)
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+3. Left click the output slot to take four cookingOilMFM items
+4. Expected Output:
+- Four cooking oil should be on the cursor
+- Four cooking oil should be in the output slot
+- One peanutPBJ should be left within the ingredient slots
+----------------
+
+--- Scenario ---
+--- Things needed: Two peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place two peanutPBJ in container ingredient slots (stacked)
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+3. Left click the output slot to take four cookingOilMFM items
+4. Expected Output:
+- Four cooking oil should be on the cursor
+- Four cooking oil should be in the output slot
+- One peanutPBJ should be left within the ingredient slots
+----------------
+
+--- Scenario ---
+--- Things needed: Two peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place two peanutPBJ in container ingredient slots (not stacked, each one being in different ingredient slots)
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+3. Right click the output slot
+4. Expected Output:
+- One cooking oil should be on the cursor
+- Three cooking oil should be in the output slot
+- One peanutPBJ should be left within the ingredient slots
+----------------
+
+--- Scenario ---
+--- Things needed: Two peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place two peanutPBJ in container ingredient slots (not stacked, each one being in different ingredient slots)
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+3. Left click the output slot
+4. Expected Output:
+- Four cooking oil should be on the cursor
+- Four cooking oil should be in the output slot
+- One peanutPBJ should be left within the ingredient slots
+7. Left click the output slot again (With the Four cooking oil on the cursor)
+8. Expected Output:
+- Eight cooking oil should be in the output slot
+- No ingredients should be in the ingredient slots
+----------------
+
+--- Scenario ---
+--- Things needed: Two peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place two peanutPBJ in container ingredient slots (not stacked, each one being in different ingredient slots)
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+3. Left click the output slot
+4. Expected Output:
+- Four cooking oil should be on the cursor
+- Four cooking oil should be in the output slot
+- One peanutPBJ should be left within the ingredient slots
+7. Place the four cooking oil into an ingredient slot
+8. Expected Output:
+- Four cooking oil should be in the output slot
+- One peanutPBJ should be in the ingredient slots
+- Four cooking oil should be in the ingredient slots
+9. Left click the output slot
+10. Expected Output:
+- Four cooking oil should be on the cursor
+- The output slot should be empty
+- The ingredient slots should contain only four cooking oil
+----------------
+
+--- Scenario ---
+--- Things needed: Two peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place two peanutPBJ in container ingredient slots (not stacked, each one being in different ingredient slots)
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+3. Right click the output slot
+4. Expected Output:
+- One cooking oil should be on the cursor
+- Three cooking oil should be in the output slot
+- One peanutPBJ should be left within the ingredient slots
+7. Left click the output slot (With the One cooking oil on the cursor)
+8. Expected Output:
+- Four cooking oil should be in the output slot
+- One peanutPBJ should be in the ingredient slots
+9. Left click the output slot
+10. Expected output:
+- Four cooking oil should be on the cursor
+- Four cooking oil should be in the output slot
+- One peanutPBJ should be in the ingredient slots
+----------------
+
+--- Scenario ---
+--- Things needed: One peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place one peanutPBJ in container ingredient slots
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+3. Left click the peanutPBJ in the ingredient slots
+4. Expected Output:
+- One peanutPBJ should be on the cursor
+- Ingredient slots should be empty
+- Output slot should be empty
+7. Place the peanutPBJ in the ingredient slots (The one on the cursor)
+8. Expected Output:
+- Four cooking oil should be in the output slot
+- One peanutPBJ should be in the ingredient slots
+9. Left click the output slot
+10. Expected output:
+- Four cooking oil should be on the cursor
+- Output slot should be empty
+- Ingredient slots should be empty
+----------------
+
+--- Scenario ---
+--- Things needed: Two peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place two peanutPBJ in container ingredient slots (stacked)
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+3. Left click the stack of peanutPBJ in the ingredient slots
+4. Expected Output:
+- Two peanutPBJ should be on the cursor
+- Ingredient slots should be empty
+- Output slot should be empty
+7. Place the stack of peanutPBJ in the ingredient slots (The stack on the cursor)
+8. Expected Output:
+- Four cooking oil should be in the output slot
+- Two peanutPBJ should be in the ingredient slots
+9. Left click the output slot
+10. Expected output:
+- Four cooking oil should be on the cursor
+- Four cooking oil should be in the output slots
+- One peanutPBJ should be in the ingredient slot
+----------------
+
+--- Scenario ---
+--- Things needed: Two peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place two peanutPBJ in container ingredient slots (not stacked, different slots)
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+3. Left click to take one peanutPBJ from the ingredient slots
+4. Expected Output:
+- One peanutPBJ should be on the cursor
+- One peanutPBJ should be in the ingredient slots
+- Four cooking oil should be in the output slot
+7. Place the peanutPBJ(The one on the cursor) in your inventory
+8. Expected Output:
+- Four cooking oil should be in the output slot
+- One peanutPBJ should be in the ingredient slots
+9. Left click the output slot
+10. Expected output:
+- Four cooking oil should be on the cursor
+- Output slot should be empty
+- Ingredient slots should be empty
+----------------
+
+--- Scenario ---
+--- Things needed: Two peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place two peanutPBJ in container ingredient slots (not stacked, different slots)
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+3. Left click to take one peanutPBJ from the ingredient slots
+4. Expected Output:
+- One peanutPBJ should be on the cursor
+- One peanutPBJ should be in the ingredient slots
+- Four cooking oil should be in the output slot
+7. Place the peanutPBJ(The one on the cursor) into the output slot
+8. Expected Output:
+- Four cooking oil should be on the cursor
+- Ingredient slots should be empty
+- One peanutPBJ should be in the output slot
+9. Left click the output slot
+10. Expected output:
+- Output slot should be empty
+- Ingredient slot should be empty
+- One peanutPBJ should be on the cursor
+----------------
+
+--- Scenario ---
+--- Things needed: Three peanutPBJ in inventory ---
+---------------------------------------------------
+1. Place two peanutPBJ in container ingredient slots (not stacked, different slots)
+2. Expected Output:
+- 4 cookingOilMFM should be placed in the output slot
+3. Right click the output slot
+4. Expected Output:
+- One peanutPBJ should be in the ingredient slots
+- One cooking oil should be on the cursor
+- Three cooking oil should be in the output slot
+5. Place the cooking oil(The one on the cursor) in your inventory
+6. Take one peanutPBJ from your inventory and left click the output slot
+7. Expected Output:
+- Three cooking oil should be on the cursor
+- One peanutPBJ should be in the ingredient slots
+- One peanutPBJ should be in the output slot
+9. Left click the peanutPBJ in the ingredient slots
+10. Expected Output:
+- One peanutPBJ should be on the cursor
+- One peanutPBJ should be in the output slot
+- Ingredient slots should be empty
+11. Place the peanutPBJ(The one on the cursor) into your inventory
+12. Left click the output slot
+13. Expected Output:
+- One peanutPBJ should be on the cursor
+- Output slot should be empty
+- Ingredient slots should be empty
+14. Place the peanutPBJ(The one on the cursor) into an ingredient slot
+15. Expected Output:
+- One peanutPBJ should be in the ingredient slot
+- Four cooking oil should be in the output slot
+----------------

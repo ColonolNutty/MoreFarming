@@ -14,7 +14,6 @@ local onRecipeCraftedCallbacks = {};
 local additionalOnDropItems = {};
 local additionalOnDropTreasurePoolNames = {};
 local rcUtils = {};
-local rcUtilsFU = {};
 local logger = nil;
 local next = next;
 
@@ -83,14 +82,14 @@ function RecipeCrafterMFMApi.init(virtual)
   message.setHandler("craft", RecipeCrafterMFMApi.craftItem);
   message.setHandler("getFilterId", rcUtils.getFilterId);
   message.setHandler("reloadRecipeBook", rcUtils.reloadRecipeBook);
-  message.setHandler("getAutoCraftState", rcUtilsFU.getAutoCraftState);
-  message.setHandler("setAutoCraftState", rcUtilsFU.setAutoCraftState);
+  message.setHandler("getAutoCraftState", rcUtils.getAutoCraftState);
+  message.setHandler("setAutoCraftState", rcUtils.setAutoCraftState);
   
   RecipeCrafterMFMApi.loadAdditionalData()
-  rcUtilsFU.updateCraftSettings();
+  rcUtils.updateCraftSettings();
 end
 
-function rcUtilsFU.updateCraftSettings()
+function rcUtils.updateCraftSettings()
   if(getAutoCraftState()) then
     storage.consumeIngredientsOnCraft = false;
     storage.holdIngredientsOnCraft = false;
@@ -137,34 +136,30 @@ function RecipeCrafterMFMApi.update(dt)
   if(not RecipeCrafterMFMApi.containerContentsChanged or not getAutoCraftState()) then
     return
   end
-  if(storage.currentlySelectedRecipe ~= nil and rcUtilsFU.isOutputSlotModified()) then
-    rcUtilsFU.consumeIngredients()
+  if(storage.currentlySelectedRecipe ~= nil and rcUtils.isOutputSlotModified()) then
+    rcUtils.consumeIngredients()
     storage.currentlySelectedRecipe = nil;
-  elseif(storage.currentlySelectedRecipe ~= nil and rcUtilsFU.shouldRemoveOutput()) then
-    rcUtilsFU.removeOutput()
+  elseif(storage.currentlySelectedRecipe ~= nil and rcUtils.shouldRemoveOutput()) then
+    rcUtils.removeOutput()
     storage.currentlySelectedRecipe = nil;
   elseif(getAutoCraftState()) then
     RecipeCrafterMFMApi.craftItem()
   end
 end
 
-function die()
-  RecipeCrafterMFMApi.die()
-  rcUtilsFU.releaseOutput()
-end
-
 function RecipeCrafterMFMApi.die()
   if(getAutoCraftState()) then
-    rcUtilsFU.removeOutput()
+    rcUtils.removeOutput()
   end
   RecipeCrafterMFMApi.releaseIngredients()
+  rcUtils.releaseOutput()
 end
 
 function getAutoCraftState()
-  return rcUtilsFU.getAutoCraftState().autoCraftState
+  return rcUtils.getAutoCraftState().autoCraftState
 end
 
-function rcUtilsFU.getAutoCraftState()
+function rcUtils.getAutoCraftState()
   if(not storage or not storage.autoCraftState) then
     if (storage) then
       storage.autoCraftState = false;
@@ -178,20 +173,20 @@ function rcUtilsFU.getAutoCraftState()
   }
 end
 
-function rcUtilsFU.setAutoCraftState(id, name, newValue)
+function rcUtils.setAutoCraftState(id, name, newValue)
   if (storage.autoCraftState ~= newValue) then
     if (newValue) then
       storage.currentlySelectedRecipe = nil;
     else
-      rcUtilsFU.consumeIngredients()
+      rcUtils.consumeIngredients()
       storage.currentlySelectedRecipe = nil;
     end
   end
   storage.autoCraftState = newValue or false;
-  rcUtilsFU.updateCraftSettings()
+  rcUtils.updateCraftSettings()
 end
 
-function rcUtilsFU.isOutputSlotModified()
+function rcUtils.isOutputSlotModified()
   local outputSlotItem = world.containerItemAt(entity.id(), storage.outputSlot)
   
   local currentlySelectedRecipe = storage.currentlySelectedRecipe;
@@ -224,7 +219,7 @@ function rcUtilsFU.isOutputSlotModified()
   return false;
 end
 
-function rcUtilsFU.consumeIngredients()
+function rcUtils.consumeIngredients()
   if(storage.currentlySelectedRecipe == nil) then
     return;
   end
@@ -234,7 +229,7 @@ function rcUtilsFU.consumeIngredients()
   RecipeCrafterMFMApi.recipeCrafted(storage.currentlySelectedRecipe)
 end
 
-function rcUtilsFU.shouldRemoveOutput()
+function rcUtils.shouldRemoveOutput()
   if(storage.currentlySelectedRecipe == nil) then
     return false;
   end
@@ -242,16 +237,16 @@ function rcUtilsFU.shouldRemoveOutput()
   return not RecipeLocatorAPI.hasIngredientsForRecipe(storage.currentlySelectedRecipe, currentIngredients);
 end
 
-function rcUtilsFU.removeOutput()
+function rcUtils.removeOutput()
   world.containerTakeAt(entity.id(), storage.outputSlot);
   storage.currentlySelectedRecipe = nil
 end
 
-function rcUtilsFU.releaseOutput()
-  if(not rcUtilsFU.isOutputSlotModified()) then
+function rcUtils.releaseOutput()
+  if(not rcUtils.isOutputSlotModified()) then
     logger.logDebug("Output slot not modified, not releasing output")
     -- If not modified, then the output slot must be something the script put in, so remove it.
-    rcUtilsFU.removeOutput()
+    rcUtils.removeOutput()
     return true;
   end
 end
@@ -282,7 +277,7 @@ function RecipeCrafterMFMApi.onNoRecipeFound()
 end
 
 function RecipeCrafterMFMApi.onNoRecipeFoundAutoCraft()
-  rcUtilsFU.removeOutput();
+  rcUtils.removeOutput();
   storage.currentlySelectedRecipe = nil;
 end
 
@@ -328,7 +323,7 @@ function RecipeCrafterMFMApi.isOutputSlotAvailableAutoCraft()
     return true;
   end
   
-  return not rcUtilsFU.isOutputSlotModified();
+  return not rcUtils.isOutputSlotModified();
 end
 
 
@@ -531,6 +526,7 @@ function RecipeCrafterMFMApi.registerOnRecipeCrafted(uniqueIdentifier, onRecipeC
       onRecipeCraftedCallbacks[uniqueIdentifier] = onRecipeCraftedCallback;
   end
 end
+
 ------------------------------------------------------------------
 
 function RecipeCrafterMFMApi.playCraftSound()

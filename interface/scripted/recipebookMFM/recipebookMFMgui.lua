@@ -262,21 +262,29 @@ function sortedItemsFromMethodFilters()
   for filterName,methodFilter in pairs(dataStore.methodFilters) do
     logger.logDebug("Using filter: " .. filterName)
     if(methodFilter.isSelected) then
-      for itemName,item in pairs(methodFilter.items) do
-        if(recipeListItems[itemName] == nil) then
+      logger.logDebug("Checking items")
+      for idx,item in ipairs(methodFilter.items) do
+        logger.logDebug("Checking item: " .. item.name)
+        if(recipeListItems[item.name] == nil) then
           updateIsCraftable(item)
           local passesFilters = true
           for idx,filter in ipairs(filters.recipeFilters) do
             if(not filter(item)) then
+              logger.logDebug("Item does not match: " .. idx .. "  " .. item.name)
               passesFilters = false
               break;
             end
           end
           if(passesFilters) then
-            recipeListItems[itemName] = item
+            logger.logDebug("Item passed")
+            recipeListItems[item.name] = item
           end
+        else
+          logger.logDebug("Already checked item")
         end
       end
+    else
+      logger.logDebug("Filter not selected!")
     end
   end
   return UtilsCN.sortByValueNameId(recipeListItems)
@@ -386,8 +394,8 @@ function getItemsByMethodName(methodNames)
     logger.logDebug("Using filter: " .. methodName)
     local methodFilter = dataStore.methodFilters[methodName]
     if(methodFilter ~= nil) then
-      for itemName,item in pairs(methodFilter.items) do
-        if(recipeListItems[itemName] == nil) then
+      for idx,item in ipairs(methodFilter.items) do
+        if(recipeListItems[item.name] == nil) then
           updateIsCraftable(item)
           local passesFilters = true
           for idx,filter in ipairs(filters.recipeFilters) do
@@ -397,7 +405,7 @@ function getItemsByMethodName(methodNames)
             end
           end
           if(passesFilters) then
-            recipeListItems[itemName] = item
+            recipeListItems[item.name] = item
           end
         end
       end
@@ -431,8 +439,8 @@ function inputNameMatchesFilter(item)
   end
   local matches = false;
   for idx,recipe in ipairs(item.recipes) do
-    for idxTwo,inputItem in ipairs(recipe.input) do
-      local input = getItem(inputItem.name)
+    for inputName,inputData in pairs(recipe.input) do
+      local input = getItem(inputName)
       if(input ~= nil and (containsSubString(input.name, filters.inputNameFilter) or containsSubString(input.id, filters.inputNameFilter))) then
         matches = true
         break;
@@ -754,7 +762,7 @@ function updateIngredientList()
       UtilsCN.printTable(recipe, nil, logger)
     end
     
-    local outputItem = getItem(recipe.output.name)
+    local outputItem = getItem(selectedItemId)
     local recipeHeaderItem = { id = outputItem.id, name = "RECIPE " .. currentRecipeIdx .. ":" .. formatMethods(recipe.methods), isHeader = true, isCraftable = recipe.isCraftable, count = recipe.output.count, icon = "", methods = outputItem.methods }
     local headerChildren = {}
     local methodMatches = false
@@ -768,12 +776,12 @@ function updateIngredientList()
       end
     end
     if(methodMatches) then
-      for idxTwo,inputItem in ipairs(recipe.input) do
-        local item = getItem(inputItem.name)
-        item.count = inputItem.count
+      for inputName,inputData in pairs(recipe.input) do
+        local item = getItem(inputName)
+        item.count = inputData.count
         item.isHeader = false
-        item.isCraftable = inputItem.isCraftable
-        item.craftableCount = inputItem.craftableCount
+        item.isCraftable = inputData.isCraftable
+        item.craftableCount = inputData.craftableCount
         logger.logDebug("Has ingredient " .. item.id)
         if(dataStore.ingredientStore[item.id] ~= nil) then
           item.methods = dataStore.ingredientStore[item.id].methods
@@ -1064,11 +1072,11 @@ function updateIsCraftable(item)
   end
   for idx,recipe in ipairs(item.recipes) do
     local canCraftRecipe = true
-    for idx,input in ipairs(recipe.input) do
-      local isCraftable, craftableCount = playerHasItems(input)
-      input.isCraftable = isCraftable
-      input.craftableCount = craftableCount
-      if(not input.isCraftable) then
+    for inputName,inputData in pairs(recipe.input) do
+      local isCraftable, craftableCount = playerHasItems({ name = inputName, count = inputData.count })
+      inputData.isCraftable = isCraftable
+      inputData.craftableCount = craftableCount
+      if(not inputData.isCraftable) then
         canCraftRecipe = false
       end
     end

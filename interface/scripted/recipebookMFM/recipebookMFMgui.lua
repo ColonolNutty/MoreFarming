@@ -670,20 +670,6 @@ function updateItemList()
   end
 end
 
-function formatMethods(methods)
-  if(UtilsCN.isEmpty(methods)) then
-    return " (Unknown)"
-  end
-  local formatted = ""
-  for method,friendlyMethod in pairs(methods) do
-    formatted = formatted .. " (" .. friendlyMethod .. ")"
-  end
-  if(formatted == "") then
-    return " (No)"
-  end
-  return formatted
-end
-
 function setSelectedItemId(id)
   dataStore.selectedItemId = id
   requestSelectedIdUpdate(id)
@@ -763,7 +749,7 @@ function updateIngredientList()
     end
     
     local outputItem = getItem(selectedItemId)
-    local recipeHeaderItem = { id = outputItem.id, name = "RECIPE " .. currentRecipeIdx .. ":" .. formatMethods(recipe.methods), isHeader = true, isCraftable = recipe.isCraftable, count = recipe.output.count, icon = "", methods = outputItem.methods }
+    local recipeHeaderItem = { id = outputItem.id, name = "RECIPE " .. currentRecipeIdx .. ":" .. recipe.displayMethods, isHeader = true, isCraftable = recipe.isCraftable, count = recipe.output.count, icon = "", methods = outputItem.methods }
     local headerChildren = {}
     local methodMatches = false
     if(filters.methodNameFilter == nil) then

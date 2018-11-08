@@ -96,7 +96,7 @@ function initializeDataStore()
     local recipeNames = root.assetJson(recipeConfigPath)
     if(recipeNames ~= nil) then
       logger.logDebug("Storing recipe names for filter: " .. methodFilterName)
-      methodFilter.items = loadRecipes(methodFilterName, recipeNames.recipesToCraft)
+      methodFilter.items = loadRecipes(methodFilterName, methodFilter.name, recipeNames.recipesToCraft)
     end
     storage.rbDataStore.methodFilters[methodFilterName] = methodFilter
   end
@@ -134,10 +134,6 @@ function updateSelectedFilters(id, name, filterData)
   return true
 end
 
-function storeIngredient(id, name, itemId)
-  return loadItem(itemId)
-end
-
 function getRecipesForFilter(id, name, filterName)
   if(filterName == nil) then
     return {}
@@ -151,9 +147,9 @@ function getRecipesForFilter(id, name, filterName)
 end
 ---------------------------------------------------------
 
-function loadRecipes(methodName, itemRecipes)
+function loadRecipes(methodName, methodFriendlyName, itemDatas)
   local items = {}
-  for itemId, recipes in pairs(itemRecipes) do
+  for itemId, itemInfo in pairs(itemDatas) do
     local item = nil;
     if(storage.rbDataStore.ingredientStore[itemId] ~= nil) then
       item = storage.rbDataStore.ingredientStore[itemId]
@@ -165,25 +161,32 @@ function loadRecipes(methodName, itemRecipes)
         end
         logger.logDebug("Item data found: icon " .. itemData.config.inventoryIcon .. " directory " .. itemData.directory);
         local itemIcon = UtilsCN.resizeImageToIconSize(itemData.config.inventoryIcon, itemData.directory);
-        item = { id = itemId, name = itemData.config.shortdescription, icon = itemIcon, recipes = {}, methods = {} };
+        item = { id = itemId, displayName = itemData.config.shortdescription .. itemInfo.displayMethods, name = itemData.config.shortdescription, icon = itemIcon, recipes = {}, methods = itemInfo.methods };
+        storage.rbDataStore.ingredientStore[itemId] = item
+        table.insert(items, item)
       else
         logger.logDebug("No item data found: " .. itemId)
         item = nil;
       end
     end
     if(item ~= nil) then
-      for idx, recipe in ipairs(recipes) do
+      for idx, recipe in ipairs(itemInfo.recipes) do
         if(not recipe.excludeFromRecipeBook) then
+          if(recipe.methods == nil) then
+            recipe.methods = {}
+          end
           table.insert(item.recipes, recipe);
         end
       end
-      table.insert(item.methods, methodName)
-      item.displayName = item.name .. formatMethods(item.methods)
-      storage.rbDataStore.ingredientStore[itemId] = item
-      table.insert(items, item)
     end
   end
   return items
+end
+
+------------------------------SoonToBeObsolete--------------------------------------
+
+function storeIngredient(id, name, itemId)
+  return loadItem(itemId)
 end
 
 function formatMethods(methods)
@@ -198,4 +201,79 @@ function formatMethods(methods)
     return " (No)"
   end
   return formatted
+end
+
+function loadItem(itemId)
+  if(storage.rbDataStore.ingredientStore[itemId] ~= nil) then
+    return storage.rbDataStore.ingredientStore[itemId]
+  end
+  local itemData = root.itemConfig({ name = itemId })
+  if(itemData == nil) then
+    logger.logDebug("No item data found: " .. itemId)
+    return nil
+  end
+  if type(itemData.config.inventoryIcon) == 'table' then
+    itemData.config.inventoryIcon = itemData.config.inventoryIcon[1].image
+  end
+  local craftMethods, filteredRecipes = filterRecipes(root.recipesForItem(itemId))
+  logger.logDebug("Item data found: icon " .. itemData.config.inventoryIcon .. " directory " .. itemData.directory)
+  local itemIcon = UtilsCN.resizeImageToIconSize(itemData.config.inventoryIcon, itemData.directory)
+  local item = { id = itemId, name = itemData.config.shortdescription, icon = itemIcon, recipes = filteredRecipes, methods = craftMethods }
+  item.displayName = item.name .. formatMethods(item.methods)
+  storage.rbDataStore.ingredientStore[itemId] = item
+  return item
+end
+
+function filterRecipes(recipes)
+  if(UtilsCN.isEmpty(recipes)) then
+    return nil
+  end
+  local allMethods = {}
+  local result = {}
+  for idx, recipe in ipairs(recipes) do
+    if(recipe.methods == nil) then
+      recipe.methods = {}
+    end
+    local includeRecipe = false
+    local excludeRecipe = false
+    logger.logDebug("Looking at recipe " .. recipe.output.name)
+    for idx, group in ipairs(recipe.groups) do
+      logger.logDebug("Looking at recipe group: " .. group)
+      if(isExcludedFromRecipeBook(group)) then
+        excludeRecipe = true
+        includeRecipe = false
+      end
+      if(not excludeRecipe and passesAllFilters(recipeFilters.groupFilters, group)) then
+        logger.logDebug("Recipe group passes filters: " .. group)
+        -- Include recipe if at least one group passes all filters
+        includeRecipe = true
+        -- If the group matches the filters, there must be a friendly name for it, set it
+        recipe.methods[group] = storage.rbDataStore.methodFriendlyNames[group]
+        allMethods[group] = recipe.methods[group]
+      end
+    end
+    if(includeRecipe and not excludeRecipe) then
+      table.insert(result, recipe)
+    end
+  end
+  return allMethods, result
+end
+
+function isExcludedFromRecipeBook(recipeGroup)
+  return recipeGroup == "ExcludeFromRecipeBook";
+end
+
+function hasFriendlyNamefilter(recipeGroup)
+  return storage.rbDataStore.methodFriendlyNames[recipeGroup] ~= nil;
+end
+
+function passesAllFilters(filters, val)
+  local passesFilters = true;
+  for idx, filter in ipairs(filters) do
+    if(not filter(val)) then
+      passesFilters = false;
+      break;
+    end
+  end
+  return passesFilters;
 end

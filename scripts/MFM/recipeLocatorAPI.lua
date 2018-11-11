@@ -1,13 +1,11 @@
 require "/scripts/debugUtilsCN.lua"
 require "/scripts/utilsCN.lua"
 require "/scripts/recipebookMFMQueryAPI.lua"
+require "/scripts/MFM/recipeStoreAPI.lua"
 
 if(RecipeLocatorAPI == nil) then
   RecipeLocatorAPI = {
     debugMsgPrefix = "[RLAPI]",
-    loadedRecipes = false,
-    reloadingRecipeBook = false,
-    reloadedRecipeBook = false,
     initialized = false;
   };
 end
@@ -17,7 +15,7 @@ local logger = nil;
 
 function RecipeLocatorAPI.init(virtual)
   logger = DebugUtilsCN.init(RecipeLocatorAPI.debugMsgPrefix)
-  rlUtils.loadPossibleOutputs();
+  RecipeStoreCNAPI.init(virtual)
   
   if(virtual) then
     RecipeLocatorAPI.rlUtils = rlUtils;
@@ -29,21 +27,7 @@ function RecipeLocatorAPI.init(virtual)
 end
 
 function RecipeLocatorAPI.update()
-  rlUtils.loadRecipeBookRecipes()
-end
-
-function rlUtils.loadPossibleOutputs(defaultPossibleOutputs)
-  local defaultValue = defaultPossibleOutputs or {};
-  if(not config) then
-    storage.possibleOutputs = defaultValue;
-    return;
-  end
-  local outputConfigPath = config.getParameter("outputConfig");
-  if outputConfigPath == nil then
-    storage.possibleOutputs = defaultValue;
-  else
-    storage.possibleOutputs = root.assetJson(outputConfigPath).possibleOutput;
-  end
+  rlUtils.initializeRecipeStore()
 end
 
 function RecipeLocatorAPI.hasIngredientsForRecipe(recipe, ingredients)
@@ -117,91 +101,14 @@ end
 
 -- Find Recipe matching ingredients
 function RecipeLocatorAPI.findRecipeForIngredients(ingredients, recipeGroup)
-  logger.logDebug("Locating recipe for ingredients")
-  -- A shortcircuit to searching the entire recipe list, just to the find the same recipe
-  if(storage.previouslyFoundRecipe ~= nil) then
-    local matches = RecipeLocatorAPI.hasIngredientsForRecipe(storage.previouslyFoundRecipe, ingredients);
-    if(matches) then
-      logger.logDebug("Previous recipe matches current ingredients, using it")
-      return storage.previouslyFoundRecipe;
-    end
-  end
-
-  local foundRecipe = nil;
-  
-  if(storage.recipeBookRecipes ~= nil) then
-    -- Recipe book is nearby, so we take a faster route by utilizing the recipes already discovered by the recipe book
-    logger.logDebug("Using Recipe Book Recipes")
-    for itemName,item in pairs(storage.recipeBookRecipes) do
-      local recipesForItem = item.recipes
-      if recipesForItem ~= nil and #recipesForItem > 0 then
-        foundRecipe = rlUtils.findRecipe(recipesForItem, ingredients, recipeGroup)
-        if foundRecipe then
-          logger.logDebug("Found recipe with output name: " .. foundRecipe.output.name)
-          break;
-        end
-      end
-    end
-  else
-    -- No recipe book was found nearby, search for your own dang recipes!
-    for _,itemName in ipairs(storage.possibleOutputs) do
-      local recipesForItem = root.recipesForItem(itemName)
-      if recipesForItem ~= nil and #recipesForItem > 0 then
-        foundRecipe = rlUtils.findRecipe(recipesForItem, ingredients, recipeGroup)
-        if foundRecipe then
-          logger.logDebug("Found recipe with output name: " .. foundRecipe.output.name)
-          break;
-        end
-      end
-    end
-  end
-  storage.previouslyFoundRecipe = foundRecipe;
-  return foundRecipe;
+  return RecipeStoreCNAPI.getRecipesContainingIngredientCounts(recipeGroup, ingredients);
 end
 
-function rlUtils.recipeHasMatchingGroup(recipe, recipeGroup)
-  local canBeCrafted = false
-  for _,group in ipairs(recipe.groups) do
-    if group == recipeGroup then
-      canBeCrafted = true
-      break
-    end
+function rlUtils.initializeRecipeStore()
+  if(RecipeLocatorAPI.initialized) then
+    return;
   end
-  return canBeCrafted
-end
-
-function rlUtils.findRecipe(recipesForItem, ingredients, recipeGroup)
-  if recipeGroup == nil then
-    logger.logDebug("No Recipe Group specified")
-    return nil;
-  end
-  logger.logDebug("Recipe group specified: " .. recipeGroup)
-  local recipeFound = nil
-  for _,recipe in ipairs(recipesForItem) do
-    if (rlUtils.recipeHasMatchingGroup(recipe, recipeGroup) and RecipeLocatorAPI.hasIngredientsForRecipe(recipe, ingredients)) then
-      recipeFound = recipe
-      break;
-    else
-      logger.logDebug("Recipe cannot be crafted: " .. recipe.output.name)
-    end
-  end
-  return recipeFound
-end
-
-function rlUtils.reloadRecipeBook()
-  if(not RecipeLocatorAPI.reloadingRecipeBook) then
-    RecipeLocatorAPI.loadedRecipes = false
-    rlUtils.loadRecipeBookRecipes()
-  end
-  return RecipeLocatorAPI.reloadedRecipeBook;
-end
-
-function rlUtils.loadRecipeBookRecipes()
-  if(RecipeLocatorAPI.loadedRecipes or RecipeLocatorAPI.reloadingRecipeBook) then
-    return
-  end
-  RecipeLocatorAPI.reloadingRecipeBook = true;
-  RecipeLocatorAPI.reloadedRecipeBook = false;
+  logger.logDebug("Initializing Recipe Store");
   local handle = function()
     local result = RecipeBookMFMQueryAPI.getRecipesForFilter(storage.recipeGroup, nil, storage.recipeGroup)
     if(result ~= nil) then
@@ -211,17 +118,9 @@ function rlUtils.loadRecipeBookRecipes()
   end
   
   local onComplete = function(result)
-    -- Results are checked using the "next" function to see if any recipes came back
-    if(next(result) == nil) then
-      storage.recipeBookRecipes = nil
-      logger.logDebug("Recipe Book Not Found")
-    else
-      storage.recipeBookRecipes = result;
-      logger.logDebug("Loaded Recipe Book Recipes")
-    end
-    RecipeLocatorAPI.loadedRecipes = true
-    RecipeLocatorAPI.reloadingRecipeBook = false
-    RecipeLocatorAPI.reloadedRecipeBook = true;
+    RecipeStoreCNAPI.initializeRecipeStore(methodName, result);
+    logger.logDebug("Recipes initialized");
+    RecipeLocatorAPI.initialized = true;
   end
-  EntityQueryAPI.addRequest("loadRecipeBookRecipes", handle, onComplete)
+  EntityQueryAPI.addRequest("initializeRecipeStore", handle, onComplete)
 end

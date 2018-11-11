@@ -1,8 +1,10 @@
 require "/scripts/debugUtilsCN.lua"
 require "/scripts/utilsCN.lua"
+require "/scripts/MFM/recipeStoreAPI.lua"
+require "/scripts/MFM/ingredientStoreAPI.lua"
 
-METHOD_FILTER_NAMES_PATH = "/recipeCrafterMFM/methodFilterNamesMFM.json"
-RECIPE_METHOD_FRIENDLY_NAMES = "/recipeCrafterMFM/methodFriendlyNamesMFM.json"
+FILTER_NAMES_PATH = "/recipeCrafterMFM/methodFilterNamesMFM.json"
+RECIPE_FILTER_FRIENDLY_NAMES = "/recipeCrafterMFM/methodFriendlyNamesMFM.json"
 RECIPE_CONFIGURATION_PATH = "/recipeCrafterMFM/"
 
 -- Storage Property Names --
@@ -29,7 +31,6 @@ RECIPE_CONFIGURATION_PATH = "/recipeCrafterMFM/"
 ------ items (Table) (ItemId, Item)
 ---- methodFilterNames (String Array)
 ---- methodFriendlyNames (String Array)
----
 
 --- Handlers ---
 -- getDataStore
@@ -39,31 +40,122 @@ RECIPE_CONFIGURATION_PATH = "/recipeCrafterMFM/"
 -- updateSelectedId
 ---
 
-local logger = nil
+local logger = nil;
+local initialized = false;
 
 local recipeFilters = { 
   groupFilters = { }
-}
+};
 
-function init()
+function init(virtual)
   logger = DebugUtilsCN.init("[CNRB]");
+  logger.enableDebug();
+  RecipeStoreCNAPI.init(virtual);
+  IngredientStoreCNAPI.init(virtual);
+  message.setHandler("toggleFilterSelected", toggleFilterSelectedHook);
+  message.setHandler("getFilterData", getFilterDataHook);
+  message.setHandler("getSelectedItem", getSelectedItemHook);
+  message.setHandler("selectItem", selectItemHook);
+  
   message.setHandler("getDataStore", getDataStore);
   message.setHandler("setDataStore", setDataStore);
   message.setHandler("updateSelectedFilters", updateSelectedFilters);
-  message.setHandler("storeIngredient", storeIngredient);
   message.setHandler("updateSelectedId", updateSelectedId);
-  message.setHandler("getRecipesForFilter", getRecipesForFilter);
   table.insert(recipeFilters.groupFilters, hasFriendlyNamefilter)
   
-  storage.rbDataStore = nil
-  initializeDataStore()
+  initializeRecipeBook();
 end
 
-function update()
+function getFilterIds()
+  if(storage.filterIds ~= nil) then
+    return storage.filterIds;
+  end
+  storage.filterIds = root.assetJson(FILTER_NAMES_PATH).filterNames;
+  return storage.filterIds;
 end
 
-function uninit()
+function getFilterFriendlyName(filterId)
+  if(storage.filterFriendlyNames == nil) then
+    storage.filterFriendlyNames = root.assetJson(RECIPE_FILTER_FRIENDLY_NAMES);
+  end
+  if(storage.filterFriendlyNames[filterId] == nil) then
+    return filterId;
+  end
+  return storage.filterFriendlyNames[filterId];
 end
+
+function getFilterDataHook()
+  if(storage.filters ~= nil) then
+    return storage.filters;
+  end
+  storage.filters = {};
+  local filterIds = getFilterIds();
+  for idx, filterId in ipairs(filterIds) do
+    storage.filters[filterId] = initializeFilter(filterId);
+  end
+  return storage.filters;
+end
+
+function initializeFilter(filterId)
+  local filter = {
+    id = filterId,
+    name = getFilterFriendlyName(filterId),
+    isSelected = false
+  };
+  RecipeStoreCNAPI.initializeRecipeStore(filterId);
+  return filter;
+end
+
+function toggleFilterSelectedHook(id, name, filterId)
+  return toggleFilterSelected(filterId);
+end
+
+function toggleFilterSelected(filterId)
+  local filterData = getFilterDataHook();
+  if(filterData[filterId] == nil) then
+    filterData[filterId] = initializeFilter(filterId);
+  end
+  filterData[filterId].isSelected = not filterData[filterId].isSelected;
+  return true;
+end
+
+function getSelectedItemHook()
+  return storage.selectedItem;
+end
+
+function selectItemHook(id, name, itemId)
+  if(itemId == nil) then
+    logger.logDebug("Item Id was nil!");
+  else
+    logger.logDebug("Selecting item with id: " .. itemId);
+  end
+  return selectItem(itemId);
+end
+
+function selectItem(itemId)
+  if(itemId == nil) then
+    storage.selectedItem = nil;
+    return true;
+  else
+    storage.selectedItem = {
+      id = itemId,
+      data = IngredientStoreCNAPI.loadIngredient(itemId)
+    };
+  end
+  return storage.selectedItem;
+end
+
+function initializeRecipeBook()
+  local filterData = getFilterDataHook()
+  local filterIds = getFilterIds();
+  local firstFilterId = filterIds[1];
+  if(filterData[firstFilterId] ~= nil) then
+    filterData[firstFilterId].isSelected = true;
+  end
+  return filterData;
+end
+
+--------------------------------------------------------------------
 
 function initializeDataStore()
   if(storage.rbDataStore ~= nil) then
@@ -74,30 +166,23 @@ function initializeDataStore()
     ingredientStore = {},
     methodFilters = {},
     sortedMethodFilters = {},
-    methodFilterNames = root.assetJson(METHOD_FILTER_NAMES_PATH).filterNames,
-    methodFriendlyNames = root.assetJson(RECIPE_METHOD_FRIENDLY_NAMES),
+    methodFriendlyNames = root.assetJson(RECIPE_FILTER_FRIENDLY_NAMES),
     recipeBookExists = true
   };
   if(#storage.rbDataStore.methodFilterNames == 0) then
     return
   end
-  for i, methodFilterName in ipairs(storage.rbDataStore.methodFilterNames) do
-     logger.logDebug("Storing filter: " .. methodFilterName)
+  local methodFilterNames = storage.rbDataStore.methodFilterNames;
+  
+  for i, methodFilterName in ipairs(methodFilterNames) do
+     logger.logDebug("Loading method filter: " .. methodFilterName)
      local methodFilter = {
       id = methodFilterName,
       name = storage.rbDataStore.methodFriendlyNames[methodFilterName],
       isSelected = false,
-      items = {}
+      recipeStore = {}
     };
-    
-    local recipeConfigPath = RECIPE_CONFIGURATION_PATH .. methodFilterName .. "Recipes.config"
-    logger.logDebug("Looking for recipe configuration at path: " .. recipeConfigPath)
-    
-    local recipeNames = root.assetJson(recipeConfigPath)
-    if(recipeNames ~= nil) then
-      logger.logDebug("Storing recipe names for filter: " .. methodFilterName)
-      methodFilter.items = loadRecipes(methodFilterName, methodFilter.name, recipeNames.recipesToCraft)
-    end
+    methodFilter.recipeStore = RecipeStoreCNAPI.initializeRecipeStore(methodFilterName);
     storage.rbDataStore.methodFilters[methodFilterName] = methodFilter
   end
   storage.rbDataStore.methodFilters[storage.rbDataStore.methodFilterNames[1]].isSelected = true
@@ -121,7 +206,9 @@ end
 
 function updateSelectedId(id, name, newId)
   storage.rbDataStore.selectedItemId = newId;
-  return true
+  local itemData = IngredientStoreCNAPI.loadIngredient(newId);
+  storage.rbDataStore.selectedItemData = itemData;
+  return true;
 end
 
 function updateSelectedFilters(id, name, filterData)
@@ -132,55 +219,6 @@ function updateSelectedFilters(id, name, filterData)
   end
   storage.rbDataStore.methodFilters[filterData.id].isSelected = filterData.isSelected
   return true
-end
-
-function getRecipesForFilter(id, name, filterName)
-  if(filterName == nil) then
-    return {}
-  end
-  
-  local dataStore = getDataStore()
-  if(dataStore.methodFilters and dataStore.methodFilters[filterName]) then
-    return dataStore.methodFilters[filterName].items
-  end
-  return {}
-end
----------------------------------------------------------
-
-function loadRecipes(methodName, methodFriendlyName, itemDatas)
-  local items = {}
-  for itemId, itemInfo in pairs(itemDatas) do
-    local item = nil;
-    if(storage.rbDataStore.ingredientStore[itemId] ~= nil) then
-      item = storage.rbDataStore.ingredientStore[itemId]
-    else
-      local itemData = root.itemConfig({ name = itemId })
-      if(itemData ~= nil) then
-        if type(itemData.config.inventoryIcon) == 'table' then
-          itemData.config.inventoryIcon = itemData.config.inventoryIcon[1].image
-        end
-        logger.logDebug("Item data found: icon " .. itemData.config.inventoryIcon .. " directory " .. itemData.directory);
-        local itemIcon = UtilsCN.resizeImageToIconSize(itemData.config.inventoryIcon, itemData.directory);
-        item = { id = itemId, displayName = itemData.config.shortdescription .. itemInfo.displayMethods, name = itemData.config.shortdescription, icon = itemIcon, recipes = {}, methods = itemInfo.methods };
-        storage.rbDataStore.ingredientStore[itemId] = item
-        table.insert(items, item)
-      else
-        logger.logDebug("No item data found: " .. itemId)
-        item = nil;
-      end
-    end
-    if(item ~= nil) then
-      for idx, recipe in ipairs(itemInfo.recipes) do
-        if(not recipe.excludeFromRecipeBook) then
-          if(recipe.methods == nil) then
-            recipe.methods = {}
-          end
-          table.insert(item.recipes, recipe);
-        end
-      end
-    end
-  end
-  return items
 end
 
 ------------------------------SoonToBeObsolete--------------------------------------

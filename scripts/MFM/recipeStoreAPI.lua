@@ -1,0 +1,175 @@
+require "/scripts/debugUtilsCN.lua"
+require "/scripts/utilsCN.lua"
+require "/scripts/MFM/ingredientStoreAPI.lua"
+
+if(RecipeStoreCNAPI == nil) then
+  RecipeStoreCNAPI = {};
+end
+local rsCNApi = {};
+
+local logger = nil
+
+function RecipeStoreCNAPI.init(virtual)
+  logger = DebugUtilsCN.init("[CNISAPI]");
+  IngredientStoreCNAPI.init(virtual);
+  message.setHandler("getRecipesContainingIngredientCounts", rsCNApi.getRecipesContainingIngredientCounts);
+  message.setHandler("initializeRecipeStore", rsCNApi.initializeRecipeStore);
+  message.setHandler("getRecipesForMethodName", rsCNApi.getRecipesForMethodName);
+  message.setHandler("getRecipesForMethodNames", rsCNApi.getRecipesForMethodNames);
+  
+  if(virtual) then
+    RecipeStoreCNAPI.rsCNApi = rsCNApi;
+  end
+  
+  storage.methodStore = nil;
+end
+
+function rsCNApi.getMethodStore(methodName, recipeStore)
+  if(methodName == nil) then
+    return nil;
+  end
+  if(storage.methodStore ~= nil and storage.methodStore[methodName] ~= nil) then
+    return storage.methodStore[methodName];
+  end
+  if(storage.methodStore == nil) then
+    storage.methodStore = { };
+  end
+  if(recipeStore ~= nil) then
+    storage.methodStore[methodName] = recipeStore
+    return recipeStore;
+  end
+  
+  logger.logDebug("Loading recipes for: " .. methodName)
+  local recipeConfigPath = RECIPE_CONFIGURATION_PATH .. methodName .. "Recipes.config"
+  logger.logDebug("Looking for recipe configuration at path: " .. recipeConfigPath)
+  
+  local methodRecipes = rsCNApi.loadMethodRecipes(root.assetJson(recipeConfigPath));
+  storage.methodStore[methodName] = methodRecipes
+  return methodRecipes;
+end
+
+function rsCNApi.loadMethodRecipes(methodRecipes)
+   local methodFilter = {
+    recipesCraftFrom = {},
+    recipesCraftTo = {}
+  };
+  if(methodRecipes == nil) then
+    return methodFilter;
+  end
+  if(methodRecipes.recipesCraftFrom ~= nil) then
+    methodFilter.recipesCraftFrom = methodRecipes.recipesCraftFrom;
+  end
+  if(methodRecipes.recipesToCraft ~= nil) then
+    for itemName, itemData in pairs(methodRecipes.recipesToCraft) do
+      methodFilter.recipesCraftTo[itemName] = IngredientStoreCNAPI.loadIngredient(itemName, itemData);
+    end
+  end
+  return methodFilter;
+end
+
+--- methodName (string) (ex. bakingMFM)
+--- ingredients (object) (ex. { "ingredientOne": 5, "ingredientTwo": 3 }
+function rsCNApi.getRecipesContainingIngredientCounts(id, name, methodName, ingredients)
+  return RecipeStoreCNAPI.getRecipesContainingIngredientCounts(methodName, ingredients);
+end
+
+function RecipeStoreCNAPI.getRecipesContainingIngredientCounts(methodName, ingredients)
+  if(methodName == nil or ingredients == nil) then
+    return {};
+  end
+  logger.debug("Getting recipes for method " .. methodName);
+  local methodStore = rsCNApi.getMethodStore(methodName);
+  local recipesContainingIngredients = {};
+  local loadedStartingRecipes = false;
+  for ingredientName, ingredientCount in pairs(ingredients) do
+    if(loadedStartingRecipes) then
+      local hasRecipes = false;
+      local newRecipesContainingIngredients = {};
+      for recipeName, recipes in pairs(recipesContainingIngredients) do
+        local newRecipes = {};
+        for idx, recipe in ipairs(recipes) do
+          if(recipe.input ~= nil and recipe.input[ingredientName] ~= nil and recipe.input[ingredientName].count == ingredientCount) then
+            hasRecipes = true;
+            table.insert(newRecipes, recipe);
+          end
+        end
+        newRecipesContainingIngredients[recipeName] = newRecipes;
+      end
+      if(not hasRecipes) then
+        recipesContainingIngredients = {};
+        break;
+      end
+      recipesContainingIngredients = newRecipesContainingIngredients;
+    else
+      loadedStartingRecipes = true;
+      local ingredientRecipes = methodStore.recipesCraftFrom[ingredientName];
+      if(ingredientRecipes == nil) then
+        recipesContainingIngredients = {};
+        break;
+      end
+      local matchesRecipes = true;
+      for idx, recipeOutputName in ipairs(ingredientRecipes) do
+        local outputRecipes = methodStore.recipesCraftTo[recipeOutputName];
+        if(outputRecipes == nil) then
+          matchesRecipes = false;
+          break;
+        end
+        local matchingRecipes = {};
+        for idx, recipe in ipairs(outputRecipes.recipesContainingIngredients) do
+          local ingredientInputCount = recipe.input[ingredientName];
+          if(ingredientInputCount ~= nil and ingredientInputCount == ingredientCount) then
+            table.insert(matchingRecipes, recipe);
+          end
+        end
+        if(#matchingRecipes == 0) then
+          matchesRecipes = false;
+          break;
+        end
+        recipesContainingIngredients[recipeOutputName] = matchingRecipes;
+      end
+      if(not matchesRecipes) then
+        recipesContainingIngredients = {};
+        break;
+      end
+    end
+  end
+  return recipesContainingIngredients;
+end
+
+--- methodName (string)
+function rsCNApi.getRecipesForMethodName(id, name, methodName)
+  if(methodNames == nil) then
+    return {};
+  end
+  
+  return rsCNApi.getMethodStore(methodName);
+end
+
+--- methodNames (string array)
+function rsCNApi.getRecipesForMethodNames(id, name, methodNames)
+  local recipes = {};
+  if(methodNames == nil) then
+    return recipes;
+  end
+  
+  for idx, methodName in ipairs(methodNames) do
+    local methodStore = rsCNApi.getMethodStore(methodName);
+    if(methodStore ~= nil) then
+      recipes[methodName] = methodStore;
+    end
+  end
+  return recipes;
+end
+
+--- methodName (string) (ex. bakingMFM)
+--- recipeStore (object) ({ recipesCraftTo, recipesCraftFrom })
+function RecipeStoreCNAPI.initializeRecipeStore(methodName, recipeStore)
+  return rsCNApi.getMethodStore(methodName, recipeStore);
+end
+
+--- methodName (string) (ex. bakingMFM)
+--- recipeStore (object) ({ recipesCraftTo, recipesCraftFrom })
+function rsCNApi.initializeRecipeStore(id, name, methodName, recipeStore)
+  return RecipeStoreCNAPI.initializeRecipesForMethod(methodName, recipeStore);
+end
+---------------------------------------------------------

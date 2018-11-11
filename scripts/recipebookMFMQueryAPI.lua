@@ -56,7 +56,7 @@ function rbAPI.getRecipeBookEntityId()
 end
 
 function RecipeBookMFMQueryAPI.getRecipesForFilter(id, name, filterName)
-  return rbAPI.queryRecipeBook("getRecipesForFilter", id or filterName, {}, filterName)
+  return rbAPI.queryRecipeBook("getRecipesForMethodName", id or filterName, {}, filterName)
 end
 
 function rbAPI.queryRecipeBook(requestName, requestId, defaultResponse, data)

@@ -116,9 +116,6 @@ function isCNAPI.load(ingredientId, ingredientInfo)
       ingredientData.config.inventoryIcon = ingredientData.config.inventoryIcon[1].image
     end
     local ingredientIcon = UtilsCN.resizeImageToIconSize(ingredientData.config.inventoryIcon, ingredientData.directory)
-    logger.enableDebug();
-    logger.logDebug("Loading ingredient: " .. ingredientId);
-    UtilsCN.printTable(craftMethods, "Nope", logger);
     ingredient = { id = ingredientId, name = ingredientData.config.shortdescription, icon = ingredientIcon, recipes = filteredRecipes, methods = craftMethods }
     ingredient.displayName = ingredient.name
     ingredient.displayNameWithMethods = ingredient.displayName .. isCNAPI.formatMethods(ingredient.methods);

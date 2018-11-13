@@ -16,6 +16,7 @@ function RecipeStoreCNAPI.init(virtual)
   message.setHandler("initializeRecipeStore", rsCNApi.initializeRecipeStore);
   message.setHandler("getRecipesForMethodName", rsCNApi.getRecipesForMethodName);
   message.setHandler("getRecipesForMethodNames", rsCNApi.getRecipesForMethodNames);
+  message.setHandler("refreshRecipes", rsCNApi.refreshRecipes);
   
   if(virtual) then
     RecipeStoreCNAPI.rsCNApi = rsCNApi;
@@ -171,5 +172,26 @@ end
 --- recipeStore (object) ({ recipesCraftTo, recipesCraftFrom })
 function rsCNApi.initializeRecipeStore(id, name, methodName, recipeStore)
   return RecipeStoreCNAPI.initializeRecipesForMethod(methodName, recipeStore);
+end
+
+function rsCNApi.refreshRecipes(id, name, itemId)
+  for methodName, methodStore in pairs(storage.methodStore) do
+    if(methodStore.recipesCraftTo[itemId] ~= nil) then
+      local itemData = methodStore.recipesCraftTo[itemId];
+      local newRecipes = {};
+      for idx, recipe in ipairs(itemData.recipes) do
+        for ingredientName, ingredientData in pairs(recipe.input) do
+          if(ingredientData.icon == nil) then
+            local ingredientInfo = IngredientStoreCNAPI.loadIngredient(ingredientName);
+            recipe.input[ingredientName] = { id = ingredientName, displayName = ingredientInfo.displayName, icon = ingredientInfo.icon, methods = ingredientInfo.methods, count = ingredientData.count }
+          end
+        end
+        table.insert(newRecipes, recipe)
+      end
+      itemData.recipes = newRecipes;
+      methodStore.recipesCraftTo[itemId] = itemData;
+    end
+  end
+  return true
 end
 ---------------------------------------------------------

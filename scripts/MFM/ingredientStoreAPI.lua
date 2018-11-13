@@ -116,11 +116,15 @@ function isCNAPI.load(ingredientId, ingredientInfo)
       ingredientData.config.inventoryIcon = ingredientData.config.inventoryIcon[1].image
     end
     local ingredientIcon = UtilsCN.resizeImageToIconSize(ingredientData.config.inventoryIcon, ingredientData.directory)
+    logger.enableDebug();
+    logger.logDebug("Loading ingredient: " .. ingredientId);
+    UtilsCN.printTable(craftMethods, "Nope", logger);
     ingredient = { id = ingredientId, name = ingredientData.config.shortdescription, icon = ingredientIcon, recipes = filteredRecipes, methods = craftMethods }
-    ingredient.displayName = ingredient.name .. formatMethods(ingredient.methods)
+    ingredient.displayName = ingredient.name
+    ingredient.displayNameWithMethods = ingredient.displayName .. isCNAPI.formatMethods(ingredient.methods);
   else
     local ingredientIcon = UtilsCN.resizeImageToIconSize(ingredientInfo.icon, ingredientData.directory)
-    ingredient = { id = ingredientId, name = ingredientData.config.shortdescription, displayName = ingredientInfo.displayName, icon = ingredientIcon, recipes = {}, methods = ingredientInfo.methods }
+    ingredient = { id = ingredientId, name = ingredientData.config.shortdescription, displayName = ingredientInfo.displayName, displayNameWithMethods = ingredientInfo.displayNameWithMethods, icon = ingredientIcon, recipes = {}, methods = ingredientInfo.methods }
     for idx, recipe in ipairs(ingredientInfo.recipes) do
       if(not recipe.excludeFromRecipeBook) then
         if(recipe.methods == nil) then
@@ -129,7 +133,7 @@ function isCNAPI.load(ingredientId, ingredientInfo)
         local newInput = {};
         for inputName, inputData in pairs(recipe.input) do
           local loadedItem = isCNAPI.load(inputName, inputData);
-          local newItem = { id = loadedItem.id, name = loadedItem.name, icon = loadedItem.icon, recipes = loadedItem.recipes, methods = loadedItem.methods, count = inputData.count };
+          local newItem = { id = loadedItem.id, displayName = loadedItem.name, icon = loadedItem.icon, recipes = loadedItem.recipes, methods = loadedItem.methods, count = inputData.count };
           newInput[inputName] = newItem;
         end
         recipe.input = newInput;
@@ -179,9 +183,8 @@ end
 function isCNAPI.updateRecipeFormat(recipe)
   local newRecipe = {};
   local input = {};
-  logger.enableDebug();
   for idx, inputData in ipairs(recipe.input) do
-    input[inputData.name] = { count = inputData.count };
+    input[inputData.name] = { id = inputData.name, displayName = inputData.name, count = inputData.count };
   end
   newRecipe.input = input;
   newRecipe.output = recipe.output;

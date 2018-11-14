@@ -20,14 +20,12 @@ local filters = {
     methodNameFilter = nil,
     ingredientsAvailable = false,
     recipeFilters = {}
-  }
-local methodFilterListItemIds = nil
-local itemListItemIds = nil
-local sourceEntityId = nil
-local ignoreFilterSelected = false
-local ignoreItemSelected = false
-local ignoreIngredientSelected = false
-local dataStore = nil;
+  };
+local methodFilterListItemIds = nil;
+local itemListItemIds = nil;
+local sourceEntityId = nil;
+local ignoreFilterSelected = false;
+local ignoreItemSelected = false;
 
 local initialized = false;
 local filterData = nil;
@@ -71,11 +69,7 @@ end
 
 function RBMFMGui.updateDebugState()
   local handle = function()
-    local result = EntityQueryAPI.requestData(sourceEntityId, "getDebugState", 0, nil)
-    if(result ~= nil) then
-      return true, result
-    end
-    return false, nil
+    return EntityQueryAPI.requestData(sourceEntityId, "getDebugState", 0, nil);
   end
   
   local onCompleted = function(result)
@@ -150,12 +144,7 @@ end
 
 function requestFilterData()
   local handle = function()
-    local result = EntityQueryAPI.requestData(sourceEntityId, "getFilterData", 0)
-    if(result ~= nil) then
-      logger.logDebug("Loaded filter data")
-      return true, result
-    end
-    return false, nil
+    return EntityQueryAPI.requestData(sourceEntityId, "getFilterData", 0, nil);
   end
   local onComplete = function(result)
     if(result == nil) then
@@ -171,14 +160,7 @@ end
 function requestSelectedItem()
   logger.logDebug("Requesting selected item")
   local handle = function()
-    local result = EntityQueryAPI.requestData(sourceEntityId, "getSelectedItem", 0, nil)
-    if(result == true) then
-      return true, nil;
-    elseif(result ~= nil) then
-      logger.logDebug("Loaded selected item: " .. result.id);
-      return true, result;
-    end
-    return false, nil;
+    return EntityQueryAPI.requestData(sourceEntityId, "getSelectedItem", 0, nil);
   end
   local onComplete = function(result)
     selectedItem = result;
@@ -201,12 +183,7 @@ function requestRecipesForSelectedFilters()
   local selectedFilterIds = getSelectedFilterIds();
   logger.logDebug("Requesting recipes for selected filters")
   local handle = function()
-    local result = EntityQueryAPI.requestData(sourceEntityId, "getRecipesForMethodNames", 0, nil, selectedFilterIds)
-    if(result ~= nil) then
-      logger.logDebug("Loaded selected filter data")
-      return true, result;
-    end
-    return false, nil;
+    return EntityQueryAPI.requestData(sourceEntityId, "getRecipesForMethodNames", 0, nil, selectedFilterIds);
   end
   local onComplete = function(result)
     if(result == nil) then
@@ -336,12 +313,7 @@ end
 function requestToggleFilterSelected(filterId)
   local handle = function(id)
     return function()
-      local result = EntityQueryAPI.requestData(sourceEntityId, "toggleFilterSelected", id, nil, id)
-      if(result ~= nil) then
-        logger.logDebug("Toggled filter: " .. id)
-        return true, result
-      end
-      return false, result
+      return EntityQueryAPI.requestData(sourceEntityId, "toggleFilterSelected", id, nil, id);
     end
   end
   local onComplete = function(result)
@@ -359,15 +331,7 @@ end
 function selectItem(itemId)
   local handle = function(id)
     return function()
-      local result = EntityQueryAPI.requestData(sourceEntityId, "selectItem", 0, nil, id)
-      if(result == true) then
-        logger.logDebug("Item selected, returning")
-        return true, result;
-      elseif(result ~= nil) then
-        logger.logDebug("Selected item with id: " .. result.id)
-        return true, result;
-      end
-      return false, nil
+      return EntityQueryAPI.requestData(sourceEntityId, "selectItem", 0, nil, id);
     end
   end
   local onComplete = function(id)
@@ -576,12 +540,7 @@ end
 function requestRefreshRecipes(itemId)
   local handle = function(id)
     return function()
-      local result = EntityQueryAPI.requestData(sourceEntityId, "refreshRecipes", 0, nil, id)
-      if(result ~= nil or result == true) then
-        logger.logDebug("Refreshed item recipes with id: " .. id)
-        return true, result;
-      end
-      return false, nil
+      return EntityQueryAPI.requestData(sourceEntityId, "refreshRecipes", 0, nil, id);
     end
   end
   local onComplete = function(result)
@@ -647,7 +606,7 @@ end
 -----------------------------------------------------------------
 
 function onIngredientSelected()
-  if(ignoreItemSelected or ignoreIngredientSelected) then
+  if(ignoreItemSelected) then
     logger.logDebug("Ignoring Ingredient Selection Change")
     return
   end
@@ -678,12 +637,7 @@ end
 function requestSetSelectFilters(filterIds)
   local handle = function(fIds)
     return function()
-      local result = EntityQueryAPI.requestData(sourceEntityId, "setSelectedFilters", 0, nil, fIds)
-      if(result ~= nil) then
-        logger.logDebug("Set Selected Filters")
-        return true, result;
-      end
-      return false, nil
+      return EntityQueryAPI.requestData(sourceEntityId, "setSelectedFilters", 0, nil, fIds);
     end
   end
   local onComplete = function(result)
@@ -733,13 +687,13 @@ function nameMatchesFilter(item)
 end
 
 function inputNameMatchesFilter(item)
-  if(item.recipes == nil) then
-    logger.logDebug("No recipes!")
-    return false;
-  end
   if(filters.inputNameFilter == nil) then
     logger.logDebug("Input name filter was nil")
     return true;
+  end
+  if(item.recipes == nil) then
+    logger.logDebug("No recipes!")
+    return false;
   end
   local matches = false;
   for idx,recipe in ipairs(item.recipes) do

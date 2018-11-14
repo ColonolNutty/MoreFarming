@@ -1,7 +1,8 @@
 require "/scripts/debugUtilsCN.lua"
 require "/scripts/utilsCN.lua"
 require "/scripts/recipebookMFMQueryAPI.lua"
-require "/scripts/MFM/recipeLocatorAPI.lua"
+require "/scripts/MFM/recipeStoreAPI.lua"
+require "/scripts/MFM/ingredientStoreAPI.lua"
 
 if(RecipeCrafterMFMApi == nil) then
   RecipeCrafterMFMApi = {
@@ -10,39 +11,29 @@ if(RecipeCrafterMFMApi == nil) then
     isCrafting = false
   };
 end
+local rcUtils = {};
 local onRecipeCraftedCallbacks = {};
 local additionalOnDropItems = {};
 local additionalOnDropTreasurePoolNames = {};
-local rcUtils = {};
 local logger = nil;
 local next = next;
 
-function RecipeCrafterMFMApi.dropAdditionalItems(recipeCrafted)
-  for _,additionalItem in ipairs(additionalOnDropItems) do
-    world.spawnItem(additionalItem, world.xwrap(object.position()))
-  end
-end
-
-function RecipeCrafterMFMApi.dropAdditionalPoolItems(recipeCrafted)
-  for _,poolName in ipairs(additionalOnDropTreasurePoolNames) do
-    world.spawnTreasure(world.xwrap(object.position()), poolName, 0)
-  end
-end
 
 function RecipeCrafterMFMApi.init(virtual)
   logger = DebugUtilsCN.init(RecipeCrafterMFMApi.debugMsgPrefix);
+  logger.enableDebug();
+  RecipeStoreCNAPI.init(virtual);
+  IngredientStoreCNAPI.init(virtual);
   RecipeBookMFMQueryAPI.init(virtual);
-  RecipeLocatorAPI.init(virtual);
 
-  table.insert(onRecipeCraftedCallbacks, RecipeCrafterMFMApi.dropAdditionalItems)
-  table.insert(onRecipeCraftedCallbacks, RecipeCrafterMFMApi.dropAdditionalPoolItems)
+  table.insert(onRecipeCraftedCallbacks, RecipeCrafterMFMApi.dropAdditionalItems);
+  table.insert(onRecipeCraftedCallbacks, RecipeCrafterMFMApi.dropAdditionalPoolItems);
   
   if(virtual) then
     RecipeCrafterMFMApi.rcUtils = rcUtils;
   end
   
   logger.setDebugState(false);
-  storage.recipeGroup = config.getParameter("recipeGroup");
   storage.slotCount = config.getParameter("slotCount", 16);
   storage.outputSlot = config.getParameter("outputSlot", 15);
   if storage.outputSlot < 0 then
@@ -57,50 +48,20 @@ function RecipeCrafterMFMApi.init(virtual)
   storage.isRefridgerated = config.getParameter("itemAgeMultiplier", 5) == 0;
   
   --- Changing Properties ---
-  if(storage.currentlySelectedRecipe == nil) then
-    storage.currentlySelectedRecipe = nil;
-  end
-  
-  if(storage.currentIngredients == nil) then
-    storage.currentIngredients = nil;
-  end
-  
-  if(storage.autoCraftState == nil) then
-    storage.autoCraftState = false;
-  end
-  
   storage.ignoreContainerContentChanges = false;
   ---------------------------
   
-  ------ Configuration ------
-  storage.consumeIngredientsOnCraft = true;
-  storage.holdIngredientsOnCraft = true;
-  storage.playSoundBeforeOutputPlaced = true;
-  storage.appendNewOutputToCurrentOutput = true;
-  ---------------------------
-
   message.setHandler("craft", RecipeCrafterMFMApi.craftItem);
-  message.setHandler("getFilterId", rcUtils.getFilterId);
+  message.setHandler("getFilterId", rcUtils.getRecipeGroup);
   message.setHandler("reloadRecipeBook", rcUtils.reloadRecipeBook);
   message.setHandler("getAutoCraftState", rcUtils.getAutoCraftState);
   message.setHandler("setAutoCraftState", rcUtils.setAutoCraftState);
-  
-  RecipeCrafterMFMApi.loadAdditionalData()
-  rcUtils.updateCraftSettings();
-end
 
-function rcUtils.updateCraftSettings()
-  if(getAutoCraftState()) then
-    storage.consumeIngredientsOnCraft = false;
-    storage.holdIngredientsOnCraft = false;
-    storage.playSoundBeforeOutputPlaced = false;
-    storage.appendNewOutputToCurrentOutput = false;
-  else
-    storage.consumeIngredientsOnCraft = true;
-    storage.holdIngredientsOnCraft = true;
-    storage.playSoundBeforeOutputPlaced = true;
-    storage.appendNewOutputToCurrentOutput = true;
-  end
+  message.setHandler("getFilterData", getFilterDataHook);
+  message.setHandler("getSelectedItem", getSelectedItemHook);
+  message.setHandler("selectItem", selectItemHook);
+  
+  RecipeCrafterMFMApi.loadAdditionalData();
 end
 
 function RecipeCrafterMFMApi.loadAdditionalData()
@@ -118,23 +79,131 @@ function RecipeCrafterMFMApi.loadAdditionalData()
   end
 end
 
-function rcUtils.getFilterId()
-  if(not storage.recipeGroup) then
-    return "none"
+function rcUtils.getRecipeGroup()
+  if(storage.recipeGroup == nil) then
+    storage.recipeGroup = config.getParameter("recipeGroup") or "none";
   end
-  return storage.recipeGroup
+  return storage.recipeGroup;
+end
+
+function rcUtils.getCurrentlySelectedRecipe()
+  return storage.currentlySelectedRecipe;
+end
+
+function rcUtils.setCurrentlySelectedRecipe(recipe)
+  storage.currentlySelectedRecipe = recipe;
+end
+
+function rcUtils.getAutoCraftState()
+  if(storage.autoCraftState == nil) then
+    storage.autoCraftState = false;
+  end
+  return storage.autoCraftState;
+end
+
+function rcUtils.setAutoCraftState(id, name, newAutoCraftState)
+  if (storage.autoCraftState ~= newAutoCraftState) then
+    if (newAutoCraftState) then
+      storage.currentlySelectedRecipe = nil;
+    else
+      rcUtils.consumeIngredients()
+      storage.currentlySelectedRecipe = nil;
+    end
+  end
+  storage.autoCraftState = newAutoCraftState or false;
+end
+
+function rcUtils.ingredientsMatchRecipe(recipe, ingredients)
+  if(recipe == nil or recipe.input == nil or ingredients == nil) then
+    logger.logDebug("Ingredients no match");
+    return false;
+  end
+  logger.logDebug("Checking recipe");
+  local recipeMatches = true;
+  for slot, ingredient in pairs(ingredients) do
+    local inputMatches = false;
+    for inputName, inputInfo in pairs(recipe.input) do
+      logger.logDebug("Matching input: " .. inputName);
+      if(ingredient.name == inputName) then
+        if(ingredient.count >= inputInfo.count) then
+          logger.logDebug("Ingredient matched!")
+          inputMatches = true;
+          break;
+        else
+          logger.logDebug("Count didnt match: (" .. ingredient.count .. ", " .. inputInfo.count .. ")");
+        end
+      else
+        logger.logDebug("Names didnt match: (" .. ingredient.name .. ", " .. inputName .. ")");
+      end
+    end
+    if(not inputMatches) then
+      recipeMatches = false;
+      break;
+    end
+  end
+  return recipeMatches;
+end
+
+function getSelectedItemHook()
+  if(storage.selectedItem == nil) then
+    return nil;
+  end
+  return storage.selectedItem;
+end
+
+function selectItemHook(id, name, itemId)
+  if(itemId == nil) then
+    logger.logDebug("itemId was nil!");
+  else
+    logger.logDebug("Selecting item with id: " .. itemId);
+  end
+  return selectItem(itemId);
+end
+
+function selectItem(itemId)
+  if(itemId == nil) then
+    storage.selectedItem = nil;
+    return;
+  else
+    storage.selectedItem = {
+      id = itemId,
+      data = IngredientStoreCNAPI.loadIngredient(itemId)
+    };
+  end
+  return storage.selectedItem;
+end
+
+function getFilterDataHook()
+  local recipeGroup = rcUtils.getRecipeGroup();
+  local filters = {};
+  filters[recipeGroup] = { id = recipeGroup, name = recipeGroup, isSelected = true };
+  RecipeBookMFMQueryAPI.initializeRecipeBook(recipeGroup, RecipeStoreCNAPI.initializeRecipeStore);
+  return filters;
+end
+
+
+
+function RecipeCrafterMFMApi.dropAdditionalItems(recipeCrafted)
+  for _,additionalItem in ipairs(additionalOnDropItems) do
+    world.spawnItem(additionalItem, world.xwrap(object.position()))
+  end
+end
+
+function RecipeCrafterMFMApi.dropAdditionalPoolItems(recipeCrafted)
+  for _,poolName in ipairs(additionalOnDropTreasurePoolNames) do
+    world.spawnTreasure(world.xwrap(object.position()), poolName, 0)
+  end
 end
 
 function RecipeCrafterMFMApi.update(dt)
   if(rcUtils.shouldStopCraftSound(dt)) then
     rcUtils.stopCraftSound();
   end
-  RecipeLocatorAPI.update();
   RecipeBookMFMQueryAPI.update(dt);
   
   ---- Autocraft ----
-  if(not RecipeCrafterMFMApi.containerContentsChanged or not getAutoCraftState()) then
-    return
+  if(not RecipeCrafterMFMApi.containerContentsChanged or not rcUtils.getAutoCraftState()) then
+    return;
   end
   if(storage.currentlySelectedRecipe ~= nil and rcUtils.isOutputSlotModified()) then
     rcUtils.consumeIngredients()
@@ -142,48 +211,17 @@ function RecipeCrafterMFMApi.update(dt)
   elseif(storage.currentlySelectedRecipe ~= nil and rcUtils.shouldRemoveOutput()) then
     rcUtils.removeOutput()
     storage.currentlySelectedRecipe = nil;
-  elseif(getAutoCraftState()) then
+  elseif(rcUtils.getAutoCraftState()) then
     RecipeCrafterMFMApi.craftItem()
   end
 end
 
 function RecipeCrafterMFMApi.die()
-  if(getAutoCraftState()) then
-    rcUtils.removeOutput()
+  if(rcUtils.getAutoCraftState()) then
+    rcUtils.removeOutput();
   end
-  RecipeCrafterMFMApi.releaseIngredients()
-  rcUtils.releaseOutput()
-end
-
-function getAutoCraftState()
-  return rcUtils.getAutoCraftState().autoCraftState
-end
-
-function rcUtils.getAutoCraftState()
-  if(not storage or not storage.autoCraftState) then
-    if (storage) then
-      storage.autoCraftState = false;
-    end
-    return {
-      autoCraftState = false
-    }
-  end
-  return {
-    autoCraftState = storage.autoCraftState
-  }
-end
-
-function rcUtils.setAutoCraftState(id, name, newValue)
-  if (storage.autoCraftState ~= newValue) then
-    if (newValue) then
-      storage.currentlySelectedRecipe = nil;
-    else
-      rcUtils.consumeIngredients()
-      storage.currentlySelectedRecipe = nil;
-    end
-  end
-  storage.autoCraftState = newValue or false;
-  rcUtils.updateCraftSettings()
+  RecipeCrafterMFMApi.releaseIngredients();
+  rcUtils.releaseOutput();
 end
 
 function rcUtils.isOutputSlotModified()
@@ -220,13 +258,14 @@ function rcUtils.isOutputSlotModified()
 end
 
 function rcUtils.consumeIngredients()
-  if(storage.currentlySelectedRecipe == nil) then
+  local currentlySelectedRecipe = rcUtils.getCurrentlySelectedRecipe();
+  if(currentlySelectedRecipe == nil) then
     return;
   end
   RecipeCrafterMFMApi.playCraftSound()
-  RecipeCrafterMFMApi.holdIngredients(storage.currentlySelectedRecipe)
+  RecipeCrafterMFMApi.holdIngredients(currentlySelectedRecipe)
   RecipeCrafterMFMApi.consumeIngredients()
-  RecipeCrafterMFMApi.recipeCrafted(storage.currentlySelectedRecipe)
+  RecipeCrafterMFMApi.recipeCrafted(currentlySelectedRecipe)
 end
 
 function rcUtils.shouldRemoveOutput()
@@ -234,7 +273,7 @@ function rcUtils.shouldRemoveOutput()
     return false;
   end
   local currentIngredients = RecipeCrafterMFMApi.getIngredients();
-  return not RecipeLocatorAPI.hasIngredientsForRecipe(storage.currentlySelectedRecipe, currentIngredients);
+  return not rcUtils.ingredientsMatchRecipe(storage.currentlySelectedRecipe, currentIngredients);
 end
 
 function rcUtils.removeOutput()
@@ -269,7 +308,7 @@ end
 
 --onNoRecipeFound() when craftItem is called, this method is invoked when no recipe is found using the current ingredients
 function RecipeCrafterMFMApi.onNoRecipeFound()
-  if (getAutoCraftState()) then
+  if (rcUtils.getAutoCraftState()) then
     RecipeCrafterMFMApi.onNoRecipeFoundAutoCraft()
   else
     RecipeCrafterMFMApi.onNoRecipeFoundBase()
@@ -289,7 +328,7 @@ end
 -- Returns true if a new output can be placed
 -- Returns false if a new output can not be placed (Slot is full, or slot is not the same item)
 function RecipeCrafterMFMApi.isOutputSlotAvailable()
-  if(getAutoCraftState()) then
+  if(rcUtils.getAutoCraftState()) then
     return RecipeCrafterMFMApi.isOutputSlotAvailableAutoCraft()
   else
     return RecipeCrafterMFMApi.isOutputSlotAvailableBase()
@@ -313,11 +352,11 @@ function RecipeCrafterMFMApi.isOutputSlotAvailableAutoCraft()
     return false;
   end
   
-  local currentIngredients = RecipeCrafterMFMApi.getIngredients();
   -- When the ingredients change
   
+  local currentIngredients = RecipeCrafterMFMApi.getIngredients();
   -- Check current ingredients to verify the previous recipe still has the required ingredients
-  local hasRequiredIngredients = RecipeLocatorAPI.hasIngredientsForRecipe(currentlySelectedRecipe, currentIngredients);
+  local hasRequiredIngredients = rcUtils.ingredientsMatchRecipe(currentlySelectedRecipe, currentIngredients);
   if(not hasRequiredIngredients) then
     logger.logDebug("Required ingredients missing for current recipe.")
     return true;
@@ -351,8 +390,9 @@ function RecipeCrafterMFMApi.isOutputSlotAvailableBase()
     return false;
   end
   
+  local currentIngredients = RecipeCrafterMFMApi.getIngredients();
   -- Check current ingredients to verify the previous recipe still has the required ingredients
-  local hasRequiredIngredients = RecipeLocatorAPI.hasIngredientsForRecipe(storage.currentlySelectedRecipe, storage.currentIngredients);
+  local hasRequiredIngredients = rcUtils.ingredientsMatchRecipe(storage.currentlySelectedRecipe, currentIngredients);
   if(not hasRequiredIngredients) then
     logger.logDebug("Current output matched previous recipe, but the current ingredients weren't right")
     return false;
@@ -376,7 +416,7 @@ function RecipeCrafterMFMApi.craftItem()
   --logger.logDebug("craftItem Called")
   if(RecipeCrafterMFMApi.isCrafting) then
     --logger.logDebug("Already crafting, ignoring request")
-    return
+    return;
   end
   RecipeCrafterMFMApi.isCrafting = true;
   
@@ -384,10 +424,10 @@ function RecipeCrafterMFMApi.craftItem()
   
   local ingredients = RecipeCrafterMFMApi.getIngredients();
   
-  if not rcUtils.hasIngredients(ingredients) then
+  if(not rcUtils.hasIngredients(ingredients)) then
     --logger.logDebug("No ingredients found, aborting craft process")
     RecipeCrafterMFMApi.isCrafting = false;
-    RecipeCrafterMFMApi.onNoIngredientsFound()
+    RecipeCrafterMFMApi.onNoIngredientsFound();
     RecipeCrafterMFMApi.containerContentsChanged = false;
     return;
   end
@@ -396,7 +436,7 @@ function RecipeCrafterMFMApi.craftItem()
   
   local outputSlotAvailable = RecipeCrafterMFMApi.isOutputSlotAvailable();
   if(not outputSlotAvailable) then
-    logger.logDebug("Cannot craft item, output is not available, aborting craft process")
+    logger.logDebug("Cannot craft item, output is not available, aborting craft process");
     RecipeCrafterMFMApi.isCrafting = false;
     RecipeCrafterMFMApi.containerContentsChanged = false;
     return;
@@ -405,10 +445,15 @@ function RecipeCrafterMFMApi.craftItem()
   logger.logDebug("Output slot is available");
   
   RecipeCrafterMFMApi.onCraftStart();
-  if(storage.playSoundBeforeOutputPlaced) then
-    RecipeCrafterMFMApi.playCraftSound()
+  if(not rcUtils.getAutoCraftState()) then
+    RecipeCrafterMFMApi.playCraftSound();
   end
-  local outputRecipe = RecipeLocatorAPI.findRecipeForIngredients(ingredients, storage.recipeGroup)
+  local recipes = RecipeStoreCNAPI.getRecipesContainingIngredientCounts(storage.recipeGroup, ingredients);
+  local outputRecipe = nil;
+  for outputName, recipeInfos in pairs(recipes) do
+    outputRecipe = recipeInfos[1];
+    break;
+  end
   if (outputRecipe) then
     logger.logDebug("Found recipe, updating output");
     RecipeCrafterMFMApi.onRecipeFound();
@@ -429,10 +474,11 @@ function RecipeCrafterMFMApi.holdIngredients(recipe)
   storage.heldIngredients = {}
   logger.logDebug("Holding ingredients")
   local containerId = entity.id()
-  for _,input in ipairs(recipe.input) do
-    if(world.containerConsume(containerId, input)) then
-      logger.logDebug("Holding ingredient with name: " .. input.name .. " and count: " .. input.count)
-      table.insert(storage.heldIngredients, input)
+  for inputName, inputInfo in pairs(recipe.input) do
+    local ingredient = { name = inputName, count = inputInfo.count };
+    if(world.containerConsume(containerId, ingredient)) then
+      logger.logDebug("Holding ingredient with name: " .. inputName .. " and count: " .. inputInfo.count)
+      table.insert(storage.heldIngredients, ingredient)
     end
   end
 end
@@ -515,7 +561,7 @@ function RecipeCrafterMFMApi.getOutputItem(recipe)
   local existingOutput = world.containerItemAt(entity.id(), storage.outputSlot)
   
   local expectedNewAmount = recipe.output.count
-  if(storage.appendNewOutputToCurrentOutput and existingOutput) then
+  if(not rcUtils.getAutoCraftState() and existingOutput) then
     expectedNewAmount = expectedNewAmount + existingOutput.count
   end
   return {name = recipe.output.name, count = expectedNewAmount}
@@ -567,7 +613,7 @@ function rcUtils.craftWithRecipe(recipe)
   storage.currentlySelectedRecipe = nil;
   storage.outputPlacedSuccessfully = false;
   
-  if(storage.holdIngredientsOnCraft) then
+  if(not rcUtils.getAutoCraftState()) then
     RecipeCrafterMFMApi.holdIngredients(recipe)
   end
   
@@ -589,7 +635,7 @@ function rcUtils.craftWithRecipe(recipe)
   
   totalOutputCount = totalOutputCount + newOutput.count
   if newOutput.name == outputItem.name and totalOutputCount == outputItem.count then
-    if(storage.consumeIngredientsOnCraft) then
+    if(not rcUtils.getAutoCraftState()) then
       RecipeCrafterMFMApi.consumeIngredients()
       RecipeCrafterMFMApi.recipeCrafted(storage.currentlySelectedRecipe)
     end

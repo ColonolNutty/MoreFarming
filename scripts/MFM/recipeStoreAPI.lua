@@ -7,10 +7,12 @@ if(RecipeStoreCNAPI == nil) then
 end
 local rsCNApi = {};
 
-local logger = nil
+RECIPE_CONFIGURATION_PATH = "/recipeCrafterMFM/";
+
+local logger = nil;
 
 function RecipeStoreCNAPI.init(virtual)
-  logger = DebugUtilsCN.init("[CNISAPI]");
+  logger = DebugUtilsCN.init("[CNRSAPI]");
   IngredientStoreCNAPI.init(virtual);
   message.setHandler("getRecipesContainingIngredientCounts", rsCNApi.getRecipesContainingIngredientCounts);
   message.setHandler("initializeRecipeStore", rsCNApi.initializeRecipeStore);
@@ -76,70 +78,63 @@ end
 
 function RecipeStoreCNAPI.getRecipesContainingIngredientCounts(methodName, ingredients)
   if(methodName == nil or ingredients == nil) then
+    logger.logDebug("Method name or ingredients null");
     return {};
   end
-  logger.debug("Getting recipes for method " .. methodName);
+  logger.logDebug("Getting recipes for method " .. methodName);
   local methodStore = rsCNApi.getMethodStore(methodName);
   local recipesContainingIngredients = {};
-  local loadedStartingRecipes = false;
-  for ingredientName, ingredientCount in pairs(ingredients) do
-    if(loadedStartingRecipes) then
-      local hasRecipes = false;
-      local newRecipesContainingIngredients = {};
-      for recipeName, recipes in pairs(recipesContainingIngredients) do
-        local newRecipes = {};
-        for idx, recipe in ipairs(recipes) do
-          if(recipe.input ~= nil and recipe.input[ingredientName] ~= nil and recipe.input[ingredientName].count == ingredientCount) then
-            hasRecipes = true;
-            table.insert(newRecipes, recipe);
-          end
-        end
-        newRecipesContainingIngredients[recipeName] = newRecipes;
-      end
-      if(not hasRecipes) then
-        recipesContainingIngredients = {};
-        break;
-      end
-      recipesContainingIngredients = newRecipesContainingIngredients;
-    else
-      loadedStartingRecipes = true;
-      local ingredientRecipes = methodStore.recipesCraftFrom[ingredientName];
-      if(ingredientRecipes == nil) then
-        recipesContainingIngredients = {};
-        break;
-      end
-      local matchesRecipes = true;
-      for idx, recipeOutputName in ipairs(ingredientRecipes) do
-        local outputRecipes = methodStore.recipesCraftTo[recipeOutputName];
-        if(outputRecipes == nil) then
-          matchesRecipes = false;
-          break;
-        end
+  for slot, ingredient1 in pairs(ingredients) do
+    local ingredientRecipes = methodStore.recipesCraftFrom[ingredient1.name];
+    if(ingredientRecipes == nil) then
+      break;
+    end
+    for idx, recipeOutputName in ipairs(ingredientRecipes) do
+      local outputRecipes = methodStore.recipesCraftTo[recipeOutputName];
+      if(outputRecipes ~= nil) then
         local matchingRecipes = {};
-        for idx, recipe in ipairs(outputRecipes.recipesContainingIngredients) do
-          local ingredientInputCount = recipe.input[ingredientName];
-          if(ingredientInputCount ~= nil and ingredientInputCount == ingredientCount) then
-            table.insert(matchingRecipes, recipe);
+        for idx, recipe in ipairs(outputRecipes.recipes) do
+          logger.logDebug("Checking recipe");
+          local recipeMatches = true;
+          for inputName, inputInfo in pairs(recipe.input) do
+            logger.logDebug("Matching input: " .. inputName);
+            local inputMatches = false;
+            for slot, ingredient in pairs(ingredients) do
+              if(ingredient.name == inputName) then
+                if(ingredient.count >= inputInfo.count) then
+                  logger.logDebug("Ingredient matched!")
+                  inputMatches = true;
+                  break;
+                else
+                  logger.logDebug("Counts didnt match: (" .. ingredient.count .. ", " .. inputInfo.count .. ")");
+                end
+              else
+                logger.logDebug("Names didnt match: (" .. ingredient.name .. ", " .. inputName .. ")");
+              end
+            end
+            if(not inputMatches) then
+              recipeMatches = false;
+              break;
+            end
+          end
+          if(recipeMatches) then
+              logger.logDebug("Recipe matched");
+              table.insert(matchingRecipes, recipe);
           end
         end
-        if(#matchingRecipes == 0) then
-          matchesRecipes = false;
-          break;
+        if(#matchingRecipes > 0) then
+          recipesContainingIngredients[recipeOutputName] = matchingRecipes;
         end
-        recipesContainingIngredients[recipeOutputName] = matchingRecipes;
-      end
-      if(not matchesRecipes) then
-        recipesContainingIngredients = {};
-        break;
       end
     end
+    break;
   end
   return recipesContainingIngredients;
 end
 
 --- methodName (string)
 function rsCNApi.getRecipesForMethodName(id, name, methodName)
-  if(methodNames == nil) then
+  if(methodName == nil) then
     return {};
   end
   
@@ -171,7 +166,7 @@ end
 --- methodName (string) (ex. bakingMFM)
 --- recipeStore (object) ({ recipesCraftTo, recipesCraftFrom })
 function rsCNApi.initializeRecipeStore(id, name, methodName, recipeStore)
-  return RecipeStoreCNAPI.initializeRecipesForMethod(methodName, recipeStore);
+  return RecipeStoreCNAPI.initializeRecipeStore(methodName, recipeStore);
 end
 
 function rsCNApi.refreshRecipes(id, name, itemId)

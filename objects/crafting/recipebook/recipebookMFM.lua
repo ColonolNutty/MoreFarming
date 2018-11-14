@@ -4,35 +4,6 @@ require "/scripts/MFM/ingredientStoreAPI.lua"
 
 FILTER_NAMES_PATH = "/recipeCrafterMFM/methodFilterNamesMFM.json"
 RECIPE_FILTER_FRIENDLY_NAMES = "/recipeCrafterMFM/methodFriendlyNamesMFM.json"
-RECIPE_CONFIGURATION_PATH = "/recipeCrafterMFM/"
-
--- Storage Property Names --
--- rbDataStore
----- selectedItemId (Int) (ItemId)
----- ingredientStore (Table) (ItemId, Item)
------- id (String) (ItemId)
------- name (String)
------- icon (String)
------- recipes (Table Array) (Idx, RecipeItem)
--------- input (Table Array) (Idx, ItemDescriptor)
----------- name (String) (ItemId)
----------- count (Int)
--------- output (Table Array) (Idx, ItemDescriptor)
----------- name (String) (ItemId)
----------- count (Int)
--------- groups (String Array)
--------- methods (Table) (MethodName, MethodFriendlyName)
------- methods (Table) (MethodName, MethodFriendlyName)
----- methodFilters (Table) (MethodName, MethodItem)
------- id (String)
------- name (String)
------- isSelected (Boolean)
------- items (Table) (ItemId, Item)
----- methodFilterNames (String Array)
----- methodFriendlyNames (String Array)
-
---- Handlers ---
----
 
 local logger = nil;
 local initialized = false;
@@ -114,12 +85,11 @@ function toggleFilterSelected(filterId)
     filterData[filterId] = initializeFilter(filterId);
   end
   filterData[filterId].isSelected = not filterData[filterId].isSelected;
-  return true;
 end
 
 function getSelectedItemHook()
   if(storage.selectedItem == nil) then
-    return true;
+    return;
   end
   return storage.selectedItem;
 end
@@ -136,7 +106,7 @@ end
 function selectItem(itemId)
   if(itemId == nil) then
     storage.selectedItem = nil;
-    return true;
+    return;
   else
     storage.selectedItem = {
       id = itemId,

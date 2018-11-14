@@ -59,14 +59,10 @@ function checkForRecipeBook()
   end
   checkedForRecipeBook = true
   local handle = function()
-    local result = EntityQueryAPI.requestData(entityId, "reloadRecipeBook", entityId)
-    if(result ~= nil) then
-      return true, result
-    end
-    return false, nil
+    return EntityQueryAPI.requestData(entityId, "reloadRecipeBook", entityId);
   end
   local onComplete = function(result)
-    if(result) then
+    if(result ~= nil) then
       RBMFMGui.loadDataStore()
     end
   end
@@ -85,11 +81,7 @@ end
 function requestEnableSingleFilter()
   local handle = function(eId)
     return function()
-      local result = EntityQueryAPI.requestData(eId, "getFilterId", eId)
-      if(result ~= nil) then
-        return true, result
-      end
-      return false, nil
+      return EntityQueryAPI.requestData(eId, "getFilterId", eId);
     end
   end
   local onComplete = function(result)
@@ -148,23 +140,21 @@ end
 
 function updateAutoCraftState()
   if(autoCraftStateUpdated) then
-    return
+    return;
   end
   local handle = function()
-    local result = EntityQueryAPI.requestData(entityId, "getAutoCraftState", 0, nil)
-    if(result ~= nil) then
-      return true, result
+    return EntityQueryAPI.requestData(entityId, "getAutoCraftState", 0, nil);
+  end
+  
+  local onCompleted = function(autoCraftState)
+    if(autoCraftState == nil) then
+      autoCraftState = false;
     end
-    return false, nil
+    setAutoCraftState(autoCraftState);
+    hideCraftButtonIfAutoCraftEnabled();
+    widget.setChecked(TOGGLE_AUTOCRAFT_NAME, autoCraftState);
+    autoCraftStateUpdated = true;
   end
   
-  local onCompleted = function(result)
-    local autoCraftState = result.autoCraftState
-    setAutoCraftState(autoCraftState)
-    hideCraftButtonIfAutoCraftEnabled()
-    widget.setChecked(TOGGLE_AUTOCRAFT_NAME, autoCraftState)
-    autoCraftStateUpdated = true
-  end
-  
-  EntityQueryAPI.addRequest("RGMFMGui.updateAutoCraftState", handle, onCompleted)
+  EntityQueryAPI.addRequest("RGMFMGui.updateAutoCraftState", handle, onCompleted);
 end

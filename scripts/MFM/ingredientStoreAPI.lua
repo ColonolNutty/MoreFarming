@@ -2,12 +2,14 @@ require "/scripts/debugUtilsCN.lua"
 require "/scripts/utilsCN.lua"
 
 if(IngredientStoreCNAPI == nil) then
-  IngredientStoreCNAPI = {};
+  IngredientStoreCNAPI = {
+    isInitialized = false
+  };
 end
 
-local METHOD_FILTER_NAMES_PATH = "/recipeCrafterMFM/methodFilterNamesMFM.json"
-local RECIPE_METHOD_FRIENDLY_NAMES = "/recipeCrafterMFM/methodFriendlyNamesMFM.json"
-local RECIPE_CONFIGURATION_PATH = "/recipeCrafterMFM/"
+local METHOD_FILTER_NAMES_PATH = "/recipeCrafterMFM/methodFilterNamesMFM.json";
+local RECIPE_METHOD_FRIENDLY_NAMES = "/recipeCrafterMFM/methodFriendlyNamesMFM.json";
+local RECIPE_CONFIGURATION_PATH = "/recipeCrafterMFM/";
 
 local isCNAPI = {};
 
@@ -25,27 +27,11 @@ function IngredientStoreCNAPI.init(virtual)
     IngredientStoreCNAPI.isCNAPI = isCNAPI;
   end
   message.setHandler("loadIngredient", isCNAPI.loadIngredient);
-  table.insert(recipeFilters.groupFilters, isCNAPI.hasFriendlyNamefilter)
-  
-  if(storage) then
-    if(storage.methodFriendlyNames == nil) then
-      storage.methodFriendlyNames = root.assetJson(RECIPE_METHOD_FRIENDLY_NAMES);
-    end
-    if(storage.ingredientStore == nil) then
-      storage.ingredientStore = {};
-    end
-  else
-    if(methodFriendlyNames == nil) then
-      methodFriendlyNames = root.assetJson(RECIPE_METHOD_FRIENDLY_NAMES);
-    end
-    if(ingredientStore == nil) then
-      ingredientStore = {};
-    end
-  end
+  table.insert(recipeFilters.groupFilters, isCNAPI.hasFriendlyNamefilter);
 end
 
 function isCNAPI.getIngredientStore()
-  if(not storage) then
+  if(storage == nil) then
     if(ingredientStore == nil) then
       ingredientStore = {};
     end
@@ -60,9 +46,15 @@ function isCNAPI.getIngredientStore()
 end
 
 function isCNAPI.getMethodFriendlyName(group)
-  if(storage) then
+  if(storage ~= nil) then
+    if(storage.methodFriendlyNames == nil) then
+      storage.methodFriendlyNames = root.assetJson(RECIPE_METHOD_FRIENDLY_NAMES);
+    end
     return storage.methodFriendlyNames[group];
   else
+    if(methodFriendlyNames == nil) then
+      methodFriendlyNames = root.assetJson(RECIPE_METHOD_FRIENDLY_NAMES);
+    end
     return methodFriendlyNames[group];
   end
 end
@@ -94,38 +86,31 @@ end
 function isCNAPI.load(ingredientId, ingredientInfo)
   local ingredientStorage = isCNAPI.getIngredientStore();
   if(ingredientStorage[ingredientId] ~= nil) then
-    --if(ingredientInfo ~= nil) then
-    --  local existingIngredient = ingredientStorage[ingredientId];
-    --  for idx, recipe in ipairs(ingredientInfo.recipes) do
-    --    table.insert(existingIngredient.recipes, recipe);
-    --  end
-    --  ingredientStorage[ingredientId] = existingIngredient;
-    --end
-    return ingredientStorage[ingredientId]
+    return ingredientStorage[ingredientId];
   end
-  local ingredientData = root.itemConfig({ name = ingredientId })
+  local ingredientData = root.itemConfig({ name = ingredientId });
   if(ingredientData == nil) then
-    logger.logDebug("No ingredient data found: " .. ingredientId)
-    return nil
+    logger.logDebug("No ingredient data found: " .. ingredientId);
+    return nil;
   end
   local ingredient = nil;
   if(ingredientInfo == nil or ingredientInfo.recipes == nil) then
-    local craftMethods, filteredRecipes = isCNAPI.filterRecipes(root.recipesForItem(ingredientId))
-    logger.logDebug("Ingredient data found: icon " .. ingredientData.config.inventoryIcon .. " directory " .. ingredientData.directory)
-    if type(ingredientData.config.inventoryIcon) == 'table' then
-      ingredientData.config.inventoryIcon = ingredientData.config.inventoryIcon[1].image
+    local craftMethods, filteredRecipes = isCNAPI.filterRecipes(root.recipesForItem(ingredientId));
+    logger.logDebug("Ingredient data found: icon " .. ingredientData.config.inventoryIcon .. " directory " .. ingredientData.directory);
+    if(type(ingredientData.config.inventoryIcon) == 'table') then
+      ingredientData.config.inventoryIcon = ingredientData.config.inventoryIcon[1].image;
     end
-    local ingredientIcon = UtilsCN.resizeImageToIconSize(ingredientData.config.inventoryIcon, ingredientData.directory)
-    ingredient = { id = ingredientId, name = ingredientData.config.shortdescription, icon = ingredientIcon, recipes = filteredRecipes, methods = craftMethods }
-    ingredient.displayName = ingredient.name
+    local ingredientIcon = UtilsCN.resizeImageToIconSize(ingredientData.config.inventoryIcon, ingredientData.directory);
+    ingredient = { id = ingredientId, name = ingredientData.config.shortdescription, icon = ingredientIcon, recipes = filteredRecipes, methods = craftMethods };
+    ingredient.displayName = ingredient.name;
     ingredient.displayNameWithMethods = ingredient.displayName .. isCNAPI.formatMethods(ingredient.methods);
   else
-    local ingredientIcon = UtilsCN.resizeImageToIconSize(ingredientInfo.icon, ingredientData.directory)
-    ingredient = { id = ingredientId, name = ingredientData.config.shortdescription, displayName = ingredientInfo.displayName, displayNameWithMethods = ingredientInfo.displayNameWithMethods, icon = ingredientIcon, recipes = {}, methods = ingredientInfo.methods }
+    local ingredientIcon = UtilsCN.resizeImageToIconSize(ingredientInfo.icon, ingredientData.directory);
+    ingredient = { id = ingredientId, name = ingredientData.config.shortdescription, displayName = ingredientInfo.displayName, displayNameWithMethods = ingredientInfo.displayNameWithMethods, icon = ingredientIcon, recipes = {}, methods = ingredientInfo.methods };
     for idx, recipe in ipairs(ingredientInfo.recipes) do
       if(not recipe.excludeFromRecipeBook) then
         if(recipe.methods == nil) then
-          recipe.methods = {}
+          recipe.methods = {};
         end
         local newInput = {};
         for inputName, inputData in pairs(recipe.input) do
@@ -138,43 +123,43 @@ function isCNAPI.load(ingredientId, ingredientInfo)
       end
     end
   end
-  ingredientStorage[ingredientId] = ingredient
-  return ingredient
+  ingredientStorage[ingredientId] = ingredient;
+  return ingredient;
 end
 
 function isCNAPI.filterRecipes(recipes)
   if(UtilsCN.isEmpty(recipes)) then
-    return nil
+    return nil;
   end
-  local allMethods = {}
-  local result = {}
+  local allMethods = {};
+  local result = {};
   for idx, recipe in ipairs(recipes) do
     if(recipe.methods == nil) then
-      recipe.methods = {}
+      recipe.methods = {};
     end
-    local includeRecipe = false
-    local excludeRecipe = false
-    logger.logDebug("Looking at recipe " .. recipe.output.name)
+    local includeRecipe = false;
+    local excludeRecipe = false;
+    logger.logDebug("Looking at recipe " .. recipe.output.name);
     for idx, group in ipairs(recipe.groups) do
-      logger.logDebug("Looking at recipe group: " .. group)
+      logger.logDebug("Looking at recipe group: " .. group);
       if(isCNAPI.isExcludedFromRecipeBook(group)) then
-        excludeRecipe = true
-        includeRecipe = false
+        excludeRecipe = true;
+        includeRecipe = false;
       end
       if(not excludeRecipe and isCNAPI.passesAllFilters(recipeFilters.groupFilters, group)) then
-        logger.logDebug("Recipe group passes filters: " .. group)
+        logger.logDebug("Recipe group passes filters: " .. group);
         -- Include recipe if at least one group passes all filters
-        includeRecipe = true
+        includeRecipe = true;
         -- If the group matches the filters, there must be a friendly name for it, set it
-        recipe.methods[group] = isCNAPI.getMethodFriendlyName(group)
-        allMethods[group] = recipe.methods[group]
+        recipe.methods[group] = isCNAPI.getMethodFriendlyName(group);
+        allMethods[group] = recipe.methods[group];
       end
     end
     if(includeRecipe and not excludeRecipe) then
-      table.insert(result, isCNAPI.updateRecipeFormat(recipe))
+      table.insert(result, isCNAPI.updateRecipeFormat(recipe));
     end
   end
-  return allMethods, result
+  return allMethods, result;
 end
 
 function isCNAPI.updateRecipeFormat(recipe)
@@ -187,7 +172,7 @@ function isCNAPI.updateRecipeFormat(recipe)
   newRecipe.output = recipe.output;
   newRecipe.groups = recipe.groups;
   newRecipe.methods = recipe.methods;
-  newRecipe.displayMethods = isCNAPI.formatMethods(recipe.methods)
+  newRecipe.displayMethods = isCNAPI.formatMethods(recipe.methods);
   return newRecipe;
 end
 

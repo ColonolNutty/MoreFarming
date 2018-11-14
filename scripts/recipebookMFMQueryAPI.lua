@@ -17,33 +17,49 @@ local logger = nil;
 function RecipeBookMFMQueryAPI.init(virtual)
   logger = DebugUtilsCN.init("[RBMFMQAPI]")
   EntityQueryAPI.init(virtual)
-  message.setHandler("getDataStore", rbAPI.getDataStore);
-  message.setHandler("setDataStore", rbAPI.setDataStore);
-  message.setHandler("updateSelectedFilters", rbAPI.updateSelectedFilters);
-  message.setHandler("storeIngredient", rbAPI.storeIngredient);
-  message.setHandler("updateSelectedId", rbAPI.updateSelectedId);
-  message.setHandler("getRecipesForFilter", RecipeBookMFMQueryAPI.getRecipesForFilter);
+  message.setHandler("getSelectedItem", getSelectedItemHook);
+  message.setHandler("selectItem", selectItemHook);
+  
   RecipeBookMFMQueryAPI.isInitialized = true;
+end
+
+function RecipeBookMFMQueryAPI.initializeRecipeBook(methodName, onCompleteCallback)
+  local recipeBookId = rbAPI.getRecipeBookEntityId()
+  if(recipeBookId == nil) then
+    if(onCompleteCallback ~= nil) then
+      return onCompleteCallback(nil)
+    end
+    return;
+  end
+  local handle = function(rbId, mName)
+    return function()
+      return EntityQueryAPI.requestData(rbId, "initializeRecipeStore", 0, nil, mName);
+    end
+  end
+  local onComplete = function(mName, onCompleteCB)
+    return function(result)
+      if(onCompleteCb ~= nil) then
+        onCompleteCb(mName, result);
+      end
+    end
+  end
+  EntityQueryAPI.addRequest("requestInitializeRecipeStore", handle(recipeBookId, methodName), onComplete(methodName, onCompleteCallback))
 end
 
 function RecipeBookMFMQueryAPI.update(dt)
   EntityQueryAPI.update(dt);
 end
 
-function rbAPI.getDefaultDataStore()
-  return {
-    selectedItemId = nil,
-    ingredientStore = {},
-    methodFilters = {},
-    sortedMethodFilters = {},
-    methodFilterNames = {},
-    methodFriendlyNames = {},
-    recipeBookExists = false
-  };
+function RecipeBookMFMQueryAPI.getRecipesForMethodName(recipeGroup)
+  return rbAPI.queryRecipeBook("getRecipesForMethodName", 0, nil, recipeGroup)
 end
 
-function rbAPI.getDefaultItem(itemId)
-  return { id = itemId, name = itemId, icon = "", recipes = {}, methods = {} }
+function getSelectedItemHook(id)
+  return rbAPI.queryRecipeBook("getSelectedItem", id, false, nil)
+end
+
+function selectItemHook(id, name, itemId)
+  return rbAPI.queryRecipeBook("selectItem", id, false, itemId)
 end
 
 function rbAPI.getRecipeBookEntityId()
@@ -55,10 +71,6 @@ function rbAPI.getRecipeBookEntityId()
   return foundRecipeBookIds[1]
 end
 
-function RecipeBookMFMQueryAPI.getRecipesForFilter(id, name, filterName)
-  return rbAPI.queryRecipeBook("getRecipesForMethodName", id or filterName, {}, filterName)
-end
-
 function rbAPI.queryRecipeBook(requestName, requestId, defaultResponse, data)
   if(not RecipeBookMFMQueryAPI.isInitialized) then
     logger.logError("RecipeBookMFMQueryAPI not initialized")
@@ -68,25 +80,5 @@ function rbAPI.queryRecipeBook(requestName, requestId, defaultResponse, data)
   if(recipeBookId == nil) then
     return defaultResponse
   end
-  return EntityQueryAPI.requestData(recipeBookId, requestName, requestId, defaultResponse, data)
-end
-
-function rbAPI.getDataStore(id)
-    return rbAPI.queryRecipeBook("getDataStore", id, rbAPI.getDefaultDataStore(), nil)
-end
-
-function rbAPI.setDataStore(id, name, newDataStore)
-    return rbAPI.queryRecipeBook("setDataStore", id, false, newDataStore)
-end
-
-function rbAPI.updateSelectedFilters(id, name, filterData)
-    return rbAPI.queryRecipeBook("updateSelectedFilters", id, false, filterData)
-end
-
-function rbAPI.storeIngredient(id, name, itemId)
-    return rbAPI.queryRecipeBook("storeIngredient", id, rbAPI.getDefaultItem(itemId), itemId)
-end
-
-function rbAPI.updateSelectedId(id, name, newId)
-    return rbAPI.queryRecipeBook("updateSelectedId", id, false, newId)
+  return EntityQueryAPI.requestData(recipeBookId, requestName, requestId, defaultResponse, data);
 end

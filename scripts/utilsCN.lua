@@ -12,21 +12,37 @@ end
 
 function UtilsCN.printTable(tabVal, previousName, logger)
   if(tabVal == nil) then
-    uCN.logDebug(logger, "tabVal is nil for '" .. previousName .. "'. Nothing to print")
+    uCN.logDebug(logger, "tabVal is nil for '" .. previousName .. "'. Nothing to print");
     return;
   end
-  if(type(tabVal) == "table") then
-    local prevName = previousName or ""
+  local prevName = previousName or "";
+  if(tabVal[1] ~= nil) then
+    uCN.logDebug(logger, "Printing array");
+    for idx,val in ipairs(tabVal) do
+      if(type(val) == "function") then
+        uCN.logDebug(logger, "'" .. prevName .. "' - table '" .. idx .. "'");
+      elseif(type(val) == "table") then
+        UtilsCN.printTable(val, "'" .. prevName .. "' - table '" .. idx .. "'", logger);
+      else
+        UtilsCN.printValue(val, "'" .. prevName .. "' - '" .. idx .. "'", logger);
+      end
+    end
+  elseif(type(tabVal) == "table") then
+    uCN.logDebug(logger, "Printing table");
+    if(#tabVal == 0) then
+      uCN.logDebug(logger, "table was empty");
+    end
     for name,val in pairs(tabVal) do
       if(type(val) == "function") then
-        
+        uCN.logDebug(logger, "'" .. prevName .. "' - table '" .. name .. "'");
       elseif(type(val) == "table") then
-        UtilsCN.printTable(val, "'" .. prevName .. "' - table '" .. name .. "'", logger)
+        UtilsCN.printTable(val, "'" .. prevName .. "' - table '" .. name .. "'", logger);
       else
-        UtilsCN.printValue(val, "'" .. prevName .. "' - '" .. name .. "'", logger)
+        UtilsCN.printValue(val, "'" .. prevName .. "' - '" .. name .. "'", logger);
       end
     end
   else
+    uCN.logDebug(logger, "Printing value");
     UtilsCN.printValue(tabVal, "'" .. previousName .. "'", logger)
   end
 end

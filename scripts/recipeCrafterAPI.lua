@@ -57,9 +57,9 @@ function RecipeCrafterMFMApi.init(virtual)
   message.setHandler("getAutoCraftState", rcUtils.getAutoCraftState);
   message.setHandler("setAutoCraftState", rcUtils.setAutoCraftState);
 
-  message.setHandler("getFilterData", getFilterDataHook);
-  message.setHandler("getSelectedItem", getSelectedItemHook);
-  message.setHandler("selectItem", selectItemHook);
+  message.setHandler("getFilterData", rcUtils.getFilterDataHook);
+  message.setHandler("getSelectedItem", rcUtils.getSelectedItemHook);
+  message.setHandler("selectItem", rcUtils.selectItemHook);
   
   RecipeCrafterMFMApi.loadAdditionalData();
 end
@@ -144,23 +144,23 @@ function rcUtils.ingredientsMatchRecipe(recipe, ingredients)
   return recipeMatches;
 end
 
-function getSelectedItemHook()
+function rcUtils.getSelectedItemHook()
   if(storage.selectedItem == nil) then
     return nil;
   end
   return storage.selectedItem;
 end
 
-function selectItemHook(id, name, itemId)
+function rcUtils.selectItemHook(id, name, itemId)
   if(itemId == nil) then
     logger.logDebug("itemId was nil!");
   else
     logger.logDebug("Selecting item with id: " .. itemId);
   end
-  return selectItem(itemId);
+  return rcUtils.selectItem(itemId);
 end
 
-function selectItem(itemId)
+function rcUtils.selectItem(itemId)
   if(itemId == nil) then
     storage.selectedItem = nil;
     return;
@@ -173,7 +173,7 @@ function selectItem(itemId)
   return storage.selectedItem;
 end
 
-function getFilterDataHook()
+function rcUtils.getFilterDataHook()
   local recipeGroup = rcUtils.getRecipeGroup();
   local filters = {};
   filters[recipeGroup] = { id = recipeGroup, name = recipeGroup, isSelected = true };
@@ -448,7 +448,7 @@ function RecipeCrafterMFMApi.craftItem()
   if(not rcUtils.getAutoCraftState()) then
     RecipeCrafterMFMApi.playCraftSound();
   end
-  local recipes = RecipeStoreCNAPI.getRecipesContainingIngredientCounts(storage.recipeGroup, ingredients);
+  local recipes = RecipeStoreCNAPI.getRecipesContainingIngredientCounts(rcUtils.getRecipeGroup(), ingredients);
   local outputRecipe = nil;
   for outputName, recipeInfos in pairs(recipes) do
     outputRecipe = recipeInfos[1];

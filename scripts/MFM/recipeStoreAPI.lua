@@ -78,7 +78,12 @@ end
 
 function RecipeStoreCNAPI.getRecipesContainingIngredientCounts(methodName, ingredients)
   if(methodName == nil or ingredients == nil) then
-    logger.logDebug("Method name or ingredients null");
+    if(methodName == nil) then
+      logger.logDebug("Method name is null")
+    end
+    if(ingredients == nil) then
+      logger.logDebug("Ingredients null")
+    end
     return {};
   end
   logger.logDebug("Getting recipes for method " .. methodName);

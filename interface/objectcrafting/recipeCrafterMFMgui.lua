@@ -48,8 +48,7 @@ function updateDebugState()
     return false, nil
   end
   
-  local onCompleted = function(result)
-    local debugState = result.debugState
+  local onCompleted = function(debugState)
     logger.setDebugState(debugState)
     widget.setChecked(TOGGLE_DEBUG_NAME, debugState)
     debugStateUpdated = true

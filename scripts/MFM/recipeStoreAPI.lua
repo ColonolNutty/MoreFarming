@@ -89,22 +89,28 @@ function RecipeStoreCNAPI.getRecipesContainingIngredientCounts(methodName, ingre
   logger.logDebug("Getting recipes for method " .. methodName);
   local methodStore = rsCNApi.getMethodStore(methodName);
   local recipesContainingIngredients = {};
-  for slot, ingredient1 in pairs(ingredients) do
-    local ingredientRecipes = methodStore.recipesCraftFrom[ingredient1.name];
+  for slot, containerIngredient in pairs(ingredients) do
+    local ingredientRecipes = methodStore.recipesCraftFrom[containerIngredient.name];
     if(ingredientRecipes == nil) then
       break;
     end
+    local outputRecipes = nil;
     for idx, recipeOutputName in ipairs(ingredientRecipes) do
-      local outputRecipes = methodStore.recipesCraftTo[recipeOutputName];
+      logger.logDebug("Checking recipeOutputName: " .. recipeOutputName)
+      outputRecipes = methodStore.recipesCraftTo[recipeOutputName];
       if(outputRecipes ~= nil) then
         local matchingRecipes = {};
+        local recipeMatches = true;
+        local inputMatches = false;
+        local checkedIngredients = {};
         for idx, recipe in ipairs(outputRecipes.recipes) do
-          logger.logDebug("Checking recipe");
-          local recipeMatches = true;
-          for inputName, inputInfo in pairs(recipe.input) do
-            logger.logDebug("Matching input: " .. inputName);
-            local inputMatches = false;
-            for slot, ingredient in pairs(ingredients) do
+          logger.logDebug("Checking recipe " .. recipe.output.name);
+          checkedIngredients = {}
+          recipeMatches = true;
+          for slot, ingredient in pairs(ingredients) do
+            logger.logDebug("Matching input: " .. ingredient.name);
+            inputMatches = false;
+            for inputName, inputInfo in pairs(recipe.input) do
               if(ingredient.name == inputName) then
                 if(ingredient.count >= inputInfo.count) then
                   logger.logDebug("Ingredient matched!")
@@ -121,10 +127,27 @@ function RecipeStoreCNAPI.getRecipesContainingIngredientCounts(methodName, ingre
               recipeMatches = false;
               break;
             end
+            table.insert(checkedIngredients, ingredient.name)
           end
           if(recipeMatches) then
-              logger.logDebug("Recipe matched");
-              table.insert(matchingRecipes, recipe);
+            local ingredientMatches = false;
+            for inputName, inputInfo in pairs(recipe.input) do
+              ingredientMatches = false;
+              for idx, ingredientName in ipairs(checkedIngredients) do
+                if(inputName == ingredientName) then
+                  ingredientMatches = true;
+                  break;
+                end
+              end
+              if(not ingredientMatches) then
+                recipeMatches = false;
+                break;
+              end
+            end
+          end
+          if(recipeMatches) then
+            logger.logDebug("Recipe matched " .. recipe.output.name);
+            table.insert(matchingRecipes, recipe);
           end
         end
         if(#matchingRecipes > 0) then

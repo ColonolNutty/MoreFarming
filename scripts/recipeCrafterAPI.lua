@@ -114,14 +114,15 @@ function rcUtils.setAutoCraftState(id, name, newAutoCraftState)
 end
 
 function rcUtils.ingredientsMatchRecipe(recipe, ingredients)
-  if(recipe == nil or recipe.input == nil or ingredients == nil) then
+  if(recipe == nil or recipe.input == nil or ingredients == nil or recipe.output == nil or recipe.output.name == nil) then
     logger.logDebug("Ingredients no match");
     return false;
   end
-  logger.logDebug("Checking recipe");
+  logger.logDebug("Checking recipe: " .. recipe.output.name);
   local recipeMatches = true;
+  local inputMatches = false;
   for slot, ingredient in pairs(ingredients) do
-    local inputMatches = false;
+    inputMatches = false;
     for inputName, inputInfo in pairs(recipe.input) do
       logger.logDebug("Matching input: " .. inputName);
       if(ingredient.name == inputName) then

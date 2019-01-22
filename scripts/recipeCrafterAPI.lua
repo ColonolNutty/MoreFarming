@@ -113,38 +113,6 @@ function rcUtils.setAutoCraftState(id, name, newAutoCraftState)
   storage.autoCraftState = newAutoCraftState or false;
 end
 
-function rcUtils.ingredientsMatchRecipe(recipe, ingredients)
-  if(recipe == nil or recipe.input == nil or ingredients == nil or recipe.output == nil or recipe.output.name == nil) then
-    logger.logDebug("Ingredients no match");
-    return false;
-  end
-  logger.logDebug("Checking recipe: " .. recipe.output.name);
-  local recipeMatches = true;
-  local inputMatches = false;
-  for slot, ingredient in pairs(ingredients) do
-    inputMatches = false;
-    for inputName, inputInfo in pairs(recipe.input) do
-      logger.logDebug("Matching input: " .. inputName);
-      if(ingredient.name == inputName) then
-        if(ingredient.count >= inputInfo.count) then
-          logger.logDebug("Ingredient matched!")
-          inputMatches = true;
-          break;
-        else
-          logger.logDebug("Count didnt match: (" .. ingredient.count .. ", " .. inputInfo.count .. ")");
-        end
-      else
-        logger.logDebug("Names didnt match: (" .. ingredient.name .. ", " .. inputName .. ")");
-      end
-    end
-    if(not inputMatches) then
-      recipeMatches = false;
-      break;
-    end
-  end
-  return recipeMatches;
-end
-
 function rcUtils.getSelectedItemHook()
   if(storage.selectedItem == nil) then
     return nil;
@@ -274,7 +242,7 @@ function rcUtils.shouldRemoveOutput()
     return false;
   end
   local currentIngredients = RecipeCrafterMFMApi.getIngredients();
-  return not rcUtils.ingredientsMatchRecipe(storage.currentlySelectedRecipe, currentIngredients);
+  return not RecipeStoreCNAPI.ingredientsMatchRecipe(storage.currentlySelectedRecipe, currentIngredients);
 end
 
 function rcUtils.removeOutput()

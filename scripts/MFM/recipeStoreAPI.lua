@@ -96,56 +96,12 @@ function RecipeStoreCNAPI.getRecipesContainingIngredientCounts(methodName, ingre
     end
     local outputRecipes = nil;
     for idx, recipeOutputName in ipairs(ingredientRecipes) do
-      logger.logDebug("Checking recipeOutputName: " .. recipeOutputName)
+      logger.logDebug("Checking recipeOutputName: " .. recipeOutputName);
       outputRecipes = methodStore.recipesCraftTo[recipeOutputName];
       if(outputRecipes ~= nil) then
         local matchingRecipes = {};
-        local recipeMatches = true;
-        local inputMatches = false;
-        local checkedIngredients = {};
         for idx, recipe in ipairs(outputRecipes.recipes) do
-          logger.logDebug("Checking recipe " .. recipe.output.name);
-          checkedIngredients = {}
-          recipeMatches = true;
-          for slot, ingredient in pairs(ingredients) do
-            logger.logDebug("Matching input: " .. ingredient.name);
-            inputMatches = false;
-            for inputName, inputInfo in pairs(recipe.input) do
-              if(ingredient.name == inputName) then
-                if(ingredient.count >= inputInfo.count) then
-                  logger.logDebug("Ingredient matched!")
-                  inputMatches = true;
-                  break;
-                else
-                  logger.logDebug("Counts didnt match: (" .. ingredient.count .. ", " .. inputInfo.count .. ")");
-                end
-              else
-                logger.logDebug("Names didnt match: (" .. ingredient.name .. ", " .. inputName .. ")");
-              end
-            end
-            if(not inputMatches) then
-              recipeMatches = false;
-              break;
-            end
-            table.insert(checkedIngredients, ingredient.name)
-          end
-          if(recipeMatches) then
-            local ingredientMatches = false;
-            for inputName, inputInfo in pairs(recipe.input) do
-              ingredientMatches = false;
-              for idx, ingredientName in ipairs(checkedIngredients) do
-                if(inputName == ingredientName) then
-                  ingredientMatches = true;
-                  break;
-                end
-              end
-              if(not ingredientMatches) then
-                recipeMatches = false;
-                break;
-              end
-            end
-          end
-          if(recipeMatches) then
+          if (RecipeStoreCNAPI.ingredientsMatchRecipe(recipe, ingredients)) then
             logger.logDebug("Recipe matched " .. recipe.output.name);
             table.insert(matchingRecipes, recipe);
           end
@@ -158,6 +114,57 @@ function RecipeStoreCNAPI.getRecipesContainingIngredientCounts(methodName, ingre
     break;
   end
   return recipesContainingIngredients;
+end
+
+function RecipeStoreCNAPI.ingredientsMatchRecipe(recipe, ingredients)
+  logger.logDebug("Checking recipe " .. recipe.output.name);
+  local checkedIngredients = {};
+  local recipeMatches = true;
+  local inputMatches = false;
+  for slot, ingredient in pairs(ingredients) do
+    logger.logDebug("Matching input: " .. ingredient.name);
+    inputMatches = false;
+    for inputName, inputInfo in pairs(recipe.input) do
+      if(ingredient.name == inputName) then
+        if(ingredient.count >= inputInfo.count) then
+          logger.logDebug("Ingredient matched!");
+          inputMatches = true;
+          break;
+        else
+          logger.logDebug("Counts didnt match: (" .. ingredient.count .. ", " .. inputInfo.count .. ")");
+        end
+      else
+        logger.logDebug("Names didnt match: (" .. ingredient.name .. ", " .. inputName .. ")");
+      end
+    end
+    if(not inputMatches) then
+      recipeMatches = false;
+      break;
+    end
+    table.insert(checkedIngredients, ingredient.name);
+  end
+  if(recipeMatches) then
+    logger.logDebug("Checking recipe inputs match all ingredients in container");
+    local ingredientMatches = false;
+    for inputName, inputInfo in pairs(recipe.input) do
+      logger.logDebug("Verifying input is in container: " .. inputName);
+      ingredientMatches = false;
+      for idx, ingredientName in ipairs(checkedIngredients) do
+        if(inputName == ingredientName) then
+          ingredientMatches = true;
+          break;
+        else
+          logger.logDebug("Found container ingredient that was not part of the recipe " .. ingredientName);
+        end
+      end
+      if(not ingredientMatches) then
+        logger.logDebug("Ingredients not found in container");
+        recipeMatches = false;
+        break;
+      end
+    end
+  end
+  return recipeMatches;
 end
 
 --- methodName (string)

@@ -325,7 +325,7 @@ function RecipeCrafterMFMApi.isOutputSlotAvailableAutoCraft()
   
   local currentIngredients = RecipeCrafterMFMApi.getIngredients();
   -- Check current ingredients to verify the previous recipe still has the required ingredients
-  local hasRequiredIngredients = rcUtils.ingredientsMatchRecipe(currentlySelectedRecipe, currentIngredients);
+  local hasRequiredIngredients = RecipeStoreCNAPI.ingredientsMatchRecipe(currentlySelectedRecipe, currentIngredients);
   if(not hasRequiredIngredients) then
     logger.logDebug("Required ingredients missing for current recipe.")
     return true;
@@ -361,7 +361,7 @@ function RecipeCrafterMFMApi.isOutputSlotAvailableBase()
   
   local currentIngredients = RecipeCrafterMFMApi.getIngredients();
   -- Check current ingredients to verify the previous recipe still has the required ingredients
-  local hasRequiredIngredients = rcUtils.ingredientsMatchRecipe(storage.currentlySelectedRecipe, currentIngredients);
+  local hasRequiredIngredients = RecipeStoreCNAPI.ingredientsMatchRecipe(storage.currentlySelectedRecipe, currentIngredients);
   if(not hasRequiredIngredients) then
     logger.logDebug("Current output matched previous recipe, but the current ingredients weren't right")
     return false;

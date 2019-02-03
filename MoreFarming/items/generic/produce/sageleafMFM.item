@@ -1,0 +1,10 @@
+{
+  "itemName" : "sageleafMFM",
+  "rarity" : "Common",
+  "price" : 2.0,
+  "category" : "cookingIngredient",
+  "description" : "A leaf from a sage flower.",
+  "shortdescription" : "Sage Leaf",
+  "inventoryIcon" : "sageleafMFM.png",
+  "maxStack" : 1000
+}

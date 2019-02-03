@@ -1,0 +1,46 @@
+{
+  "itemName" : "cakespookyMFM",
+  "rarity" : "Uncommon",
+  "price" : 691.09,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A spooky looking cake.",
+  "shortdescription" : "Cake - Spooky",
+  "foodValue" : 270.31,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 70
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 35
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 159
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 70
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 146
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 159
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 426
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cakespookyMFM.png"
+}

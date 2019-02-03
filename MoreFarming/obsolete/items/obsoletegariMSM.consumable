@@ -1,0 +1,22 @@
+{
+  "itemName" : "gariMSM",
+  "rarity" : "Common",
+  "price" : 114.89,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "^gray;Ginger marinated in a solution of sugar and vinegar.^reset;",
+  "shortdescription" : "^gray;Gari^reset;",
+  "foodValue" : 41.5,
+  "effects" : [[
+    {
+      "effect" : "poisonblock",
+      "duration" : 61
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "obsoletegariMSM.png"
+}

@@ -1,0 +1,17 @@
+{
+  "itemName" : "nigiritakoMFM",
+  "rarity" : "Common",
+  "price" : 254.03,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} Cooked octopus placed on top of a ball of rice.",
+  "shortdescription" : "Nigiri - Tako",
+  "foodValue" : 23.18,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "nigiritakoMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

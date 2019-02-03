@@ -1,0 +1,37 @@
+{
+  "objectName" : "aviancoffeestation",
+  "colonyTags" : ["avian", "avianvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;A fine cast coffeepot!^reset;",
+  "shortdescription" : "^gray;Avian Coffeepot (Coffee)^reset;",
+  "race" : "generic",
+  "category" : "Cookware",
+  "price" : 88.15,
+  "objectType" : "container",
+
+  "inventoryIcon" : "obsoleteaviancoffeestationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "obsoleteaviancoffeestation.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "coffeeMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/coffeeMFMRecipes.config",
+  "breakDropOptions" : [[[ "aviancoffeestationCNYC", 1, { } ]]]
+}

@@ -1,0 +1,42 @@
+{
+  "objectName" : "blenderMFM",
+  "colonyTags" : [ "cooking" ],
+  "rarity" : "Common",
+  "price" : 189.63,
+  "category" : "crafting",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "Will it blend?",
+  "shortdescription" : "Blender (Blend)",
+  "race" : "generic",
+  "apexDescription" : "A blender. Anything inside?",
+  "avianDescription" : "A device used to quickly liquify foods.",
+  "floranDescription" : "Floran can put thing inssside and blend, blend, blend!",
+  "glitchDescription" : "Obversation. A blender, used to grind food up.",
+  "humanDescription" : "A blender. Good for blending up things.",
+  "hylotlDescription" : "A blender for blending.",
+  "inventoryIcon" : "blenderMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "blenderMFM.png:<color>",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "blendingMFM",
+  "openSounds" : [ "/sfx/objects/blenderMFMenter.ogg" ],
+  "closeSounds" : [ "/sfx/objects/blenderMFMexit.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/blendingMFMRecipes.config",
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "blenderMFM.animation"
+}

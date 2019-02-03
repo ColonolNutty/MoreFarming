@@ -1,0 +1,10 @@
+{
+  "itemName" : "mixfruitcakeholidayMFM",
+  "rarity" : "Common",
+  "price" : 558.58,
+  "category" : "cookingIngredient",
+  "description" : "(BLEND):-} Fruitcake mix for making a holiday fruitcake. Ready for baking.",
+  "shortdescription" : "Mix Fruitcake - Holiday",
+  "maxStack" : 1000,
+  "inventoryIcon" : "mixfruitcakeholidayMFM.png"
+}

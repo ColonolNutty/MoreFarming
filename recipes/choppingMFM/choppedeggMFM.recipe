@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "hardboiledeggMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "choppedeggMFM", "count" : 1 },
-  "groups" : [ "choppingMFM" ]
-}

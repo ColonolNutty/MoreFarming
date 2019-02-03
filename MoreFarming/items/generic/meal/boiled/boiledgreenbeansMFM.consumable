@@ -1,0 +1,17 @@
+{
+  "itemName" : "boiledgreenbeansMFM",
+  "rarity" : "Common",
+  "price" : 38.59,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} Green beans boiled in water.",
+  "shortdescription" : "Boiled Green Beans",
+  "foodValue" : 11.03,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledgreenbeansMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

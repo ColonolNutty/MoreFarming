@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "rawmeatpattyMFM", "count" : 1 },
-    { "item" : "cookingoilMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "cookedalienmeatpattyMFM", "count" : 1 },
-  "groups" : [ "fryingMFM" ]
-}

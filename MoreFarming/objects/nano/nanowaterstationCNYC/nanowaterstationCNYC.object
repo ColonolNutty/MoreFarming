@@ -1,0 +1,69 @@
+{
+  "objectName" : "nanowaterstationCNYC",
+  "colonyTags" : [ "cooking", "electronic" ],
+  "rarity" : "Common",
+  "price" : 531.18,
+  "category" : "Nano Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "Creates water from thin air, literally!",
+  "shortdescription" : "Nano Condenser (Water)",
+  "race" : "generic",
+  "apexDescription" : "Water from the air? It must be water vapours!",
+  "avianDescription" : "A supply of water even in the desert!",
+  "floranDescription" : "Floran leave water on for bathsss.",
+  "glitchDescription" : "Disappointed. Always water... why never oil?.",
+  "humanDescription" : "A potential lifesaver!",
+  "hylotlDescription" : "I wonder if the water is oxygenated.",
+  "inventoryIcon" : "nanowaterstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "nanowaterstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "nanowaterstationCNYClit.png:<color>.<frame>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "nanowaterstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "nanowaterstationCNYClit.png:<color>.<frame>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "waterMFM",
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/waterMFMRecipes.config",
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerPeriodVariance" : 0.075,
+  "maximumLiquidLevel" : 0.2,
+  "flickerMaxIntensity" : 1,
+  "lightColor" : [ 125, 143, 179 ],
+  "flickerIntensityVariance" : 0.025,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "nanowaterstationCNYC.animation"
+}

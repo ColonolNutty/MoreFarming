@@ -1,0 +1,17 @@
+{
+  "itemName" : "choppedrosemaryleafMFM",
+  "rarity" : "Common",
+  "price" : 1.0,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed and chopped rosemary leaf.",
+  "shortdescription" : "Chopped Rosemary Leaf",
+  "foodValue" : 10.0,
+  "effects" : [[ ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedrosemaryleafMFM.png"
+}

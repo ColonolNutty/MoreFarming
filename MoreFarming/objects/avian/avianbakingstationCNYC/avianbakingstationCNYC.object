@@ -1,0 +1,64 @@
+{
+  "objectName" : "avianbakingstationCNYC",
+  "colonyTags" : [ "avian", "avianvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 23.25,
+  "category" : "Avian Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A tempered clay fireoven.",
+  "shortdescription" : "^orange;Avian Clay Oven (Bake)^reset;",
+  "race" : "generic",
+  "apexDescription" : "It is surprisingly warm.",
+  "avianDescription" : "It smells wonderful, I feel at home.",
+  "floranDescription" : "Floran no like hotboxesss.",
+  "glitchDescription" : "Analysis. Very hot firing kiln.",
+  "humanDescription" : "Smells like spices... I LOVE SPICES!",
+  "hylotlDescription" : "It retains heat for hours, perfect for cooking in the evening.",
+  "inventoryIcon" : "avianbakingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "avianbakingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "avianbakingstationCNYClit.png:<color>.<frame>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "avianbakingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "avianbakingstationCNYClit.png:<color>.<frame>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "bakingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/bakingMFMRecipes.config",
+  "soundEffect" : "/sfx/objects/woodburningMFM_ambience1.ogg",
+  "soundEffectRadius" : 10,
+  "retainObjectParametersInItem" : true
+}

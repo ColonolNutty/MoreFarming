@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "choppedcarrotMFM", "count" : 5 },
+    { "item" : "flourMFM", "count" : 5 },
+    { "item" : "groundcinnamonMFM", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 2 },
+    { "item" : "egg", "count" : 1 },
+    { "item" : "liquidwater", "count" : 1 }
+  ],
+  "output" : { "item" : "mixbreadcarrotMFM", "count" : 1 },
+  "groups" : [ "blendingMFM" ]
+}

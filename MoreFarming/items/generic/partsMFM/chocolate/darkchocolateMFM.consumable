@@ -1,0 +1,31 @@
+{
+  "itemName" : "darkchocolateMFM",
+  "rarity" : "Common",
+  "price" : 33.66,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BLEND):-} Has a bitter taste.",
+  "shortdescription" : "Dark Chocolate",
+  "foodValue" : 51.5,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 33
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 33
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 33
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "darkchocolateMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

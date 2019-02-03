@@ -1,0 +1,37 @@
+{
+  "objectName" : "campgrinder",
+  "colonyTags" : [ "cooking" ],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;Two rocks and a bit of effort can grind up wheat and other things!^reset;",
+  "shortdescription" : "^gray;Camp Millstone (Mill)^reset;",
+  "race" : "generic",
+  "category" : "Makeshift Cookware",
+  "price" : 20.1,
+  "objectType" : "container",
+
+  "inventoryIcon" : "obsoletecampgrinder.png",
+  "orientations" : [
+    {
+      "dualImage" : "obsoletecampgrinder.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "millingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/millingMFMRecipes.config",
+  "breakDropOptions" : [[[ "makeshiftgrindingstationCNYC", 1, { } ]]]
+}

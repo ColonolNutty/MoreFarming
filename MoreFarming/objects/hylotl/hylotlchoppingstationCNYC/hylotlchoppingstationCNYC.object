@@ -1,0 +1,40 @@
+{
+  "objectName" : "hylotlchoppingstationCNYC",
+  "colonyTags" : [ "hylotl", "hylotlvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 165.05,
+  "category" : "Hylotl Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A solid chopping board made of wood.",
+  "shortdescription" : "^orange;Hylotl Chopboard (Chop)^reset;",
+  "race" : "generic",
+  "apexDescription" : "Sturdy hardwood and a cleaver. Perfect!",
+  "avianDescription" : "It looks like it was carved from a solid piece of wood.",
+  "floranDescription" : "Floran likes small axesss.",
+  "glitchDescription" : "Analysis. A sturdy hardwood chopboard.",
+  "humanDescription" : "Reminds me of a place back on earth that made awesome gadgets.",
+  "hylotlDescription" : "I feel quite at home.",
+  "inventoryIcon" : "hylotlchoppingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlchoppingstationCNYC.png:<color>",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "choppingMFM",
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/choppingMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "hylotlchoppingstationCNYC.animation"
+}

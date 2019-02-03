@@ -1,0 +1,30 @@
+{
+  "itemName" : "waffleconeMFM",
+  "rarity" : "Common",
+  "price" : 32.71,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} A cone with a waffle pattern.",
+  "shortdescription" : "Waffle Cone",
+  "foodValue" : 19.78,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 70
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 70
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 150
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "waffleconeMFM.png"
+}

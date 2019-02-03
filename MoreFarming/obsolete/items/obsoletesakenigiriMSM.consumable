@@ -1,0 +1,17 @@
+{
+  "itemName" : "sakenigiriMSM",
+  "rarity" : "Common",
+  "price" : 330.12,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "^gray;Smoked salmon on top of sake.^reset;",
+  "shortdescription" : "^gray;Nigiri - Sake^reset;",
+  "foodValue" : 64.58,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "obsoletesakenigiriMSM.png",
+  "handPosition" : [ 0, -4 ]
+}

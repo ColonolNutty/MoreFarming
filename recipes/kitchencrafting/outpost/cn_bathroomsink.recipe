@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 8 }
-  ],
-  "output" : { "item" : "bathroomsink", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "watermachineMFM", "all" ]
-}

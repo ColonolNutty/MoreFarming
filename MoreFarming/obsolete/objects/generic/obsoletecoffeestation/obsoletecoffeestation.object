@@ -1,0 +1,75 @@
+{
+  "objectName" : "coffeestation",
+  "colonyTags" : ["human", "humanvillage", "cooking"],
+  "rarity" : "Common",
+  "description" : "^gray;Brews Coffee, sign your own cup.^reset;",
+  "objectType" : "container",
+  "shortdescription" : "^gray;Espresso Machine (Coffee)^reset;",
+  "race" : "generic",
+  "category" : "Cookware",
+  "price" : 263,
+
+  "inventoryIcon" : "obsoletecoffeestationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "obsoletecoffeestation.png:<color>", "fullbright" : true }, { "image" : "obsoletecoffeestationlit.png:<color>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "obsoletecoffeestation.png:<color>", "fullbright" : true }, { "image" : "obsoletecoffeestationlit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+
+  ],
+    
+  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "npcToy" : {
+    "influence" : [
+      "watercoolerCollect",
+      "watercoolerConsume",
+      "watercoolerComplete"
+    ],
+    "defaultReactions" : {
+      "watercoolerCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "watercoolerConsume" : [
+        [1.0, "drink"]
+      ],
+      "watercoolerComplete" : [
+        [1.0, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  },
+  "recipeGroup" : "coffeeMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/coffeeMFMRecipes.config",
+  "breakDropOptions" : [[[ "coffeestationCNYC", 1, { } ]]]
+}

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "palsterstickMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "choppedpalsterstickMFM", "count" : 1 },
-  "groups" : [ "choppingMFM" ]
-}

@@ -1,0 +1,31 @@
+{
+  "itemName" : "scrambledeggwithketchupMFM",
+  "rarity" : "Common",
+  "price" : 315.17,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A scrambled egg with ketchup.",
+  "shortdescription" : "Scrambled Egg With Ketchup",
+  "foodValue" : 102.78,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 35
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 35
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 75
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "scrambledeggwithketchupMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

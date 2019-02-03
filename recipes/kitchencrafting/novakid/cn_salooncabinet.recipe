@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "darkwoodmaterial", "count" : 10 }
-  ],
-  "output" : { "item" : "salooncabinet", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "novakidMFM", "storageMFM", "all" ]
-}

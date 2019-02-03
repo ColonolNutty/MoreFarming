@@ -1,0 +1,10 @@
+{
+  "itemName" : "cannedplantsludgeMFM",
+  "rarity" : "Common",
+  "price" : 76.42,
+  "category" : "craftingMaterial",
+  "description" : "(CAN):-} Plant Sludge in a Can.",
+  "shortdescription" : "Canned - Plant Sludge",
+  "maxStack" : 1000,
+  "inventoryIcon" : "cannedplantsludgeMFM.png"
+}

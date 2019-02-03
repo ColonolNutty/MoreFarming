@@ -1,0 +1,38 @@
+{
+  "objectName" : "coffeemugMFM",
+  "colonyTags" : [ "cooking" ],
+  "rarity" : "Common",
+  "price" : 4.2,
+  "printable" : false,
+  "description" : "A steaming cup of coffee.",
+  "shortdescription" : "Coffee Mug",
+  "race" : "generic",
+  "apexDescription" : "A warm cup of coffee.",
+  "avianDescription" : "A hot, acidic drink.",
+  "floranDescription" : "Floran not sssure if Floran like drink. Perhapss it grow on Floran.",
+  "glitchDescription" : "Statement. My taste sensors will have to adjust before I can enjoy this.",
+  "humanDescription" : "There's nothing quite like a nice cup of coffee and a sit-down.",
+  "hylotlDescription" : "The Hylotl brew similar drinks from ocean flora.",
+  "inventoryIcon" : "coffeemugMFMicon.png",
+  "orientations" : [
+    {
+      "image" : "coffeemugMFM.png:<color>.<frame>",
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "left",
+      "frames" : 7,
+      "animationCycle" : 1.15,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "coffeemugMFM.png:<color>.<frame>",
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "right",
+      "frames" : 7,
+      "animationCycle" : 1.15,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true
+    }
+  ]
+}

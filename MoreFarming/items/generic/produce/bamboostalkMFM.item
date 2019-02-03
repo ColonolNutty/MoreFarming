@@ -1,0 +1,11 @@
+{
+  "itemName" : "bamboostalkMFM",
+  "rarity" : "Common",
+  "price" : 40.0,
+  "category" : "craftingMaterial",
+  "description" : "Harvested stalk from the fast-growing bamboo plant.",
+  "shortdescription" : "Bamboo Stalk",
+  "maxStack" : 1000,
+  "inventoryIcon" : "bamboostalkMFM.png",
+  "learnBlueprintsOnPickup" : [ "bamboo", "bamboobedBMB", "bamboobookcaseBMB", "bamboocageBMB", "bamboochairBMB", "bamboocrate1BMB", "bamboocrate2BMB", "bamboodeskBMB", "bamboogateBMB", "bamboopunjisticksBMB", "bambooscreenBMB", "bamboostoolBMB", "bambootableBMB", "bambooplatform" ]
+}

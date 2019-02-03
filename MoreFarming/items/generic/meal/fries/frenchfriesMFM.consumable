@@ -1,0 +1,17 @@
+{
+  "itemName" : "frenchfriesMFM",
+  "rarity" : "Common",
+  "price" : 95.03,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(FRY):-} Bonjour!",
+  "shortdescription" : "Fries - French",
+  "foodValue" : 21.0,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "frenchfriesMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

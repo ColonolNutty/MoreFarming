@@ -1,0 +1,23 @@
+{
+  "itemName" : "boiledradishMFM",
+  "rarity" : "Common",
+  "price" : 33.08,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} A radish boiled in water.",
+  "shortdescription" : "Boiled Radish",
+  "foodValue" : 11.03,
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 66
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledradishMFM.png",
+  "emote" : "Happy"
+}

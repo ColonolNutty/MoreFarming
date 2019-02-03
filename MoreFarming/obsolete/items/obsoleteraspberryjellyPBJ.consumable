@@ -1,0 +1,23 @@
+{
+  "itemName" : "raspberryjellyPBJ",
+  "rarity" : "Uncommon",
+  "price" : 252.5,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "^gray;Jelly made from raspberries.^reset;",
+  "shortdescription" : "^gray;Jelly - Raspberry^reset;",
+  "foodValue" : 50.5,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 151
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "obsoleteraspberryjellyPBJ.png",
+  "handPosition" : [ 0, -2 ]
+}

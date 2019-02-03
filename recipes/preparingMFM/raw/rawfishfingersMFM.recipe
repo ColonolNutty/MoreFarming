@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "rawstripoffishMFM", "count" : 1 },
-    { "item" : "breadcrumbsMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "rawfishfingersMFM", "count" : 1 },
-  "groups" : [ "preparingMFM" ]
-}

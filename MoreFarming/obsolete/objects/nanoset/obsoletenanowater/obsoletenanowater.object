@@ -1,0 +1,66 @@
+{
+  "objectName" : "nanowater",
+  "tags" : ["cooking"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;Creates water from thin air, literally!^reset;",
+  "shortdescription" : "^gray;Nanocondenser (Water)^reset;",
+  "race" : "generic",
+  "category" : "Cookware",
+  "price" : 660.65,
+  "objectType" : "container",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "lightColor" : [125, 143, 179],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "obsoletenanowatericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "obsoletenanowater.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoletenanowaterlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "obsoletenanowater.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoletenanowaterlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "waterMFM",
+  "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
+  "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/waterMFMRecipes.config",
+  "breakDropOptions" : [[[ "nanowaterstationCNYC", 1, { } ]]]
+}

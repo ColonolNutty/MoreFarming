@@ -1,0 +1,9 @@
+{
+  "itemName" : "cornflourMFM",
+  "rarity" : "Common",
+  "price" : 42.68,
+  "category" : "cookingIngredient",
+  "description" : "(BOIL):-} Corn flour, also known as Masa Harina.",
+  "shortdescription" : "Corn Flour",
+  "inventoryIcon" : "cornflourMFM.png"
+}

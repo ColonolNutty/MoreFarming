@@ -1,0 +1,23 @@
+{
+  "itemName" : "blackberryjellyPBJ",
+  "rarity" : "Uncommon",
+  "price" : 252.5,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "^gray;Jelly made from blackberries.^reset;",
+  "shortdescription" : "^gray;Jelly - Blackberry^reset;",
+  "foodValue" : 50.5,
+  "effects" : [[
+    {
+      "effect" : "fireblock",
+      "duration" : 227
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "obsoleteblackberryjellyPBJ.png",
+  "handPosition" : [ 0, -2 ]
+}

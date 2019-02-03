@@ -1,0 +1,17 @@
+{
+  "input" : [
+    { "item" : "mixcakeplainMFM", "count" : 1 },
+    { "item" : "maltextractMFM", "count" : 1 },
+    { "item" : "honeyMFM", "count" : 1 },
+    { "item" : "egg", "count" : 2 },
+    { "item" : "soymilkMFM", "count" : 1 },
+    { "item" : "okaraMFM", "count" : 2 },
+    { "item" : "bakingpowderMFM", "count" : 1 },
+    { "item" : "groundcinnamonMFM", "count" : 1 },
+    { "item" : "groundnutmegMFM", "count" : 1 },
+    { "item" : "groundcloveMFM", "count" : 1 },
+    { "item" : "groundgingerMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "mixcakeappleanarchyMFM", "count" : 1 },
+  "groups" : [ "blendingMFM" ]
+}

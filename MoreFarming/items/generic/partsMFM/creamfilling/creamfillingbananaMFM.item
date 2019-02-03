@@ -1,0 +1,10 @@
+{
+  "itemName" : "creamfillingbananaMFM",
+  "rarity" : "Common",
+  "price" : 394.99,
+  "category" : "cookingIngredient",
+  "description" : "(BOIL):-} Banana flavoured cream filling.",
+  "shortdescription" : "Cream Filling - Banana",
+  "maxStack" : 1000,
+  "inventoryIcon" : "creamfillingbananaMFM.png"
+}

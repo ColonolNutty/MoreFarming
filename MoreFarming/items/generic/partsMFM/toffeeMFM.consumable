@@ -1,0 +1,17 @@
+{
+  "itemName" : "toffeeMFM",
+  "rarity" : "Common",
+  "price" : 5.51,
+  "category" : "food",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} Toffee! A common ingredient in sweets.",
+  "shortdescription" : "Toffee",
+  "foodValue" : 10.5,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "toffeeMFM.png",
+  "learnBlueprintsOnPickup" : [ "toffeeblockMFM" ]
+}

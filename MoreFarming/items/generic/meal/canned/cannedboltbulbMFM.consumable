@@ -1,0 +1,16 @@
+{
+  "itemName" : "cannedboltbulbMFM",
+  "rarity" : "Common",
+  "price" : 126.0,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(CAN):-} A boltbulb, in a can.",
+  "shortdescription" : "Canned - Boltbulb",
+  "foodValue" : 10.5,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 5,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cannedboltbulbMFM.png"
+}

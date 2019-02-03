@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "pielidMFM", "count" : 1 },
+    { "item" : "choppedblueberriesMFM", "count" : 4 },
+    { "item" : "groundcinnamonMFM", "count" : 1 },
+    { "item" : "cornsyrupMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "butterMFM", "count" : 1 },
+    { "item" : "pieshellMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "unfinishedpieblueberryMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

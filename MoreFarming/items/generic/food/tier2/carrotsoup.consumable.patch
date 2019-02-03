@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(BLEND):-} Creamy, delicious, nutritious!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "antidote",
+          "duration" : 10
+        },
+        {
+          "effect" : "poisonblock",
+          "duration" : 200
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 35
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 35
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 75
+        }
+      ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 129.31
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 568.71
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Soup - Carrot"
+    }
+  ]
+]

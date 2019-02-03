@@ -1,0 +1,37 @@
+{
+  "objectName" : "bambootableBMB",
+  "colonyTags" : [ "floran", "floranvillage", "commerce", "nature" ],
+  "rarity" : "Common",
+  "price" : 602.0,
+  "category" : "furniture",
+  "printable" : false,
+  "description" : "A sturdy bamboo table.",
+  "shortdescription" : "Bamboo Table",
+  "race" : "generic",
+  "apexDescription" : "This bamboo table serves its purpose.",
+  "avianDescription" : "A solid bamboo table.",
+  "floranDescription" : "Table good enough for Floran to ssslice meatsss.",
+  "glitchDescription" : "Approving. A well-made bamboo table.",
+  "humanDescription" : "A nice bamboo table.",
+  "hylotlDescription" : "As far as basic bamboo tables go, this one's not bad.",
+  "inventoryIcon" : "bambootableBMBicon.png",
+  "orientations" : [
+    {
+      "image" : "bambootableBMB.png:<color>",
+      "imagePosition" : [ -16, 0 ],
+      "direction" : "left",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "flipImages" : true
+    },
+    {
+      "image" : "bambootableBMB.png:<color>",
+      "imagePosition" : [ -16, 0 ],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "softchocolatewhiteMFM",
+  "rarity" : "Common",
+  "price" : 1.0,
+  "category" : "block",
+  "description" : "Softened white chocolate. It is very sweet!",
+  "shortdescription" : "Soft Chocolate - White",
+  "floranDescription" : "Fluffy and sssweet sssugar sssludge.",
+  "inventoryIcon" : "softchocolatewhiteMFM.png",
+  "glitchdescription" : "Statement. Softened white chocolate.",
+  "materialId" : 19216
+}

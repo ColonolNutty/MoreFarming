@@ -1,0 +1,35 @@
+{
+  "objectName" : "apexboilingstationCNYC",
+  "colonyTags" : [ "apex", "apexvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 412.05,
+  "category" : "Apex Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A giant pot for boiling.",
+  "shortdescription" : "^orange;Apex Boiling Pot (Boil)^reset;",
+  "race" : "generic",
+  "inventoryIcon" : "apexboilingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexboilingstationCNYC.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "boilingMFM",
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter2.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit1.ogg", "/sfx/objects/metalpotMFMexit2.ogg", "/sfx/objects/metalpotMFMexit4.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/boilingMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
+  "soundEffect" : "/sfx/objects/bubblesMFMambience2.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "apexboilingstationCNYC.animation"
+}

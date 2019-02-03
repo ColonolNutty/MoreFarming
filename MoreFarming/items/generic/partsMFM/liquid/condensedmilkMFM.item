@@ -1,0 +1,9 @@
+{
+  "itemName" : "condensedmilkMFM",
+  "rarity" : "Common",
+  "price" : 123.53,
+  "category" : "cookingIngredient",
+  "description" : "(BOIL):-} Milk that is condensed",
+  "shortdescription" : "Condensed Milk",
+  "inventoryIcon" : "condensedmilkMFM.png"
+}

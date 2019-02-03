@@ -1,0 +1,42 @@
+{
+  "itemName" : "sugarcookieMFM",
+  "rarity" : "Common",
+  "price" : 9.29,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} I just can't get enough of these.",
+  "shortdescription" : "Cookie - Sugar",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 75
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 34
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 75
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 163
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "sugarcookieMFM.png"
+}

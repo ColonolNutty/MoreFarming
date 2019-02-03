@@ -1,0 +1,53 @@
+{
+  "objectName" : "glitchblendingstation",
+  "colonyTags" : ["glitch", "glitchvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;A waterlogged wooden blender.^reset;",
+  "shortdescription" : "^gray;Glitch Blender (Blend)^reset;",
+  "race" : "generic",
+  "category" : "Cookware",
+  "price" : 173.1,
+  "objectType" : "container",
+
+  "inventoryIcon" : "obsoleteglitchblendingstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "obsoleteglitchblendingstation.png:<color>", "fullbright" : true }, { "image" : "obsoleteglitchblendingstation.png:<color>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "obsoleteglitchblendingstation.png:<color>", "fullbright" : true }, { "image" : "obsoleteglitchblendingstation.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "recipeGroup" : "blendingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/blendingMFMRecipes.config",
+  "breakDropOptions" : [[[ "glitchblendingstationCNYC", 1, { } ]]]
+}

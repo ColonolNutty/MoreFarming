@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 3 },
+    { "item" : "copperbar", "count" : 2 }
+  ],
+  "output" : { "item" : "juicekeg", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "glitchMFM", "watermachineMFM", "all" ]
+}

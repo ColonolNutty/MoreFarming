@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "cookiedoughMFM", "count" : 1 },
+    { "item" : "raisinsMFM", "count" : 2 },
+    { "item" : "maltextractMFM", "count" : 1 },
+    { "item" : "groundcinnamonMFM", "count" : 1 },
+    { "item" : "brownsugarMFM", "count" : 1 },
+    { "item" : "okaraMFM", "count" : 2 },
+    { "item" : "sunflowerMFMseed", "count" : 1 }
+  ],
+  "output" : { "item" : "unfinishedcookiesraisinsoyMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

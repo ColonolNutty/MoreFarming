@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "pielidMFM", "count" : 1 },
+    { "item" : "choppedredappleMFM", "count" : 6 },
+    { "item" : "groundcinnamonMFM", "count" : 2 },
+    { "item" : "groundnutmegMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "lemonjuiceMFM", "count" : 1 },
+    { "item" : "pieshellMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "unfinishedpieappleredMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

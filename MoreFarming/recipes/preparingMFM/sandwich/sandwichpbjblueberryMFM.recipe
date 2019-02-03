@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "jellyblueberryMFM", "count" : 1 },
+    { "item" : "peanutbutterMFM", "count" : 1 },
+    { "item" : "breadsliceMFM", "count" : 2 }
+  ],
+  "output" : { "item" : "sandwichpbjblueberryMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

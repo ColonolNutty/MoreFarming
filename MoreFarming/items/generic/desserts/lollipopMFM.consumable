@@ -1,0 +1,35 @@
+{
+  "itemName" : "lollipopMFM",
+  "rarity" : "Common",
+  "price" : 38.58,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} A sweet candy sucker.",
+  "shortdescription" : "Lollipop",
+  "foodValue" : 23.86,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 37
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 68
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 37
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 150
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "lollipopMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

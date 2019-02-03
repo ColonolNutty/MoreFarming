@@ -1,0 +1,42 @@
+{
+  "itemName" : "cookedsoyburgersupremepattyMFM",
+  "rarity" : "Common",
+  "price" : 1001.8,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(FRY):-} A cooked patty made with okara. Perfect for Soyburgers!",
+  "shortdescription" : "Cooked Patty - Soyburger Supreme",
+  "foodValue" : 239.41,
+  "effects" : [[
+    {
+      "effect" : "antidote",
+      "duration" : 5
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 102
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 65
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 69
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 69
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 144
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cookedsoyburgersupremepattyMFM.png"
+}

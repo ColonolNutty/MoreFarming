@@ -1,0 +1,16 @@
+{
+  "itemName" : "pressedpussplumMFM",
+  "rarity" : "Common",
+  "price" : 157.5,
+  "category" : "food",
+  "tooltipKind" : "food",
+  "description" : "(PRESS):-} A pussplum pressed into a thick pulp.",
+  "shortdescription" : "Pressed Pussplum",
+  "foodValue" : 10.5,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "pressedpussplumMFM.png"
+}

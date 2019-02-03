@@ -1,0 +1,10 @@
+{
+  "itemName" : "rosemaryleafMFM",
+  "rarity" : "Common",
+  "price" : 2.0,
+  "category" : "cookingIngredient",
+  "description" : "A leaf from a rosemary flower.",
+  "shortdescription" : "Rosemary Leaf",
+  "inventoryIcon" : "rosemaryleafMFM.png",
+  "maxStack" : 1000
+}

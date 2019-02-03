@@ -1,0 +1,66 @@
+{
+  "objectName" : "freezerMFM",
+  "colonyTags" : [ "cooking" ],
+  "rarity" : "Common",
+  "price" : 290.08,
+  "category" : "Refridgerated Cookware",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "A freezer, I could make ice or ice cream with this, among other things. Also good for storage.",
+  "shortdescription" : "Freezer (Freeze)",
+  "race" : "generic",
+  "apexDescription" : "A freezer, freezes items.",
+  "avianDescription" : "Freezes things... Smart.",
+  "floranDescription" : "Floran climb in, it cold.",
+  "glitchDescription" : "Counting. There are exactly six thousand, four hundred, and eighty four frozen items in this freezer.",
+  "humanDescription" : "A freezer, one of humanities greatest inventions.",
+  "hylotlDescription" : "A freezer for freezing stuff. Interesting.",
+  "novakidDescription" : "Freezes stuff I put in.",
+  "inventoryIcon" : "freezerMFMicon.png",
+  "orientations" : [
+    {
+      "image" : "freezerMFMleft.png:<color>",
+      "imagePosition" : [ -16, 0 ],
+      "direction" : "left",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "collisionSpaces" : [
+        [ -1, 2 ],
+        [ 0, 2 ],
+        [ 1, 2 ],
+        [ 2, 2 ]
+      ]
+    },
+    {
+      "image" : "freezerMFMright.png:<color>",
+      "imagePosition" : [ -16, 0 ],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "collisionSpaces" : [
+        [ -2, 2 ],
+        [ -1, 2 ],
+        [ 0, 2 ],
+        [ 1, 2 ]
+      ]
+    }
+  ],
+  "recipeGroup" : "freezingMFM",
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg", "/sfx/objects/freezerMFMenter2.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg", "/sfx/objects/freezerMFMexit2.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
+  "soundEffect" : "/sfx/objects/freezerMFMambience1.ogg",
+  "soundEffectRadius" : 10,
+  "itemAgeMultiplier" : 0,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "freezerMFM.animation"
+}

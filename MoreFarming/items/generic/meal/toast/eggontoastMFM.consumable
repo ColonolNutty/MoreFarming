@@ -1,0 +1,23 @@
+{
+  "itemName" : "eggontoastMFM",
+  "rarity" : "Common",
+  "price" : 32.08,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} An egg, but on toast.",
+  "shortdescription" : "Toast - Egg",
+  "foodValue" : 33.08,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 33
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "eggontoastMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

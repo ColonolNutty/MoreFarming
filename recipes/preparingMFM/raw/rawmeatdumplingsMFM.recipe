@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "doughMFM", "count" : 1 },
-    { "item" : "rawstripofalienmeatMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "rawmeatdumplingsMFM", "count" : 1 },
-  "groups" : [ "preparingMFM" ]
-}

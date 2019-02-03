@@ -1,0 +1,23 @@
+{
+  "itemName" : "boiledwartweedMFM",
+  "rarity" : "Common",
+  "price" : 154.35,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} A wartweed boiled in water.",
+  "shortdescription" : "Boiled Wartweed",
+  "foodValue" : 10.5,
+  "effects" : [[
+    {
+      "effect" : "weakpoison",
+      "duration" : 5
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledwartweedMFM.png",
+  "emote" : "Happy"
+}

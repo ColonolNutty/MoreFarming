@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "cobblestonematerial", "count" : 20 }
-  ],
-  "output" : { "item" : "makeshiftgrindingstationCNYC", "count" : 1 },
-  "groups" : [ "plain", "all", "other" ]
-}

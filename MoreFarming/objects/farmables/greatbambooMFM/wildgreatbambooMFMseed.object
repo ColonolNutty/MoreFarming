@@ -1,0 +1,48 @@
+{
+  "objectName" : "wildgreatbambooMFMseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 10.0,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "Fast growing Bamboo.",
+  "shortdescription" : "Wild Great Bamboo Seed",
+  "apexDescription" : "A foreign seed. Never seen one of these before.",
+  "avianDescription" : "Tried pecking once. Did not taste good.",
+  "floranDescription" : "I feel a strange form of might in this seed.",
+  "glitchDescription" : "Curious. Could plant this to get wood. Wonder why not.",
+  "humanDescription" : "Bamboo seeds. Great opportunity to get Wood.",
+  "hylotlDescription" : "Good for building huts and appliances.",
+  "inventoryIcon" : "greatbambooMFMseedicon.png",
+  "largeImage" : "greatbambooMFMseed.png:default.default.default",
+  "orientations" : [
+    {
+      "dualImage" : "greatbambooMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    { "duration" : [ 300, 300 ] },
+    { "duration" : [ 300, 300 ] },
+    {
+      "alts" : 1,
+      "duration" : [ 960, 960 ]
+    },
+    {
+      "alts" : 2,
+      "harvestPool" : "greatbambooMFMHarvest",
+      "resetToStage" : 1
+    }
+  ],
+  "maxImmersion" : 0.5,
+  "breakDropOptions" : [[[ "greatbambooMFMseed", 1, { } ]]],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
+}

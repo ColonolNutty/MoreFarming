@@ -1,0 +1,23 @@
+{
+  "itemName" : "makikappaMFM",
+  "rarity" : "Uncommon",
+  "price" : 343.46,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} Chopped cucumbers packed in a ball of rice.",
+  "shortdescription" : "Maki - Kappa",
+  "foodValue" : 36.49,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 96
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "makikappaMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

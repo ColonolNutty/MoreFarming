@@ -1,0 +1,91 @@
+{
+  "objectName" : "chocolatelightplainMFM",
+  "colonyTags" : [ "chocolate", "light" ],
+  "rarity" : "Uncommon",
+  "price" : 1.0,
+  "category" : "light",
+  "printable" : false,
+  "description" : "Plain chocolate base with glowing white chocolate flowing from it.",
+  "shortdescription" : "Chocolate Light - Plain",
+  "race" : "generic",
+  "apexDescription" : "It's a wonder how this chocolate glows. It is very calming.",
+  "avianDescription" : "The chocolate inside seems to glow brightly.",
+  "floranDescription" : "Sssugar glow.",
+  "glitchDescription" : "Curious. How does this glow?",
+  "humanDescription" : "I wonder what it tastes like...",
+  "hylotlDescription" : "I don't think this is actually chocolate... I would rather not touch it.",
+  "novakidDescription" : "A strange light.",
+  "inventoryIcon" : "chocolatelightMFMicon.png:plain",
+  "orientations" : [
+    {
+      "image" : "chocolatelightMFM.png:plain.off",
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "animationPosition" : [ 1, 0 ],
+      "animationParts" : {
+        "fg" : "chocolatelightMFMlit.png:plain",
+        "bg" : "chocolatelightMFM.png:plain"
+      }
+    },
+    {
+      "image" : "chocolatelightleftMFM.png:plain.off",
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "animationPosition" : [ 1, 0 ],
+      "animationParts" : {
+        "fg" : "chocolatelightleftMFMlit.png:plain",
+        "bg" : "chocolatelightleftMFM.png:plain"
+      }
+    },
+    {
+      "image" : "chocolatelightrightMFM.png:plain.off",
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+      "animationPosition" : [ 1, 0 ],
+      "animationParts" : {
+        "fg" : "chocolatelightrightMFMlit.png:plain",
+        "bg" : "chocolatelightrightMFM.png:plain"
+      }
+    },
+    {
+      "image" : "chocolatelightMFM.png:plain.off",
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "animationPosition" : [ 1, 0 ],
+      "animationParts" : {
+        "fg" : "chocolatelightMFMlit.png:plain",
+        "bg" : "chocolatelightMFM.png:plain"
+      }
+    },
+    {
+      "image" : "chocolatelightMFM.png:plain.off",
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "bgAnchors" : [[ 0, 0 ]],
+      "animationPosition" : [ 1, 0 ],
+      "animationParts" : {
+        "fg" : "chocolatelightMFMlit.png:plain",
+        "bg" : "chocolatelightMFM.png:plain"
+      }
+    }
+  ],
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  "beamAmbience" : 0.1,
+  "animationParts" : {
+    "fg" : "chocolatelightMFM.png:plain",
+    "bg" : "chocolatelightMFM.png:plain"
+  },
+  "lightColor" : [ 204, 189, 173 ],
+  "animation" : "chocolatelightMFM.animation",
+  "inputNodes" : [[ 0, 0 ]]
+}

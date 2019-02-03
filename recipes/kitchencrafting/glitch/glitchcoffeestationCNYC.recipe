@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 5 },
-    { "item" : "copperbar", "count" : 3 }
-  ],
-  "output" : { "item" : "glitchcoffeestationCNYC", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "craftingstations", "glitchMFM", "coffeemachineMFM", "all" ]
-}

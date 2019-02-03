@@ -1,0 +1,41 @@
+{
+  "objectName" : "glitchchoppingstationCNYC",
+  "colonyTags" : [ "glitch", "glitchvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 89.1,
+  "category" : "Glitch Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "Solid wood choppingboard!",
+  "shortdescription" : "^orange;Glitch Chopboard (Chop)^reset;",
+  "race" : "generic",
+  "apexDescription" : "More splinters!",
+  "avianDescription" : "Well used and well stained.",
+  "floranDescription" : "Floran smellsss strange thingsss.",
+  "glitchDescription" : "Observation. Hardwood chopboard.",
+  "humanDescription" : "I don't trust the hygiene standards of medieval robots.",
+  "hylotlDescription" : "There are screws and blood everywhere!",
+  "inventoryIcon" : "glitchchoppingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "glitchchoppingstationCNYC.png:<color>",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "choppingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/choppingMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "glitchchoppingstationCNYC.animation"
+}

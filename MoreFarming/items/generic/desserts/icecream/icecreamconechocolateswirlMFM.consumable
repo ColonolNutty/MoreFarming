@@ -1,0 +1,43 @@
+{
+  "itemName" : "icecreamconechocolateswirlMFM",
+  "rarity" : "Common",
+  "price" : 41.57,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A scoop of chocolate swirl ice cream on a waffle cone.",
+  "shortdescription" : "Ice Cream Cone - Chocolate Swirl",
+  "foodValue" : 31.27,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 35
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 148
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 35
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 35
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 148
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 318
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "icecreamconechocolateswirlMFM.png",
+  "handPosition" : [ 12, -6 ]
+}

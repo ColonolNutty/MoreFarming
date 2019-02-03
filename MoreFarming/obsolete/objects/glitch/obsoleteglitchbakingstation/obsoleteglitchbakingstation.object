@@ -1,0 +1,62 @@
+{
+  "objectName" : "glitchbakingstation",
+  "colonyTags" : ["glitch", "glitchvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;A solid stone oven!^reset;",
+  "shortdescription" : "^gray;Glitch Stone Oven (Bake)^reset;",
+  "race" : "generic",
+  "category" : "Cookware",
+  "price" : 253.1,
+  "objectType" : "container",
+
+  "lightColor" : [218, 83, 2, 5],
+
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.2,
+  "flickerMaxIntensity" : 0.3,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "obsoleteglitchbakingstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "obsoleteglitchbakingstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoleteglitchbakingstationlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "obsoleteglitchbakingstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoleteglitchbakingstationlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "recipeGroup" : "bakingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/bakingMFMRecipes.config",
+  "breakDropOptions" : [[[ "glitchbakingstationCNYC", 1, { } ]]]
+}

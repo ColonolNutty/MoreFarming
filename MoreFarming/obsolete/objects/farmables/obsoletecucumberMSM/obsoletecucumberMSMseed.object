@@ -1,0 +1,39 @@
+{
+  "objectName" : "cucumberMSMseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 4.02,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "^gray;Seeds for cucumbers!\nFirst Harvest: 26 mins\nRe-Harvest: None^reset;",
+  "shortdescription" : "^gray;Old Cucumber Seeds^reset;",
+  
+  "inventoryIcon" : "obsoletecucumberMSMseedicon.png",
+  "largeImage" : "obsoletecucumberMSMseed.png:default.default.default",
+  "orientations" : [
+    {
+      "dualImage" : "obsoletecucumberMSMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    { "duration" : [ 300, 300 ] },
+    { "duration" : [ 300, 300 ] },
+    {
+      "alts" : 5,
+      "duration" : [ 960, 960 ]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "cucumberMFMHarvest"
+    }
+  ],
+  "maxImmersion" : 0.25
+}

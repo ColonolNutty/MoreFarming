@@ -1,0 +1,10 @@
+{
+  "itemName" : "bamboostalkBMB",
+  "rarity" : "Common",
+  "price" : 40.0,
+  "category" : "craftingMaterial",
+  "description" : "^gray;Harvested stalk from the fast-growing bamboo plant.^reset;",
+  "shortdescription" : "^gray;Bamboo Stalk^reset;",
+  "maxStack" : 1000,
+  "inventoryIcon" : "obsoletebamboostalkBMB.png"
+}

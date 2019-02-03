@@ -1,0 +1,35 @@
+{
+  "objectName" : "recyclerMFM",
+  "colonyTags" : [ "cooking" ],
+  "rarity" : "Legendary",
+  "price" : 1.98,
+  "category" : "crafting",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "Put obsolete items or objects inside to recycle them.",
+  "shortdescription" : "^orange;Recycler (Recycle)^reset;",
+  "race" : "generic",
+  "inventoryIcon" : "recyclerMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "recyclerMFM.png:<color>.<frame>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  "recipeGroup" : "recyclingMFM",
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/recyclingMFMRecipes.config",
+  "hydrophobic" : false
+}

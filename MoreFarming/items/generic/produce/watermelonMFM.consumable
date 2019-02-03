@@ -1,0 +1,17 @@
+{
+  "itemName" : "watermelonMFM",
+  "rarity" : "Common",
+  "price" : 90.0,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "tooltipKind" : "food",
+  "description" : "A large green oblong shaped melon.",
+  "shortdescription" : "Fully Grown Watermelon",
+  "foodValue" : 20.0,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "watermelonMFM.png"
+}

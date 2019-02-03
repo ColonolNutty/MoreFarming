@@ -1,0 +1,27 @@
+{
+  "itemName" : "limeMFM",
+  "rarity" : "Common",
+  "price" : 40.0,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "tooltipKind" : "food",
+  "description" : "Its a lime!",
+  "shortdescription" : "Lime",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 30
+    },
+    {
+      "effect" : "jumpboostfood",
+      "duration" : 30
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "limeMFM.png"
+}

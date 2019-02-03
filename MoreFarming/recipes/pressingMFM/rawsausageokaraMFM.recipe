@@ -1,0 +1,17 @@
+{
+  "input" : [
+    { "item" : "flourMFM", "count" : 2 },
+    { "item" : "cookingoilMFM", "count" : 1 },
+    { "item" : "yeastMFM", "count" : 1 },
+    { "item" : "tamariMFM", "count" : 1 },
+    { "item" : "choppedonionMFM", "count" : 1 },
+    { "item" : "molassesMFM", "count" : 1 },
+    { "item" : "okaraMFM", "count" : 4 },
+    { "item" : "liquidwater", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "groundgarlicMFM", "count" : 1 },
+    { "item" : "groundparsleyMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "rawsausageokaraMFM", "count" : 1 },
+  "groups" : [ "pressingMFM" ]
+}

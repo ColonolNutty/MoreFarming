@@ -1,0 +1,9 @@
+{
+  "itemName" : "mustardpowderMFM",
+  "rarity" : "Common",
+  "price" : 1.0,
+  "category" : "cookingIngredient",
+  "description" : "(MILL):-} Useful in making mustards.",
+  "shortdescription" : "Mustard Powder",
+  "inventoryIcon" : "mustardpowderMFM.png"
+}

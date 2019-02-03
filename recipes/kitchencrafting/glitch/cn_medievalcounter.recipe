@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 1 },
-    { "item" : "darkwoodmaterial", "count" : 10 }
-  ],
-  "output" : { "item" : "medievalcounter", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "glitchMFM", "storageMFM", "all" ]
-}

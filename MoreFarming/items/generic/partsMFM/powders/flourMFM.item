@@ -1,0 +1,10 @@
+{
+  "itemName" : "flourMFM",
+  "rarity" : "Common",
+  "price" : 8.4,
+  "category" : "cookingIngredient",
+  "description" : "(MILL):-} Used in many recipes!",
+  "shortdescription" : "Flour",
+  "inventoryIcon" : "flourMFM.png",
+  "learnBlueprintsOnPickup" : [ "doughMFM" ]
+}

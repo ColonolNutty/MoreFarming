@@ -1,0 +1,72 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(DISTILL):-} A mulled drink made of oculemon and pussplum. Delicious!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 104.55
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 1142.14
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Alcohol - Cyanider"
+    }
+  ]
+]

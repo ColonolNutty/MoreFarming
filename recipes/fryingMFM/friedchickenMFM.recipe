@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "rawstripofpoultryMFM", "count" : 1 },
-    { "item" : "cookingoilMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "friedchickenMFM", "count" : 1 },
-  "groups" : [ "fryingMFM" ]
-}

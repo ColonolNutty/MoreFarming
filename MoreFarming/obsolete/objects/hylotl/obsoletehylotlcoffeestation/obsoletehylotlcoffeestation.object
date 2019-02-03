@@ -1,0 +1,37 @@
+{
+  "objectName" : "hylotlcoffeestation",
+  "colonyTags" : ["hylotl", "hylotlvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;A compact coffee machine.^reset;",
+  "shortdescription" : "^gray;Hylotl Percolator (Coffee)^reset;",
+  "race" : "generic",
+  "category" : "Cookware",
+  "price" : 249.15,
+  "objectType" : "container",
+
+  "inventoryIcon" : "obsoletehylotlcoffeestationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "obsoletehylotlcoffeestation.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "coffeeMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/coffeeMFMRecipes.config",
+  "breakDropOptions" : [[[ "hylotlcoffeestationCNYC", 1, { } ]]]
+}

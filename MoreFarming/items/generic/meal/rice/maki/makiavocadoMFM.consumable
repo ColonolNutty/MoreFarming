@@ -1,0 +1,31 @@
+{
+  "itemName" : "makiavocadoMFM",
+  "rarity" : "Uncommon",
+  "price" : 300.41,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} Chopped avocado and ginger packed in a ball of rice.",
+  "shortdescription" : "Maki - Avocado",
+  "foodValue" : 36.49,
+  "effects" : [[
+    {
+      "effect" : "thorns",
+      "duration" : 76
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 31
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 76
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "makiavocadoMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

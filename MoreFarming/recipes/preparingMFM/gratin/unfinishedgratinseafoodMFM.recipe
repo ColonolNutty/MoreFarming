@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "choppedpotatoMFM", "count" : 1 },
+    { "item" : "choppedcoralcreepMFM", "count" : 1 },
+    { "item" : "rawstripoffishMFM", "count" : 1 },
+    { "item" : "choppedonionMFM", "count" : 1 },
+    { "item" : "creamMFM", "count" : 1 },
+    { "item" : "cheese", "count" : 1 }
+  ],
+  "output" : { "item" : "unfinishedgratinseafoodMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "bone", "count" : 10 },
-    { "item" : "darkwoodmaterial", "count" : 10 }
-  ],
-  "output" : { "item" : "floranfreezingstationCNYC", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "craftingstations", "floranMFM", "freezingmachineMFM", "all" ]
-}

@@ -1,0 +1,42 @@
+{
+  "objectName" : "aviancoffeestationCNYC",
+  "colonyTags" : [ "avian", "avianvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 86.1,
+  "category" : "Avian Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A fine cast coffeepot!",
+  "shortdescription" : "^orange;Avian Coffeepot (Coffee)^reset;",
+  "race" : "generic",
+  "apexDescription" : "Coffee is becoming widespread, I wonder how long before Big Ape stops that?",
+  "avianDescription" : "Fantastic, full bodied.",
+  "floranDescription" : "Floran mixesss blood.",
+  "glitchDescription" : "Observation. A delicately cast coffeepot.",
+  "humanDescription" : "Oh! Any dates? Good dates, not bad dates, never bad dates.",
+  "hylotlDescription" : "I'll give it a try...",
+  "inventoryIcon" : "aviancoffeestationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "aviancoffeestationCNYC.png:<color>",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "coffeeMFM",
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit3.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/coffeeMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "aviancoffeestationCNYC.animation"
+}

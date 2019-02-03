@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "mixfondantMFM", "count" : 1 },
+    { "item" : "sugar", "count" : 4 }
+  ],
+  "output" : { "item" : "fondantMFM", "count" : 1 },
+  "groups" : [ "blendingMFM" ]
+}

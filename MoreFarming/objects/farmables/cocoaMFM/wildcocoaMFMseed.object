@@ -1,0 +1,45 @@
+{
+  "objectName" : "wildcocoaMFMseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 23.0,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "The sweetest plant of all. Takes forever to grow though.",
+  "shortdescription" : "Wild Cocoa Seed",
+  "floranDescription" : "Cocoa ssseedsss..",
+  "glitchDescription" : "Cynical. The Humans love these, but the Glitch see nothing special.",
+  "humanDescription" : "Did someone say chocolate..!? CHOCOLATE!! CHOCOLATE!!",
+  "inventoryIcon" : "cocoaMFMseedicon.png",
+  "largeImage" : "cocoaMFMseed.png:default.default.default",
+  "orientations" : [
+    {
+      "dualImage" : "cocoaMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    { "duration" : [ 39840, 39840 ] },
+    { "duration" : [ 3300, 3300 ] },
+    {
+      "alts" : 5,
+      "duration" : [ 660, 660 ]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "cocoaMFMHarvest",
+      "resetToStage" : 2
+    }
+  ],
+  "maxImmersion" : 0.25,
+  "breakDropOptions" : [[[ "cocoaMFMseed", 1, { } ]]],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
+}

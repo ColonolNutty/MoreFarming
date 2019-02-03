@@ -1,0 +1,35 @@
+{
+  "objectName" : "stealthybookstandMFM",
+  "colonyTags" : [ "glitch", "glitchcastle", "knowledge", "storage" ],
+  "rarity" : "Common",
+  "price" : 104.1,
+  "category" : "storage",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "This book has a secret compartment.",
+  "shortdescription" : "Stealthy Book Stand",
+  "race" : "glitch",
+  "apexDescription" : "A book. It can hide things.",
+  "avianDescription" : "This book can be used to hide things.",
+  "floranDescription" : "This book can hide thingsss.",
+  "glitchDescription" : "Analysis. There is a secret compartment in this book.",
+  "humanDescription" : "It's a book with some pages cut out, useful if you want to hide something.",
+  "hylotlDescription" : "A book. This one has pages cut out.",
+  "inventoryIcon" : "stealthybookstandMFMicon.png",
+  "largeImage" : "stealthybookstandMFM.png:default.default",
+  "orientations" : [
+    {
+      "dualImage" : "stealthybookstandMFM.png:<color>.<key>",
+      "imagePosition" : [ -8, 0 ],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 4,
+  "uiConfig" : "/interface/chests/chest<slots>MFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 5 }
+  ],
+  "output" : { "item" : "nanochoppingstationCNYC", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "nanoMFM", "choppingmachineMFM", "all" ]
+}

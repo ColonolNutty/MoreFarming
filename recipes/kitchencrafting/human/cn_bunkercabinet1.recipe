@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 10 },
-    { "item" : "darkwoodmaterial", "count" : 2 }
-  ],
-  "output" : { "item" : "bunkercabinet1", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "humanMFM", "genericMFM", "storageMFM", "all" ]
-}

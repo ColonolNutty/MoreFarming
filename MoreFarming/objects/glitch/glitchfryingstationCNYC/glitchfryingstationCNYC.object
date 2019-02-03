@@ -1,0 +1,92 @@
+{
+  "objectName" : "glitchfryingstationCNYC",
+  "colonyTags" : [ "glitch", "glitchvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 249.08,
+  "category" : "Glitch Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A basic looking frypan.",
+  "shortdescription" : "^orange;Glitch Frypan (Fry)^reset;",
+  "race" : "generic",
+  "apexDescription" : "Food and rust are engrained into the surface.",
+  "avianDescription" : "It needs cleaning, maybe with a starship booster.",
+  "floranDescription" : "Floran hungersss.",
+  "glitchDescription" : "Observation. A standard frypan.",
+  "humanDescription" : "The pan doesn't feel non-stick.",
+  "hylotlDescription" : "I'd rather eat my food cold than use that.",
+  "inventoryIcon" : "glitchfryingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "glitchfryingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "glitchfryingstationCNYClit.png:<color>.<frame>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "glitchfryingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "glitchfryingstationCNYClit.png:<color>.<frame>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "fryingMFM",
+  "openSounds" : [ "/sfx/objects/fryingMFMenter1.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/fryingMFMRecipes.config",
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.85,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 1,
+  "particleEmitter" : {
+    "emissionRate" : 2,
+    "particleVariance" : {
+      "initialVelocity" : [ -1, 0.4 ],
+      "position" : [ 0.6, 0 ]
+    },
+    "particle" : {
+      "timeToLive" : 0.8,
+      "fade" : 0.2,
+      "size" : 1,
+      "color" : [ 249, 162, 57, 255 ],
+      "initialVelocity" : [ 0, 4 ],
+      "finalVelocity" : [ 0, -1 ],
+      "position" : [ 0, 0.7 ],
+      "type" : "ember",
+      "approach" : [ 0, 20 ],
+      "layer" : "back"
+    },
+    "emissionVariance" : 1
+  },
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 179, 149, 107 ],
+  "flickerIntensityVariance" : 0.025,
+  "soundEffect" : "/sfx/objects/fryingMFMambience1.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "glitchfryingstationCNYC.animation"
+}

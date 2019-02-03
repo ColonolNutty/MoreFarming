@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "rawchipspotatoMFM", "count" : 1 },
-    { "item" : "cookingoilMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "chipspotatoMFM", "count" : 1 },
-  "groups" : [ "fryingMFM" ]
-}

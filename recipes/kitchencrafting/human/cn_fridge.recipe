@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 12 }
-  ],
-  "output" : { "item" : "fridge", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "humanMFM", "genericMFM", "storageMFM", "all" ]
-}

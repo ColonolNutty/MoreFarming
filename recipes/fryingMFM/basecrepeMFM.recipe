@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "batterdessertMFM", "count" : 1 },
-    { "item" : "butterMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "basecrepeMFM", "count" : 1 },
-  "groups" : [ "fryingMFM" ]
-}

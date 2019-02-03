@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "peanutbutterMFM", "count" : 1 },
-    { "item" : "breadsliceMFM", "count" : 2 }
-  ],
-  "output" : { "item" : "sandwichpeanutbutterMFM", "count" : 1 },
-  "groups" : [ "preparingMFM" ]
-}

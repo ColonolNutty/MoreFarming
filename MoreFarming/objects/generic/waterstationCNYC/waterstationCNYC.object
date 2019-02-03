@@ -1,0 +1,98 @@
+{
+  "objectName" : "waterstationCNYC",
+  "colonyTags" : [ "human", "humanvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 270.63,
+  "category" : "Basic Cookware",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "A fresh water dispenser!",
+  "shortdescription" : "^orange;Water Dispenser (Water)^reset;",
+  "race" : "generic",
+  "apexDescription" : "Cool, clear water. Refreshing!",
+  "avianDescription" : "I could do with a drink.",
+  "floranDescription" : "Floran drinksss from taps...",
+  "glitchDescription" : "Gossiping. I'm not sure about all these apex.",
+  "humanDescription" : "Refreshing, and stylish!.",
+  "hylotlDescription" : "Nice, but sadly not enough to swim in.",
+  "inventoryIcon" : "waterstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "waterstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "waterstationCNYClit.png:<color>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "waterstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "waterstationCNYClit.png:<color>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "waterMFM",
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/waterMFMRecipes.config",
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "waterstationCNYC.animation",
+  "particleEmitter" : {
+    "emissionRate" : 6,
+    "particleVariance" : {
+      "initialVelocity" : [ 0.5, 2 ],
+      "position" : [ 0.4, 0 ]
+    },
+    "particle" : {
+      "timeToLive" : 0.3,
+      "fade" : 2,
+      "size" : 1,
+      "color" : [ 200, 200, 200, 100 ],
+      "initialVelocity" : [ 0, 4 ],
+      "finalVelocity" : [ 0, 2 ],
+      "position" : [ 0.8, 1 ],
+      "type" : "ember",
+      "approach" : [ 0, 20 ],
+      "layer" : "back"
+    },
+    "emissionVariance" : 1
+  },
+  "retainObjectParametersInItem" : true,
+  "npcToy" : {
+    "preciseStandPositionRight" : [ 1, 0 ],
+    "preciseStandPositionLeft" : [ -1, 0 ],
+    "maxNpcs" : 1,
+    "defaultReactions" : {
+      "watercoolerConsume" : [[ 1, "drink" ]],
+      "watercoolerComplete" : [
+        [ 1, "smile" ],
+        [ 0.1, "vomit" ]
+      ],
+      "watercoolerCollect" : [[ 1, "crouchcollect" ]]
+    },
+    "influence" : [ "watercoolerCollect", "watercoolerConsume", "watercoolerComplete" ]
+  }
+}

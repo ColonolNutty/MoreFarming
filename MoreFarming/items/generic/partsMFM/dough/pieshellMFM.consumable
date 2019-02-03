@@ -1,0 +1,31 @@
+{
+  "itemName" : "pieshellMFM",
+  "rarity" : "Common",
+  "price" : 77.71,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} A shell for making pie.",
+  "shortdescription" : "Dough - Pie Shell",
+  "foodValue" : 74.55,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 71
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 71
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 153
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cookiedoughMFM.png",
+  "handPosition" : [ 0, -3 ]
+}

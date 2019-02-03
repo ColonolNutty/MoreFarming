@@ -1,0 +1,26 @@
+{
+  "itemName" : "choppedshadowbulbMFM",
+  "rarity" : "Common",
+  "price" : 52.5,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed and chopped shadow bulb.",
+  "shortdescription" : "Chopped Shadow Bulb",
+  "foodValue" : 10.5,
+  "effects" : [[
+    {
+      "effect" : "ghostlyglow",
+      "duration" : 63
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 42
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedshadowbulbMFM.png"
+}

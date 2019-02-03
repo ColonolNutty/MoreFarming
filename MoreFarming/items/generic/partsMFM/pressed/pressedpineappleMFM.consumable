@@ -1,0 +1,16 @@
+{
+  "itemName" : "pressedpineappleMFM",
+  "rarity" : "Common",
+  "price" : 168.0,
+  "category" : "food",
+  "tooltipKind" : "food",
+  "description" : "(PRESS):-} Pineapple pressed into a thick pulp using a press",
+  "shortdescription" : "Pressed Pineapple",
+  "foodValue" : 10.5,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "pressedpineappleMFM.png"
+}

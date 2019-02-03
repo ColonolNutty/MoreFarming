@@ -1,0 +1,42 @@
+{
+  "itemName" : "mixfondantMFM",
+  "rarity" : "Common",
+  "price" : 71.46,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} A mixture for making fondant, but it isn't quite ready yet.",
+  "shortdescription" : "Mix - Fondant",
+  "foodValue" : 34.88,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 33
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 73
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 33
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 101
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 73
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 228
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "mixfondantMFM.png"
+}

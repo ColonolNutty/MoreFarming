@@ -1,0 +1,42 @@
+{
+  "objectName" : "glitchpurifierstationCNYC",
+  "colonyTags" : [ "glitch", "glitchvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 167.08,
+  "category" : "Glitch Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A basic looking teapot.",
+  "shortdescription" : "^orange;Glitch Teapot (Purify)^reset;",
+  "race" : "generic",
+  "apexDescription" : "That is an oil cannister.",
+  "avianDescription" : "Smells like oil.",
+  "floranDescription" : "Floran drinksss.",
+  "glitchDescription" : "Observation. A repurposed oil cannister. Ingenious!",
+  "humanDescription" : "Well, always a use for something.",
+  "hylotlDescription" : "It smells like engine oil.",
+  "inventoryIcon" : "glitchpurifierstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "glitchpurifierstationCNYC.png:<color>",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "purifyingMFM",
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit3.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/purifyingMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "glitchpurifierstationCNYC.animation"
+}

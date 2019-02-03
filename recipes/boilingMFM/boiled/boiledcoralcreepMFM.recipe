@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "choppedcoralcreepMFM", "count" : 1 },
-    { "item" : "liquidwater", "count" : 2 }
-  ],
-  "output" : { "item" : "boiledcoralcreepMFM", "count" : 1 },
-  "groups" : [ "boilingMFM" ]
-}

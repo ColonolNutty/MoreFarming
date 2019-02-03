@@ -1,0 +1,12 @@
+{
+  "itemName" : "blockpumpkinMFM",
+  "rarity" : "Common",
+  "price" : 12.6,
+  "category" : "block",
+  "description" : "Pumpkin compressed into a solid block.",
+  "shortdescription" : "Block Pumpkin",
+  "floranDescription" : "Bright orange block.",
+  "glitchDescription" : "Statement. A block made of Pumpkin.",
+  "inventoryIcon" : "blockpumpkinMFM.png",
+  "materialId" : 19202
+}

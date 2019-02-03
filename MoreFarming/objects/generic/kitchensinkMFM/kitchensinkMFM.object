@@ -1,0 +1,42 @@
+{
+  "objectName" : "kitchensinkMFM",
+  "colonyTags" : [ "cooking" ],
+  "rarity" : "Common",
+  "price" : 176.1,
+  "category" : "crafting",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "A sink made of wood.",
+  "shortdescription" : "Kitchen Sink (Water)",
+  "race" : "generic",
+  "apexDescription" : "A kitchen sink.",
+  "avianDescription" : "A water basin.",
+  "floranDescription" : "Turn on, water comesss out!",
+  "glitchDescription" : "Identify. A sink.",
+  "humanDescription" : "A nice sink. I wonder if the water is fresh.",
+  "hylotlDescription" : "Water!",
+  "inventoryIcon" : "kitchensinkMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kitchensinkMFM.png:<color>",
+      "imagePosition" : [ -16, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "waterMFM",
+  "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
+  "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/waterMFMRecipes.config",
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "kitchensinkMFM.animation"
+}

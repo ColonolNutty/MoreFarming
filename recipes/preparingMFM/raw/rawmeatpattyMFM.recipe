@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "rawstripofalienmeatMFM", "count" : 1 },
-    { "item" : "saltMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "rawmeatpattyMFM", "count" : 1 },
-  "groups" : [ "preparingMFM"]
-}

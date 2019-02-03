@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "thymebundleMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "choppedthymeMFM", "count" : 5 },
-  "groups" : [ "choppingMFM" ]
-}

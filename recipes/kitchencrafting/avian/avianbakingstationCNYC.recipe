@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "darkwoodmaterial", "count" : 3 },
-    { "item" : "sand2", "count" : 5 },
-    { "item" : "clay", "count" : 5 }
-  ],
-  "output" : { "item" : "avianbakingstationCNYC", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "craftingstations", "avianMFM", "bakingmachineMFM", "all" ]
-}

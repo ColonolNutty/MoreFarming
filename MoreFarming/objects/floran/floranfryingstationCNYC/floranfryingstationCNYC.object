@@ -1,0 +1,65 @@
+{
+  "objectName" : "floranfryingstationCNYC",
+  "colonyTags" : [ "floran", "floranvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 35.2,
+  "category" : "Floran Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A coal heated skillet made of bone.",
+  "shortdescription" : "^orange;Floran Bone Skillet (Fry)^reset;",
+  "race" : "generic",
+  "apexDescription" : "A frying pan of bone on a table of bone. The heat doesn't crack it?",
+  "avianDescription" : "It is primitive, but it does the job.",
+  "floranDescription" : "Floran like bonesss.",
+  "glitchDescription" : "Analysis. A frying pan made of bone.",
+  "humanDescription" : "Smells like steak.",
+  "hylotlDescription" : "Not really my taste, but it works.",
+  "novakidDescription" : "A skillet o' bone, ain't seen that before.",
+  "inventoryIcon" : "floranfryingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranfryingstationCNYC.png:default.<frame>",
+      "imagePosition" : [ 0, 0 ],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "fryingMFM",
+  "openSounds" : [ "/sfx/objects/fryingMFMenter1.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/fryingMFMRecipes.config",
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.2,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 0.3,
+  "animationPosition" : [ 0, 0 ],
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 218, 83, 2, 5 ],
+  "animation" : "floranfryingstationCNYC.animation",
+  "npcToy" : {
+    "preciseStandPositionRight" : [ 2.5, 0 ],
+    "preciseStandPositionLeft" : [ -1.5, 0 ],
+    "maxNpcs" : 1,
+    "defaultReactions" : {
+      "furnace" : [
+        [ 1, "warmhands" ],
+        [ 1, "crouchwarm" ]
+      ],
+      "furnaceComplete" : [
+        [ 1, "warmhands" ],
+        [ 1, "crouchwarm" ],
+        [ 1, "pokefire" ]
+      ]
+    },
+    "influence" : [ "furnace", "furnace", "furnaceComplete" ]
+  },
+  "soundEffect" : "/sfx/objects/fryingMFMambience1.ogg",
+  "soundEffectRadius" : 10,
+  "flickerIntensityVariance" : 0.025
+}

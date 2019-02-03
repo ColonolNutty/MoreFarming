@@ -1,0 +1,26 @@
+{
+  "itemName" : "obsoletepizzaslicepiodiaMFM",
+  "rarity" : "Common",
+  "price" : 218.42,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "^gray;A cold slice of piodia pizza.^reset;",
+  "shortdescription" : "^gray;Pizza Slice - Piodia^reset;",
+  "foodValue" : 17.96,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 34
+    },
+    {
+      "effect" : "weakpoison",
+      "duration" : 21
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "obsoletepizzaslicepiodiaMFM.png"
+}

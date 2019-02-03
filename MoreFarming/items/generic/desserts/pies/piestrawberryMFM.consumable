@@ -1,0 +1,35 @@
+{
+  "itemName" : "piestrawberryMFM",
+  "rarity" : "Common",
+  "price" : 932.01,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} Strawberry Pie, it has a sweet taste and is very juicy.",
+  "shortdescription" : "Pie - Strawberry",
+  "foodValue" : 305.31,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 152
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 71
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 608
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 403
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "piestrawberryMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 },
+    { "item" : "darkwoodmaterial", "count" : 8 }
+  ],
+  "output" : { "item" : "apexcounter1", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "apexMFM", "storageMFM", "all" ]
+}

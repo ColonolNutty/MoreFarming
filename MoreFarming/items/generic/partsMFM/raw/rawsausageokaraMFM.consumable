@@ -1,0 +1,43 @@
+{
+  "itemName" : "rawsausageokaraMFM",
+  "rarity" : "Common",
+  "price" : 838.24,
+  "category" : "food",
+  "eventCategory" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(PRESS):-} Sausage links, contains okara.",
+  "shortdescription" : "Raw Sausage - Okara",
+  "foodValue" : 270.14,
+  "effects" : [[
+    {
+      "effect" : "antidote",
+      "duration" : 5
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 98
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 32
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 162
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 162
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 336
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 0.5,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "rawsausageokaraMFM.png"
+}

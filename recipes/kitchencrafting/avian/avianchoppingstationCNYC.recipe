@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "darkwoodmaterial", "count" : 10 },
-    { "item" : "copperbar", "count" : 2 }
-  ],
-  "output" : { "item" : "avianchoppingstationCNYC", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "craftingstations", "avianMFM", "choppingStationMFM", "all" ]
-}

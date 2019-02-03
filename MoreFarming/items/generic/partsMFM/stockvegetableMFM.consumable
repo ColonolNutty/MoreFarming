@@ -1,0 +1,26 @@
+{
+  "itemName" : "stockvegetableMFM",
+  "rarity" : "Common",
+  "price" : 203.96,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} Reduced vegetables. Flavoursome stock ready for use.",
+  "shortdescription" : "Stock - Vegetable",
+  "foodValue" : 43.58,
+  "effects" : [[
+    {
+      "effect" : "antidote",
+      "duration" : 5
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 98
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "stockvegetableMFM.png"
+}

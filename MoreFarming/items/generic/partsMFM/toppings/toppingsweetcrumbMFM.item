@@ -1,0 +1,10 @@
+{
+  "itemName" : "toppingsweetcrumbMFM",
+  "rarity" : "Common",
+  "price" : 31.89,
+  "category" : "cookingIngredient",
+  "description" : "(BLEND):-} A mixture of flour, butter and sugar milled in a mill.",
+  "shortdescription" : "Topping - Sweet Crumb",
+  "maxStack" : 1000,
+  "inventoryIcon" : "toppingsweetcrumbMFM.png"
+}

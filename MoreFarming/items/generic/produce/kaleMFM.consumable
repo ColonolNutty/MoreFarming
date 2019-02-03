@@ -1,0 +1,23 @@
+{
+  "itemName" : "kaleMFM",
+  "rarity" : "Common",
+  "price" : 65.0,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "tooltipKind" : "food",
+  "description" : "Kale, it is considered to be healthy.",
+  "shortdescription" : "Kale",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 60
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "kaleMFM.png"
+}

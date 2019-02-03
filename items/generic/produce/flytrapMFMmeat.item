@@ -1,9 +1,0 @@
-{
-  "itemName" : "flytrapMFMmeat",
-  "rarity" : "Common",
-  "price" : 60.0,
-  "category" : "cookingIngredient",
-  "description" : "A raw slab of Floran fly trap meat. It still seems alive!",
-  "shortdescription" : "Raw Floran Fly Trap Meat",
-  "inventoryIcon" : "flytrapMFMmeat.png"
-}

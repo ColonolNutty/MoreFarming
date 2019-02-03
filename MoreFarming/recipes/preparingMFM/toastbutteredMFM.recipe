@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "toast", "count" : 1 },
+    { "item" : "butterMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "toastbutteredMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

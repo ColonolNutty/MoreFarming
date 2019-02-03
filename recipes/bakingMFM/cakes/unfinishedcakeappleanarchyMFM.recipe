@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "mixcakeappleanarchyMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "unfinishedcakeappleanarchyMFM", "count" : 1 },
-  "groups" : [ "bakingMFM" ]
-}

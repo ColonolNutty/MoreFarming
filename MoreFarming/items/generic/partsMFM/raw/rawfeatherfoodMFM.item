@@ -1,0 +1,10 @@
+{
+  "itemName" : "rawfeatherfoodMFM",
+  "rarity" : "Common",
+  "price" : 309.84,
+  "category" : "cookingIngredient",
+  "description" : "(PREP):-} Beakseed, feathercrown, and cinnamon spread across a pastry. Ready for baking.",
+  "shortdescription" : "Raw Featherfood",
+  "maxStack" : 1000,
+  "inventoryIcon" : "rawfeatherfoodMFM.png"
+}

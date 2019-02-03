@@ -1,0 +1,11 @@
+{
+  "itemName" : "bioethanolMFM",
+  "rarity" : "Common",
+  "price" : 26.56,
+  "category" : "craftingMaterial",
+  "description" : "(DISTILL):-} Renewable fuel for intergalactic conquest!",
+  "shortdescription" : "Bioethanol",
+  "inventoryIcon" : "bioethanolMFM.png",
+  "learnBlueprintsOnPickup" : [ "molotov" ],
+  "fuelAmount" : 2
+}

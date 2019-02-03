@@ -1,0 +1,37 @@
+{
+  "objectName" : "wickerchest1MFM",
+  "colonyTags" : [ "glitch", "glitchvillage", "storage" ],
+  "rarity" : "Common",
+  "price" : 502.5,
+  "category" : "storage",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "A small chest, fashioned from wicker and copper.",
+  "shortdescription" : "Wicker Chest",
+  "race" : "generic",
+  "apexDescription" : "A strong chest. What's inside?",
+  "avianDescription" : "These chests are built undecorated but strong, to protect the contents.",
+  "floranDescription" : "Let'ss get chesst open! Maybe food insside.",
+  "glitchDescription" : "Eager. No time to waste, open it up!",
+  "humanDescription" : "A chest is a welcome sight.",
+  "hylotlDescription" : "Presents are most exciting when they're still wrapped.",
+  "novakidDescription" : "I won't remember what was inside, so let's just grab it all.",
+  "inventoryIcon" : "wickerchest1MFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wickerchest1MFM.png:<color>.<key>",
+      "imagePosition" : [ -8, 0 ],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/wickerMFM_enter1.ogg" ],
+  "closeSounds" : [ "/sfx/objects/wickerMFM_exit1.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "health" : 1.5
+}

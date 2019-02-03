@@ -1,0 +1,63 @@
+{
+  "objectName" : "purifierstationMFM",
+  "colonyTags" : [ "human", "humanvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 167.08,
+  "category" : "Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A kettle! Purifies liquids!",
+  "shortdescription" : "^orange;Kettle (Purify)^reset;",
+  "race" : "generic",
+  "apexDescription" : "A quick-boiling kettle that purifies multiple liquids? Impressive.",
+  "avianDescription" : "I could get used to having one of these.",
+  "floranDescription" : "Floran like hotsss without fire!",
+  "glitchDescription" : "Query. Does it work with oil too?",
+  "humanDescription" : "It turns dirty into clean.",
+  "hylotlDescription" : "Excellent, I could use a cup of... wait... no teabags? Typical.",
+  "inventoryIcon" : "purifierstationMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "purifierstationMFM.png:<color>",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "purifyingMFM",
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit3.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/purifyingMFMRecipes.config",
+  "particleEmitter" : {
+    "emissionRate" : 6,
+    "particleVariance" : {
+      "initialVelocity" : [ 0.3, 2 ],
+      "position" : [ 0.2, 0 ]
+    },
+    "particle" : {
+      "timeToLive" : 1,
+      "fade" : 1,
+      "size" : 1,
+      "color" : [ 255, 255, 255, 50 ],
+      "initialVelocity" : [ 0, 2 ],
+      "finalVelocity" : [ 0, 1 ],
+      "position" : [ -0.2, 1.3 ],
+      "type" : "animated",
+      "approach" : [ 0, 20 ],
+      "layer" : "back",
+      "animation" : "/animations/dustclear/dustclearCNYC.animation"
+    },
+    "emissionVariance" : 1
+  },
+  "retainObjectParametersInItem" : true,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "purifierstationMFM.animation"
+}

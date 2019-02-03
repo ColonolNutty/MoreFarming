@@ -1,0 +1,33 @@
+[
+   [
+    {
+      "op" : "test",
+      "path" : "/stages/2/harvestPool",
+      "value" : "sugarcaneHarvest"
+    },
+    {
+      "op" : "replace",
+      "path" : "/stages/2/harvestPool",
+      "value" : "sugarcaneMFMHarvest"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 804.0
+    }
+  ]
+]

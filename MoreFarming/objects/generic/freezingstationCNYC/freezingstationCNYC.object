@@ -1,0 +1,90 @@
+{
+  "objectName" : "freezingstationCNYC",
+  "colonyTags" : [ "human", "humanvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 251.13,
+  "category" : "Refridgerated Basic Cookware",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "A portable flash freezer, used for storage or making cold treats!",
+  "shortdescription" : "^orange;Freezer (Freeze)^reset;",
+  "race" : "generic",
+  "apexDescription" : "Banana icecream?! Give me a moment...",
+  "avianDescription" : "Cold treats even on our native planets!",
+  "floranDescription" : "Floran ssstick tongue againssst... bad floran.",
+  "glitchDescription" : "Observation. Cold!",
+  "humanDescription" : "Icecream, in space!",
+  "hylotlDescription" : "A freezing device? Interesting...",
+  "inventoryIcon" : "freezingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "freezingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "freezingstationCNYClit.png:<color>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "freezingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "freezingstationCNYClit.png:<color>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "freezingMFM",
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
+  "particleEmitter" : {
+    "emissionRate" : 3,
+    "particleVariance" : {
+      "initialVelocity" : [ 0.3, 2 ],
+      "position" : [ 0.2, 0 ]
+    },
+    "particle" : {
+      "timeToLive" : 2,
+      "fade" : 1,
+      "size" : 1,
+      "color" : [ 146, 236, 255, 50 ],
+      "initialVelocity" : [ 0, 1 ],
+      "finalVelocity" : [ 0, -1 ],
+      "position" : [ -0.8, 1.7 ],
+      "type" : "animated",
+      "approach" : [ 0, 20 ],
+      "layer" : "back",
+      "animation" : "/animations/dustclearblue/dustclearblueCNYC.animation"
+    },
+    "emissionVariance" : 1
+  },
+  "retainObjectParametersInItem" : true,
+  "soundEffect" : "/sfx/objects/freezerMFMambience1.ogg",
+  "soundEffectRadius" : 10,
+  "itemAgeMultiplier" : 0,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "freezingstationCNYC.animation"
+}

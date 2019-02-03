@@ -1,0 +1,18 @@
+{
+  "itemName" : "redapplejuiceMFM",
+  "rarity" : "Common",
+  "price" : 4.41,
+  "category" : "drink",
+  "tooltipKind" : "food",
+  "description" : "(BLEND):-} sweet apple juice.",
+  "shortdescription" : "Juice - Red Apple",
+  "foodValue" : 11.03,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "redapplejuiceMFM.png",
+  "emitters" : [ "drinking" ],
+  "handPosition" : [ 0, -4 ]
+}

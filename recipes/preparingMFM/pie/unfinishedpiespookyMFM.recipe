@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "creamfillingspookyMFM", "count" : 1 },
-    { "item" : "toppingwhippedcreamMFM", "count" : 1 },
-    { "item" : "pieshellMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "unfinishedpiespookyMFM", "count" : 1 },
-  "groups" : [ "preparingMFM" ]
-}

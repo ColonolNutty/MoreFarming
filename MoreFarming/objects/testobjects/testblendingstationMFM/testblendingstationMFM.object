@@ -1,0 +1,37 @@
+{
+  "objectName" : "testblendingstationMFM",
+  "colonyTags" : [ "test", "cooking" ],
+  "rarity" : "Common",
+  "price" : 412.05,
+  "category" : "Test Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "This is only for testing, if you see this as craftable, something went wrong!",
+  "shortdescription" : "^orange;Test Blender (Blend)^white;",
+  "race" : "generic",
+  "inventoryIcon" : "testblendingstationMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "testblendingstationMFM.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "blendingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 17,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/blendingMFMRecipes.config",
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.2,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 0.3,
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 218, 83, 2, 5 ],
+  "subtitle" : "Blend Food!",
+  "flickerIntensityVariance" : 0.025
+}

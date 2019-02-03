@@ -1,0 +1,31 @@
+{
+  "itemName" : "sausagealienpoultryandeggsMFM",
+  "rarity" : "Uncommon",
+  "price" : 131.82,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A plate of steak and poultry sausage with a side of scrambled eggs.",
+  "shortdescription" : "Sausage and Eggs",
+  "foodValue" : 82.89,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 35
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 35
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 75
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "sausagealienpoultryandeggsMFM.png",
+  "handPosition" : [ 0, -3 ]
+}

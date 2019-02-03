@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "chipspotatoMFM", "count" : 2 },
-    { "item" : "choppedbananaMFM", "count" : 2 },
-    { "item" : "breadsliceMFM", "count" : 2 }
-  ],
-  "output" : { "item" : "sandwichbananachipsMFM", "count" : 1 },
-  "groups" : [ "preparingMFM" ]
-}

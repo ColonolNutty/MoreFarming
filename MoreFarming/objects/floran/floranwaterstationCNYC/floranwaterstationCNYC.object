@@ -1,0 +1,33 @@
+{
+  "objectName" : "floranwaterstationCNYC",
+  "colonyTags" : [ "floran", "floranvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 5.05,
+  "category" : "Floran Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A sink made of bone.",
+  "shortdescription" : "^orange;Floran Wash Basin (Water)^reset;",
+  "race" : "generic",
+  "inventoryIcon" : "floranwaterstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranwaterstationCNYC.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "waterMFM",
+  "openSounds" : [ "/sfx/objects/sinkMFMenter.ogg" ],
+  "closeSounds" : [ "/sfx/objects/sinkMFMexit.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/waterMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "floranwaterstationCNYC.animation"
+}

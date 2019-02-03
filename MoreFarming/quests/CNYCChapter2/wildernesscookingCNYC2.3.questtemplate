@@ -1,0 +1,35 @@
+{
+  "id" : "wildernesscookingCNYC2.3.gearup",
+  "title" : "^green;The Start of Something Delicious - II Part 3^white;",
+  "text" : "Now I need some ^green;Raw Poultry^white; and ^green;Raw Steak^white;. I should be able to get ^green;Raw Poultry^white; from ^cyan;Flying Enemies^white; and ^green;Raw Steak^white; from ^cyan;Grounded Enemies^white; as long as I slay them with the ^green;Hunting Spear^white;. I will need ^blue;One^white; of each type of meat.",
+  "completionText" : "Now that I have meat, what's next...",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  
+  "updateDelta" : 10,
+  "canBeAbandoned" : false,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "player",
+      "questComplete" : "player"
+    },
+    "followUp" : "wildernesscookingCNYC2.4.gearup",
+	"requireTurnIn" : false,
+	"canBeAbandoned" : false,
+	"conditions" : [
+		{
+			"type" : "gatherItem",
+			"itemName" : "rawpoultry",
+			"count" : 1,
+			"consume" : false
+		},
+		{
+			"type" : "gatherItem",
+			"itemName" : "alienmeat",
+			"count" : 1,
+			"consume" : false
+		}
+	]
+  }
+}

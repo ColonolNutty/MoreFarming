@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "doughMFM", "count" : 1 },
+    { "item" : "saltMFM", "count" : 1 },
+    { "item" : "butterMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 1 }
+  ],
+  "output" : { "item" : "shortcrustpastryMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

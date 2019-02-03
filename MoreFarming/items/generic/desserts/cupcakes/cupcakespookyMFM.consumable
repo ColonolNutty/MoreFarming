@@ -1,0 +1,43 @@
+{
+  "itemName" : "cupcakespookyMFM",
+  "rarity" : "Common",
+  "price" : 267.45,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A cupcake with spooky icing.",
+  "shortdescription" : "Cupcake - Spooky",
+  "foodValue" : 78.7,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 70
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 76
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 70
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 70
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 76
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 164
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cupcakespookyMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

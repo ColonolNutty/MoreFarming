@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "liquidhealing", "count" : 1 }
+  ],
+  "output" : { "item" : "liquidwater", "count" : 1 },
+  "groups" : [ "purifyingMFM" ]
+}

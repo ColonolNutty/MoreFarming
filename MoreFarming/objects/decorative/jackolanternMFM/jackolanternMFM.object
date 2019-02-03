@@ -1,0 +1,81 @@
+{
+  "objectName" : "jackolanternMFM",
+  "colonyTags" : [ "nature", "spooky", "light" ],
+  "rarity" : "Common",
+  "price" : 127.05,
+  "category" : "light",
+  "printable" : false,
+  "description" : "The scariest thing ever...?",
+  "shortdescription" : "Large Jack 'O Lantern",
+  "race" : "generic",
+  "apexDescription" : "Someone will get a kick out of this.",
+  "avianDescription" : "This is a bad sign",
+  "floranDescription" : "Floran cut out face to ssscare away people.",
+  "glitchDescription" : "Suspicious. Something is not right.",
+  "humanDescription" : "Where's my candy?",
+  "hylotlDescription" : "A 'Do not disturb' sign.",
+  "novakidDescription" : "Is that my cousin? ... No, it's just a funny plant.",
+  "inventoryIcon" : "jackolanternMFMicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "left",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "jackolanternMFM.png",
+          "fullbright" : true
+        },
+        { "image" : "jackolanternMFMlit.png" }
+      ],
+      "flipImages" : true,
+      "lightPosition" : [ 0, 0 ],
+      "animationPosition" : [ 0, 0 ],
+      "animationParts" : {
+        "fg" : "jackolanternMFMlit.png",
+        "bg" : "jackolanternMFM.png"
+      }
+    },
+    {
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "jackolanternMFM.png",
+          "fullbright" : true
+        },
+        { "image" : "jackolanternMFMlit.png" }
+      ],
+      "lightPosition" : [ 0, 0 ],
+      "animationPosition" : [ 0, 0 ],
+      "animationParts" : {
+        "fg" : "jackolanternMFMlit.png",
+        "bg" : "jackolanternMFM.png"
+      }
+    }
+  ],
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.7,
+  "flickerPeriodVariance" : 0.075,
+  "maximumLiquidLevel" : 0.2,
+  "animationCustom" : {
+    "sounds" : {
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ],
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ]
+    }
+},
+  "flickerMaxIntensity" : 0.75,
+  "animationParts" : {
+    "fg" : "jackolanternMFMlit.png",
+    "bg" : "jackolanternMFM.png"
+  },
+  "lightColor" : [ 229, 218, 207 ],
+  "animation" : "jackolanternMFM.animation",
+  "inputNodes" : [[ 0, 0 ]],
+  "flickerIntensityVariance" : 0.025
+}

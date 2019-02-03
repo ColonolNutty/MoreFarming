@@ -1,0 +1,29 @@
+{
+  "id" : "wildernesscookingCNYC2.5.gearup",
+  "title" : "^green;The Start of Something Delicious - II Part 5^white;",
+  "text" : "The guide says I need to make some kind of chopping appliance. It makes mention of a ^orange;Camp Chopblock^white; which I can put together by hand. If I can make some ^green;Timber^white; from ^cyan;Logs^white;",
+  "completionText" : "I'll just put down somewhere. I think I've got an idea of what comes next!",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  
+  "updateDelta" : 10,
+  "canBeAbandoned" : false,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "player",
+      "questComplete" : "player"
+    },
+    "followUp" : "wildernesscookingCNYC2.6.gearup",
+	"requireTurnIn" : false,
+	"canBeAbandoned" : false,
+	"conditions" : [
+		{
+			"type" : "gatherItem",
+			"itemName" : "makeshiftchoppingstationCNYC",
+			"count" : 1,
+			"consume" : false
+		}
+	]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "oatgrainsMFM",
+  "rarity" : "Common",
+  "price" : 73.5,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Oat grains.",
+  "shortdescription" : "Oatmeal",
+  "foodValue" : 10.5,
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 63
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "oatgrainsMFM.png"
+}

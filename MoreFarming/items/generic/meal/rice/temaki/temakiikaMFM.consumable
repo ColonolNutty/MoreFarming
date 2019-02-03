@@ -1,0 +1,26 @@
+{
+  "itemName" : "temakiikaMFM",
+  "rarity" : "Uncommon",
+  "price" : 384.58,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} Raw squid and cucumber, wrapped in a ball of rice and kelp.",
+  "shortdescription" : "Temaki - Ika",
+  "foodValue" : 69.59,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 32
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 96
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "temakiikaMFM.png"
+}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 15 },
-    { "item" : "copperbar", "count" : 5 }
-  ],
-  "output" : { "item" : "apexcoffeestationCNYC", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "craftingstations", "apexMFM", "coffeemachineMFM", "all" ]
-}

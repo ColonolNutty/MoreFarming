@@ -1,0 +1,20 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [
+      { "item" : "choppedtomatoMFM", "count" : 1 },
+      { "item" : "choppedcucumberMFM", "count" : 1 },
+      { "item" : "choppedcarrotMFM", "count" : 1 },
+      { "item" : "choppedlettuceMFM", "count" : 1 },
+      { "item" : "choppedonionMFM", "count" : 1 },
+      { "item" : "vinegarMFM", "count" : 1 },
+      { "item" : "cookingoilMFM", "count" : 1 }
+		]
+	},
+	{
+		"op": "add",
+		"path": "/groups/-",
+		"value": "preparingMFM"
+	}
+]

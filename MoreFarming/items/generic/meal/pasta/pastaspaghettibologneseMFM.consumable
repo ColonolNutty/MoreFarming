@@ -1,0 +1,35 @@
+{
+  "itemName" : "pastaspaghettibologneseMFM",
+  "rarity" : "Common",
+  "price" : 319.36,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} Pasta topped with spaghetti bolognese sauce.",
+  "shortdescription" : "Pasta - Spaghetti Bolognese",
+  "foodValue" : 133.96,
+  "effects" : [[
+    {
+      "effect" : "antidote",
+      "duration" : 5
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 102
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 51
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 33
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "pastaspaghettibologneseMFM.png",
+  "handPosition" : [ 0, -3 ]
+}

@@ -1,0 +1,71 @@
+{
+  "objectName" : "chocolatelightdplainMFM",
+  "colonyTags" : [ "chocolate", "light" ],
+  "rarity" : "Uncommon",
+  "price" : 1.0,
+  "category" : "light",
+  "printable" : false,
+  "description" : "Glowing chocolate, makes a nice looking light. I can direct it whereever I want",
+  "shortdescription" : "Chocolate Light Directional",
+  "race" : "generic",
+  "apexDescription" : "It's a wonder how this chocolate glows. It is very calming however.",
+  "avianDescription" : "The chocolate inside seems to glow brightly.",
+  "floranDescription" : "Sssugar glow.",
+  "glitchDescription" : "Curious. How does this glow?",
+  "humanDescription" : "I wonder what it tastes like...",
+  "hylotlDescription" : "I don't think this is actually chocolate... I would rather not touch it.",
+  "novakidDescription" : "A strange light.",
+  "inventoryIcon" : "chocolatelightdMFMicon.png:plain",
+  "orientations" : [
+    {
+      "image" : "chocolatelightdMFM.png:plain.top",
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "lightPosition" : [ 0, -1 ],
+      "beamAngle" : 270
+    },
+    {
+      "image" : "chocolatelightdMFM.png:plain.left",
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "lightPosition" : [ 1, 0 ],
+      "beamAngle" : 0
+    },
+    {
+      "image" : "chocolatelightdMFM.png:plain.right",
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+      "lightPosition" : [ -1, 0 ],
+      "beamAngle" : 180
+    },
+    {
+      "image" : "chocolatelightdMFM.png:plain.bottom",
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [ 0, 1 ],
+      "beamAngle" : 90
+    },
+    {
+      "image" : "chocolatelightdMFM.png:plain.background",
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "bgAnchors" : [[ 0, 0 ]],
+      "lightPosition" : [ 0, -1 ],
+      "beamAngle" : 270
+    }
+  ],
+  "pointBeam" : 2,
+  "interactive" : false,
+  "lightColor" : [ 204, 189, 173 ],
+  "pointLight" : true,
+  "beamAmbience" : 0.1
+}

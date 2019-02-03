@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "clay", "count" : 10 },
-    { "item" : "copperbar", "count" : 2 }
-  ],
-  "output" : { "item" : "avianfryingstationCNYC", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "craftingstations", "avianMFM", "fryingmachineMFM", "all" ]
-}

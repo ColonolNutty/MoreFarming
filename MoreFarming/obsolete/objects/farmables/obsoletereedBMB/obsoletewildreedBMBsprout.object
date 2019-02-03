@@ -1,0 +1,42 @@
+{
+  "objectName" : "wildreedBMBsprout",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 20.0,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "^gray;A reed plant. Grows best near water.^reset;",
+  "shortdescription" : "^gray;Old Wild Reed Sprout^reset;",
+  
+  "inventoryIcon" : "obsoletereedBMBsprouticon.png",
+  "largeImage" : "obsoletereedBMBsprout.png:default.default.default",
+  "orientations" : [
+    {
+      "dualImage" : "obsoletereedBMBsprout.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    { "duration" : [ 1140, 1140 ] },
+    { "duration" : [ 1140, 1140 ] },
+    {
+      "alts" : 5,
+      "duration" : [ 3480, 3480 ]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "reedMFMHarvest"
+    }
+  ],
+  "maxImmersion" : 1.0,
+  "breakDropOptions" : [[[ "reedMFMseed", 1, { } ]]],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
+}

@@ -1,0 +1,88 @@
+{
+  "objectName" : "novakidboilingstationCNYC",
+  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 269.58,
+  "category" : "Novakid Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A steampowered pressure boiler.",
+  "shortdescription" : "^orange;Novakid Boiler (Boil)^reset;",
+  "race" : "generic",
+  "apexDescription" : "A pressure boiler. It uses steam.",
+  "avianDescription" : "So much steam!",
+  "floranDescription" : "Sssteamy...",
+  "glitchDescription" : "Analysis. A very hot boiler.",
+  "humanDescription" : "I dare not press any of the buttons.",
+  "hylotlDescription" : "Is this thing going to explode? I hope not!",
+  "inventoryIcon" : "novakidboilingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "novakidboilingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "novakidboilingstationCNYClit.png:<color>.<frame>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "novakidboilingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "novakidboilingstationCNYClit.png:<color>.<frame>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "boilingMFM",
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter2.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit1.ogg", "/sfx/objects/metalpotMFMexit2.ogg", "/sfx/objects/metalpotMFMexit4.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/boilingMFMRecipes.config",
+  "particleEmitter" : {
+    "emissionRate" : 6,
+    "particleVariance" : {
+      "initialVelocity" : [ 0.3, 2 ],
+      "position" : [ 0.2, 0 ]
+    },
+    "particle" : {
+      "timeToLive" : 1,
+      "fade" : 1,
+      "size" : 1,
+      "color" : [ 255, 255, 255, 50 ],
+      "initialVelocity" : [ 0, 2 ],
+      "finalVelocity" : [ 0, 1 ],
+      "position" : [ 1.2, 1.1 ],
+      "type" : "animated",
+      "approach" : [ 0, 20 ],
+      "layer" : "back",
+      "animation" : "/animations/dustclear/dustclearCNYC.animation"
+    },
+    "emissionVariance" : 1
+  },
+  "retainObjectParametersInItem" : true,
+  "soundEffect" : "/sfx/objects/bubblesMFMambience2.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "novakidboilingstationCNYC.animation"
+}

@@ -1,0 +1,22 @@
+{
+  "objectName" : "wallcarrotMFM",
+  "colonyTags" : [ "easter", "pretty" ],
+  "rarity" : "Uncommon",
+  "price" : 1.0,
+  "category" : "decorative",
+  "printable" : false,
+  "description" : "A very large carrot.",
+  "shortdescription" : "Carrot",
+  "race" : "generic",
+  "floranDescription" : "Big carrot.",
+  "glitchDescription" : "Statement. A large carrot.",
+  "inventoryIcon" : "wallcarrotMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wallcarrotMFM.png",
+      "imagePosition" : [ -8, -8 ],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(BAKE):-} Fish baked with fish-like fruit. A fishy dish!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "poisonblock",
+          "duration" : 69
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 75
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 75
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 163
+        }
+      ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 68.39
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 297.38
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Gratin - Seafood"
+    }
+  ]
+]

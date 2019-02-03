@@ -1,0 +1,10 @@
+{
+  "itemName" : "mixcakeappleanarchyMFM",
+  "rarity" : "Common",
+  "price" : 626.07,
+  "category" : "cookingIngredient",
+  "description" : "(BLEND):-} Cake mix for making an apple anarchy cake. Ready for baking.",
+  "shortdescription" : "Mix Cake - Apple Anarchy",
+  "maxStack" : 1000,
+  "inventoryIcon" : "mixcakeappleanarchyMFM.png"
+}

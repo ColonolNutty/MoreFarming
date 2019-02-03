@@ -1,0 +1,72 @@
+{
+  "objectName" : "nanobakingstationCNYC",
+  "colonyTags" : [ "cooking", "electronic" ],
+  "rarity" : "Common",
+  "price" : 317.98,
+  "category" : "crafting",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "An ion cannon oven! Kinda...",
+  "shortdescription" : "Nano Oven (Bake)",
+  "race" : "generic",
+  "apexDescription" : "A marvel of our time!",
+  "avianDescription" : "I have no idea where or how the heat is generated...",
+  "floranDescription" : "Floran like ssspinny...",
+  "glitchDescription" : "Puzzled. I am unable to determine how this oven is heated.",
+  "humanDescription" : "If I put my hand in there while it's cooking, would I feel it?",
+  "hylotlDescription" : "Functional, yet oddly hypnotic.",
+  "inventoryIcon" : "nanobakingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 5,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [
+        {
+          "image" : "nanobakingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "nanobakingstationCNYClit.png:<color>.<frame>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 5,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [
+        {
+          "image" : "nanobakingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "nanobakingstationCNYClit.png:<color>.<frame>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "bakingMFM",
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter2.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit1.ogg", "/sfx/objects/metalpotMFMexit2.ogg", "/sfx/objects/metalpotMFMexit4.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/bakingMFMRecipes.config",
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerPeriodVariance" : 0.075,
+  "maximumLiquidLevel" : 0.2,
+  "flickerMaxIntensity" : 1,
+  "statusEffects" : [ ],
+  "lightColor" : [ 125, 143, 179 ],
+  "flickerIntensityVariance" : 0.025
+}

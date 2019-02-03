@@ -1,0 +1,41 @@
+{
+  "itemName" : "caramelMFM",
+  "rarity" : "Common",
+  "price" : 80.42,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(FRY):-} Its sticky..!",
+  "shortdescription" : "Caramel",
+  "foodValue" : 63.03,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 33
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 108
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 33
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 33
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 108
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 232
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "inventoryIcon" : "caramelMFM.png"
+}

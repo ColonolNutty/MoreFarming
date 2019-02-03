@@ -1,0 +1,10 @@
+{
+  "itemName" : "groundcinnamonMFM",
+  "rarity" : "Common",
+  "price" : 31.5,
+  "category" : "cookingIngredient",
+  "description" : "(MILL):-} Finely milled cinnamon.",
+  "shortdescription" : "Ground Cinnamon",
+  "maxStack" : 1000,
+  "inventoryIcon" : "groundcinnamonMFM.png"
+}

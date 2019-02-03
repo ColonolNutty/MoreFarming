@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "sugarcaneblockMFM", "count" : 20 }
-  ],
-  "output" : { "item" : "blocksugarcaneMFM", "count" : 20 },
-  "groups" : [ "recyclingMFM" ]
-}

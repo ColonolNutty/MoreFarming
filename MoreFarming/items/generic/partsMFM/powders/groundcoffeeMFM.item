@@ -1,0 +1,10 @@
+{
+  "itemName" : "groundcoffeeMFM",
+  "rarity" : "Common",
+  "price" : 94.5,
+  "category" : "cookingIngredient",
+  "description" : "(MILL):-} Ground coffee. Ready for brewing.",
+  "shortdescription" : "Ground Coffee",
+  "maxStack" : 1000,
+  "inventoryIcon" : "groundcoffeeMFM.png"
+}

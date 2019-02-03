@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 6 },
-    { "item" : "copperbar", "count" : 2 }
-  ],
-  "output" : { "item" : "largecooler1", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "genericMFM", "storageMFM", "all" ]
-}

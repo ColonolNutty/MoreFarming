@@ -1,0 +1,62 @@
+{
+  "objectName" : "novakidchoppingstationCNYC",
+  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 53.1,
+  "category" : "Novakid Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "I sink/chopping board combination.",
+  "shortdescription" : "^orange;Novakid Chopboard (Chop)^reset;",
+  "race" : "generic",
+  "apexDescription" : "That is quite the knife!",
+  "avianDescription" : "It looks big enough to skin a... a... well, something really big!",
+  "floranDescription" : "Ssstabbysss...",
+  "glitchDescription" : "Observation. It comes with a very large knife.",
+  "humanDescription" : "Not ideal for playing five finger fillet.",
+  "hylotlDescription" : "A display in itself!",
+  "inventoryIcon" : "novakidchoppingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "novakidchoppingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "novakidchoppingstationCNYC.png:<color>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "novakidchoppingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "novakidchoppingstationCNYC.png:<color>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "choppingMFM",
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/choppingMFMRecipes.config",
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "novakidchoppingstationCNYC.animation"
+}

@@ -1,0 +1,9 @@
+{
+  "itemName" : "darkchocolateblockMFM",
+  "rarity" : "Common",
+  "price" : 19.64,
+  "category" : "block",
+  "description" : "^gray;I need to recycle this to make it usable for building.^reset;",
+  "shortdescription" : "^gray;Old Chocolate Block - Dark^reset;",
+  "inventoryIcon" : "obsoletedarkchocolateblockMFM.png"
+}

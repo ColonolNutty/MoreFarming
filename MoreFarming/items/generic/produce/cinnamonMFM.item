@@ -1,0 +1,9 @@
+{
+  "itemName" : "cinnamonMFM",
+  "rarity" : "Common",
+  "price" : 30.0,
+  "category" : "cookingIngredient",
+  "description" : "Spicy tree bark.",
+  "shortdescription" : "Cinnamon",
+  "inventoryIcon" : "cinnamonMFM.png"
+}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "bone", "count" : 10 },
-    { "item" : "coalore", "count" : 10 }
-  ],
-  "output" : { "item" : "floranbakingstationCNYC", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "craftingstations", "floranMFM", "bakingmachineMFM", "tools", "all" ]
-}

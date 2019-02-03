@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "rawstripofpoultryMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "roastedstripofpoultryMFM", "count" : 1 },
-  "groups" : [ "bakingMFM" ]
-}

@@ -1,0 +1,23 @@
+{
+  "itemName" : "blueberryMFM",
+  "rarity" : "Common",
+  "price" : 50.0,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "tooltipKind" : "food",
+  "description" : "A small dark blue sphere with a star pattern on top. It oozes with juices.",
+  "shortdescription" : "Blueberry",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "iceblock",
+      "duration" : 45
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "blueberryMFM.png"
+}

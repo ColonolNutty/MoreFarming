@@ -1,0 +1,40 @@
+{
+  "objectName" : "choppingstationMFM",
+  "colonyTags" : [ "human", "humanvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 53.1,
+  "category" : "Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "I can wash and prepare ingredients with this!",
+  "shortdescription" : "^orange;Chopping Board (Chop)^reset;",
+  "race" : "generic",
+  "apexDescription" : "Well... this is quite impressive.",
+  "avianDescription" : "Is there anything this \"Jamsey\" doesn't make?",
+  "floranDescription" : "Floran like knivesss...",
+  "glitchDescription" : "Impressed. Impressive!",
+  "humanDescription" : "A chopping board and tap! Cordon Jamsey makes good stuff!",
+  "hylotlDescription" : "Those knives look impossibly sharp.",
+  "inventoryIcon" : "choppingstationMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "choppingstationMFM.png:<color>",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "choppingMFM",
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/choppingMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "choppingstationMFM.animation"
+}

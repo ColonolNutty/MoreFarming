@@ -1,0 +1,65 @@
+{
+  "objectName" : "nanoblend",
+  "tags" : ["cooking"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;Blends and juices with holograms and lasers!^reset;",
+  "shortdescription" : "^gray;Nanoblend (Blend)^reset;",
+  "race" : "generic",
+  "category" : "Cookware",
+  "price" : 413.65,
+  "objectType" : "container",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "lightColor" : [125, 143, 179],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "obsoletenanoblendicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "obsoletenanoblend.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoletenanoblendlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "obsoletenanoblend.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoletenanoblendlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "blendingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/blendingMFMRecipes.config",
+  "breakDropOptions" : [[[ "nanoblendingstationCNYC", 1, { } ]]]
+}

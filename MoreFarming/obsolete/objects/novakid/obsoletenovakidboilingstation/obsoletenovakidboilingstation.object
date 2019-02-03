@@ -1,0 +1,77 @@
+{
+  "objectName" : "novakidboilingstation",
+  "colonyTags" : ["novakid", "novakidvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;A steampowered pressureboiler!^reset;",
+  "shortdescription" : "^gray;Novakid Boiler (Boil)^reset;",
+  "race" : "generic",
+  "category" : "Cookware",
+  "price" : 263,
+  "objectType" : "container",
+
+  "inventoryIcon" : "obsoletenovakidboilingstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "obsoletenovakidboilingstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoletenovakidboilingstationlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "obsoletenovakidboilingstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "obsoletenovakidboilingstationlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "particleEmitter" : {
+    "emissionRate" : 6.0,
+    "emissionVariance" : 1.0,
+
+    "particle" : {
+      "type" : "animated",
+      "animation" : "/animations/dustclear/dustclearCNYC.animation",
+      "position" : [1.2, 1.1],
+      "size" : 1.0,
+      "color" : [255, 255, 255, 50],
+      "fade" : 1,
+      "initialVelocity" : [0.0, 2.0],
+      "finalVelocity" : [0.0, 1.0],
+      "approach" : [0, 20],
+      "timeToLive" : 1,
+      "layer" : "back"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.3, 2.0],
+      "position" : [0.2, 0]
+    }
+  },
+
+  "recipeGroup" : "boilingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/boilingMFMRecipes.config",
+  "breakDropOptions" : [[[ "novakidboilingstationCNYC", 1, { } ]]]
+}

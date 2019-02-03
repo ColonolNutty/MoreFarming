@@ -1,0 +1,28 @@
+{
+  "objectName" : "bambooscreenBMB",
+  "colonyTags" : [ "floran", "floranvillage", "nature" ],
+  "rarity" : "Common",
+  "price" : 402.0,
+  "category" : "decorative",
+  "printable" : false,
+  "description" : "A bamboo dressing screen, for the modest Floran?",
+  "shortdescription" : "Bamboo Dressing Screen",
+  "race" : "floran",
+  "apexDescription" : "I had never dreamed the Floran were modest.",
+  "avianDescription" : "Are Floran bashful?",
+  "floranDescription" : "Floran ussse sscreen to collect blood sssplatter when sskinning meat.",
+  "glitchDescription" : "Deduction. The Floran don't seem to value privacy. Perhaps the screens have another use.",
+  "humanDescription" : "The other side of this screen is covered in blood.",
+  "hylotlDescription" : "The screen smells of blood.",
+  "inventoryIcon" : "bambooscreenBMBicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bambooscreenBMB.png:<color>",
+      "imagePosition" : [ -24, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

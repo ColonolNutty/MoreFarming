@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "rawbacon", "count" : 1 }
-  ],
-  "output" : { "item" : "choppedrawbaconMFM", "count" : 2 },
-  "groups" : [ "choppingMFM" ]
-}

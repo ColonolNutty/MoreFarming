@@ -1,0 +1,17 @@
+{
+  "itemName" : "aleMFM",
+  "rarity" : "Common",
+  "price" : 42.26,
+  "category" : "drink",
+  "tooltipKind" : "food",
+  "description" : "(DISTILL):-} I feel tipsy...",
+  "shortdescription" : "Alcohol - Ale",
+  "foodValue" : 13.65,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "aleMFM.png",
+  "emitters" : [ "drinking" ]
+}

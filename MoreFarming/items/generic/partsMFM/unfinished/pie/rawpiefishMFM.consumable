@@ -1,0 +1,34 @@
+{
+  "itemName" : "rawpiefishMFM",
+  "rarity" : "Common",
+  "price" : 565.82,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A pie shell filled with raw fish. Ready for baking.",
+  "shortdescription" : "Pie Raw - Fish",
+  "foodValue" : 296.42,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 322
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 322
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 692
+    },
+    {
+      "effect" : "foodpoison",
+      "duration" : 129
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "rawpiefishMFM.png"
+}

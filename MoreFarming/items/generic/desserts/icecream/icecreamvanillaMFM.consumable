@@ -1,0 +1,43 @@
+{
+  "itemName" : "icecreamvanillaMFM",
+  "rarity" : "Common",
+  "price" : 32.74,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(FREEZE):-} A scoop of ice cream with a vanilla flavor.",
+  "shortdescription" : "Ice Cream - Vanilla",
+  "foodValue" : 17.58,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 33
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 69
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 33
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 33
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 69
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 147
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "icecreamvanillaMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

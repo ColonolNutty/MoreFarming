@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "darkwoodmaterial", "count" : 15 }
-  ],
-  "output" : { "item" : "kitchenceilingcabinet1", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "genericMFM", "storageMFM", "all" ]
-}

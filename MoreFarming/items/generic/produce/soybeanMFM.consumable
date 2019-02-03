@@ -1,0 +1,31 @@
+{
+  "itemName" : "soybeanMFM",
+  "rarity" : "Common",
+  "price" : 45.0,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "tooltipKind" : "food",
+  "description" : "Used to make a variety of Tofu products.",
+  "shortdescription" : "Soybean",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "energyregen",
+      "duration" : 30
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 30
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 60
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "soybeanMFM.png"
+}

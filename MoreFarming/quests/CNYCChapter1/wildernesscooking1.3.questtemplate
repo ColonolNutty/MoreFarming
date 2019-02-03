@@ -1,0 +1,29 @@
+{
+  "id" : "wildernesscooking1.3.gearup",
+  "title" : "^green;Cooking for Survival - I Part 3^white;",
+  "text" : "The recipe says I need water now, it says I can get water by ^green;boiling mud^white; in a ^orange;Camp Cookpot^white;. I should start by making the ^orange;Camp Cookpot^white;, the guide lists the recipe here, so I should be able to put those materials together by hand.",
+  "completionText" : "Now that I can ^green;boil mud^white;, I just need to find some, where could that be?",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  
+  "updateDelta" : 10,
+  "canBeAbandoned" : false,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "player",
+      "questComplete" : "player"
+    },
+    "followUp" : "wildernesscooking1.4.gearup",
+	"requireTurnIn" : false,
+	"canBeAbandoned" : false,
+	"conditions" : [
+		{
+			"type" : "gatherItem",
+			"itemName" : "makeshiftboilingstationCNYC",
+			"count" : 1,
+			"consume" : false
+		}
+	]
+  }
+}

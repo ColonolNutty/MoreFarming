@@ -1,0 +1,27 @@
+{
+  "itemName" : "avocadoMFM",
+  "rarity" : "Common",
+  "price" : 20.0,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "tooltipKind" : "food",
+  "description" : "A pear shaped fruit housing a large seed in the center.",
+  "shortdescription" : "Avocado",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 70
+    },
+    {
+      "effect" : "thorns",
+      "duration" : 70
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "avocadoMFM.png"
+}

@@ -1,0 +1,9 @@
+{
+  "itemName" : "ceramicplateMFM",
+  "rarity" : "Common",
+  "price" : 4.2,
+  "category" : "craftingMaterial",
+  "description" : "A plate.",
+  "shortdescription" : "Plate",
+  "inventoryIcon" : "ceramicplateMFM.png"
+}

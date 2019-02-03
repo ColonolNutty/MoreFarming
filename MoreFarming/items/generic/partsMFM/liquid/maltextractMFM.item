@@ -1,0 +1,9 @@
+{
+  "itemName" : "maltextractMFM",
+  "rarity" : "Common",
+  "price" : 100.0,
+  "category" : "cookingIngredient",
+  "description" : "A thick syrup for baking or brewing.",
+  "shortdescription" : "Malt Extract",
+  "inventoryIcon" : "maltextractMFM.png"
+}

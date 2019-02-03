@@ -1,0 +1,35 @@
+{
+  "itemName" : "pieappleredMFM",
+  "rarity" : "Common",
+  "price" : 320.21,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} Red Apple Pie with a hint of cinnamon and nutmeg. Made with 100% real apples.",
+  "shortdescription" : "Pie - Red Apple",
+  "foodValue" : 249.87,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 113
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 34
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 113
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 280
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "pieappleredMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

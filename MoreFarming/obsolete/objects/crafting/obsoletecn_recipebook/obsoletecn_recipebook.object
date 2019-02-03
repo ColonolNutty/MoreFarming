@@ -1,0 +1,22 @@
+{
+  "objectName" : "cn_recipebook",
+  "colonyTags" : [ "cooking" ],
+  "rarity" : "Legendary",
+  "price" : 19.25,
+  "category" : "crafting",
+  "printable" : false,
+  "description" : "^gray;An old recipe book, I should recycle this.^reset;",
+  "shortdescription" : "^gray;Recipe Book (MFM)^reset;",
+  "race" : "generic",
+  "inventoryIcon" : "obsoletecn_recipebookicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "obsoletecn_recipebook.png:<color>",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "interactAction" : "OpenCraftingInterface",
+  "npcToy" : { },
+  "interactData" : { "config" : "/obsolete/objects/crafting/obsoletecn_recipebook/obsoletecn_recipebook.config" }
+}

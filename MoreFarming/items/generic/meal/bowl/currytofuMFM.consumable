@@ -1,0 +1,44 @@
+{
+  "itemName" : "currytofuMFM",
+  "rarity" : "Common",
+  "price" : 163.61,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} A spicy curry made with tofu.",
+  "shortdescription" : "Curry - Tofu",
+  "foodValue" : 48.06,
+  "effects" : [[
+    {
+      "effect" : "antidote",
+      "duration" : 5
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 98
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 32
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 34
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 72
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "currytofuMFM.png",
+  "emitters" : [ "drinking" ],
+  "handPosition" : [ 0, -3 ]
+}

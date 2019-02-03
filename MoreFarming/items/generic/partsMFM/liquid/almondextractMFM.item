@@ -1,0 +1,9 @@
+{
+  "itemName" : "almondextractMFM",
+  "rarity" : "Common",
+  "price" : 25.26,
+  "category" : "cookingIngredient",
+  "description" : "I may get sick if I drink this on it's own.",
+  "shortdescription" : "Almond Extract",
+  "inventoryIcon" : "almondextractMFM.png"
+}

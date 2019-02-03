@@ -1,0 +1,17 @@
+{
+  "itemName" : "doughwrappedsausageMFM",
+  "rarity" : "Common",
+  "price" : 3.86,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A raw sausage wrapped in dough.",
+  "shortdescription" : "Dough Wrapped Sausage",
+  "foodValue" : 10.0,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "doughwrappedsausageMFM.png",
+  "handPosition" : [ 0, -3 ]
+}

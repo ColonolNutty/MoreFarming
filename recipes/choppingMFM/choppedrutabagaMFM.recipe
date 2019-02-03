@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "rutabagaMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "choppedrutabagaMFM", "count" : 1 },
-  "groups" : [ "choppingMFM" ]
-}

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "alienfruit", "count" : 1 }
-  ],
-  "output" : { "item" : "pressedalienfruitMFM", "count" : 1 },
-  "groups" : [ "pressingMFM" ]
-}

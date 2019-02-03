@@ -1,0 +1,10 @@
+{
+  "itemName" : "breadcrumbsMFM",
+  "rarity" : "Common",
+  "price" : 1.28,
+  "category" : "cookingIngredient",
+  "description" : "(CHOP):-} Bread Slice chopped into crumbs. Used for coating things, such as pies.",
+  "shortdescription" : "Breadcrumbs",
+  "maxStack" : 1000,
+  "inventoryIcon" : "breadcrumbsMFM.png"
+}

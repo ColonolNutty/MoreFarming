@@ -1,0 +1,16 @@
+{
+  "itemName" : "cookedeggMFM",
+  "rarity" : "Common",
+  "price" : 21.0,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} A staple breakfast item!",
+  "shortdescription" : "Cooked Egg",
+  "foodValue" : 10.5,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cookedeggMFM.png"
+}

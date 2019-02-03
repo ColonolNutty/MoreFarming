@@ -1,0 +1,16 @@
+{
+  "itemName" : "cannedbeakseedMFM",
+  "rarity" : "Common",
+  "price" : 94.5,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(CAN):-} A beakseed, in a can.",
+  "shortdescription" : "Canned - Beakseed",
+  "foodValue" : 10.5,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 5,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cannedbeakseedMFM.png"
+}

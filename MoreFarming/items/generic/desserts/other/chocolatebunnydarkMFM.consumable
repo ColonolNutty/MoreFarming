@@ -1,0 +1,31 @@
+{
+  "itemName" : "chocolatebunnydarkMFM",
+  "rarity" : "Common",
+  "price" : 69.0,
+  "category" : "food",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A cute little bunny made of chocolate. Don't you just want to microwave it?",
+  "shortdescription" : "Chocolate Bunny - Dark",
+  "foodValue" : 105.58,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 67
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 67
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 67
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "chocolatebunnydarkMFM.png",
+  "handPosition" : [ 8, 10 ]
+}

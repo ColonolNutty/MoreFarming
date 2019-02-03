@@ -1,0 +1,31 @@
+{
+  "itemName" : "scrambledeggMFM",
+  "rarity" : "Common",
+  "price" : 111.65,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(FRY):-} A scrambled egg.",
+  "shortdescription" : "Scrambled Egg",
+  "foodValue" : 56.89,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 34
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 72
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "scrambledeggMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

@@ -1,0 +1,31 @@
+{
+  "itemName" : "friedgarpberrysMFM",
+  "rarity" : "Common",
+  "price" : 92.27,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(FRY):-} Tasty fried garpberrys.",
+  "shortdescription" : "Fried Garpberrys",
+  "foodValue" : 21.0,
+  "effects" : [[
+    {
+      "effect" : "nova",
+      "duration" : 31
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 32
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 189
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "friedgarpberrysMFM.png",
+  "handPosition" : [ 0, -3 ]
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "avianblendingstationCNYC",
+  "colonyTags" : [ "avian", "avianvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 83.28,
+  "category" : "Avian Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A pestle and waterjug!",
+  "shortdescription" : "^orange;Avian Waterblender (Blend)^reset;",
+  "race" : "generic",
+  "apexDescription" : "It looks like a mortar and pestle, but with sharp blades... and no protection guard.",
+  "avianDescription" : "A little more civilised than those whirring contraptions.",
+  "floranDescription" : "Looksss like weapon...",
+  "glitchDescription" : "Observation. Incredibly dangerous.",
+  "humanDescription" : "I'm going to lose a finger, or my face!",
+  "hylotlDescription" : "Ideal, if you like chunks in your juice.",
+  "inventoryIcon" : "avianblendingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avianblendingstationCNYC.png:<color>",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "blendingMFM",
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/blendingMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "avianblendingstationCNYC.animation"
+}

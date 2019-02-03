@@ -1,0 +1,43 @@
+{
+  "itemName" : "eggnogMFM",
+  "rarity" : "Common",
+  "price" : 293.77,
+  "category" : "drink",
+  "tooltipKind" : "food",
+  "description" : "(BLEND):-} A delicious drink, even when it's not Christmas!",
+  "shortdescription" : "Eggnog",
+  "foodValue" : 152.57,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 33
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 136
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 33
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 33
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 136
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 288
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "eggnogMFM.png",
+  "emitters" : [ "drinking" ]
+}

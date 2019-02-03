@@ -1,0 +1,31 @@
+{
+  "objectName" : "bamboochairBMB",
+  "colonyTags" : [ "floran", "floranvillage", "nature" ],
+  "rarity" : "Common",
+  "price" : 402.0,
+  "category" : "furniture",
+  "objectType" : "loungeable",
+  "printable" : false,
+  "description" : "A sturdy bamboo chair.",
+  "shortdescription" : "Bamboo Chair",
+  "race" : "generic",
+  "apexDescription" : "Not the most comfortable chair ever, but I'm happy with it.",
+  "avianDescription" : "A decent enough place to sit.",
+  "floranDescription" : "Floran sssit on chair and think about hunting.",
+  "glitchDescription" : "Relaxed. This chair is perfectly comfortable for the Glitch.",
+  "humanDescription" : "A hard chair. Reminds me of being in school.",
+  "hylotlDescription" : "Not the luxury Hylotl are used to, but there's satisfaction to be gained here.",
+  "inventoryIcon" : "bamboochairBMBicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bamboochairBMB.png:<color>",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "sitPosition" : [ 2, 22 ],
+  "sitFlipDirection" : false
+}

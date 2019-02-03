@@ -1,0 +1,23 @@
+{
+  "itemName" : "obsoleteraspberryPBJ",
+  "rarity" : "Common",
+  "price" : 50.0,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "tooltipKind" : "food",
+  "description" : "^gray;Sweet and tart!^reset;",
+  "shortdescription" : "^gray;Raspberry^reset;",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 30
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "obsoleteraspberryPBJ.png"
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "bamboostalkMFM", "count" : 5 },
+    { "item" : "copperbar", "count" : 2 },
+    { "item" : "glass", "count" : 2 }
+  ],
+  "output" : { "item" : "hylotlbakingstationCNYC", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "hylotlMFM", "bakingmachineMFM", "all" ]
+}

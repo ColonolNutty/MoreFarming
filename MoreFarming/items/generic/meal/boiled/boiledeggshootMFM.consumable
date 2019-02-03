@@ -1,0 +1,17 @@
+{
+  "itemName" : "boiledeggshootMFM",
+  "rarity" : "Common",
+  "price" : 132.3,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} An eggshoot boiled in water.",
+  "shortdescription" : "Boiled Eggshoot",
+  "foodValue" : 11.03,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledeggshootMFM.png",
+  "emote" : "Happy"
+}

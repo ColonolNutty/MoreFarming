@@ -1,0 +1,26 @@
+{
+  "itemName" : "choppedpricklypearMFM",
+  "rarity" : "Common",
+  "price" : 15.75,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed, de-thorned, and chopped prickly pear.",
+  "shortdescription" : "Chopped Pricklypear",
+  "foodValue" : 10.5,
+  "effects" : [[
+    {
+      "effect" : "thorns",
+      "duration" : 63
+    },
+    {
+      "effect" : "fireblock",
+      "duration" : 63
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedpricklypearMFM.png"
+}

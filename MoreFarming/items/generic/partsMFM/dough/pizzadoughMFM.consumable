@@ -1,0 +1,23 @@
+{
+  "itemName" : "pizzadoughMFM",
+  "rarity" : "Common",
+  "price" : 44.23,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BLEND):-} A base for making pizza.",
+  "shortdescription" : "Dough - Pizza",
+  "foodValue" : 33.34,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 32
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "pizzadoughMFM.png",
+  "handPosition" : [ 0, -3 ]
+}

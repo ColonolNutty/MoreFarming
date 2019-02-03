@@ -1,0 +1,23 @@
+{
+  "itemName" : "gingerMFM",
+  "rarity" : "Common",
+  "price" : 20.0,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "tooltipKind" : "food",
+  "description" : "A strangely bulbous looking root often used as a spice.",
+  "shortdescription" : "Ginger",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "poisonblock",
+      "duration" : 30
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "gingerMFM.png"
+}

@@ -1,0 +1,9 @@
+{
+  "itemName" : "dirtyceramicplateMFM",
+  "rarity" : "Common",
+  "price" : 0.0,
+  "category" : "craftingMaterial",
+  "description" : "A dirty plate.",
+  "shortdescription" : "Dirty Plate",
+  "inventoryIcon" : "dirtyceramicplateMFM.png"
+}

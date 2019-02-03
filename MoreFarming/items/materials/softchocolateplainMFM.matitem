@@ -1,0 +1,12 @@
+{
+  "itemName" : "softchocolateplainMFM",
+  "rarity" : "Common",
+  "price" : 1.0,
+  "category" : "block",
+  "description" : "Softened and delicious, plain chocolate!",
+  "shortdescription" : "Soft Chocolate - Plain",
+  "floranDescription" : "Fluffy and sssweet sssugar sssludge.",
+  "inventoryIcon" : "softchocolateplainMFM.png",
+  "glitchdescription" : "Statement. Softened plain chocolate.",
+  "materialId" : 19215
+}

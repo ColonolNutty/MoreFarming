@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "shortcrustpastryMFM", "count" : 1 },
-    { "item" : "creamfillingoculemonMFM", "count" : 1 },
-    { "item" : "toppingwhippedcreamMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "unfinishedmeringueoculemonMFM", "count" : 1 },
-  "groups" : [ "preparingMFM" ]
-}

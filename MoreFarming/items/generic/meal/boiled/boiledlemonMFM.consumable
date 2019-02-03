@@ -1,0 +1,27 @@
+{
+  "itemName" : "boiledlemonMFM",
+  "rarity" : "Common",
+  "price" : 66.15,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} A lemon boiled in water.",
+  "shortdescription" : "Boiled Lemon",
+  "foodValue" : 11.03,
+  "effects" : [[
+    {
+      "effect" : "runboostfood",
+      "duration" : 32
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 32
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledlemonMFM.png",
+  "emote" : "Happy"
+}

@@ -1,0 +1,44 @@
+{
+  "objectName" : "wildparsnipMFMseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 10.0,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "Parsnips. It looks like a wrinkly carrot.",
+  "shortdescription" : "Wild Parsnip Seeds",
+  "floranDescription" : "Ssseeds for parsnip!",
+  "glitchDescription" : "Identify. Parsnip seeds.",
+  "humanDescription" : "Parsnips. They are white and wrinkly.",
+  "inventoryIcon" : "parsnipMFMseedicon.png",
+  "largeImage" : "parsnipMFMseed.png:default.default.default",
+  "orientations" : [
+    {
+      "dualImage" : "parsnipMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    { "duration" : [ 300, 300 ] },
+    { "duration" : [ 300, 300 ] },
+    {
+      "alts" : 5,
+      "duration" : [ 960, 960 ]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "parsnipMFMHarvest"
+    }
+  ],
+  "maxImmersion" : 0.25,
+  "breakDropOptions" : [[[ "parsnipMFMseed", 1, { } ]]],
+  "hasObjectItem" : false,
+  "biomePlaced" : true
+}

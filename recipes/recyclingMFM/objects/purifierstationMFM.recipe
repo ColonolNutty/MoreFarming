@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "kettlestation", "count" : 1 }
-  ],
-  "output" : { "item" : "purifierstationMFM", "count" : 1 },
-  "groups" : [ "recyclingMFM" ]
-}

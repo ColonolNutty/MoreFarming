@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "bamboostalkMFM", "count" : 5 },
-    { "item" : "glass", "count" : 2 }
-  ],
-  "output" : { "item" : "hylotlpurifierstationCNYC", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "craftingstations", "hylotlMFM", "kettlemachineMFM", "all" ]
-}

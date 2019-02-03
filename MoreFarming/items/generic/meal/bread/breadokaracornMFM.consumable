@@ -1,0 +1,35 @@
+{
+  "itemName" : "breadokaracornMFM",
+  "rarity" : "Uncommon",
+  "price" : 611.63,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} Corn bread made with okara.",
+  "shortdescription" : "Bread - Okara Corn",
+  "foodValue" : 250.44,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 33
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 207
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 207
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 434
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "breadokaracornMFM.png",
+  "handPosition" : [ 0, -3 ]
+}

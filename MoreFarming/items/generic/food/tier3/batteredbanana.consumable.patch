@@ -1,0 +1,89 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(FRY):-} Your standard banana, battered and fried in a rich dough."
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "camouflage25",
+          "duration" : 32
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 36
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 36
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 78
+        }
+      ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 84.24
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 250.24
+    }
+  ]
+]

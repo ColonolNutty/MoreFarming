@@ -1,0 +1,27 @@
+{
+  "itemName" : "choppedavocadoMFM",
+  "rarity" : "Common",
+  "price" : 21.0,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed and chopped avocado.",
+  "shortdescription" : "Chopped Avocado",
+  "foodValue" : 10.5,
+  "effects" : [[
+    {
+      "effect" : "thorns",
+      "duration" : 73
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 73
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedavocadoMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

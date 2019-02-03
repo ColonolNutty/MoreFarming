@@ -1,0 +1,38 @@
+{
+  "objectName" : "easterbunnyshopMFM",
+  "colonyTags" : [ "easter", "shop" ],
+  "rarity" : "Common",
+  "price" : 1.0,
+  "category" : "other",
+  "printable" : false,
+  "description" : "This shop offers various Easter related items (and some other goodies).",
+  "shortdescription" : "Easter Bunny Shop",
+  "race" : "generic",
+  "floranDescription" : "Floran can buy all the sssweetsss from thisss ssshop.",
+  "glitchDescription" : "Intrigued. A pink rabbit selling easter items!",
+  "inventoryIcon" : "easterbunnyshopMFMicon.png",
+  "orientations" : [
+    {
+      "image" : "easterbunnyshopMFM.png:<frame>",
+      "imagePosition" : [ 0, 0 ],
+      "direction" : "right",
+      "frames" : 32,
+      "animationCycle" : 4.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "interactAction" : "OpenCraftingInterface",
+  "lightPosition" : [ 0, 7 ],
+  "interactData" : {
+    "filter" : [ "easterbunnyMFMgoods" ],
+    "config" : "/interface/windowconfig/craftingmerchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "subtitle" : "If you've got the eggs, I've got the goods!",
+        "icon" : { "file" : "/interface/crafting/easterbunnyshopMFMicon.png" },
+        "title" : "Easter Bunny Shop"
+      }
+}
+  }
+}

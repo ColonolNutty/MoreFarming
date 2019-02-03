@@ -1,0 +1,66 @@
+{
+  "objectName" : "bakingstationCNYC",
+  "colonyTags" : [ "human", "humanvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 271.63,
+  "category" : "Basic Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "An Oven! I can bake, roast and dry with this!",
+  "shortdescription" : "^orange;Oven (Bake)^reset;",
+  "race" : "generic",
+  "apexDescription" : "It is an oven, the label reads Corden Jamsey Limited Edition.",
+  "avianDescription" : "Who is Corden Jamsey anyway?",
+  "floranDescription" : "Hot box. Floran not sssleep in.",
+  "glitchDescription" : "Admiration. Fit for a king!",
+  "humanDescription" : "It cleans itself? What a time to be alive!",
+  "hylotlDescription" : "Limited Edition? I wonder how many were made.",
+  "novakidDescription" : "A new fangled stove.",
+  "inventoryIcon" : "bakingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [
+        {
+          "image" : "bakingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "bakingstationCNYClit.png:<color>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [
+        {
+          "image" : "bakingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "bakingstationCNYClit.png:<color>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "bakingMFM",
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/bakingMFMRecipes.config",
+  "retainObjectParametersInItem" : true
+}

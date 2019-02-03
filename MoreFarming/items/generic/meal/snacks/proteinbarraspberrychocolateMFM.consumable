@@ -1,0 +1,54 @@
+{
+  "itemName" : "proteinbarraspberrychocolateMFM",
+  "rarity" : "Common",
+  "price" : 62.8,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(FREEZE):-} A protein bar made of raspberries and chocolate.",
+  "shortdescription" : "Protein Bar - Rasp-Chocolate",
+  "foodValue" : 30.81,
+  "effects" : [[
+    {
+      "effect" : "energyregen",
+      "duration" : 36
+    },
+    {
+      "effect" : "camouflage25",
+      "duration" : 32
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 144
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 145
+    },
+    {
+      "effect" : "jumpboostfood",
+      "duration" : 54
+    },
+    {
+      "effect" : "regeneration2",
+      "duration" : 35
+    },
+    {
+      "effect" : "ragefood",
+      "duration" : 110
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 70
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 90
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "proteinbarraspberrychocolateMFM.png"
+}

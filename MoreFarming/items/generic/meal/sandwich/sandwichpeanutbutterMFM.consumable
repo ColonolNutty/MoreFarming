@@ -1,0 +1,23 @@
+{
+  "itemName" : "sandwichpeanutbutterMFM",
+  "rarity" : "Uncommon",
+  "price" : 161.58,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A sandwich made with peanut butter.",
+  "shortdescription" : "Sandwich PB",
+  "foodValue" : 73.53,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 158
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "sandwichpeanutbutterMFM.png",
+  "handPosition" : [ 0, -2 ]
+}

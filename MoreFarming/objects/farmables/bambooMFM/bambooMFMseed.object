@@ -1,0 +1,42 @@
+{
+  "objectName" : "bambooMFMseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 4.02,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "Fast growing bamboo.\nFirst Harvest: 26 mins\nRe-Harvest: 16 mins",
+  "shortdescription" : "Bamboo Seed",
+  "floranDescription" : "Sssharp sticksss for ssstabbing!",
+  "glitchDescription" : "Statement. Bamboo sturdy and good for construction.",
+  "hylotlDescription" : "Bamboo is absolutely essential!",
+  "inventoryIcon" : "bambooMFMseedicon.png",
+  "largeImage" : "bambooMFMseed.png:default.default.default",
+  "orientations" : [
+    {
+      "dualImage" : "bambooMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    { "duration" : [ 300, 300 ] },
+    { "duration" : [ 300, 300 ] },
+    {
+      "alts" : 5,
+      "duration" : [ 960, 960 ]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "bambooMFMHarvest",
+      "resetToStage" : 2
+    }
+  ],
+  "maxImmersion" : 0.25
+}

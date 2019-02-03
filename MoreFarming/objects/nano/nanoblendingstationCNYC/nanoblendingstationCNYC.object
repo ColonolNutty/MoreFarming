@@ -1,0 +1,71 @@
+{
+  "objectName" : "nanoblendingstationCNYC",
+  "colonyTags" : [ "cooking", "electronic" ],
+  "rarity" : "Common",
+  "price" : 323.08,
+  "category" : "Nano Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "It blends with lasers!",
+  "shortdescription" : "Nano Blender (Blend)",
+  "race" : "generic",
+  "apexDescription" : "It changes the state of matter at a molecular level, absolutely fascinating!",
+  "avianDescription" : "How does it do it?",
+  "floranDescription" : "Floran head hurtsss.",
+  "glitchDescription" : "Amazed. Did that just- Oh!",
+  "humanDescription" : "I wonder if it can blend another blender.",
+  "hylotlDescription" : "Solid to liquid with zero friction.",
+  "inventoryIcon" : "nanoblendingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "nanoblendingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "nanoblendingstationCNYClit.png:<color>.<frame>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "nanoblendingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "nanoblendingstationCNYClit.png:<color>.<frame>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "blendingMFM",
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter2.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit1.ogg", "/sfx/objects/metalpotMFMexit2.ogg", "/sfx/objects/metalpotMFMexit4.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/blendingMFMRecipes.config",
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerPeriodVariance" : 0.075,
+  "maximumLiquidLevel" : 0.2,
+  "flickerMaxIntensity" : 1,
+  "lightColor" : [ 125, 143, 179 ],
+  "flickerIntensityVariance" : 0.025,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "nanoblendingstationCNYC.animation"
+}

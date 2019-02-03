@@ -1,0 +1,17 @@
+{
+  "itemName" : "appleciderMFM",
+  "rarity" : "Common",
+  "price" : 4.63,
+  "category" : "drink",
+  "tooltipKind" : "food",
+  "description" : "(DISTILL):-} A popular drink with Humans.",
+  "shortdescription" : "Cider - Red Apple",
+  "foodValue" : 11.58,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "appleciderMFM.png",
+  "emitters" : [ "drinking" ]
+}

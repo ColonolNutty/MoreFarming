@@ -1,0 +1,10 @@
+{
+  "itemName" : "unfinishedquichemushroomMFM",
+  "rarity" : "Common",
+  "price" : 280.64,
+  "category" : "cookingIngredient",
+  "description" : "(PREP):-} A quiche containing mushrooms. Ready for baking.",
+  "shortdescription" : "Quiche Unf - Mushroom",
+  "maxStack" : 1000,
+  "inventoryIcon" : "unfinishedquichemushroomMFM.png"
+}

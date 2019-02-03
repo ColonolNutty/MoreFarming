@@ -1,0 +1,23 @@
+{
+  "itemName" : "makitakoMFM",
+  "rarity" : "Uncommon",
+  "price" : 312.48,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} Cooked octopus and cucumber packed in a ball of rice.",
+  "shortdescription" : "Maki - Tako",
+  "foodValue" : 37.01,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 49
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "makitakoMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

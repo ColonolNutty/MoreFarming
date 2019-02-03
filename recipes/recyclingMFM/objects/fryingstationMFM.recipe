@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "frystation", "count" : 1 }
-  ],
-  "output" : { "item" : "fryingstationMFM", "count" : 1 },
-  "groups" : [ "recyclingMFM" ]
-}

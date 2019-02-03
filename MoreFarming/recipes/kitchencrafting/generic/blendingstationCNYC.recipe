@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 3 },
+    { "item" : "copperbar", "count" : 2 },
+    { "item" : "glass", "count" : 2 }
+  ],
+  "output" : { "item" : "blendingstationCNYC", "count" : 1 },
+  "groups" : [ "cn_kitchencrafting", "craftingstations", "genericMFM", "blendingmachineMFM", "all" ]
+}

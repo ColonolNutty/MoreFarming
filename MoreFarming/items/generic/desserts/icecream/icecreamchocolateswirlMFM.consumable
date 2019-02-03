@@ -1,0 +1,43 @@
+{
+  "itemName" : "icecreamchocolateswirlMFM",
+  "rarity" : "Common",
+  "price" : 6.88,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(FREEZE):-} A scoop of ice cream with a bitter sweet taste.",
+  "shortdescription" : "Ice Cream - Chocolate Swirl",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 72
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 34
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 72
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 154
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "icecreamchocolateswirlMFM.png",
+  "handPosition" : [ 12, -6 ]
+}

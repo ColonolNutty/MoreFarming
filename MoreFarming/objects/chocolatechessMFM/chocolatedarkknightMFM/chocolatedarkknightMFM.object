@@ -1,0 +1,29 @@
+{
+  "objectName" : "chocolatedarkknightMFM",
+  "colonyTags" : [ "chocolate", "pretty" ],
+  "rarity" : "Common",
+  "price" : 10.15,
+  "category" : "decorative",
+  "printable" : false,
+  "description" : "The Knight; a chess piece made of dark chocolate. If the knight can jump over pieces, I can too!",
+  "shortdescription" : "Chocolate - Dark Knight",
+  "race" : "generic",
+  "apexDescription" : "A chess piece made of chocolate. The Miniknog does not permit games of chess. I may eat it instead.",
+  "avianDescription" : "Some kind of decorative statue? It tastes bitter.",
+  "floranDescription" : "Ssstrange ssstatue. What isss it?",
+  "glitchDescription" : "Sentimental. Glitch nobility learned to play chess from an early age. They play on large, outdoor boards.",
+  "humanDescription" : "A huge chess piece made of chocolate.",
+  "hylotlDescription" : "It looks like a large game piece. The Hylotl enjoy many boardgames.",
+  "novakidDescription" : "Whatever game this is looks mighty dull, but this piece tastes bitter.",
+  "inventoryIcon" : "chocolatedarkknightMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "chocolatedarkknightMFM.png:<color>",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

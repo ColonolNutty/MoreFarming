@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "choppedbonebooMFM", "count" : 1 },
+    { "item" : "creamfillingbasicMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "creamfillingspookyMFM", "count" : 1 },
+  "groups" : [ "boilingMFM" ]
+}

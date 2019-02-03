@@ -1,0 +1,38 @@
+{
+  "objectName" : "butterchurnMFM",
+  "colonyTags" : [ "farm", "cooking" ],
+  "rarity" : "Common",
+  "price" : 256.1,
+  "category" : "crafting",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "A butterchurn. Used for making things with milk.",
+  "shortdescription" : "Hand Butter Churn (Churn)",
+  "race" : "generic",
+  "floranDescription" : "Floran can put thingsss inssside and churn them.",
+  "glitchDescription" : "Observation. A butterchurn, used to churn milk into butter.",
+  "inventoryIcon" : "butterchurnMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "butterchurnMFM.png:<color>",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "churningMFM",
+  "openSounds" : [ "/sfx/objects/churnMFM_open1.ogg" ],
+  "closeSounds" : [ "/sfx/objects/plasticMFMexit2.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/churningMFMRecipes.config",
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "butterchurnMFM.animation"
+}

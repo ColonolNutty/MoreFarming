@@ -1,0 +1,16 @@
+{
+  "itemName" : "choppedrawbaconMFM",
+  "rarity" : "Common",
+  "price" : 10.5,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Raw bacon chopped into pieces.",
+  "shortdescription" : "Chopped Raw Bacon",
+  "foodValue" : 10.0,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedrawbaconMFM.png"
+}

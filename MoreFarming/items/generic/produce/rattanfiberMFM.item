@@ -1,0 +1,10 @@
+{
+  "itemName" : "rattanfiberMFM",
+  "rarity" : "Common",
+  "price" : 50.0,
+  "category" : "craftingMaterial",
+  "description" : "A long fiber from the Rattan plant.",
+  "shortdescription" : "Rattan Fiber",
+  "inventoryIcon" : "rattanfiberMFM.png",
+  "learnBlueprintsOnPickup" : [ "wicker", "wickersupport", "wickerplatformMFM", "handledwickerbasketMFM", "largewickerbasketMFM", "smallwickerbasketMFM", "tallwickerbasketMFM", "wickerchest1MFM", "wickerchest2MFM", "wickerchest3MFM", "widewickerbasketMFM", "wickerstool1MFM", "wickerstool2MFM", "wickerstool3MFM", "wickertable1MFM", "wickertable2MFM" ]
+}

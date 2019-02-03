@@ -1,0 +1,29 @@
+{
+  "id" : "wildernesscooking1.4.gearup",
+  "title" : "^green;Cooking for Survival - I Part 4^white;",
+  "text" : "I should look for ^blue;Mud^white;. This planet is likely to have some somewhere. Once I find some, I should throw it into the ^orange;Camp Fire Cookpot^white; to get some water, then I'll have the ingredients I need to begin making bread",
+  "completionText" : "I finally got some water, now I can begin the bread making process!",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  
+  "updateDelta" : 10,
+  "canBeAbandoned" : false,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "player",
+      "questComplete" : "player"
+    },
+    "followUp" : "wildernesscooking1.5.gearup",
+	"requireTurnIn" : false,
+	"canBeAbandoned" : false,
+	"conditions" : [
+		{
+			"type" : "gatherItem",
+			"itemName" : "liquidwater",
+			"count" : 1,
+			"consume" : false
+		}
+	]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "itemName" : "choppedbrusselsproutMFM",
+  "rarity" : "Common",
+  "price" : 73.5,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed and chopped brussel sprouts.",
+  "shortdescription" : "Chopped Brussel Sprouts",
+  "foodValue" : 10.5,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 31
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 31
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedbrusselsproutMFM.png"
+}

@@ -1,0 +1,33 @@
+{
+  "itemName" : "milkshakechocolateMFM",
+  "rarity" : "Common",
+  "price" : 96.34,
+  "category" : "drink",
+  "tooltipKind" : "food",
+  "description" : "(BLEND):-} A milkshake made with chocolate. Yum!",
+  "shortdescription" : "Milkshake - Chocolate",
+  "foodValue" : 46.39,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 69
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 69
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 147
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "milkshakechocolateMFM.png",
+  "emitters" : [ "drinking" ],
+  "handPosition" : [ 0, -4 ],
+  "emote" : "Happy"
+}

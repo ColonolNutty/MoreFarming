@@ -1,0 +1,16 @@
+{
+  "itemName" : "choppedbananaMFM",
+  "rarity" : "Common",
+  "price" : 126.0,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed, peeled and chopped banana.",
+  "shortdescription" : "Chopped Banana",
+  "foodValue" : 10.5,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedbananaMFM.png"
+}

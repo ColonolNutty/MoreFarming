@@ -1,0 +1,31 @@
+{
+  "itemName" : "cookedbannockMFM",
+  "rarity" : "Common",
+  "price" : 146.63,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(FRY):-} A bannock.",
+  "shortdescription" : "Bannock",
+  "foodValue" : 103.33,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 111
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 111
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 239
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cookedbannockMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

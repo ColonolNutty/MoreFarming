@@ -1,0 +1,23 @@
+{
+  "itemName" : "blackberryMFM",
+  "rarity" : "Common",
+  "price" : 50.0,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "tooltipKind" : "food",
+  "description" : "A dark puffy and juicy berry with a hole in the center.",
+  "shortdescription" : "Blackberry",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "fireblock",
+      "duration" : 45
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "blackberryMFM.png"
+}

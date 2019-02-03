@@ -1,0 +1,81 @@
+{
+  "objectName" : "coffeestationCNYC",
+  "colonyTags" : [ "human", "humanvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 269.58,
+  "category" : "Basic Cookware",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "Brews coffee, sign your own cup.",
+  "shortdescription" : "^orange;Espresso Machine (Coffee)^reset;",
+  "race" : "generic",
+  "apexDescription" : "I'd wager you need to take a class just to operate it...",
+  "avianDescription" : "Mass produced bitter beverages.",
+  "floranDescription" : "Sssteamy...",
+  "glitchDescription" : "Observation. I wonder if it brews bolts?",
+  "humanDescription" : "It's going to spell my name wrong on the cup, I just know it!",
+  "hylotlDescription" : "Es-what-now? How do you even work this thing?",
+  "inventoryIcon" : "coffeestationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [
+        {
+          "image" : "coffeestationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "coffeestationCNYClit.png:<color>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [
+        {
+          "image" : "coffeestationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "coffeestationCNYClit.png:<color>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "coffeeMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/coffeeMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
+  "npcToy" : {
+    "preciseStandPositionRight" : [ 1, 0 ],
+    "preciseStandPositionLeft" : [ -1, 0 ],
+    "maxNpcs" : 1,
+    "defaultReactions" : {
+      "watercoolerConsume" : [[ 1, "drink" ]],
+      "watercoolerComplete" : [
+        [ 1, "smile" ],
+        [ 0.1, "vomit" ]
+      ],
+      "watercoolerCollect" : [[ 1, "crouchcollect" ]]
+    },
+    "influence" : [ "watercoolerCollect", "watercoolerConsume", "watercoolerComplete" ]
+  },
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "coffeestationCNYC.animation"
+}

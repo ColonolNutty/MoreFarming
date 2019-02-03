@@ -1,0 +1,17 @@
+{
+  "itemName" : "maguronigiriMSM",
+  "rarity" : "Common",
+  "price" : 269.25,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "^gray;Raw tuna on top of rice.^reset;",
+  "shortdescription" : "^gray;Nigiri - Maguro^reset;",
+  "foodValue" : 51.0,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "obsoletemaguronigiriMSM.png",
+  "handPosition" : [ 0, -4 ]
+}

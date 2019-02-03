@@ -1,0 +1,53 @@
+{
+  "objectName" : "apexcoffeestationCNYC",
+  "colonyTags" : [ "apex", "apexvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 720.58,
+  "category" : "Apex Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "An espresso machine!",
+  "shortdescription" : "^orange;Apex Esp. Machine (Coffee)^reset;",
+  "race" : "generic",
+  "inventoryIcon" : "apexcoffeestationCNYCicon.png",
+  "orientations" : [
+    {
+      "image" : "apexcoffeestationCNYC.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "apexcoffeestationCNYC.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "apexcoffeestationCNYC.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+      "collision" : "platform",
+      "flipImages" : true
+    },
+    {
+      "image" : "apexcoffeestationCNYC.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "collision" : "platform"
+    }
+  ],
+  "recipeGroup" : "coffeeMFM",
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit3.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/coffeeMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "apexcoffeestationCNYC.animation"
+}

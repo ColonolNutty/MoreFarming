@@ -1,0 +1,77 @@
+{
+  "objectName" : "novakidwaterstationCNYC",
+  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 270.63,
+  "category" : "Novakid Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "It dispenses the freshest water.",
+  "shortdescription" : "^orange;Novakid Watertower (Water)^reset;",
+  "race" : "generic",
+  "apexDescription" : "Quite a strange shape for a water dispenser.",
+  "avianDescription" : "Fresh water, lovely!",
+  "floranDescription" : "Floran likesss water, so good!",
+  "glitchDescription" : "Observation. A small container of water.",
+  "humanDescription" : "All this steam and water gives me a few ideas...",
+  "hylotlDescription" : "Water is always a welcome sight!",
+  "novakidDescription" : "An absolute necessity for any ranch owner.",
+  "inventoryIcon" : "novakidwaterstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "novakidwaterstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "novakidwaterstationCNYClit.png:<color>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "novakidwaterstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "novakidwaterstationCNYClit.png:<color>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "waterMFM",
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/scripts/npcToyObject.lua", "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/waterMFMRecipes.config",
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "novakidwaterstationCNYC.animation",
+  "npcToy" : {
+    "preciseStandPositionRight" : [ 1, 0 ],
+    "preciseStandPositionLeft" : [ -1, 0 ],
+    "maxNpcs" : 1,
+    "defaultReactions" : {
+      "watercoolerConsume" : [[ 1, "drink" ]],
+      "watercoolerComplete" : [
+        [ 1, "smile" ],
+        [ 0.1, "vomit" ]
+      ],
+      "watercoolerCollect" : [[ 1, "crouchcollect" ]]
+    },
+    "influence" : [ "watercoolerCollect", "watercoolerConsume", "watercoolerComplete" ]
+  }
+}

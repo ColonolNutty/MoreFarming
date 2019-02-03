@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "bone", "count" : 5 }
-  ],
-  "output" : { "item" : "floranwaterstationCNYC", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "craftingstations", "floranMFM", "watermachineMFM", "all" ]
-}

@@ -1,0 +1,38 @@
+{
+  "itemName" : "unfinishedpieblueberryMFM",
+  "rarity" : "Common",
+  "price" : 404.18,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A pie shell filled with blueberries. Ready for baking.",
+  "shortdescription" : "Pie Unfinished - Blueberry",
+  "foodValue" : 188.27,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 147
+    },
+    {
+      "effect" : "iceblock",
+      "duration" : 190
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 68
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 147
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 388
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "unfinishedpieblueberryMFM.png"
+}

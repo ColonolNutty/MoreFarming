@@ -1,0 +1,22 @@
+{
+  "itemName" : "cookedalienmeatpattyMFM",
+  "rarity" : "Common",
+  "price" : 22.17,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(FRY):-} A cooked patty made of alien meat. Perfect for burgers!",
+  "shortdescription" : "Cooked Patty - Alien Meat",
+  "foodValue" : 32.55,
+  "effects" : [[
+    {
+      "effect" : "camouflage25",
+      "duration" : 32
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cookedalienmeatpattyMFM.png"
+}

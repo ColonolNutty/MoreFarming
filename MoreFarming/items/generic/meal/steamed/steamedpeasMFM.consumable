@@ -1,0 +1,17 @@
+{
+  "itemName" : "steamedpeasMFM",
+  "rarity" : "Common",
+  "price" : 30.75,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(FRY):-} Peas steamed in water.",
+  "shortdescription" : "Steamed Peas",
+  "foodValue" : 20.5,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "steamedpeasMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

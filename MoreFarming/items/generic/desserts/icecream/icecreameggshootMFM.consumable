@@ -1,0 +1,43 @@
+{
+  "itemName" : "icecreameggshootMFM",
+  "rarity" : "Common",
+  "price" : 173.29,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(FREEZE):-} A scoop of ice cream with an eggshoot flavor.",
+  "shortdescription" : "Ice Cream - Egg Shoot",
+  "foodValue" : 30.04,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 72
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 34
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 72
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 154
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "icecreameggshootMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "batterdessertMFM",
+  "rarity" : "Common",
+  "price" : 38.8,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(BLEND):-} A batter for making desserts. Suitable for coating and frying.",
+  "shortdescription" : "Batter - Dessert",
+  "foodValue" : 27.78,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 70
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 70
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 150
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "batterdessertMFM.png"
+}

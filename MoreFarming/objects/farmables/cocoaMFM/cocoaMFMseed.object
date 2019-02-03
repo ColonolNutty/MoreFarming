@@ -1,0 +1,42 @@
+{
+  "objectName" : "cocoaMFMseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 23.0,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "The sweetest plant of all.\nFirst Harvest: 58 mins\nRe-Harvest: 34 mins",
+  "shortdescription" : "Cocoa Seed",
+  "floranDescription" : "Cocoa ssseedsss..",
+  "glitchDescription" : "Cynical. The Humans love these, but the Glitch see nothing special.",
+  "humanDescription" : "Did someone say chocolate..!? CHOCOLATE!! CHOCOLATE!!",
+  "inventoryIcon" : "cocoaMFMseedicon.png",
+  "largeImage" : "cocoaMFMseed.png:default.default.default",
+  "orientations" : [
+    {
+      "dualImage" : "cocoaMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    { "duration" : [ 720, 720 ] },
+    { "duration" : [ 720, 720 ] },
+    {
+      "alts" : 5,
+      "duration" : [ 2040, 2040 ]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "cocoaMFMHarvest",
+      "resetToStage" : 2
+    }
+  ],
+  "maxImmersion" : 0.25
+}

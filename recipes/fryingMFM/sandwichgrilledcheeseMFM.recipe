@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "cheesesliceMFM", "count" : 1 },
-    { "item" : "butterMFM", "count" : 1 },
-    { "item" : "breadsliceMFM", "count" : 2 }
-  ],
-  "output" : { "item" : "sandwichgrilledcheeseMFM", "count": 1 },
-  "groups" : [ "fryingMFM"]
-}

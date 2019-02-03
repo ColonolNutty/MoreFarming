@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "choppedjalapenopepperMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
+  ],
+  "output" : { "item" : "boiledjalapenopepperMFM", "count" : 1 },
+  "groups" : [ "boilingMFM" ]
+}

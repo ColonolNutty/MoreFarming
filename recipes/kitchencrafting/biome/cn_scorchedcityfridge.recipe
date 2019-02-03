@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 10 },
-    { "item" : "glass", "count" : 2 }
-  ],
-  "output" : { "item" : "scorchedcityfridge", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "biomeMFM", "genericMFM", "storageMFM", "all" ]
-}

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "pielidMFM", "count" : 1 },
+    { "item" : "cheese", "count" : 1 },
+    { "item" : "butterMFM", "count" : 2 },
+    { "item" : "milk", "count" : 2 },
+    { "item" : "rawstripoffishMFM", "count" : 2 },
+    { "item" : "choppedonionMFM", "count" : 1 },
+    { "item" : "mashedpotato", "count" : 1 },
+    { "item" : "pieshellMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "rawpiefishMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

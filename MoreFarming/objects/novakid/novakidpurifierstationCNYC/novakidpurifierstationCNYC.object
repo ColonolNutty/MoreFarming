@@ -1,0 +1,84 @@
+{
+  "objectName" : "novakidpurifierstationCNYC",
+  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 270.63,
+  "category" : "Novakid Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "It purifies water, it whistles with encouragement!",
+  "shortdescription" : "^orange;Novakid Kettle (Purify)^reset;",
+  "race" : "generic",
+  "apexDescription" : "I have not seen anything like this before.",
+  "avianDescription" : "Whistles while it works.",
+  "floranDescription" : "Floran not like soundsss!",
+  "glitchDescription" : "Observation. This appears to be a cleansing machine. It also whistles.",
+  "humanDescription" : "Chooooo Chooooooooo!",
+  "hylotlDescription" : "It's very loud!",
+  "novakidDescription" : "Next stop! The wild west!",
+  "inventoryIcon" : "novakidpurifierstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "novakidpurifierstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "novakidpurifierstationCNYClit.png:<color>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "novakidpurifierstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "novakidpurifierstationCNYClit.png:<color>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "purifyingMFM",
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit3.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/purifyingMFMRecipes.config",
+  "particleEmitter" : {
+    "emissionRate" : 2,
+    "particleVariance" : {
+      "initialVelocity" : [ 0.3, 0 ],
+      "position" : [ 0, 0 ]
+    },
+    "particle" : {
+      "timeToLive" : 2,
+      "fade" : 1,
+      "size" : 1,
+      "color" : [ 255, 255, 255, 50 ],
+      "initialVelocity" : [ 2, 0 ],
+      "finalVelocity" : [ 1, 0 ],
+      "position" : [ -3.5, 1.1 ],
+      "type" : "animated",
+      "approach" : [ 0, 20 ],
+      "layer" : "back",
+      "animation" : "/animations/coldbreath/coldbreath.animation"
+    },
+    "emissionVariance" : 1
+  }
+}

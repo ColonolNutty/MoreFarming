@@ -1,0 +1,38 @@
+{
+  "objectName" : "apexfreezingstationCNYC",
+  "colonyTags" : [ "apex", "apexvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 617.05,
+  "category" : "Refridgerated Apex Cookware",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "An apex freezer, used for making delicious cold treats or as storage!",
+  "shortdescription" : "^orange;Apex Freezer (Freeze)^reset;",
+  "race" : "generic",
+  "inventoryIcon" : "apexfreezingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexfreezingstationCNYC.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  "recipeGroup" : "freezingMFM",
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg", "/sfx/objects/freezerMFMenter2.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg", "/sfx/objects/freezerMFMexit2.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
+  "itemAgeMultiplier" : 0,
+  "retainObjectParametersInItem" : true,
+  "soundEffect" : "/sfx/objects/freezerMFMambience1.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "apexfreezingstationCNYC.animation"
+}

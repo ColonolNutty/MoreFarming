@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "pumpkinblockMFM", "count" : 20 }
-  ],
-  "output" : { "item" : "blockpumpkinMFM", "count" : 20 },
-  "groups" : [ "recyclingMFM" ]
-}

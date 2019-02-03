@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "nanochop", "count" : 1 }
+  ],
+  "output" : { "item" : "nanochoppingstationCNYC", "count" : 1 },
+  "groups" : [ "recyclingMFM" ]
+}

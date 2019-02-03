@@ -1,0 +1,42 @@
+[[
+  {
+    "op" : "add",
+    "path" : "/interactions/-",
+    "value" : {
+      "liquid" : 138,
+      "liquidResult" : 138
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactions/-",
+    "value" : {
+      "liquid" : 139,
+      "liquidResult" : 139
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactions/-",
+    "value" : {
+      "liquid" : 140,
+      "liquidResult" : 140
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactions/-",
+    "value" : {
+      "liquid" : 141,
+      "liquidResult" : 141
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/interactions/-",
+    "value" : {
+      "liquid" : 142,
+      "liquidResult" : 142
+    }
+  }
+]]

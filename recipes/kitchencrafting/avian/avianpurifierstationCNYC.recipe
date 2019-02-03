@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 2 },
-    { "item" : "clay", "count" : 10 }
-  ],
-  "output" : { "item" : "avianpurifierstationCNYC", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "craftingstations", "avianMFM", "kettlemachineMFM", "all" ]
-}

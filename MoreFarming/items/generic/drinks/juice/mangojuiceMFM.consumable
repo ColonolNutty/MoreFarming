@@ -1,0 +1,24 @@
+{
+  "itemName" : "mangojuiceMFM",
+  "rarity" : "Common",
+  "price" : 77.18,
+  "category" : "drink",
+  "tooltipKind" : "food",
+  "description" : "(BLEND):-} Sweet Mango juice.",
+  "shortdescription" : "Juice - Mango",
+  "foodValue" : 11.03,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 32
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "mangojuiceMFM.png",
+  "emitters" : [ "drinking" ],
+  "handPosition" : [ 0, -4 ]
+}

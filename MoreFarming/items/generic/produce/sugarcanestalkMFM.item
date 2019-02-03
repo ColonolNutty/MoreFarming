@@ -1,0 +1,11 @@
+{
+  "itemName" : "sugarcanestalkMFM",
+  "rarity" : "Common",
+  "price" : 15.0,
+  "category" : "craftingMaterial",
+  "description" : "A tough and hardy stalk often used to mill Sugar.",
+  "shortdescription" : "Sugarcane Stalk",
+  "inventoryIcon" : "sugarcanestalkMFM.png",
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "paper" ]
+}

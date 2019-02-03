@@ -1,0 +1,35 @@
+{
+  "objectName" : "eggplantMFMseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 12.06,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "An alien looking vegetable.\nFirst Harvest: 78 mins\nRe-Harvest: 46 mins",
+  "shortdescription" : "Eggplant Seeds",
+  "inventoryIcon" : "eggplantMFMseedicon.png",
+  "largeImage" : "eggplantMFMseed.png:default.default.default",
+  "orientations" : [
+    {
+      "dualImage" : "eggplantMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    { "duration" : [ 1920, 1920 ] },
+    { "duration" : [ 2760, 2760 ] },
+    {
+      "alts" : 5,
+      "harvestPool" : "eggplantMFMHarvest",
+      "resetToStage" : 1
+    }
+  ],
+  "maxImmersion" : 0.25
+}

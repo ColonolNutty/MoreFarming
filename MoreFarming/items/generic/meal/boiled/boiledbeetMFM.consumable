@@ -1,0 +1,23 @@
+{
+  "itemName" : "boiledbeetMFM",
+  "rarity" : "Common",
+  "price" : 44.1,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} A beet boiled in water.",
+  "shortdescription" : "Boiled Beet",
+  "foodValue" : 11.03,
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 66
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledbeetMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

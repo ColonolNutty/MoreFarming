@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 5 }
-  ],
-  "output" : { "item" : "medievallargecookingpot", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "craftingstations", "glitchMFM", "boilingstationMFM", "all" ]
-}

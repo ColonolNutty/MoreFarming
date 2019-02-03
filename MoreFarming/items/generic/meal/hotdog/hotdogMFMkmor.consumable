@@ -1,0 +1,43 @@
+{
+  "itemName" : "hotdogMFMkmor",
+  "rarity" : "Common",
+  "price" : 545.63,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A sausage in a bun coated with ketchup, mustard, chopped onions, and relish.",
+  "shortdescription" : "Hotdog",
+  "foodValue" : 157.88,
+  "effects" : [[
+    {
+      "effect" : "antidote",
+      "duration" : 5
+    },
+    {
+      "effect" : "rage",
+      "duration" : 33
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 99
+    },
+    {
+      "effect" : "burning",
+      "duration" : 33
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 51
+    },
+    {
+      "effect" : "iceblock",
+      "duration" : 69
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "hotdogMFMkmor.png",
+  "handPosition" : [ 0, -4 ]
+}

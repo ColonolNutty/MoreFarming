@@ -1,0 +1,71 @@
+{
+  "objectName" : "novakidfreezingstationCNYC",
+  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 250.13,
+  "category" : "Refridgerated Nanokid Cookware",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "It freezes both food and outlaws, used as storage or for making cold treats!",
+  "shortdescription" : "^orange;Novakid Freezer (Freeze)^reset;",
+  "race" : "generic",
+  "apexDescription" : "A stylised freezer.",
+  "avianDescription" : "Looks cold enough.",
+  "floranDescription" : "Sssteamy...",
+  "glitchDescription" : "Observation. A first class cold box.",
+  "humanDescription" : "All aboard the icecream train!",
+  "hylotlDescription" : "Novel and functional.",
+  "inventoryIcon" : "novakidfreezingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [
+        {
+          "image" : "novakidfreezingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "novakidfreezingstationCNYClit.png:<color>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [
+        {
+          "image" : "novakidfreezingstationCNYC.png:<color>",
+          "fullbright" : true
+        },
+        { "image" : "novakidfreezingstationCNYClit.png:<color>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "freezingMFM",
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg", "/sfx/objects/freezerMFMenter2.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg", "/sfx/objects/freezerMFMexit2.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/freezingMFMRecipes.config",
+  "itemAgeMultiplier" : 0,
+  "retainObjectParametersInItem" : true,
+  "soundEffect" : "/sfx/objects/freezerMFMambience1.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "novakidfreezingstationCNYC.animation"
+}

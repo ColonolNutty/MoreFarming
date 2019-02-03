@@ -1,0 +1,16 @@
+{
+  "itemName" : "cocoabutterMFM",
+  "rarity" : "Common",
+  "price" : 1.0,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(PRESS):-} Not very sweet..",
+  "shortdescription" : "Cocoa Butter",
+  "foodValue" : 10.0,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cocoabutterMFM.png"
+}

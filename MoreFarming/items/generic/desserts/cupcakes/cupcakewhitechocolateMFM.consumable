@@ -1,0 +1,43 @@
+{
+  "itemName" : "cupcakewhitechocolateMFM",
+  "rarity" : "Common",
+  "price" : 166.16,
+  "category" : "food",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} A cupcake made of delicious white chocolate. It has a butterfly design on it.",
+  "shortdescription" : "Cupcake - White Chocolate",
+  "foodValue" : 144.13,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 68
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 68
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 108
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 68
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 108
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 232
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cupcakewhitechocolateMFM.png",
+  "handPosition" : [ 0, 4 ]
+}

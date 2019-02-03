@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "tomato", "count" : 1 },
+    { "item" : "choppedcornMFM", "count" : 1 },
+    { "item" : "cheese", "count" : 1 },
+    { "item" : "breadcrumbsMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "rawstuffedtomatoMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

@@ -1,0 +1,42 @@
+{
+  "itemName" : "fondantMFM",
+  "rarity" : "Common",
+  "price" : 96.3,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(BLEND):-} A blended mixture used in making confectionaries",
+  "shortdescription" : "Fondant",
+  "foodValue" : 77.12,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 76
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 106
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 76
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 239
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "fondantMFM.png"
+}

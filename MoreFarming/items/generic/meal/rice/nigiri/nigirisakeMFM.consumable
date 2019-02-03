@@ -1,0 +1,17 @@
+{
+  "itemName" : "nigirisakeMFM",
+  "rarity" : "Common",
+  "price" : 305.04,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} Smoked salmon on top of sake.",
+  "shortdescription" : "Nigiri - Sake",
+  "foodValue" : 34.81,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "nigirisakeMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

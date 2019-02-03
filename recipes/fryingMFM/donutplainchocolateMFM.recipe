@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "doughMFM", "count" : 1 },
-    { "item" : "cocoapowderMFM", "count" : 2 },
-    { "item" : "cookingoilMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "donutplainchocolateMFM", "count" : 1 },
-  "groups" : [ "fryingMFM" ]
-}

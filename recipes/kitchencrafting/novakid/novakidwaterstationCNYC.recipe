@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 5 },
-    { "item" : "copperbar", "count" : 3 },
-    { "item" : "glass", "count" : 1 }
-  ],
-  "output" : { "item" : "novakidwaterstationCNYC", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "craftingstations", "novakidMFM", "watermachineMFM", "all" ]
-}

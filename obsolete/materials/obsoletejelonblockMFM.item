@@ -1,9 +1,0 @@
-{
-  "itemName" : "jelonblockMFM",
-  "rarity" : "Common",
-  "price" : 31.5,
-  "category" : "block",
-  "description" : "^gray;I need to recycle this to make it usable for building.^reset;",
-  "shortdescription" : "^gray;Old Jelon Block^reset;",
-  "inventoryIcon" : "obsoletejelonblockMFM.png"
-}

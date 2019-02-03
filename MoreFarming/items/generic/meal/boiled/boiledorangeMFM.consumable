@@ -1,0 +1,17 @@
+{
+  "itemName" : "boiledorangeMFM",
+  "rarity" : "Common",
+  "price" : 22.05,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} An orange boiled in water.",
+  "shortdescription" : "Boiled Orange",
+  "foodValue" : 11.03,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledorangeMFM.png",
+  "emote" : "Happy"
+}

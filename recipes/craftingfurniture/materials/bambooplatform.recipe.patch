@@ -1,9 +1,0 @@
-[
-	{
-		"op": "replace",
-		"path": "/input",
-		"value":  [
-      { "item" : "bamboostalkMFM", "count" : 2 }
-    ]
-	}
-]

@@ -1,0 +1,61 @@
+{
+  "objectName" : "bakingstation",
+  "colonyTags" : ["human", "humanvillage", "cooking"],
+  "retainObjectParametersInItem" : true,
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "^gray;An Oven! I can bake, roast and dry with this!^reset;",
+  "shortdescription" : "^gray;Oven (Bake)^reset;",
+  "race" : "generic",
+  "category" : "Cookware",
+  "price" : 269.15,
+  "objectType" : "container",
+
+  "inventoryIcon" : "obsoletebakingstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "obsoletebakingstation.png:<color>", "fullbright" : true },
+        { "image" : "obsoletebakingstationlit.png:<color>" }
+      ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [
+        { "image" : "obsoletebakingstation.png:<color>", "fullbright" : true },
+        { "image" : "obsoletebakingstationlit.png:<color>" }
+      ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+
+  ],
+
+  "recipeGroup" : "bakingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectcrafting/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts": [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig": "/recipeCrafterMFM/bakingMFMRecipes.config",
+  "breakDropOptions" : [[[ "bakingstationCNYC", 1, { } ]]]
+}

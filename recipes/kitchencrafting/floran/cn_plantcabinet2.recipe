@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "bone", "count" : 5 },
-    { "item" : "darkwoodmaterial", "count" : 10 },
-    { "item" : "plantfibre", "count" : 10 }
-  ],
-  "output" : { "item" : "plantcabinet2", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "floranMFM", "storageMFM", "all" ]
-}

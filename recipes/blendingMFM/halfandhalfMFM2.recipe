@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "soymilkMFM", "count" : 1 },
-    { "item" : "creamMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "halfandhalfMFM", "count" : 5 },
-  "groups" : [ "blendingMFM" ]
-}

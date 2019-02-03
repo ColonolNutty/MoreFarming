@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "darkwoodmaterial", "count" : 2 },
-    { "item" : "paper", "count" : 5 }
-  ],
-  "output" : { "item" : "recipebookMFM", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "cn_recipebook", "craftingstations", "all" ]
-}

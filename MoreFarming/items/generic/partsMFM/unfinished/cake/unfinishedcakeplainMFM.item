@@ -1,0 +1,10 @@
+{
+  "itemName" : "unfinishedcakeplainMFM",
+  "rarity" : "Common",
+  "price" : 159.11,
+  "category" : "cookingIngredient",
+  "description" : "(BAKE):-} The fluffy, risen, base of a cake. Needs decorating.",
+  "shortdescription" : "Cake Unfinished - Plain",
+  "maxStack" : 1000,
+  "inventoryIcon" : "unfinishedcakeplainMFM.png"
+}

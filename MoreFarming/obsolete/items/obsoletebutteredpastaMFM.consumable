@@ -1,0 +1,31 @@
+{
+  "itemName" : "butteredpastaMFM",
+  "rarity" : "Common",
+  "price" : 32.15,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "^gray;Pasta with butter.^reset;",
+  "shortdescription" : "^gray;Pasta - Buttered^reset;",
+  "foodValue" : 71.18,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 36
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 36
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 78
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "obsoletebutteredpastaMFM.png",
+  "handPosition" : [ 0, -3 ]
+}

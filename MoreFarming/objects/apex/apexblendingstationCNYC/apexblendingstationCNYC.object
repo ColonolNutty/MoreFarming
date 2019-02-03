@@ -1,0 +1,33 @@
+{
+  "objectName" : "apexblendingstationCNYC",
+  "colonyTags" : [ "apex", "apexvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 412.05,
+  "category" : "Apex Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A steel blender!",
+  "shortdescription" : "^orange;Apex Blender (Blend)^reset;",
+  "race" : "generic",
+  "inventoryIcon" : "apexblendingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexblendingstationCNYC.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "blendingMFM",
+  "openSounds" : [ "/sfx/objects/metalMFMenter1.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit3.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/blendingMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "apexblendingstationCNYC.animation"
+}

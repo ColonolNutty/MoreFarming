@@ -1,0 +1,32 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/stages/3/resetToStage",
+      "value" : 2
+    },
+    {
+      "op" : "remove",
+      "path" : "/stages/3/resetToStage"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/breakDropOptions",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/breakDropOptions",
+      "value" : [ ]
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/breakDropOptions",
+      "value" : [[[ "cocoaMFMseed", 1, { } ]]]
+    }
+  ]
+]

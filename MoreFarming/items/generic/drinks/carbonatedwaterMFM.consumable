@@ -1,0 +1,17 @@
+{
+  "itemName" : "carbonatedwaterMFM",
+  "rarity" : "Common",
+  "price" : 1.0,
+  "category" : "drink",
+  "tooltipKind" : "food",
+  "description" : "(BLEND):-} Water blended with oxygen.",
+  "shortdescription" : "Carbonated Water",
+  "foodValue" : 10.0,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "carbonatedwaterMFM.png",
+  "emitters" : [ "drinking" ]
+}

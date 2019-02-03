@@ -1,0 +1,93 @@
+{
+  "objectName" : "novakidbakingstationCNYC",
+  "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 252.13,
+  "category" : "Novakid Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A cast iron oven that looks like an engine.",
+  "shortdescription" : "^orange;Novakid Engine Oven (Bake)^reset;",
+  "race" : "generic",
+  "apexDescription" : "If I wasn't mistaken, it looks like part of a steam engine.",
+  "avianDescription" : "The oil needs wiping off.",
+  "floranDescription" : "Floran no like hot placesss.",
+  "glitchDescription" : "Analysis. It appears to seasoned with oil.",
+  "humanDescription" : "A fistful of baked goods!",
+  "hylotlDescription" : "Well, at least it doesn't clang.",
+  "inventoryIcon" : "novakidbakingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [
+        {
+          "image" : "novakidbakingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "novakidbakingstationCNYClit.png:<color>.<frame>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "imageLayers" : [
+        {
+          "image" : "novakidbakingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "novakidbakingstationCNYClit.png:<color>.<frame>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "bakingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/bakingMFMRecipes.config",
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.2,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 0.3,
+  "particleEmitter" : {
+    "emissionRate" : 6,
+    "particleVariance" : {
+      "initialVelocity" : [ 0.3, 2 ],
+      "position" : [ 0.4, 0 ]
+    },
+    "particle" : {
+      "timeToLive" : 1,
+      "fade" : 1,
+      "size" : 1,
+      "color" : [ 255, 255, 255, 50 ],
+      "initialVelocity" : [ 0, 2 ],
+      "finalVelocity" : [ 0, 1 ],
+      "position" : [ -0.5, 1.6 ],
+      "type" : "animated",
+      "approach" : [ 0, 20 ],
+      "layer" : "back",
+      "animation" : "/animations/dustclear/dustclearCNYC.animation"
+    },
+    "emissionVariance" : 1
+  },
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 218, 83, 2, 5 ],
+  "soundEffect" : "/sfx/objects/woodburningMFM_ambience1.ogg",
+  "soundEffectRadius" : 10,
+  "flickerIntensityVariance" : 0.025
+}

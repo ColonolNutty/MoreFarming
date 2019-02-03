@@ -1,0 +1,90 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(PREP):-} Bolt O's, for when you wake up so hungry you don't care what you're putting in your mouth!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 34
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 34
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 72
+        }
+      ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 46.91
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 211.92
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Cereal - Bolt O's"
+    }
+  ]
+]

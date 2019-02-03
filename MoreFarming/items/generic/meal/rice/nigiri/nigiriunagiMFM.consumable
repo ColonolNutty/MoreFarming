@@ -1,0 +1,17 @@
+{
+  "itemName" : "nigiriunagiMFM",
+  "rarity" : "Common",
+  "price" : 270.56,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} Cooked eel placed on top of a ball of rice.",
+  "shortdescription" : "Nigiri - Unagi",
+  "foodValue" : 23.18,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "nigiriunagiMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

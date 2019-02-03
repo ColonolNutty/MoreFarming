@@ -1,0 +1,23 @@
+{
+  "itemName" : "boiledstrawberryMFM",
+  "rarity" : "Common",
+  "price" : 55.13,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} A strawberry boiled in water.",
+  "shortdescription" : "Boiled Strawberry",
+  "foodValue" : 11.03,
+  "effects" : [[
+    {
+      "effect" : "energyregen",
+      "duration" : 32
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledstrawberryMFM.png",
+  "emote" : "Happy"
+}

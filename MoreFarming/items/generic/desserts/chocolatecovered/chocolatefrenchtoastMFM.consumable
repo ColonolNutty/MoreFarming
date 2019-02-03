@@ -1,0 +1,31 @@
+{
+  "itemName" : "chocolatefrenchtoastMFM",
+  "rarity" : "Common",
+  "price" : 136.7,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(FRY):-} FRENCH TOAST!",
+  "shortdescription" : "Chocolate French Toast",
+  "foodValue" : 71.37,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 35
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 35
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 75
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "chocolatefrenchtoastMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

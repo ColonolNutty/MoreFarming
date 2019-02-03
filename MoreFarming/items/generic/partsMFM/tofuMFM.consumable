@@ -1,0 +1,31 @@
+{
+  "itemName" : "tofuMFM",
+  "rarity" : "Common",
+  "price" : 86.86,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} It is squishy.",
+  "shortdescription" : "Tofu",
+  "foodValue" : 44.68,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 33
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 33
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 69
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "tofuMFM.png",
+  "handPosition" : [ 0, -3 ]
+}

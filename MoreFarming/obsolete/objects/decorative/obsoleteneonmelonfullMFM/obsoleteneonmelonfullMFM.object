@@ -1,0 +1,32 @@
+{
+  "objectName" : "neonmelonfullMFM",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "description" : "^gray;A glowing neon melon. Tastes like bubblegum.^reset;",
+  "category" : "farmable",
+  "shortdescription" : "^gray;Fully Grown Neonmelon^reset;",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 35,
+
+  "inventoryIcon" : "obsoleteneonmelonfullMFMicon.png",
+  "largeImage" : "obsoleteneonmelonfullMFM.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "obsoleteneonmelonfullMFM.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "alts" : 5,
+      "harvestPool" : "neonmelonfullMFMHarvest"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "itemName" : "unfinishedpiepumpkinMFM",
+  "rarity" : "Common",
+  "price" : 380.3,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A pie shell filled with chopped pumpkins and a few other things. Ready for baking.",
+  "shortdescription" : "Pie Unfinished - Pumpkin",
+  "foodValue" : 242.58,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 34
+    },
+    {
+      "effect" : "poisonblock",
+      "duration" : 32
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 34
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 147
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 34
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 147
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 317
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "unfinishedpiepumpkinMFM.png"
+}

@@ -1,0 +1,26 @@
+{
+  "itemName" : "garpberrystuffedautomatoMFM",
+  "rarity" : "Common",
+  "price" : 168.0,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} Garpberries baked within an automato.",
+  "shortdescription" : "Stuffed - Garpmato",
+  "foodValue" : 21.0,
+  "effects" : [[
+    {
+      "effect" : "nova",
+      "duration" : 31
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 189
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "garpberrystuffedautomatoMFM.png"
+}

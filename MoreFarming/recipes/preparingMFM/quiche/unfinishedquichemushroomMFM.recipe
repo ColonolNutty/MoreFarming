@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "shortcrustpastryMFM", "count" : 1 },
+    { "item" : "choppedmushroomMFM", "count" : 5 },
+    { "item" : "choppedonionMFM", "count" : 2 },
+    { "item" : "egg", "count" : 2 },
+    { "item" : "cheese", "count" : 1 },
+    { "item" : "milk", "count" : 1 }
+  ],
+  "output" : { "item" : "unfinishedquichemushroomMFM", "count" : 1 },
+  "groups" : [ "preparingMFM" ]
+}

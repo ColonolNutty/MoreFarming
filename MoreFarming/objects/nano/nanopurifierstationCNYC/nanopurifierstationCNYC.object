@@ -1,0 +1,71 @@
+{
+  "objectName" : "nanopurifierstationCNYC",
+  "colonyTags" : [ "cooking", "electronic" ],
+  "rarity" : "Common",
+  "price" : 321.03,
+  "category" : "Nano Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "Nanites purify without ever needing to boil!",
+  "shortdescription" : "Nano Kettle (Purify)",
+  "race" : "generic",
+  "apexDescription" : "Very efficient!",
+  "avianDescription" : "Praise nanotechnology!",
+  "floranDescription" : "Floran try blood... no, Floran drink insstead!",
+  "glitchDescription" : "Enlightened. Can I program it to turn water to oil?.",
+  "humanDescription" : "It looks like it may last longer than those pre-age filters.",
+  "hylotlDescription" : "What happens to the impurities? Do they disappear?",
+  "inventoryIcon" : "nanopurifierstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "nanopurifierstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "nanopurifierstationCNYClit.png:<color>.<frame>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "nanopurifierstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "nanopurifierstationCNYClit.png:<color>.<frame>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "purifyingMFM",
+  "openSounds" : [ "/sfx/objects/plasticMFMenter2.ogg", "/sfx/objects/plasticMFMenter1.ogg" ],
+  "closeSounds" : [ "/sfx/objects/plasticMFMexit3.ogg", "/sfx/objects/plasticMFMexit4.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/purifyingMFMRecipes.config",
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerPeriodVariance" : 0.075,
+  "maximumLiquidLevel" : 0.2,
+  "flickerMaxIntensity" : 1,
+  "lightColor" : [ 125, 143, 179 ],
+  "flickerIntensityVariance" : 0.025,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "nanopurifierstationCNYC.animation"
+}

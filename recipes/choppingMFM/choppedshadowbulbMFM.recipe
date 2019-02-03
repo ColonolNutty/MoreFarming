@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "shadowbulbMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "choppedshadowbulbMFM", "count" : 1 },
-  "groups" : [ "choppingMFM" ]
-}

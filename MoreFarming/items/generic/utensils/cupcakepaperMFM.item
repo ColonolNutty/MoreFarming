@@ -1,0 +1,9 @@
+{
+  "itemName" : "cupcakepaperMFM",
+  "rarity" : "Common",
+  "price" : 1.0,
+  "category" : "craftingMaterial",
+  "description" : "Paper used for making cupcakes.",
+  "shortdescription" : "Cupcake Paper",
+  "inventoryIcon" : "cupcakepaperMFM.png"
+}

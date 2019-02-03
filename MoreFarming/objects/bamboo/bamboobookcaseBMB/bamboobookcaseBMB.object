@@ -1,0 +1,37 @@
+{
+  "objectName" : "bamboobookcaseBMB",
+  "colonyTags" : [ "floran", "floranvillage", "knowledge", "storage", "nature" ],
+  "rarity" : "Common",
+  "price" : 602.0,
+  "category" : "storage",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "Hey look at this book, 50 Shades of Green. It's about aliens.",
+  "shortdescription" : "Bamboo Bookcase",
+  "race" : "generic",
+  "apexDescription" : "A sturdy bamboo bookcase.",
+  "avianDescription" : "A bookcase. Very solid.",
+  "floranDescription" : "Ssstrong bamboo bookcase.",
+  "glitchDescription" : "Uninterested. Just a bookcase.",
+  "humanDescription" : "A bamboo bookcase.",
+  "hylotlDescription" : "A spot to place books.",
+  "inventoryIcon" : "bamboobookcaseBMBicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bamboobookcaseBMB.png:<color>",
+      "imagePosition" : [ -16, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

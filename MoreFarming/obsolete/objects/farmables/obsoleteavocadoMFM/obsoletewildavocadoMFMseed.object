@@ -1,0 +1,46 @@
+{
+  "objectName" : "wildavocadoMFMseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 5.0,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "^gray;An old tree that used to grow Avocados^reset;",
+  "shortdescription" : "^gray;Old Avocado Tree^reset;",
+  
+  "inventoryIcon" : "obsoleteavocadoMFMseedicon.png",
+  "largeImage" : "obsoleteavocadoMFMseed.png:default.default.default",
+  "orientations" : [ 
+    {
+      "dualImage" : "obsoleteavocadoMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    } ],
+  "stages" : [ 
+    {
+      "duration" : [ 1, 1 ]
+    },
+
+    {
+      "duration" : [ 1, 1 ]
+    },
+
+    {
+      "alts" : 5,
+      "duration" : [ 1, 1 ]
+    },
+
+    {
+      "alts" : 5,
+      "harvestPool" : "avocadoMFMHarvest"
+    } ],
+  "maxImmersion" : 0.25,
+  "hasObjectItem" : false,
+  "biomePlaced" : true
+}

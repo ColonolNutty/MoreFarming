@@ -1,0 +1,12 @@
+{
+  "itemName" : "softblocktoffeeMFM",
+  "rarity" : "Common",
+  "price" : 1.16,
+  "category" : "block",
+  "description" : "Softly packed Toffee.",
+  "shortdescription" : "Soft Block Toffee",
+  "floranDescription" : "Sssweet toffee.",
+  "inventoryIcon" : "softblocktoffeeMFM.png",
+  "glitchdescription" : "Analysis. Soft Toffee Block.",
+  "materialId" : 3304
+}

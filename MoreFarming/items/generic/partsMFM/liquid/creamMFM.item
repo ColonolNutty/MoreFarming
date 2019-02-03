@@ -1,0 +1,9 @@
+{
+  "itemName" : "creamMFM",
+  "rarity" : "Common",
+  "price" : 15.92,
+  "category" : "cookingIngredient",
+  "description" : "(CHURN):-} Creamy!",
+  "shortdescription" : "Cream",
+  "inventoryIcon" : "creamMFM.png"
+}

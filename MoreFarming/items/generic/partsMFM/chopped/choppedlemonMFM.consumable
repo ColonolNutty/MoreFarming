@@ -1,0 +1,27 @@
+{
+  "itemName" : "choppedlemonMFM",
+  "rarity" : "Common",
+  "price" : 63.0,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed, peeled, and chopped lemon.",
+  "shortdescription" : "Chopped Lemon",
+  "foodValue" : 10.5,
+  "effects" : [[
+    {
+      "effect" : "runboostfood",
+      "duration" : 31
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 31
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedlemonMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

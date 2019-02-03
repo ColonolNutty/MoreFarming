@@ -1,0 +1,43 @@
+{
+  "itemName" : "icecreamconevanillachocolatechipMFM",
+  "rarity" : "Common",
+  "price" : 134.45,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} A scoop of vanilla chocolate chip ice cream on a waffle cone.",
+  "shortdescription" : "Ice Cream Cone - Vanilla Chocolate Chip",
+  "foodValue" : 89.53,
+  "effects" : [[
+    {
+      "effect" : "regeneration2",
+      "duration" : 108
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 223
+    },
+    {
+      "effect" : "maxenergyscalingboost",
+      "duration" : 108
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 108
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 223
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 479
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "icecreamconevanillachocolatechipMFM.png",
+  "handPosition" : [ 0, -3 ]
+}

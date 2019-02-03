@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "darkwoodmaterial", "count" : 15 }
-  ],
-  "output" : { "item" : "woodencabinet3", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "genericMFM", "storageMFM", "all" ]
-}

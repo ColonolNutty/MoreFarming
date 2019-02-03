@@ -1,0 +1,23 @@
+{
+  "itemName" : "beansproutMFM",
+  "rarity" : "Common",
+  "price" : 3.0,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "tooltipKind" : "food",
+  "description" : "Bean sprout come from harvesting some bean plants early.",
+  "shortdescription" : "Bean Sprout",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 10
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "beansproutMFM.png"
+}

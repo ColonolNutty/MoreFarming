@@ -1,0 +1,39 @@
+{
+  "objectName" : "appleMFMseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "price" : 40.2,
+  "category" : "seed",
+  "objectType" : "farmable",
+  "tooltipKind" : "seed",
+  "printable" : false,
+  "description" : "^gray;This old tree used to produce Red Apples.^reset;",
+  "shortdescription" : "^gray;Old Apple Seed^reset;",
+  
+  "inventoryIcon" : "obsoleteappleMFMseedicon.png",
+  "largeImage" : "obsoleteappleMFMseed.png:default.default.default",
+  "orientations" : [ 
+    {
+      "dualImage" : "obsoleteappleMFMseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [ 0, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    } ],
+  "stages" : [ 
+    {
+      "duration" : [ 1, 1 ]
+    },
+
+    {
+      "duration" : [ 1, 1 ]
+    },
+
+    {
+      "alts" : 5,
+      "harvestPool" : "appleMFMHarvest"
+    } ],
+  "maxImmersion" : 0.8
+}

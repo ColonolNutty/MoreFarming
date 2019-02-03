@@ -1,0 +1,33 @@
+{
+  "objectName" : "apexpurifierstationCNYC",
+  "colonyTags" : [ "apex", "apexvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 720.58,
+  "category" : "Apex Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A tea machine.",
+  "shortdescription" : "^orange;Apex Tea Machine (Purify)^reset;",
+  "race" : "generic",
+  "inventoryIcon" : "apexpurifierstationCNYCicon.png",
+  "orientations" : [
+    {
+      "image" : "apexpurifierstationCNYC.png:default",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "purifyingMFM",
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit3.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/purifyingMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "apexpurifierstationCNYC.animation"
+}

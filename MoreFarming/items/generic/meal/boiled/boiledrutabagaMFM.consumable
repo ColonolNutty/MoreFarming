@@ -1,0 +1,23 @@
+{
+  "itemName" : "boiledrutabagaMFM",
+  "rarity" : "Common",
+  "price" : 33.08,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BOIL):-} A rutabaga boiled in water.",
+  "shortdescription" : "Boiled Rutabaga",
+  "foodValue" : 11.03,
+  "effects" : [[
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 44
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "boiledrutabagaMFM.png",
+  "emote" : "Happy"
+}

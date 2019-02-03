@@ -1,0 +1,45 @@
+{
+  "objectName" : "bunnydollMFM",
+  "colonyTags" : [ "easter", "pretty" ],
+  "rarity" : "Uncommon",
+  "price" : 1.0,
+  "category" : "decorative",
+  "printable" : false,
+  "description" : "A cute widdle Bunny Doll!",
+  "shortdescription" : "Bunny Doll",
+  "race" : "generic",
+  "apexDescription" : "This is a very cute tiny bunny.",
+  "avianDescription" : "Fluffy and soft.",
+  "floranDescription" : "Ssstupid bunny not meat.",
+  "glitchDescription" : "Joyous. Such a cute doll.",
+  "humanDescription" : "I used to have a doll just like this back on... I miss Earth.",
+  "hylotlDescription" : "At least a plush rabbit wont breed.",
+  "novakidDescription" : "It's wabbit hunting season.",
+  "inventoryIcon" : "bunnydollMFMicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunnydollMFM.png",
+      "imagePosition" : [ -20, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "bunnydollMFMcorner.png:left",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "left" ]
+    },
+    {
+      "image" : "bunnydollMFMcorner.png:right",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "right" ]
+    }
+  ]
+}

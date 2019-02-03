@@ -1,0 +1,17 @@
+{
+  "itemName" : "cornbeerMFM",
+  "rarity" : "Common",
+  "price" : 41.0,
+  "category" : "drink",
+  "tooltipKind" : "food",
+  "description" : "(DISTILL):-} A can of beer made from corn.",
+  "shortdescription" : "Alcohol - Corn Beer",
+  "foodValue" : 10.0,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cornbeerMFM.png",
+  "emitters" : [ "drinking" ]
+}

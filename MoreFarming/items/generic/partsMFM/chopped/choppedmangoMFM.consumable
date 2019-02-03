@@ -1,0 +1,23 @@
+{
+  "itemName" : "choppedmangoMFM",
+  "rarity" : "Common",
+  "price" : 73.5,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed, peeled, and chopped mango.",
+  "shortdescription" : "Chopped Mango",
+  "foodValue" : 10.5,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 31
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedmangoMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

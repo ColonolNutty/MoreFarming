@@ -1,0 +1,23 @@
+{
+  "itemName" : "steamedbroccoliMFM",
+  "rarity" : "Common",
+  "price" : 123.0,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(FRY):-} Broccoli steamed in water.",
+  "shortdescription" : "Steamed Broccoli",
+  "foodValue" : 20.5,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 92
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "steamedbroccoliMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "coffeestation", "count" : 1 }
+  ],
+  "output" : { "item" : "coffeestationCNYC", "count" : 1 },
+  "groups" : [ "recyclingMFM" ]
+}

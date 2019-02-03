@@ -1,0 +1,9 @@
+{
+  "itemName" : "plantmushMFM",
+  "rarity" : "Common",
+  "price" : 1.0,
+  "category" : "cookingIngredient",
+  "description" : "(PRESS):-} Ground plants that are inedible.",
+  "shortdescription" : "Plant Mush",
+  "inventoryIcon" : "plantmushMFM.png"
+}

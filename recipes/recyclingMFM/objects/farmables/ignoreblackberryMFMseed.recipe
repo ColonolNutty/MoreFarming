@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "blackberryPBJseed", "count" : 1 }
-  ],
-  "output" : { "item" : "blackberryMFMseed", "count" : 1 },
-  "groups" : [ "recyclingMFM" ]
-}

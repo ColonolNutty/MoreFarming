@@ -1,0 +1,31 @@
+{
+  "itemName" : "makiebiMFM",
+  "rarity" : "Uncommon",
+  "price" : 656.85,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(PREP):-} Cooked shrimp and tamari packed in a ball of rice.",
+  "shortdescription" : "Maki - Ebi",
+  "foodValue" : 76.07,
+  "effects" : [[
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 33
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 33
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 69
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "makiebiMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

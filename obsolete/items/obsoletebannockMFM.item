@@ -1,9 +1,0 @@
-{
-  "itemName" : "bannockMFM",
-  "rarity" : "Common",
-  "price" : 217.76,
-  "category" : "cookingIngredient",
-  "description" : "^gray;Bannock.^reset;",
-  "shortdescription" : "^gray;Raw Bannock^reset;",
-  "inventoryIcon" : "obsoletebannockMFM.png"
-}

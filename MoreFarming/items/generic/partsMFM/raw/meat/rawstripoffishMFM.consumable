@@ -1,0 +1,23 @@
+{
+  "itemName" : "rawstripoffishMFM",
+  "rarity" : "Common",
+  "price" : 10.5,
+  "category" : "food",
+  "eventCategory" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Raw fish chopped into strips.",
+  "shortdescription" : "Raw Strip of Fish",
+  "foodValue" : 10.0,
+  "effects" : [[
+    {
+      "effect" : "foodpoison",
+      "duration" : 63
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "rawstripoffishMFM.png"
+}

@@ -1,0 +1,17 @@
+{
+  "itemName" : "bunhotdogMFM",
+  "rarity" : "Common",
+  "price" : 15.02,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} A bun for hotdogs",
+  "shortdescription" : "Bun - Hotdog",
+  "foodValue" : 10.0,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "bunhotdogMFM.png",
+  "handPosition" : [ 0, -3 ]
+}

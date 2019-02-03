@@ -1,0 +1,26 @@
+{
+  "itemName" : "roastedgarpberrysMFM",
+  "rarity" : "Common",
+  "price" : 164.0,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} Crunchy roasted garpberries. Mmm.",
+  "shortdescription" : "Roasted Garpberries",
+  "foodValue" : 20.5,
+  "effects" : [[
+    {
+      "effect" : "nova",
+      "duration" : 61
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 369
+    }
+  ]],
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "roastedgarpberrysMFM.png"
+}

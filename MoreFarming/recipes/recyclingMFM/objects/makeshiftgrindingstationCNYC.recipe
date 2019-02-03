@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "campgrinder", "count" : 1 }
+  ],
+  "output" : { "item" : "makeshiftgrindingstationCNYC", "count" : 1 },
+  "groups" : [ "recyclingMFM" ]
+}

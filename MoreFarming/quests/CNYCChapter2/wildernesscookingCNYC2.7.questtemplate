@@ -1,0 +1,28 @@
+{
+  "id" : "wildernesscookingCNYC2.7.gearup",
+  "title" : "^green;The Start of Something Delicious - II Part 7^white;",
+  "text" : "I need some way to boil these ingredients, according to the guide I can use a ^orange;Camp Cookpot (Boil)^white; or another appliance that can do the same, I should be able to put it together by hand with some ^green;Logs^white; and ^green;Copper Ore^white;. Once I have placed it, the guide says to place all of the ingredients up until this point (Verify ingredients in the codex entry) into the pot to make some delicious ^green;Stew - Mountainman^white;.",
+  "completionText" : "Yes!! I've made some delicious ^green;Mountainman Stew^white;. I should keep an eye on the ^orange;Terra Mart^white; for more guides. I wish to learn more!",
+  "speaker" : "player",
+  "moneyRange" : [60, 100],
+  
+  "updateDelta" : 10,
+  "canBeAbandoned" : false,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "player",
+      "questComplete" : "player"
+    },
+	"requireTurnIn" : false,
+	"canBeAbandoned" : false,
+	"conditions" : [
+		{
+			"type" : "gatherItem",
+			"itemName" : "stewmountainmanMFM",
+			"count" : 1,
+			"consume" : false
+		}
+	]
+  }
+}

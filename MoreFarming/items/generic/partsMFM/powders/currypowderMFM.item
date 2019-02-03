@@ -1,0 +1,9 @@
+{
+  "itemName" : "currypowderMFM",
+  "rarity" : "Common",
+  "price" : 21.0,
+  "category" : "cookingIngredient",
+  "description" : "A mixture of spices used for making curry.",
+  "shortdescription" : "Curry powder",
+  "inventoryIcon" : "currypowderMFM.png"
+}

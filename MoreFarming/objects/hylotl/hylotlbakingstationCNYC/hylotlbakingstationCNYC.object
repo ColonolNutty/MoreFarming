@@ -1,0 +1,42 @@
+{
+  "objectName" : "hylotlbakingstationCNYC",
+  "colonyTags" : [ "hylotl", "hylotlvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 246.08,
+  "category" : "Hylotl Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A traditonal looking oven.",
+  "shortdescription" : "^orange;Hylotl Oven (Bake)^reset;",
+  "race" : "generic",
+  "apexDescription" : "An oven. Absolutely exquisite!",
+  "avianDescription" : "Quite the craftsmanship.",
+  "floranDescription" : "Floran smasssh when not looking!",
+  "glitchDescription" : "Observation. An ornate yet functional oven.",
+  "humanDescription" : "How has it not caught fire?",
+  "hylotlDescription" : "Quaint and warm.",
+  "inventoryIcon" : "hylotlbakingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlbakingstationCNYC.png:<color>",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  "recipeGroup" : "bakingMFM",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/bakingMFMRecipes.config",
+  "soundEffect" : "/sfx/objects/woodburningMFM_ambience1.ogg",
+  "soundEffectRadius" : 10,
+  "retainObjectParametersInItem" : true
+}

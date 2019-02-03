@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "choppedsugarbeetMFM", "count" : 1 },
-    { "item" : "liquidwater", "count" : 2 }
-  ],
-  "output" : { "item" : "boiledsugarbeetMFM", "count" : 1 },
-  "groups" : [ "boilingMFM" ]
-}

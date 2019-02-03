@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "bamboostalkMFM", "count" : 10 }
-  ],
-  "output" : { "item" : "hylotlclassiccabinet1", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "hylotlMFM", "storageMFM", "all" ]
-}

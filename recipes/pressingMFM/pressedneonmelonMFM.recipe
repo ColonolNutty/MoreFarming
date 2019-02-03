@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "neonmelon", "count" : 1 }
-  ],
-  "output" : { "item" : "pressedneonmelonMFM", "count" : 1 },
-  "groups" : [ "pressingMFM" ]
-}

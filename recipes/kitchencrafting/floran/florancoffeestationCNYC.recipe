@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "bone", "count" : 5 },
-    { "item" : "darkwoodmaterial", "count" : 5 }
-  ],
-  "output" : { "item" : "florancoffeestationCNYC", "count" : 1 },
-  "groups" : [ "cn_kitchencrafting", "craftingstations", "floranMFM", "coffeemachineMFM", "all" ]
-}

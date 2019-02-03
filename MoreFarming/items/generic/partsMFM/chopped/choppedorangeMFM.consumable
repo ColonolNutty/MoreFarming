@@ -1,0 +1,17 @@
+{
+  "itemName" : "choppedorangeMFM",
+  "rarity" : "Common",
+  "price" : 21.0,
+  "category" : "cookingIngredient",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed, peeled, and chopped orange.",
+  "shortdescription" : "Chopped Orange",
+  "foodValue" : 10.5,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedorangeMFM.png",
+  "handPosition" : [ 0, -4 ]
+}

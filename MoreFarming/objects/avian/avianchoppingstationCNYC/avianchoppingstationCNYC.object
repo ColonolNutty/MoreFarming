@@ -1,0 +1,40 @@
+{
+  "objectName" : "avianchoppingstationCNYC",
+  "colonyTags" : [ "avian", "avianvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 52.08,
+  "category" : "Avian Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "A solid wooden chopping board.",
+  "shortdescription" : "^orange;Avian Chopboard (Chop)^reset;",
+  "race" : "generic",
+  "apexDescription" : "Intricately carved and sharp.",
+  "avianDescription" : "Lovely craftsmanship.",
+  "floranDescription" : "Floran likess extra stabbiesss.",
+  "glitchDescription" : "Observation. A lightwood chopboard.",
+  "humanDescription" : "At least this wasn't used for sacrifice. I hope...",
+  "hylotlDescription" : "There are strange marks underneath it.",
+  "inventoryIcon" : "avianchoppingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avianchoppingstationCNYC.png:<color>",
+      "imagePosition" : [ -8, 0 ],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "recipeGroup" : "choppingMFM",
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/choppingMFMRecipes.config",
+  "retainObjectParametersInItem" : true,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "avianchoppingstationCNYC.animation"
+}

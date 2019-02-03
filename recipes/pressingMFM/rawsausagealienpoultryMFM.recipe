@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "rawstripofalienmeatMFM", "count" : 1 },
-    { "item" : "rawstripofpoultryMFM", "count" : 1 }
-  ],
-  "output" : { "item" : "rawsausagealienpoultryMFM", "count" : 1 },
-  "groups" : [ "pressingMFM" ]
-}

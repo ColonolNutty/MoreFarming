@@ -1,0 +1,11 @@
+{
+  "itemName" : "chocolateeggMFM",
+  "rarity" : "Common",
+  "price" : 0.0,
+  "category" : "craftingMaterial",
+  "description" : "A chocolate egg. It looks delicious but I should hold onto it.",
+  "shortdescription" : "Chocolate Egg",
+  "inventoryIcon" : "chocolateeggMFM.png",
+  "learnBlueprintsOnPickup" : [ "easterbunnyshopMFM" ],
+  "pickupQuestTemplates" : [ "easterbunnyMFMquest" ]
+}

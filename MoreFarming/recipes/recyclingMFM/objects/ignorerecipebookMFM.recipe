@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "cn_recipebook", "count" : 1 }
+  ],
+  "output" : { "item" : "recipebookMFM", "count" : 1 },
+  "groups" : [ "recyclingMFM" ]
+}

@@ -1,0 +1,93 @@
+{
+  "objectName" : "boilingstationCNYC",
+  "colonyTags" : [ "human", "humanvillage", "cooking" ],
+  "rarity" : "Common",
+  "price" : 249.08,
+  "category" : "Basic Cookware",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "Useful for boiling food.",
+  "shortdescription" : "^orange;Boiling Pans (Boil)^reset;",
+  "race" : "generic",
+  "apexDescription" : "These are better than those tin pans we used to use.",
+  "avianDescription" : "Corden Jamsey cookpans, galvanised?",
+  "floranDescription" : "Floran use as hammer afterwardsss.",
+  "glitchDescription" : "Analysis. Lightweight metallic cauldrons.",
+  "humanDescription" : "Pans! I wonder if Jamsey used them!",
+  "hylotlDescription" : "It looks expensive... also limited edition?",
+  "inventoryIcon" : "boilingstationCNYCicon.png",
+  "orientations" : [
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "left",
+      "frames" : 3,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "boilingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "boilingstationCNYClit.png:<color>.<frame>" }
+      ],
+      "flipImages" : true
+    },
+    {
+      "imagePosition" : [ -8, 0 ],
+      "direction" : "right",
+      "frames" : 3,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "imageLayers" : [
+        {
+          "image" : "boilingstationCNYC.png:<color>.<frame>",
+          "fullbright" : true
+        },
+        { "image" : "boilingstationCNYClit.png:<color>.<frame>" }
+      ]
+    }
+  ],
+  "recipeGroup" : "boilingMFM",
+  "openSounds" : [ "/sfx/objects/metalpotMFMenter1.ogg", "/sfx/objects/metalpotMFMenter2.ogg", "/sfx/objects/metalpotMFMenter3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalpotMFMexit1.ogg", "/sfx/objects/metalpotMFMexit2.ogg", "/sfx/objects/metalpotMFMexit4.ogg", "/sfx/objects/metalpotMFMexit5.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/scripted/recipeCrafterMFM/recipeCrafterMFM.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/recipeCrafterMFM/recipeCrafterMFM.lua" ],
+  "scriptDelta" : 1,
+  "outputConfig" : "/recipeCrafterMFM/boilingMFMRecipes.config",
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerMaxIntensity" : 0.3,
+  "particleEmitter" : {
+    "emissionRate" : 6,
+    "particleVariance" : {
+      "initialVelocity" : [ 0.5, 2 ],
+      "position" : [ 0.6, 0 ]
+    },
+    "particle" : {
+      "timeToLive" : 0.3,
+      "fade" : 2,
+      "size" : 1,
+      "color" : [ 200, 200, 200, 100 ],
+      "initialVelocity" : [ 0, 4 ],
+      "finalVelocity" : [ 0, 2 ],
+      "position" : [ 0, 1 ],
+      "type" : "ember",
+      "approach" : [ 0, 20 ],
+      "layer" : "back"
+    },
+    "emissionVariance" : 1
+  },
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [ 116, 227, 225, 5 ],
+  "flickerIntensityVariance" : 0.025,
+  "soundEffect" : "/sfx/objects/bubblesMFMambience2.ogg",
+  "soundEffectRadius" : 10,
+  "craftSoundDelaySeconds" : 5,
+  "animation" : "boilingstationCNYC.animation"
+}

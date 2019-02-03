@@ -1,0 +1,16 @@
+{
+  "itemName" : "cookedeggshootMFM",
+  "rarity" : "Common",
+  "price" : 126.0,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(BAKE):-} When heated in this way, it's just like a boiled egg.",
+  "shortdescription" : "Baked Eggshoot",
+  "foodValue" : 10.5,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "cookedeggshootMFM.png"
+}

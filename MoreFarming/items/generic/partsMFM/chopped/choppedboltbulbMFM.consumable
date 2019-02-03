@@ -1,0 +1,16 @@
+{
+  "itemName" : "choppedboltbulbMFM",
+  "rarity" : "Common",
+  "price" : 126.0,
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "description" : "(CHOP):-} Washed, peeled, and chopped boltbulb.",
+  "shortdescription" : "Chopped Boltbulb",
+  "foodValue" : 10.5,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [ "wellfed" ],
+  "inventoryIcon" : "choppedboltbulbMFM.png"
+}

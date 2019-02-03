@@ -1,0 +1,97 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/effects",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/effects",
+      "value" : [[ ]]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/foodValue",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/foodValue",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 0.0
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "(FREEZE):-} Eureka! The only possible way to improve on perfection is to multiply it."
+    },
+    {
+      "op" : "replace",
+      "path" : "/effects",
+      "value" : [[
+        {
+          "effect" : "regeneration2",
+          "duration" : 71
+        },
+        {
+          "effect" : "maxenergyscalingboostfood",
+          "duration" : 161
+        },
+        {
+          "effect" : "maxenergyscalingboost",
+          "duration" : 71
+        },
+        {
+          "effect" : "runboostfood",
+          "duration" : 227
+        },
+        {
+          "effect" : "energyregen",
+          "duration" : 161
+        },
+        {
+          "effect" : "maxhealthscalingboostfood",
+          "duration" : 512
+        }
+      ]]
+    },
+    {
+      "op" : "replace",
+      "path" : "/foodValue",
+      "value" : 166.01
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 207.29
+    }
+  ]
+]

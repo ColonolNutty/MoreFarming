@@ -1,2 +1,7 @@
 AssetsUnpacked
 *.7z
+*/desktop.ini
+desktop.ini
+**/*/Thumbs.db
+*/Thumbs.db
+**/Thumbs.db

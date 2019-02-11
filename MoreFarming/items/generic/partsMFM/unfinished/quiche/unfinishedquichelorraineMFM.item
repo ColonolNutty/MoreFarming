@@ -4,7 +4,7 @@
   "price" : 237.35,
   "category" : "cookingIngredient",
   "description" : "(PREP):-} A quiche filled with eggs, milk, and meat. Ready for baking.",
-  "shortdescription" : "Quiche Unfinished - Lorraine",
+  "shortdescription" : "Quiche Unf. - Lorraine",
   "maxStack" : 1000,
   "inventoryIcon" : "unfinishedquichelorraineMFM.png"
 }

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb3fdd06-0590-42a4-8d9e-7e87beddd004" name="Default Changelist" comment="" />
+    <list default="true" id="eb3fdd06-0590-42a4-8d9e-7e87beddd004" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreFarming/_MFMversioning.config" beforeDir="false" afterPath="$PROJECT_DIR$/MoreFarming/_MFMversioning.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/boilingMFMRecipes.config" beforeDir="false" afterPath="$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/boilingMFMRecipes.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/cornsyrupMFM.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/cornsyrupMFM.recipe" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,47 +20,83 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="animation" value="1" />
+          <entry key="config" value="2" />
           <entry key="consumable" value="809" />
           <entry key="item" value="60" />
           <entry key="patch" value="495" />
           <entry key="png" value="16" />
           <entry key="py" value="1" />
+          <entry key="recipe" value="1" />
           <entry key="statuseffect" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="16" />
-          <entry key="JSON" value="1368" />
+          <entry key="JSON" value="1371" />
           <entry key="Python" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="config" value="22" />
           <entry key="consumable" value="13" />
           <entry key="item" value="2" />
           <entry key="patch" value="1" />
+          <entry key="recipe" value="30" />
           <entry key="statuseffect" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="71" />
+          <entry key="JSON" value="123" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/liquid/cornsyrupMFM.item">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/boilingMFMRecipes.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/cornsyrupMFM.recipe">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/liquid/sakeMFM.consumable">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/MoreFarming/_MFMversioning.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -95,6 +136,9 @@
       <find>nigiriebiMFM</find>
       <find>borschtMFM</find>
       <find>stuffedbellpeppergreenMFM</find>
+      <find>choppedcorn</find>
+      <find>cornsyrupMFM</find>
+      <find>vanillaextract</find>
     </findStrings>
     <replaceStrings>
       <replace>cnfoodpoisonrawmeat</replace>
@@ -104,8 +148,8 @@
       <dir>C:\Work\StarboundProjects\CNMoreFarming\AssetsUnpacked\items\generic</dir>
       <dir>C:\Work\StarboundProjects\CNMoreFarming</dir>
       <dir>C:\Work\StarboundProjects\CNMoreFarming\AssetsUnpacked</dir>
-      <dir>C:\Work\StarboundProjects\CNMoreFarming\MoreFarming</dir>
       <dir>C:\Work\StarboundProjects\CNMoreFarming\MoreFarming\recipes</dir>
+      <dir>C:\Work\StarboundProjects\CNMoreFarming\MoreFarming</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -121,14 +165,17 @@
         <option value="$PROJECT_DIR$/MoreFarming/items/generic/food/tier4/alienfruitjam.consumable.patch" />
         <option value="$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/unfinished/quiche/unfinishedquichelorraineMFM.item" />
         <option value="$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/unfinished/quiche/unfinishedquichemushroomMFM.item" />
+        <option value="$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/boilingMFMRecipes.config" />
+        <option value="$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/cornsyrupMFM.recipe" />
+        <option value="$PROJECT_DIR$/MoreFarming/_MFMversioning.config" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-3" />
-    <option name="y" value="57" />
-    <option name="width" value="1040" />
-    <option name="height" value="734" />
+    <option name="y" value="36" />
+    <option name="width" value="833" />
+    <option name="height" value="588" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -163,6 +210,23 @@
               <item name="MoreFarming" type="462c0819:PsiDirectoryNode" />
               <item name="items" type="462c0819:PsiDirectoryNode" />
               <item name="generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNMoreFarming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNMoreFarming" type="462c0819:PsiDirectoryNode" />
+              <item name="MoreFarming" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+              <item name="partsMFM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNMoreFarming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNMoreFarming" type="462c0819:PsiDirectoryNode" />
+              <item name="MoreFarming" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+              <item name="partsMFM" type="462c0819:PsiDirectoryNode" />
+              <item name="liquid" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNMoreFarming" type="b2602c69:ProjectViewProjectNode" />
@@ -218,10 +282,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="46" width="832" height="587" extended-state="1" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4326425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23020135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -245,22 +309,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/produce/vanillaMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/produce/watermelonMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/produce/yellowbellpepperMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/shop/chocolate.consumable.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1088" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/shop/reefcola.consumable.patch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-628" />
@@ -481,6 +529,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/liquid/sakeMFM.consumable">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/liquid/cornsyrupMFM.item">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/boilingMFMRecipes.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/cornsyrupMFM.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/_MFMversioning.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

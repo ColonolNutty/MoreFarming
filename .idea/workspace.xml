@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb3fdd06-0590-42a4-8d9e-7e87beddd004" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MoreFarming/items/generic/meal/burger/burgerMFM.xcf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/jerkyalienmeatMFM.consumable" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/jerkyalienmeatMFM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/jerkypoultryMFM.consumable" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/jerkypoultryMFM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/sauce/saucesoyMFM.consumable" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/sauce/saucesoyMFM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/sauce/sauceteriyakiMFM.consumable" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/sauce/sauceteriyakiMFM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoreFarming/recipes/bakingMFM/dried/jerkyalienmeatMFM.recipe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoreFarming/recipes/bakingMFM/dried/jerkypoultryMFM.recipe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/saucesoyMFM.recipe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/sauceteriyakiMFM.recipe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MoreFarming/_MFMversioning.config" beforeDir="false" afterPath="$PROJECT_DIR$/MoreFarming/_MFMversioning.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/bakingMFMRecipes.config" beforeDir="false" afterPath="$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/bakingMFMRecipes.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/boilingMFMRecipes.config" beforeDir="false" afterPath="$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/boilingMFMRecipes.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/cornsyrupMFM.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/cornsyrupMFM.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/preparingMFMRecipes.config" beforeDir="false" afterPath="$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/preparingMFMRecipes.config" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,36 +41,37 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="animation" value="1" />
-          <entry key="config" value="2" />
-          <entry key="consumable" value="809" />
+          <entry key="config" value="6" />
+          <entry key="consumable" value="819" />
           <entry key="item" value="60" />
-          <entry key="patch" value="495" />
-          <entry key="png" value="16" />
+          <entry key="object" value="1" />
+          <entry key="patch" value="496" />
+          <entry key="png" value="24" />
           <entry key="py" value="1" />
-          <entry key="recipe" value="1" />
+          <entry key="recipe" value="7" />
           <entry key="statuseffect" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="16" />
-          <entry key="JSON" value="1371" />
+          <entry key="Image" value="24" />
+          <entry key="JSON" value="1393" />
           <entry key="Python" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="config" value="22" />
-          <entry key="consumable" value="13" />
+          <entry key="consumable" value="412" />
           <entry key="item" value="2" />
           <entry key="patch" value="1" />
-          <entry key="recipe" value="30" />
+          <entry key="recipe" value="184" />
           <entry key="statuseffect" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="123" />
+          <entry key="JSON" value="676" />
         </counts>
       </usages-collector>
     </session>
@@ -64,28 +79,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/liquid/cornsyrupMFM.item">
+        <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/sauce/sauceteriyakiMFM.consumable">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="28" />
+              <caret line="1" column="32" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/boilingMFMRecipes.config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/cornsyrupMFM.recipe">
+        <entry file="file://$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/sauceteriyakiMFM.recipe">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MoreFarming/recipes/bakingMFM/dried/jerkyalienmeatMFM.recipe">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MoreFarming/recipes/bakingMFM/dried/jerkypoultryMFM.recipe">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/jerkyalienmeatMFM.consumable">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/jerkypoultryMFM.consumable">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/bakingMFMRecipes.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="1808" column="43" selection-start-line="1808" selection-start-column="43" selection-end-line="1808" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/saucesoyMFM.recipe">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -93,8 +153,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MoreFarming/_MFMversioning.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="68">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -110,22 +170,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;foodpoison&quot;</find>
-      <find>health</find>
-      <find>multiplier</find>
-      <find>effect</find>
-      <find>cnfoodpoisonrawmeat</find>
-      <find>foodpoison</find>
-      <find>alienmeat</find>
-      <find>fluffyruffs</find>
-      <find>unfinishedquichemushroomMFM</find>
-      <find>.xcf</find>
-      <find>padthaiMFM</find>
-      <find>phoMFM</find>
-      <find>temakisakeMFM</find>
-      <find>makicaliforniaMFM</find>
-      <find>makiebiMFM</find>
-      <find>makiikaMFM</find>
       <find>makikappaMFM</find>
       <find>makimaguroMFM</find>
       <find>makisakeMFM</find>
@@ -139,6 +183,23 @@
       <find>choppedcorn</find>
       <find>cornsyrupMFM</find>
       <find>vanillaextract</find>
+      <find>chickenstew</find>
+      <find>sauce</find>
+      <find>Sauce -</find>
+      <find>boiledsoybeansMFM</find>
+      <find>garlicpowder</find>
+      <find>garlic</find>
+      <find>groundgarlicMFM</find>
+      <find>soy</find>
+      <find>honeyMFM</find>
+      <find>stirfry</find>
+      <find>frystir</find>
+      <find>jerky</find>
+      <find>stripof</find>
+      <find>roastedstripof</find>
+      <find>stripofalienmeat</find>
+      <find>wheatMFM</find>
+      <find>wheat</find>
     </findStrings>
     <replaceStrings>
       <replace>cnfoodpoisonrawmeat</replace>
@@ -168,6 +229,24 @@
         <option value="$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/boilingMFMRecipes.config" />
         <option value="$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/cornsyrupMFM.recipe" />
         <option value="$PROJECT_DIR$/MoreFarming/_MFMversioning.config" />
+        <option value="$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/sauce/sauceteriyakiMFM.consumable" />
+        <option value="$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/powders/groundgarlicMFM.consumable" />
+        <option value="$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/sauce/saucesoyMFM.consumable" />
+        <option value="$PROJECT_DIR$/MoreFarming/recipes/blendingMFM/sauceteriyakiMFM.recipe" />
+        <option value="$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/jerkybeef.consumable" />
+        <option value="$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/jerkybeefMFM.consumable" />
+        <option value="$PROJECT_DIR$/MoreFarming/recipes/bakingMFM/dried/driedmeatMFM.recipe" />
+        <option value="$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/driedmeatMFM.consumable" />
+        <option value="$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/driedstripofmeatMFM.consumable" />
+        <option value="$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/driedstripofpoultryMFM.consumable" />
+        <option value="$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/jerkymeatMFM.consumable" />
+        <option value="$PROJECT_DIR$/MoreFarming/recipes/bakingMFM/dried/driedstripofalienmeatMFM.recipe" />
+        <option value="$PROJECT_DIR$/MoreFarming/recipes/bakingMFM/dried/driedstripofpoultryMFM.recipe" />
+        <option value="$PROJECT_DIR$/MoreFarming/recipes/bakingMFM/dried/jerkyalienmeatMFM.recipe" />
+        <option value="$PROJECT_DIR$/MoreFarming/recipes/bakingMFM/dried/jerkypoultryMFM.recipe" />
+        <option value="$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/jerkypoultryMFM.consumable" />
+        <option value="$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/jerkyalienmeatMFM.consumable" />
+        <option value="$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/saucesoyMFM.recipe" />
       </list>
     </option>
   </component>
@@ -217,7 +296,16 @@
               <item name="MoreFarming" type="462c0819:PsiDirectoryNode" />
               <item name="items" type="462c0819:PsiDirectoryNode" />
               <item name="generic" type="462c0819:PsiDirectoryNode" />
-              <item name="partsMFM" type="462c0819:PsiDirectoryNode" />
+              <item name="meal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNMoreFarming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNMoreFarming" type="462c0819:PsiDirectoryNode" />
+              <item name="MoreFarming" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+              <item name="meal" type="462c0819:PsiDirectoryNode" />
+              <item name="dried" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNMoreFarming" type="b2602c69:ProjectViewProjectNode" />
@@ -226,15 +314,27 @@
               <item name="items" type="462c0819:PsiDirectoryNode" />
               <item name="generic" type="462c0819:PsiDirectoryNode" />
               <item name="partsMFM" type="462c0819:PsiDirectoryNode" />
-              <item name="liquid" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNMoreFarming" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNMoreFarming" type="462c0819:PsiDirectoryNode" />
               <item name="MoreFarming" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
-              <item name="generic" type="462c0819:PsiDirectoryNode" />
-              <item name="unknownMFM" type="462c0819:PsiDirectoryNode" />
+              <item name="recipes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNMoreFarming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNMoreFarming" type="462c0819:PsiDirectoryNode" />
+              <item name="MoreFarming" type="462c0819:PsiDirectoryNode" />
+              <item name="recipes" type="462c0819:PsiDirectoryNode" />
+              <item name="bakingMFM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNMoreFarming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNMoreFarming" type="462c0819:PsiDirectoryNode" />
+              <item name="MoreFarming" type="462c0819:PsiDirectoryNode" />
+              <item name="recipes" type="462c0819:PsiDirectoryNode" />
+              <item name="bakingMFM" type="462c0819:PsiDirectoryNode" />
+              <item name="dried" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -243,8 +343,15 @@
     </panes>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\StarboundProjects\CNMoreFarming\MoreFarming\recipes\boilingMFM" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Work\StarboundProjects\CNMoreFarming\MoreFarming\stats\effects\food" />
+      <recent name="C:\Work\StarboundProjects\CNMoreFarming\MoreFarming\items\generic\meal\dried" />
+      <recent name="C:\Work\StarboundProjects\CNMoreFarming\MoreFarming\recipes\bakingMFM\dried" />
+      <recent name="C:\Work\StarboundProjects\CNMoreFarming\MoreFarming\recipes\boilingMFM" />
+      <recent name="C:\Work\StarboundProjects\CNMoreFarming\MoreFarming\items\generic\partsMFM\sauce" />
+      <recent name="C:\Work\StarboundProjects\CNMoreFarming\MoreFarming\recipes\blendingMFM" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -309,137 +416,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/shop/reefcola.consumable.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-628" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/unknownMFM/chocolateeggMFM.item">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/unknownMFM/ER3031MFM.consumable">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/shop/soda.consumable.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/shop/oculemonade.consumable.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-492" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/shop/cheese.consumable.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-952" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/produce/wholeoatsMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/bowl/crunchyokaracarobolaMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/bowl/curryriceMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/bread/shortcrustpastryMFM.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/boiled/boiledalienfruitMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/bread/shortcrustpastryMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/plate/padthaiMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/plate/phoMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/rice/temaki/temakimaguroMFM.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/rice/maki/makicaliforniaMFM.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/rice/maki/makikappaMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/rice/maki/makimaguroMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/rice/maki/makisakeMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/rice/maki/makitakoMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/rice/maki/makiikaMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/rice/maki/makiunagiMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/rice/nigiri/nigiriikaMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/rice/nigiri/nigirimaguroMFM.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/rice/nigiri/nigirimaguroMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/rice/nigiri/nigirisakeMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/rice/nigiri/nigiritakoMFM.consumable">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/rice/nigiri/nigiriunagiMFM.consumable">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -530,6 +506,16 @@
     <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/liquid/sakeMFM.consumable">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/objects/human/fridge/fridge.object.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/cornsyrupMFM.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/liquid/cornsyrupMFM.item">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -537,24 +523,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/boilingMFMRecipes.config">
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/liquid/sakeMFM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/liquid/tamariMFM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/sauce/salsaMFM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/sauce/saucebarbecueMFM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/boiled/boiledsoybeansMFM.consumable">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/cornsyrupMFM.recipe">
+    <entry file="file://$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/boiledsoybeansMFM.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/blendingMFMRecipes.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/boilingMFMRecipes.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="130" column="90" lean-forward="true" selection-start-line="130" selection-start-column="90" selection-end-line="130" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/powders/groundgarlicMFM.consumable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/sauce/saucesoyMFM.consumable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/partsMFM/sauce/sauceteriyakiMFM.consumable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/objects/floran/florancurtain/florancurtain.object">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/raisinsMFM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/driedautomatoMFM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/driedtomatoMFM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/recipes/choppingMFM/rawstripofalienmeatMFM.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/bakingMFMRecipes.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="1808" column="43" selection-start-line="1808" selection-start-column="43" selection-end-line="1808" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/driedstripofalienmeatMFM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/driedautomatoMFM.consumable">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/driedstripofpoultryMFM.consumable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/driedstripofalienmeatMFM.consumable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/recipes/bakingMFM/dried/jerkyalienmeatMFM.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/recipes/bakingMFM/dried/jerkypoultryMFM.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/sauceteriyakiMFM.recipe">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/jerkypoultryMFM.consumable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/items/generic/meal/dried/jerkyalienmeatMFM.consumable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/saucesoyMFM.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MoreFarming/_MFMversioning.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>

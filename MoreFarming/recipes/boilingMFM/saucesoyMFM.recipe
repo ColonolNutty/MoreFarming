@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "soybeanMFM", "count" : 1 },
+    { "item" : "wheat", "count" : 2 },
+    { "item" : "liquidwater", "count" : 2 }
+  ],
+  "output" : { "item" : "saucesoyMFM", "count" : 4 },
+  "groups" : [ "boilingMFM" ]
+}

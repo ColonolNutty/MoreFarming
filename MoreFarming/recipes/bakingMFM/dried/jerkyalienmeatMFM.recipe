@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rawstripofalienmeatMFM", "count" : 1 },
+    { "item" : "sauceteriyakiMFM", "count" : 1 }
+  ],
+  "output" : { "item" : "jerkyalienmeatMFM", "count" : 1 },
+  "groups" : [ "bakingMFM" ]
+}

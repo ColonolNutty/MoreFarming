@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "honeyMFM", "count" : 2 },
+    { "item" : "saucesoyMFM", "count" : 2 },
+    { "item" : "groundgarlicMFM", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 }
+  ],
+  "output" : { "item" : "sauceteriyakiMFM", "count" : 5 },
+  "groups" : [ "boilingMFM" ]
+}

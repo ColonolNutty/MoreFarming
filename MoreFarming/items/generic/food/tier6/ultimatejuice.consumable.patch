@@ -54,14 +54,12 @@
       "value" : "(BLEND):-} All the fruit, in a juice."
     },
     {
-      "op" : "replace",
-      "path" : "/effects",
-      "value" : [[
-        {
-          "effect" : "weakpoison",
-          "duration" : 5
-        }
-      ]]
+      "op" : "add",
+      "path" : "/effects/0/-",
+      "value" : {
+        "effect" : "weakpoison",
+        "duration" : 5
+      }
     },
     {
       "op" : "replace",

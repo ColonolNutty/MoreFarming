@@ -16,6 +16,7 @@
       <change afterPath="$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/saucesoyMFM.recipe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MoreFarming/recipes/boilingMFM/sauceteriyakiMFM.recipe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreFarming/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/MoreFarming/.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MoreFarming/_MFMversioning.config" beforeDir="false" afterPath="$PROJECT_DIR$/MoreFarming/_MFMversioning.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/bakingMFMRecipes.config" beforeDir="false" afterPath="$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/bakingMFMRecipes.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/boilingMFMRecipes.config" beforeDir="false" afterPath="$PROJECT_DIR$/MoreFarming/recipeCrafterMFM/boilingMFMRecipes.config" afterDir="false" />
@@ -31,7 +32,7 @@
     <session id="-1952661826">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.16" value="1" />

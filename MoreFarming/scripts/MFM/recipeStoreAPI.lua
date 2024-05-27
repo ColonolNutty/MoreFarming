@@ -8,6 +8,7 @@ end
 local rsCNApi = {};
 
 RECIPE_CONFIGURATION_PATH = "/recipeCrafterMFM/";
+RECIPE_FILTER_FRIENDLY_NAMES = "/recipeCrafterMFM/methodFriendlyNamesMFM.json"
 
 local logger = nil;
 
@@ -42,29 +43,75 @@ function rsCNApi.getMethodStore(methodName, recipeStore)
     return recipeStore;
   end
   
-  logger.logDebug("Loading recipes for: " .. methodName)
-  local recipeConfigPath = RECIPE_CONFIGURATION_PATH .. methodName .. "Recipes.config"
-  logger.logDebug("Looking for recipe configuration at path: " .. recipeConfigPath)
-  
-  local methodRecipes = rsCNApi.loadMethodRecipes(root.assetJson(recipeConfigPath));
+  local methodRecipes = rsCNApi.loadMethodRecipes(methodName);
   storage.methodStore[methodName] = methodRecipes
   return methodRecipes;
 end
 
-function rsCNApi.loadMethodRecipes(methodRecipes)
-   local methodFilter = {
+function rsCNApi.loadMethodRecipes(methodName)
+  local filterFriendlyNames = root.assetJson(RECIPE_FILTER_FRIENDLY_NAMES);
+  logger.logDebug("Loading recipes for: " .. methodName);
+  local recipeConfigPath = RECIPE_CONFIGURATION_PATH .. methodName .. "Recipes.config";
+  logger.logDebug("Looking for recipe configuration at path: " .. recipeConfigPath);
+  local recipeConfigData = root.assetJson(recipeConfigPath);
+  local methodFilter = {
     recipesCraftFrom = {},
     recipesCraftTo = {}
   };
-  if(methodRecipes == nil) then
+  if(recipeConfigData == nil) then
     return methodFilter;
   end
-  if(methodRecipes.recipesCraftFrom ~= nil) then
-    methodFilter.recipesCraftFrom = methodRecipes.recipesCraftFrom;
-  end
-  if(methodRecipes.recipesToCraft ~= nil) then
-    for itemName, itemData in pairs(methodRecipes.recipesToCraft) do
-      methodFilter.recipesCraftTo[itemName] = IngredientStoreCNAPI.loadIngredient(itemName, itemData);
+  local possibleCraftItems = recipeConfigData.possibleOutput;
+  local displayMethod = filterFriendlyNames[methodName];
+  for recipeOutputNameIdx, recipeOutputName in pairs(possibleCraftItems) do
+    local recipeDataList = root.recipesForItem(recipeOutputName);
+    if (recipeDataList ~= nil) then
+      local outputItemData = root.itemConfig({ name = recipeOutputName });
+      local newRecipes = {
+        recipes = {},
+        displayName = outputItemData.config.shortdescription,
+        methods = {},
+        displayNameWithMethods = outputItemData.config.shortdescription .. "(" .. displayMethod .. ")",
+        icon = outputItemData.config.inventoryIcon
+      }
+      newRecipes.methods[methodName] = displayMethod;
+      for recipeIdx, recipeData in pairs(recipeDataList) do
+        local recipe = {
+          output = {},
+          displayMethods = " " .. "(" .. displayMethod .. ")",
+          excludeFromRecipeBook = false,
+          input = {},
+          methods = {},
+          groups = {}
+        };
+        recipe.methods[methodName] = displayMethod;
+        table.insert(recipe.groups, methodName);
+        local recipeInputs = recipeData.input;
+        local recipeOutput = recipeData.output;
+        local recipeOutputItemCount = recipeOutput.count;
+        recipe.output.name = recipeOutputName;
+        recipe.output.count = recipeOutputItemCount;
+      
+        local recipeIngredients = {};
+        for ingredientIdx, ingredient in pairs(recipeInputs) do
+          local ingredientName = ingredient.name;
+          local ingredientCount = ingredient.count;
+          local ingredientItemData = root.itemConfig({ name = ingredientName });
+          recipeIngredients[ingredientName] = {
+            displayName = ingredientItemData.config.shortdescription,
+            count = ingredientCount,
+            icon = ingredientItemData.config.inventoryIcon,
+            id = ingredientName
+          };
+          if (methodFilter.recipesCraftFrom[ingredientName] == nil) then
+            methodFilter.recipesCraftFrom[ingredientName] = {};
+          end
+          table.insert(methodFilter.recipesCraftFrom[ingredientName], recipeOutputName); 
+        end
+        recipe.input = recipeIngredients;
+        table.insert(newRecipes.recipes, recipe);
+      end
+      methodFilter.recipesCraftTo[recipeOutputName] = IngredientStoreCNAPI.loadIngredient(recipeOutputName, newRecipes);
     end
   end
   return methodFilter;

@@ -1,161 +1,325 @@
 [
-  [
-    {
-      "op" : "add",
-      "path" : "/regionTypes/chocolatecavesdarkMFM",
-      "value": {
-        "caveLiquid" : [ "liquidchocolatedarkMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
-        "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
-        "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
-        "biome" : [ 
-          [0, [ "chocolatecavesdarkMFM" ] ]
-        ]
-      }
-    },
-    {
-      "op" : "add",
-      "path" : "/regionTypes/chocolatecavesdarkplainMFM",
-      "value": {
-        "caveLiquid" : [ "liquidchocolateplainMFM", "liquidchocolatedarkMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
-        "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
-        "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
-        "biome" : [ 
-          [1, [ "chocolatecavesdarkplainMFM", "chocolatecavesdarkplainMFM2", "chocolatecavesdarkplainMFM3", "chocolatecavesdarkplainMFM4", "chocolatecavesdarkplainMFM5", "chocolatecavesdarkplainMFM6" ] ],
-          [2, [ "chocolatecavesdarkMFM", "chocolatecavesplainMFM" ] ]
-        ]
-      }
-    },
-    {
-      "op" : "add",
-      "path" : "/regionTypes/chocolatecavesdarkplainwhiteMFM",
-      "value": {
-        "caveLiquid" : [ "liquidchocolateplainMFM", "liquidchocolatedarkMFM", "liquidchocolatewhiteMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
-        "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
-        "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
-        "biome" : [
-          [1, [ "chocolatecavesdarkplainwhiteMFM", "chocolatecavesdarkplainwhiteMFM2", "chocolatecavesdarkplainwhiteMFM3", "chocolatecavesdarkplainwhiteMFM4", "chocolatecavesdarkplainwhiteMFM5", "chocolatecavesdarkplainwhiteMFM6", "chocolatecavesdarkplainwhiteMFM7", "chocolatecavesdarkplainwhiteMFM8" ] ],
-          [2, [ "chocolatecavesdarkMFM", "chocolatecavesdarkplainMFM", "chocolatecavesdarkwhiteMFM", "chocolatecavesplainMFM", "chocolatecavesplainwhiteMFM", "chocolatecaveswhiteMFM" ] ],
-          [3, [ "chocolatecavesdarkMFM", "chocolatecavesdarkplainMFM", "chocolatecavesdarkwhiteMFM", "chocolatecavesplainMFM", "chocolatecavesplainwhiteMFM", "chocolatecaveswhiteMFM" ] ]
-        ]
-      }
-    },
-    {
-      "op" : "add",
-      "path" : "/regionTypes/chocolatecavesdarkwhiteMFM",
-      "value": {
-        "caveLiquid" : [ "liquidchocolatedarkMFM", "liquidchocolatewhiteMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
-        "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
-        "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
-        "biome" : [ 
-          [1, [ "chocolatecavesdarkwhiteMFM", "chocolatecavesdarkwhiteMFM2", "chocolatecavesdarkwhiteMFM3", "chocolatecavesdarkwhiteMFM4", "chocolatecavesdarkwhiteMFM5", "chocolatecavesdarkwhiteMFM6" ] ],
-          [2, [ "chocolatecavesdarkMFM", "chocolatecaveswhiteMFM" ] ]
-        ]
-      }
-    },
-    {
-      "op" : "add",
-      "path" : "/regionTypes/chocolatecavesplainMFM",
-      "value": {
-        "caveLiquid" : [ "liquidchocolateplainMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
-        "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
-        "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
-        "biome" : [ 
-          [0, [ "chocolatecavesplainMFM" ] ]
-        ]
-      }
-    },
-    {
-      "op" : "add",
-      "path" : "/regionTypes/chocolatecavesplainwhiteMFM",
-      "value": {
-        "caveLiquid" : [ "liquidchocolateplainMFM", "liquidchocolatewhiteMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
-        "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
-        "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
-        "biome" : [ 
-          [1, [ "chocolatecavesplainwhiteMFM", "chocolatecavesplainwhiteMFM2", "chocolatecavesplainwhiteMFM3", "chocolatecavesplainwhiteMFM4", "chocolatecavesplainwhiteMFM5", "chocolatecavesplainwhiteMFM6" ] ],
-          [2, [ "chocolatecavesplainMFM", "chocolatecaveswhiteMFM" ] ]
-        ]
-      }
-    },
-    {
-      "op" : "add",
-      "path" : "/regionTypes/chocolatecaveswhiteMFM",
-      "value": {
-        "caveLiquid" : [ "liquidchocolatewhiteMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
-        "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
-        "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
-        "biome" : [ 
-          [0, [ "chocolatecaveswhiteMFM" ] ]
-        ]
-      }
-    }
-  ],
-  [
-    {
-      "op" : "add",
-      "path" : "/planetTypes/chocolateworldMFM",
-      "value": {
-        "threatRange" : [4, 4],
-        "layers" : {
-          "surface" : {
-            "primaryRegion" : ["jungle"],
-            "secondaryRegions" : [ "savannah", "forest", "alien", "garden"],
-            "dungeons" : [
-              [1.0, "apextestfacility"], [1.0, "apexbase"], [1.0, "apexcamp"], [1.0, "apexcity"],
-              [4.0, "aviantemple"], [4.0, "aviantomb"], [4.0, "avianvillage"], [4.0, "aviannativevillage"],  [4.0, "avianairship"],
-              [1.0, "floranhuntinggrounds"], [1.0, "florancanyon"], [1.0, "floranvillagetower"], [1.0, "floranhutvillage"],
-              [1.0, "dungeoncrawler"], [1.0, "evilfortress"], [1.0, "glitchcastle"], [1.0, "glitchvillage"],
-              [1.0, "hylotlruinedcastle"], [1.0, "hylotlcity"],
-              [1.0, "humanprison"], [1.0, "humancamp"],
-              [1.0, "glitchsewer"], [1.0, "novakidvillage"]
-            ]
-          },
-          "subsurface" : {
-            "primaryRegion" : ["subsurface"],
-            "secondaryRegions" : [
-                "chocolatecavesdarkMFM" ,
-                "chocolatecavesdarkplainMFM" ,
-                "chocolatecavesdarkplainwhiteMFM" ,
-                "chocolatecavesdarkwhiteMFM",
-                "chocolatecavesplainwhiteMFM",
-                "chocolatecaveswhiteMFM"
-            ]
-          },
-          "underground1" : {
-            "primaryRegion" : ["shallowunderground"],
-            "secondaryRegions" : [
-                "chocolatecavesdarkMFM" ,
-                "chocolatecavesdarkplainMFM" ,
-                "chocolatecavesdarkplainwhiteMFM" ,
-                "chocolatecavesdarkwhiteMFM",
-                "chocolatecavesplainwhiteMFM",
-                "chocolatecaveswhiteMFM"
-            ]
-          },
-          "underground2" : {
-            "primaryRegion" : ["midunderground"],
-            "secondaryRegions" : [
-                "chocolatecavesdarkMFM" ,
-                "chocolatecavesdarkplainMFM" ,
-                "chocolatecavesdarkplainwhiteMFM" ,
-                "chocolatecavesdarkwhiteMFM",
-                "chocolatecavesplainwhiteMFM",
-                "chocolatecaveswhiteMFM"
-            ]
-          },
-          "underground3" : {
-            "primaryRegion" : ["deepunderground"],
-            "secondaryRegions" : [
-                "chocolatecavesdarkMFM" ,
-                "chocolatecavesdarkplainMFM" ,
-                "chocolatecavesdarkplainwhiteMFM" ,
-                "chocolatecavesdarkwhiteMFM",
-                "chocolatecavesplainwhiteMFM",
-                "chocolatecaveswhiteMFM"
-            ]
-          }
+  {
+    "op" : "add",
+    "path" : "/planetTypes/mfm_chocolateplanet",
+    "value": {
+      "threatRange" : [4, 4],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : ["mfm_chocolateplanet"],
+          "secondaryRegions" : [],
+          "dungeons" : [
+            [1.0, "apextestfacility"],
+            [1.0, "apexbase"],
+            [1.0, "apexcamp"],
+            [1.0, "apexcity"],
+            [4.0, "aviantemple"],
+            [4.0, "aviantomb"],
+            [4.0, "avianvillage"],
+            [4.0, "aviannativevillage"],
+            [4.0, "avianairship"],
+            [1.0, "floranhuntinggrounds"],
+            [1.0, "florancanyon"],
+            [1.0, "floranvillagetower"],
+            [1.0, "floranhutvillage"],
+            [1.0, "dungeoncrawler"],
+            [1.0, "evilfortress"],
+            [1.0, "glitchcastle"],
+            [1.0, "glitchvillage"],
+            [1.0, "hylotlruinedcastle"],
+            [1.0, "hylotlcity"],
+            [1.0, "humancamp"],
+            [1.0, "glitchsewer"],
+            [1.0, "novakidvillage"]
+          ]
+        },
+        "subsurface" : {
+          "primaryRegion" : ["mfm_chocolateunderground0a"],
+          "secondaryRegions" : [
+              "mfm_chocolatecavesdark",
+              "mfm_chocolatecavesdarkplain",
+              "mfm_chocolatecavesdarkplainwhite",
+              "mfm_chocolatecavesdarkwhite",
+              "mfm_chocolatecavesplainwhite",
+              "mfm_chocolatecaveswhite"
+          ]
+        },
+        "underground1" : {
+          "primaryRegion" : ["mfm_chocolateunderground3a"],
+          "secondaryRegions" : [
+              "mfm_chocolatecavesdark",
+              "mfm_chocolatecavesdarkplain",
+              "mfm_chocolatecavesdarkplainwhite",
+              "mfm_chocolatecavesdarkwhite",
+              "mfm_chocolatecavesplainwhite",
+              "mfm_chocolatecaveswhite"
+          ]
+        },
+        "underground2" : {
+          "primaryRegion" : ["mfm_chocolateunderground5a"],
+          "secondaryRegions" : [
+              "mfm_chocolatecavesdark",
+              "mfm_chocolatecavesdarkplain",
+              "mfm_chocolatecavesdarkplainwhite",
+              "mfm_chocolatecavesdarkwhite",
+              "mfm_chocolatecavesplainwhite",
+              "mfm_chocolatecaveswhite"
+          ]
+        },
+        "underground3" : {
+          "primaryRegion" : ["mfm_chocolateunderground5b"],
+          "secondaryRegions" : [
+              "mfm_chocolatecavesdark",
+              "mfm_chocolatecavesdarkplain",
+              "mfm_chocolatecavesdarkplainwhite",
+              "mfm_chocolatecavesdarkwhite",
+              "mfm_chocolatecavesplainwhite",
+              "mfm_chocolatecaveswhite"
+          ]
         }
       }
     }
-  ]
+  },
+ 
+// Region Types
+
+//Underground
+	{
+		"op": "add",
+		"path": "/regionTypes/mfm_chocolateplanet",
+		"value": {
+			"caveLiquid": [
+        "liquidchocolateplainMFM",
+        "liquidchocolatedarkMFM", "liquidmilkMFM", "liquidchocolatemilkMFM"],
+			"encloseLiquids": true,
+			"caveLiquidSeedDensityRange": [1, 3],
+			"blockSelector": ["remixedMildSurface"],
+			"fgCaveSelector": ["surfaceCaves"],
+			"bgCaveSelector": ["empty"],
+			"biome": [
+				[0, ["mfm_chocolateplanet"]]
+			],
+			"subRegion": ["jungle"]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/regionTypes/mfm_chocolateunderground0a",
+		"value": {
+			"caveLiquid": ["liquidchocolateplainMFM", "liquidchocolatedarkMFM", "liquidmilkMFM", "liquidchocolatemilkMFM"],
+			"biome": [
+				[1, ["mfm_chocolateunderground0a"]]
+			],
+			"subRegion" : [
+        "mfm_chocolatecavesdark",
+        "mfm_chocolatecavesdarkplain",
+        "mfm_chocolatecavesdarkplainwhite",
+        "mfm_chocolatecavesdarkwhite",
+        "mfm_chocolatecavesplainwhite",
+        "mfm_chocolatecaveswhite"
+      ]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/regionTypes/mfm_chocolateunderground3a",
+		"value": {
+			"caveLiquid": ["liquidchocolateplainMFM", "liquidchocolatedarkMFM", "liquidmilkMFM", "liquidchocolatemilkMFM"],
+			"biome": [
+				[1, ["mfm_chocolateunderground3a"]]
+			],
+			"subRegion" : [
+        "mfm_chocolatecavesdark",
+        "mfm_chocolatecavesdarkplain",
+        "mfm_chocolatecavesdarkplainwhite",
+        "mfm_chocolatecavesdarkwhite",
+        "mfm_chocolatecavesplainwhite",
+        "mfm_chocolatecaveswhite"
+      ]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/regionTypes/mfm_chocolateunderground5a",
+		"value": {
+			"caveLiquid": ["liquidchocolateplainMFM", "liquidchocolatedarkMFM", "liquidmilkMFM", "liquidchocolatemilkMFM"],
+			"biome": [
+				[1, ["mfm_chocolateunderground5a"]]
+			],
+			"subRegion" : [
+        "mfm_chocolatecavesdark",
+        "mfm_chocolatecavesdarkplain",
+        "mfm_chocolatecavesdarkplainwhite",
+        "mfm_chocolatecavesdarkwhite",
+        "mfm_chocolatecavesplainwhite",
+        "mfm_chocolatecaveswhite"
+      ]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/regionTypes/mfm_chocolateunderground5b",
+		"value": {
+      "caveLiquid" : [
+        "liquidchocolateplainMFM",
+        "liquidchocolatedarkMFM",
+        "liquidchocolatewhiteMFM",
+        "liquidchocolatemilkMFM",
+        "liquidmilkMFM"
+      ],
+			"biome": [
+				[1, ["mfm_chocolateunderground5b"]]
+			],
+			"subRegion" : [
+        "mfm_chocolatecavesdark",
+        "mfm_chocolatecavesdarkplain",
+        "mfm_chocolatecavesdarkplainwhite",
+        "mfm_chocolatecavesdarkwhite",
+        "mfm_chocolatecavesplainwhite",
+        "mfm_chocolatecaveswhite"
+      ]
+		}
+	},
+  {
+    "op" : "add",
+    "path" : "/regionTypes/mfm_chocolatecavesdark",
+    "value": {
+      "caveLiquid" : [ "liquidchocolatedarkMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
+      "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
+      "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
+      "biome" : [ 
+        [0, [ "chocolatecavesdarkMFM" ] ]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/mfm_chocolatecavesdarkplain",
+    "value": {
+      "caveLiquid" : [ "liquidchocolateplainMFM", "liquidchocolatedarkMFM", "liquidchocolatewhiteMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
+      "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
+      "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
+      "biome" : [ 
+        [1, [
+          "chocolatecavesdarkplainMFM",
+          "chocolatecavesdarkplainMFM2",
+          "chocolatecavesdarkplainMFM3",
+          "chocolatecavesdarkplainMFM4",
+          "chocolatecavesdarkplainMFM5",
+          "chocolatecavesdarkplainMFM6"
+        ] ],
+        [2, [
+          "chocolatecavesdarkMFM",
+          "chocolatecavesplainMFM"
+        ] ]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/mfm_chocolatecavesdarkplainwhite",
+    "value": {
+      "caveLiquid" : [ "liquidchocolateplainMFM", "liquidchocolatedarkMFM", "liquidchocolatewhiteMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
+      "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
+      "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
+      "biome" : [
+        [1, [
+          "chocolatecavesdarkplainwhiteMFM",
+          "chocolatecavesdarkplainwhiteMFM2",
+          "chocolatecavesdarkplainwhiteMFM3",
+          "chocolatecavesdarkplainwhiteMFM4",
+          "chocolatecavesdarkplainwhiteMFM5",
+          "chocolatecavesdarkplainwhiteMFM6",
+          "chocolatecavesdarkplainwhiteMFM7",
+          "chocolatecavesdarkplainwhiteMFM8"
+        ] ],
+        [2, [
+          "chocolatecavesdarkMFM",
+          "chocolatecavesdarkplainMFM",
+          "chocolatecavesdarkwhiteMFM",
+          "chocolatecavesplainMFM",
+          "chocolatecavesplainwhiteMFM",
+          "chocolatecaveswhiteMFM"
+        ] ],
+        [3, [
+          "chocolatecavesdarkMFM",
+          "chocolatecavesdarkplainMFM",
+          "chocolatecavesdarkwhiteMFM",
+          "chocolatecavesplainMFM",
+          "chocolatecavesplainwhiteMFM",
+          "chocolatecaveswhiteMFM"
+        ] ]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/mfm_chocolatecavesdarkwhite",
+    "value": {
+      "caveLiquid" : [ "liquidchocolatedarkMFM", "liquidchocolatewhiteMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
+      "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
+      "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
+      "biome" : [ 
+        [1, [
+          "chocolatecavesdarkwhiteMFM",
+          "chocolatecavesdarkwhiteMFM2",
+          "chocolatecavesdarkwhiteMFM3",
+          "chocolatecavesdarkwhiteMFM4",
+          "chocolatecavesdarkwhiteMFM5",
+          "chocolatecavesdarkwhiteMFM6"
+        ] ],
+        [2, [
+          "chocolatecavesdarkMFM",
+          "chocolatecaveswhiteMFM"
+        ] ]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/mfm_chocolatecavesplain",
+    "value": {
+      "caveLiquid" : [ "liquidchocolateplainMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
+      "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
+      "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
+      "biome" : [ 
+        [0, [ "chocolatecavesplainMFM" ] ]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/mfm_chocolatecavesplainwhite",
+    "value": {
+      "caveLiquid" : [ "liquidchocolateplainMFM", "liquidchocolatewhiteMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
+      "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
+      "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
+      "biome" : [ 
+        [1, [
+          "chocolatecavesplainwhiteMFM",
+          "chocolatecavesplainwhiteMFM2",
+          "chocolatecavesplainwhiteMFM3",
+          "chocolatecavesplainwhiteMFM4",
+          "chocolatecavesplainwhiteMFM5",
+          "chocolatecavesplainwhiteMFM6"
+        ] ],
+        [2, [
+          "chocolatecavesplainMFM",
+          "chocolatecaveswhiteMFM"
+        ] ]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/mfm_chocolatecaveswhite",
+    "value": {
+      "caveLiquid" : [ "liquidchocolatewhiteMFM", "liquidmilkMFM", "liquidchocolatemilkMFM" ],
+      "caveLiquidSeedDensityRange" : [ 1.0, 2.0 ],
+      "fgCaveSelector" : [ "normalCaves", "denseCaves", "moonCaves", "sparseCaves" ],
+      "biome" : [ 
+        [0, [ "chocolatecaveswhiteMFM" ] ]
+      ]
+    }
+  }
 ]

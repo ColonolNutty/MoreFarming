@@ -2,7 +2,7 @@
   [
     {
       "op" : "add",
-      "path" : "/chocolateworldMFM",
+      "path" : "/mfm_chocolateplanet",
       "value": [
         [0.8, "clear"],
         [0.1, "rain"],

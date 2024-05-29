@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedpricklypearMFM",
   "rarity" : "Common",
-  "price" : 15.75,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed, de-thorned, and chopped prickly pear.",
   "shortdescription" : "Chopped Pricklypear",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "thorns",

@@ -2,7 +2,7 @@
   "objectName" : "butterchurnMFM",
   "colonyTags" : [ "farm", "cooking" ],
   "rarity" : "Common",
-  "price" : 256.1,
+  "price" : 25,
   "category" : "crafting",
   "objectType" : "container",
   "tooltipKind" : "container",

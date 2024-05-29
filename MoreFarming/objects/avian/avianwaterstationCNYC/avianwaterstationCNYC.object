@@ -2,7 +2,7 @@
   "objectName" : "avianwaterstationCNYC",
   "colonyTags" : [ "avian", "avianvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 47.08,
+  "price" : 25,
   "category" : "Avian Cookware",
   "objectType" : "container",
   "printable" : false,

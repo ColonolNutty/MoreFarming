@@ -2,7 +2,7 @@
   "objectName" : "fryingstationMFM",
   "colonyTags" : [ "human", "humanvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 269.58,
+  "price" : 25,
   "category" : "Basic Cookware",
   "objectType" : "container",
   "printable" : false,

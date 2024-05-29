@@ -1,12 +1,12 @@
 {
   "itemName" : "makiikaMFM",
   "rarity" : "Uncommon",
-  "price" : 317.21,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Raw squid and cucumber packed in a ball of rice.",
   "shortdescription" : "Maki - Ika",
-  "foodValue" : 36.49,
+  "foodValue" : 30,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

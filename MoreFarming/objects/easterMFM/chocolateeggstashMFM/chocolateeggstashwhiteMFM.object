@@ -2,7 +2,7 @@
   "objectName" : "chocolateeggstashwhiteMFM",
   "colonyTags" : [ "chocolate", "easter" ],
   "rarity" : "Common",
-  "price" : 1000.0,
+  "price" : 300,
   "category" : "decorative",
   "printable" : false,
   "description" : "A stash of chocolate eggs.",

@@ -1,13 +1,13 @@
 {
   "itemName" : "eggplantMFM",
   "rarity" : "Common",
-  "price" : 120.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Eggplant, the plant of a 100 different flavours.",
   "shortdescription" : "Eggplant",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

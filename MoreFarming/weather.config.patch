@@ -1,0 +1,13 @@
+[
+  [
+    {
+      "op" : "add",
+      "path" : "/chocolateworldMFM",
+      "value": [
+        [0.8, "clear"],
+        [0.1, "rain"],
+        [0.1, "storm"]
+      ]
+    }
+  ]
+]

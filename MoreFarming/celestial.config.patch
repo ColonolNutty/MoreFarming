@@ -1,0 +1,31 @@
+[
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/chocolateworldMFM",
+    "value": {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/jungle_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/chocolateworldMFM",
+    "value": {
+      "baseImages" : "/celestial/system/terrestrial/biomes/jungle/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 30]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetaryTypes/Tier1/baseParameters/terrestrialType/-",
+    "value": "chocolateworldMFM"
+  },
+  {
+    "op" : "add",
+    "path" : "/satelliteTypes/Tier1/baseParameters/terrestrialType/-",
+    "value": "chocolateworldMFM"
+  }
+]

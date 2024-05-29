@@ -2,7 +2,7 @@
   "objectName" : "pumpkinfullMFM",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 120.0,
+  "price" : 25,
   "category" : "farmable",
   "objectType" : "farmable",
   "printable" : false,

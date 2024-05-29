@@ -1,12 +1,12 @@
 {
   "itemName" : "pastabutteredMFM",
   "rarity" : "Common",
-  "price" : 26.82,
+  "price" : 15,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Pasta with butter.",
   "shortdescription" : "Pasta - Buttered",
-  "foodValue" : 22.05,
+  "foodValue" : 25,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

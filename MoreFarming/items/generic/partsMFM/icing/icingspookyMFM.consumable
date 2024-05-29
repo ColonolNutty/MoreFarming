@@ -1,12 +1,12 @@
 {
   "itemName" : "icingspookyMFM",
   "rarity" : "Common",
-  "price" : 209.59,
+  "price" : 15,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Very spooky icing. Spooooky!",
   "shortdescription" : "Icing - Spooky",
-  "foodValue" : 43.58,
+  "foodValue" : 5,
   "effects" : [[
     {
       "effect" : "regeneration2",

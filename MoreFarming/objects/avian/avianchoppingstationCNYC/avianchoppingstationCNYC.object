@@ -2,7 +2,7 @@
   "objectName" : "avianchoppingstationCNYC",
   "colonyTags" : [ "avian", "avianvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 52.08,
+  "price" : 25,
   "category" : "Avian Cookware",
   "objectType" : "container",
   "printable" : false,

@@ -1,12 +1,12 @@
 {
   "itemName" : "chipstortillaMFM",
   "rarity" : "Common",
-  "price" : 4.88,
+  "price" : 15,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Dry and salty, yet satisfying chips.",
   "shortdescription" : "Chips - Tortilla",
-  "foodValue" : 10.08,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "camouflage25",

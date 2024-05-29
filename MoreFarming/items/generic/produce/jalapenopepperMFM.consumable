@@ -1,13 +1,13 @@
 {
   "itemName" : "jalapenopepperMFM",
   "rarity" : "Common",
-  "price" : 50.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Hot.",
   "shortdescription" : "Jalapeno Pepper",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "rage",

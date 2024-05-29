@@ -2,7 +2,7 @@
   "objectName" : "hylotlchoppingstationCNYC",
   "colonyTags" : [ "hylotl", "hylotlvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 165.05,
+  "price" : 25,
   "category" : "Hylotl Cookware",
   "objectType" : "container",
   "printable" : false,

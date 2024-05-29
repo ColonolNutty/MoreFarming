@@ -1,12 +1,12 @@
 {
   "itemName" : "cookedsausageokaraMFM",
   "rarity" : "Common",
-  "price" : 880.15,
+  "price" : 50,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A sausage made with okara.",
   "shortdescription" : "Cooked Sausage - Okara",
-  "foodValue" : 283.65,
+  "foodValue" : 25,
   "effects" : [[
     {
       "effect" : "antidote",

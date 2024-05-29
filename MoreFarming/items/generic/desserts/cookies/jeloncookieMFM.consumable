@@ -1,12 +1,12 @@
 {
   "itemName" : "jeloncookieMFM",
   "rarity" : "Common",
-  "price" : 48.52,
+  "price" : 30,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A cookie made using jelon.",
   "shortdescription" : "Cookie - Jelon",
-  "foodValue" : 32.45,
+  "foodValue" : 5,
   "effects" : [[
     {
       "effect" : "regeneration2",

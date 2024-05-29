@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "campfirecookpot", "count" : 1 }
-  ],
-  "output" : { "item" : "makeshiftboilingstationCNYC", "count" : 1 },
-  "groups" : [ "recyclingMFM" ]
-}

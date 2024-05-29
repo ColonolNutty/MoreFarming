@@ -29,9 +29,9 @@
 			"objectSets" : [
         {
           "pool" : [
-            [1, "wildjelonMFMseed" ],
-						[1, "wildokraMFMseed" ],
-            [1, "wildwatermelonMFMseed" ]
+            [0.1, "wildjelonMFMseed" ],
+						[0.1, "wildokraMFMseed" ],
+            [0.1, "wildwatermelonMFMseed" ]
           ],
           "parameters" : {
             "startingStage" : 2
@@ -53,23 +53,23 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildbambooMFMseed" ],
-						[1, "wildbeetMFMseed" ],
-            [1, "wildcorianderMFMseed" ],
-						[1, "wildcucumberMFMseed" ],
-						[1, "wildgarlicMFMseed"],
-						[1, "wildjalapenopepperMFMseed"],
-						[1, "wildonionMFMseed"],
-						[1, "wildparsleyMFMseed"],
-						[1, "wildradishMFMseed"],
-						[1, "wildraspberryMFMseed"],
-						[1, "wildreedMFMseed"],
-						[1, "wildrosemaryMFMseed"],
-						[1, "wildsageMFMseed"],
-						[1, "wildscallionMFMseed" ],
-            [1, "wildsesameMFMseed" ],
-						[1, "wildthymeMFMseed"],
-						[1, "wildturnipMFMseed"]
+						[0.1, "wildbambooMFMseed" ],
+						[0.1, "wildbeetMFMseed" ],
+            [0.1, "wildcorianderMFMseed" ],
+						[0.1, "wildcucumberMFMseed" ],
+						[0.1, "wildgarlicMFMseed"],
+						[0.1, "wildjalapenopepperMFMseed"],
+						[0.1, "wildonionMFMseed"],
+						[0.1, "wildparsleyMFMseed"],
+						[0.1, "wildradishMFMseed"],
+						[0.1, "wildraspberryMFMseed"],
+						[0.1, "wildreedMFMseed"],
+						[0.1, "wildrosemaryMFMseed"],
+						[0.1, "wildsageMFMseed"],
+						[0.1, "wildscallionMFMseed" ],
+            [0.1, "wildsesameMFMseed" ],
+						[0.1, "wildthymeMFMseed"],
+						[0.1, "wildturnipMFMseed"]
 					],
 					"parameters" : {
 						"startingStage" : 3
@@ -91,7 +91,7 @@
 			"objectSets" : [
 				{
 					"pool" : [
-            [1, "wildbellpepperMFMseed" ]
+            [0.1, "wildbellpepperMFMseed" ]
           ],
 					"parameters" : {
 						"startingStage" : 4

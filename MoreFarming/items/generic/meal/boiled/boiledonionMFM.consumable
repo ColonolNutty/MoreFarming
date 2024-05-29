@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledonionMFM",
   "rarity" : "Common",
-  "price" : 38.59,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} An onion boiled in water.",
   "shortdescription" : "Boiled Onion",
-  "foodValue" : 11.03,
+  "foodValue" : 20,
   "effects" : [[
     {
       "effect" : "poisonblock",

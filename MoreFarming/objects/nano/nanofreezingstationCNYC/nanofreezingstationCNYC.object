@@ -2,7 +2,7 @@
   "objectName" : "nanofreezingstationCNYC",
   "colonyTags" : [ "cooking", "electronic" ],
   "rarity" : "Common",
-  "price" : 528.08,
+  "price" : 25,
   "category" : "Refridgerated Cookware",
   "objectType" : "container",
   "tooltipKind" : "container",

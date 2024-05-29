@@ -1,13 +1,13 @@
 {
   "itemName" : "sweetpotatoMFM",
   "rarity" : "Common",
-  "price" : 85.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Yam?",
   "shortdescription" : "Sweet Potato",
-  "foodValue" : 10.0,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

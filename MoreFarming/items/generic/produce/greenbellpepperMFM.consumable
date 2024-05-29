@@ -1,13 +1,13 @@
 {
   "itemName" : "greenbellpepperMFM",
   "rarity" : "Common",
-  "price" : 45.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Red peppers have twice the vitamin C content of green peppers!",
   "shortdescription" : "Green Bell Pepper",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "poisonblock",

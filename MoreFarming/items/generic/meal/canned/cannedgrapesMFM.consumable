@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(CAN):-} Grapes, in a can.",
   "shortdescription" : "Canned - Grapes",
-  "foodValue" : 10.5,
+  "foodValue" : 3.75,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

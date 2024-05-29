@@ -1,7 +1,7 @@
 {
   "itemName" : "blockjelonMFM",
   "rarity" : "Common",
-  "price" : 31.5,
+  "price" : 1,
   "category" : "block",
   "description" : "Jelon compressed in a block shape.",
   "shortdescription" : "Block Jelon",

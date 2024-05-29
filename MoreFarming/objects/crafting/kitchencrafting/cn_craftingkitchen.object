@@ -2,7 +2,7 @@
   "objectName" : "cn_craftingkitchen",
   "colonyTags" : [ "crafting" ],
   "rarity" : "Uncommon",
-  "price" : 18.15,
+  "price" : 18,
   "category" : "crafting",
   "printable" : false,
   "description" : "Create kitchen appliances on this",

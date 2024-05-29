@@ -2,7 +2,7 @@
   "objectName" : "eastereggbundleMFM",
   "colonyTags" : [ "chocolate", "easter", "pretty" ],
   "rarity" : "Uncommon",
-  "price" : 1.0,
+  "price" : 25,
   "category" : "decorative",
   "printable" : false,
   "description" : "A bundle of decorative Easter Eggs!",

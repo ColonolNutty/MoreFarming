@@ -1,13 +1,13 @@
 {
   "itemName" : "palsterstickMFM",
   "rarity" : "Common",
-  "price" : 80.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Palsterstick! A very healthy taste.",
   "shortdescription" : "Palsterstick",
-  "foodValue" : 10.0,
+  "foodValue" : 1,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

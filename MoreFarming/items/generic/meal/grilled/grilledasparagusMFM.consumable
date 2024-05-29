@@ -1,12 +1,12 @@
 {
   "itemName" : "grilledasparagusMFM",
   "rarity" : "Common",
-  "price" : 63.0,
+  "price" : 15,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Grilled asparagus.",
   "shortdescription" : "Grilled Asparagus",
-  "foodValue" : 10.5,
+  "foodValue" : 5,
   "effects" : [[
     {
       "effect" : "swimboost",

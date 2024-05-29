@@ -1,12 +1,12 @@
 {
   "itemName" : "gingercookieMFM",
   "rarity" : "Common",
-  "price" : 11.97,
+  "price" : 12,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Hey, Santa can't hog all these for himself!",
   "shortdescription" : "Cookie - Gingerbread",
-  "foodValue" : 10.0,
+  "foodValue" : 5,
   "effects" : [[
     {
       "effect" : "regeneration2",

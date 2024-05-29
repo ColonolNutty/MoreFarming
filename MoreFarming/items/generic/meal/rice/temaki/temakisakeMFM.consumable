@@ -1,12 +1,12 @@
 {
   "itemName" : "temakisakeMFM",
   "rarity" : "Uncommon",
-  "price" : 445.51,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Smoked salmon and cucumber, wrapped in sake and kelp.",
   "shortdescription" : "Temaki - Sake",
-  "foodValue" : 81.43,
+  "foodValue" : 30,
   "effects" : [[
     {
       "effect" : "camouflage25",

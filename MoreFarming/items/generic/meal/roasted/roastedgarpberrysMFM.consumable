@@ -1,12 +1,12 @@
 {
   "itemName" : "roastedgarpberrysMFM",
   "rarity" : "Common",
-  "price" : 164.0,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Crunchy roasted garpberries. Mmm.",
   "shortdescription" : "Roasted Garpberries",
-  "foodValue" : 20.5,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "nova",

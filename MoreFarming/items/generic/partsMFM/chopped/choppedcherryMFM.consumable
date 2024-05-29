@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedcherryMFM",
   "rarity" : "Common",
-  "price" : 4.2,
+  "price" : 4,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped cherry.",
   "shortdescription" : "Chopped Cherry",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "camouflage25",

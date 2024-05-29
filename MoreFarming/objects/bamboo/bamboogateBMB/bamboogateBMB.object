@@ -2,7 +2,7 @@
   "objectName" : "bamboogateBMB",
   "colonyTags" : [ "floran", "floranvillage", "door", "nature" ],
   "rarity" : "Common",
-  "price" : 402.0,
+  "price" : 25,
   "category" : "door",
   "printable" : false,
   "description" : "A sturdy bamboo gate. Somewhat secure.",

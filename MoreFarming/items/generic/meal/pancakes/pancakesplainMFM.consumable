@@ -1,12 +1,12 @@
 {
   "itemName" : "pancakesplainMFM",
   "rarity" : "Common",
-  "price" : 36.85,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FRY):-} Light, fluffy and oh so good.",
   "shortdescription" : "Pancakes - Plain",
-  "foodValue" : 23.21,
+  "foodValue" : 35,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

@@ -1,12 +1,12 @@
 {
   "itemName" : "marshmallowMFM",
   "rarity" : "Common",
-  "price" : 7.61,
+  "price" : 7,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Fluffy little sugar blobs.",
   "shortdescription" : "Marshmallow",
-  "foodValue" : 10.0,
+  "foodValue" : 2,
   "effects" : [[
     {
       "effect" : "regeneration2",

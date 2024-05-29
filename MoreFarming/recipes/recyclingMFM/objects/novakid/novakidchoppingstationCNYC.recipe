@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "novakidchoppingstation", "count" : 1 }
-  ],
-  "output" : { "item" : "novakidchoppingstationCNYC", "count" : 1 },
-  "groups" : [ "recyclingMFM" ]
-}

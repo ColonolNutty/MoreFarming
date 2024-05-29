@@ -1,13 +1,13 @@
 {
   "itemName" : "cauliflowerMFM",
   "rarity" : "Common",
-  "price" : 50.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Spooky broccoli!",
   "shortdescription" : "Cauliflower",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

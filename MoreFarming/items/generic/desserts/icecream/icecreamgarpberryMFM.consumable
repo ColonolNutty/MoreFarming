@@ -1,12 +1,12 @@
 {
   "itemName" : "icecreamgarpberryMFM",
   "rarity" : "Common",
-  "price" : 126.99,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} A scoop of ice cream with a garpberry flavor.",
   "shortdescription" : "Ice Cream - Garpberry",
-  "foodValue" : 30.04,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "regeneration2",

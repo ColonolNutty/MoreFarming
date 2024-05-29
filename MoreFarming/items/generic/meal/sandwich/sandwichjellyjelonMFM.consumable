@@ -1,12 +1,12 @@
 {
   "itemName" : "sandwichjellyjelonMFM",
   "rarity" : "Uncommon",
-  "price" : 485.51,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with jelon jelly.",
   "shortdescription" : "Sandwich Jelly - Jelon",
-  "foodValue" : 84.55,
+  "foodValue" : 35,
   "effects" : [[
     {
       "effect" : "swimboost",

@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedceleryMFM",
   "rarity" : "Common",
-  "price" : 22.75,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped celery.",
   "shortdescription" : "Chopped Celery",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

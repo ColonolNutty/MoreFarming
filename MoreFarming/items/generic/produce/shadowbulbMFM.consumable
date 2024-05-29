@@ -1,13 +1,13 @@
 {
   "itemName" : "shadowbulbMFM",
   "rarity" : "Rare",
-  "price" : 50.0,
+  "price" : 15,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Shadowbulb, tastes like darkness. Somehow.",
   "shortdescription" : "Shadowbulb",
-  "foodValue" : 10.0,
+  "foodValue" : 1,
   "effects" : [[
     {
       "effect" : "ghostlyglow",

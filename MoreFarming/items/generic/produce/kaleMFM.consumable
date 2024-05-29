@@ -1,13 +1,13 @@
 {
   "itemName" : "kaleMFM",
   "rarity" : "Common",
-  "price" : 65.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Kale, it is considered to be healthy.",
   "shortdescription" : "Kale",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

@@ -1,12 +1,12 @@
 {
   "itemName" : "icecreameggshootMFM",
   "rarity" : "Common",
-  "price" : 173.29,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} A scoop of ice cream with an eggshoot flavor.",
   "shortdescription" : "Ice Cream - Egg Shoot",
-  "foodValue" : 30.04,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "regeneration2",

@@ -1,13 +1,13 @@
 {
   "itemName" : "cherryMFM",
   "rarity" : "Common",
-  "price" : 20.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Cherry. The fruit of a beautiful pink cherry blossom tree.",
   "shortdescription" : "Cherry",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

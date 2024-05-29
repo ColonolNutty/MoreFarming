@@ -2,7 +2,7 @@
   "objectName" : "bamboobookcaseBMB",
   "colonyTags" : [ "floran", "floranvillage", "knowledge", "storage", "nature" ],
   "rarity" : "Common",
-  "price" : 602.0,
+  "price" : 25,
   "category" : "storage",
   "objectType" : "container",
   "tooltipKind" : "container",

@@ -1,12 +1,12 @@
 {
   "itemName" : "lemonjuiceMFM",
   "rarity" : "Common",
-  "price" : 66.15,
+  "price" : 25,
   "category" : "drink",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Sour lemon juice.",
   "shortdescription" : "Juice - Lemon",
-  "foodValue" : 11.03,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "runboostfood",

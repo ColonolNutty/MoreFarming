@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(CAN):-} Raw fish, in a can.",
   "shortdescription" : "Canned - Raw Fish",
-  "foodValue" : 10.5,
+  "foodValue" : 3.75,
   "effects" : [[
     {
       "effect" : "foodpoison",

@@ -1,12 +1,12 @@
 {
   "itemName" : "makisakeMFM",
   "rarity" : "Uncommon",
-  "price" : 351.24,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Smoked salmon and cucumber packed in sake.",
   "shortdescription" : "Maki - Sake",
-  "foodValue" : 47.93,
+  "foodValue" : 30,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

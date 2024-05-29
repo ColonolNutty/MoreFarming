@@ -1,12 +1,12 @@
 {
   "itemName" : "dungrootMFM",
   "rarity" : "Common",
-  "price" : 4.0,
+  "price" : 5,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "...Seriously?",
   "shortdescription" : "Dungroot",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "weakpoison",

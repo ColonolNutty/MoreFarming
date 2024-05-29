@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "hylotlbakingstation", "count" : 1 }
-  ],
-  "output" : { "item" : "hylotlbakingstationCNYC", "count" : 1 },
-  "groups" : [ "recyclingMFM" ]
-}

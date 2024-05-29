@@ -7,7 +7,7 @@
   "tooltipKind" : "food",
   "description" : "Raw shrimp, it is so tiny.",
   "shortdescription" : "Raw Shrimp",
-  "foodValue" : 10.0,
+  "foodValue" : 2,
   "effects" : [[
     {
       "effect" : "foodpoison",

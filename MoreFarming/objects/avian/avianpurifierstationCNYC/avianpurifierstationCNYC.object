@@ -2,7 +2,7 @@
   "objectName" : "avianpurifierstationCNYC",
   "colonyTags" : [ "avian", "avianvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 124.25,
+  "price" : 25,
   "category" : "Avian Cookware",
   "objectType" : "container",
   "printable" : false,

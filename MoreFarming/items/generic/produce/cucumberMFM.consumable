@@ -1,13 +1,13 @@
 {
   "itemName" : "cucumberMFM",
   "rarity" : "Common",
-  "price" : 40.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "A green, bulb shaped fruit containing a triangular pattern of seeds within.",
   "shortdescription" : "Cucumber",
-  "foodValue" : 10.0,
+  "foodValue" : 2,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

@@ -2,7 +2,7 @@
   "objectName" : "hylotlfryingstationCNYC",
   "colonyTags" : [ "hylotl", "hylotlvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 286.05,
+  "price" : 25,
   "category" : "Hylotl Cookware",
   "objectType" : "container",
   "printable" : false,

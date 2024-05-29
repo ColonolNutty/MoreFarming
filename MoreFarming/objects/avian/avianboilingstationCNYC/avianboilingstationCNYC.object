@@ -2,7 +2,7 @@
   "objectName" : "avianboilingstationCNYC",
   "colonyTags" : [ "avian", "avianvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 167.08,
+  "price" : 25,
   "category" : "Avian Cookware",
   "objectType" : "container",
   "printable" : false,

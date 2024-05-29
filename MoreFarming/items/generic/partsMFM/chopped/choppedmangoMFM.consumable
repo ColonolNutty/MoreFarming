@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedmangoMFM",
   "rarity" : "Common",
-  "price" : 73.5,
+  "price" : 25,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed, peeled, and chopped mango.",
   "shortdescription" : "Chopped Mango",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

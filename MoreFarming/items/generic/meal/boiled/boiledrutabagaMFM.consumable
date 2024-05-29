@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledrutabagaMFM",
   "rarity" : "Common",
-  "price" : 33.08,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A rutabaga boiled in water.",
   "shortdescription" : "Boiled Rutabaga",
-  "foodValue" : 11.03,
+  "foodValue" : 20,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

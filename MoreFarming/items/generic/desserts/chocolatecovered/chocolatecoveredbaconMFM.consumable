@@ -1,12 +1,12 @@
 {
   "itemName" : "chocolatecoveredbaconMFM",
   "rarity" : "Common",
-  "price" : 140.99,
+  "price" : 50,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Oh my...",
   "shortdescription" : "Chocolate Covered Bacon",
-  "foodValue" : 102.78,
+  "foodValue" : 10,
   "effects" : [[
     {
       "effect" : "regeneration2",

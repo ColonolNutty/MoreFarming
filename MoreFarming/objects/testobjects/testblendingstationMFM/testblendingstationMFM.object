@@ -2,7 +2,7 @@
   "objectName" : "testblendingstationMFM",
   "colonyTags" : [ "test", "cooking" ],
   "rarity" : "Common",
-  "price" : 412.05,
+  "price" : 25,
   "category" : "Test Cookware",
   "objectType" : "container",
   "printable" : false,

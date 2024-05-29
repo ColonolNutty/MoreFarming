@@ -1,12 +1,12 @@
 {
   "itemName" : "proteinbarraspberrychocolateMFM",
   "rarity" : "Common",
-  "price" : 62.8,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} A protein bar made of raspberries and chocolate.",
   "shortdescription" : "Protein Bar - Rasp-Chocolate",
-  "foodValue" : 30.81,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "energyregen",

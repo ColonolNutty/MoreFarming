@@ -1,12 +1,12 @@
 {
   "itemName" : "honeyglazeMFM",
   "rarity" : "Common",
-  "price" : 6.74,
+  "price" : 5,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A mixture of honey and butter melted together",
   "shortdescription" : "Honey Glaze",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

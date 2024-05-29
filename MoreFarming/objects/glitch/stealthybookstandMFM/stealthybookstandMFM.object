@@ -2,7 +2,7 @@
   "objectName" : "stealthybookstandMFM",
   "colonyTags" : [ "glitch", "glitchcastle", "knowledge", "storage" ],
   "rarity" : "Common",
-  "price" : 104.1,
+  "price" : 25,
   "category" : "storage",
   "objectType" : "container",
   "tooltipKind" : "container",

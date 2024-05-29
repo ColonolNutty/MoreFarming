@@ -1,12 +1,12 @@
 {
   "itemName" : "cakespookyMFM",
   "rarity" : "Uncommon",
-  "price" : 691.09,
+  "price" : 700,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A spooky looking cake.",
   "shortdescription" : "Cake - Spooky",
-  "foodValue" : 270.31,
+  "foodValue" : 70,
   "effects" : [[
     {
       "effect" : "regeneration2",

@@ -1,12 +1,12 @@
 {
   "itemName" : "stuffedbellpepperorangeMFM",
   "rarity" : "Common",
-  "price" : 423.75,
+  "price" : 50,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A orange bell pepper stuffed with rice, covered in tomato sauce.",
   "shortdescription" : "Stuffed Bell Pepper Orange",
-  "foodValue" : 43.15,
+  "foodValue" : 35,
   "effects" : [[
     {
       "effect" : "fireblock",

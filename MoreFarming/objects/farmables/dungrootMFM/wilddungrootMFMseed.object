@@ -2,7 +2,7 @@
   "objectName" : "wilddungrootMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 1.0,
+  "price" : 1,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",

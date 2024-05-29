@@ -2,7 +2,7 @@
   "objectName" : "hylotlfreezingstationCNYC",
   "colonyTags" : [ "hylotl", "hylotlvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 246.08,
+  "price" : 25,
   "category" : "Refridgerated Cookware",
   "objectType" : "container",
   "tooltipKind" : "container",

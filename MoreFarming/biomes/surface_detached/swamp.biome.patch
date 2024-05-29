@@ -28,11 +28,11 @@
 			"objectSets" : [
 			  {
           "pool" : [
-            [1, "wildflytrapMFMseed"],
-            [1, "wildjelonMFMseed" ],
-            [1, "wilddungrootMFMseed" ],
-            [1, "wildfinkelMFMseed" ],
-            [1, "wildwatermelonMFMseed" ]
+            [0.1, "wildflytrapMFMseed"],
+            [0.1, "wildjelonMFMseed" ],
+            [0.1, "wilddungrootMFMseed" ],
+            [0.1, "wildfinkelMFMseed" ],
+            [0.1, "wildwatermelonMFMseed" ]
           ],
           "parameters" : {
             "startingStage" : 2
@@ -54,17 +54,17 @@
 			"objectSets" : [
 			  {
           "pool" : [
-            [1, "wildblackberryMFMseed"],
-            [1, "wildblueberryMFMseed" ],
-						[1, "wildceleryMFMseed"],
-						[1, "wildkaleMFMseed" ],
-						[1, "wildlettuceMFMseed" ],
-            [1, "wildparsnipMFMseed" ],
-						[1, "wildradishMFMseed"],
-            [1, "wildraspberryMFMseed"],
-            [1, "wildreedMFMseed" ],
-						[1, "wildsunflowerMFMseed"],
-						[1, "wildthymeMFMseed"]
+            [0.1, "wildblackberryMFMseed"],
+            [0.1, "wildblueberryMFMseed" ],
+						[0.1, "wildceleryMFMseed"],
+						[0.1, "wildkaleMFMseed" ],
+						[0.1, "wildlettuceMFMseed" ],
+            [0.1, "wildparsnipMFMseed" ],
+						[0.1, "wildradishMFMseed"],
+            [0.1, "wildraspberryMFMseed"],
+            [0.1, "wildreedMFMseed" ],
+						[0.1, "wildsunflowerMFMseed"],
+						[0.1, "wildthymeMFMseed"]
           ],
           "parameters" : {
             "startingStage" : 3

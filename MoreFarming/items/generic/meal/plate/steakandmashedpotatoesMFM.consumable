@@ -1,12 +1,12 @@
 {
   "itemName" : "steakandmashedpotatoesMFM",
   "rarity" : "Uncommon",
-  "price" : 210.63,
+  "price" : 150,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A plate of steak and mashed potatoes",
   "shortdescription" : "Steak and Potatoes",
-  "foodValue" : 82.89,
+  "foodValue" : 100,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

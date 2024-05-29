@@ -2,7 +2,7 @@
   "objectName" : "chocolateeggbasketMFM",
   "colonyTags" : [ "easter", "chocolate", "pretty", "storage" ],
   "rarity" : "Uncommon",
-  "price" : 1.0,
+  "price" : 5,
   "category" : "storage",
   "objectType" : "container",
   "printable" : false,

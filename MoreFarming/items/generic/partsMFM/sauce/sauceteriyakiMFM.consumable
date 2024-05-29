@@ -1,12 +1,12 @@
 {
   "itemName" : "sauceteriyakiMFM",
   "rarity" : "Common",
-  "price" : 80.05,
+  "price" : 10,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A sauce made from honey, soy sauce, and garlic.",
   "shortdescription" : "Sauce - Teriyaki",
-  "foodValue" : 21.54,
+  "foodValue" : 5,
   "effects" : [[
     {
       "effect" : "antidote",

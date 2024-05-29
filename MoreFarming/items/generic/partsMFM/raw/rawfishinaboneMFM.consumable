@@ -1,12 +1,12 @@
 {
   "itemName" : "rawfishinaboneMFM",
   "rarity" : "Common",
-  "price" : 179.03,
+  "price" : 15,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Boneboo filled with strips of raw fish. Ready for baking.",
   "shortdescription" : "Raw Fish in a Bone",
-  "foodValue" : 21.0,
+  "foodValue" : 5,
   "effects" : [[
     {
       "effect" : "foodpoison",

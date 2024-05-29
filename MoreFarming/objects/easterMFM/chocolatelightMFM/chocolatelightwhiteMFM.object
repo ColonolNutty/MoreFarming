@@ -2,7 +2,7 @@
   "objectName" : "chocolatelightwhiteMFM",
   "colonyTags" : [ "chocolate", "light" ],
   "rarity" : "Uncommon",
-  "price" : 1.0,
+  "price" : 25,
   "category" : "light",
   "printable" : false,
   "description" : "White chocolate base with glowing dark chocolate flowing from it.",

@@ -1,12 +1,12 @@
 {
   "itemName" : "temakimaguroMFM",
   "rarity" : "Uncommon",
-  "price" : 405.08,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Raw tuna and cucumber, wrapped in a ball of rice and kelp.",
   "shortdescription" : "Temaki - Marguro",
-  "foodValue" : 69.59,
+  "foodValue" : 30,
   "effects" : [[
     {
       "effect" : "camouflage25",

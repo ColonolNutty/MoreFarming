@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedgarlicMFM",
   "rarity" : "Common",
-  "price" : 31.5,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed, peeled, and chopped garlic.",
   "shortdescription" : "Chopped Garlic",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "antidote",

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "cucumberMSMseed", "count" : 1 }
-  ],
-  "output" : { "item" : "cucumberMFMseed", "count" : 1 },
-  "groups" : [ "recyclingMFM" ]
-}

@@ -2,7 +2,7 @@
   "objectName" : "floranchoppingstationCNYC",
   "colonyTags" : [ "floran", "floranvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 10.1,
+  "price" : 25,
   "category" : "Floran Cookware",
   "objectType" : "container",
   "printable" : false,

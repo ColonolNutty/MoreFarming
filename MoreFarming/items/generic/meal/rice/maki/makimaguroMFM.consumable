@@ -1,12 +1,12 @@
 {
   "itemName" : "makimaguroMFM",
   "rarity" : "Uncommon",
-  "price" : 327.71,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Raw tuna and cucumber packed in a ball of rice.",
   "shortdescription" : "Maki - Marguro",
-  "foodValue" : 36.49,
+  "foodValue" : 30,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

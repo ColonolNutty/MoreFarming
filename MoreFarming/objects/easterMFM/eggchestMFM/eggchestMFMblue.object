@@ -2,7 +2,7 @@
   "objectName" : "eggchestMFMblue",
   "colonyTags" : [ "easter", "storage" ],
   "rarity" : "Uncommon",
-  "price" : 1.0,
+  "price" : 25,
   "category" : "storage",
   "objectType" : "container",
   "tooltipKind" : "container",

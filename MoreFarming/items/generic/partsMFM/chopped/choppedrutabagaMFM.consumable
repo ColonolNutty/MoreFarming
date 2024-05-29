@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedrutabagaMFM",
   "rarity" : "Common",
-  "price" : 31.5,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped rutabaga.",
   "shortdescription" : "Chopped Rutabaga",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

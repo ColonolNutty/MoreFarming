@@ -1,13 +1,13 @@
 {
   "itemName" : "pricklypearMFM",
   "rarity" : "Common",
-  "price" : 15.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Prickly pears, these things are hard to eat!",
   "shortdescription" : "Prickly Pear",
-  "foodValue" : 10.0,
+  "foodValue" : 1,
   "effects" : [[
     {
       "effect" : "thorns",

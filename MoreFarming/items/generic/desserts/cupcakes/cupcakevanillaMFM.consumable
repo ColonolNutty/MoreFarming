@@ -1,12 +1,12 @@
 {
   "itemName" : "cupcakevanillaMFM",
   "rarity" : "Common",
-  "price" : 80.57,
+  "price" : 50,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A cupcake with vanilla icing.",
   "shortdescription" : "Cupcake - Vanilla",
-  "foodValue" : 65.49,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "regeneration2",

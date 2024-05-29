@@ -1,12 +1,12 @@
 {
   "itemName" : "groundgingerMFM",
   "rarity" : "Common",
-  "price" : 4.2,
+  "price" : 5,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(MILL):-} A pile of milled ginger.",
   "shortdescription" : "Ground Ginger",
-  "foodValue" : 10.0,
+  "foodValue" : 1,
   "effects" : [[
     {
       "effect" : "poisonblock",

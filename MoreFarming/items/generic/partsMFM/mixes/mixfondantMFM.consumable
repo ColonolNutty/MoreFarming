@@ -1,12 +1,12 @@
 {
   "itemName" : "mixfondantMFM",
   "rarity" : "Common",
-  "price" : 71.46,
+  "price" : 25,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A mixture for making fondant, but it isn't quite ready yet.",
   "shortdescription" : "Mix - Fondant",
-  "foodValue" : 34.88,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "regeneration2",

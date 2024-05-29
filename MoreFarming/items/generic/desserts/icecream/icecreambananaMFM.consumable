@@ -1,12 +1,12 @@
 {
   "itemName" : "icecreambananaMFM",
   "rarity" : "Common",
-  "price" : 173.29,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} A scoop of ice cream with a banana flavor.",
   "shortdescription" : "Ice Cream - Banana",
-  "foodValue" : 30.04,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "regeneration2",

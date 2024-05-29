@@ -12,7 +12,7 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildflytrapMFMseed"]
+						[0.1, "wildflytrapMFMseed"]
 					],
 					"parameters" : {
 						"startingStage" : 2
@@ -34,7 +34,7 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildceleryMFMseed"]
+						[0.1, "wildceleryMFMseed"]
 					],
 					"parameters" : {
 						"startingStage" : 3

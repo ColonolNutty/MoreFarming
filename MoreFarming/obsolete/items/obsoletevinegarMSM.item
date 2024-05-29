@@ -1,9 +1,0 @@
-{
-  "itemName" : "vinegarMSM",
-  "rarity" : "Common",
-  "price" : 42.37,
-  "category" : "cookingIngredient",
-  "description" : "^gray;Good ol' vinegar.^reset;",
-  "shortdescription" : "^gray;Vinegar^reset;",
-  "inventoryIcon" : "obsoletevinegarMSM.png"
-}

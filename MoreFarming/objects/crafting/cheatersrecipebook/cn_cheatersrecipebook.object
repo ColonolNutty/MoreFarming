@@ -2,7 +2,7 @@
   "objectName" : "cn_cheatersrecipebook",
   "colonyTags" : [ "cooking" ],
   "rarity" : "Legendary",
-  "price" : 1.0,
+  "price" : 0.0,
   "category" : "crafting",
   "printable" : false,
   "description" : "Some say chefs perform magic in the kitchen, in this case they'd be right.",

@@ -1,12 +1,12 @@
 {
   "itemName" : "icecreamconevanillaMFM",
   "rarity" : "Common",
-  "price" : 68.72,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A scoop of vanilla ice cream on a waffle cone.",
   "shortdescription" : "Ice Cream Cone - Vanilla",
-  "foodValue" : 39.23,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "regeneration2",

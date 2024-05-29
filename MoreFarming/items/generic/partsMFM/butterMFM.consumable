@@ -1,12 +1,12 @@
 {
   "itemName" : "butterMFM",
   "rarity" : "Common",
-  "price" : 16.72,
+  "price" : 10,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHURN):-} For making everything less healthy and more awesome.",
   "shortdescription" : "Butter",
-  "foodValue" : 10.5,
+  "foodValue" : 2,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

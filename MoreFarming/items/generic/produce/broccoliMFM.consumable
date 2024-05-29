@@ -1,13 +1,13 @@
 {
   "itemName" : "broccoliMFM",
   "rarity" : "Common",
-  "price" : 60.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Broccoli is classified in the Italica cultivar group of the species Brassica oleracea.",
   "shortdescription" : "Broccoli",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

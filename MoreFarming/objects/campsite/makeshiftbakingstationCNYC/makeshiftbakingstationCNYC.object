@@ -2,7 +2,7 @@
   "objectName" : "makeshiftbakingstationCNYC",
   "colonyTags" : [ "cooking" ],
   "rarity" : "Common",
-  "price" : 25.15,
+  "price" : 25,
   "category" : "Makeshift Cookware",
   "objectType" : "container",
   "printable" : false,

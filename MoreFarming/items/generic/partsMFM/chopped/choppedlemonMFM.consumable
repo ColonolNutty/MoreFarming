@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedlemonMFM",
   "rarity" : "Common",
-  "price" : 63.0,
+  "price" : 25,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed, peeled, and chopped lemon.",
   "shortdescription" : "Chopped Lemon",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "runboostfood",

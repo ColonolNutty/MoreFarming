@@ -2,7 +2,7 @@
   "objectName" : "soybeanMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 4.52,
+  "price" : 4,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",

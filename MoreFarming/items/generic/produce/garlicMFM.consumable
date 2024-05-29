@@ -1,13 +1,13 @@
 {
   "itemName" : "garlicMFM",
   "rarity" : "Common",
-  "price" : 30.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Vampire Kryptonite.",
   "shortdescription" : "Garlic",
-  "foodValue" : 10.0,
+  "foodValue" : 2,
   "effects" : [[
     {
       "effect" : "poisonblock",

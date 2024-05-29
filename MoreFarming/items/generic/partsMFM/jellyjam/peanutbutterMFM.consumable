@@ -1,12 +1,12 @@
 {
   "itemName" : "peanutbutterMFM",
   "rarity" : "Uncommon",
-  "price" : 151.5,
+  "price" : 15,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A brownish, buttery, and creamy spread, made from peanuts.",
   "shortdescription" : "Peanut Butter",
-  "foodValue" : 50.5,
+  "foodValue" : 10,
   "effects" : [[
     {
       "effect" : "camouflage25",

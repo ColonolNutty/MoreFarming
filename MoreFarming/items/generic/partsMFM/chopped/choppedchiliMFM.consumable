@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedchiliMFM",
   "rarity" : "Common",
-  "price" : 220.5,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped chili pepper.",
   "shortdescription" : "Chopped Chili Pepper",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "burning",

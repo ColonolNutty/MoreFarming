@@ -2,7 +2,7 @@
   "objectName" : "boilingstationCNYC",
   "colonyTags" : [ "human", "humanvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 249.08,
+  "price" : 25,
   "category" : "Basic Cookware",
   "objectType" : "container",
   "printable" : false,

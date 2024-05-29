@@ -1,12 +1,12 @@
 {
   "itemName" : "pieshellMFM",
   "rarity" : "Common",
-  "price" : 77.71,
+  "price" : 10,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A shell for making pie.",
   "shortdescription" : "Dough - Pie Shell",
-  "foodValue" : 74.55,
+  "foodValue" : 5,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

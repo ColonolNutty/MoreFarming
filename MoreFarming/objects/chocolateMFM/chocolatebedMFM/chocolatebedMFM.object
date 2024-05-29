@@ -2,7 +2,7 @@
   "objectName" : "chocolatebedMFM",
   "colonyTags" : [ "chocolate", "bed" ],
   "rarity" : "Common",
-  "price" : 30.3,
+  "price" : 25,
   "category" : "furniture",
   "objectType" : "loungeable",
   "printable" : false,

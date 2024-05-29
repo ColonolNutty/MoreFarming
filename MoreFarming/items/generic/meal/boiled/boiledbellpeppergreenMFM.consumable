@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledbellpeppergreenMFM",
   "rarity" : "Common",
-  "price" : 49.61,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A green bell pepper boiled in water.",
   "shortdescription" : "Boiled Bell Pepper - Green",
-  "foodValue" : 11.03,
+  "foodValue" : 20,
   "effects" : [[
     {
       "effect" : "poisonblock",

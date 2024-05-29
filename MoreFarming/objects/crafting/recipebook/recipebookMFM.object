@@ -2,7 +2,7 @@
   "objectName" : "recipebookMFM",
   "colonyTags" : [ "cooking" ],
   "rarity" : "Legendary",
-  "price" : 7.1,
+  "price" : 8,
   "category" : "Recipe Book",
   "printable" : false,
   "description" : "Contains a plethora of recipes.",

@@ -1,13 +1,13 @@
 {
   "itemName" : "grapefruitMFM",
   "rarity" : "Common",
-  "price" : 40.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Tastes nothing like a grape!",
   "shortdescription" : "Grapefruit",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

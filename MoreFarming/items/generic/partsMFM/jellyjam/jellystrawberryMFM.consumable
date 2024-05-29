@@ -1,12 +1,12 @@
 {
   "itemName" : "jellystrawberryMFM",
   "rarity" : "Uncommon",
-  "price" : 252.5,
+  "price" : 15,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A pinkish red jelly made from Strawberries. It has a sweet taste.",
   "shortdescription" : "Jelly - Strawberry",
-  "foodValue" : 50.5,
+  "foodValue" : 10,
   "effects" : [[
     {
       "effect" : "energyregen",

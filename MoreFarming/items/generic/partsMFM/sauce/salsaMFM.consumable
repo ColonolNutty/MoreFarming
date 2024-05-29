@@ -1,12 +1,12 @@
 {
   "itemName" : "salsaMFM",
   "rarity" : "Common",
-  "price" : 80.05,
+  "price" : 10,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Salsa, good for dipping chips.",
   "shortdescription" : "Salsa",
-  "foodValue" : 21.54,
+  "foodValue" : 5,
   "effects" : [[
     {
       "effect" : "antidote",

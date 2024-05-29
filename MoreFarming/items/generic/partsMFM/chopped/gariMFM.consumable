@@ -1,12 +1,12 @@
 {
   "itemName" : "gariMFM",
   "rarity" : "Common",
-  "price" : 65.16,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Ginger marinated in a solution of sugar and vinegar.",
   "shortdescription" : "Gari",
-  "foodValue" : 41.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "poisonblock",

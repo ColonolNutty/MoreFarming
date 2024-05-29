@@ -1,12 +1,12 @@
 {
   "itemName" : "icecreamcactiMFM",
   "rarity" : "Common",
-  "price" : 51.74,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} A scoop of ice cream with a cactus flavor.",
   "shortdescription" : "Ice Cream - Cacti",
-  "foodValue" : 29.48,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "regeneration2",

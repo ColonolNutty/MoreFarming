@@ -2,7 +2,7 @@
   "objectName" : "hylotlpurifierstationCNYC",
   "colonyTags" : [ "hylotl", "hylotlvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 204.05,
+  "price" : 25,
   "category" : "Hylotl Cookware",
   "objectType" : "container",
   "printable" : false,

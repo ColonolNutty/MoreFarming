@@ -1,12 +1,12 @@
 {
   "itemName" : "groundgarlicMFM",
   "rarity" : "Common",
-  "price" : 31.5,
+  "price" : 5,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(MILL):-} A pile of ground garlic a.k.a. garlic powder.",
   "shortdescription" : "Ground Garlic",
-  "foodValue" : 10.5,
+  "foodValue" : 1,
   "effects" : [[
     {
       "effect" : "antidote",

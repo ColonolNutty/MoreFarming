@@ -28,7 +28,7 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildpalsterstickMFMseed"]
+						[0.1, "wildpalsterstickMFMseed"]
 					],
 					"parameters" : {
 						"startingStage" : 2
@@ -50,9 +50,9 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildblackberryMFMseed"],
-						[1, "wildraspberryMFMseed"],
-            [1, "wildsesameMFMseed" ]
+						[0.1, "wildblackberryMFMseed"],
+						[0.1, "wildraspberryMFMseed"],
+            [0.1, "wildsesameMFMseed" ]
 					],
 					"parameters" : {
 						"startingStage" : 3
@@ -74,7 +74,7 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildbellpepperMFMseed"]
+						[0.1, "wildbellpepperMFMseed"]
 					],
 					"parameters" : {
 						"startingStage" : 6

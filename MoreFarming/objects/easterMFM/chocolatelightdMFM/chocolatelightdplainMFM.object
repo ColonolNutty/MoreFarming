@@ -2,7 +2,7 @@
   "objectName" : "chocolatelightdplainMFM",
   "colonyTags" : [ "chocolate", "light" ],
   "rarity" : "Uncommon",
-  "price" : 1.0,
+  "price" : 5,
   "category" : "light",
   "printable" : false,
   "description" : "Glowing chocolate, makes a nice looking light. I can direct it whereever I want",

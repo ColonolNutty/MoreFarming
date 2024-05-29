@@ -12,13 +12,13 @@
 			"objectSets" : [
 			  {
           "pool" : [
-						[1, "wildceleryMFMseed"],
-						[1, "wildkaleMFMseed" ],
-						[1, "wildlettuceMFMseed" ],
-            [1, "wildparsnipMFMseed" ],
-						[1, "wildreedMFMseed" ],
-            [1, "wildsugarbeetMFMseed" ],
-            [1, "wildturnipMFMseed" ]
+						[0.1, "wildceleryMFMseed"],
+						[0.1, "wildkaleMFMseed" ],
+						[0.1, "wildlettuceMFMseed" ],
+            [0.1, "wildparsnipMFMseed" ],
+						[0.1, "wildreedMFMseed" ],
+            [0.1, "wildsugarbeetMFMseed" ],
+            [0.1, "wildturnipMFMseed" ]
           ],
           "parameters" : {
             "startingStage" : 3

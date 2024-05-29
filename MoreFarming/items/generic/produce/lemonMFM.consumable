@@ -1,13 +1,13 @@
 {
   "itemName" : "lemonMFM",
   "rarity" : "Common",
-  "price" : 60.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Sour!",
   "shortdescription" : "Lemon",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

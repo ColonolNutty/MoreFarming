@@ -1,13 +1,13 @@
 {
   "itemName" : "okraMFM",
   "rarity" : "Common",
-  "price" : 45.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Edible green seed pods commonly found in warm temperatures.",
   "shortdescription" : "Okra",
-  "foodValue" : 10.0,
+  "foodValue" : 1,
   "effects" : [[
     {
       "effect" : "energyregen",

@@ -1,13 +1,13 @@
 {
   "itemName" : "lettuceMFM",
   "rarity" : "Common",
-  "price" : 65.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Lettuce never speak of this again.",
   "shortdescription" : "Lettuce",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

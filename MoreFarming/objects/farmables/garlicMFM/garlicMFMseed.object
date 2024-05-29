@@ -2,7 +2,7 @@
   "objectName" : "garlicMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 3.02,
+  "price" : 4,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",

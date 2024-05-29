@@ -2,7 +2,7 @@
   "objectName" : "bamboochairBMB",
   "colonyTags" : [ "floran", "floranvillage", "nature" ],
   "rarity" : "Common",
-  "price" : 402.0,
+  "price" : 25,
   "category" : "furniture",
   "objectType" : "loungeable",
   "printable" : false,

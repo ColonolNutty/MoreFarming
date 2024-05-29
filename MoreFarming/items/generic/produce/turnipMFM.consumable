@@ -1,13 +1,13 @@
 {
   "itemName" : "turnipMFM",
   "rarity" : "Common",
-  "price" : 30.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Turnip!",
   "shortdescription" : "Turnip",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

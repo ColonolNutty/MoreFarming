@@ -2,7 +2,7 @@
   "objectName" : "makeshiftboilingstationCNYC",
   "colonyTags" : [ "cooking", "nature", "light" ],
   "rarity" : "Uncommon",
-  "price" : 50.5,
+  "price" : 25,
   "category" : "Makeshift Cookware",
   "objectType" : "container",
   "printable" : false,

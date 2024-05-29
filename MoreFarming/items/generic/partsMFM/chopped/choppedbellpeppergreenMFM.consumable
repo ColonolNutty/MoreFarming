@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedbellpeppergreenMFM",
   "rarity" : "Common",
-  "price" : 47.25,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped green bell pepper.",
   "shortdescription" : "Chopped Bell Pepper Green",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "poisonblock",

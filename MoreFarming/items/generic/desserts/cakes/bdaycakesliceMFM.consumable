@@ -1,12 +1,12 @@
 {
   "itemName" : "bdaycakesliceMFM",
   "rarity" : "Uncommon",
-  "price" : 144.22,
+  "price" : 150,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "Tasty cake! Happy birthday!",
   "shortdescription" : "Birthday Cake Slice",
-  "foodValue" : 12.53,
+  "foodValue" : 13,
   "effects" : [[
     {
       "effect" : "regeneration1",

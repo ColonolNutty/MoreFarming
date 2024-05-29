@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "butterMFM", "count" : 1 },
-    { "item" : "freshpastaMFM", "count" : 1 },
-    { "item" : "liquidwater", "count" : 2 }
-  ],
-  "output" : { "item" : "pastabutteredMFM", "count" : 1 },
-  "groups" : [ "boilingMFM", "ExcludeFromRecipeBook" ]
-}

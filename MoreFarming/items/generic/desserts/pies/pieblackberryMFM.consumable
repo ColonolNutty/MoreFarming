@@ -1,12 +1,12 @@
 {
   "itemName" : "pieblackberryMFM",
   "rarity" : "Common",
-  "price" : 353.79,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Blackberry Pie, it has a semi-bitter taste and is very juicy.",
   "shortdescription" : "Pie - Blackberry",
-  "foodValue" : 182.57,
+  "foodValue" : 50,
   "effects" : [[
     {
       "effect" : "fireblock",

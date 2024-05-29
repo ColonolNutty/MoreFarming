@@ -1,13 +1,13 @@
 {
   "itemName" : "finkelMFM",
   "rarity" : "Common",
-  "price" : 80.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Finkel! Tastes like mushrooms.",
   "shortdescription" : "Finkel",
-  "foodValue" : 10.0,
+  "foodValue" : 2,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

@@ -1,13 +1,13 @@
 {
   "itemName" : "rawoctopusMFM",
   "rarity" : "Common",
-  "price" : 10.0,
+  "price" : 15,
   "category" : "food",
   "eventCategory" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "The raw filet of an octopus.",
   "shortdescription" : "Raw Octopus",
-  "foodValue" : 10.0,
+  "foodValue" : 2,
   "effects" : [[
     {
       "effect" : "foodpoison",

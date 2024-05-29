@@ -2,7 +2,7 @@
   "objectName" : "eggplantMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 12.06,
+  "price" : 4,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",

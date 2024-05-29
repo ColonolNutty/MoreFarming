@@ -2,7 +2,7 @@
   "objectName" : "apexfreezingstationCNYC",
   "colonyTags" : [ "apex", "apexvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 617.05,
+  "price" : 100,
   "category" : "Refridgerated Apex Cookware",
   "objectType" : "container",
   "tooltipKind" : "container",

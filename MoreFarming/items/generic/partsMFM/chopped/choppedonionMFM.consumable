@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedonionMFM",
   "rarity" : "Common",
-  "price" : 36.75,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed, peeled, and chopped onion. I think I'm going to cry.",
   "shortdescription" : "Chopped Onion",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "poisonblock",

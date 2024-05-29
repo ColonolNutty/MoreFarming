@@ -2,7 +2,7 @@
   "objectName" : "distilleryMFM",
   "colonyTags" : [ "cooking" ],
   "rarity" : "Common",
-  "price" : 267.25,
+  "price" : 25,
   "category" : "crafting",
   "objectType" : "container",
   "printable" : false,

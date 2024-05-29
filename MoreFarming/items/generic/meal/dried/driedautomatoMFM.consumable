@@ -6,11 +6,11 @@
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Goes great with spices. You should take out the screws first.",
   "shortdescription" : "Dried Automato",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
-  "rottingMultiplier" : 1.0,
+  "rottingMultiplier" : 0.5,
   "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "driedautomatoMFM.png"
 }

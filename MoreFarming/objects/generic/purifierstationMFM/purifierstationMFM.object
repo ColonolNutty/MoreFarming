@@ -2,7 +2,7 @@
   "objectName" : "purifierstationMFM",
   "colonyTags" : [ "human", "humanvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 167.08,
+  "price" : 25,
   "category" : "Cookware",
   "objectType" : "container",
   "printable" : false,

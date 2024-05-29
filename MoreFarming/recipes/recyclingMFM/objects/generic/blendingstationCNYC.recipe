@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "blendstation", "count" : 1 }
-  ],
-  "output" : { "item" : "blendingstationCNYC", "count" : 1 },
-  "groups" : [ "recyclingMFM" ]
-}

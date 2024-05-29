@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledsoybeansMFM",
   "rarity" : "Common",
-  "price" : 68.78,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Soybeans boiled in salt and water.",
   "shortdescription" : "Boiled Soybeans",
-  "foodValue" : 31.0,
+  "foodValue" : 20,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

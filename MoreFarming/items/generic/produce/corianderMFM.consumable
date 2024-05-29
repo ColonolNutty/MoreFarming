@@ -1,13 +1,13 @@
 {
   "itemName" : "corianderMFM",
   "rarity" : "Common",
-  "price" : 70.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Coriander, also known as Cilantro, commonly found in dry climates.",
   "shortdescription" : "Coriander",
-  "foodValue" : 10.0,
+  "foodValue" : 2,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

@@ -2,7 +2,7 @@
   "objectName" : "handmillMFM",
   "colonyTags" : [ "farm", "cooking" ],
   "rarity" : "Common",
-  "price" : 170.1,
+  "price" : 25,
   "category" : "crafting",
   "objectType" : "container",
   "tooltipKind" : "container",

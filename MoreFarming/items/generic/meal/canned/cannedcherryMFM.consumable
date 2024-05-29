@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(CAN):-} A cherry, in a can.",
   "shortdescription" : "Canned - Cherry",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "camouflage25",

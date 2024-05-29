@@ -2,7 +2,7 @@
   "objectName" : "makeshiftgrindingstationCNYC",
   "colonyTags" : [ "cooking", "nature" ],
   "rarity" : "Common",
-  "price" : 40.1,
+  "price" : 25,
   "category" : "Makeshift Cookware",
   "objectType" : "container",
   "printable" : false,

@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedwartweedMFM",
   "rarity" : "Common",
-  "price" : 147.0,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed, pruned, and chopped wartweed.",
   "shortdescription" : "Chopped Wartweed",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "weakpoison",

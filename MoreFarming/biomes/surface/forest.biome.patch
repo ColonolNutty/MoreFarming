@@ -1,110 +1,110 @@
 [
-	{
-		"op": "add",
-		"path": "/surfacePlaceables/items/-",
-		"value": {
-      "mode" : "floor",
-      "priority" : 1.0,
-      "variants" : 1,
-      "distribution" : "/biomes/distributions.config:uncommonRandomMFM",
-      "type" : "tree",
-      "treeFoliageHueShiftMax" : 0,
-      "treeStemHueShiftMax" : 0,
-      "treeStemList" : [ "applewoodMFM", "greenapplewoodMFM", "nutmegwoodMFM" ],
-      "treeFoliageList" : [ "appleMFM", "greenappleMFM", "nutmegMFM" ]
+    {
+        "op": "add",
+        "path": "/surfacePlaceables/items/-",
+        "value": {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:uncommonRandomMFM",
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 0,
+          "treeStemHueShiftMax" : 0,
+          "treeStemList" : [ "applewoodMFM", "greenapplewoodMFM", "nutmegwoodMFM" ],
+          "treeFoliageList" : [ "appleMFM", "greenappleMFM", "nutmegMFM" ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/surfacePlaceables/items/-",
+        "value": {
+            "mode" : "floor",
+            "priority" : 1.0,
+            "variants" : 1,
+            "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+            "type" : "object",
+            "objectSets" : [
+                {
+                    "pool" : [
+                        [0.1, "wilddungrootMFMseed" ],
+                        [0.1, "wildjelonMFMseed" ],
+                        [0.1, "wildoatsMFMseed" ],
+                        [0.1, "wildportobelloMFMseed" ],
+                        [0.1, "wildpumpkinMFMseed"],
+                        [0.1, "wildsoybeanMFMseed" ]
+                  ],
+                    "parameters" : {
+                        "startingStage" : 2
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/surfacePlaceables/items/-",
+        "value": {
+            "mode" : "floor",
+            "priority" : 1.0,
+            "variants" : 1,
+            "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+            "type" : "object",
+            "objectSets" : [
+                {
+                    "pool" : [
+                        [0.1, "wildasparagusMFMseed" ],
+                        [0.1, "wildbambooMFMseed" ],
+                        [0.1, "wildblackberryMFMseed" ],
+                        [0.1, "wildblueberryMFMseed" ],
+                        [0.1, "wildbroccoliMFMseed"],
+                        [0.1, "wildbrusselsproutMFMseed"],
+                        [0.1, "wildcauliflowerMFMseed"],
+                        [0.1, "wildgreenbeanMFMseed"],
+                        [0.1, "wildkaleMFMseed" ],
+                        [0.1, "wildlettuceMFMseed" ],
+                        [0.1, "wildparsleyMFMseed"],
+                        [0.1, "wildparsnipMFMseed" ],
+                        [0.1, "wildpeaMFMseed"],
+                        [0.1, "wildradishMFMseed"],
+                        [0.1, "wildraspberryMFMseed"],
+                        [0.1, "wildrosemaryMFMseed"],
+                        [0.1, "wildrutabagaMFMseed"],
+                        [0.1, "wildsageMFMseed"],
+                        [0.1, "wildstrawberryMFMseed"],
+                        [0.1, "wildsugarbeetMFMseed"],
+                        [0.1, "wildsunflowerMFMseed"],
+                        [0.1, "wildthymeMFMseed"],
+                        [0.1, "wildturnipMFMseed"]
+                    ],
+                    "parameters" : {
+                        "startingStage" : 3
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/surfacePlaceables/items/-",
+        "value": {
+            "mode" : "floor",
+            "priority" : 1.0,
+            "variants" : 1,
+            "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+            "type" : "object",
+            "objectSets" : [
+                {
+                    "pool" : [
+                        [0.1, "wildcottonseed" ]
+                  ],
+                    "parameters" : {
+                        "startingStage" : 4
+                    }
+                }
+            ]
+        }
     }
-	},
-	{
-		"op": "add",
-		"path": "/surfacePlaceables/items/-",
-		"value": {
-			"mode" : "floor",
-			"priority" : 1.0,
-			"variants" : 1,
-			"distribution" : "/biomes/distributions.config:surfaceCrops",
-
-			"type" : "object",
-			"objectSets" : [
-				{
-					"pool" : [
-						[1, "wilddungrootMFMseed" ],
-						[1, "wildjelonMFMseed" ],
-						[1, "wildoatsMFMseed" ],
-						[1, "wildportobelloMFMseed" ],
-						[1, "wildpumpkinMFMseed"],
-						[1, "wildsoybeanMFMseed" ]
-				  ],
-					"parameters" : {
-						"startingStage" : 2
-					}
-				}
-			]
-		}
-	},
-	{
-		"op": "add",
-		"path": "/surfacePlaceables/items/-",
-		"value": {
-			"mode" : "floor",
-			"priority" : 1.0,
-			"variants" : 1,
-			"distribution" : "/biomes/distributions.config:surfaceCrops",
-
-			"type" : "object",
-			"objectSets" : [
-				{
-					"pool" : [
-						[1, "wildasparagusMFMseed" ],
-						[1, "wildbambooMFMseed" ],
-						[1, "wildblackberryMFMseed" ],
-						[1, "wildblueberryMFMseed" ],
-						[1, "wildbroccoliMFMseed"],
-						[1, "wildbrusselsproutMFMseed"],
-						[1, "wildcauliflowerMFMseed"],
-						[1, "wildgreenbeanMFMseed"],
-						[1, "wildkaleMFMseed" ],
-						[1, "wildlettuceMFMseed" ],
-						[1, "wildparsleyMFMseed"],
-						[1, "wildparsnipMFMseed" ],
-						[1, "wildpeaMFMseed"],
-						[1, "wildradishMFMseed"],
-						[1, "wildraspberryMFMseed"],
-						[1, "wildrosemaryMFMseed"],
-						[1, "wildrutabagaMFMseed"],
-						[1, "wildsageMFMseed"],
-						[1, "wildstrawberryMFMseed"],
-						[1, "wildsugarbeetMFMseed"],
-						[1, "wildsunflowerMFMseed"],
-						[1, "wildthymeMFMseed"],
-						[1, "wildturnipMFMseed"]
-					],
-					"parameters" : {
-						"startingStage" : 3
-					}
-				}
-			]
-		}
-	},
-	{
-		"op": "add",
-		"path": "/surfacePlaceables/items/-",
-		"value": {
-			"mode" : "floor",
-			"priority" : 1.0,
-			"variants" : 1,
-			"distribution" : "/biomes/distributions.config:surfaceCrops",
-
-			"type" : "object",
-			"objectSets" : [
-				{
-					"pool" : [
-						[1, "wildcottonseed" ]
-				  ],
-					"parameters" : {
-						"startingStage" : 4
-					}
-				}
-			]
-		}
-	}
 ]

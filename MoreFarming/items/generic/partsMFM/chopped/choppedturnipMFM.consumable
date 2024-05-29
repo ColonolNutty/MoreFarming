@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedturnipMFM",
   "rarity" : "Common",
-  "price" : 31.5,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped turnip.",
   "shortdescription" : "Chopped Turnip",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedgrapefruitMFM",
   "rarity" : "Common",
-  "price" : 42.0,
+  "price" : 25,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed, peeled, and chopped grapefruit.",
   "shortdescription" : "Chopped Grapefruit",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

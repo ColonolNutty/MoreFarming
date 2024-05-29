@@ -2,7 +2,7 @@
   "objectName" : "freezingstationCNYC",
   "colonyTags" : [ "human", "humanvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 251.13,
+  "price" : 25,
   "category" : "Refridgerated Basic Cookware",
   "objectType" : "container",
   "tooltipKind" : "container",

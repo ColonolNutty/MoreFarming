@@ -2,7 +2,7 @@
   "objectName" : "portobelloMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 1.0,
+  "price" : 4,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",

@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedlettuceMFM",
   "rarity" : "Common",
-  "price" : 68.25,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped lettuce.",
   "shortdescription" : "Chopped Lettuce",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

@@ -1,12 +1,12 @@
 {
   "itemName" : "crepestrawberryMFM",
   "rarity" : "Common",
-  "price" : 139.68,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A crepe made with juicy strawberries.",
   "shortdescription" : "Crepe - Strawberry",
-  "foodValue" : 75.27,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

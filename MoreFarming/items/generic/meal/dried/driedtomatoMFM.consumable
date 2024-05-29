@@ -6,11 +6,11 @@
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Goes great with spices.",
   "shortdescription" : "Dried Tomato",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],
-  "rottingMultiplier" : 1.0,
+  "rottingMultiplier" : 0.5,
   "blockingEffects" : [ "wellfed" ],
   "inventoryIcon" : "driedtomatoMFM.png"
 }

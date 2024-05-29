@@ -2,7 +2,7 @@
   "objectName" : "floranbakingstationCNYC",
   "colonyTags" : [ "floran", "floranvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 30.15,
+  "price" : 25,
   "category" : "Floran Cookware",
   "objectType" : "container",
   "printable" : false,

@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped sage leaf.",
   "shortdescription" : "Chopped Sage Leaf",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[ ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

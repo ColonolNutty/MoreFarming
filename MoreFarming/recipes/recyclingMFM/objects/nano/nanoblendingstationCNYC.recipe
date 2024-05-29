@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "nanoblend", "count" : 1 }
-  ],
-  "output" : { "item" : "nanoblendingstationCNYC", "count" : 1 },
-  "groups" : [ "recyclingMFM" ]
-}

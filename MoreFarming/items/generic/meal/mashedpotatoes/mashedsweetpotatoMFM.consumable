@@ -1,12 +1,12 @@
 {
   "itemName" : "mashedsweetpotatoMFM",
   "rarity" : "Common",
-  "price" : 197.45,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Smashing sweet potatoes is scientifically proven to make them 500% tastier.",
   "shortdescription" : "Mashed Sweet Potato",
-  "foodValue" : 67.91,
+  "foodValue" : 50,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

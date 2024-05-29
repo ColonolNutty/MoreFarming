@@ -1,12 +1,12 @@
 {
   "itemName" : "sandwichbacongarpberryMFM",
   "rarity" : "Common",
-  "price" : 112.75,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Bacon and garpberries sandwiched between bread.",
   "shortdescription" : "Sandwich - Bacon and Garpberry",
-  "foodValue" : 42.55,
+  "foodValue" : 35,
   "effects" : [[
     {
       "effect" : "nova",

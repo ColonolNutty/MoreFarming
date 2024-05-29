@@ -1,12 +1,12 @@
 {
   "itemName" : "hashbrownssweetpotatoMFM",
   "rarity" : "Common",
-  "price" : 111.27,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FRY):-} Shredded sweet potatoes fried in butter.",
   "shortdescription" : "Hash Browns",
-  "foodValue" : 22.05,
+  "foodValue" : 30,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

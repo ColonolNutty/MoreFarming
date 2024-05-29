@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedshadowbulbMFM",
   "rarity" : "Common",
-  "price" : 52.5,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped shadow bulb.",
   "shortdescription" : "Chopped Shadow Bulb",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "ghostlyglow",

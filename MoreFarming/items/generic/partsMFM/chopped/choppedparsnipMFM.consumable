@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedparsnipMFM",
   "rarity" : "Common",
-  "price" : 42.0,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped parsnip.",
   "shortdescription" : "Chopped Parsnip",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "glow",

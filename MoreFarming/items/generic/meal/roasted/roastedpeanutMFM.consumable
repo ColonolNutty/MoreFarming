@@ -1,12 +1,12 @@
 {
   "itemName" : "roastedpeanutMFM",
   "rarity" : "Common",
-  "price" : 31.5,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Roasted and shelled peanuts.",
   "shortdescription" : "Roasted Peanuts",
-  "foodValue" : 10.5,
+  "foodValue" : 5,
   "effects" : [[
     {
       "effect" : "camouflage25",

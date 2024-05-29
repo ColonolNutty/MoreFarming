@@ -1,12 +1,12 @@
 {
   "itemName" : "cookiedoughMFM",
   "rarity" : "Common",
-  "price" : 55.51,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} The basis for all manner of cookie creations.",
   "shortdescription" : "Dough - Cookie",
-  "foodValue" : 42.28,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "regeneration2",

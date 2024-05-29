@@ -1,12 +1,12 @@
 {
   "itemName" : "choppeddragonfruitMFM",
   "rarity" : "Common",
-  "price" : 31.5,
+  "price" : 25,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped dragonfruit.",
   "shortdescription" : "Chopped Dragonfruit",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "nova",

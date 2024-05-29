@@ -1,13 +1,13 @@
 {
   "itemName" : "beansproutMFM",
   "rarity" : "Common",
-  "price" : 3.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Bean sprout come from harvesting some bean plants early.",
   "shortdescription" : "Bean Sprout",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledsweetpotatoMFM",
   "rarity" : "Common",
-  "price" : 93.71,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A sweet potato boiled in water.",
   "shortdescription" : "Boiled Sweet Potato",
-  "foodValue" : 11.03,
+  "foodValue" : 20,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

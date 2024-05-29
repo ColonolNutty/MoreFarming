@@ -1,13 +1,13 @@
 {
   "itemName" : "artichokeMFM",
   "rarity" : "Common",
-  "price" : 80.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "A variety of a species of thistle cultivated as a food.",
   "shortdescription" : "Artichoke",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "regeneration1",

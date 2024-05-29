@@ -2,7 +2,7 @@
   "objectName" : "novakidchoppingstationCNYC",
   "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 53.1,
+  "price" : 25,
   "category" : "Novakid Cookware",
   "objectType" : "container",
   "printable" : false,

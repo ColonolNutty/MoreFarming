@@ -2,7 +2,7 @@
   "objectName" : "freezerMFM",
   "colonyTags" : [ "cooking" ],
   "rarity" : "Common",
-  "price" : 290.08,
+  "price" : 25,
   "category" : "Refridgerated Cookware",
   "objectType" : "container",
   "tooltipKind" : "container",

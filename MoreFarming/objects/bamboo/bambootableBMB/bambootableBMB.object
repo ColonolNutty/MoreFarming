@@ -2,7 +2,7 @@
   "objectName" : "bambootableBMB",
   "colonyTags" : [ "floran", "floranvillage", "commerce", "nature" ],
   "rarity" : "Common",
-  "price" : 602.0,
+  "price" : 25,
   "category" : "furniture",
   "printable" : false,
   "description" : "A sturdy bamboo table.",

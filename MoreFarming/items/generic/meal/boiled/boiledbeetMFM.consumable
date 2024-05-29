@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledbeetMFM",
   "rarity" : "Common",
-  "price" : 44.1,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A beet boiled in water.",
   "shortdescription" : "Boiled Beet",
-  "foodValue" : 11.03,
+  "foodValue" : 20,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

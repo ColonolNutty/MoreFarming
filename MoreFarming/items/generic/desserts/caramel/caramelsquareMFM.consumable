@@ -1,12 +1,12 @@
 {
   "itemName" : "caramelsquareMFM",
   "rarity" : "Common",
-  "price" : 271.65,
+  "price" : 300,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Yum!",
   "shortdescription" : "Caramel Square",
-  "foodValue" : 204.83,
+  "foodValue" : 20,
   "effects" : [[
     {
       "effect" : "regeneration2",

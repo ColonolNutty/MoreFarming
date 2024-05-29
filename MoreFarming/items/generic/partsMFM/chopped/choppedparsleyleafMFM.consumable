@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped parsley leaf.",
   "shortdescription" : "Chopped Parsley Leaf",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[ ]],
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,

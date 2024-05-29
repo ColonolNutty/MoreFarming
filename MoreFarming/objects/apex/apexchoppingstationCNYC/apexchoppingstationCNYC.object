@@ -2,7 +2,7 @@
   "objectName" : "apexchoppingstationCNYC",
   "colonyTags" : [ "apex", "apexvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 520.63,
+  "price" : 100,
   "category" : "Apex Cookware",
   "objectType" : "container",
   "printable" : false,

@@ -1,12 +1,12 @@
 {
   "itemName" : "pressedwartweedMFM",
   "rarity" : "Common",
-  "price" : 147.0,
+  "price" : 25,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(PRESS):-} A wartweed pressed into a thick pulp.",
   "shortdescription" : "Pressed Wartweed",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "weakpoison",

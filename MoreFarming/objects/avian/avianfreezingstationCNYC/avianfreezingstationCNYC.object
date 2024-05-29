@@ -2,7 +2,7 @@
   "objectName" : "avianfreezingstationCNYC",
   "colonyTags" : [ "avian", "avianvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 52.08,
+  "price" : 25,
   "category" : "Refridgerated Avian Cookware",
   "objectType" : "container",
   "tooltipKind" : "container",

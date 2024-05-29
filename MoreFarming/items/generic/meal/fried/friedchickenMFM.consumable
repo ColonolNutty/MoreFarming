@@ -1,12 +1,12 @@
 {
   "itemName" : "friedchickenMFM",
   "rarity" : "Common",
-  "price" : 19.3,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FRY):-} SFC, Space Fried Chicken; Chicken deep-fried in oil",
   "shortdescription" : "Fried Chicken",
-  "foodValue" : 21.0,
+  "foodValue" : 25,
   "effects" : [[
     {
       "effect" : "camouflage25",

@@ -1,12 +1,12 @@
 {
   "itemName" : "temakitakoMFM",
   "rarity" : "Uncommon",
-  "price" : 375.35,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Cooked octopus and cucumber, wrapped in a ball of rice and kelp.",
   "shortdescription" : "Temaki - Tako",
-  "foodValue" : 70.61,
+  "foodValue" : 30,
   "effects" : [[
     {
       "effect" : "camouflage25",

@@ -1,12 +1,12 @@
 {
   "itemName" : "makitakoMFM",
   "rarity" : "Uncommon",
-  "price" : 312.48,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Cooked octopus and cucumber packed in a ball of rice.",
   "shortdescription" : "Maki - Tako",
-  "foodValue" : 37.01,
+  "foodValue" : 30,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

@@ -1,7 +1,7 @@
 {
   "itemName" : "rattanfiberMFM",
   "rarity" : "Common",
-  "price" : 50.0,
+  "price" : 5,
   "category" : "craftingMaterial",
   "description" : "A long fiber from the Rattan plant.",
   "shortdescription" : "Rattan Fiber",

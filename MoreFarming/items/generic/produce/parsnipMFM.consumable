@@ -1,13 +1,13 @@
 {
   "itemName" : "parsnipMFM",
   "rarity" : "Common",
-  "price" : 40.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Sub-parsnip at best.",
   "shortdescription" : "Parsnip",
-  "foodValue" : 10.0,
+  "foodValue" : 1,
   "effects" : [[
     {
       "effect" : "glow",

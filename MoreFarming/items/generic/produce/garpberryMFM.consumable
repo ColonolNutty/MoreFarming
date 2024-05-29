@@ -1,13 +1,13 @@
 {
   "itemName" : "garpberryMFM",
   "rarity" : "Common",
-  "price" : 80.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Garpberry! Has a very alien taste.",
   "shortdescription" : "Garpberry",
-  "foodValue" : 10.0,
+  "foodValue" : 2,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

@@ -1,13 +1,13 @@
 {
   "itemName" : "jelonMFM",
   "rarity" : "Uncommon",
-  "price" : 90.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "A genetically engineered jelon.",
   "shortdescription" : "Jelon",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "energyregen",

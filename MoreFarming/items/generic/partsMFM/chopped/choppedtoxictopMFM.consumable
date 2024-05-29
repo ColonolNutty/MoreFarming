@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedtoxictopMFM",
   "rarity" : "Common",
-  "price" : 210.0,
+  "price" : 25,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped toxictop.",
   "shortdescription" : "Chopped Toxictop",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "weakpoison",

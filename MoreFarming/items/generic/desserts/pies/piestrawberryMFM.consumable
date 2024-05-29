@@ -1,12 +1,12 @@
 {
   "itemName" : "piestrawberryMFM",
   "rarity" : "Common",
-  "price" : 932.01,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Strawberry Pie, it has a sweet taste and is very juicy.",
   "shortdescription" : "Pie - Strawberry",
-  "foodValue" : 305.31,
+  "foodValue" : 50,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

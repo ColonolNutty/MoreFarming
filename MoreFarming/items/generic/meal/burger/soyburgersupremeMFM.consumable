@@ -1,12 +1,12 @@
 {
   "itemName" : "soyburgersupremeMFM",
   "rarity" : "Common",
-  "price" : 1085.45,
+  "price" : 170,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A healthy alternative to your typical burger.",
   "shortdescription" : "Burger - Soyburger Supreme",
-  "foodValue" : 271.88,
+  "foodValue" : 75,
   "effects" : [[
     {
       "effect" : "antidote",

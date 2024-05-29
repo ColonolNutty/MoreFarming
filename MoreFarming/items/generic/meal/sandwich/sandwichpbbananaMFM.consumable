@@ -1,12 +1,12 @@
 {
   "itemName" : "sandwichpbbananaMFM",
   "rarity" : "Uncommon",
-  "price" : 287.58,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with peanut butter and chopped bananas.",
   "shortdescription" : "Sandwich PB+Banana",
-  "foodValue" : 84.03,
+  "foodValue" : 35,
   "effects" : [[
     {
       "effect" : "camouflage25",

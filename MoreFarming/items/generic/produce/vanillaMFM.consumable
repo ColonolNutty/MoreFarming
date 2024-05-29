@@ -1,13 +1,13 @@
 {
   "itemName" : "vanillaMFM",
   "rarity" : "Common",
-  "price" : 90.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Vanilla.",
   "shortdescription" : "Vanilla Bean",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "regeneration2",

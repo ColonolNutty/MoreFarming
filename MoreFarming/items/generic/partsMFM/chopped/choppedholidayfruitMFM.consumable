@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedholidayfruitMFM",
   "rarity" : "Common",
-  "price" : 157.5,
+  "price" : 25,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed, peeled, and chopped holiday fruit.",
   "shortdescription" : "Chopped Holiday Fruit",
-  "foodValue" : 21.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "regeneration3",

@@ -1,12 +1,12 @@
 {
   "itemName" : "jellyblueberryMFM",
   "rarity" : "Uncommon",
-  "price" : 252.5,
+  "price" : 15,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} A bluish jelly made from blueberries.",
   "shortdescription" : "Jelly - Blueberry",
-  "foodValue" : 50.5,
+  "foodValue" : 10,
   "effects" : [[
     {
       "effect" : "iceblock",

@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(CAN):-} A watermelon, in a can.",
   "shortdescription" : "Canned - Watermelon",
-  "foodValue" : 21.0,
+  "foodValue" : 15,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

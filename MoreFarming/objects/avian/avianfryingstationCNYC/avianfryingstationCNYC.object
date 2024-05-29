@@ -2,7 +2,7 @@
   "objectName" : "avianfryingstationCNYC",
   "colonyTags" : [ "avian", "avianvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 82.23,
+  "price" : 25,
   "category" : "Avian Cookware",
   "objectType" : "container",
   "printable" : false,

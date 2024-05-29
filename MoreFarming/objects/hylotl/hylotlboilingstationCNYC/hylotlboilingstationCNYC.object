@@ -2,7 +2,7 @@
   "objectName" : "hylotlboilingstationCNYC",
   "colonyTags" : [ "hylotl", "hylotlvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 244.03,
+  "price" : 25,
   "category" : "Hylotl Cookware",
   "objectType" : "container",
   "printable" : false,

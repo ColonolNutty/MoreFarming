@@ -1,13 +1,13 @@
 {
   "itemName" : "rawstripofalienmeatMFM",
   "rarity" : "Common",
-  "price" : 2.1,
+  "price" : 2,
   "category" : "food",
   "eventCategory" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Raw meat chopped into strips.",
   "shortdescription" : "Raw Strip of Meat",
-  "foodValue" : 10.0,
+  "foodValue" : 2,
   "effects" : [[
     {
       "effect" : "foodpoison",

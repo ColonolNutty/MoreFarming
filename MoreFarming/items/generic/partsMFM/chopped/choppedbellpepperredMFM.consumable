@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedbellpepperredMFM",
   "rarity" : "Common",
-  "price" : 63.0,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped red bell pepper.",
   "shortdescription" : "Chopped Bell Pepper Red",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

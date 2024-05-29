@@ -1,0 +1,21 @@
+[
+  {
+    "op" : "add",
+    "path" : "/visitableTypeDescription/chocolateworldMFM",
+    "value": [
+      "The landing site is in a dense ^#12a003;jungle^white;. A menagerie of astounding creatures live amongst the lush flora. It is a shame about the ^red;lethally high levels of radiation^white;.",
+      "A ^#12a003;jungle^white; landing site densely inhabited by flora and fauna of many kinds. The area is rich with resources but ^red;phenomenally high in radiation^white;.",
+      "^red;High levels of radiation^white; render this ^#12a003;jungle^white; location an extremely hostile environment and local fauna is similarly unwelcoming."
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeNames/chocolateworldMFM",
+    "value": "Chocolate Planet"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeColors/chocolateworldMFM",
+    "value": [0, 135, 255]
+  }
+]

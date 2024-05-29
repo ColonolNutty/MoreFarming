@@ -2,7 +2,7 @@
   "objectName" : "watermelonMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 70.0,
+  "price" : 4,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",

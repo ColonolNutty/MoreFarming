@@ -2,7 +2,7 @@
   "objectName" : "pumpkinMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 2.46,
+  "price" : 4,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",

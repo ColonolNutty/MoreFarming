@@ -2,7 +2,7 @@
   "objectName" : "wildpeaMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 4.0,
+  "price" : 1,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",

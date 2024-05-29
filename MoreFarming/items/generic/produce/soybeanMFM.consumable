@@ -1,13 +1,13 @@
 {
   "itemName" : "soybeanMFM",
   "rarity" : "Common",
-  "price" : 45.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Used to make a variety of Tofu products.",
   "shortdescription" : "Soybean",
-  "foodValue" : 10.0,
+  "foodValue" : 1,
   "effects" : [[
     {
       "effect" : "energyregen",

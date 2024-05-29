@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedsweetpotatoMFM",
   "rarity" : "Common",
-  "price" : 89.25,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed, peeled, and chopped sweet potato.",
   "shortdescription" : "Chopped Sweet Potato",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

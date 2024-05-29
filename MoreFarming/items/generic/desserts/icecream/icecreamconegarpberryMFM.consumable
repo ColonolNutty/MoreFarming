@@ -1,12 +1,12 @@
 {
   "itemName" : "icecreamconegarpberryMFM",
   "rarity" : "Common",
-  "price" : 167.69,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A scoop of garpberry ice cream on a waffle cone.",
   "shortdescription" : "Ice Cream Cone - Garpberry",
-  "foodValue" : 52.31,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "regeneration2",

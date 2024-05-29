@@ -1,12 +1,12 @@
 {
   "itemName" : "unfinishedpiebutterscotchcinnamonMFM",
   "rarity" : "Common",
-  "price" : 405.48,
+  "price" : 30,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A pie shell filled with butterscotch ingredients and cinnamon. Ready for baking.",
   "shortdescription" : "Pie Unf.- Butterscotch",
-  "foodValue" : 247.33,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "regeneration2",

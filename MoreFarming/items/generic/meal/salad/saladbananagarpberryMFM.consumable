@@ -1,12 +1,12 @@
 {
   "itemName" : "saladbananagarpberryMFM",
   "rarity" : "Common",
-  "price" : 278.25,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Banana and garpberries make for a fruity, sweet salad.",
   "shortdescription" : "Salad - Banana and Garpberry",
-  "foodValue" : 31.5,
+  "foodValue" : 30,
   "effects" : [[
     {
       "effect" : "nova",

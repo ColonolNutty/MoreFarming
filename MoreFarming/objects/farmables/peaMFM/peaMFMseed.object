@@ -2,7 +2,7 @@
   "objectName" : "peaMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 1.51,
+  "price" : 1,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",

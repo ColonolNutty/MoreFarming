@@ -2,7 +2,7 @@
   "objectName" : "wildsaguaroMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 6.0,
+  "price" : 4,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",

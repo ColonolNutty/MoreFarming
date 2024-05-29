@@ -1,12 +1,12 @@
 {
   "itemName" : "saladMFM",
   "rarity" : "Common",
-  "price" : 76.52,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A plain salad.",
   "shortdescription" : "Salad - Plain",
-  "foodValue" : 21.0,
+  "foodValue" : 20,
   "effects" : [[
     {
       "effect" : "camouflage25",

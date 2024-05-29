@@ -7,7 +7,7 @@
   "tooltipKind" : "food",
   "description" : "Shiny, golden, and a sweet flavour. Yum! A bit crunchy, though.",
   "shortdescription" : "Holiday Fruit",
-  "foodValue" : 20.0,
+  "foodValue" : 5.0,
   "effects" : [[
     {
       "effect" : "regeneration3",

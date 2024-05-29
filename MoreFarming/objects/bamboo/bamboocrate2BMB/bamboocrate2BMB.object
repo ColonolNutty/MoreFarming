@@ -2,7 +2,7 @@
   "objectName" : "bamboocrate2BMB",
   "colonyTags" : [ "floran", "floranvillage", "storage", "commerce", "nature" ],
   "rarity" : "Common",
-  "price" : 1002.0,
+  "price" : 25,
   "category" : "storage",
   "objectType" : "container",
   "tooltipKind" : "container",

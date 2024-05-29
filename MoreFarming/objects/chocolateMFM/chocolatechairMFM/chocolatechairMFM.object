@@ -2,7 +2,7 @@
   "objectName" : "chocolatechairMFM",
   "colonyTags" : [ "misc", "chair" ],
   "rarity" : "Common",
-  "price" : 15.15,
+  "price" : 15,
   "category" : "furniture",
   "objectType" : "loungeable",
   "printable" : false,

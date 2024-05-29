@@ -1,12 +1,12 @@
 {
   "itemName" : "sandwichpbjblueberryMFM",
   "rarity" : "Uncommon",
-  "price" : 426.7,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with peanut butter and blueberry jelly.",
   "shortdescription" : "Sandwich PB+J - Blueberry",
-  "foodValue" : 126.55,
+  "foodValue" : 35,
   "effects" : [[
     {
       "effect" : "camouflage25",

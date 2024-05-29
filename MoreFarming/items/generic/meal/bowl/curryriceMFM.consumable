@@ -1,12 +1,12 @@
 {
   "itemName" : "curryriceMFM",
   "rarity" : "Common",
-  "price" : 267.51,
+  "price" : 150,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A curry containing rice.",
   "shortdescription" : "Curry - Rice",
-  "foodValue" : 59.7,
+  "foodValue" : 40,
   "effects" : [[
     {
       "effect" : "antidote",

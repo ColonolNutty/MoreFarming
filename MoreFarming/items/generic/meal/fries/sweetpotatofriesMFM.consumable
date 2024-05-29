@@ -1,12 +1,12 @@
 {
   "itemName" : "sweetpotatofriesMFM",
   "rarity" : "Common",
-  "price" : 100.28,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FRY):-} Sweet and salty.",
   "shortdescription" : "Fries - Sweet Potato",
-  "foodValue" : 21.0,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

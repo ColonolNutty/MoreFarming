@@ -1,7 +1,7 @@
 {
   "itemName" : "sageleafMFM",
   "rarity" : "Common",
-  "price" : 2.0,
+  "price" : 2,
   "category" : "cookingIngredient",
   "description" : "A leaf from a sage flower.",
   "shortdescription" : "Sage Leaf",

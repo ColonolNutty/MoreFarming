@@ -1,13 +1,13 @@
 {
   "itemName" : "sugarbeetMFM",
   "rarity" : "Common",
-  "price" : 80.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Sweet!",
   "shortdescription" : "Sugar Beet",
-  "foodValue" : 10.0,
+  "foodValue" : 2,
   "effects" : [[
     {
       "effect" : "energyregen",

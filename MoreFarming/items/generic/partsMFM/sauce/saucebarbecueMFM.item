@@ -1,7 +1,7 @@
 {
   "itemName" : "saucebarbecueMFM",
   "rarity" : "Common",
-  "price" : 20.0,
+  "price" : 10,
   "category" : "cookingIngredient",
   "description" : "Barbecue sauce. Good for steaks.",
   "shortdescription" : "Sauce - Barbecue",

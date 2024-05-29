@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledbellpepperorangeMFM",
   "rarity" : "Common",
-  "price" : 60.64,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} An orange bell pepper boiled in water.",
   "shortdescription" : "Boiled Bell Pepper - Orange",
-  "foodValue" : 11.03,
+  "foodValue" : 20,
   "effects" : [[
     {
       "effect" : "fireblock",

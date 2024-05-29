@@ -1,9 +1,9 @@
 {
   "itemName" : "yeastMFM",
   "rarity" : "Common",
-  "price" : 35.0,
+  "price" : 5,
   "category" : "cookingIngredient",
-  "description" : "Very useful.",
+  "description" : "Very useful for bread making.",
   "shortdescription" : "Yeast",
   "maxStack" : 1000,
   "inventoryIcon" : "yeastMFM.png"

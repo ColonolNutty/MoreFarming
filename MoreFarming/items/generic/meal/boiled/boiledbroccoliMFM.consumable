@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledbroccoliMFM",
   "rarity" : "Common",
-  "price" : 66.15,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Broccoli boiled in water.",
   "shortdescription" : "Boiled Broccoli",
-  "foodValue" : 11.03,
+  "foodValue" : 20,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

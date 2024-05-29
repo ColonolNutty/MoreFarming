@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledblueberriesMFM",
   "rarity" : "Common",
-  "price" : 55.13,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Blueberries boiled in water.",
   "shortdescription" : "Boiled Blueberries",
-  "foodValue" : 11.03,
+  "foodValue" : 20,
   "effects" : [[
     {
       "effect" : "iceblock",

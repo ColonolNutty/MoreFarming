@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "seedoilMFM", "count" : 2 }
-  ],
-  "output" : { "item" : "cookingoilMFM", "count" : 1 },
-  "groups" : [ "pressingMFM" ]
-}

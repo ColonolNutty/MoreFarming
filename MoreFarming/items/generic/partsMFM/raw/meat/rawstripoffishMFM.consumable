@@ -1,13 +1,13 @@
 {
   "itemName" : "rawstripoffishMFM",
   "rarity" : "Common",
-  "price" : 10.5,
+  "price" : 2,
   "category" : "food",
   "eventCategory" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Raw fish chopped into strips.",
   "shortdescription" : "Raw Strip of Fish",
-  "foodValue" : 10.0,
+  "foodValue" : 2,
   "effects" : [[
     {
       "effect" : "foodpoison",

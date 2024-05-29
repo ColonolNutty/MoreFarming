@@ -1,13 +1,13 @@
 {
   "itemName" : "rawsausagealienpoultryMFM",
   "rarity" : "Common",
-  "price" : 13.23,
+  "price" : 15,
   "category" : "food",
   "eventCategory" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(PRESS):-} Raw sausage links, comprised of a mix of meats",
   "shortdescription" : "Raw Sausage",
-  "foodValue" : 21.0,
+  "foodValue" : 2,
   "effects" : [[
     {
       "effect" : "foodpoison",

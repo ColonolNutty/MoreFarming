@@ -1,12 +1,12 @@
 {
   "itemName" : "temakicaliforniaMFM",
   "rarity" : "Uncommon",
-  "price" : 464.29,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Chopped cucumber, lemon juice, and raw fish, wrapped in a ball of rice and kelp",
   "shortdescription" : "Temaki - California",
-  "foodValue" : 81.17,
+  "foodValue" : 30,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

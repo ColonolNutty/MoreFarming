@@ -1,13 +1,13 @@
 {
   "itemName" : "yellowbellpepperMFM",
   "rarity" : "Common",
-  "price" : 50.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Its yellow!",
   "shortdescription" : "Yellow Bell Pepper",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "electricblock",

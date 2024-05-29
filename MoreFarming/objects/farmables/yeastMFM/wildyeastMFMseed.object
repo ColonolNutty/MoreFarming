@@ -2,7 +2,7 @@
   "objectName" : "wildyeastMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 9.0,
+  "price" : 4,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",

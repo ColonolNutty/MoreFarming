@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedlimeMFM",
   "rarity" : "Common",
-  "price" : 42.0,
+  "price" : 25,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed, peeled, and chopped  lime.",
   "shortdescription" : "Chopped Lime",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "jumpboostfood",

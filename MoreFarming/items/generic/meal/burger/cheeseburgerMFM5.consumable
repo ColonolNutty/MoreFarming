@@ -1,12 +1,12 @@
 {
   "itemName" : "cheeseburgerMFM5",
   "rarity" : "Common",
-  "price" : 133.34,
+  "price" : 150,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A burger topped with cheese, and lettuce.",
   "shortdescription" : "Burger - Cheese",
-  "foodValue" : 76.2,
+  "foodValue" : 70,
   "effects" : [[
     {
       "effect" : "camouflage25",

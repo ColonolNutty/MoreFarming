@@ -1,12 +1,12 @@
 {
   "itemName" : "icecreamconechocolateMFM",
   "rarity" : "Common",
-  "price" : 70.44,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A scoop of chocolate ice cream on a waffle cone.",
   "shortdescription" : "Ice Cream Cone - Chocolate",
-  "foodValue" : 40.15,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "regeneration2",

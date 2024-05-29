@@ -2,7 +2,7 @@
   "objectName" : "wildpeanutMFMseed",
   "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "price" : 8.0,
+  "price" : 4,
   "category" : "seed",
   "objectType" : "farmable",
   "tooltipKind" : "seed",

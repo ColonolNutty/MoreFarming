@@ -1,12 +1,12 @@
 {
   "itemName" : "icecreamcoconutMFM",
   "rarity" : "Common",
-  "price" : 35.43,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(FREEZE):-} A scoop of ice cream with a coconut flavor.",
   "shortdescription" : "Ice Cream - Coconut",
-  "foodValue" : 21.61,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "regeneration2",

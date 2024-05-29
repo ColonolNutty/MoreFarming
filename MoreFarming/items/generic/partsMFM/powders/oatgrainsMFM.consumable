@@ -1,12 +1,12 @@
 {
   "itemName" : "oatgrainsMFM",
   "rarity" : "Common",
-  "price" : 73.5,
+  "price" : 5,
   "category" : "cookingIngredient",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Oat grains.",
   "shortdescription" : "Oatmeal",
-  "foodValue" : 10.5,
+  "foodValue" : 1,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

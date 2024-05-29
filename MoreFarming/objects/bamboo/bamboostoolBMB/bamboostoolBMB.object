@@ -2,7 +2,7 @@
   "objectName" : "bamboostoolBMB",
   "colonyTags" : [ "floran", "floranvillage", "nature" ],
   "rarity" : "Common",
-  "price" : 202.0,
+  "price" : 25,
   "category" : "furniture",
   "objectType" : "loungeable",
   "printable" : false,

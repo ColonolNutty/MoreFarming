@@ -1,12 +1,12 @@
 {
   "itemName" : "puddingMFM",
   "rarity" : "Common",
-  "price" : 53.6,
+  "price" : 50,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BLEND):-} Is it a liquid or solid?",
   "shortdescription" : "Pudding - Vanilla",
-  "foodValue" : 32.97,
+  "foodValue" : 30,
   "effects" : [[
     {
       "effect" : "regeneration2",

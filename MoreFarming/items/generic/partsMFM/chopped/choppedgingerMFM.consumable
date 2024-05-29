@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedgingerMFM",
   "rarity" : "Common",
-  "price" : 21.0,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped ginger.",
   "shortdescription" : "Chopped Ginger",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "poisonblock",

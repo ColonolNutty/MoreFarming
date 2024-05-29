@@ -2,7 +2,7 @@
   "objectName" : "floranfreezingstationCNYC",
   "colonyTags" : [ "floran", "floranvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 20.1,
+  "price" : 25,
   "category" : "Refridgerated Floran Cookware",
   "objectType" : "container",
   "tooltipKind" : "container",

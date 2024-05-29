@@ -27,15 +27,15 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildcinnamonMFMseed" ],
-						[1, "wilddungrootMFMseed" ],
-						[1, "wildeggplantMFMseed" ],
-						[1, "wildflytrapMFMseed"],
-						[1, "wildjelonMFMseed" ],
-						[1, "wildokraMFMseed" ],
-						[1, "wildsoybeanMFMseed" ],
-						[1, "wildsweetpotatoMFMseed" ],
-            [1, "wildwatermelonMFMseed" ]
+						[0.1, "wildcinnamonMFMseed" ],
+						[0.1, "wilddungrootMFMseed" ],
+						[0.1, "wildeggplantMFMseed" ],
+						[0.1, "wildflytrapMFMseed"],
+						[0.1, "wildjelonMFMseed" ],
+						[0.1, "wildokraMFMseed" ],
+						[0.1, "wildsoybeanMFMseed" ],
+						[0.1, "wildsweetpotatoMFMseed" ],
+            [0.1, "wildwatermelonMFMseed" ]
 					],
 					"parameters" : {
 						"startingStage" : 2
@@ -57,22 +57,22 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[1, "wildbambooMFMseed" ],
-						[1, "wildbellpepperMFMseed"],
-						[1, "wildblackpepperMFMseed"],
-						[1, "wildceleryMFMseed"],
-						[1, "wildcocoaseed" ],
-						[1, "wildgingerMFMseed" ],
-						[1, "wildgreatbambooMFMseed"],
-						[1, "wildjalapenopepperMFMseed"],
-						[1, "wildkaleMFMseed" ],
-						[1, "wildlettuceMFMseed" ],
-						[1, "wildparsnipMFMseed" ],
-						[1, "wildpeanutMFMseed"],
-						[1, "wildradishMFMseed"],
-						[1, "wildrattanMFMseed"],
-						[1, "wildsunflowerMFMseed"],
-						[1, "wildvanillabeanMFMseed"]
+						[0.1, "wildbambooMFMseed" ],
+						[0.1, "wildbellpepperMFMseed"],
+						[0.1, "wildblackpepperMFMseed"],
+						[0.1, "wildceleryMFMseed"],
+						[0.1, "wildcocoaseed" ],
+						[0.1, "wildgingerMFMseed" ],
+						[0.1, "wildgreatbambooMFMseed"],
+						[0.1, "wildjalapenopepperMFMseed"],
+						[0.1, "wildkaleMFMseed" ],
+						[0.1, "wildlettuceMFMseed" ],
+						[0.1, "wildparsnipMFMseed" ],
+						[0.1, "wildpeanutMFMseed"],
+						[0.1, "wildradishMFMseed"],
+						[0.1, "wildrattanMFMseed"],
+						[0.1, "wildsunflowerMFMseed"],
+						[0.1, "wildvanillabeanMFMseed"]
 					],
 					"parameters" : {
 						"startingStage" : 3

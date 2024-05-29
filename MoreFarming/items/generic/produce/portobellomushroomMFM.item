@@ -1,7 +1,7 @@
 {
   "itemName" : "portobellomushroomMFM",
   "rarity" : "Uncommon",
-  "price" : 10.0,
+  "price" : 5,
   "category" : "cookingIngredient",
   "description" : "A fungus grown for cooking.",
   "shortdescription" : "Portobello Mushroom",

@@ -1,12 +1,12 @@
 {
   "itemName" : "groundjelonMFM",
   "rarity" : "Common",
-  "price" : 18.9,
+  "price" : 5,
   "category" : "food",
   "tooltipKind" : "food",
   "description" : "(MILL):-} A pile of ground jelon.",
   "shortdescription" : "Ground Jelon",
-  "foodValue" : 10.0,
+  "foodValue" : 1,
   "effects" : [[
     {
       "effect" : "swimboost",

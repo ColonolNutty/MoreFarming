@@ -1,13 +1,13 @@
 {
   "itemName" : "onionMFM",
   "rarity" : "Common",
-  "price" : 35.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Just like ogres, onions have layers.",
   "shortdescription" : "Onion",
-  "foodValue" : 10.0,
+  "foodValue" : 1,
   "effects" : [[
     {
       "effect" : "poisonblock",

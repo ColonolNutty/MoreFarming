@@ -1,12 +1,12 @@
 {
   "itemName" : "sandwichpbjgrapeMFM",
   "rarity" : "Uncommon",
-  "price" : 797.88,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A sandwich made with peanut butter and grape jelly.",
   "shortdescription" : "Sandwich PB+J - Grape",
-  "foodValue" : 126.55,
+  "foodValue" : 35,
   "effects" : [[
     {
       "effect" : "camouflage25",

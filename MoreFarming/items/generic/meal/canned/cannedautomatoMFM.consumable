@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "description" : "(CAN):-} An automato, in a can.",
   "shortdescription" : "Canned - Automato",
-  "foodValue" : 10.5,
+  "foodValue" : 2.5,
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1000,
   "itemAgingScripts" : [ "/scripts/items/rotting.lua" ],

@@ -1,12 +1,12 @@
 {
   "itemName" : "piecherryMFM",
   "rarity" : "Common",
-  "price" : 229.38,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Cherry Pie, it has a semi-sweet taste and is very juicy.",
   "shortdescription" : "Pie - Cherry",
-  "foodValue" : 206.05,
+  "foodValue" : 50,
   "effects" : [[
     {
       "effect" : "camouflage25",

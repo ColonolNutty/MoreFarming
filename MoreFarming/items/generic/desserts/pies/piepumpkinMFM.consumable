@@ -1,12 +1,12 @@
 {
   "itemName" : "piepumpkinMFM",
   "rarity" : "Common",
-  "price" : 422.66,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Delicious, better with whipped cream.",
   "shortdescription" : "Pie - Pumpkin",
-  "foodValue" : 276.76,
+  "foodValue" : 50,
   "effects" : [[
     {
       "effect" : "regeneration2",

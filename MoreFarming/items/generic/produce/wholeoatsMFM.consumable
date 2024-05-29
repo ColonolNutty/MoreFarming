@@ -1,13 +1,13 @@
 {
   "itemName" : "wholeoatsMFM",
   "rarity" : "Common",
-  "price" : 70.0,
+  "price" : 5,
   "category" : "food",
   "eventCategory" : "eventCrop",
   "tooltipKind" : "food",
   "description" : "Oat grains.",
   "shortdescription" : "Whole Oat Grains",
-  "foodValue" : 10.0,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

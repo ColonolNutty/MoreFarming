@@ -2,7 +2,7 @@
   "objectName" : "novakidfreezingstationCNYC",
   "colonyTags" : [ "novakid", "novakidvillage", "cooking" ],
   "rarity" : "Common",
-  "price" : 250.13,
+  "price" : 25,
   "category" : "Refridgerated Nanokid Cookware",
   "objectType" : "container",
   "tooltipKind" : "container",

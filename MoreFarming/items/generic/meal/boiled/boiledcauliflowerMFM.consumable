@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledcauliflowerMFM",
   "rarity" : "Common",
-  "price" : 55.13,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Cauliflower boiled in water.",
   "shortdescription" : "Boiled Cauliflower",
-  "foodValue" : 11.03,
+  "foodValue" : 20,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",

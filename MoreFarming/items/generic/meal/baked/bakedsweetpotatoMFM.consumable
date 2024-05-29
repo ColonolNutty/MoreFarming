@@ -1,16 +1,16 @@
 {
   "itemName" : "bakedsweetpotatoMFM",
   "rarity" : "Common",
-  "price" : 89.25,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A baked sweet potato",
   "shortdescription" : "Baked Sweet Potato",
-  "foodValue" : 10.5,
+  "foodValue" : 20,
   "effects" : [[
     {
       "effect" : "maxhealthscalingboostfood",
-      "duration" : 52
+      "duration" : 50
     }
   ]],
   "builder" : "/items/buildscripts/buildfood.lua",

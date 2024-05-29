@@ -1,12 +1,12 @@
 {
   "itemName" : "trailmixbasicMFM",
   "rarity" : "Common",
-  "price" : 170.63,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} A basic Trail Mix made with berries, chocolate, and sunflower seeds.",
   "shortdescription" : "Trail Mix - Basic",
-  "foodValue" : 33.08,
+  "foodValue" : 15,
   "effects" : [[
     {
       "effect" : "fireblock",

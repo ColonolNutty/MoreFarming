@@ -1,12 +1,12 @@
 {
   "itemName" : "choppedvanillabeanMFM",
   "rarity" : "Common",
-  "price" : 94.5,
+  "price" : 25,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(CHOP):-} Washed and chopped vanilla bean.",
   "shortdescription" : "Chopped Vanilla Bean",
-  "foodValue" : 10.5,
+  "foodValue" : 3,
   "effects" : [[
     {
       "effect" : "regeneration2",

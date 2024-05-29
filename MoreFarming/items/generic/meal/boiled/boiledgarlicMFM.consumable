@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledgarlicMFM",
   "rarity" : "Common",
-  "price" : 33.08,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} Garlic boiled in water.",
   "shortdescription" : "Boiled Garlic",
-  "foodValue" : 11.03,
+  "foodValue" : 20,
   "effects" : [[
     {
       "effect" : "antidote",

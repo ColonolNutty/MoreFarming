@@ -2,7 +2,7 @@
   "objectName" : "nanoboilingstationCNYC",
   "colonyTags" : [ "cooking", "electronic" ],
   "rarity" : "Common",
-  "price" : 526.03,
+  "price" : 25,
   "category" : "crafting",
   "objectType" : "container",
   "printable" : false,

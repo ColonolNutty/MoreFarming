@@ -1,12 +1,12 @@
 {
   "itemName" : "raisincookieMFM",
   "rarity" : "Common",
-  "price" : 23.82,
+  "price" : 20,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} A really chewy cookie.",
   "shortdescription" : "Cookie - Raisin",
-  "foodValue" : 10.0,
+  "foodValue" : 5,
   "effects" : [[
     {
       "effect" : "regeneration2",

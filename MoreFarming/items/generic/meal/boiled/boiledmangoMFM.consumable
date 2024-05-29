@@ -1,12 +1,12 @@
 {
   "itemName" : "boiledmangoMFM",
   "rarity" : "Common",
-  "price" : 77.18,
+  "price" : 30,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BOIL):-} A mango boiled in water.",
   "shortdescription" : "Boiled Mango",
-  "foodValue" : 11.03,
+  "foodValue" : 20,
   "effects" : [[
     {
       "effect" : "maxenergyscalingboostfood",

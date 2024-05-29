@@ -1,12 +1,12 @@
 {
   "itemName" : "garpberrystuffedautomatoMFM",
   "rarity" : "Common",
-  "price" : 168.0,
+  "price" : 50,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(BAKE):-} Garpberries baked within an automato.",
   "shortdescription" : "Stuffed - Garpmato",
-  "foodValue" : 21.0,
+  "foodValue" : 35,
   "effects" : [[
     {
       "effect" : "nova",

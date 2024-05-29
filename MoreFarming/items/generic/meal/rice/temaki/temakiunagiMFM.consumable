@@ -1,12 +1,12 @@
 {
   "itemName" : "temakiunagiMFM",
   "rarity" : "Uncommon",
-  "price" : 407.64,
+  "price" : 100,
   "category" : "preparedFood",
   "tooltipKind" : "food",
   "description" : "(PREP):-} Cooked eel and cucumber, wrapped in a ball of rice and kelp.",
   "shortdescription" : "Temaki - Unagi",
-  "foodValue" : 70.61,
+  "foodValue" : 30,
   "effects" : [[
     {
       "effect" : "camouflage25",

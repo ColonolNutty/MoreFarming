@@ -1,0 +1,15 @@
+{
+  "modId" : 19224,
+  "modName" : "pinkchocolatejunglegrassMFM",
+  "description" : "Dense pink chocolate jungle grass.",
+  "footstepSound" : "/sfx/blocks/footstep_grass.ogg",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pinkchocolatejunglegrassMFM.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

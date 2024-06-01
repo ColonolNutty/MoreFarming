@@ -1,0 +1,9 @@
+{
+  "name" : "chocolatecrustoiseMFM",
+  "category" : "chocolatecrustoiseMFM",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "chocolatecrustoiseMFM.png"
+  }
+}

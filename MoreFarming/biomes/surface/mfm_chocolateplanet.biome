@@ -9,14 +9,14 @@
       {
         "select" : 1,
         "pool" : [
-          [ 0.1111, "squeem" ],
-          [ 0.1111, "snaunt" ],
-          [ 0.1111, "crustoise" ],
-          [ 0.1111, "poptop" ],
-          [ 0.1111, "adultpoptop" ],
-          [ 0.1111, "crutter" ],
-          [ 0.1111, "bobfae" ],
-          [ 0.1111, "scaveran" ]
+          [ 0.1111, "chocolatesqueemMFM" ],
+          [ 0.1111, "chocolatesnauntMFM" ],
+          [ 0.1111, "chocolatecrustoiseMFM" ],
+          [ 0.1111, "chocolatepoptopMFM" ],
+          [ 0.1111, "adultchocolatepoptopMFM" ],
+          [ 0.1111, "chocolatecrutterMFM" ],
+          [ 0.1111, "chocolatebobfaeMFM" ],
+          [ 0.1111, "chocolatescaveranMFM" ]
         ]
       },
       {
@@ -30,11 +30,11 @@
       {
         "select" : 1,
         "pool" : "generatedGroundAggroDay"
-      }, 
+      },
       {
         "select" : 3,
         "pool" : "nightTerrors"
-      },      
+      },
       {
         "select" : 2,
         "pool" : "generatedGround"
@@ -46,24 +46,30 @@
       {
         "select" : 2,
         "pool" : [
-          [ 1, "frogcritter" ],
-          [ 1, "birdcritter" ],
+          [ 1, "chocolatefrogcritterMFM" ],
+          [ 1, "chocolatebirdcritterMFM" ],
           [ 1, "fireflyspawner" ],
-          [ 1, "chevcritter" ],
+          [ 1, "chocolatechevcritterMFM" ],
           [ 1, "fireflyspawner" ],
-          [ 1, "fishcritter" ]
+          [ 1, "chocolatefishcritterMFM" ]
         ]
       }
     ],
     "monsterParameters" : {
-      "colors" : "jungle",
-        "statusSettings" : {
-          "stats" : {
-            "poisonStatusImmunity" : {
-              "baseValue" : 1.0
-            }
+      "colors" : "chocolateMFM",
+      "statusSettings" : {
+        "stats" : {
+          "fireResistance" : {
+            "baseValue" : -0.5
+          },
+          "iceResistance" : {
+            "baseValue" : 0.5
+          },
+          "fireStatusImmunity" : {
+            "baseValue" : 0.0
           }
         }
+      }
     }
   },
 
@@ -150,7 +156,14 @@
   ],
 
   "mainBlock" : "dirt",
-  "subBlocks" : [ "clay", "mud", "grassyrock", "plantmatter" ],
+  "subBlocks" : [
+    "clay",
+    "mud",
+    "grassyrock",
+    "plantmatter",
+    "softblocksugarMFM",
+    "hardchocolateblockplainMFM"
+  ],
   "ores" : "surface",
 
   "parallax" : "/parallax/surface/mfm_chocolateplanet.parallax",
@@ -174,13 +187,66 @@
   },
 
   "surfacePlaceables" : {
-    "grassMod" : [ "junglegrass" ],
+    "grassMod" : [ "pinkchocolatejunglegrassMFM", "bluechocolatejunglegrassMFM" ],
     "grassModDensity" : 0.9,
 
-    "ceilingGrassMod" : [ "undergrowth" ],
+    "ceilingGrassMod" : [ "pinkchocolateundergrowthMFM", "bluechocolateundergrowthMFM" ],
     "ceilingGrassModDensity" : 0.8,
 
     "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:uncommonRandomMFM",
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "avocadowoodMFM", "lemonwoodMFM", "limewoodMFM", "mangowoodMFM", "nutmegwoodMFM", "grapefruitwoodMFM", "coconutwoodMFM", "staranisewoodMFM" ],
+        "treeFoliageList" : [ "avocadoMFM", "lemonMFM", "limeMFM", "mangoMFM", "nutmegMFM", "grapefruitMFM", "coconutMFM", "staraniseMFM" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [
+              [1, "wildcinnamonMFMseed" ],
+              [0.8, "wildsweetpotatoMFMseed" ]
+            ],
+            "parameters" : {
+              "startingStage" : 2
+            }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [
+              [0.3, "wildceleryMFMseed"],
+              [1, "wildcocoaseed" ],
+              [0.3, "wildlettuceMFMseed" ],
+              [0.8, "wildpeanutMFMseed"],
+              [0.3, "wildradishMFMseed"],
+              [1, "wildvanillabeanMFMseed"]
+            ],
+            "parameters" : {
+              "startingStage" : 3
+            }
+          }
+        ]
+      },
       {
         "mode" : "floor",
         "priority" : 3.0,
@@ -188,7 +254,23 @@
         "distribution" : "/biomes/distributions.config:tiyDist",
 
         "type" : "microdungeon",
-        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
+        "microdungeons" : [
+          "block1platforms",
+          "loops",
+          "spiralspikes",
+          "blocks",
+          "stripeblocks",
+          "blockpile",
+          "reversepyramids",
+          "flats",
+          "spikes",
+          "rods",
+          "wiggles",
+          "rockyshapes",
+          "layeredspire",
+          "blank",
+          "none"
+        ]
       },
       {
         "mode" : "floor",
@@ -215,7 +297,11 @@
         "distribution" : "/biomes/distributions.config:denseSmall",
 
         "type" : "grass",
-        "grasses" : [ "jungleflower1", "jungleflower2", "jungleflower3" ]
+        "grasses" : [
+          "chocolatejungleflowerMFM1",
+          "chocolatejungleflowerMFM2",
+          "chocolatejungleflowerMFM3"
+        ]
       },
       {
         "mode" : "floor",
@@ -226,7 +312,29 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.35, "flowerred" ], [0.35, "flowerblue" ], [0.35, "floweryellow" ], [0.35, "junglebush1" ], [0.35, "junglebush2" ], [0.35, "junglebush3" ], [0.35, "junglebush4" ], [0.35, "junglebush5" ], [0.35, "junglebush6" ], [0.35, "junglebush7" ], [0.35, "junglebush8" ], [0.35, "junglebush9" ], [0.35, "junglebush10" ], [0.35, "junglebush11" ], [0.35, "junglebush12" ], [0.35, "junglebush13" ], [0.35, "junglebush14" ], [0.35, "junglebush15" ], [0.35, "junglebush16" ], [0.35, "junglebush17" ], [0.35, "junglebush18" ] ],
+            "pool" : [
+              [0.35, "flowerred" ],
+              [0.35, "flowerblue" ],
+              [0.35, "floweryellow" ],
+              [0.35, "junglebush1" ],
+              [0.35, "junglebush2" ],
+              [0.35, "junglebush3" ],
+              [0.35, "junglebush4" ],
+              [0.35, "junglebush5" ],
+              [0.35, "junglebush6" ],
+              [0.35, "junglebush7" ],
+              [0.35, "junglebush8" ],
+              [0.35, "junglebush9" ],
+              [0.35, "junglebush10" ],
+              [0.35, "junglebush11" ],
+              [0.35, "junglebush12" ],
+              [0.35, "junglebush13" ],
+              [0.35, "junglebush14" ],
+              [0.35, "junglebush15" ],
+              [0.35, "junglebush16" ],
+              [0.35, "junglebush17" ],
+              [0.35, "junglebush18" ]
+            ],
             "parameters" : { }
           }
         ]
@@ -240,7 +348,11 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "pool" : [
+              [0.35, "capsulesmall" ],
+              [0.35, "capsulemed" ],
+              [0.35, "capsulebig" ]
+            ],
             "parameters" : { }
           }
         ]
@@ -303,7 +415,7 @@
         "treeFoliageHueShiftMax" : 180,
         "treeStemHueShiftMax" : 15,
         "treeStemList" : [ "twisty", "woody", "oldwood", "crackly", "palmlike" ],
-        "treeFoliageList" : [ "lushy", "junglepalm", "jungly", "jungleleaf" ]
+        "treeFoliageList" : [ "pinkcottoncandyMFM", "bluecottoncandyMFM", "junglepalm", "jungly", "jungleleaf" ]
       },
       {
         "mode" : "floor",
@@ -330,38 +442,6 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "wildcoffeeseed" ] ],
-            "parameters" : {
-              "startingStage" : 4
-            }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCrops",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "wildavesmingoseed" ] ],
-            "parameters" : {
-              "startingStage" : 4
-            }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCrops",
-
-        "type" : "object",
-        "objectSets" : [
-          {
             "pool" : [ [1, "wildsugarcaneseed" ] ],
             "parameters" : {
               "startingStage" : 3
@@ -371,7 +451,7 @@
       },
       {
         "mode" : "floor",
-        "priority" : 1.0,
+        "priority" : 10.0,
         "variants" : 1,
         "distribution" : "/biomes/distributions.config:surfaceCrops",
 
@@ -387,14 +467,14 @@
       },
       {
         "mode" : "floor",
-        "priority" : 1.0,
+        "priority" : 10.0,
         "variants" : 1,
         "distribution" : "/biomes/distributions.config:surfaceCrops",
 
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "wildpineappleseed" ] ],
+            "pool" : [ [1, "wildcocoaseed" ] ],
             "parameters" : {
               "startingStage" : 3
             }
@@ -405,10 +485,10 @@
   },
 
   "undergroundPlaceables" : {
-    "grassMod" : [ "junglegrass" ],
+    "grassMod" : [ "pinkchocolatejunglegrassMFM", "bluechocolatejunglegrassMFM" ],
     "grassModDensity" : 0.4,
 
-    "ceilingGrassMod" : [ "roots" ],
+    "ceilingGrassMod" : [ "pinkchocolaterootsMFM", "bluechocolaterootsMFM" ],
     "ceilingGrassModDensity" : 0.6,
 
     "items" : [
@@ -462,7 +542,11 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "pool" : [
+              [0.35, "capsulesmall" ],
+              [0.35, "capsulemed" ],
+              [0.35, "capsulebig" ]
+            ],
             "parameters" : { }
           }
         ]
@@ -476,8 +560,17 @@
         "type" : "tree",
         "treeFoliageHueShiftMax" : 180,
         "treeStemHueShiftMax" : 180,
-        "treeStemList" : [ "vine", "vine2", "vine3", "vine4" ],
-        "treeFoliageList" : [ "flowery", "starry", "dreamy" ]
+        "treeStemList" : [
+          "twistedliquoriceMFM",
+          "twistedliquoriceMFM2",
+          "twistedliquoriceMFM3",
+          "twistedliquoriceMFM4"
+        ],
+        "treeFoliageList" : [
+          "flowery",
+          "starry",
+          "dreamy"
+        ]
       }
     ]
   }

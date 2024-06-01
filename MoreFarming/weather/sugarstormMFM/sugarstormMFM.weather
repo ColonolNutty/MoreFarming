@@ -1,0 +1,90 @@
+{
+  "name" : "sugarstormMFM",
+
+  "particles" : [
+    {
+
+      "density" : 0.05,
+      "autoRotate" : true,
+
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/sugarcloudMFM/1.png",
+        "velocity" : [0, -2],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 20,
+        "collidesForeground" : true,
+        "collidesLiquid" : true,
+        "destructionAction" : "shrink",
+        "destructionTime" : 2,
+        "ignoreWind" : false
+      }
+    },
+    {
+      "density" : 0.15,
+      "particle" : {
+        "type" : "ember",
+        "color" : [196, 196, 196],
+        "size" : 1.0,
+        "velocity" : [0, -2],
+        "timeToLive" : 20,
+        "destructionAction" : "shrink",
+        "destructionTime" : 0.5,
+        "collidesForeground" : true,
+        "collidesLiquid" : true,
+        "ignoreWind" : false
+      }
+    },
+    {
+      "density" : 0.15,
+      "particle" : {
+        "type" : "ember",
+        "color" : [224, 224, 224],
+        "size" : 1.0,
+        "velocity" : [0, -1],
+        "timeToLive" : 20,
+        "destructionAction" : "shrink",
+        "destructionTime" : 2,
+        "collidesForeground" : true,
+        "collidesLiquid" : true,
+        "ignoreWind" : false
+      }
+    },
+    {
+      "density" : 0.15,
+      "particle" : {
+        "type" : "ember",
+        "color" : [255, 255, 255],
+        "size" : 1.0,
+        "velocity" : [0, -2],
+        "timeToLive" : 20,
+        "destructionAction" : "shrink",
+        "destructionTime" : 2,
+        "collidesForeground" : true,
+        "collidesLiquid" : true,
+        "ignoreWind" : false
+      }
+    }
+  ],
+
+  "projectiles" : [
+    {
+      "projectile" : "sugarstormparticleMFM",
+      "parameters" : {
+        "power" : 0
+      },
+      "velocity" : [0, 0],
+      "ratePerX" : 0.01,
+      "spawnAboveRegion" : 10,
+      "spawnHorizontalPad" : 10,
+      "windAffectAmount" : 1
+    }
+  ],
+
+  "statusEffects" : ["sugarstormMFM"],
+
+  "duration" : [50, 240],
+  "maximumWind" : 42.0,
+  "weatherNoises" : [ "/sfx/weather/sandstorm.ogg" ]
+}

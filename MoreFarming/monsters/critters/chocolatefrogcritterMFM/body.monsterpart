@@ -1,0 +1,9 @@
+{
+  "name" : "chocolatefrogcritterMFM",
+  "category" : "chocolatefrogcritterMFM",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "chocolatefrogcritterMFM.png"
+  }
+}

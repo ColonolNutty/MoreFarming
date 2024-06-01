@@ -1,0 +1,74 @@
+[
+  {
+    "op": "add",
+    "path": "/collectables/chocolatesqueemMFM",
+    "value": {
+      "order": 500,
+      "monsterType": "chocolatesqueemMFM",
+      "icon": "/monsters/ghosts/chocolatesqueemMFM/chocolatesqueemMFM.png:fly.1"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/chocolatesnauntMFM",
+    "value": {
+      "order": 501,
+      "monsterType": "chocolatesnauntMFM",
+      "icon": "/monsters/walkers/chocolatesnauntMFM/chocolatesnauntMFM.png:idle.1"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/chocolatecrustoiseMFM",
+    "value": {
+      "order": 502,
+      "monsterType": "chocolatecrustoiseMFM",
+      "icon": "/monsters/crawlers/chocolatecrustoiseMFM/chocolatecrustoiseMFM.png:idle.1"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/chocolatepoptopMFM",
+    "value": {
+      "order": 503,
+      "monsterType": "chocolatepoptopMFM",
+      "icon": "/monsters/walkers/chocolatepoptopMFM/chocolatepoptopMFM.png:idle.1"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/adultchocolatepoptopMFM",
+    "value": {
+      "order": 504,
+      "monsterType": "adultchocolatepoptopMFM",
+      "icon": "/monsters/walkers/adultchocolatepoptopMFM/adultchocolatepoptopMFM.png:idle.1"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/chocolatecrutterMFM",
+    "value": {
+      "order": 505,
+      "monsterType": "chocolatecrutterMFM",
+      "icon": "/monsters/walkers/chocolatecrutterMFM/chocolatecrutterMFM.png:idle.1"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/chocolatebobfaeMFM",
+    "value": {
+      "order": 506,
+      "monsterType": "chocolatebobfaeMFM",
+      "icon": "/monsters/flyers/chocolatebobfaeMFM/chocolatebobfaeMFM.png:idle.1"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/chocolatescaveranMFM",
+    "value": {
+      "order": 507,
+      "monsterType": "chocolatescaveranMFM",
+      "icon": "/monsters/walkers/chocolatescaveranMFM/chocolatescaveranMFM.png:idle.1"
+    }
+  }
+]

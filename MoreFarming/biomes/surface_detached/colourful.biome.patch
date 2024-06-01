@@ -53,7 +53,6 @@
 			"objectSets" : [
 				{
 					"pool" : [
-						[0.1, "wildcocoaseed" ],
 						[0.1, "wildgingerMFMseed" ],
 						[0.1, "wildjalapenopepperMFMseed" ],
 						[0.1, "wildkaleMFMseed" ],

@@ -1,0 +1,78 @@
+[
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "name" : "chocolatefrogcritterMFM",
+
+      "spawnParameters" : {
+        "area" : "surface",
+        "region" : "enclosed",
+        "time" : "all"
+      },
+
+      "spawnChance" : 0.02,
+      "monsterType" : "chocolatefrogcritterMFM",
+      "monsterParameters" : {
+        "aggressive" : false
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "name" : "chocolatebirdcritterMFM",
+
+      "spawnParameters" : {
+        "area" : "surface",
+        "region" : "exposed",
+        "time" : "day"
+      },
+
+      "spawnChance" : 0.02,
+      "monsterType" : "chocolatebirdcritterMFM",
+      "monsterParameters" : {
+        "aggressive" : false
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "name" : "chocolatechevcritterMFM",
+
+      "spawnParameters" : {
+        "area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+
+      "spawnChance" : 0.02,
+      "monsterType" : "chocolatechevcritterMFM",
+      "monsterParameters" : {
+        "aggressive" : false
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "name" : "chocolatefishcritterMFM",
+
+      "spawnParameters" : {
+        "area" : "liquid",
+        "region" : "all",
+        "time" : "all"
+      },
+
+      "spawnChance" : 0.04,
+      "monsterType" : "chocolatefishcritterMFM",
+      "monsterParameters" : {
+        "aggressive" : false
+      }
+    }
+  }
+]

@@ -6,12 +6,17 @@
     "groups" : [
       {
         "select" : 2,
-        "pool" : [ 
-          [ 1.0, "crustoise" ],
+        "pool" : [
+          [ 1.0, "crabcano" ],
+          [ 1.0, "pyromantle" ],
+          [ 1.0, "fennix" ],
+          [ 1.0, "ignome" ],
+          [ 1.0, "chocolatecrustoiseMFM" ],
           [ 1.0, "tintic" ],
           [ 1.0, "oculob" ],
           [ 1.0, "spookit" ],
-          [ 1.0, "petricub" ]
+          [ 1.0, "petricub" ],
+          [ 1.0, "chocolatesnauntMFM" ]
         ]
       },
       {

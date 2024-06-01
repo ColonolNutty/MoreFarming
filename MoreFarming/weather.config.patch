@@ -5,8 +5,19 @@
       "path" : "/mfm_chocolateplanet",
       "value": [
         [0.8, "clear"],
-        [0.1, "rain"],
-        [0.1, "storm"]
+        [0.1, "chocolateplainrainMFM"],
+        [0.1, "chocolateplaindrizzleMFM"],
+        [0.1, "chocolateplainstormMFM"],
+        [0.1, "chocolatedarkrainMFM"],
+        [0.1, "chocolatedarkdrizzleMFM"],
+        [0.1, "chocolatedarkstormMFM"],
+        [0.1, "chocolatewhiterainMFM"],
+        [0.1, "chocolatewhitedrizzleMFM"],
+        [0.1, "chocolatewhitestormMFM"],
+        [0.1, "milkrainMFM"],
+        [0.1, "milkdrizzleMFM"],
+        [0.1, "milkstormMFM"],
+        [0.1, "sugarstormMFM"]
       ]
     }
   ]

@@ -1,0 +1,45 @@
+{
+  "name" : "chocolateMFM",
+  "swaps" : [
+    {
+      "6f2919" : "20160d", "a85636" : "332415", "e0975c" : "44301b", "ffca8a" : "523d29",  // Dark Chocolate
+      "735e3a" : "3b2917", "a38d59" : "604426", "d9c189" : "805933", "f7e7b2" : "9a734d",  // Chocolate Plain
+      "951500" : "af9969", "be1b00" : "e5c989", "dc1f00" : "ffe5ad", "f32200" : "ffffc7"  // White Chocolate
+    },
+    {
+      "6f2919" : "6f1936", "a85636" : "c6c6c6", "e0975c" : "e0e0e0", "ffca8a" : "ffffff",  // Sugar
+      "735e3a" : "B34B00", "a38d59" : "BE5000", "d9c189" : "a05411", "f7e7b2" : "cc742c",  // Toffee
+      "951500" : "af9969", "be1b00" : "e5c989", "dc1f00" : "ffe5ad", "f32200" : "ffffc7"  // White Chocolate
+    },
+    {
+      "6f2919" : "6f1936", "a85636" : "c6c6c6", "e0975c" : "e0e0e0", "ffca8a" : "ffffff",  // Sugar
+      "735e3a" : "3b2917", "a38d59" : "604426", "d9c189" : "805933", "f7e7b2" : "9a734d",  // Chocolate Plain
+      "951500" : "af9969", "be1b00" : "e5c989", "dc1f00" : "ffe5ad", "f32200" : "ffffc7"  // White Chocolate
+    },
+    {
+      "6f2919" : "6f1936", "a85636" : "c6c6c6", "e0975c" : "e0e0e0", "ffca8a" : "ffffff",  // Dark Chocolate
+      "735e3a" : "3b2917", "a38d59" : "604426", "d9c189" : "805933", "f7e7b2" : "9a734d",  // Chocolate Plain
+      "951500" : "B34B00", "be1b00" : "BE5000", "dc1f00" : "a05411", "f32200" : "cc742c"  // Toffee
+    },
+    {
+      "6f2919" : "6f1936", "a85636" : "c6c6c6", "e0975c" : "e0e0e0", "ffca8a" : "ffffff",  // Dark Chocolate
+      "735e3a" : "B34B00", "a38d59" : "BE5000", "d9c189" : "a05411", "f7e7b2" : "cc742c",  // Toffee
+      "951500" : "6f1936", "be1b00" : "c6c6c6", "dc1f00" : "e0e0e0", "f32200" : "ffffff"  // Dark Chocolate
+    },
+    {
+      "6f2919" : "af9969", "a85636" : "e5c989", "e0975c" : "ffe5ad", "ffca8a" : "ffffc7",  // White Chocolate
+      "735e3a" : "B34B00", "a38d59" : "BE5000", "d9c189" : "a05411", "f7e7b2" : "cc742c",  // Toffee
+      "951500" : "6f1936", "be1b00" : "c6c6c6", "dc1f00" : "e0e0e0", "f32200" : "ffffff"  // Dark Chocolate
+    },
+    {
+      "6f2919" : "af9969", "a85636" : "e5c989", "e0975c" : "ffe5ad", "ffca8a" : "ffffc7",  // White Chocolate
+      "735e3a" : "B34B00", "a38d59" : "BE5000", "d9c189" : "a05411", "f7e7b2" : "cc742c",  // Toffee
+      "951500" : "3b2917", "be1b00" : "604426", "dc1f00" : "805933", "f32200" : "9a734d"  // Chocolate Plain
+    },
+    {
+      "6f2919" : "af9969", "a85636" : "e5c989", "e0975c" : "ffe5ad", "ffca8a" : "ffffc7",  // White Chocolate
+      "735e3a" : "20160d", "a38d59" : "332415", "d9c189" : "44301b", "f7e7b2" : "523d29",  // Dark Chocolate
+      "951500" : "3b2917", "be1b00" : "604426", "dc1f00" : "805933", "f32200" : "9a734d"  // Chocolate Plain
+    }
+  ]
+}

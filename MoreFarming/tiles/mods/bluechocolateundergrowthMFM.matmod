@@ -1,0 +1,14 @@
+{
+  "modId" : 19227,
+  "modName" : "bluechocolateundergrowthMFM",
+  "description" : "Hardy blue chocolate grass growing from the ceiling.",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "bluechocolateundergrowthMFM.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

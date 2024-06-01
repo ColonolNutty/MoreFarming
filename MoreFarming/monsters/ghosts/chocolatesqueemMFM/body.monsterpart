@@ -1,0 +1,9 @@
+{
+  "name" : "chocolatesqueemMFM",
+  "category" : "chocolatesqueemMFM",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "chocolatesqueemMFM.png"
+  }
+}

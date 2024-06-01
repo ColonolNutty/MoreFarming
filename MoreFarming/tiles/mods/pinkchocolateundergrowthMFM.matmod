@@ -1,0 +1,14 @@
+{
+  "modId" : 19225,
+  "modName" : "pinkchocolateundergrowthMFM",
+  "description" : "Hardy pink chocolate grass growing from the ceiling.",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pinkchocolateundergrowthMFM.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

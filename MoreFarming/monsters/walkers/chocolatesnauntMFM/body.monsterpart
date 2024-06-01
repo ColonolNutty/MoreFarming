@@ -1,0 +1,9 @@
+{
+  "name" : "chocolatesnauntMFM",
+  "category" : "chocolatesnauntMFM",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "chocolatesnauntMFM.png"
+  }
+}

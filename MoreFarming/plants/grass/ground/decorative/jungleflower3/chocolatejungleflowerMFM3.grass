@@ -1,0 +1,13 @@
+{
+  "name" : "chocolatejungleflowerMFM3",
+  "description" : "An exotic chocolate jungle flower.",
+  "shortdescription" : "A chocolate jungle flower.",
+  "floranDescription" : "Flower reminds Floran of home.",
+  "glitchDescription" : "Statement. A flower indigenous to chocolate jungle regions.",
+  "images" : [
+    "chocolatejungleflowerMFM3_1.png",
+    "chocolatejungleflowerMFM3_2.png",
+    "chocolatejungleflowerMFM3_3.png",
+    "chocolatejungleflowerMFM3_4.png"
+  ]
+}

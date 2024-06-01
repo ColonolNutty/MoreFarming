@@ -1,0 +1,24 @@
+{
+  "projectileName" : "chocolatesnauntMFMspit",
+  "image" : "chocolatesnauntMFMspit.png",
+  "physics" : "grenade",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/vsmallregularexplosion/vsmallregularexplosionnodamage.config"
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 50,
+  "damageKind" : "fireplasma",
+  "statusEffects" : [
+    "burning"
+  ],
+  "emitters" : [ "fireplasma", "smoke", "flames" ],
+
+  "renderLayer" : "Monster+50"
+}

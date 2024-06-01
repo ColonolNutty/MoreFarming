@@ -11,7 +11,13 @@
           [ 1.0, "crutter" ],
           [ 1.0, "batong" ],
           [ 1.0, "smoglin" ],
-          [ 1.0, "bobfae" ]
+          [ 1.0, "bobfae" ],
+          [ 1.0, "wisper" ],
+          [ 1.0, "pyromantle" ],
+          [ 1.0, "ignome" ],
+          [ 1.0, "fennix" ],
+          [ 1.0, "pulpin" ],
+          [ 1.0, "chocolatesnauntMFM" ]
         ]
       },
       {
@@ -21,6 +27,9 @@
       {
         "select" : 2,
         "pool" : [
+          [ 1, "harecritter" ],
+          [ 1, "snakecritter" ],
+          [ 1, "tritrotscritter" ],
           [ 1, "cliffcritter" ],
           [ 1, "yeticritter" ]
         ]

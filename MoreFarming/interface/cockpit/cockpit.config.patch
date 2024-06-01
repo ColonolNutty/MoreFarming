@@ -17,5 +17,109 @@
     "op" : "add",
     "path" : "/planetTypeColors/mfm_chocolateplanet",
     "value": [0, 135, 255]
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/chocolateplainrainMFM",
+    "value": {
+      "displayName" : "Chocolate Rain",
+      "icon" : "/interface/cockpit/weather/chocolateplainrainMFM.png"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/chocolateplaindrizzleMFM",
+    "value": {
+      "displayName" : "Chocolate Drizzle",
+      "icon" : "/interface/cockpit/weather/chocolateplaindrizzleMFM.png"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/chocolateplainstormMFM",
+    "value": {
+      "displayName" : "Chocolate Storm",
+      "icon" : "/interface/cockpit/weather/chocolateplainstormMFM.png"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/chocolatedarkrainMFM",
+    "value": {
+      "displayName" : "Dark Chocolate Rain",
+      "icon" : "/interface/cockpit/weather/chocolatedarkrainMFM.png"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/chocolatedarkdrizzleMFM",
+    "value": {
+      "displayName" : "Dark Chocolate Drizzle",
+      "icon" : "/interface/cockpit/weather/chocolatedarkdrizzleMFM.png"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/chocolatedarkstormMFM",
+    "value": {
+      "displayName" : "Dark Chocolate Storm",
+      "icon" : "/interface/cockpit/weather/chocolatedarkstormMFM.png"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/chocolatewhiterainMFM",
+    "value": {
+      "displayName" : "White Chocolate Rain",
+      "icon" : "/interface/cockpit/weather/chocolatewhiterainMFM.png"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/chocolatewhitedrizzleMFM",
+    "value": {
+      "displayName" : "White Chocolate Drizzle",
+      "icon" : "/interface/cockpit/weather/chocolatewhitedrizzleMFM.png"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/chocolatewhitestormMFM",
+    "value": {
+      "displayName" : "White Chocolate Storm",
+      "icon" : "/interface/cockpit/weather/chocolatewhitestormMFM.png"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/milkrainMFM",
+    "value": {
+      "displayName" : "Milk Rain",
+      "icon" : "/interface/cockpit/weather/milkrainMFM.png"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/milkdrizzleMFM",
+    "value": {
+      "displayName" : "Milk Drizzle",
+      "icon" : "/interface/cockpit/weather/milkdrizzleMFM.png"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/milkstormMFM",
+    "value": {
+      "displayName" : "Milk Storm",
+      "icon" : "/interface/cockpit/weather/milkstormMFM.png"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/sugarstormMFM",
+    "value": {
+      "displayName" : "Sugar Storm",
+      "icon" : "/interface/cockpit/weather/sugarstormMFM.png"
+    }
   }
 ]

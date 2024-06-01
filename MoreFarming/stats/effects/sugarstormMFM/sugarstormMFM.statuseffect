@@ -1,0 +1,14 @@
+{
+  "name" : "sugarstormMFM",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "sugarstormMFM.lua"
+  ],
+
+  "animationConfig" : "sugarstormMFM.animation",
+
+  "label" : "Sugar Storm",
+  "icon" : "/interface/statuses/slow.png"
+}

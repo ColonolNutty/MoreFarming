@@ -6,12 +6,17 @@
     "groups" : [
       {
         "select" : 2,
-        "pool" : [ 
+        "pool" : [
+          [ 1.0, "snaggler" ],
+          [ 1.0, "chocolatecrustoiseMFM" ],
+          [ 1.0, "peblit" ],
+          [ 1.0, "snaunt" ],
+          [ 1.0, "spookit" ],
           [ 1.0, "gleap" ],
           [ 1.0, "batong" ],
-          [ 1.0, "crustoise" ],
           [ 1.0, "peblit" ],
-          [ 1.0, "bobfae" ]
+          [ 1.0, "bobfae" ],
+          [ 1.0, "chocolatesnauntMFM" ]
         ]
       },
       {
@@ -34,7 +39,7 @@
   "parallax" : "/parallax/underground/underground0a.parallax",
 
   "mainBlock" : "dirt",
-  "subBlocks" : [ "clay", "cobblestone" ],
+  "subBlocks" : [ "clay", "cobblestone", "softblocksugarMFM" ],
   "ores" : "depth1",
 
   "ambientNoises" : {

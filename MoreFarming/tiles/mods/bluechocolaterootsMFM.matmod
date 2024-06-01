@@ -1,0 +1,14 @@
+{
+  "modId" : 19229,
+  "modName" : "bluechocolaterootsMFM",
+  "description" : "Small roots poking through the ceiling.",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "bluechocolaterootsMFM.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "chocolatepoptopMFM",
+  "category" : "chocolatepoptopMFM",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "chocolatepoptopMFM.png"
+  }
+}

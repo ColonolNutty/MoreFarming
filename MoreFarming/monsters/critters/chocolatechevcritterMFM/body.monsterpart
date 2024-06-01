@@ -1,0 +1,9 @@
+{
+  "name" : "chocolatechevcritterMFM",
+  "category" : "chocolatechevcritterMFM",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "chocolatechevcritterMFM.png"
+  }
+}

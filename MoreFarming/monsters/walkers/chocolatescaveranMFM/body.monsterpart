@@ -1,0 +1,9 @@
+{
+  "name" : "chocolatescaveranMFM",
+  "category" : "chocolatescaveranMFM",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "chocolatescaveranMFM.png"
+  }
+}
